@@ -1,12 +1,13 @@
 {
-  "updatedAt": "2026-04-10T15:55:40.069175+00:00",
+  "updatedAt": "2026-04-10T16:54:29.448971+00:00",
   "totalFeeds": 51,
-  "successCount": 44,
-  "failedCount": 7,
+  "successCount": 43,
+  "failedCount": 8,
   "failed": [
     "gwern",
     "garymarcus",
     "thesequence",
+    "shkspr",
     "lcamtuf",
     "rachelbythebay",
     "tedunangst",
@@ -21,8 +22,14 @@
         "home": "https://simonwillison.net/",
         "url": "https://simonwillison.net/atom/everything/",
         "status": "ok",
-        "fetchedAt": "2026-04-10T15:55:30.158196+00:00",
+        "fetchedAt": "2026-04-10T16:54:18.646753+00:00",
         "items": [
+          {
+            "title": "ChatGPT voice mode is a weaker model",
+            "link": "https://simonwillison.net/2026/Apr/10/voice-mode-is-weaker/#atom-everything",
+            "date": "2026-04-10T15:56:02+00:00",
+            "summary": "I think it's non-obvious to many people that the OpenAI voice mode runs on a much older, much weaker model - it feels like the AI that you can talk to should be the smartest AI but it really isn't. If you ask ChatGPT voice mode for its knowledge cutoff date it tells you April 2024 - it's a GPT-4o er"
+          },
           {
             "title": "GitHub Repo Size",
             "link": "https://simonwillison.net/2026/Apr/9/github-repo-size/#atom-everything",
@@ -76,12 +83,6 @@
             "link": "https://simonwillison.net/2026/Apr/6/datasette-ports-2/#atom-everything",
             "date": "2026-04-06T03:25:43+00:00",
             "summary": "Release: datasette-ports 0.2 No longer requires Datasette - running uvx datasette-ports now works as well. Installing it as a Datasette plugin continues to provide the datasette ports command. Tags: datasette"
-          },
-          {
-            "title": "scan-for-secrets 0.3",
-            "link": "https://simonwillison.net/2026/Apr/6/scan-for-secrets/#atom-everything",
-            "date": "2026-04-06T02:59:28+00:00",
-            "summary": "Release: scan-for-secrets 0.3 New -r/--redact option which shows the list of matches, asks for confirmation and then replaces every match with REDACTED, taking escaping rules into account. New Python function redact_file(file_path: str | Path, secrets: list[str], replacement: str = \"REDACTED\") -&gt;"
           }
         ]
       },
@@ -92,7 +93,7 @@
         "home": "https://openai.com/news/",
         "url": "https://openai.com/news/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-10T15:55:30.609729+00:00",
+        "fetchedAt": "2026-04-10T16:54:19.073145+00:00",
         "items": [
           {
             "title": "OpenAI Full Fan Mode Contest: Terms & Conditions",
@@ -163,7 +164,7 @@
         "home": "https://arxiv.org/list/cs.AI/recent",
         "url": "https://arxiv.org/rss/cs.AI",
         "status": "ok",
-        "fetchedAt": "2026-04-10T15:55:30.286725+00:00",
+        "fetchedAt": "2026-04-10T16:54:18.786080+00:00",
         "items": [
           {
             "title": "High-Precision Estimation of the State-Space Complexity of Shogi via the Monte Carlo Method",
@@ -234,7 +235,7 @@
         "home": "https://arxiv.org/list/cs.LG/recent",
         "url": "https://arxiv.org/rss/cs.LG",
         "status": "ok",
-        "fetchedAt": "2026-04-10T15:55:30.318012+00:00",
+        "fetchedAt": "2026-04-10T16:54:18.825028+00:00",
         "items": [
           {
             "title": "Prediction Arena: Benchmarking AI Models on Real-World Prediction Markets",
@@ -305,7 +306,7 @@
         "home": "https://research.google/blog/",
         "url": "https://research.google/blog/rss/",
         "status": "ok",
-        "fetchedAt": "2026-04-10T15:55:30.328541+00:00",
+        "fetchedAt": "2026-04-10T16:54:18.853017+00:00",
         "items": [
           {
             "title": "ConvApparel: Measuring and bridging the realism gap in user simulators",
@@ -376,7 +377,7 @@
         "home": "https://deepmind.google/blog/",
         "url": "https://deepmind.google/blog/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-10T15:55:30.363152+00:00",
+        "fetchedAt": "2026-04-10T16:54:18.904440+00:00",
         "items": [
           {
             "title": "Gemma 4: Byte for byte, the most capable open models",
@@ -447,7 +448,7 @@
         "home": "https://lilianweng.github.io/",
         "url": "https://lilianweng.github.io/lil-log/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-10T15:55:30.101221+00:00",
+        "fetchedAt": "2026-04-10T16:54:18.578244+00:00",
         "items": [
           {
             "title": "Active Learning",
@@ -538,7 +539,7 @@
         "home": "https://minimaxir.com/",
         "url": "https://minimaxir.com/index.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-10T15:55:30.176748+00:00",
+        "fetchedAt": "2026-04-10T16:54:18.683820+00:00",
         "items": [
           {
             "title": "An AI agent coding skeptic tries AI agent coding, in excessive detail",
@@ -621,7 +622,7 @@
         "home": "https://www.jeffgeerling.com/",
         "url": "https://www.jeffgeerling.com/blog.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-10T15:55:30.121068+00:00",
+        "fetchedAt": "2026-04-10T16:54:18.691946+00:00",
         "items": [
           {
             "title": "Build your own Dial-up ISP with a Raspberry Pi",
@@ -692,7 +693,7 @@
         "home": "https://www.seangoedecke.com/",
         "url": "https://www.seangoedecke.com/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-10T15:55:30.150220+00:00",
+        "fetchedAt": "2026-04-10T16:54:18.633183+00:00",
         "items": [
           {
             "title": "Programming (with AI agents) as theory building",
@@ -763,7 +764,7 @@
         "home": "https://krebsonsecurity.com/",
         "url": "https://krebsonsecurity.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-04-10T15:55:30.338758+00:00",
+        "fetchedAt": "2026-04-10T16:54:18.696178+00:00",
         "items": [
           {
             "title": "Russia Hacked Routers to Steal Microsoft Office Tokens",
@@ -834,8 +835,14 @@
         "home": "https://daringfireball.net/",
         "url": "https://daringfireball.net/feeds/main",
         "status": "ok",
-        "fetchedAt": "2026-04-10T15:55:30.230300+00:00",
+        "fetchedAt": "2026-04-10T16:54:18.837014+00:00",
         "items": [
+          {
+            "title": "Ed Bindels’s Apple Museum in Utrecht, Netherlands",
+            "link": "https://applemuseum.nl/",
+            "date": "2026-04-10T16:35:04+00:00",
+            "summary": "This new museum in Utrecht (about 30–40 minutes south of Amsterdam) seems just astonishing. The rainbow wall of iMacs alone is incredible. (Via Juli Clover.) &nbsp;★&nbsp;"
+          },
           {
             "title": "MacOS Seemingly Crashes After 49 Days of Uptime — a ‘Feature’ Perhaps Exclusive to Tahoe",
             "link": "https://sixcolors.com/link/2026/04/macs-crash-after-49-days-of-uptime/",
@@ -889,12 +896,6 @@
             "link": "https://flighty.com/airports",
             "date": "2026-04-07T16:44:06+00:00",
             "summary": "Live data with major airport delay times for North America. Available on the web — with a nice “TV Mode” too — and, of course, within the app. &nbsp;★&nbsp;"
-          },
-          {
-            "title": "The Data Drop: Every iPhone",
-            "link": "https://sheets.works/data-viz/every-iphone",
-            "date": "2026-04-07T16:34:14+00:00",
-            "summary": "Just lovely data visualization work from Sheets.works — a consulting firm that specializes in, I swear, Google Sheets. &nbsp;★&nbsp;"
           }
         ]
       },
@@ -905,7 +906,7 @@
         "home": "https://ericmigi.com/",
         "url": "https://ericmigi.com/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-10T15:55:30.219527+00:00",
+        "fetchedAt": "2026-04-10T16:54:18.690350+00:00",
         "items": [
           {
             "title": "Spring 2026 Pebble App Contest + SDK Updates",
@@ -976,7 +977,7 @@
         "home": "http://antirez.com/",
         "url": "http://antirez.com/rss",
         "status": "ok",
-        "fetchedAt": "2026-04-10T15:55:31.852341+00:00",
+        "fetchedAt": "2026-04-10T16:54:20.354166+00:00",
         "items": [
           {
             "title": "GNU and the AI reimplementations",
@@ -1047,7 +1048,7 @@
         "home": "https://idiallo.com/",
         "url": "https://idiallo.com/feed.rss",
         "status": "ok",
-        "fetchedAt": "2026-04-10T15:55:30.323893+00:00",
+        "fetchedAt": "2026-04-10T16:54:18.841957+00:00",
         "items": [
           {
             "title": "What Are You Trying to Say?",
@@ -1118,7 +1119,7 @@
         "home": "https://maurycyz.com/",
         "url": "https://maurycyz.com/index.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-10T15:55:30.719716+00:00",
+        "fetchedAt": "2026-04-10T16:54:19.193861+00:00",
         "items": []
       },
       {
@@ -1128,7 +1129,7 @@
         "home": "https://pluralistic.net/",
         "url": "https://pluralistic.net/feed/",
         "status": "ok",
-        "fetchedAt": "2026-04-10T15:55:30.814058+00:00",
+        "fetchedAt": "2026-04-10T16:54:19.342674+00:00",
         "items": [
           {
             "title": "Pluralistic: Canny Valley and Creative Commons (10 Apr 2026)",
@@ -1198,70 +1199,9 @@
         "title": "Terence Eden",
         "home": "https://shkspr.mobi/blog/",
         "url": "https://shkspr.mobi/blog/feed/",
-        "status": "ok",
-        "fetchedAt": "2026-04-10T15:55:30.772589+00:00",
-        "items": [
-          {
-            "title": "[RSS Club] Why do you use RSS rather than Atom?",
-            "link": "https://shkspr.mobi/blog/2026/04/rss-club-why-do-you-use-rss-rather-than-atom/",
-            "date": "2026-04-10T11:34:36+00:00",
-            "summary": "This post is exclusive to feed subscribers. Enjoy! This whole experiment is called RSS Club - but perhaps it should be called &#34;XML-based distributed feed club&#34;? I&#039;ve been playing about with local-only and privacy-conscious view tracking. I can see how many people click on my stories fro"
-          },
-          {
-            "title": "Book Review: Small Comfort by Ia Genberg ★★☆☆☆",
-            "link": "https://shkspr.mobi/blog/2026/04/book-review-small-comfort-by-ia-genberg/",
-            "date": "2026-04-09T11:34:59+00:00",
-            "summary": "I was left somewhat unconvinced by this book. I liked the concept - a series of interrelated stories all told in different styles. Much like the film &#34;Lola RenntRun Lola Run&#34; there&#039;s a briefcase full of cash, a cast of morally ambiguous characters, and a meandering philosophical discuss"
-          },
-          {
-            "title": "Theatre Review: Avenue Q ★★★★★",
-            "link": "https://shkspr.mobi/blog/2026/04/theatre-review-avenue-q/",
-            "date": "2026-04-08T11:34:25+00:00",
-            "summary": "I&#039;ll admit, I was a little sceptical about returning to Avenue Q. I saw it on its original West End run back in… OH MY GOD I AM SO OLD! FUCK! Where did the time go? It&#039;s always hard to know how much to update a show. Does it need constant reinvention to stay in the zeitgeist or can it be p"
-          },
-          {
-            "title": "Did WordPress VIP leak my phone number?",
-            "link": "https://shkspr.mobi/blog/2026/04/did-wordpress-vip-leak-my-phone-number/",
-            "date": "2026-04-07T11:34:43+00:00",
-            "summary": "As discussed in my last blog post, the scumsuckers at Apollo.io have been giving out my personal details. Not only did they have my email address, they also had a copy of one of my phone numbers. I asked them where they got it from and they said: Your phone number came from Parsely, Inc (wpvip.com) "
-          },
-          {
-            "title": "[RSS Club] Banana for scale",
-            "link": "https://shkspr.mobi/blog/2026/04/rss-club-banana-for-scale/",
-            "date": "2026-04-06T11:34:00+00:00",
-            "summary": "This post is exclusive to RSS feed subscribers. Enjoy! I&#039;ve had this idea stuck in my head for a while, so I decided to make it. This is &#34;Scan Slowly And See&#34;. The code is made by cloning some of the banana&#039;s spots. Do let me know if the QR code works for you 🍌 …"
-          },
-          {
-            "title": "Someone at BrowserStack is Leaking Users' Email Address",
-            "link": "https://shkspr.mobi/blog/2026/04/someone-at-browserstack-is-leaking-users-email-address/",
-            "date": "2026-04-05T11:34:03+00:00",
-            "summary": "Like all good nerds, I generate a unique email address for every service I sign up to. This has several advantages - it allows me to see if a message is legitimately from a service, if a service is hacked the hackers can&#039;t go credential stuffing, and I instantly know who leaked my address. A fe"
-          },
-          {
-            "title": "Welcome to RSS Club!",
-            "link": "https://shkspr.mobi/blog/2026/04/welcome-to-rss-club/",
-            "date": "2026-04-04T11:34:13+00:00",
-            "summary": "What if I told you there was a secret social network, hidden in plain sight? If you&#039;re reading this message, you&#039;re now a member of RSS Club! RSS Club is a series of posts which are only visible to RSS / Atom subscribers. Like you 😃 If I&#039;ve done everything right, this page isn&#039;t "
-          },
-          {
-            "title": "Book Review: Superintelligence - Paths, Dangers, Strategies by Nick Bostrom ★★★★⯪",
-            "link": "https://shkspr.mobi/blog/2026/04/book-review-superintelligence-paths-dangers-strategies-by-nick-bostrom/",
-            "date": "2026-04-03T11:34:34+00:00",
-            "summary": "When I finally invent time-travel, the first thing I&#039;ll do is go back in time and give everyone a copy of this book. Published in 2014, it clearly sets out the likely problems with true Artificial Intelligence (not the LLM crap we have now) and what measures need to be put in place before it is"
-          },
-          {
-            "title": "Concert Review: London Philharmonic - Pictures at an Exhibition ★★★★★",
-            "link": "https://shkspr.mobi/blog/2026/04/concert-review-london-philharmonic-pictures-at-an-exhibition/",
-            "date": "2026-04-02T11:34:07+00:00",
-            "summary": "A delightful and emotional rendition of three rather different works. Mark-Anthony Turnage&#039;s &#34;Three Screaming Popes&#34; was a chaotic cacophony. Wild, bizarre, inventive, and seemingly driven by excess. A fascinating performance, although not one I&#039;ll put on in the background. Turnage"
-          },
-          {
-            "title": "Random File Format",
-            "link": "https://shkspr.mobi/blog/2026/04/random-file-format/",
-            "date": "2026-04-01T11:34:57+00:00",
-            "summary": "This was an idea I had back in the days of Naptster. At the turn of the century, it was common to listen to an &#34;acquired&#34; music file only to find it was missing a few seconds at the end due to a prematurely stopped download. Some video formats would refuse to play at all if the moov atom at "
-          }
-        ]
+        "status": "error",
+        "error": "HTTP 415",
+        "items": []
       },
       {
         "id": "lcamtuf",
@@ -1280,7 +1220,7 @@
         "home": "https://mitchellh.com/",
         "url": "https://mitchellh.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-10T15:55:30.432164+00:00",
+        "fetchedAt": "2026-04-10T16:54:18.978855+00:00",
         "items": [
           {
             "title": "The Building Block Economy",
@@ -1351,7 +1291,7 @@
         "home": "https://dynomight.net/",
         "url": "https://dynomight.net/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-10T15:55:30.645944+00:00",
+        "fetchedAt": "2026-04-10T16:54:19.118335+00:00",
         "items": [
           {
             "title": "I quit drinking for a year",
@@ -1422,7 +1362,7 @@
         "home": "https://xeiaso.net/",
         "url": "https://xeiaso.net/blog.rss",
         "status": "ok",
-        "fetchedAt": "2026-04-10T15:55:30.737942+00:00",
+        "fetchedAt": "2026-04-10T16:54:19.257561+00:00",
         "items": [
           {
             "title": "Claude Code won April Fools Day this year",
@@ -1493,7 +1433,7 @@
         "home": "https://devblogs.microsoft.com/oldnewthing/",
         "url": "https://devblogs.microsoft.com/oldnewthing/feed",
         "status": "ok",
-        "fetchedAt": "2026-04-10T15:55:30.530014+00:00",
+        "fetchedAt": "2026-04-10T16:54:18.714139+00:00",
         "items": [
           {
             "title": "How do you add or remove a handle from an active Wait­For­Multiple­Objects?",
@@ -1564,7 +1504,7 @@
         "home": "https://www.righto.com/",
         "url": "https://www.righto.com/feeds/posts/default",
         "status": "ok",
-        "fetchedAt": "2026-04-10T15:55:30.660918+00:00",
+        "fetchedAt": "2026-04-10T16:54:19.277854+00:00",
         "items": []
       },
       {
@@ -1574,7 +1514,7 @@
         "home": "https://lucumr.pocoo.org/",
         "url": "https://lucumr.pocoo.org/feed.atom",
         "status": "ok",
-        "fetchedAt": "2026-04-10T15:55:30.372573+00:00",
+        "fetchedAt": "2026-04-10T16:54:19.018463+00:00",
         "items": [
           {
             "title": "Mario and Earendil",
@@ -1645,7 +1585,7 @@
         "home": "https://skyfall.dev/",
         "url": "https://skyfall.dev/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-10T15:55:30.783766+00:00",
+        "fetchedAt": "2026-04-10T16:54:19.136464+00:00",
         "items": [
           {
             "title": "Good riddance, 4o",
@@ -1720,7 +1660,7 @@
         "home": "https://overreacted.io/",
         "url": "https://overreacted.io/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-10T15:55:30.330837+00:00",
+        "fetchedAt": "2026-04-10T16:54:19.189559+00:00",
         "items": [
           {
             "title": "A Social Filesystem",
@@ -1791,7 +1731,7 @@
         "home": "https://www.johndcook.com/",
         "url": "https://www.johndcook.com/blog/feed/",
         "status": "ok",
-        "fetchedAt": "2026-04-10T15:55:30.671537+00:00",
+        "fetchedAt": "2026-04-10T16:54:18.945145+00:00",
         "items": [
           {
             "title": "Distribution of digits in fractions",
@@ -1862,7 +1802,7 @@
         "home": "https://matklad.github.io/",
         "url": "https://matklad.github.io/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-10T15:55:30.378467+00:00",
+        "fetchedAt": "2026-04-10T16:54:18.868083+00:00",
         "items": [
           {
             "title": "Consensus Board Game",
@@ -1933,7 +1873,7 @@
         "home": "https://eli.thegreenplace.net/",
         "url": "https://eli.thegreenplace.net/feeds/all.atom.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-10T15:55:30.407880+00:00",
+        "fetchedAt": "2026-04-10T16:54:19.077187+00:00",
         "items": [
           {
             "title": "watgo - a WebAssembly Toolkit for Go",
@@ -1974,7 +1914,7 @@
         "home": "https://fabiensanglard.net/",
         "url": "https://fabiensanglard.net/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-10T15:55:30.754081+00:00",
+        "fetchedAt": "2026-04-10T16:54:18.911975+00:00",
         "items": [
           {
             "title": "How Michael Abrash doubled Quake framerate",
@@ -2045,7 +1985,7 @@
         "home": "https://blog.miguelgrinberg.com/",
         "url": "https://blog.miguelgrinberg.com/feed",
         "status": "ok",
-        "fetchedAt": "2026-04-10T15:55:31.049872+00:00",
+        "fetchedAt": "2026-04-10T16:54:19.355743+00:00",
         "items": [
           {
             "title": "SQLAlchemy 2 In Practice - Chapter 4 - Many-To-Many Relationships",
@@ -2116,7 +2056,7 @@
         "home": "https://www.troyhunt.com/",
         "url": "https://www.troyhunt.com/rss/",
         "status": "ok",
-        "fetchedAt": "2026-04-10T15:55:30.520934+00:00",
+        "fetchedAt": "2026-04-10T16:54:18.838698+00:00",
         "items": [
           {
             "title": "Weekly Update 498",
@@ -2187,7 +2127,7 @@
         "home": "https://anildash.com/",
         "url": "https://anildash.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-10T15:55:30.461413+00:00",
+        "fetchedAt": "2026-04-10T16:54:19.127921+00:00",
         "items": [
           {
             "title": "Taking action against AI harms",
@@ -2258,7 +2198,7 @@
         "home": "https://computer.rip/",
         "url": "https://computer.rip/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-10T15:55:30.910132+00:00",
+        "fetchedAt": "2026-04-10T16:54:19.894467+00:00",
         "items": [
           {
             "title": "telecheck and tyms past",
@@ -2339,7 +2279,7 @@
         "home": "http://paulgraham.com/",
         "url": "http://www.aaronsw.com/2002/feeds/pgessays.rss",
         "status": "ok",
-        "fetchedAt": "2026-04-10T15:55:30.682835+00:00",
+        "fetchedAt": "2026-04-10T16:54:19.003715+00:00",
         "items": [
           {
             "title": "Superlinear Returns",
@@ -2410,7 +2350,7 @@
         "home": "https://steveblank.com/",
         "url": "https://steveblank.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-04-10T15:55:30.205436+00:00",
+        "fetchedAt": "2026-04-10T16:54:18.888512+00:00",
         "items": [
           {
             "title": "Nowhere Is Safe",
@@ -2483,8 +2423,50 @@
         "home": "https://news.ycombinator.com/",
         "url": "https://news.ycombinator.com/rss",
         "status": "ok",
-        "fetchedAt": "2026-04-10T15:55:30.911638+00:00",
+        "fetchedAt": "2026-04-10T16:54:18.985000+00:00",
         "items": [
+          {
+            "title": "You can't trust macOS Privacy and Security settings",
+            "link": "https://eclecticlight.co/2026/04/10/why-you-cant-trust-privacy-security/",
+            "date": "2026-04-10T15:28:24+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "WireGuard makes new Windows release following Microsoft signing resolution",
+            "link": "https://lists.zx2c4.com/pipermail/wireguard/2026-April/009561.html",
+            "date": "2026-04-10T15:49:52+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "1D Chess",
+            "link": "https://rowan441.github.io/1dchess/chess.html",
+            "date": "2026-04-10T15:37:28+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "Helium Is Hard to Replace",
+            "link": "https://www.construction-physics.com/p/helium-is-hard-to-replace",
+            "date": "2026-04-10T15:06:51+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "Industrial design files for Keychron keyboards and mice",
+            "link": "https://github.com/Keychron/Keychron-Keyboards-Hardware-Design",
+            "date": "2026-04-10T16:22:26+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "Bluesky April 2026 Outage Post-Mortem",
+            "link": "https://pckt.blog/b/jcalabro/april-2026-outage-post-mortem-219ebg2",
+            "date": "2026-04-10T15:51:41+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "CPU-Z and HWMonitor compromised",
+            "link": "https://www.theregister.com/2026/04/10/cpuid_site_hijacked/",
+            "date": "2026-04-10T13:29:20+00:00",
+            "summary": "Comments"
+          },
           {
             "title": "Mysteries of Dropbox: Testing of a Distributed Sync Service (2016) [pdf]",
             "link": "https://www.cis.upenn.edu/~bcpierce/papers/mysteriesofdropbox.pdf",
@@ -2498,51 +2480,9 @@
             "summary": "Comments"
           },
           {
-            "title": "CPU-Z and HWMonitor Compromised",
-            "link": "https://old.reddit.com/r/pcmasterrace/comments/1sh4e5l/warning_hwmonitor_163_download_on_the_official/",
-            "date": "2026-04-10T14:37:29+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "FBI used iPhone notification data to retrieve deleted Signal messages",
-            "link": "https://9to5mac.com/2026/04/09/fbi-used-iphone-notification-data-to-retrieve-deleted-signal-messages/",
-            "date": "2026-04-10T11:29:04+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "Helium Is Hard to Replace",
-            "link": "https://www.construction-physics.com/p/helium-is-hard-to-replace",
-            "date": "2026-04-10T15:06:51+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "You can't trust macOS Privacy and Security settings",
-            "link": "https://eclecticlight.co/2026/04/10/why-you-cant-trust-privacy-security/",
-            "date": "2026-04-10T15:28:24+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "How NASA built Artemis II’s fault-tolerant computer",
-            "link": "https://cacm.acm.org/news/how-nasa-built-artemis-iis-fault-tolerant-computer/",
-            "date": "2026-04-09T15:12:40+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "A new trick brings stability to quantum operations",
-            "link": "https://ethz.ch/en/news-and-events/eth-news/news/2026/04/a-new-trick-brings-stability-to-quantum-operations.html",
-            "date": "2026-04-10T04:04:57+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "I still prefer MCP over skills",
-            "link": "https://david.coffee/i-still-prefer-mcp-over-skills/",
-            "date": "2026-04-10T02:01:48+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "Penguin 'Toxicologists' Find PFAS Chemicals in Remote Patagonia",
-            "link": "https://www.ucdavis.edu/health/news/penguin-toxicologists-find-pfas-chemicals-remote-patagonia",
-            "date": "2026-04-10T06:15:46+00:00",
+            "title": "Clojure on Fennel Part One: Persistent Data Structures",
+            "link": "https://andreyor.st/posts/2026-04-07-clojure-on-fennel-part-one-persistent-data-structures/",
+            "date": "2026-04-07T02:09:45+00:00",
             "summary": "Comments"
           }
         ]
@@ -2554,8 +2494,14 @@
         "home": "https://www.techmeme.com/",
         "url": "https://www.techmeme.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-10T15:55:30.845976+00:00",
+        "fetchedAt": "2026-04-10T16:54:19.457581+00:00",
         "items": [
+          {
+            "title": "San Francisco police arrested a suspect for allegedly throwing a Molotov cocktail at Sam Altman's home and also making threats outside OpenAI's headquarters (Maxwell Zeff/Wired)",
+            "link": "http://www.techmeme.com/260410/p17#a260410p17",
+            "date": "2026-04-10T12:40:02-04:00",
+            "summary": "Maxwell Zeff / Wired: San Francisco police arrested a suspect for allegedly throwing a Molotov cocktail at Sam Altman's home and also making threats outside OpenAI's headquarters&nbsp; &mdash;&nbsp; An attacker allegedly threw a molotov cocktail at the OpenAI CEO's residence before making threats ou"
+          },
           {
             "title": "France says it plans to move government computers running Windows to Linux, to further reduce its reliance on US technology, without providing a timeline (Zack Whittaker/TechCrunch)",
             "link": "http://www.techmeme.com/260410/p16#a260410p16",
@@ -2581,10 +2527,10 @@
             "summary": "Eugene Kim / Business Insider: Documents: Amazon is working on &ldquo;Project Houdini&rdquo;, which aims to cut the time it takes to construct data centers by preassembling core server rooms into modules&nbsp; &mdash;&nbsp; Follow Eugene Kim &hellip; - Amazon's Project Houdini modularizes main serve"
           },
           {
-            "title": "Snap announces a partnership between Specs, its AR glasses-focused subsidiary, and Qualcomm, whose Snapdragon XR platform will power Specs' upcoming AI glasses (TechCrunch)",
+            "title": "Snap announces a partnership between Specs, its AR glasses-focused subsidiary, and Qualcomm, whose Snapdragon XR platform will power Specs' upcoming AI glasses (Lucas Ropek/TechCrunch)",
             "link": "http://www.techmeme.com/260410/p12#a260410p12",
             "date": "2026-04-10T09:15:03-04:00",
-            "summary": "TechCrunch: Snap announces a partnership between Specs, its AR glasses-focused subsidiary, and Qualcomm, whose Snapdragon XR platform will power Specs' upcoming AI glasses&nbsp; &mdash;&nbsp; Specs has long been teasing the next version of its augmented reality glasses.&nbsp; A new partnership with "
+            "summary": "Lucas Ropek / TechCrunch: Snap announces a partnership between Specs, its AR glasses-focused subsidiary, and Qualcomm, whose Snapdragon XR platform will power Specs' upcoming AI glasses&nbsp; &mdash;&nbsp; Snap has announced a new partnership between its AR-glasses focused subsidiary, Specs, and chi"
           },
           {
             "title": "CoreWeave says it has signed a multiyear deal with Anthropic, including a variety of Nvidia chips at data centers in the US; it now has 43 active data centers (Brody Ford/Bloomberg)",
@@ -2609,12 +2555,6 @@
             "link": "http://www.techmeme.com/260410/p8#a260410p8",
             "date": "2026-04-10T07:35:01-04:00",
             "summary": "Sergiu Gatlan / BleepingComputer: Google rolls out end-to-end encryption for Gmail on Android and iOS devices for enterprise users, letting them read and compose emails without additional tools&nbsp; &mdash;&nbsp; Google says Gmail end-to-end encryption (E2EE) is now available on all Android and iOS"
-          },
-          {
-            "title": "Apple led global Q1 smartphone shipments for the first time, with a 21% share in Q1 2026; overall smartphone shipments fell 6% YoY due to memory chip shortages (Counterpoint Research)",
-            "link": "http://www.techmeme.com/260410/p7#a260410p7",
-            "date": "2026-04-10T06:45:01-04:00",
-            "summary": "Counterpoint Research: Apple led global Q1 smartphone shipments for the first time, with a 21% share in Q1 2026; overall smartphone shipments fell 6% YoY due to memory chip shortages&nbsp; &mdash;&nbsp; Team Counterpoint&nbsp; &mdash;&nbsp; Counterpoint research is a young and fast growing research "
           }
         ]
       },
@@ -2625,8 +2565,20 @@
         "home": "https://techcrunch.com/",
         "url": "https://techcrunch.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-04-10T15:55:30.462794+00:00",
+        "fetchedAt": "2026-04-10T16:54:18.830993+00:00",
         "items": [
+          {
+            "title": "Stalking victim sues OpenAI, claims ChatGPT fueled her abuser’s delusions and ignored her warnings",
+            "link": "https://techcrunch.com/2026/04/10/stalking-victim-sues-openai-claims-chatgpt-fueled-her-abusers-delusions-and-ignored-her-warnings/",
+            "date": "2026-04-10T16:41:34+00:00",
+            "summary": "OpenAI ignored three warnings that a ChatGPT user was dangerous — including its own mass casualty flag — while he stalked and harassed his ex-girlfriend, a new lawsuit alleges."
+          },
+          {
+            "title": "TechCrunch is heading to Tokyo — and bringing the Startup Battlefield with it",
+            "link": "https://techcrunch.com/2026/04/10/techcrunch-is-heading-to-tokyo-and-bringing-the-startup-battlefield-with-it/",
+            "date": "2026-04-10T16:38:43+00:00",
+            "summary": "SusHi Tech 2026 is zeroing in on four technology domains reshaping society: AI, Robotics, Resilience, and Entertainment. Expect live demos of humanoid robots, sessions on autonomous driving's software revolution, deep dives into cyber defense and climate tech, and candid conversations about how AI i"
+          },
           {
             "title": "France to ditch Windows for Linux to reduce reliance on US tech",
             "link": "https://techcrunch.com/2026/04/10/france-to-ditch-windows-for-linux-to-reduce-reliance-on-us-tech/",
@@ -2674,18 +2626,6 @@
             "link": "https://techcrunch.com/2026/04/09/chatgpt-pro-plan-100-month-codex/",
             "date": "2026-04-09T21:29:11+00:00",
             "summary": "OpenAI announced on Thursday something that power users have been asking for: a $100/month plan. Previously, subscriptions jumped from $20 to $200 per month."
-          },
-          {
-            "title": "EFF is the latest organization to leave X",
-            "link": "https://techcrunch.com/2026/04/09/eff-is-the-latest-organization-to-leave-x/",
-            "date": "2026-04-09T21:26:18+00:00",
-            "summary": "The EFF follows the departure of various news organizations and others who no longer find X a viable source of traffic."
-          },
-          {
-            "title": "What founders can learn from Anjuna’s layoffs and recovery",
-            "link": "https://techcrunch.com/2026/04/09/what-founders-can-learn-from-anjunas-layoffs-and-recovery/",
-            "date": "2026-04-09T21:17:30+00:00",
-            "summary": "In 2021, Anjuna Security was growing fast, hiring aggressively, and chasing a market that seemed limitless. By the end of that year, the venture-backed cybersecurity company had scaled to around 75 employees, building out sales, customer success, and support teams in anticipation of continued hyperg"
           }
         ]
       },
@@ -2696,8 +2636,20 @@
         "home": "https://techcrunch.com/category/artificial-intelligence/",
         "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
         "status": "ok",
-        "fetchedAt": "2026-04-10T15:55:30.526177+00:00",
+        "fetchedAt": "2026-04-10T16:54:18.832121+00:00",
         "items": [
+          {
+            "title": "Stalking victim sues OpenAI, claims ChatGPT fueled her abuser’s delusions and ignored her warnings",
+            "link": "https://techcrunch.com/2026/04/10/stalking-victim-sues-openai-claims-chatgpt-fueled-her-abusers-delusions-and-ignored-her-warnings/",
+            "date": "2026-04-10T16:41:34+00:00",
+            "summary": "OpenAI ignored three warnings that a ChatGPT user was dangerous — including its own mass casualty flag — while he stalked and harassed his ex-girlfriend, a new lawsuit alleges."
+          },
+          {
+            "title": "TechCrunch is heading to Tokyo — and bringing the Startup Battlefield with it",
+            "link": "https://techcrunch.com/2026/04/10/techcrunch-is-heading-to-tokyo-and-bringing-the-startup-battlefield-with-it/",
+            "date": "2026-04-10T16:38:43+00:00",
+            "summary": "SusHi Tech 2026 is zeroing in on four technology domains reshaping society: AI, Robotics, Resilience, and Entertainment. Expect live demos of humanoid robots, sessions on autonomous driving's software revolution, deep dives into cyber defense and climate tech, and candid conversations about how AI i"
+          },
           {
             "title": "Last 24 hours: Save up to $500 on your TechCrunch Disrupt 2026 pass",
             "link": "https://techcrunch.com/2026/04/10/final-24-hours-save-up-to-500-on-your-techcrunch-disrupt-2026-pass/",
@@ -2745,18 +2697,6 @@
             "link": "https://techcrunch.com/2026/04/09/sierras-bret-taylor-says-the-era-of-clicking-buttons-is-over/",
             "date": "2026-04-09T17:20:50+00:00",
             "summary": "Last month, Sierra launched Ghostwriter, an agent designed to build other agents. With this “agent as a service” tool, the startup intends to replace traditional click-based web applications with natural language. Users simply describe what they need, prompting Ghostwriter to autonomously create and"
-          },
-          {
-            "title": "Amazon CEO takes aim at Nvidia, Intel, Starlink, more in annual shareholder letter",
-            "link": "https://techcrunch.com/2026/04/09/amazon-ceo-takes-aim-at-nvidia-intel-starlink-more-in-annual-shareholder-letter/",
-            "date": "2026-04-09T14:27:57+00:00",
-            "summary": "Andy Jassy's annual shareholder letter reads something like a diss track to a wide range of competitors as he defends spending $200 billion in capex."
-          },
-          {
-            "title": "Final 2 days to save up to $500 on your TechCrunch Disrupt 2026 ticket",
-            "link": "https://techcrunch.com/2026/04/09/final-2-days-to-save-up-to-500-on-your-techcrunch-disrupt-2026-ticket/",
-            "date": "2026-04-09T14:00:00+00:00",
-            "summary": "Ticket discounts of up to $500 will end tomorrow, April 10, at 11:59 p.m. PT. After that, prices for TechCrunch Disrupt 2026 go up again. Miss this, and you’ll be paying more for the same access to one of the most anticipated tech events of the year. Register now to lock in these savings."
           }
         ]
       },
@@ -2767,7 +2707,7 @@
         "home": "https://techcrunch.com/tag/funding/",
         "url": "https://techcrunch.com/tag/funding/feed/",
         "status": "ok",
-        "fetchedAt": "2026-04-10T15:55:30.617419+00:00",
+        "fetchedAt": "2026-04-10T16:54:18.916239+00:00",
         "items": [
           {
             "title": "Meridian raises $17 million to remake the agentic spreadsheet",
@@ -2838,7 +2778,7 @@
         "home": "https://venturebeat.com/",
         "url": "https://venturebeat.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-04-10T15:55:30.416760+00:00",
+        "fetchedAt": "2026-04-10T16:54:19.025779+00:00",
         "items": [
           {
             "title": "OpenAI introduces ChatGPT Pro $100 tier with 5X usage limits for Codex compared to Plus",
@@ -2891,7 +2831,7 @@
         "home": "https://venturebeat.com/category/ai/",
         "url": "https://venturebeat.com/category/ai/feed/",
         "status": "ok",
-        "fetchedAt": "2026-04-10T15:55:30.668025+00:00",
+        "fetchedAt": "2026-04-10T16:54:19.000060+00:00",
         "items": [
           {
             "title": "Railway secures $100 million to challenge AWS with AI-native cloud infrastructure",
@@ -2956,7 +2896,7 @@
         "home": "https://www.bestblogs.dev/",
         "url": "https://www.bestblogs.dev/zh/feeds/rss?category=ai&minScore=90",
         "status": "ok",
-        "fetchedAt": "2026-04-10T15:55:30.826972+00:00",
+        "fetchedAt": "2026-04-10T16:54:19.254093+00:00",
         "items": [
           {
             "title": "为什么 MLOps 的重训练计划总是失效——模型不会“遗忘”，它们会遭遇“冲击”",
@@ -3024,6 +2964,106 @@
   },
   "allItems": [
     {
+      "title": "Stalking victim sues OpenAI, claims ChatGPT fueled her abuser’s delusions and ignored her warnings",
+      "link": "https://techcrunch.com/2026/04/10/stalking-victim-sues-openai-claims-chatgpt-fueled-her-abusers-delusions-and-ignored-her-warnings/",
+      "date": "2026-04-10T16:41:34+00:00",
+      "summary": "OpenAI ignored three warnings that a ChatGPT user was dangerous — including its own mass casualty flag — while he stalked and harassed his ex-girlfriend, a new lawsuit alleges.",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "Stalking victim sues OpenAI, claims ChatGPT fueled her abuser’s delusions and ignored her warnings",
+      "link": "https://techcrunch.com/2026/04/10/stalking-victim-sues-openai-claims-chatgpt-fueled-her-abusers-delusions-and-ignored-her-warnings/",
+      "date": "2026-04-10T16:41:34+00:00",
+      "summary": "OpenAI ignored three warnings that a ChatGPT user was dangerous — including its own mass casualty flag — while he stalked and harassed his ex-girlfriend, a new lawsuit alleges.",
+      "feedId": "techcrunch-ai",
+      "feedTitle": "TechCrunch AI",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
+    },
+    {
+      "title": "TechCrunch is heading to Tokyo — and bringing the Startup Battlefield with it",
+      "link": "https://techcrunch.com/2026/04/10/techcrunch-is-heading-to-tokyo-and-bringing-the-startup-battlefield-with-it/",
+      "date": "2026-04-10T16:38:43+00:00",
+      "summary": "SusHi Tech 2026 is zeroing in on four technology domains reshaping society: AI, Robotics, Resilience, and Entertainment. Expect live demos of humanoid robots, sessions on autonomous driving's software revolution, deep dives into cyber defense and climate tech, and candid conversations about how AI i",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "TechCrunch is heading to Tokyo — and bringing the Startup Battlefield with it",
+      "link": "https://techcrunch.com/2026/04/10/techcrunch-is-heading-to-tokyo-and-bringing-the-startup-battlefield-with-it/",
+      "date": "2026-04-10T16:38:43+00:00",
+      "summary": "SusHi Tech 2026 is zeroing in on four technology domains reshaping society: AI, Robotics, Resilience, and Entertainment. Expect live demos of humanoid robots, sessions on autonomous driving's software revolution, deep dives into cyber defense and climate tech, and candid conversations about how AI i",
+      "feedId": "techcrunch-ai",
+      "feedTitle": "TechCrunch AI",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
+    },
+    {
+      "title": "Ed Bindels’s Apple Museum in Utrecht, Netherlands",
+      "link": "https://applemuseum.nl/",
+      "date": "2026-04-10T16:35:04+00:00",
+      "summary": "This new museum in Utrecht (about 30–40 minutes south of Amsterdam) seems just astonishing. The rainbow wall of iMacs alone is incredible. (Via Juli Clover.) &nbsp;★&nbsp;",
+      "feedId": "daringfireball",
+      "feedTitle": "Daring Fireball",
+      "category": "Tech Blogs",
+      "feedHome": "https://daringfireball.net/"
+    },
+    {
+      "title": "Industrial design files for Keychron keyboards and mice",
+      "link": "https://github.com/Keychron/Keychron-Keyboards-Hardware-Design",
+      "date": "2026-04-10T16:22:26+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "ChatGPT voice mode is a weaker model",
+      "link": "https://simonwillison.net/2026/Apr/10/voice-mode-is-weaker/#atom-everything",
+      "date": "2026-04-10T15:56:02+00:00",
+      "summary": "I think it's non-obvious to many people that the OpenAI voice mode runs on a much older, much weaker model - it feels like the AI that you can talk to should be the smartest AI but it really isn't. If you ask ChatGPT voice mode for its knowledge cutoff date it tells you April 2024 - it's a GPT-4o er",
+      "feedId": "simonwillison",
+      "feedTitle": "Simon Willison",
+      "category": "AI & LLM",
+      "feedHome": "https://simonwillison.net/"
+    },
+    {
+      "title": "Bluesky April 2026 Outage Post-Mortem",
+      "link": "https://pckt.blog/b/jcalabro/april-2026-outage-post-mortem-219ebg2",
+      "date": "2026-04-10T15:51:41+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "WireGuard makes new Windows release following Microsoft signing resolution",
+      "link": "https://lists.zx2c4.com/pipermail/wireguard/2026-April/009561.html",
+      "date": "2026-04-10T15:49:52+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "1D Chess",
+      "link": "https://rowan441.github.io/1dchess/chess.html",
+      "date": "2026-04-10T15:37:28+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
       "title": "You can't trust macOS Privacy and Security settings",
       "link": "https://eclecticlight.co/2026/04/10/why-you-cant-trust-privacy-security/",
       "date": "2026-04-10T15:28:24+00:00",
@@ -3072,16 +3112,6 @@
       "feedTitle": "TechCrunch",
       "category": "Startup & News",
       "feedHome": "https://techcrunch.com/"
-    },
-    {
-      "title": "CPU-Z and HWMonitor Compromised",
-      "link": "https://old.reddit.com/r/pcmasterrace/comments/1sh4e5l/warning_hwmonitor_163_download_on_the_official/",
-      "date": "2026-04-10T14:37:29+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
     },
     {
       "title": "Agent Harness：AI Agent 的首个稳定抽象层",
@@ -3154,6 +3184,26 @@
       "feedHome": "https://techcrunch.com/"
     },
     {
+      "title": "CPU-Z and HWMonitor compromised",
+      "link": "https://www.theregister.com/2026/04/10/cpuid_site_hijacked/",
+      "date": "2026-04-10T13:29:20+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "San Francisco police arrested a suspect for allegedly throwing a Molotov cocktail at Sam Altman's home and also making threats outside OpenAI's headquarters (Maxwell Zeff/Wired)",
+      "link": "http://www.techmeme.com/260410/p17#a260410p17",
+      "date": "2026-04-10T12:40:02-04:00",
+      "summary": "Maxwell Zeff / Wired: San Francisco police arrested a suspect for allegedly throwing a Molotov cocktail at Sam Altman's home and also making threats outside OpenAI's headquarters&nbsp; &mdash;&nbsp; An attacker allegedly threw a molotov cocktail at the OpenAI CEO's residence before making threats ou",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
       "title": "Snap gets closer to releasing new AI glasses after years-long hiatus",
       "link": "https://techcrunch.com/2026/04/10/snap-gets-closer-to-releasing-new-ai-glasses-after-years-long-hiatus/",
       "date": "2026-04-10T12:00:00+00:00",
@@ -3172,26 +3222,6 @@
       "feedTitle": "Techmeme",
       "category": "Startup & News",
       "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "[RSS Club] Why do you use RSS rather than Atom?",
-      "link": "https://shkspr.mobi/blog/2026/04/rss-club-why-do-you-use-rss-rather-than-atom/",
-      "date": "2026-04-10T11:34:36+00:00",
-      "summary": "This post is exclusive to feed subscribers. Enjoy! This whole experiment is called RSS Club - but perhaps it should be called &#34;XML-based distributed feed club&#34;? I&#039;ve been playing about with local-only and privacy-conscious view tracking. I can see how many people click on my stories fro",
-      "feedId": "shkspr",
-      "feedTitle": "Terence Eden",
-      "category": "Tech Blogs",
-      "feedHome": "https://shkspr.mobi/blog/"
-    },
-    {
-      "title": "FBI used iPhone notification data to retrieve deleted Signal messages",
-      "link": "https://9to5mac.com/2026/04/09/fbi-used-iphone-notification-data-to-retrieve-deleted-signal-messages/",
-      "date": "2026-04-10T11:29:04+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
     },
     {
       "title": "Jury deliberations began Friday in the Live Nation antitrust trial, after state attorneys general continued to pursue the case even as the US DOJ settled (Ben Sisario/New York Times)",
@@ -3234,10 +3264,10 @@
       "feedHome": "https://pluralistic.net/"
     },
     {
-      "title": "Snap announces a partnership between Specs, its AR glasses-focused subsidiary, and Qualcomm, whose Snapdragon XR platform will power Specs' upcoming AI glasses (TechCrunch)",
+      "title": "Snap announces a partnership between Specs, its AR glasses-focused subsidiary, and Qualcomm, whose Snapdragon XR platform will power Specs' upcoming AI glasses (Lucas Ropek/TechCrunch)",
       "link": "http://www.techmeme.com/260410/p12#a260410p12",
       "date": "2026-04-10T09:15:03-04:00",
-      "summary": "TechCrunch: Snap announces a partnership between Specs, its AR glasses-focused subsidiary, and Qualcomm, whose Snapdragon XR platform will power Specs' upcoming AI glasses&nbsp; &mdash;&nbsp; Specs has long been teasing the next version of its augmented reality glasses.&nbsp; A new partnership with ",
+      "summary": "Lucas Ropek / TechCrunch: Snap announces a partnership between Specs, its AR glasses-focused subsidiary, and Qualcomm, whose Snapdragon XR platform will power Specs' upcoming AI glasses&nbsp; &mdash;&nbsp; Snap has announced a new partnership between its AR-glasses focused subsidiary, Specs, and chi",
       "feedId": "techmeme",
       "feedTitle": "Techmeme",
       "category": "Startup & News",
@@ -3284,36 +3314,6 @@
       "feedHome": "https://www.techmeme.com/"
     },
     {
-      "title": "Apple led global Q1 smartphone shipments for the first time, with a 21% share in Q1 2026; overall smartphone shipments fell 6% YoY due to memory chip shortages (Counterpoint Research)",
-      "link": "http://www.techmeme.com/260410/p7#a260410p7",
-      "date": "2026-04-10T06:45:01-04:00",
-      "summary": "Counterpoint Research: Apple led global Q1 smartphone shipments for the first time, with a 21% share in Q1 2026; overall smartphone shipments fell 6% YoY due to memory chip shortages&nbsp; &mdash;&nbsp; Team Counterpoint&nbsp; &mdash;&nbsp; Counterpoint research is a young and fast growing research ",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "Penguin 'Toxicologists' Find PFAS Chemicals in Remote Patagonia",
-      "link": "https://www.ucdavis.edu/health/news/penguin-toxicologists-find-pfas-chemicals-remote-patagonia",
-      "date": "2026-04-10T06:15:46+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
-      "title": "A new trick brings stability to quantum operations",
-      "link": "https://ethz.ch/en/news-and-events/eth-news/news/2026/04/a-new-trick-brings-stability-to-quantum-operations.html",
-      "date": "2026-04-10T04:04:57+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
       "title": "从模型中心到系统中心：深度解读 AI Agent 的「外化」演进",
       "link": "https://www.bestblogs.dev/status/2042442044594139491",
       "date": "2026-04-10T03:18:24+00:00",
@@ -3342,16 +3342,6 @@
       "feedTitle": "Eli Bendersky",
       "category": "Tech Blogs",
       "feedHome": "https://eli.thegreenplace.net/"
-    },
-    {
-      "title": "I still prefer MCP over skills",
-      "link": "https://david.coffee/i-still-prefer-mcp-over-skills/",
-      "date": "2026-04-10T02:01:48+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
     },
     {
       "title": "AI 没有杀死 Web，它只是搬进来了！—— Olivier Leplus (AWS) 与 Yohan Lasorsa (Microsoft)",
@@ -3634,16 +3624,6 @@
       "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
     },
     {
-      "title": "EFF is the latest organization to leave X",
-      "link": "https://techcrunch.com/2026/04/09/eff-is-the-latest-organization-to-leave-x/",
-      "date": "2026-04-09T21:26:18+00:00",
-      "summary": "The EFF follows the departure of various news organizations and others who no longer find X a viable source of traffic.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
-    },
-    {
       "title": "Solar Eclipse From the Far Side of the Moon",
       "link": "https://kottke.org/26/04/solar-eclipse-far-side-of-the-moon",
       "date": "2026-04-09T21:20:37+00:00",
@@ -3652,16 +3632,6 @@
       "feedTitle": "Daring Fireball",
       "category": "Tech Blogs",
       "feedHome": "https://daringfireball.net/"
-    },
-    {
-      "title": "What founders can learn from Anjuna’s layoffs and recovery",
-      "link": "https://techcrunch.com/2026/04/09/what-founders-can-learn-from-anjunas-layoffs-and-recovery/",
-      "date": "2026-04-09T21:17:30+00:00",
-      "summary": "In 2021, Anjuna Security was growing fast, hiring aggressively, and chasing a market that seemed limitless. By the end of that year, the venture-backed cybersecurity company had scaled to around 75 employees, building out sales, customer success, and support teams in anticipation of continued hyperg",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
     },
     {
       "title": "OpenAI 推出 100 美元档位 ChatGPT Pro 订阅服务",
@@ -3814,16 +3784,6 @@
       "feedHome": "https://daringfireball.net/"
     },
     {
-      "title": "How NASA built Artemis II’s fault-tolerant computer",
-      "link": "https://cacm.acm.org/news/how-nasa-built-artemis-iis-fault-tolerant-computer/",
-      "date": "2026-04-09T15:12:40+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
       "title": "SQLAlchemy 2 In Practice - Chapter 4 - Many-To-Many Relationships",
       "link": "https://blog.miguelgrinberg.com/post/sqlalchemy-2-in-practice---chapter-4---many-to-many-relationships",
       "date": "2026-04-09T15:02:34+00:00",
@@ -3834,16 +3794,6 @@
       "feedHome": "https://blog.miguelgrinberg.com/"
     },
     {
-      "title": "Amazon CEO takes aim at Nvidia, Intel, Starlink, more in annual shareholder letter",
-      "link": "https://techcrunch.com/2026/04/09/amazon-ceo-takes-aim-at-nvidia-intel-starlink-more-in-annual-shareholder-letter/",
-      "date": "2026-04-09T14:27:57+00:00",
-      "summary": "Andy Jassy's annual shareholder letter reads something like a diss track to a wide range of competitors as he defends spending $200 billion in capex.",
-      "feedId": "techcrunch-ai",
-      "feedTitle": "TechCrunch AI",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
-    },
-    {
       "title": "How do you add or remove a handle from an active Wait­For­Multiple­Objects?",
       "link": "https://devblogs.microsoft.com/oldnewthing/20260409-00/?p=112220",
       "date": "2026-04-09T14:00:00+00:00",
@@ -3852,16 +3802,6 @@
       "feedTitle": "The Old New Thing",
       "category": "Tech Blogs",
       "feedHome": "https://devblogs.microsoft.com/oldnewthing/"
-    },
-    {
-      "title": "Final 2 days to save up to $500 on your TechCrunch Disrupt 2026 ticket",
-      "link": "https://techcrunch.com/2026/04/09/final-2-days-to-save-up-to-500-on-your-techcrunch-disrupt-2026-ticket/",
-      "date": "2026-04-09T14:00:00+00:00",
-      "summary": "Ticket discounts of up to $500 will end tomorrow, April 10, at 11:59 p.m. PT. After that, prices for TechCrunch Disrupt 2026 go up again. Miss this, and you’ll be paying more for the same access to one of the most anticipated tech events of the year. Register now to lock in these savings.",
-      "feedId": "techcrunch-ai",
-      "feedTitle": "TechCrunch AI",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
     },
     {
       "title": "Nowhere Is Safe",
@@ -3882,16 +3822,6 @@
       "feedTitle": "Ibrahim Diallo",
       "category": "Tech Blogs",
       "feedHome": "https://idiallo.com/"
-    },
-    {
-      "title": "Book Review: Small Comfort by Ia Genberg ★★☆☆☆",
-      "link": "https://shkspr.mobi/blog/2026/04/book-review-small-comfort-by-ia-genberg/",
-      "date": "2026-04-09T11:34:59+00:00",
-      "summary": "I was left somewhat unconvinced by this book. I liked the concept - a series of interrelated stories all told in different styles. Much like the film &#34;Lola RenntRun Lola Run&#34; there&#039;s a briefcase full of cash, a cast of morally ambiguous characters, and a meandering philosophical discuss",
-      "feedId": "shkspr",
-      "feedTitle": "Terence Eden",
-      "category": "Tech Blogs",
-      "feedHome": "https://shkspr.mobi/blog/"
     },
     {
       "title": "ConvApparel: Measuring and bridging the realism gap in user simulators",
@@ -4084,16 +4014,6 @@
       "feedHome": "https://pluralistic.net/"
     },
     {
-      "title": "Theatre Review: Avenue Q ★★★★★",
-      "link": "https://shkspr.mobi/blog/2026/04/theatre-review-avenue-q/",
-      "date": "2026-04-08T11:34:25+00:00",
-      "summary": "I&#039;ll admit, I was a little sceptical about returning to Avenue Q. I saw it on its original West End run back in… OH MY GOD I AM SO OLD! FUCK! Where did the time go? It&#039;s always hard to know how much to update a show. Does it need constant reinvention to stay in the zeitgeist or can it be p",
-      "feedId": "shkspr",
-      "feedTitle": "Terence Eden",
-      "category": "Tech Blogs",
-      "feedHome": "https://shkspr.mobi/blog/"
-    },
-    {
       "title": "Introducing the Child Safety Blueprint",
       "link": "https://openai.com/index/introducing-child-safety-blueprint",
       "date": "2026-04-08T05:00:00+00:00",
@@ -4194,16 +4114,6 @@
       "feedHome": "https://daringfireball.net/"
     },
     {
-      "title": "The Data Drop: Every iPhone",
-      "link": "https://sheets.works/data-viz/every-iphone",
-      "date": "2026-04-07T16:34:14+00:00",
-      "summary": "Just lovely data visualization work from Sheets.works — a consulting firm that specializes in, I swear, Google Sheets. &nbsp;★&nbsp;",
-      "feedId": "daringfireball",
-      "feedTitle": "Daring Fireball",
-      "category": "Tech Blogs",
-      "feedHome": "https://daringfireball.net/"
-    },
-    {
       "title": "SQLite WAL Mode Across Docker Containers Sharing a Volume",
       "link": "https://simonwillison.net/2026/Apr/7/sqlite-wal-docker-containers/#atom-everything",
       "date": "2026-04-07T15:41:00+00:00",
@@ -4234,16 +4144,6 @@
       "feedHome": "https://devblogs.microsoft.com/oldnewthing/"
     },
     {
-      "title": "Did WordPress VIP leak my phone number?",
-      "link": "https://shkspr.mobi/blog/2026/04/did-wordpress-vip-leak-my-phone-number/",
-      "date": "2026-04-07T11:34:43+00:00",
-      "summary": "As discussed in my last blog post, the scumsuckers at Apollo.io have been giving out my personal details. Not only did they have my email address, they also had a copy of one of my phone numbers. I asked them where they got it from and they said: Your phone number came from Parsely, Inc (wpvip.com) ",
-      "feedId": "shkspr",
-      "feedTitle": "Terence Eden",
-      "category": "Tech Blogs",
-      "feedHome": "https://shkspr.mobi/blog/"
-    },
-    {
       "title": "Pluralistic: Switzerland's Goldilocks fiber (07 Apr 2026)",
       "link": "https://pluralistic.net/2026/04/07/swisscom/",
       "date": "2026-04-07T07:20:37+00:00",
@@ -4252,6 +4152,16 @@
       "feedTitle": "Pluralistic",
       "category": "Tech Blogs",
       "feedHome": "https://pluralistic.net/"
+    },
+    {
+      "title": "Clojure on Fennel Part One: Persistent Data Structures",
+      "link": "https://andreyor.st/posts/2026-04-07-clojure-on-fennel-part-one-persistent-data-structures/",
+      "date": "2026-04-07T02:09:45+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
     },
     {
       "title": "Weekly Update 498",
@@ -4314,16 +4224,6 @@
       "feedHome": "https://idiallo.com/"
     },
     {
-      "title": "[RSS Club] Banana for scale",
-      "link": "https://shkspr.mobi/blog/2026/04/rss-club-banana-for-scale/",
-      "date": "2026-04-06T11:34:00+00:00",
-      "summary": "This post is exclusive to RSS feed subscribers. Enjoy! I&#039;ve had this idea stuck in my head for a while, so I decided to make it. This is &#34;Scan Slowly And See&#34;. The code is made by cloning some of the banana&#039;s spots. Do let me know if the QR code works for you 🍌 …",
-      "feedId": "shkspr",
-      "feedTitle": "Terence Eden",
-      "category": "Tech Blogs",
-      "feedHome": "https://shkspr.mobi/blog/"
-    },
-    {
       "title": "Announcing the OpenAI Safety Fellowship",
       "link": "https://openai.com/index/introducing-openai-safety-fellowship",
       "date": "2026-04-06T10:00:00+00:00",
@@ -4364,16 +4264,6 @@
       "feedHome": "https://simonwillison.net/"
     },
     {
-      "title": "scan-for-secrets 0.3",
-      "link": "https://simonwillison.net/2026/Apr/6/scan-for-secrets/#atom-everything",
-      "date": "2026-04-06T02:59:28+00:00",
-      "summary": "Release: scan-for-secrets 0.3 New -r/--redact option which shows the list of matches, asks for confirmation and then replaces every match with REDACTED, taking escaping rules into account. New Python function redact_file(file_path: str | Path, secrets: list[str], replacement: str = \"REDACTED\") -&gt;",
-      "feedId": "simonwillison",
-      "feedTitle": "Simon Willison",
-      "category": "AI & LLM",
-      "feedHome": "https://simonwillison.net/"
-    },
-    {
       "title": "Industrial policy for the Intelligence Age",
       "link": "https://openai.com/index/industrial-policy-for-the-intelligence-age",
       "date": "2026-04-06T02:30:00+00:00",
@@ -4404,16 +4294,6 @@
       "feedHome": "https://www.johndcook.com/"
     },
     {
-      "title": "Someone at BrowserStack is Leaking Users' Email Address",
-      "link": "https://shkspr.mobi/blog/2026/04/someone-at-browserstack-is-leaking-users-email-address/",
-      "date": "2026-04-05T11:34:03+00:00",
-      "summary": "Like all good nerds, I generate a unique email address for every service I sign up to. This has several advantages - it allows me to see if a message is legitimately from a service, if a service is hacked the hackers can&#039;t go credential stuffing, and I instantly know who leaked my address. A fe",
-      "feedId": "shkspr",
-      "feedTitle": "Terence Eden",
-      "category": "Tech Blogs",
-      "feedHome": "https://shkspr.mobi/blog/"
-    },
-    {
       "title": "It's not that deep",
       "link": "https://idiallo.com/blog/its-not-that-deep?src=feed",
       "date": "2026-04-05T08:00:00+00:00",
@@ -4432,16 +4312,6 @@
       "feedTitle": "John D. Cook",
       "category": "Tech Blogs",
       "feedHome": "https://www.johndcook.com/"
-    },
-    {
-      "title": "Welcome to RSS Club!",
-      "link": "https://shkspr.mobi/blog/2026/04/welcome-to-rss-club/",
-      "date": "2026-04-04T11:34:13+00:00",
-      "summary": "What if I told you there was a secret social network, hidden in plain sight? If you&#039;re reading this message, you&#039;re now a member of RSS Club! RSS Club is a series of posts which are only visible to RSS / Atom subscribers. Like you 😃 If I&#039;ve done everything right, this page isn&#039;t ",
-      "feedId": "shkspr",
-      "feedTitle": "Terence Eden",
-      "category": "Tech Blogs",
-      "feedHome": "https://shkspr.mobi/blog/"
     },
     {
       "title": "Pluralistic: EU ready to cave to Trump on tech (04 Apr 2026)",
@@ -4492,16 +4362,6 @@
       "feedTitle": "Ibrahim Diallo",
       "category": "Tech Blogs",
       "feedHome": "https://idiallo.com/"
-    },
-    {
-      "title": "Book Review: Superintelligence - Paths, Dangers, Strategies by Nick Bostrom ★★★★⯪",
-      "link": "https://shkspr.mobi/blog/2026/04/book-review-superintelligence-paths-dangers-strategies-by-nick-bostrom/",
-      "date": "2026-04-03T11:34:34+00:00",
-      "summary": "When I finally invent time-travel, the first thing I&#039;ll do is go back in time and give everyone a copy of this book. Published in 2014, it clearly sets out the likely problems with true Artificial Intelligence (not the LLM crap we have now) and what measures need to be put in place before it is",
-      "feedId": "shkspr",
-      "feedTitle": "Terence Eden",
-      "category": "Tech Blogs",
-      "feedHome": "https://shkspr.mobi/blog/"
     },
     {
       "title": "Build your own Dial-up ISP with a Raspberry Pi",
@@ -4572,16 +4432,6 @@
       "feedTitle": "The Old New Thing",
       "category": "Tech Blogs",
       "feedHome": "https://devblogs.microsoft.com/oldnewthing/"
-    },
-    {
-      "title": "Concert Review: London Philharmonic - Pictures at an Exhibition ★★★★★",
-      "link": "https://shkspr.mobi/blog/2026/04/concert-review-london-philharmonic-pictures-at-an-exhibition/",
-      "date": "2026-04-02T11:34:07+00:00",
-      "summary": "A delightful and emotional rendition of three rather different works. Mark-Anthony Turnage&#039;s &#34;Three Screaming Popes&#34; was a chaotic cacophony. Wild, bizarre, inventive, and seemingly driven by excess. A fascinating performance, although not one I&#039;ll put on in the background. Turnage",
-      "feedId": "shkspr",
-      "feedTitle": "Terence Eden",
-      "category": "Tech Blogs",
-      "feedHome": "https://shkspr.mobi/blog/"
     },
     {
       "title": "OpenAI acquires TBPN",
@@ -4672,16 +4522,6 @@
       "feedTitle": "Ibrahim Diallo",
       "category": "Tech Blogs",
       "feedHome": "https://idiallo.com/"
-    },
-    {
-      "title": "Random File Format",
-      "link": "https://shkspr.mobi/blog/2026/04/random-file-format/",
-      "date": "2026-04-01T11:34:57+00:00",
-      "summary": "This was an idea I had back in the days of Naptster. At the turn of the century, it was common to listen to an &#34;acquired&#34; music file only to find it was missing a few seconds at the end due to a prematurely stopped download. Some video formats would refuse to play at all if the moov atom at ",
-      "feedId": "shkspr",
-      "feedTitle": "Terence Eden",
-      "category": "Tech Blogs",
-      "feedHome": "https://shkspr.mobi/blog/"
     },
     {
       "title": "Pluralistic: Trumpismo vs minilateralism (01 Apr 2026)",
