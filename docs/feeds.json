@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-12T23:37:14.061410+00:00",
+  "updatedAt": "2026-04-13T02:50:56.412318+00:00",
   "totalFeeds": 51,
   "successCount": 44,
   "failedCount": 7,
@@ -21,8 +21,20 @@
         "home": "https://simonwillison.net/",
         "url": "https://simonwillison.net/atom/everything/",
         "status": "ok",
-        "fetchedAt": "2026-04-12T23:37:03.913352+00:00",
+        "fetchedAt": "2026-04-13T02:50:46.538059+00:00",
         "items": [
+          {
+            "title": "Quoting Bryan Cantrill",
+            "link": "https://simonwillison.net/2026/Apr/13/bryan-cantrill/#atom-everything",
+            "date": "2026-04-13T02:44:24+00:00",
+            "summary": "The problem is that LLMs inherently lack the virtue of laziness. Work costs nothing to an LLM. LLMs do not feel a need to optimize for their own (or anyone's) future time, and will happily dump more and more onto a layercake of garbage. Left unchecked, LLMs will make systems larger, not better &mdas"
+          },
+          {
+            "title": "Gemma 4 audio with MLX",
+            "link": "https://simonwillison.net/2026/Apr/12/mlx-audio/#atom-everything",
+            "date": "2026-04-12T23:57:53+00:00",
+            "summary": "Thanks to a tip from Rahim Nathwani, here's a uv run recipe for transcribing an audio file on macOS using the 10.28 GB Gemma 4 E2B model with MLX and mlx-vlm: uv run --python 3.13 --with mlx_vlm --with torchvision --with gradio \\ mlx_vlm.generate \\ --model google/gemma-4-e2b-it \\ --audio file.wav \\ "
+          },
           {
             "title": "SQLite 3.53.0",
             "link": "https://simonwillison.net/2026/Apr/11/sqlite/#atom-everything",
@@ -70,18 +82,6 @@
             "link": "https://simonwillison.net/2026/Apr/8/giles-turnbull/#atom-everything",
             "date": "2026-04-08T15:18:49+00:00",
             "summary": "I have a feeling that everyone likes using AI tools to try doing someone else’s profession. They’re much less keen when someone else uses it for their profession. &mdash; Giles Turnbull, AI and the human voice Tags: ai-ethics, writing, ai"
-          },
-          {
-            "title": "GLM-5.1: Towards Long-Horizon Tasks",
-            "link": "https://simonwillison.net/2026/Apr/7/glm-51/#atom-everything",
-            "date": "2026-04-07T21:25:14+00:00",
-            "summary": "GLM-5.1: Towards Long-Horizon Tasks Chinese AI lab Z.ai's latest model is a giant 754B parameter 1.51TB (on Hugging Face) MIT-licensed monster - the same size as their previous GLM-5 release, and sharing the same paper. It's available via OpenRouter so I asked it to draw me a pelican: llm install ll"
-          },
-          {
-            "title": "Anthropic's Project Glasswing - restricting Claude Mythos to security researchers - sounds necessary to me",
-            "link": "https://simonwillison.net/2026/Apr/7/project-glasswing/#atom-everything",
-            "date": "2026-04-07T20:52:54+00:00",
-            "summary": "Anthropic didn't release their latest model, Claude Mythos (system card PDF), today. They have instead made it available to a very restricted set of preview partners under their newly announced Project Glasswing. The model is a general purpose model, similar to Claude Opus 4.6, but Anthropic claim t"
           }
         ]
       },
@@ -92,7 +92,7 @@
         "home": "https://openai.com/news/",
         "url": "https://openai.com/news/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-12T23:37:04.325927+00:00",
+        "fetchedAt": "2026-04-13T02:50:46.859034+00:00",
         "items": [
           {
             "title": "Using projects in ChatGPT",
@@ -163,7 +163,7 @@
         "home": "https://arxiv.org/list/cs.AI/recent",
         "url": "https://arxiv.org/rss/cs.AI",
         "status": "ok",
-        "fetchedAt": "2026-04-12T23:37:04.129519+00:00",
+        "fetchedAt": "2026-04-13T02:50:51.172275+00:00",
         "items": []
       },
       {
@@ -173,7 +173,7 @@
         "home": "https://arxiv.org/list/cs.LG/recent",
         "url": "https://arxiv.org/rss/cs.LG",
         "status": "ok",
-        "fetchedAt": "2026-04-12T23:37:04.118458+00:00",
+        "fetchedAt": "2026-04-13T02:50:51.172535+00:00",
         "items": []
       },
       {
@@ -183,7 +183,7 @@
         "home": "https://research.google/blog/",
         "url": "https://research.google/blog/rss/",
         "status": "ok",
-        "fetchedAt": "2026-04-12T23:37:04.127019+00:00",
+        "fetchedAt": "2026-04-13T02:50:46.878862+00:00",
         "items": [
           {
             "title": "ConvApparel: Measuring and bridging the realism gap in user simulators",
@@ -254,7 +254,7 @@
         "home": "https://deepmind.google/blog/",
         "url": "https://deepmind.google/blog/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-12T23:37:04.263448+00:00",
+        "fetchedAt": "2026-04-13T02:50:46.788036+00:00",
         "items": [
           {
             "title": "Gemma 4: Byte for byte, the most capable open models",
@@ -325,7 +325,7 @@
         "home": "https://lilianweng.github.io/",
         "url": "https://lilianweng.github.io/lil-log/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-12T23:37:03.913865+00:00",
+        "fetchedAt": "2026-04-13T02:50:46.519352+00:00",
         "items": [
           {
             "title": "Active Learning",
@@ -416,7 +416,7 @@
         "home": "https://minimaxir.com/",
         "url": "https://minimaxir.com/index.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-12T23:37:04.056965+00:00",
+        "fetchedAt": "2026-04-13T02:50:46.618880+00:00",
         "items": [
           {
             "title": "An AI agent coding skeptic tries AI agent coding, in excessive detail",
@@ -499,7 +499,7 @@
         "home": "https://www.jeffgeerling.com/",
         "url": "https://www.jeffgeerling.com/blog.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-12T23:37:03.952415+00:00",
+        "fetchedAt": "2026-04-13T02:50:46.623327+00:00",
         "items": [
           {
             "title": "Build your own Dial-up ISP with a Raspberry Pi",
@@ -570,7 +570,7 @@
         "home": "https://www.seangoedecke.com/",
         "url": "https://www.seangoedecke.com/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-12T23:37:04.147123+00:00",
+        "fetchedAt": "2026-04-13T02:50:46.577963+00:00",
         "items": [
           {
             "title": "Programming (with AI agents) as theory building",
@@ -641,7 +641,7 @@
         "home": "https://krebsonsecurity.com/",
         "url": "https://krebsonsecurity.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-04-12T23:37:04.073537+00:00",
+        "fetchedAt": "2026-04-13T02:50:46.671179+00:00",
         "items": [
           {
             "title": "Russia Hacked Routers to Steal Microsoft Office Tokens",
@@ -712,7 +712,7 @@
         "home": "https://daringfireball.net/",
         "url": "https://daringfireball.net/feeds/main",
         "status": "ok",
-        "fetchedAt": "2026-04-12T23:37:04.114169+00:00",
+        "fetchedAt": "2026-04-13T02:50:46.666748+00:00",
         "items": [
           {
             "title": "Zed — A Font Superfamily",
@@ -783,7 +783,7 @@
         "home": "https://ericmigi.com/",
         "url": "https://ericmigi.com/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-12T23:37:04.017819+00:00",
+        "fetchedAt": "2026-04-13T02:50:46.592855+00:00",
         "items": [
           {
             "title": "Spring 2026 Pebble App Contest + SDK Updates",
@@ -854,7 +854,7 @@
         "home": "http://antirez.com/",
         "url": "http://antirez.com/rss",
         "status": "ok",
-        "fetchedAt": "2026-04-12T23:37:05.834124+00:00",
+        "fetchedAt": "2026-04-13T02:50:48.250688+00:00",
         "items": [
           {
             "title": "GNU and the AI reimplementations",
@@ -925,7 +925,7 @@
         "home": "https://idiallo.com/",
         "url": "https://idiallo.com/feed.rss",
         "status": "ok",
-        "fetchedAt": "2026-04-12T23:37:04.233897+00:00",
+        "fetchedAt": "2026-04-13T02:50:46.679898+00:00",
         "items": [
           {
             "title": "Your AWS Certificate Makes You an AWS Salesman",
@@ -996,7 +996,7 @@
         "home": "https://maurycyz.com/",
         "url": "https://maurycyz.com/index.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-12T23:37:04.626727+00:00",
+        "fetchedAt": "2026-04-13T02:50:47.118990+00:00",
         "items": []
       },
       {
@@ -1006,7 +1006,7 @@
         "home": "https://pluralistic.net/",
         "url": "https://pluralistic.net/feed/",
         "status": "ok",
-        "fetchedAt": "2026-04-12T23:37:04.921772+00:00",
+        "fetchedAt": "2026-04-13T02:50:47.406625+00:00",
         "items": [
           {
             "title": "Pluralistic: Don't Be Evil (11 Apr 2026)",
@@ -1077,7 +1077,7 @@
         "home": "https://shkspr.mobi/blog/",
         "url": "https://shkspr.mobi/blog/feed/",
         "status": "ok",
-        "fetchedAt": "2026-04-12T23:37:04.690535+00:00",
+        "fetchedAt": "2026-04-13T02:50:47.456327+00:00",
         "items": [
           {
             "title": "Cheapest way to keep a UK mobile number using an eSIM",
@@ -1158,7 +1158,7 @@
         "home": "https://mitchellh.com/",
         "url": "https://mitchellh.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-12T23:37:04.332327+00:00",
+        "fetchedAt": "2026-04-13T02:50:46.968037+00:00",
         "items": [
           {
             "title": "The Building Block Economy",
@@ -1229,7 +1229,7 @@
         "home": "https://dynomight.net/",
         "url": "https://dynomight.net/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-12T23:37:04.626142+00:00",
+        "fetchedAt": "2026-04-13T02:50:47.464861+00:00",
         "items": [
           {
             "title": "I quit drinking for a year",
@@ -1300,7 +1300,7 @@
         "home": "https://xeiaso.net/",
         "url": "https://xeiaso.net/blog.rss",
         "status": "ok",
-        "fetchedAt": "2026-04-12T23:37:04.661046+00:00",
+        "fetchedAt": "2026-04-13T02:50:47.242006+00:00",
         "items": [
           {
             "title": "Claude Code won April Fools Day this year",
@@ -1371,7 +1371,7 @@
         "home": "https://devblogs.microsoft.com/oldnewthing/",
         "url": "https://devblogs.microsoft.com/oldnewthing/feed",
         "status": "ok",
-        "fetchedAt": "2026-04-12T23:37:04.573721+00:00",
+        "fetchedAt": "2026-04-13T02:50:46.713487+00:00",
         "items": [
           {
             "title": "How do you add or remove a handle from an active Wait­For­Multiple­Objects?, part 2",
@@ -1442,7 +1442,7 @@
         "home": "https://www.righto.com/",
         "url": "https://www.righto.com/feeds/posts/default",
         "status": "ok",
-        "fetchedAt": "2026-04-12T23:37:04.350068+00:00",
+        "fetchedAt": "2026-04-13T02:50:46.756409+00:00",
         "items": []
       },
       {
@@ -1452,7 +1452,7 @@
         "home": "https://lucumr.pocoo.org/",
         "url": "https://lucumr.pocoo.org/feed.atom",
         "status": "ok",
-        "fetchedAt": "2026-04-12T23:37:04.484465+00:00",
+        "fetchedAt": "2026-04-13T02:50:50.890804+00:00",
         "items": [
           {
             "title": "The Center Has a Bias",
@@ -1523,7 +1523,7 @@
         "home": "https://skyfall.dev/",
         "url": "https://skyfall.dev/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-12T23:37:04.498308+00:00",
+        "fetchedAt": "2026-04-13T02:50:47.142974+00:00",
         "items": [
           {
             "title": "Good riddance, 4o",
@@ -1598,7 +1598,7 @@
         "home": "https://overreacted.io/",
         "url": "https://overreacted.io/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-12T23:37:04.544054+00:00",
+        "fetchedAt": "2026-04-13T02:50:46.955364+00:00",
         "items": [
           {
             "title": "A Social Filesystem",
@@ -1669,8 +1669,14 @@
         "home": "https://www.johndcook.com/",
         "url": "https://www.johndcook.com/blog/feed/",
         "status": "ok",
-        "fetchedAt": "2026-04-12T23:37:04.458137+00:00",
+        "fetchedAt": "2026-04-13T02:50:46.705389+00:00",
         "items": [
+          {
+            "title": "Lunar period approximations",
+            "link": "https://www.johndcook.com/blog/2026/04/12/lunations/",
+            "date": "2026-04-12T23:42:01+00:00",
+            "summary": "The date of Easter The church fixed Easter to be the first Sunday after the first full moon after the Spring equinox. They were choosing a date in the Roman (Julian) calendar to commemorate an event whose date was known according to the Jewish lunisolar calendar, hence the reference to equinoxes and"
+          },
           {
             "title": "The gap between Eastern and Western Easter",
             "link": "https://www.johndcook.com/blog/2026/04/12/orthodox-western-easter/",
@@ -1724,12 +1730,6 @@
             "link": "https://www.johndcook.com/blog/2026/04/04/kalman-bayes/",
             "date": "2026-04-04T15:00:14+00:00",
             "summary": "This post will look at the problem of updating an average grade as a very simple special case of Bayesian statistics and of Kalman filtering. Suppose you&#8217;re keeping up with your average grade in a class, and you know your average after n tests, all weighted equally. m = (x1 + x2 + x3 + [&#8230"
-          },
-          {
-            "title": "Roman moon, Greek moon",
-            "link": "https://www.johndcook.com/blog/2026/04/03/roman-moon-greek-moon/",
-            "date": "2026-04-03T16:31:54+00:00",
-            "summary": "I used the term perilune in yesterday&#8217;s post about the flight path of Artemis II. When Artemis is closest to the moon it will be furthest from earth because its closest approach to the moon, its perilune, is on the side of the moon opposite earth. Perilune is sometimes called periselene. The t"
           }
         ]
       },
@@ -1740,7 +1740,7 @@
         "home": "https://matklad.github.io/",
         "url": "https://matklad.github.io/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-12T23:37:04.371743+00:00",
+        "fetchedAt": "2026-04-13T02:50:46.717249+00:00",
         "items": [
           {
             "title": "Consensus Board Game",
@@ -1811,7 +1811,7 @@
         "home": "https://eli.thegreenplace.net/",
         "url": "https://eli.thegreenplace.net/feeds/all.atom.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-12T23:37:04.727899+00:00",
+        "fetchedAt": "2026-04-13T02:50:46.862583+00:00",
         "items": [
           {
             "title": "watgo - a WebAssembly Toolkit for Go",
@@ -1852,7 +1852,7 @@
         "home": "https://fabiensanglard.net/",
         "url": "https://fabiensanglard.net/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-12T23:37:04.747029+00:00",
+        "fetchedAt": "2026-04-13T02:50:46.807258+00:00",
         "items": [
           {
             "title": "How Michael Abrash doubled Quake framerate",
@@ -1923,7 +1923,7 @@
         "home": "https://blog.miguelgrinberg.com/",
         "url": "https://blog.miguelgrinberg.com/feed",
         "status": "ok",
-        "fetchedAt": "2026-04-12T23:37:05.282128+00:00",
+        "fetchedAt": "2026-04-13T02:50:47.408146+00:00",
         "items": [
           {
             "title": "SQLAlchemy 2 In Practice - Chapter 4 - Many-To-Many Relationships",
@@ -1994,7 +1994,7 @@
         "home": "https://www.troyhunt.com/",
         "url": "https://www.troyhunt.com/rss/",
         "status": "ok",
-        "fetchedAt": "2026-04-12T23:37:04.440723+00:00",
+        "fetchedAt": "2026-04-13T02:50:46.864509+00:00",
         "items": [
           {
             "title": "Weekly Update 498",
@@ -2065,7 +2065,7 @@
         "home": "https://anildash.com/",
         "url": "https://anildash.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-12T23:37:04.437105+00:00",
+        "fetchedAt": "2026-04-13T02:50:46.920409+00:00",
         "items": [
           {
             "title": "Taking action against AI harms",
@@ -2136,7 +2136,7 @@
         "home": "https://computer.rip/",
         "url": "https://computer.rip/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-12T23:37:04.862954+00:00",
+        "fetchedAt": "2026-04-13T02:50:47.392634+00:00",
         "items": [
           {
             "title": "IrDA",
@@ -2217,7 +2217,7 @@
         "home": "http://paulgraham.com/",
         "url": "http://www.aaronsw.com/2002/feeds/pgessays.rss",
         "status": "ok",
-        "fetchedAt": "2026-04-12T23:37:04.522520+00:00",
+        "fetchedAt": "2026-04-13T02:50:46.889252+00:00",
         "items": [
           {
             "title": "Superlinear Returns",
@@ -2288,7 +2288,7 @@
         "home": "https://steveblank.com/",
         "url": "https://steveblank.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-04-12T23:37:04.092949+00:00",
+        "fetchedAt": "2026-04-13T02:50:46.966303+00:00",
         "items": [
           {
             "title": "Nowhere Is Safe",
@@ -2361,14 +2361,8 @@
         "home": "https://news.ycombinator.com/",
         "url": "https://news.ycombinator.com/rss",
         "status": "ok",
-        "fetchedAt": "2026-04-12T23:37:04.508691+00:00",
+        "fetchedAt": "2026-04-13T02:50:47.252952+00:00",
         "items": [
-          {
-            "title": "The peril of laziness lost",
-            "link": "https://bcantrill.dtrace.org/2026/04/12/the-peril-of-laziness-lost/",
-            "date": "2026-04-12T19:44:40+00:00",
-            "summary": "Comments"
-          },
           {
             "title": "Taking on CUDA with ROCm: 'One Step After Another'",
             "link": "https://www.eetimes.com/taking-on-cuda-with-rocm-one-step-after-another/",
@@ -2376,7 +2370,7 @@
             "summary": "Comments"
           },
           {
-            "title": "Bring Back Idiomatic Design",
+            "title": "Bring Back Idiomatic Design (2023)",
             "link": "https://essays.johnloeber.com/p/4-bring-back-idiomatic-design",
             "date": "2026-04-12T12:21:26+00:00",
             "summary": "Comments"
@@ -2388,27 +2382,21 @@
             "summary": "Comments"
           },
           {
+            "title": "Show HN: boringBar – a taskbar-style dock replacement for macOS",
+            "link": "https://boringbar.app/",
+            "date": "2026-04-12T17:25:44+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "A Perfectable Programming Language",
+            "link": "https://alok.github.io/lean-pages/perfectable-lean/",
+            "date": "2026-04-12T21:11:24+00:00",
+            "summary": "Comments"
+          },
+          {
             "title": "Ask HN: What Are You Working On? (April 2026)",
             "link": "https://news.ycombinator.com/item?id=47741527",
             "date": "2026-04-12T16:24:43+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "Tech valuations are back to pre-AI boom levels",
-            "link": "https://www.apollo.com/wealth/the-daily-spark/tech-valuations-back-to-pre-ai-boom-levels",
-            "date": "2026-04-12T22:13:22+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "Google removes \"Doki Doki Literature Club\" from Google Play",
-            "link": "https://bsky.app/profile/serenityforge.com/post/3mj3r4nbiws2t",
-            "date": "2026-04-12T19:53:08+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "I gave every train in New York an instrument",
-            "link": "https://www.trainjazz.com/",
-            "date": "2026-04-10T15:21:07+00:00",
             "summary": "Comments"
           },
           {
@@ -2418,9 +2406,21 @@
             "summary": "Comments"
           },
           {
-            "title": "Show HN: boringBar – a taskbar-style dock replacement for macOS",
-            "link": "https://boringbar.app/",
-            "date": "2026-04-12T17:25:44+00:00",
+            "title": "Optimization of 32-bit Unsigned Division by Constants on 64-bit Targets",
+            "link": "https://arxiv.org/abs/2604.07902",
+            "date": "2026-04-12T09:14:30+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "I gave every train in New York an instrument",
+            "link": "https://www.trainjazz.com/",
+            "date": "2026-04-10T15:21:07+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "Show HN: Oberon System 3 runs natively on Raspberry Pi 3 (with ready SD card)",
+            "link": "https://github.com/rochus-keller/OberonSystem3Native/releases",
+            "date": "2026-04-12T13:06:44+00:00",
             "summary": "Comments"
           }
         ]
@@ -2432,8 +2432,14 @@
         "home": "https://www.techmeme.com/",
         "url": "https://www.techmeme.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-12T23:37:04.475681+00:00",
+        "fetchedAt": "2026-04-13T02:50:47.409117+00:00",
         "items": [
+          {
+            "title": "Anthropic debuts Claude for Word in beta, which adds AI editing tools and clickable citations, targeting document-heavy workflows, for Team and Enterprise users (Tristan Anthony/Business Insider)",
+            "link": "http://www.techmeme.com/260412/p11#a260412p11",
+            "date": "2026-04-12T21:35:34-04:00",
+            "summary": "Tristan Anthony / Business Insider: Anthropic debuts Claude for Word in beta, which adds AI editing tools and clickable citations, targeting document-heavy workflows, for Team and Enterprise users&nbsp; &mdash;&nbsp; - Anthropic launched a beta version of Claude for Word.&nbsp; &mdash; It follows Fe"
+          },
           {
             "title": "Police report: Sam Altman's home appears to have been targeted in a second attack after a gun appeared to have been fired at his home from a car early Sunday (Jonah Owen Lamb/The San Francisco ...)",
             "link": "http://www.techmeme.com/260412/p10#a260412p10",
@@ -2487,12 +2493,6 @@
             "link": "http://www.techmeme.com/260412/p2#a260412p2",
             "date": "2026-04-12T01:05:01-04:00",
             "summary": "Simon Batt / XDA Developers: The Linux Kernel Organization now lets developers submit AI-generated code, as long as it complies with the guidelines, licensing, and attribution requirements&nbsp; &mdash;&nbsp; - Linux allows AI-generated kernel code, but the community will treat it as your own contri"
-          },
-          {
-            "title": "Analysts and researchers say Google's TurboQuant compression algorithm to make LLMs more efficient is more likely to expand memory chip demand than reduce it (Daniel Tudor/Financial Times)",
-            "link": "http://www.techmeme.com/260412/p1#a260412p1",
-            "date": "2026-04-12T00:50:01-04:00",
-            "summary": "Daniel Tudor / Financial Times: Analysts and researchers say Google's TurboQuant compression algorithm to make LLMs more efficient is more likely to expand memory chip demand than reduce it&nbsp; &mdash;&nbsp; More efficient artificial intelligence could mean even greater need for semiconductors, sa"
           }
         ]
       },
@@ -2503,7 +2503,7 @@
         "home": "https://techcrunch.com/",
         "url": "https://techcrunch.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-04-12T23:37:04.102552+00:00",
+        "fetchedAt": "2026-04-13T02:50:46.799547+00:00",
         "items": [
           {
             "title": "Trump officials may be encouraging banks to test Anthropic’s Mythos model",
@@ -2574,7 +2574,7 @@
         "home": "https://techcrunch.com/category/artificial-intelligence/",
         "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
         "status": "ok",
-        "fetchedAt": "2026-04-12T23:37:04.497571+00:00",
+        "fetchedAt": "2026-04-13T02:50:46.873453+00:00",
         "items": [
           {
             "title": "Trump officials may be encouraging banks to test Anthropic’s Mythos model",
@@ -2645,7 +2645,7 @@
         "home": "https://techcrunch.com/tag/funding/",
         "url": "https://techcrunch.com/tag/funding/feed/",
         "status": "ok",
-        "fetchedAt": "2026-04-12T23:37:04.502205+00:00",
+        "fetchedAt": "2026-04-13T02:50:46.928999+00:00",
         "items": [
           {
             "title": "Meridian raises $17 million to remake the agentic spreadsheet",
@@ -2716,7 +2716,7 @@
         "home": "https://venturebeat.com/",
         "url": "https://venturebeat.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-04-12T23:37:04.230466+00:00",
+        "fetchedAt": "2026-04-13T02:50:46.914136+00:00",
         "items": [
           {
             "title": "Five signs data drift is already undermining your security models",
@@ -2769,7 +2769,7 @@
         "home": "https://venturebeat.com/category/ai/",
         "url": "https://venturebeat.com/category/ai/feed/",
         "status": "ok",
-        "fetchedAt": "2026-04-12T23:37:04.491259+00:00",
+        "fetchedAt": "2026-04-13T02:50:46.949968+00:00",
         "items": [
           {
             "title": "Railway secures $100 million to challenge AWS with AI-native cloud infrastructure",
@@ -2834,7 +2834,7 @@
         "home": "https://www.bestblogs.dev/",
         "url": "https://www.bestblogs.dev/zh/feeds/rss?category=ai&minScore=90",
         "status": "ok",
-        "fetchedAt": "2026-04-12T23:37:04.982770+00:00",
+        "fetchedAt": "2026-04-13T02:50:47.373029+00:00",
         "items": [
           {
             "title": "MiniMax M2.7 开源，携手全球伙伴加速 AI 生态繁荣",
@@ -2902,6 +2902,36 @@
   },
   "allItems": [
     {
+      "title": "Quoting Bryan Cantrill",
+      "link": "https://simonwillison.net/2026/Apr/13/bryan-cantrill/#atom-everything",
+      "date": "2026-04-13T02:44:24+00:00",
+      "summary": "The problem is that LLMs inherently lack the virtue of laziness. Work costs nothing to an LLM. LLMs do not feel a need to optimize for their own (or anyone's) future time, and will happily dump more and more onto a layercake of garbage. Left unchecked, LLMs will make systems larger, not better &mdas",
+      "feedId": "simonwillison",
+      "feedTitle": "Simon Willison",
+      "category": "AI & LLM",
+      "feedHome": "https://simonwillison.net/"
+    },
+    {
+      "title": "Gemma 4 audio with MLX",
+      "link": "https://simonwillison.net/2026/Apr/12/mlx-audio/#atom-everything",
+      "date": "2026-04-12T23:57:53+00:00",
+      "summary": "Thanks to a tip from Rahim Nathwani, here's a uv run recipe for transcribing an audio file on macOS using the 10.28 GB Gemma 4 E2B model with MLX and mlx-vlm: uv run --python 3.13 --with mlx_vlm --with torchvision --with gradio \\ mlx_vlm.generate \\ --model google/gemma-4-e2b-it \\ --audio file.wav \\ ",
+      "feedId": "simonwillison",
+      "feedTitle": "Simon Willison",
+      "category": "AI & LLM",
+      "feedHome": "https://simonwillison.net/"
+    },
+    {
+      "title": "Lunar period approximations",
+      "link": "https://www.johndcook.com/blog/2026/04/12/lunations/",
+      "date": "2026-04-12T23:42:01+00:00",
+      "summary": "The date of Easter The church fixed Easter to be the first Sunday after the first full moon after the Spring equinox. They were choosing a date in the Roman (Julian) calendar to commemorate an event whose date was known according to the Jewish lunisolar calendar, hence the reference to equinoxes and",
+      "feedId": "johndcook",
+      "feedTitle": "John D. Cook",
+      "category": "Tech Blogs",
+      "feedHome": "https://www.johndcook.com/"
+    },
+    {
       "title": "Zed — A Font Superfamily",
       "link": "https://www.typotheque.com/blog/zed-a-sans-for-the-needs-of-21century/?utm_source=df",
       "date": "2026-04-12T22:57:41+00:00",
@@ -2932,14 +2962,14 @@
       "feedHome": "https://news.ycombinator.com/"
     },
     {
-      "title": "Tech valuations are back to pre-AI boom levels",
-      "link": "https://www.apollo.com/wealth/the-daily-spark/tech-valuations-back-to-pre-ai-boom-levels",
-      "date": "2026-04-12T22:13:22+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
+      "title": "Anthropic debuts Claude for Word in beta, which adds AI editing tools and clickable citations, targeting document-heavy workflows, for Team and Enterprise users (Tristan Anthony/Business Insider)",
+      "link": "http://www.techmeme.com/260412/p11#a260412p11",
+      "date": "2026-04-12T21:35:34-04:00",
+      "summary": "Tristan Anthony / Business Insider: Anthropic debuts Claude for Word in beta, which adds AI editing tools and clickable citations, targeting document-heavy workflows, for Team and Enterprise users&nbsp; &mdash;&nbsp; - Anthropic launched a beta version of Claude for Word.&nbsp; &mdash; It follows Fe",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
       "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
+      "feedHome": "https://www.techmeme.com/"
     },
     {
       "title": "Trump officials may be encouraging banks to test Anthropic’s Mythos model",
@@ -2962,6 +2992,16 @@
       "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
     },
     {
+      "title": "A Perfectable Programming Language",
+      "link": "https://alok.github.io/lean-pages/perfectable-lean/",
+      "date": "2026-04-12T21:11:24+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
       "title": "Apple reportedly testing four designs for upcoming smart glasses",
       "link": "https://techcrunch.com/2026/04/12/apple-reportedly-testing-four-designs-for-upcoming-smart-glasses/",
       "date": "2026-04-12T19:58:42+00:00",
@@ -2980,26 +3020,6 @@
       "feedTitle": "TechCrunch AI",
       "category": "Startup & News",
       "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
-    },
-    {
-      "title": "Google removes \"Doki Doki Literature Club\" from Google Play",
-      "link": "https://bsky.app/profile/serenityforge.com/post/3mj3r4nbiws2t",
-      "date": "2026-04-12T19:53:08+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
-      "title": "The peril of laziness lost",
-      "link": "https://bcantrill.dtrace.org/2026/04/12/the-peril-of-laziness-lost/",
-      "date": "2026-04-12T19:44:40+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
     },
     {
       "title": "Five signs data drift is already undermining your security models",
@@ -3192,7 +3212,17 @@
       "feedHome": "https://www.bestblogs.dev/"
     },
     {
-      "title": "Bring Back Idiomatic Design",
+      "title": "Show HN: Oberon System 3 runs natively on Raspberry Pi 3 (with ready SD card)",
+      "link": "https://github.com/rochus-keller/OberonSystem3Native/releases",
+      "date": "2026-04-12T13:06:44+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "Bring Back Idiomatic Design (2023)",
       "link": "https://essays.johnloeber.com/p/4-bring-back-idiomatic-design",
       "date": "2026-04-12T12:21:26+00:00",
       "summary": "Comments",
@@ -3242,6 +3272,16 @@
       "feedHome": "https://www.bestblogs.dev/"
     },
     {
+      "title": "Optimization of 32-bit Unsigned Division by Constants on 64-bit Targets",
+      "link": "https://arxiv.org/abs/2604.07902",
+      "date": "2026-04-12T09:14:30+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
       "title": "Claude 复活 30 年前传奇游戏，仅用一个周末",
       "link": "https://www.bestblogs.dev/article/a6a2ecb3",
       "date": "2026-04-12T07:00:45+00:00",
@@ -3286,16 +3326,6 @@
       "link": "http://www.techmeme.com/260412/p2#a260412p2",
       "date": "2026-04-12T01:05:01-04:00",
       "summary": "Simon Batt / XDA Developers: The Linux Kernel Organization now lets developers submit AI-generated code, as long as it complies with the guidelines, licensing, and attribution requirements&nbsp; &mdash;&nbsp; - Linux allows AI-generated kernel code, but the community will treat it as your own contri",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "Analysts and researchers say Google's TurboQuant compression algorithm to make LLMs more efficient is more likely to expand memory chip demand than reduce it (Daniel Tudor/Financial Times)",
-      "link": "http://www.techmeme.com/260412/p1#a260412p1",
-      "date": "2026-04-12T00:50:01-04:00",
-      "summary": "Daniel Tudor / Financial Times: Analysts and researchers say Google's TurboQuant compression algorithm to make LLMs more efficient is more likely to expand memory chip demand than reduce it&nbsp; &mdash;&nbsp; More efficient artificial intelligence could mean even greater need for semiconductors, sa",
       "feedId": "techmeme",
       "feedTitle": "Techmeme",
       "category": "Startup & News",
@@ -4042,26 +4072,6 @@
       "feedHome": "https://lucumr.pocoo.org/"
     },
     {
-      "title": "GLM-5.1: Towards Long-Horizon Tasks",
-      "link": "https://simonwillison.net/2026/Apr/7/glm-51/#atom-everything",
-      "date": "2026-04-07T21:25:14+00:00",
-      "summary": "GLM-5.1: Towards Long-Horizon Tasks Chinese AI lab Z.ai's latest model is a giant 754B parameter 1.51TB (on Hugging Face) MIT-licensed monster - the same size as their previous GLM-5 release, and sharing the same paper. It's available via OpenRouter so I asked it to draw me a pelican: llm install ll",
-      "feedId": "simonwillison",
-      "feedTitle": "Simon Willison",
-      "category": "AI & LLM",
-      "feedHome": "https://simonwillison.net/"
-    },
-    {
-      "title": "Anthropic's Project Glasswing - restricting Claude Mythos to security researchers - sounds necessary to me",
-      "link": "https://simonwillison.net/2026/Apr/7/project-glasswing/#atom-everything",
-      "date": "2026-04-07T20:52:54+00:00",
-      "summary": "Anthropic didn't release their latest model, Claude Mythos (system card PDF), today. They have instead made it available to a very restricted set of preview partners under their newly announced Project Glasswing. The model is a general purpose model, similar to Claude Opus 4.6, but Anthropic claim t",
-      "feedId": "simonwillison",
-      "feedTitle": "Simon Willison",
-      "category": "AI & LLM",
-      "feedHome": "https://simonwillison.net/"
-    },
-    {
       "title": "Russia Hacked Routers to Steal Microsoft Office Tokens",
       "link": "https://krebsonsecurity.com/2026/04/russia-hacked-routers-to-steal-microsoft-office-tokens/",
       "date": "2026-04-07T17:02:44+00:00",
@@ -4260,16 +4270,6 @@
       "feedTitle": "Armin Ronacher",
       "category": "Tech Blogs",
       "feedHome": "https://lucumr.pocoo.org/"
-    },
-    {
-      "title": "Roman moon, Greek moon",
-      "link": "https://www.johndcook.com/blog/2026/04/03/roman-moon-greek-moon/",
-      "date": "2026-04-03T16:31:54+00:00",
-      "summary": "I used the term perilune in yesterday&#8217;s post about the flight path of Artemis II. When Artemis is closest to the moon it will be furthest from earth because its closest approach to the moon, its perilune, is on the side of the moon opposite earth. Perilune is sometimes called periselene. The t",
-      "feedId": "johndcook",
-      "feedTitle": "John D. Cook",
-      "category": "Tech Blogs",
-      "feedHome": "https://www.johndcook.com/"
     },
     {
       "title": "How can I use Read­Directory­ChangesW to know when someone is copying a file out of the directory?",
