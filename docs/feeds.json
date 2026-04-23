@@ -1,9 +1,10 @@
 {
-  "updatedAt": "2026-04-23T15:55:16.668709+00:00",
+  "updatedAt": "2026-04-23T17:22:19.190077+00:00",
   "totalFeeds": 51,
-  "successCount": 44,
-  "failedCount": 7,
+  "successCount": 43,
+  "failedCount": 8,
   "failed": [
+    "simonwillison",
     "gwern",
     "garymarcus",
     "thesequence",
@@ -20,70 +21,9 @@
         "title": "Simon Willison",
         "home": "https://simonwillison.net/",
         "url": "https://simonwillison.net/atom/everything/",
-        "status": "ok",
-        "fetchedAt": "2026-04-23T15:55:06.219198+00:00",
-        "items": [
-          {
-            "title": "Quoting Maggie Appleton",
-            "link": "https://simonwillison.net/2026/Apr/23/maggie-appleton/#atom-everything",
-            "date": "2026-04-23T13:35:37+00:00",
-            "summary": "[...] if you ever needed another reason to learn in public by digital gardening or podcasting or streaming or whathaveyou, add on that people will assume you’re more competent than you are. This will get you invites to very cool exclusive events filled with high-achieving, interesting people, even t"
-          },
-          {
-            "title": "Qwen3.6-27B: Flagship-Level Coding in a 27B Dense Model",
-            "link": "https://simonwillison.net/2026/Apr/22/qwen36-27b/#atom-everything",
-            "date": "2026-04-22T16:45:23+00:00",
-            "summary": "Qwen3.6-27B: Flagship-Level Coding in a 27B Dense Model Big claims from Qwen about their latest open weight model: Qwen3.6-27B delivers flagship-level agentic coding performance, surpassing the previous-generation open-source flagship Qwen3.5-397B-A17B (397B total / 17B active MoE) across all major "
-          },
-          {
-            "title": "Quoting Bobby Holley",
-            "link": "https://simonwillison.net/2026/Apr/22/bobby-holley/#atom-everything",
-            "date": "2026-04-22T05:40:56+00:00",
-            "summary": "As part of our continued collaboration with Anthropic, we had the opportunity to apply an early version of Claude Mythos Preview to Firefox. This week’s release of Firefox 150 includes fixes for 271 vulnerabilities identified during this initial evaluation. [...] Our experience is a hopeful one for "
-          },
-          {
-            "title": "Changes to GitHub Copilot Individual plans",
-            "link": "https://simonwillison.net/2026/Apr/22/changes-to-github-copilot/#atom-everything",
-            "date": "2026-04-22T03:30:02+00:00",
-            "summary": "Changes to GitHub Copilot Individual plans On the same day as Claude Code's temporary will-they-won't-they $100/month kerfuffle (for the moment, they won't), here's the latest on GitHub Copilot pricing. Unlike Anthropic, GitHub put up an official announcement about their changes, which include tight"
-          },
-          {
-            "title": "Is Claude Code going to cost $100/month? Probably not - it's all very confusing",
-            "link": "https://simonwillison.net/2026/Apr/22/claude-code-confusion/#atom-everything",
-            "date": "2026-04-22T02:07:34+00:00",
-            "summary": "Anthropic today quietly (as in silently, no announcement anywhere at all) updated their claude.com/pricing page (but not their Choosing a Claude plan page, which shows up first for me on Google) to add this tiny but significant detail (arrow is mine, and it's already reverted): The Internet Archive "
-          },
-          {
-            "title": "Where's the raccoon with the ham radio? (ChatGPT Images 2.0)",
-            "link": "https://simonwillison.net/2026/Apr/21/gpt-image-2/#atom-everything",
-            "date": "2026-04-21T20:32:24+00:00",
-            "summary": "OpenAI released ChatGPT Images 2.0 today, their latest image generation model. On the livestream Sam Altman said that the leap from gpt-image-1 to gpt-image-2 was equivalent to jumping from GPT-3 to GPT-5. Here's how I put it to the test. My prompt: Do a where's Waldo style image but it's where is t"
-          },
-          {
-            "title": "Quoting Andreas Påhlsson-Notini",
-            "link": "https://simonwillison.net/2026/Apr/21/andreas-pahlsson-notini/#atom-everything",
-            "date": "2026-04-21T16:39:33+00:00",
-            "summary": "AI agents are already too human. Not in the romantic sense, not because they love or fear or dream, but in the more banal and frustrating one. The current implementations keep showing their human origin again and again: lack of stringency, lack of patience, lack of focus. Faced with an awkward task,"
-          },
-          {
-            "title": "scosman/pelicans_riding_bicycles",
-            "link": "https://simonwillison.net/2026/Apr/21/scosman/#atom-everything",
-            "date": "2026-04-21T15:54:43+00:00",
-            "summary": "scosman/pelicans_riding_bicycles I firmly approve of Steve Cosman's efforts to pollute the training set of pelicans riding bicycles. (To be fair, most of the examples I've published count as poisoning too.) Via Hacker News comment Tags: ai, generative-ai, llms, training-data, pelican-riding-a-bicycl"
-          },
-          {
-            "title": "llm-openrouter 0.6",
-            "link": "https://simonwillison.net/2026/Apr/20/llm-openrouter/#atom-everything",
-            "date": "2026-04-20T18:00:26+00:00",
-            "summary": "Release: llm-openrouter 0.6 llm openrouter refresh command for refreshing the list of available models without waiting for the cache to expire. I added this feature so I could try Kimi 2.6 on OpenRouter as soon as it became available there. Here's its pelican - this time as an HTML page because Kimi"
-          },
-          {
-            "title": "SQL functions in Google Sheets to fetch data from Datasette",
-            "link": "https://simonwillison.net/2026/Apr/20/datasette-sql/#atom-everything",
-            "date": "2026-04-20T02:33:58+00:00",
-            "summary": "TIL: SQL functions in Google Sheets to fetch data from Datasette I put together some notes on patterns for fetching data from a Datasette instance directly into Google Sheets - using the importdata() function, a \"named function\" that wraps it or a Google Apps Script if you need to send an API token "
-          }
-        ]
+        "status": "error",
+        "error": "timeout",
+        "items": []
       },
       {
         "id": "openai",
@@ -92,19 +32,13 @@
         "home": "https://openai.com/news/",
         "url": "https://openai.com/news/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-23T15:55:06.266048+00:00",
+        "fetchedAt": "2026-04-23T17:22:09.164862+00:00",
         "items": [
           {
             "title": "Making ChatGPT better for clinicians",
             "link": "https://openai.com/index/making-chatgpt-better-for-clinicians",
             "date": "2026-04-22T15:00:00+00:00",
             "summary": "OpenAI makes ChatGPT for Clinicians free for verified U.S. physicians, nurse practitioners, and pharmacists, supporting clinical care, documentation, and research."
-          },
-          {
-            "title": "Workspace agents",
-            "link": "https://openai.com/academy/workspace-agents",
-            "date": "2026-04-22T10:00:00+00:00",
-            "summary": "Learn how to build, use, and scale workspace agents in ChatGPT to automate repeatable workflows, connect tools, and streamline team operations."
           },
           {
             "title": "Introducing workspace agents in ChatGPT",
@@ -117,6 +51,12 @@
             "link": "https://openai.com/index/speeding-up-agentic-workflows-with-websockets",
             "date": "2026-04-22T10:00:00+00:00",
             "summary": "A deep dive into the Codex agent loop, showing how WebSockets and connection-scoped caching reduced API overhead and improved model latency."
+          },
+          {
+            "title": "Workspace agents",
+            "link": "https://openai.com/academy/workspace-agents",
+            "date": "2026-04-22T10:00:00+00:00",
+            "summary": "Learn how to build, use, and scale workspace agents in ChatGPT to automate repeatable workflows, connect tools, and streamline team operations."
           },
           {
             "title": "Introducing OpenAI Privacy Filter",
@@ -163,7 +103,7 @@
         "home": "https://arxiv.org/list/cs.AI/recent",
         "url": "https://arxiv.org/rss/cs.AI",
         "status": "ok",
-        "fetchedAt": "2026-04-23T15:55:06.421120+00:00",
+        "fetchedAt": "2026-04-23T17:22:09.328716+00:00",
         "items": [
           {
             "title": "The Tool-Overuse Illusion: Why Does LLM Prefer External Tools over Internal Knowledge?",
@@ -234,7 +174,7 @@
         "home": "https://arxiv.org/list/cs.LG/recent",
         "url": "https://arxiv.org/rss/cs.LG",
         "status": "ok",
-        "fetchedAt": "2026-04-23T15:55:06.447458+00:00",
+        "fetchedAt": "2026-04-23T17:22:09.290388+00:00",
         "items": [
           {
             "title": "WorkflowGen:an adaptive workflow generation mechanism driven by trajectory experience",
@@ -305,7 +245,7 @@
         "home": "https://research.google/blog/",
         "url": "https://research.google/blog/rss/",
         "status": "ok",
-        "fetchedAt": "2026-04-23T15:55:06.634155+00:00",
+        "fetchedAt": "2026-04-23T17:22:09.004728+00:00",
         "items": [
           {
             "title": "It's all about the angle: Your photos, re-composed",
@@ -376,7 +316,7 @@
         "home": "https://deepmind.google/blog/",
         "url": "https://deepmind.google/blog/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-23T15:55:06.726328+00:00",
+        "fetchedAt": "2026-04-23T17:22:08.988038+00:00",
         "items": [
           {
             "title": "Decoupled DiLoCo: A new frontier for resilient, distributed AI training",
@@ -447,7 +387,7 @@
         "home": "https://lilianweng.github.io/",
         "url": "https://lilianweng.github.io/lil-log/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-23T15:55:06.002761+00:00",
+        "fetchedAt": "2026-04-23T17:22:08.750702+00:00",
         "items": [
           {
             "title": "Active Learning",
@@ -538,7 +478,7 @@
         "home": "https://minimaxir.com/",
         "url": "https://minimaxir.com/index.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-23T15:55:06.144822+00:00",
+        "fetchedAt": "2026-04-23T17:22:08.854964+00:00",
         "items": [
           {
             "title": "An AI agent coding skeptic tries AI agent coding, in excessive detail",
@@ -621,7 +561,7 @@
         "home": "https://www.jeffgeerling.com/",
         "url": "https://www.jeffgeerling.com/blog.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-23T15:55:06.149284+00:00",
+        "fetchedAt": "2026-04-23T17:22:08.857571+00:00",
         "items": [
           {
             "title": "An Arm Mainboard for the Framework Laptop",
@@ -692,7 +632,7 @@
         "home": "https://www.seangoedecke.com/",
         "url": "https://www.seangoedecke.com/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-23T15:55:06.704876+00:00",
+        "fetchedAt": "2026-04-23T17:22:08.840930+00:00",
         "items": [
           {
             "title": "Luddites and AI datacenters",
@@ -763,7 +703,7 @@
         "home": "https://krebsonsecurity.com/",
         "url": "https://krebsonsecurity.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-04-23T15:55:06.976544+00:00",
+        "fetchedAt": "2026-04-23T17:22:08.899670+00:00",
         "items": [
           {
             "title": "‘Scattered Spider’ Member ‘Tylerb’ Pleads Guilty",
@@ -834,7 +774,7 @@
         "home": "https://daringfireball.net/",
         "url": "https://daringfireball.net/feeds/main",
         "status": "ok",
-        "fetchedAt": "2026-04-23T15:55:06.276303+00:00",
+        "fetchedAt": "2026-04-23T17:22:08.914474+00:00",
         "items": [
           {
             "title": "DF T-Shirts and Hoodies: Get Them While the Getting Is Good",
@@ -905,7 +845,7 @@
         "home": "https://ericmigi.com/",
         "url": "https://ericmigi.com/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-23T15:55:06.298430+00:00",
+        "fetchedAt": "2026-04-23T17:22:08.823166+00:00",
         "items": [
           {
             "title": "Spring 2026 Pebble App Contest + SDK Updates",
@@ -976,7 +916,7 @@
         "home": "http://antirez.com/",
         "url": "http://antirez.com/rss",
         "status": "ok",
-        "fetchedAt": "2026-04-23T15:55:08.573359+00:00",
+        "fetchedAt": "2026-04-23T17:22:10.631414+00:00",
         "items": [
           {
             "title": "AI cybersecurity is not proof of work",
@@ -1047,7 +987,7 @@
         "home": "https://idiallo.com/",
         "url": "https://idiallo.com/feed.rss",
         "status": "ok",
-        "fetchedAt": "2026-04-23T15:55:06.605369+00:00",
+        "fetchedAt": "2026-04-23T17:22:08.940103+00:00",
         "items": [
           {
             "title": "How to Come Up With Great Ideas",
@@ -1118,7 +1058,7 @@
         "home": "https://maurycyz.com/",
         "url": "https://maurycyz.com/index.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-23T15:55:06.871502+00:00",
+        "fetchedAt": "2026-04-23T17:22:09.334790+00:00",
         "items": []
       },
       {
@@ -1128,7 +1068,7 @@
         "home": "https://pluralistic.net/",
         "url": "https://pluralistic.net/feed/",
         "status": "ok",
-        "fetchedAt": "2026-04-23T15:55:06.693911+00:00",
+        "fetchedAt": "2026-04-23T17:22:09.446942+00:00",
         "items": [
           {
             "title": "Pluralistic: The (other) problem with automatic conversion of free software to proprietary software (23 Apr 2026)",
@@ -1199,7 +1139,7 @@
         "home": "https://shkspr.mobi/blog/",
         "url": "https://shkspr.mobi/blog/feed/",
         "status": "ok",
-        "fetchedAt": "2026-04-23T15:55:07.422002+00:00",
+        "fetchedAt": "2026-04-23T17:22:09.530432+00:00",
         "items": [
           {
             "title": "Sneaky spam in conversational replies to blog posts",
@@ -1280,7 +1220,7 @@
         "home": "https://mitchellh.com/",
         "url": "https://mitchellh.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-23T15:55:06.354334+00:00",
+        "fetchedAt": "2026-04-23T17:22:09.531811+00:00",
         "items": [
           {
             "title": "Simdutf Can Now Be Used Without libc++ or libc++abi",
@@ -1351,7 +1291,7 @@
         "home": "https://dynomight.net/",
         "url": "https://dynomight.net/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-23T15:55:06.898192+00:00",
+        "fetchedAt": "2026-04-23T17:22:09.396013+00:00",
         "items": [
           {
             "title": "I quit drinking for a year",
@@ -1422,7 +1362,7 @@
         "home": "https://xeiaso.net/",
         "url": "https://xeiaso.net/blog.rss",
         "status": "ok",
-        "fetchedAt": "2026-04-23T15:55:06.696809+00:00",
+        "fetchedAt": "2026-04-23T17:22:09.401744+00:00",
         "items": [
           {
             "title": "Claude Code won April Fools Day this year",
@@ -1493,8 +1433,14 @@
         "home": "https://devblogs.microsoft.com/oldnewthing/",
         "url": "https://devblogs.microsoft.com/oldnewthing/feed",
         "status": "ok",
-        "fetchedAt": "2026-04-23T15:55:06.535271+00:00",
+        "fetchedAt": "2026-04-23T17:22:08.974609+00:00",
         "items": [
+          {
+            "title": "Another crash caused by uninstaller code injection into Explorer",
+            "link": "https://devblogs.microsoft.com/oldnewthing/20260423-00/?p=112261",
+            "date": "2026-04-23T14:00:00+00:00",
+            "summary": "Inadvertently destroying a staircase while standing on it. The post Another crash caused by uninstaller code injection into Explorer appeared first on The Old New Thing."
+          },
           {
             "title": "Mapping the page tables into memory via the page tables",
             "link": "https://devblogs.microsoft.com/oldnewthing/20260422-00/?p=112255",
@@ -1548,12 +1494,6 @@
             "link": "https://devblogs.microsoft.com/oldnewthing/20260410-00/?p=112223",
             "date": "2026-04-10T14:00:00+00:00",
             "summary": "Waiting for the waiting thread to acknowledge the change. The post How do you add or remove a handle from an active &lt;CODE&gt;Wait&shy;For&shy;Multiple&shy;Objects&lt;/CODE&gt;?, part 2 appeared first on The Old New Thing."
-          },
-          {
-            "title": "How do you add or remove a handle from an active Wait­For­Multiple­Objects?",
-            "link": "https://devblogs.microsoft.com/oldnewthing/20260409-00/?p=112220",
-            "date": "2026-04-09T14:00:00+00:00",
-            "summary": "You can't, but you can cooperate with the other thread. The post How do you add or remove a handle from an active &lt;CODE&gt;Wait&shy;For&shy;Multiple&shy;Objects&lt;/CODE&gt;? appeared first on The Old New Thing."
           }
         ]
       },
@@ -1564,7 +1504,7 @@
         "home": "https://www.righto.com/",
         "url": "https://www.righto.com/feeds/posts/default",
         "status": "ok",
-        "fetchedAt": "2026-04-23T15:55:07.218735+00:00",
+        "fetchedAt": "2026-04-23T17:22:09.648332+00:00",
         "items": []
       },
       {
@@ -1574,7 +1514,7 @@
         "home": "https://lucumr.pocoo.org/",
         "url": "https://lucumr.pocoo.org/feed.atom",
         "status": "ok",
-        "fetchedAt": "2026-04-23T15:55:06.495678+00:00",
+        "fetchedAt": "2026-04-23T17:22:09.087910+00:00",
         "items": [
           {
             "title": "The Center Has a Bias",
@@ -1645,7 +1585,7 @@
         "home": "https://skyfall.dev/",
         "url": "https://skyfall.dev/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-23T15:55:06.739246+00:00",
+        "fetchedAt": "2026-04-23T17:22:09.167100+00:00",
         "items": [
           {
             "title": "Good riddance, 4o",
@@ -1720,7 +1660,7 @@
         "home": "https://overreacted.io/",
         "url": "https://overreacted.io/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-23T15:55:06.637247+00:00",
+        "fetchedAt": "2026-04-23T17:22:09.453127+00:00",
         "items": [
           {
             "title": "A Social Filesystem",
@@ -1791,8 +1731,14 @@
         "home": "https://www.johndcook.com/",
         "url": "https://www.johndcook.com/blog/feed/",
         "status": "ok",
-        "fetchedAt": "2026-04-23T15:55:06.517964+00:00",
+        "fetchedAt": "2026-04-23T17:22:09.000031+00:00",
         "items": [
+          {
+            "title": "Approximation to solve an oblique triangle",
+            "link": "https://www.johndcook.com/blog/2026/04/23/solve-an-oblique-triangle/",
+            "date": "2026-04-23T15:56:02+00:00",
+            "summary": "The previous post gave a simple and accurate approximation for the smaller angle of a right triangle. Given a right triangle with sides a, b, and c, where a is the shortest side and c is the hypotenuse, the angle opposite side a is approximately in radians. The previous post worked in degrees, but h"
+          },
           {
             "title": "Simple approximation for solving a right triangle",
             "link": "https://www.johndcook.com/blog/2026/04/23/solve-a-right-triangle/",
@@ -1846,12 +1792,6 @@
             "link": "https://www.johndcook.com/blog/2026/04/13/the-smallest-math-library/",
             "date": "2026-04-13T14:33:16+00:00",
             "summary": "Andrzej Odrzywolek recently posted an article on arXiv showing that you can obtain all the elementary functions from just the function and the constant 1. The following equations, taken from the paper&#8217;s supplement, show how to bootstrap addition, subtraction, multiplication, and division from "
-          },
-          {
-            "title": "Lunar period approximations",
-            "link": "https://www.johndcook.com/blog/2026/04/12/lunations/",
-            "date": "2026-04-12T23:42:01+00:00",
-            "summary": "The date of Easter The church fixed Easter to be the first Sunday after the first full moon after the Spring equinox. They were choosing a date in the Roman (Julian) calendar to commemorate an event whose date was known according to the Jewish lunisolar calendar, hence the reference to equinoxes and"
           }
         ]
       },
@@ -1862,7 +1802,7 @@
         "home": "https://matklad.github.io/",
         "url": "https://matklad.github.io/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-23T15:55:06.316954+00:00",
+        "fetchedAt": "2026-04-23T17:22:09.033810+00:00",
         "items": [
           {
             "title": "256 Lines or Less: Test Case Minimization",
@@ -1933,7 +1873,7 @@
         "home": "https://eli.thegreenplace.net/",
         "url": "https://eli.thegreenplace.net/feeds/all.atom.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-23T15:55:06.457058+00:00",
+        "fetchedAt": "2026-04-23T17:22:09.358386+00:00",
         "items": [
           {
             "title": "Debugging WASM in Chrome DevTools",
@@ -1974,7 +1914,7 @@
         "home": "https://fabiensanglard.net/",
         "url": "https://fabiensanglard.net/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-23T15:55:07.019469+00:00",
+        "fetchedAt": "2026-04-23T17:22:09.427389+00:00",
         "items": [
           {
             "title": "How Michael Abrash doubled Quake framerate",
@@ -2045,7 +1985,7 @@
         "home": "https://blog.miguelgrinberg.com/",
         "url": "https://blog.miguelgrinberg.com/feed",
         "status": "ok",
-        "fetchedAt": "2026-04-23T15:55:07.363103+00:00",
+        "fetchedAt": "2026-04-23T17:22:09.475141+00:00",
         "items": [
           {
             "title": "SQLAlchemy 2 In Practice - Chapter 6: A Page Analytics Solution",
@@ -2116,7 +2056,7 @@
         "home": "https://www.troyhunt.com/",
         "url": "https://www.troyhunt.com/rss/",
         "status": "ok",
-        "fetchedAt": "2026-04-23T15:55:06.623921+00:00",
+        "fetchedAt": "2026-04-23T17:22:08.954014+00:00",
         "items": [
           {
             "title": "Weekly Update 500",
@@ -2187,7 +2127,7 @@
         "home": "https://anildash.com/",
         "url": "https://anildash.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-23T15:55:06.967960+00:00",
+        "fetchedAt": "2026-04-23T17:22:09.174278+00:00",
         "items": [
           {
             "title": "A Cookie for Dario? — Anthropic and selling death",
@@ -2258,7 +2198,7 @@
         "home": "https://computer.rip/",
         "url": "https://computer.rip/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-23T15:55:07.095445+00:00",
+        "fetchedAt": "2026-04-23T17:22:09.831314+00:00",
         "items": [
           {
             "title": "IrDA",
@@ -2339,7 +2279,7 @@
         "home": "http://paulgraham.com/",
         "url": "http://www.aaronsw.com/2002/feeds/pgessays.rss",
         "status": "ok",
-        "fetchedAt": "2026-04-23T15:55:06.803869+00:00",
+        "fetchedAt": "2026-04-23T17:22:09.331904+00:00",
         "items": [
           {
             "title": "Superlinear Returns",
@@ -2410,7 +2350,7 @@
         "home": "https://steveblank.com/",
         "url": "https://steveblank.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-04-23T15:55:06.344962+00:00",
+        "fetchedAt": "2026-04-23T17:22:09.460443+00:00",
         "items": [
           {
             "title": "AI and Teaching – The Brave New World",
@@ -2483,8 +2423,14 @@
         "home": "https://news.ycombinator.com/",
         "url": "https://news.ycombinator.com/rss",
         "status": "ok",
-        "fetchedAt": "2026-04-23T15:55:06.670816+00:00",
+        "fetchedAt": "2026-04-23T17:22:09.336248+00:00",
         "items": [
+          {
+            "title": "France confirms data breach at government agency that manages citizens' IDs",
+            "link": "https://techcrunch.com/2026/04/22/france-confirms-data-breach-at-government-agency-that-manages-citizens-ids/",
+            "date": "2026-04-23T15:59:55+00:00",
+            "summary": "Comments"
+          },
           {
             "title": "Bitwarden CLI Compromised in Ongoing Checkmarx Supply Chain Campaign",
             "link": "https://socket.dev/blog/bitwarden-cli-compromised",
@@ -2492,9 +2438,27 @@
             "summary": "Comments"
           },
           {
+            "title": "Incident with Multple GitHub Services",
+            "link": "https://www.githubstatus.com/incidents/myrbk7jvvs6p",
+            "date": "2026-04-23T16:21:55+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "'Hairdryer used to trick weather sensor' to win $34,000 Polymarket bet",
+            "link": "https://www.telegraph.co.uk/business/2026/04/23/hairdryer-used-trick-weather-sensor-34000-polymarket-bet/",
+            "date": "2026-04-23T17:01:01+00:00",
+            "summary": "Comments"
+          },
+          {
             "title": "I am building a cloud",
             "link": "https://crawshaw.io/blog/building-a-cloud",
             "date": "2026-04-23T04:44:19+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "A DIY Watch You Can Actually Wear",
+            "link": "https://www.hackster.io/news/a-diy-watch-you-can-actually-wear-8f91c2dac682",
+            "date": "2026-04-21T08:52:33+00:00",
             "summary": "Comments"
           },
           {
@@ -2516,33 +2480,9 @@
             "summary": "Comments"
           },
           {
-            "title": "Investigation uncovers two sophisticated telecom surveillance campaigns",
-            "link": "https://techcrunch.com/2026/04/23/surveillance-vendors-caught-abusing-access-to-telcos-to-track-peoples-phone-locations-researchers-say/",
-            "date": "2026-04-23T12:12:03+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "Apple fixes bug that cops used to extract deleted chat messages from iPhones",
-            "link": "https://techcrunch.com/2026/04/22/apple-fixes-bug-that-cops-used-to-extract-deleted-chat-messages-from-iphones/",
-            "date": "2026-04-22T20:27:31+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "Writing a C Compiler, in Zig (2025)",
-            "link": "https://ar-ms.me/thoughts/c-compiler-1-zig/",
-            "date": "2026-04-23T09:20:47+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "The Onion to Take over InfoWars",
-            "link": "https://www.nytimes.com/2026/04/20/business/infowars-alex-jones-the-onion.html",
-            "date": "2026-04-21T01:23:23+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "A Renaissance gambling dispute spawned probability theory",
-            "link": "https://www.scientificamerican.com/article/how-a-renaissance-gambling-dispute-spawned-probability-theory/",
-            "date": "2026-04-21T12:59:59+00:00",
+            "title": "To Protect and Swerve: NYPD Cop Has 547 Speeding Tickets",
+            "link": "https://nyc.streetsblog.org/2026/04/23/to-protect-and-swerve-nypd-cop-has-527-speeding-tickets-yet-remains-on-the-force",
+            "date": "2026-04-23T15:08:54+00:00",
             "summary": "Comments"
           }
         ]
@@ -2554,8 +2494,20 @@
         "home": "https://www.techmeme.com/",
         "url": "https://www.techmeme.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-23T15:55:06.607024+00:00",
+        "fetchedAt": "2026-04-23T17:22:09.787126+00:00",
         "items": [
+          {
+            "title": "A look at Microsoft's recent wave of executive departures, as it struggles to retain talent and changes its annual rewards and performance programs in response (Tom Warren/The Verge)",
+            "link": "http://www.techmeme.com/260423/p44#a260423p44",
+            "date": "2026-04-23T13:00:48-04:00",
+            "summary": "Tom Warren / The Verge: A look at Microsoft's recent wave of executive departures, as it struggles to retain talent and changes its annual rewards and performance programs in response&nbsp; &mdash;&nbsp; Leadership reshuffling signals the mounting pressure on Microsoft's AI bet. &hellip; It feels li"
+          },
+          {
+            "title": "Internal memo: Amazon is replacing white-collar job titles at its Ring and Blink units with the designation \"builder\", and \"builder leaders\" for managers (Greg Bensinger/Reuters)",
+            "link": "http://www.techmeme.com/260423/p43#a260423p43",
+            "date": "2026-04-23T12:25:01-04:00",
+            "summary": "Greg Bensinger / Reuters: Internal memo: Amazon is replacing white-collar job titles at its Ring and Blink units with the designation &ldquo;builder&rdquo;, and &ldquo;builder leaders&rdquo; for managers&nbsp; &mdash;&nbsp; During Amazon's (AMZN.O) annual review season now under way, hundreds of emp"
+          },
           {
             "title": "Manila-based Salmon, a consumer finance app targeting underbanked Filipinos, raised $60M in equity and $40M in debt; it raised $310M to date, $160M in equity (Kate Park/TechCrunch)",
             "link": "http://www.techmeme.com/260423/p42#a260423p42",
@@ -2603,18 +2555,6 @@
             "link": "http://www.techmeme.com/260423/p35#a260423p35",
             "date": "2026-04-23T09:40:05-04:00",
             "summary": "Ben Bergman / Business Insider: Anthropic's valuation has hit $1T on Forge Global, a leading private marketplace exchange, surpassing OpenAI's valuation on the platform of $880B&nbsp; &mdash;&nbsp; - Anthropic's valuation now hovers at $1 trillion on Forge Global, a leading private marketplace excha"
-          },
-          {
-            "title": "Orkes, which helps companies scale their AI and agentic systems, raised $60M, including a $40M Series B led by AVP, bringing its total funding to ~$90M (Chris Metinko/Axios)",
-            "link": "http://www.techmeme.com/260423/p34#a260423p34",
-            "date": "2026-04-23T09:30:01-04:00",
-            "summary": "Chris Metinko / Axios: Orkes, which helps companies scale their AI and agentic systems, raised $60M, including a $40M Series B led by AVP, bringing its total funding to ~$90M&nbsp; &mdash;&nbsp; Orkes, which helps companies scale their AI and agentic systems, raised $60 million, CEO Jeu George tells"
-          },
-          {
-            "title": "How Cash App founder Bob Lee's 2023 killing fed into a narrative pushed by tech leaders like Elon Musk about SF's decline until an acquaintance was convicted (Shawn Wen/Bloomberg)",
-            "link": "http://www.techmeme.com/260423/p33#a260423p33",
-            "date": "2026-04-23T09:01:22-04:00",
-            "summary": "Shawn Wen / Bloomberg: How Cash App founder Bob Lee's 2023 killing fed into a narrative pushed by tech leaders like Elon Musk about SF's decline until an acquaintance was convicted&nbsp; &mdash;&nbsp; The 2023 murder of a tech executive seemed to fit neatly into narratives about street crime in libe"
           }
         ]
       },
@@ -2625,8 +2565,32 @@
         "home": "https://techcrunch.com/",
         "url": "https://techcrunch.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-04-23T15:55:06.640457+00:00",
+        "fetchedAt": "2026-04-23T17:22:08.901398+00:00",
         "items": [
+          {
+            "title": "Bluesky now supports better quality photos",
+            "link": "https://techcrunch.com/2026/04/23/bluesky-now-supports-better-quality-photos/",
+            "date": "2026-04-23T16:41:14+00:00",
+            "summary": "The max size is now 2MB and max resolution is 4000x4000."
+          },
+          {
+            "title": "Microsoft offers buyout for up to 7% of U.S. employees",
+            "link": "https://techcrunch.com/2026/04/23/microsoft-offers-buyout-for-up-to-7-of-u-s-employees/",
+            "date": "2026-04-23T16:38:49+00:00",
+            "summary": "If a worker's years of service at Microsoft plus their age equals 70 or more, they will be eligible for a voluntary retirement buyout."
+          },
+          {
+            "title": "Era raises $11M to build a software platform for AI gadgets",
+            "link": "https://techcrunch.com/2026/04/23/era-computer-raises-11m-to-build-a-software-platform-for-ai-gadgets/",
+            "date": "2026-04-23T16:00:00+00:00",
+            "summary": "Era thinks that we will see many form factors of AI hardware, including glasses, rings, and pendants"
+          },
+          {
+            "title": "Meta is revamping its cross-app management system",
+            "link": "https://techcrunch.com/2026/04/23/meta-is-revamping-its-cross-app-management-system/",
+            "date": "2026-04-23T16:00:00+00:00",
+            "summary": "Meta's Accounts Center will transition to the Meta Account, which is supposed to make it easier to manage your experience on various Meta apps and devices."
+          },
           {
             "title": "X is shutting down Communities because of low usage and lots of spam",
             "link": "https://techcrunch.com/2026/04/23/x-is-shutting-down-communities-because-of-low-usage-and-lots-of-spam/",
@@ -2662,30 +2626,6 @@
             "link": "https://techcrunch.com/2026/04/23/labor-unrest-at-samsung-may-worsen-memory-chip-supply-issues/",
             "date": "2026-04-23T13:59:59+00:00",
             "summary": "Tens of thousands of Samsung Electronics workers held a rally at the company’s Pyeongtaek campus in South Korea on Thursday to signal they are prepared to walk off the job for an 18-day strike next month."
-          },
-          {
-            "title": "Tesla drops Musk’s $29B ‘interim’ award after Delaware court restored larger pay package",
-            "link": "https://techcrunch.com/2026/04/23/tesla-drops-musks-29b-interim-award-after-delaware-court-restored-larger-pay-package/",
-            "date": "2026-04-23T13:40:33+00:00",
-            "summary": "The company is following through on its promise to not let Musk \"double dip\" if he won his appeal to restore Tesla's 2018 compensation package, worth $56 billion."
-          },
-          {
-            "title": "WhatsApp adds prepaid phone recharges in India as its payments usage still lags",
-            "link": "https://techcrunch.com/2026/04/23/whatsapp-adds-prepaid-phone-recharges-in-india-as-its-payments-usage-still-lags/",
-            "date": "2026-04-23T13:28:56+00:00",
-            "summary": "WhatsApp is rolling out prepaid phone recharges to its 500 million users in India via PayU."
-          },
-          {
-            "title": "AI galaxy hunters are adding to the global GPU crunch",
-            "link": "https://techcrunch.com/2026/04/23/ai-galaxy-hunters-are-adding-to-the-global-gpu-crunch/",
-            "date": "2026-04-23T13:00:00+00:00",
-            "summary": "Astronomers are turning to GPUs to find needles in the galactic haystack."
-          },
-          {
-            "title": "Surveillance vendors caught abusing access to telcos to track people’s phone locations, researchers say",
-            "link": "https://techcrunch.com/2026/04/23/surveillance-vendors-caught-abusing-access-to-telcos-to-track-peoples-phone-locations-researchers-say/",
-            "date": "2026-04-23T12:01:00+00:00",
-            "summary": "The Citizen Lab found two separate surveillance vendors abusing the backbone of cellular networks to spy on several victims across the world."
           }
         ]
       },
@@ -2696,8 +2636,14 @@
         "home": "https://techcrunch.com/category/artificial-intelligence/",
         "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
         "status": "ok",
-        "fetchedAt": "2026-04-23T15:55:06.658660+00:00",
+        "fetchedAt": "2026-04-23T17:22:09.179695+00:00",
         "items": [
+          {
+            "title": "Era raises $11M to build a software platform for AI gadgets",
+            "link": "https://techcrunch.com/2026/04/23/era-computer-raises-11m-to-build-a-software-platform-for-ai-gadgets/",
+            "date": "2026-04-23T16:00:00+00:00",
+            "summary": "Era thinks that we will see many form factors of AI hardware, including glasses, rings, and pendants"
+          },
           {
             "title": "Grab a ticket today: The first StrictlyVC of 2026 kicks off in just a week in San Francisco",
             "link": "https://techcrunch.com/2026/04/23/grab-a-ticket-today-the-first-strictlyvc-of-2026-kicks-off-in-just-a-week-in-san-francisco/",
@@ -2720,7 +2666,7 @@
             "title": "Beehiiv rolls out new creator tools, including webinars and customizable paywalls",
             "link": "https://techcrunch.com/2026/04/23/beehiiv-rolls-out-new-creator-tools-including-webinars-and-customizable-paywalls/",
             "date": "2026-04-23T12:00:00+00:00",
-            "summary": "Beehiiv is clearly done being just a newsletter platform based on today's launch of a new webinar feature, customizable paywalls, and more."
+            "summary": "The announcement is a clear sign the company is trying to become an all-in-one hub for creators, reducing the hassle of juggling various tools and services to run their businesses."
           },
           {
             "title": "India’s app market is booming — but global platforms are capturing most of the gains",
@@ -2751,12 +2697,6 @@
             "link": "https://techcrunch.com/2026/04/22/how-spacex-preempted-a-2b-fundraise-with-a-60b-buyout-offer/",
             "date": "2026-04-22T19:51:51+00:00",
             "summary": "Cursor was on track to close a $2 billion funding round this week but chose to halt discussions after SpaceX offered a $10 billion \"collaboration fee\" and a path to a $60 billion acquisition."
-          },
-          {
-            "title": "Google Cloud launches two new AI chips to compete with Nvidia",
-            "link": "https://techcrunch.com/2026/04/22/google-cloud-next-new-tpu-ai-chips-compete-with-nvidia/",
-            "date": "2026-04-22T18:39:27+00:00",
-            "summary": "Google's newest TPUs are faster and cheaper than the previous versions. But the company is still embracing Nvidia in its cloud — for now."
           }
         ]
       },
@@ -2767,7 +2707,7 @@
         "home": "https://techcrunch.com/tag/funding/",
         "url": "https://techcrunch.com/tag/funding/feed/",
         "status": "ok",
-        "fetchedAt": "2026-04-23T15:55:06.707150+00:00",
+        "fetchedAt": "2026-04-23T17:22:09.201783+00:00",
         "items": [
           {
             "title": "Chipmakers AMD, Arm, and Qualcomm are all investing in this buzzy self-driving tech startup",
@@ -2838,7 +2778,7 @@
         "home": "https://venturebeat.com/",
         "url": "https://venturebeat.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-04-23T15:55:06.832773+00:00",
+        "fetchedAt": "2026-04-23T17:22:09.121272+00:00",
         "items": [
           {
             "title": "Talking to AI agents is one thing — what about when they talk to each other? New startup BAND debuts 'universal orchestrator'",
@@ -2891,7 +2831,7 @@
         "home": "https://venturebeat.com/category/ai/",
         "url": "https://venturebeat.com/category/ai/feed/",
         "status": "ok",
-        "fetchedAt": "2026-04-23T15:55:06.810101+00:00",
+        "fetchedAt": "2026-04-23T17:22:09.223703+00:00",
         "items": [
           {
             "title": "Railway secures $100 million to challenge AWS with AI-native cloud infrastructure",
@@ -2956,7 +2896,7 @@
         "home": "https://www.bestblogs.dev/",
         "url": "https://www.bestblogs.dev/zh/feeds/rss?category=ai&minScore=90",
         "status": "ok",
-        "fetchedAt": "2026-04-23T15:55:07.632442+00:00",
+        "fetchedAt": "2026-04-23T17:22:09.526694+00:00",
         "items": [
           {
             "title": "微软 Microsoft 365 Copilot 全线默认开启「智能体模式」",
@@ -3024,6 +2964,96 @@
   },
   "allItems": [
     {
+      "title": "'Hairdryer used to trick weather sensor' to win $34,000 Polymarket bet",
+      "link": "https://www.telegraph.co.uk/business/2026/04/23/hairdryer-used-trick-weather-sensor-34000-polymarket-bet/",
+      "date": "2026-04-23T17:01:01+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "Bluesky now supports better quality photos",
+      "link": "https://techcrunch.com/2026/04/23/bluesky-now-supports-better-quality-photos/",
+      "date": "2026-04-23T16:41:14+00:00",
+      "summary": "The max size is now 2MB and max resolution is 4000x4000.",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "Microsoft offers buyout for up to 7% of U.S. employees",
+      "link": "https://techcrunch.com/2026/04/23/microsoft-offers-buyout-for-up-to-7-of-u-s-employees/",
+      "date": "2026-04-23T16:38:49+00:00",
+      "summary": "If a worker's years of service at Microsoft plus their age equals 70 or more, they will be eligible for a voluntary retirement buyout.",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "Incident with Multple GitHub Services",
+      "link": "https://www.githubstatus.com/incidents/myrbk7jvvs6p",
+      "date": "2026-04-23T16:21:55+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "Era raises $11M to build a software platform for AI gadgets",
+      "link": "https://techcrunch.com/2026/04/23/era-computer-raises-11m-to-build-a-software-platform-for-ai-gadgets/",
+      "date": "2026-04-23T16:00:00+00:00",
+      "summary": "Era thinks that we will see many form factors of AI hardware, including glasses, rings, and pendants",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "Meta is revamping its cross-app management system",
+      "link": "https://techcrunch.com/2026/04/23/meta-is-revamping-its-cross-app-management-system/",
+      "date": "2026-04-23T16:00:00+00:00",
+      "summary": "Meta's Accounts Center will transition to the Meta Account, which is supposed to make it easier to manage your experience on various Meta apps and devices.",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "Era raises $11M to build a software platform for AI gadgets",
+      "link": "https://techcrunch.com/2026/04/23/era-computer-raises-11m-to-build-a-software-platform-for-ai-gadgets/",
+      "date": "2026-04-23T16:00:00+00:00",
+      "summary": "Era thinks that we will see many form factors of AI hardware, including glasses, rings, and pendants",
+      "feedId": "techcrunch-ai",
+      "feedTitle": "TechCrunch AI",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
+    },
+    {
+      "title": "France confirms data breach at government agency that manages citizens' IDs",
+      "link": "https://techcrunch.com/2026/04/22/france-confirms-data-breach-at-government-agency-that-manages-citizens-ids/",
+      "date": "2026-04-23T15:59:55+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "Approximation to solve an oblique triangle",
+      "link": "https://www.johndcook.com/blog/2026/04/23/solve-an-oblique-triangle/",
+      "date": "2026-04-23T15:56:02+00:00",
+      "summary": "The previous post gave a simple and accurate approximation for the smaller angle of a right triangle. Given a right triangle with sides a, b, and c, where a is the shortest side and c is the hypotenuse, the angle opposite side a is approximately in radians. The previous post worked in degrees, but h",
+      "feedId": "johndcook",
+      "feedTitle": "John D. Cook",
+      "category": "Tech Blogs",
+      "feedHome": "https://www.johndcook.com/"
+    },
+    {
       "title": "Talking to AI agents is one thing — what about when they talk to each other? New startup BAND debuts 'universal orchestrator'",
       "link": "https://venturebeat.com/orchestration/talking-to-ai-agents-is-one-thing-what-about-when-they-talk-to-each-other-new-startup-band-debuts-universal-orchestrator",
       "date": "2026-04-23T15:41:10+00:00",
@@ -3042,6 +3072,16 @@
       "feedTitle": "TechCrunch",
       "category": "Startup & News",
       "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "To Protect and Swerve: NYPD Cop Has 547 Speeding Tickets",
+      "link": "https://nyc.streetsblog.org/2026/04/23/to-protect-and-swerve-nypd-cop-has-527-speeding-tickets-yet-remains-on-the-force",
+      "date": "2026-04-23T15:08:54+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
     },
     {
       "title": "Salmon raises $100M in equity and debt to bring digital credit to underbanked Filipinos",
@@ -3072,6 +3112,16 @@
       "feedTitle": "Hacker News",
       "category": "Startup & News",
       "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "Another crash caused by uninstaller code injection into Explorer",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260423-00/?p=112261",
+      "date": "2026-04-23T14:00:00+00:00",
+      "summary": "Inadvertently destroying a staircase while standing on it. The post Another crash caused by uninstaller code injection into Explorer appeared first on The Old New Thing.",
+      "feedId": "oldnewthing",
+      "feedTitle": "The Old New Thing",
+      "category": "Tech Blogs",
+      "feedHome": "https://devblogs.microsoft.com/oldnewthing/"
     },
     {
       "title": "Grab a ticket today: The first StrictlyVC of 2026 kicks off in just a week in San Francisco",
@@ -3124,36 +3174,6 @@
       "feedHome": "https://techcrunch.com/"
     },
     {
-      "title": "Tesla drops Musk’s $29B ‘interim’ award after Delaware court restored larger pay package",
-      "link": "https://techcrunch.com/2026/04/23/tesla-drops-musks-29b-interim-award-after-delaware-court-restored-larger-pay-package/",
-      "date": "2026-04-23T13:40:33+00:00",
-      "summary": "The company is following through on its promise to not let Musk \"double dip\" if he won his appeal to restore Tesla's 2018 compensation package, worth $56 billion.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
-    },
-    {
-      "title": "Quoting Maggie Appleton",
-      "link": "https://simonwillison.net/2026/Apr/23/maggie-appleton/#atom-everything",
-      "date": "2026-04-23T13:35:37+00:00",
-      "summary": "[...] if you ever needed another reason to learn in public by digital gardening or podcasting or streaming or whathaveyou, add on that people will assume you’re more competent than you are. This will get you invites to very cool exclusive events filled with high-achieving, interesting people, even t",
-      "feedId": "simonwillison",
-      "feedTitle": "Simon Willison",
-      "category": "AI & LLM",
-      "feedHome": "https://simonwillison.net/"
-    },
-    {
-      "title": "WhatsApp adds prepaid phone recharges in India as its payments usage still lags",
-      "link": "https://techcrunch.com/2026/04/23/whatsapp-adds-prepaid-phone-recharges-in-india-as-its-payments-usage-still-lags/",
-      "date": "2026-04-23T13:28:56+00:00",
-      "summary": "WhatsApp is rolling out prepaid phone recharges to its 500 million users in India via PayU.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
-    },
-    {
       "title": "SQLAlchemy 2 In Practice - Chapter 6: A Page Analytics Solution",
       "link": "https://blog.miguelgrinberg.com/post/sqlalchemy-2-in-practice---chapter-6-a-page-analytics-solution",
       "date": "2026-04-23T13:10:55+00:00",
@@ -3164,14 +3184,14 @@
       "feedHome": "https://blog.miguelgrinberg.com/"
     },
     {
-      "title": "AI galaxy hunters are adding to the global GPU crunch",
-      "link": "https://techcrunch.com/2026/04/23/ai-galaxy-hunters-are-adding-to-the-global-gpu-crunch/",
-      "date": "2026-04-23T13:00:00+00:00",
-      "summary": "Astronomers are turning to GPUs to find needles in the galactic haystack.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
+      "title": "A look at Microsoft's recent wave of executive departures, as it struggles to retain talent and changes its annual rewards and performance programs in response (Tom Warren/The Verge)",
+      "link": "http://www.techmeme.com/260423/p44#a260423p44",
+      "date": "2026-04-23T13:00:48-04:00",
+      "summary": "Tom Warren / The Verge: A look at Microsoft's recent wave of executive departures, as it struggles to retain talent and changes its annual rewards and performance programs in response&nbsp; &mdash;&nbsp; Leadership reshuffling signals the mounting pressure on Microsoft's AI bet. &hellip; It feels li",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
       "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
+      "feedHome": "https://www.techmeme.com/"
     },
     {
       "title": "AI galaxy hunters are adding to the global GPU crunch",
@@ -3194,6 +3214,16 @@
       "feedHome": "https://pluralistic.net/"
     },
     {
+      "title": "Internal memo: Amazon is replacing white-collar job titles at its Ring and Blink units with the designation \"builder\", and \"builder leaders\" for managers (Greg Bensinger/Reuters)",
+      "link": "http://www.techmeme.com/260423/p43#a260423p43",
+      "date": "2026-04-23T12:25:01-04:00",
+      "summary": "Greg Bensinger / Reuters: Internal memo: Amazon is replacing white-collar job titles at its Ring and Blink units with the designation &ldquo;builder&rdquo;, and &ldquo;builder leaders&rdquo; for managers&nbsp; &mdash;&nbsp; During Amazon's (AMZN.O) annual review season now under way, hundreds of emp",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
       "title": "Simple approximation for solving a right triangle",
       "link": "https://www.johndcook.com/blog/2026/04/23/solve-a-right-triangle/",
       "date": "2026-04-23T12:13:35+00:00",
@@ -3204,30 +3234,10 @@
       "feedHome": "https://www.johndcook.com/"
     },
     {
-      "title": "Investigation uncovers two sophisticated telecom surveillance campaigns",
-      "link": "https://techcrunch.com/2026/04/23/surveillance-vendors-caught-abusing-access-to-telcos-to-track-peoples-phone-locations-researchers-say/",
-      "date": "2026-04-23T12:12:03+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
-      "title": "Surveillance vendors caught abusing access to telcos to track people’s phone locations, researchers say",
-      "link": "https://techcrunch.com/2026/04/23/surveillance-vendors-caught-abusing-access-to-telcos-to-track-peoples-phone-locations-researchers-say/",
-      "date": "2026-04-23T12:01:00+00:00",
-      "summary": "The Citizen Lab found two separate surveillance vendors abusing the backbone of cellular networks to spy on several victims across the world.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
-    },
-    {
       "title": "Beehiiv rolls out new creator tools, including webinars and customizable paywalls",
       "link": "https://techcrunch.com/2026/04/23/beehiiv-rolls-out-new-creator-tools-including-webinars-and-customizable-paywalls/",
       "date": "2026-04-23T12:00:00+00:00",
-      "summary": "Beehiiv is clearly done being just a newsletter platform based on today's launch of a new webinar feature, customizable paywalls, and more.",
+      "summary": "The announcement is a clear sign the company is trying to become an all-in-one hub for creators, reducing the hassle of juggling various tools and services to run their businesses.",
       "feedId": "techcrunch-ai",
       "feedTitle": "TechCrunch AI",
       "category": "Startup & News",
@@ -3328,36 +3338,6 @@
       "link": "http://www.techmeme.com/260423/p35#a260423p35",
       "date": "2026-04-23T09:40:05-04:00",
       "summary": "Ben Bergman / Business Insider: Anthropic's valuation has hit $1T on Forge Global, a leading private marketplace exchange, surpassing OpenAI's valuation on the platform of $880B&nbsp; &mdash;&nbsp; - Anthropic's valuation now hovers at $1 trillion on Forge Global, a leading private marketplace excha",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "Orkes, which helps companies scale their AI and agentic systems, raised $60M, including a $40M Series B led by AVP, bringing its total funding to ~$90M (Chris Metinko/Axios)",
-      "link": "http://www.techmeme.com/260423/p34#a260423p34",
-      "date": "2026-04-23T09:30:01-04:00",
-      "summary": "Chris Metinko / Axios: Orkes, which helps companies scale their AI and agentic systems, raised $60M, including a $40M Series B led by AVP, bringing its total funding to ~$90M&nbsp; &mdash;&nbsp; Orkes, which helps companies scale their AI and agentic systems, raised $60 million, CEO Jeu George tells",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "Writing a C Compiler, in Zig (2025)",
-      "link": "https://ar-ms.me/thoughts/c-compiler-1-zig/",
-      "date": "2026-04-23T09:20:47+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
-      "title": "How Cash App founder Bob Lee's 2023 killing fed into a narrative pushed by tech leaders like Elon Musk about SF's decline until an acquaintance was convicted (Shawn Wen/Bloomberg)",
-      "link": "http://www.techmeme.com/260423/p33#a260423p33",
-      "date": "2026-04-23T09:01:22-04:00",
-      "summary": "Shawn Wen / Bloomberg: How Cash App founder Bob Lee's 2023 killing fed into a narrative pushed by tech leaders like Elon Musk about SF's decline until an acquaintance was convicted&nbsp; &mdash;&nbsp; The 2023 murder of a tech executive seemed to fit neatly into narratives about street crime in libe",
       "feedId": "techmeme",
       "feedTitle": "Techmeme",
       "category": "Startup & News",
@@ -3674,16 +3654,6 @@
       "feedHome": "https://venturebeat.com/"
     },
     {
-      "title": "Apple fixes bug that cops used to extract deleted chat messages from iPhones",
-      "link": "https://techcrunch.com/2026/04/22/apple-fixes-bug-that-cops-used-to-extract-deleted-chat-messages-from-iphones/",
-      "date": "2026-04-22T20:27:31+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
       "title": "OpenAI 发布 ChatGPT 工作区智能体（Workspace Agents）",
       "link": "https://www.bestblogs.dev/status/2047043789101895960",
       "date": "2026-04-22T20:04:06+00:00",
@@ -3722,16 +3692,6 @@
       "feedTitle": "Daring Fireball",
       "category": "Tech Blogs",
       "feedHome": "https://daringfireball.net/"
-    },
-    {
-      "title": "Google Cloud launches two new AI chips to compete with Nvidia",
-      "link": "https://techcrunch.com/2026/04/22/google-cloud-next-new-tpu-ai-chips-compete-with-nvidia/",
-      "date": "2026-04-22T18:39:27+00:00",
-      "summary": "Google's newest TPUs are faster and cheaper than the previous versions. But the company is still embracing Nvidia in its cloud — for now.",
-      "feedId": "techcrunch-ai",
-      "feedTitle": "TechCrunch AI",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
     },
     {
       "title": "There Are Corrections, and There Are Corrections",
@@ -3782,16 +3742,6 @@
       "feedTitle": "Google Research Blog",
       "category": "AI & LLM",
       "feedHome": "https://research.google/blog/"
-    },
-    {
-      "title": "Qwen3.6-27B: Flagship-Level Coding in a 27B Dense Model",
-      "link": "https://simonwillison.net/2026/Apr/22/qwen36-27b/#atom-everything",
-      "date": "2026-04-22T16:45:23+00:00",
-      "summary": "Qwen3.6-27B: Flagship-Level Coding in a 27B Dense Model Big claims from Qwen about their latest open weight model: Qwen3.6-27B delivers flagship-level agentic coding performance, surpassing the previous-generation open-source flagship Qwen3.5-397B-A17B (397B total / 17B active MoE) across all major ",
-      "feedId": "simonwillison",
-      "feedTitle": "Simon Willison",
-      "category": "AI & LLM",
-      "feedHome": "https://simonwillison.net/"
     },
     {
       "title": "Alberta startup sells no-tech tractors for half price",
@@ -3894,16 +3844,6 @@
       "feedHome": "https://deepmind.google/blog/"
     },
     {
-      "title": "Workspace agents",
-      "link": "https://openai.com/academy/workspace-agents",
-      "date": "2026-04-22T10:00:00+00:00",
-      "summary": "Learn how to build, use, and scale workspace agents in ChatGPT to automate repeatable workflows, connect tools, and streamline team operations.",
-      "feedId": "openai",
-      "feedTitle": "OpenAI News",
-      "category": "AI & LLM",
-      "feedHome": "https://openai.com/news/"
-    },
-    {
       "title": "Introducing workspace agents in ChatGPT",
       "link": "https://openai.com/index/introducing-workspace-agents-in-chatgpt",
       "date": "2026-04-22T10:00:00+00:00",
@@ -3924,24 +3864,14 @@
       "feedHome": "https://openai.com/news/"
     },
     {
-      "title": "Quoting Bobby Holley",
-      "link": "https://simonwillison.net/2026/Apr/22/bobby-holley/#atom-everything",
-      "date": "2026-04-22T05:40:56+00:00",
-      "summary": "As part of our continued collaboration with Anthropic, we had the opportunity to apply an early version of Claude Mythos Preview to Firefox. This week’s release of Firefox 150 includes fixes for 271 vulnerabilities identified during this initial evaluation. [...] Our experience is a hopeful one for ",
-      "feedId": "simonwillison",
-      "feedTitle": "Simon Willison",
+      "title": "Workspace agents",
+      "link": "https://openai.com/academy/workspace-agents",
+      "date": "2026-04-22T10:00:00+00:00",
+      "summary": "Learn how to build, use, and scale workspace agents in ChatGPT to automate repeatable workflows, connect tools, and streamline team operations.",
+      "feedId": "openai",
+      "feedTitle": "OpenAI News",
       "category": "AI & LLM",
-      "feedHome": "https://simonwillison.net/"
-    },
-    {
-      "title": "Changes to GitHub Copilot Individual plans",
-      "link": "https://simonwillison.net/2026/Apr/22/changes-to-github-copilot/#atom-everything",
-      "date": "2026-04-22T03:30:02+00:00",
-      "summary": "Changes to GitHub Copilot Individual plans On the same day as Claude Code's temporary will-they-won't-they $100/month kerfuffle (for the moment, they won't), here's the latest on GitHub Copilot pricing. Unlike Anthropic, GitHub put up an official announcement about their changes, which include tight",
-      "feedId": "simonwillison",
-      "feedTitle": "Simon Willison",
-      "category": "AI & LLM",
-      "feedHome": "https://simonwillison.net/"
+      "feedHome": "https://openai.com/news/"
     },
     {
       "title": "[Sponsor] Rec League",
@@ -3962,16 +3892,6 @@
       "feedTitle": "BestBlogs.dev AI 90+",
       "category": "中文",
       "feedHome": "https://www.bestblogs.dev/"
-    },
-    {
-      "title": "Is Claude Code going to cost $100/month? Probably not - it's all very confusing",
-      "link": "https://simonwillison.net/2026/Apr/22/claude-code-confusion/#atom-everything",
-      "date": "2026-04-22T02:07:34+00:00",
-      "summary": "Anthropic today quietly (as in silently, no announcement anywhere at all) updated their claude.com/pricing page (but not their Choosing a Claude plan page, which shows up first for me on Google) to add this tiny but significant detail (arrow is mine, and it's already reverted): The Internet Archive ",
-      "feedId": "simonwillison",
-      "feedTitle": "Simon Willison",
-      "category": "AI & LLM",
-      "feedHome": "https://simonwillison.net/"
     },
     {
       "title": "单 Agent 时代结束，AI 们开始组团上班",
@@ -4054,16 +3974,6 @@
       "feedHome": "https://daringfireball.net/"
     },
     {
-      "title": "Where's the raccoon with the ham radio? (ChatGPT Images 2.0)",
-      "link": "https://simonwillison.net/2026/Apr/21/gpt-image-2/#atom-everything",
-      "date": "2026-04-21T20:32:24+00:00",
-      "summary": "OpenAI released ChatGPT Images 2.0 today, their latest image generation model. On the livestream Sam Altman said that the leap from gpt-image-1 to gpt-image-2 was equivalent to jumping from GPT-3 to GPT-5. Here's how I put it to the test. My prompt: Do a where's Waldo style image but it's where is t",
-      "feedId": "simonwillison",
-      "feedTitle": "Simon Willison",
-      "category": "AI & LLM",
-      "feedHome": "https://simonwillison.net/"
-    },
-    {
       "title": "An AI Odyssey, Part 4: Astounding Coding Agents",
       "link": "https://www.johndcook.com/blog/2026/04/21/an-ai-odyssey-part-4-astounding-coding-agents/",
       "date": "2026-04-21T20:14:40+00:00",
@@ -4092,26 +4002,6 @@
       "feedTitle": "Google Research Blog",
       "category": "AI & LLM",
       "feedHome": "https://research.google/blog/"
-    },
-    {
-      "title": "Quoting Andreas Påhlsson-Notini",
-      "link": "https://simonwillison.net/2026/Apr/21/andreas-pahlsson-notini/#atom-everything",
-      "date": "2026-04-21T16:39:33+00:00",
-      "summary": "AI agents are already too human. Not in the romantic sense, not because they love or fear or dream, but in the more banal and frustrating one. The current implementations keep showing their human origin again and again: lack of stringency, lack of patience, lack of focus. Faced with an awkward task,",
-      "feedId": "simonwillison",
-      "feedTitle": "Simon Willison",
-      "category": "AI & LLM",
-      "feedHome": "https://simonwillison.net/"
-    },
-    {
-      "title": "scosman/pelicans_riding_bicycles",
-      "link": "https://simonwillison.net/2026/Apr/21/scosman/#atom-everything",
-      "date": "2026-04-21T15:54:43+00:00",
-      "summary": "scosman/pelicans_riding_bicycles I firmly approve of Steve Cosman's efforts to pollute the training set of pelicans riding bicycles. (To be fair, most of the examples I've published count as poisoning too.) Via Hacker News comment Tags: ai, generative-ai, llms, training-data, pelican-riding-a-bicycl",
-      "feedId": "simonwillison",
-      "feedTitle": "Simon Willison",
-      "category": "AI & LLM",
-      "feedHome": "https://simonwillison.net/"
     },
     {
       "title": "Partnering with industry leaders to accelerate AI transformation",
@@ -4154,16 +4044,6 @@
       "feedHome": "https://pluralistic.net/"
     },
     {
-      "title": "A Renaissance gambling dispute spawned probability theory",
-      "link": "https://www.scientificamerican.com/article/how-a-renaissance-gambling-dispute-spawned-probability-theory/",
-      "date": "2026-04-21T12:59:59+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
       "title": "Introducing ChatGPT Images 2.0",
       "link": "https://openai.com/index/introducing-chatgpt-images-2-0",
       "date": "2026-04-21T12:00:00+00:00",
@@ -4194,6 +4074,16 @@
       "feedHome": "https://news.ycombinator.com/"
     },
     {
+      "title": "A DIY Watch You Can Actually Wear",
+      "link": "https://www.hackster.io/news/a-diy-watch-you-can-actually-wear-8f91c2dac682",
+      "date": "2026-04-21T08:52:33+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
       "title": "‘Community Letter From Tim’",
       "link": "https://www.apple.com/community-letter-from-tim/",
       "date": "2026-04-21T03:51:57+00:00",
@@ -4202,16 +4092,6 @@
       "feedTitle": "Daring Fireball",
       "category": "Tech Blogs",
       "feedHome": "https://daringfireball.net/"
-    },
-    {
-      "title": "The Onion to Take over InfoWars",
-      "link": "https://www.nytimes.com/2026/04/20/business/infowars-alex-jones-the-onion.html",
-      "date": "2026-04-21T01:23:23+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
     },
     {
       "title": "Scaling Codex to enterprises worldwide",
@@ -4242,16 +4122,6 @@
       "feedTitle": "Daring Fireball",
       "category": "Tech Blogs",
       "feedHome": "https://daringfireball.net/"
-    },
-    {
-      "title": "llm-openrouter 0.6",
-      "link": "https://simonwillison.net/2026/Apr/20/llm-openrouter/#atom-everything",
-      "date": "2026-04-20T18:00:26+00:00",
-      "summary": "Release: llm-openrouter 0.6 llm openrouter refresh command for refreshing the list of available models without waiting for the cache to expire. I added this feature so I could try Kimi 2.6 on OpenRouter as soon as it became available there. Here's its pelican - this time as an HTML page because Kimi",
-      "feedId": "simonwillison",
-      "feedTitle": "Simon Willison",
-      "category": "AI & LLM",
-      "feedHome": "https://simonwillison.net/"
     },
     {
       "title": "Apple’s Annual Environmental Progress Report",
@@ -4312,16 +4182,6 @@
       "feedTitle": "Terence Eden",
       "category": "Tech Blogs",
       "feedHome": "https://shkspr.mobi/blog/"
-    },
-    {
-      "title": "SQL functions in Google Sheets to fetch data from Datasette",
-      "link": "https://simonwillison.net/2026/Apr/20/datasette-sql/#atom-everything",
-      "date": "2026-04-20T02:33:58+00:00",
-      "summary": "TIL: SQL functions in Google Sheets to fetch data from Datasette I put together some notes on patterns for fetching data from a Datasette instance directly into Google Sheets - using the importdata() function, a \"named function\" that wraps it or a Google Apps Script if you need to send an API token ",
-      "feedId": "simonwillison",
-      "feedTitle": "Simon Willison",
-      "category": "AI & LLM",
-      "feedHome": "https://simonwillison.net/"
     },
     {
       "title": "OpenAI helps Hyatt advance AI among colleagues",
@@ -4754,16 +4614,6 @@
       "feedHome": "https://pluralistic.net/"
     },
     {
-      "title": "Lunar period approximations",
-      "link": "https://www.johndcook.com/blog/2026/04/12/lunations/",
-      "date": "2026-04-12T23:42:01+00:00",
-      "summary": "The date of Easter The church fixed Easter to be the first Sunday after the first full moon after the Spring equinox. They were choosing a date in the Roman (Julian) calendar to commemorate an event whose date was known according to the Jewish lunisolar calendar, hence the reference to equinoxes and",
-      "feedId": "johndcook",
-      "feedTitle": "John D. Cook",
-      "category": "Tech Blogs",
-      "feedHome": "https://www.johndcook.com/"
-    },
-    {
       "title": "Your AWS Certification Makes You an AWS Salesman",
       "link": "https://idiallo.com/byte-size/we-are-aws-salesmen?src=feed",
       "date": "2026-04-12T17:25:33+00:00",
@@ -4852,16 +4702,6 @@
       "feedTitle": "Miguel Grinberg",
       "category": "Tech Blogs",
       "feedHome": "https://blog.miguelgrinberg.com/"
-    },
-    {
-      "title": "How do you add or remove a handle from an active Wait­For­Multiple­Objects?",
-      "link": "https://devblogs.microsoft.com/oldnewthing/20260409-00/?p=112220",
-      "date": "2026-04-09T14:00:00+00:00",
-      "summary": "You can't, but you can cooperate with the other thread. The post How do you add or remove a handle from an active &lt;CODE&gt;Wait&shy;For&shy;Multiple&shy;Objects&lt;/CODE&gt;? appeared first on The Old New Thing.",
-      "feedId": "oldnewthing",
-      "feedTitle": "The Old New Thing",
-      "category": "Tech Blogs",
-      "feedHome": "https://devblogs.microsoft.com/oldnewthing/"
     },
     {
       "title": "Nowhere Is Safe",
