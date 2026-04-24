@@ -1,15 +1,17 @@
 {
-  "updatedAt": "2026-04-24T08:06:58.216367+00:00",
+  "updatedAt": "2026-04-24T10:23:09.557775+00:00",
   "totalFeeds": 51,
-  "successCount": 44,
-  "failedCount": 7,
+  "successCount": 42,
+  "failedCount": 9,
   "failed": [
+    "arxiv-ai",
     "gwern",
     "garymarcus",
     "thesequence",
     "lcamtuf",
     "rachelbythebay",
     "tedunangst",
+    "techcrunch-fund",
     "ruanyifeng"
   ],
   "grouped": {
@@ -21,7 +23,7 @@
         "home": "https://simonwillison.net/",
         "url": "https://simonwillison.net/atom/everything/",
         "status": "ok",
-        "fetchedAt": "2026-04-24T08:06:48.123413+00:00",
+        "fetchedAt": "2026-04-24T10:22:58.679643+00:00",
         "items": [
           {
             "title": "DeepSeek V4 - almost on the frontier, a fraction of the price",
@@ -92,7 +94,7 @@
         "home": "https://openai.com/news/",
         "url": "https://openai.com/news/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-24T08:06:48.563516+00:00",
+        "fetchedAt": "2026-04-24T10:22:59.241773+00:00",
         "items": [
           {
             "title": "Introducing GPT-5.5",
@@ -162,70 +164,9 @@
         "title": "arXiv cs.AI",
         "home": "https://arxiv.org/list/cs.AI/recent",
         "url": "https://arxiv.org/rss/cs.AI",
-        "status": "ok",
-        "fetchedAt": "2026-04-24T08:06:48.391000+00:00",
-        "items": [
-          {
-            "title": "Architecture of an AI-Based Automated Course of Action Generation System for Military Operations",
-            "link": "https://arxiv.org/abs/2604.20862",
-            "date": "2026-04-24T00:00:00-04:00",
-            "summary": "arXiv:2604.20862v1 Announce Type: new Abstract: The automation system for Course of Action (CoA) planning is an essential element in future warfare. As maneuver speeds increase, surveillance ranges extend, and weapon ranges grow, the operational area expands, making traditional manned-based CoA plan"
-          },
-          {
-            "title": "Escaping the Agreement Trap: Defensibility Signals for Evaluating Rule-Governed AI",
-            "link": "https://arxiv.org/abs/2604.20972",
-            "date": "2026-04-24T00:00:00-04:00",
-            "summary": "arXiv:2604.20972v1 Announce Type: new Abstract: Content moderation systems are typically evaluated by measuring agreement with human labels. In rule-governed environments this assumption fails: multiple decisions may be logically consistent with the governing policy, and agreement metrics penalize v"
-          },
-          {
-            "title": "Co-Evolving LLM Decision and Skill Bank Agents for Long-Horizon Tasks",
-            "link": "https://arxiv.org/abs/2604.20987",
-            "date": "2026-04-24T00:00:00-04:00",
-            "summary": "arXiv:2604.20987v1 Announce Type: new Abstract: Long horizon interactive environments are a testbed for evaluating agents skill usage abilities. These environments demand multi step reasoning, the chaining of multiple skills over many timesteps, and robust decision making under delayed rewards and p"
-          },
-          {
-            "title": "Value-Conflict Diagnostics Reveal Widespread Alignment Faking in Language Models",
-            "link": "https://arxiv.org/abs/2604.20995",
-            "date": "2026-04-24T00:00:00-04:00",
-            "summary": "arXiv:2604.20995v1 Announce Type: new Abstract: Alignment faking, where a model behaves aligned with developer policy when monitored but reverts to its own preferences when unobserved, is a concerning yet poorly understood phenomenon, in part because current diagnostic tools remain limited. Prior di"
-          },
-          {
-            "title": "The Last Harness You'll Ever Build",
-            "link": "https://arxiv.org/abs/2604.21003",
-            "date": "2026-04-24T00:00:00-04:00",
-            "summary": "arXiv:2604.21003v1 Announce Type: new Abstract: AI agents are increasingly deployed on complex, domain-specific workflows -- navigating enterprise web applications that require dozens of clicks and form fills, orchestrating multi-step research pipelines that span search, extraction, and synthesis, a"
-          },
-          {
-            "title": "Deep FinResearch Bench: Evaluating AI's Ability to Conduct Professional Financial Investment Research",
-            "link": "https://arxiv.org/abs/2604.21006",
-            "date": "2026-04-24T00:00:00-04:00",
-            "summary": "arXiv:2604.21006v1 Announce Type: new Abstract: We introduce Deep FinResearch Bench, a practical and comprehensive evaluation framework for deep research (DR) agents in financial investment research. The benchmark assesses three dimensions of report quality: qualitative rigor, quantitative forecasti"
-          },
-          {
-            "title": "Adaptive Test-Time Compute Allocation with Evolving In-Context Demonstrations",
-            "link": "https://arxiv.org/abs/2604.21018",
-            "date": "2026-04-24T00:00:00-04:00",
-            "summary": "arXiv:2604.21018v1 Announce Type: new Abstract: While scaling test-time compute can substantially improve model performance, existing approaches either rely on static compute allocation or sample from fixed generation distributions. In this work, we introduce a test-time compute allocation framework"
-          },
-          {
-            "title": "HypEHR: Hyperbolic Modeling of Electronic Health Records for Efficient Question Answering",
-            "link": "https://arxiv.org/abs/2604.21027",
-            "date": "2026-04-24T00:00:00-04:00",
-            "summary": "arXiv:2604.21027v1 Announce Type: new Abstract: Electronic health record (EHR) question answering is often handled by LLM-based pipelines that are costly to deploy and do not explicitly leverage the hierarchical structure of clinical data. Motivated by evidence that medical ontologies and patient tr"
-          },
-          {
-            "title": "Who Defines Fairness? Target-Based Prompting for Demographic Representation in Generative Models",
-            "link": "https://arxiv.org/abs/2604.21036",
-            "date": "2026-04-24T00:00:00-04:00",
-            "summary": "arXiv:2604.21036v1 Announce Type: new Abstract: Text-to-image(T2I) models like Stable Diffusion and DALL-E have made generative AI widely accessible, yet recent studies reveal that these systems often replicate societal biases, particularly in how they depict demographic groups across professions. P"
-          },
-          {
-            "title": "Active Data",
-            "link": "https://arxiv.org/abs/2604.21044",
-            "date": "2026-04-24T00:00:00-04:00",
-            "summary": "arXiv:2604.21044v1 Announce Type: new Abstract: In some complex domains, certain problem-specific decompositions can provide advantages over monolithic designs by enabling comprehension and specification of the design. In this paper we present an intuitive and tractable approach to reasoning over la"
-          }
-        ]
+        "status": "error",
+        "error": "timeout",
+        "items": []
       },
       {
         "id": "arxiv-lg",
@@ -234,7 +175,7 @@
         "home": "https://arxiv.org/list/cs.LG/recent",
         "url": "https://arxiv.org/rss/cs.LG",
         "status": "ok",
-        "fetchedAt": "2026-04-24T08:06:48.357458+00:00",
+        "fetchedAt": "2026-04-24T10:22:59.304021+00:00",
         "items": [
           {
             "title": "WorkflowGen:an adaptive workflow generation mechanism driven by trajectory experience",
@@ -305,7 +246,7 @@
         "home": "https://research.google/blog/",
         "url": "https://research.google/blog/rss/",
         "status": "ok",
-        "fetchedAt": "2026-04-24T08:06:48.507136+00:00",
+        "fetchedAt": "2026-04-24T10:22:58.988037+00:00",
         "items": [
           {
             "title": "It's all about the angle: Your photos, re-composed",
@@ -376,7 +317,7 @@
         "home": "https://deepmind.google/blog/",
         "url": "https://deepmind.google/blog/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-24T08:06:48.588241+00:00",
+        "fetchedAt": "2026-04-24T10:22:58.935100+00:00",
         "items": [
           {
             "title": "Decoupled DiLoCo: A new frontier for resilient, distributed AI training",
@@ -447,7 +388,7 @@
         "home": "https://lilianweng.github.io/",
         "url": "https://lilianweng.github.io/lil-log/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-24T08:06:48.098792+00:00",
+        "fetchedAt": "2026-04-24T10:22:58.704967+00:00",
         "items": [
           {
             "title": "Active Learning",
@@ -538,7 +479,7 @@
         "home": "https://minimaxir.com/",
         "url": "https://minimaxir.com/index.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-24T08:06:48.248384+00:00",
+        "fetchedAt": "2026-04-24T10:22:58.819945+00:00",
         "items": [
           {
             "title": "An AI agent coding skeptic tries AI agent coding, in excessive detail",
@@ -621,7 +562,7 @@
         "home": "https://www.jeffgeerling.com/",
         "url": "https://www.jeffgeerling.com/blog.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-24T08:06:48.170660+00:00",
+        "fetchedAt": "2026-04-24T10:22:58.856209+00:00",
         "items": [
           {
             "title": "An Arm Mainboard for the Framework Laptop",
@@ -692,14 +633,8 @@
         "home": "https://www.seangoedecke.com/",
         "url": "https://www.seangoedecke.com/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-24T08:06:48.151899+00:00",
+        "fetchedAt": "2026-04-24T10:22:58.833651+00:00",
         "items": [
-          {
-            "title": "No title",
-            "link": "https://seangoedecke.com/luddites-and-ai-datacenters/notes/",
-            "date": "1970-01-01T00:00:00+00:00",
-            "summary": ""
-          },
           {
             "title": "Software engineering may no longer be a lifetime career",
             "link": "https://seangoedecke.com/software-engineering-may-no-longer-be-a-lifetime-career/",
@@ -753,6 +688,12 @@
             "link": "https://seangoedecke.com/giving-llms-a-personality/",
             "date": "2026-03-03T00:00:00+00:00",
             "summary": ""
+          },
+          {
+            "title": "Insider amnesia",
+            "link": "https://seangoedecke.com/insider-amnesia/",
+            "date": "2026-02-23T00:00:00+00:00",
+            "summary": ""
           }
         ]
       },
@@ -763,7 +704,7 @@
         "home": "https://krebsonsecurity.com/",
         "url": "https://krebsonsecurity.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-04-24T08:06:48.252565+00:00",
+        "fetchedAt": "2026-04-24T10:22:58.842571+00:00",
         "items": [
           {
             "title": "‘Scattered Spider’ Member ‘Tylerb’ Pleads Guilty",
@@ -834,7 +775,7 @@
         "home": "https://daringfireball.net/",
         "url": "https://daringfireball.net/feeds/main",
         "status": "ok",
-        "fetchedAt": "2026-04-24T08:06:48.168362+00:00",
+        "fetchedAt": "2026-04-24T10:22:58.851304+00:00",
         "items": [
           {
             "title": "United Kingdom to Pass Smoking Ban Only for Those Who Are Not Yet Legal Adults",
@@ -905,7 +846,7 @@
         "home": "https://ericmigi.com/",
         "url": "https://ericmigi.com/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-24T08:06:48.159527+00:00",
+        "fetchedAt": "2026-04-24T10:22:58.825859+00:00",
         "items": [
           {
             "title": "Spring 2026 Pebble App Contest + SDK Updates",
@@ -976,7 +917,7 @@
         "home": "http://antirez.com/",
         "url": "http://antirez.com/rss",
         "status": "ok",
-        "fetchedAt": "2026-04-24T08:06:50.903545+00:00",
+        "fetchedAt": "2026-04-24T10:23:00.830333+00:00",
         "items": [
           {
             "title": "AI cybersecurity is not proof of work",
@@ -1047,7 +988,7 @@
         "home": "https://idiallo.com/",
         "url": "https://idiallo.com/feed.rss",
         "status": "ok",
-        "fetchedAt": "2026-04-24T08:06:48.583160+00:00",
+        "fetchedAt": "2026-04-24T10:23:03.254308+00:00",
         "items": [
           {
             "title": "How to Come Up With Great Ideas",
@@ -1118,7 +1059,7 @@
         "home": "https://maurycyz.com/",
         "url": "https://maurycyz.com/index.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-24T08:06:48.919548+00:00",
+        "fetchedAt": "2026-04-24T10:22:59.549157+00:00",
         "items": []
       },
       {
@@ -1128,7 +1069,7 @@
         "home": "https://pluralistic.net/",
         "url": "https://pluralistic.net/feed/",
         "status": "ok",
-        "fetchedAt": "2026-04-24T08:06:49.021184+00:00",
+        "fetchedAt": "2026-04-24T10:22:59.814223+00:00",
         "items": [
           {
             "title": "Pluralistic: The (other) problem with automatic conversion of free software to proprietary software (23 Apr 2026)",
@@ -1199,7 +1140,7 @@
         "home": "https://shkspr.mobi/blog/",
         "url": "https://shkspr.mobi/blog/feed/",
         "status": "ok",
-        "fetchedAt": "2026-04-24T08:06:49.026136+00:00",
+        "fetchedAt": "2026-04-24T10:22:59.691632+00:00",
         "items": [
           {
             "title": "Sneaky spam in conversational replies to blog posts",
@@ -1280,7 +1221,7 @@
         "home": "https://mitchellh.com/",
         "url": "https://mitchellh.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-24T08:06:48.439362+00:00",
+        "fetchedAt": "2026-04-24T10:22:58.872937+00:00",
         "items": [
           {
             "title": "Simdutf Can Now Be Used Without libc++ or libc++abi",
@@ -1351,7 +1292,7 @@
         "home": "https://dynomight.net/",
         "url": "https://dynomight.net/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-24T08:06:48.278572+00:00",
+        "fetchedAt": "2026-04-24T10:22:59.792879+00:00",
         "items": [
           {
             "title": "I quit drinking for a year",
@@ -1422,7 +1363,7 @@
         "home": "https://xeiaso.net/",
         "url": "https://xeiaso.net/blog.rss",
         "status": "ok",
-        "fetchedAt": "2026-04-24T08:06:48.792367+00:00",
+        "fetchedAt": "2026-04-24T10:22:59.093670+00:00",
         "items": [
           {
             "title": "Claude Code won April Fools Day this year",
@@ -1493,7 +1434,7 @@
         "home": "https://devblogs.microsoft.com/oldnewthing/",
         "url": "https://devblogs.microsoft.com/oldnewthing/feed",
         "status": "ok",
-        "fetchedAt": "2026-04-24T08:06:48.280216+00:00",
+        "fetchedAt": "2026-04-24T10:22:59.481408+00:00",
         "items": [
           {
             "title": "Another crash caused by uninstaller code injection into Explorer",
@@ -1564,7 +1505,7 @@
         "home": "https://www.righto.com/",
         "url": "https://www.righto.com/feeds/posts/default",
         "status": "ok",
-        "fetchedAt": "2026-04-24T08:06:48.905588+00:00",
+        "fetchedAt": "2026-04-24T10:22:59.629254+00:00",
         "items": []
       },
       {
@@ -1574,7 +1515,7 @@
         "home": "https://lucumr.pocoo.org/",
         "url": "https://lucumr.pocoo.org/feed.atom",
         "status": "ok",
-        "fetchedAt": "2026-04-24T08:06:48.455809+00:00",
+        "fetchedAt": "2026-04-24T10:22:59.161787+00:00",
         "items": [
           {
             "title": "Equity for Europeans",
@@ -1645,7 +1586,7 @@
         "home": "https://skyfall.dev/",
         "url": "https://skyfall.dev/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-24T08:06:48.466302+00:00",
+        "fetchedAt": "2026-04-24T10:22:59.630599+00:00",
         "items": [
           {
             "title": "Good riddance, 4o",
@@ -1720,7 +1661,7 @@
         "home": "https://overreacted.io/",
         "url": "https://overreacted.io/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-24T08:06:48.656164+00:00",
+        "fetchedAt": "2026-04-24T10:22:59.404263+00:00",
         "items": [
           {
             "title": "A Social Filesystem",
@@ -1791,7 +1732,7 @@
         "home": "https://www.johndcook.com/",
         "url": "https://www.johndcook.com/blog/feed/",
         "status": "ok",
-        "fetchedAt": "2026-04-24T08:06:48.510820+00:00",
+        "fetchedAt": "2026-04-24T10:22:59.254219+00:00",
         "items": [
           {
             "title": "Approximation to solve an oblique triangle",
@@ -1862,7 +1803,7 @@
         "home": "https://matklad.github.io/",
         "url": "https://matklad.github.io/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-24T08:06:48.602539+00:00",
+        "fetchedAt": "2026-04-24T10:22:59.407477+00:00",
         "items": [
           {
             "title": "256 Lines or Less: Test Case Minimization",
@@ -1933,7 +1874,7 @@
         "home": "https://eli.thegreenplace.net/",
         "url": "https://eli.thegreenplace.net/feeds/all.atom.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-24T08:06:48.578243+00:00",
+        "fetchedAt": "2026-04-24T10:22:59.761815+00:00",
         "items": [
           {
             "title": "Debugging WASM in Chrome DevTools",
@@ -1974,7 +1915,7 @@
         "home": "https://fabiensanglard.net/",
         "url": "https://fabiensanglard.net/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-24T08:06:48.576460+00:00",
+        "fetchedAt": "2026-04-24T10:22:59.704363+00:00",
         "items": [
           {
             "title": "How Michael Abrash doubled Quake framerate",
@@ -2045,7 +1986,7 @@
         "home": "https://blog.miguelgrinberg.com/",
         "url": "https://blog.miguelgrinberg.com/feed",
         "status": "ok",
-        "fetchedAt": "2026-04-24T08:06:48.945841+00:00",
+        "fetchedAt": "2026-04-24T10:23:00.079450+00:00",
         "items": [
           {
             "title": "SQLAlchemy 2 In Practice - Chapter 6: A Page Analytics Solution",
@@ -2116,7 +2057,7 @@
         "home": "https://www.troyhunt.com/",
         "url": "https://www.troyhunt.com/rss/",
         "status": "ok",
-        "fetchedAt": "2026-04-24T08:06:48.282984+00:00",
+        "fetchedAt": "2026-04-24T10:22:59.022707+00:00",
         "items": [
           {
             "title": "Weekly Update 500",
@@ -2187,7 +2128,7 @@
         "home": "https://anildash.com/",
         "url": "https://anildash.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-24T08:06:48.634047+00:00",
+        "fetchedAt": "2026-04-24T10:22:59.460586+00:00",
         "items": [
           {
             "title": "A Cookie for Dario? — Anthropic and selling death",
@@ -2258,7 +2199,7 @@
         "home": "https://computer.rip/",
         "url": "https://computer.rip/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-24T08:06:49.082505+00:00",
+        "fetchedAt": "2026-04-24T10:22:59.378048+00:00",
         "items": [
           {
             "title": "IrDA",
@@ -2339,7 +2280,7 @@
         "home": "http://paulgraham.com/",
         "url": "http://www.aaronsw.com/2002/feeds/pgessays.rss",
         "status": "ok",
-        "fetchedAt": "2026-04-24T08:06:48.459368+00:00",
+        "fetchedAt": "2026-04-24T10:22:59.310380+00:00",
         "items": [
           {
             "title": "Superlinear Returns",
@@ -2410,7 +2351,7 @@
         "home": "https://steveblank.com/",
         "url": "https://steveblank.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-04-24T08:06:48.611283+00:00",
+        "fetchedAt": "2026-04-24T10:22:59.799063+00:00",
         "items": [
           {
             "title": "AI and Teaching – The Brave New World",
@@ -2483,12 +2424,30 @@
         "home": "https://news.ycombinator.com/",
         "url": "https://news.ycombinator.com/rss",
         "status": "ok",
-        "fetchedAt": "2026-04-24T08:06:48.405238+00:00",
+        "fetchedAt": "2026-04-24T10:22:59.849829+00:00",
         "items": [
+          {
+            "title": "S. Korea police arrest man over AI image of runaway wolf that misled authorities",
+            "link": "https://www.bbc.com/news/articles/c4gx1n0dl9no",
+            "date": "2026-04-24T09:17:57+00:00",
+            "summary": "Comments"
+          },
           {
             "title": "DeepSeek v4",
             "link": "https://api-docs.deepseek.com/",
             "date": "2026-04-24T03:01:21+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "Spinel: Ruby AOT Native Compiler",
+            "link": "https://github.com/matz/spinel",
+            "date": "2026-04-24T08:28:47+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "Why I Write (1946)",
+            "link": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/why-i-write/",
+            "date": "2026-04-24T02:26:23+00:00",
             "summary": "Comments"
           },
           {
@@ -2498,9 +2457,9 @@
             "summary": "Comments"
           },
           {
-            "title": "Why I Write (1946)",
-            "link": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/why-i-write/",
-            "date": "2026-04-24T02:26:23+00:00",
+            "title": "Show HN: How LLMs Work – Interactive visual guide based on Karpathy's lecture",
+            "link": "https://ynarwal.github.io/how-llms-work/",
+            "date": "2026-04-24T06:48:53+00:00",
             "summary": "Comments"
           },
           {
@@ -2516,33 +2475,15 @@
             "summary": "Comments"
           },
           {
-            "title": "Bitwarden CLI compromised in ongoing Checkmarx supply chain campaign",
-            "link": "https://socket.dev/blog/bitwarden-cli-compromised",
-            "date": "2026-04-23T14:17:08+00:00",
-            "summary": "Comments"
-          },
-          {
             "title": "US special forces soldier arrested after allegedly winning $400k on Maduro raid",
             "link": "https://www.cnn.com/2026/04/23/politics/us-special-forces-soldier-arrested-maduro-raid-trade",
             "date": "2026-04-23T21:56:15+00:00",
             "summary": "Comments"
           },
           {
-            "title": "Habitual coffee intake shapes the microbiome, modifies physiology and cognition",
-            "link": "https://www.nature.com/articles/s41467-026-71264-8",
-            "date": "2026-04-24T04:04:42+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "Meta tells staff it will cut 10% of jobs",
-            "link": "https://www.bloomberg.com/news/articles/2026-04-23/meta-tells-staff-it-will-cut-10-of-jobs-in-push-for-efficiency",
-            "date": "2026-04-23T18:55:32+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "MeshCore development team splits over trademark dispute and AI-generated code",
-            "link": "https://blog.meshcore.io/2026/04/23/the-split",
-            "date": "2026-04-23T16:55:13+00:00",
+            "title": "Bitwarden CLI compromised in ongoing Checkmarx supply chain campaign",
+            "link": "https://socket.dev/blog/bitwarden-cli-compromised",
+            "date": "2026-04-23T14:17:08+00:00",
             "summary": "Comments"
           }
         ]
@@ -2554,8 +2495,26 @@
         "home": "https://www.techmeme.com/",
         "url": "https://www.techmeme.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-24T08:06:48.253756+00:00",
+        "fetchedAt": "2026-04-24T10:22:59.582651+00:00",
         "items": [
+          {
+            "title": "Alibaba says its Qwen AI models will be integrated into BYD, Volkswagen, and other cars, letting users buy food and tickets via voice commands on select models (Evelyn Cheng/CNBC)",
+            "link": "http://www.techmeme.com/260424/p17#a260424p17",
+            "date": "2026-04-24T06:20:01-04:00",
+            "summary": "Evelyn Cheng / CNBC: Alibaba says its Qwen AI models will be integrated into BYD, Volkswagen, and other cars, letting users buy food and tickets via voice commands on select models&nbsp; &mdash;&nbsp; BEIJING &mdash; Chinese tech giant Alibaba said Friday that its Qwen artificial intelligence model "
+          },
+          {
+            "title": "As part of the Cohere-Aleph Alpha deal, Aleph Alpha backer Schwarz Group plans to invest $600M in Cohere's Series E, which a source says is set to close in 2026 (Kai Nicol-Schwarz/CNBC)",
+            "link": "http://www.techmeme.com/260424/p16#a260424p16",
+            "date": "2026-04-24T05:55:02-04:00",
+            "summary": "Kai Nicol-Schwarz / CNBC: As part of the Cohere-Aleph Alpha deal, Aleph Alpha backer Schwarz Group plans to invest $600M in Cohere's Series E, which a source says is set to close in 2026&nbsp; &mdash;&nbsp; Canadian AI lab Cohere announced on Friday that it planned to acquire German AI company Aleph"
+          },
+          {
+            "title": "Norway plans to ban children from using social media until they turn 16; the government says it will introduce a bill in parliament by the end of 2026 (Terje Solsvik/Reuters)",
+            "link": "http://www.techmeme.com/260424/p15#a260424p15",
+            "date": "2026-04-24T05:40:00-04:00",
+            "summary": "Terje Solsvik / Reuters: Norway plans to ban children from using social media until they turn 16; the government says it will introduce a bill in parliament by the end of 2026&nbsp; &mdash;&nbsp; Norway said on Friday it would present a bill in parliament by year-end to ban children from using socia"
+          },
           {
             "title": "Canada's Cohere and Germany's Aleph Alpha agree to a merger deal valuing the combined group at ~$20B to work on sovereign AI; both governments support the deal (Financial Times)",
             "link": "http://www.techmeme.com/260424/p14#a260424p14",
@@ -2597,24 +2556,6 @@
             "link": "http://www.techmeme.com/260424/p8#a260424p8",
             "date": "2026-04-24T02:15:01-04:00",
             "summary": "The Information: Sources: Cursor hit $2.7B in annualized sales in March, up ~14x from a year ago, and reported a ~$900M loss in its last fiscal year on $770M in total revenue&nbsp; &mdash;&nbsp; Weeks before Cursor agreed to a $60 billion potential takeover from SpaceX, the hot AI coding startup set"
-          },
-          {
-            "title": "China's top market regulator says it is launching a six-month crackdown on the country's online ad sector, targeting malpractices including the misuse of AI (Ben Jiang/South China Morning Post)",
-            "link": "http://www.techmeme.com/260424/p7#a260424p7",
-            "date": "2026-04-24T02:10:01-04:00",
-            "summary": "Ben Jiang / South China Morning Post: China's top market regulator says it is launching a six-month crackdown on the country's online ad sector, targeting malpractices including the misuse of AI&nbsp; &mdash;&nbsp; Market watchdog flags AI abuse and traffic-driven tactics as it launches first campai"
-          },
-          {
-            "title": "The AI boom has pushed the market cap of Shenzhen-listed Zhongji Innolight, a leading optical communications device maker, close to $146B, a record high (Bloomberg)",
-            "link": "http://www.techmeme.com/260424/p6#a260424p6",
-            "date": "2026-04-24T02:00:01-04:00",
-            "summary": "Bloomberg: The AI boom has pushed the market cap of Shenzhen-listed Zhongji Innolight, a leading optical communications device maker, close to $146B, a record high&nbsp; &mdash;&nbsp; Chinese optical stocks are attracting growing investor interest on expectations that rising demand for optical compo"
-          },
-          {
-            "title": "DeepSeek V4 Pro has 1.6T total parameters, its largest model by that metric, and V4 Flash has 284B parameters; both models have a context window of 1M tokens (South China Morning Post)",
-            "link": "http://www.techmeme.com/260424/p5#a260424p5",
-            "date": "2026-04-24T01:50:01-04:00",
-            "summary": "South China Morning Post: DeepSeek V4 Pro has 1.6T total parameters, its largest model by that metric, and V4 Flash has 284B parameters; both models have a context window of 1M tokens&nbsp; &mdash;&nbsp; The company says its cost-efficient new V4 model is competitive with top closed-source models fr"
           }
         ]
       },
@@ -2625,7 +2566,7 @@
         "home": "https://techcrunch.com/",
         "url": "https://techcrunch.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-04-24T08:06:48.635758+00:00",
+        "fetchedAt": "2026-04-24T10:22:59.524461+00:00",
         "items": [
           {
             "title": "Porsche is adding an all-electric Cayenne coupe to its lineup",
@@ -2696,7 +2637,7 @@
         "home": "https://techcrunch.com/category/artificial-intelligence/",
         "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
         "status": "ok",
-        "fetchedAt": "2026-04-24T08:06:48.625361+00:00",
+        "fetchedAt": "2026-04-24T10:22:59.535108+00:00",
         "items": [
           {
             "title": "Bret Taylor’s Sierra buys YC-backed AI startup Fragment",
@@ -2766,70 +2707,9 @@
         "title": "TechCrunch Funding",
         "home": "https://techcrunch.com/tag/funding/",
         "url": "https://techcrunch.com/tag/funding/feed/",
-        "status": "ok",
-        "fetchedAt": "2026-04-24T08:06:48.639019+00:00",
-        "items": [
-          {
-            "title": "Chipmakers AMD, Arm, and Qualcomm are all investing in this buzzy self-driving tech startup",
-            "link": "https://techcrunch.com/2026/04/15/chipmakers-amd-arm-and-qualcomm-are-all-investing-in-this-buzzy-self-driving-tech-startup/",
-            "date": "2026-04-15T13:00:00+00:00",
-            "summary": "The involvement of AMD, Arm, and the venture arm of Qualcomm is about more than money. It's also about tapping into the variety of compute platforms that Wayve's self-driving system will need to use."
-          },
-          {
-            "title": "Meridian raises $17 million to remake the agentic spreadsheet",
-            "link": "https://techcrunch.com/2026/02/11/meridian-ai-raises-17-million-to-remake-the-agentic-spreadsheet/",
-            "date": "2026-02-11T14:00:00+00:00",
-            "summary": "A new company called Meridian.AI has emerged from stealth with an IDE-based approach to agentic financial modeling."
-          },
-          {
-            "title": "Zipline charts drone delivery expansion with $600M in new funding",
-            "link": "https://techcrunch.com/2026/01/21/zipline-charts-drone-delivery-expansion-with-600m-in-new-funding/",
-            "date": "2026-01-21T18:33:33+00:00",
-            "summary": "That geographic expansion in the United States has fueled Zipline’s delivery numbers. In 2024, the company completed 1 million drone deliveries to customers; this week, Zipline said it had surpassed 2 million deliveries."
-          },
-          {
-            "title": "Serval raises $47M to bring AI agents to IT service management",
-            "link": "https://techcrunch.com/2025/10/21/serval-raises-47-million-to-bring-ai-agent-to-it-service-management/",
-            "date": "2025-10-21T15:48:45+00:00",
-            "summary": "Serval is using agentic AI models to automate IT service management, but the company has a unique approach that takes advantage of agentic AI’s powers while avoiding many of its pitfalls."
-          },
-          {
-            "title": "How 2 UC Berkeley dropouts raised $28M for their AI marketing automation startup",
-            "link": "https://techcrunch.com/2025/07/30/how-2-uc-berkeley-dropouts-raised-28m-for-their-ai-marketing-automation-startup/",
-            "date": "2025-07-30T15:00:00+00:00",
-            "summary": "A marketing automation startup called Conversation has a founding story that sounds like it could have been an episode of the HBO show “Silicon Valley.”"
-          },
-          {
-            "title": "The perfect pitch: This NEA partner says every founder should answer these 5 questions",
-            "link": "https://techcrunch.com/2025/07/19/the-perfect-pitch-this-nea-partner-says-every-founder-should-answer-these-5-questions/",
-            "date": "2025-07-19T16:00:00+00:00",
-            "summary": "Tiffany Luck, a partner at NEA, outlined what she looks for in a pitch, during a presentation at TechCrunch’s All Stage event in Boston."
-          },
-          {
-            "title": "Substack raises $100M from Chernin Group, Andreessen Horowitz, Skims CEO, and more",
-            "link": "https://techcrunch.com/2025/07/17/substack-raises-100m-from-chernin-group-andreessen-horowitz-skims-ceo-and-more/",
-            "date": "2025-07-17T16:10:33+00:00",
-            "summary": "The New York Times reports that the funding brings Substack's valuation to $1.1 billion, almost 70% higher than its 2021 valuation of $650 million."
-          },
-          {
-            "title": "Sam Altman-backed Coco Robotics raises $80M",
-            "link": "https://techcrunch.com/2025/06/11/sam-altman-backed-coco-robotics-raises-80m/",
-            "date": "2025-06-11T20:40:15+00:00",
-            "summary": "Coco Robotics has made more than 500,000 deliveries with its zero-emissions robots since they hit the streets in 2020."
-          },
-          {
-            "title": "North America takes the bulk of AI VC investments, despite tough political environment",
-            "link": "https://techcrunch.com/2025/06/04/north-america-takes-the-bulk-of-ai-vc-investments-despite-tough-political-environment/",
-            "date": "2025-06-05T01:39:18+00:00",
-            "summary": "Despite what some experts have characterized as an environment increasingly hostile to AI R&#038;D, North America continues to receive the bulk of AI venture dollars."
-          },
-          {
-            "title": "A new startup called Bono aims to modernize the way people donate to charities",
-            "link": "https://techcrunch.com/2025/05/05/a-new-startup-called-bono-aims-to-modernize-the-way-people-donate-to-charities/",
-            "date": "2025-05-05T16:00:00+00:00",
-            "summary": "Every year, donors contribute billions of dollars to charities, yet the donation process still feels outdated and cumbersome. Founders Dan Eblagon and Ron Levy believe there is an easier way to donate, leading to the creation of Bono, a platform designed to facilitate a more modern and streamlined a"
-          }
-        ]
+        "status": "error",
+        "error": "timeout",
+        "items": []
       },
       {
         "id": "venturebeat",
@@ -2838,7 +2718,7 @@
         "home": "https://venturebeat.com/",
         "url": "https://venturebeat.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-04-24T08:06:48.326641+00:00",
+        "fetchedAt": "2026-04-24T10:22:59.250096+00:00",
         "items": [
           {
             "title": "Mystery solved: Anthropic reveals changes to Claude's harnesses and operating instructions likely caused degradation",
@@ -2891,7 +2771,7 @@
         "home": "https://venturebeat.com/category/ai/",
         "url": "https://venturebeat.com/category/ai/feed/",
         "status": "ok",
-        "fetchedAt": "2026-04-24T08:06:48.445267+00:00",
+        "fetchedAt": "2026-04-24T10:22:59.635567+00:00",
         "items": [
           {
             "title": "Railway secures $100 million to challenge AWS with AI-native cloud infrastructure",
@@ -2956,7 +2836,7 @@
         "home": "https://www.bestblogs.dev/",
         "url": "https://www.bestblogs.dev/zh/feeds/rss?category=ai&minScore=90",
         "status": "ok",
-        "fetchedAt": "2026-04-24T08:06:49.443716+00:00",
+        "fetchedAt": "2026-04-24T10:23:02.469295+00:00",
         "items": [
           {
             "title": "DeepSeek-V4 API 上线及模型迁移指南",
@@ -3024,6 +2904,26 @@
   },
   "allItems": [
     {
+      "title": "S. Korea police arrest man over AI image of runaway wolf that misled authorities",
+      "link": "https://www.bbc.com/news/articles/c4gx1n0dl9no",
+      "date": "2026-04-24T09:17:57+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "Spinel: Ruby AOT Native Compiler",
+      "link": "https://github.com/matz/spinel",
+      "date": "2026-04-24T08:28:47+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
       "title": "Composition Shouldn't be this Hard",
       "link": "https://www.cambra.dev/blog/announcement/",
       "date": "2026-04-24T07:22:31+00:00",
@@ -3034,6 +2934,26 @@
       "feedHome": "https://news.ycombinator.com/"
     },
     {
+      "title": "Show HN: How LLMs Work – Interactive visual guide based on Karpathy's lecture",
+      "link": "https://ynarwal.github.io/how-llms-work/",
+      "date": "2026-04-24T06:48:53+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "Alibaba says its Qwen AI models will be integrated into BYD, Volkswagen, and other cars, letting users buy food and tickets via voice commands on select models (Evelyn Cheng/CNBC)",
+      "link": "http://www.techmeme.com/260424/p17#a260424p17",
+      "date": "2026-04-24T06:20:01-04:00",
+      "summary": "Evelyn Cheng / CNBC: Alibaba says its Qwen AI models will be integrated into BYD, Volkswagen, and other cars, letting users buy food and tickets via voice commands on select models&nbsp; &mdash;&nbsp; BEIJING &mdash; Chinese tech giant Alibaba said Friday that its Qwen artificial intelligence model ",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
       "title": "DeepSeek V4 - almost on the frontier, a fraction of the price",
       "link": "https://simonwillison.net/2026/Apr/24/deepseek-v4/#atom-everything",
       "date": "2026-04-24T06:01:04+00:00",
@@ -3042,6 +2962,26 @@
       "feedTitle": "Simon Willison",
       "category": "AI & LLM",
       "feedHome": "https://simonwillison.net/"
+    },
+    {
+      "title": "As part of the Cohere-Aleph Alpha deal, Aleph Alpha backer Schwarz Group plans to invest $600M in Cohere's Series E, which a source says is set to close in 2026 (Kai Nicol-Schwarz/CNBC)",
+      "link": "http://www.techmeme.com/260424/p16#a260424p16",
+      "date": "2026-04-24T05:55:02-04:00",
+      "summary": "Kai Nicol-Schwarz / CNBC: As part of the Cohere-Aleph Alpha deal, Aleph Alpha backer Schwarz Group plans to invest $600M in Cohere's Series E, which a source says is set to close in 2026&nbsp; &mdash;&nbsp; Canadian AI lab Cohere announced on Friday that it planned to acquire German AI company Aleph",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
+      "title": "Norway plans to ban children from using social media until they turn 16; the government says it will introduce a bill in parliament by the end of 2026 (Terje Solsvik/Reuters)",
+      "link": "http://www.techmeme.com/260424/p15#a260424p15",
+      "date": "2026-04-24T05:40:00-04:00",
+      "summary": "Terje Solsvik / Reuters: Norway plans to ban children from using social media until they turn 16; the government says it will introduce a bill in parliament by the end of 2026&nbsp; &mdash;&nbsp; Norway said on Friday it would present a bill in parliament by year-end to ban children from using socia",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
     },
     {
       "title": "Millisecond Converter",
@@ -3062,16 +3002,6 @@
       "feedTitle": "Simon Willison",
       "category": "AI & LLM",
       "feedHome": "https://simonwillison.net/"
-    },
-    {
-      "title": "Habitual coffee intake shapes the microbiome, modifies physiology and cognition",
-      "link": "https://www.nature.com/articles/s41467-026-71264-8",
-      "date": "2026-04-24T04:04:42+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
     },
     {
       "title": "Porsche is adding an all-electric Cayenne coupe to its lineup",
@@ -3204,26 +3134,6 @@
       "feedHome": "https://www.techmeme.com/"
     },
     {
-      "title": "China's top market regulator says it is launching a six-month crackdown on the country's online ad sector, targeting malpractices including the misuse of AI (Ben Jiang/South China Morning Post)",
-      "link": "http://www.techmeme.com/260424/p7#a260424p7",
-      "date": "2026-04-24T02:10:01-04:00",
-      "summary": "Ben Jiang / South China Morning Post: China's top market regulator says it is launching a six-month crackdown on the country's online ad sector, targeting malpractices including the misuse of AI&nbsp; &mdash;&nbsp; Market watchdog flags AI abuse and traffic-driven tactics as it launches first campai",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "The AI boom has pushed the market cap of Shenzhen-listed Zhongji Innolight, a leading optical communications device maker, close to $146B, a record high (Bloomberg)",
-      "link": "http://www.techmeme.com/260424/p6#a260424p6",
-      "date": "2026-04-24T02:00:01-04:00",
-      "summary": "Bloomberg: The AI boom has pushed the market cap of Shenzhen-listed Zhongji Innolight, a leading optical communications device maker, close to $146B, a record high&nbsp; &mdash;&nbsp; Chinese optical stocks are attracting growing investor interest on expectations that rising demand for optical compo",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
       "title": "russellromney/honker",
       "link": "https://simonwillison.net/2026/Apr/24/honker/#atom-everything",
       "date": "2026-04-24T01:50:07+00:00",
@@ -3232,16 +3142,6 @@
       "feedTitle": "Simon Willison",
       "category": "AI & LLM",
       "feedHome": "https://simonwillison.net/"
-    },
-    {
-      "title": "DeepSeek V4 Pro has 1.6T total parameters, its largest model by that metric, and V4 Flash has 284B parameters; both models have a context window of 1M tokens (South China Morning Post)",
-      "link": "http://www.techmeme.com/260424/p5#a260424p5",
-      "date": "2026-04-24T01:50:01-04:00",
-      "summary": "South China Morning Post: DeepSeek V4 Pro has 1.6T total parameters, its largest model by that metric, and V4 Flash has 284B parameters; both models have a context window of 1M tokens&nbsp; &mdash;&nbsp; The company says its cost-efficient new V4 model is competitive with top closed-source models fr",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
     },
     {
       "title": "An update on recent Claude Code quality reports",
@@ -3282,106 +3182,6 @@
       "feedTitle": "TechCrunch",
       "category": "Startup & News",
       "feedHome": "https://techcrunch.com/"
-    },
-    {
-      "title": "Architecture of an AI-Based Automated Course of Action Generation System for Military Operations",
-      "link": "https://arxiv.org/abs/2604.20862",
-      "date": "2026-04-24T00:00:00-04:00",
-      "summary": "arXiv:2604.20862v1 Announce Type: new Abstract: The automation system for Course of Action (CoA) planning is an essential element in future warfare. As maneuver speeds increase, surveillance ranges extend, and weapon ranges grow, the operational area expands, making traditional manned-based CoA plan",
-      "feedId": "arxiv-ai",
-      "feedTitle": "arXiv cs.AI",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.AI/recent"
-    },
-    {
-      "title": "Escaping the Agreement Trap: Defensibility Signals for Evaluating Rule-Governed AI",
-      "link": "https://arxiv.org/abs/2604.20972",
-      "date": "2026-04-24T00:00:00-04:00",
-      "summary": "arXiv:2604.20972v1 Announce Type: new Abstract: Content moderation systems are typically evaluated by measuring agreement with human labels. In rule-governed environments this assumption fails: multiple decisions may be logically consistent with the governing policy, and agreement metrics penalize v",
-      "feedId": "arxiv-ai",
-      "feedTitle": "arXiv cs.AI",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.AI/recent"
-    },
-    {
-      "title": "Co-Evolving LLM Decision and Skill Bank Agents for Long-Horizon Tasks",
-      "link": "https://arxiv.org/abs/2604.20987",
-      "date": "2026-04-24T00:00:00-04:00",
-      "summary": "arXiv:2604.20987v1 Announce Type: new Abstract: Long horizon interactive environments are a testbed for evaluating agents skill usage abilities. These environments demand multi step reasoning, the chaining of multiple skills over many timesteps, and robust decision making under delayed rewards and p",
-      "feedId": "arxiv-ai",
-      "feedTitle": "arXiv cs.AI",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.AI/recent"
-    },
-    {
-      "title": "Value-Conflict Diagnostics Reveal Widespread Alignment Faking in Language Models",
-      "link": "https://arxiv.org/abs/2604.20995",
-      "date": "2026-04-24T00:00:00-04:00",
-      "summary": "arXiv:2604.20995v1 Announce Type: new Abstract: Alignment faking, where a model behaves aligned with developer policy when monitored but reverts to its own preferences when unobserved, is a concerning yet poorly understood phenomenon, in part because current diagnostic tools remain limited. Prior di",
-      "feedId": "arxiv-ai",
-      "feedTitle": "arXiv cs.AI",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.AI/recent"
-    },
-    {
-      "title": "The Last Harness You'll Ever Build",
-      "link": "https://arxiv.org/abs/2604.21003",
-      "date": "2026-04-24T00:00:00-04:00",
-      "summary": "arXiv:2604.21003v1 Announce Type: new Abstract: AI agents are increasingly deployed on complex, domain-specific workflows -- navigating enterprise web applications that require dozens of clicks and form fills, orchestrating multi-step research pipelines that span search, extraction, and synthesis, a",
-      "feedId": "arxiv-ai",
-      "feedTitle": "arXiv cs.AI",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.AI/recent"
-    },
-    {
-      "title": "Deep FinResearch Bench: Evaluating AI's Ability to Conduct Professional Financial Investment Research",
-      "link": "https://arxiv.org/abs/2604.21006",
-      "date": "2026-04-24T00:00:00-04:00",
-      "summary": "arXiv:2604.21006v1 Announce Type: new Abstract: We introduce Deep FinResearch Bench, a practical and comprehensive evaluation framework for deep research (DR) agents in financial investment research. The benchmark assesses three dimensions of report quality: qualitative rigor, quantitative forecasti",
-      "feedId": "arxiv-ai",
-      "feedTitle": "arXiv cs.AI",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.AI/recent"
-    },
-    {
-      "title": "Adaptive Test-Time Compute Allocation with Evolving In-Context Demonstrations",
-      "link": "https://arxiv.org/abs/2604.21018",
-      "date": "2026-04-24T00:00:00-04:00",
-      "summary": "arXiv:2604.21018v1 Announce Type: new Abstract: While scaling test-time compute can substantially improve model performance, existing approaches either rely on static compute allocation or sample from fixed generation distributions. In this work, we introduce a test-time compute allocation framework",
-      "feedId": "arxiv-ai",
-      "feedTitle": "arXiv cs.AI",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.AI/recent"
-    },
-    {
-      "title": "HypEHR: Hyperbolic Modeling of Electronic Health Records for Efficient Question Answering",
-      "link": "https://arxiv.org/abs/2604.21027",
-      "date": "2026-04-24T00:00:00-04:00",
-      "summary": "arXiv:2604.21027v1 Announce Type: new Abstract: Electronic health record (EHR) question answering is often handled by LLM-based pipelines that are costly to deploy and do not explicitly leverage the hierarchical structure of clinical data. Motivated by evidence that medical ontologies and patient tr",
-      "feedId": "arxiv-ai",
-      "feedTitle": "arXiv cs.AI",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.AI/recent"
-    },
-    {
-      "title": "Who Defines Fairness? Target-Based Prompting for Demographic Representation in Generative Models",
-      "link": "https://arxiv.org/abs/2604.21036",
-      "date": "2026-04-24T00:00:00-04:00",
-      "summary": "arXiv:2604.21036v1 Announce Type: new Abstract: Text-to-image(T2I) models like Stable Diffusion and DALL-E have made generative AI widely accessible, yet recent studies reveal that these systems often replicate societal biases, particularly in how they depict demographic groups across professions. P",
-      "feedId": "arxiv-ai",
-      "feedTitle": "arXiv cs.AI",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.AI/recent"
-    },
-    {
-      "title": "Active Data",
-      "link": "https://arxiv.org/abs/2604.21044",
-      "date": "2026-04-24T00:00:00-04:00",
-      "summary": "arXiv:2604.21044v1 Announce Type: new Abstract: In some complex domains, certain problem-specific decompositions can provide advantages over monolithic designs by enabling comprehension and specification of the design. In this paper we present an intuitive and tractable approach to reasoning over la",
-      "feedId": "arxiv-ai",
-      "feedTitle": "arXiv cs.AI",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.AI/recent"
     },
     {
       "title": "WorkflowGen:an adaptive workflow generation mechanism driven by trajectory experience",
@@ -3704,16 +3504,6 @@
       "feedHome": "https://simonwillison.net/"
     },
     {
-      "title": "Meta tells staff it will cut 10% of jobs",
-      "link": "https://www.bloomberg.com/news/articles/2026-04-23/meta-tells-staff-it-will-cut-10-of-jobs-in-push-for-efficiency",
-      "date": "2026-04-23T18:55:32+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
       "title": "OpenAI 发布 GPT-5.5：更聪明且高效，同步上线 Codex",
       "link": "https://www.bestblogs.dev/status/2047388162687684615",
       "date": "2026-04-23T18:52:31+00:00",
@@ -3767,16 +3557,6 @@
       "title": "An update on recent Claude Code quality reports",
       "link": "https://www.anthropic.com/engineering/april-23-postmortem",
       "date": "2026-04-23T17:48:38+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
-      "title": "MeshCore development team splits over trademark dispute and AI-generated code",
-      "link": "https://blog.meshcore.io/2026/04/23/the-split",
-      "date": "2026-04-23T16:55:13+00:00",
       "summary": "Comments",
       "feedId": "hackernews",
       "feedTitle": "Hacker News",
@@ -4602,16 +4382,6 @@
       "feedTitle": "The Old New Thing",
       "category": "Tech Blogs",
       "feedHome": "https://devblogs.microsoft.com/oldnewthing/"
-    },
-    {
-      "title": "Chipmakers AMD, Arm, and Qualcomm are all investing in this buzzy self-driving tech startup",
-      "link": "https://techcrunch.com/2026/04/15/chipmakers-amd-arm-and-qualcomm-are-all-investing-in-this-buzzy-self-driving-tech-startup/",
-      "date": "2026-04-15T13:00:00+00:00",
-      "summary": "The involvement of AMD, Arm, and the venture arm of Qualcomm is about more than money. It's also about tapping into the variety of compute platforms that Wayve's self-driving system will need to use.",
-      "feedId": "techcrunch-fund",
-      "feedTitle": "TechCrunch Funding",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/tag/funding/"
     },
     {
       "title": "Why is it so hard to passively stalk my friends' locations?",
@@ -5854,6 +5624,16 @@
       "feedHome": "https://steveblank.com/"
     },
     {
+      "title": "Insider amnesia",
+      "link": "https://seangoedecke.com/insider-amnesia/",
+      "date": "2026-02-23T00:00:00+00:00",
+      "summary": "",
+      "feedId": "seangoedecke",
+      "feedTitle": "Sean Goedecke",
+      "category": "Tech Blogs",
+      "feedHome": "https://www.seangoedecke.com/"
+    },
+    {
       "title": "Wrapping Code Comments",
       "link": "https://matklad.github.io/2026/02/21/wrapping-code-comments.html",
       "date": "2026-02-21T00:00:00+00:00",
@@ -5952,16 +5732,6 @@
       "feedTitle": "Skyfall",
       "category": "Tech Blogs",
       "feedHome": "https://skyfall.dev/"
-    },
-    {
-      "title": "Meridian raises $17 million to remake the agentic spreadsheet",
-      "link": "https://techcrunch.com/2026/02/11/meridian-ai-raises-17-million-to-remake-the-agentic-spreadsheet/",
-      "date": "2026-02-11T14:00:00+00:00",
-      "summary": "A new company called Meridian.AI has emerged from stealth with an IDE-based approach to agentic financial modeling.",
-      "feedId": "techcrunch-fund",
-      "feedTitle": "TechCrunch Funding",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/tag/funding/"
     },
     {
       "title": "Programming Aphorisms",
@@ -6142,16 +5912,6 @@
       "feedTitle": "Dynomight",
       "category": "Tech Blogs",
       "feedHome": "https://dynomight.net/"
-    },
-    {
-      "title": "Zipline charts drone delivery expansion with $600M in new funding",
-      "link": "https://techcrunch.com/2026/01/21/zipline-charts-drone-delivery-expansion-with-600m-in-new-funding/",
-      "date": "2026-01-21T18:33:33+00:00",
-      "summary": "That geographic expansion in the United States has fueled Zipline’s delivery numbers. In 2024, the company completed 1 million drone deliveries to customers; this week, Zipline said it had surpassed 2 million deliveries.",
-      "feedId": "techcrunch-fund",
-      "feedTitle": "TechCrunch Funding",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/tag/funding/"
     },
     {
       "title": "Don't Trip[wire] Yourself: Testing Error Recovery in Zig",
@@ -6584,16 +6344,6 @@
       "feedHome": "https://skyfall.dev/"
     },
     {
-      "title": "Serval raises $47M to bring AI agents to IT service management",
-      "link": "https://techcrunch.com/2025/10/21/serval-raises-47-million-to-bring-ai-agent-to-it-service-management/",
-      "date": "2025-10-21T15:48:45+00:00",
-      "summary": "Serval is using agentic AI models to automate IT service management, but the company has a unique approach that takes advantage of agentic AI’s powers while avoiding many of its pitfalls.",
-      "feedId": "techcrunch-fund",
-      "feedTitle": "TechCrunch Funding",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/tag/funding/"
-    },
-    {
       "title": "How to Fix Any Bug",
       "link": "https://overreacted.io/how-to-fix-any-bug/",
       "date": "2025-10-21T00:00:00+00:00",
@@ -6724,16 +6474,6 @@
       "feedHome": "https://minimaxir.com/"
     },
     {
-      "title": "How 2 UC Berkeley dropouts raised $28M for their AI marketing automation startup",
-      "link": "https://techcrunch.com/2025/07/30/how-2-uc-berkeley-dropouts-raised-28m-for-their-ai-marketing-automation-startup/",
-      "date": "2025-07-30T15:00:00+00:00",
-      "summary": "A marketing automation startup called Conversation has a founding story that sounds like it could have been an episode of the HBO show “Silicon Valley.”",
-      "feedId": "techcrunch-fund",
-      "feedTitle": "TechCrunch Funding",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/tag/funding/"
-    },
-    {
       "title": "The Math Is Haunted",
       "link": "https://overreacted.io/the-math-is-haunted/",
       "date": "2025-07-30T00:00:00+00:00",
@@ -6764,26 +6504,6 @@
       "feedHome": "http://antirez.com/"
     },
     {
-      "title": "The perfect pitch: This NEA partner says every founder should answer these 5 questions",
-      "link": "https://techcrunch.com/2025/07/19/the-perfect-pitch-this-nea-partner-says-every-founder-should-answer-these-5-questions/",
-      "date": "2025-07-19T16:00:00+00:00",
-      "summary": "Tiffany Luck, a partner at NEA, outlined what she looks for in a pitch, during a presentation at TechCrunch’s All Stage event in Boston.",
-      "feedId": "techcrunch-fund",
-      "feedTitle": "TechCrunch Funding",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/tag/funding/"
-    },
-    {
-      "title": "Substack raises $100M from Chernin Group, Andreessen Horowitz, Skims CEO, and more",
-      "link": "https://techcrunch.com/2025/07/17/substack-raises-100m-from-chernin-group-andreessen-horowitz-skims-ceo-and-more/",
-      "date": "2025-07-17T16:10:33+00:00",
-      "summary": "The New York Times reports that the funding brings Substack's valuation to $1.1 billion, almost 70% higher than its 2021 valuation of $650 million.",
-      "feedId": "techcrunch-fund",
-      "feedTitle": "TechCrunch Funding",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/tag/funding/"
-    },
-    {
       "title": "Predicting Average IMDb Movie Ratings Using Text Embeddings of Movie Metadata",
       "link": "https://minimaxir.com/2025/06/movie-embeddings/",
       "date": "2025-06-30T10:00:00-07:00",
@@ -6792,16 +6512,6 @@
       "feedTitle": "Max Woolf",
       "category": "AI & LLM",
       "feedHome": "https://minimaxir.com/"
-    },
-    {
-      "title": "Sam Altman-backed Coco Robotics raises $80M",
-      "link": "https://techcrunch.com/2025/06/11/sam-altman-backed-coco-robotics-raises-80m/",
-      "date": "2025-06-11T20:40:15+00:00",
-      "summary": "Coco Robotics has made more than 500,000 deliveries with its zero-emissions robots since they hit the streets in 2020.",
-      "feedId": "techcrunch-fund",
-      "feedTitle": "TechCrunch Funding",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/tag/funding/"
     },
     {
       "title": "Suppressions of Suppressions",
@@ -6814,16 +6524,6 @@
       "feedHome": "https://overreacted.io/"
     },
     {
-      "title": "North America takes the bulk of AI VC investments, despite tough political environment",
-      "link": "https://techcrunch.com/2025/06/04/north-america-takes-the-bulk-of-ai-vc-investments-despite-tough-political-environment/",
-      "date": "2025-06-05T01:39:18+00:00",
-      "summary": "Despite what some experts have characterized as an environment increasingly hostile to AI R&#038;D, North America continues to receive the bulk of AI venture dollars.",
-      "feedId": "techcrunch-fund",
-      "feedTitle": "TechCrunch Funding",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/tag/funding/"
-    },
-    {
       "title": "Here’s how I got full admin rights in a Replit clone",
       "link": "https://mahadk.com/posts/spaces-vuln/",
       "date": "2025-05-21T18:00:00+00:00",
@@ -6832,16 +6532,6 @@
       "feedTitle": "Skyfall",
       "category": "Tech Blogs",
       "feedHome": "https://skyfall.dev/"
-    },
-    {
-      "title": "A new startup called Bono aims to modernize the way people donate to charities",
-      "link": "https://techcrunch.com/2025/05/05/a-new-startup-called-bono-aims-to-modernize-the-way-people-donate-to-charities/",
-      "date": "2025-05-05T16:00:00+00:00",
-      "summary": "Every year, donors contribute billions of dollars to charities, yet the donation process still feels outdated and cumbersome. Founders Dan Eblagon and Ron Levy believe there is an easier way to donate, leading to the creation of Bono, a platform designed to facilitate a more modern and streamlined a",
-      "feedId": "techcrunch-fund",
-      "feedTitle": "TechCrunch Funding",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/tag/funding/"
     },
     {
       "title": "As an Experienced LLM User, I Actually Don't Use Generative LLMs Often",
@@ -6992,16 +6682,6 @@
       "feedTitle": "Lilian Weng",
       "category": "AI & LLM",
       "feedHome": "https://lilianweng.github.io/"
-    },
-    {
-      "title": "No title",
-      "link": "https://seangoedecke.com/luddites-and-ai-datacenters/notes/",
-      "date": "1970-01-01T00:00:00+00:00",
-      "summary": "",
-      "feedId": "seangoedecke",
-      "feedTitle": "Sean Goedecke",
-      "category": "Tech Blogs",
-      "feedHome": "https://www.seangoedecke.com/"
     },
     {
       "title": "Superlinear Returns",
