@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-23T23:49:23.934126+00:00",
+  "updatedAt": "2026-04-24T02:47:41.383970+00:00",
   "totalFeeds": 51,
   "successCount": 44,
   "failedCount": 7,
@@ -21,8 +21,26 @@
         "home": "https://simonwillison.net/",
         "url": "https://simonwillison.net/atom/everything/",
         "status": "ok",
-        "fetchedAt": "2026-04-23T23:49:13.964499+00:00",
+        "fetchedAt": "2026-04-24T02:47:30.688261+00:00",
         "items": [
+          {
+            "title": "russellromney/honker",
+            "link": "https://simonwillison.net/2026/Apr/24/honker/#atom-everything",
+            "date": "2026-04-24T01:50:07+00:00",
+            "summary": "russellromney/honker \"Postgres NOTIFY/LISTEN semantics\" for SQLite, implemented as a Rust SQLite extension and various language bindings to help make use of it. The design of this looks very solid. It lets you write Python code for queues that looks like this: import honker db = honker.open(\"app.db\""
+          },
+          {
+            "title": "An update on recent Claude Code quality reports",
+            "link": "https://simonwillison.net/2026/Apr/24/recent-claude-code-quality-reports/#atom-everything",
+            "date": "2026-04-24T01:31:25+00:00",
+            "summary": "An update on recent Claude Code quality reports It turns out the high volume of complaints that Claude Code was providing worse quality results over the past two months was grounded in real problems. The models themselves were not to blame, but three separate issues in the Claude Code harness caused"
+          },
+          {
+            "title": "Serving the For You feed",
+            "link": "https://simonwillison.net/2026/Apr/24/serving-the-for-you-feed/#atom-everything",
+            "date": "2026-04-24T01:08:17+00:00",
+            "summary": "Serving the For You feed One of Bluesky's most interesting features is that anyone can run their own custom \"feed\" implementation and make it available to other users - effectively enabling custom algorithms that can use any mechanism they like to recommend posts. spacecowboy runs the For You Feed, "
+          },
           {
             "title": "Extract PDF text in your browser with LiteParse for the web",
             "link": "https://simonwillison.net/2026/Apr/23/liteparse-for-the-web/#atom-everything",
@@ -64,24 +82,6 @@
             "link": "https://simonwillison.net/2026/Apr/22/claude-code-confusion/#atom-everything",
             "date": "2026-04-22T02:07:34+00:00",
             "summary": "Anthropic today quietly (as in silently, no announcement anywhere at all) updated their claude.com/pricing page (but not their Choosing a Claude plan page, which shows up first for me on Google) to add this tiny but significant detail (arrow is mine, and it's already reverted): The Internet Archive "
-          },
-          {
-            "title": "Where's the raccoon with the ham radio? (ChatGPT Images 2.0)",
-            "link": "https://simonwillison.net/2026/Apr/21/gpt-image-2/#atom-everything",
-            "date": "2026-04-21T20:32:24+00:00",
-            "summary": "OpenAI released ChatGPT Images 2.0 today, their latest image generation model. On the livestream Sam Altman said that the leap from gpt-image-1 to gpt-image-2 was equivalent to jumping from GPT-3 to GPT-5. Here's how I put it to the test. My prompt: Do a where's Waldo style image but it's where is t"
-          },
-          {
-            "title": "Quoting Andreas Påhlsson-Notini",
-            "link": "https://simonwillison.net/2026/Apr/21/andreas-pahlsson-notini/#atom-everything",
-            "date": "2026-04-21T16:39:33+00:00",
-            "summary": "AI agents are already too human. Not in the romantic sense, not because they love or fear or dream, but in the more banal and frustrating one. The current implementations keep showing their human origin again and again: lack of stringency, lack of patience, lack of focus. Faced with an awkward task,"
-          },
-          {
-            "title": "scosman/pelicans_riding_bicycles",
-            "link": "https://simonwillison.net/2026/Apr/21/scosman/#atom-everything",
-            "date": "2026-04-21T15:54:43+00:00",
-            "summary": "scosman/pelicans_riding_bicycles I firmly approve of Steve Cosman's efforts to pollute the training set of pelicans riding bicycles. (To be fair, most of the examples I've published count as poisoning too.) Via Hacker News comment Tags: ai, generative-ai, llms, training-data, pelican-riding-a-bicycl"
           }
         ]
       },
@@ -92,14 +92,8 @@
         "home": "https://openai.com/news/",
         "url": "https://openai.com/news/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-23T23:49:14.448481+00:00",
+        "fetchedAt": "2026-04-24T02:47:30.982831+00:00",
         "items": [
-          {
-            "title": "GPT-5.5 System Card",
-            "link": "https://openai.com/index/gpt-5-5-system-card",
-            "date": "2026-04-23T11:00:00+00:00",
-            "summary": ""
-          },
           {
             "title": "Introducing GPT-5.5",
             "link": "https://openai.com/index/introducing-gpt-5-5",
@@ -107,16 +101,22 @@
             "summary": "Introducing GPT-5.5, our smartest model yet—faster, more capable, and built for complex tasks like coding, research, and data analysis across tools."
           },
           {
-            "title": "What is Codex?",
-            "link": "https://openai.com/academy/what-is-codex",
-            "date": "2026-04-23T10:00:00+00:00",
-            "summary": "Learn how Codex helps you go beyond chat by automating tasks, connecting tools, and producing real outputs like docs and dashboards."
+            "title": "GPT-5.5 System Card",
+            "link": "https://openai.com/index/gpt-5-5-system-card",
+            "date": "2026-04-23T11:00:00+00:00",
+            "summary": ""
           },
           {
             "title": "Automations",
             "link": "https://openai.com/academy/codex-automations",
             "date": "2026-04-23T10:00:00+00:00",
             "summary": "Learn how to automate tasks in Codex using schedules and triggers to create reports, summaries, and recurring workflows without manual effort."
+          },
+          {
+            "title": "Top 10 uses for Codex at work",
+            "link": "https://openai.com/academy/top-10-use-cases-codex-for-work",
+            "date": "2026-04-23T10:00:00+00:00",
+            "summary": "Explore 10 practical Codex use cases to automate tasks, create deliverables, and turn real inputs into outputs across tools, files, and workflows."
           },
           {
             "title": "Plugins and skills",
@@ -131,22 +131,22 @@
             "summary": "Learn how to set up your Codex workspace, create threads and projects, manage files, and start completing tasks with step-by-step guidance."
           },
           {
-            "title": "How to get started with Codex",
-            "link": "https://openai.com/academy/codex-how-to-start",
-            "date": "2026-04-23T10:00:00+00:00",
-            "summary": "Learn how to get started with Codex by setting up projects, creating threads, and completing your first tasks with step-by-step guidance."
-          },
-          {
             "title": "Codex settings",
             "link": "https://openai.com/academy/codex-settings",
             "date": "2026-04-23T10:00:00+00:00",
             "summary": "Learn how to configure Codex settings, including personalization, detail level, and permissions, to run tasks smoothly and customize your workflow."
           },
           {
-            "title": "Top 10 uses for Codex at work",
-            "link": "https://openai.com/academy/top-10-use-cases-codex-for-work",
+            "title": "What is Codex?",
+            "link": "https://openai.com/academy/what-is-codex",
             "date": "2026-04-23T10:00:00+00:00",
-            "summary": "Explore 10 practical Codex use cases to automate tasks, create deliverables, and turn real inputs into outputs across tools, files, and workflows."
+            "summary": "Learn how Codex helps you go beyond chat by automating tasks, connecting tools, and producing real outputs like docs and dashboards."
+          },
+          {
+            "title": "How to get started with Codex",
+            "link": "https://openai.com/academy/codex-how-to-start",
+            "date": "2026-04-23T10:00:00+00:00",
+            "summary": "Learn how to get started with Codex by setting up projects, creating threads, and completing your first tasks with step-by-step guidance."
           },
           {
             "title": "GPT-5.5 Bio Bug Bounty",
@@ -163,7 +163,7 @@
         "home": "https://arxiv.org/list/cs.AI/recent",
         "url": "https://arxiv.org/rss/cs.AI",
         "status": "ok",
-        "fetchedAt": "2026-04-23T23:49:14.210070+00:00",
+        "fetchedAt": "2026-04-24T02:47:30.933764+00:00",
         "items": [
           {
             "title": "The Tool-Overuse Illusion: Why Does LLM Prefer External Tools over Internal Knowledge?",
@@ -234,7 +234,7 @@
         "home": "https://arxiv.org/list/cs.LG/recent",
         "url": "https://arxiv.org/rss/cs.LG",
         "status": "ok",
-        "fetchedAt": "2026-04-23T23:49:14.243590+00:00",
+        "fetchedAt": "2026-04-24T02:47:30.895692+00:00",
         "items": [
           {
             "title": "WorkflowGen:an adaptive workflow generation mechanism driven by trajectory experience",
@@ -305,7 +305,7 @@
         "home": "https://research.google/blog/",
         "url": "https://research.google/blog/rss/",
         "status": "ok",
-        "fetchedAt": "2026-04-23T23:49:14.280334+00:00",
+        "fetchedAt": "2026-04-24T02:47:30.807020+00:00",
         "items": [
           {
             "title": "It's all about the angle: Your photos, re-composed",
@@ -376,7 +376,7 @@
         "home": "https://deepmind.google/blog/",
         "url": "https://deepmind.google/blog/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-23T23:49:14.284799+00:00",
+        "fetchedAt": "2026-04-24T02:47:30.942504+00:00",
         "items": [
           {
             "title": "Decoupled DiLoCo: A new frontier for resilient, distributed AI training",
@@ -447,7 +447,7 @@
         "home": "https://lilianweng.github.io/",
         "url": "https://lilianweng.github.io/lil-log/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-23T23:49:13.935482+00:00",
+        "fetchedAt": "2026-04-24T02:47:30.649006+00:00",
         "items": [
           {
             "title": "Active Learning",
@@ -538,7 +538,7 @@
         "home": "https://minimaxir.com/",
         "url": "https://minimaxir.com/index.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-23T23:49:14.058181+00:00",
+        "fetchedAt": "2026-04-24T02:47:30.647889+00:00",
         "items": [
           {
             "title": "An AI agent coding skeptic tries AI agent coding, in excessive detail",
@@ -621,7 +621,7 @@
         "home": "https://www.jeffgeerling.com/",
         "url": "https://www.jeffgeerling.com/blog.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-23T23:49:14.028738+00:00",
+        "fetchedAt": "2026-04-24T02:47:30.651351+00:00",
         "items": [
           {
             "title": "An Arm Mainboard for the Framework Laptop",
@@ -692,7 +692,7 @@
         "home": "https://www.seangoedecke.com/",
         "url": "https://www.seangoedecke.com/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-23T23:49:13.993392+00:00",
+        "fetchedAt": "2026-04-24T02:47:30.679950+00:00",
         "items": [
           {
             "title": "Luddites and AI datacenters",
@@ -763,7 +763,7 @@
         "home": "https://krebsonsecurity.com/",
         "url": "https://krebsonsecurity.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-04-23T23:49:14.033663+00:00",
+        "fetchedAt": "2026-04-24T02:47:30.693432+00:00",
         "items": [
           {
             "title": "‘Scattered Spider’ Member ‘Tylerb’ Pleads Guilty",
@@ -834,8 +834,14 @@
         "home": "https://daringfireball.net/",
         "url": "https://daringfireball.net/feeds/main",
         "status": "ok",
-        "fetchedAt": "2026-04-23T23:49:14.120675+00:00",
+        "fetchedAt": "2026-04-24T02:47:30.742231+00:00",
         "items": [
+          {
+            "title": "United Kingdom to Pass Smoking Ban Only for Those Who Are Not Yet Legal Adults",
+            "link": "https://www.nytimes.com/2026/04/21/world/europe/uk-smoking-ban-2009.html?unlocked_article_code=1.dVA.f9yJ.YMVg9N8QOlio",
+            "date": "2026-04-24T02:39:55+00:00",
+            "summary": "Ephrat Livni, reporting for The New York Times (gift link): Britain aims to raise a “smoke-free generation” by permanently banning the sale or supply of tobacco to anyone born in 2009 or after, with a bill that was approved by Parliament on Tuesday. The bill applies to people currently 17 years old "
+          },
           {
             "title": "Trump’s Blog Has Somehow Lost $1.1 Billion",
             "link": "https://www.motherjones.com/politics/2026/04/truth-social-ceo-out-after-1-1-billion-in-losses/",
@@ -889,12 +895,6 @@
             "link": "https://recleague.com/?lyr_campaign=df",
             "date": "2026-04-22T03:03:18+00:00",
             "summary": "Rec League is a new app for sharing what you’re into. Catalog recommendations into tidy collections: your guide to Rome, your open tabs, your bookshelf. Follow people whose perspectives you trust, and discover brilliant, unexpected intel. Recently featured as the “Best New App” in the App Store. One"
-          },
-          {
-            "title": "Trump on Tim Apple",
-            "link": "https://truthsocial.com/@realDonaldTrump/posts/116442276577696798",
-            "date": "2026-04-21T20:49:16+00:00",
-            "summary": "The president of the United States, on his blog this morning (all capitalization, punctuation, and missing/wrong words verbatim): I have always been a big fan of Tim Cook, and likewise, Steve Jobs, but if Steve was not taken from the Planet Earth so young, and ran the company instead of Tim, the com"
           }
         ]
       },
@@ -905,7 +905,7 @@
         "home": "https://ericmigi.com/",
         "url": "https://ericmigi.com/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-23T23:49:14.026386+00:00",
+        "fetchedAt": "2026-04-24T02:47:30.691141+00:00",
         "items": [
           {
             "title": "Spring 2026 Pebble App Contest + SDK Updates",
@@ -976,7 +976,7 @@
         "home": "http://antirez.com/",
         "url": "http://antirez.com/rss",
         "status": "ok",
-        "fetchedAt": "2026-04-23T23:49:15.742754+00:00",
+        "fetchedAt": "2026-04-24T02:47:32.321279+00:00",
         "items": [
           {
             "title": "AI cybersecurity is not proof of work",
@@ -1047,7 +1047,7 @@
         "home": "https://idiallo.com/",
         "url": "https://idiallo.com/feed.rss",
         "status": "ok",
-        "fetchedAt": "2026-04-23T23:49:14.079688+00:00",
+        "fetchedAt": "2026-04-24T02:47:30.777076+00:00",
         "items": [
           {
             "title": "How to Come Up With Great Ideas",
@@ -1118,7 +1118,7 @@
         "home": "https://maurycyz.com/",
         "url": "https://maurycyz.com/index.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-23T23:49:14.502052+00:00",
+        "fetchedAt": "2026-04-24T02:47:31.220726+00:00",
         "items": []
       },
       {
@@ -1128,7 +1128,7 @@
         "home": "https://pluralistic.net/",
         "url": "https://pluralistic.net/feed/",
         "status": "ok",
-        "fetchedAt": "2026-04-23T23:49:14.680829+00:00",
+        "fetchedAt": "2026-04-24T02:47:31.174159+00:00",
         "items": [
           {
             "title": "Pluralistic: The (other) problem with automatic conversion of free software to proprietary software (23 Apr 2026)",
@@ -1199,7 +1199,7 @@
         "home": "https://shkspr.mobi/blog/",
         "url": "https://shkspr.mobi/blog/feed/",
         "status": "ok",
-        "fetchedAt": "2026-04-23T23:49:14.558210+00:00",
+        "fetchedAt": "2026-04-24T02:47:31.218242+00:00",
         "items": [
           {
             "title": "Sneaky spam in conversational replies to blog posts",
@@ -1280,7 +1280,7 @@
         "home": "https://mitchellh.com/",
         "url": "https://mitchellh.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-23T23:49:14.351248+00:00",
+        "fetchedAt": "2026-04-24T02:47:30.781761+00:00",
         "items": [
           {
             "title": "Simdutf Can Now Be Used Without libc++ or libc++abi",
@@ -1351,7 +1351,7 @@
         "home": "https://dynomight.net/",
         "url": "https://dynomight.net/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-23T23:49:14.341289+00:00",
+        "fetchedAt": "2026-04-24T02:47:30.835153+00:00",
         "items": [
           {
             "title": "I quit drinking for a year",
@@ -1422,7 +1422,7 @@
         "home": "https://xeiaso.net/",
         "url": "https://xeiaso.net/blog.rss",
         "status": "ok",
-        "fetchedAt": "2026-04-23T23:49:14.563359+00:00",
+        "fetchedAt": "2026-04-24T02:47:31.234808+00:00",
         "items": [
           {
             "title": "Claude Code won April Fools Day this year",
@@ -1493,7 +1493,7 @@
         "home": "https://devblogs.microsoft.com/oldnewthing/",
         "url": "https://devblogs.microsoft.com/oldnewthing/feed",
         "status": "ok",
-        "fetchedAt": "2026-04-23T23:49:14.291444+00:00",
+        "fetchedAt": "2026-04-24T02:47:30.761278+00:00",
         "items": [
           {
             "title": "Another crash caused by uninstaller code injection into Explorer",
@@ -1564,7 +1564,7 @@
         "home": "https://www.righto.com/",
         "url": "https://www.righto.com/feeds/posts/default",
         "status": "ok",
-        "fetchedAt": "2026-04-23T23:49:14.369520+00:00",
+        "fetchedAt": "2026-04-24T02:47:31.106412+00:00",
         "items": []
       },
       {
@@ -1574,7 +1574,7 @@
         "home": "https://lucumr.pocoo.org/",
         "url": "https://lucumr.pocoo.org/feed.atom",
         "status": "ok",
-        "fetchedAt": "2026-04-23T23:49:14.491677+00:00",
+        "fetchedAt": "2026-04-24T02:47:31.125335+00:00",
         "items": [
           {
             "title": "Equity for Europeans",
@@ -1645,7 +1645,7 @@
         "home": "https://skyfall.dev/",
         "url": "https://skyfall.dev/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-23T23:49:14.309675+00:00",
+        "fetchedAt": "2026-04-24T02:47:31.248274+00:00",
         "items": [
           {
             "title": "Good riddance, 4o",
@@ -1720,7 +1720,7 @@
         "home": "https://overreacted.io/",
         "url": "https://overreacted.io/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-23T23:49:14.347951+00:00",
+        "fetchedAt": "2026-04-24T02:47:31.076459+00:00",
         "items": [
           {
             "title": "A Social Filesystem",
@@ -1791,7 +1791,7 @@
         "home": "https://www.johndcook.com/",
         "url": "https://www.johndcook.com/blog/feed/",
         "status": "ok",
-        "fetchedAt": "2026-04-23T23:49:14.125234+00:00",
+        "fetchedAt": "2026-04-24T02:47:31.049271+00:00",
         "items": [
           {
             "title": "Approximation to solve an oblique triangle",
@@ -1862,7 +1862,7 @@
         "home": "https://matklad.github.io/",
         "url": "https://matklad.github.io/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-23T23:49:14.128729+00:00",
+        "fetchedAt": "2026-04-24T02:47:31.033999+00:00",
         "items": [
           {
             "title": "256 Lines or Less: Test Case Minimization",
@@ -1933,7 +1933,7 @@
         "home": "https://eli.thegreenplace.net/",
         "url": "https://eli.thegreenplace.net/feeds/all.atom.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-23T23:49:14.246686+00:00",
+        "fetchedAt": "2026-04-24T02:47:30.818943+00:00",
         "items": [
           {
             "title": "Debugging WASM in Chrome DevTools",
@@ -1974,7 +1974,7 @@
         "home": "https://fabiensanglard.net/",
         "url": "https://fabiensanglard.net/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-23T23:49:14.581581+00:00",
+        "fetchedAt": "2026-04-24T02:47:30.998469+00:00",
         "items": [
           {
             "title": "How Michael Abrash doubled Quake framerate",
@@ -2045,7 +2045,7 @@
         "home": "https://blog.miguelgrinberg.com/",
         "url": "https://blog.miguelgrinberg.com/feed",
         "status": "ok",
-        "fetchedAt": "2026-04-23T23:49:14.583490+00:00",
+        "fetchedAt": "2026-04-24T02:47:31.469931+00:00",
         "items": [
           {
             "title": "SQLAlchemy 2 In Practice - Chapter 6: A Page Analytics Solution",
@@ -2116,7 +2116,7 @@
         "home": "https://www.troyhunt.com/",
         "url": "https://www.troyhunt.com/rss/",
         "status": "ok",
-        "fetchedAt": "2026-04-23T23:49:14.560739+00:00",
+        "fetchedAt": "2026-04-24T02:47:30.822017+00:00",
         "items": [
           {
             "title": "Weekly Update 500",
@@ -2187,7 +2187,7 @@
         "home": "https://anildash.com/",
         "url": "https://anildash.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-23T23:49:14.529934+00:00",
+        "fetchedAt": "2026-04-24T02:47:31.247563+00:00",
         "items": [
           {
             "title": "A Cookie for Dario? — Anthropic and selling death",
@@ -2258,7 +2258,7 @@
         "home": "https://computer.rip/",
         "url": "https://computer.rip/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-23T23:49:15.206017+00:00",
+        "fetchedAt": "2026-04-24T02:47:31.591426+00:00",
         "items": [
           {
             "title": "IrDA",
@@ -2339,7 +2339,7 @@
         "home": "http://paulgraham.com/",
         "url": "http://www.aaronsw.com/2002/feeds/pgessays.rss",
         "status": "ok",
-        "fetchedAt": "2026-04-23T23:49:14.166108+00:00",
+        "fetchedAt": "2026-04-24T02:47:31.132140+00:00",
         "items": [
           {
             "title": "Superlinear Returns",
@@ -2410,7 +2410,7 @@
         "home": "https://steveblank.com/",
         "url": "https://steveblank.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-04-23T23:49:14.387159+00:00",
+        "fetchedAt": "2026-04-24T02:47:30.773037+00:00",
         "items": [
           {
             "title": "AI and Teaching – The Brave New World",
@@ -2483,7 +2483,7 @@
         "home": "https://news.ycombinator.com/",
         "url": "https://news.ycombinator.com/rss",
         "status": "ok",
-        "fetchedAt": "2026-04-23T23:49:14.393383+00:00",
+        "fetchedAt": "2026-04-24T02:47:31.015596+00:00",
         "items": [
           {
             "title": "GPT-5.5",
@@ -2498,9 +2498,21 @@
             "summary": "Comments"
           },
           {
-            "title": "Show HN: Tolaria – open-source macOS app to manage Markdown knowledge bases",
+            "title": "Why I Write (1946)",
+            "link": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/why-i-write/",
+            "date": "2026-04-24T02:26:23+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "Show HN: Tolaria – Open-source macOS app to manage Markdown knowledge bases",
             "link": "https://github.com/refactoringhq/tolaria",
             "date": "2026-04-23T22:01:59+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "Meta tells staff it will cut 10% of jobs",
+            "link": "https://www.bloomberg.com/news/articles/2026-04-23/meta-tells-staff-it-will-cut-10-of-jobs-in-push-for-efficiency",
+            "date": "2026-04-23T18:55:32+00:00",
             "summary": "Comments"
           },
           {
@@ -2510,27 +2522,9 @@
             "summary": "Comments"
           },
           {
-            "title": "An update on recent Claude Code quality reports",
-            "link": "https://www.anthropic.com/engineering/april-23-postmortem",
-            "date": "2026-04-23T17:48:38+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "Show HN: Agent Vault – Open-source credential proxy and vault for agents",
-            "link": "https://github.com/Infisical/agent-vault",
-            "date": "2026-04-22T16:25:28+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "My phone replaced a brass plug",
-            "link": "https://drobinin.com/posts/my-phone-replaced-a-brass-plug/",
-            "date": "2026-04-23T16:27:07+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "Incident with multple GitHub services",
-            "link": "https://www.githubstatus.com/incidents/myrbk7jvvs6p",
-            "date": "2026-04-23T16:21:55+00:00",
+            "title": "TorchTPU: Running PyTorch Natively on TPUs at Google Scale",
+            "link": "https://developers.googleblog.com/torchtpu-running-pytorch-natively-on-tpus-at-google-scale/",
+            "date": "2026-04-23T20:53:27+00:00",
             "summary": "Comments"
           },
           {
@@ -2540,9 +2534,15 @@
             "summary": "Comments"
           },
           {
-            "title": "U.S. Soldier Charged with Using Classified Info to Profit from Prediction Market",
-            "link": "https://www.justice.gov/usao-sdny/pr/us-soldier-charged-using-classified-information-profit-prediction-market-bets?bm-verify=AAQAAAAN_____y6To7sZYZ502biZwIHXlr-7zXZUqV4H0xLTfW__wDA3SjNLqifXRaQwsikyuz6IJknyuL8xfVYRkesxcDk5V10m-HoXl2K93f17rygBphL77WVFoQ_XvlmUo922IwM_DQ66137X6wWMtpdHslcEjpJG7KbBmUw9Su4kDENpDt_yv2spThQZehgv-X1Adk5U2VHfp41co2s_QJGjRj4y0KmL1mhSCyVaE7MC1LHG0mtP-xYmD0xBOQwn6PlHkPiP5Nt46h5ZIjLGXgCZDEVD42i7rIEM379DKLPUPX0PDNmOAwFSuTqcTDVnT_UUV8vxpHLRMb7rUxPxKUPcIB23iZTRJddWDDtPHMXadpwv67xr-f1sKDLZT9NgHCO4iuC2EthmAt0",
-            "date": "2026-04-23T22:37:01+00:00",
+            "title": "An update on recent Claude Code quality reports",
+            "link": "https://www.anthropic.com/engineering/april-23-postmortem",
+            "date": "2026-04-23T17:48:38+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "My phone replaced a brass plug",
+            "link": "https://drobinin.com/posts/my-phone-replaced-a-brass-plug/",
+            "date": "2026-04-23T16:27:07+00:00",
             "summary": "Comments"
           }
         ]
@@ -2554,13 +2554,31 @@
         "home": "https://www.techmeme.com/",
         "url": "https://www.techmeme.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-23T23:49:14.213899+00:00",
+        "fetchedAt": "2026-04-24T02:47:31.128590+00:00",
         "items": [
           {
-            "title": "Sources: the US DOJ arrested a soldier involved in the capture of Nicolás Maduro for allegedly making $400K+ on Polymarket by betting on his removal from office (ABC News)",
+            "title": "SAP reports Q1 revenue up 6% YoY to €9.56B, vs. €9.53B est., non-IFRS operating profit up 17% to €2.87B, cloud revenue up 19% to €5.96B; SAP up 10%+ after hours (Reuters)",
+            "link": "http://www.techmeme.com/260423/p63#a260423p63",
+            "date": "2026-04-23T22:30:01-04:00",
+            "summary": "Reuters: SAP reports Q1 revenue up 6% YoY to &euro;9.56B, vs. &euro;9.53B est., non-IFRS operating profit up 17% to &euro;2.87B, cloud revenue up 19% to &euro;5.96B; SAP up 10%+ after hours&nbsp; &mdash;&nbsp; Europe's largest software maker SAP (SAPG.DE) on Thursday reported a 17% increase in first"
+          },
+          {
+            "title": "Singapore is slowly emerging as a neutral ground for AI companies, offering an alternative place to build without worrying about US or Chinese regulations (Reuters)",
+            "link": "http://www.techmeme.com/260423/p62#a260423p62",
+            "date": "2026-04-23T21:45:02-04:00",
+            "summary": "Reuters: Singapore is slowly emerging as a neutral ground for AI companies, offering an alternative place to build without worrying about US or Chinese regulations&nbsp; &mdash;&nbsp; Singapore is transforming from East-West gateway to neutral ground for the AI sector, with Chinese startups hoping &"
+          },
+          {
+            "title": "Sources: AI coding firm Cognition is in early talks to raise hundreds of millions of dollars at a $25B valuation, up from $10.2B announced in September 2025 (Bloomberg)",
+            "link": "http://www.techmeme.com/260423/p61#a260423p61",
+            "date": "2026-04-23T20:35:04-04:00",
+            "summary": "Bloomberg: Sources: AI coding firm Cognition is in early talks to raise hundreds of millions of dollars at a $25B valuation, up from $10.2B announced in September 2025&nbsp; &mdash;&nbsp; Cognition AI Inc. is in early talks to raise a new round of funding that would more than double its valuation to"
+          },
+          {
+            "title": "The US DOJ arrests a soldier involved in the capture of Nicolás Maduro for allegedly making $400K+ on Polymarket by betting on his removal from office (ABC News)",
             "link": "http://www.techmeme.com/260423/p60#a260423p60",
             "date": "2026-04-23T18:10:03-04:00",
-            "summary": "ABC News: Sources: the US DOJ arrested a soldier involved in the capture of Nicol&aacute;s Maduro for allegedly making $400K+ on Polymarket by betting on his removal from office&nbsp; &mdash;&nbsp; The bet was allegedly placed by a commando involved in Nicolas Maduro's capture.&nbsp; &mdash;&nbsp; K"
+            "summary": "ABC News: The US DOJ arrests a soldier involved in the capture of Nicol&aacute;s Maduro for allegedly making $400K+ on Polymarket by betting on his removal from office&nbsp; &mdash;&nbsp; The bet was allegedly placed by a commando involved in Nicolas Maduro's capture.&nbsp; &mdash;&nbsp; Katherine F"
           },
           {
             "title": "Texas Instruments stock rose 19% on Thursday, its best day since 2000, after upbeat Q2 guidance driven by high demand for analog chips used in AI data centers (Katie Tarasov/CNBC)",
@@ -2597,24 +2615,6 @@
             "link": "http://www.techmeme.com/260423/p54#a260423p54",
             "date": "2026-04-23T15:15:04-04:00",
             "summary": "Sydney Bradley / Business Insider: Instagram launches Instants, an app for sharing disappearing photos, in Italy and Spain, after rolling out an Instants feature in its main app in some regions&nbsp; &mdash;&nbsp; - Instagram launched a new app in Italy and Spain this week called &ldquo;Instants.&rd"
-          },
-          {
-            "title": "OpenAI says \"GPT-5.5 matches GPT-5.4 per-token latency in real-world serving, while performing at a much higher level of intelligence\" (OpenAI)",
-            "link": "http://www.techmeme.com/260423/p53#a260423p53",
-            "date": "2026-04-23T15:00:01-04:00",
-            "summary": "OpenAI: OpenAI says &ldquo;GPT-5.5 matches GPT-5.4 per-token latency in real-world serving, while performing at a much higher level of intelligence&rdquo;&nbsp; &mdash;&nbsp; A new class of intelligence for real work&nbsp; &mdash;&nbsp; We're releasing GPT-5.5, our smartest and most intuitive to use"
-          },
-          {
-            "title": "Anthropic says it has fixed three causes of recent Claude Code quality issues: reduced default reasoning, a caching bug, and a system prompt to reduce verbosity (Anthropic)",
-            "link": "http://www.techmeme.com/260423/p52#a260423p52",
-            "date": "2026-04-23T14:50:02-04:00",
-            "summary": "Anthropic: Anthropic says it has fixed three causes of recent Claude Code quality issues: reduced default reasoning, a caching bug, and a system prompt to reduce verbosity&nbsp; &mdash;&nbsp; We traced recent reports of Claude Code quality issues to three separate changes.&nbsp; Here's what happened"
-          },
-          {
-            "title": "GPT-5.5 is priced at $5/1M input tokens and $30/1M output tokens, double GPT-5.4's pricing; GPT-5.5 Pro costs $30/1M input tokens and $180/1M output tokens (Carl Franzen/VentureBeat)",
-            "link": "http://www.techmeme.com/260423/p51#a260423p51",
-            "date": "2026-04-23T14:40:01-04:00",
-            "summary": "Carl Franzen / VentureBeat: GPT-5.5 is priced at $5/1M input tokens and $30/1M output tokens, double GPT-5.4's pricing; GPT-5.5 Pro costs $30/1M input tokens and $180/1M output tokens&nbsp; &mdash;&nbsp; After months of rumors and reports that OpenAI was developing a new, more powerful AI large lang"
           }
         ]
       },
@@ -2625,8 +2625,14 @@
         "home": "https://techcrunch.com/",
         "url": "https://techcrunch.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-04-23T23:49:14.478573+00:00",
+        "fetchedAt": "2026-04-24T02:47:30.787578+00:00",
         "items": [
+          {
+            "title": "Bob Iger rejoins Thrive Capital as advisor after Disney exit",
+            "link": "https://techcrunch.com/2026/04/23/bob-iger-rejoins-thrive-capital-as-advisor-after-disney-exit/",
+            "date": "2026-04-24T00:11:25+00:00",
+            "summary": "The former Disney CEO hold a stake in Thrive, and has previously held the role of the venture partner at the firm."
+          },
           {
             "title": "Authorities arrest special forces soldier who allegedly made $400K on Polymarket bet involving Maduro operation",
             "link": "https://techcrunch.com/2026/04/23/authorities-arrest-special-forces-soldier-who-allegedly-made-400k-on-polymarket-bet-involving-maduro-operation/",
@@ -2680,12 +2686,6 @@
             "link": "https://techcrunch.com/2026/04/23/openai-chatgpt-gpt-5-5-ai-model-superapp/",
             "date": "2026-04-23T18:29:29+00:00",
             "summary": "OpenAI says its latest model offers increased capabilities across a broad variety of categories."
-          },
-          {
-            "title": "Meta to cut 10% of jobs, or 8,000 employees, report says",
-            "link": "https://techcrunch.com/2026/04/23/meta-job-cuts-10-percent-8000-employees/",
-            "date": "2026-04-23T18:08:16+00:00",
-            "summary": "According to an internal memo, Meta plans to begin its sweeping layoffs on May 20."
           }
         ]
       },
@@ -2696,7 +2696,7 @@
         "home": "https://techcrunch.com/category/artificial-intelligence/",
         "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
         "status": "ok",
-        "fetchedAt": "2026-04-23T23:49:14.463777+00:00",
+        "fetchedAt": "2026-04-24T02:47:31.001134+00:00",
         "items": [
           {
             "title": "Bret Taylor’s Sierra buys YC-backed AI startup Fragment",
@@ -2767,7 +2767,7 @@
         "home": "https://techcrunch.com/tag/funding/",
         "url": "https://techcrunch.com/tag/funding/feed/",
         "status": "ok",
-        "fetchedAt": "2026-04-23T23:49:14.477306+00:00",
+        "fetchedAt": "2026-04-24T02:47:31.050980+00:00",
         "items": [
           {
             "title": "Chipmakers AMD, Arm, and Qualcomm are all investing in this buzzy self-driving tech startup",
@@ -2838,7 +2838,7 @@
         "home": "https://venturebeat.com/",
         "url": "https://venturebeat.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-04-23T23:49:14.173661+00:00",
+        "fetchedAt": "2026-04-24T02:47:31.045361+00:00",
         "items": [
           {
             "title": "Mystery solved: Anthropic reveals changes to Claude's harnesses and operating instructions likely caused degradation",
@@ -2891,7 +2891,7 @@
         "home": "https://venturebeat.com/category/ai/",
         "url": "https://venturebeat.com/category/ai/feed/",
         "status": "ok",
-        "fetchedAt": "2026-04-23T23:49:14.252292+00:00",
+        "fetchedAt": "2026-04-24T02:47:31.040476+00:00",
         "items": [
           {
             "title": "Railway secures $100 million to challenge AWS with AI-native cloud infrastructure",
@@ -2956,8 +2956,20 @@
         "home": "https://www.bestblogs.dev/",
         "url": "https://www.bestblogs.dev/zh/feeds/rss?category=ai&minScore=90",
         "status": "ok",
-        "fetchedAt": "2026-04-23T23:49:14.739272+00:00",
+        "fetchedAt": "2026-04-24T02:47:32.404448+00:00",
         "items": [
+          {
+            "title": "OpenAI 发布 GPT-5.5：迈向 Agentic 智能与长程自主性的里程碑",
+            "link": "https://www.bestblogs.dev/status/2047472952233615446",
+            "date": "2026-04-24T00:29:26+00:00",
+            "summary": "📌 一句话摘要 OpenAI 推出 GPT-5.5 模型，主打「Agentic」自主代理能力，在编码、计算机操作及科学研究领域实现跨越式突破。 📝 详细摘要 GPT-5.5 是 OpenAI 最新的旗舰模型，核心特性在于其「Agentic」能力，能够自主规划、调用工具并处理复杂模糊的长程任务。在技术指标上，它在 Terminal-Bench 2.0 (82.7%) 和 SWE-Bench Pro (58.6%) 均取得 Top1 成绩。该模型在编码实践中展现出极高的概念清晰度，能理解系统性错误并进行复杂架构重构。此外，GPT-5.5 在 OSWorld-Verified 计算机操作测试中接近人"
+          },
+          {
+            "title": "OpenAI 正式发布 GPT-5.5：专为 Agent 与真实工作设计",
+            "link": "https://www.bestblogs.dev/status/2047467199028461981",
+            "date": "2026-04-24T00:06:35+00:00",
+            "summary": "📌 一句话摘要 OpenAI 官宣全新 GPT-5.5 模型，显著提升复杂目标理解与 Agent 协作能力，并同步上线 Pro 版本。 📝 详细摘要 OpenAI 发布了全新的 GPT-5.5 模型，定位于「真实工作」和「Agent 赋能」。该模型在理解复杂目标、工具使用、自我检查及长任务处理方面有显著提升，特别擅长 Agentic Coding、计算机使用（Computer Use）及早期科研任务。在提升智能的同时保持了高速度，并降低了真实任务的 Token 消耗。目前已在 ChatGPT 和 Codex 中面向 Plus 及企业级用户全面开放。 📊 文章信息 AI 初评：92 来源：Ber"
+          },
           {
             "title": "刚刚，GPT-5.5 发布！内测英伟达工程师：失去它像被截肢",
             "link": "https://www.bestblogs.dev/article/9aeb5cbf",
@@ -3005,24 +3017,92 @@
             "link": "https://www.bestblogs.dev/article/fbbacd23",
             "date": "2026-04-22T02:13:00+00:00",
             "summary": "📌 一句话摘要 本文对 OpenAI 最新发布的 ChatGPT Images 2.0（GPT-Image-2）进行了全面解读，涵盖其作为首个会思考的图像模型、非拉丁文字渲染、API 调用细节、价格、客户验证、局限性及安全策略。 📝 详细摘要 文章深入解析了 OpenAI 最新发布的图像生成模型 ChatGPT Images 2.0（API 模型名 gpt-image-2）。作者从多个维度展开：首先介绍了模型的获取方式、API 价格（相比上代上涨约 60%）及调用示例。核心亮点在于这是首个具备「思考」能力的图像模型，能联网搜索、生成连贯图像并自我检查，并通过五个官方演示展示了其应用潜力。文章重"
-          },
-          {
-            "title": "单 Agent 时代结束，AI 们开始组团上班",
-            "link": "https://www.bestblogs.dev/article/1a8f717c",
-            "date": "2026-04-22T01:36:29+00:00",
-            "summary": "📌 一句话摘要 本文深度评测了月之暗面最新开源的 K2.6 模型，重点分析了其多 Agent 集群协作能力的实际表现，并通过两个复杂任务（生成多格式报告、构建全栈网站）验证了其从单一智能体向团队化、工程化协作的范式转变。 📝 详细摘要 文章聚焦于月之暗面最新发布的 K2.6 模型，其核心升级在于多 Agent 协作的“Agent 集群”能力。作者通过两个详尽的实测任务来验证这一能力：首先，要求模型并行生成一份包含完整报告、结构化对比表格和汇报 PPT 的 AI 编程助手调研材料，K2.6 成功调度了多达 12 个“专家”Agent 并行工作，最终交付了 55 页、3.5 万字的高质量成果。其次"
-          },
-          {
-            "title": "SpaceX 与 Cursor 达成深度合作：600 亿美元收购权与算力绑定",
-            "link": "https://www.bestblogs.dev/status/2046750056406249550",
-            "date": "2026-04-22T00:36:54+00:00",
-            "summary": "📌 一句话摘要 SpaceX 宣布与 AI 编程工具 Cursor 深度合作，Cursor 获得 xAI 算力支持，并赋予 SpaceX 600 亿美元的收购选择权。 📝 详细摘要 这是一条重磅行业资讯。SpaceX 与目前领先的 AI 编程工具 Cursor 达成战略合作。Cursor 将利用 xAI 的 Colossus 超算（相当于 100 万块 H100 算力）来训练其核心模型 Composer，以摆脱对 OpenAI 和 Anthropic 的依赖。合作协议包含一个极高溢价的选择权：SpaceX 可在今年晚些时候以 600 亿美元收购 Cursor，或支付 100 亿美元合作费。此举"
           }
         ]
       }
     ]
   },
   "allItems": [
+    {
+      "title": "United Kingdom to Pass Smoking Ban Only for Those Who Are Not Yet Legal Adults",
+      "link": "https://www.nytimes.com/2026/04/21/world/europe/uk-smoking-ban-2009.html?unlocked_article_code=1.dVA.f9yJ.YMVg9N8QOlio",
+      "date": "2026-04-24T02:39:55+00:00",
+      "summary": "Ephrat Livni, reporting for The New York Times (gift link): Britain aims to raise a “smoke-free generation” by permanently banning the sale or supply of tobacco to anyone born in 2009 or after, with a bill that was approved by Parliament on Tuesday. The bill applies to people currently 17 years old ",
+      "feedId": "daringfireball",
+      "feedTitle": "Daring Fireball",
+      "category": "Tech Blogs",
+      "feedHome": "https://daringfireball.net/"
+    },
+    {
+      "title": "Why I Write (1946)",
+      "link": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/why-i-write/",
+      "date": "2026-04-24T02:26:23+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "russellromney/honker",
+      "link": "https://simonwillison.net/2026/Apr/24/honker/#atom-everything",
+      "date": "2026-04-24T01:50:07+00:00",
+      "summary": "russellromney/honker \"Postgres NOTIFY/LISTEN semantics\" for SQLite, implemented as a Rust SQLite extension and various language bindings to help make use of it. The design of this looks very solid. It lets you write Python code for queues that looks like this: import honker db = honker.open(\"app.db\"",
+      "feedId": "simonwillison",
+      "feedTitle": "Simon Willison",
+      "category": "AI & LLM",
+      "feedHome": "https://simonwillison.net/"
+    },
+    {
+      "title": "An update on recent Claude Code quality reports",
+      "link": "https://simonwillison.net/2026/Apr/24/recent-claude-code-quality-reports/#atom-everything",
+      "date": "2026-04-24T01:31:25+00:00",
+      "summary": "An update on recent Claude Code quality reports It turns out the high volume of complaints that Claude Code was providing worse quality results over the past two months was grounded in real problems. The models themselves were not to blame, but three separate issues in the Claude Code harness caused",
+      "feedId": "simonwillison",
+      "feedTitle": "Simon Willison",
+      "category": "AI & LLM",
+      "feedHome": "https://simonwillison.net/"
+    },
+    {
+      "title": "Serving the For You feed",
+      "link": "https://simonwillison.net/2026/Apr/24/serving-the-for-you-feed/#atom-everything",
+      "date": "2026-04-24T01:08:17+00:00",
+      "summary": "Serving the For You feed One of Bluesky's most interesting features is that anyone can run their own custom \"feed\" implementation and make it available to other users - effectively enabling custom algorithms that can use any mechanism they like to recommend posts. spacecowboy runs the For You Feed, ",
+      "feedId": "simonwillison",
+      "feedTitle": "Simon Willison",
+      "category": "AI & LLM",
+      "feedHome": "https://simonwillison.net/"
+    },
+    {
+      "title": "OpenAI 发布 GPT-5.5：迈向 Agentic 智能与长程自主性的里程碑",
+      "link": "https://www.bestblogs.dev/status/2047472952233615446",
+      "date": "2026-04-24T00:29:26+00:00",
+      "summary": "📌 一句话摘要 OpenAI 推出 GPT-5.5 模型，主打「Agentic」自主代理能力，在编码、计算机操作及科学研究领域实现跨越式突破。 📝 详细摘要 GPT-5.5 是 OpenAI 最新的旗舰模型，核心特性在于其「Agentic」能力，能够自主规划、调用工具并处理复杂模糊的长程任务。在技术指标上，它在 Terminal-Bench 2.0 (82.7%) 和 SWE-Bench Pro (58.6%) 均取得 Top1 成绩。该模型在编码实践中展现出极高的概念清晰度，能理解系统性错误并进行复杂架构重构。此外，GPT-5.5 在 OSWorld-Verified 计算机操作测试中接近人",
+      "feedId": "bestblogs",
+      "feedTitle": "BestBlogs.dev AI 90+",
+      "category": "中文",
+      "feedHome": "https://www.bestblogs.dev/"
+    },
+    {
+      "title": "Bob Iger rejoins Thrive Capital as advisor after Disney exit",
+      "link": "https://techcrunch.com/2026/04/23/bob-iger-rejoins-thrive-capital-as-advisor-after-disney-exit/",
+      "date": "2026-04-24T00:11:25+00:00",
+      "summary": "The former Disney CEO hold a stake in Thrive, and has previously held the role of the venture partner at the firm.",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "OpenAI 正式发布 GPT-5.5：专为 Agent 与真实工作设计",
+      "link": "https://www.bestblogs.dev/status/2047467199028461981",
+      "date": "2026-04-24T00:06:35+00:00",
+      "summary": "📌 一句话摘要 OpenAI 官宣全新 GPT-5.5 模型，显著提升复杂目标理解与 Agent 协作能力，并同步上线 Pro 版本。 📝 详细摘要 OpenAI 发布了全新的 GPT-5.5 模型，定位于「真实工作」和「Agent 赋能」。该模型在理解复杂目标、工具使用、自我检查及长任务处理方面有显著提升，特别擅长 Agentic Coding、计算机使用（Computer Use）及早期科研任务。在提升智能的同时保持了高速度，并降低了真实任务的 Token 消耗。目前已在 ChatGPT 和 Codex 中面向 Plus 及企业级用户全面开放。 📊 文章信息 AI 初评：92 来源：Ber",
+      "feedId": "bestblogs",
+      "feedTitle": "BestBlogs.dev AI 90+",
+      "category": "中文",
+      "feedHome": "https://www.bestblogs.dev/"
+    },
     {
       "title": "Authorities arrest special forces soldier who allegedly made $400K on Polymarket bet involving Maduro operation",
       "link": "https://techcrunch.com/2026/04/23/authorities-arrest-special-forces-soldier-who-allegedly-made-400k-on-polymarket-bet-involving-maduro-operation/",
@@ -3044,17 +3124,17 @@
       "feedHome": "https://techcrunch.com/"
     },
     {
-      "title": "U.S. Soldier Charged with Using Classified Info to Profit from Prediction Market",
-      "link": "https://www.justice.gov/usao-sdny/pr/us-soldier-charged-using-classified-information-profit-prediction-market-bets?bm-verify=AAQAAAAN_____y6To7sZYZ502biZwIHXlr-7zXZUqV4H0xLTfW__wDA3SjNLqifXRaQwsikyuz6IJknyuL8xfVYRkesxcDk5V10m-HoXl2K93f17rygBphL77WVFoQ_XvlmUo922IwM_DQ66137X6wWMtpdHslcEjpJG7KbBmUw9Su4kDENpDt_yv2spThQZehgv-X1Adk5U2VHfp41co2s_QJGjRj4y0KmL1mhSCyVaE7MC1LHG0mtP-xYmD0xBOQwn6PlHkPiP5Nt46h5ZIjLGXgCZDEVD42i7rIEM379DKLPUPX0PDNmOAwFSuTqcTDVnT_UUV8vxpHLRMb7rUxPxKUPcIB23iZTRJddWDDtPHMXadpwv67xr-f1sKDLZT9NgHCO4iuC2EthmAt0",
-      "date": "2026-04-23T22:37:01+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
+      "title": "SAP reports Q1 revenue up 6% YoY to €9.56B, vs. €9.53B est., non-IFRS operating profit up 17% to €2.87B, cloud revenue up 19% to €5.96B; SAP up 10%+ after hours (Reuters)",
+      "link": "http://www.techmeme.com/260423/p63#a260423p63",
+      "date": "2026-04-23T22:30:01-04:00",
+      "summary": "Reuters: SAP reports Q1 revenue up 6% YoY to &euro;9.56B, vs. &euro;9.53B est., non-IFRS operating profit up 17% to &euro;2.87B, cloud revenue up 19% to &euro;5.96B; SAP up 10%+ after hours&nbsp; &mdash;&nbsp; Europe's largest software maker SAP (SAPG.DE) on Thursday reported a 17% increase in first",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
       "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
+      "feedHome": "https://www.techmeme.com/"
     },
     {
-      "title": "Show HN: Tolaria – open-source macOS app to manage Markdown knowledge bases",
+      "title": "Show HN: Tolaria – Open-source macOS app to manage Markdown knowledge bases",
       "link": "https://github.com/refactoringhq/tolaria",
       "date": "2026-04-23T22:01:59+00:00",
       "summary": "Comments",
@@ -3082,6 +3162,16 @@
       "feedTitle": "VentureBeat",
       "category": "Startup & News",
       "feedHome": "https://venturebeat.com/"
+    },
+    {
+      "title": "Singapore is slowly emerging as a neutral ground for AI companies, offering an alternative place to build without worrying about US or Chinese regulations (Reuters)",
+      "link": "http://www.techmeme.com/260423/p62#a260423p62",
+      "date": "2026-04-23T21:45:02-04:00",
+      "summary": "Reuters: Singapore is slowly emerging as a neutral ground for AI companies, offering an alternative place to build without worrying about US or Chinese regulations&nbsp; &mdash;&nbsp; Singapore is transforming from East-West gateway to neutral ground for the AI sector, with Chinese startups hoping &",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
     },
     {
       "title": "These are the countries moving to ban social media for children",
@@ -3124,6 +3214,16 @@
       "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
     },
     {
+      "title": "TorchTPU: Running PyTorch Natively on TPUs at Google Scale",
+      "link": "https://developers.googleblog.com/torchtpu-running-pytorch-natively-on-tpus-at-google-scale/",
+      "date": "2026-04-23T20:53:27+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
       "title": "Unauthorized Users in Discord Group Had Weekslong Access to Anthropic’s Supposedly-Super-Dangerous Claude Mythos Model",
       "link": "https://www.bloomberg.com/news/articles/2026-04-21/anthropic-s-mythos-model-is-being-accessed-by-unauthorized-users",
       "date": "2026-04-23T20:53:11+00:00",
@@ -3152,6 +3252,16 @@
       "feedTitle": "BestBlogs.dev AI 90+",
       "category": "中文",
       "feedHome": "https://www.bestblogs.dev/"
+    },
+    {
+      "title": "Sources: AI coding firm Cognition is in early talks to raise hundreds of millions of dollars at a $25B valuation, up from $10.2B announced in September 2025 (Bloomberg)",
+      "link": "http://www.techmeme.com/260423/p61#a260423p61",
+      "date": "2026-04-23T20:35:04-04:00",
+      "summary": "Bloomberg: Sources: AI coding firm Cognition is in early talks to raise hundreds of millions of dollars at a $25B valuation, up from $10.2B announced in September 2025&nbsp; &mdash;&nbsp; Cognition AI Inc. is in early talks to raise a new round of funding that would more than double its valuation to",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
     },
     {
       "title": "Nilay Patel: ‘Beware Software Brain’",
@@ -3234,6 +3344,16 @@
       "feedHome": "https://techcrunch.com/"
     },
     {
+      "title": "Meta tells staff it will cut 10% of jobs",
+      "link": "https://www.bloomberg.com/news/articles/2026-04-23/meta-tells-staff-it-will-cut-10-of-jobs-in-push-for-efficiency",
+      "date": "2026-04-23T18:55:32+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
       "title": "OpenAI 发布 GPT-5.5：更聪明且高效，同步上线 Codex",
       "link": "https://www.bestblogs.dev/status/2047388162687684615",
       "date": "2026-04-23T18:52:31+00:00",
@@ -3284,24 +3404,14 @@
       "feedHome": "https://venturebeat.com/"
     },
     {
-      "title": "Sources: the US DOJ arrested a soldier involved in the capture of Nicolás Maduro for allegedly making $400K+ on Polymarket by betting on his removal from office (ABC News)",
+      "title": "The US DOJ arrests a soldier involved in the capture of Nicolás Maduro for allegedly making $400K+ on Polymarket by betting on his removal from office (ABC News)",
       "link": "http://www.techmeme.com/260423/p60#a260423p60",
       "date": "2026-04-23T18:10:03-04:00",
-      "summary": "ABC News: Sources: the US DOJ arrested a soldier involved in the capture of Nicol&aacute;s Maduro for allegedly making $400K+ on Polymarket by betting on his removal from office&nbsp; &mdash;&nbsp; The bet was allegedly placed by a commando involved in Nicolas Maduro's capture.&nbsp; &mdash;&nbsp; K",
+      "summary": "ABC News: The US DOJ arrests a soldier involved in the capture of Nicol&aacute;s Maduro for allegedly making $400K+ on Polymarket by betting on his removal from office&nbsp; &mdash;&nbsp; The bet was allegedly placed by a commando involved in Nicolas Maduro's capture.&nbsp; &mdash;&nbsp; Katherine F",
       "feedId": "techmeme",
       "feedTitle": "Techmeme",
       "category": "Startup & News",
       "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "Meta to cut 10% of jobs, or 8,000 employees, report says",
-      "link": "https://techcrunch.com/2026/04/23/meta-job-cuts-10-percent-8000-employees/",
-      "date": "2026-04-23T18:08:16+00:00",
-      "summary": "According to an internal memo, Meta plans to begin its sweeping layoffs on May 20.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
     },
     {
       "title": "GPT-5.5",
@@ -3362,16 +3472,6 @@
       "feedTitle": "Techmeme",
       "category": "Startup & News",
       "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "Incident with multple GitHub services",
-      "link": "https://www.githubstatus.com/incidents/myrbk7jvvs6p",
-      "date": "2026-04-23T16:21:55+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
     },
     {
       "title": "Intel reports Q1 revenue up 7% YoY to $13.58B, vs. $12.42B est., and forecasts Q2 revenue and adjusted EPS above estimates; INTC jumps 15%+ after hours (Katie Tarasov/CNBC)",
@@ -3438,36 +3538,6 @@
       "link": "http://www.techmeme.com/260423/p54#a260423p54",
       "date": "2026-04-23T15:15:04-04:00",
       "summary": "Sydney Bradley / Business Insider: Instagram launches Instants, an app for sharing disappearing photos, in Italy and Spain, after rolling out an Instants feature in its main app in some regions&nbsp; &mdash;&nbsp; - Instagram launched a new app in Italy and Spain this week called &ldquo;Instants.&rd",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "OpenAI says \"GPT-5.5 matches GPT-5.4 per-token latency in real-world serving, while performing at a much higher level of intelligence\" (OpenAI)",
-      "link": "http://www.techmeme.com/260423/p53#a260423p53",
-      "date": "2026-04-23T15:00:01-04:00",
-      "summary": "OpenAI: OpenAI says &ldquo;GPT-5.5 matches GPT-5.4 per-token latency in real-world serving, while performing at a much higher level of intelligence&rdquo;&nbsp; &mdash;&nbsp; A new class of intelligence for real work&nbsp; &mdash;&nbsp; We're releasing GPT-5.5, our smartest and most intuitive to use",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "Anthropic says it has fixed three causes of recent Claude Code quality issues: reduced default reasoning, a caching bug, and a system prompt to reduce verbosity (Anthropic)",
-      "link": "http://www.techmeme.com/260423/p52#a260423p52",
-      "date": "2026-04-23T14:50:02-04:00",
-      "summary": "Anthropic: Anthropic says it has fixed three causes of recent Claude Code quality issues: reduced default reasoning, a caching bug, and a system prompt to reduce verbosity&nbsp; &mdash;&nbsp; We traced recent reports of Claude Code quality issues to three separate changes.&nbsp; Here's what happened",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "GPT-5.5 is priced at $5/1M input tokens and $30/1M output tokens, double GPT-5.4's pricing; GPT-5.5 Pro costs $30/1M input tokens and $180/1M output tokens (Carl Franzen/VentureBeat)",
-      "link": "http://www.techmeme.com/260423/p51#a260423p51",
-      "date": "2026-04-23T14:40:01-04:00",
-      "summary": "Carl Franzen / VentureBeat: GPT-5.5 is priced at $5/1M input tokens and $30/1M output tokens, double GPT-5.4's pricing; GPT-5.5 Pro costs $30/1M input tokens and $180/1M output tokens&nbsp; &mdash;&nbsp; After months of rumors and reports that OpenAI was developing a new, more powerful AI large lang",
       "feedId": "techmeme",
       "feedTitle": "Techmeme",
       "category": "Startup & News",
@@ -3584,16 +3654,6 @@
       "feedHome": "https://shkspr.mobi/blog/"
     },
     {
-      "title": "GPT-5.5 System Card",
-      "link": "https://openai.com/index/gpt-5-5-system-card",
-      "date": "2026-04-23T11:00:00+00:00",
-      "summary": "",
-      "feedId": "openai",
-      "feedTitle": "OpenAI News",
-      "category": "AI & LLM",
-      "feedHome": "https://openai.com/news/"
-    },
-    {
       "title": "Introducing GPT-5.5",
       "link": "https://openai.com/index/introducing-gpt-5-5",
       "date": "2026-04-23T11:00:00+00:00",
@@ -3604,10 +3664,10 @@
       "feedHome": "https://openai.com/news/"
     },
     {
-      "title": "What is Codex?",
-      "link": "https://openai.com/academy/what-is-codex",
-      "date": "2026-04-23T10:00:00+00:00",
-      "summary": "Learn how Codex helps you go beyond chat by automating tasks, connecting tools, and producing real outputs like docs and dashboards.",
+      "title": "GPT-5.5 System Card",
+      "link": "https://openai.com/index/gpt-5-5-system-card",
+      "date": "2026-04-23T11:00:00+00:00",
+      "summary": "",
       "feedId": "openai",
       "feedTitle": "OpenAI News",
       "category": "AI & LLM",
@@ -3618,6 +3678,16 @@
       "link": "https://openai.com/academy/codex-automations",
       "date": "2026-04-23T10:00:00+00:00",
       "summary": "Learn how to automate tasks in Codex using schedules and triggers to create reports, summaries, and recurring workflows without manual effort.",
+      "feedId": "openai",
+      "feedTitle": "OpenAI News",
+      "category": "AI & LLM",
+      "feedHome": "https://openai.com/news/"
+    },
+    {
+      "title": "Top 10 uses for Codex at work",
+      "link": "https://openai.com/academy/top-10-use-cases-codex-for-work",
+      "date": "2026-04-23T10:00:00+00:00",
+      "summary": "Explore 10 practical Codex use cases to automate tasks, create deliverables, and turn real inputs into outputs across tools, files, and workflows.",
       "feedId": "openai",
       "feedTitle": "OpenAI News",
       "category": "AI & LLM",
@@ -3644,16 +3714,6 @@
       "feedHome": "https://openai.com/news/"
     },
     {
-      "title": "How to get started with Codex",
-      "link": "https://openai.com/academy/codex-how-to-start",
-      "date": "2026-04-23T10:00:00+00:00",
-      "summary": "Learn how to get started with Codex by setting up projects, creating threads, and completing your first tasks with step-by-step guidance.",
-      "feedId": "openai",
-      "feedTitle": "OpenAI News",
-      "category": "AI & LLM",
-      "feedHome": "https://openai.com/news/"
-    },
-    {
       "title": "Codex settings",
       "link": "https://openai.com/academy/codex-settings",
       "date": "2026-04-23T10:00:00+00:00",
@@ -3664,10 +3724,20 @@
       "feedHome": "https://openai.com/news/"
     },
     {
-      "title": "Top 10 uses for Codex at work",
-      "link": "https://openai.com/academy/top-10-use-cases-codex-for-work",
+      "title": "What is Codex?",
+      "link": "https://openai.com/academy/what-is-codex",
       "date": "2026-04-23T10:00:00+00:00",
-      "summary": "Explore 10 practical Codex use cases to automate tasks, create deliverables, and turn real inputs into outputs across tools, files, and workflows.",
+      "summary": "Learn how Codex helps you go beyond chat by automating tasks, connecting tools, and producing real outputs like docs and dashboards.",
+      "feedId": "openai",
+      "feedTitle": "OpenAI News",
+      "category": "AI & LLM",
+      "feedHome": "https://openai.com/news/"
+    },
+    {
+      "title": "How to get started with Codex",
+      "link": "https://openai.com/academy/codex-how-to-start",
+      "date": "2026-04-23T10:00:00+00:00",
+      "summary": "Learn how to get started with Codex by setting up projects, creating threads, and completing your first tasks with step-by-step guidance.",
       "feedId": "openai",
       "feedTitle": "OpenAI News",
       "category": "AI & LLM",
@@ -4054,16 +4124,6 @@
       "feedHome": "https://simonwillison.net/"
     },
     {
-      "title": "Show HN: Agent Vault – Open-source credential proxy and vault for agents",
-      "link": "https://github.com/Infisical/agent-vault",
-      "date": "2026-04-22T16:25:28+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
       "title": "AI and Teaching – The Brave New World",
       "link": "https://steveblank.com/2026/04/22/ai-and-teaching-the-brave-new-world/",
       "date": "2026-04-22T15:34:09+00:00",
@@ -4184,26 +4244,6 @@
       "feedHome": "https://simonwillison.net/"
     },
     {
-      "title": "单 Agent 时代结束，AI 们开始组团上班",
-      "link": "https://www.bestblogs.dev/article/1a8f717c",
-      "date": "2026-04-22T01:36:29+00:00",
-      "summary": "📌 一句话摘要 本文深度评测了月之暗面最新开源的 K2.6 模型，重点分析了其多 Agent 集群协作能力的实际表现，并通过两个复杂任务（生成多格式报告、构建全栈网站）验证了其从单一智能体向团队化、工程化协作的范式转变。 📝 详细摘要 文章聚焦于月之暗面最新发布的 K2.6 模型，其核心升级在于多 Agent 协作的“Agent 集群”能力。作者通过两个详尽的实测任务来验证这一能力：首先，要求模型并行生成一份包含完整报告、结构化对比表格和汇报 PPT 的 AI 编程助手调研材料，K2.6 成功调度了多达 12 个“专家”Agent 并行工作，最终交付了 55 页、3.5 万字的高质量成果。其次",
-      "feedId": "bestblogs",
-      "feedTitle": "BestBlogs.dev AI 90+",
-      "category": "中文",
-      "feedHome": "https://www.bestblogs.dev/"
-    },
-    {
-      "title": "SpaceX 与 Cursor 达成深度合作：600 亿美元收购权与算力绑定",
-      "link": "https://www.bestblogs.dev/status/2046750056406249550",
-      "date": "2026-04-22T00:36:54+00:00",
-      "summary": "📌 一句话摘要 SpaceX 宣布与 AI 编程工具 Cursor 深度合作，Cursor 获得 xAI 算力支持，并赋予 SpaceX 600 亿美元的收购选择权。 📝 详细摘要 这是一条重磅行业资讯。SpaceX 与目前领先的 AI 编程工具 Cursor 达成战略合作。Cursor 将利用 xAI 的 Colossus 超算（相当于 100 万块 H100 算力）来训练其核心模型 Composer，以摆脱对 OpenAI 和 Anthropic 的依赖。合作协议包含一个极高溢价的选择权：SpaceX 可在今年晚些时候以 600 亿美元收购 Cursor，或支付 100 亿美元合作费。此举",
-      "feedId": "bestblogs",
-      "feedTitle": "BestBlogs.dev AI 90+",
-      "category": "中文",
-      "feedHome": "https://www.bestblogs.dev/"
-    },
-    {
       "title": "Luddites and AI datacenters",
       "link": "https://seangoedecke.com/luddites-and-ai-datacenters/",
       "date": "2026-04-22T00:00:00+00:00",
@@ -4224,26 +4264,6 @@
       "feedHome": "https://www.troyhunt.com/"
     },
     {
-      "title": "Trump on Tim Apple",
-      "link": "https://truthsocial.com/@realDonaldTrump/posts/116442276577696798",
-      "date": "2026-04-21T20:49:16+00:00",
-      "summary": "The president of the United States, on his blog this morning (all capitalization, punctuation, and missing/wrong words verbatim): I have always been a big fan of Tim Cook, and likewise, Steve Jobs, but if Steve was not taken from the Planet Earth so young, and ran the company instead of Tim, the com",
-      "feedId": "daringfireball",
-      "feedTitle": "Daring Fireball",
-      "category": "Tech Blogs",
-      "feedHome": "https://daringfireball.net/"
-    },
-    {
-      "title": "Where's the raccoon with the ham radio? (ChatGPT Images 2.0)",
-      "link": "https://simonwillison.net/2026/Apr/21/gpt-image-2/#atom-everything",
-      "date": "2026-04-21T20:32:24+00:00",
-      "summary": "OpenAI released ChatGPT Images 2.0 today, their latest image generation model. On the livestream Sam Altman said that the leap from gpt-image-1 to gpt-image-2 was equivalent to jumping from GPT-3 to GPT-5. Here's how I put it to the test. My prompt: Do a where's Waldo style image but it's where is t",
-      "feedId": "simonwillison",
-      "feedTitle": "Simon Willison",
-      "category": "AI & LLM",
-      "feedHome": "https://simonwillison.net/"
-    },
-    {
       "title": "An AI Odyssey, Part 4: Astounding Coding Agents",
       "link": "https://www.johndcook.com/blog/2026/04/21/an-ai-odyssey-part-4-astounding-coding-agents/",
       "date": "2026-04-21T20:14:40+00:00",
@@ -4262,26 +4282,6 @@
       "feedTitle": "Google Research Blog",
       "category": "AI & LLM",
       "feedHome": "https://research.google/blog/"
-    },
-    {
-      "title": "Quoting Andreas Påhlsson-Notini",
-      "link": "https://simonwillison.net/2026/Apr/21/andreas-pahlsson-notini/#atom-everything",
-      "date": "2026-04-21T16:39:33+00:00",
-      "summary": "AI agents are already too human. Not in the romantic sense, not because they love or fear or dream, but in the more banal and frustrating one. The current implementations keep showing their human origin again and again: lack of stringency, lack of patience, lack of focus. Faced with an awkward task,",
-      "feedId": "simonwillison",
-      "feedTitle": "Simon Willison",
-      "category": "AI & LLM",
-      "feedHome": "https://simonwillison.net/"
-    },
-    {
-      "title": "scosman/pelicans_riding_bicycles",
-      "link": "https://simonwillison.net/2026/Apr/21/scosman/#atom-everything",
-      "date": "2026-04-21T15:54:43+00:00",
-      "summary": "scosman/pelicans_riding_bicycles I firmly approve of Steve Cosman's efforts to pollute the training set of pelicans riding bicycles. (To be fair, most of the examples I've published count as poisoning too.) Via Hacker News comment Tags: ai, generative-ai, llms, training-data, pelican-riding-a-bicycl",
-      "feedId": "simonwillison",
-      "feedTitle": "Simon Willison",
-      "category": "AI & LLM",
-      "feedHome": "https://simonwillison.net/"
     },
     {
       "title": "Partnering with industry leaders to accelerate AI transformation",
