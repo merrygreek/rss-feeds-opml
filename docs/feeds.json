@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-27T17:23:59.373074+00:00",
+  "updatedAt": "2026-04-27T19:25:30.991701+00:00",
   "totalFeeds": 51,
   "successCount": 44,
   "failedCount": 7,
@@ -21,8 +21,20 @@
         "home": "https://simonwillison.net/",
         "url": "https://simonwillison.net/atom/everything/",
         "status": "ok",
-        "fetchedAt": "2026-04-27T17:23:48.566661+00:00",
+        "fetchedAt": "2026-04-27T19:25:20.708230+00:00",
         "items": [
+          {
+            "title": "Tracking the history of the now-deceased OpenAI Microsoft AGI clause",
+            "link": "https://simonwillison.net/2026/Apr/27/now-deceased-agi-clause/#atom-everything",
+            "date": "2026-04-27T18:38:17+00:00",
+            "summary": "For many years, Microsoft and OpenAI's relationship has included a weird clause saying that, should AGI be achieved, Microsoft's commercial IP rights to OpenAI's technology would be null and void. That clause appeared to end today. I decided to try and track its expression over time on openai.com. O"
+          },
+          {
+            "title": "Speech translation in Google Meet is now rolling out to mobile devices",
+            "link": "https://simonwillison.net/2026/Apr/27/speech-translation-in-google-meet-is-now-rolling-out-to-mobile-d/#atom-everything",
+            "date": "2026-04-27T17:37:47+00:00",
+            "summary": "Speech translation in Google Meet is now rolling out to mobile devices I just encountered this feature via a \"try this out now\" prompt in a Google Meet meeting. It kind-of worked! This is Google's implementation of the ultimate sci-fi translation app, where two people can talk to each other in two s"
+          },
           {
             "title": "WHY ARE YOU LIKE THIS",
             "link": "https://simonwillison.net/2026/Apr/25/why-are-you-like-this/#atom-everything",
@@ -70,18 +82,6 @@
             "link": "https://simonwillison.net/2026/Apr/24/weekly/#atom-everything",
             "date": "2026-04-24T04:09:54+00:00",
             "summary": "This week's edition of my email newsletter (aka content from this blog delivered to your inbox) features 4 pelicans riding bicycles, 1 possum on an e-scooter, up to 5 raccoons with ham radios hiding in crowds, 5 blog posts, 8 links, 3 quotes and a new chapter of my Agentic Engineering Patterns guide"
-          },
-          {
-            "title": "russellromney/honker",
-            "link": "https://simonwillison.net/2026/Apr/24/honker/#atom-everything",
-            "date": "2026-04-24T01:50:07+00:00",
-            "summary": "russellromney/honker \"Postgres NOTIFY/LISTEN semantics\" for SQLite, implemented as a Rust SQLite extension and various language bindings to help make use of it. The design of this looks very solid. It lets you write Python code for queues that looks like this: import honker db = honker.open(\"app.db\""
-          },
-          {
-            "title": "An update on recent Claude Code quality reports",
-            "link": "https://simonwillison.net/2026/Apr/24/recent-claude-code-quality-reports/#atom-everything",
-            "date": "2026-04-24T01:31:25+00:00",
-            "summary": "An update on recent Claude Code quality reports It turns out the high volume of complaints that Claude Code was providing worse quality results over the past two months was grounded in real problems. The models themselves were not to blame, but three separate issues in the Claude Code harness caused"
           }
         ]
       },
@@ -92,13 +92,19 @@
         "home": "https://openai.com/news/",
         "url": "https://openai.com/news/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-27T17:23:48.739413+00:00",
+        "fetchedAt": "2026-04-27T19:25:21.058356+00:00",
         "items": [
           {
             "title": "The next phase of the Microsoft OpenAI partnership",
             "link": "https://openai.com/index/next-phase-of-microsoft-partnership",
             "date": "2026-04-27T06:00:00+00:00",
             "summary": "OpenAI and Microsoft announce an amended agreement that simplifies the partnership, adds long-term clarity, and supports continued AI innovation at scale."
+          },
+          {
+            "title": "An open-source spec for orchestration: Symphony",
+            "link": "https://openai.com/index/open-source-codex-orchestration-symphony",
+            "date": "2026-04-27T00:00:00+00:00",
+            "summary": "Learn how Symphony, an open-source spec for Codex orchestration, turns issue trackers into always-on agent systems—boosting engineering output and reducing context switching."
           },
           {
             "title": "Choco automates food distribution with AI agents",
@@ -125,10 +131,16 @@
             "summary": "Introducing GPT-5.5, our smartest model yet—faster, more capable, and built for complex tasks like coding, research, and data analysis across tools."
           },
           {
-            "title": "Top 10 uses for Codex at work",
-            "link": "https://openai.com/academy/top-10-use-cases-codex-for-work",
+            "title": "How to get started with Codex",
+            "link": "https://openai.com/academy/codex-how-to-start",
             "date": "2026-04-23T10:00:00+00:00",
-            "summary": "Explore 10 practical Codex use cases to automate tasks, create deliverables, and turn real inputs into outputs across tools, files, and workflows."
+            "summary": "Learn how to get started with Codex by setting up projects, creating threads, and completing your first tasks with step-by-step guidance."
+          },
+          {
+            "title": "Codex settings",
+            "link": "https://openai.com/academy/codex-settings",
+            "date": "2026-04-23T10:00:00+00:00",
+            "summary": "Learn how to configure Codex settings, including personalization, detail level, and permissions, to run tasks smoothly and customize your workflow."
           },
           {
             "title": "What is Codex?",
@@ -141,18 +153,6 @@
             "link": "https://openai.com/academy/codex-automations",
             "date": "2026-04-23T10:00:00+00:00",
             "summary": "Learn how to automate tasks in Codex using schedules and triggers to create reports, summaries, and recurring workflows without manual effort."
-          },
-          {
-            "title": "How to get started with Codex",
-            "link": "https://openai.com/academy/codex-how-to-start",
-            "date": "2026-04-23T10:00:00+00:00",
-            "summary": "Learn how to get started with Codex by setting up projects, creating threads, and completing your first tasks with step-by-step guidance."
-          },
-          {
-            "title": "Codex settings",
-            "link": "https://openai.com/academy/codex-settings",
-            "date": "2026-04-23T10:00:00+00:00",
-            "summary": "Learn how to configure Codex settings, including personalization, detail level, and permissions, to run tasks smoothly and customize your workflow."
           }
         ]
       },
@@ -163,7 +163,7 @@
         "home": "https://arxiv.org/list/cs.AI/recent",
         "url": "https://arxiv.org/rss/cs.AI",
         "status": "ok",
-        "fetchedAt": "2026-04-27T17:23:48.838835+00:00",
+        "fetchedAt": "2026-04-27T19:25:21.270461+00:00",
         "items": [
           {
             "title": "Math Takes Two: A test for emergent mathematical reasoning in communication",
@@ -234,7 +234,7 @@
         "home": "https://arxiv.org/list/cs.LG/recent",
         "url": "https://arxiv.org/rss/cs.LG",
         "status": "ok",
-        "fetchedAt": "2026-04-27T17:23:48.858960+00:00",
+        "fetchedAt": "2026-04-27T19:25:21.252231+00:00",
         "items": [
           {
             "title": "Focus Session: Hardware and Software Techniques for Accelerating Multimodal Foundation Models",
@@ -305,7 +305,7 @@
         "home": "https://research.google/blog/",
         "url": "https://research.google/blog/rss/",
         "status": "ok",
-        "fetchedAt": "2026-04-27T17:23:48.843719+00:00",
+        "fetchedAt": "2026-04-27T19:25:20.920156+00:00",
         "items": [
           {
             "title": "It's all about the angle: Your photos, re-composed",
@@ -376,7 +376,7 @@
         "home": "https://deepmind.google/blog/",
         "url": "https://deepmind.google/blog/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-27T17:23:48.805585+00:00",
+        "fetchedAt": "2026-04-27T19:25:20.967154+00:00",
         "items": [
           {
             "title": "Announcing our partnership with the Republic of Korea",
@@ -447,7 +447,7 @@
         "home": "https://lilianweng.github.io/",
         "url": "https://lilianweng.github.io/lil-log/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-27T17:23:48.536605+00:00",
+        "fetchedAt": "2026-04-27T19:25:20.640006+00:00",
         "items": [
           {
             "title": "Active Learning",
@@ -538,7 +538,7 @@
         "home": "https://minimaxir.com/",
         "url": "https://minimaxir.com/index.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-27T17:23:48.634714+00:00",
+        "fetchedAt": "2026-04-27T19:25:20.725810+00:00",
         "items": [
           {
             "title": "An AI agent coding skeptic tries AI agent coding, in excessive detail",
@@ -621,7 +621,7 @@
         "home": "https://www.jeffgeerling.com/",
         "url": "https://www.jeffgeerling.com/blog.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-27T17:23:48.602571+00:00",
+        "fetchedAt": "2026-04-27T19:25:20.710563+00:00",
         "items": [
           {
             "title": "New 10 GbE USB adapters are cooler, smaller, cheaper",
@@ -692,7 +692,7 @@
         "home": "https://www.seangoedecke.com/",
         "url": "https://www.seangoedecke.com/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-27T17:23:48.691024+00:00",
+        "fetchedAt": "2026-04-27T19:25:20.781121+00:00",
         "items": [
           {
             "title": "Software engineering may no longer be a lifetime career",
@@ -763,7 +763,7 @@
         "home": "https://krebsonsecurity.com/",
         "url": "https://krebsonsecurity.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-04-27T17:23:48.670477+00:00",
+        "fetchedAt": "2026-04-27T19:25:20.763951+00:00",
         "items": [
           {
             "title": "‘Scattered Spider’ Member ‘Tylerb’ Pleads Guilty",
@@ -834,8 +834,14 @@
         "home": "https://daringfireball.net/",
         "url": "https://daringfireball.net/feeds/main",
         "status": "ok",
-        "fetchedAt": "2026-04-27T17:23:48.657593+00:00",
+        "fetchedAt": "2026-04-27T19:25:20.849314+00:00",
         "items": [
+          {
+            "title": "Yours Truly on The Vergecast",
+            "link": "https://www.theverge.com/podcast/917965/apple-ceo-cook-ternus-transition",
+            "date": "2026-04-27T18:47:54+00:00",
+            "summary": "David Pierce: On this episode of The Vergecast, David and Nilay are joined by Daring Fireball’s John Gruber to talk about their reactions to the news, the (mostly) smooth transition Apple seems to have pulled off, and what we should really make of Tim Cook’s legacy as a product person. Really, the q"
+          },
           {
             "title": "DF Paraphernalia: Last Call for This Round of T-Shirts and Hoodies",
             "link": "https://store.daringfireball.net/",
@@ -889,12 +895,6 @@
             "link": "https://www.nytimes.com/2026/04/21/world/europe/uk-smoking-ban-2009.html?unlocked_article_code=1.dVA.f9yJ.YMVg9N8QOlio",
             "date": "2026-04-24T15:02:31+00:00",
             "summary": "Ephrat Livni, reporting for The New York Times (gift link): Britain aims to raise a “smoke-free generation” by permanently banning the sale or supply of tobacco to anyone born in 2009 or after, with a bill that was approved by Parliament on Tuesday. The bill applies to people currently 17 years old "
-          },
-          {
-            "title": "Trump’s Blog Has Somehow Lost $1.1 Billion",
-            "link": "https://www.motherjones.com/politics/2026/04/truth-social-ceo-out-after-1-1-billion-in-losses/",
-            "date": "2026-04-23T21:14:35+00:00",
-            "summary": "Russ Choma, reporting for Mother Jones: Devin Nunes was not an obvious choice to run a fledgling social media network, but after $1.1 billion in losses, the former dairy farmer and congressman is out as the head of Truth Social. Donald Trump Jr., a board member at Trump Media + Technology, the paren"
           }
         ]
       },
@@ -905,7 +905,7 @@
         "home": "https://ericmigi.com/",
         "url": "https://ericmigi.com/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-27T17:23:48.644175+00:00",
+        "fetchedAt": "2026-04-27T19:25:20.789113+00:00",
         "items": [
           {
             "title": "Spring 2026 Pebble App Contest + SDK Updates",
@@ -976,7 +976,7 @@
         "home": "http://antirez.com/",
         "url": "http://antirez.com/rss",
         "status": "ok",
-        "fetchedAt": "2026-04-27T17:23:50.529946+00:00",
+        "fetchedAt": "2026-04-27T19:25:22.472511+00:00",
         "items": [
           {
             "title": "AI cybersecurity is not proof of work",
@@ -1047,7 +1047,7 @@
         "home": "https://idiallo.com/",
         "url": "https://idiallo.com/feed.rss",
         "status": "ok",
-        "fetchedAt": "2026-04-27T17:23:48.897148+00:00",
+        "fetchedAt": "2026-04-27T19:25:20.903428+00:00",
         "items": [
           {
             "title": "The Satisfaction of a ChatGPT Plan",
@@ -1118,7 +1118,7 @@
         "home": "https://maurycyz.com/",
         "url": "https://maurycyz.com/index.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-27T17:23:49.225546+00:00",
+        "fetchedAt": "2026-04-27T19:25:21.306917+00:00",
         "items": []
       },
       {
@@ -1128,7 +1128,7 @@
         "home": "https://pluralistic.net/",
         "url": "https://pluralistic.net/feed/",
         "status": "ok",
-        "fetchedAt": "2026-04-27T17:23:49.433964+00:00",
+        "fetchedAt": "2026-04-27T19:25:21.288186+00:00",
         "items": [
           {
             "title": "Pluralistic: The enshittification multiverse (27 Apr 2026)",
@@ -1199,7 +1199,7 @@
         "home": "https://shkspr.mobi/blog/",
         "url": "https://shkspr.mobi/blog/feed/",
         "status": "ok",
-        "fetchedAt": "2026-04-27T17:23:49.847521+00:00",
+        "fetchedAt": "2026-04-27T19:25:21.540729+00:00",
         "items": [
           {
             "title": "Theatre Review: Hadestown ★★★★★",
@@ -1280,7 +1280,7 @@
         "home": "https://mitchellh.com/",
         "url": "https://mitchellh.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-27T17:23:48.968723+00:00",
+        "fetchedAt": "2026-04-27T19:25:20.939789+00:00",
         "items": [
           {
             "title": "Simdutf Can Now Be Used Without libc++ or libc++abi",
@@ -1351,7 +1351,7 @@
         "home": "https://dynomight.net/",
         "url": "https://dynomight.net/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-27T17:23:49.383017+00:00",
+        "fetchedAt": "2026-04-27T19:25:20.896757+00:00",
         "items": [
           {
             "title": "I quit drinking for a year",
@@ -1422,7 +1422,7 @@
         "home": "https://xeiaso.net/",
         "url": "https://xeiaso.net/blog.rss",
         "status": "ok",
-        "fetchedAt": "2026-04-27T17:23:49.306117+00:00",
+        "fetchedAt": "2026-04-27T19:25:21.197076+00:00",
         "items": [
           {
             "title": "Claude Code won April Fools Day this year",
@@ -1493,7 +1493,7 @@
         "home": "https://devblogs.microsoft.com/oldnewthing/",
         "url": "https://devblogs.microsoft.com/oldnewthing/feed",
         "status": "ok",
-        "fetchedAt": "2026-04-27T17:23:49.115170+00:00",
+        "fetchedAt": "2026-04-27T19:25:21.289548+00:00",
         "items": [
           {
             "title": "Looking at consequences of passing too few register parameters to a C function on various architectures",
@@ -1564,7 +1564,7 @@
         "home": "https://www.righto.com/",
         "url": "https://www.righto.com/feeds/posts/default",
         "status": "ok",
-        "fetchedAt": "2026-04-27T17:23:49.209016+00:00",
+        "fetchedAt": "2026-04-27T19:25:21.164266+00:00",
         "items": []
       },
       {
@@ -1574,7 +1574,7 @@
         "home": "https://lucumr.pocoo.org/",
         "url": "https://lucumr.pocoo.org/feed.atom",
         "status": "ok",
-        "fetchedAt": "2026-04-27T17:23:48.818090+00:00",
+        "fetchedAt": "2026-04-27T19:25:20.937975+00:00",
         "items": [
           {
             "title": "Equity for Europeans",
@@ -1645,7 +1645,7 @@
         "home": "https://skyfall.dev/",
         "url": "https://skyfall.dev/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-27T17:23:49.010510+00:00",
+        "fetchedAt": "2026-04-27T19:25:21.214360+00:00",
         "items": [
           {
             "title": "Good riddance, 4o",
@@ -1720,7 +1720,7 @@
         "home": "https://overreacted.io/",
         "url": "https://overreacted.io/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-27T17:23:48.956787+00:00",
+        "fetchedAt": "2026-04-27T19:25:21.189782+00:00",
         "items": [
           {
             "title": "A Social Filesystem",
@@ -1791,7 +1791,7 @@
         "home": "https://www.johndcook.com/",
         "url": "https://www.johndcook.com/blog/feed/",
         "status": "ok",
-        "fetchedAt": "2026-04-27T17:23:48.826101+00:00",
+        "fetchedAt": "2026-04-27T19:25:20.977977+00:00",
         "items": [
           {
             "title": "Closed-form solution to the nonlinear pendulum equation",
@@ -1862,7 +1862,7 @@
         "home": "https://matklad.github.io/",
         "url": "https://matklad.github.io/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-27T17:23:48.866241+00:00",
+        "fetchedAt": "2026-04-27T19:25:21.213305+00:00",
         "items": [
           {
             "title": "256 Lines or Less: Test Case Minimization",
@@ -1933,7 +1933,7 @@
         "home": "https://eli.thegreenplace.net/",
         "url": "https://eli.thegreenplace.net/feeds/all.atom.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-27T17:23:49.348808+00:00",
+        "fetchedAt": "2026-04-27T19:25:21.129223+00:00",
         "items": [
           {
             "title": "Debugging WASM in Chrome DevTools",
@@ -1974,7 +1974,7 @@
         "home": "https://fabiensanglard.net/",
         "url": "https://fabiensanglard.net/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-27T17:23:49.111250+00:00",
+        "fetchedAt": "2026-04-27T19:25:21.005202+00:00",
         "items": [
           {
             "title": "How Michael Abrash doubled Quake framerate",
@@ -2045,7 +2045,7 @@
         "home": "https://blog.miguelgrinberg.com/",
         "url": "https://blog.miguelgrinberg.com/feed",
         "status": "ok",
-        "fetchedAt": "2026-04-27T17:23:49.698546+00:00",
+        "fetchedAt": "2026-04-27T19:25:21.689466+00:00",
         "items": [
           {
             "title": "How Bitwarden Encrypts and Decrypts Secrets",
@@ -2116,7 +2116,7 @@
         "home": "https://www.troyhunt.com/",
         "url": "https://www.troyhunt.com/rss/",
         "status": "ok",
-        "fetchedAt": "2026-04-27T17:23:49.073744+00:00",
+        "fetchedAt": "2026-04-27T19:25:20.932340+00:00",
         "items": [
           {
             "title": "Weekly Update 500",
@@ -2187,7 +2187,7 @@
         "home": "https://anildash.com/",
         "url": "https://anildash.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-27T17:23:49.438533+00:00",
+        "fetchedAt": "2026-04-27T19:25:20.990013+00:00",
         "items": [
           {
             "title": "A Cookie for Dario? — Anthropic and selling death",
@@ -2258,7 +2258,7 @@
         "home": "https://computer.rip/",
         "url": "https://computer.rip/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-27T17:23:49.045777+00:00",
+        "fetchedAt": "2026-04-27T19:25:21.648688+00:00",
         "items": [
           {
             "title": "voice modems",
@@ -2339,7 +2339,7 @@
         "home": "http://paulgraham.com/",
         "url": "http://www.aaronsw.com/2002/feeds/pgessays.rss",
         "status": "ok",
-        "fetchedAt": "2026-04-27T17:23:48.932308+00:00",
+        "fetchedAt": "2026-04-27T19:25:21.086153+00:00",
         "items": [
           {
             "title": "Superlinear Returns",
@@ -2410,7 +2410,7 @@
         "home": "https://steveblank.com/",
         "url": "https://steveblank.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-04-27T17:23:48.747988+00:00",
+        "fetchedAt": "2026-04-27T19:25:21.108728+00:00",
         "items": [
           {
             "title": "AI and Teaching – The Brave New World",
@@ -2483,8 +2483,14 @@
         "home": "https://news.ycombinator.com/",
         "url": "https://news.ycombinator.com/rss",
         "status": "ok",
-        "fetchedAt": "2026-04-27T17:23:49.048072+00:00",
+        "fetchedAt": "2026-04-27T19:25:21.520081+00:00",
         "items": [
+          {
+            "title": "United Wizards of the Coast",
+            "link": "https://unitedwizardsofthecoast.com/news/announcing-united-wizards-coast-cwa",
+            "date": "2026-04-27T18:34:30+00:00",
+            "summary": "Comments"
+          },
           {
             "title": "Microsoft and OpenAI end their exclusive and revenue-sharing deal",
             "link": "https://www.bloomberg.com/news/articles/2026-04-27/microsoft-to-stop-sharing-revenue-with-main-ai-partner-openai",
@@ -2492,57 +2498,51 @@
             "summary": "Comments"
           },
           {
-            "title": "\"Why not just use Lean?\"",
+            "title": "Open-Source KiCad PCBs for Common Arduino, ESP32, RP2040 Boards",
+            "link": "https://github.com/Hanqaqa/Easyduino",
+            "date": "2026-04-27T17:45:02+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "“Why not just use Lean?”",
             "link": "https://lawrencecpaulson.github.io//2026/04/23/Why_not_Lean.html",
             "date": "2026-04-27T14:24:53+00:00",
             "summary": "Comments"
           },
           {
-            "title": "The Woes of Sanitizing SVGs",
-            "link": "https://muffin.ink/blog/scratch-svg-sanitization/",
-            "date": "2026-04-27T15:31:36+00:00",
+            "title": "China blocks Meta's acquisition of AI startup Manus",
+            "link": "https://www.cnbc.com/2026/04/27/meta-manus-china-blocks-acquisition-ai-startup.html",
+            "date": "2026-04-27T11:43:59+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "Networking changes coming in macOS 27",
+            "link": "https://eclecticlight.co/2026/04/23/networking-changes-coming-in-macos-27/",
+            "date": "2026-04-27T15:36:12+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "Super ZSNES – GPU Powered SNES Emulator",
+            "link": "https://zsnes.com/",
+            "date": "2026-04-27T17:50:10+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "GitHub is having issues now",
+            "link": "https://www.githubstatus.com",
+            "date": "2026-04-27T17:42:19+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "GitHub Copilot is moving to usage-based billing",
+            "link": "https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/",
+            "date": "2026-04-27T16:03:08+00:00",
             "summary": "Comments"
           },
           {
             "title": "4TB of voice samples just stolen from 40k AI contractors at Mercor",
             "link": "https://app.oravys.com/blog/mercor-breach-2026",
             "date": "2026-04-27T09:57:10+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "Show HN: OSS Agent I built topped the TerminalBench on Gemini-3-flash-preview",
-            "link": "https://github.com/dirac-run/dirac",
-            "date": "2026-04-27T12:35:55+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "Pgbackrest is no longer being maintained",
-            "link": "https://github.com/pgbackrest/pgbackrest",
-            "date": "2026-04-27T10:56:34+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "Dutch central bank ditches AWS and chooses Lidl for European Cloud",
-            "link": "https://www.techzine.eu/news/infrastructure/140634/dutch-central-bank-chooses-lidl-for-european-cloud/",
-            "date": "2026-04-27T15:12:41+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "Fully Featured Audio DSP Firmware for the Raspberry Pi Pico",
-            "link": "https://github.com/WeebLabs/DSPi",
-            "date": "2026-04-25T13:28:29+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "FDA Approves First-Ever Gene Therapy for Treatment of Genetic Hearing Loss",
-            "link": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-ever-gene-therapy-treatment-genetic-hearing-loss-under-national-priority-voucher",
-            "date": "2026-04-27T10:15:17+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "Tendril – a self-extending agent that builds and registers its own tools",
-            "link": "https://github.com/serverless-dna/tendril",
-            "date": "2026-04-27T13:34:48+00:00",
             "summary": "Comments"
           }
         ]
@@ -2554,8 +2554,14 @@
         "home": "https://www.techmeme.com/",
         "url": "https://www.techmeme.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-27T17:23:49.112776+00:00",
+        "fetchedAt": "2026-04-27T19:25:21.847300+00:00",
         "items": [
+          {
+            "title": "Have I Been Pwned: ShinyHunters' breach of ADT exposed the personal data of 5.5M people; ADT previously disclosed data breaches in August 2024 and October 2024 (Sergiu Gatlan/BleepingComputer)",
+            "link": "http://www.techmeme.com/260427/p34#a260427p34",
+            "date": "2026-04-27T14:00:36-04:00",
+            "summary": "Sergiu Gatlan / BleepingComputer: Have I Been Pwned: ShinyHunters' breach of ADT exposed the personal data of 5.5M people; ADT previously disclosed data breaches in August 2024 and October 2024&nbsp; &mdash;&nbsp; The ShinyHunters extortion group stole the personal information of 5.5 million individ"
+          },
           {
             "title": "GitHub says all Copilot plans will move to usage-based billing on June 1, replacing premium requests with monthly GitHub AI Credits (Mario Rodriguez/The GitHub Blog)",
             "link": "http://www.techmeme.com/260427/p33#a260427p33",
@@ -2609,12 +2615,6 @@
             "link": "http://www.techmeme.com/260427/p25#a260427p25",
             "date": "2026-04-27T09:23:57-04:00",
             "summary": "Mike Wheatley / SiliconANGLE: Quantum Art, a quantum computing startup focused on enhancing computational throughput using its unique &ldquo;multicore&rdquo; architecture, extends its Series A to $140M&nbsp; &mdash;&nbsp; Quantum Art Ltd., a quantum computing startup focused on enhancing computation"
-          },
-          {
-            "title": "Microsoft and OpenAI amend their deal to let OpenAI serve all its products across any cloud provider; Microsoft will no longer pay a revenue share to OpenAI (OpenAI)",
-            "link": "http://www.techmeme.com/260427/p24#a260427p24",
-            "date": "2026-04-27T09:10:02-04:00",
-            "summary": "OpenAI: Microsoft and OpenAI amend their deal to let OpenAI serve all its products across any cloud provider; Microsoft will no longer pay a revenue share to OpenAI&nbsp; &mdash;&nbsp; Amended agreement provides long-term clarity.&nbsp; &mdash;&nbsp; The rapid pace of innovation requires us to conti"
           }
         ]
       },
@@ -2625,10 +2625,28 @@
         "home": "https://techcrunch.com/",
         "url": "https://techcrunch.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-04-27T17:23:48.954700+00:00",
+        "fetchedAt": "2026-04-27T19:25:21.082423+00:00",
         "items": [
           {
-            "title": "Hacker who allegedly carried out cyberattacks for China is extradited to U.S.",
+            "title": "Consumers lost $2.1 billion to social media scams in 2025, FTC reports",
+            "link": "https://techcrunch.com/2026/04/27/consumers-lost-2-1-billion-to-social-media-scams-in-2025-ftc-reports/",
+            "date": "2026-04-27T19:09:53+00:00",
+            "summary": "The agency reports that losses from social media scams have increased eightfold, and that social media scams resulted in higher losses than any other method scammers used to contact consumers."
+          },
+          {
+            "title": "OpenAI ends Microsoft legal peril over its $50B Amazon deal",
+            "link": "https://techcrunch.com/2026/04/27/openai-ends-microsoft-legal-peril-over-its-50b-amazon-deal/",
+            "date": "2026-04-27T17:40:38+00:00",
+            "summary": "OpenAI has won major concessions from its largest shareholder, Microsoft, that will allow it to sell products on AWS, while Microsoft get more cash in a revenue-share agreement."
+          },
+          {
+            "title": "DeepMind’s David Silver just raised $1.1B to build an AI that learns without human data",
+            "link": "https://techcrunch.com/2026/04/27/deepminds-david-silver-just-raised-1-1b-to-build-an-ai-that-learns-without-human-data/",
+            "date": "2026-04-27T17:24:21+00:00",
+            "summary": "Ineffable Intelligence, a British AI lab founded a mere few months ago by former DeepMind researcher David Silver, has raised $1.1 billion in funding at a valuation of $5.1 billion."
+          },
+          {
+            "title": "Hacker who allegedly carried out cyberattacks for China is extradited to US",
             "link": "https://techcrunch.com/2026/04/27/hacker-who-allegedly-carried-out-cyberattacks-for-china-is-extradited-to-u-s/",
             "date": "2026-04-27T17:07:06+00:00",
             "summary": "Xu Zewei is accused of participating in a Chinese government hacking group that broke into thousands of U.S. organizations and stole COVID-19-related research."
@@ -2668,24 +2686,6 @@
             "link": "https://techcrunch.com/2026/04/27/critical-infrastructure-giant-itron-says-it-was-hacked/",
             "date": "2026-04-27T13:03:36+00:00",
             "summary": "The American technology giant provides water and energy monitoring and utility meters to hundreds of millions of homes and businesses."
-          },
-          {
-            "title": "Spotify’s next frontier: Fitness content",
-            "link": "https://techcrunch.com/2026/04/27/spotifys-next-frontier-fitness-content/",
-            "date": "2026-04-27T12:00:00+00:00",
-            "summary": "Spotify is adding fitness as its next major category, launching workout videos, playlists, and Peloton classes inside the app for free and Premium users."
-          },
-          {
-            "title": "Meta inks deal for solar power at night, beamed from space",
-            "link": "https://techcrunch.com/2026/04/27/meta-inks-deal-for-solar-power-at-night-beamed-from-space/",
-            "date": "2026-04-27T10:00:00+00:00",
-            "summary": "Overview Energy's first contract with Meta is a small step toward a future of space-based solar power."
-          },
-          {
-            "title": "Truecaller faces mounting pressures as its growth matures",
-            "link": "https://techcrunch.com/2026/04/26/truecaller-faces-mounting-pressures-as-its-growth-matures/",
-            "date": "2026-04-27T03:00:00+00:00",
-            "summary": "As growth slows, Truecaller is leaning on subscriptions, business services, and new features to sustain momentum beyond India."
           }
         ]
       },
@@ -2696,8 +2696,20 @@
         "home": "https://techcrunch.com/category/artificial-intelligence/",
         "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
         "status": "ok",
-        "fetchedAt": "2026-04-27T17:23:48.978941+00:00",
+        "fetchedAt": "2026-04-27T19:25:21.071952+00:00",
         "items": [
+          {
+            "title": "OpenAI ends Microsoft legal peril over its $50B Amazon deal",
+            "link": "https://techcrunch.com/2026/04/27/openai-ends-microsoft-legal-peril-over-its-50b-amazon-deal/",
+            "date": "2026-04-27T17:40:38+00:00",
+            "summary": "OpenAI has won major concessions from its largest shareholder, Microsoft, that will allow it to sell products on AWS, while Microsoft get more cash in a revenue-share agreement."
+          },
+          {
+            "title": "DeepMind’s David Silver just raised $1.1B to build an AI that learns without human data",
+            "link": "https://techcrunch.com/2026/04/27/deepminds-david-silver-just-raised-1-1b-to-build-an-ai-that-learns-without-human-data/",
+            "date": "2026-04-27T17:24:21+00:00",
+            "summary": "Ineffable Intelligence, a British AI lab founded a mere few months ago by former DeepMind researcher David Silver, has raised $1.1 billion in funding at a valuation of $5.1 billion."
+          },
           {
             "title": "Investors back Skye’s AI home screen app for iPhone ahead of launch",
             "link": "https://techcrunch.com/2026/04/27/investors-back-skye-signull-labs-ai-home-screen-app-for-iphone-ahead-of-launch/",
@@ -2726,7 +2738,7 @@
             "title": "To buy this Bay Area home, you’ll need Anthropic equity",
             "link": "https://techcrunch.com/2026/04/26/to-buy-this-bay-area-home-youll-need-anthropic-equity/",
             "date": "2026-04-26T15:30:00+00:00",
-            "summary": "Someone’s offering an unusual deal for a 13-acre property in Mill Valley, just north of South Francisco."
+            "summary": "Someone’s offering an unusual deal for a 13-acre property in Mill Valley, just north of San Francisco."
           },
           {
             "title": "Anthropic created a test marketplace for agent-on-agent commerce",
@@ -2745,18 +2757,6 @@
             "link": "https://techcrunch.com/2026/04/25/openai-ceo-apologizes-to-tumbler-ridge-community/",
             "date": "2026-04-25T17:17:56+00:00",
             "summary": "In a letter to the residents of Tumbler Ridge, Canada, OpenAI CEO Sam Altman said he is “deeply sorry” that his company failed to alert law enforcement about the suspect in a recent mass shooting."
-          },
-          {
-            "title": "Why Cohere is merging with Aleph Alpha",
-            "link": "https://techcrunch.com/2026/04/25/why-cohere-is-merging-with-aleph-alpha/",
-            "date": "2026-04-25T16:00:00+00:00",
-            "summary": "Canadian AI startup Cohere is taking over Germany-based Aleph Alpha with support from Lidl’s owner, Schwarz Group. With the blessing of their governments, the companies intend to offer a sovereign alternative to enterprises in an AI landscape dominated by American players."
-          },
-          {
-            "title": "Why Tokyo is the most important tech destination of 2026",
-            "link": "https://techcrunch.com/2026/04/25/why-tokyo-is-the-most-important-tech-destination-of-2026/",
-            "date": "2026-04-25T15:03:00+00:00",
-            "summary": "SusHi Tech Tokyo 2026 has four tightly defined technology domains, each backed by live demonstrations, dedicated exhibit floors, and sessions featuring the people actually building and funding these technologies globally."
           }
         ]
       },
@@ -2767,7 +2767,7 @@
         "home": "https://techcrunch.com/tag/funding/",
         "url": "https://techcrunch.com/tag/funding/feed/",
         "status": "ok",
-        "fetchedAt": "2026-04-27T17:23:49.047265+00:00",
+        "fetchedAt": "2026-04-27T19:25:21.205432+00:00",
         "items": [
           {
             "title": "Chipmakers AMD, Arm, and Qualcomm are all investing in this buzzy self-driving tech startup",
@@ -2838,7 +2838,7 @@
         "home": "https://venturebeat.com/",
         "url": "https://venturebeat.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-04-27T17:23:48.751922+00:00",
+        "fetchedAt": "2026-04-27T19:25:21.274152+00:00",
         "items": [
           {
             "title": "New AI framework autonomously optimizes training data, architectures and algorithms — outperforming human baselines",
@@ -2891,7 +2891,7 @@
         "home": "https://venturebeat.com/category/ai/",
         "url": "https://venturebeat.com/category/ai/feed/",
         "status": "ok",
-        "fetchedAt": "2026-04-27T17:23:49.120257+00:00",
+        "fetchedAt": "2026-04-27T19:25:21.306349+00:00",
         "items": [
           {
             "title": "Railway secures $100 million to challenge AWS with AI-native cloud infrastructure",
@@ -2956,7 +2956,7 @@
         "home": "https://www.bestblogs.dev/",
         "url": "https://www.bestblogs.dev/zh/feeds/rss?category=ai&minScore=90",
         "status": "ok",
-        "fetchedAt": "2026-04-27T17:23:49.827805+00:00",
+        "fetchedAt": "2026-04-27T19:25:21.518533+00:00",
         "items": [
           {
             "title": "量子位专访楼天城：AI 是匹脱缰野马，Harness 是这个时代最关键的能力",
@@ -3024,7 +3024,127 @@
   },
   "allItems": [
     {
-      "title": "Hacker who allegedly carried out cyberattacks for China is extradited to U.S.",
+      "title": "Consumers lost $2.1 billion to social media scams in 2025, FTC reports",
+      "link": "https://techcrunch.com/2026/04/27/consumers-lost-2-1-billion-to-social-media-scams-in-2025-ftc-reports/",
+      "date": "2026-04-27T19:09:53+00:00",
+      "summary": "The agency reports that losses from social media scams have increased eightfold, and that social media scams resulted in higher losses than any other method scammers used to contact consumers.",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "Yours Truly on The Vergecast",
+      "link": "https://www.theverge.com/podcast/917965/apple-ceo-cook-ternus-transition",
+      "date": "2026-04-27T18:47:54+00:00",
+      "summary": "David Pierce: On this episode of The Vergecast, David and Nilay are joined by Daring Fireball’s John Gruber to talk about their reactions to the news, the (mostly) smooth transition Apple seems to have pulled off, and what we should really make of Tim Cook’s legacy as a product person. Really, the q",
+      "feedId": "daringfireball",
+      "feedTitle": "Daring Fireball",
+      "category": "Tech Blogs",
+      "feedHome": "https://daringfireball.net/"
+    },
+    {
+      "title": "Tracking the history of the now-deceased OpenAI Microsoft AGI clause",
+      "link": "https://simonwillison.net/2026/Apr/27/now-deceased-agi-clause/#atom-everything",
+      "date": "2026-04-27T18:38:17+00:00",
+      "summary": "For many years, Microsoft and OpenAI's relationship has included a weird clause saying that, should AGI be achieved, Microsoft's commercial IP rights to OpenAI's technology would be null and void. That clause appeared to end today. I decided to try and track its expression over time on openai.com. O",
+      "feedId": "simonwillison",
+      "feedTitle": "Simon Willison",
+      "category": "AI & LLM",
+      "feedHome": "https://simonwillison.net/"
+    },
+    {
+      "title": "United Wizards of the Coast",
+      "link": "https://unitedwizardsofthecoast.com/news/announcing-united-wizards-coast-cwa",
+      "date": "2026-04-27T18:34:30+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "Super ZSNES – GPU Powered SNES Emulator",
+      "link": "https://zsnes.com/",
+      "date": "2026-04-27T17:50:10+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "Open-Source KiCad PCBs for Common Arduino, ESP32, RP2040 Boards",
+      "link": "https://github.com/Hanqaqa/Easyduino",
+      "date": "2026-04-27T17:45:02+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "GitHub is having issues now",
+      "link": "https://www.githubstatus.com",
+      "date": "2026-04-27T17:42:19+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "OpenAI ends Microsoft legal peril over its $50B Amazon deal",
+      "link": "https://techcrunch.com/2026/04/27/openai-ends-microsoft-legal-peril-over-its-50b-amazon-deal/",
+      "date": "2026-04-27T17:40:38+00:00",
+      "summary": "OpenAI has won major concessions from its largest shareholder, Microsoft, that will allow it to sell products on AWS, while Microsoft get more cash in a revenue-share agreement.",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "OpenAI ends Microsoft legal peril over its $50B Amazon deal",
+      "link": "https://techcrunch.com/2026/04/27/openai-ends-microsoft-legal-peril-over-its-50b-amazon-deal/",
+      "date": "2026-04-27T17:40:38+00:00",
+      "summary": "OpenAI has won major concessions from its largest shareholder, Microsoft, that will allow it to sell products on AWS, while Microsoft get more cash in a revenue-share agreement.",
+      "feedId": "techcrunch-ai",
+      "feedTitle": "TechCrunch AI",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
+    },
+    {
+      "title": "Speech translation in Google Meet is now rolling out to mobile devices",
+      "link": "https://simonwillison.net/2026/Apr/27/speech-translation-in-google-meet-is-now-rolling-out-to-mobile-d/#atom-everything",
+      "date": "2026-04-27T17:37:47+00:00",
+      "summary": "Speech translation in Google Meet is now rolling out to mobile devices I just encountered this feature via a \"try this out now\" prompt in a Google Meet meeting. It kind-of worked! This is Google's implementation of the ultimate sci-fi translation app, where two people can talk to each other in two s",
+      "feedId": "simonwillison",
+      "feedTitle": "Simon Willison",
+      "category": "AI & LLM",
+      "feedHome": "https://simonwillison.net/"
+    },
+    {
+      "title": "DeepMind’s David Silver just raised $1.1B to build an AI that learns without human data",
+      "link": "https://techcrunch.com/2026/04/27/deepminds-david-silver-just-raised-1-1b-to-build-an-ai-that-learns-without-human-data/",
+      "date": "2026-04-27T17:24:21+00:00",
+      "summary": "Ineffable Intelligence, a British AI lab founded a mere few months ago by former DeepMind researcher David Silver, has raised $1.1 billion in funding at a valuation of $5.1 billion.",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "DeepMind’s David Silver just raised $1.1B to build an AI that learns without human data",
+      "link": "https://techcrunch.com/2026/04/27/deepminds-david-silver-just-raised-1-1b-to-build-an-ai-that-learns-without-human-data/",
+      "date": "2026-04-27T17:24:21+00:00",
+      "summary": "Ineffable Intelligence, a British AI lab founded a mere few months ago by former DeepMind researcher David Silver, has raised $1.1 billion in funding at a valuation of $5.1 billion.",
+      "feedId": "techcrunch-ai",
+      "feedTitle": "TechCrunch AI",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
+    },
+    {
+      "title": "Hacker who allegedly carried out cyberattacks for China is extradited to US",
       "link": "https://techcrunch.com/2026/04/27/hacker-who-allegedly-carried-out-cyberattacks-for-china-is-extradited-to-u-s/",
       "date": "2026-04-27T17:07:06+00:00",
       "summary": "Xu Zewei is accused of participating in a Chinese government hacking group that broke into thousands of U.S. organizations and stole COVID-19-related research.",
@@ -3054,6 +3174,16 @@
       "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
     },
     {
+      "title": "GitHub Copilot is moving to usage-based billing",
+      "link": "https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/",
+      "date": "2026-04-27T16:03:08+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
       "title": "New AI framework autonomously optimizes training data, architectures and algorithms — outperforming human baselines",
       "link": "https://venturebeat.com/orchestration/new-ai-framework-autonomously-optimizes-training-data-architectures-and-algorithms-outperforming-human-baselines",
       "date": "2026-04-27T15:56:59+00:00",
@@ -3064,9 +3194,9 @@
       "feedHome": "https://venturebeat.com/"
     },
     {
-      "title": "The Woes of Sanitizing SVGs",
-      "link": "https://muffin.ink/blog/scratch-svg-sanitization/",
-      "date": "2026-04-27T15:31:36+00:00",
+      "title": "Networking changes coming in macOS 27",
+      "link": "https://eclecticlight.co/2026/04/23/networking-changes-coming-in-macos-27/",
+      "date": "2026-04-27T15:36:12+00:00",
       "summary": "Comments",
       "feedId": "hackernews",
       "feedTitle": "Hacker News",
@@ -3084,16 +3214,6 @@
       "feedHome": "https://techcrunch.com/"
     },
     {
-      "title": "Dutch central bank ditches AWS and chooses Lidl for European Cloud",
-      "link": "https://www.techzine.eu/news/infrastructure/140634/dutch-central-bank-chooses-lidl-for-european-cloud/",
-      "date": "2026-04-27T15:12:41+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
       "title": "Why supply chains are the proving ground for automation‑led iPaaS",
       "link": "https://venturebeat.com/orchestration/why-supply-chains-are-the-proving-ground-for-automation-led-ipaas",
       "date": "2026-04-27T14:39:15+00:00",
@@ -3104,7 +3224,7 @@
       "feedHome": "https://venturebeat.com/"
     },
     {
-      "title": "\"Why not just use Lean?\"",
+      "title": "“Why not just use Lean?”",
       "link": "https://lawrencecpaulson.github.io//2026/04/23/Why_not_Lean.html",
       "date": "2026-04-27T14:24:53+00:00",
       "summary": "Comments",
@@ -3124,6 +3244,16 @@
       "feedHome": "https://techcrunch.com/"
     },
     {
+      "title": "Have I Been Pwned: ShinyHunters' breach of ADT exposed the personal data of 5.5M people; ADT previously disclosed data breaches in August 2024 and October 2024 (Sergiu Gatlan/BleepingComputer)",
+      "link": "http://www.techmeme.com/260427/p34#a260427p34",
+      "date": "2026-04-27T14:00:36-04:00",
+      "summary": "Sergiu Gatlan / BleepingComputer: Have I Been Pwned: ShinyHunters' breach of ADT exposed the personal data of 5.5M people; ADT previously disclosed data breaches in August 2024 and October 2024&nbsp; &mdash;&nbsp; The ShinyHunters extortion group stole the personal information of 5.5 million individ",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
       "title": "Looking at consequences of passing too few register parameters to a C function on various architectures",
       "link": "https://devblogs.microsoft.com/oldnewthing/20260427-00/?p=112271",
       "date": "2026-04-27T14:00:00+00:00",
@@ -3132,16 +3262,6 @@
       "feedTitle": "The Old New Thing",
       "category": "Tech Blogs",
       "feedHome": "https://devblogs.microsoft.com/oldnewthing/"
-    },
-    {
-      "title": "Tendril – a self-extending agent that builds and registers its own tools",
-      "link": "https://github.com/serverless-dna/tendril",
-      "date": "2026-04-27T13:34:48+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
     },
     {
       "title": "Microsoft and OpenAI end their exclusive and revenue-sharing deal",
@@ -3234,16 +3354,6 @@
       "feedHome": "https://www.techmeme.com/"
     },
     {
-      "title": "Show HN: OSS Agent I built topped the TerminalBench on Gemini-3-flash-preview",
-      "link": "https://github.com/dirac-run/dirac",
-      "date": "2026-04-27T12:35:55+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
       "title": "More than 600 Google employees, including many from DeepMind, sign a letter to Sundar Pichai demanding he bar the DOD from using Google's AI for classified work (Gerrit De Vynck/Washington Post)",
       "link": "http://www.techmeme.com/260427/p31#a260427p31",
       "date": "2026-04-27T12:35:01-04:00",
@@ -3264,14 +3374,14 @@
       "feedHome": "https://www.techmeme.com/"
     },
     {
-      "title": "Spotify’s next frontier: Fitness content",
-      "link": "https://techcrunch.com/2026/04/27/spotifys-next-frontier-fitness-content/",
-      "date": "2026-04-27T12:00:00+00:00",
-      "summary": "Spotify is adding fitness as its next major category, launching workout videos, playlists, and Peloton classes inside the app for free and Premium users.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
+      "title": "China blocks Meta's acquisition of AI startup Manus",
+      "link": "https://www.cnbc.com/2026/04/27/meta-manus-china-blocks-acquisition-ai-startup.html",
+      "date": "2026-04-27T11:43:59+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
       "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
+      "feedHome": "https://news.ycombinator.com/"
     },
     {
       "title": "PocketOS founder Jer Crane says a Cursor agent running Claude Opus 4.6 accidentally deleted a production database when it was working in a staging environment (Jer/@lifeof_jer)",
@@ -3292,16 +3402,6 @@
       "feedTitle": "Terence Eden",
       "category": "Tech Blogs",
       "feedHome": "https://shkspr.mobi/blog/"
-    },
-    {
-      "title": "Pgbackrest is no longer being maintained",
-      "link": "https://github.com/pgbackrest/pgbackrest",
-      "date": "2026-04-27T10:56:34+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
     },
     {
       "title": "量子位专访楼天城：AI 是匹脱缰野马，Harness 是这个时代最关键的能力",
@@ -3332,26 +3432,6 @@
       "feedTitle": "Techmeme",
       "category": "Startup & News",
       "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "FDA Approves First-Ever Gene Therapy for Treatment of Genetic Hearing Loss",
-      "link": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-ever-gene-therapy-treatment-genetic-hearing-loss-under-national-priority-voucher",
-      "date": "2026-04-27T10:15:17+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
-      "title": "Meta inks deal for solar power at night, beamed from space",
-      "link": "https://techcrunch.com/2026/04/27/meta-inks-deal-for-solar-power-at-night-beamed-from-space/",
-      "date": "2026-04-27T10:00:00+00:00",
-      "summary": "Overview Energy's first contract with Meta is a small step toward a future of space-based solar power.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
     },
     {
       "title": "Meta inks deal for solar power at night, beamed from space",
@@ -3404,16 +3484,6 @@
       "feedHome": "https://www.techmeme.com/"
     },
     {
-      "title": "Microsoft and OpenAI amend their deal to let OpenAI serve all its products across any cloud provider; Microsoft will no longer pay a revenue share to OpenAI (OpenAI)",
-      "link": "http://www.techmeme.com/260427/p24#a260427p24",
-      "date": "2026-04-27T09:10:02-04:00",
-      "summary": "OpenAI: Microsoft and OpenAI amend their deal to let OpenAI serve all its products across any cloud provider; Microsoft will no longer pay a revenue share to OpenAI&nbsp; &mdash;&nbsp; Amended agreement provides long-term clarity.&nbsp; &mdash;&nbsp; The rapid pace of innovation requires us to conti",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
       "title": "Pluralistic: The enshittification multiverse (27 Apr 2026)",
       "link": "https://pluralistic.net/2026/04/27/analogs-and-analogies/",
       "date": "2026-04-27T08:39:48+00:00",
@@ -3442,16 +3512,6 @@
       "feedTitle": "OpenAI News",
       "category": "AI & LLM",
       "feedHome": "https://openai.com/news/"
-    },
-    {
-      "title": "Truecaller faces mounting pressures as its growth matures",
-      "link": "https://techcrunch.com/2026/04/26/truecaller-faces-mounting-pressures-as-its-growth-matures/",
-      "date": "2026-04-27T03:00:00+00:00",
-      "summary": "As growth slows, Truecaller is leaning on subscriptions, business services, and new features to sustain momentum beyond India.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
     },
     {
       "title": "Math Takes Two: A test for emergent mathematical reasoning in communication",
@@ -3654,6 +3714,16 @@
       "feedHome": "https://arxiv.org/list/cs.LG/recent"
     },
     {
+      "title": "An open-source spec for orchestration: Symphony",
+      "link": "https://openai.com/index/open-source-codex-orchestration-symphony",
+      "date": "2026-04-27T00:00:00+00:00",
+      "summary": "Learn how Symphony, an open-source spec for Codex orchestration, turns issue trackers into always-on agent systems—boosting engineering output and reducing context switching.",
+      "feedId": "openai",
+      "feedTitle": "OpenAI News",
+      "category": "AI & LLM",
+      "feedHome": "https://openai.com/news/"
+    },
+    {
       "title": "Choco automates food distribution with AI agents",
       "link": "https://openai.com/index/choco",
       "date": "2026-04-27T00:00:00+00:00",
@@ -3707,7 +3777,7 @@
       "title": "To buy this Bay Area home, you’ll need Anthropic equity",
       "link": "https://techcrunch.com/2026/04/26/to-buy-this-bay-area-home-youll-need-anthropic-equity/",
       "date": "2026-04-26T15:30:00+00:00",
-      "summary": "Someone’s offering an unusual deal for a 13-acre property in Mill Valley, just north of South Francisco.",
+      "summary": "Someone’s offering an unusual deal for a 13-acre property in Mill Valley, just north of San Francisco.",
       "feedId": "techcrunch-ai",
       "feedTitle": "TechCrunch AI",
       "category": "Startup & News",
@@ -3854,16 +3924,6 @@
       "feedHome": "https://www.johndcook.com/"
     },
     {
-      "title": "Why Cohere is merging with Aleph Alpha",
-      "link": "https://techcrunch.com/2026/04/25/why-cohere-is-merging-with-aleph-alpha/",
-      "date": "2026-04-25T16:00:00+00:00",
-      "summary": "Canadian AI startup Cohere is taking over Germany-based Aleph Alpha with support from Lidl’s owner, Schwarz Group. With the blessing of their governments, the companies intend to offer a sovereign alternative to enterprises in an AI landscape dominated by American players.",
-      "feedId": "techcrunch-ai",
-      "feedTitle": "TechCrunch AI",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
-    },
-    {
       "title": "华为发布 ADS 5！强化世界模型路线，今年投入 180 亿",
       "link": "https://www.bestblogs.dev/article/3ba33236",
       "date": "2026-04-25T15:38:18+00:00",
@@ -3874,16 +3934,6 @@
       "feedHome": "https://www.bestblogs.dev/"
     },
     {
-      "title": "Why Tokyo is the most important tech destination of 2026",
-      "link": "https://techcrunch.com/2026/04/25/why-tokyo-is-the-most-important-tech-destination-of-2026/",
-      "date": "2026-04-25T15:03:00+00:00",
-      "summary": "SusHi Tech Tokyo 2026 has four tightly defined technology domains, each backed by live demonstrations, dedicated exhibit floors, and sessions featuring the people actually building and funding these technologies globally.",
-      "feedId": "techcrunch-ai",
-      "feedTitle": "TechCrunch AI",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
-    },
-    {
       "title": "Obscura：用 Rust 从头编写的 Headless Browser 引擎，专为 AI Agent 和爬虫设计",
       "link": "https://www.bestblogs.dev/status/2048050627251683533",
       "date": "2026-04-25T14:44:55+00:00",
@@ -3892,16 +3942,6 @@
       "feedTitle": "BestBlogs.dev AI 90+",
       "category": "中文",
       "feedHome": "https://www.bestblogs.dev/"
-    },
-    {
-      "title": "Fully Featured Audio DSP Firmware for the Raspberry Pi Pico",
-      "link": "https://github.com/WeebLabs/DSPi",
-      "date": "2026-04-25T13:28:29+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
     },
     {
       "title": "nth derivative of a quotient",
@@ -4164,26 +4204,6 @@
       "feedHome": "https://simonwillison.net/"
     },
     {
-      "title": "russellromney/honker",
-      "link": "https://simonwillison.net/2026/Apr/24/honker/#atom-everything",
-      "date": "2026-04-24T01:50:07+00:00",
-      "summary": "russellromney/honker \"Postgres NOTIFY/LISTEN semantics\" for SQLite, implemented as a Rust SQLite extension and various language bindings to help make use of it. The design of this looks very solid. It lets you write Python code for queues that looks like this: import honker db = honker.open(\"app.db\"",
-      "feedId": "simonwillison",
-      "feedTitle": "Simon Willison",
-      "category": "AI & LLM",
-      "feedHome": "https://simonwillison.net/"
-    },
-    {
-      "title": "An update on recent Claude Code quality reports",
-      "link": "https://simonwillison.net/2026/Apr/24/recent-claude-code-quality-reports/#atom-everything",
-      "date": "2026-04-24T01:31:25+00:00",
-      "summary": "An update on recent Claude Code quality reports It turns out the high volume of complaints that Claude Code was providing worse quality results over the past two months was grounded in real problems. The models themselves were not to blame, but three separate issues in the Claude Code harness caused",
-      "feedId": "simonwillison",
-      "feedTitle": "Simon Willison",
-      "category": "AI & LLM",
-      "feedHome": "https://simonwillison.net/"
-    },
-    {
       "title": "Software engineering may no longer be a lifetime career",
       "link": "https://seangoedecke.com/software-engineering-may-no-longer-be-a-lifetime-career/",
       "date": "2026-04-24T00:00:00+00:00",
@@ -4192,16 +4212,6 @@
       "feedTitle": "Sean Goedecke",
       "category": "Tech Blogs",
       "feedHome": "https://www.seangoedecke.com/"
-    },
-    {
-      "title": "Trump’s Blog Has Somehow Lost $1.1 Billion",
-      "link": "https://www.motherjones.com/politics/2026/04/truth-social-ceo-out-after-1-1-billion-in-losses/",
-      "date": "2026-04-23T21:14:35+00:00",
-      "summary": "Russ Choma, reporting for Mother Jones: Devin Nunes was not an obvious choice to run a fledgling social media network, but after $1.1 billion in losses, the former dairy farmer and congressman is out as the head of Truth Social. Donald Trump Jr., a board member at Trump Media + Technology, the paren",
-      "feedId": "daringfireball",
-      "feedTitle": "Daring Fireball",
-      "category": "Tech Blogs",
-      "feedHome": "https://daringfireball.net/"
     },
     {
       "title": "Approximation to solve an oblique triangle",
@@ -4284,10 +4294,20 @@
       "feedHome": "https://openai.com/news/"
     },
     {
-      "title": "Top 10 uses for Codex at work",
-      "link": "https://openai.com/academy/top-10-use-cases-codex-for-work",
+      "title": "How to get started with Codex",
+      "link": "https://openai.com/academy/codex-how-to-start",
       "date": "2026-04-23T10:00:00+00:00",
-      "summary": "Explore 10 practical Codex use cases to automate tasks, create deliverables, and turn real inputs into outputs across tools, files, and workflows.",
+      "summary": "Learn how to get started with Codex by setting up projects, creating threads, and completing your first tasks with step-by-step guidance.",
+      "feedId": "openai",
+      "feedTitle": "OpenAI News",
+      "category": "AI & LLM",
+      "feedHome": "https://openai.com/news/"
+    },
+    {
+      "title": "Codex settings",
+      "link": "https://openai.com/academy/codex-settings",
+      "date": "2026-04-23T10:00:00+00:00",
+      "summary": "Learn how to configure Codex settings, including personalization, detail level, and permissions, to run tasks smoothly and customize your workflow.",
       "feedId": "openai",
       "feedTitle": "OpenAI News",
       "category": "AI & LLM",
@@ -4308,26 +4328,6 @@
       "link": "https://openai.com/academy/codex-automations",
       "date": "2026-04-23T10:00:00+00:00",
       "summary": "Learn how to automate tasks in Codex using schedules and triggers to create reports, summaries, and recurring workflows without manual effort.",
-      "feedId": "openai",
-      "feedTitle": "OpenAI News",
-      "category": "AI & LLM",
-      "feedHome": "https://openai.com/news/"
-    },
-    {
-      "title": "How to get started with Codex",
-      "link": "https://openai.com/academy/codex-how-to-start",
-      "date": "2026-04-23T10:00:00+00:00",
-      "summary": "Learn how to get started with Codex by setting up projects, creating threads, and completing your first tasks with step-by-step guidance.",
-      "feedId": "openai",
-      "feedTitle": "OpenAI News",
-      "category": "AI & LLM",
-      "feedHome": "https://openai.com/news/"
-    },
-    {
-      "title": "Codex settings",
-      "link": "https://openai.com/academy/codex-settings",
-      "date": "2026-04-23T10:00:00+00:00",
-      "summary": "Learn how to configure Codex settings, including personalization, detail level, and permissions, to run tasks smoothly and customize your workflow.",
       "feedId": "openai",
       "feedTitle": "OpenAI News",
       "category": "AI & LLM",
