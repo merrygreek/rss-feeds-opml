@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-04-29T23:04:58.154983+00:00",
+  "updatedAt": "2026-04-30T03:23:38.462937+00:00",
   "totalFeeds": 51,
-  "successCount": 44,
-  "failedCount": 7,
+  "successCount": 43,
+  "failedCount": 8,
   "failed": [
     "gwern",
     "garymarcus",
@@ -10,6 +10,7 @@
     "lcamtuf",
     "rachelbythebay",
     "tedunangst",
+    "steveblank",
     "ruanyifeng"
   ],
   "grouped": {
@@ -21,13 +22,31 @@
         "home": "https://simonwillison.net/",
         "url": "https://simonwillison.net/atom/everything/",
         "status": "ok",
-        "fetchedAt": "2026-04-29T23:04:47.557160+00:00",
+        "fetchedAt": "2026-04-30T03:23:28.153632+00:00",
         "items": [
+          {
+            "title": "The Zig project's rationale for their firm anti-AI contribution policy",
+            "link": "https://simonwillison.net/2026/Apr/30/zig-anti-ai/#atom-everything",
+            "date": "2026-04-30T01:24:23+00:00",
+            "summary": "Zig has one of the most stringent anti-LLM policies of any major open source project: No LLMs for issues. No LLMs for pull requests. No LLMs for comments on the bug tracker, including translation. English is encouraged, but not required. You are welcome to post in your native language and rely on ot"
+          },
+          {
+            "title": "llm 0.32a1",
+            "link": "https://simonwillison.net/2026/Apr/29/llm-3/#atom-everything",
+            "date": "2026-04-29T23:52:50+00:00",
+            "summary": "Release: llm 0.32a1 Fixed a bug in 0.32a0 where tool-calling conversations were not correctly reinflated from SQLite. #1426 Tags: llm"
+          },
           {
             "title": "LLM 0.32a0 is a major backwards-compatible refactor",
             "link": "https://simonwillison.net/2026/Apr/29/llm/#atom-everything",
             "date": "2026-04-29T19:01:47+00:00",
             "summary": "I just released LLM 0.32a0, an alpha release of my LLM Python library and CLI tool for accessing LLMs, with some consequential changes that I've been working towards for quite a while. Previous versions of LLM modeled the world in terms of prompts and responses. Send the model a text prompt, get bac"
+          },
+          {
+            "title": "llm 0.32a0",
+            "link": "https://simonwillison.net/2026/Apr/29/llm-2/#atom-everything",
+            "date": "2026-04-29T18:57:47+00:00",
+            "summary": "Release: llm 0.32a0 See the annotated release notes. Tags: llm"
           },
           {
             "title": "Quoting OpenAI Codex base_instructions",
@@ -64,24 +83,6 @@
             "link": "https://simonwillison.net/2026/Apr/27/now-deceased-agi-clause/#atom-everything",
             "date": "2026-04-27T18:38:17+00:00",
             "summary": "For many years, Microsoft and OpenAI's relationship has included a weird clause saying that, should AGI be achieved, Microsoft's commercial IP rights to OpenAI's technology would be null and void. That clause appeared to end today. I decided to try and track its expression over time on openai.com. O"
-          },
-          {
-            "title": "Speech translation in Google Meet is now rolling out to mobile devices",
-            "link": "https://simonwillison.net/2026/Apr/27/speech-translation-in-google-meet-is-now-rolling-out-to-mobile-d/#atom-everything",
-            "date": "2026-04-27T17:37:47+00:00",
-            "summary": "Speech translation in Google Meet is now rolling out to mobile devices I just encountered this feature via a \"try this out now\" prompt in a Google Meet meeting. It kind-of worked! This is Google's implementation of the ultimate sci-fi translation app, where two people can talk to each other in two s"
-          },
-          {
-            "title": "WHY ARE YOU LIKE THIS",
-            "link": "https://simonwillison.net/2026/Apr/25/why-are-you-like-this/#atom-everything",
-            "date": "2026-04-25T16:44:01+00:00",
-            "summary": "@scottjla on Twitter in reply to my pelican riding a bicycle benchmark: I feel like we need to stack these tests now I checked to confirm that the model (ChatGPT Images 2.0) added the \"WHY ARE YOU LIKE THIS\" sign of its own accord and it did - the prompt Scott used was: Create an image of a horse ri"
-          },
-          {
-            "title": "Quoting Romain Huet",
-            "link": "https://simonwillison.net/2026/Apr/25/romain-huet/#atom-everything",
-            "date": "2026-04-25T12:06:55+00:00",
-            "summary": "Since GPT-5.4, we’ve unified Codex and the main model into a single system, so there’s no separate coding line anymore. GPT-5.5 takes this further, with strong gains in agentic coding, computer use, and any task on a computer. &mdash; Romain Huet, confirming OpenAI won't release a GPT-5.5-Codex mode"
           }
         ]
       },
@@ -92,8 +93,20 @@
         "home": "https://openai.com/news/",
         "url": "https://openai.com/news/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-29T23:04:48.030756+00:00",
+        "fetchedAt": "2026-04-30T03:23:28.595125+00:00",
         "items": [
+          {
+            "title": "Where the goblins came from",
+            "link": "https://openai.com/index/where-the-goblins-came-from",
+            "date": "2026-04-29T20:00:00+00:00",
+            "summary": "How goblin outputs spread in AI models: timeline, root cause, and fixes behind personality-driven quirks in GPT-5 behavior."
+          },
+          {
+            "title": "Building the compute infrastructure for the Intelligence Age",
+            "link": "https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age",
+            "date": "2026-04-29T15:00:00+00:00",
+            "summary": "OpenAI scales Stargate to build the compute infrastructure powering AGI, adding new data center capacity to meet growing AI demand."
+          },
           {
             "title": "Cybersecurity in the Intelligence Age",
             "link": "https://openai.com/index/cybersecurity-in-the-intelligence-age",
@@ -141,18 +154,6 @@
             "link": "https://openai.com/index/our-principles",
             "date": "2026-04-26T16:00:00+00:00",
             "summary": "Our mission is to ensure that AGI benefits all of humanity. Sam Altman shares five principles that guide our work."
-          },
-          {
-            "title": "Introducing GPT-5.5",
-            "link": "https://openai.com/index/introducing-gpt-5-5",
-            "date": "2026-04-23T11:00:00+00:00",
-            "summary": "Introducing GPT-5.5, our smartest model yet—faster, more capable, and built for complex tasks like coding, research, and data analysis across tools."
-          },
-          {
-            "title": "GPT-5.5 System Card",
-            "link": "https://openai.com/index/gpt-5-5-system-card",
-            "date": "2026-04-23T11:00:00+00:00",
-            "summary": ""
           }
         ]
       },
@@ -163,7 +164,7 @@
         "home": "https://arxiv.org/list/cs.AI/recent",
         "url": "https://arxiv.org/rss/cs.AI",
         "status": "ok",
-        "fetchedAt": "2026-04-29T23:04:47.969938+00:00",
+        "fetchedAt": "2026-04-30T03:23:28.671917+00:00",
         "items": [
           {
             "title": "An Intelligent Fault Diagnosis Method for General Aviation Aircraft Based on Multi-Fidelity Digital Twin and FMEA Knowledge Enhancement",
@@ -234,7 +235,7 @@
         "home": "https://arxiv.org/list/cs.LG/recent",
         "url": "https://arxiv.org/rss/cs.LG",
         "status": "ok",
-        "fetchedAt": "2026-04-29T23:04:47.838807+00:00",
+        "fetchedAt": "2026-04-30T03:23:28.515495+00:00",
         "items": [
           {
             "title": "GCA-BULF: A Bottom-Up Framework for Short-Term Load Forecasting Using Grouped Critical Appliances",
@@ -305,7 +306,7 @@
         "home": "https://research.google/blog/",
         "url": "https://research.google/blog/rss/",
         "status": "ok",
-        "fetchedAt": "2026-04-29T23:04:48.069982+00:00",
+        "fetchedAt": "2026-04-30T03:23:28.330328+00:00",
         "items": [
           {
             "title": "Four ways Google Research scientists have been using Empirical Research Assistance",
@@ -376,7 +377,7 @@
         "home": "https://deepmind.google/blog/",
         "url": "https://deepmind.google/blog/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-29T23:04:47.737179+00:00",
+        "fetchedAt": "2026-04-30T03:23:28.350235+00:00",
         "items": [
           {
             "title": "Announcing our partnership with the Republic of Korea",
@@ -447,7 +448,7 @@
         "home": "https://lilianweng.github.io/",
         "url": "https://lilianweng.github.io/lil-log/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-29T23:04:47.501767+00:00",
+        "fetchedAt": "2026-04-30T03:23:28.095219+00:00",
         "items": [
           {
             "title": "Active Learning",
@@ -538,7 +539,7 @@
         "home": "https://minimaxir.com/",
         "url": "https://minimaxir.com/index.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-29T23:04:47.631661+00:00",
+        "fetchedAt": "2026-04-30T03:23:28.257096+00:00",
         "items": [
           {
             "title": "An AI agent coding skeptic tries AI agent coding, in excessive detail",
@@ -621,7 +622,7 @@
         "home": "https://www.jeffgeerling.com/",
         "url": "https://www.jeffgeerling.com/blog.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-29T23:04:47.634532+00:00",
+        "fetchedAt": "2026-04-30T03:23:28.213276+00:00",
         "items": [
           {
             "title": "Raspberry Pi Connect may control Windows soon",
@@ -692,7 +693,7 @@
         "home": "https://www.seangoedecke.com/",
         "url": "https://www.seangoedecke.com/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-29T23:04:47.614243+00:00",
+        "fetchedAt": "2026-04-30T03:23:28.245032+00:00",
         "items": [
           {
             "title": "Software engineering may no longer be a lifetime career",
@@ -763,7 +764,7 @@
         "home": "https://krebsonsecurity.com/",
         "url": "https://krebsonsecurity.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-04-29T23:04:47.600565+00:00",
+        "fetchedAt": "2026-04-30T03:23:28.273598+00:00",
         "items": [
           {
             "title": "‘Scattered Spider’ Member ‘Tylerb’ Pleads Guilty",
@@ -834,7 +835,7 @@
         "home": "https://daringfireball.net/",
         "url": "https://daringfireball.net/feeds/main",
         "status": "ok",
-        "fetchedAt": "2026-04-29T23:04:47.667565+00:00",
+        "fetchedAt": "2026-04-30T03:23:28.317329+00:00",
         "items": [
           {
             "title": "Oakland’s Airport Is Now Officially ‘Oakland San Francisco Bay Airport’",
@@ -845,8 +846,8 @@
           {
             "title": "‘Elon Musk Appeared More Petty Than Prepared’",
             "link": "https://www.theverge.com/ai-artificial-intelligence/920191/elon-musk-sam-altman-trial-day-one?view_token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6InBrV1FGdGtlcEEiLCJwIjoiL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzkyMDE5MS9lbG9uLW11c2stc2FtLWFsdG1hbi10cmlhbC1kYXktb25lIiwiZXhwIjoxNzc3OTA1NDgxLCJpYXQiOjE3Nzc0NzM0ODF9.FkMZ8-YRv8q3d7n6p8q_scJaERWtNumD9pK7kONpTE4",
-            "date": "2026-04-29T15:15:29+00:00",
-            "summary": "Elizabeth Lopatto, reporting on Musk v. Altman from the courtroom in Oakland (gift link): Today the first witness was sworn in in *Musk v. Altman: *Elon Musk. I was surprised by how flat he seemed. This is not the first time I’ve seen Musk in court. During his defamation suit, he turned on the charm"
+            "date": "2026-04-30T02:19:42+00:00",
+            "summary": "Elizabeth Lopatto, reporting on Musk v. Altman from the courtroom in Oakland (gift link): Today the first witness was sworn in in Musk v. Altman: Elon Musk. I was surprised by how flat he seemed. This is not the first time I’ve seen Musk in court. During his defamation suit, he turned on the charm a"
           },
           {
             "title": "‘Sordid and Small’",
@@ -905,7 +906,7 @@
         "home": "https://ericmigi.com/",
         "url": "https://ericmigi.com/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-29T23:04:47.676957+00:00",
+        "fetchedAt": "2026-04-30T03:23:28.261371+00:00",
         "items": [
           {
             "title": "Spring 2026 Dev Contest Results!",
@@ -976,7 +977,7 @@
         "home": "http://antirez.com/",
         "url": "http://antirez.com/rss",
         "status": "ok",
-        "fetchedAt": "2026-04-29T23:04:49.421777+00:00",
+        "fetchedAt": "2026-04-30T03:23:29.805292+00:00",
         "items": [
           {
             "title": "AI cybersecurity is not proof of work",
@@ -1047,8 +1048,14 @@
         "home": "https://idiallo.com/",
         "url": "https://idiallo.com/feed.rss",
         "status": "ok",
-        "fetchedAt": "2026-04-29T23:04:47.747289+00:00",
+        "fetchedAt": "2026-04-30T03:23:28.268540+00:00",
         "items": [
+          {
+            "title": "Have You Seen the New Excel?",
+            "link": "https://idiallo.com/blog/have-you-seen-the-new-xl-ai-parody?src=feed",
+            "date": "2026-04-29T23:40:00+00:00",
+            "summary": "Stop coding. Stop hiring. Stop building. While the tech world obsesses over large language models and neural networks, I discovered the real disruptor that has been hiding in plain sight. Mine was originally installed on my desktop in 1992. And now, it's about to change everything in the world. We a"
+          },
           {
             "title": "Don't use localhost:3000, use your own custom domain",
             "link": "https://idiallo.com/blog/say-no-to-localhost3000-use-custom-domains?src=feed",
@@ -1102,12 +1109,6 @@
             "link": "https://idiallo.com/byte-size/we-are-aws-salesmen?src=feed",
             "date": "2026-04-12T17:25:33+00:00",
             "summary": "I must have been the last developer still confused by the AWS interface. I knew how to access DynamoDB, that was the only tool I needed for my daily work. But everything else was a mystery. How do I access web hosting? If I needed a small server to host a static website, what service would I use? Se"
-          },
-          {
-            "title": "Your friends are hiding their best ideas from you",
-            "link": "https://idiallo.com/blog/your-friends-are-hiding-their-ideas?src=feed",
-            "date": "2026-04-11T00:47:19+00:00",
-            "summary": "Back in college, the final project in our JavaScript class was to build a website. We were a group of four, and we built the best website in class. It was for a restaurant called the Coral Reef. We found pictures online, created a menu, and settled on a solid theme. I was taking a digital art class "
           }
         ]
       },
@@ -1118,7 +1119,7 @@
         "home": "https://maurycyz.com/",
         "url": "https://maurycyz.com/index.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-29T23:04:48.098516+00:00",
+        "fetchedAt": "2026-04-30T03:23:28.790016+00:00",
         "items": []
       },
       {
@@ -1128,7 +1129,7 @@
         "home": "https://pluralistic.net/",
         "url": "https://pluralistic.net/feed/",
         "status": "ok",
-        "fetchedAt": "2026-04-29T23:04:48.266790+00:00",
+        "fetchedAt": "2026-04-30T03:23:28.920004+00:00",
         "items": [
           {
             "title": "Pluralistic: Vicky Osterweil's \"The Extended Universe\" (28 Apr 2026)",
@@ -1199,7 +1200,7 @@
         "home": "https://shkspr.mobi/blog/",
         "url": "https://shkspr.mobi/blog/feed/",
         "status": "ok",
-        "fetchedAt": "2026-04-29T23:04:48.403142+00:00",
+        "fetchedAt": "2026-04-30T03:23:28.925496+00:00",
         "items": [
           {
             "title": "Let's Get Digging!",
@@ -1280,7 +1281,7 @@
         "home": "https://mitchellh.com/",
         "url": "https://mitchellh.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-29T23:04:47.860511+00:00",
+        "fetchedAt": "2026-04-30T03:23:28.712035+00:00",
         "items": [
           {
             "title": "Ghostty Is Leaving GitHub",
@@ -1351,7 +1352,7 @@
         "home": "https://dynomight.net/",
         "url": "https://dynomight.net/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-29T23:04:48.135667+00:00",
+        "fetchedAt": "2026-04-30T03:23:28.737327+00:00",
         "items": [
           {
             "title": "I quit drinking for a year",
@@ -1422,7 +1423,7 @@
         "home": "https://xeiaso.net/",
         "url": "https://xeiaso.net/blog.rss",
         "status": "ok",
-        "fetchedAt": "2026-04-29T23:04:48.314614+00:00",
+        "fetchedAt": "2026-04-30T03:23:28.690416+00:00",
         "items": [
           {
             "title": "Claude Code won April Fools Day this year",
@@ -1493,7 +1494,7 @@
         "home": "https://devblogs.microsoft.com/oldnewthing/",
         "url": "https://devblogs.microsoft.com/oldnewthing/feed",
         "status": "ok",
-        "fetchedAt": "2026-04-29T23:04:47.878565+00:00",
+        "fetchedAt": "2026-04-30T03:23:28.333913+00:00",
         "items": [
           {
             "title": "Developing a cross-process reader/writer lock with limited readers, part 1: A semaphore",
@@ -1564,7 +1565,7 @@
         "home": "https://www.righto.com/",
         "url": "https://www.righto.com/feeds/posts/default",
         "status": "ok",
-        "fetchedAt": "2026-04-29T23:04:48.206319+00:00",
+        "fetchedAt": "2026-04-30T03:23:28.552056+00:00",
         "items": []
       },
       {
@@ -1574,7 +1575,7 @@
         "home": "https://lucumr.pocoo.org/",
         "url": "https://lucumr.pocoo.org/feed.atom",
         "status": "ok",
-        "fetchedAt": "2026-04-29T23:04:47.975137+00:00",
+        "fetchedAt": "2026-04-30T03:23:28.403167+00:00",
         "items": [
           {
             "title": "Before GitHub",
@@ -1645,7 +1646,7 @@
         "home": "https://skyfall.dev/",
         "url": "https://skyfall.dev/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-29T23:04:48.076715+00:00",
+        "fetchedAt": "2026-04-30T03:23:28.445060+00:00",
         "items": [
           {
             "title": "Good riddance, 4o",
@@ -1720,7 +1721,7 @@
         "home": "https://overreacted.io/",
         "url": "https://overreacted.io/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-29T23:04:47.846647+00:00",
+        "fetchedAt": "2026-04-30T03:23:28.703565+00:00",
         "items": [
           {
             "title": "A Social Filesystem",
@@ -1791,7 +1792,7 @@
         "home": "https://www.johndcook.com/",
         "url": "https://www.johndcook.com/blog/feed/",
         "status": "ok",
-        "fetchedAt": "2026-04-29T23:04:47.983959+00:00",
+        "fetchedAt": "2026-04-30T03:23:28.457965+00:00",
         "items": [
           {
             "title": "Turning a trick into a technique",
@@ -1862,7 +1863,7 @@
         "home": "https://matklad.github.io/",
         "url": "https://matklad.github.io/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-29T23:04:47.753682+00:00",
+        "fetchedAt": "2026-04-30T03:23:28.710565+00:00",
         "items": [
           {
             "title": "256 Lines or Less: Test Case Minimization",
@@ -1933,8 +1934,14 @@
         "home": "https://eli.thegreenplace.net/",
         "url": "https://eli.thegreenplace.net/feeds/all.atom.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-29T23:04:48.212128+00:00",
+        "fetchedAt": "2026-04-30T03:23:28.339734+00:00",
         "items": [
+          {
+            "title": "Thoughts on WebAssembly as a stack machine",
+            "link": "https://eli.thegreenplace.net/2026/thoughts-on-webassembly-as-a-stack-machine/",
+            "date": "2026-04-30T02:30:02-07:00",
+            "summary": "This week the article Wasm is not quite a stack machine has been making the rounds and has caught my eye. The post claims that WASM is not a pure stack machine because it has locals and is missing some stack manipulation operations like dup and swap. While I don't …"
+          },
           {
             "title": "Debugging WASM in Chrome DevTools",
             "link": "https://eli.thegreenplace.net/2026/debugging-wasm-in-chrome-devtools/",
@@ -1958,12 +1965,6 @@
             "link": "https://eli.thegreenplace.net/2026/notes-on-lagrange-interpolating-polynomials/",
             "date": "2026-03-05T13:31:03-08:00",
             "summary": "Polynomial interpolation is a method of finding a polynomial function that fits a given set of data perfectly. More concretely, suppose we have a set of n+1 distinct points [1]: \\[(x_0,y_0), (x_1, y_1), (x_2, y_2)\\cdots(x_n, y_n)\\] And we want to find the polynomial coefficients {a_0\\cdots …"
-          },
-          {
-            "title": "Notes on Linear Algebra for Polynomials",
-            "link": "https://eli.thegreenplace.net/2026/notes-on-linear-algebra-for-polynomials/",
-            "date": "2026-02-26T02:33:50-08:00",
-            "summary": "We’ll be working with the set P_n(\\mathbb{R}), real polynomials of degree \\leq n. Such polynomials can be expressed using n+1 scalar coefficients a_i as follows: \\[p(x)=a_0+a_1 x + a_2 x^2 + \\cdots + a_n x^n\\] Vector space The set P_n(\\mathbb{R}), along with …"
           }
         ]
       },
@@ -1974,7 +1975,7 @@
         "home": "https://fabiensanglard.net/",
         "url": "https://fabiensanglard.net/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-29T23:04:48.125301+00:00",
+        "fetchedAt": "2026-04-30T03:23:28.879915+00:00",
         "items": [
           {
             "title": "How Michael Abrash doubled Quake framerate",
@@ -2045,7 +2046,7 @@
         "home": "https://blog.miguelgrinberg.com/",
         "url": "https://blog.miguelgrinberg.com/feed",
         "status": "ok",
-        "fetchedAt": "2026-04-29T23:04:48.287232+00:00",
+        "fetchedAt": "2026-04-30T03:23:29.174471+00:00",
         "items": [
           {
             "title": "How Bitwarden Encrypts and Decrypts Secrets",
@@ -2116,7 +2117,7 @@
         "home": "https://www.troyhunt.com/",
         "url": "https://www.troyhunt.com/rss/",
         "status": "ok",
-        "fetchedAt": "2026-04-29T23:04:48.032636+00:00",
+        "fetchedAt": "2026-04-30T03:23:28.466536+00:00",
         "items": [
           {
             "title": "Weekly Update 501",
@@ -2187,7 +2188,7 @@
         "home": "https://anildash.com/",
         "url": "https://anildash.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-29T23:04:47.905859+00:00",
+        "fetchedAt": "2026-04-30T03:23:28.368450+00:00",
         "items": [
           {
             "title": "Why Apple’s move to video could endanger podcasting's greatest power",
@@ -2258,7 +2259,7 @@
         "home": "https://computer.rip/",
         "url": "https://computer.rip/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-29T23:04:48.397279+00:00",
+        "fetchedAt": "2026-04-30T03:23:28.954261+00:00",
         "items": [
           {
             "title": "voice modems",
@@ -2339,7 +2340,7 @@
         "home": "http://paulgraham.com/",
         "url": "http://www.aaronsw.com/2002/feeds/pgessays.rss",
         "status": "ok",
-        "fetchedAt": "2026-04-29T23:04:47.760386+00:00",
+        "fetchedAt": "2026-04-30T03:23:28.526571+00:00",
         "items": [
           {
             "title": "Superlinear Returns",
@@ -2409,70 +2410,9 @@
         "title": "Steve Blank",
         "home": "https://steveblank.com/",
         "url": "https://steveblank.com/feed/",
-        "status": "ok",
-        "fetchedAt": "2026-04-29T23:04:47.800687+00:00",
-        "items": [
-          {
-            "title": "Anthropic Mythos – We’ve Opened Pandora’s Box",
-            "link": "https://steveblank.com/2026/04/28/anthropic-mythos-weve-opened-pandoras-box/",
-            "date": "2026-04-28T13:00:48+00:00",
-            "summary": "This article previously appeared in The Cipher Brief. For a decade the cybersecurity community was predicting a cyber apocalypse tied to a single event &#8211; the day a Cryptographically Relevant Quantum Computer could run Shor’s algorithm and break the public-key cryptography systems most of the i"
-          },
-          {
-            "title": "AI and Teaching – The Brave New World",
-            "link": "https://steveblank.com/2026/04/22/ai-and-teaching-the-brave-new-world/",
-            "date": "2026-04-22T15:34:09+00:00",
-            "summary": "This article previously appeared in the Entrepreneur &#38; Innovation Exchange (EIX) This is the 16th year we’ve been teaching the Stanford Lean LaunchPad class. This year, from the first hour of the first class, we realized we were seeing something extraordinary happen. It was both the end and begi"
-          },
-          {
-            "title": "Nowhere Is Safe",
-            "link": "https://steveblank.com/2026/04/09/nowhere-is-safe/",
-            "date": "2026-04-09T13:00:25+00:00",
-            "summary": "Drones in Ukraine and in the War with Iran have made the surface of the earth a contested space. The U.S. has discovered that 1) air superiority and missile defense systems (THAAD, Patriot batteries) designed to counter tens or hundreds of aircraft and missiles is insufficient against asymmetric att"
-          },
-          {
-            "title": "Solving Yesterday’s Problems Will Kill You",
-            "link": "https://steveblank.com/2026/03/31/solving-yesterdays-problems-will-kill-you/",
-            "date": "2026-03-31T13:00:48+00:00",
-            "summary": "Join us at The 7th Annual Red Queen Conference April 22 -23 &#8211; Silicon Valley How do Portfolio Acquisition Executives and COCOMs ensure they’re working on the right problem with the right priority before locking in a requirement? Discuss, share and prototype Innovation Targeting concepts with y"
-          },
-          {
-            "title": "Your Startup Is Probably Dead On Arrival",
-            "link": "https://steveblank.com/2026/03/17/your-startup-is-probably-dead-on-arrival/",
-            "date": "2026-03-17T13:00:30+00:00",
-            "summary": "Your Startup Is Probably Dead On Arrival If you started a company more than two years ago, it’s likely that many of your assumptions are no longer true. You need to stop coding, building, recruiting, fund raising, etc., and take stock of what changed around you. Or your company will die. I just had "
-          },
-          {
-            "title": "Time to Move On – The Reason Relationships End",
-            "link": "https://steveblank.com/2026/02/24/time-to-move-on-the-reason-relationships-end/",
-            "date": "2026-02-24T14:00:57+00:00",
-            "summary": "What Lies Ahead I have no Way of Knowing, But It’s Now Time to Get Going Tom Petty This post previously appeared in Philanthropy.org A while ago I wrote about what happens in a startup when a new event creates a wake-up call that makes founding engineers reevaluate their jobs. (It’s worth a read her"
-          },
-          {
-            "title": "You Only Think They Work For You",
-            "link": "https://steveblank.com/2026/02/18/you-only-think-they-work-for-you/",
-            "date": "2026-02-18T14:00:39+00:00",
-            "summary": "When I was a new VP of Marketing I got a painful lesson of who my PR (Public Relations) agency actually worked for. Later I realized that it was true for all of my external vendors. And much later I realized what I really should have been asking them to do. The lessons still apply [&#8230;]"
-          },
-          {
-            "title": "Revisionist History – Aliens, Secrets and Conspiracies",
-            "link": "https://steveblank.com/2026/02/10/revisionist-history-aliens-secrets-and-conspiracies/",
-            "date": "2026-02-10T14:00:42+00:00",
-            "summary": "And ye shall know the truth, and the truth shall make you free” John 8:32 Every once in a while you learn something new that makes you completely rethink how/why an event actually happened. And then you consider how it affects the rest of our country and our lives. This is one of those stories. [&#8"
-          },
-          {
-            "title": "Making the Wrong Things Go Faster at The Department of War",
-            "link": "https://steveblank.com/2026/02/03/making-the-wrong-things-go-faster-at-the-department-of-war/",
-            "date": "2026-02-03T14:00:08+00:00",
-            "summary": "This article previously appeared in Defense Scoop The Department of War (DoW) senior Acquisition leadership (the people who decide what and how the DoW buys equipment and services) now is headed by people from private capital (venture capital and private equity.) Deputy Secretary of War Steven Feinb"
-          },
-          {
-            "title": "The Department of War Directory",
-            "link": "https://steveblank.com/2025/12/16/the-department-of-war-directory/",
-            "date": "2025-12-16T14:00:35+00:00",
-            "summary": "TL;DR DoW Directory revision 3 is Online here, Order a print copy here. In November 2025 the Department of War (DoW) unveiled the biggest changes in 60 years of how they will buy weapons and services. This month Congress, with bipartisan support, rapidly made them into law in the National Defense Au"
-          }
-        ]
+        "status": "error",
+        "error": "HTTP 429",
+        "items": []
       }
     ],
     "Startup & News": [
@@ -2483,8 +2423,14 @@
         "home": "https://news.ycombinator.com/",
         "url": "https://news.ycombinator.com/rss",
         "status": "ok",
-        "fetchedAt": "2026-04-29T23:04:48.046656+00:00",
+        "fetchedAt": "2026-04-30T03:23:29.044409+00:00",
         "items": [
+          {
+            "title": "Craig Venter has died",
+            "link": "https://www.jcvi.org/media-center/j-craig-venter-genomics-pioneer-and-founder-jcvi-and-diploid-genomics-inc-dies-79",
+            "date": "2026-04-30T01:44:56+00:00",
+            "summary": "Comments"
+          },
           {
             "title": "Zed 1.0",
             "link": "https://zed.dev/blog/zed-1-0",
@@ -2492,7 +2438,7 @@
             "summary": "Comments"
           },
           {
-            "title": "Copy Fail – CVE-2026-31431",
+            "title": "Copy Fail",
             "link": "https://copy.fail/",
             "date": "2026-04-29T18:13:53+00:00",
             "summary": "Comments"
@@ -2504,9 +2450,15 @@
             "summary": "Comments"
           },
           {
-            "title": "Germany has become the largest ammunition producer in the world",
-            "link": "https://prm.ua/en/the-us-is-no-longer-the-leader-germany-has-become-the-largest-ammunition-producer-in-the-world/",
-            "date": "2026-04-29T21:58:46+00:00",
+            "title": "Joby Kicks Off NYC Electric Air Taxi Demos with Historic JFK Flight",
+            "link": "https://www.flyingmag.com/joby-nyc-electric-air-taxi-jfk-airport/",
+            "date": "2026-04-30T01:01:55+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "Cursor Camp",
+            "link": "https://neal.fun/cursor-camp/",
+            "date": "2026-04-29T15:39:43+00:00",
             "summary": "Comments"
           },
           {
@@ -2522,27 +2474,15 @@
             "summary": "Comments"
           },
           {
-            "title": "Cursor Camp",
-            "link": "https://neal.fun/cursor-camp/",
-            "date": "2026-04-29T15:39:43+00:00",
+            "title": "Consequences of passing too few register parameters to a C function",
+            "link": "https://devblogs.microsoft.com/oldnewthing/20260427-00/?p=112271",
+            "date": "2026-04-28T02:55:49+00:00",
             "summary": "Comments"
           },
           {
-            "title": "Gooseworks (YC W23) Is Hiring a Founding Growth Engineer",
-            "link": "https://www.ycombinator.com/companies/gooseworks/jobs/ztgY6bD-founding-growth-engineer",
-            "date": "2026-04-29T21:50:57+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "Why I still reach for Lisp and Scheme instead of Haskell",
-            "link": "https://jointhefreeworld.org/blog/articles/lisps/why-i-still-reach-for-scheme-instead-of-haskell/index.html",
-            "date": "2026-04-29T08:43:17+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "View transactions sent to a Monero address",
-            "link": "https://localmonero.co/blocks/search/47xmhbRuYpSYSrVZx2RsPBhaAQByZq3ucAT6ULxHvDAu8c853ErpLHqBdDmpVzcmWFdZFCWrfZYwp3rqs14zxXx95S7Fyv2",
-            "date": "2026-04-29T22:41:37+00:00",
+            "title": "Creating a Color Palette from an Image",
+            "link": "https://amandahinton.com/blog/creating-a-color-palette-from-an-image",
+            "date": "2026-04-28T16:23:50+00:00",
             "summary": "Comments"
           }
         ]
@@ -2554,67 +2494,67 @@
         "home": "https://www.techmeme.com/",
         "url": "https://www.techmeme.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-04-29T23:04:48.584136+00:00",
+        "fetchedAt": "2026-04-30T03:23:29.031303+00:00",
         "items": [
+          {
+            "title": "SenseTime releases SenseNova-U1, an open-source image model that it says can \"read\" images without translating them to text, reducing computing power needs (Zeyi Yang/Wired)",
+            "link": "http://www.techmeme.com/260429/p69#a260429p69",
+            "date": "2026-04-29T23:20:02-04:00",
+            "summary": "Zeyi Yang / Wired: SenseTime releases SenseNova-U1, an open-source image model that it says can &ldquo;read&rdquo; images without translating them to text, reducing computing power needs&nbsp; &mdash;&nbsp; With US restrictions limiting its access to advanced tech, SenseTime is doubling down on open"
+          },
+          {
+            "title": "Analysts: TikTok Shop generated $4.9B in US sales during Q1 2026, doubling its volume from the previous year; Q1 consumer spending on the platform rose 46% YoY (Jennifer Williams/Wall Street Journal)",
+            "link": "http://www.techmeme.com/260429/p68#a260429p68",
+            "date": "2026-04-29T23:10:03-04:00",
+            "summary": "Jennifer Williams / Wall Street Journal: Analysts: TikTok Shop generated $4.9B in US sales during Q1 2026, doubling its volume from the previous year; Q1 consumer spending on the platform rose 46% YoY&nbsp; &mdash;&nbsp; Ralph Lauren, Olaplex and Ulta Beauty recently launched storefronts on the plat"
+          },
+          {
+            "title": "Visa says its stablecoin settlement pilot supports nine networks, including Base, Polygon, Canton Network, Arc, and Tempo, and has hit a $7B annualized run rate (Krisztian Sandor/CoinDesk)",
+            "link": "http://www.techmeme.com/260429/p67#a260429p67",
+            "date": "2026-04-29T22:50:03-04:00",
+            "summary": "Krisztian Sandor / CoinDesk: Visa says its stablecoin settlement pilot supports nine networks, including Base, Polygon, Canton Network, Arc, and Tempo, and has hit a $7B annualized run rate&nbsp; &mdash;&nbsp; The payments giant added support for Stripe's Tempo, Circle's Arc, Coinbase's Base, Polygo"
+          },
+          {
+            "title": "How US schools' overreliance on YouTube for educational content encourages students to drift into endless video scrolling on school-issued devices (Shalini Ramachandran/Wall Street Journal)",
+            "link": "http://www.techmeme.com/260429/p66#a260429p66",
+            "date": "2026-04-29T22:20:02-04:00",
+            "summary": "Shalini Ramachandran / Wall Street Journal: How US schools' overreliance on YouTube for educational content encourages students to drift into endless video scrolling on school-issued devices&nbsp; &mdash;&nbsp; Parents find their kids captive to the video streaming site on their school-issued device"
+          },
+          {
+            "title": "Sources: the White House opposes Anthropic's plan to expand access to Mythos to 70 additional companies and organizations because of concerns about security (Wall Street Journal)",
+            "link": "http://www.techmeme.com/260429/p65#a260429p65",
+            "date": "2026-04-29T21:55:01-04:00",
+            "summary": "Wall Street Journal: Sources: the White House opposes Anthropic's plan to expand access to Mythos to 70 additional companies and organizations because of concerns about security&nbsp; &mdash;&nbsp; Relationship is still complicated despite efforts from both sides to de-escalate&nbsp; &mdash;&nbsp; T"
+          },
+          {
+            "title": "Digital advertising is booming for Google and Meta, helped by AI tools used for language translation, real-time changes to ad copy, and easier ad targeting (New York Times)",
+            "link": "http://www.techmeme.com/260429/p64#a260429p64",
+            "date": "2026-04-29T21:50:01-04:00",
+            "summary": "New York Times: Digital advertising is booming for Google and Meta, helped by AI tools used for language translation, real-time changes to ad copy, and easier ad targeting&nbsp; &mdash;&nbsp; For years, DribbleUp, a sports equipment company, spent its own time and resources figuring out whom it shou"
+          },
+          {
+            "title": "Massachusetts-based brain implant company Axoft raised a $55M Series A and says it tested its device in a Shanghai patient, with plans for more trials in China (Bloomberg)",
+            "link": "http://www.techmeme.com/260429/p63#a260429p63",
+            "date": "2026-04-29T21:00:56-04:00",
+            "summary": "Bloomberg: Massachusetts-based brain implant company Axoft raised a $55M Series A and says it tested its device in a Shanghai patient, with plans for more trials in China&nbsp; &mdash;&nbsp; A US company has tested a brain implant in a Chinese patient in Shanghai, a rare sign of cooperation as the t"
+          },
+          {
+            "title": "Samsung reports Q1 revenue up 69% YoY to ~$90.2B, vs. ~$89.4B est., and operating profit up 756% to ~$38.5B, vs. ~$37.2B est., driven by AI-linked memory demand (Dylan Butts/CNBC)",
+            "link": "http://www.techmeme.com/260429/p62#a260429p62",
+            "date": "2026-04-29T20:30:15-04:00",
+            "summary": "Dylan Butts / CNBC: Samsung reports Q1 revenue up 69% YoY to ~$90.2B, vs. ~$89.4B est., and operating profit up 756% to ~$38.5B, vs. ~$37.2B est., driven by AI-linked memory demand&nbsp; &mdash;&nbsp; Samsung Electronics reported an over eight-fold increase in first-quarter operating profits on Thur"
+          },
+          {
+            "title": "Sources: SoftBank plans to create an AI and robotics company called Roze in the US to build data centers and list it as early as 2026, seeking a $100B valuation (Financial Times)",
+            "link": "http://www.techmeme.com/260429/p61#a260429p61",
+            "date": "2026-04-29T20:10:01-04:00",
+            "summary": "Financial Times: Sources: SoftBank plans to create an AI and robotics company called Roze in the US to build data centers and list it as early as 2026, seeking a $100B valuation&nbsp; &mdash;&nbsp; Masayoshi Son plots IPO for business named Roze as soon as this year&nbsp; &mdash;&nbsp; SoftBank is p"
+          },
           {
             "title": "Musk v. Altman: Elon Musk says he was a \"fool\" for backing OpenAI, accusing Altman and Brockman of manipulating him into donating tens of millions of dollars (Angel Au-Yeung/Wall Street Journal)",
             "link": "http://www.techmeme.com/260429/p60#a260429p60",
             "date": "2026-04-29T18:40:01-04:00",
             "summary": "Angel Au-Yeung / Wall Street Journal: Musk v. Altman: Elon Musk says he was a &ldquo;fool&rdquo; for backing OpenAI, accusing Altman and Brockman of manipulating him into donating tens of millions of dollars&nbsp; &mdash;&nbsp; Billionaire says OpenAI co-founder Sam Altman wasn't honest about nonpro"
-          },
-          {
-            "title": "Sources: Anthropic has begun weighing a new funding round at a $900B+ valuation, after previously resisting investor proposals at an $800B+ valuation (Bloomberg)",
-            "link": "http://www.techmeme.com/260429/p59#a260429p59",
-            "date": "2026-04-29T18:05:01-04:00",
-            "summary": "Bloomberg: Sources: Anthropic has begun weighing a new funding round at a $900B+ valuation, after previously resisting investor proposals at an $800B+ valuation&nbsp; &mdash;&nbsp; Anthropic PBC has begun weighing a fresh funding round that would value the artificial intelligence developer at more t"
-          },
-          {
-            "title": "Meta says Q1 family daily active people fell 20M QoQ to 3.56B, vs. 3.62B est., due to internet disruptions in Iran and WhatsApp access restrictions in Russia (Jonathan Vanian/CNBC)",
-            "link": "http://www.techmeme.com/260429/p58#a260429p58",
-            "date": "2026-04-29T17:50:02-04:00",
-            "summary": "Jonathan Vanian / CNBC: Meta says Q1 family daily active people fell 20M QoQ to 3.56B, vs. 3.62B est., due to internet disruptions in Iran and WhatsApp access restrictions in Russia&nbsp; &mdash;&nbsp; Meta shares fell in extended trading on Wednesday after the company reported lower-than-expected c"
-          },
-          {
-            "title": "Alphabet reports Q1 revenue up 22% YoY to $109.9B, vs. $107.2B est., and Google Cloud revenue up 63% to $20B, vs. $18.05B est.; GOOG jumps 6%+ after hours (Alphabet)",
-            "link": "http://www.techmeme.com/260429/p57#a260429p57",
-            "date": "2026-04-29T17:25:01-04:00",
-            "summary": "Alphabet: Alphabet reports Q1 revenue up 22% YoY to $109.9B, vs. $107.2B est., and Google Cloud revenue up 63% to $20B, vs. $18.05B est.; GOOG jumps 6%+ after hours&nbsp; &mdash;&nbsp; Alphabet Announces First Quarter 2026 Results MOUNTAIN VIEW, Calif. - April 29, 2026 - Alphabet Inc. (NASDAQ: GOOG,"
-          },
-          {
-            "title": "Google says paid subscriptions reached 350M in Q1, up 25M QoQ, driven by YouTube and Google One, while Gemini Enterprise paid MAUs grew 40% QoQ (Sarah Perez/TechCrunch)",
-            "link": "http://www.techmeme.com/260429/p56#a260429p56",
-            "date": "2026-04-29T17:20:06-04:00",
-            "summary": "Sarah Perez / TechCrunch: Google says paid subscriptions reached 350M in Q1, up 25M QoQ, driven by YouTube and Google One, while Gemini Enterprise paid MAUs grew 40% QoQ&nbsp; &mdash;&nbsp; Google has added another 25 million paid subscriptions to its services over the past quarter, according to par"
-          },
-          {
-            "title": "eBay reports Q1 revenue up 19% YoY to $3.09B, vs. $3.04B est., net income up 2% to $512M, GMV up 18% to $22.2B, and forecasts Q2 revenue above estimates (Kelly Cloonan/Wall Street Journal)",
-            "link": "http://www.techmeme.com/260429/p55#a260429p55",
-            "date": "2026-04-29T17:10:02-04:00",
-            "summary": "Kelly Cloonan / Wall Street Journal: eBay reports Q1 revenue up 19% YoY to $3.09B, vs. $3.04B est., net income up 2% to $512M, GMV up 18% to $22.2B, and forecasts Q2 revenue above estimates&nbsp; &mdash;&nbsp; The company logged a profit of $512 million, or $1.12 a share&nbsp; &mdash;&nbsp; EBay rec"
-          },
-          {
-            "title": "AWS revenue rose 28% YoY in Q1 to $37.6B, vs. $36.64B est., its fastest growth in 15 quarters, as capital expenditure rose to $44.2B, up from $25B in Q1 2025 (Quartz)",
-            "link": "http://www.techmeme.com/260429/p54#a260429p54",
-            "date": "2026-04-29T17:05:01-04:00",
-            "summary": "Quartz: AWS revenue rose 28% YoY in Q1 to $37.6B, vs. $36.64B est., its fastest growth in 15 quarters, as capital expenditure rose to $44.2B, up from $25B in Q1 2025&nbsp; &mdash;&nbsp; AWS revenue rose 28% to $37.6 billion, the fastest growth in 15 quarters, as total revenue climbed 17% to $181.5 b"
-          },
-          {
-            "title": "Microsoft reports Q3 Xbox hardware revenue fell 33% YoY and Xbox content and services revenue, which includes Game Pass, dropped 5% YoY (Emma Roth/The Verge)",
-            "link": "http://www.techmeme.com/260429/p52#a260429p52",
-            "date": "2026-04-29T16:50:04-04:00",
-            "summary": "Emma Roth / The Verge: Microsoft reports Q3 Xbox hardware revenue fell 33% YoY and Xbox content and services revenue, which includes Game Pass, dropped 5% YoY&nbsp; &mdash;&nbsp; Xbox hardware revenue took a 33 percent hit, even as the company raked in $82.9 billion. &hellip; Microsoft's Xbox hardwa"
-          },
-          {
-            "title": "Qualcomm reports Q2 revenue down 3% YoY to $10.6B and says a top hyperscaler is on track to begin using its chips later this year; QCOM jumps 7%+ after hours (Ian King/Bloomberg)",
-            "link": "http://www.techmeme.com/260429/p53#a260429p53",
-            "date": "2026-04-29T16:50:04-04:00",
-            "summary": "Ian King / Bloomberg: Qualcomm reports Q2 revenue down 3% YoY to $10.6B and says a top hyperscaler is on track to begin using its chips later this year; QCOM jumps 7%+ after hours&nbsp; &mdash;&nbsp; Qualcomm Inc. rallied in late trading after the company said it was making headway in the lucrative "
-          },
-          {
-            "title": "Google has told employees in a memo that it \"proudly\" works with the US military and will continue to do so, amid opposition from some staff over DOD contracts (Financial Times)",
-            "link": "http://www.techmeme.com/260429/p51#a260429p51",
-            "date": "2026-04-29T16:45:02-04:00",
-            "summary": "Financial Times: Google has told employees in a memo that it &ldquo;proudly&rdquo; works with the US military and will continue to do so, amid opposition from some staff over DOD contracts&nbsp; &mdash;&nbsp; The tech giant signed an artificial intelligence deal with the defence department on Monday"
           }
         ]
       },
@@ -2625,8 +2565,44 @@
         "home": "https://techcrunch.com/",
         "url": "https://techcrunch.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-04-29T23:04:48.162498+00:00",
+        "fetchedAt": "2026-04-30T03:23:28.388756+00:00",
         "items": [
+          {
+            "title": "Amazon, Meta join fight to end Google Pay, PhonePe dominance in India",
+            "link": "https://techcrunch.com/2026/04/29/amazon-meta-join-fight-to-end-google-pay-phonepe-dominance-in-india/",
+            "date": "2026-04-30T01:00:00+00:00",
+            "summary": "PhonePe and Google Pay command 80% of India's UPI instant payments network. Rivals are set to meet with regulators to lobby for restrictions."
+          },
+          {
+            "title": "Amazon’s cloud business is surging — and so is its capital spending",
+            "link": "https://techcrunch.com/2026/04/29/amazons-cloud-business-is-surging-and-so-is-its-capital-spending/",
+            "date": "2026-04-30T00:14:23+00:00",
+            "summary": "The e-commerce giant is making more money than expected from AWS but it's also spending a lot, and will continue to do so in the near term, its chief executive said."
+          },
+          {
+            "title": "Sources: Anthropic could raise a new $50B round at a valuation of $900B",
+            "link": "https://techcrunch.com/2026/04/29/sources-anthropic-could-raise-a-new-50b-round-at-a-valuation-of-900b/",
+            "date": "2026-04-30T00:07:15+00:00",
+            "summary": "The maker of Claude has received multiple pre-emptive offers at valuations in the $850 billion to $900 billion range, according to sources familiar with the matter."
+          },
+          {
+            "title": "On the stand, Elon Musk can’t escape his own tweets",
+            "link": "https://techcrunch.com/2026/04/29/on-the-stand-elon-musk-cant-escape-his-own-tweets/",
+            "date": "2026-04-29T23:58:36+00:00",
+            "summary": "Elon Musk took the stand for the second day for his attempt to legally dismantle OpenAI."
+          },
+          {
+            "title": "Meta is still burning money on AR/VR",
+            "link": "https://techcrunch.com/2026/04/29/meta-is-still-burning-money-on-ar-vr/",
+            "date": "2026-04-29T23:58:26+00:00",
+            "summary": "Meta is losing billions on Reality Labs each quarter, and its AI expenditures are only going to increase its spending."
+          },
+          {
+            "title": "Satya Nadella says he’s ready to ‘exploit’ the new OpenAI deal",
+            "link": "https://techcrunch.com/2026/04/29/satya-nadella-says-hes-ready-to-exploit-the-new-openai-deal/",
+            "date": "2026-04-29T23:55:23+00:00",
+            "summary": "Microsoft gets to offer OpenAI's tech to its cloud customers and doesn't have to pay for it. \"We fully plan to exploit it,\" Nadella said."
+          },
           {
             "title": "Microsoft says it has over 20M paid Copilot users, and they really are using it",
             "link": "https://techcrunch.com/2026/04/29/microsoft-says-it-has-over-20m-paid-copilot-users-and-they-really-are-using-it/",
@@ -2634,7 +2610,7 @@
             "summary": "Despite the lingering perception that no one really uses Copilot, Microsoft said on Wednesday that the number of users and engagement is growing."
           },
           {
-            "title": "Google Cloud surpasses $20B but says growth was capacity-constrained",
+            "title": "Google Cloud surpasses $20B, but says growth was capacity-constrained",
             "link": "https://techcrunch.com/2026/04/29/google-cloud-surpasses-20b-but-says-growth-was-capacity-constrained/",
             "date": "2026-04-29T22:20:48+00:00",
             "summary": "Google Cloud topped $20B in quarterly revenue for the first time, fueled by surging demand for AI. But capacity constraints mean it could have grown even faster."
@@ -2650,42 +2626,6 @@
             "link": "https://techcrunch.com/2026/04/29/fusion-power-startup-zap-energy-pulls-a-partial-pivot-adding-nuclear-fission-to-the-mix/",
             "date": "2026-04-29T20:53:56+00:00",
             "summary": "Surprise! Fusion startup Zap Energy says it will be developing fission reactors alongside its fusion devices."
-          },
-          {
-            "title": "Parallel Web Systems hits $2B valuation five months after its last big raise",
-            "link": "https://techcrunch.com/2026/04/29/parallel-web-systems-hits-2b-valuation-five-months-after-its-last-big-raise/",
-            "date": "2026-04-29T18:33:05+00:00",
-            "summary": "The AI agent-tool startup founded by former Twitter CEO Parag Agrawal has raised $100 million, led by Sequoia, months after raising a previous $100 million."
-          },
-          {
-            "title": "Google Photos uses AI to make the iconic closet from ‘Clueless’ a reality",
-            "link": "https://techcrunch.com/2026/04/29/google-photos-uses-ai-to-make-the-iconic-closet-from-clueless-a-reality/",
-            "date": "2026-04-29T16:42:33+00:00",
-            "summary": "Google says the new feature will leverage AI technology to automatically create a copy of your wardrobe that's based on the pieces of clothing appearing in your Google Photos library."
-          },
-          {
-            "title": "More Gemini features are coming to Google TV",
-            "link": "https://techcrunch.com/2026/04/29/more-gemini-features-are-coming-to-google-tv/",
-            "date": "2026-04-29T16:40:49+00:00",
-            "summary": "Google TV just got more Gemini features, including the ability to transform photos and videos with tools Nano Banana and Veo."
-          },
-          {
-            "title": "Bill Gurley, Jack Altman back startup Pursuit, which helps companies sell to government",
-            "link": "https://techcrunch.com/2026/04/29/bill-gurley-jack-altman-back-startup-pursuit-which-helps-companies-sell-to-government/",
-            "date": "2026-04-29T16:20:02+00:00",
-            "summary": "On Wednesday, Pursuit announced a $22 million Series A round led by Mike Rosengarten, the co-founder of OpenGov, with big-name VCs participating."
-          },
-          {
-            "title": "Roku’s $3 streaming service, Howdy, reaches 1M subs, per recent report",
-            "link": "https://techcrunch.com/2026/04/29/rokus-3-streaming-service-howdy-reaches-1m-subs-per-recent-report/",
-            "date": "2026-04-29T15:33:35+00:00",
-            "summary": "Roku’s $2.99 streaming service Howdy has topped 1M subscribers, showing demand for cheaper, low-commitment alternatives to pricier streamers."
-          },
-          {
-            "title": "Uber is in the hotel business now, thanks in part to AI",
-            "link": "https://techcrunch.com/2026/04/29/uber-is-in-the-hotel-business-now-thanks-in-part-to-ai/",
-            "date": "2026-04-29T15:12:14+00:00",
-            "summary": "Uber announced several new features on Wednesday during its annual event, which push far beyond the company's original ride-hailing purpose and deeper into its users' lives."
           }
         ]
       },
@@ -2696,8 +2636,38 @@
         "home": "https://techcrunch.com/category/artificial-intelligence/",
         "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
         "status": "ok",
-        "fetchedAt": "2026-04-29T23:04:48.158234+00:00",
+        "fetchedAt": "2026-04-30T03:23:28.692514+00:00",
         "items": [
+          {
+            "title": "Amazon’s cloud business is surging — and so is its capital spending",
+            "link": "https://techcrunch.com/2026/04/29/amazons-cloud-business-is-surging-and-so-is-its-capital-spending/",
+            "date": "2026-04-30T00:14:23+00:00",
+            "summary": "The e-commerce giant is making more money than expected from AWS but it's also spending a lot, and will continue to do so in the near term, its chief executive said."
+          },
+          {
+            "title": "Sources: Anthropic could raise a new $50B round at a valuation of $900B",
+            "link": "https://techcrunch.com/2026/04/29/sources-anthropic-could-raise-a-new-50b-round-at-a-valuation-of-900b/",
+            "date": "2026-04-30T00:07:15+00:00",
+            "summary": "The maker of Claude has received multiple pre-emptive offers at valuations in the $850 billion to $900 billion range, according to sources familiar with the matter."
+          },
+          {
+            "title": "On the stand, Elon Musk can’t escape his own tweets",
+            "link": "https://techcrunch.com/2026/04/29/on-the-stand-elon-musk-cant-escape-his-own-tweets/",
+            "date": "2026-04-29T23:58:36+00:00",
+            "summary": "Elon Musk took the stand for the second day for his attempt to legally dismantle OpenAI."
+          },
+          {
+            "title": "Meta is still burning money on AR/VR",
+            "link": "https://techcrunch.com/2026/04/29/meta-is-still-burning-money-on-ar-vr/",
+            "date": "2026-04-29T23:58:26+00:00",
+            "summary": "Meta is losing billions on Reality Labs each quarter, and its AI expenditures are only going to increase its spending."
+          },
+          {
+            "title": "Satya Nadella says he’s ready to ‘exploit’ the new OpenAI deal",
+            "link": "https://techcrunch.com/2026/04/29/satya-nadella-says-hes-ready-to-exploit-the-new-openai-deal/",
+            "date": "2026-04-29T23:55:23+00:00",
+            "summary": "Microsoft gets to offer OpenAI's tech to its cloud customers and doesn't have to pay for it. \"We fully plan to exploit it,\" Nadella said."
+          },
           {
             "title": "Microsoft says it has over 20M paid Copilot users, and they really are using it",
             "link": "https://techcrunch.com/2026/04/29/microsoft-says-it-has-over-20m-paid-copilot-users-and-they-really-are-using-it/",
@@ -2705,7 +2675,7 @@
             "summary": "Despite the lingering perception that no one really uses Copilot, Microsoft said on Wednesday that the number of users and engagement is growing."
           },
           {
-            "title": "Google Cloud surpasses $20B but says growth was capacity-constrained",
+            "title": "Google Cloud surpasses $20B, but says growth was capacity-constrained",
             "link": "https://techcrunch.com/2026/04/29/google-cloud-surpasses-20b-but-says-growth-was-capacity-constrained/",
             "date": "2026-04-29T22:20:48+00:00",
             "summary": "Google Cloud topped $20B in quarterly revenue for the first time, fueled by surging demand for AI. But capacity constraints mean it could have grown even faster."
@@ -2727,36 +2697,6 @@
             "link": "https://techcrunch.com/2026/04/29/parallel-web-systems-hits-2b-valuation-five-months-after-its-last-big-raise/",
             "date": "2026-04-29T18:33:05+00:00",
             "summary": "The AI agent-tool startup founded by former Twitter CEO Parag Agrawal has raised $100 million, led by Sequoia, months after raising a previous $100 million."
-          },
-          {
-            "title": "Google Photos uses AI to make the iconic closet from ‘Clueless’ a reality",
-            "link": "https://techcrunch.com/2026/04/29/google-photos-uses-ai-to-make-the-iconic-closet-from-clueless-a-reality/",
-            "date": "2026-04-29T16:42:33+00:00",
-            "summary": "Google says the new feature will leverage AI technology to automatically create a copy of your wardrobe that's based on the pieces of clothing appearing in your Google Photos library."
-          },
-          {
-            "title": "More Gemini features are coming to Google TV",
-            "link": "https://techcrunch.com/2026/04/29/more-gemini-features-are-coming-to-google-tv/",
-            "date": "2026-04-29T16:40:49+00:00",
-            "summary": "Google TV just got more Gemini features, including the ability to transform photos and videos with tools Nano Banana and Veo."
-          },
-          {
-            "title": "Firestorm Labs raises $82M to take drone factories into the field",
-            "link": "https://techcrunch.com/2026/04/29/firestorm-labs-raises-82m-to-take-drone-factories-into-the-field/",
-            "date": "2026-04-29T13:10:57+00:00",
-            "summary": "A defense startup just raised $82 million to put drone factories inside shipping containers and bring manufacturing to the front lines."
-          },
-          {
-            "title": "Meet Shapes, the app bringing humans and AI into the same group chats",
-            "link": "https://techcrunch.com/2026/04/29/meet-shapes-the-app-bringing-humans-and-ai-into-the-same-group-chats/",
-            "date": "2026-04-29T13:00:00+00:00",
-            "summary": "Think Discord chats, but with AI characters in addition to humans."
-          },
-          {
-            "title": "Colby Adcock’s Scout AI raises $100M to train its models for war: We visited its bootcamp",
-            "link": "https://techcrunch.com/2026/04/29/coby-adcocks-scout-ai-raises-100-million-to-train-models-for-war-we-visited-its-bootcamp/",
-            "date": "2026-04-29T09:45:00+00:00",
-            "summary": "We visited Scout AI's training ground where it's working on AI agents that can help individual soldiers control fleets of autonomous vehicles."
           }
         ]
       },
@@ -2767,7 +2707,7 @@
         "home": "https://techcrunch.com/tag/funding/",
         "url": "https://techcrunch.com/tag/funding/feed/",
         "status": "ok",
-        "fetchedAt": "2026-04-29T23:04:48.165069+00:00",
+        "fetchedAt": "2026-04-30T03:23:28.707173+00:00",
         "items": [
           {
             "title": "Chipmakers AMD, Arm, and Qualcomm are all investing in this buzzy self-driving tech startup",
@@ -2838,7 +2778,7 @@
         "home": "https://venturebeat.com/",
         "url": "https://venturebeat.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-04-29T23:04:48.144291+00:00",
+        "fetchedAt": "2026-04-30T03:23:28.683664+00:00",
         "items": [
           {
             "title": "Amazon’s OpenAI gambit signals a new phase in the cloud wars — one where exclusivity no longer applies",
@@ -2891,7 +2831,7 @@
         "home": "https://venturebeat.com/category/ai/",
         "url": "https://venturebeat.com/category/ai/feed/",
         "status": "ok",
-        "fetchedAt": "2026-04-29T23:04:48.116307+00:00",
+        "fetchedAt": "2026-04-30T03:23:28.688906+00:00",
         "items": [
           {
             "title": "Railway secures $100 million to challenge AWS with AI-native cloud infrastructure",
@@ -2956,8 +2896,14 @@
         "home": "https://www.bestblogs.dev/",
         "url": "https://www.bestblogs.dev/zh/feeds/rss?category=ai&minScore=90",
         "status": "ok",
-        "fetchedAt": "2026-04-29T23:04:48.463787+00:00",
+        "fetchedAt": "2026-04-30T03:23:29.029927+00:00",
         "items": [
+          {
+            "title": "Naval 深度解读 Vibe Coding：AI 编程拐点与未来软件形态",
+            "link": "https://www.bestblogs.dev/status/2049680287634973027?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
+            "date": "2026-04-30T02:40:36+00:00",
+            "summary": "📌 一句话摘要 Naval 认为 Claude Opus 4.5 是 AI 编程拐点，从代码助手跃迁为自主编程智能体，并推演了个人 App 商店、纯软件不可投、Apple 命运等判断。 📝 详细摘要 该推文详细总结了 Naval 关于 Vibe Coding 的播客内容。Naval 认为 Claude Opus 4.5 的发布是 AI 编程的拐点，AI 从代码助手跃迁为自主编程智能体。他提出了多个核心观点：1) AI Agent 与 Unix 生态的天然契合；2) 个人 App 商店的概念，即用描述一次性生成 App；3) Vibe Coding 是带有真实奖励的电子游戏；4) 纯软件已不可投"
+          },
           {
             "title": "FlashQLA：让 Qwen 的注意力层跑得更快",
             "link": "https://www.bestblogs.dev/article/ce31a82d?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
@@ -3011,12 +2957,6 @@
             "link": "https://www.bestblogs.dev/article/d7aab79f?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
             "date": "2026-04-27T22:30:00+00:00",
             "summary": "📌 一句话摘要 本文通过波音 777 项目的历史案例，论证了当前企业将 AI 仅用于提升个人效率（如自动生成会议纪要）而忽视组织协作层重构的做法，本质上是新工具被嵌入旧流程的荒谬现象。 📝 详细摘要 文章以「用 AI 做会议纪要」这一普遍现象为切入点，指出其荒谬之处在于：AI 虽然将会议内容转化为文字，但并未将讨论中的事实、承诺和问题结构化地写入组织级别的「共同事实库」，导致下一次会议仍需从零对齐。作者通过对比波音 767 和 777 项目，深入分析了 CAD 工具从「更先进的画图板」到「组织共同真相源」的转变过程，指出 777 成功的核心并非 CATIA 软件本身，而是与之配套的跨职能团队（"
-          },
-          {
-            "title": "量子位专访楼天城：AI 是匹脱缰野马，Harness 是这个时代最关键的能力",
-            "link": "https://www.bestblogs.dev/article/598c24ff?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
-            "date": "2026-04-27T10:48:17+00:00",
-            "summary": "📌 一句话摘要 小马智行 CTO 楼天城深度阐述 PonyWorld 世界模型 2.0 的核心理念：当 AI 驾驶能力超越人类后，人类数据价值归零，AI 必须成为主导研发的「总教练」，而驾驭 AI 这匹「脱缰野马」的能力（Harness）将成为这个时代最关键的技能。 📝 详细摘要 本文是量子位对小马智行 CTO 楼天城的深度专访，围绕其最新发布的 PonyWorld 世界模型 2.0 展开。楼天城提出，当 AI 驾驶能力全面超越人类后，人类驾驶数据的价值将趋近于零甚至为负，人类工程师的角色将从「教练」转变为「执行者」和「数据采集员」。PonyWorld 2.0 的核心创新在于：1）跳过语言中间"
           }
         ]
       }
@@ -3024,6 +2964,216 @@
   },
   "allItems": [
     {
+      "title": "Naval 深度解读 Vibe Coding：AI 编程拐点与未来软件形态",
+      "link": "https://www.bestblogs.dev/status/2049680287634973027?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
+      "date": "2026-04-30T02:40:36+00:00",
+      "summary": "📌 一句话摘要 Naval 认为 Claude Opus 4.5 是 AI 编程拐点，从代码助手跃迁为自主编程智能体，并推演了个人 App 商店、纯软件不可投、Apple 命运等判断。 📝 详细摘要 该推文详细总结了 Naval 关于 Vibe Coding 的播客内容。Naval 认为 Claude Opus 4.5 的发布是 AI 编程的拐点，AI 从代码助手跃迁为自主编程智能体。他提出了多个核心观点：1) AI Agent 与 Unix 生态的天然契合；2) 个人 App 商店的概念，即用描述一次性生成 App；3) Vibe Coding 是带有真实奖励的电子游戏；4) 纯软件已不可投",
+      "feedId": "bestblogs",
+      "feedTitle": "BestBlogs.dev AI 90+",
+      "category": "中文",
+      "feedHome": "https://www.bestblogs.dev/"
+    },
+    {
+      "title": "Thoughts on WebAssembly as a stack machine",
+      "link": "https://eli.thegreenplace.net/2026/thoughts-on-webassembly-as-a-stack-machine/",
+      "date": "2026-04-30T02:30:02-07:00",
+      "summary": "This week the article Wasm is not quite a stack machine has been making the rounds and has caught my eye. The post claims that WASM is not a pure stack machine because it has locals and is missing some stack manipulation operations like dup and swap. While I don't …",
+      "feedId": "elibendersky",
+      "feedTitle": "Eli Bendersky",
+      "category": "Tech Blogs",
+      "feedHome": "https://eli.thegreenplace.net/"
+    },
+    {
+      "title": "‘Elon Musk Appeared More Petty Than Prepared’",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/920191/elon-musk-sam-altman-trial-day-one?view_token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6InBrV1FGdGtlcEEiLCJwIjoiL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzkyMDE5MS9lbG9uLW11c2stc2FtLWFsdG1hbi10cmlhbC1kYXktb25lIiwiZXhwIjoxNzc3OTA1NDgxLCJpYXQiOjE3Nzc0NzM0ODF9.FkMZ8-YRv8q3d7n6p8q_scJaERWtNumD9pK7kONpTE4",
+      "date": "2026-04-30T02:19:42+00:00",
+      "summary": "Elizabeth Lopatto, reporting on Musk v. Altman from the courtroom in Oakland (gift link): Today the first witness was sworn in in Musk v. Altman: Elon Musk. I was surprised by how flat he seemed. This is not the first time I’ve seen Musk in court. During his defamation suit, he turned on the charm a",
+      "feedId": "daringfireball",
+      "feedTitle": "Daring Fireball",
+      "category": "Tech Blogs",
+      "feedHome": "https://daringfireball.net/"
+    },
+    {
+      "title": "Craig Venter has died",
+      "link": "https://www.jcvi.org/media-center/j-craig-venter-genomics-pioneer-and-founder-jcvi-and-diploid-genomics-inc-dies-79",
+      "date": "2026-04-30T01:44:56+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "The Zig project's rationale for their firm anti-AI contribution policy",
+      "link": "https://simonwillison.net/2026/Apr/30/zig-anti-ai/#atom-everything",
+      "date": "2026-04-30T01:24:23+00:00",
+      "summary": "Zig has one of the most stringent anti-LLM policies of any major open source project: No LLMs for issues. No LLMs for pull requests. No LLMs for comments on the bug tracker, including translation. English is encouraged, but not required. You are welcome to post in your native language and rely on ot",
+      "feedId": "simonwillison",
+      "feedTitle": "Simon Willison",
+      "category": "AI & LLM",
+      "feedHome": "https://simonwillison.net/"
+    },
+    {
+      "title": "Joby Kicks Off NYC Electric Air Taxi Demos with Historic JFK Flight",
+      "link": "https://www.flyingmag.com/joby-nyc-electric-air-taxi-jfk-airport/",
+      "date": "2026-04-30T01:01:55+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "Amazon, Meta join fight to end Google Pay, PhonePe dominance in India",
+      "link": "https://techcrunch.com/2026/04/29/amazon-meta-join-fight-to-end-google-pay-phonepe-dominance-in-india/",
+      "date": "2026-04-30T01:00:00+00:00",
+      "summary": "PhonePe and Google Pay command 80% of India's UPI instant payments network. Rivals are set to meet with regulators to lobby for restrictions.",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "Amazon’s cloud business is surging — and so is its capital spending",
+      "link": "https://techcrunch.com/2026/04/29/amazons-cloud-business-is-surging-and-so-is-its-capital-spending/",
+      "date": "2026-04-30T00:14:23+00:00",
+      "summary": "The e-commerce giant is making more money than expected from AWS but it's also spending a lot, and will continue to do so in the near term, its chief executive said.",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "Amazon’s cloud business is surging — and so is its capital spending",
+      "link": "https://techcrunch.com/2026/04/29/amazons-cloud-business-is-surging-and-so-is-its-capital-spending/",
+      "date": "2026-04-30T00:14:23+00:00",
+      "summary": "The e-commerce giant is making more money than expected from AWS but it's also spending a lot, and will continue to do so in the near term, its chief executive said.",
+      "feedId": "techcrunch-ai",
+      "feedTitle": "TechCrunch AI",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
+    },
+    {
+      "title": "Sources: Anthropic could raise a new $50B round at a valuation of $900B",
+      "link": "https://techcrunch.com/2026/04/29/sources-anthropic-could-raise-a-new-50b-round-at-a-valuation-of-900b/",
+      "date": "2026-04-30T00:07:15+00:00",
+      "summary": "The maker of Claude has received multiple pre-emptive offers at valuations in the $850 billion to $900 billion range, according to sources familiar with the matter.",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "Sources: Anthropic could raise a new $50B round at a valuation of $900B",
+      "link": "https://techcrunch.com/2026/04/29/sources-anthropic-could-raise-a-new-50b-round-at-a-valuation-of-900b/",
+      "date": "2026-04-30T00:07:15+00:00",
+      "summary": "The maker of Claude has received multiple pre-emptive offers at valuations in the $850 billion to $900 billion range, according to sources familiar with the matter.",
+      "feedId": "techcrunch-ai",
+      "feedTitle": "TechCrunch AI",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
+    },
+    {
+      "title": "On the stand, Elon Musk can’t escape his own tweets",
+      "link": "https://techcrunch.com/2026/04/29/on-the-stand-elon-musk-cant-escape-his-own-tweets/",
+      "date": "2026-04-29T23:58:36+00:00",
+      "summary": "Elon Musk took the stand for the second day for his attempt to legally dismantle OpenAI.",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "On the stand, Elon Musk can’t escape his own tweets",
+      "link": "https://techcrunch.com/2026/04/29/on-the-stand-elon-musk-cant-escape-his-own-tweets/",
+      "date": "2026-04-29T23:58:36+00:00",
+      "summary": "Elon Musk took the stand for the second day for his attempt to legally dismantle OpenAI.",
+      "feedId": "techcrunch-ai",
+      "feedTitle": "TechCrunch AI",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
+    },
+    {
+      "title": "Meta is still burning money on AR/VR",
+      "link": "https://techcrunch.com/2026/04/29/meta-is-still-burning-money-on-ar-vr/",
+      "date": "2026-04-29T23:58:26+00:00",
+      "summary": "Meta is losing billions on Reality Labs each quarter, and its AI expenditures are only going to increase its spending.",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "Meta is still burning money on AR/VR",
+      "link": "https://techcrunch.com/2026/04/29/meta-is-still-burning-money-on-ar-vr/",
+      "date": "2026-04-29T23:58:26+00:00",
+      "summary": "Meta is losing billions on Reality Labs each quarter, and its AI expenditures are only going to increase its spending.",
+      "feedId": "techcrunch-ai",
+      "feedTitle": "TechCrunch AI",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
+    },
+    {
+      "title": "Satya Nadella says he’s ready to ‘exploit’ the new OpenAI deal",
+      "link": "https://techcrunch.com/2026/04/29/satya-nadella-says-hes-ready-to-exploit-the-new-openai-deal/",
+      "date": "2026-04-29T23:55:23+00:00",
+      "summary": "Microsoft gets to offer OpenAI's tech to its cloud customers and doesn't have to pay for it. \"We fully plan to exploit it,\" Nadella said.",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "Satya Nadella says he’s ready to ‘exploit’ the new OpenAI deal",
+      "link": "https://techcrunch.com/2026/04/29/satya-nadella-says-hes-ready-to-exploit-the-new-openai-deal/",
+      "date": "2026-04-29T23:55:23+00:00",
+      "summary": "Microsoft gets to offer OpenAI's tech to its cloud customers and doesn't have to pay for it. \"We fully plan to exploit it,\" Nadella said.",
+      "feedId": "techcrunch-ai",
+      "feedTitle": "TechCrunch AI",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
+    },
+    {
+      "title": "llm 0.32a1",
+      "link": "https://simonwillison.net/2026/Apr/29/llm-3/#atom-everything",
+      "date": "2026-04-29T23:52:50+00:00",
+      "summary": "Release: llm 0.32a1 Fixed a bug in 0.32a0 where tool-calling conversations were not correctly reinflated from SQLite. #1426 Tags: llm",
+      "feedId": "simonwillison",
+      "feedTitle": "Simon Willison",
+      "category": "AI & LLM",
+      "feedHome": "https://simonwillison.net/"
+    },
+    {
+      "title": "Have You Seen the New Excel?",
+      "link": "https://idiallo.com/blog/have-you-seen-the-new-xl-ai-parody?src=feed",
+      "date": "2026-04-29T23:40:00+00:00",
+      "summary": "Stop coding. Stop hiring. Stop building. While the tech world obsesses over large language models and neural networks, I discovered the real disruptor that has been hiding in plain sight. Mine was originally installed on my desktop in 1992. And now, it's about to change everything in the world. We a",
+      "feedId": "idiallo",
+      "feedTitle": "Ibrahim Diallo",
+      "category": "Tech Blogs",
+      "feedHome": "https://idiallo.com/"
+    },
+    {
+      "title": "SenseTime releases SenseNova-U1, an open-source image model that it says can \"read\" images without translating them to text, reducing computing power needs (Zeyi Yang/Wired)",
+      "link": "http://www.techmeme.com/260429/p69#a260429p69",
+      "date": "2026-04-29T23:20:02-04:00",
+      "summary": "Zeyi Yang / Wired: SenseTime releases SenseNova-U1, an open-source image model that it says can &ldquo;read&rdquo; images without translating them to text, reducing computing power needs&nbsp; &mdash;&nbsp; With US restrictions limiting its access to advanced tech, SenseTime is doubling down on open",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
+      "title": "Analysts: TikTok Shop generated $4.9B in US sales during Q1 2026, doubling its volume from the previous year; Q1 consumer spending on the platform rose 46% YoY (Jennifer Williams/Wall Street Journal)",
+      "link": "http://www.techmeme.com/260429/p68#a260429p68",
+      "date": "2026-04-29T23:10:03-04:00",
+      "summary": "Jennifer Williams / Wall Street Journal: Analysts: TikTok Shop generated $4.9B in US sales during Q1 2026, doubling its volume from the previous year; Q1 consumer spending on the platform rose 46% YoY&nbsp; &mdash;&nbsp; Ralph Lauren, Olaplex and Ulta Beauty recently launched storefronts on the plat",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
       "title": "Microsoft says it has over 20M paid Copilot users, and they really are using it",
       "link": "https://techcrunch.com/2026/04/29/microsoft-says-it-has-over-20m-paid-copilot-users-and-they-really-are-using-it/",
       "date": "2026-04-29T23:02:23+00:00",
@@ -3044,17 +3194,17 @@
       "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
     },
     {
-      "title": "View transactions sent to a Monero address",
-      "link": "https://localmonero.co/blocks/search/47xmhbRuYpSYSrVZx2RsPBhaAQByZq3ucAT6ULxHvDAu8c853ErpLHqBdDmpVzcmWFdZFCWrfZYwp3rqs14zxXx95S7Fyv2",
-      "date": "2026-04-29T22:41:37+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
+      "title": "Visa says its stablecoin settlement pilot supports nine networks, including Base, Polygon, Canton Network, Arc, and Tempo, and has hit a $7B annualized run rate (Krisztian Sandor/CoinDesk)",
+      "link": "http://www.techmeme.com/260429/p67#a260429p67",
+      "date": "2026-04-29T22:50:03-04:00",
+      "summary": "Krisztian Sandor / CoinDesk: Visa says its stablecoin settlement pilot supports nine networks, including Base, Polygon, Canton Network, Arc, and Tempo, and has hit a $7B annualized run rate&nbsp; &mdash;&nbsp; The payments giant added support for Stripe's Tempo, Circle's Arc, Coinbase's Base, Polygo",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
       "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
+      "feedHome": "https://www.techmeme.com/"
     },
     {
-      "title": "Google Cloud surpasses $20B but says growth was capacity-constrained",
+      "title": "Google Cloud surpasses $20B, but says growth was capacity-constrained",
       "link": "https://techcrunch.com/2026/04/29/google-cloud-surpasses-20b-but-says-growth-was-capacity-constrained/",
       "date": "2026-04-29T22:20:48+00:00",
       "summary": "Google Cloud topped $20B in quarterly revenue for the first time, fueled by surging demand for AI. But capacity constraints mean it could have grown even faster.",
@@ -3064,7 +3214,7 @@
       "feedHome": "https://techcrunch.com/"
     },
     {
-      "title": "Google Cloud surpasses $20B but says growth was capacity-constrained",
+      "title": "Google Cloud surpasses $20B, but says growth was capacity-constrained",
       "link": "https://techcrunch.com/2026/04/29/google-cloud-surpasses-20b-but-says-growth-was-capacity-constrained/",
       "date": "2026-04-29T22:20:48+00:00",
       "summary": "Google Cloud topped $20B in quarterly revenue for the first time, fueled by surging demand for AI. But capacity constraints mean it could have grown even faster.",
@@ -3074,24 +3224,34 @@
       "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
     },
     {
-      "title": "Germany has become the largest ammunition producer in the world",
-      "link": "https://prm.ua/en/the-us-is-no-longer-the-leader-germany-has-become-the-largest-ammunition-producer-in-the-world/",
-      "date": "2026-04-29T21:58:46+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
+      "title": "How US schools' overreliance on YouTube for educational content encourages students to drift into endless video scrolling on school-issued devices (Shalini Ramachandran/Wall Street Journal)",
+      "link": "http://www.techmeme.com/260429/p66#a260429p66",
+      "date": "2026-04-29T22:20:02-04:00",
+      "summary": "Shalini Ramachandran / Wall Street Journal: How US schools' overreliance on YouTube for educational content encourages students to drift into endless video scrolling on school-issued devices&nbsp; &mdash;&nbsp; Parents find their kids captive to the video streaming site on their school-issued device",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
       "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
+      "feedHome": "https://www.techmeme.com/"
     },
     {
-      "title": "Gooseworks (YC W23) Is Hiring a Founding Growth Engineer",
-      "link": "https://www.ycombinator.com/companies/gooseworks/jobs/ztgY6bD-founding-growth-engineer",
-      "date": "2026-04-29T21:50:57+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
+      "title": "Sources: the White House opposes Anthropic's plan to expand access to Mythos to 70 additional companies and organizations because of concerns about security (Wall Street Journal)",
+      "link": "http://www.techmeme.com/260429/p65#a260429p65",
+      "date": "2026-04-29T21:55:01-04:00",
+      "summary": "Wall Street Journal: Sources: the White House opposes Anthropic's plan to expand access to Mythos to 70 additional companies and organizations because of concerns about security&nbsp; &mdash;&nbsp; Relationship is still complicated despite efforts from both sides to de-escalate&nbsp; &mdash;&nbsp; T",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
       "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
+      "title": "Digital advertising is booming for Google and Meta, helped by AI tools used for language translation, real-time changes to ad copy, and easier ad targeting (New York Times)",
+      "link": "http://www.techmeme.com/260429/p64#a260429p64",
+      "date": "2026-04-29T21:50:01-04:00",
+      "summary": "New York Times: Digital advertising is booming for Google and Meta, helped by AI tools used for language translation, real-time changes to ad copy, and easier ad targeting&nbsp; &mdash;&nbsp; For years, DribbleUp, a sports equipment company, spent its own time and resources figuring out whom it shou",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
     },
     {
       "title": "Playing With Fire",
@@ -3134,6 +3294,16 @@
       "feedHome": "https://research.google/blog/"
     },
     {
+      "title": "Massachusetts-based brain implant company Axoft raised a $55M Series A and says it tested its device in a Shanghai patient, with plans for more trials in China (Bloomberg)",
+      "link": "http://www.techmeme.com/260429/p63#a260429p63",
+      "date": "2026-04-29T21:00:56-04:00",
+      "summary": "Bloomberg: Massachusetts-based brain implant company Axoft raised a $55M Series A and says it tested its device in a Shanghai patient, with plans for more trials in China&nbsp; &mdash;&nbsp; A US company has tested a brain implant in a Chinese patient in Shanghai, a rare sign of cooperation as the t",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
       "title": "Google gains 25M subscriptions in Q1, driven by YouTube and Google One",
       "link": "https://techcrunch.com/2026/04/29/google-gains-25m-subscriptions-in-q1-driven-by-youtube-and-google-one/",
       "date": "2026-04-29T20:59:00+00:00",
@@ -3164,6 +3334,26 @@
       "feedHome": "https://techcrunch.com/"
     },
     {
+      "title": "Samsung reports Q1 revenue up 69% YoY to ~$90.2B, vs. ~$89.4B est., and operating profit up 756% to ~$38.5B, vs. ~$37.2B est., driven by AI-linked memory demand (Dylan Butts/CNBC)",
+      "link": "http://www.techmeme.com/260429/p62#a260429p62",
+      "date": "2026-04-29T20:30:15-04:00",
+      "summary": "Dylan Butts / CNBC: Samsung reports Q1 revenue up 69% YoY to ~$90.2B, vs. ~$89.4B est., and operating profit up 756% to ~$38.5B, vs. ~$37.2B est., driven by AI-linked memory demand&nbsp; &mdash;&nbsp; Samsung Electronics reported an over eight-fold increase in first-quarter operating profits on Thur",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
+      "title": "Sources: SoftBank plans to create an AI and robotics company called Roze in the US to build data centers and list it as early as 2026, seeking a $100B valuation (Financial Times)",
+      "link": "http://www.techmeme.com/260429/p61#a260429p61",
+      "date": "2026-04-29T20:10:01-04:00",
+      "summary": "Financial Times: Sources: SoftBank plans to create an AI and robotics company called Roze in the US to build data centers and list it as early as 2026, seeking a $100B valuation&nbsp; &mdash;&nbsp; Masayoshi Son plots IPO for business named Roze as soon as this year&nbsp; &mdash;&nbsp; SoftBank is p",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
       "title": "The retrieval rebuild: Why hybrid retrieval intent tripled as enterprise RAG programs hit the scale wall",
       "link": "https://venturebeat.com/data/the-retrieval-rebuild-why-hybrid-retrieval-intent-tripled-as-enterprise-rag-programs-hit-the-scale-wall",
       "date": "2026-04-29T20:06:21+00:00",
@@ -3172,6 +3362,16 @@
       "feedTitle": "VentureBeat",
       "category": "Startup & News",
       "feedHome": "https://venturebeat.com/"
+    },
+    {
+      "title": "Where the goblins came from",
+      "link": "https://openai.com/index/where-the-goblins-came-from",
+      "date": "2026-04-29T20:00:00+00:00",
+      "summary": "How goblin outputs spread in AI models: timeline, root cause, and fixes behind personality-driven quirks in GPT-5 behavior.",
+      "feedId": "openai",
+      "feedTitle": "OpenAI News",
+      "category": "AI & LLM",
+      "feedHome": "https://openai.com/news/"
     },
     {
       "title": "OpenTrafficMap",
@@ -3202,6 +3402,16 @@
       "feedTitle": "TechCrunch AI",
       "category": "Startup & News",
       "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
+    },
+    {
+      "title": "llm 0.32a0",
+      "link": "https://simonwillison.net/2026/Apr/29/llm-2/#atom-everything",
+      "date": "2026-04-29T18:57:47+00:00",
+      "summary": "Release: llm 0.32a0 See the annotated release notes. Tags: llm",
+      "feedId": "simonwillison",
+      "feedTitle": "Simon Willison",
+      "category": "AI & LLM",
+      "feedHome": "https://simonwillison.net/"
     },
     {
       "title": "HERMES.md in commit messages causes requests to route to extra usage billing",
@@ -3238,16 +3448,6 @@
       "link": "https://techcrunch.com/2026/04/29/parallel-web-systems-hits-2b-valuation-five-months-after-its-last-big-raise/",
       "date": "2026-04-29T18:33:05+00:00",
       "summary": "The AI agent-tool startup founded by former Twitter CEO Parag Agrawal has raised $100 million, led by Sequoia, months after raising a previous $100 million.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
-    },
-    {
-      "title": "Parallel Web Systems hits $2B valuation five months after its last big raise",
-      "link": "https://techcrunch.com/2026/04/29/parallel-web-systems-hits-2b-valuation-five-months-after-its-last-big-raise/",
-      "date": "2026-04-29T18:33:05+00:00",
-      "summary": "The AI agent-tool startup founded by former Twitter CEO Parag Agrawal has raised $100 million, led by Sequoia, months after raising a previous $100 million.",
       "feedId": "techcrunch-ai",
       "feedTitle": "TechCrunch AI",
       "category": "Startup & News",
@@ -3264,7 +3464,7 @@
       "feedHome": "https://venturebeat.com/"
     },
     {
-      "title": "Copy Fail – CVE-2026-31431",
+      "title": "Copy Fail",
       "link": "https://copy.fail/",
       "date": "2026-04-29T18:13:53+00:00",
       "summary": "Comments",
@@ -3272,146 +3472,6 @@
       "feedTitle": "Hacker News",
       "category": "Startup & News",
       "feedHome": "https://news.ycombinator.com/"
-    },
-    {
-      "title": "Sources: Anthropic has begun weighing a new funding round at a $900B+ valuation, after previously resisting investor proposals at an $800B+ valuation (Bloomberg)",
-      "link": "http://www.techmeme.com/260429/p59#a260429p59",
-      "date": "2026-04-29T18:05:01-04:00",
-      "summary": "Bloomberg: Sources: Anthropic has begun weighing a new funding round at a $900B+ valuation, after previously resisting investor proposals at an $800B+ valuation&nbsp; &mdash;&nbsp; Anthropic PBC has begun weighing a fresh funding round that would value the artificial intelligence developer at more t",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "Meta says Q1 family daily active people fell 20M QoQ to 3.56B, vs. 3.62B est., due to internet disruptions in Iran and WhatsApp access restrictions in Russia (Jonathan Vanian/CNBC)",
-      "link": "http://www.techmeme.com/260429/p58#a260429p58",
-      "date": "2026-04-29T17:50:02-04:00",
-      "summary": "Jonathan Vanian / CNBC: Meta says Q1 family daily active people fell 20M QoQ to 3.56B, vs. 3.62B est., due to internet disruptions in Iran and WhatsApp access restrictions in Russia&nbsp; &mdash;&nbsp; Meta shares fell in extended trading on Wednesday after the company reported lower-than-expected c",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "Alphabet reports Q1 revenue up 22% YoY to $109.9B, vs. $107.2B est., and Google Cloud revenue up 63% to $20B, vs. $18.05B est.; GOOG jumps 6%+ after hours (Alphabet)",
-      "link": "http://www.techmeme.com/260429/p57#a260429p57",
-      "date": "2026-04-29T17:25:01-04:00",
-      "summary": "Alphabet: Alphabet reports Q1 revenue up 22% YoY to $109.9B, vs. $107.2B est., and Google Cloud revenue up 63% to $20B, vs. $18.05B est.; GOOG jumps 6%+ after hours&nbsp; &mdash;&nbsp; Alphabet Announces First Quarter 2026 Results MOUNTAIN VIEW, Calif. - April 29, 2026 - Alphabet Inc. (NASDAQ: GOOG,",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "Google says paid subscriptions reached 350M in Q1, up 25M QoQ, driven by YouTube and Google One, while Gemini Enterprise paid MAUs grew 40% QoQ (Sarah Perez/TechCrunch)",
-      "link": "http://www.techmeme.com/260429/p56#a260429p56",
-      "date": "2026-04-29T17:20:06-04:00",
-      "summary": "Sarah Perez / TechCrunch: Google says paid subscriptions reached 350M in Q1, up 25M QoQ, driven by YouTube and Google One, while Gemini Enterprise paid MAUs grew 40% QoQ&nbsp; &mdash;&nbsp; Google has added another 25 million paid subscriptions to its services over the past quarter, according to par",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "eBay reports Q1 revenue up 19% YoY to $3.09B, vs. $3.04B est., net income up 2% to $512M, GMV up 18% to $22.2B, and forecasts Q2 revenue above estimates (Kelly Cloonan/Wall Street Journal)",
-      "link": "http://www.techmeme.com/260429/p55#a260429p55",
-      "date": "2026-04-29T17:10:02-04:00",
-      "summary": "Kelly Cloonan / Wall Street Journal: eBay reports Q1 revenue up 19% YoY to $3.09B, vs. $3.04B est., net income up 2% to $512M, GMV up 18% to $22.2B, and forecasts Q2 revenue above estimates&nbsp; &mdash;&nbsp; The company logged a profit of $512 million, or $1.12 a share&nbsp; &mdash;&nbsp; EBay rec",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "AWS revenue rose 28% YoY in Q1 to $37.6B, vs. $36.64B est., its fastest growth in 15 quarters, as capital expenditure rose to $44.2B, up from $25B in Q1 2025 (Quartz)",
-      "link": "http://www.techmeme.com/260429/p54#a260429p54",
-      "date": "2026-04-29T17:05:01-04:00",
-      "summary": "Quartz: AWS revenue rose 28% YoY in Q1 to $37.6B, vs. $36.64B est., its fastest growth in 15 quarters, as capital expenditure rose to $44.2B, up from $25B in Q1 2025&nbsp; &mdash;&nbsp; AWS revenue rose 28% to $37.6 billion, the fastest growth in 15 quarters, as total revenue climbed 17% to $181.5 b",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "Microsoft reports Q3 Xbox hardware revenue fell 33% YoY and Xbox content and services revenue, which includes Game Pass, dropped 5% YoY (Emma Roth/The Verge)",
-      "link": "http://www.techmeme.com/260429/p52#a260429p52",
-      "date": "2026-04-29T16:50:04-04:00",
-      "summary": "Emma Roth / The Verge: Microsoft reports Q3 Xbox hardware revenue fell 33% YoY and Xbox content and services revenue, which includes Game Pass, dropped 5% YoY&nbsp; &mdash;&nbsp; Xbox hardware revenue took a 33 percent hit, even as the company raked in $82.9 billion. &hellip; Microsoft's Xbox hardwa",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "Qualcomm reports Q2 revenue down 3% YoY to $10.6B and says a top hyperscaler is on track to begin using its chips later this year; QCOM jumps 7%+ after hours (Ian King/Bloomberg)",
-      "link": "http://www.techmeme.com/260429/p53#a260429p53",
-      "date": "2026-04-29T16:50:04-04:00",
-      "summary": "Ian King / Bloomberg: Qualcomm reports Q2 revenue down 3% YoY to $10.6B and says a top hyperscaler is on track to begin using its chips later this year; QCOM jumps 7%+ after hours&nbsp; &mdash;&nbsp; Qualcomm Inc. rallied in late trading after the company said it was making headway in the lucrative ",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "Google has told employees in a memo that it \"proudly\" works with the US military and will continue to do so, amid opposition from some staff over DOD contracts (Financial Times)",
-      "link": "http://www.techmeme.com/260429/p51#a260429p51",
-      "date": "2026-04-29T16:45:02-04:00",
-      "summary": "Financial Times: Google has told employees in a memo that it &ldquo;proudly&rdquo; works with the US military and will continue to do so, amid opposition from some staff over DOD contracts&nbsp; &mdash;&nbsp; The tech giant signed an artificial intelligence deal with the defence department on Monday",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "Google Photos uses AI to make the iconic closet from ‘Clueless’ a reality",
-      "link": "https://techcrunch.com/2026/04/29/google-photos-uses-ai-to-make-the-iconic-closet-from-clueless-a-reality/",
-      "date": "2026-04-29T16:42:33+00:00",
-      "summary": "Google says the new feature will leverage AI technology to automatically create a copy of your wardrobe that's based on the pieces of clothing appearing in your Google Photos library.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
-    },
-    {
-      "title": "Google Photos uses AI to make the iconic closet from ‘Clueless’ a reality",
-      "link": "https://techcrunch.com/2026/04/29/google-photos-uses-ai-to-make-the-iconic-closet-from-clueless-a-reality/",
-      "date": "2026-04-29T16:42:33+00:00",
-      "summary": "Google says the new feature will leverage AI technology to automatically create a copy of your wardrobe that's based on the pieces of clothing appearing in your Google Photos library.",
-      "feedId": "techcrunch-ai",
-      "feedTitle": "TechCrunch AI",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
-    },
-    {
-      "title": "More Gemini features are coming to Google TV",
-      "link": "https://techcrunch.com/2026/04/29/more-gemini-features-are-coming-to-google-tv/",
-      "date": "2026-04-29T16:40:49+00:00",
-      "summary": "Google TV just got more Gemini features, including the ability to transform photos and videos with tools Nano Banana and Veo.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
-    },
-    {
-      "title": "More Gemini features are coming to Google TV",
-      "link": "https://techcrunch.com/2026/04/29/more-gemini-features-are-coming-to-google-tv/",
-      "date": "2026-04-29T16:40:49+00:00",
-      "summary": "Google TV just got more Gemini features, including the ability to transform photos and videos with tools Nano Banana and Veo.",
-      "feedId": "techcrunch-ai",
-      "feedTitle": "TechCrunch AI",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
-    },
-    {
-      "title": "Bill Gurley, Jack Altman back startup Pursuit, which helps companies sell to government",
-      "link": "https://techcrunch.com/2026/04/29/bill-gurley-jack-altman-back-startup-pursuit-which-helps-companies-sell-to-government/",
-      "date": "2026-04-29T16:20:02+00:00",
-      "summary": "On Wednesday, Pursuit announced a $22 million Series A round led by Mike Rosengarten, the co-founder of OpenGov, with big-name VCs participating.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
     },
     {
       "title": "FastCGI: 30 years old and still the better protocol for reverse proxies",
@@ -3434,26 +3494,6 @@
       "feedHome": "https://news.ycombinator.com/"
     },
     {
-      "title": "Roku’s $3 streaming service, Howdy, reaches 1M subs, per recent report",
-      "link": "https://techcrunch.com/2026/04/29/rokus-3-streaming-service-howdy-reaches-1m-subs-per-recent-report/",
-      "date": "2026-04-29T15:33:35+00:00",
-      "summary": "Roku’s $2.99 streaming service Howdy has topped 1M subscribers, showing demand for cheaper, low-commitment alternatives to pricier streamers.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
-    },
-    {
-      "title": "‘Elon Musk Appeared More Petty Than Prepared’",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/920191/elon-musk-sam-altman-trial-day-one?view_token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6InBrV1FGdGtlcEEiLCJwIjoiL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzkyMDE5MS9lbG9uLW11c2stc2FtLWFsdG1hbi10cmlhbC1kYXktb25lIiwiZXhwIjoxNzc3OTA1NDgxLCJpYXQiOjE3Nzc0NzM0ODF9.FkMZ8-YRv8q3d7n6p8q_scJaERWtNumD9pK7kONpTE4",
-      "date": "2026-04-29T15:15:29+00:00",
-      "summary": "Elizabeth Lopatto, reporting on Musk v. Altman from the courtroom in Oakland (gift link): Today the first witness was sworn in in *Musk v. Altman: *Elon Musk. I was surprised by how flat he seemed. This is not the first time I’ve seen Musk in court. During his defamation suit, he turned on the charm",
-      "feedId": "daringfireball",
-      "feedTitle": "Daring Fireball",
-      "category": "Tech Blogs",
-      "feedHome": "https://daringfireball.net/"
-    },
-    {
       "title": "FOMO is why enterprises pay for GPUs they don't use — and why prices keep climbing",
       "link": "https://venturebeat.com/infrastructure/fomo-is-why-enterprises-pay-for-gpus-they-dont-use-and-why-prices-keep-climbing",
       "date": "2026-04-29T15:12:50+00:00",
@@ -3464,16 +3504,6 @@
       "feedHome": "https://venturebeat.com/"
     },
     {
-      "title": "Uber is in the hotel business now, thanks in part to AI",
-      "link": "https://techcrunch.com/2026/04/29/uber-is-in-the-hotel-business-now-thanks-in-part-to-ai/",
-      "date": "2026-04-29T15:12:14+00:00",
-      "summary": "Uber announced several new features on Wednesday during its annual event, which push far beyond the company's original ride-hailing purpose and deeper into its users' lives.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
-    },
-    {
       "title": "‘Sordid and Small’",
       "link": "https://www.theatlantic.com/technology/2026/04/openai-trial-elon-musk-sam-altman/686984/?gift=iWa_iB9lkw4UuiWbIbrWGYJmg9p-llxzEAgykQekDFA",
       "date": "2026-04-29T15:03:21+00:00",
@@ -3482,6 +3512,16 @@
       "feedTitle": "Daring Fireball",
       "category": "Tech Blogs",
       "feedHome": "https://daringfireball.net/"
+    },
+    {
+      "title": "Building the compute infrastructure for the Intelligence Age",
+      "link": "https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age",
+      "date": "2026-04-29T15:00:00+00:00",
+      "summary": "OpenAI scales Stargate to build the compute infrastructure powering AGI, adding new data center capacity to meet growing AI demand.",
+      "feedId": "openai",
+      "feedTitle": "OpenAI News",
+      "category": "AI & LLM",
+      "feedHome": "https://openai.com/news/"
     },
     {
       "title": "OpenAI Trial Starts With Two Very Different Tales of a Company’s Early Years",
@@ -3512,26 +3552,6 @@
       "feedTitle": "Daring Fireball",
       "category": "Tech Blogs",
       "feedHome": "https://daringfireball.net/"
-    },
-    {
-      "title": "Firestorm Labs raises $82M to take drone factories into the field",
-      "link": "https://techcrunch.com/2026/04/29/firestorm-labs-raises-82m-to-take-drone-factories-into-the-field/",
-      "date": "2026-04-29T13:10:57+00:00",
-      "summary": "A defense startup just raised $82 million to put drone factories inside shipping containers and bring manufacturing to the front lines.",
-      "feedId": "techcrunch-ai",
-      "feedTitle": "TechCrunch AI",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
-    },
-    {
-      "title": "Meet Shapes, the app bringing humans and AI into the same group chats",
-      "link": "https://techcrunch.com/2026/04/29/meet-shapes-the-app-bringing-humans-and-ai-into-the-same-group-chats/",
-      "date": "2026-04-29T13:00:00+00:00",
-      "summary": "Think Discord chats, but with AI characters in addition to humans.",
-      "feedId": "techcrunch-ai",
-      "feedTitle": "TechCrunch AI",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
     },
     {
       "title": "Definity embeds agents inside Spark pipelines to catch failures before they reach agentic AI systems",
@@ -3572,26 +3592,6 @@
       "feedTitle": "BestBlogs.dev AI 90+",
       "category": "中文",
       "feedHome": "https://www.bestblogs.dev/"
-    },
-    {
-      "title": "Colby Adcock’s Scout AI raises $100M to train its models for war: We visited its bootcamp",
-      "link": "https://techcrunch.com/2026/04/29/coby-adcocks-scout-ai-raises-100-million-to-train-models-for-war-we-visited-its-bootcamp/",
-      "date": "2026-04-29T09:45:00+00:00",
-      "summary": "We visited Scout AI's training ground where it's working on AI agents that can help individual soldiers control fleets of autonomous vehicles.",
-      "feedId": "techcrunch-ai",
-      "feedTitle": "TechCrunch AI",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
-    },
-    {
-      "title": "Why I still reach for Lisp and Scheme instead of Haskell",
-      "link": "https://jointhefreeworld.org/blog/articles/lisps/why-i-still-reach-for-scheme-instead-of-haskell/index.html",
-      "date": "2026-04-29T08:43:17+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
     },
     {
       "title": "Cybersecurity in the Intelligence Age",
@@ -3854,6 +3854,16 @@
       "feedHome": "https://www.bestblogs.dev/"
     },
     {
+      "title": "Creating a Color Palette from an Image",
+      "link": "https://amandahinton.com/blog/creating-a-color-palette-from-an-image",
+      "date": "2026-04-28T16:23:50+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
       "title": "当我们在讨论 Harness 的时候，我们在讨论什么 | 深度对谈: Minimax × Hermes Agent",
       "link": "https://www.bestblogs.dev/podcast/5ce8bd5?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
       "date": "2026-04-28T16:00:00+00:00",
@@ -3892,16 +3902,6 @@
       "feedTitle": "John D. Cook",
       "category": "Tech Blogs",
       "feedHome": "https://www.johndcook.com/"
-    },
-    {
-      "title": "Anthropic Mythos – We’ve Opened Pandora’s Box",
-      "link": "https://steveblank.com/2026/04/28/anthropic-mythos-weve-opened-pandoras-box/",
-      "date": "2026-04-28T13:00:48+00:00",
-      "summary": "This article previously appeared in The Cipher Brief. For a decade the cybersecurity community was predicting a cyber apocalypse tied to a single event &#8211; the day a Cryptographically Relevant Quantum Computer could run Shor’s algorithm and break the public-key cryptography systems most of the i",
-      "feedId": "steveblank",
-      "feedTitle": "Steve Blank",
-      "category": "Tech Blogs",
-      "feedHome": "https://steveblank.com/"
     },
     {
       "title": "OpenAI 开源 Codex 编排规范 Symphony：重新定义 AI 驱动开发",
@@ -3962,6 +3962,16 @@
       "feedTitle": "Troy Hunt",
       "category": "Tech Blogs",
       "feedHome": "https://www.troyhunt.com/"
+    },
+    {
+      "title": "Consequences of passing too few register parameters to a C function",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260427-00/?p=112271",
+      "date": "2026-04-28T02:55:49+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
     },
     {
       "title": "Introducing talkie: a 13B vintage language model from 1930",
@@ -4104,16 +4114,6 @@
       "feedHome": "https://simonwillison.net/"
     },
     {
-      "title": "Speech translation in Google Meet is now rolling out to mobile devices",
-      "link": "https://simonwillison.net/2026/Apr/27/speech-translation-in-google-meet-is-now-rolling-out-to-mobile-d/#atom-everything",
-      "date": "2026-04-27T17:37:47+00:00",
-      "summary": "Speech translation in Google Meet is now rolling out to mobile devices I just encountered this feature via a \"try this out now\" prompt in a Google Meet meeting. It kind-of worked! This is Google's implementation of the ultimate sci-fi translation app, where two people can talk to each other in two s",
-      "feedId": "simonwillison",
-      "feedTitle": "Simon Willison",
-      "category": "AI & LLM",
-      "feedHome": "https://simonwillison.net/"
-    },
-    {
       "title": "OpenAI available at FedRAMP Moderate",
       "link": "https://openai.com/index/openai-available-at-fedramp-moderate",
       "date": "2026-04-27T14:00:00+00:00",
@@ -4142,16 +4142,6 @@
       "feedTitle": "Terence Eden",
       "category": "Tech Blogs",
       "feedHome": "https://shkspr.mobi/blog/"
-    },
-    {
-      "title": "量子位专访楼天城：AI 是匹脱缰野马，Harness 是这个时代最关键的能力",
-      "link": "https://www.bestblogs.dev/article/598c24ff?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
-      "date": "2026-04-27T10:48:17+00:00",
-      "summary": "📌 一句话摘要 小马智行 CTO 楼天城深度阐述 PonyWorld 世界模型 2.0 的核心理念：当 AI 驾驶能力超越人类后，人类数据价值归零，AI 必须成为主导研发的「总教练」，而驾驭 AI 这匹「脱缰野马」的能力（Harness）将成为这个时代最关键的技能。 📝 详细摘要 本文是量子位对小马智行 CTO 楼天城的深度专访，围绕其最新发布的 PonyWorld 世界模型 2.0 展开。楼天城提出，当 AI 驾驶能力全面超越人类后，人类驾驶数据的价值将趋近于零甚至为负，人类工程师的角色将从「教练」转变为「执行者」和「数据采集员」。PonyWorld 2.0 的核心创新在于：1）跳过语言中间",
-      "feedId": "bestblogs",
-      "feedTitle": "BestBlogs.dev AI 90+",
-      "category": "中文",
-      "feedHome": "https://www.bestblogs.dev/"
     },
     {
       "title": "Pluralistic: The enshittification multiverse (27 Apr 2026)",
@@ -4254,16 +4244,6 @@
       "feedHome": "https://idiallo.com/"
     },
     {
-      "title": "WHY ARE YOU LIKE THIS",
-      "link": "https://simonwillison.net/2026/Apr/25/why-are-you-like-this/#atom-everything",
-      "date": "2026-04-25T16:44:01+00:00",
-      "summary": "@scottjla on Twitter in reply to my pelican riding a bicycle benchmark: I feel like we need to stack these tests now I checked to confirm that the model (ChatGPT Images 2.0) added the \"WHY ARE YOU LIKE THIS\" sign of its own accord and it did - the prompt Scott used was: Create an image of a horse ri",
-      "feedId": "simonwillison",
-      "feedTitle": "Simon Willison",
-      "category": "AI & LLM",
-      "feedHome": "https://simonwillison.net/"
-    },
-    {
       "title": "Closed-form solution to the nonlinear pendulum equation",
       "link": "https://www.johndcook.com/blog/2026/04/25/exact-solution-nonlinear-pendulum/",
       "date": "2026-04-25T16:16:12+00:00",
@@ -4282,16 +4262,6 @@
       "feedTitle": "John D. Cook",
       "category": "Tech Blogs",
       "feedHome": "https://www.johndcook.com/"
-    },
-    {
-      "title": "Quoting Romain Huet",
-      "link": "https://simonwillison.net/2026/Apr/25/romain-huet/#atom-everything",
-      "date": "2026-04-25T12:06:55+00:00",
-      "summary": "Since GPT-5.4, we’ve unified Codex and the main model into a single system, so there’s no separate coding line anymore. GPT-5.5 takes this further, with strong gains in agentic coding, computer use, and any task on a computer. &mdash; Romain Huet, confirming OpenAI won't release a GPT-5.5-Codex mode",
-      "feedId": "simonwillison",
-      "feedTitle": "Simon Willison",
-      "category": "AI & LLM",
-      "feedHome": "https://simonwillison.net/"
     },
     {
       "title": "You can parse an .env file as an .ini with PHP - but there's a catch",
@@ -4444,26 +4414,6 @@
       "feedHome": "https://shkspr.mobi/blog/"
     },
     {
-      "title": "Introducing GPT-5.5",
-      "link": "https://openai.com/index/introducing-gpt-5-5",
-      "date": "2026-04-23T11:00:00+00:00",
-      "summary": "Introducing GPT-5.5, our smartest model yet—faster, more capable, and built for complex tasks like coding, research, and data analysis across tools.",
-      "feedId": "openai",
-      "feedTitle": "OpenAI News",
-      "category": "AI & LLM",
-      "feedHome": "https://openai.com/news/"
-    },
-    {
-      "title": "GPT-5.5 System Card",
-      "link": "https://openai.com/index/gpt-5-5-system-card",
-      "date": "2026-04-23T11:00:00+00:00",
-      "summary": "",
-      "feedId": "openai",
-      "feedTitle": "OpenAI News",
-      "category": "AI & LLM",
-      "feedHome": "https://openai.com/news/"
-    },
-    {
       "title": "Debugging WASM in Chrome DevTools",
       "link": "https://eli.thegreenplace.net/2026/debugging-wasm-in-chrome-devtools/",
       "date": "2026-04-23T02:24:51-07:00",
@@ -4492,16 +4442,6 @@
       "feedTitle": "Google Research Blog",
       "category": "AI & LLM",
       "feedHome": "https://research.google/blog/"
-    },
-    {
-      "title": "AI and Teaching – The Brave New World",
-      "link": "https://steveblank.com/2026/04/22/ai-and-teaching-the-brave-new-world/",
-      "date": "2026-04-22T15:34:09+00:00",
-      "summary": "This article previously appeared in the Entrepreneur &#38; Innovation Exchange (EIX) This is the 16th year we’ve been teaching the Stanford Lean LaunchPad class. This year, from the first hour of the first class, we realized we were seeing something extraordinary happen. It was both the end and begi",
-      "feedId": "steveblank",
-      "feedTitle": "Steve Blank",
-      "category": "Tech Blogs",
-      "feedHome": "https://steveblank.com/"
     },
     {
       "title": "Pluralistic: It's not a crime if we do it (to nurses) with an app (22 Apr 2026)",
@@ -4974,16 +4914,6 @@
       "feedHome": "https://idiallo.com/"
     },
     {
-      "title": "Your friends are hiding their best ideas from you",
-      "link": "https://idiallo.com/blog/your-friends-are-hiding-their-ideas?src=feed",
-      "date": "2026-04-11T00:47:19+00:00",
-      "summary": "Back in college, the final project in our JavaScript class was to build a website. We were a group of four, and we built the best website in class. It was for a restaurant called the Coral Reef. We found pictures online, created a menu, and settled on a solid theme. I was taking a digital art class ",
-      "feedId": "idiallo",
-      "feedTitle": "Ibrahim Diallo",
-      "category": "Tech Blogs",
-      "feedHome": "https://idiallo.com/"
-    },
-    {
       "title": "The Center Has a Bias",
       "link": "https://lucumr.pocoo.org/2026/4/11/the-center-has-a-bias/",
       "date": "2026-04-11T00:00:00+00:00",
@@ -5032,16 +4962,6 @@
       "feedTitle": "Miguel Grinberg",
       "category": "Tech Blogs",
       "feedHome": "https://blog.miguelgrinberg.com/"
-    },
-    {
-      "title": "Nowhere Is Safe",
-      "link": "https://steveblank.com/2026/04/09/nowhere-is-safe/",
-      "date": "2026-04-09T13:00:25+00:00",
-      "summary": "Drones in Ukraine and in the War with Iran have made the surface of the earth a contested space. The U.S. has discovered that 1) air superiority and missile defense systems (THAAD, Patriot batteries) designed to counter tens or hundreds of aircraft and missiles is insufficient against asymmetric att",
-      "feedId": "steveblank",
-      "feedTitle": "Steve Blank",
-      "category": "Tech Blogs",
-      "feedHome": "https://steveblank.com/"
     },
     {
       "title": "ConvApparel: Measuring and bridging the realism gap in user simulators",
@@ -5262,16 +5182,6 @@
       "feedTitle": "Google Research Blog",
       "category": "AI & LLM",
       "feedHome": "https://research.google/blog/"
-    },
-    {
-      "title": "Solving Yesterday’s Problems Will Kill You",
-      "link": "https://steveblank.com/2026/03/31/solving-yesterdays-problems-will-kill-you/",
-      "date": "2026-03-31T13:00:48+00:00",
-      "summary": "Join us at The 7th Annual Red Queen Conference April 22 -23 &#8211; Silicon Valley How do Portfolio Acquisition Executives and COCOMs ensure they’re working on the right problem with the right priority before locking in a requirement? Discuss, share and prototype Innovation Targeting concepts with y",
-      "feedId": "steveblank",
-      "feedTitle": "Steve Blank",
-      "category": "Tech Blogs",
-      "feedHome": "https://steveblank.com/"
     },
     {
       "title": "Weekly Update 497",
@@ -5522,16 +5432,6 @@
       "feedTitle": "DeepMind Blog",
       "category": "AI & LLM",
       "feedHome": "https://deepmind.google/blog/"
-    },
-    {
-      "title": "Your Startup Is Probably Dead On Arrival",
-      "link": "https://steveblank.com/2026/03/17/your-startup-is-probably-dead-on-arrival/",
-      "date": "2026-03-17T13:00:30+00:00",
-      "summary": "Your Startup Is Probably Dead On Arrival If you started a company more than two years ago, it’s likely that many of your assumptions are no longer true. You need to stop coding, building, recruiting, fund raising, etc., and take stock of what changed around you. Or your company will die. I just had ",
-      "feedId": "steveblank",
-      "feedTitle": "Steve Blank",
-      "category": "Tech Blogs",
-      "feedHome": "https://steveblank.com/"
     },
     {
       "title": "Weekly Update 495",
@@ -5874,16 +5774,6 @@
       "feedHome": "https://computer.rip/"
     },
     {
-      "title": "Notes on Linear Algebra for Polynomials",
-      "link": "https://eli.thegreenplace.net/2026/notes-on-linear-algebra-for-polynomials/",
-      "date": "2026-02-26T02:33:50-08:00",
-      "summary": "We’ll be working with the set P_n(\\mathbb{R}), real polynomials of degree \\leq n. Such polynomials can be expressed using n+1 scalar coefficients a_i as follows: \\[p(x)=a_0+a_1 x + a_2 x^2 + \\cdots + a_n x^n\\] Vector space The set P_n(\\mathbb{R}), along with …",
-      "feedId": "elibendersky",
-      "feedTitle": "Eli Bendersky",
-      "category": "Tech Blogs",
-      "feedHome": "https://eli.thegreenplace.net/"
-    },
-    {
       "title": "Against Query Based Compilers",
       "link": "https://matklad.github.io/2026/02/25/against-query-based-compilers.html",
       "date": "2026-02-25T00:00:00+00:00",
@@ -5902,16 +5792,6 @@
       "feedTitle": "antirez",
       "category": "Tech Blogs",
       "feedHome": "http://antirez.com/"
-    },
-    {
-      "title": "Time to Move On – The Reason Relationships End",
-      "link": "https://steveblank.com/2026/02/24/time-to-move-on-the-reason-relationships-end/",
-      "date": "2026-02-24T14:00:57+00:00",
-      "summary": "What Lies Ahead I have no Way of Knowing, But It’s Now Time to Get Going Tom Petty This post previously appeared in Philanthropy.org A while ago I wrote about what happens in a startup when a new event creates a wake-up call that makes founding engineers reevaluate their jobs. (It’s worth a read her",
-      "feedId": "steveblank",
-      "feedTitle": "Steve Blank",
-      "category": "Tech Blogs",
-      "feedHome": "https://steveblank.com/"
     },
     {
       "title": "Insider amnesia",
@@ -5942,16 +5822,6 @@
       "feedTitle": "Eric Migicovsky",
       "category": "Tech Blogs",
       "feedHome": "https://ericmigi.com/"
-    },
-    {
-      "title": "You Only Think They Work For You",
-      "link": "https://steveblank.com/2026/02/18/you-only-think-they-work-for-you/",
-      "date": "2026-02-18T14:00:39+00:00",
-      "summary": "When I was a new VP of Marketing I got a painful lesson of who my PR (Public Relations) agency actually worked for. Later I realized that it was true for all of my external vendors. And much later I realized what I really should have been asking them to do. The lessons still apply [&#8230;]",
-      "feedId": "steveblank",
-      "feedTitle": "Steve Blank",
-      "category": "Tech Blogs",
-      "feedHome": "https://steveblank.com/"
     },
     {
       "title": "February Pebble Production and Software Updates",
@@ -6034,16 +5904,6 @@
       "feedHome": "https://matklad.github.io/"
     },
     {
-      "title": "Revisionist History – Aliens, Secrets and Conspiracies",
-      "link": "https://steveblank.com/2026/02/10/revisionist-history-aliens-secrets-and-conspiracies/",
-      "date": "2026-02-10T14:00:42+00:00",
-      "summary": "And ye shall know the truth, and the truth shall make you free” John 8:32 Every once in a while you learn something new that makes you completely rethink how/why an event actually happened. And then you consider how it affects the rest of our country and our lives. This is one of those stories. [&#8",
-      "feedId": "steveblank",
-      "feedTitle": "Steve Blank",
-      "category": "Tech Blogs",
-      "feedHome": "https://steveblank.com/"
-    },
-    {
       "title": "A Language For Agents",
       "link": "https://lucumr.pocoo.org/2026/2/9/a-language-for-agents/",
       "date": "2026-02-09T00:00:00+00:00",
@@ -6102,16 +5962,6 @@
       "feedTitle": "Fabien Sanglard",
       "category": "Tech Blogs",
       "feedHome": "https://fabiensanglard.net/"
-    },
-    {
-      "title": "Making the Wrong Things Go Faster at The Department of War",
-      "link": "https://steveblank.com/2026/02/03/making-the-wrong-things-go-faster-at-the-department-of-war/",
-      "date": "2026-02-03T14:00:08+00:00",
-      "summary": "This article previously appeared in Defense Scoop The Department of War (DoW) senior Acquisition leadership (the people who decide what and how the DoW buys equipment and services) now is headed by people from private capital (venture capital and private equity.) Deputy Secretary of War Steven Feinb",
-      "feedId": "steveblank",
-      "feedTitle": "Steve Blank",
-      "category": "Tech Blogs",
-      "feedHome": "https://steveblank.com/"
     },
     {
       "title": "Automatic programming",
@@ -6442,16 +6292,6 @@
       "feedTitle": "Dynomight",
       "category": "Tech Blogs",
       "feedHome": "https://dynomight.net/"
-    },
-    {
-      "title": "The Department of War Directory",
-      "link": "https://steveblank.com/2025/12/16/the-department-of-war-directory/",
-      "date": "2025-12-16T14:00:35+00:00",
-      "summary": "TL;DR DoW Directory revision 3 is Online here, Order a print copy here. In November 2025 the Department of War (DoW) unveiled the biggest changes in 60 years of how they will buy weapons and services. This month Congress, with bipartisan support, rapidly made them into law in the National Defense Au",
-      "feedId": "steveblank",
-      "feedTitle": "Steve Blank",
-      "category": "Tech Blogs",
-      "feedHome": "https://steveblank.com/"
     },
     {
       "title": "Getting Rails' ActiveStorage blob IDs from file URLs",
