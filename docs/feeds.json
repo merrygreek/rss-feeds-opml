@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-04T16:47:23.107343+00:00",
+  "updatedAt": "2026-05-04T18:16:12.746031+00:00",
   "totalFeeds": 51,
   "successCount": 44,
   "failedCount": 7,
@@ -21,8 +21,20 @@
         "home": "https://simonwillison.net/",
         "url": "https://simonwillison.net/atom/everything/",
         "status": "ok",
-        "fetchedAt": "2026-05-04T16:47:12.352698+00:00",
+        "fetchedAt": "2026-05-04T18:16:02.071429+00:00",
         "items": [
+          {
+            "title": "TRE Python binding — ReDoS robustness demo",
+            "link": "https://simonwillison.net/2026/May/4/tre-python-binding/#atom-everything",
+            "date": "2026-05-04T17:52:00+00:00",
+            "summary": "Research: TRE Python binding — ReDoS robustness demo If it's good enough for antirez to add to Redis I figured Ville Laurikari's TRE regular expression engine was worth exploring in a little more detail. I had Claude Code build an experimental Python binding (it used ctypes) and try some malicious r"
+          },
+          {
+            "title": "Redis Array Playground",
+            "link": "https://simonwillison.net/2026/May/4/redis-array/#atom-everything",
+            "date": "2026-05-04T15:53:57+00:00",
+            "summary": "Tool: Redis Array Playground Salvatore Sanfilippo submitted a PR adding a new data type - arrays - to Redis. The new commands are ARCOUNT, ARDEL, ARDELRANGE, ARGET, ARGETRANGE, ARGREP, ARINFO, ARINSERT, ARLASTITEMS, ARLEN, ARMGET, ARMSET, ARNEXT, AROP, ARRING, ARSCAN, ARSEEK, ARSET. The implementati"
+          },
           {
             "title": "Quoting Anthropic",
             "link": "https://simonwillison.net/2026/May/3/anthropic/#atom-everything",
@@ -70,18 +82,6 @@
             "link": "https://simonwillison.net/2026/Apr/30/zig-anti-ai/#atom-everything",
             "date": "2026-04-30T01:24:23+00:00",
             "summary": "Zig has one of the most stringent anti-LLM policies of any major open source project: No LLMs for issues. No LLMs for pull requests. No LLMs for comments on the bug tracker, including translation. English is encouraged, but not required. You are welcome to post in your native language and rely on ot"
-          },
-          {
-            "title": "llm 0.32a1",
-            "link": "https://simonwillison.net/2026/Apr/29/llm-3/#atom-everything",
-            "date": "2026-04-29T23:52:50+00:00",
-            "summary": "Release: llm 0.32a1 Fixed a bug in 0.32a0 where tool-calling conversations were not correctly reinflated from SQLite. #1426 Tags: llm"
-          },
-          {
-            "title": "LLM 0.32a0 is a major backwards-compatible refactor",
-            "link": "https://simonwillison.net/2026/Apr/29/llm/#atom-everything",
-            "date": "2026-04-29T19:01:47+00:00",
-            "summary": "I just released LLM 0.32a0, an alpha release of my LLM Python library and CLI tool for accessing LLMs, with some consequential changes that I've been working towards for quite a while. Previous versions of LLM modeled the world in terms of prompts and responses. Send the model a text prompt, get bac"
           }
         ]
       },
@@ -92,7 +92,7 @@
         "home": "https://openai.com/news/",
         "url": "https://openai.com/news/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-05-04T16:47:12.856544+00:00",
+        "fetchedAt": "2026-05-04T18:16:02.434154+00:00",
         "items": [
           {
             "title": "Introducing Advanced Account Security",
@@ -163,7 +163,7 @@
         "home": "https://arxiv.org/list/cs.AI/recent",
         "url": "https://arxiv.org/rss/cs.AI",
         "status": "ok",
-        "fetchedAt": "2026-05-04T16:47:12.599920+00:00",
+        "fetchedAt": "2026-05-04T18:16:02.198504+00:00",
         "items": []
       },
       {
@@ -173,7 +173,7 @@
         "home": "https://arxiv.org/list/cs.LG/recent",
         "url": "https://arxiv.org/rss/cs.LG",
         "status": "ok",
-        "fetchedAt": "2026-05-04T16:47:12.631782+00:00",
+        "fetchedAt": "2026-05-04T18:16:02.265172+00:00",
         "items": [
           {
             "title": "Cloud Is Closer Than It Appears: Revisiting the Tradeoffs of Distributed Real-Time Inference",
@@ -244,7 +244,7 @@
         "home": "https://research.google/blog/",
         "url": "https://research.google/blog/rss/",
         "status": "ok",
-        "fetchedAt": "2026-05-04T16:47:12.474672+00:00",
+        "fetchedAt": "2026-05-04T18:16:02.206821+00:00",
         "items": [
           {
             "title": "Catalyzing scientific impact through global partnerships and open resources",
@@ -315,7 +315,7 @@
         "home": "https://deepmind.google/blog/",
         "url": "https://deepmind.google/blog/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-05-04T16:47:12.757044+00:00",
+        "fetchedAt": "2026-05-04T18:16:02.314055+00:00",
         "items": [
           {
             "title": "Enabling a new model for healthcare with AI co-clinician",
@@ -386,7 +386,7 @@
         "home": "https://lilianweng.github.io/",
         "url": "https://lilianweng.github.io/lil-log/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-05-04T16:47:12.301569+00:00",
+        "fetchedAt": "2026-05-04T18:16:02.006903+00:00",
         "items": [
           {
             "title": "Active Learning",
@@ -477,7 +477,7 @@
         "home": "https://minimaxir.com/",
         "url": "https://minimaxir.com/index.xml",
         "status": "ok",
-        "fetchedAt": "2026-05-04T16:47:12.464856+00:00",
+        "fetchedAt": "2026-05-04T18:16:02.103645+00:00",
         "items": [
           {
             "title": "An AI agent coding skeptic tries AI agent coding, in excessive detail",
@@ -560,7 +560,7 @@
         "home": "https://www.jeffgeerling.com/",
         "url": "https://www.jeffgeerling.com/blog.xml",
         "status": "ok",
-        "fetchedAt": "2026-05-04T16:47:12.409764+00:00",
+        "fetchedAt": "2026-05-04T18:16:02.025413+00:00",
         "items": [
           {
             "title": "SBC Clusters are a terrible value, but they're fun anyway",
@@ -631,7 +631,7 @@
         "home": "https://www.seangoedecke.com/",
         "url": "https://www.seangoedecke.com/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-05-04T16:47:12.550035+00:00",
+        "fetchedAt": "2026-05-04T18:16:02.022292+00:00",
         "items": [
           {
             "title": "Why I don't like the \"staff engineer archetypes\"",
@@ -702,7 +702,7 @@
         "home": "https://krebsonsecurity.com/",
         "url": "https://krebsonsecurity.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-05-04T16:47:12.499804+00:00",
+        "fetchedAt": "2026-05-04T18:16:02.033531+00:00",
         "items": [
           {
             "title": "Anti-DDoS Firm Heaped Attacks on Brazilian ISPs",
@@ -773,7 +773,7 @@
         "home": "https://daringfireball.net/",
         "url": "https://daringfireball.net/feeds/main",
         "status": "ok",
-        "fetchedAt": "2026-05-04T16:47:12.507718+00:00",
+        "fetchedAt": "2026-05-04T18:16:02.193789+00:00",
         "items": [
           {
             "title": "Commits on GitHub Are Up 14× Year-Over-Year",
@@ -844,7 +844,7 @@
         "home": "https://ericmigi.com/",
         "url": "https://ericmigi.com/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-05-04T16:47:12.493136+00:00",
+        "fetchedAt": "2026-05-04T18:16:02.120206+00:00",
         "items": [
           {
             "title": "Spring 2026 Dev Contest Results!",
@@ -915,7 +915,7 @@
         "home": "http://antirez.com/",
         "url": "http://antirez.com/rss",
         "status": "ok",
-        "fetchedAt": "2026-05-04T16:47:14.946665+00:00",
+        "fetchedAt": "2026-05-04T18:16:05.067318+00:00",
         "items": [
           {
             "title": "Redis array type: short story of a long development",
@@ -986,7 +986,7 @@
         "home": "https://idiallo.com/",
         "url": "https://idiallo.com/feed.rss",
         "status": "ok",
-        "fetchedAt": "2026-05-04T16:47:12.561756+00:00",
+        "fetchedAt": "2026-05-04T18:16:02.198312+00:00",
         "items": [
           {
             "title": "Editing my LLM assisted Articles",
@@ -1057,7 +1057,7 @@
         "home": "https://maurycyz.com/",
         "url": "https://maurycyz.com/index.xml",
         "status": "ok",
-        "fetchedAt": "2026-05-04T16:47:13.181459+00:00",
+        "fetchedAt": "2026-05-04T18:16:02.779471+00:00",
         "items": []
       },
       {
@@ -1067,7 +1067,7 @@
         "home": "https://pluralistic.net/",
         "url": "https://pluralistic.net/feed/",
         "status": "ok",
-        "fetchedAt": "2026-05-04T16:47:12.649395+00:00",
+        "fetchedAt": "2026-05-04T18:16:03.056780+00:00",
         "items": [
           {
             "title": "Pluralistic: Demand destruction vs fuel-superseding infrastructure (04 May 2026)",
@@ -1138,7 +1138,7 @@
         "home": "https://shkspr.mobi/blog/",
         "url": "https://shkspr.mobi/blog/feed/",
         "status": "ok",
-        "fetchedAt": "2026-05-04T16:47:13.280319+00:00",
+        "fetchedAt": "2026-05-04T18:16:02.617675+00:00",
         "items": [
           {
             "title": "[RSS Club] Where are you from?",
@@ -1219,7 +1219,7 @@
         "home": "https://mitchellh.com/",
         "url": "https://mitchellh.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-05-04T16:47:12.921789+00:00",
+        "fetchedAt": "2026-05-04T18:16:02.162010+00:00",
         "items": [
           {
             "title": "Ghostty Is Leaving GitHub",
@@ -1290,7 +1290,7 @@
         "home": "https://dynomight.net/",
         "url": "https://dynomight.net/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-05-04T16:47:12.707419+00:00",
+        "fetchedAt": "2026-05-04T18:16:02.532465+00:00",
         "items": [
           {
             "title": "You’re probably taking the wrong painkiller",
@@ -1361,7 +1361,7 @@
         "home": "https://xeiaso.net/",
         "url": "https://xeiaso.net/blog.rss",
         "status": "ok",
-        "fetchedAt": "2026-05-04T16:47:12.752572+00:00",
+        "fetchedAt": "2026-05-04T18:16:02.505722+00:00",
         "items": [
           {
             "title": "Claude Code won April Fools Day this year",
@@ -1432,7 +1432,7 @@
         "home": "https://devblogs.microsoft.com/oldnewthing/",
         "url": "https://devblogs.microsoft.com/oldnewthing/feed",
         "status": "ok",
-        "fetchedAt": "2026-05-04T16:47:12.891937+00:00",
+        "fetchedAt": "2026-05-04T18:16:02.201244+00:00",
         "items": [
           {
             "title": "Developing a cross-process reader/writer lock with limited readers, part 4: Abandonment",
@@ -1503,7 +1503,7 @@
         "home": "https://www.righto.com/",
         "url": "https://www.righto.com/feeds/posts/default",
         "status": "ok",
-        "fetchedAt": "2026-05-04T16:47:13.081314+00:00",
+        "fetchedAt": "2026-05-04T18:16:02.497185+00:00",
         "items": []
       },
       {
@@ -1513,7 +1513,7 @@
         "home": "https://lucumr.pocoo.org/",
         "url": "https://lucumr.pocoo.org/feed.atom",
         "status": "ok",
-        "fetchedAt": "2026-05-04T16:47:12.786160+00:00",
+        "fetchedAt": "2026-05-04T18:16:02.467961+00:00",
         "items": [
           {
             "title": "Content for Content’s Sake",
@@ -1584,7 +1584,7 @@
         "home": "https://skyfall.dev/",
         "url": "https://skyfall.dev/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-05-04T16:47:13.024102+00:00",
+        "fetchedAt": "2026-05-04T18:16:02.646657+00:00",
         "items": [
           {
             "title": "Good riddance, 4o",
@@ -1659,7 +1659,7 @@
         "home": "https://overreacted.io/",
         "url": "https://overreacted.io/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-05-04T16:47:12.969172+00:00",
+        "fetchedAt": "2026-05-04T18:16:02.675782+00:00",
         "items": [
           {
             "title": "A Social Filesystem",
@@ -1730,7 +1730,7 @@
         "home": "https://www.johndcook.com/",
         "url": "https://www.johndcook.com/blog/feed/",
         "status": "ok",
-        "fetchedAt": "2026-05-04T16:47:12.751152+00:00",
+        "fetchedAt": "2026-05-04T18:16:02.576556+00:00",
         "items": [
           {
             "title": "The shape of a guitar pick",
@@ -1801,7 +1801,7 @@
         "home": "https://matklad.github.io/",
         "url": "https://matklad.github.io/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-05-04T16:47:12.760533+00:00",
+        "fetchedAt": "2026-05-04T18:16:02.107856+00:00",
         "items": [
           {
             "title": "Minimal Viable Zig Error Contexts",
@@ -1872,7 +1872,7 @@
         "home": "https://eli.thegreenplace.net/",
         "url": "https://eli.thegreenplace.net/feeds/all.atom.xml",
         "status": "ok",
-        "fetchedAt": "2026-05-04T16:47:12.801645+00:00",
+        "fetchedAt": "2026-05-04T18:16:02.267766+00:00",
         "items": [
           {
             "title": "Scaling, stretching and shifting sinusoids",
@@ -1913,7 +1913,7 @@
         "home": "https://fabiensanglard.net/",
         "url": "https://fabiensanglard.net/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-05-04T16:47:13.019208+00:00",
+        "fetchedAt": "2026-05-04T18:16:02.564847+00:00",
         "items": [
           {
             "title": "How Michael Abrash doubled Quake framerate",
@@ -1984,7 +1984,7 @@
         "home": "https://blog.miguelgrinberg.com/",
         "url": "https://blog.miguelgrinberg.com/feed",
         "status": "ok",
-        "fetchedAt": "2026-05-04T16:47:13.238059+00:00",
+        "fetchedAt": "2026-05-04T18:16:03.075607+00:00",
         "items": [
           {
             "title": "How Bitwarden Encrypts and Decrypts Secrets",
@@ -2055,7 +2055,7 @@
         "home": "https://www.troyhunt.com/",
         "url": "https://www.troyhunt.com/rss/",
         "status": "ok",
-        "fetchedAt": "2026-05-04T16:47:12.729975+00:00",
+        "fetchedAt": "2026-05-04T18:16:02.444015+00:00",
         "items": [
           {
             "title": "Weekly Update 501",
@@ -2126,7 +2126,7 @@
         "home": "https://anildash.com/",
         "url": "https://anildash.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-05-04T16:47:13.204498+00:00",
+        "fetchedAt": "2026-05-04T18:16:02.611041+00:00",
         "items": [
           {
             "title": "The Neo solves Apple’s embarrassment",
@@ -2197,7 +2197,7 @@
         "home": "https://computer.rip/",
         "url": "https://computer.rip/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-05-04T16:47:13.180458+00:00",
+        "fetchedAt": "2026-05-04T18:16:03.190766+00:00",
         "items": [
           {
             "title": "voice modems",
@@ -2278,7 +2278,7 @@
         "home": "http://paulgraham.com/",
         "url": "http://www.aaronsw.com/2002/feeds/pgessays.rss",
         "status": "ok",
-        "fetchedAt": "2026-05-04T16:47:12.519769+00:00",
+        "fetchedAt": "2026-05-04T18:16:02.510082+00:00",
         "items": [
           {
             "title": "Superlinear Returns",
@@ -2349,7 +2349,7 @@
         "home": "https://steveblank.com/",
         "url": "https://steveblank.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-05-04T16:47:12.887931+00:00",
+        "fetchedAt": "2026-05-04T18:16:02.646013+00:00",
         "items": [
           {
             "title": "Anthropic Mythos – We’ve Opened Pandora’s Box",
@@ -2422,12 +2422,42 @@
         "home": "https://news.ycombinator.com/",
         "url": "https://news.ycombinator.com/rss",
         "status": "ok",
-        "fetchedAt": "2026-05-04T16:47:12.774426+00:00",
+        "fetchedAt": "2026-05-04T18:16:02.518830+00:00",
         "items": [
+          {
+            "title": "Days Without GitHub Incidents",
+            "link": "https://www.dayswithoutgithubincident.com/",
+            "date": "2026-05-04T17:36:32+00:00",
+            "summary": "Comments"
+          },
           {
             "title": "Removable batteries in smartphones will be mandatory in the EU starting in 2027",
             "link": "https://www.ecopv-eu.com/en/blog-en/replaceable-smartphone-batteries-2027-eu-regulation/",
             "date": "2026-05-04T15:10:41+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "US healthcare marketplaces shared citizenship and race data with ad tech giants",
+            "link": "https://techcrunch.com/2026/05/04/us-healthcare-marketplaces-shared-citizenship-and-race-data-with-ad-tech-giants/",
+            "date": "2026-05-04T17:16:36+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "Stop big tech from making users behave in ways they don't want to",
+            "link": "https://economist.com/by-invitation/2026/04/29/stop-big-tech-from-making-users-behave-in-ways-they-dont-want-to",
+            "date": "2026-05-04T17:10:57+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "I am worried about Bun",
+            "link": "https://wwj.dev/posts/i-am-worried-about-bun/",
+            "date": "2026-05-04T16:45:00+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "Does Employment Slow Cognitive Decline? Evidence from Labor Market Shocks",
+            "link": "https://www.nber.org/papers/w35117",
+            "date": "2026-05-04T15:32:46+00:00",
             "summary": "Comments"
           },
           {
@@ -2449,39 +2479,9 @@
             "summary": "Comments"
           },
           {
-            "title": "PyInfra 3.8.0 Is Out",
-            "link": "https://github.com/pyinfra-dev/pyinfra/releases/tag/v3.8.0",
-            "date": "2026-05-04T12:53:46+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "GameStop makes $55.5B takeover offer for eBay",
-            "link": "https://www.bbc.co.uk/news/articles/cn0p8yled1do",
-            "date": "2026-05-04T09:31:12+00:00",
-            "summary": "Comments"
-          },
-          {
             "title": "I tracked 7,700 UK petrol stations every 10 minutes for 3 months",
             "link": "https://www.fuelinsight.co.uk",
             "date": "2026-05-04T15:15:21+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "Pomiferous: The most extensive apples (pommes) database",
-            "link": "https://pomiferous.com/",
-            "date": "2026-05-04T14:47:41+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "Newton's law of gravity passes its biggest test",
-            "link": "https://www.science.org/content/article/newton-s-law-gravity-passes-its-biggest-test-ever",
-            "date": "2026-05-04T12:52:57+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "Does Employment Slow Cognitive Decline? Evidence from Labor Market Shocks",
-            "link": "https://www.nber.org/papers/w35117",
-            "date": "2026-05-04T15:32:46+00:00",
             "summary": "Comments"
           }
         ]
@@ -2493,8 +2493,44 @@
         "home": "https://www.techmeme.com/",
         "url": "https://www.techmeme.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-05-04T16:47:13.067345+00:00",
+        "fetchedAt": "2026-05-04T18:16:02.958389+00:00",
         "items": [
+          {
+            "title": "Why there is a 60%+ chance of AI systems autonomously building their own successors by the end of 2028, and a look at the consequences of fully automated AI R&D (Jack Clark/Import AI)",
+            "link": "https://www.techmeme.com/260504/p32#a260504p32",
+            "date": "2026-05-04T14:10:01-04:00",
+            "summary": "Jack Clark / Import AI: Why there is a 60%+ chance of AI systems autonomously building their own successors by the end of 2028, and a look at the consequences of fully automated AI R&D&nbsp; &mdash;&nbsp; The first step towards recursive self improvement&nbsp; &mdash;&nbsp; Welcome to Import AI, a n"
+          },
+          {
+            "title": "Sources: Apple prepares a \"Create a Pass\" feature for iOS 27, which lets users take a QR code and generate a custom pass around it for concerts and other venues (Mark Gurman/Bloomberg)",
+            "link": "https://www.techmeme.com/260504/p31#a260504p31",
+            "date": "2026-05-04T13:50:01-04:00",
+            "summary": "Mark Gurman / Bloomberg: Sources: Apple prepares a &ldquo;Create a Pass&rdquo; feature for iOS 27, which lets users take a QR code and generate a custom pass around it for concerts and other venues&nbsp; &mdash;&nbsp; Apple Inc. is preparing a new &ldquo;Create a Pass&rdquo; feature for its next maj"
+          },
+          {
+            "title": "Intel taps Alex Katouzian, an ex-Qualcomm EVP, to lead Client Computing & Physical AI group, and names Pushkar Ranade as CTO, after serving on an interim basis (Dylan Martin/CRN)",
+            "link": "https://www.techmeme.com/260504/p30#a260504p30",
+            "date": "2026-05-04T13:40:02-04:00",
+            "summary": "Dylan Martin / CRN: Intel taps Alex Katouzian, an ex-Qualcomm EVP, to lead Client Computing &amp; Physical AI group, and names Pushkar Ranade as CTO, after serving on an interim basis&nbsp; &mdash;&nbsp; With the hiring of Alex Katouzian, who was responsible for mounting a new challenge against Inte"
+          },
+          {
+            "title": "Ex-iRobot CEO Colin Angle launches Familiar Machines & Magic and unveils Familiar, a dog-like, \"emotionally intelligent\" robot that reacts to owner's feelings (Christopher Mims/Wall Street Journal)",
+            "link": "https://www.techmeme.com/260504/p29#a260504p29",
+            "date": "2026-05-04T13:30:59-04:00",
+            "summary": "Christopher Mims / Wall Street Journal: Ex-iRobot CEO Colin Angle launches Familiar Machines &amp; Magic and unveils Familiar, a dog-like, &ldquo;emotionally intelligent&rdquo; robot that reacts to owner's feelings&nbsp; &mdash;&nbsp; The inventor behind the world-famous robot vacuum is now designin"
+          },
+          {
+            "title": "Nearly 20 US state-run health insurance exchanges include ad trackers that send user data like race and citizenship info to companies like Meta, TikTok, Google (Bloomberg)",
+            "link": "https://www.techmeme.com/260504/p28#a260504p28",
+            "date": "2026-05-04T13:01:43-04:00",
+            "summary": "Bloomberg: Nearly 20 US state-run health insurance exchanges include ad trackers that send user data like race and citizenship info to companies like Meta, TikTok, Google&nbsp; &mdash;&nbsp; Nearly all of the 20 state-run health insurance exchanges in the US have added advertising trackers that tran"
+          },
+          {
+            "title": "Sources: more than two dozen prediction-market ETFs have been pushed back as the SEC seeks more information; they were originally expected to launch this week (Suzanne McGee/Reuters)",
+            "link": "https://www.techmeme.com/260504/p27#a260504p27",
+            "date": "2026-05-04T12:55:21-04:00",
+            "summary": "Suzanne McGee / Reuters: Sources: more than two dozen prediction-market ETFs have been pushed back as the SEC seeks more information; they were originally expected to launch this week&nbsp; &mdash;&nbsp; More than two dozen exchange-traded funds tied to elections, recessions, tech layoffs and other "
+          },
           {
             "title": "Filing: Blackstone's data center acquisition vehicle seeks to raise as much as $1.75B in its IPO, and will target newly built data centers valued at $250M-$1.5B (Subrat Patnaik/Bloomberg)",
             "link": "https://www.techmeme.com/260504/p26#a260504p26",
@@ -2518,42 +2554,6 @@
             "link": "https://www.techmeme.com/260504/p23#a260504p23",
             "date": "2026-05-04T11:50:01-04:00",
             "summary": "Alex Bronzini-Vender / New York Magazine: Inside Palantir Foundation's Atlantic and Pacific Forum at Yale for invited students: State Dept. and Palantir staff share a vision of mixing AI and state power&nbsp; &mdash;&nbsp; At a quiet conference at Yale, the company and its allies sketched a vision f"
-          },
-          {
-            "title": "Panthalassa, which aims to power floating data centers using energy generated by ocean waves, raised $140M led by Peter Thiel, source says at a $1B valuation (Tim Bradshaw/Financial Times)",
-            "link": "https://www.techmeme.com/260504/p22#a260504p22",
-            "date": "2026-05-04T11:45:47-04:00",
-            "summary": "Tim Bradshaw / Financial Times: Panthalassa, which aims to power floating data centers using energy generated by ocean waves, raised $140M led by Peter Thiel, source says at a $1B valuation&nbsp; &mdash;&nbsp; US tech billionaire leads $140mn investment into Panthalassa as search for AI power pushes"
-          },
-          {
-            "title": "How \"emotion AI\", the use of facial and sentiment analysis tools to track workers' moods, is seeping into white-collar jobs amid concerns over privacy and bias (Ellen Cushing/The Atlantic)",
-            "link": "https://www.techmeme.com/260504/p21#a260504p21",
-            "date": "2026-05-04T11:40:01-04:00",
-            "summary": "Ellen Cushing / The Atlantic: How &ldquo;emotion AI&rdquo;, the use of facial and sentiment analysis tools to track workers' moods, is seeping into white-collar jobs amid concerns over privacy and bias&nbsp; &mdash;&nbsp; The good news, for me at least, is that the computer thinks I have a nice pers"
-          },
-          {
-            "title": "SAP to acquire Dremio, an open data lakehouse provider, and Prior Labs, which it pledges to invest €1B in over four years, hoping to create a frontier AI lab (Larry Dignan/Constellation Research)",
-            "link": "https://www.techmeme.com/260504/p20#a260504p20",
-            "date": "2026-05-04T11:25:01-04:00",
-            "summary": "Larry Dignan / Constellation Research: SAP to acquire Dremio, an open data lakehouse provider, and Prior Labs, which it pledges to invest &euro;1B in over four years, hoping to create a frontier AI lab&nbsp; &mdash;&nbsp; SAP said it will acquire Dremio, an open data lakehouse player, in a move that"
-          },
-          {
-            "title": "Katie Haun raises $1B for two funds split between early and later-stage investments, looking at startups blending financial services, AI, and alternative assets (Natasha Mascarenhas/Bloomberg)",
-            "link": "https://www.techmeme.com/260504/p19#a260504p19",
-            "date": "2026-05-04T11:20:07-04:00",
-            "summary": "Natasha Mascarenhas / Bloomberg: Katie Haun raises $1B for two funds split between early and later-stage investments, looking at startups blending financial services, AI, and alternative assets&nbsp; &mdash;&nbsp; Katie Haun, a former Andreessen Horowitz general partner and federal prosecutor who ma"
-          },
-          {
-            "title": "Bret Taylor's Sierra, which sells AI customer service agents, raised a $950M Series E led by Tiger and GV at a $15.8B post-money valuation, up from $10B in 2025 (Kate Rooney/CNBC)",
-            "link": "https://www.techmeme.com/260504/p18#a260504p18",
-            "date": "2026-05-04T11:15:46-04:00",
-            "summary": "Kate Rooney / CNBC: Bret Taylor's Sierra, which sells AI customer service agents, raised a $950M Series E led by Tiger and GV at a $15.8B post-money valuation, up from $10B in 2025&nbsp; &mdash;&nbsp; Artificial intelligence startup Sierra is raising nearly a billion dollars in a new funding round, "
-          },
-          {
-            "title": "Trump's World Liberty Financial countersues Tron founder Justin Sun, alleging defamation, contract violations, and more (Ben Weiss/Fortune)",
-            "link": "https://www.techmeme.com/260504/p17#a260504p17",
-            "date": "2026-05-04T11:05:01-04:00",
-            "summary": "Ben Weiss / Fortune: Trump's World Liberty Financial countersues Tron founder Justin Sun, alleging defamation, contract violations, and more&nbsp; &mdash;&nbsp; One of the Trump family's biggest early crypto backers is now a foe.&nbsp; In response to claims of fraud by billionaire Justin Sun, the Tr"
           }
         ]
       },
@@ -2564,8 +2564,20 @@
         "home": "https://techcrunch.com/",
         "url": "https://techcrunch.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-05-04T16:47:12.538479+00:00",
+        "fetchedAt": "2026-05-04T18:16:02.280138+00:00",
         "items": [
+          {
+            "title": "Hackers are still exploiting the cPanel bug to gain control of thousands of websites",
+            "link": "https://techcrunch.com/2026/05/04/hackers-are-still-exploiting-the-cpanel-bug-to-gain-control-of-thousands-of-websites/",
+            "date": "2026-05-04T18:02:18+00:00",
+            "summary": "Days after the disclosure of a critical vulnerability in popular web hosting software cPanel and WHM, hackers keep targeting and hacking websites."
+          },
+          {
+            "title": "Elon Musk’s only AI expert witness at the OpenAI trial fears an AGI arms race",
+            "link": "https://techcrunch.com/2026/05/04/elon-musks-only-expert-witness-at-the-openai-trial-fears-an-agi-arms-race/",
+            "date": "2026-05-04T16:57:47+00:00",
+            "summary": "Stuart Russell is a long-time AI researcher who thinks governments need to restrain frontier labs."
+          },
           {
             "title": "Sierra raises $950M as the race to own enterprise AI gets serious",
             "link": "https://techcrunch.com/2026/05/04/sierra-raises-950m-as-the-race-to-own-enterprise-ai-gets-serious/",
@@ -2613,18 +2625,6 @@
             "link": "https://techcrunch.com/2026/05/04/barocal-can-cool-your-food-and-drink-by-squeezing-a-hunk-of-plastic-crystals/",
             "date": "2026-05-04T13:00:00+00:00",
             "summary": "Barocal might have discovered a cheap, nonpolluting material that could dethrone today's refrigeration technology."
-          },
-          {
-            "title": "DoorDash adds AI tools to speed up merchant onboarding, edit photos of dishes",
-            "link": "https://techcrunch.com/2026/05/04/doordash-adds-ai-tools-to-speed-up-merchant-onboarding-edit-photos-of-dishes/",
-            "date": "2026-05-04T13:00:00+00:00",
-            "summary": "DoorDash on Monday added new AI-powered tools that let merchants speed up onboarding, edit photos to make dishes look better, and create new websites from existing content."
-          },
-          {
-            "title": "Ouster’s new color lidar is coming to replace cameras",
-            "link": "https://techcrunch.com/2026/05/04/ousters-new-color-lidar-is-coming-to-replace-cameras/",
-            "date": "2026-05-04T10:00:00+00:00",
-            "summary": "A sensor that can simultaneously capture depth and image data has long been a \"holy grail,\" Ouster CEO Angus Pacala told TechCrunch."
           }
         ]
       },
@@ -2635,8 +2635,14 @@
         "home": "https://techcrunch.com/category/artificial-intelligence/",
         "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
         "status": "ok",
-        "fetchedAt": "2026-05-04T16:47:12.541188+00:00",
+        "fetchedAt": "2026-05-04T18:16:02.448946+00:00",
         "items": [
+          {
+            "title": "Elon Musk’s only AI expert witness at the OpenAI trial fears an AGI arms race",
+            "link": "https://techcrunch.com/2026/05/04/elon-musks-only-expert-witness-at-the-openai-trial-fears-an-agi-arms-race/",
+            "date": "2026-05-04T16:57:47+00:00",
+            "summary": "Stuart Russell is a long-time AI researcher who thinks governments need to restrain frontier labs."
+          },
           {
             "title": "Sierra raises $950M as the race to own enterprise AI gets serious",
             "link": "https://techcrunch.com/2026/05/04/sierra-raises-950m-as-the-race-to-own-enterprise-ai-gets-serious/",
@@ -2683,19 +2689,13 @@
             "title": "AI-generated actors and scripts are now ineligible for Oscars",
             "link": "https://techcrunch.com/2026/05/02/ai-generated-actors-and-scripts-are-now-ineligible-for-oscars/",
             "date": "2026-05-02T21:54:58+00:00",
-            "summary": "Bad news for Tilly Norwood."
+            "summary": "The Academy of Motion Picture Arts and Sciences said that only performances “credited in the film’s legal billing and demonstrably performed by humans with their consent” will be eligible for Academy Awards."
           },
           {
             "title": "The best AI dictation apps, tested and ranked",
             "link": "https://techcrunch.com/2026/05/02/the-best-ai-powered-dictation-apps-of-2025/",
             "date": "2026-05-02T16:00:00+00:00",
             "summary": "AI-powered dictation apps are useful for replying to emails, taking notes, and even coding through your voice"
-          },
-          {
-            "title": "Replit’s Amjad Masad on the Cursor deal, fighting Apple, and why he’d rather not sell",
-            "link": "https://techcrunch.com/2026/05/01/replits-amjad-masad-on-the-cursor-deal-fighting-apple-and-why-hed-rather-not-sell/",
-            "date": "2026-05-01T23:06:50+00:00",
-            "summary": "At TechCrunch's sold-out StrictlyVC event in San Francisco on Thursday night, we covered a lot of ground in a short time, beginning with the question everyone in the industry is asking right now: in a world where rival Cursor is reportedly in talks to be acquired by SpaceX for $60 billion, is Replit"
           }
         ]
       },
@@ -2706,7 +2706,7 @@
         "home": "https://techcrunch.com/tag/funding/",
         "url": "https://techcrunch.com/tag/funding/feed/",
         "status": "ok",
-        "fetchedAt": "2026-05-04T16:47:12.718848+00:00",
+        "fetchedAt": "2026-05-04T18:16:02.515950+00:00",
         "items": [
           {
             "title": "Chipmakers AMD, Arm, and Qualcomm are all investing in this buzzy self-driving tech startup",
@@ -2777,7 +2777,7 @@
         "home": "https://venturebeat.com/",
         "url": "https://venturebeat.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-05-04T16:47:12.681587+00:00",
+        "fetchedAt": "2026-05-04T18:16:02.294739+00:00",
         "items": [
           {
             "title": "Salesforce launches Agentforce Operations to fix the workflows breaking enterprise AI",
@@ -2830,7 +2830,7 @@
         "home": "https://venturebeat.com/category/ai/",
         "url": "https://venturebeat.com/category/ai/feed/",
         "status": "ok",
-        "fetchedAt": "2026-05-04T16:47:12.714433+00:00",
+        "fetchedAt": "2026-05-04T18:16:02.571144+00:00",
         "items": [
           {
             "title": "Railway secures $100 million to challenge AWS with AI-native cloud infrastructure",
@@ -2895,7 +2895,7 @@
         "home": "https://www.bestblogs.dev/",
         "url": "https://www.bestblogs.dev/zh/feeds/rss?category=ai&minScore=90",
         "status": "ok",
-        "fetchedAt": "2026-05-04T16:47:13.454296+00:00",
+        "fetchedAt": "2026-05-04T18:16:03.229539+00:00",
         "items": [
           {
             "title": "大多数公司根本没有为 AI 做好准备",
@@ -2963,6 +2963,76 @@
   },
   "allItems": [
     {
+      "title": "Hackers are still exploiting the cPanel bug to gain control of thousands of websites",
+      "link": "https://techcrunch.com/2026/05/04/hackers-are-still-exploiting-the-cpanel-bug-to-gain-control-of-thousands-of-websites/",
+      "date": "2026-05-04T18:02:18+00:00",
+      "summary": "Days after the disclosure of a critical vulnerability in popular web hosting software cPanel and WHM, hackers keep targeting and hacking websites.",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "TRE Python binding — ReDoS robustness demo",
+      "link": "https://simonwillison.net/2026/May/4/tre-python-binding/#atom-everything",
+      "date": "2026-05-04T17:52:00+00:00",
+      "summary": "Research: TRE Python binding — ReDoS robustness demo If it's good enough for antirez to add to Redis I figured Ville Laurikari's TRE regular expression engine was worth exploring in a little more detail. I had Claude Code build an experimental Python binding (it used ctypes) and try some malicious r",
+      "feedId": "simonwillison",
+      "feedTitle": "Simon Willison",
+      "category": "AI & LLM",
+      "feedHome": "https://simonwillison.net/"
+    },
+    {
+      "title": "Days Without GitHub Incidents",
+      "link": "https://www.dayswithoutgithubincident.com/",
+      "date": "2026-05-04T17:36:32+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "US healthcare marketplaces shared citizenship and race data with ad tech giants",
+      "link": "https://techcrunch.com/2026/05/04/us-healthcare-marketplaces-shared-citizenship-and-race-data-with-ad-tech-giants/",
+      "date": "2026-05-04T17:16:36+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "Stop big tech from making users behave in ways they don't want to",
+      "link": "https://economist.com/by-invitation/2026/04/29/stop-big-tech-from-making-users-behave-in-ways-they-dont-want-to",
+      "date": "2026-05-04T17:10:57+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "Elon Musk’s only AI expert witness at the OpenAI trial fears an AGI arms race",
+      "link": "https://techcrunch.com/2026/05/04/elon-musks-only-expert-witness-at-the-openai-trial-fears-an-agi-arms-race/",
+      "date": "2026-05-04T16:57:47+00:00",
+      "summary": "Stuart Russell is a long-time AI researcher who thinks governments need to restrain frontier labs.",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "Elon Musk’s only AI expert witness at the OpenAI trial fears an AGI arms race",
+      "link": "https://techcrunch.com/2026/05/04/elon-musks-only-expert-witness-at-the-openai-trial-fears-an-agi-arms-race/",
+      "date": "2026-05-04T16:57:47+00:00",
+      "summary": "Stuart Russell is a long-time AI researcher who thinks governments need to restrain frontier labs.",
+      "feedId": "techcrunch-ai",
+      "feedTitle": "TechCrunch AI",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
+    },
+    {
       "title": "Sierra raises $950M as the race to own enterprise AI gets serious",
       "link": "https://techcrunch.com/2026/05/04/sierra-raises-950m-as-the-race-to-own-enterprise-ai-gets-serious/",
       "date": "2026-05-04T16:45:55+00:00",
@@ -2981,6 +3051,16 @@
       "feedTitle": "TechCrunch AI",
       "category": "Startup & News",
       "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
+    },
+    {
+      "title": "I am worried about Bun",
+      "link": "https://wwj.dev/posts/i-am-worried-about-bun/",
+      "date": "2026-05-04T16:45:00+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
     },
     {
       "title": "Elon Musk sent ominous texts to Greg Brockman, Sam Altman after asking for a settlement, OpenAI claims",
@@ -3043,6 +3123,16 @@
       "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
     },
     {
+      "title": "Redis Array Playground",
+      "link": "https://simonwillison.net/2026/May/4/redis-array/#atom-everything",
+      "date": "2026-05-04T15:53:57+00:00",
+      "summary": "Tool: Redis Array Playground Salvatore Sanfilippo submitted a PR adding a new data type - arrays - to Redis. The new commands are ARCOUNT, ARDEL, ARDELRANGE, ARGET, ARGETRANGE, ARGREP, ARINFO, ARINSERT, ARLASTITEMS, ARLEN, ARMGET, ARMSET, ARNEXT, AROP, ARRING, ARSCAN, ARSEEK, ARSET. The implementati",
+      "feedId": "simonwillison",
+      "feedTitle": "Simon Willison",
+      "category": "AI & LLM",
+      "feedHome": "https://simonwillison.net/"
+    },
+    {
       "title": "GitHub Is Down",
       "link": "https://www.githubstatus.com/incidents/72q3n8yxthcy",
       "date": "2026-05-04T15:53:21+00:00",
@@ -3103,16 +3193,6 @@
       "feedHome": "https://daringfireball.net/"
     },
     {
-      "title": "Pomiferous: The most extensive apples (pommes) database",
-      "link": "https://pomiferous.com/",
-      "date": "2026-05-04T14:47:41+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
       "title": "John Sterling, Beloved Longtime Yankees Radio Voice, Passes at 87",
       "link": "https://www.mlb.com/news/john-sterling-passes-away",
       "date": "2026-05-04T14:30:54+00:00",
@@ -3163,6 +3243,16 @@
       "feedHome": "https://daringfireball.net/"
     },
     {
+      "title": "Why there is a 60%+ chance of AI systems autonomously building their own successors by the end of 2028, and a look at the consequences of fully automated AI R&D (Jack Clark/Import AI)",
+      "link": "https://www.techmeme.com/260504/p32#a260504p32",
+      "date": "2026-05-04T14:10:01-04:00",
+      "summary": "Jack Clark / Import AI: Why there is a 60%+ chance of AI systems autonomously building their own successors by the end of 2028, and a look at the consequences of fully automated AI R&D&nbsp; &mdash;&nbsp; The first step towards recursive self improvement&nbsp; &mdash;&nbsp; Welcome to Import AI, a n",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
       "title": "5 days only: Bring a partner or colleague and get 50% off a second TechCrunch Disrupt 2026 pass",
       "link": "https://techcrunch.com/2026/05/04/5-days-only-bring-a-partner-or-colleague-and-get-50-off-a-second-techcrunch-disrupt-2026-pass/",
       "date": "2026-05-04T14:00:00+00:00",
@@ -3181,6 +3271,46 @@
       "feedTitle": "TechCrunch AI",
       "category": "Startup & News",
       "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
+    },
+    {
+      "title": "Sources: Apple prepares a \"Create a Pass\" feature for iOS 27, which lets users take a QR code and generate a custom pass around it for concerts and other venues (Mark Gurman/Bloomberg)",
+      "link": "https://www.techmeme.com/260504/p31#a260504p31",
+      "date": "2026-05-04T13:50:01-04:00",
+      "summary": "Mark Gurman / Bloomberg: Sources: Apple prepares a &ldquo;Create a Pass&rdquo; feature for iOS 27, which lets users take a QR code and generate a custom pass around it for concerts and other venues&nbsp; &mdash;&nbsp; Apple Inc. is preparing a new &ldquo;Create a Pass&rdquo; feature for its next maj",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
+      "title": "Intel taps Alex Katouzian, an ex-Qualcomm EVP, to lead Client Computing & Physical AI group, and names Pushkar Ranade as CTO, after serving on an interim basis (Dylan Martin/CRN)",
+      "link": "https://www.techmeme.com/260504/p30#a260504p30",
+      "date": "2026-05-04T13:40:02-04:00",
+      "summary": "Dylan Martin / CRN: Intel taps Alex Katouzian, an ex-Qualcomm EVP, to lead Client Computing &amp; Physical AI group, and names Pushkar Ranade as CTO, after serving on an interim basis&nbsp; &mdash;&nbsp; With the hiring of Alex Katouzian, who was responsible for mounting a new challenge against Inte",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
+      "title": "Ex-iRobot CEO Colin Angle launches Familiar Machines & Magic and unveils Familiar, a dog-like, \"emotionally intelligent\" robot that reacts to owner's feelings (Christopher Mims/Wall Street Journal)",
+      "link": "https://www.techmeme.com/260504/p29#a260504p29",
+      "date": "2026-05-04T13:30:59-04:00",
+      "summary": "Christopher Mims / Wall Street Journal: Ex-iRobot CEO Colin Angle launches Familiar Machines &amp; Magic and unveils Familiar, a dog-like, &ldquo;emotionally intelligent&rdquo; robot that reacts to owner's feelings&nbsp; &mdash;&nbsp; The inventor behind the world-famous robot vacuum is now designin",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
+      "title": "Nearly 20 US state-run health insurance exchanges include ad trackers that send user data like race and citizenship info to companies like Meta, TikTok, Google (Bloomberg)",
+      "link": "https://www.techmeme.com/260504/p28#a260504p28",
+      "date": "2026-05-04T13:01:43-04:00",
+      "summary": "Bloomberg: Nearly 20 US state-run health insurance exchanges include ad trackers that send user data like race and citizenship info to companies like Meta, TikTok, Google&nbsp; &mdash;&nbsp; Nearly all of the 20 state-run health insurance exchanges in the US have added advertising trackers that tran",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
     },
     {
       "title": "Barocal can cool your food and drink by squeezing a hunk of plastic crystals",
@@ -3197,40 +3327,20 @@
       "link": "https://techcrunch.com/2026/05/04/doordash-adds-ai-tools-to-speed-up-merchant-onboarding-edit-photos-of-dishes/",
       "date": "2026-05-04T13:00:00+00:00",
       "summary": "DoorDash on Monday added new AI-powered tools that let merchants speed up onboarding, edit photos to make dishes look better, and create new websites from existing content.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
-    },
-    {
-      "title": "DoorDash adds AI tools to speed up merchant onboarding, edit photos of dishes",
-      "link": "https://techcrunch.com/2026/05/04/doordash-adds-ai-tools-to-speed-up-merchant-onboarding-edit-photos-of-dishes/",
-      "date": "2026-05-04T13:00:00+00:00",
-      "summary": "DoorDash on Monday added new AI-powered tools that let merchants speed up onboarding, edit photos to make dishes look better, and create new websites from existing content.",
       "feedId": "techcrunch-ai",
       "feedTitle": "TechCrunch AI",
       "category": "Startup & News",
       "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
     },
     {
-      "title": "PyInfra 3.8.0 Is Out",
-      "link": "https://github.com/pyinfra-dev/pyinfra/releases/tag/v3.8.0",
-      "date": "2026-05-04T12:53:46+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
+      "title": "Sources: more than two dozen prediction-market ETFs have been pushed back as the SEC seeks more information; they were originally expected to launch this week (Suzanne McGee/Reuters)",
+      "link": "https://www.techmeme.com/260504/p27#a260504p27",
+      "date": "2026-05-04T12:55:21-04:00",
+      "summary": "Suzanne McGee / Reuters: Sources: more than two dozen prediction-market ETFs have been pushed back as the SEC seeks more information; they were originally expected to launch this week&nbsp; &mdash;&nbsp; More than two dozen exchange-traded funds tied to elections, recessions, tech layoffs and other ",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
       "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
-      "title": "Newton's law of gravity passes its biggest test",
-      "link": "https://www.science.org/content/article/newton-s-law-gravity-passes-its-biggest-test-ever",
-      "date": "2026-05-04T12:52:57+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
+      "feedHome": "https://www.techmeme.com/"
     },
     {
       "title": "Filing: Blackstone's data center acquisition vehicle seeks to raise as much as $1.75B in its IPO, and will target newly built data centers valued at $250M-$1.5B (Subrat Patnaik/Bloomberg)",
@@ -3273,16 +3383,6 @@
       "feedHome": "https://www.techmeme.com/"
     },
     {
-      "title": "Panthalassa, which aims to power floating data centers using energy generated by ocean waves, raised $140M led by Peter Thiel, source says at a $1B valuation (Tim Bradshaw/Financial Times)",
-      "link": "https://www.techmeme.com/260504/p22#a260504p22",
-      "date": "2026-05-04T11:45:47-04:00",
-      "summary": "Tim Bradshaw / Financial Times: Panthalassa, which aims to power floating data centers using energy generated by ocean waves, raised $140M led by Peter Thiel, source says at a $1B valuation&nbsp; &mdash;&nbsp; US tech billionaire leads $140mn investment into Panthalassa as search for AI power pushes",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
       "title": "Talking to 35 Strangers at the Gym",
       "link": "https://thienantran.com/talking-to-35-strangers-at-the-gym/",
       "date": "2026-05-04T11:41:02+00:00",
@@ -3291,16 +3391,6 @@
       "feedTitle": "Hacker News",
       "category": "Startup & News",
       "feedHome": "https://news.ycombinator.com/"
-    },
-    {
-      "title": "How \"emotion AI\", the use of facial and sentiment analysis tools to track workers' moods, is seeping into white-collar jobs amid concerns over privacy and bias (Ellen Cushing/The Atlantic)",
-      "link": "https://www.techmeme.com/260504/p21#a260504p21",
-      "date": "2026-05-04T11:40:01-04:00",
-      "summary": "Ellen Cushing / The Atlantic: How &ldquo;emotion AI&rdquo;, the use of facial and sentiment analysis tools to track workers' moods, is seeping into white-collar jobs amid concerns over privacy and bias&nbsp; &mdash;&nbsp; The good news, for me at least, is that the computer thinks I have a nice pers",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
     },
     {
       "title": "[RSS Club] Where are you from?",
@@ -3313,56 +3403,6 @@
       "feedHome": "https://shkspr.mobi/blog/"
     },
     {
-      "title": "SAP to acquire Dremio, an open data lakehouse provider, and Prior Labs, which it pledges to invest €1B in over four years, hoping to create a frontier AI lab (Larry Dignan/Constellation Research)",
-      "link": "https://www.techmeme.com/260504/p20#a260504p20",
-      "date": "2026-05-04T11:25:01-04:00",
-      "summary": "Larry Dignan / Constellation Research: SAP to acquire Dremio, an open data lakehouse provider, and Prior Labs, which it pledges to invest &euro;1B in over four years, hoping to create a frontier AI lab&nbsp; &mdash;&nbsp; SAP said it will acquire Dremio, an open data lakehouse player, in a move that",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "Katie Haun raises $1B for two funds split between early and later-stage investments, looking at startups blending financial services, AI, and alternative assets (Natasha Mascarenhas/Bloomberg)",
-      "link": "https://www.techmeme.com/260504/p19#a260504p19",
-      "date": "2026-05-04T11:20:07-04:00",
-      "summary": "Natasha Mascarenhas / Bloomberg: Katie Haun raises $1B for two funds split between early and later-stage investments, looking at startups blending financial services, AI, and alternative assets&nbsp; &mdash;&nbsp; Katie Haun, a former Andreessen Horowitz general partner and federal prosecutor who ma",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "Bret Taylor's Sierra, which sells AI customer service agents, raised a $950M Series E led by Tiger and GV at a $15.8B post-money valuation, up from $10B in 2025 (Kate Rooney/CNBC)",
-      "link": "https://www.techmeme.com/260504/p18#a260504p18",
-      "date": "2026-05-04T11:15:46-04:00",
-      "summary": "Kate Rooney / CNBC: Bret Taylor's Sierra, which sells AI customer service agents, raised a $950M Series E led by Tiger and GV at a $15.8B post-money valuation, up from $10B in 2025&nbsp; &mdash;&nbsp; Artificial intelligence startup Sierra is raising nearly a billion dollars in a new funding round, ",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "Trump's World Liberty Financial countersues Tron founder Justin Sun, alleging defamation, contract violations, and more (Ben Weiss/Fortune)",
-      "link": "https://www.techmeme.com/260504/p17#a260504p17",
-      "date": "2026-05-04T11:05:01-04:00",
-      "summary": "Ben Weiss / Fortune: Trump's World Liberty Financial countersues Tron founder Justin Sun, alleging defamation, contract violations, and more&nbsp; &mdash;&nbsp; One of the Trump family's biggest early crypto backers is now a foe.&nbsp; In response to claims of fraud by billionaire Justin Sun, the Tr",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "Ouster’s new color lidar is coming to replace cameras",
-      "link": "https://techcrunch.com/2026/05/04/ousters-new-color-lidar-is-coming-to-replace-cameras/",
-      "date": "2026-05-04T10:00:00+00:00",
-      "summary": "A sensor that can simultaneously capture depth and image data has long been a \"holy grail,\" Ouster CEO Angus Pacala told TechCrunch.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
-    },
-    {
       "title": "Pluralistic: Demand destruction vs fuel-superseding infrastructure (04 May 2026)",
       "link": "https://pluralistic.net/2026/05/04/hope-in-the-dark/",
       "date": "2026-05-04T09:39:28+00:00",
@@ -3371,16 +3411,6 @@
       "feedTitle": "Pluralistic",
       "category": "Tech Blogs",
       "feedHome": "https://pluralistic.net/"
-    },
-    {
-      "title": "GameStop makes $55.5B takeover offer for eBay",
-      "link": "https://www.bbc.co.uk/news/articles/cn0p8yled1do",
-      "date": "2026-05-04T09:31:12+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
     },
     {
       "title": "★ Crimes Against Decency Need as Much Cover-Up as Crimes Against the Law",
@@ -3606,7 +3636,7 @@
       "title": "AI-generated actors and scripts are now ineligible for Oscars",
       "link": "https://techcrunch.com/2026/05/02/ai-generated-actors-and-scripts-are-now-ineligible-for-oscars/",
       "date": "2026-05-02T21:54:58+00:00",
-      "summary": "Bad news for Tilly Norwood.",
+      "summary": "The Academy of Motion Picture Arts and Sciences said that only performances “credited in the film’s legal billing and demonstrably performed by humans with their consent” will be eligible for Academy Awards.",
       "feedId": "techcrunch-ai",
       "feedTitle": "TechCrunch AI",
       "category": "Startup & News",
@@ -3721,16 +3751,6 @@
       "feedTitle": "Ibrahim Diallo",
       "category": "Tech Blogs",
       "feedHome": "https://idiallo.com/"
-    },
-    {
-      "title": "Replit’s Amjad Masad on the Cursor deal, fighting Apple, and why he’d rather not sell",
-      "link": "https://techcrunch.com/2026/05/01/replits-amjad-masad-on-the-cursor-deal-fighting-apple-and-why-hed-rather-not-sell/",
-      "date": "2026-05-01T23:06:50+00:00",
-      "summary": "At TechCrunch's sold-out StrictlyVC event in San Francisco on Thursday night, we covered a lot of ground in a short time, beginning with the question everyone in the industry is asking right now: in a world where rival Cursor is reportedly in talks to be acquired by SpaceX for $60 billion, is Replit",
-      "feedId": "techcrunch-ai",
-      "feedTitle": "TechCrunch AI",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
     },
     {
       "title": "Meta Solved Their Problem With Kenyan Contractors Seeing Footage of AI Glasses Wearers on the Toilet",
@@ -4043,16 +4063,6 @@
       "feedHome": "https://www.bestblogs.dev/"
     },
     {
-      "title": "llm 0.32a1",
-      "link": "https://simonwillison.net/2026/Apr/29/llm-3/#atom-everything",
-      "date": "2026-04-29T23:52:50+00:00",
-      "summary": "Release: llm 0.32a1 Fixed a bug in 0.32a0 where tool-calling conversations were not correctly reinflated from SQLite. #1426 Tags: llm",
-      "feedId": "simonwillison",
-      "feedTitle": "Simon Willison",
-      "category": "AI & LLM",
-      "feedHome": "https://simonwillison.net/"
-    },
-    {
       "title": "Have You Seen the New Excel?",
       "link": "https://idiallo.com/blog/have-you-seen-the-new-xl-ai-parody?src=feed",
       "date": "2026-04-29T23:40:00+00:00",
@@ -4081,16 +4091,6 @@
       "feedTitle": "OpenAI News",
       "category": "AI & LLM",
       "feedHome": "https://openai.com/news/"
-    },
-    {
-      "title": "LLM 0.32a0 is a major backwards-compatible refactor",
-      "link": "https://simonwillison.net/2026/Apr/29/llm/#atom-everything",
-      "date": "2026-04-29T19:01:47+00:00",
-      "summary": "I just released LLM 0.32a0, an alpha release of my LLM Python library and CLI tool for accessing LLMs, with some consequential changes that I've been working towards for quite a while. Previous versions of LLM modeled the world in terms of prompts and responses. Send the model a text prompt, get bac",
-      "feedId": "simonwillison",
-      "feedTitle": "Simon Willison",
-      "category": "AI & LLM",
-      "feedHome": "https://simonwillison.net/"
     },
     {
       "title": "Building the compute infrastructure for the Intelligence Age",
