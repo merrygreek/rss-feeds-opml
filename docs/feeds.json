@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-07T18:26:22.390455+00:00",
+  "updatedAt": "2026-05-07T20:15:37.395352+00:00",
   "totalFeeds": 51,
   "successCount": 44,
   "failedCount": 7,
@@ -21,8 +21,20 @@
         "home": "https://simonwillison.net/",
         "url": "https://simonwillison.net/atom/everything/",
         "status": "ok",
-        "fetchedAt": "2026-05-07T18:26:12.404057+00:00",
+        "fetchedAt": "2026-05-07T20:15:27.437396+00:00",
         "items": [
+          {
+            "title": "llm-gemini 0.31",
+            "link": "https://simonwillison.net/2026/May/7/llm-gemini/#atom-everything",
+            "date": "2026-05-07T19:57:06+00:00",
+            "summary": "Release: llm-gemini 0.31 gemini-3.1-flash-lite is no longer a preview. Here's my write-up of the Gemini 3.1 Flash-Lite Preview model back in March. I don't believe this new non-preview model has changed since then. Tags: llm-release, gemini, llm, google, generative-ai, ai, llms"
+          },
+          {
+            "title": "Big Words",
+            "link": "https://simonwillison.net/2026/May/7/big-words/#atom-everything",
+            "date": "2026-05-07T18:47:09+00:00",
+            "summary": "Tool: Big Words I'm using my vibe coded macOS presentations tool to put together a talk, and I wanted to add a slide with some text on it. The tool only accepts URLs, so I put together a quick page that accepts query string arguments and turns them into a simple slide. Here's an example: https://too"
+          },
           {
             "title": "Behind the Scenes Hardening Firefox with Claude Mythos Preview",
             "link": "https://simonwillison.net/2026/May/7/firefox-claude-mythos/#atom-everything",
@@ -34,6 +46,12 @@
             "link": "https://simonwillison.net/2026/May/7/xai-anthropic/#atom-everything",
             "date": "2026-05-07T17:09:28+00:00",
             "summary": "There weren't a lot of big new announcements from Anthropic at yesterday's Code w/ Claude event, but the biggest by far was the deal they've struck with SpaceX/xAI to use \"all of the capacity of their Colossus data center\". As I mentioned in my live blog of the keynote, that's the one with the parti"
+          },
+          {
+            "title": "GitHub Repo Stats",
+            "link": "https://simonwillison.net/2026/May/7/github-repo-stats/#atom-everything",
+            "date": "2026-05-07T07:25:14+00:00",
+            "summary": "Tool: GitHub Repo Stats One of the things I always look for when evaluating a new GitHub repository is the number of commits it has... but that number isn't visible on GitHub's mobile site layout. I built this tool to fix that, using this prompt: Given a GitHub repo URL or foo/bar repo ID show infor"
           },
           {
             "title": "Live blog: Code w/ Claude 2026",
@@ -64,24 +82,6 @@
             "link": "https://simonwillison.net/2026/May/5/datasette-llm/#atom-everything",
             "date": "2026-05-05T01:56:55+00:00",
             "summary": "Release: datasette-llm 0.1a7 Mechanism for configuring default options for specific models. Part of Datasette's evolving support mechanism for plugins that use LLMs. It's now possible to configure a model with default options, e.g. to say all enrichment operations should use a specific model with te"
-          },
-          {
-            "title": "llm-echo 0.5a0",
-            "link": "https://simonwillison.net/2026/May/5/llm-echo/#atom-everything",
-            "date": "2026-05-05T01:31:54+00:00",
-            "summary": "Release: llm-echo 0.5a0 New -o thinking 1 option to help test against LLM 0.32a0 and higher. This plugin provides a fake model called \"echo\" for LLM which doesn't run an LLM at all - it's useful for writing automated tests. You can now do this: uvx --with llm==0.32a1 --with llm-echo==0.5a0 llm -m ec"
-          },
-          {
-            "title": "Quoting John Gruber",
-            "link": "https://simonwillison.net/2026/May/5/john-gruber/#atom-everything",
-            "date": "2026-05-05T00:46:29+00:00",
-            "summary": "So it’s well known that Y Combinator owns some stake in OpenAI. But how big is that stake? This seems like devilishly difficult information to obtain. I asked around and a little birdie who knows several OpenAI investors came back with an answer: Y Combinator owns about 0.6 percent of OpenAI. At Ope"
-          },
-          {
-            "title": "Granite 4.1 3B SVG Pelican Gallery",
-            "link": "https://simonwillison.net/2026/May/4/granite-41-3b-svg-pelican-gallery/#atom-everything",
-            "date": "2026-05-04T23:49:24+00:00",
-            "summary": "Granite 4.1 3B SVG Pelican Gallery IBM released their Granite 4.1 family of LLMs a few days ago. They're Apache 2.0 licensed and come in 3B, 8B and 30B sizes. Granite 4.1 LLMs: How They’re Built by Granite team member Yousaf Shah describes the training process in detail. Unsloth released the unsloth"
           }
         ]
       },
@@ -92,7 +92,7 @@
         "home": "https://openai.com/news/",
         "url": "https://openai.com/news/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-05-07T18:26:12.787982+00:00",
+        "fetchedAt": "2026-05-07T20:15:27.958976+00:00",
         "items": [
           {
             "title": "Parloa builds service agents customers want to talk to",
@@ -107,22 +107,16 @@
             "summary": "Explore new realtime voice models in the OpenAI API that can reason, translate, and transcribe speech, enabling more natural and intelligent voice experiences."
           },
           {
+            "title": "Testing ads in ChatGPT",
+            "link": "https://openai.com/index/testing-ads-in-chatgpt",
+            "date": "2026-05-07T00:00:00+00:00",
+            "summary": "OpenAI begins testing ads in ChatGPT to support free access, with clear labeling, answer independence, strong privacy protections, and user control."
+          },
+          {
             "title": "Introducing Trusted Contact in ChatGPT",
             "link": "https://openai.com/index/introducing-trusted-contact-in-chatgpt",
             "date": "2026-05-07T00:00:00+00:00",
             "summary": "Introducing Trusted Contact in ChatGPT, an optional safety feature that notifies someone you trust if serious self-harm concerns are detected."
-          },
-          {
-            "title": "Uber uses OpenAI to help people earn smarter and book faster",
-            "link": "https://openai.com/index/uber",
-            "date": "2026-05-06T00:00:00+00:00",
-            "summary": "Uber uses OpenAI to power AI assistants and voice features that help drivers earn smarter and riders book faster across a global real-time marketplace."
-          },
-          {
-            "title": "Introducing ChatGPT Futures: Class of 2026",
-            "link": "https://openai.com/index/introducing-chatgpt-futures-class-of-2026",
-            "date": "2026-05-06T00:00:00+00:00",
-            "summary": "Meet the ChatGPT Futures Class of 2026—26 student innovators using AI to build, research, and drive real-world impact. Discover how this generation is redefining learning, creativity, and opportunity with ChatGPT."
           },
           {
             "title": "How frontier firms are pulling ahead",
@@ -131,28 +125,34 @@
             "summary": "OpenAI’s B2B Signals research shows how frontier enterprises deepen AI adoption, scale Codex-powered agentic workflows, and build durable competitive advantage."
           },
           {
+            "title": "Introducing ChatGPT Futures: Class of 2026",
+            "link": "https://openai.com/index/introducing-chatgpt-futures-class-of-2026",
+            "date": "2026-05-06T00:00:00+00:00",
+            "summary": "Meet the ChatGPT Futures Class of 2026—26 student innovators using AI to build, research, and drive real-world impact. Discover how this generation is redefining learning, creativity, and opportunity with ChatGPT."
+          },
+          {
             "title": "Singular Bank helps bankers move fast with ChatGPT and Codex",
             "link": "https://openai.com/index/singular-bank",
             "date": "2026-05-06T00:00:00+00:00",
             "summary": "Singular Bank built Singularity, an internal assistant using ChatGPT and Codex to help bankers save 60–90 minutes daily on meeting prep, portfolio analysis, and follow-up."
           },
           {
-            "title": "Unlocking large scale AI training networks with MRC (Multipath Reliable Connection)",
-            "link": "https://openai.com/index/mrc-supercomputer-networking",
-            "date": "2026-05-05T10:00:00+00:00",
-            "summary": "OpenAI introduces MRC (Multipath Reliable Connection), a new supercomputer networking protocol released via OCP to improve resilience and performance in large-scale AI training clusters."
-          },
-          {
-            "title": "GPT-5.5 Instant: smarter, clearer, and more personalized",
-            "link": "https://openai.com/index/gpt-5-5-instant",
-            "date": "2026-05-05T10:00:00+00:00",
-            "summary": "GPT-5.5 Instant updates ChatGPT’s default model with smarter, more accurate answers, reduced hallucinations, and improved personalization controls."
+            "title": "Uber uses OpenAI to help people earn smarter and book faster",
+            "link": "https://openai.com/index/uber",
+            "date": "2026-05-06T00:00:00+00:00",
+            "summary": "Uber uses OpenAI to power AI assistants and voice features that help drivers earn smarter and riders book faster across a global real-time marketplace."
           },
           {
             "title": "GPT-5.5 Instant System Card",
             "link": "https://openai.com/index/gpt-5-5-instant-system-card",
             "date": "2026-05-05T10:00:00+00:00",
             "summary": ""
+          },
+          {
+            "title": "GPT-5.5 Instant: smarter, clearer, and more personalized",
+            "link": "https://openai.com/index/gpt-5-5-instant",
+            "date": "2026-05-05T10:00:00+00:00",
+            "summary": "GPT-5.5 Instant updates ChatGPT’s default model with smarter, more accurate answers, reduced hallucinations, and improved personalization controls."
           }
         ]
       },
@@ -163,7 +163,7 @@
         "home": "https://arxiv.org/list/cs.AI/recent",
         "url": "https://arxiv.org/rss/cs.AI",
         "status": "ok",
-        "fetchedAt": "2026-05-07T18:26:12.540996+00:00",
+        "fetchedAt": "2026-05-07T20:15:27.743672+00:00",
         "items": [
           {
             "title": "CreativityBench: Evaluating Agent Creative Reasoning via Affordance-Based Tool Repurposing",
@@ -234,7 +234,7 @@
         "home": "https://arxiv.org/list/cs.LG/recent",
         "url": "https://arxiv.org/rss/cs.LG",
         "status": "ok",
-        "fetchedAt": "2026-05-07T18:26:12.588968+00:00",
+        "fetchedAt": "2026-05-07T20:15:27.785019+00:00",
         "items": [
           {
             "title": "Endogenous Regime Switching Driven by Scalar-Irreducible Learning Dynamics",
@@ -305,7 +305,7 @@
         "home": "https://research.google/blog/",
         "url": "https://research.google/blog/rss/",
         "status": "ok",
-        "fetchedAt": "2026-05-07T18:26:12.632186+00:00",
+        "fetchedAt": "2026-05-07T20:15:27.520459+00:00",
         "items": [
           {
             "title": "Catalyzing scientific impact through global partnerships and open resources",
@@ -376,7 +376,7 @@
         "home": "https://deepmind.google/blog/",
         "url": "https://deepmind.google/blog/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-05-07T18:26:12.606407+00:00",
+        "fetchedAt": "2026-05-07T20:15:27.642817+00:00",
         "items": [
           {
             "title": "AlphaEvolve: How our Gemini-powered coding agent is scaling impact across fields",
@@ -447,7 +447,7 @@
         "home": "https://lilianweng.github.io/",
         "url": "https://lilianweng.github.io/lil-log/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-05-07T18:26:12.353998+00:00",
+        "fetchedAt": "2026-05-07T20:15:27.438238+00:00",
         "items": [
           {
             "title": "Active Learning",
@@ -538,7 +538,7 @@
         "home": "https://minimaxir.com/",
         "url": "https://minimaxir.com/index.xml",
         "status": "ok",
-        "fetchedAt": "2026-05-07T18:26:12.439414+00:00",
+        "fetchedAt": "2026-05-07T20:15:27.513790+00:00",
         "items": [
           {
             "title": "An AI agent coding skeptic tries AI agent coding, in excessive detail",
@@ -621,7 +621,7 @@
         "home": "https://www.jeffgeerling.com/",
         "url": "https://www.jeffgeerling.com/blog.xml",
         "status": "ok",
-        "fetchedAt": "2026-05-07T18:26:12.414466+00:00",
+        "fetchedAt": "2026-05-07T20:15:27.483741+00:00",
         "items": [
           {
             "title": "SBC Clusters are a terrible value, but they're fun anyway",
@@ -692,7 +692,7 @@
         "home": "https://www.seangoedecke.com/",
         "url": "https://www.seangoedecke.com/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-05-07T18:26:12.457848+00:00",
+        "fetchedAt": "2026-05-07T20:15:27.577570+00:00",
         "items": [
           {
             "title": "Why hasn't longer-horizon training slowed AI progress?",
@@ -763,7 +763,7 @@
         "home": "https://krebsonsecurity.com/",
         "url": "https://krebsonsecurity.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-05-07T18:26:12.506023+00:00",
+        "fetchedAt": "2026-05-07T20:15:27.530612+00:00",
         "items": [
           {
             "title": "Anti-DDoS Firm Heaped Attacks on Brazilian ISPs",
@@ -834,12 +834,12 @@
         "home": "https://daringfireball.net/",
         "url": "https://daringfireball.net/feeds/main",
         "status": "ok",
-        "fetchedAt": "2026-05-07T18:26:12.597253+00:00",
+        "fetchedAt": "2026-05-07T20:15:27.538624+00:00",
         "items": [
           {
-            "title": "The Greatest Jump Cut in Cinematic History, Improved by Amazon Prime",
+            "title": "The Greatest Match Cut in Cinematic History, Improved by Amazon Prime",
             "link": "https://bsky.app/profile/gethill.bsky.social/post/3ml6fyfv7kc2l",
-            "date": "2026-05-07T16:12:24+00:00",
+            "date": "2026-05-07T18:46:45+00:00",
             "summary": "I’m sure there’s a scene marker right at the cut, so that’s why an ad got inserted there. But, my god. Someone at Amazon should go to prison for this. (I think it’s a total coincidence that the Febreze ad seems roughly color-matched to the sky. But scroll down in the Bluesky thread for some links to"
           },
           {
@@ -905,7 +905,7 @@
         "home": "https://ericmigi.com/",
         "url": "https://ericmigi.com/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-05-07T18:26:12.386228+00:00",
+        "fetchedAt": "2026-05-07T20:15:27.568120+00:00",
         "items": [
           {
             "title": "Spring 2026 Dev Contest Results!",
@@ -976,7 +976,7 @@
         "home": "http://antirez.com/",
         "url": "http://antirez.com/rss",
         "status": "ok",
-        "fetchedAt": "2026-05-07T18:26:14.044065+00:00",
+        "fetchedAt": "2026-05-07T20:15:29.622425+00:00",
         "items": [
           {
             "title": "Redis array type: short story of a long development",
@@ -1047,7 +1047,7 @@
         "home": "https://idiallo.com/",
         "url": "https://idiallo.com/feed.rss",
         "status": "ok",
-        "fetchedAt": "2026-05-07T18:26:12.547549+00:00",
+        "fetchedAt": "2026-05-07T20:15:27.788840+00:00",
         "items": [
           {
             "title": "Asimov's three laws are merely a suggestion",
@@ -1118,7 +1118,7 @@
         "home": "https://maurycyz.com/",
         "url": "https://maurycyz.com/index.xml",
         "status": "ok",
-        "fetchedAt": "2026-05-07T18:26:12.843981+00:00",
+        "fetchedAt": "2026-05-07T20:15:28.083602+00:00",
         "items": []
       },
       {
@@ -1128,7 +1128,7 @@
         "home": "https://pluralistic.net/",
         "url": "https://pluralistic.net/feed/",
         "status": "ok",
-        "fetchedAt": "2026-05-07T18:26:12.951154+00:00",
+        "fetchedAt": "2026-05-07T20:15:28.240827+00:00",
         "items": [
           {
             "title": "Pluralistic: Bubbles are REALLY evil (07 May 2026)",
@@ -1199,7 +1199,7 @@
         "home": "https://shkspr.mobi/blog/",
         "url": "https://shkspr.mobi/blog/feed/",
         "status": "ok",
-        "fetchedAt": "2026-05-07T18:26:13.558480+00:00",
+        "fetchedAt": "2026-05-07T20:15:28.326216+00:00",
         "items": [
           {
             "title": "I've found just the right paper for my Bottom Hole problem",
@@ -1280,7 +1280,7 @@
         "home": "https://mitchellh.com/",
         "url": "https://mitchellh.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-05-07T18:26:12.814858+00:00",
+        "fetchedAt": "2026-05-07T20:15:27.696443+00:00",
         "items": [
           {
             "title": "Ghostty Is Leaving GitHub",
@@ -1351,7 +1351,7 @@
         "home": "https://dynomight.net/",
         "url": "https://dynomight.net/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-05-07T18:26:12.964645+00:00",
+        "fetchedAt": "2026-05-07T20:15:28.018600+00:00",
         "items": [
           {
             "title": "You’re probably taking the wrong painkiller",
@@ -1422,7 +1422,7 @@
         "home": "https://xeiaso.net/",
         "url": "https://xeiaso.net/blog.rss",
         "status": "ok",
-        "fetchedAt": "2026-05-07T18:26:13.353897+00:00",
+        "fetchedAt": "2026-05-07T20:15:27.987321+00:00",
         "items": [
           {
             "title": "Claude Code won April Fools Day this year",
@@ -1493,7 +1493,7 @@
         "home": "https://devblogs.microsoft.com/oldnewthing/",
         "url": "https://devblogs.microsoft.com/oldnewthing/feed",
         "status": "ok",
-        "fetchedAt": "2026-05-07T18:26:12.887750+00:00",
+        "fetchedAt": "2026-05-07T20:15:28.143832+00:00",
         "items": [
           {
             "title": "When you upgrade your resource strings to Unicode, don’t forget to specify the L prefix",
@@ -1564,7 +1564,7 @@
         "home": "https://www.righto.com/",
         "url": "https://www.righto.com/feeds/posts/default",
         "status": "ok",
-        "fetchedAt": "2026-05-07T18:26:12.876957+00:00",
+        "fetchedAt": "2026-05-07T20:15:27.806033+00:00",
         "items": []
       },
       {
@@ -1574,7 +1574,7 @@
         "home": "https://lucumr.pocoo.org/",
         "url": "https://lucumr.pocoo.org/feed.atom",
         "status": "ok",
-        "fetchedAt": "2026-05-07T18:26:12.736586+00:00",
+        "fetchedAt": "2026-05-07T20:15:27.876433+00:00",
         "items": [
           {
             "title": "Content for Content’s Sake",
@@ -1645,7 +1645,7 @@
         "home": "https://skyfall.dev/",
         "url": "https://skyfall.dev/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-05-07T18:26:12.791125+00:00",
+        "fetchedAt": "2026-05-07T20:15:28.060691+00:00",
         "items": [
           {
             "title": "Good riddance, 4o",
@@ -1720,7 +1720,7 @@
         "home": "https://overreacted.io/",
         "url": "https://overreacted.io/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-05-07T18:26:12.956250+00:00",
+        "fetchedAt": "2026-05-07T20:15:27.699397+00:00",
         "items": [
           {
             "title": "A Social Filesystem",
@@ -1791,8 +1791,14 @@
         "home": "https://www.johndcook.com/",
         "url": "https://www.johndcook.com/blog/feed/",
         "status": "ok",
-        "fetchedAt": "2026-05-07T18:26:12.493216+00:00",
+        "fetchedAt": "2026-05-07T20:15:28.051629+00:00",
         "items": [
+          {
+            "title": "Smoothed polygons",
+            "link": "https://www.johndcook.com/blog/2026/05/07/smoothed-polygons/",
+            "date": "2026-05-07T18:19:24+00:00",
+            "summary": "The previous post constructed a triangular analog of the squircle, the unit circle in the p-norm where p is typically around 4. The case p = 2 is a Euclidean circle and the limit as p → ∞ is a Euclidean square. The previous post introduced three functions Li(x, y) such the level set of each function"
+          },
           {
             "title": "Triangular analog of the squircle",
             "link": "https://www.johndcook.com/blog/2026/05/06/triangular-analog-of-the-squircle/",
@@ -1846,12 +1852,6 @@
             "link": "https://www.johndcook.com/blog/2026/04/28/circular-arc-approximation/",
             "date": "2026-04-28T13:09:42+00:00",
             "summary": "Suppose you have an arc a, a portion of a circle of radius r, and you know two things: the length c of the chord of the arc, and the length b of the chord of half the arc, illustrated below. Here θ is the central angle of the arc. Then the length of the arc, rθ, [&#8230;] The post Circular arc appro"
-          },
-          {
-            "title": "Closed-form solution to the nonlinear pendulum equation",
-            "link": "https://www.johndcook.com/blog/2026/04/25/exact-solution-nonlinear-pendulum/",
-            "date": "2026-04-25T16:16:12+00:00",
-            "summary": "The previous post looks at the nonlinear pendulum equation and what difference it makes to the solutions if you linearize the equation. If the initial displacement is small enough, you can simply replace sin θ with θ. If the initial displacement is larger, you can improve the accuracy quite a bit by"
           }
         ]
       },
@@ -1862,7 +1862,7 @@
         "home": "https://matklad.github.io/",
         "url": "https://matklad.github.io/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-05-07T18:26:12.919456+00:00",
+        "fetchedAt": "2026-05-07T20:15:28.023547+00:00",
         "items": [
           {
             "title": "Minimal Viable Zig Error Contexts",
@@ -1933,7 +1933,7 @@
         "home": "https://eli.thegreenplace.net/",
         "url": "https://eli.thegreenplace.net/feeds/all.atom.xml",
         "status": "ok",
-        "fetchedAt": "2026-05-07T18:26:12.842873+00:00",
+        "fetchedAt": "2026-05-07T20:15:28.079202+00:00",
         "items": [
           {
             "title": "Scaling, stretching and shifting sinusoids",
@@ -1974,7 +1974,7 @@
         "home": "https://fabiensanglard.net/",
         "url": "https://fabiensanglard.net/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-05-07T18:26:12.612548+00:00",
+        "fetchedAt": "2026-05-07T20:15:27.711251+00:00",
         "items": [
           {
             "title": "How Michael Abrash doubled Quake framerate",
@@ -2045,7 +2045,7 @@
         "home": "https://blog.miguelgrinberg.com/",
         "url": "https://blog.miguelgrinberg.com/feed",
         "status": "ok",
-        "fetchedAt": "2026-05-07T18:26:13.430560+00:00",
+        "fetchedAt": "2026-05-07T20:15:28.594310+00:00",
         "items": [
           {
             "title": "SQLAlchemy 2 In Practice - Chapter 7: Asynchronous SQLAlchemy",
@@ -2116,7 +2116,7 @@
         "home": "https://www.troyhunt.com/",
         "url": "https://www.troyhunt.com/rss/",
         "status": "ok",
-        "fetchedAt": "2026-05-07T18:26:12.714881+00:00",
+        "fetchedAt": "2026-05-07T20:15:27.793840+00:00",
         "items": [
           {
             "title": "Weekly Update 502",
@@ -2187,7 +2187,7 @@
         "home": "https://anildash.com/",
         "url": "https://anildash.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-05-07T18:26:12.996844+00:00",
+        "fetchedAt": "2026-05-07T20:15:28.127113+00:00",
         "items": [
           {
             "title": "The Neo solves Apple’s embarrassment",
@@ -2258,7 +2258,7 @@
         "home": "https://computer.rip/",
         "url": "https://computer.rip/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-05-07T18:26:13.428022+00:00",
+        "fetchedAt": "2026-05-07T20:15:28.007116+00:00",
         "items": [
           {
             "title": "voice modems",
@@ -2339,7 +2339,7 @@
         "home": "http://paulgraham.com/",
         "url": "http://www.aaronsw.com/2002/feeds/pgessays.rss",
         "status": "ok",
-        "fetchedAt": "2026-05-07T18:26:21.239696+00:00",
+        "fetchedAt": "2026-05-07T20:15:27.595441+00:00",
         "items": [
           {
             "title": "Superlinear Returns",
@@ -2410,7 +2410,7 @@
         "home": "https://steveblank.com/",
         "url": "https://steveblank.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-05-07T18:26:12.685287+00:00",
+        "fetchedAt": "2026-05-07T20:15:27.693742+00:00",
         "items": [
           {
             "title": "Anthropic Mythos – We’ve Opened Pandora’s Box",
@@ -2483,18 +2483,12 @@
         "home": "https://news.ycombinator.com/",
         "url": "https://news.ycombinator.com/rss",
         "status": "ok",
-        "fetchedAt": "2026-05-07T18:26:13.173259+00:00",
+        "fetchedAt": "2026-05-07T20:15:28.120445+00:00",
         "items": [
           {
-            "title": "The map that keeps Burning Man honest",
+            "title": "The Burning Man MOOP Map",
             "link": "https://www.not-ship.com/burning-man-moop/",
             "date": "2026-05-07T14:06:10+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "AlphaEvolve: Gemini-powered coding agent scaling impact across fields",
-            "link": "https://deepmind.google/blog/alphaevolve-impact/",
-            "date": "2026-05-07T15:02:20+00:00",
             "summary": "Comments"
           },
           {
@@ -2504,15 +2498,33 @@
             "summary": "Comments"
           },
           {
+            "title": "Natural Language Autoencoders: Turning Claude's Thoughts into Text",
+            "link": "https://www.anthropic.com/research/natural-language-autoencoders",
+            "date": "2026-05-07T17:54:02+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "AlphaEvolve: Gemini-powered coding agent scaling impact across fields",
+            "link": "https://deepmind.google/blog/alphaevolve-impact/",
+            "date": "2026-05-07T15:02:20+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "Dirtyfrag: Universal Linux LPE",
+            "link": "https://www.openwall.com/lists/oss-security/2026/05/07/8",
+            "date": "2026-05-07T19:21:32+00:00",
+            "summary": "Comments"
+          },
+          {
             "title": "DeepSeek 4 Flash local inference engine for Metal",
             "link": "https://github.com/antirez/ds4",
             "date": "2026-05-07T15:40:24+00:00",
             "summary": "Comments"
           },
           {
-            "title": "Child marriages plunged when girls stayed in school in Nigeria",
-            "link": "https://www.nature.com/articles/d41586-026-00796-2",
-            "date": "2026-05-07T13:30:04+00:00",
+            "title": "Colored Shadow Penumbra",
+            "link": "https://chosker.github.io/blog/colored-shadow-penumbra",
+            "date": "2026-05-07T19:04:30+00:00",
             "summary": "Comments"
           },
           {
@@ -2522,27 +2534,15 @@
             "summary": "Comments"
           },
           {
-            "title": "Natural Language Autoencoders: Turning Claude's Thoughts into Text",
-            "link": "https://www.anthropic.com/research/natural-language-autoencoders",
-            "date": "2026-05-07T17:54:02+00:00",
+            "title": "Child marriages plunged when girls stayed in school in Nigeria",
+            "link": "https://www.nature.com/articles/d41586-026-00720-8",
+            "date": "2026-05-07T13:30:04+00:00",
             "summary": "Comments"
           },
           {
-            "title": "I switched from Mac to a Lenovo Chromebook",
-            "link": "https://blog.johnozbay.com/i-left-apples-ecosystem-for-a-lenovo-chromebook-and-you-can-too.html",
-            "date": "2026-05-07T16:01:24+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "PySimpleGUI 6",
-            "link": "https://github.com/PySimpleGUI/PySimpleGUI",
-            "date": "2026-05-05T18:18:42+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "The Self-Cancelling Subscription",
-            "link": "https://predr.ag/blog/the-self-cancelling-subscription/",
-            "date": "2026-05-07T14:15:16+00:00",
+            "title": "I want to live like Costco people",
+            "link": "https://tastecooking.com/i-want-to-live-like-costco-people/",
+            "date": "2026-05-07T15:19:27+00:00",
             "summary": "Comments"
           }
         ]
@@ -2554,13 +2554,49 @@
         "home": "https://www.techmeme.com/",
         "url": "https://www.techmeme.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-05-07T18:26:12.836237+00:00",
+        "fetchedAt": "2026-05-07T20:15:28.093146+00:00",
         "items": [
           {
-            "title": "OpenAI launches three new real-time voice models for reasoning, translation, and transcription, included in its Realtime API (Zac Hall/9to5Mac)",
+            "title": "Sources: OpenAI and Broadcom discuss terms for Broadcom to finance initial custom chip production for ~$18B, conditioned on Microsoft buying ~40% of the chips (Anissa Gardizy/The Information)",
+            "link": "https://www.techmeme.com/260507/p39#a260507p39",
+            "date": "2026-05-07T16:05:01-04:00",
+            "summary": "Anissa Gardizy / The Information: Sources: OpenAI and Broadcom discuss terms for Broadcom to finance initial custom chip production for ~$18B, conditioned on Microsoft buying ~40% of the chips&nbsp; &mdash;&nbsp; When OpenAI and chip designer Broadcom announced last fall that they would make custom "
+          },
+          {
+            "title": "Anthropic researchers detail natural language autoencoders, which convert LLM activations, the numbers encoding a model's thoughts, into natural language text (Anthropic)",
+            "link": "https://www.techmeme.com/260507/p38#a260507p38",
+            "date": "2026-05-07T16:00:46-04:00",
+            "summary": "Anthropic: Anthropic researchers detail natural language autoencoders, which convert LLM activations, the numbers encoding a model's thoughts, into natural language text&nbsp; &mdash;&nbsp; When you talk to an AI model like Claude, you talk to it in words.&nbsp; Internally, Claude processes those wo"
+          },
+          {
+            "title": "Sources: Ramp told investors it is raising $750M co-led by Iconiq Capital and GIC at a valuation of $40B+ before the investment, up from $32B in November 2025 (Kate Clark/Wall Street Journal)",
+            "link": "https://www.techmeme.com/260507/p37#a260507p37",
+            "date": "2026-05-07T15:35:00-04:00",
+            "summary": "Kate Clark / Wall Street Journal: Sources: Ramp told investors it is raising $750M co-led by Iconiq Capital and GIC at a valuation of $40B+ before the investment, up from $32B in November 2025&nbsp; &mdash;&nbsp; The financing target represents a more than 30% increase from six months ago&nbsp; &mda"
+          },
+          {
+            "title": "EU legislators reach a deal to postpone restrictions on high-risk AI until December 2027 and to exempt the use of AI in industrial applications from the AI Act (Pieter Haeck/Politico)",
+            "link": "https://www.techmeme.com/260507/p36#a260507p36",
+            "date": "2026-05-07T15:10:01-04:00",
+            "summary": "Pieter Haeck / Politico: EU legislators reach a deal to postpone restrictions on high-risk AI until December 2027 and to exempt the use of AI in industrial applications from the AI Act&nbsp; &mdash;&nbsp; Deal marks first significant delay of digital rules amid pressure from the U.S.&nbsp; &mdash;&n"
+          },
+          {
+            "title": "While Anthropic will use the Colossus 1 data center, which has a really bad environmental record, xAI retains the larger Colossus 2 for its own AI training (Simon Willison/Simon Willison's Weblog)",
+            "link": "https://www.techmeme.com/260507/p35#a260507p35",
+            "date": "2026-05-07T14:50:02-04:00",
+            "summary": "Simon Willison / Simon Willison's Weblog: While Anthropic will use the Colossus 1 data center, which has a really bad environmental record, xAI retains the larger Colossus 2 for its own AI training&nbsp; &mdash;&nbsp; There weren't a lot of big new announcements from Anthropic at yesterday's Code w/"
+          },
+          {
+            "title": "Sources: AirPods with cameras reached an advanced testing stage; the cameras will feed data to Siri to help answer questions, rather than take photos or video (Mark Gurman/Bloomberg)",
+            "link": "https://www.techmeme.com/260507/p34#a260507p34",
+            "date": "2026-05-07T14:45:02-04:00",
+            "summary": "Mark Gurman / Bloomberg: Sources: AirPods with cameras reached an advanced testing stage; the cameras will feed data to Siri to help answer questions, rather than take photos or video&nbsp; &mdash;&nbsp; Apple Inc. has reached the late stages of development for new AirPods with built-in cameras, a s"
+          },
+          {
+            "title": "OpenAI launches three voice models in the API: GPT-Realtime-2 with GPT-5-class reasoning, GPT-Realtime-Whisper for transcription, and GPT-Realtime-Translate (Zac Hall/9to5Mac)",
             "link": "https://www.techmeme.com/260507/p33#a260507p33",
             "date": "2026-05-07T14:20:03-04:00",
-            "summary": "Zac Hall / 9to5Mac: OpenAI launches three new real-time voice models for reasoning, translation, and transcription, included in its Realtime API&nbsp; &mdash;&nbsp; OpenAI has just released three new realtime voice models that it says will &ldquo;unlock a new class of voice apps for developers.&rdqu"
+            "summary": "Zac Hall / 9to5Mac: OpenAI launches three voice models in the API: GPT-Realtime-2 with GPT-5-class reasoning, GPT-Realtime-Whisper for transcription, and GPT-Realtime-Translate&nbsp; &mdash;&nbsp; OpenAI has just released three new realtime voice models that it says will &ldquo;unlock a new class of"
           },
           {
             "title": "OpenAI launches Trusted Contact, an optional safety feature for ChatGPT that lets adult users assign an emergency contact for mental health and safety concerns (Jess Weatherbed/The Verge)",
@@ -2579,42 +2615,6 @@
             "link": "https://www.techmeme.com/260507/p30#a260507p30",
             "date": "2026-05-07T13:35:01-04:00",
             "summary": "Bloomberg: Filing: OnlyFans owner Leonid Radvinsky's wife assumed significant control of OnlyFans holding company Fenix in March following the death of Radvinsky&nbsp; &mdash;&nbsp; Leonid Radvinsky's widow has surfaced as a beneficiary of the business empire behind adult-content platform OnlyFans, "
-          },
-          {
-            "title": "AWS unveils Amazon Bedrock AgentCore Payments and partners with Coinbase and Stripe to enable AI agents to execute transactions using stablecoins (RT Watson/The Block)",
-            "link": "https://www.techmeme.com/260507/p29#a260507p29",
-            "date": "2026-05-07T13:00:49-04:00",
-            "summary": "RT Watson / The Block: AWS unveils Amazon Bedrock AgentCore Payments and partners with Coinbase and Stripe to enable AI agents to execute transactions using stablecoins&nbsp; &mdash;&nbsp; Quick Take&nbsp; &mdash; Amazon Web Services has partnered with Coinbase and Stripe to enable AI agents to exec"
-          },
-          {
-            "title": "Meta challenges Ofcom in UK High Court over the Online Safety Act, which calculates levies based on global, not UK, revenue, in a case scheduled for October (Sam Tobin/Reuters)",
-            "link": "https://www.techmeme.com/260507/p28#a260507p28",
-            "date": "2026-05-07T12:20:01-04:00",
-            "summary": "Sam Tobin / Reuters: Meta challenges Ofcom in UK High Court over the Online Safety Act, which calculates levies based on global, not UK, revenue, in a case scheduled for October&nbsp; &mdash;&nbsp; Facebook and Instagram owner Meta (META.O) is challenging Britain's media regulator Ofcom over how fee"
-          },
-          {
-            "title": "Nova Intelligence, which is building agentic AI for SAP ahead of a 2030 migration, raised a $31.5M Series A led by Chemistry, taking its total funding to $40M+ (Lily Mae Lazarus/Fortune)",
-            "link": "https://www.techmeme.com/260507/p27#a260507p27",
-            "date": "2026-05-07T11:50:00-04:00",
-            "summary": "Lily Mae Lazarus / Fortune: Nova Intelligence, which is building agentic AI for SAP ahead of a 2030 migration, raised a $31.5M Series A led by Chemistry, taking its total funding to $40M+&nbsp; &mdash;&nbsp; An estimated 77% of the world's transactions touch an SAP system at some point.&nbsp; And mo"
-          },
-          {
-            "title": "Tessera Labs, which uses AI agents to automate enterprise IT migrations and ERP transformations, raised a $60M Series A led by a16z at a $320M valuation (Anna Tong/Forbes)",
-            "link": "https://www.techmeme.com/260507/p26#a260507p26",
-            "date": "2026-05-07T11:30:01-04:00",
-            "summary": "Anna Tong / Forbes: Tessera Labs, which uses AI agents to automate enterprise IT migrations and ERP transformations, raised a $60M Series A led by a16z at a $320M valuation&nbsp; &mdash;&nbsp; Kabir Nagrecha is tackling the $1.4 trillion &ldquo;consulting tax&rdquo; on the IT transformation market w"
-          },
-          {
-            "title": "An interview with Google VP for Health and Home Rishi Chandra on shutting down Fit by the end of 2026, Fitbit's rebrand to Google Health, Health Coach, and more (Julian Chokkattu/Wired)",
-            "link": "https://www.techmeme.com/260507/p25#a260507p25",
-            "date": "2026-05-07T11:05:01-04:00",
-            "summary": "Julian Chokkattu / Wired: An interview with Google VP for Health and Home Rishi Chandra on shutting down Fit by the end of 2026, Fitbit's rebrand to Google Health, Health Coach, and more&nbsp; &mdash;&nbsp; Google is sunsetting Google Fit by year's end.&nbsp; While Fitbit remains very much alive, th"
-          },
-          {
-            "title": "Spotify launches Save to Spotify, a command-line tool that allows AI agents to upload AI-generated audio summaries and personal podcasts to a user's account (Terrence O'Brien/The Verge)",
-            "link": "https://www.techmeme.com/260507/p24#a260507p24",
-            "date": "2026-05-07T10:41:01-04:00",
-            "summary": "Terrence O'Brien / The Verge: Spotify launches Save to Spotify, a command-line tool that allows AI agents to upload AI-generated audio summaries and personal podcasts to a user's account&nbsp; &mdash;&nbsp; A new command-line tool lets AI agents save audio alongside your other podcasts. &hellip; Sav"
           }
         ]
       },
@@ -2625,8 +2625,50 @@
         "home": "https://techcrunch.com/",
         "url": "https://techcrunch.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-05-07T18:26:12.934466+00:00",
+        "fetchedAt": "2026-05-07T20:15:27.867666+00:00",
         "items": [
+          {
+            "title": "Tesla Model Y is first car to meet new U.S. driver assistance safety benchmark",
+            "link": "https://techcrunch.com/2026/05/07/tesla-model-y-is-first-car-to-meet-new-u-s-driver-assistance-safety-benchmark/",
+            "date": "2026-05-07T20:10:48+00:00",
+            "summary": "The new benchmark rating applies to 2026 Tesla Model Y vehicles assembled on or after November 12, 2025."
+          },
+          {
+            "title": "Perplexity’s Personal Computer is now available everyone on Mac",
+            "link": "https://techcrunch.com/2026/05/07/perplexitys-personal-computer-is-now-available-everyone-on-mac/",
+            "date": "2026-05-07T19:57:59+00:00",
+            "summary": "Perplexity's Personal Computer brings AI agents to your Mac, and is now open to everyone."
+          },
+          {
+            "title": "Elon Musk’s lawsuit is putting OpenAI’s safety record under the microscope",
+            "link": "https://techcrunch.com/2026/05/07/elon-musks-lawsuit-is-putting-openais-safety-record-under-the-microscope/",
+            "date": "2026-05-07T19:21:21+00:00",
+            "summary": "Elon Musk's legal effort to dismantle OpenAI may hinge on how its for-profit subsidiary enhances or detracts from the frontier lab's founding mission of ensuring that humanity benefits from artificial general intelligence."
+          },
+          {
+            "title": "Bumble is getting rid of the swipe, CEO says",
+            "link": "https://techcrunch.com/2026/05/07/bumble-is-getting-rid-of-the-swipe-ceo-says/",
+            "date": "2026-05-07T19:06:17+00:00",
+            "summary": "Based on Whitney Wolfe Herd's past comments about Bumble's new direction, the company is expected to lean into AI -- Bumble is even working on an AI dating assistant called Bee, and the CEO has made many comments over the years about how AI will be \"a supercharger to love and relationships.\""
+          },
+          {
+            "title": "Tome, another Goodreads book-tracker rival, shuts down",
+            "link": "https://techcrunch.com/2026/05/07/tome-another-goodreads-booktracker-rival-shuts-down/",
+            "date": "2026-05-07T18:38:58+00:00",
+            "summary": "Built on the back of the sizable and influential BookTok community -- creators who discuss and review books on TikTok -- the app offered readers a place to chronicle and rate their books, get recommendations, and even add photos of things like favorite quotes or memes, or share playlists that match "
+          },
+          {
+            "title": "Could Lovable’s automatic 10% pay raise be the cure for toxic cultures?",
+            "link": "https://techcrunch.com/2026/05/07/could-lovables-automatic-10-pay-raise-be-the-cure-for-toxic-cultures/",
+            "date": "2026-05-07T18:36:29+00:00",
+            "summary": "Stockholm-based vibe-coding platform Lovable is offering employees an automatic 10% raise as a way to sidestep classic corporate politics."
+          },
+          {
+            "title": "Hackers hack victims hacked by other hackers",
+            "link": "https://techcrunch.com/2026/05/07/hackers-hack-victims-hacked-by-other-hackers/",
+            "date": "2026-05-07T18:28:52+00:00",
+            "summary": "An unknown group of hackers is breaking into systems previously breached by the cybercrime group TeamPCP. Once inside, the hackers immediately kick out TeamPCP and remove its hacking tools from the victims’ systems."
+          },
           {
             "title": "Kalshi doubles valuation in 5 months, hitting $22B",
             "link": "https://techcrunch.com/2026/05/07/kalshi-doubles-valuation-in-5-months-hitting-22-billion/",
@@ -2644,48 +2686,6 @@
             "link": "https://techcrunch.com/2026/05/07/how-anthropics-mythos-has-rewritten-firefoxs-approach-to-cybersecurity/",
             "date": "2026-05-07T16:05:48+00:00",
             "summary": "Security researchers at Mozilla say Anthropic's Mythos has unearthed a wealth of high-severity bugs in Firefox."
-          },
-          {
-            "title": "Google’s $9.99-per-month AI health coach launches May 19",
-            "link": "https://techcrunch.com/2026/05/07/googles-9-99-per-month-ai-health-coach-launches-may-19/",
-            "date": "2026-05-07T15:35:38+00:00",
-            "summary": "The Gemini-powered health coach will act as a combination fitness coach, sleep expert, and health and wellness advisor."
-          },
-          {
-            "title": "Google unveils Whoop-like screenless Fitbit Air",
-            "link": "https://techcrunch.com/2026/05/07/google-unveils-whoop-like-screenless-fitbit-air/",
-            "date": "2026-05-07T15:17:38+00:00",
-            "summary": "The device comes with health and fitness tracking like 24/7 heart rate, heart rhythm monitoring with A-fib alerts, SpO2, resting heart rate, heart rate variability, sleep stages and duration, and more."
-          },
-          {
-            "title": "Startup Battlefield 200 applications close May 27: A shot at VC access, global visibility, TechCrunch coverage, and $100K",
-            "link": "https://techcrunch.com/2026/05/07/startup-battlefield-200-applications-close-may-27-a-shot-at-vc-access-global-visibility-techcrunch-coverage-and-100k/",
-            "date": "2026-05-07T15:00:00+00:00",
-            "summary": "Startup Battlefield 200 applications are open, but only for three more weeks. Apply by May 27 for your shot at VC access, global visibility, TechCrunch coverage, $100,000 equity-free, and more opportunities for major scaling impact."
-          },
-          {
-            "title": "Police arrest SMS blaster crew that sent malicious messages to thousands across Toronto",
-            "link": "https://techcrunch.com/2026/05/07/police-arrest-sms-blaster-crew-that-sent-malicious-messages-to-thousands-across-toronto/",
-            "date": "2026-05-07T14:49:02+00:00",
-            "summary": "Toronto police said this is the \"first known instance\" of an SMS blaster being used in Canada."
-          },
-          {
-            "title": "Exhibit at TechCrunch Disrupt 2026: Get in front of 10,000 decision-makers before space runs out",
-            "link": "https://techcrunch.com/2026/05/07/exhibit-at-techcrunch-disrupt-2026-get-in-front-of-10000-decision-makers-before-space-runs-out/",
-            "date": "2026-05-07T14:30:00+00:00",
-            "summary": "If startup visibility, traction, and real deals matter, you should be on the TechCrunch Disrupt 2026 exhibit floor. Get your 6' exhibit table before your competitor does."
-          },
-          {
-            "title": "India’s first space tech unicorn emerges as Skyroot gears up for orbital launch",
-            "link": "https://techcrunch.com/2026/05/07/indias-first-space-tech-unicorn-emerges-as-skyroot-gears-up-for-orbital-launch/",
-            "date": "2026-05-07T14:28:35+00:00",
-            "summary": "Skyroot's valuation has more than doubled since 2023 as the Indian rocket startup prepares for the country's first private orbital launch."
-          },
-          {
-            "title": "2 days left: Get 50% off a second pass to TechCrunch Disrupt 2026",
-            "link": "https://techcrunch.com/2026/05/07/2-days-left-get-50-off-a-second-pass-to-techcrunch-disrupt-2026/",
-            "date": "2026-05-07T14:00:00+00:00",
-            "summary": "Two days left to save up to $410 on your pass, and get a second one at 50% off to TechCrunch Disrupt 2026. Offer ends May 8, 11:59 p.m. PT. Register now."
           }
         ]
       },
@@ -2696,8 +2696,26 @@
         "home": "https://techcrunch.com/category/artificial-intelligence/",
         "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
         "status": "ok",
-        "fetchedAt": "2026-05-07T18:26:12.931374+00:00",
+        "fetchedAt": "2026-05-07T20:15:27.960843+00:00",
         "items": [
+          {
+            "title": "Perplexity’s Personal Computer is now available everyone on Mac",
+            "link": "https://techcrunch.com/2026/05/07/perplexitys-personal-computer-is-now-available-everyone-on-mac/",
+            "date": "2026-05-07T19:57:59+00:00",
+            "summary": "Perplexity's Personal Computer brings AI agents to your Mac, and is now open to everyone."
+          },
+          {
+            "title": "Elon Musk’s lawsuit is putting OpenAI’s safety record under the microscope",
+            "link": "https://techcrunch.com/2026/05/07/elon-musks-lawsuit-is-putting-openais-safety-record-under-the-microscope/",
+            "date": "2026-05-07T19:21:21+00:00",
+            "summary": "Elon Musk's legal effort to dismantle OpenAI may hinge on how its for-profit subsidiary enhances or detracts from the frontier lab's founding mission of ensuring that humanity benefits from artificial general intelligence."
+          },
+          {
+            "title": "Bumble is getting rid of the swipe, CEO says",
+            "link": "https://techcrunch.com/2026/05/07/bumble-is-getting-rid-of-the-swipe-ceo-says/",
+            "date": "2026-05-07T19:06:17+00:00",
+            "summary": "Based on Whitney Wolfe Herd's past comments about Bumble's new direction, the company is expected to lean into AI -- Bumble is even working on an AI dating assistant called Bee, and the CEO has made many comments over the years about how AI will be \"a supercharger to love and relationships.\""
+          },
           {
             "title": "How Anthropic’s Mythos has rewritten Firefox’s approach to cybersecurity",
             "link": "https://techcrunch.com/2026/05/07/how-anthropics-mythos-has-rewritten-firefoxs-approach-to-cybersecurity/",
@@ -2739,24 +2757,6 @@
             "link": "https://techcrunch.com/2026/05/07/spotify-wants-to-become-the-home-for-ai-generated-personal-audio/",
             "date": "2026-05-07T13:00:00+00:00",
             "summary": "Users will be able to create a podcast from Codex or Claude Code and import it to Spotify."
-          },
-          {
-            "title": "Spotify’s AI DJ now supports French, German, Italian, and Brazilian Portuguese",
-            "link": "https://techcrunch.com/2026/05/07/spotifys-ai-dj-now-supports-french-german-italian-and-brazilian-portuguese/",
-            "date": "2026-05-07T12:20:04+00:00",
-            "summary": "Spotify's AI DJ feature now supports French, German, Italian, and Brazilian Portuguese."
-          },
-          {
-            "title": "Five architects of the AI economy explain where the wheels are coming off",
-            "link": "https://techcrunch.com/2026/05/06/five-architects-of-the-ai-economy-explain-where-the-wheels-are-coming-off/",
-            "date": "2026-05-07T05:25:10+00:00",
-            "summary": "Earlier this week, five people who touch every layer of the AI supply chain sat down at the Milken Institute Global Conference in Beverly Hills, where they talked with TechCrunch about everything from chip shortages to orbital data centers to the possibility that the whole architecture that undergir"
-          },
-          {
-            "title": "Barry Diller trusts Sam Altman. But ‘trust is irrelevant’ as AGI nears, he says.",
-            "link": "https://techcrunch.com/2026/05/06/barry-diller-trusts-sam-altman-but-trust-is-irrelevant-as-agi-nears-he-says/",
-            "date": "2026-05-06T21:57:56+00:00",
-            "summary": "Barry Diller defended OpenAI CEO Sam Altman, while warning that AGI remains an unpredictable force needing guardrails."
           }
         ]
       },
@@ -2767,7 +2767,7 @@
         "home": "https://techcrunch.com/tag/funding/",
         "url": "https://techcrunch.com/tag/funding/feed/",
         "status": "ok",
-        "fetchedAt": "2026-05-07T18:26:12.936524+00:00",
+        "fetchedAt": "2026-05-07T20:15:27.983807+00:00",
         "items": [
           {
             "title": "ElevenLabs lists BlackRock, Jamie Foxx, and Eva Longoria as new investors",
@@ -2838,13 +2838,13 @@
         "home": "https://venturebeat.com/",
         "url": "https://venturebeat.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-05-07T18:26:12.620742+00:00",
+        "fetchedAt": "2026-05-07T20:15:28.205551+00:00",
         "items": [
           {
-            "title": "Meet ZAYA1-8B, a super efficient open reasoning model trained on AMD Instinct MI300 GPUs",
+            "title": "Meet ZAYA1-8B, a super efficient, open reasoning model trained on AMD Instinct MI300 GPUs",
             "link": "https://venturebeat.com/technology/meet-zaya1-8b-a-super-efficient-open-reasoning-model-trained-on-amd-instinct-mi300-gpus",
             "date": "2026-05-07T18:24:00+00:00",
-            "summary": "Even as leading AI providers like OpenAI and Anthropic battle over the compute to train and release ever larger, more powerful models other labs are going in a different direction — pursuing the development of smaller, more efficient models and often open sourcing them. The latest worth paying atten"
+            "summary": "Even as leading AI providers like OpenAI and Anthropic battle over the compute to train and release ever larger, more powerful models, other labs are going in a different direction — pursuing the development of smaller, more efficient models and often open sourcing them. The latest worth paying atte"
           },
           {
             "title": "Why AI breaks without context — and how to fix it",
@@ -2891,7 +2891,7 @@
         "home": "https://venturebeat.com/category/ai/",
         "url": "https://venturebeat.com/category/ai/feed/",
         "status": "ok",
-        "fetchedAt": "2026-05-07T18:26:12.665698+00:00",
+        "fetchedAt": "2026-05-07T20:15:28.246365+00:00",
         "items": [
           {
             "title": "Railway secures $100 million to challenge AWS with AI-native cloud infrastructure",
@@ -2956,7 +2956,7 @@
         "home": "https://www.bestblogs.dev/",
         "url": "https://www.bestblogs.dev/zh/feeds/rss?category=ai&minScore=90",
         "status": "ok",
-        "fetchedAt": "2026-05-07T18:26:13.075886+00:00",
+        "fetchedAt": "2026-05-07T20:15:29.267568+00:00",
         "items": [
           {
             "title": "管 Vibe Coding 项目，就像管公共厕所",
@@ -3024,14 +3024,174 @@
   },
   "allItems": [
     {
-      "title": "Meet ZAYA1-8B, a super efficient open reasoning model trained on AMD Instinct MI300 GPUs",
+      "title": "Tesla Model Y is first car to meet new U.S. driver assistance safety benchmark",
+      "link": "https://techcrunch.com/2026/05/07/tesla-model-y-is-first-car-to-meet-new-u-s-driver-assistance-safety-benchmark/",
+      "date": "2026-05-07T20:10:48+00:00",
+      "summary": "The new benchmark rating applies to 2026 Tesla Model Y vehicles assembled on or after November 12, 2025.",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "Perplexity’s Personal Computer is now available everyone on Mac",
+      "link": "https://techcrunch.com/2026/05/07/perplexitys-personal-computer-is-now-available-everyone-on-mac/",
+      "date": "2026-05-07T19:57:59+00:00",
+      "summary": "Perplexity's Personal Computer brings AI agents to your Mac, and is now open to everyone.",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "Perplexity’s Personal Computer is now available everyone on Mac",
+      "link": "https://techcrunch.com/2026/05/07/perplexitys-personal-computer-is-now-available-everyone-on-mac/",
+      "date": "2026-05-07T19:57:59+00:00",
+      "summary": "Perplexity's Personal Computer brings AI agents to your Mac, and is now open to everyone.",
+      "feedId": "techcrunch-ai",
+      "feedTitle": "TechCrunch AI",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
+    },
+    {
+      "title": "llm-gemini 0.31",
+      "link": "https://simonwillison.net/2026/May/7/llm-gemini/#atom-everything",
+      "date": "2026-05-07T19:57:06+00:00",
+      "summary": "Release: llm-gemini 0.31 gemini-3.1-flash-lite is no longer a preview. Here's my write-up of the Gemini 3.1 Flash-Lite Preview model back in March. I don't believe this new non-preview model has changed since then. Tags: llm-release, gemini, llm, google, generative-ai, ai, llms",
+      "feedId": "simonwillison",
+      "feedTitle": "Simon Willison",
+      "category": "AI & LLM",
+      "feedHome": "https://simonwillison.net/"
+    },
+    {
+      "title": "Dirtyfrag: Universal Linux LPE",
+      "link": "https://www.openwall.com/lists/oss-security/2026/05/07/8",
+      "date": "2026-05-07T19:21:32+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "Elon Musk’s lawsuit is putting OpenAI’s safety record under the microscope",
+      "link": "https://techcrunch.com/2026/05/07/elon-musks-lawsuit-is-putting-openais-safety-record-under-the-microscope/",
+      "date": "2026-05-07T19:21:21+00:00",
+      "summary": "Elon Musk's legal effort to dismantle OpenAI may hinge on how its for-profit subsidiary enhances or detracts from the frontier lab's founding mission of ensuring that humanity benefits from artificial general intelligence.",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "Elon Musk’s lawsuit is putting OpenAI’s safety record under the microscope",
+      "link": "https://techcrunch.com/2026/05/07/elon-musks-lawsuit-is-putting-openais-safety-record-under-the-microscope/",
+      "date": "2026-05-07T19:21:21+00:00",
+      "summary": "Elon Musk's legal effort to dismantle OpenAI may hinge on how its for-profit subsidiary enhances or detracts from the frontier lab's founding mission of ensuring that humanity benefits from artificial general intelligence.",
+      "feedId": "techcrunch-ai",
+      "feedTitle": "TechCrunch AI",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
+    },
+    {
+      "title": "Bumble is getting rid of the swipe, CEO says",
+      "link": "https://techcrunch.com/2026/05/07/bumble-is-getting-rid-of-the-swipe-ceo-says/",
+      "date": "2026-05-07T19:06:17+00:00",
+      "summary": "Based on Whitney Wolfe Herd's past comments about Bumble's new direction, the company is expected to lean into AI -- Bumble is even working on an AI dating assistant called Bee, and the CEO has made many comments over the years about how AI will be \"a supercharger to love and relationships.\"",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "Bumble is getting rid of the swipe, CEO says",
+      "link": "https://techcrunch.com/2026/05/07/bumble-is-getting-rid-of-the-swipe-ceo-says/",
+      "date": "2026-05-07T19:06:17+00:00",
+      "summary": "Based on Whitney Wolfe Herd's past comments about Bumble's new direction, the company is expected to lean into AI -- Bumble is even working on an AI dating assistant called Bee, and the CEO has made many comments over the years about how AI will be \"a supercharger to love and relationships.\"",
+      "feedId": "techcrunch-ai",
+      "feedTitle": "TechCrunch AI",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
+    },
+    {
+      "title": "Colored Shadow Penumbra",
+      "link": "https://chosker.github.io/blog/colored-shadow-penumbra",
+      "date": "2026-05-07T19:04:30+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "Big Words",
+      "link": "https://simonwillison.net/2026/May/7/big-words/#atom-everything",
+      "date": "2026-05-07T18:47:09+00:00",
+      "summary": "Tool: Big Words I'm using my vibe coded macOS presentations tool to put together a talk, and I wanted to add a slide with some text on it. The tool only accepts URLs, so I put together a quick page that accepts query string arguments and turns them into a simple slide. Here's an example: https://too",
+      "feedId": "simonwillison",
+      "feedTitle": "Simon Willison",
+      "category": "AI & LLM",
+      "feedHome": "https://simonwillison.net/"
+    },
+    {
+      "title": "The Greatest Match Cut in Cinematic History, Improved by Amazon Prime",
+      "link": "https://bsky.app/profile/gethill.bsky.social/post/3ml6fyfv7kc2l",
+      "date": "2026-05-07T18:46:45+00:00",
+      "summary": "I’m sure there’s a scene marker right at the cut, so that’s why an ad got inserted there. But, my god. Someone at Amazon should go to prison for this. (I think it’s a total coincidence that the Febreze ad seems roughly color-matched to the sky. But scroll down in the Bluesky thread for some links to",
+      "feedId": "daringfireball",
+      "feedTitle": "Daring Fireball",
+      "category": "Tech Blogs",
+      "feedHome": "https://daringfireball.net/"
+    },
+    {
+      "title": "Tome, another Goodreads book-tracker rival, shuts down",
+      "link": "https://techcrunch.com/2026/05/07/tome-another-goodreads-booktracker-rival-shuts-down/",
+      "date": "2026-05-07T18:38:58+00:00",
+      "summary": "Built on the back of the sizable and influential BookTok community -- creators who discuss and review books on TikTok -- the app offered readers a place to chronicle and rate their books, get recommendations, and even add photos of things like favorite quotes or memes, or share playlists that match ",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "Could Lovable’s automatic 10% pay raise be the cure for toxic cultures?",
+      "link": "https://techcrunch.com/2026/05/07/could-lovables-automatic-10-pay-raise-be-the-cure-for-toxic-cultures/",
+      "date": "2026-05-07T18:36:29+00:00",
+      "summary": "Stockholm-based vibe-coding platform Lovable is offering employees an automatic 10% raise as a way to sidestep classic corporate politics.",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "Hackers hack victims hacked by other hackers",
+      "link": "https://techcrunch.com/2026/05/07/hackers-hack-victims-hacked-by-other-hackers/",
+      "date": "2026-05-07T18:28:52+00:00",
+      "summary": "An unknown group of hackers is breaking into systems previously breached by the cybercrime group TeamPCP. Once inside, the hackers immediately kick out TeamPCP and remove its hacking tools from the victims’ systems.",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "Meet ZAYA1-8B, a super efficient, open reasoning model trained on AMD Instinct MI300 GPUs",
       "link": "https://venturebeat.com/technology/meet-zaya1-8b-a-super-efficient-open-reasoning-model-trained-on-amd-instinct-mi300-gpus",
       "date": "2026-05-07T18:24:00+00:00",
-      "summary": "Even as leading AI providers like OpenAI and Anthropic battle over the compute to train and release ever larger, more powerful models other labs are going in a different direction — pursuing the development of smaller, more efficient models and often open sourcing them. The latest worth paying atten",
+      "summary": "Even as leading AI providers like OpenAI and Anthropic battle over the compute to train and release ever larger, more powerful models, other labs are going in a different direction — pursuing the development of smaller, more efficient models and often open sourcing them. The latest worth paying atte",
       "feedId": "venturebeat",
       "feedTitle": "VentureBeat",
       "category": "Startup & News",
       "feedHome": "https://venturebeat.com/"
+    },
+    {
+      "title": "Smoothed polygons",
+      "link": "https://www.johndcook.com/blog/2026/05/07/smoothed-polygons/",
+      "date": "2026-05-07T18:19:24+00:00",
+      "summary": "The previous post constructed a triangular analog of the squircle, the unit circle in the p-norm where p is typically around 4. The case p = 2 is a Euclidean circle and the limit as p → ∞ is a Euclidean square. The previous post introduced three functions Li(x, y) such the level set of each function",
+      "feedId": "johndcook",
+      "feedTitle": "John D. Cook",
+      "category": "Tech Blogs",
+      "feedHome": "https://www.johndcook.com/"
     },
     {
       "title": "Kalshi doubles valuation in 5 months, hitting $22B",
@@ -3094,16 +3254,6 @@
       "feedHome": "https://news.ycombinator.com/"
     },
     {
-      "title": "The Greatest Jump Cut in Cinematic History, Improved by Amazon Prime",
-      "link": "https://bsky.app/profile/gethill.bsky.social/post/3ml6fyfv7kc2l",
-      "date": "2026-05-07T16:12:24+00:00",
-      "summary": "I’m sure there’s a scene marker right at the cut, so that’s why an ad got inserted there. But, my god. Someone at Amazon should go to prison for this. (I think it’s a total coincidence that the Febreze ad seems roughly color-matched to the sky. But scroll down in the Bluesky thread for some links to",
-      "feedId": "daringfireball",
-      "feedTitle": "Daring Fireball",
-      "category": "Tech Blogs",
-      "feedHome": "https://daringfireball.net/"
-    },
-    {
       "title": "How Anthropic’s Mythos has rewritten Firefox’s approach to cybersecurity",
       "link": "https://techcrunch.com/2026/05/07/how-anthropics-mythos-has-rewritten-firefoxs-approach-to-cybersecurity/",
       "date": "2026-05-07T16:05:48+00:00",
@@ -3124,14 +3274,24 @@
       "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
     },
     {
-      "title": "I switched from Mac to a Lenovo Chromebook",
-      "link": "https://blog.johnozbay.com/i-left-apples-ecosystem-for-a-lenovo-chromebook-and-you-can-too.html",
-      "date": "2026-05-07T16:01:24+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
+      "title": "Sources: OpenAI and Broadcom discuss terms for Broadcom to finance initial custom chip production for ~$18B, conditioned on Microsoft buying ~40% of the chips (Anissa Gardizy/The Information)",
+      "link": "https://www.techmeme.com/260507/p39#a260507p39",
+      "date": "2026-05-07T16:05:01-04:00",
+      "summary": "Anissa Gardizy / The Information: Sources: OpenAI and Broadcom discuss terms for Broadcom to finance initial custom chip production for ~$18B, conditioned on Microsoft buying ~40% of the chips&nbsp; &mdash;&nbsp; When OpenAI and chip designer Broadcom announced last fall that they would make custom ",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
       "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
+      "title": "Anthropic researchers detail natural language autoencoders, which convert LLM activations, the numbers encoding a model's thoughts, into natural language text (Anthropic)",
+      "link": "https://www.techmeme.com/260507/p38#a260507p38",
+      "date": "2026-05-07T16:00:46-04:00",
+      "summary": "Anthropic: Anthropic researchers detail natural language autoencoders, which convert LLM activations, the numbers encoding a model's thoughts, into natural language text&nbsp; &mdash;&nbsp; When you talk to an AI model like Claude, you talk to it in words.&nbsp; Internally, Claude processes those wo",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
     },
     {
       "title": "Chrome removes claim of On-device Al not sending data to Google Servers",
@@ -3154,24 +3314,34 @@
       "feedHome": "https://news.ycombinator.com/"
     },
     {
-      "title": "Google’s $9.99-per-month AI health coach launches May 19",
-      "link": "https://techcrunch.com/2026/05/07/googles-9-99-per-month-ai-health-coach-launches-may-19/",
-      "date": "2026-05-07T15:35:38+00:00",
-      "summary": "The Gemini-powered health coach will act as a combination fitness coach, sleep expert, and health and wellness advisor.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
+      "title": "Sources: Ramp told investors it is raising $750M co-led by Iconiq Capital and GIC at a valuation of $40B+ before the investment, up from $32B in November 2025 (Kate Clark/Wall Street Journal)",
+      "link": "https://www.techmeme.com/260507/p37#a260507p37",
+      "date": "2026-05-07T15:35:00-04:00",
+      "summary": "Kate Clark / Wall Street Journal: Sources: Ramp told investors it is raising $750M co-led by Iconiq Capital and GIC at a valuation of $40B+ before the investment, up from $32B in November 2025&nbsp; &mdash;&nbsp; The financing target represents a more than 30% increase from six months ago&nbsp; &mda",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
       "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
+      "feedHome": "https://www.techmeme.com/"
     },
     {
-      "title": "Google unveils Whoop-like screenless Fitbit Air",
-      "link": "https://techcrunch.com/2026/05/07/google-unveils-whoop-like-screenless-fitbit-air/",
-      "date": "2026-05-07T15:17:38+00:00",
-      "summary": "The device comes with health and fitness tracking like 24/7 heart rate, heart rhythm monitoring with A-fib alerts, SpO2, resting heart rate, heart rate variability, sleep stages and duration, and more.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
+      "title": "I want to live like Costco people",
+      "link": "https://tastecooking.com/i-want-to-live-like-costco-people/",
+      "date": "2026-05-07T15:19:27+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
       "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "EU legislators reach a deal to postpone restrictions on high-risk AI until December 2027 and to exempt the use of AI in industrial applications from the AI Act (Pieter Haeck/Politico)",
+      "link": "https://www.techmeme.com/260507/p36#a260507p36",
+      "date": "2026-05-07T15:10:01-04:00",
+      "summary": "Pieter Haeck / Politico: EU legislators reach a deal to postpone restrictions on high-risk AI until December 2027 and to exempt the use of AI in industrial applications from the AI Act&nbsp; &mdash;&nbsp; Deal marks first significant delay of digital rules amid pressure from the U.S.&nbsp; &mdash;&n",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
     },
     {
       "title": "AlphaEvolve: Gemini-powered coding agent scaling impact across fields",
@@ -3188,40 +3358,30 @@
       "link": "https://techcrunch.com/2026/05/07/startup-battlefield-200-applications-close-may-27-a-shot-at-vc-access-global-visibility-techcrunch-coverage-and-100k/",
       "date": "2026-05-07T15:00:00+00:00",
       "summary": "Startup Battlefield 200 applications are open, but only for three more weeks. Apply by May 27 for your shot at VC access, global visibility, TechCrunch coverage, $100,000 equity-free, and more opportunities for major scaling impact.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
-    },
-    {
-      "title": "Startup Battlefield 200 applications close May 27: A shot at VC access, global visibility, TechCrunch coverage, and $100K",
-      "link": "https://techcrunch.com/2026/05/07/startup-battlefield-200-applications-close-may-27-a-shot-at-vc-access-global-visibility-techcrunch-coverage-and-100k/",
-      "date": "2026-05-07T15:00:00+00:00",
-      "summary": "Startup Battlefield 200 applications are open, but only for three more weeks. Apply by May 27 for your shot at VC access, global visibility, TechCrunch coverage, $100,000 equity-free, and more opportunities for major scaling impact.",
       "feedId": "techcrunch-ai",
       "feedTitle": "TechCrunch AI",
       "category": "Startup & News",
       "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
     },
     {
-      "title": "Police arrest SMS blaster crew that sent malicious messages to thousands across Toronto",
-      "link": "https://techcrunch.com/2026/05/07/police-arrest-sms-blaster-crew-that-sent-malicious-messages-to-thousands-across-toronto/",
-      "date": "2026-05-07T14:49:02+00:00",
-      "summary": "Toronto police said this is the \"first known instance\" of an SMS blaster being used in Canada.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
+      "title": "While Anthropic will use the Colossus 1 data center, which has a really bad environmental record, xAI retains the larger Colossus 2 for its own AI training (Simon Willison/Simon Willison's Weblog)",
+      "link": "https://www.techmeme.com/260507/p35#a260507p35",
+      "date": "2026-05-07T14:50:02-04:00",
+      "summary": "Simon Willison / Simon Willison's Weblog: While Anthropic will use the Colossus 1 data center, which has a really bad environmental record, xAI retains the larger Colossus 2 for its own AI training&nbsp; &mdash;&nbsp; There weren't a lot of big new announcements from Anthropic at yesterday's Code w/",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
       "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
+      "feedHome": "https://www.techmeme.com/"
     },
     {
-      "title": "Exhibit at TechCrunch Disrupt 2026: Get in front of 10,000 decision-makers before space runs out",
-      "link": "https://techcrunch.com/2026/05/07/exhibit-at-techcrunch-disrupt-2026-get-in-front-of-10000-decision-makers-before-space-runs-out/",
-      "date": "2026-05-07T14:30:00+00:00",
-      "summary": "If startup visibility, traction, and real deals matter, you should be on the TechCrunch Disrupt 2026 exhibit floor. Get your 6' exhibit table before your competitor does.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
+      "title": "Sources: AirPods with cameras reached an advanced testing stage; the cameras will feed data to Siri to help answer questions, rather than take photos or video (Mark Gurman/Bloomberg)",
+      "link": "https://www.techmeme.com/260507/p34#a260507p34",
+      "date": "2026-05-07T14:45:02-04:00",
+      "summary": "Mark Gurman / Bloomberg: Sources: AirPods with cameras reached an advanced testing stage; the cameras will feed data to Siri to help answer questions, rather than take photos or video&nbsp; &mdash;&nbsp; Apple Inc. has reached the late stages of development for new AirPods with built-in cameras, a s",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
       "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
+      "feedHome": "https://www.techmeme.com/"
     },
     {
       "title": "Exhibit at TechCrunch Disrupt 2026: Get in front of 10,000 decision-makers before space runs out",
@@ -3232,16 +3392,6 @@
       "feedTitle": "TechCrunch AI",
       "category": "Startup & News",
       "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
-    },
-    {
-      "title": "India’s first space tech unicorn emerges as Skyroot gears up for orbital launch",
-      "link": "https://techcrunch.com/2026/05/07/indias-first-space-tech-unicorn-emerges-as-skyroot-gears-up-for-orbital-launch/",
-      "date": "2026-05-07T14:28:35+00:00",
-      "summary": "Skyroot's valuation has more than doubled since 2023 as the Indian rocket startup prepares for the country's first private orbital launch.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
     },
     {
       "title": "Aurora’s Chris Urmson on why self-driving trucks are finally ready to scale",
@@ -3254,24 +3404,14 @@
       "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
     },
     {
-      "title": "OpenAI launches three new real-time voice models for reasoning, translation, and transcription, included in its Realtime API (Zac Hall/9to5Mac)",
+      "title": "OpenAI launches three voice models in the API: GPT-Realtime-2 with GPT-5-class reasoning, GPT-Realtime-Whisper for transcription, and GPT-Realtime-Translate (Zac Hall/9to5Mac)",
       "link": "https://www.techmeme.com/260507/p33#a260507p33",
       "date": "2026-05-07T14:20:03-04:00",
-      "summary": "Zac Hall / 9to5Mac: OpenAI launches three new real-time voice models for reasoning, translation, and transcription, included in its Realtime API&nbsp; &mdash;&nbsp; OpenAI has just released three new realtime voice models that it says will &ldquo;unlock a new class of voice apps for developers.&rdqu",
+      "summary": "Zac Hall / 9to5Mac: OpenAI launches three voice models in the API: GPT-Realtime-2 with GPT-5-class reasoning, GPT-Realtime-Whisper for transcription, and GPT-Realtime-Translate&nbsp; &mdash;&nbsp; OpenAI has just released three new realtime voice models that it says will &ldquo;unlock a new class of",
       "feedId": "techmeme",
       "feedTitle": "Techmeme",
       "category": "Startup & News",
       "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "The Self-Cancelling Subscription",
-      "link": "https://predr.ag/blog/the-self-cancelling-subscription/",
-      "date": "2026-05-07T14:15:16+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
     },
     {
       "title": "OpenAI launches Trusted Contact, an optional safety feature for ChatGPT that lets adult users assign an emergency contact for mental health and safety concerns (Jess Weatherbed/The Verge)",
@@ -3284,7 +3424,7 @@
       "feedHome": "https://www.techmeme.com/"
     },
     {
-      "title": "The map that keeps Burning Man honest",
+      "title": "The Burning Man MOOP Map",
       "link": "https://www.not-ship.com/burning-man-moop/",
       "date": "2026-05-07T14:06:10+00:00",
       "summary": "Comments",
@@ -3302,16 +3442,6 @@
       "feedTitle": "The Old New Thing",
       "category": "Tech Blogs",
       "feedHome": "https://devblogs.microsoft.com/oldnewthing/"
-    },
-    {
-      "title": "2 days left: Get 50% off a second pass to TechCrunch Disrupt 2026",
-      "link": "https://techcrunch.com/2026/05/07/2-days-left-get-50-off-a-second-pass-to-techcrunch-disrupt-2026/",
-      "date": "2026-05-07T14:00:00+00:00",
-      "summary": "Two days left to save up to $410 on your pass, and get a second one at 50% off to TechCrunch Disrupt 2026. Offer ends May 8, 11:59 p.m. PT. Register now.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
     },
     {
       "title": "2 days left: Get 50% off a second pass to TechCrunch Disrupt 2026",
@@ -3355,23 +3485,13 @@
     },
     {
       "title": "Child marriages plunged when girls stayed in school in Nigeria",
-      "link": "https://www.nature.com/articles/d41586-026-00796-2",
+      "link": "https://www.nature.com/articles/d41586-026-00720-8",
       "date": "2026-05-07T13:30:04+00:00",
       "summary": "Comments",
       "feedId": "hackernews",
       "feedTitle": "Hacker News",
       "category": "Startup & News",
       "feedHome": "https://news.ycombinator.com/"
-    },
-    {
-      "title": "AWS unveils Amazon Bedrock AgentCore Payments and partners with Coinbase and Stripe to enable AI agents to execute transactions using stablecoins (RT Watson/The Block)",
-      "link": "https://www.techmeme.com/260507/p29#a260507p29",
-      "date": "2026-05-07T13:00:49-04:00",
-      "summary": "RT Watson / The Block: AWS unveils Amazon Bedrock AgentCore Payments and partners with Coinbase and Stripe to enable AI agents to execute transactions using stablecoins&nbsp; &mdash;&nbsp; Quick Take&nbsp; &mdash; Amazon Web Services has partnered with Coinbase and Stripe to enable AI agents to exec",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
     },
     {
       "title": "Spotify wants to become the home for AI-generated personal audio",
@@ -3394,36 +3514,6 @@
       "feedHome": "https://www.bestblogs.dev/"
     },
     {
-      "title": "Spotify’s AI DJ now supports French, German, Italian, and Brazilian Portuguese",
-      "link": "https://techcrunch.com/2026/05/07/spotifys-ai-dj-now-supports-french-german-italian-and-brazilian-portuguese/",
-      "date": "2026-05-07T12:20:04+00:00",
-      "summary": "Spotify's AI DJ feature now supports French, German, Italian, and Brazilian Portuguese.",
-      "feedId": "techcrunch-ai",
-      "feedTitle": "TechCrunch AI",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
-    },
-    {
-      "title": "Meta challenges Ofcom in UK High Court over the Online Safety Act, which calculates levies based on global, not UK, revenue, in a case scheduled for October (Sam Tobin/Reuters)",
-      "link": "https://www.techmeme.com/260507/p28#a260507p28",
-      "date": "2026-05-07T12:20:01-04:00",
-      "summary": "Sam Tobin / Reuters: Meta challenges Ofcom in UK High Court over the Online Safety Act, which calculates levies based on global, not UK, revenue, in a case scheduled for October&nbsp; &mdash;&nbsp; Facebook and Instagram owner Meta (META.O) is challenging Britain's media regulator Ofcom over how fee",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "Nova Intelligence, which is building agentic AI for SAP ahead of a 2030 migration, raised a $31.5M Series A led by Chemistry, taking its total funding to $40M+ (Lily Mae Lazarus/Fortune)",
-      "link": "https://www.techmeme.com/260507/p27#a260507p27",
-      "date": "2026-05-07T11:50:00-04:00",
-      "summary": "Lily Mae Lazarus / Fortune: Nova Intelligence, which is building agentic AI for SAP ahead of a 2030 migration, raised a $31.5M Series A led by Chemistry, taking its total funding to $40M+&nbsp; &mdash;&nbsp; An estimated 77% of the world's transactions touch an SAP system at some point.&nbsp; And mo",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
       "title": "I've found just the right paper for my Bottom Hole problem",
       "link": "https://shkspr.mobi/blog/2026/05/ive-found-just-the-right-paper-for-my-bottom-hole-problem/",
       "date": "2026-05-07T11:34:54+00:00",
@@ -3434,26 +3524,6 @@
       "feedHome": "https://shkspr.mobi/blog/"
     },
     {
-      "title": "Tessera Labs, which uses AI agents to automate enterprise IT migrations and ERP transformations, raised a $60M Series A led by a16z at a $320M valuation (Anna Tong/Forbes)",
-      "link": "https://www.techmeme.com/260507/p26#a260507p26",
-      "date": "2026-05-07T11:30:01-04:00",
-      "summary": "Anna Tong / Forbes: Tessera Labs, which uses AI agents to automate enterprise IT migrations and ERP transformations, raised a $60M Series A led by a16z at a $320M valuation&nbsp; &mdash;&nbsp; Kabir Nagrecha is tackling the $1.4 trillion &ldquo;consulting tax&rdquo; on the IT transformation market w",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "An interview with Google VP for Health and Home Rishi Chandra on shutting down Fit by the end of 2026, Fitbit's rebrand to Google Health, Health Coach, and more (Julian Chokkattu/Wired)",
-      "link": "https://www.techmeme.com/260507/p25#a260507p25",
-      "date": "2026-05-07T11:05:01-04:00",
-      "summary": "Julian Chokkattu / Wired: An interview with Google VP for Health and Home Rishi Chandra on shutting down Fit by the end of 2026, Fitbit's rebrand to Google Health, Health Coach, and more&nbsp; &mdash;&nbsp; Google is sunsetting Google Fit by year's end.&nbsp; While Fitbit remains very much alive, th",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
       "title": "Parloa builds service agents customers want to talk to",
       "link": "https://openai.com/index/parloa",
       "date": "2026-05-07T11:00:00+00:00",
@@ -3462,16 +3532,6 @@
       "feedTitle": "OpenAI News",
       "category": "AI & LLM",
       "feedHome": "https://openai.com/news/"
-    },
-    {
-      "title": "Spotify launches Save to Spotify, a command-line tool that allows AI agents to upload AI-generated audio summaries and personal podcasts to a user's account (Terrence O'Brien/The Verge)",
-      "link": "https://www.techmeme.com/260507/p24#a260507p24",
-      "date": "2026-05-07T10:41:01-04:00",
-      "summary": "Terrence O'Brien / The Verge: Spotify launches Save to Spotify, a command-line tool that allows AI agents to upload AI-generated audio summaries and personal podcasts to a user's account&nbsp; &mdash;&nbsp; A new command-line tool lets AI agents save audio alongside your other podcasts. &hellip; Sav",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
     },
     {
       "title": "Advancing voice intelligence with new models in the API",
@@ -3494,6 +3554,16 @@
       "feedHome": "https://pluralistic.net/"
     },
     {
+      "title": "GitHub Repo Stats",
+      "link": "https://simonwillison.net/2026/May/7/github-repo-stats/#atom-everything",
+      "date": "2026-05-07T07:25:14+00:00",
+      "summary": "Tool: GitHub Repo Stats One of the things I always look for when evaluating a new GitHub repository is the number of commits it has... but that number isn't visible on GitHub's mobile site layout. I built this tool to fix that, using this prompt: Given a GitHub repo URL or foo/bar repo ID show infor",
+      "feedId": "simonwillison",
+      "feedTitle": "Simon Willison",
+      "category": "AI & LLM",
+      "feedHome": "https://simonwillison.net/"
+    },
+    {
       "title": "Why AI breaks without context — and how to fix it",
       "link": "https://venturebeat.com/orchestration/why-ai-breaks-without-context-and-how-to-fix-it",
       "date": "2026-05-07T07:00:00+00:00",
@@ -3512,16 +3582,6 @@
       "feedTitle": "VentureBeat",
       "category": "Startup & News",
       "feedHome": "https://venturebeat.com/"
-    },
-    {
-      "title": "Five architects of the AI economy explain where the wheels are coming off",
-      "link": "https://techcrunch.com/2026/05/06/five-architects-of-the-ai-economy-explain-where-the-wheels-are-coming-off/",
-      "date": "2026-05-07T05:25:10+00:00",
-      "summary": "Earlier this week, five people who touch every layer of the AI supply chain sat down at the Milken Institute Global Conference in Beverly Hills, where they talked with TechCrunch about everything from chip shortages to orbital data centers to the possibility that the whole architecture that undergir",
-      "feedId": "techcrunch-ai",
-      "feedTitle": "TechCrunch AI",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
     },
     {
       "title": "这个封装了我 3 年自媒体经验的 AI 热点网站，今天向所有人免费开放。",
@@ -3734,6 +3794,16 @@
       "feedHome": "https://arxiv.org/list/cs.LG/recent"
     },
     {
+      "title": "Testing ads in ChatGPT",
+      "link": "https://openai.com/index/testing-ads-in-chatgpt",
+      "date": "2026-05-07T00:00:00+00:00",
+      "summary": "OpenAI begins testing ads in ChatGPT to support free access, with clear labeling, answer independence, strong privacy protections, and user control.",
+      "feedId": "openai",
+      "feedTitle": "OpenAI News",
+      "category": "AI & LLM",
+      "feedHome": "https://openai.com/news/"
+    },
+    {
       "title": "Introducing Trusted Contact in ChatGPT",
       "link": "https://openai.com/index/introducing-trusted-contact-in-chatgpt",
       "date": "2026-05-07T00:00:00+00:00",
@@ -3752,16 +3822,6 @@
       "feedTitle": "Sean Goedecke",
       "category": "Tech Blogs",
       "feedHome": "https://www.seangoedecke.com/"
-    },
-    {
-      "title": "Barry Diller trusts Sam Altman. But ‘trust is irrelevant’ as AGI nears, he says.",
-      "link": "https://techcrunch.com/2026/05/06/barry-diller-trusts-sam-altman-but-trust-is-irrelevant-as-agi-nears-he-says/",
-      "date": "2026-05-06T21:57:56+00:00",
-      "summary": "Barry Diller defended OpenAI CEO Sam Altman, while warning that AGI remains an unpredictable force needing guardrails.",
-      "feedId": "techcrunch-ai",
-      "feedTitle": "TechCrunch AI",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
     },
     {
       "title": "SQLAlchemy 2 In Practice - Chapter 7: Asynchronous SQLAlchemy",
@@ -3954,10 +4014,10 @@
       "feedHome": "https://www.troyhunt.com/"
     },
     {
-      "title": "Uber uses OpenAI to help people earn smarter and book faster",
-      "link": "https://openai.com/index/uber",
+      "title": "How frontier firms are pulling ahead",
+      "link": "https://openai.com/index/introducing-b2b-signals",
       "date": "2026-05-06T00:00:00+00:00",
-      "summary": "Uber uses OpenAI to power AI assistants and voice features that help drivers earn smarter and riders book faster across a global real-time marketplace.",
+      "summary": "OpenAI’s B2B Signals research shows how frontier enterprises deepen AI adoption, scale Codex-powered agentic workflows, and build durable competitive advantage.",
       "feedId": "openai",
       "feedTitle": "OpenAI News",
       "category": "AI & LLM",
@@ -3974,20 +4034,20 @@
       "feedHome": "https://openai.com/news/"
     },
     {
-      "title": "How frontier firms are pulling ahead",
-      "link": "https://openai.com/index/introducing-b2b-signals",
+      "title": "Singular Bank helps bankers move fast with ChatGPT and Codex",
+      "link": "https://openai.com/index/singular-bank",
       "date": "2026-05-06T00:00:00+00:00",
-      "summary": "OpenAI’s B2B Signals research shows how frontier enterprises deepen AI adoption, scale Codex-powered agentic workflows, and build durable competitive advantage.",
+      "summary": "Singular Bank built Singularity, an internal assistant using ChatGPT and Codex to help bankers save 60–90 minutes daily on meeting prep, portfolio analysis, and follow-up.",
       "feedId": "openai",
       "feedTitle": "OpenAI News",
       "category": "AI & LLM",
       "feedHome": "https://openai.com/news/"
     },
     {
-      "title": "Singular Bank helps bankers move fast with ChatGPT and Codex",
-      "link": "https://openai.com/index/singular-bank",
+      "title": "Uber uses OpenAI to help people earn smarter and book faster",
+      "link": "https://openai.com/index/uber",
       "date": "2026-05-06T00:00:00+00:00",
-      "summary": "Singular Bank built Singularity, an internal assistant using ChatGPT and Codex to help bankers save 60–90 minutes daily on meeting prep, portfolio analysis, and follow-up.",
+      "summary": "Uber uses OpenAI to power AI assistants and voice features that help drivers earn smarter and riders book faster across a global real-time marketplace.",
       "feedId": "openai",
       "feedTitle": "OpenAI News",
       "category": "AI & LLM",
@@ -4064,16 +4124,6 @@
       "feedHome": "https://daringfireball.net/"
     },
     {
-      "title": "PySimpleGUI 6",
-      "link": "https://github.com/PySimpleGUI/PySimpleGUI",
-      "date": "2026-05-05T18:18:42+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
       "title": "Pedometer++ 8.0",
       "link": "https://david-smith.org/blog/2026/04/29/maps-on-watchos/",
       "date": "2026-05-05T18:12:45+00:00",
@@ -4134,10 +4184,10 @@
       "feedHome": "https://shkspr.mobi/blog/"
     },
     {
-      "title": "Unlocking large scale AI training networks with MRC (Multipath Reliable Connection)",
-      "link": "https://openai.com/index/mrc-supercomputer-networking",
+      "title": "GPT-5.5 Instant System Card",
+      "link": "https://openai.com/index/gpt-5-5-instant-system-card",
       "date": "2026-05-05T10:00:00+00:00",
-      "summary": "OpenAI introduces MRC (Multipath Reliable Connection), a new supercomputer networking protocol released via OCP to improve resilience and performance in large-scale AI training clusters.",
+      "summary": "",
       "feedId": "openai",
       "feedTitle": "OpenAI News",
       "category": "AI & LLM",
@@ -4148,16 +4198,6 @@
       "link": "https://openai.com/index/gpt-5-5-instant",
       "date": "2026-05-05T10:00:00+00:00",
       "summary": "GPT-5.5 Instant updates ChatGPT’s default model with smarter, more accurate answers, reduced hallucinations, and improved personalization controls.",
-      "feedId": "openai",
-      "feedTitle": "OpenAI News",
-      "category": "AI & LLM",
-      "feedHome": "https://openai.com/news/"
-    },
-    {
-      "title": "GPT-5.5 Instant System Card",
-      "link": "https://openai.com/index/gpt-5-5-instant-system-card",
-      "date": "2026-05-05T10:00:00+00:00",
-      "summary": "",
       "feedId": "openai",
       "feedTitle": "OpenAI News",
       "category": "AI & LLM",
@@ -4188,36 +4228,6 @@
       "link": "https://simonwillison.net/2026/May/5/datasette-llm/#atom-everything",
       "date": "2026-05-05T01:56:55+00:00",
       "summary": "Release: datasette-llm 0.1a7 Mechanism for configuring default options for specific models. Part of Datasette's evolving support mechanism for plugins that use LLMs. It's now possible to configure a model with default options, e.g. to say all enrichment operations should use a specific model with te",
-      "feedId": "simonwillison",
-      "feedTitle": "Simon Willison",
-      "category": "AI & LLM",
-      "feedHome": "https://simonwillison.net/"
-    },
-    {
-      "title": "llm-echo 0.5a0",
-      "link": "https://simonwillison.net/2026/May/5/llm-echo/#atom-everything",
-      "date": "2026-05-05T01:31:54+00:00",
-      "summary": "Release: llm-echo 0.5a0 New -o thinking 1 option to help test against LLM 0.32a0 and higher. This plugin provides a fake model called \"echo\" for LLM which doesn't run an LLM at all - it's useful for writing automated tests. You can now do this: uvx --with llm==0.32a1 --with llm-echo==0.5a0 llm -m ec",
-      "feedId": "simonwillison",
-      "feedTitle": "Simon Willison",
-      "category": "AI & LLM",
-      "feedHome": "https://simonwillison.net/"
-    },
-    {
-      "title": "Quoting John Gruber",
-      "link": "https://simonwillison.net/2026/May/5/john-gruber/#atom-everything",
-      "date": "2026-05-05T00:46:29+00:00",
-      "summary": "So it’s well known that Y Combinator owns some stake in OpenAI. But how big is that stake? This seems like devilishly difficult information to obtain. I asked around and a little birdie who knows several OpenAI investors came back with an answer: Y Combinator owns about 0.6 percent of OpenAI. At Ope",
-      "feedId": "simonwillison",
-      "feedTitle": "Simon Willison",
-      "category": "AI & LLM",
-      "feedHome": "https://simonwillison.net/"
-    },
-    {
-      "title": "Granite 4.1 3B SVG Pelican Gallery",
-      "link": "https://simonwillison.net/2026/May/4/granite-41-3b-svg-pelican-gallery/#atom-everything",
-      "date": "2026-05-04T23:49:24+00:00",
-      "summary": "Granite 4.1 3B SVG Pelican Gallery IBM released their Granite 4.1 family of LLMs a few days ago. They're Apache 2.0 licensed and come in 3B, 8B and 30B sizes. Granite 4.1 LLMs: How They’re Built by Granite team member Yousaf Shah describes the training process in detail. Unsloth released the unsloth",
       "feedId": "simonwillison",
       "feedTitle": "Simon Willison",
       "category": "AI & LLM",
@@ -4752,16 +4762,6 @@
       "feedTitle": "Ibrahim Diallo",
       "category": "Tech Blogs",
       "feedHome": "https://idiallo.com/"
-    },
-    {
-      "title": "Closed-form solution to the nonlinear pendulum equation",
-      "link": "https://www.johndcook.com/blog/2026/04/25/exact-solution-nonlinear-pendulum/",
-      "date": "2026-04-25T16:16:12+00:00",
-      "summary": "The previous post looks at the nonlinear pendulum equation and what difference it makes to the solutions if you linearize the equation. If the initial displacement is small enough, you can simply replace sin θ with θ. If the initial displacement is larger, you can improve the accuracy quite a bit by",
-      "feedId": "johndcook",
-      "feedTitle": "John D. Cook",
-      "category": "Tech Blogs",
-      "feedHome": "https://www.johndcook.com/"
     },
     {
       "title": "You can parse an .env file as an .ini with PHP - but there's a catch",
