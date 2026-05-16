@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-15T23:56:11.701197+00:00",
+  "updatedAt": "2026-05-16T03:33:00.649684+00:00",
   "totalFeeds": 51,
   "successCount": 44,
   "failedCount": 7,
@@ -21,13 +21,31 @@
         "home": "https://simonwillison.net/",
         "url": "https://simonwillison.net/atom/everything/",
         "status": "ok",
-        "fetchedAt": "2026-05-15T23:56:01.245366+00:00",
+        "fetchedAt": "2026-05-16T03:32:50.460498+00:00",
         "items": [
+          {
+            "title": "inaturalist-clumper 0.1",
+            "link": "https://simonwillison.net/2026/May/15/inaturalist-clumper/#atom-everything",
+            "date": "2026-05-15T23:53:11+00:00",
+            "summary": "Release: inaturalist-clumper 0.1 Part of the infrastructure I use for publishing my iNaturalist sightings on my blog. I've been running this in production for a few weeks now, inspiring some iterations on how it works, so I decided to ship a 0.1 release. You can see an example of the output in this "
+          },
+          {
+            "title": "Western Gull, Rock Pigeon",
+            "link": "https://simonwillison.net/2026/May/15/sighting-361818285/#atom-everything",
+            "date": "2026-05-15T14:42:00+00:00",
+            "summary": "Western Gull, Rock Pigeon, in Los Angeles Area (custom), CA, USI went for a bird walk in the morning before PyCon, and we spotted a local seagull enjoying a Starbucks."
+          },
           {
             "title": "QR code generator",
             "link": "https://simonwillison.net/2026/May/15/qr-code-generator/#atom-everything",
             "date": "2026-05-15T04:00:49+00:00",
             "summary": "Tool: QR code generator Claude helped me build this tool for creating QR codes, for both text/URLs and for connecting to WiFi networks. Tags: vibe-coding, tools, generative-ai, ai, llms"
+          },
+          {
+            "title": "datasette-llm-limits 0.1a0",
+            "link": "https://simonwillison.net/2026/May/15/datasette-llm-limits/#atom-everything",
+            "date": "2026-05-15T00:42:09+00:00",
+            "summary": "Release: datasette-llm-limits 0.1a0 This plugin works in conjunction with datasette-llm and datasette-llm-accountant to let you configure a per-user (or global) spending limit for LLM usage inside of Datasette. Configuration looks something like this: plugins: datasette-llm-limits: limits: per-user-"
           },
           {
             "title": "Not so locked in any more",
@@ -64,24 +82,6 @@
             "link": "https://simonwillison.net/2026/May/13/csp-allow/#atom-everything",
             "date": "2026-05-13T04:50:45+00:00",
             "summary": "Tool: CSP Allow-list Experiment An experiment that shows that you can load an app in a CSP-protected sandboxed iframe (see previous note) and have a custom fetch() that intercepts CSP errors and passes them up to the parent window... which can then prompt the user to add that domain to an allow-list"
-          },
-          {
-            "title": "datasette 1.0a29",
-            "link": "https://simonwillison.net/2026/May/12/datasette/#atom-everything",
-            "date": "2026-05-12T23:41:06+00:00",
-            "summary": "Release: datasette 1.0a29 New TokenRestrictions.abbreviated(datasette) utility method for creating \"_r\" dictionaries. #2695 Table headers and column options are now visible even if a table contains zero rows. #2701 Fixed bug with display of column actions dialog on Mobile Safari. #2708 Fixed bug whe"
-          },
-          {
-            "title": "Quoting Mo Bitar",
-            "link": "https://simonwillison.net/2026/May/12/mo-bitar/#atom-everything",
-            "date": "2026-05-12T22:59:58+00:00",
-            "summary": "Now, if your CEO has never heard the phrase Ralph Loop, oh man, you are less than 30 days away from your next promotion. I'm not even exaggerating. Walk into his office, close the door, and say, hey chief, been experimenting with something. It's called Ralph Loops. And I think it could change litera"
-          },
-          {
-            "title": "Quoting Mitchell Hashimoto",
-            "link": "https://simonwillison.net/2026/May/12/mitchell-hashimoto/#atom-everything",
-            "date": "2026-05-12T22:21:51+00:00",
-            "summary": "The thing about 90% of TDMs [Technical Decision Makers] is that they're motivated primarily by NOT GETTING FIRED. These aren't people who browser Lobsters or push to GH on the weekend. These are people that work 9 to 5, get paid, go home, and NEVER THINK ABOUT WORK AGAIN. So to achieve all that, the"
           }
         ]
       },
@@ -92,13 +92,19 @@
         "home": "https://openai.com/news/",
         "url": "https://openai.com/news/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-05-15T23:56:01.554471+00:00",
+        "fetchedAt": "2026-05-16T03:32:50.717696+00:00",
         "items": [
           {
             "title": "A new personal finance experience in ChatGPT",
             "link": "https://openai.com/index/personal-finance-chatgpt",
             "date": "2026-05-15T00:00:00+00:00",
             "summary": "Preview a new personal finance experience in ChatGPT for Pro users in the U.S. Securely connect your financial accounts and get AI-powered insights and guidance grounded in your financial context, goals, and priorities."
+          },
+          {
+            "title": "Databricks brings GPT-5.5 to enterprise agent workflows",
+            "link": "https://openai.com/index/databricks",
+            "date": "2026-05-15T00:00:00+00:00",
+            "summary": "Databricks uses GPT-5.5 for enterprise agent workflows after the model set a new state of the art on the OfficeQA Pro benchmark."
           },
           {
             "title": "Sea's View on the Future of Agentic Software Development with Codex",
@@ -147,12 +153,6 @@
             "link": "https://openai.com/index/autoscout24",
             "date": "2026-05-12T00:00:00+00:00",
             "summary": "Learn how AutoScout24 Group uses Codex and ChatGPT to speed development cycles, improve code quality, and expand AI adoption."
-          },
-          {
-            "title": "What Parameter Golf taught us about AI-assisted research",
-            "link": "https://openai.com/index/what-parameter-golf-taught-us",
-            "date": "2026-05-12T00:00:00+00:00",
-            "summary": "Parameter Golf brought together 1,000+ participants and 2,000+ submissions to explore AI-assisted machine learning research, coding agents, quantization, and novel model design under strict constraints."
           }
         ]
       },
@@ -163,7 +163,7 @@
         "home": "https://arxiv.org/list/cs.AI/recent",
         "url": "https://arxiv.org/rss/cs.AI",
         "status": "ok",
-        "fetchedAt": "2026-05-15T23:56:01.498064+00:00",
+        "fetchedAt": "2026-05-16T03:32:50.773017+00:00",
         "items": [
           {
             "title": "GraphBit: A Graph-based Agentic Framework for Non-Linear Agent Orchestration",
@@ -234,7 +234,7 @@
         "home": "https://arxiv.org/list/cs.LG/recent",
         "url": "https://arxiv.org/rss/cs.LG",
         "status": "ok",
-        "fetchedAt": "2026-05-15T23:56:01.425980+00:00",
+        "fetchedAt": "2026-05-16T03:32:50.669293+00:00",
         "items": [
           {
             "title": "Vision-Based Runtime Monitoring under Varying Specifications using Semantic Latent Representations",
@@ -305,7 +305,7 @@
         "home": "https://research.google/blog/",
         "url": "https://research.google/blog/rss/",
         "status": "ok",
-        "fetchedAt": "2026-05-15T23:56:01.445118+00:00",
+        "fetchedAt": "2026-05-16T03:32:50.778867+00:00",
         "items": [
           {
             "title": "Catalyzing scientific impact through global partnerships and open resources",
@@ -376,7 +376,7 @@
         "home": "https://deepmind.google/blog/",
         "url": "https://deepmind.google/blog/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-05-15T23:56:01.436852+00:00",
+        "fetchedAt": "2026-05-16T03:32:50.830752+00:00",
         "items": [
           {
             "title": "AlphaEvolve: How our Gemini-powered coding agent is scaling impact across fields",
@@ -447,7 +447,7 @@
         "home": "https://lilianweng.github.io/",
         "url": "https://lilianweng.github.io/lil-log/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-05-15T23:56:01.158909+00:00",
+        "fetchedAt": "2026-05-16T03:32:50.428864+00:00",
         "items": [
           {
             "title": "Active Learning",
@@ -538,7 +538,7 @@
         "home": "https://minimaxir.com/",
         "url": "https://minimaxir.com/index.xml",
         "status": "ok",
-        "fetchedAt": "2026-05-15T23:56:01.184707+00:00",
+        "fetchedAt": "2026-05-16T03:32:50.478353+00:00",
         "items": [
           {
             "title": "An AI agent coding skeptic tries AI agent coding, in excessive detail",
@@ -621,7 +621,7 @@
         "home": "https://www.jeffgeerling.com/",
         "url": "https://www.jeffgeerling.com/blog.xml",
         "status": "ok",
-        "fetchedAt": "2026-05-15T23:56:01.262551+00:00",
+        "fetchedAt": "2026-05-16T03:32:50.535663+00:00",
         "items": [
           {
             "title": "Bambu Lab is abusing the open source social contract",
@@ -692,7 +692,7 @@
         "home": "https://www.seangoedecke.com/",
         "url": "https://www.seangoedecke.com/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-05-15T23:56:01.300076+00:00",
+        "fetchedAt": "2026-05-16T03:32:50.488141+00:00",
         "items": [
           {
             "title": "AI datacenters in space do not have a cooling problem",
@@ -763,7 +763,7 @@
         "home": "https://krebsonsecurity.com/",
         "url": "https://krebsonsecurity.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-05-15T23:56:01.271156+00:00",
+        "fetchedAt": "2026-05-16T03:32:50.576478+00:00",
         "items": [
           {
             "title": "Patch Tuesday, May 2026 Edition",
@@ -834,8 +834,20 @@
         "home": "https://daringfireball.net/",
         "url": "https://daringfireball.net/feeds/main",
         "status": "ok",
-        "fetchedAt": "2026-05-15T23:56:01.348008+00:00",
+        "fetchedAt": "2026-05-16T03:32:50.499102+00:00",
         "items": [
+          {
+            "title": "The Talk Show: ‘A Sociopathic Father’",
+            "link": "https://daringfireball.net/thetalkshow/2026/05/15/ep-447",
+            "date": "2026-05-16T01:39:05+00:00",
+            "summary": "Adam Lisagor returns to the show to talk about Hovercraft, his new virtual presentation camera app for Mac, and how he’s developing it with AI coding tools. Also, delicious Japanese spite sandwich cookies. Sponsored by: Parcel: Track your packages in one place, with native apps for iPhone, iPad, App"
+          },
+          {
+            "title": "Greg Brockman Officially Takes Control of Products at OpenAI, a Very Stable Well-Run Company",
+            "link": "https://www.wired.com/story/openai-reorg-greg-brockman-product/",
+            "date": "2026-05-16T01:39:39+00:00",
+            "summary": "Maxwell Zeff, reporting for Wired (News+ link): OpenAI told staff on Friday that it would reorganize the company as part of an ongoing effort to unify its product offerings, Wired has learned. OpenAI cofounder and president Greg Brockman will now lead the company’s product strategy, in addition to h"
+          },
           {
             "title": "Wanton Destruction of CBS Property",
             "link": "https://www.youtube.com/watch?v=eBKWKu2Rqxc",
@@ -851,7 +863,7 @@
           {
             "title": "Aluminium OS: Google’s ‘Android for PC’ OS for Googlebooks",
             "link": "https://aluminium-os.com/",
-            "date": "2026-05-15T21:05:06+00:00",
+            "date": "2026-05-16T01:42:39+00:00",
             "summary": "Update: I originally posted this item thinking the aluminium-os.com website was official. It’s not. And the fact that it’s not is only mentioned in small print in the page footer. My bad, and my apologies for not noticing. No wonder I thought the descriptions were so un-Google-like in language and h"
           },
           {
@@ -883,18 +895,6 @@
             "link": "https://www.wired.com/story/meta-layoffs-bad-vibes-mark-zuckerberg-ai/",
             "date": "2026-05-15T00:04:06+00:00",
             "summary": "Paresh Dave, Lauren Goode, Steven Levy, and Zoë Schiffer, reporting for Wired (News+ link): As Meta employees brace for layoffs next Wednesday, May 20, many say the vibes are horrifically, historically low. “Everyone is unhappy; the only people who are not unhappy are, literally, executives,” says a"
-          },
-          {
-            "title": "Geoffrey Fowler and the Launch of the Youth AI Safety Institute",
-            "link": "https://geoffreyfowler.substack.com/p/what-is-ai-doing-to-our-kids-im-going",
-            "date": "2026-05-14T20:51:04+00:00",
-            "summary": "Geoffrey Fowler, on his blog, which, alas, he calls “a Substack”: I’m joining the Youth AI Safety Institute as its first new employee. It’s a research and testing organization launching today under the umbrella of children’s nonprofit Common Sense Media. Backed by a $20 million annual budget, the In"
-          },
-          {
-            "title": "Tim Cook Is in Trump’s Executive Entourage for China Summit",
-            "link": "https://www.the-independent.com/news/world/americas/us-politics/elon-musk-tim-cook-trump-china-tech-ceo-b2975568.html",
-            "date": "2026-05-14T19:36:58+00:00",
-            "summary": "Owen Scott, reporting for The Independent: The list of tech and financial industry titans joining the commander-in-chief during his summit with China’s president Xi Jinping includes Elon Musk, BlackRock CEO Larry Fink, and Apple CEO Tim Cook. [...] Trump earlier confirmed a number of high-profile at"
           }
         ]
       },
@@ -905,7 +905,7 @@
         "home": "https://ericmigi.com/",
         "url": "https://ericmigi.com/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-05-15T23:56:01.352197+00:00",
+        "fetchedAt": "2026-05-16T03:32:50.514868+00:00",
         "items": [
           {
             "title": "Spring 2026 Dev Contest Results!",
@@ -976,7 +976,7 @@
         "home": "http://antirez.com/",
         "url": "http://antirez.com/rss",
         "status": "ok",
-        "fetchedAt": "2026-05-15T23:56:03.013584+00:00",
+        "fetchedAt": "2026-05-16T03:32:53.115833+00:00",
         "items": [
           {
             "title": "A few words on DS4",
@@ -1047,7 +1047,7 @@
         "home": "https://idiallo.com/",
         "url": "https://idiallo.com/feed.rss",
         "status": "ok",
-        "fetchedAt": "2026-05-15T23:56:01.439948+00:00",
+        "fetchedAt": "2026-05-16T03:32:50.897651+00:00",
         "items": [
           {
             "title": "It's funny because it's true",
@@ -1118,7 +1118,7 @@
         "home": "https://maurycyz.com/",
         "url": "https://maurycyz.com/index.xml",
         "status": "ok",
-        "fetchedAt": "2026-05-15T23:56:01.902179+00:00",
+        "fetchedAt": "2026-05-16T03:32:51.487293+00:00",
         "items": []
       },
       {
@@ -1128,7 +1128,7 @@
         "home": "https://pluralistic.net/",
         "url": "https://pluralistic.net/feed/",
         "status": "ok",
-        "fetchedAt": "2026-05-15T23:56:01.576724+00:00",
+        "fetchedAt": "2026-05-16T03:32:50.866698+00:00",
         "items": [
           {
             "title": "Pluralistic: No one wants a permanent gerontocracy (15 May 2026)",
@@ -1199,7 +1199,7 @@
         "home": "https://shkspr.mobi/blog/",
         "url": "https://shkspr.mobi/blog/feed/",
         "status": "ok",
-        "fetchedAt": "2026-05-15T23:56:01.880028+00:00",
+        "fetchedAt": "2026-05-16T03:32:52.855596+00:00",
         "items": []
       },
       {
@@ -1219,7 +1219,7 @@
         "home": "https://mitchellh.com/",
         "url": "https://mitchellh.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-05-15T23:56:01.858489+00:00",
+        "fetchedAt": "2026-05-16T03:32:50.719186+00:00",
         "items": [
           {
             "title": "Ghostty Is Leaving GitHub",
@@ -1290,7 +1290,7 @@
         "home": "https://dynomight.net/",
         "url": "https://dynomight.net/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-05-15T23:56:01.329307+00:00",
+        "fetchedAt": "2026-05-16T03:32:51.079382+00:00",
         "items": [
           {
             "title": "What’s with all the slide decks?",
@@ -1361,7 +1361,7 @@
         "home": "https://xeiaso.net/",
         "url": "https://xeiaso.net/blog.rss",
         "status": "ok",
-        "fetchedAt": "2026-05-15T23:56:02.414823+00:00",
+        "fetchedAt": "2026-05-16T03:32:51.114161+00:00",
         "items": [
           {
             "title": "Amazonbot is finally respecting robots.txt",
@@ -1432,7 +1432,7 @@
         "home": "https://devblogs.microsoft.com/oldnewthing/",
         "url": "https://devblogs.microsoft.com/oldnewthing/feed",
         "status": "ok",
-        "fetchedAt": "2026-05-15T23:56:01.431993+00:00",
+        "fetchedAt": "2026-05-16T03:32:50.598876+00:00",
         "items": [
           {
             "title": "The case of the Create­File­Mapping that always reported ERROR_ALREADY_EXISTS",
@@ -1503,7 +1503,7 @@
         "home": "https://www.righto.com/",
         "url": "https://www.righto.com/feeds/posts/default",
         "status": "ok",
-        "fetchedAt": "2026-05-15T23:56:01.658654+00:00",
+        "fetchedAt": "2026-05-16T03:32:51.025630+00:00",
         "items": []
       },
       {
@@ -1513,7 +1513,7 @@
         "home": "https://lucumr.pocoo.org/",
         "url": "https://lucumr.pocoo.org/feed.atom",
         "status": "ok",
-        "fetchedAt": "2026-05-15T23:56:01.610737+00:00",
+        "fetchedAt": "2026-05-16T03:32:50.529922+00:00",
         "items": [
           {
             "title": "Pushing Local Models With Focus And Polish",
@@ -1584,7 +1584,7 @@
         "home": "https://skyfall.dev/",
         "url": "https://skyfall.dev/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-05-15T23:56:01.777752+00:00",
+        "fetchedAt": "2026-05-16T03:32:51.007463+00:00",
         "items": [
           {
             "title": "Good riddance, 4o",
@@ -1659,7 +1659,7 @@
         "home": "https://overreacted.io/",
         "url": "https://overreacted.io/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-05-15T23:56:01.662743+00:00",
+        "fetchedAt": "2026-05-16T03:32:50.958152+00:00",
         "items": [
           {
             "title": "A Social Filesystem",
@@ -1730,7 +1730,7 @@
         "home": "https://www.johndcook.com/",
         "url": "https://www.johndcook.com/blog/feed/",
         "status": "ok",
-        "fetchedAt": "2026-05-15T23:56:01.699272+00:00",
+        "fetchedAt": "2026-05-16T03:32:50.574447+00:00",
         "items": [
           {
             "title": "Recovering the state of xorshift128",
@@ -1801,7 +1801,7 @@
         "home": "https://matklad.github.io/",
         "url": "https://matklad.github.io/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-05-15T23:56:01.367822+00:00",
+        "fetchedAt": "2026-05-16T03:32:50.936448+00:00",
         "items": [
           {
             "title": "Catch Flakes On Main",
@@ -1872,7 +1872,7 @@
         "home": "https://eli.thegreenplace.net/",
         "url": "https://eli.thegreenplace.net/feeds/all.atom.xml",
         "status": "ok",
-        "fetchedAt": "2026-05-15T23:56:01.740938+00:00",
+        "fetchedAt": "2026-05-16T03:32:50.940865+00:00",
         "items": [
           {
             "title": "Scaling, stretching and shifting sinusoids",
@@ -1913,7 +1913,7 @@
         "home": "https://fabiensanglard.net/",
         "url": "https://fabiensanglard.net/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-05-15T23:56:01.560639+00:00",
+        "fetchedAt": "2026-05-16T03:32:51.175785+00:00",
         "items": [
           {
             "title": "How Michael Abrash doubled Quake framerate",
@@ -1984,7 +1984,7 @@
         "home": "https://blog.miguelgrinberg.com/",
         "url": "https://blog.miguelgrinberg.com/feed",
         "status": "ok",
-        "fetchedAt": "2026-05-15T23:56:02.064083+00:00",
+        "fetchedAt": "2026-05-16T03:32:51.498469+00:00",
         "items": [
           {
             "title": "SQLAlchemy 2 In Practice - Chapter 7: Asynchronous SQLAlchemy",
@@ -2055,7 +2055,7 @@
         "home": "https://www.troyhunt.com/",
         "url": "https://www.troyhunt.com/rss/",
         "status": "ok",
-        "fetchedAt": "2026-05-15T23:56:01.723872+00:00",
+        "fetchedAt": "2026-05-16T03:32:50.839159+00:00",
         "items": [
           {
             "title": "Welcoming the Bahamian Government to Have I Been Pwned",
@@ -2126,7 +2126,7 @@
         "home": "https://anildash.com/",
         "url": "https://anildash.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-05-15T23:56:01.694194+00:00",
+        "fetchedAt": "2026-05-16T03:32:50.923813+00:00",
         "items": [
           {
             "title": "The Neo solves Apple’s embarrassment",
@@ -2197,7 +2197,7 @@
         "home": "https://computer.rip/",
         "url": "https://computer.rip/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-05-15T23:56:02.115390+00:00",
+        "fetchedAt": "2026-05-16T03:32:51.155142+00:00",
         "items": [
           {
             "title": "extremely low frequencies",
@@ -2278,7 +2278,7 @@
         "home": "http://paulgraham.com/",
         "url": "http://www.aaronsw.com/2002/feeds/pgessays.rss",
         "status": "ok",
-        "fetchedAt": "2026-05-15T23:56:01.736098+00:00",
+        "fetchedAt": "2026-05-16T03:32:51.010701+00:00",
         "items": [
           {
             "title": "Superlinear Returns",
@@ -2349,7 +2349,7 @@
         "home": "https://steveblank.com/",
         "url": "https://steveblank.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-05-15T23:56:01.605446+00:00",
+        "fetchedAt": "2026-05-16T03:32:50.620771+00:00",
         "items": [
           {
             "title": "Anthropic Mythos – We’ve Opened Pandora’s Box",
@@ -2422,7 +2422,7 @@
         "home": "https://news.ycombinator.com/",
         "url": "https://news.ycombinator.com/rss",
         "status": "ok",
-        "fetchedAt": "2026-05-15T23:56:01.861945+00:00",
+        "fetchedAt": "2026-05-16T03:32:50.591646+00:00",
         "items": [
           {
             "title": "Project Gutenberg – keeps getting better",
@@ -2437,15 +2437,27 @@
             "summary": "Comments"
           },
           {
-            "title": "The Zulip Foundation",
-            "link": "https://blog.zulip.com/2026/05/15/announcing-zulip-foundation/",
-            "date": "2026-05-15T18:37:01+00:00",
+            "title": "Additive Blending on the Nintendo 64",
+            "link": "https://phoboslab.org/log/2026/05/n64-additive-blending",
+            "date": "2026-05-15T14:39:51+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "The bird eye was pushed to an evolutionary extreme",
+            "link": "https://www.quantamagazine.org/how-the-bird-eye-was-pushed-to-an-evolutionary-extreme-20260513/",
+            "date": "2026-05-14T07:17:16+00:00",
             "summary": "Comments"
           },
           {
             "title": "Naturally Occurring Quasicrystals",
             "link": "https://johncarlosbaez.wordpress.com/2026/05/14/naturally-occurring-quasicrystals/",
             "date": "2026-05-14T14:32:46+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "The main thing about P2P meth is that there's so much of it (2021)",
+            "link": "https://dynomight.net/p2p-meth/",
+            "date": "2026-05-15T23:37:32+00:00",
             "summary": "Comments"
           },
           {
@@ -2467,21 +2479,9 @@
             "summary": "Comments"
           },
           {
-            "title": "The sigmoids won't save you",
-            "link": "https://www.astralcodexten.com/p/the-sigmoids-wont-save-you",
-            "date": "2026-05-15T10:51:13+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "I designed a nibble-oriented CPU in Verilog to build a scientific calculator",
-            "link": "https://github.com/gdevic/FPGA-Calculator",
-            "date": "2026-05-15T17:15:58+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "U.S. DOJ demands Apple and Google unmask over 100k users of car-tinkering app",
-            "link": "https://macdailynews.com/2026/05/15/u-s-doj-demands-apple-and-google-unmask-over-100000-users-of-popular-car-tinkering-app-in-emissions-crackdown/",
-            "date": "2026-05-15T17:28:24+00:00",
+            "title": "Show HN: Epiq – Distributed Git based issue tracker TUI",
+            "link": "https://ljtn.github.io/epiq/",
+            "date": "2026-05-16T00:18:03+00:00",
             "summary": "Comments"
           }
         ]
@@ -2493,8 +2493,32 @@
         "home": "https://www.techmeme.com/",
         "url": "https://www.techmeme.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-05-15T23:56:01.950993+00:00",
+        "fetchedAt": "2026-05-16T03:32:50.825719+00:00",
         "items": [
+          {
+            "title": "Power prices on the largest electric grid in the US, operated by PJM, jumped 76% YoY to an average of $136.53/MWh in Q1 due to rampant demand from data centers (John Ainger/Bloomberg)",
+            "link": "https://www.techmeme.com/260515/p35#a260515p35",
+            "date": "2026-05-15T21:55:02-04:00",
+            "summary": "John Ainger / Bloomberg: Power prices on the largest electric grid in the US, operated by PJM, jumped 76% YoY to an average of $136.53/MWh in Q1 due to rampant demand from data centers&nbsp; &mdash;&nbsp; Power prices on the largest electric grid in the US jumped 76% in the first quarter due to ramp"
+          },
+          {
+            "title": "Sources: OpenAI acquired Weights.gg, which offered AI tools to create clones of people's voices, earlier this year; PitchBook: Weights.gg had raised roughly $4M (Mike Isaac/New York Times)",
+            "link": "https://www.techmeme.com/260515/p34#a260515p34",
+            "date": "2026-05-15T20:55:01-04:00",
+            "summary": "Mike Isaac / New York Times: Sources: OpenAI acquired Weights.gg, which offered AI tools to create clones of people's voices, earlier this year; PitchBook: Weights.gg had raised roughly $4M&nbsp; &mdash;&nbsp; The acquisition, Weights.gg, was a sort of social network for creating and sharing artific"
+          },
+          {
+            "title": "Sources detail friction between Samsung's memory and logic chip businesses over higher bonuses for memory chip workers, leading many to leave or apply elsewhere (Hyunjoo Jin/Reuters)",
+            "link": "https://www.techmeme.com/260515/p33#a260515p33",
+            "date": "2026-05-15T20:45:04-04:00",
+            "summary": "Hyunjoo Jin / Reuters: Sources detail friction between Samsung's memory and logic chip businesses over higher bonuses for memory chip workers, leading many to leave or apply elsewhere&nbsp; &mdash;&nbsp; A looming 18-day strike at South Korean chip giant Samsung that has triggered worries within the"
+          },
+          {
+            "title": "Seoul-based WIRobotics, which develops wearable and humanoid robots and is collaborating with Nvidia and AWS, raised a ~$68M Series B led by JB Investment (Lee Jaewoon/The Elec)",
+            "link": "https://www.techmeme.com/260515/p32#a260515p32",
+            "date": "2026-05-15T20:35:01-04:00",
+            "summary": "Lee Jaewoon / The Elec: Seoul-based WIRobotics, which develops wearable and humanoid robots and is collaborating with Nvidia and AWS, raised a ~$68M Series B led by JB Investment&nbsp; &mdash;&nbsp; Company to accelerate humanoid robot commercialization after securing major follow-on investment&nbsp"
+          },
           {
             "title": "YouTube expands its AI likeness detection program to users over the age of 18, after rolling it out to select creators, politicians, journalists, and others (Mia Sato/The Verge)",
             "link": "https://www.techmeme.com/260515/p31#a260515p31",
@@ -2505,7 +2529,7 @@
             "title": "Filings: YouTube and Snap reached agreements to settle a lawsuit headed to trial in June over claims addiction to social media has disrupted students' learning (Bloomberg)",
             "link": "https://www.techmeme.com/260515/p30#a260515p30",
             "date": "2026-05-15T18:55:01-04:00",
-            "summary": "Bloomberg: Filings: YouTube and Snap reached agreements to settle a lawsuit headed to trial in June over claims addiction to social media has disrupted students' learning&nbsp; &mdash;&nbsp; Google's YouTube and Snap Inc. reached agreements to settle the first lawsuit headed to trial over claims tha"
+            "summary": "Bloomberg: Filings: YouTube and Snap reached agreements to settle a lawsuit headed to trial in June over claims addiction to social media has disrupted students' learning&nbsp; &mdash;&nbsp; Snap Inc., Google's YouTube and ByteDance Ltd.'s TikTok reached agreements to settle the first lawsuit headed"
           },
           {
             "title": "Sources: the US FTC is investigating whether Arm is trying to illegally monopolize parts of the semiconductor market (Josh Sisco/Bloomberg)",
@@ -2530,30 +2554,6 @@
             "link": "https://www.techmeme.com/260515/p26#a260515p26",
             "date": "2026-05-15T16:40:01-04:00",
             "summary": "Julie Bort / TechCrunch: In a viral X post that parodies the old Mac vs. PC commercials, General Catalyst posted a &ldquo;VC vs GC&rdquo; video, with the VC apparently modeled after Marc Andreessen&nbsp; &mdash;&nbsp; One of the most entertaining moments in VC this week was a piece of rage-bait mark"
-          },
-          {
-            "title": "Semiconductor stocks fell globally on Friday after the Trump-Xi summit concluded without major chip deals; Nvidia closed down 4.42% and AMD closed down 5.69% (Mauro Orru/Wall Street Journal)",
-            "link": "https://www.techmeme.com/260515/p25#a260515p25",
-            "date": "2026-05-15T16:25:18-04:00",
-            "summary": "Mauro Orru / Wall Street Journal: Semiconductor stocks fell globally on Friday after the Trump-Xi summit concluded without major chip deals; Nvidia closed down 4.42% and AMD closed down 5.69%&nbsp; &mdash;&nbsp; Beijing hasn't formally approved Nvidia shipments of its H200 chips to China&nbsp; &mdas"
-          },
-          {
-            "title": "Sources: SpaceX aims to make its IPO prospectus public by next week, targeting a June 12 listing on Nasdaq, driven by a faster-than-expected SEC review (Reuters)",
-            "link": "https://www.techmeme.com/260515/p24#a260515p24",
-            "date": "2026-05-15T16:05:02-04:00",
-            "summary": "Reuters: Sources: SpaceX aims to make its IPO prospectus public by next week, targeting a June 12 listing on Nasdaq, driven by a faster-than-expected SEC review&nbsp; &mdash;&nbsp; Elon Musk's rocket and satellite maker SpaceX is planning to price its blockbuster initial public offering as early as "
-          },
-          {
-            "title": "Sources: Nord Quantique, a quantum computing startup that is pursuing a hardware-level quantum error correction approach, raised $30M at a $1.4B valuation (Sean Silcoff/Globe and Mail)",
-            "link": "https://www.techmeme.com/260515/p23#a260515p23",
-            "date": "2026-05-15T15:35:01-04:00",
-            "summary": "Sean Silcoff / Globe and Mail: Sources: Nord Quantique, a quantum computing startup that is pursuing a hardware-level quantum error correction approach, raised $30M at a $1.4B valuation&nbsp; &mdash;&nbsp; West Coast pipeline is conditional on carbon-capture project, Carney says&nbsp; &mdash;&nbsp; "
-          },
-          {
-            "title": "Source: Kraken cut ~150 staff after AI tools improved efficiency and its IPO may be delayed until late 2026 or early 2027 due to a drop in digital-asset prices (Olga Kharif/Bloomberg)",
-            "link": "https://www.techmeme.com/260515/p22#a260515p22",
-            "date": "2026-05-15T14:45:02-04:00",
-            "summary": "Olga Kharif / Bloomberg: Source: Kraken cut ~150 staff after AI tools improved efficiency and its IPO may be delayed until late 2026 or early 2027 due to a drop in digital-asset prices&nbsp; &mdash;&nbsp; Kraken, one of the world's oldest cryptocurrency exchanges, has cut some staff to reduce costs "
           }
         ]
       },
@@ -2564,7 +2564,7 @@
         "home": "https://techcrunch.com/",
         "url": "https://techcrunch.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-05-15T23:56:01.624124+00:00",
+        "fetchedAt": "2026-05-16T03:32:50.544799+00:00",
         "items": [
           {
             "title": "RJ Scaringe has raised more than $12B across three startups and investors still want more",
@@ -2635,7 +2635,7 @@
         "home": "https://techcrunch.com/category/artificial-intelligence/",
         "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
         "status": "ok",
-        "fetchedAt": "2026-05-15T23:56:01.666875+00:00",
+        "fetchedAt": "2026-05-16T03:32:50.603383+00:00",
         "items": [
           {
             "title": "The OpenAI trial wraps up, and the Musk founder machine keeps spinning",
@@ -2706,7 +2706,7 @@
         "home": "https://techcrunch.com/tag/funding/",
         "url": "https://techcrunch.com/tag/funding/feed/",
         "status": "ok",
-        "fetchedAt": "2026-05-15T23:56:01.670957+00:00",
+        "fetchedAt": "2026-05-16T03:32:50.840569+00:00",
         "items": [
           {
             "title": "ElevenLabs lists BlackRock, Jamie Foxx, and Eva Longoria as new investors",
@@ -2777,7 +2777,7 @@
         "home": "https://venturebeat.com/",
         "url": "https://venturebeat.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-05-15T23:56:01.584493+00:00",
+        "fetchedAt": "2026-05-16T03:32:50.852303+00:00",
         "items": [
           {
             "title": "Intercom, now called Fin, launches an AI agent whose only job is managing another AI agent",
@@ -2830,7 +2830,7 @@
         "home": "https://venturebeat.com/category/ai/",
         "url": "https://venturebeat.com/category/ai/feed/",
         "status": "ok",
-        "fetchedAt": "2026-05-15T23:56:01.622329+00:00",
+        "fetchedAt": "2026-05-16T03:32:50.836824+00:00",
         "items": [
           {
             "title": "Railway secures $100 million to challenge AWS with AI-native cloud infrastructure",
@@ -2895,7 +2895,7 @@
         "home": "https://www.bestblogs.dev/",
         "url": "https://www.bestblogs.dev/zh/feeds/rss?category=ai&minScore=90",
         "status": "ok",
-        "fetchedAt": "2026-05-15T23:56:08.004270+00:00",
+        "fetchedAt": "2026-05-16T03:32:51.833411+00:00",
         "items": [
           {
             "title": "浅谈 AI 超级应用",
@@ -2963,6 +2963,66 @@
   },
   "allItems": [
     {
+      "title": "Aluminium OS: Google’s ‘Android for PC’ OS for Googlebooks",
+      "link": "https://aluminium-os.com/",
+      "date": "2026-05-16T01:42:39+00:00",
+      "summary": "Update: I originally posted this item thinking the aluminium-os.com website was official. It’s not. And the fact that it’s not is only mentioned in small print in the page footer. My bad, and my apologies for not noticing. No wonder I thought the descriptions were so un-Google-like in language and h",
+      "feedId": "daringfireball",
+      "feedTitle": "Daring Fireball",
+      "category": "Tech Blogs",
+      "feedHome": "https://daringfireball.net/"
+    },
+    {
+      "title": "Greg Brockman Officially Takes Control of Products at OpenAI, a Very Stable Well-Run Company",
+      "link": "https://www.wired.com/story/openai-reorg-greg-brockman-product/",
+      "date": "2026-05-16T01:39:39+00:00",
+      "summary": "Maxwell Zeff, reporting for Wired (News+ link): OpenAI told staff on Friday that it would reorganize the company as part of an ongoing effort to unify its product offerings, Wired has learned. OpenAI cofounder and president Greg Brockman will now lead the company’s product strategy, in addition to h",
+      "feedId": "daringfireball",
+      "feedTitle": "Daring Fireball",
+      "category": "Tech Blogs",
+      "feedHome": "https://daringfireball.net/"
+    },
+    {
+      "title": "The Talk Show: ‘A Sociopathic Father’",
+      "link": "https://daringfireball.net/thetalkshow/2026/05/15/ep-447",
+      "date": "2026-05-16T01:39:05+00:00",
+      "summary": "Adam Lisagor returns to the show to talk about Hovercraft, his new virtual presentation camera app for Mac, and how he’s developing it with AI coding tools. Also, delicious Japanese spite sandwich cookies. Sponsored by: Parcel: Track your packages in one place, with native apps for iPhone, iPad, App",
+      "feedId": "daringfireball",
+      "feedTitle": "Daring Fireball",
+      "category": "Tech Blogs",
+      "feedHome": "https://daringfireball.net/"
+    },
+    {
+      "title": "Show HN: Epiq – Distributed Git based issue tracker TUI",
+      "link": "https://ljtn.github.io/epiq/",
+      "date": "2026-05-16T00:18:03+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "inaturalist-clumper 0.1",
+      "link": "https://simonwillison.net/2026/May/15/inaturalist-clumper/#atom-everything",
+      "date": "2026-05-15T23:53:11+00:00",
+      "summary": "Release: inaturalist-clumper 0.1 Part of the infrastructure I use for publishing my iNaturalist sightings on my blog. I've been running this in production for a few weeks now, inspiring some iterations on how it works, so I decided to ship a 0.1 release. You can see an example of the output in this ",
+      "feedId": "simonwillison",
+      "feedTitle": "Simon Willison",
+      "category": "AI & LLM",
+      "feedHome": "https://simonwillison.net/"
+    },
+    {
+      "title": "The main thing about P2P meth is that there's so much of it (2021)",
+      "link": "https://dynomight.net/p2p-meth/",
+      "date": "2026-05-15T23:37:32+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
       "title": "How to Write to SSDs [pdf]",
       "link": "https://www.vldb.org/pvldb/vol19/p1469-lee.pdf",
       "date": "2026-05-15T22:23:38+00:00",
@@ -2971,6 +3031,16 @@
       "feedTitle": "Hacker News",
       "category": "Startup & News",
       "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "Power prices on the largest electric grid in the US, operated by PJM, jumped 76% YoY to an average of $136.53/MWh in Q1 due to rampant demand from data centers (John Ainger/Bloomberg)",
+      "link": "https://www.techmeme.com/260515/p35#a260515p35",
+      "date": "2026-05-15T21:55:02-04:00",
+      "summary": "John Ainger / Bloomberg: Power prices on the largest electric grid in the US, operated by PJM, jumped 76% YoY to an average of $136.53/MWh in Q1 due to rampant demand from data centers&nbsp; &mdash;&nbsp; Power prices on the largest electric grid in the US jumped 76% in the first quarter due to ramp",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
     },
     {
       "title": "Intercom, now called Fin, launches an AI agent whose only job is managing another AI agent",
@@ -2983,16 +3053,6 @@
       "feedHome": "https://venturebeat.com/"
     },
     {
-      "title": "Aluminium OS: Google’s ‘Android for PC’ OS for Googlebooks",
-      "link": "https://aluminium-os.com/",
-      "date": "2026-05-15T21:05:06+00:00",
-      "summary": "Update: I originally posted this item thinking the aluminium-os.com website was official. It’s not. And the fact that it’s not is only mentioned in small print in the page footer. My bad, and my apologies for not noticing. No wonder I thought the descriptions were so un-Google-like in language and h",
-      "feedId": "daringfireball",
-      "feedTitle": "Daring Fireball",
-      "category": "Tech Blogs",
-      "feedHome": "https://daringfireball.net/"
-    },
-    {
       "title": "How RecursiveMAS speeds up multi-agent inference by 2.4x and reduces token usage by 75%",
       "link": "https://venturebeat.com/orchestration/how-recursivemas-speeds-up-multi-agent-inference-by-2-4x-and-reduces-token-usage-by-75",
       "date": "2026-05-15T21:04:15+00:00",
@@ -3001,6 +3061,36 @@
       "feedTitle": "VentureBeat",
       "category": "Startup & News",
       "feedHome": "https://venturebeat.com/"
+    },
+    {
+      "title": "Sources: OpenAI acquired Weights.gg, which offered AI tools to create clones of people's voices, earlier this year; PitchBook: Weights.gg had raised roughly $4M (Mike Isaac/New York Times)",
+      "link": "https://www.techmeme.com/260515/p34#a260515p34",
+      "date": "2026-05-15T20:55:01-04:00",
+      "summary": "Mike Isaac / New York Times: Sources: OpenAI acquired Weights.gg, which offered AI tools to create clones of people's voices, earlier this year; PitchBook: Weights.gg had raised roughly $4M&nbsp; &mdash;&nbsp; The acquisition, Weights.gg, was a sort of social network for creating and sharing artific",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
+      "title": "Sources detail friction between Samsung's memory and logic chip businesses over higher bonuses for memory chip workers, leading many to leave or apply elsewhere (Hyunjoo Jin/Reuters)",
+      "link": "https://www.techmeme.com/260515/p33#a260515p33",
+      "date": "2026-05-15T20:45:04-04:00",
+      "summary": "Hyunjoo Jin / Reuters: Sources detail friction between Samsung's memory and logic chip businesses over higher bonuses for memory chip workers, leading many to leave or apply elsewhere&nbsp; &mdash;&nbsp; A looming 18-day strike at South Korean chip giant Samsung that has triggered worries within the",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
+      "title": "Seoul-based WIRobotics, which develops wearable and humanoid robots and is collaborating with Nvidia and AWS, raised a ~$68M Series B led by JB Investment (Lee Jaewoon/The Elec)",
+      "link": "https://www.techmeme.com/260515/p32#a260515p32",
+      "date": "2026-05-15T20:35:01-04:00",
+      "summary": "Lee Jaewoon / The Elec: Seoul-based WIRobotics, which develops wearable and humanoid robots and is collaborating with Nvidia and AWS, raised a ~$68M Series B led by JB Investment&nbsp; &mdash;&nbsp; Company to accelerate humanoid robot commercialization after securing major follow-on investment&nbsp",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
     },
     {
       "title": "RJ Scaringe has raised more than $12B across three startups and investors still want more",
@@ -3096,7 +3186,7 @@
       "title": "Filings: YouTube and Snap reached agreements to settle a lawsuit headed to trial in June over claims addiction to social media has disrupted students' learning (Bloomberg)",
       "link": "https://www.techmeme.com/260515/p30#a260515p30",
       "date": "2026-05-15T18:55:01-04:00",
-      "summary": "Bloomberg: Filings: YouTube and Snap reached agreements to settle a lawsuit headed to trial in June over claims addiction to social media has disrupted students' learning&nbsp; &mdash;&nbsp; Google's YouTube and Snap Inc. reached agreements to settle the first lawsuit headed to trial over claims tha",
+      "summary": "Bloomberg: Filings: YouTube and Snap reached agreements to settle a lawsuit headed to trial in June over claims addiction to social media has disrupted students' learning&nbsp; &mdash;&nbsp; Snap Inc., Google's YouTube and ByteDance Ltd.'s TikTok reached agreements to settle the first lawsuit headed",
       "feedId": "techmeme",
       "feedTitle": "Techmeme",
       "category": "Startup & News",
@@ -3121,16 +3211,6 @@
       "feedTitle": "Techmeme",
       "category": "Startup & News",
       "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "The Zulip Foundation",
-      "link": "https://blog.zulip.com/2026/05/15/announcing-zulip-foundation/",
-      "date": "2026-05-15T18:37:01+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
     },
     {
       "title": "Professional services firm EY has withdrawn a study on loyalty rewards programs after researchers at GPTZero found apparent AI hallucinations and fake footnotes (Stephen Foley/Financial Times)",
@@ -3161,26 +3241,6 @@
       "feedTitle": "TechCrunch AI",
       "category": "Startup & News",
       "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
-    },
-    {
-      "title": "U.S. DOJ demands Apple and Google unmask over 100k users of car-tinkering app",
-      "link": "https://macdailynews.com/2026/05/15/u-s-doj-demands-apple-and-google-unmask-over-100000-users-of-popular-car-tinkering-app-in-emissions-crackdown/",
-      "date": "2026-05-15T17:28:24+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
-      "title": "I designed a nibble-oriented CPU in Verilog to build a scientific calculator",
-      "link": "https://github.com/gdevic/FPGA-Calculator",
-      "date": "2026-05-15T17:15:58+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
     },
     {
       "title": "How tech companies are using open source initiatives to achieve critical strategic goals and how such efforts are reshaping industries like AI, AVs, and more (Bill Gurley/Bill's Substack)",
@@ -3223,16 +3283,6 @@
       "feedHome": "https://www.techmeme.com/"
     },
     {
-      "title": "Semiconductor stocks fell globally on Friday after the Trump-Xi summit concluded without major chip deals; Nvidia closed down 4.42% and AMD closed down 5.69% (Mauro Orru/Wall Street Journal)",
-      "link": "https://www.techmeme.com/260515/p25#a260515p25",
-      "date": "2026-05-15T16:25:18-04:00",
-      "summary": "Mauro Orru / Wall Street Journal: Semiconductor stocks fell globally on Friday after the Trump-Xi summit concluded without major chip deals; Nvidia closed down 4.42% and AMD closed down 5.69%&nbsp; &mdash;&nbsp; Beijing hasn't formally approved Nvidia shipments of its H200 chips to China&nbsp; &mdas",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
       "title": "Project Gutenberg – keeps getting better",
       "link": "https://www.gutenberg.org/",
       "date": "2026-05-15T16:15:36+00:00",
@@ -3241,16 +3291,6 @@
       "feedTitle": "Hacker News",
       "category": "Startup & News",
       "feedHome": "https://news.ycombinator.com/"
-    },
-    {
-      "title": "Sources: SpaceX aims to make its IPO prospectus public by next week, targeting a June 12 listing on Nasdaq, driven by a faster-than-expected SEC review (Reuters)",
-      "link": "https://www.techmeme.com/260515/p24#a260515p24",
-      "date": "2026-05-15T16:05:02-04:00",
-      "summary": "Reuters: Sources: SpaceX aims to make its IPO prospectus public by next week, targeting a June 12 listing on Nasdaq, driven by a faster-than-expected SEC review&nbsp; &mdash;&nbsp; Elon Musk's rocket and satellite maker SpaceX is planning to price its blockbuster initial public offering as early as ",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
     },
     {
       "title": "OpenAI launches ChatGPT for personal finance, will let you connect bank accounts",
@@ -3293,24 +3333,24 @@
       "feedHome": "https://techcrunch.com/"
     },
     {
-      "title": "Sources: Nord Quantique, a quantum computing startup that is pursuing a hardware-level quantum error correction approach, raised $30M at a $1.4B valuation (Sean Silcoff/Globe and Mail)",
-      "link": "https://www.techmeme.com/260515/p23#a260515p23",
-      "date": "2026-05-15T15:35:01-04:00",
-      "summary": "Sean Silcoff / Globe and Mail: Sources: Nord Quantique, a quantum computing startup that is pursuing a hardware-level quantum error correction approach, raised $30M at a $1.4B valuation&nbsp; &mdash;&nbsp; West Coast pipeline is conditional on carbon-capture project, Carney says&nbsp; &mdash;&nbsp; ",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
+      "title": "Western Gull, Rock Pigeon",
+      "link": "https://simonwillison.net/2026/May/15/sighting-361818285/#atom-everything",
+      "date": "2026-05-15T14:42:00+00:00",
+      "summary": "Western Gull, Rock Pigeon, in Los Angeles Area (custom), CA, USI went for a bird walk in the morning before PyCon, and we spotted a local seagull enjoying a Starbucks.",
+      "feedId": "simonwillison",
+      "feedTitle": "Simon Willison",
+      "category": "AI & LLM",
+      "feedHome": "https://simonwillison.net/"
     },
     {
-      "title": "Source: Kraken cut ~150 staff after AI tools improved efficiency and its IPO may be delayed until late 2026 or early 2027 due to a drop in digital-asset prices (Olga Kharif/Bloomberg)",
-      "link": "https://www.techmeme.com/260515/p22#a260515p22",
-      "date": "2026-05-15T14:45:02-04:00",
-      "summary": "Olga Kharif / Bloomberg: Source: Kraken cut ~150 staff after AI tools improved efficiency and its IPO may be delayed until late 2026 or early 2027 due to a drop in digital-asset prices&nbsp; &mdash;&nbsp; Kraken, one of the world's oldest cryptocurrency exchanges, has cut some staff to reduce costs ",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
+      "title": "Additive Blending on the Nintendo 64",
+      "link": "https://phoboslab.org/log/2026/05/n64-additive-blending",
+      "date": "2026-05-15T14:39:51+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
       "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
+      "feedHome": "https://news.ycombinator.com/"
     },
     {
       "title": "The case of the Create­File­Mapping that always reported ERROR_ALREADY_EXISTS",
@@ -3393,16 +3433,6 @@
       "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
     },
     {
-      "title": "The sigmoids won't save you",
-      "link": "https://www.astralcodexten.com/p/the-sigmoids-wont-save-you",
-      "date": "2026-05-15T10:51:13+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
       "title": "浅谈 AI 超级应用",
       "link": "https://www.bestblogs.dev/article/f84f59f3?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
       "date": "2026-05-15T06:57:00+00:00",
@@ -3441,6 +3471,16 @@
       "feedTitle": "Daring Fireball",
       "category": "Tech Blogs",
       "feedHome": "https://daringfireball.net/"
+    },
+    {
+      "title": "datasette-llm-limits 0.1a0",
+      "link": "https://simonwillison.net/2026/May/15/datasette-llm-limits/#atom-everything",
+      "date": "2026-05-15T00:42:09+00:00",
+      "summary": "Release: datasette-llm-limits 0.1a0 This plugin works in conjunction with datasette-llm and datasette-llm-accountant to let you configure a per-user (or global) spending limit for LLM usage inside of Datasette. Configuration looks something like this: plugins: datasette-llm-limits: limits: per-user-",
+      "feedId": "simonwillison",
+      "feedTitle": "Simon Willison",
+      "category": "AI & LLM",
+      "feedHome": "https://simonwillison.net/"
     },
     {
       "title": "A few words on DS4",
@@ -3683,6 +3723,16 @@
       "feedHome": "https://openai.com/news/"
     },
     {
+      "title": "Databricks brings GPT-5.5 to enterprise agent workflows",
+      "link": "https://openai.com/index/databricks",
+      "date": "2026-05-15T00:00:00+00:00",
+      "summary": "Databricks uses GPT-5.5 for enterprise agent workflows after the model set a new state of the art on the OfficeQA Pro benchmark.",
+      "feedId": "openai",
+      "feedTitle": "OpenAI News",
+      "category": "AI & LLM",
+      "feedHome": "https://openai.com/news/"
+    },
+    {
       "title": "Forward Deployed Engineer：AI 时代的新宠岗位，到底干什么？",
       "link": "https://www.bestblogs.dev/article/81a8944a?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
       "date": "2026-05-15T00:00:00+00:00",
@@ -3773,16 +3823,6 @@
       "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
     },
     {
-      "title": "Geoffrey Fowler and the Launch of the Youth AI Safety Institute",
-      "link": "https://geoffreyfowler.substack.com/p/what-is-ai-doing-to-our-kids-im-going",
-      "date": "2026-05-14T20:51:04+00:00",
-      "summary": "Geoffrey Fowler, on his blog, which, alas, he calls “a Substack”: I’m joining the Youth AI Safety Institute as its first new employee. It’s a research and testing organization launching today under the umbrella of children’s nonprofit Common Sense Media. Backed by a $20 million annual budget, the In",
-      "feedId": "daringfireball",
-      "feedTitle": "Daring Fireball",
-      "category": "Tech Blogs",
-      "feedHome": "https://daringfireball.net/"
-    },
-    {
       "title": "Sea's View on the Future of Agentic Software Development with Codex",
       "link": "https://openai.com/index/sea-david-chen",
       "date": "2026-05-14T20:30:00+00:00",
@@ -3811,16 +3851,6 @@
       "feedTitle": "TechCrunch AI",
       "category": "Startup & News",
       "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
-    },
-    {
-      "title": "Tim Cook Is in Trump’s Executive Entourage for China Summit",
-      "link": "https://www.the-independent.com/news/world/americas/us-politics/elon-musk-tim-cook-trump-china-tech-ceo-b2975568.html",
-      "date": "2026-05-14T19:36:58+00:00",
-      "summary": "Owen Scott, reporting for The Independent: The list of tech and financial industry titans joining the commander-in-chief during his summit with China’s president Xi Jinping includes Elon Musk, BlackRock CEO Larry Fink, and Apple CEO Tim Cook. [...] Trump earlier confirmed a number of high-profile at",
-      "feedId": "daringfireball",
-      "feedTitle": "Daring Fireball",
-      "category": "Tech Blogs",
-      "feedHome": "https://daringfireball.net/"
     },
     {
       "title": "OpenAI is reportedly preparing legal action against Apple; it wouldn’t be the first partner to feel burned",
@@ -3891,6 +3921,16 @@
       "feedTitle": "BestBlogs.dev AI 90+",
       "category": "中文",
       "feedHome": "https://www.bestblogs.dev/"
+    },
+    {
+      "title": "The bird eye was pushed to an evolutionary extreme",
+      "link": "https://www.quantamagazine.org/how-the-bird-eye-was-pushed-to-an-evolutionary-extreme-20260513/",
+      "date": "2026-05-14T07:17:16+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
     },
     {
       "title": "It's funny because it's true",
@@ -4103,36 +4143,6 @@
       "feedHome": "https://dynomight.net/"
     },
     {
-      "title": "datasette 1.0a29",
-      "link": "https://simonwillison.net/2026/May/12/datasette/#atom-everything",
-      "date": "2026-05-12T23:41:06+00:00",
-      "summary": "Release: datasette 1.0a29 New TokenRestrictions.abbreviated(datasette) utility method for creating \"_r\" dictionaries. #2695 Table headers and column options are now visible even if a table contains zero rows. #2701 Fixed bug with display of column actions dialog on Mobile Safari. #2708 Fixed bug whe",
-      "feedId": "simonwillison",
-      "feedTitle": "Simon Willison",
-      "category": "AI & LLM",
-      "feedHome": "https://simonwillison.net/"
-    },
-    {
-      "title": "Quoting Mo Bitar",
-      "link": "https://simonwillison.net/2026/May/12/mo-bitar/#atom-everything",
-      "date": "2026-05-12T22:59:58+00:00",
-      "summary": "Now, if your CEO has never heard the phrase Ralph Loop, oh man, you are less than 30 days away from your next promotion. I'm not even exaggerating. Walk into his office, close the door, and say, hey chief, been experimenting with something. It's called Ralph Loops. And I think it could change litera",
-      "feedId": "simonwillison",
-      "feedTitle": "Simon Willison",
-      "category": "AI & LLM",
-      "feedHome": "https://simonwillison.net/"
-    },
-    {
-      "title": "Quoting Mitchell Hashimoto",
-      "link": "https://simonwillison.net/2026/May/12/mitchell-hashimoto/#atom-everything",
-      "date": "2026-05-12T22:21:51+00:00",
-      "summary": "The thing about 90% of TDMs [Technical Decision Makers] is that they're motivated primarily by NOT GETTING FIRED. These aren't people who browser Lobsters or push to GH on the weekend. These are people that work 9 to 5, get paid, go home, and NEVER THINK ABOUT WORK AGAIN. So to achieve all that, the",
-      "feedId": "simonwillison",
-      "feedTitle": "Simon Willison",
-      "category": "AI & LLM",
-      "feedHome": "https://simonwillison.net/"
-    },
-    {
       "title": "Patch Tuesday, May 2026 Edition",
       "link": "https://krebsonsecurity.com/2026/05/patch-tuesday-may-2026-edition/",
       "date": "2026-05-12T21:46:45+00:00",
@@ -4237,16 +4247,6 @@
       "link": "https://openai.com/index/autoscout24",
       "date": "2026-05-12T00:00:00+00:00",
       "summary": "Learn how AutoScout24 Group uses Codex and ChatGPT to speed development cycles, improve code quality, and expand AI adoption.",
-      "feedId": "openai",
-      "feedTitle": "OpenAI News",
-      "category": "AI & LLM",
-      "feedHome": "https://openai.com/news/"
-    },
-    {
-      "title": "What Parameter Golf taught us about AI-assisted research",
-      "link": "https://openai.com/index/what-parameter-golf-taught-us",
-      "date": "2026-05-12T00:00:00+00:00",
-      "summary": "Parameter Golf brought together 1,000+ participants and 2,000+ submissions to explore AI-assisted machine learning research, coding agents, quantization, and novel model design under strict constraints.",
       "feedId": "openai",
       "feedTitle": "OpenAI News",
       "category": "AI & LLM",
