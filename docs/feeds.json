@@ -1,16 +1,15 @@
 {
-  "updatedAt": "2026-06-13T23:06:13.333378+00:00",
+  "updatedAt": "2026-06-14T04:14:09.338143+00:00",
   "totalFeeds": 51,
-  "successCount": 44,
-  "failedCount": 7,
+  "successCount": 45,
+  "failedCount": 6,
   "failed": [
     "gwern",
     "garymarcus",
     "thesequence",
     "lcamtuf",
     "rachelbythebay",
-    "tedunangst",
-    "steveblank"
+    "tedunangst"
   ],
   "grouped": {
     "AI & LLM": [
@@ -21,8 +20,26 @@
         "home": "https://simonwillison.net/",
         "url": "https://simonwillison.net/atom/everything/",
         "status": "ok",
-        "fetchedAt": "2026-06-13T23:06:02.838501+00:00",
+        "fetchedAt": "2026-06-14T04:13:59.084533+00:00",
         "items": [
+          {
+            "title": "Publishing WASM wheels to PyPI for use with Pyodide",
+            "link": "https://simonwillison.net/2026/Jun/13/publishing-wasm-wheels/#atom-everything",
+            "date": "2026-06-13T23:55:18+00:00",
+            "summary": "The Pyodide 314.0 release announcement (via Hacker News) includes news I've been looking forward to for a long time: You can now publish Python packages built for Pyodide (or any Python runtime compatible with the PyEmscripten platform defined in PEP 783) directly to PyPI and install them at runtime"
+          },
+          {
+            "title": "luau-wasm 0.1a0",
+            "link": "https://simonwillison.net/2026/Jun/13/luau-wasm/#atom-everything",
+            "date": "2026-06-13T23:14:30+00:00",
+            "summary": "Release: luau-wasm 0.1a0 See Publishing WASM wheels to PyPI for use with Pyodide for details. Tags: lua, webassembly, pyodide"
+          },
+          {
+            "title": "Mapping SQLite result columns back to their source `table.column`",
+            "link": "https://simonwillison.net/2026/Jun/13/sqlite-column-provenance/#atom-everything",
+            "date": "2026-06-13T23:05:00+00:00",
+            "summary": "Research: Mapping SQLite result columns back to their source `table.column` It would be neat if arbitrary SQL queries in Datasette could be rendered with additional information based on which columns from which tables were included in the results. To build that, we would need to be able to look at a"
+          },
           {
             "title": "Statement on the US government directive to suspend access to Fable 5 and Mythos 5",
             "link": "https://simonwillison.net/2026/Jun/13/us-government-directive-to-suspend-access/#atom-everything",
@@ -64,24 +81,6 @@
             "link": "https://simonwillison.net/2026/Jun/11/anthropic-walks-back-policy/#atom-everything",
             "date": "2026-06-11T03:45:49+00:00",
             "summary": "Anthropic Walks Back Policy That Could Have ‘Sabotaged’ AI Researchers Using Claude Big scoop for Maxwell Zeff at Wired: “We’re changing Fable 5’s safeguards for frontier LLM development to make them visible.” Anthropic said in a statement to WIRED. “We made the wrong tradeoff and we apologize for n"
-          },
-          {
-            "title": "datasette-agent 0.2a0",
-            "link": "https://simonwillison.net/2026/Jun/10/datasette-agent/#atom-everything",
-            "date": "2026-06-10T23:57:27+00:00",
-            "summary": "Release: datasette-agent 0.2a0 Highlights from the release notes: Tools can now ask the user questions mid-execution. Tools that declare a context parameter receive a ToolContext object, and await context.ask_user(...) can ask a yes/no, multiple-choice (options=[...]) or free-text (free_text=True) q"
-          },
-          {
-            "title": "DiffusionGemma",
-            "link": "https://simonwillison.net/2026/Jun/10/diffusiongemma/#atom-everything",
-            "date": "2026-06-10T20:00:54+00:00",
-            "summary": "DiffusionGemma Last May Google briefly released an experimental Gemini Diffusion model. I tried the preview at the time and recorded it running at 857 tokens/second. It was an exciting model, but Google made no further announcements about it. That research has returned in the best possible way: as a"
-          },
-          {
-            "title": "Quoting Jeremy Howard",
-            "link": "https://simonwillison.net/2026/Jun/10/jeremy-howard/#atom-everything",
-            "date": "2026-06-10T15:23:34+00:00",
-            "summary": "Easy solution to slow down recursive AI self improvement: The lab with the top-ranked model must agree THEY must not use it for working on frontier AI But everyone else should have access to it. By definition, this means the frontier doesn't advance. It also has the critical benefit of avoiding a da"
           }
         ]
       },
@@ -92,7 +91,7 @@
         "home": "https://openai.com/news/",
         "url": "https://openai.com/news/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-06-13T23:06:03.278418+00:00",
+        "fetchedAt": "2026-06-14T04:13:59.356151+00:00",
         "items": [
           {
             "title": "New OpenAI Academy courses for the next era of work",
@@ -163,7 +162,7 @@
         "home": "https://arxiv.org/list/cs.AI/recent",
         "url": "https://arxiv.org/rss/cs.AI",
         "status": "ok",
-        "fetchedAt": "2026-06-13T23:06:02.912522+00:00",
+        "fetchedAt": "2026-06-14T04:13:59.294610+00:00",
         "items": []
       },
       {
@@ -173,7 +172,7 @@
         "home": "https://arxiv.org/list/cs.LG/recent",
         "url": "https://arxiv.org/rss/cs.LG",
         "status": "ok",
-        "fetchedAt": "2026-06-13T23:06:02.912276+00:00",
+        "fetchedAt": "2026-06-14T04:13:59.293970+00:00",
         "items": []
       },
       {
@@ -183,7 +182,7 @@
         "home": "https://research.google/blog/",
         "url": "https://research.google/blog/rss/",
         "status": "ok",
-        "fetchedAt": "2026-06-13T23:06:02.956444+00:00",
+        "fetchedAt": "2026-06-14T04:13:59.381358+00:00",
         "items": [
           {
             "title": "Research into how AI can help users understand skin conditions",
@@ -254,7 +253,7 @@
         "home": "https://deepmind.google/blog/",
         "url": "https://deepmind.google/blog/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-06-13T23:06:03.095875+00:00",
+        "fetchedAt": "2026-06-14T04:13:59.405098+00:00",
         "items": [
           {
             "title": "DiffusionGemma: 4x faster text generation",
@@ -325,7 +324,7 @@
         "home": "https://lilianweng.github.io/",
         "url": "https://lilianweng.github.io/lil-log/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-06-13T23:06:02.791889+00:00",
+        "fetchedAt": "2026-06-14T04:13:59.061020+00:00",
         "items": [
           {
             "title": "Active Learning",
@@ -416,7 +415,7 @@
         "home": "https://minimaxir.com/",
         "url": "https://minimaxir.com/index.xml",
         "status": "ok",
-        "fetchedAt": "2026-06-13T23:06:02.856161+00:00",
+        "fetchedAt": "2026-06-14T04:13:59.096882+00:00",
         "items": [
           {
             "title": "The mysterious Hy3 LLM is topping OpenRouter Model Rankings by a large margin",
@@ -499,7 +498,7 @@
         "home": "https://www.jeffgeerling.com/",
         "url": "https://www.jeffgeerling.com/blog.xml",
         "status": "ok",
-        "fetchedAt": "2026-06-13T23:06:02.881374+00:00",
+        "fetchedAt": "2026-06-14T04:13:59.098758+00:00",
         "items": [
           {
             "title": "You can finally power on a Mac remotely",
@@ -570,7 +569,7 @@
         "home": "https://www.seangoedecke.com/",
         "url": "https://www.seangoedecke.com/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-06-13T23:06:02.847256+00:00",
+        "fetchedAt": "2026-06-14T04:13:59.267314+00:00",
         "items": [
           {
             "title": "Working with product managers",
@@ -641,7 +640,7 @@
         "home": "https://krebsonsecurity.com/",
         "url": "https://krebsonsecurity.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-06-13T23:06:02.897279+00:00",
+        "fetchedAt": "2026-06-14T04:13:59.751227+00:00",
         "items": [
           {
             "title": "Who Runs the Ransomware Group ‘The Gentlemen?’",
@@ -712,7 +711,7 @@
         "home": "https://daringfireball.net/",
         "url": "https://daringfireball.net/feeds/main",
         "status": "ok",
-        "fetchedAt": "2026-06-13T23:06:02.999540+00:00",
+        "fetchedAt": "2026-06-14T04:13:59.169507+00:00",
         "items": [
           {
             "title": "Trump’s Name (Set in the Wrong Font, of Course) Has Been Removed From the Kennedy Center",
@@ -783,7 +782,7 @@
         "home": "https://ericmigi.com/",
         "url": "https://ericmigi.com/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-06-13T23:06:02.911936+00:00",
+        "fetchedAt": "2026-06-14T04:13:59.219509+00:00",
         "items": [
           {
             "title": "How I Use My Index 01 + Production Update",
@@ -854,7 +853,7 @@
         "home": "http://antirez.com/",
         "url": "http://antirez.com/rss",
         "status": "ok",
-        "fetchedAt": "2026-06-13T23:06:04.522324+00:00",
+        "fetchedAt": "2026-06-14T04:14:01.097250+00:00",
         "items": [
           {
             "title": "A new era for software testing",
@@ -925,7 +924,7 @@
         "home": "https://idiallo.com/",
         "url": "https://idiallo.com/feed.rss",
         "status": "ok",
-        "fetchedAt": "2026-06-13T23:06:02.963343+00:00",
+        "fetchedAt": "2026-06-14T04:13:59.364743+00:00",
         "items": [
           {
             "title": "I can never fully embrace LLMs for code",
@@ -996,7 +995,7 @@
         "home": "https://maurycyz.com/",
         "url": "https://maurycyz.com/index.xml",
         "status": "ok",
-        "fetchedAt": "2026-06-13T23:06:03.431316+00:00",
+        "fetchedAt": "2026-06-14T04:13:59.872678+00:00",
         "items": []
       },
       {
@@ -1006,7 +1005,7 @@
         "home": "https://pluralistic.net/",
         "url": "https://pluralistic.net/feed/",
         "status": "ok",
-        "fetchedAt": "2026-06-13T23:06:05.876420+00:00",
+        "fetchedAt": "2026-06-14T04:14:02.571952+00:00",
         "items": [
           {
             "title": "Pluralistic: Shareholder supremacy and the precog CEO (13 Jun 2026)",
@@ -1077,7 +1076,7 @@
         "home": "https://shkspr.mobi/blog/",
         "url": "https://shkspr.mobi/blog/feed/",
         "status": "ok",
-        "fetchedAt": "2026-06-13T23:06:04.088180+00:00",
+        "fetchedAt": "2026-06-14T04:13:59.974729+00:00",
         "items": []
       },
       {
@@ -1097,7 +1096,7 @@
         "home": "https://mitchellh.com/",
         "url": "https://mitchellh.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-06-13T23:06:03.135301+00:00",
+        "fetchedAt": "2026-06-14T04:13:59.210943+00:00",
         "items": [
           {
             "title": "Ghostty Is Leaving GitHub",
@@ -1168,7 +1167,7 @@
         "home": "https://dynomight.net/",
         "url": "https://dynomight.net/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-06-13T23:06:03.051971+00:00",
+        "fetchedAt": "2026-06-14T04:13:59.638770+00:00",
         "items": [
           {
             "title": "Is “colorectal cancer” rising in “young people”?",
@@ -1239,7 +1238,7 @@
         "home": "https://xeiaso.net/",
         "url": "https://xeiaso.net/blog.rss",
         "status": "ok",
-        "fetchedAt": "2026-06-13T23:06:03.691895+00:00",
+        "fetchedAt": "2026-06-14T04:14:00.181118+00:00",
         "items": [
           {
             "title": "Why are cached input tokens cheaper with AI services?",
@@ -1310,7 +1309,7 @@
         "home": "https://devblogs.microsoft.com/oldnewthing/",
         "url": "https://devblogs.microsoft.com/oldnewthing/feed",
         "status": "ok",
-        "fetchedAt": "2026-06-13T23:06:03.141486+00:00",
+        "fetchedAt": "2026-06-14T04:13:59.303140+00:00",
         "items": [
           {
             "title": "Understanding the rationale behind a rule when trying to circumvent it",
@@ -1381,7 +1380,7 @@
         "home": "https://www.righto.com/",
         "url": "https://www.righto.com/feeds/posts/default",
         "status": "ok",
-        "fetchedAt": "2026-06-13T23:06:03.207311+00:00",
+        "fetchedAt": "2026-06-14T04:13:59.593114+00:00",
         "items": []
       },
       {
@@ -1391,7 +1390,7 @@
         "home": "https://lucumr.pocoo.org/",
         "url": "https://lucumr.pocoo.org/feed.atom",
         "status": "ok",
-        "fetchedAt": "2026-06-13T23:06:03.118320+00:00",
+        "fetchedAt": "2026-06-14T04:13:59.533439+00:00",
         "items": [
           {
             "title": "Dangerous Technology For Americans Only",
@@ -1462,7 +1461,7 @@
         "home": "https://skyfall.dev/",
         "url": "https://skyfall.dev/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-06-13T23:06:03.308034+00:00",
+        "fetchedAt": "2026-06-14T04:13:59.641306+00:00",
         "items": [
           {
             "title": "Good riddance, 4o",
@@ -1537,7 +1536,7 @@
         "home": "https://overreacted.io/",
         "url": "https://overreacted.io/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-06-13T23:06:03.133729+00:00",
+        "fetchedAt": "2026-06-14T04:13:59.598160+00:00",
         "items": [
           {
             "title": "A Social Filesystem",
@@ -1608,7 +1607,7 @@
         "home": "https://www.johndcook.com/",
         "url": "https://www.johndcook.com/blog/feed/",
         "status": "ok",
-        "fetchedAt": "2026-06-13T23:06:02.991875+00:00",
+        "fetchedAt": "2026-06-14T04:13:59.280763+00:00",
         "items": [
           {
             "title": "RSA munitions T-shirt",
@@ -1679,7 +1678,7 @@
         "home": "https://matklad.github.io/",
         "url": "https://matklad.github.io/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-06-13T23:06:03.187415+00:00",
+        "fetchedAt": "2026-06-14T04:13:59.668590+00:00",
         "items": [
           {
             "title": "CSS: Unavoidable Bad Parts",
@@ -1750,8 +1749,14 @@
         "home": "https://eli.thegreenplace.net/",
         "url": "https://eli.thegreenplace.net/feeds/all.atom.xml",
         "status": "ok",
-        "fetchedAt": "2026-06-13T23:06:03.079127+00:00",
+        "fetchedAt": "2026-06-14T04:13:59.415911+00:00",
         "items": [
+          {
+            "title": "Plugins case study: Pluggy",
+            "link": "https://eli.thegreenplace.net/2026/plugins-case-study-pluggy/",
+            "date": "2026-06-14T03:20:58-07:00",
+            "summary": "Recently I came upon Pluggy, a Python library for developing plugin systems. It was originally developed as part of the pytest project - known for its rich plugin ecosystem - and later extracted into a standalone library. You're supposed to reach out for Pluggy if you want to add a plugin system …"
+          },
           {
             "title": "Thoughts on starting new projects with LLM agents",
             "link": "https://eli.thegreenplace.net/2026/thoughts-on-starting-new-projects-with-llm-agents/",
@@ -1775,12 +1780,6 @@
             "link": "https://eli.thegreenplace.net/2026/thoughts-on-webassembly-as-a-stack-machine/",
             "date": "2026-04-30T02:30:02-07:00",
             "summary": "This week the article Wasm is not quite a stack machine has been making the rounds and has caught my eye. The post claims that WASM is not a pure stack machine because it has locals and is missing some stack manipulation operations like dup and swap. While I don't …"
-          },
-          {
-            "title": "Debugging WASM in Chrome DevTools",
-            "link": "https://eli.thegreenplace.net/2026/debugging-wasm-in-chrome-devtools/",
-            "date": "2026-04-23T02:24:51-07:00",
-            "summary": "When I was working on the WASM backend for my Scheme compiler, I ran into several tricky situations with debugging generated WASM code. It turned out that Chrome has a very capable WASM debugger in its DevTools, so in this brief post I want to share how it can be …"
           }
         ]
       },
@@ -1791,7 +1790,7 @@
         "home": "https://fabiensanglard.net/",
         "url": "https://fabiensanglard.net/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-06-13T23:06:03.021890+00:00",
+        "fetchedAt": "2026-06-14T04:13:59.608892+00:00",
         "items": [
           {
             "title": "The art and engineering of Silpheed",
@@ -1862,7 +1861,7 @@
         "home": "https://blog.miguelgrinberg.com/",
         "url": "https://blog.miguelgrinberg.com/feed",
         "status": "ok",
-        "fetchedAt": "2026-06-13T23:06:03.566546+00:00",
+        "fetchedAt": "2026-06-14T04:14:00.393170+00:00",
         "items": [
           {
             "title": "I Am Not a Reverse Centaur",
@@ -1933,7 +1932,7 @@
         "home": "https://www.troyhunt.com/",
         "url": "https://www.troyhunt.com/rss/",
         "status": "ok",
-        "fetchedAt": "2026-06-13T23:06:03.163953+00:00",
+        "fetchedAt": "2026-06-14T04:13:59.958815+00:00",
         "items": [
           {
             "title": "Weekly Update 507",
@@ -2004,7 +2003,7 @@
         "home": "https://anildash.com/",
         "url": "https://anildash.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-06-13T23:06:03.063122+00:00",
+        "fetchedAt": "2026-06-14T04:13:59.626886+00:00",
         "items": [
           {
             "title": "The Neo solves Apple’s embarrassment",
@@ -2075,7 +2074,7 @@
         "home": "https://computer.rip/",
         "url": "https://computer.rip/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-06-13T23:06:03.769382+00:00",
+        "fetchedAt": "2026-06-14T04:13:59.746461+00:00",
         "items": [
           {
             "title": "the totalisator",
@@ -2156,7 +2155,7 @@
         "home": "http://paulgraham.com/",
         "url": "http://www.aaronsw.com/2002/feeds/pgessays.rss",
         "status": "ok",
-        "fetchedAt": "2026-06-13T23:06:03.311812+00:00",
+        "fetchedAt": "2026-06-14T04:13:59.505072+00:00",
         "items": [
           {
             "title": "Superlinear Returns",
@@ -2226,9 +2225,70 @@
         "title": "Steve Blank",
         "home": "https://steveblank.com/",
         "url": "https://steveblank.com/feed/",
-        "status": "error",
-        "error": "HTTP 429",
-        "items": []
+        "status": "ok",
+        "fetchedAt": "2026-06-14T04:13:59.527453+00:00",
+        "items": [
+          {
+            "title": "Incorruptible",
+            "link": "https://steveblank.com/2026/06/09/incorruptible/",
+            "date": "2026-06-09T13:00:23+00:00",
+            "summary": "Incorruptible: Why Good Companies Go Bad&#8230; and How Great Companies Stay Great, by Eric Ries. Every once in a while a book comes along that doesn&#8217;t just change your tactical thinking, but makes you see the world in a different way. Reading this book is like taking the red pill in the Matri"
+          },
+          {
+            "title": "Hacking for Defense @ Stanford 2026 – Lessons Learned Presentations",
+            "link": "https://steveblank.com/2026/06/08/g-for-defense-stanford-2026-lessons-learned-presentations/",
+            "date": "2026-06-08T13:00:15+00:00",
+            "summary": "We just wrapped up our Hacking for Defense class at Stanford. This was the 11th year we&#8217;ve taught Hacking for Defense, and the impact of asymmetric warfare, (drones, off-the-shelf technologies, etc.,) disruptive technologies (AI, commercial access to space) and a startup friendly DoW acquisiti"
+          },
+          {
+            "title": "Anthropic Mythos – We’ve Opened Pandora’s Box",
+            "link": "https://steveblank.com/2026/04/28/anthropic-mythos-weve-opened-pandoras-box/",
+            "date": "2026-04-28T13:00:48+00:00",
+            "summary": "This article previously appeared in The Cipher Brief. For a decade the cybersecurity community was predicting a cyber apocalypse tied to a single event &#8211; the day a Cryptographically Relevant Quantum Computer could run Shor’s algorithm and break the public-key cryptography systems most of the i"
+          },
+          {
+            "title": "AI and Teaching – The Brave New World",
+            "link": "https://steveblank.com/2026/04/22/ai-and-teaching-the-brave-new-world/",
+            "date": "2026-04-22T15:34:09+00:00",
+            "summary": "This article previously appeared in the Entrepreneur &#38; Innovation Exchange (EIX) This is the 16th year we’ve been teaching the Stanford Lean LaunchPad class. This year, from the first hour of the first class, we realized we were seeing something extraordinary happen. It was both the end and begi"
+          },
+          {
+            "title": "Nowhere Is Safe",
+            "link": "https://steveblank.com/2026/04/09/nowhere-is-safe/",
+            "date": "2026-04-09T13:00:25+00:00",
+            "summary": "Drones in Ukraine and in the War with Iran have made the surface of the earth a contested space. The U.S. has discovered that 1) air superiority and missile defense systems (THAAD, Patriot batteries) designed to counter tens or hundreds of aircraft and missiles is insufficient against asymmetric att"
+          },
+          {
+            "title": "Solving Yesterday’s Problems Will Kill You",
+            "link": "https://steveblank.com/2026/03/31/solving-yesterdays-problems-will-kill-you/",
+            "date": "2026-03-31T13:00:48+00:00",
+            "summary": "Join us at The 7th Annual Red Queen Conference April 22 -23 &#8211; Silicon Valley How do Portfolio Acquisition Executives and COCOMs ensure they’re working on the right problem with the right priority before locking in a requirement? Discuss, share and prototype Innovation Targeting concepts with y"
+          },
+          {
+            "title": "Your Startup Is Probably Dead On Arrival",
+            "link": "https://steveblank.com/2026/03/17/your-startup-is-probably-dead-on-arrival/",
+            "date": "2026-03-17T13:00:30+00:00",
+            "summary": "Your Startup Is Probably Dead On Arrival If you started a company more than two years ago, it’s likely that many of your assumptions are no longer true. You need to stop coding, building, recruiting, fund raising, etc., and take stock of what changed around you. Or your company will die. I just had "
+          },
+          {
+            "title": "Time to Move On – The Reason Relationships End",
+            "link": "https://steveblank.com/2026/02/24/time-to-move-on-the-reason-relationships-end/",
+            "date": "2026-02-24T14:00:57+00:00",
+            "summary": "What Lies Ahead I have no Way of Knowing, But It’s Now Time to Get Going Tom Petty This post previously appeared in Philanthropy.org A while ago I wrote about what happens in a startup when a new event creates a wake-up call that makes founding engineers reevaluate their jobs. (It’s worth a read her"
+          },
+          {
+            "title": "You Only Think They Work For You",
+            "link": "https://steveblank.com/2026/02/18/you-only-think-they-work-for-you/",
+            "date": "2026-02-18T14:00:39+00:00",
+            "summary": "When I was a new VP of Marketing I got a painful lesson of who my PR (Public Relations) agency actually worked for. Later I realized that it was true for all of my external vendors. And much later I realized what I really should have been asking them to do. The lessons still apply [&#8230;]"
+          },
+          {
+            "title": "Revisionist History – Aliens, Secrets and Conspiracies",
+            "link": "https://steveblank.com/2026/02/10/revisionist-history-aliens-secrets-and-conspiracies/",
+            "date": "2026-02-10T14:00:42+00:00",
+            "summary": "And ye shall know the truth, and the truth shall make you free” John 8:32 Every once in a while you learn something new that makes you completely rethink how/why an event actually happened. And then you consider how it affects the rest of our country and our lives. This is one of those stories. [&#8"
+          }
+        ]
       }
     ],
     "Startup & News": [
@@ -2239,12 +2299,30 @@
         "home": "https://news.ycombinator.com/",
         "url": "https://news.ycombinator.com/rss",
         "status": "ok",
-        "fetchedAt": "2026-06-13T23:06:03.346689+00:00",
+        "fetchedAt": "2026-06-14T04:13:59.289474+00:00",
         "items": [
+          {
+            "title": "The Redistribution of Housing Wealth Caused by Rent Control [pdf]",
+            "link": "https://www.rhawa.org/file/secure/shs-the-impact-of-rent-control-in-st-paul.pdf",
+            "date": "2026-06-14T02:59:34+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "10th Gen Honda Civic Updates Are Signed with AOSP Test Keys",
+            "link": "https://juniperspring.org/posts/honda-evil-valet/",
+            "date": "2026-06-14T00:49:46+00:00",
+            "summary": "Comments"
+          },
           {
             "title": "Noise infusion banned from statistical products published by Census Bureau",
             "link": "https://desfontain.es/blog/banning-noise.html",
             "date": "2026-06-13T13:54:56+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "GLM 5.2 Is Out",
+            "link": "https://twitter.com/jietang/status/2065784751345287314",
+            "date": "2026-06-13T16:18:31+00:00",
             "summary": "Comments"
           },
           {
@@ -2254,9 +2332,9 @@
             "summary": "Comments"
           },
           {
-            "title": "Pyodide 314.0: Python packages can now publish WebAssembly wheels to PyPI",
-            "link": "https://blog.pyodide.org/posts/314-release/",
-            "date": "2026-06-09T15:54:31+00:00",
+            "title": "FreeOberon – Open-Source, Cross-Platform, Free Pascal/Turbo Pascal-Like Language",
+            "link": "https://github.com/kekcleader/FreeOberon",
+            "date": "2026-06-11T14:34:46+00:00",
             "summary": "Comments"
           },
           {
@@ -2266,39 +2344,21 @@
             "summary": "Comments"
           },
           {
-            "title": "GameBoy Workboy",
-            "link": "https://tcrf.net/Workboy",
-            "date": "2026-06-13T17:43:02+00:00",
+            "title": "Pyodide 314.0: Python packages can now publish WebAssembly wheels to PyPI",
+            "link": "https://blog.pyodide.org/posts/314-release/",
+            "date": "2026-06-09T15:54:31+00:00",
             "summary": "Comments"
           },
           {
-            "title": "Running DOS on Behringers DDX3216 with a DIY x86-Bios from Scratch",
-            "link": "https://chrisdevblog.com/2026/06/08/running-dos-on-behringers-ddx3216-using-a-diy-x86-bios/",
-            "date": "2026-06-13T18:32:22+00:00",
+            "title": "Building a serial and VGA \"everything console\"",
+            "link": "http://oldvcr.blogspot.com/2026/06/building-serial-and-vga-everything.html",
+            "date": "2026-06-14T02:31:15+00:00",
             "summary": "Comments"
           },
           {
-            "title": "Amazon CEO's talks with U.S. officials triggered crackdown on Anthropic models",
-            "link": "https://www.wsj.com/tech/ai/amazon-ceos-talks-with-u-s-officials-triggered-crackdown-on-anthropic-models-dcc90578?st=Yct6gx&reflink=desktopwebshare_permalink",
-            "date": "2026-06-13T16:57:49+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "Police officer investigated for using AI to 'create evidence' in multiple cases",
-            "link": "https://news.sky.com/story/derbyshire-police-officer-investigated-for-using-ai-to-create-evidence-in-multiple-cases-13553661",
-            "date": "2026-06-13T19:54:55+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "Codex for open source",
-            "link": "https://openai.com/form/codex-for-oss/",
-            "date": "2026-06-11T22:20:03+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "Appreciating Exif",
-            "link": "https://brentfitzgerald.com/posts/appreciating-exif/",
-            "date": "2026-06-09T20:41:44+00:00",
+            "title": "Python 3.14 garbage collection rigamarole",
+            "link": "https://theconsensus.dev/p/2026/06/06/python-3-14-garbage-collection-rigamarole.html",
+            "date": "2026-06-12T11:59:40+00:00",
             "summary": "Comments"
           }
         ]
@@ -2310,8 +2370,26 @@
         "home": "https://www.techmeme.com/",
         "url": "https://www.techmeme.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-06-13T23:06:03.439204+00:00",
+        "fetchedAt": "2026-06-14T04:13:59.656707+00:00",
         "items": [
+          {
+            "title": "US officials: the Trump administration's decision to impose export controls on Anthropic followed multiple tense calls between Dario Amodei and admin officials (Politico)",
+            "link": "https://www.techmeme.com/260613/p17#a260613p17",
+            "date": "2026-06-13T23:15:51-04:00",
+            "summary": "Politico: US officials: the Trump administration's decision to impose export controls on Anthropic followed multiple tense calls between Dario Amodei and admin officials&nbsp; &mdash;&nbsp; The administration's imposition of export controls forced Anthropic to pull its new AI model, Fable, just days"
+          },
+          {
+            "title": "Companies are grappling with whether and how to curb employee wagers on prediction markets that may use confidential info, as platforms tighten their own rules (Financial Times)",
+            "link": "https://www.techmeme.com/260613/p16#a260613p16",
+            "date": "2026-06-13T22:25:01-04:00",
+            "summary": "Financial Times: Companies are grappling with whether and how to curb employee wagers on prediction markets that may use confidential info, as platforms tighten their own rules&nbsp; &mdash;&nbsp; Companies are grappling with whether and how to rein in employee wagers that could use confidential inf"
+          },
+          {
+            "title": "Q&A with labor researcher Molly Kinder on her recent, widely discussed \"Messy Middle\" essay on AI-driven disruption of knowledge jobs and how to address it (Casey Newton/Platformer)",
+            "link": "https://www.techmeme.com/260613/p15#a260613p15",
+            "date": "2026-06-13T20:25:05-04:00",
+            "summary": "Casey Newton / Platformer: Q&amp;A with labor researcher Molly Kinder on her recent, widely discussed &ldquo;Messy Middle&rdquo; essay on AI-driven disruption of knowledge jobs and how to address it&nbsp; &mdash;&nbsp; Brookings Institution researcher Molly Kinder on why she's leaving her job to cre"
+          },
           {
             "title": "Source: the White House imposed export controls on Mythos partly over suspicions a China-linked group had accessed it (Reed Albergotti/Semafor)",
             "link": "https://www.techmeme.com/260613/p13#a260613p13",
@@ -2353,24 +2431,6 @@
             "link": "https://www.techmeme.com/260613/p8#a260613p8",
             "date": "2026-06-13T12:35:02-04:00",
             "summary": "The Information: Sources: Amazon CEO Andy Jassy is among tech leaders who raised concerns with Trump officials about Mythos 5, setting in motion new export restrictions&nbsp; &mdash;&nbsp; Amazon CEO Andy Jassy was among the tech leaders who raised concerns to senior Trump administration officials t"
-          },
-          {
-            "title": "US barring foreign nationals, including Anthropic staffers in the US, from using Fable 5 and Mythos 5 marks a new phase in the US trying to control Anthropic (New York Times)",
-            "link": "https://www.techmeme.com/260613/p7#a260613p7",
-            "date": "2026-06-13T11:10:01-04:00",
-            "summary": "New York Times: US barring foreign nationals, including Anthropic staffers in the US, from using Fable 5 and Mythos 5 marks a new phase in the US trying to control Anthropic&nbsp; &mdash;&nbsp; The company said on Friday night that the federal government had ordered limits on its Mythos and Fable 5 "
-          },
-          {
-            "title": "A review of The Yahoo Boys, a deeply reported book on four online scammers in Lagos, Nigeria, exploring how and why they scam and the local impact of the trade (Jessica Loudis/Bloomberg)",
-            "link": "https://www.techmeme.com/260613/p6#a260613p6",
-            "date": "2026-06-13T09:40:01-04:00",
-            "summary": "Jessica Loudis / Bloomberg: A review of The Yahoo Boys, a deeply reported book on four online scammers in Lagos, Nigeria, exploring how and why they scam and the local impact of the trade&nbsp; &mdash;&nbsp; Nigeria's &ldquo;Yahoo Boys&rdquo; have industrialized romance scamming, reflecting and dist"
-          },
-          {
-            "title": "Luta Security CEO says US government restrictions on Mythos follow a jailbreak report by Amazon researchers and calls the restrictions a \"complete overreaction\" (Amrith Ramkumar/Wall Street Journal)",
-            "link": "https://www.techmeme.com/260613/p5#a260613p5",
-            "date": "2026-06-13T06:35:01-04:00",
-            "summary": "Amrith Ramkumar / Wall Street Journal: Luta Security CEO says US government restrictions on Mythos follow a jailbreak report by Amazon researchers and calls the restrictions a &ldquo;complete overreaction&rdquo;&nbsp; &mdash;&nbsp; The Trump administration is banning foreign governments, companies a"
           }
         ]
       },
@@ -2381,8 +2441,20 @@
         "home": "https://techcrunch.com/",
         "url": "https://techcrunch.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-06-13T23:06:02.951410+00:00",
+        "fetchedAt": "2026-06-14T04:13:59.558676+00:00",
         "items": [
+          {
+            "title": "As Anthropic suspends access to new models, India debates its AI future",
+            "link": "https://techcrunch.com/2026/06/13/as-anthropic-suspends-access-to-new-models-india-debates-its-ai-future/",
+            "date": "2026-06-14T03:00:00+00:00",
+            "summary": "Tech leaders debate whether the Anthropic episode is a wake-up call for India’s AI ambitions."
+          },
+          {
+            "title": "Meta reportedly moves to unwind $2B Manus deal after Beijing’s demand",
+            "link": "https://techcrunch.com/2026/06/13/meta-reportedly-moves-to-unwind-2b-manus-deal-after-beijings-demand/",
+            "date": "2026-06-14T00:03:49+00:00",
+            "summary": "Meta starts dismantling its $2 billion Manus acquisition after Beijing ordered the deal reversed."
+          },
           {
             "title": "KPMG pulls report on AI usage due to apparent hallucinations",
             "link": "https://techcrunch.com/2026/06/13/kpmg-pulls-report-on-ai-usage-due-to-apparent-hallucinations/",
@@ -2430,18 +2502,6 @@
             "link": "https://techcrunch.com/2026/06/12/spacex-ipo-live-updates-on-everything-you-need-to-know/",
             "date": "2026-06-12T23:15:14+00:00",
             "summary": "TechCrunch has followed SpaceX's start, struggles, and successes from the early days. And we're here for what happens next too. This package of SpaceX IPO coverage includes who stands to win (and maybe some who won't), pre-IPO deals, and what's tucked inside its S-1 registration document."
-          },
-          {
-            "title": "Meta’s months-old AI unit is a soul-crushing gulag, say the engineers stuck inside it",
-            "link": "https://techcrunch.com/2026/06/12/metas-months-old-ai-unit-is-a-soul-crushing-gulag-say-the-engineers-stuck-inside-it/",
-            "date": "2026-06-12T23:00:54+00:00",
-            "summary": "A new report suggests the unit, which employs 6,500 people, is on the verge of revolt."
-          },
-          {
-            "title": "Chinese cybercrime operation that used AI to scam ‘hundreds of thousands of victims’ sued by Google",
-            "link": "https://techcrunch.com/2026/06/12/chinese-cybercrime-operation-that-used-ai-to-scam-hundreds-of-thousands-of-victims-sued-by-google/",
-            "date": "2026-06-12T20:38:09+00:00",
-            "summary": "The tech giant said a group called \"Outsider Enterprise\" used AI to scam hundreds of thousands of victims, sending 2.5 million text messages over a span of two weeks."
           }
         ]
       },
@@ -2452,8 +2512,20 @@
         "home": "https://techcrunch.com/category/artificial-intelligence/",
         "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
         "status": "ok",
-        "fetchedAt": "2026-06-13T23:06:03.145705+00:00",
+        "fetchedAt": "2026-06-14T04:13:59.661896+00:00",
         "items": [
+          {
+            "title": "As Anthropic suspends access to new models, India debates its AI future",
+            "link": "https://techcrunch.com/2026/06/13/as-anthropic-suspends-access-to-new-models-india-debates-its-ai-future/",
+            "date": "2026-06-14T03:00:00+00:00",
+            "summary": "Tech leaders debate whether the Anthropic episode is a wake-up call for India’s AI ambitions."
+          },
+          {
+            "title": "Meta reportedly moves to unwind $2B Manus deal after Beijing’s demand",
+            "link": "https://techcrunch.com/2026/06/13/meta-reportedly-moves-to-unwind-2b-manus-deal-after-beijings-demand/",
+            "date": "2026-06-14T00:03:49+00:00",
+            "summary": "Meta starts dismantling its $2 billion Manus acquisition after Beijing ordered the deal reversed."
+          },
           {
             "title": "KPMG pulls report on AI usage due to apparent hallucinations",
             "link": "https://techcrunch.com/2026/06/13/kpmg-pulls-report-on-ai-usage-due-to-apparent-hallucinations/",
@@ -2501,18 +2573,6 @@
             "link": "https://techcrunch.com/2026/06/12/chinese-cybercrime-operation-that-used-ai-to-scam-hundreds-of-thousands-of-victims-sued-by-google/",
             "date": "2026-06-12T20:38:09+00:00",
             "summary": "The tech giant said a group called \"Outsider Enterprise\" used AI to scam hundreds of thousands of victims, sending 2.5 million text messages over a span of two weeks."
-          },
-          {
-            "title": "Mistral is rumored to be raising €3B at €20B valuation",
-            "link": "https://techcrunch.com/2026/06/12/mistral-is-rumored-to-be-raising-e3b-at-e20-valuation/",
-            "date": "2026-06-12T17:38:11+00:00",
-            "summary": "The funding round would value the company at around €20 billion (about $23.15 billion), nearly double its Series C valuation of €11.7 billion."
-          },
-          {
-            "title": "SpaceX, Anthropic, and OpenAI’s hot IPO summer",
-            "link": "https://techcrunch.com/video/spacex-anthropic-and-openais-hot-ipo-summer/",
-            "date": "2026-06-12T16:23:25+00:00",
-            "summary": "The IPO market is back, and&#160;it&#8217;s&#160;not the same&#160;companies&#160;leading the charge. FAANG had a good run, but a&#160;new acronym is taking over: MANGOS&#160;— Meta (or Microsoft, depending on who you ask), Anthropic, Nvidia, Google, OpenAI, and SpaceX. Half&#160;of that&#160;bunch "
           }
         ]
       },
@@ -2523,7 +2583,7 @@
         "home": "https://techcrunch.com/tag/funding/",
         "url": "https://techcrunch.com/tag/funding/feed/",
         "status": "ok",
-        "fetchedAt": "2026-06-13T23:06:03.149913+00:00",
+        "fetchedAt": "2026-06-14T04:13:59.706804+00:00",
         "items": [
           {
             "title": "Airbnb-backed WeRoad raises $58M to take its group travel platform to the US",
@@ -2594,7 +2654,7 @@
         "home": "https://venturebeat.com/",
         "url": "https://venturebeat.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-06-13T23:06:03.067165+00:00",
+        "fetchedAt": "2026-06-14T04:13:59.819275+00:00",
         "items": [
           {
             "title": "Anthropic blocks all public access to Claude Fable 5, Mythos 5 following US government order — what enterprises should do",
@@ -2647,7 +2707,7 @@
         "home": "https://venturebeat.com/category/ai/",
         "url": "https://venturebeat.com/category/ai/feed/",
         "status": "ok",
-        "fetchedAt": "2026-06-13T23:06:03.174945+00:00",
+        "fetchedAt": "2026-06-14T04:13:59.971607+00:00",
         "items": [
           {
             "title": "Google just redesigned the search box for the first time in 25 years — here’s why it matters more than you think.",
@@ -2702,12 +2762,12 @@
         "home": "https://www.ruanyifeng.com/blog/",
         "url": "https://www.ruanyifeng.com/blog/atom.xml",
         "status": "ok",
-        "fetchedAt": "2026-06-13T23:06:03.025146+00:00",
+        "fetchedAt": "2026-06-14T04:13:59.400214+00:00",
         "items": [
           {
             "title": "科技爱好者周刊（第 400 期）：rsync 的争论",
             "link": "http://www.ruanyifeng.com/blog/2026/06/weekly-issue-400.html",
-            "date": "2026-06-13T05:39:51+00:00",
+            "date": "2026-06-14T01:49:07+00:00",
             "summary": "这里记录每周值得分享的科技内容，周五发布。（[通知] 下周端午假期，周刊休息。）..."
           },
           {
@@ -2731,7 +2791,7 @@
         "home": "https://www.bestblogs.dev/",
         "url": "https://www.bestblogs.dev/zh/feeds/rss?category=ai&minScore=90",
         "status": "ok",
-        "fetchedAt": "2026-06-13T23:06:03.487548+00:00",
+        "fetchedAt": "2026-06-14T04:14:00.136130+00:00",
         "items": [
           {
             "title": "深度解析：为何 Codex 没有类似 Claude Design 的产品？",
@@ -2799,6 +2859,146 @@
   },
   "allItems": [
     {
+      "title": "Plugins case study: Pluggy",
+      "link": "https://eli.thegreenplace.net/2026/plugins-case-study-pluggy/",
+      "date": "2026-06-14T03:20:58-07:00",
+      "summary": "Recently I came upon Pluggy, a Python library for developing plugin systems. It was originally developed as part of the pytest project - known for its rich plugin ecosystem - and later extracted into a standalone library. You're supposed to reach out for Pluggy if you want to add a plugin system …",
+      "feedId": "elibendersky",
+      "feedTitle": "Eli Bendersky",
+      "category": "Tech Blogs",
+      "feedHome": "https://eli.thegreenplace.net/"
+    },
+    {
+      "title": "As Anthropic suspends access to new models, India debates its AI future",
+      "link": "https://techcrunch.com/2026/06/13/as-anthropic-suspends-access-to-new-models-india-debates-its-ai-future/",
+      "date": "2026-06-14T03:00:00+00:00",
+      "summary": "Tech leaders debate whether the Anthropic episode is a wake-up call for India’s AI ambitions.",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "As Anthropic suspends access to new models, India debates its AI future",
+      "link": "https://techcrunch.com/2026/06/13/as-anthropic-suspends-access-to-new-models-india-debates-its-ai-future/",
+      "date": "2026-06-14T03:00:00+00:00",
+      "summary": "Tech leaders debate whether the Anthropic episode is a wake-up call for India’s AI ambitions.",
+      "feedId": "techcrunch-ai",
+      "feedTitle": "TechCrunch AI",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
+    },
+    {
+      "title": "The Redistribution of Housing Wealth Caused by Rent Control [pdf]",
+      "link": "https://www.rhawa.org/file/secure/shs-the-impact-of-rent-control-in-st-paul.pdf",
+      "date": "2026-06-14T02:59:34+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "Building a serial and VGA \"everything console\"",
+      "link": "http://oldvcr.blogspot.com/2026/06/building-serial-and-vga-everything.html",
+      "date": "2026-06-14T02:31:15+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "科技爱好者周刊（第 400 期）：rsync 的争论",
+      "link": "http://www.ruanyifeng.com/blog/2026/06/weekly-issue-400.html",
+      "date": "2026-06-14T01:49:07+00:00",
+      "summary": "这里记录每周值得分享的科技内容，周五发布。（[通知] 下周端午假期，周刊休息。）...",
+      "feedId": "ruanyifeng",
+      "feedTitle": "阮一峰的网络日志",
+      "category": "中文",
+      "feedHome": "https://www.ruanyifeng.com/blog/"
+    },
+    {
+      "title": "10th Gen Honda Civic Updates Are Signed with AOSP Test Keys",
+      "link": "https://juniperspring.org/posts/honda-evil-valet/",
+      "date": "2026-06-14T00:49:46+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "Meta reportedly moves to unwind $2B Manus deal after Beijing’s demand",
+      "link": "https://techcrunch.com/2026/06/13/meta-reportedly-moves-to-unwind-2b-manus-deal-after-beijings-demand/",
+      "date": "2026-06-14T00:03:49+00:00",
+      "summary": "Meta starts dismantling its $2 billion Manus acquisition after Beijing ordered the deal reversed.",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "Meta reportedly moves to unwind $2B Manus deal after Beijing’s demand",
+      "link": "https://techcrunch.com/2026/06/13/meta-reportedly-moves-to-unwind-2b-manus-deal-after-beijings-demand/",
+      "date": "2026-06-14T00:03:49+00:00",
+      "summary": "Meta starts dismantling its $2 billion Manus acquisition after Beijing ordered the deal reversed.",
+      "feedId": "techcrunch-ai",
+      "feedTitle": "TechCrunch AI",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
+    },
+    {
+      "title": "Publishing WASM wheels to PyPI for use with Pyodide",
+      "link": "https://simonwillison.net/2026/Jun/13/publishing-wasm-wheels/#atom-everything",
+      "date": "2026-06-13T23:55:18+00:00",
+      "summary": "The Pyodide 314.0 release announcement (via Hacker News) includes news I've been looking forward to for a long time: You can now publish Python packages built for Pyodide (or any Python runtime compatible with the PyEmscripten platform defined in PEP 783) directly to PyPI and install them at runtime",
+      "feedId": "simonwillison",
+      "feedTitle": "Simon Willison",
+      "category": "AI & LLM",
+      "feedHome": "https://simonwillison.net/"
+    },
+    {
+      "title": "US officials: the Trump administration's decision to impose export controls on Anthropic followed multiple tense calls between Dario Amodei and admin officials (Politico)",
+      "link": "https://www.techmeme.com/260613/p17#a260613p17",
+      "date": "2026-06-13T23:15:51-04:00",
+      "summary": "Politico: US officials: the Trump administration's decision to impose export controls on Anthropic followed multiple tense calls between Dario Amodei and admin officials&nbsp; &mdash;&nbsp; The administration's imposition of export controls forced Anthropic to pull its new AI model, Fable, just days",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
+      "title": "luau-wasm 0.1a0",
+      "link": "https://simonwillison.net/2026/Jun/13/luau-wasm/#atom-everything",
+      "date": "2026-06-13T23:14:30+00:00",
+      "summary": "Release: luau-wasm 0.1a0 See Publishing WASM wheels to PyPI for use with Pyodide for details. Tags: lua, webassembly, pyodide",
+      "feedId": "simonwillison",
+      "feedTitle": "Simon Willison",
+      "category": "AI & LLM",
+      "feedHome": "https://simonwillison.net/"
+    },
+    {
+      "title": "Mapping SQLite result columns back to their source `table.column`",
+      "link": "https://simonwillison.net/2026/Jun/13/sqlite-column-provenance/#atom-everything",
+      "date": "2026-06-13T23:05:00+00:00",
+      "summary": "Research: Mapping SQLite result columns back to their source `table.column` It would be neat if arbitrary SQL queries in Datasette could be rendered with additional information based on which columns from which tables were included in the results. To build that, we would need to be able to look at a",
+      "feedId": "simonwillison",
+      "feedTitle": "Simon Willison",
+      "category": "AI & LLM",
+      "feedHome": "https://simonwillison.net/"
+    },
+    {
+      "title": "Companies are grappling with whether and how to curb employee wagers on prediction markets that may use confidential info, as platforms tighten their own rules (Financial Times)",
+      "link": "https://www.techmeme.com/260613/p16#a260613p16",
+      "date": "2026-06-13T22:25:01-04:00",
+      "summary": "Financial Times: Companies are grappling with whether and how to curb employee wagers on prediction markets that may use confidential info, as platforms tighten their own rules&nbsp; &mdash;&nbsp; Companies are grappling with whether and how to rein in employee wagers that could use confidential inf",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
       "title": "KPMG pulls report on AI usage due to apparent hallucinations",
       "link": "https://techcrunch.com/2026/06/13/kpmg-pulls-report-on-ai-usage-due-to-apparent-hallucinations/",
       "date": "2026-06-13T20:42:31+00:00",
@@ -2819,6 +3019,16 @@
       "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
     },
     {
+      "title": "Q&A with labor researcher Molly Kinder on her recent, widely discussed \"Messy Middle\" essay on AI-driven disruption of knowledge jobs and how to address it (Casey Newton/Platformer)",
+      "link": "https://www.techmeme.com/260613/p15#a260613p15",
+      "date": "2026-06-13T20:25:05-04:00",
+      "summary": "Casey Newton / Platformer: Q&amp;A with labor researcher Molly Kinder on her recent, widely discussed &ldquo;Messy Middle&rdquo; essay on AI-driven disruption of knowledge jobs and how to address it&nbsp; &mdash;&nbsp; Brookings Institution researcher Molly Kinder on why she's leaving her job to cre",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
       "title": "RSA munitions T-shirt",
       "link": "https://www.johndcook.com/blog/2026/06/13/rsa-munitions-t-shirt/",
       "date": "2026-06-13T20:10:20+00:00",
@@ -2827,16 +3037,6 @@
       "feedTitle": "John D. Cook",
       "category": "Tech Blogs",
       "feedHome": "https://www.johndcook.com/"
-    },
-    {
-      "title": "Police officer investigated for using AI to 'create evidence' in multiple cases",
-      "link": "https://news.sky.com/story/derbyshire-police-officer-investigated-for-using-ai-to-create-evidence-in-multiple-cases-13553661",
-      "date": "2026-06-13T19:54:55+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
     },
     {
       "title": "深度解析：为何 Codex 没有类似 Claude Design 的产品？",
@@ -2867,16 +3067,6 @@
       "feedTitle": "TechCrunch AI",
       "category": "Startup & News",
       "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
-    },
-    {
-      "title": "Running DOS on Behringers DDX3216 with a DIY x86-Bios from Scratch",
-      "link": "https://chrisdevblog.com/2026/06/08/running-dos-on-behringers-ddx3216-using-a-diy-x86-bios/",
-      "date": "2026-06-13T18:32:22+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
     },
     {
       "title": "Source: the White House imposed export controls on Mythos partly over suspicions a China-linked group had accessed it (Reed Albergotti/Semafor)",
@@ -2919,16 +3109,6 @@
       "feedHome": "https://pluralistic.net/"
     },
     {
-      "title": "GameBoy Workboy",
-      "link": "https://tcrf.net/Workboy",
-      "date": "2026-06-13T17:43:02+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
       "title": "Apple’s Private Cloud Compute Is Severely Limited for Third-Party Developers",
       "link": "https://developer.apple.com/private-cloud-compute/",
       "date": "2026-06-13T17:39:45+00:00",
@@ -2959,16 +3139,6 @@
       "feedHome": "https://daringfireball.net/"
     },
     {
-      "title": "Amazon CEO's talks with U.S. officials triggered crackdown on Anthropic models",
-      "link": "https://www.wsj.com/tech/ai/amazon-ceos-talks-with-u-s-officials-triggered-crackdown-on-anthropic-models-dcc90578?st=Yct6gx&reflink=desktopwebshare_permalink",
-      "date": "2026-06-13T16:57:49+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
       "title": "OpenAI faces investigation from state attorneys general",
       "link": "https://techcrunch.com/2026/06/13/openai-faces-investigation-from-state-attorneys-general/",
       "date": "2026-06-13T16:47:18+00:00",
@@ -2997,6 +3167,16 @@
       "feedTitle": "Techmeme",
       "category": "Startup & News",
       "feedHome": "https://www.techmeme.com/"
+    },
+    {
+      "title": "GLM 5.2 Is Out",
+      "link": "https://twitter.com/jietang/status/2065784751345287314",
+      "date": "2026-06-13T16:18:31+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
     },
     {
       "title": "科技爱好者周刊（第 399 期）：中国 AI 大厂访问记",
@@ -3099,16 +3279,6 @@
       "feedHome": "https://news.ycombinator.com/"
     },
     {
-      "title": "US barring foreign nationals, including Anthropic staffers in the US, from using Fable 5 and Mythos 5 marks a new phase in the US trying to control Anthropic (New York Times)",
-      "link": "https://www.techmeme.com/260613/p7#a260613p7",
-      "date": "2026-06-13T11:10:01-04:00",
-      "summary": "New York Times: US barring foreign nationals, including Anthropic staffers in the US, from using Fable 5 and Mythos 5 marks a new phase in the US trying to control Anthropic&nbsp; &mdash;&nbsp; The company said on Friday night that the federal government had ordered limits on its Mythos and Fable 5 ",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
       "title": "The FBI built its own replica small town to simulate real-world cyberattacks",
       "link": "https://techcrunch.com/2026/06/13/the-fbi-built-its-own-replica-small-town-to-simulate-real-world-cyberattacks/",
       "date": "2026-06-13T11:00:00+00:00",
@@ -3117,36 +3287,6 @@
       "feedTitle": "TechCrunch",
       "category": "Startup & News",
       "feedHome": "https://techcrunch.com/"
-    },
-    {
-      "title": "A review of The Yahoo Boys, a deeply reported book on four online scammers in Lagos, Nigeria, exploring how and why they scam and the local impact of the trade (Jessica Loudis/Bloomberg)",
-      "link": "https://www.techmeme.com/260613/p6#a260613p6",
-      "date": "2026-06-13T09:40:01-04:00",
-      "summary": "Jessica Loudis / Bloomberg: A review of The Yahoo Boys, a deeply reported book on four online scammers in Lagos, Nigeria, exploring how and why they scam and the local impact of the trade&nbsp; &mdash;&nbsp; Nigeria's &ldquo;Yahoo Boys&rdquo; have industrialized romance scamming, reflecting and dist",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "Luta Security CEO says US government restrictions on Mythos follow a jailbreak report by Amazon researchers and calls the restrictions a \"complete overreaction\" (Amrith Ramkumar/Wall Street Journal)",
-      "link": "https://www.techmeme.com/260613/p5#a260613p5",
-      "date": "2026-06-13T06:35:01-04:00",
-      "summary": "Amrith Ramkumar / Wall Street Journal: Luta Security CEO says US government restrictions on Mythos follow a jailbreak report by Amazon researchers and calls the restrictions a &ldquo;complete overreaction&rdquo;&nbsp; &mdash;&nbsp; The Trump administration is banning foreign governments, companies a",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "科技爱好者周刊（第 400 期）：rsync 的争论",
-      "link": "http://www.ruanyifeng.com/blog/2026/06/weekly-issue-400.html",
-      "date": "2026-06-13T05:39:51+00:00",
-      "summary": "这里记录每周值得分享的科技内容，周五发布。（[通知] 下周端午假期，周刊休息。）...",
-      "feedId": "ruanyifeng",
-      "feedTitle": "阮一峰的网络日志",
-      "category": "中文",
-      "feedHome": "https://www.ruanyifeng.com/blog/"
     },
     {
       "title": "Andrew Yang thinks the next big startup opportunity is lowering the cost of living",
@@ -3263,16 +3403,6 @@
       "link": "https://techcrunch.com/2026/06/12/metas-months-old-ai-unit-is-a-soul-crushing-gulag-say-the-engineers-stuck-inside-it/",
       "date": "2026-06-12T23:00:54+00:00",
       "summary": "A new report suggests the unit, which employs 6,500 people, is on the verge of revolt.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
-    },
-    {
-      "title": "Meta’s months-old AI unit is a soul-crushing gulag, say the engineers stuck inside it",
-      "link": "https://techcrunch.com/2026/06/12/metas-months-old-ai-unit-is-a-soul-crushing-gulag-say-the-engineers-stuck-inside-it/",
-      "date": "2026-06-12T23:00:54+00:00",
-      "summary": "A new report suggests the unit, which employs 6,500 people, is on the verge of revolt.",
       "feedId": "techcrunch-ai",
       "feedTitle": "TechCrunch AI",
       "category": "Startup & News",
@@ -3313,16 +3443,6 @@
       "link": "https://techcrunch.com/2026/06/12/chinese-cybercrime-operation-that-used-ai-to-scam-hundreds-of-thousands-of-victims-sued-by-google/",
       "date": "2026-06-12T20:38:09+00:00",
       "summary": "The tech giant said a group called \"Outsider Enterprise\" used AI to scam hundreds of thousands of victims, sending 2.5 million text messages over a span of two weeks.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
-    },
-    {
-      "title": "Chinese cybercrime operation that used AI to scam ‘hundreds of thousands of victims’ sued by Google",
-      "link": "https://techcrunch.com/2026/06/12/chinese-cybercrime-operation-that-used-ai-to-scam-hundreds-of-thousands-of-victims-sued-by-google/",
-      "date": "2026-06-12T20:38:09+00:00",
-      "summary": "The tech giant said a group called \"Outsider Enterprise\" used AI to scam hundreds of thousands of victims, sending 2.5 million text messages over a span of two weeks.",
       "feedId": "techcrunch-ai",
       "feedTitle": "TechCrunch AI",
       "category": "Startup & News",
@@ -3347,16 +3467,6 @@
       "feedTitle": "Google Research Blog",
       "category": "AI & LLM",
       "feedHome": "https://research.google/blog/"
-    },
-    {
-      "title": "Mistral is rumored to be raising €3B at €20B valuation",
-      "link": "https://techcrunch.com/2026/06/12/mistral-is-rumored-to-be-raising-e3b-at-e20-valuation/",
-      "date": "2026-06-12T17:38:11+00:00",
-      "summary": "The funding round would value the company at around €20 billion (about $23.15 billion), nearly double its Series C valuation of €11.7 billion.",
-      "feedId": "techcrunch-ai",
-      "feedTitle": "TechCrunch AI",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
     },
     {
       "title": "A low-carbon computing platform from your retired phones",
@@ -3389,16 +3499,6 @@
       "feedHome": "https://venturebeat.com/"
     },
     {
-      "title": "SpaceX, Anthropic, and OpenAI’s hot IPO summer",
-      "link": "https://techcrunch.com/video/spacex-anthropic-and-openais-hot-ipo-summer/",
-      "date": "2026-06-12T16:23:25+00:00",
-      "summary": "The IPO market is back, and&#160;it&#8217;s&#160;not the same&#160;companies&#160;leading the charge. FAANG had a good run, but a&#160;new acronym is taking over: MANGOS&#160;— Meta (or Microsoft, depending on who you ask), Anthropic, Nvidia, Google, OpenAI, and SpaceX. Half&#160;of that&#160;bunch ",
-      "feedId": "techcrunch-ai",
-      "feedTitle": "TechCrunch AI",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
-    },
-    {
       "title": "PixelRAG beats text parsers on accuracy and cuts AI agent token costs 10x",
       "link": "https://venturebeat.com/data/pixelrag-beats-text-parsers-on-accuracy-and-cuts-ai-agent-token-costs-10x",
       "date": "2026-06-12T15:39:11+00:00",
@@ -3417,6 +3517,16 @@
       "feedTitle": "Ibrahim Diallo",
       "category": "Tech Blogs",
       "feedHome": "https://idiallo.com/"
+    },
+    {
+      "title": "Python 3.14 garbage collection rigamarole",
+      "link": "https://theconsensus.dev/p/2026/06/06/python-3-14-garbage-collection-rigamarole.html",
+      "date": "2026-06-12T11:59:40+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
     },
     {
       "title": "Kimi K2.7 Code 编程模型已上线 Kimi Code、API 开放平台",
@@ -3539,16 +3649,6 @@
       "feedHome": "https://venturebeat.com/"
     },
     {
-      "title": "Codex for open source",
-      "link": "https://openai.com/form/codex-for-oss/",
-      "date": "2026-06-11T22:20:03+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
       "title": "Apple: ‘Due to DMA, Siri AI Delayed in EU for iOS 27 and iPadOS 27’",
       "link": "https://www.apple.com/newsroom/2026/06/due-to-dma-siri-ai-delayed-in-eu-for-ios-27-and-ipados-27/",
       "date": "2026-06-11T22:00:08+00:00",
@@ -3577,6 +3677,16 @@
       "feedTitle": "Pluralistic",
       "category": "Tech Blogs",
       "feedHome": "https://pluralistic.net/"
+    },
+    {
+      "title": "FreeOberon – Open-Source, Cross-Platform, Free Pascal/Turbo Pascal-Like Language",
+      "link": "https://github.com/kekcleader/FreeOberon",
+      "date": "2026-06-11T14:34:46+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
     },
     {
       "title": "Understanding the rationale behind a rule when trying to circumvent it",
@@ -3719,16 +3829,6 @@
       "feedHome": "https://openai.com/news/"
     },
     {
-      "title": "datasette-agent 0.2a0",
-      "link": "https://simonwillison.net/2026/Jun/10/datasette-agent/#atom-everything",
-      "date": "2026-06-10T23:57:27+00:00",
-      "summary": "Release: datasette-agent 0.2a0 Highlights from the release notes: Tools can now ask the user questions mid-execution. Tools that declare a context parameter receive a ToolContext object, and await context.ask_user(...) can ask a yes/no, multiple-choice (options=[...]) or free-text (free_text=True) q",
-      "feedId": "simonwillison",
-      "feedTitle": "Simon Willison",
-      "category": "AI & LLM",
-      "feedHome": "https://simonwillison.net/"
-    },
-    {
       "title": "Formally proving a calculation with Claude and Lean",
       "link": "https://www.johndcook.com/blog/2026/06/10/claude-and-lean/",
       "date": "2026-06-10T23:11:01+00:00",
@@ -3747,16 +3847,6 @@
       "feedTitle": "Ibrahim Diallo",
       "category": "Tech Blogs",
       "feedHome": "https://idiallo.com/"
-    },
-    {
-      "title": "DiffusionGemma",
-      "link": "https://simonwillison.net/2026/Jun/10/diffusiongemma/#atom-everything",
-      "date": "2026-06-10T20:00:54+00:00",
-      "summary": "DiffusionGemma Last May Google briefly released an experimental Gemini Diffusion model. I tried the preview at the time and recorded it running at 857 tokens/second. It was an exciting model, but Google made no further announcements about it. That research has returned in the best possible way: as a",
-      "feedId": "simonwillison",
-      "feedTitle": "Simon Willison",
-      "category": "AI & LLM",
-      "feedHome": "https://simonwillison.net/"
     },
     {
       "title": "Access OpenAI models and Codex through your Oracle cloud commitment",
@@ -3787,16 +3877,6 @@
       "feedTitle": "DeepMind Blog",
       "category": "AI & LLM",
       "feedHome": "https://deepmind.google/blog/"
-    },
-    {
-      "title": "Quoting Jeremy Howard",
-      "link": "https://simonwillison.net/2026/Jun/10/jeremy-howard/#atom-everything",
-      "date": "2026-06-10T15:23:34+00:00",
-      "summary": "Easy solution to slow down recursive AI self improvement: The lab with the top-ranked model must agree THEY must not use it for working on frontier AI But everyone else should have access to it. By definition, this means the frontier doesn't advance. It also has the critical benefit of avoiding a da",
-      "feedId": "simonwillison",
-      "feedTitle": "Simon Willison",
-      "category": "AI & LLM",
-      "feedHome": "https://simonwillison.net/"
     },
     {
       "title": "Who Runs the Ransomware Group ‘The Gentlemen?’",
@@ -3899,16 +3979,6 @@
       "feedHome": "https://krebsonsecurity.com/"
     },
     {
-      "title": "Appreciating Exif",
-      "link": "https://brentfitzgerald.com/posts/appreciating-exif/",
-      "date": "2026-06-09T20:41:44+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
       "title": "Pyodide 314.0: Python packages can now publish WebAssembly wheels to PyPI",
       "link": "https://blog.pyodide.org/posts/314-release/",
       "date": "2026-06-09T15:54:31+00:00",
@@ -3969,6 +4039,16 @@
       "feedHome": "https://pluralistic.net/"
     },
     {
+      "title": "Incorruptible",
+      "link": "https://steveblank.com/2026/06/09/incorruptible/",
+      "date": "2026-06-09T13:00:23+00:00",
+      "summary": "Incorruptible: Why Good Companies Go Bad&#8230; and How Great Companies Stay Great, by Eric Ries. Every once in a while a book comes along that doesn&#8217;t just change your tactical thinking, but makes you see the world in a different way. Reading this book is like taking the red pill in the Matri",
+      "feedId": "steveblank",
+      "feedTitle": "Steve Blank",
+      "category": "Tech Blogs",
+      "feedHome": "https://steveblank.com/"
+    },
+    {
       "title": "How engineers at Nextdoor use Codex to build without limits",
       "link": "https://openai.com/index/nextdoor",
       "date": "2026-06-09T12:00:00+00:00",
@@ -4027,6 +4107,16 @@
       "feedTitle": "DeepMind Blog",
       "category": "AI & LLM",
       "feedHome": "https://deepmind.google/blog/"
+    },
+    {
+      "title": "Hacking for Defense @ Stanford 2026 – Lessons Learned Presentations",
+      "link": "https://steveblank.com/2026/06/08/g-for-defense-stanford-2026-lessons-learned-presentations/",
+      "date": "2026-06-08T13:00:15+00:00",
+      "summary": "We just wrapped up our Hacking for Defense class at Stanford. This was the 11th year we&#8217;ve taught Hacking for Defense, and the impact of asymmetric warfare, (drones, off-the-shelf technologies, etc.,) disruptive technologies (AI, commercial access to space) and a startup friendly DoW acquisiti",
+      "feedId": "steveblank",
+      "feedTitle": "Steve Blank",
+      "category": "Tech Blogs",
+      "feedHome": "https://steveblank.com/"
     },
     {
       "title": "Working with product managers",
@@ -5199,6 +5289,16 @@
       "feedHome": "https://dynomight.net/"
     },
     {
+      "title": "Anthropic Mythos – We’ve Opened Pandora’s Box",
+      "link": "https://steveblank.com/2026/04/28/anthropic-mythos-weve-opened-pandoras-box/",
+      "date": "2026-04-28T13:00:48+00:00",
+      "summary": "This article previously appeared in The Cipher Brief. For a decade the cybersecurity community was predicting a cyber apocalypse tied to a single event &#8211; the day a Cryptographically Relevant Quantum Computer could run Shor’s algorithm and break the public-key cryptography systems most of the i",
+      "feedId": "steveblank",
+      "feedTitle": "Steve Blank",
+      "category": "Tech Blogs",
+      "feedHome": "https://steveblank.com/"
+    },
+    {
       "title": "Spring 2026 Dev Contest Results!",
       "link": "https://repebble.com/blog/spring-2026-dev-contest-results",
       "date": "2026-04-28T00:00:00+00:00",
@@ -5259,16 +5359,6 @@
       "feedHome": "https://blog.miguelgrinberg.com/"
     },
     {
-      "title": "Debugging WASM in Chrome DevTools",
-      "link": "https://eli.thegreenplace.net/2026/debugging-wasm-in-chrome-devtools/",
-      "date": "2026-04-23T02:24:51-07:00",
-      "summary": "When I was working on the WASM backend for my Scheme compiler, I ran into several tricky situations with debugging generated WASM code. It turned out that Chrome has a very capable WASM debugger in its DevTools, so in this brief post I want to share how it can be …",
-      "feedId": "elibendersky",
-      "feedTitle": "Eli Bendersky",
-      "category": "Tech Blogs",
-      "feedHome": "https://eli.thegreenplace.net/"
-    },
-    {
       "title": "Equity for Europeans",
       "link": "https://lucumr.pocoo.org/2026/4/23/equity-for-europeans/",
       "date": "2026-04-23T00:00:00+00:00",
@@ -5277,6 +5367,16 @@
       "feedTitle": "Armin Ronacher",
       "category": "Tech Blogs",
       "feedHome": "https://lucumr.pocoo.org/"
+    },
+    {
+      "title": "AI and Teaching – The Brave New World",
+      "link": "https://steveblank.com/2026/04/22/ai-and-teaching-the-brave-new-world/",
+      "date": "2026-04-22T15:34:09+00:00",
+      "summary": "This article previously appeared in the Entrepreneur &#38; Innovation Exchange (EIX) This is the 16th year we’ve been teaching the Stanford Lean LaunchPad class. This year, from the first hour of the first class, we realized we were seeing something extraordinary happen. It was both the end and begi",
+      "feedId": "steveblank",
+      "feedTitle": "Steve Blank",
+      "category": "Tech Blogs",
+      "feedHome": "https://steveblank.com/"
     },
     {
       "title": "256 Lines or Less: Test Case Minimization",
@@ -5389,6 +5489,16 @@
       "feedHome": "https://blog.miguelgrinberg.com/"
     },
     {
+      "title": "Nowhere Is Safe",
+      "link": "https://steveblank.com/2026/04/09/nowhere-is-safe/",
+      "date": "2026-04-09T13:00:25+00:00",
+      "summary": "Drones in Ukraine and in the War with Iran have made the surface of the earth a contested space. The U.S. has discovered that 1) air superiority and missile defense systems (THAAD, Patriot batteries) designed to counter tens or hundreds of aircraft and missiles is insufficient against asymmetric att",
+      "feedId": "steveblank",
+      "feedTitle": "Steve Blank",
+      "category": "Tech Blogs",
+      "feedHome": "https://steveblank.com/"
+    },
+    {
       "title": "I quit drinking for a year",
       "link": "https://dynomight.net/drinking/",
       "date": "2026-04-09T00:00:00+00:00",
@@ -5459,6 +5569,16 @@
       "feedHome": "https://anildash.com/"
     },
     {
+      "title": "Solving Yesterday’s Problems Will Kill You",
+      "link": "https://steveblank.com/2026/03/31/solving-yesterdays-problems-will-kill-you/",
+      "date": "2026-03-31T13:00:48+00:00",
+      "summary": "Join us at The 7th Annual Red Queen Conference April 22 -23 &#8211; Silicon Valley How do Portfolio Acquisition Executives and COCOMs ensure they’re working on the right problem with the right priority before locking in a requirement? Discuss, share and prototype Innovation Targeting concepts with y",
+      "feedId": "steveblank",
+      "feedTitle": "Steve Blank",
+      "category": "Tech Blogs",
+      "feedHome": "https://steveblank.com/"
+    },
+    {
       "title": "Defending Privacy, Daily",
       "link": "https://anildash.com/2026/03/31/defending-privacy-daily/",
       "date": "2026-03-31T00:00:00+00:00",
@@ -5527,6 +5647,16 @@
       "feedTitle": "Dynomight",
       "category": "Tech Blogs",
       "feedHome": "https://dynomight.net/"
+    },
+    {
+      "title": "Your Startup Is Probably Dead On Arrival",
+      "link": "https://steveblank.com/2026/03/17/your-startup-is-probably-dead-on-arrival/",
+      "date": "2026-03-17T13:00:30+00:00",
+      "summary": "Your Startup Is Probably Dead On Arrival If you started a company more than two years ago, it’s likely that many of your assumptions are no longer true. You need to stop coding, building, recruiting, fund raising, etc., and take stock of what changed around you. Or your company will die. I just had ",
+      "feedId": "steveblank",
+      "feedTitle": "Steve Blank",
+      "category": "Tech Blogs",
+      "feedHome": "https://steveblank.com/"
     },
     {
       "title": "LotusNotes",
@@ -5639,6 +5769,16 @@
       "feedHome": "http://antirez.com/"
     },
     {
+      "title": "Time to Move On – The Reason Relationships End",
+      "link": "https://steveblank.com/2026/02/24/time-to-move-on-the-reason-relationships-end/",
+      "date": "2026-02-24T14:00:57+00:00",
+      "summary": "What Lies Ahead I have no Way of Knowing, But It’s Now Time to Get Going Tom Petty This post previously appeared in Philanthropy.org A while ago I wrote about what happens in a startup when a new event creates a wake-up call that makes founding engineers reevaluate their jobs. (It’s worth a read her",
+      "feedId": "steveblank",
+      "feedTitle": "Steve Blank",
+      "category": "Tech Blogs",
+      "feedHome": "https://steveblank.com/"
+    },
+    {
       "title": "CloudPebble Returns! Plus New Pure JavaScript and Round 2 SDK",
       "link": "https://repebble.com/blog/cloudpebble-returns-plus-pure-javascript-and-round-2-sdk",
       "date": "2026-02-20T00:00:00+00:00",
@@ -5647,6 +5787,16 @@
       "feedTitle": "Eric Migicovsky",
       "category": "Tech Blogs",
       "feedHome": "https://ericmigi.com/"
+    },
+    {
+      "title": "You Only Think They Work For You",
+      "link": "https://steveblank.com/2026/02/18/you-only-think-they-work-for-you/",
+      "date": "2026-02-18T14:00:39+00:00",
+      "summary": "When I was a new VP of Marketing I got a painful lesson of who my PR (Public Relations) agency actually worked for. Later I realized that it was true for all of my external vendors. And much later I realized what I really should have been asking them to do. The lessons still apply [&#8230;]",
+      "feedId": "steveblank",
+      "feedTitle": "Steve Blank",
+      "category": "Tech Blogs",
+      "feedHome": "https://steveblank.com/"
     },
     {
       "title": "February Pebble Production and Software Updates",
@@ -5687,6 +5837,16 @@
       "feedTitle": "TechCrunch Funding",
       "category": "Startup & News",
       "feedHome": "https://techcrunch.com/tag/funding/"
+    },
+    {
+      "title": "Revisionist History – Aliens, Secrets and Conspiracies",
+      "link": "https://steveblank.com/2026/02/10/revisionist-history-aliens-secrets-and-conspiracies/",
+      "date": "2026-02-10T14:00:42+00:00",
+      "summary": "And ye shall know the truth, and the truth shall make you free” John 8:32 Every once in a while you learn something new that makes you completely rethink how/why an event actually happened. And then you consider how it affects the rest of our country and our lives. This is one of those stories. [&#8",
+      "feedId": "steveblank",
+      "feedTitle": "Steve Blank",
+      "category": "Tech Blogs",
+      "feedHome": "https://steveblank.com/"
     },
     {
       "title": "forecourt networking",
