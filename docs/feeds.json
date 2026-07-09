@@ -1,14 +1,15 @@
 {
-  "updatedAt": "2026-07-09T15:56:21.586870+00:00",
+  "updatedAt": "2026-07-09T17:59:15.061563+00:00",
   "totalFeeds": 51,
-  "successCount": 45,
-  "failedCount": 6,
+  "successCount": 44,
+  "failedCount": 7,
   "failed": [
     "gwern",
     "garymarcus",
     "thesequence",
     "lcamtuf",
     "rachelbythebay",
+    "anildash",
     "tedunangst"
   ],
   "grouped": {
@@ -20,8 +21,26 @@
         "home": "https://simonwillison.net/",
         "url": "https://simonwillison.net/atom/everything/",
         "status": "ok",
-        "fetchedAt": "2026-07-09T15:56:10.829685+00:00",
+        "fetchedAt": "2026-07-09T17:59:04.346228+00:00",
         "items": [
+          {
+            "title": "Introducing Muse Spark 1.1",
+            "link": "https://simonwillison.net/2026/Jul/9/muse-spark-1-1/#atom-everything",
+            "date": "2026-07-09T16:24:09+00:00",
+            "summary": "Introducing Muse Spark 1.1 Following Muse Spark in April, here's Muse Spark 1.1 - the first Spark model to offer an API. Meta claim significant improvements in agentic tool calling and computer use. There are a lot more details are in the Muse Spark 1.1 Evaluation Report. The \"Attractor States in Se"
+          },
+          {
+            "title": "llm-meta-ai 0.1",
+            "link": "https://simonwillison.net/2026/Jul/9/llm-meta-ai/#atom-everything",
+            "date": "2026-07-09T16:12:20+00:00",
+            "summary": "Release: llm-meta-ai 0.1 Let's LLM run prompts against the new muse-spark-1.1 model. Tags: llm, meta"
+          },
+          {
+            "title": "llm 0.31.1",
+            "link": "https://simonwillison.net/2026/Jul/9/llm/#atom-everything",
+            "date": "2026-07-09T16:06:15+00:00",
+            "summary": "Release: llm 0.31.1 Fix for a bug with OpenAI Chat Completion endpoints where a tool call with empty arguments could result in a JSON error from some providers. #1521 This bug came up when I was testing llm-meta-ai. Tags: llm"
+          },
           {
             "title": "Rewriting Bun in Rust",
             "link": "https://simonwillison.net/2026/Jul/8/rewriting-bun-in-rust/#atom-everything",
@@ -63,24 +82,6 @@
             "link": "https://simonwillison.net/2026/Jul/7/sqlite-utils/#atom-everything",
             "date": "2026-07-07T15:42:43+00:00",
             "summary": "Release: sqlite-utils 4.0 See sqlite-utils 4.0, now with database schema migrations for details. Tags: sqlite-utils"
-          },
-          {
-            "title": "sqlite-utils 4.0rc4",
-            "link": "https://simonwillison.net/2026/Jul/7/sqlite-utils-2/#atom-everything",
-            "date": "2026-07-07T05:36:15+00:00",
-            "summary": "Release: sqlite-utils 4.0rc4 The last RC before the 4.0 stable release. Mainly implements feedback from a detailed review by Claude Fable 5. Tags: sqlite-utils, claude-mythos-fable"
-          },
-          {
-            "title": "tencent/Hy3",
-            "link": "https://simonwillison.net/2026/Jul/6/hy3/#atom-everything",
-            "date": "2026-07-06T23:57:35+00:00",
-            "summary": "tencent/Hy3 New Apache 2.0 licensed model from Tencent in China: Hy3 is a 295B-parameter Mixture-of-Experts (MoE) model with 21B active parameters and 3.8B MTP layer parameters, developed by the Tencent Hy Team. Following the Hy3 Preview launch in late April, we gathered feedback from 50+ products a"
-          },
-          {
-            "title": "sqlite-utils 4.0rc3",
-            "link": "https://simonwillison.net/2026/Jul/6/sqlite-utils/#atom-everything",
-            "date": "2026-07-06T05:40:08+00:00",
-            "summary": "Release: sqlite-utils 4.0rc3 I hoped to release sqlite-utils 4.0 stable this weekend, but as I worked through the backlog of issues and PRs with a combination of Claude Fable 5 and GPT-5.5 the changelog since rc2 kept getting bigger. The biggest new feature is support for introspecting and creating "
           }
         ]
       },
@@ -91,8 +92,26 @@
         "home": "https://openai.com/news/",
         "url": "https://openai.com/news/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-09T15:56:11.237018+00:00",
+        "fetchedAt": "2026-07-09T17:59:04.572382+00:00",
         "items": [
+          {
+            "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
+            "link": "https://openai.com/index/gpt-5-6",
+            "date": "2026-07-09T10:00:00+00:00",
+            "summary": "More intelligence from every token, stronger performance per dollar, and more capability on demand for your hardest work."
+          },
+          {
+            "title": "ChatGPT is now a partner for your most ambitious work",
+            "link": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
+            "date": "2026-07-09T10:00:00+00:00",
+            "summary": "ChatGPT Work is an agent that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work."
+          },
+          {
+            "title": "GPT-5.5 Bio Bug Bounty",
+            "link": "https://openai.com/index/bio-bug-bounty",
+            "date": "2026-07-09T10:00:00+00:00",
+            "summary": "Details about the OpenAI Bio Bounty program"
+          },
           {
             "title": "Our approach to government and national security partnerships",
             "link": "https://openai.com/index/government-national-security-partnerships",
@@ -118,40 +137,22 @@
             "summary": "A new generation of voice models for natural human-AI interaction, now powering ChatGPT Voice."
           },
           {
-            "title": "Australian Payments Plus moves faster with ChatGPT and Codex",
-            "link": "https://openai.com/index/australian-payments-plus",
-            "date": "2026-07-07T00:00:00+00:00",
-            "summary": "See how Australian Payments Plus uses ChatGPT Enterprise and Codex to move faster through payments complexity. AP+ saves time, improves quality, and keeps human judgment central."
-          },
-          {
             "title": "MUFG aims to become AI-native with OpenAI",
             "link": "https://openai.com/index/mufg",
             "date": "2026-07-07T00:00:00+00:00",
             "summary": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale."
           },
           {
+            "title": "Australian Payments Plus moves faster with ChatGPT and Codex",
+            "link": "https://openai.com/index/australian-payments-plus",
+            "date": "2026-07-07T00:00:00+00:00",
+            "summary": "See how Australian Payments Plus uses ChatGPT Enterprise and Codex to move faster through payments complexity. AP+ saves time, improves quality, and keeps human judgment central."
+          },
+          {
             "title": "How ChatGPT adoption has expanded",
             "link": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
             "date": "2026-06-30T09:00:00+00:00",
             "summary": "New OpenAI Signals data shows how ChatGPT adoption is growing globally, with users increasing usage, exploring more capabilities, and driving growth across regions and languages."
-          },
-          {
-            "title": "Core dump epidemiology: fixing an 18-year-old bug",
-            "link": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
-            "date": "2026-06-30T00:00:00+00:00",
-            "summary": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug."
-          },
-          {
-            "title": "Inside Genebench-Pro",
-            "link": "https://openai.com/index/genebench-pro/case-studies",
-            "date": "2026-06-30T00:00:00+00:00",
-            "summary": ""
-          },
-          {
-            "title": "Introducing GeneBench-Pro",
-            "link": "https://openai.com/index/introducing-genebench-pro",
-            "date": "2026-06-30T00:00:00+00:00",
-            "summary": "Introducing GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research using complex, real-world datasets."
           }
         ]
       },
@@ -162,7 +163,7 @@
         "home": "https://arxiv.org/list/cs.AI/recent",
         "url": "https://arxiv.org/rss/cs.AI",
         "status": "ok",
-        "fetchedAt": "2026-07-09T15:56:11.141002+00:00",
+        "fetchedAt": "2026-07-09T17:59:04.451143+00:00",
         "items": [
           {
             "title": "AgentLens: Production-Assessed Trajectory Reviews for Coding Agent Evaluation",
@@ -233,7 +234,7 @@
         "home": "https://arxiv.org/list/cs.LG/recent",
         "url": "https://arxiv.org/rss/cs.LG",
         "status": "ok",
-        "fetchedAt": "2026-07-09T15:56:11.180767+00:00",
+        "fetchedAt": "2026-07-09T17:59:04.478849+00:00",
         "items": [
           {
             "title": "TriRoute: Unified Learned Routing for Joint Adaptive Attention, Experts, and KV-Cache Allocation",
@@ -304,8 +305,14 @@
         "home": "https://research.google/blog/",
         "url": "https://research.google/blog/rss/",
         "status": "ok",
-        "fetchedAt": "2026-07-09T15:56:11.022332+00:00",
+        "fetchedAt": "2026-07-09T17:59:04.521215+00:00",
         "items": [
+          {
+            "title": "SensorFM: Towards a general intelligence and interface for wearable health data",
+            "link": "https://research.google/blog/sensorfm-towards-a-general-intelligence-and-interface-for-wearable-health-data/",
+            "date": "2026-07-09T09:56:00+00:00",
+            "summary": "Generative AI"
+          },
           {
             "title": "The power of collaboration: How we can reduce traffic congestion",
             "link": "https://research.google/blog/the-power-of-collaboration-how-we-can-reduce-traffic-congestion/",
@@ -359,12 +366,6 @@
             "link": "https://research.google/blog/a-low-carbon-computing-platform-from-your-retired-phones/",
             "date": "2026-06-12T17:37:00+00:00",
             "summary": "Climate & Sustainability"
-          },
-          {
-            "title": "New framework for auditing machine unlearning",
-            "link": "https://research.google/blog/new-framework-for-auditing-machine-unlearning/",
-            "date": "2026-06-10T17:34:55+00:00",
-            "summary": "Algorithms & Theory"
           }
         ]
       },
@@ -375,7 +376,7 @@
         "home": "https://deepmind.google/blog/",
         "url": "https://deepmind.google/blog/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-09T15:56:10.986353+00:00",
+        "fetchedAt": "2026-07-09T17:59:04.486703+00:00",
         "items": [
           {
             "title": "Google DeepMind and A24 announce first-of-its-kind research partnership",
@@ -446,7 +447,7 @@
         "home": "https://lilianweng.github.io/",
         "url": "https://lilianweng.github.io/lil-log/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-09T15:56:10.840661+00:00",
+        "fetchedAt": "2026-07-09T17:59:04.328258+00:00",
         "items": [
           {
             "title": "Active Learning",
@@ -537,7 +538,7 @@
         "home": "https://minimaxir.com/",
         "url": "https://minimaxir.com/index.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-09T15:56:10.867535+00:00",
+        "fetchedAt": "2026-07-09T17:59:04.401869+00:00",
         "items": [
           {
             "title": "The mysterious Hy3 LLM is topping OpenRouter Model Rankings by a large margin",
@@ -620,7 +621,7 @@
         "home": "https://www.jeffgeerling.com/",
         "url": "https://www.jeffgeerling.com/blog.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-09T15:56:10.836546+00:00",
+        "fetchedAt": "2026-07-09T17:59:04.327671+00:00",
         "items": [
           {
             "title": "The Special Value Pi 4 was extremely short-lived",
@@ -691,7 +692,7 @@
         "home": "https://www.seangoedecke.com/",
         "url": "https://www.seangoedecke.com/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-09T15:56:10.934580+00:00",
+        "fetchedAt": "2026-07-09T17:59:04.383203+00:00",
         "items": [
           {
             "title": "Blog about things you don't understand yet",
@@ -762,7 +763,7 @@
         "home": "https://krebsonsecurity.com/",
         "url": "https://krebsonsecurity.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-07-09T15:56:10.921550+00:00",
+        "fetchedAt": "2026-07-09T17:59:04.305014+00:00",
         "items": [
           {
             "title": "Felons, Fraudsters Flog Offensive Cybersecurity Startup",
@@ -833,12 +834,12 @@
         "home": "https://daringfireball.net/",
         "url": "https://daringfireball.net/feeds/main",
         "status": "ok",
-        "fetchedAt": "2026-07-09T15:56:10.968660+00:00",
+        "fetchedAt": "2026-07-09T17:59:04.367167+00:00",
         "items": [
           {
             "title": "Meta Sets Default for Instagram Accounts to Permit Content Reuse by AI",
-            "link": "https://www.nytimes.com/2026/07/08/technology/meta-instagram-ai.html",
-            "date": "2026-07-09T14:11:00+00:00",
+            "link": "https://www.nytimes.com/2026/07/08/technology/meta-instagram-ai.html?unlocked_article_code=1.wVA.Q5Do.Uvg5yPwCEB5H",
+            "date": "2026-07-09T17:00:04+00:00",
             "summary": "Eli Tan, reporting for The New York Times (gift link): The company’s new A.I. image generator has a surprising twist: It allows people to use images from public Instagram accounts. When Meta unveiled an artificial intelligence image generator called Muse Image on Tuesday, it came with a feature that"
           },
           {
@@ -848,10 +849,10 @@
             "summary": "App icons in MacOS are not mere buttons. You can drag them, move them, and drop things on them. You click them to select, and double-click to launch. They are richer objects that deserve a richer visual vocabulary."
           },
           {
-            "title": "‘PARRY Encounters the DOCTOR’ — Chatbot on Chatbot Action Circa 1973",
+            "title": "‘Parry Encounters the Doctor’ — Chatbot on Chatbot Action Circa 1973",
             "link": "https://www.rfc-editor.org/info/rfc439/",
-            "date": "2026-07-08T22:44:48+00:00",
-            "summary": "Back in the primordial days of AI, PARRY was an ELIZA-style chatbot created by psychiatrist Kenneth Colby to simulate the words of a paranoid schizophrenic. Someone had the genius idea to connect it to ELIZA (a.k.a. “DOCTOR”). Vint Cerf published the transcript as an RFC in 1973, and I laughed my as"
+            "date": "2026-07-09T17:19:27+00:00",
+            "summary": "Back in the primordial days of AI, Parry was an ELIZA-style chatbot created by psychiatrist Kenneth Colby to simulate the words of a paranoid schizophrenic. Someone had the genius idea to connect it to Eliza (a.k.a. “Doctor”). Vint Cerf published the transcript as an RFC in 1973, and I laughed my as"
           },
           {
             "title": "Mac Apps Can Escape From Squircle Jail If They’re Not in the Mac App Store",
@@ -862,20 +863,20 @@
           {
             "title": "‘Searching for SmarterChild’ Kickstarter",
             "link": "https://www.kickstarter.com/projects/smarterchild/searching-for-smarterchild-a-feature-documentary/creator",
-            "date": "2026-07-08T22:15:30+00:00",
-            "summary": "After reading my posts earlier today about ELIZA, the first “hit” chatbot from the 1960s, DF reader AP sent me a link to the Kickstarter page for Searching for SmarterChild, a project from documentary filmmakers Lindsey Sitz and Zan Gillies to make a movie about SmarterChild, an AOL Instant Messenge"
+            "date": "2026-07-09T17:18:17+00:00",
+            "summary": "After reading my posts earlier today about Eliza, the first “hit” chatbot from the 1960s, DF reader AP sent me a link to the Kickstarter page for Searching for SmarterChild, a project from documentary filmmakers Lindsey Sitz and Zan Gillies to make a movie about SmarterChild, an AOL Instant Messenge"
           },
           {
-            "title": "My Conversation With ELIZA",
+            "title": "My Conversation With Eilza",
             "link": "https://sites.google.com/view/elizaarchaeology/try-eliza?authuser=0",
-            "date": "2026-07-08T22:17:17+00:00",
-            "summary": "I vaguely recall first trying some version of ELIZA back in the 1990s. I never found it all that impressive nor understood its stature in the AI literature. It’s better than a bunch of if/then statements but not by much. There’s some natural language grammar parsing that is somewhat interesting, but"
+            "date": "2026-07-09T17:17:58+00:00",
+            "summary": "I vaguely recall first trying some version of Eliza back in the 1990s. I never found it all that impressive nor understood its stature in the AI literature. It’s better than a bunch of if/then statements but not by much. There’s some natural language grammar parsing that is somewhat interesting, but"
           },
           {
-            "title": "The ELIZA Archaeology Project",
+            "title": "The Eliza Archaeology Project",
             "link": "https://findingeliza.org/",
-            "date": "2026-07-08T17:23:57+00:00",
-            "summary": "The ELIZA Archaeology Project: ELIZA is the original and highly influential chatbot that launched the genre of human-computer interactions using text-based agents. It was created at MIT in the 1960s as part of Project MAC by it’s [sic] designer and programmer, Joseph Weizenbaum. ELIZA not only allow"
+            "date": "2026-07-09T17:16:48+00:00",
+            "summary": "The Eliza Archaeology Project: ELIZA is the original and highly influential chatbot that launched the genre of human-computer interactions using text-based agents. It was created at MIT in the 1960s as part of Project MAC by it’s [sic] designer and programmer, Joseph Weizenbaum. ELIZA not only allow"
           },
           {
             "title": "App Icon Conventions From the Original Macintosh",
@@ -904,7 +905,7 @@
         "home": "https://ericmigi.com/",
         "url": "https://ericmigi.com/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-09T15:56:10.874012+00:00",
+        "fetchedAt": "2026-07-09T17:59:04.349163+00:00",
         "items": [
           {
             "title": "How I Use My Index 01 + Production Update",
@@ -975,7 +976,7 @@
         "home": "http://antirez.com/",
         "url": "http://antirez.com/rss",
         "status": "ok",
-        "fetchedAt": "2026-07-09T15:56:12.546379+00:00",
+        "fetchedAt": "2026-07-09T17:59:06.892858+00:00",
         "items": [
           {
             "title": "A new era for software testing",
@@ -1046,7 +1047,7 @@
         "home": "https://idiallo.com/",
         "url": "https://idiallo.com/feed.rss",
         "status": "ok",
-        "fetchedAt": "2026-07-09T15:56:11.009454+00:00",
+        "fetchedAt": "2026-07-09T17:59:04.642938+00:00",
         "items": [
           {
             "title": "And Then the Billionaire Paid Off $550 Million of Our Debts",
@@ -1117,7 +1118,7 @@
         "home": "https://maurycyz.com/",
         "url": "https://maurycyz.com/index.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-09T15:56:11.377814+00:00",
+        "fetchedAt": "2026-07-09T17:59:04.997005+00:00",
         "items": []
       },
       {
@@ -1127,7 +1128,7 @@
         "home": "https://pluralistic.net/",
         "url": "https://pluralistic.net/feed/",
         "status": "ok",
-        "fetchedAt": "2026-07-09T15:56:13.796311+00:00",
+        "fetchedAt": "2026-07-09T17:59:07.812538+00:00",
         "items": [
           {
             "title": "Pluralistic: Post-political (09 Jul 2026)",
@@ -1198,7 +1199,7 @@
         "home": "https://shkspr.mobi/blog/",
         "url": "https://shkspr.mobi/blog/feed/",
         "status": "ok",
-        "fetchedAt": "2026-07-09T15:56:11.701889+00:00",
+        "fetchedAt": "2026-07-09T17:59:05.583224+00:00",
         "items": []
       },
       {
@@ -1218,7 +1219,7 @@
         "home": "https://mitchellh.com/",
         "url": "https://mitchellh.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-09T15:56:11.391409+00:00",
+        "fetchedAt": "2026-07-09T17:59:04.824869+00:00",
         "items": [
           {
             "title": "Pledging Another $400,000 to the Zig Software Foundation",
@@ -1289,7 +1290,7 @@
         "home": "https://dynomight.net/",
         "url": "https://dynomight.net/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-09T15:56:11.373656+00:00",
+        "fetchedAt": "2026-07-09T17:59:04.765342+00:00",
         "items": [
           {
             "title": "Life with hazard ratios",
@@ -1360,7 +1361,7 @@
         "home": "https://xeiaso.net/",
         "url": "https://xeiaso.net/blog.rss",
         "status": "ok",
-        "fetchedAt": "2026-07-09T15:56:11.282281+00:00",
+        "fetchedAt": "2026-07-09T17:59:05.158266+00:00",
         "items": [
           {
             "title": "The console wars have been lost",
@@ -1431,7 +1432,7 @@
         "home": "https://devblogs.microsoft.com/oldnewthing/",
         "url": "https://devblogs.microsoft.com/oldnewthing/feed",
         "status": "ok",
-        "fetchedAt": "2026-07-09T15:56:11.051515+00:00",
+        "fetchedAt": "2026-07-09T17:59:04.718257+00:00",
         "items": [
           {
             "title": "I’ve decoded a #pragma detect_mismatch error and fixed the mismatch, but I still get the error",
@@ -1502,7 +1503,7 @@
         "home": "https://www.righto.com/",
         "url": "https://www.righto.com/feeds/posts/default",
         "status": "ok",
-        "fetchedAt": "2026-07-09T15:56:11.040373+00:00",
+        "fetchedAt": "2026-07-09T17:59:04.918051+00:00",
         "items": []
       },
       {
@@ -1512,7 +1513,7 @@
         "home": "https://lucumr.pocoo.org/",
         "url": "https://lucumr.pocoo.org/feed.atom",
         "status": "ok",
-        "fetchedAt": "2026-07-09T15:56:11.279823+00:00",
+        "fetchedAt": "2026-07-09T17:59:04.609668+00:00",
         "items": [
           {
             "title": "Better Models: Worse Tools",
@@ -1583,7 +1584,7 @@
         "home": "https://skyfall.dev/",
         "url": "https://skyfall.dev/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-09T15:56:11.461906+00:00",
+        "fetchedAt": "2026-07-09T17:59:04.770271+00:00",
         "items": [
           {
             "title": "Good riddance, 4o",
@@ -1658,7 +1659,7 @@
         "home": "https://overreacted.io/",
         "url": "https://overreacted.io/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-09T15:56:11.186379+00:00",
+        "fetchedAt": "2026-07-09T17:59:04.864994+00:00",
         "items": [
           {
             "title": "There Are No Instances in atproto",
@@ -1729,7 +1730,7 @@
         "home": "https://www.johndcook.com/",
         "url": "https://www.johndcook.com/blog/feed/",
         "status": "ok",
-        "fetchedAt": "2026-07-09T15:56:11.294390+00:00",
+        "fetchedAt": "2026-07-09T17:59:04.600503+00:00",
         "items": [
           {
             "title": "Reproducing a geometry theorem diagram",
@@ -1800,7 +1801,7 @@
         "home": "https://matklad.github.io/",
         "url": "https://matklad.github.io/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-09T15:56:10.999439+00:00",
+        "fetchedAt": "2026-07-09T17:59:04.636449+00:00",
         "items": [
           {
             "title": "CSS: Unavoidable Bad Parts",
@@ -1871,7 +1872,7 @@
         "home": "https://eli.thegreenplace.net/",
         "url": "https://eli.thegreenplace.net/feeds/all.atom.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-09T15:56:11.046797+00:00",
+        "fetchedAt": "2026-07-09T17:59:04.946155+00:00",
         "items": [
           {
             "title": "Summary of reading: April - June 2026",
@@ -1912,7 +1913,7 @@
         "home": "https://fabiensanglard.net/",
         "url": "https://fabiensanglard.net/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-09T15:56:11.015942+00:00",
+        "fetchedAt": "2026-07-09T17:59:04.861089+00:00",
         "items": [
           {
             "title": "My favorite keyboards",
@@ -1983,7 +1984,7 @@
         "home": "https://blog.miguelgrinberg.com/",
         "url": "https://blog.miguelgrinberg.com/feed",
         "status": "ok",
-        "fetchedAt": "2026-07-09T15:56:11.796335+00:00",
+        "fetchedAt": "2026-07-09T17:59:05.626955+00:00",
         "items": [
           {
             "title": "I Am Not a Reverse Centaur",
@@ -2054,7 +2055,7 @@
         "home": "https://www.troyhunt.com/",
         "url": "https://www.troyhunt.com/rss/",
         "status": "ok",
-        "fetchedAt": "2026-07-09T15:56:11.101459+00:00",
+        "fetchedAt": "2026-07-09T17:59:04.601893+00:00",
         "items": [
           {
             "title": "Weekly Update 511: Live from my Riad in Marrakech",
@@ -2124,70 +2125,9 @@
         "title": "Anil Dash",
         "home": "https://anildash.com/",
         "url": "https://anildash.com/feed.xml",
-        "status": "ok",
-        "fetchedAt": "2026-07-09T15:56:11.505956+00:00",
-        "items": [
-          {
-            "title": "Endgame for the Open Web",
-            "link": "https://anildash.com/2026/03/27/endgame-open-web/",
-            "date": "2026-03-27T00:00:00+00:00",
-            "summary": "You must imagine Sam Altman holding a knife to Tim Berners-Lee's throat. It's not a pleasant image. Sir Tim is, rightly, revered as the genial father of the World Wide Web. But, all the signs are pointing to the fact that we might be in endgame for &quot;open&quot; as we've known it on the Internet "
-          },
-          {
-            "title": "Defending Privacy, Daily",
-            "link": "https://anildash.com/2026/03/31/defending-privacy-daily/",
-            "date": "2026-03-31T00:00:00+00:00",
-            "summary": "Yesterday, I had the chance to witness someone who's one of the most dedicated, competent advocates for privacy and digital rights bring that message to a whole new platform. It turns out, it's pretty delightful, especially in a moment when our civil liberties and rights online couldn't matter more!"
-          },
-          {
-            "title": "On the Vergecast, On Video",
-            "link": "https://anildash.com/2026/04/01/vergecast-video/",
-            "date": "2026-04-01T00:00:00+00:00",
-            "summary": "I finally got the chance to drop by one of my favorite podcasts, The Vergecast, where David Pierce had me on to talk about the recent conversation about Apple's moves around video podcasts, as well as the much broader big-picture considerations around keeping podcasts open. We started with grounding"
-          },
-          {
-            "title": "Actually, people love to work hard",
-            "link": "https://anildash.com/2026/04/06/people-love-to-work-hard/",
-            "date": "2026-04-07T00:00:00+00:00",
-            "summary": "One of the most infuriating tropes that I see repeated in media is executives (usually from boring old companies) insisting that their employees don’t want to work hard. Media outlets dutifully repeat this pernicious lie, despite there being no evidence to back it up, and then cultural commentators "
-          },
-          {
-            "title": "When the crisis comes",
-            "link": "https://anildash.com/2026/04/08/when-the-crisis-comes/",
-            "date": "2026-04-08T00:00:00+00:00",
-            "summary": "These days, we’re all living in a constant state of crisis, foisted upon us by a world where those who are meant to keep things stable are the least stable factors in our lives. The chaos and stress of that reality makes it difficult to make any plans, let alone to make decisions if you have respons"
-          },
-          {
-            "title": "Y2K 2.0: The AI security reckoning",
-            "link": "https://anildash.com/2026/04/10/y2k-2.0-ai-security/",
-            "date": "2026-04-10T00:00:00+00:00",
-            "summary": "In just the last few weeks, we’ve seen a series of software security vulnerabilities that, until recently, would each have been the biggest exploit of the year in which they were discovered. Now, they’ve become nearly routine. There’s a new one almost every day. The reason for this rising wave of ma"
-          },
-          {
-            "title": "The Power of Possibility",
-            "link": "https://anildash.com/2026/04/16/girls-club-gala/",
-            "date": "2026-04-16T00:00:00+00:00",
-            "summary": "It’s rare that you get to see work that directly helps those who most deserve it, but I want to tell you about the opportunity we so seldom get to actually contribute in a way that we know will have real impact. I’ve been on the board of the Lower Eastside Girls Club for about a decade, getting a fr"
-          },
-          {
-            "title": "Discovering Prince, Ten Years Later",
-            "link": "https://anildash.com/2026/04/20/prince-ten-years/",
-            "date": "2026-04-20T00:00:00+00:00",
-            "summary": "It's been a decade since we lost Prince, and I wanted to take a moment to offer a look back at some of the pieces I've written over the years, and share some of the work I've done, and hopefully it will give you a chance to explore some aspect of his artistry or legacy that you haven't yet had a cha"
-          },
-          {
-            "title": "(One) Good AI Is Here",
-            "link": "https://anildash.com/2026/04/28/one-good-ai-is-here/",
-            "date": "2026-04-28T00:00:00+00:00",
-            "summary": "The cultural battles over AI have broken down over predictable lines in the past few years, with critics rightfully calling out the big AI platforms for training on content without consent, recklessly building without considering environmental impact, and designing platforms that are unaccountable b"
-          },
-          {
-            "title": "Why are the Artemis II photos on Flickr?",
-            "link": "https://anildash.com/2026/04/30/artemis-photos-flickr/",
-            "date": "2026-04-30T00:00:00+00:00",
-            "summary": "If you followed along with the recent joyful celebrations of the Artemis cruise around the moon, and took a moment to dive into the photographic archives of the mission, you might have noticed that all of the original images were shared by NASA on the venerable photo sharing service Flickr. What you"
-          }
-        ]
+        "status": "error",
+        "error": "timeout",
+        "items": []
       },
       {
         "id": "computerrip",
@@ -2196,7 +2136,7 @@
         "home": "https://computer.rip/",
         "url": "https://computer.rip/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-09T15:56:11.647526+00:00",
+        "fetchedAt": "2026-07-09T17:59:05.358709+00:00",
         "items": [
           {
             "title": "megawatts by microwave",
@@ -2277,7 +2217,7 @@
         "home": "http://paulgraham.com/",
         "url": "http://www.aaronsw.com/2002/feeds/pgessays.rss",
         "status": "ok",
-        "fetchedAt": "2026-07-09T15:56:11.272611+00:00",
+        "fetchedAt": "2026-07-09T17:59:04.595246+00:00",
         "items": [
           {
             "title": "Superlinear Returns",
@@ -2348,7 +2288,7 @@
         "home": "https://steveblank.com/",
         "url": "https://steveblank.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-07-09T15:56:11.288891+00:00",
+        "fetchedAt": "2026-07-09T17:59:04.673096+00:00",
         "items": [
           {
             "title": "Lean Launch Pad 2026 @ Stanford – Lessons Learned Presentations",
@@ -2421,12 +2361,36 @@
         "home": "https://news.ycombinator.com/",
         "url": "https://news.ycombinator.com/rss",
         "status": "ok",
-        "fetchedAt": "2026-07-09T15:56:11.147105+00:00",
+        "fetchedAt": "2026-07-09T17:59:04.681148+00:00",
         "items": [
+          {
+            "title": "GPT-5.6",
+            "link": "https://openai.com/index/gpt-5-6/",
+            "date": "2026-07-09T17:04:14+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "ChatGPT Work",
+            "link": "https://openai.com/index/chatgpt-for-your-most-ambitious-work/",
+            "date": "2026-07-09T17:03:53+00:00",
+            "summary": "Comments"
+          },
           {
             "title": "Show HN: 18 Words",
             "link": "https://18words.com/",
             "date": "2026-07-09T12:48:52+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "EU Parliament greenlights Chat Control 1.0",
+            "link": "https://www.patrick-breyer.de/en/eu-parliament-greenlights-chat-control-1-0-breyer-our-children-lose-out/",
+            "date": "2026-07-09T11:03:54+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "Hy3",
+            "link": "https://hy.tencent.com/research/hy3",
+            "date": "2026-07-09T15:27:48+00:00",
             "summary": "Comments"
           },
           {
@@ -2436,51 +2400,27 @@
             "summary": "Comments"
           },
           {
-            "title": "PostHog Open Sourced",
-            "link": "https://github.com/PostHog/posthog-foss",
-            "date": "2026-07-09T14:17:40+00:00",
+            "title": "Muse Spark 1.1",
+            "link": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/",
+            "date": "2026-07-09T14:10:22+00:00",
             "summary": "Comments"
           },
           {
-            "title": "Launch HN: Context.dev (YC S26) – API to get structured data from any website",
-            "link": "https://www.context.dev",
-            "date": "2026-07-09T15:28:39+00:00",
+            "title": "Wildcard (YC W25) Is Hiring a Founding Engineer",
+            "link": "https://www.ycombinator.com/companies/wildcard/jobs/ZSLVaaU-founding-engineer",
+            "date": "2026-07-09T17:00:37+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "A possible future for Damn Interesting",
+            "link": "https://www.damninteresting.com/a-possible-future/",
+            "date": "2026-07-09T15:25:25+00:00",
             "summary": "Comments"
           },
           {
             "title": "TLS certificates for internal services done right",
             "link": "https://tuxnet.dev/posts/tls-for-internal-services/",
             "date": "2026-07-09T14:57:02+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "Opinionated and Easy Pi.dev Configuration",
-            "link": "https://lazypi.org/",
-            "date": "2026-07-09T15:19:33+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "Show HN: Analog Watch",
-            "link": "https://analog.watch",
-            "date": "2026-07-09T14:30:54+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "Show HN: LastShelf – an emergency map of your family's documents bills& contacts",
-            "link": "https://www.lastshelf.ai/",
-            "date": "2026-07-09T15:13:11+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "Meta reuses old RAM in new servers with custom bridge chip",
-            "link": "https://www.networkworld.com/article/4192827/meta-reuses-old-ram-in-new-servers-with-custom-bridge-chip.html",
-            "date": "2026-07-03T19:27:05+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "Introducing Muse Spark 1.1",
-            "link": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/?_fb_noscript=1",
-            "date": "2026-07-09T14:10:22+00:00",
             "summary": "Comments"
           }
         ]
@@ -2492,13 +2432,37 @@
         "home": "https://www.techmeme.com/",
         "url": "https://www.techmeme.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-09T15:56:11.468961+00:00",
+        "fetchedAt": "2026-07-09T17:59:04.493290+00:00",
         "items": [
           {
-            "title": "Bun creator says he rewrote Bun from Zig to Rust using a pre-release version of Claude Fable 5 in 11 days; the task would've taken three engineers about a year (Jarred Sumner/bun.com)",
+            "title": "GPT-5.6 Sol costs $5 per 1M input tokens and $30 per 1M output tokens, GPT-5.6 Terra costs $2.50 and $15, and GPT-5.6 Luna costs $1 and $6 (OpenAI)",
+            "link": "https://www.techmeme.com/260709/p28#a260709p28",
+            "date": "2026-07-09T13:35:02-04:00",
+            "summary": "OpenAI: GPT-5.6 Sol costs $5 per 1M input tokens and $30 per 1M output tokens, GPT-5.6 Terra costs $2.50 and $15, and GPT-5.6 Luna costs $1 and $6&nbsp; &mdash;&nbsp; More intelligence from every token, stronger performance per dollar, and more capability on demand for your hardest work."
+          },
+          {
+            "title": "OpenAI broadly releases GPT-5.6, and launches ChatGPT Work, an AI agent that can gather context across apps and files to create documents, on Mac and Windows (Axios)",
+            "link": "https://www.techmeme.com/260709/p27#a260709p27",
+            "date": "2026-07-09T13:06:46-04:00",
+            "summary": "Axios: OpenAI broadly releases GPT-5.6, and launches ChatGPT Work, an AI agent that can gather context across apps and files to create documents, on Mac and Windows&nbsp; &mdash;&nbsp; - Sol is the most powerful version, while Luna is designed for speed. &hellip; - A new &ldquo;ultra&rdquo; mode wit"
+          },
+          {
+            "title": "Microsoft President Brad Smith says the US now has AI \"regulation without transparent or complete rules\", and adds that \"without rules, businesses can't plan\" (Beatrice Nolan/Fortune)",
+            "link": "https://www.techmeme.com/260709/p26#a260709p26",
+            "date": "2026-07-09T12:40:01-04:00",
+            "summary": "Beatrice Nolan / Fortune: Microsoft President Brad Smith says the US now has AI &ldquo;regulation without transparent or complete rules&rdquo;, and adds that &ldquo;without rules, businesses can't plan&rdquo;&nbsp; &mdash;&nbsp; Microsoft President Brad Smith has weighed in on U.S. policy on AI, say"
+          },
+          {
+            "title": "Kraken Technology, which designs and builds autonomous maritime platforms, such as uncrewed subsurface vessels, raised a $175M Series B at a $1B valuation (John Reynolds/Tech.eu)",
+            "link": "https://www.techmeme.com/260709/p25#a260709p25",
+            "date": "2026-07-09T12:00:45-04:00",
+            "summary": "John Reynolds / Tech.eu: Kraken Technology, which designs and builds autonomous maritime platforms, such as uncrewed subsurface vessels, raised a $175M Series B at a $1B valuation&nbsp; &mdash;&nbsp; It says it will use the funding to develop its uncrewed surface vessels while expanding manufacturin"
+          },
+          {
+            "title": "Bun's creator says he rewrote Bun from Zig to Rust using a Claude Fable 5 prerelease version in 11 days, noting it would've taken three engineers \"about a year\" (Jarred Sumner/bun.com)",
             "link": "https://www.techmeme.com/260709/p24#a260709p24",
             "date": "2026-07-09T11:25:01-04:00",
-            "summary": "Jarred Sumner / bun.com: Bun creator says he rewrote Bun from Zig to Rust using a pre-release version of Claude Fable 5 in 11 days; the task would've taken three engineers about a year&nbsp; &mdash;&nbsp; Disclosure: Bun was acquired by Anthropic in December 2025.&nbsp; I and others on the Bun team "
+            "summary": "Jarred Sumner / bun.com: Bun's creator says he rewrote Bun from Zig to Rust using a Claude Fable 5 prerelease version in 11 days, noting it would've taken three engineers &ldquo;about a year&rdquo;&nbsp; &mdash;&nbsp; Disclosure: Bun was acquired by Anthropic in December 2025.&nbsp; I and others on "
           },
           {
             "title": "Character.AI launches three human-written, AI-generated microdramas, whose characters users can chat with, and aims to eventually let users make their own shows (Ivan Mehta/TechCrunch)",
@@ -2507,16 +2471,16 @@
             "summary": "Ivan Mehta / TechCrunch: Character.AI launches three human-written, AI-generated microdramas, whose characters users can chat with, and aims to eventually let users make their own shows&nbsp; &mdash;&nbsp; Microdramas are such a rage these days that nearly every kind of company in the attention econ"
           },
           {
-            "title": "Muse Spark 1.1 costs $1.25 per 1M input tokens and $4.25 per 1M output tokens; Alexandr Wang says coding and agentic tasks were key focuses (Ina Fried/Axios)",
+            "title": "Meta prices Muse Spark 1.1 at $1.25/1M input tokens and $4.25/1M output tokens; Alexandr Wang says improving coding and agentic performance was a key focus (Ina Fried/Axios)",
             "link": "https://www.techmeme.com/260709/p22#a260709p22",
             "date": "2026-07-09T10:30:17-04:00",
-            "summary": "Ina Fried / Axios: Muse Spark 1.1 costs $1.25 per 1M input tokens and $4.25 per 1M output tokens; Alexandr Wang says coding and agentic tasks were key focuses&nbsp; &mdash;&nbsp; Facebook's parent company on Thursday updated its Muse Spark large language model and followed through on a promise to ma"
+            "summary": "Ina Fried / Axios: Meta prices Muse Spark 1.1 at $1.25/1M input tokens and $4.25/1M output tokens; Alexandr Wang says improving coding and agentic performance was a key focus&nbsp; &mdash;&nbsp; Facebook's parent company on Thursday updated its Muse Spark large language model and followed through on"
           },
           {
-            "title": "Meta launches a Meta Model API, whose pricing Mark Zuckerberg says will be \"aggressive and attractive\" at ~25% of the cost of OpenAI and Anthropic models (Kurt Wagner/Bloomberg)",
+            "title": "Meta launches a Meta Model API, which Mark Zuckerberg says will have \"aggressive and attractive\" pricing at ~25% of the cost of OpenAI's and Anthropic's models (Kurt Wagner/Bloomberg)",
             "link": "https://www.techmeme.com/260709/p21#a260709p21",
             "date": "2026-07-09T10:25:00-04:00",
-            "summary": "Kurt Wagner / Bloomberg: Meta launches a Meta Model API, whose pricing Mark Zuckerberg says will be &ldquo;aggressive and attractive&rdquo; at ~25% of the cost of OpenAI and Anthropic models&nbsp; &mdash;&nbsp; In a crowded market for AI tools, Mark Zuckerberg wants to win on price.&nbsp; &mdash;&nb"
+            "summary": "Kurt Wagner / Bloomberg: Meta launches a Meta Model API, which Mark Zuckerberg says will have &ldquo;aggressive and attractive&rdquo; pricing at ~25% of the cost of OpenAI's and Anthropic's models&nbsp; &mdash;&nbsp; In a crowded market for AI tools, Mark Zuckerberg wants to win on price.&nbsp; &mda"
           },
           {
             "title": "Meta releases Muse Spark 1.1, capable of more advanced coding and a \"step-change\" from the first generation, available to US developers via a public API preview (Dominic Preston/The Verge)",
@@ -2529,30 +2493,6 @@
             "link": "https://www.techmeme.com/260709/p19#a260709p19",
             "date": "2026-07-09T10:00:30-04:00",
             "summary": "Gen&eacute; Teare / Crunchbase News: European startups raised $24B in Q2, up 66% YoY and the strongest quarter in four years; UK startups raised $10.4B, above Germany's $3.2B, and France's $2.4B&nbsp; &mdash;&nbsp; In Q2, Europe posted its strongest quarter in four years for venture funding, Crunchb"
-          },
-          {
-            "title": "Anthropic launches a \"reflection\" dashboard in beta for Free, Pro, and Max users to track Claude usage patterns over 1-, 3-, 6-, or 12-month intervals (Anthropic)",
-            "link": "https://www.techmeme.com/260709/p18#a260709p18",
-            "date": "2026-07-09T09:50:00-04:00",
-            "summary": "Anthropic: Anthropic launches a &ldquo;reflection&rdquo; dashboard in beta for Free, Pro, and Max users to track Claude usage patterns over 1-, 3-, 6-, or 12-month intervals&nbsp; &mdash;&nbsp; Today we're introducing, in beta, a new way to reflect on and refine how you use Claude.&nbsp; In our inte"
-          },
-          {
-            "title": "Databento, which sells financial data feeds, raised a $97M Series B led by NEA, taking its total funding to $127M, and says it is \"profitable every month\" (Lily Mae Lazarus/Fortune)",
-            "link": "https://www.techmeme.com/260709/p17#a260709p17",
-            "date": "2026-07-09T09:45:00-04:00",
-            "summary": "Lily Mae Lazarus / Fortune: Databento, which sells financial data feeds, raised a $97M Series B led by NEA, taking its total funding to $127M, and says it is &ldquo;profitable every month&rdquo;&nbsp; &mdash;&nbsp; Christina Qi spent a decade making money for billionaires, building Domeyard LP&mdash"
-          },
-          {
-            "title": "Micron raises its US capex commitment to $250B through 2035, adding $50B for facilities in NY, ID, VA, and elsewhere, and invests $500M in GlobalWafers (Maggie Eastland/Bloomberg)",
-            "link": "https://www.techmeme.com/260709/p16#a260709p16",
-            "date": "2026-07-09T09:40:01-04:00",
-            "summary": "Maggie Eastland / Bloomberg: Micron raises its US capex commitment to $250B through 2035, adding $50B for facilities in NY, ID, VA, and elsewhere, and invests $500M in GlobalWafers&nbsp; &mdash;&nbsp; Micron Raises Planned Spending to Meet Memory Chip Demand&nbsp; &mdash;&nbsp; Video Player is loadi"
-          },
-          {
-            "title": "Ollama, which helps developers run open-weight AI models locally, raised a $65M Series B led by Theory Venture, following a $15M Series A led by Benchmark (Julie Bort/TechCrunch)",
-            "link": "https://www.techmeme.com/260709/p15#a260709p15",
-            "date": "2026-07-09T09:30:03-04:00",
-            "summary": "Julie Bort / TechCrunch: Ollama, which helps developers run open-weight AI models locally, raised a $65M Series B led by Theory Venture, following a $15M Series A led by Benchmark&nbsp; &mdash;&nbsp; The popular open source AI tool Ollama has raised a $65 million Series B, led by Theory Venture, fou"
           }
         ]
       },
@@ -2563,8 +2503,26 @@
         "home": "https://techcrunch.com/",
         "url": "https://techcrunch.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-07-09T15:56:10.916325+00:00",
+        "fetchedAt": "2026-07-09T17:59:04.690648+00:00",
         "items": [
+          {
+            "title": "How to stop Meta’s AI image generator from using your Instagram photos",
+            "link": "https://techcrunch.com/2026/07/09/how-to-stop-metas-ai-image-generator-from-using-your-instagram-photos/",
+            "date": "2026-07-09T17:56:47+00:00",
+            "summary": "Meta's new AI image generator is using your public Instagram photos unless you opt out. Here's how to do that."
+          },
+          {
+            "title": "Meta’s new AI chips will begin production in September",
+            "link": "https://techcrunch.com/2026/07/09/metas-new-ai-chips-will-begin-production-in-september/",
+            "date": "2026-07-09T17:17:37+00:00",
+            "summary": "The company is taking a modular approach to designing these chips, anticipating that their needs will change as AI evolves rapidly by the time the chips are in production."
+          },
+          {
+            "title": "Nvidia is a victim of the compute marketplace it created",
+            "link": "https://techcrunch.com/2026/07/09/nvidia-is-a-victim-of-the-compute-marketplace-it-created/",
+            "date": "2026-07-09T17:06:11+00:00",
+            "summary": "Having proven how valuable compute can be, the company finds itself at the center of a market everyone wants to be in — while simpler technologies and less interesting companies get rich on the sidelines."
+          },
           {
             "title": "Block reaches $45M settlement with 46 states over Cash App fraud probe",
             "link": "https://techcrunch.com/2026/07/09/block-reaches-45m-settlement-with-46-states-over-cash-app-fraud-probe/",
@@ -2606,24 +2564,6 @@
             "link": "https://techcrunch.com/2026/07/08/truecaller-clashes-with-indias-telecom-regulator-over-anti-spam-rules/",
             "date": "2026-07-09T02:30:00+00:00",
             "summary": "The caller ID company says users are increasingly ignoring and blocking calls from India's dedicated business number series."
-          },
-          {
-            "title": "Despite ‘misgivings,’ judge approves Elon Musk’s $1.5M SEC settlement",
-            "link": "https://techcrunch.com/2026/07/08/despite-misgivings-judge-approves-elon-musks-1-5-million-sec-settlement/",
-            "date": "2026-07-08T23:11:42+00:00",
-            "summary": "The saga of Musk's tussle with the SEC over how he disclosed his growing stake in Twitter (now X) has come to an end."
-          },
-          {
-            "title": "Lovable reportedly in talks to double its valuation to $13.2B",
-            "link": "https://techcrunch.com/2026/07/08/lovable-reportedly-in-talks-to-double-its-valuation-to-13-2b/",
-            "date": "2026-07-08T22:41:33+00:00",
-            "summary": "The $300 million round is expected to be led by Menlo Ventures, Sifted reported."
-          },
-          {
-            "title": "Feds demand autonomous vehicle companies stop interfering with first responders",
-            "link": "https://techcrunch.com/2026/07/08/feds-demand-autonomous-vehicle-companies-stop-interfering-with-first-responders/",
-            "date": "2026-07-08T21:49:33+00:00",
-            "summary": "The National Highway Traffic Safety Administration said emergency scenes are not \"edge cases.\""
           }
         ]
       },
@@ -2634,8 +2574,26 @@
         "home": "https://techcrunch.com/category/artificial-intelligence/",
         "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
         "status": "ok",
-        "fetchedAt": "2026-07-09T15:56:11.042779+00:00",
+        "fetchedAt": "2026-07-09T17:59:04.777435+00:00",
         "items": [
+          {
+            "title": "How to stop Meta’s AI image generator from using your Instagram photos",
+            "link": "https://techcrunch.com/2026/07/09/how-to-stop-metas-ai-image-generator-from-using-your-instagram-photos/",
+            "date": "2026-07-09T17:56:47+00:00",
+            "summary": "Meta's new AI image generator is using your public Instagram photos unless you opt out. Here's how to do that."
+          },
+          {
+            "title": "Meta’s new AI chips will begin production in September",
+            "link": "https://techcrunch.com/2026/07/09/metas-new-ai-chips-will-begin-production-in-september/",
+            "date": "2026-07-09T17:17:37+00:00",
+            "summary": "The company is taking a modular approach to designing these chips, anticipating that their needs will change as AI evolves rapidly by the time the chips are in production."
+          },
+          {
+            "title": "Nvidia is a victim of the compute marketplace it created",
+            "link": "https://techcrunch.com/2026/07/09/nvidia-is-a-victim-of-the-compute-marketplace-it-created/",
+            "date": "2026-07-09T17:06:11+00:00",
+            "summary": "Having proven how valuable compute can be, the company finds itself at the center of a market everyone wants to be in — while simpler technologies and less interesting companies get rich on the sidelines."
+          },
           {
             "title": "Anthropic’s new Claude feature is quietly selling you on AI",
             "link": "https://techcrunch.com/2026/07/09/anthropics-new-claude-feature-is-quietly-selling-you-on-ai/",
@@ -2677,24 +2635,6 @@
             "link": "https://techcrunch.com/2026/07/08/googles-deepfake-detector-system-used-to-debunk-mcconnell-hoax-pic/",
             "date": "2026-07-08T20:37:03+00:00",
             "summary": "Earlier this week, a picture seemed to show Kentucky Senator Mitch McConnell covered in tubes in a hospital bed in a state of extreme distress. It turned out to be an AI-generated fake."
-          },
-          {
-            "title": "SpaceXAI releases Grok 4.5, which Elon describes as an ‘Opus-class model’",
-            "link": "https://techcrunch.com/2026/07/08/spacexai-releases-grok-4-5-which-elon-describes-as-an-opus-class-model/",
-            "date": "2026-07-08T19:30:16+00:00",
-            "summary": "Elon Musk's tech company released the newest version of Grok on Wednesday, promising a cheaper, more efficient alternative to other powerful AI models."
-          },
-          {
-            "title": "This startup thinks robotics is about to have its ChatGPT moment",
-            "link": "https://techcrunch.com/2026/07/08/this-startup-thinks-robotics-is-about-to-have-its-chatgpt-moment/",
-            "date": "2026-07-08T19:19:15+00:00",
-            "summary": "General Intuition is betting millions of hours of video game data can train the foundation models for physical AI, making it easier to build smarter robots with minimal real-world data."
-          },
-          {
-            "title": "Google Photos adds a new AI ‘Video Remix’ tool",
-            "link": "https://techcrunch.com/2026/07/08/google-photos-adds-a-new-ai-video-remix-tool/",
-            "date": "2026-07-08T18:30:08+00:00",
-            "summary": "The feature can do things like apply cinematic relighting to brighten up a dark clip, swap out a plain background for something fun, or add artistic styles to videos."
           }
         ]
       },
@@ -2705,7 +2645,7 @@
         "home": "https://techcrunch.com/tag/funding/",
         "url": "https://techcrunch.com/tag/funding/feed/",
         "status": "ok",
-        "fetchedAt": "2026-07-09T15:56:11.059393+00:00",
+        "fetchedAt": "2026-07-09T17:59:04.788990+00:00",
         "items": [
           {
             "title": "AI chip maker SambaNova raises $1B at $11B valuation, 5 months after last mega round",
@@ -2776,7 +2716,7 @@
         "home": "https://venturebeat.com/",
         "url": "https://venturebeat.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-07-09T15:56:11.152494+00:00",
+        "fetchedAt": "2026-07-09T17:59:04.923222+00:00",
         "items": [
           {
             "title": "The enterprise AI challenge nobody solves with code generation alone",
@@ -2829,7 +2769,7 @@
         "home": "https://venturebeat.com/category/ai/",
         "url": "https://venturebeat.com/category/ai/feed/",
         "status": "ok",
-        "fetchedAt": "2026-07-09T15:56:11.250598+00:00",
+        "fetchedAt": "2026-07-09T17:59:04.906222+00:00",
         "items": [
           {
             "title": "Google just redesigned the search box for the first time in 25 years — here’s why it matters more than you think.",
@@ -2884,7 +2824,7 @@
         "home": "https://www.ruanyifeng.com/blog/",
         "url": "https://www.ruanyifeng.com/blog/atom.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-09T15:56:11.576488+00:00",
+        "fetchedAt": "2026-07-09T17:59:04.584204+00:00",
         "items": [
           {
             "title": "科技爱好者周刊（第 402 期）：我在智念 AI 的日子（小说）",
@@ -2931,8 +2871,14 @@
         "home": "https://www.bestblogs.dev/",
         "url": "https://www.bestblogs.dev/zh/feeds/rss?category=ai&minScore=90",
         "status": "ok",
-        "fetchedAt": "2026-07-09T15:56:14.828547+00:00",
+        "fetchedAt": "2026-07-09T17:59:07.924704+00:00",
         "items": [
+          {
+            "title": "Coding Agent 与工程经理的角色",
+            "link": "https://www.bestblogs.dev/status/2075255723487826347?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
+            "date": "2026-07-09T16:28:15+00:00",
+            "summary": "📌 一句话摘要 使用 Coding Agent 时，程序员的角色变为工程经理，需要理解需求、分配任务和验收任务 📝 详细摘要 推文讨论了使用 Coding Agent 时，程序员的角色变为工程经理，需要理解需求、分配任务和验收任务。作者认为，即使 AI 很聪明，也需要工程经理的指导和监督，否则可能会造成误解和安全性问题 📊 文章信息 AI 初评：92 来源：宝玉(@dotey) 作者：宝玉 分类：人工智能 语言：中文 阅读时间：3 分钟 字数：656 标签： Coding Agent, 工程经理, AI, 软件工程 阅读推文"
+          },
           {
             "title": "近期，微软连发了 2 篇 AI 自动化科研的论文",
             "link": "https://www.bestblogs.dev/article/8bd98421?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
@@ -2986,12 +2932,6 @@
             "link": "https://www.bestblogs.dev/article/bb95fdd2?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
             "date": "2026-07-08T12:05:00+00:00",
             "summary": "📌 一句话摘要 利用 Dify CLI difyctl 与 Agent 技能实现对已有工作流的自动化调用，通过一句话指令触发复杂业务流程并完成人工审核后自动推送。 📝 详细摘要 文章详细阐述了如何使用 Dify 官方命令行工具 difyctl 为 AI Agent 提供调用 Dify 工作流的能力。全文分为五步：① 安装 difyctl；② 完成登录鉴权；③ 通过 difyctl skills install 注入 Skill 文件（SKILL.md）；④ 在 Dify 中准备并命名可调用的工作流；⑤ 编写 Prompt Rule 指导 Agent 在何时调用并传递什么内容。Agent 调用后"
-          },
-          {
-            "title": "API 厂商定价的认知套利：“割”GPU 利用率盲区用户，52%是 AI 推理成本分水岭",
-            "link": "https://www.bestblogs.dev/article/59f73e67?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
-            "date": "2026-07-08T07:39:00+00:00",
-            "summary": "📌 一句话摘要 本文揭示 API 厂商利用客户无法精确计算 GPU 利用率的认知盲区进行定价套利，并推导出“自建更便宜”的精确临界点——52% 利用率。 📝 详细摘要 文章挑战了“规模增长后自建比 API 更便宜”的行业共识，指出其成立的前提是 GPU 利用率超过 52%。作者构建了一个五维成本模型，首次系统量化了“空闲待机损耗”这一最大隐性成本，并通过数学推导得出 52% 的盈亏平衡临界点。文章进一步揭示，API 厂商的定价本质是利用客户普遍处于 30%-50% 低利用率区间的认知不对称，进行结构性套利。文中提供了基于真实数据的多场景成本测算、敏感性分析、决策树，并附带了经 NVIDIA 官"
           }
         ]
       }
@@ -2999,9 +2939,109 @@
   },
   "allItems": [
     {
-      "title": "Launch HN: Context.dev (YC S26) – API to get structured data from any website",
-      "link": "https://www.context.dev",
-      "date": "2026-07-09T15:28:39+00:00",
+      "title": "How to stop Meta’s AI image generator from using your Instagram photos",
+      "link": "https://techcrunch.com/2026/07/09/how-to-stop-metas-ai-image-generator-from-using-your-instagram-photos/",
+      "date": "2026-07-09T17:56:47+00:00",
+      "summary": "Meta's new AI image generator is using your public Instagram photos unless you opt out. Here's how to do that.",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "How to stop Meta’s AI image generator from using your Instagram photos",
+      "link": "https://techcrunch.com/2026/07/09/how-to-stop-metas-ai-image-generator-from-using-your-instagram-photos/",
+      "date": "2026-07-09T17:56:47+00:00",
+      "summary": "Meta's new AI image generator is using your public Instagram photos unless you opt out. Here's how to do that.",
+      "feedId": "techcrunch-ai",
+      "feedTitle": "TechCrunch AI",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
+    },
+    {
+      "title": "‘Parry Encounters the Doctor’ — Chatbot on Chatbot Action Circa 1973",
+      "link": "https://www.rfc-editor.org/info/rfc439/",
+      "date": "2026-07-09T17:19:27+00:00",
+      "summary": "Back in the primordial days of AI, Parry was an ELIZA-style chatbot created by psychiatrist Kenneth Colby to simulate the words of a paranoid schizophrenic. Someone had the genius idea to connect it to Eliza (a.k.a. “Doctor”). Vint Cerf published the transcript as an RFC in 1973, and I laughed my as",
+      "feedId": "daringfireball",
+      "feedTitle": "Daring Fireball",
+      "category": "Tech Blogs",
+      "feedHome": "https://daringfireball.net/"
+    },
+    {
+      "title": "‘Searching for SmarterChild’ Kickstarter",
+      "link": "https://www.kickstarter.com/projects/smarterchild/searching-for-smarterchild-a-feature-documentary/creator",
+      "date": "2026-07-09T17:18:17+00:00",
+      "summary": "After reading my posts earlier today about Eliza, the first “hit” chatbot from the 1960s, DF reader AP sent me a link to the Kickstarter page for Searching for SmarterChild, a project from documentary filmmakers Lindsey Sitz and Zan Gillies to make a movie about SmarterChild, an AOL Instant Messenge",
+      "feedId": "daringfireball",
+      "feedTitle": "Daring Fireball",
+      "category": "Tech Blogs",
+      "feedHome": "https://daringfireball.net/"
+    },
+    {
+      "title": "My Conversation With Eilza",
+      "link": "https://sites.google.com/view/elizaarchaeology/try-eliza?authuser=0",
+      "date": "2026-07-09T17:17:58+00:00",
+      "summary": "I vaguely recall first trying some version of Eliza back in the 1990s. I never found it all that impressive nor understood its stature in the AI literature. It’s better than a bunch of if/then statements but not by much. There’s some natural language grammar parsing that is somewhat interesting, but",
+      "feedId": "daringfireball",
+      "feedTitle": "Daring Fireball",
+      "category": "Tech Blogs",
+      "feedHome": "https://daringfireball.net/"
+    },
+    {
+      "title": "Meta’s new AI chips will begin production in September",
+      "link": "https://techcrunch.com/2026/07/09/metas-new-ai-chips-will-begin-production-in-september/",
+      "date": "2026-07-09T17:17:37+00:00",
+      "summary": "The company is taking a modular approach to designing these chips, anticipating that their needs will change as AI evolves rapidly by the time the chips are in production.",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "Meta’s new AI chips will begin production in September",
+      "link": "https://techcrunch.com/2026/07/09/metas-new-ai-chips-will-begin-production-in-september/",
+      "date": "2026-07-09T17:17:37+00:00",
+      "summary": "The company is taking a modular approach to designing these chips, anticipating that their needs will change as AI evolves rapidly by the time the chips are in production.",
+      "feedId": "techcrunch-ai",
+      "feedTitle": "TechCrunch AI",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
+    },
+    {
+      "title": "The Eliza Archaeology Project",
+      "link": "https://findingeliza.org/",
+      "date": "2026-07-09T17:16:48+00:00",
+      "summary": "The Eliza Archaeology Project: ELIZA is the original and highly influential chatbot that launched the genre of human-computer interactions using text-based agents. It was created at MIT in the 1960s as part of Project MAC by it’s [sic] designer and programmer, Joseph Weizenbaum. ELIZA not only allow",
+      "feedId": "daringfireball",
+      "feedTitle": "Daring Fireball",
+      "category": "Tech Blogs",
+      "feedHome": "https://daringfireball.net/"
+    },
+    {
+      "title": "Nvidia is a victim of the compute marketplace it created",
+      "link": "https://techcrunch.com/2026/07/09/nvidia-is-a-victim-of-the-compute-marketplace-it-created/",
+      "date": "2026-07-09T17:06:11+00:00",
+      "summary": "Having proven how valuable compute can be, the company finds itself at the center of a market everyone wants to be in — while simpler technologies and less interesting companies get rich on the sidelines.",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "Nvidia is a victim of the compute marketplace it created",
+      "link": "https://techcrunch.com/2026/07/09/nvidia-is-a-victim-of-the-compute-marketplace-it-created/",
+      "date": "2026-07-09T17:06:11+00:00",
+      "summary": "Having proven how valuable compute can be, the company finds itself at the center of a market everyone wants to be in — while simpler technologies and less interesting companies get rich on the sidelines.",
+      "feedId": "techcrunch-ai",
+      "feedTitle": "TechCrunch AI",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
+    },
+    {
+      "title": "GPT-5.6",
+      "link": "https://openai.com/index/gpt-5-6/",
+      "date": "2026-07-09T17:04:14+00:00",
       "summary": "Comments",
       "feedId": "hackernews",
       "feedTitle": "Hacker News",
@@ -3009,9 +3049,89 @@
       "feedHome": "https://news.ycombinator.com/"
     },
     {
-      "title": "Opinionated and Easy Pi.dev Configuration",
-      "link": "https://lazypi.org/",
-      "date": "2026-07-09T15:19:33+00:00",
+      "title": "ChatGPT Work",
+      "link": "https://openai.com/index/chatgpt-for-your-most-ambitious-work/",
+      "date": "2026-07-09T17:03:53+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "Wildcard (YC W25) Is Hiring a Founding Engineer",
+      "link": "https://www.ycombinator.com/companies/wildcard/jobs/ZSLVaaU-founding-engineer",
+      "date": "2026-07-09T17:00:37+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "Meta Sets Default for Instagram Accounts to Permit Content Reuse by AI",
+      "link": "https://www.nytimes.com/2026/07/08/technology/meta-instagram-ai.html?unlocked_article_code=1.wVA.Q5Do.Uvg5yPwCEB5H",
+      "date": "2026-07-09T17:00:04+00:00",
+      "summary": "Eli Tan, reporting for The New York Times (gift link): The company’s new A.I. image generator has a surprising twist: It allows people to use images from public Instagram accounts. When Meta unveiled an artificial intelligence image generator called Muse Image on Tuesday, it came with a feature that",
+      "feedId": "daringfireball",
+      "feedTitle": "Daring Fireball",
+      "category": "Tech Blogs",
+      "feedHome": "https://daringfireball.net/"
+    },
+    {
+      "title": "Coding Agent 与工程经理的角色",
+      "link": "https://www.bestblogs.dev/status/2075255723487826347?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
+      "date": "2026-07-09T16:28:15+00:00",
+      "summary": "📌 一句话摘要 使用 Coding Agent 时，程序员的角色变为工程经理，需要理解需求、分配任务和验收任务 📝 详细摘要 推文讨论了使用 Coding Agent 时，程序员的角色变为工程经理，需要理解需求、分配任务和验收任务。作者认为，即使 AI 很聪明，也需要工程经理的指导和监督，否则可能会造成误解和安全性问题 📊 文章信息 AI 初评：92 来源：宝玉(@dotey) 作者：宝玉 分类：人工智能 语言：中文 阅读时间：3 分钟 字数：656 标签： Coding Agent, 工程经理, AI, 软件工程 阅读推文",
+      "feedId": "bestblogs",
+      "feedTitle": "BestBlogs.dev AI 90+",
+      "category": "中文",
+      "feedHome": "https://www.bestblogs.dev/"
+    },
+    {
+      "title": "Introducing Muse Spark 1.1",
+      "link": "https://simonwillison.net/2026/Jul/9/muse-spark-1-1/#atom-everything",
+      "date": "2026-07-09T16:24:09+00:00",
+      "summary": "Introducing Muse Spark 1.1 Following Muse Spark in April, here's Muse Spark 1.1 - the first Spark model to offer an API. Meta claim significant improvements in agentic tool calling and computer use. There are a lot more details are in the Muse Spark 1.1 Evaluation Report. The \"Attractor States in Se",
+      "feedId": "simonwillison",
+      "feedTitle": "Simon Willison",
+      "category": "AI & LLM",
+      "feedHome": "https://simonwillison.net/"
+    },
+    {
+      "title": "llm-meta-ai 0.1",
+      "link": "https://simonwillison.net/2026/Jul/9/llm-meta-ai/#atom-everything",
+      "date": "2026-07-09T16:12:20+00:00",
+      "summary": "Release: llm-meta-ai 0.1 Let's LLM run prompts against the new muse-spark-1.1 model. Tags: llm, meta",
+      "feedId": "simonwillison",
+      "feedTitle": "Simon Willison",
+      "category": "AI & LLM",
+      "feedHome": "https://simonwillison.net/"
+    },
+    {
+      "title": "llm 0.31.1",
+      "link": "https://simonwillison.net/2026/Jul/9/llm/#atom-everything",
+      "date": "2026-07-09T16:06:15+00:00",
+      "summary": "Release: llm 0.31.1 Fix for a bug with OpenAI Chat Completion endpoints where a tool call with empty arguments could result in a JSON error from some providers. #1521 This bug came up when I was testing llm-meta-ai. Tags: llm",
+      "feedId": "simonwillison",
+      "feedTitle": "Simon Willison",
+      "category": "AI & LLM",
+      "feedHome": "https://simonwillison.net/"
+    },
+    {
+      "title": "Hy3",
+      "link": "https://hy.tencent.com/research/hy3",
+      "date": "2026-07-09T15:27:48+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "A possible future for Damn Interesting",
+      "link": "https://www.damninteresting.com/a-possible-future/",
+      "date": "2026-07-09T15:25:25+00:00",
       "summary": "Comments",
       "feedId": "hackernews",
       "feedTitle": "Hacker News",
@@ -3027,16 +3147,6 @@
       "feedTitle": "TechCrunch",
       "category": "Startup & News",
       "feedHome": "https://techcrunch.com/"
-    },
-    {
-      "title": "Show HN: LastShelf – an emergency map of your family's documents bills& contacts",
-      "link": "https://www.lastshelf.ai/",
-      "date": "2026-07-09T15:13:11+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
     },
     {
       "title": "The enterprise AI challenge nobody solves with code generation alone",
@@ -3099,26 +3209,6 @@
       "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
     },
     {
-      "title": "Show HN: Analog Watch",
-      "link": "https://analog.watch",
-      "date": "2026-07-09T14:30:54+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
-      "title": "PostHog Open Sourced",
-      "link": "https://github.com/PostHog/posthog-foss",
-      "date": "2026-07-09T14:17:40+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
       "title": "No leap second will be introduced at the end of December 2026",
       "link": "https://datacenter.iers.org/data/latestVersion/bulletinC.txt",
       "date": "2026-07-09T14:16:34+00:00",
@@ -3129,18 +3219,8 @@
       "feedHome": "https://news.ycombinator.com/"
     },
     {
-      "title": "Meta Sets Default for Instagram Accounts to Permit Content Reuse by AI",
-      "link": "https://www.nytimes.com/2026/07/08/technology/meta-instagram-ai.html",
-      "date": "2026-07-09T14:11:00+00:00",
-      "summary": "Eli Tan, reporting for The New York Times (gift link): The company’s new A.I. image generator has a surprising twist: It allows people to use images from public Instagram accounts. When Meta unveiled an artificial intelligence image generator called Muse Image on Tuesday, it came with a feature that",
-      "feedId": "daringfireball",
-      "feedTitle": "Daring Fireball",
-      "category": "Tech Blogs",
-      "feedHome": "https://daringfireball.net/"
-    },
-    {
-      "title": "Introducing Muse Spark 1.1",
-      "link": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/?_fb_noscript=1",
+      "title": "Muse Spark 1.1",
+      "link": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/",
       "date": "2026-07-09T14:10:22+00:00",
       "summary": "Comments",
       "feedId": "hackernews",
@@ -3157,6 +3237,26 @@
       "feedTitle": "The Old New Thing",
       "category": "Tech Blogs",
       "feedHome": "https://devblogs.microsoft.com/oldnewthing/"
+    },
+    {
+      "title": "GPT-5.6 Sol costs $5 per 1M input tokens and $30 per 1M output tokens, GPT-5.6 Terra costs $2.50 and $15, and GPT-5.6 Luna costs $1 and $6 (OpenAI)",
+      "link": "https://www.techmeme.com/260709/p28#a260709p28",
+      "date": "2026-07-09T13:35:02-04:00",
+      "summary": "OpenAI: GPT-5.6 Sol costs $5 per 1M input tokens and $30 per 1M output tokens, GPT-5.6 Terra costs $2.50 and $15, and GPT-5.6 Luna costs $1 and $6&nbsp; &mdash;&nbsp; More intelligence from every token, stronger performance per dollar, and more capability on demand for your hardest work.",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
+      "title": "OpenAI broadly releases GPT-5.6, and launches ChatGPT Work, an AI agent that can gather context across apps and files to create documents, on Mac and Windows (Axios)",
+      "link": "https://www.techmeme.com/260709/p27#a260709p27",
+      "date": "2026-07-09T13:06:46-04:00",
+      "summary": "Axios: OpenAI broadly releases GPT-5.6, and launches ChatGPT Work, an AI agent that can gather context across apps and files to create documents, on Mac and Windows&nbsp; &mdash;&nbsp; - Sol is the most powerful version, while Luna is designed for speed. &hellip; - A new &ldquo;ultra&rdquo; mode wit",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
     },
     {
       "title": "Popular open source AI developer tool Ollama raises $65M, grows to nearly 9M users",
@@ -3209,6 +3309,26 @@
       "feedHome": "https://news.ycombinator.com/"
     },
     {
+      "title": "Microsoft President Brad Smith says the US now has AI \"regulation without transparent or complete rules\", and adds that \"without rules, businesses can't plan\" (Beatrice Nolan/Fortune)",
+      "link": "https://www.techmeme.com/260709/p26#a260709p26",
+      "date": "2026-07-09T12:40:01-04:00",
+      "summary": "Beatrice Nolan / Fortune: Microsoft President Brad Smith says the US now has AI &ldquo;regulation without transparent or complete rules&rdquo;, and adds that &ldquo;without rules, businesses can't plan&rdquo;&nbsp; &mdash;&nbsp; Microsoft President Brad Smith has weighed in on U.S. policy on AI, say",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
+      "title": "Kraken Technology, which designs and builds autonomous maritime platforms, such as uncrewed subsurface vessels, raised a $175M Series B at a $1B valuation (John Reynolds/Tech.eu)",
+      "link": "https://www.techmeme.com/260709/p25#a260709p25",
+      "date": "2026-07-09T12:00:45-04:00",
+      "summary": "John Reynolds / Tech.eu: Kraken Technology, which designs and builds autonomous maritime platforms, such as uncrewed subsurface vessels, raised a $175M Series B at a $1B valuation&nbsp; &mdash;&nbsp; It says it will use the funding to develop its uncrewed surface vessels while expanding manufacturin",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
       "title": "Nandan Nilekani leaves GP role at Fundamentum as it launches $200M third fund",
       "link": "https://techcrunch.com/2026/07/09/nandan-nilekani-leaves-gp-role-at-his-vc-firm-as-it-launches-third-200m-fund/",
       "date": "2026-07-09T12:00:00+00:00",
@@ -3229,14 +3349,24 @@
       "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
     },
     {
-      "title": "Bun creator says he rewrote Bun from Zig to Rust using a pre-release version of Claude Fable 5 in 11 days; the task would've taken three engineers about a year (Jarred Sumner/bun.com)",
+      "title": "Bun's creator says he rewrote Bun from Zig to Rust using a Claude Fable 5 prerelease version in 11 days, noting it would've taken three engineers \"about a year\" (Jarred Sumner/bun.com)",
       "link": "https://www.techmeme.com/260709/p24#a260709p24",
       "date": "2026-07-09T11:25:01-04:00",
-      "summary": "Jarred Sumner / bun.com: Bun creator says he rewrote Bun from Zig to Rust using a pre-release version of Claude Fable 5 in 11 days; the task would've taken three engineers about a year&nbsp; &mdash;&nbsp; Disclosure: Bun was acquired by Anthropic in December 2025.&nbsp; I and others on the Bun team ",
+      "summary": "Jarred Sumner / bun.com: Bun's creator says he rewrote Bun from Zig to Rust using a Claude Fable 5 prerelease version in 11 days, noting it would've taken three engineers &ldquo;about a year&rdquo;&nbsp; &mdash;&nbsp; Disclosure: Bun was acquired by Anthropic in December 2025.&nbsp; I and others on ",
       "feedId": "techmeme",
       "feedTitle": "Techmeme",
       "category": "Startup & News",
       "feedHome": "https://www.techmeme.com/"
+    },
+    {
+      "title": "EU Parliament greenlights Chat Control 1.0",
+      "link": "https://www.patrick-breyer.de/en/eu-parliament-greenlights-chat-control-1-0-breyer-our-children-lose-out/",
+      "date": "2026-07-09T11:03:54+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
     },
     {
       "title": "Character.AI launches three human-written, AI-generated microdramas, whose characters users can chat with, and aims to eventually let users make their own shows (Ivan Mehta/TechCrunch)",
@@ -3249,20 +3379,20 @@
       "feedHome": "https://www.techmeme.com/"
     },
     {
-      "title": "Muse Spark 1.1 costs $1.25 per 1M input tokens and $4.25 per 1M output tokens; Alexandr Wang says coding and agentic tasks were key focuses (Ina Fried/Axios)",
+      "title": "Meta prices Muse Spark 1.1 at $1.25/1M input tokens and $4.25/1M output tokens; Alexandr Wang says improving coding and agentic performance was a key focus (Ina Fried/Axios)",
       "link": "https://www.techmeme.com/260709/p22#a260709p22",
       "date": "2026-07-09T10:30:17-04:00",
-      "summary": "Ina Fried / Axios: Muse Spark 1.1 costs $1.25 per 1M input tokens and $4.25 per 1M output tokens; Alexandr Wang says coding and agentic tasks were key focuses&nbsp; &mdash;&nbsp; Facebook's parent company on Thursday updated its Muse Spark large language model and followed through on a promise to ma",
+      "summary": "Ina Fried / Axios: Meta prices Muse Spark 1.1 at $1.25/1M input tokens and $4.25/1M output tokens; Alexandr Wang says improving coding and agentic performance was a key focus&nbsp; &mdash;&nbsp; Facebook's parent company on Thursday updated its Muse Spark large language model and followed through on",
       "feedId": "techmeme",
       "feedTitle": "Techmeme",
       "category": "Startup & News",
       "feedHome": "https://www.techmeme.com/"
     },
     {
-      "title": "Meta launches a Meta Model API, whose pricing Mark Zuckerberg says will be \"aggressive and attractive\" at ~25% of the cost of OpenAI and Anthropic models (Kurt Wagner/Bloomberg)",
+      "title": "Meta launches a Meta Model API, which Mark Zuckerberg says will have \"aggressive and attractive\" pricing at ~25% of the cost of OpenAI's and Anthropic's models (Kurt Wagner/Bloomberg)",
       "link": "https://www.techmeme.com/260709/p21#a260709p21",
       "date": "2026-07-09T10:25:00-04:00",
-      "summary": "Kurt Wagner / Bloomberg: Meta launches a Meta Model API, whose pricing Mark Zuckerberg says will be &ldquo;aggressive and attractive&rdquo; at ~25% of the cost of OpenAI and Anthropic models&nbsp; &mdash;&nbsp; In a crowded market for AI tools, Mark Zuckerberg wants to win on price.&nbsp; &mdash;&nb",
+      "summary": "Kurt Wagner / Bloomberg: Meta launches a Meta Model API, which Mark Zuckerberg says will have &ldquo;aggressive and attractive&rdquo; pricing at ~25% of the cost of OpenAI's and Anthropic's models&nbsp; &mdash;&nbsp; In a crowded market for AI tools, Mark Zuckerberg wants to win on price.&nbsp; &mda",
       "feedId": "techmeme",
       "feedTitle": "Techmeme",
       "category": "Startup & News",
@@ -3289,24 +3419,44 @@
       "feedHome": "https://www.techmeme.com/"
     },
     {
-      "title": "Anthropic launches a \"reflection\" dashboard in beta for Free, Pro, and Max users to track Claude usage patterns over 1-, 3-, 6-, or 12-month intervals (Anthropic)",
-      "link": "https://www.techmeme.com/260709/p18#a260709p18",
-      "date": "2026-07-09T09:50:00-04:00",
-      "summary": "Anthropic: Anthropic launches a &ldquo;reflection&rdquo; dashboard in beta for Free, Pro, and Max users to track Claude usage patterns over 1-, 3-, 6-, or 12-month intervals&nbsp; &mdash;&nbsp; Today we're introducing, in beta, a new way to reflect on and refine how you use Claude.&nbsp; In our inte",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
+      "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
+      "link": "https://openai.com/index/gpt-5-6",
+      "date": "2026-07-09T10:00:00+00:00",
+      "summary": "More intelligence from every token, stronger performance per dollar, and more capability on demand for your hardest work.",
+      "feedId": "openai",
+      "feedTitle": "OpenAI News",
+      "category": "AI & LLM",
+      "feedHome": "https://openai.com/news/"
     },
     {
-      "title": "Databento, which sells financial data feeds, raised a $97M Series B led by NEA, taking its total funding to $127M, and says it is \"profitable every month\" (Lily Mae Lazarus/Fortune)",
-      "link": "https://www.techmeme.com/260709/p17#a260709p17",
-      "date": "2026-07-09T09:45:00-04:00",
-      "summary": "Lily Mae Lazarus / Fortune: Databento, which sells financial data feeds, raised a $97M Series B led by NEA, taking its total funding to $127M, and says it is &ldquo;profitable every month&rdquo;&nbsp; &mdash;&nbsp; Christina Qi spent a decade making money for billionaires, building Domeyard LP&mdash",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
+      "title": "ChatGPT is now a partner for your most ambitious work",
+      "link": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
+      "date": "2026-07-09T10:00:00+00:00",
+      "summary": "ChatGPT Work is an agent that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work.",
+      "feedId": "openai",
+      "feedTitle": "OpenAI News",
+      "category": "AI & LLM",
+      "feedHome": "https://openai.com/news/"
+    },
+    {
+      "title": "GPT-5.5 Bio Bug Bounty",
+      "link": "https://openai.com/index/bio-bug-bounty",
+      "date": "2026-07-09T10:00:00+00:00",
+      "summary": "Details about the OpenAI Bio Bounty program",
+      "feedId": "openai",
+      "feedTitle": "OpenAI News",
+      "category": "AI & LLM",
+      "feedHome": "https://openai.com/news/"
+    },
+    {
+      "title": "SensorFM: Towards a general intelligence and interface for wearable health data",
+      "link": "https://research.google/blog/sensorfm-towards-a-general-intelligence-and-interface-for-wearable-health-data/",
+      "date": "2026-07-09T09:56:00+00:00",
+      "summary": "Generative AI",
+      "feedId": "google-research",
+      "feedTitle": "Google Research Blog",
+      "category": "AI & LLM",
+      "feedHome": "https://research.google/blog/"
     },
     {
       "title": "近期，微软连发了 2 篇 AI 自动化科研的论文",
@@ -3327,26 +3477,6 @@
       "feedTitle": "BestBlogs.dev AI 90+",
       "category": "中文",
       "feedHome": "https://www.bestblogs.dev/"
-    },
-    {
-      "title": "Micron raises its US capex commitment to $250B through 2035, adding $50B for facilities in NY, ID, VA, and elsewhere, and invests $500M in GlobalWafers (Maggie Eastland/Bloomberg)",
-      "link": "https://www.techmeme.com/260709/p16#a260709p16",
-      "date": "2026-07-09T09:40:01-04:00",
-      "summary": "Maggie Eastland / Bloomberg: Micron raises its US capex commitment to $250B through 2035, adding $50B for facilities in NY, ID, VA, and elsewhere, and invests $500M in GlobalWafers&nbsp; &mdash;&nbsp; Micron Raises Planned Spending to Meet Memory Chip Demand&nbsp; &mdash;&nbsp; Video Player is loadi",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "Ollama, which helps developers run open-weight AI models locally, raised a $65M Series B led by Theory Venture, following a $15M Series A led by Benchmark (Julie Bort/TechCrunch)",
-      "link": "https://www.techmeme.com/260709/p15#a260709p15",
-      "date": "2026-07-09T09:30:03-04:00",
-      "summary": "Julie Bort / TechCrunch: Ollama, which helps developers run open-weight AI models locally, raised a $65M Series B led by Theory Venture, following a $15M Series A led by Benchmark&nbsp; &mdash;&nbsp; The popular open source AI tool Ollama has raised a $65 million Series B, led by Theory Venture, fou",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
     },
     {
       "title": "连写 5 遍 SQL 后，他从“人肉 Agent”的荒诞感里，死磕出了一款企业副驾驶",
@@ -3669,36 +3799,6 @@
       "feedHome": "https://simonwillison.net/"
     },
     {
-      "title": "Despite ‘misgivings,’ judge approves Elon Musk’s $1.5M SEC settlement",
-      "link": "https://techcrunch.com/2026/07/08/despite-misgivings-judge-approves-elon-musks-1-5-million-sec-settlement/",
-      "date": "2026-07-08T23:11:42+00:00",
-      "summary": "The saga of Musk's tussle with the SEC over how he disclosed his growing stake in Twitter (now X) has come to an end.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
-    },
-    {
-      "title": "‘PARRY Encounters the DOCTOR’ — Chatbot on Chatbot Action Circa 1973",
-      "link": "https://www.rfc-editor.org/info/rfc439/",
-      "date": "2026-07-08T22:44:48+00:00",
-      "summary": "Back in the primordial days of AI, PARRY was an ELIZA-style chatbot created by psychiatrist Kenneth Colby to simulate the words of a paranoid schizophrenic. Someone had the genius idea to connect it to ELIZA (a.k.a. “DOCTOR”). Vint Cerf published the transcript as an RFC in 1973, and I laughed my as",
-      "feedId": "daringfireball",
-      "feedTitle": "Daring Fireball",
-      "category": "Tech Blogs",
-      "feedHome": "https://daringfireball.net/"
-    },
-    {
-      "title": "Lovable reportedly in talks to double its valuation to $13.2B",
-      "link": "https://techcrunch.com/2026/07/08/lovable-reportedly-in-talks-to-double-its-valuation-to-13-2b/",
-      "date": "2026-07-08T22:41:33+00:00",
-      "summary": "The $300 million round is expected to be led by Menlo Ventures, Sifted reported.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
-    },
-    {
       "title": "Lovable reportedly in talks to double its valuation to $13.2B",
       "link": "https://techcrunch.com/2026/07/08/lovable-reportedly-in-talks-to-double-its-valuation-to-13-2b/",
       "date": "2026-07-08T22:41:33+00:00",
@@ -3707,26 +3807,6 @@
       "feedTitle": "TechCrunch AI",
       "category": "Startup & News",
       "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
-    },
-    {
-      "title": "My Conversation With ELIZA",
-      "link": "https://sites.google.com/view/elizaarchaeology/try-eliza?authuser=0",
-      "date": "2026-07-08T22:17:17+00:00",
-      "summary": "I vaguely recall first trying some version of ELIZA back in the 1990s. I never found it all that impressive nor understood its stature in the AI literature. It’s better than a bunch of if/then statements but not by much. There’s some natural language grammar parsing that is somewhat interesting, but",
-      "feedId": "daringfireball",
-      "feedTitle": "Daring Fireball",
-      "category": "Tech Blogs",
-      "feedHome": "https://daringfireball.net/"
-    },
-    {
-      "title": "‘Searching for SmarterChild’ Kickstarter",
-      "link": "https://www.kickstarter.com/projects/smarterchild/searching-for-smarterchild-a-feature-documentary/creator",
-      "date": "2026-07-08T22:15:30+00:00",
-      "summary": "After reading my posts earlier today about ELIZA, the first “hit” chatbot from the 1960s, DF reader AP sent me a link to the Kickstarter page for Searching for SmarterChild, a project from documentary filmmakers Lindsey Sitz and Zan Gillies to make a movie about SmarterChild, an AOL Instant Messenge",
-      "feedId": "daringfireball",
-      "feedTitle": "Daring Fireball",
-      "category": "Tech Blogs",
-      "feedHome": "https://daringfireball.net/"
     },
     {
       "title": "Mac Apps Can Escape From Squircle Jail If They’re Not in the Mac App Store",
@@ -3747,16 +3827,6 @@
       "feedTitle": "VentureBeat",
       "category": "Startup & News",
       "feedHome": "https://venturebeat.com/"
-    },
-    {
-      "title": "Feds demand autonomous vehicle companies stop interfering with first responders",
-      "link": "https://techcrunch.com/2026/07/08/feds-demand-autonomous-vehicle-companies-stop-interfering-with-first-responders/",
-      "date": "2026-07-08T21:49:33+00:00",
-      "summary": "The National Highway Traffic Safety Administration said emergency scenes are not \"edge cases.\"",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
     },
     {
       "title": "Google’s deepfake detector system used to debunk McConnell hoax pic",
@@ -3789,26 +3859,6 @@
       "feedHome": "https://simonwillison.net/"
     },
     {
-      "title": "SpaceXAI releases Grok 4.5, which Elon describes as an ‘Opus-class model’",
-      "link": "https://techcrunch.com/2026/07/08/spacexai-releases-grok-4-5-which-elon-describes-as-an-opus-class-model/",
-      "date": "2026-07-08T19:30:16+00:00",
-      "summary": "Elon Musk's tech company released the newest version of Grok on Wednesday, promising a cheaper, more efficient alternative to other powerful AI models.",
-      "feedId": "techcrunch-ai",
-      "feedTitle": "TechCrunch AI",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
-    },
-    {
-      "title": "This startup thinks robotics is about to have its ChatGPT moment",
-      "link": "https://techcrunch.com/2026/07/08/this-startup-thinks-robotics-is-about-to-have-its-chatgpt-moment/",
-      "date": "2026-07-08T19:19:15+00:00",
-      "summary": "General Intuition is betting millions of hours of video game data can train the foundation models for physical AI, making it easier to build smarter robots with minimal real-world data.",
-      "feedId": "techcrunch-ai",
-      "feedTitle": "TechCrunch AI",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
-    },
-    {
       "title": "OpenAI launches GPT-Live, a full-duplex voice upgrade that lets ChatGPT talk more like a person",
       "link": "https://venturebeat.com/technology/openai-launches-gpt-live-a-full-duplex-voice-upgrade-that-lets-chatgpt-talk-more-like-a-person",
       "date": "2026-07-08T18:49:06+00:00",
@@ -3817,26 +3867,6 @@
       "feedTitle": "VentureBeat",
       "category": "Startup & News",
       "feedHome": "https://venturebeat.com/"
-    },
-    {
-      "title": "Google Photos adds a new AI ‘Video Remix’ tool",
-      "link": "https://techcrunch.com/2026/07/08/google-photos-adds-a-new-ai-video-remix-tool/",
-      "date": "2026-07-08T18:30:08+00:00",
-      "summary": "The feature can do things like apply cinematic relighting to brighten up a dark clip, swap out a plain background for something fun, or add artistic styles to videos.",
-      "feedId": "techcrunch-ai",
-      "feedTitle": "TechCrunch AI",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
-    },
-    {
-      "title": "The ELIZA Archaeology Project",
-      "link": "https://findingeliza.org/",
-      "date": "2026-07-08T17:23:57+00:00",
-      "summary": "The ELIZA Archaeology Project: ELIZA is the original and highly influential chatbot that launched the genre of human-computer interactions using text-based agents. It was created at MIT in the 1960s as part of Project MAC by it’s [sic] designer and programmer, Joseph Weizenbaum. ELIZA not only allow",
-      "feedId": "daringfireball",
-      "feedTitle": "Daring Fireball",
-      "category": "Tech Blogs",
-      "feedHome": "https://daringfireball.net/"
     },
     {
       "title": "[Sponsor] WorkOS Pipes: More Context Makes for Smarter Products",
@@ -3957,16 +3987,6 @@
       "feedTitle": "Ibrahim Diallo",
       "category": "Tech Blogs",
       "feedHome": "https://idiallo.com/"
-    },
-    {
-      "title": "API 厂商定价的认知套利：“割”GPU 利用率盲区用户，52%是 AI 推理成本分水岭",
-      "link": "https://www.bestblogs.dev/article/59f73e67?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
-      "date": "2026-07-08T07:39:00+00:00",
-      "summary": "📌 一句话摘要 本文揭示 API 厂商利用客户无法精确计算 GPU 利用率的认知盲区进行定价套利，并推导出“自建更便宜”的精确临界点——52% 利用率。 📝 详细摘要 文章挑战了“规模增长后自建比 API 更便宜”的行业共识，指出其成立的前提是 GPU 利用率超过 52%。作者构建了一个五维成本模型，首次系统量化了“空闲待机损耗”这一最大隐性成本，并通过数学推导得出 52% 的盈亏平衡临界点。文章进一步揭示，API 厂商的定价本质是利用客户普遍处于 30%-50% 低利用率区间的认知不对称，进行结构性套利。文中提供了基于真实数据的多场景成本测算、敏感性分析、决策树，并附带了经 NVIDIA 官",
-      "feedId": "bestblogs",
-      "feedTitle": "BestBlogs.dev AI 90+",
-      "category": "中文",
-      "feedHome": "https://www.bestblogs.dev/"
     },
     {
       "title": "AI chip maker SambaNova raises $1B at $11B valuation, 5 months after last mega round",
@@ -4099,30 +4119,20 @@
       "feedHome": "https://pluralistic.net/"
     },
     {
-      "title": "sqlite-utils 4.0rc4",
-      "link": "https://simonwillison.net/2026/Jul/7/sqlite-utils-2/#atom-everything",
-      "date": "2026-07-07T05:36:15+00:00",
-      "summary": "Release: sqlite-utils 4.0rc4 The last RC before the 4.0 stable release. Mainly implements feedback from a detailed review by Claude Fable 5. Tags: sqlite-utils, claude-mythos-fable",
-      "feedId": "simonwillison",
-      "feedTitle": "Simon Willison",
-      "category": "AI & LLM",
-      "feedHome": "https://simonwillison.net/"
-    },
-    {
-      "title": "Australian Payments Plus moves faster with ChatGPT and Codex",
-      "link": "https://openai.com/index/australian-payments-plus",
+      "title": "MUFG aims to become AI-native with OpenAI",
+      "link": "https://openai.com/index/mufg",
       "date": "2026-07-07T00:00:00+00:00",
-      "summary": "See how Australian Payments Plus uses ChatGPT Enterprise and Codex to move faster through payments complexity. AP+ saves time, improves quality, and keeps human judgment central.",
+      "summary": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale.",
       "feedId": "openai",
       "feedTitle": "OpenAI News",
       "category": "AI & LLM",
       "feedHome": "https://openai.com/news/"
     },
     {
-      "title": "MUFG aims to become AI-native with OpenAI",
-      "link": "https://openai.com/index/mufg",
+      "title": "Australian Payments Plus moves faster with ChatGPT and Codex",
+      "link": "https://openai.com/index/australian-payments-plus",
       "date": "2026-07-07T00:00:00+00:00",
-      "summary": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale.",
+      "summary": "See how Australian Payments Plus uses ChatGPT Enterprise and Codex to move faster through payments complexity. AP+ saves time, improves quality, and keeps human judgment central.",
       "feedId": "openai",
       "feedTitle": "OpenAI News",
       "category": "AI & LLM",
@@ -4137,16 +4147,6 @@
       "feedTitle": "Sean Goedecke",
       "category": "Tech Blogs",
       "feedHome": "https://www.seangoedecke.com/"
-    },
-    {
-      "title": "tencent/Hy3",
-      "link": "https://simonwillison.net/2026/Jul/6/hy3/#atom-everything",
-      "date": "2026-07-06T23:57:35+00:00",
-      "summary": "tencent/Hy3 New Apache 2.0 licensed model from Tencent in China: Hy3 is a 295B-parameter Mixture-of-Experts (MoE) model with 21B active parameters and 3.8B MTP layer parameters, developed by the Tencent Hy Team. Following the Hy3 Preview launch in late April, we gathered feedback from 50+ products a",
-      "feedId": "simonwillison",
-      "feedTitle": "Simon Willison",
-      "category": "AI & LLM",
-      "feedHome": "https://simonwillison.net/"
     },
     {
       "title": "Reproducing a geometry theorem diagram",
@@ -4187,16 +4187,6 @@
       "feedTitle": "Ibrahim Diallo",
       "category": "Tech Blogs",
       "feedHome": "https://idiallo.com/"
-    },
-    {
-      "title": "sqlite-utils 4.0rc3",
-      "link": "https://simonwillison.net/2026/Jul/6/sqlite-utils/#atom-everything",
-      "date": "2026-07-06T05:40:08+00:00",
-      "summary": "Release: sqlite-utils 4.0rc3 I hoped to release sqlite-utils 4.0 stable this weekend, but as I worked through the backlog of issues and PRs with a combination of Claude Fable 5 and GPT-5.5 the changelog since rc2 kept getting bigger. The biggest new feature is support for introspecting and creating ",
-      "feedId": "simonwillison",
-      "feedTitle": "Simon Willison",
-      "category": "AI & LLM",
-      "feedHome": "https://simonwillison.net/"
     },
     {
       "title": "C2PA only works if everything is signed",
@@ -4247,16 +4237,6 @@
       "feedTitle": "Computer Rip",
       "category": "Tech Blogs",
       "feedHome": "https://computer.rip/"
-    },
-    {
-      "title": "Meta reuses old RAM in new servers with custom bridge chip",
-      "link": "https://www.networkworld.com/article/4192827/meta-reuses-old-ram-in-new-servers-with-custom-bridge-chip.html",
-      "date": "2026-07-03T19:27:05+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
     },
     {
       "title": "Google DeepMind and A24 announce first-of-its-kind research partnership",
@@ -4527,36 +4507,6 @@
       "feedTitle": "John D. Cook",
       "category": "Tech Blogs",
       "feedHome": "https://www.johndcook.com/"
-    },
-    {
-      "title": "Core dump epidemiology: fixing an 18-year-old bug",
-      "link": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
-      "date": "2026-06-30T00:00:00+00:00",
-      "summary": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug.",
-      "feedId": "openai",
-      "feedTitle": "OpenAI News",
-      "category": "AI & LLM",
-      "feedHome": "https://openai.com/news/"
-    },
-    {
-      "title": "Inside Genebench-Pro",
-      "link": "https://openai.com/index/genebench-pro/case-studies",
-      "date": "2026-06-30T00:00:00+00:00",
-      "summary": "",
-      "feedId": "openai",
-      "feedTitle": "OpenAI News",
-      "category": "AI & LLM",
-      "feedHome": "https://openai.com/news/"
-    },
-    {
-      "title": "Introducing GeneBench-Pro",
-      "link": "https://openai.com/index/introducing-genebench-pro",
-      "date": "2026-06-30T00:00:00+00:00",
-      "summary": "Introducing GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research using complex, real-world datasets.",
-      "feedId": "openai",
-      "feedTitle": "OpenAI News",
-      "category": "AI & LLM",
-      "feedHome": "https://openai.com/news/"
     },
     {
       "title": "Pluralistic: Gemini is better than search because Google enshittified search (29 Jun 2026)",
@@ -5077,16 +5027,6 @@
       "feedTitle": "Xe Iaso",
       "category": "Tech Blogs",
       "feedHome": "https://xeiaso.net/"
-    },
-    {
-      "title": "New framework for auditing machine unlearning",
-      "link": "https://research.google/blog/new-framework-for-auditing-machine-unlearning/",
-      "date": "2026-06-10T17:34:55+00:00",
-      "summary": "Algorithms & Theory",
-      "feedId": "google-research",
-      "feedTitle": "Google Research Blog",
-      "category": "AI & LLM",
-      "feedHome": "https://research.google/blog/"
     },
     {
       "title": "DiffusionGemma: 4x faster text generation",
@@ -5779,16 +5719,6 @@
       "feedHome": "https://dynomight.net/"
     },
     {
-      "title": "Why are the Artemis II photos on Flickr?",
-      "link": "https://anildash.com/2026/04/30/artemis-photos-flickr/",
-      "date": "2026-04-30T00:00:00+00:00",
-      "summary": "If you followed along with the recent joyful celebrations of the Artemis cruise around the moon, and took a moment to dive into the photographic archives of the mission, you might have noticed that all of the original images were shared by NASA on the venerable photo sharing service Flickr. What you",
-      "feedId": "anildash",
-      "feedTitle": "Anil Dash",
-      "category": "Tech Blogs",
-      "feedHome": "https://anildash.com/"
-    },
-    {
       "title": "Anthropic Mythos – We’ve Opened Pandora’s Box",
       "link": "https://steveblank.com/2026/04/28/anthropic-mythos-weve-opened-pandoras-box/",
       "date": "2026-04-28T13:00:48+00:00",
@@ -5827,16 +5757,6 @@
       "feedTitle": "Armin Ronacher",
       "category": "Tech Blogs",
       "feedHome": "https://lucumr.pocoo.org/"
-    },
-    {
-      "title": "(One) Good AI Is Here",
-      "link": "https://anildash.com/2026/04/28/one-good-ai-is-here/",
-      "date": "2026-04-28T00:00:00+00:00",
-      "summary": "The cultural battles over AI have broken down over predictable lines in the past few years, with critics rightfully calling out the big AI platforms for training on content without consent, recklessly building without considering environmental impact, and designing platforms that are unaccountable b",
-      "feedId": "anildash",
-      "feedTitle": "Anil Dash",
-      "category": "Tech Blogs",
-      "feedHome": "https://anildash.com/"
     },
     {
       "title": "How Bitwarden Encrypts and Decrypts Secrets",
@@ -5889,16 +5809,6 @@
       "feedHome": "https://matklad.github.io/"
     },
     {
-      "title": "Discovering Prince, Ten Years Later",
-      "link": "https://anildash.com/2026/04/20/prince-ten-years/",
-      "date": "2026-04-20T00:00:00+00:00",
-      "summary": "It's been a decade since we lost Prince, and I wanted to take a moment to offer a look back at some of the pieces I've written over the years, and share some of the work I've done, and hopefully it will give you a chance to explore some aspect of his artistry or legacy that you haven't yet had a cha",
-      "feedId": "anildash",
-      "feedTitle": "Anil Dash",
-      "category": "Tech Blogs",
-      "feedHome": "https://anildash.com/"
-    },
-    {
       "title": "AI cybersecurity is not proof of work",
       "link": "http://antirez.com/news/163",
       "date": "2026-04-16T12:46:46+02:00",
@@ -5917,16 +5827,6 @@
       "feedTitle": "Miguel Grinberg",
       "category": "Tech Blogs",
       "feedHome": "https://blog.miguelgrinberg.com/"
-    },
-    {
-      "title": "The Power of Possibility",
-      "link": "https://anildash.com/2026/04/16/girls-club-gala/",
-      "date": "2026-04-16T00:00:00+00:00",
-      "summary": "It’s rare that you get to see work that directly helps those who most deserve it, but I want to tell you about the opportunity we so seldom get to actually contribute in a way that we know will have real impact. I’ve been on the board of the Lower Eastside Girls Club for about a decade, getting a fr",
-      "feedId": "anildash",
-      "feedTitle": "Anil Dash",
-      "category": "Tech Blogs",
-      "feedHome": "https://anildash.com/"
     },
     {
       "title": "Chipmakers AMD, Arm, and Qualcomm are all investing in this buzzy self-driving tech startup",
@@ -5959,16 +5859,6 @@
       "feedHome": "https://computer.rip/"
     },
     {
-      "title": "Y2K 2.0: The AI security reckoning",
-      "link": "https://anildash.com/2026/04/10/y2k-2.0-ai-security/",
-      "date": "2026-04-10T00:00:00+00:00",
-      "summary": "In just the last few weeks, we’ve seen a series of software security vulnerabilities that, until recently, would each have been the biggest exploit of the year in which they were discovered. Now, they’ve become nearly routine. There’s a new one almost every day. The reason for this rising wave of ma",
-      "feedId": "anildash",
-      "feedTitle": "Anil Dash",
-      "category": "Tech Blogs",
-      "feedHome": "https://anildash.com/"
-    },
-    {
       "title": "SQLAlchemy 2 In Practice - Chapter 4 - Many-To-Many Relationships",
       "link": "https://blog.miguelgrinberg.com/post/sqlalchemy-2-in-practice---chapter-4---many-to-many-relationships",
       "date": "2026-04-09T15:02:34+00:00",
@@ -5999,16 +5889,6 @@
       "feedHome": "https://dynomight.net/"
     },
     {
-      "title": "When the crisis comes",
-      "link": "https://anildash.com/2026/04/08/when-the-crisis-comes/",
-      "date": "2026-04-08T00:00:00+00:00",
-      "summary": "These days, we’re all living in a constant state of crisis, foisted upon us by a world where those who are meant to keep things stable are the least stable factors in our lives. The chaos and stress of that reality makes it difficult to make any plans, let alone to make decisions if you have respons",
-      "feedId": "anildash",
-      "feedTitle": "Anil Dash",
-      "category": "Tech Blogs",
-      "feedHome": "https://anildash.com/"
-    },
-    {
       "title": "The Building Block Economy",
       "link": "https://mitchellh.com/writing/building-block-economy",
       "date": "2026-04-07T00:00:00+00:00",
@@ -6017,16 +5897,6 @@
       "feedTitle": "Mitchell Hashimoto",
       "category": "Tech Blogs",
       "feedHome": "https://mitchellh.com/"
-    },
-    {
-      "title": "Actually, people love to work hard",
-      "link": "https://anildash.com/2026/04/06/people-love-to-work-hard/",
-      "date": "2026-04-07T00:00:00+00:00",
-      "summary": "One of the most infuriating tropes that I see repeated in media is executives (usually from boring old companies) insisting that their employees don’t want to work hard. Media outlets dutifully repeat this pernicious lie, despite there being no evidence to back it up, and then cultural commentators ",
-      "feedId": "anildash",
-      "feedTitle": "Anil Dash",
-      "category": "Tech Blogs",
-      "feedHome": "https://anildash.com/"
     },
     {
       "title": "SQLAlchemy 2 In Practice - Chapter 3 - One-To-Many Relationships",
@@ -6049,16 +5919,6 @@
       "feedHome": "https://ericmigi.com/"
     },
     {
-      "title": "On the Vergecast, On Video",
-      "link": "https://anildash.com/2026/04/01/vergecast-video/",
-      "date": "2026-04-01T00:00:00+00:00",
-      "summary": "I finally got the chance to drop by one of my favorite podcasts, The Vergecast, where David Pierce had me on to talk about the recent conversation about Apple's moves around video podcasts, as well as the much broader big-picture considerations around keeping podcasts open. We started with grounding",
-      "feedId": "anildash",
-      "feedTitle": "Anil Dash",
-      "category": "Tech Blogs",
-      "feedHome": "https://anildash.com/"
-    },
-    {
       "title": "Solving Yesterday’s Problems Will Kill You",
       "link": "https://steveblank.com/2026/03/31/solving-yesterdays-problems-will-kill-you/",
       "date": "2026-03-31T13:00:48+00:00",
@@ -6069,16 +5929,6 @@
       "feedHome": "https://steveblank.com/"
     },
     {
-      "title": "Defending Privacy, Daily",
-      "link": "https://anildash.com/2026/03/31/defending-privacy-daily/",
-      "date": "2026-03-31T00:00:00+00:00",
-      "summary": "Yesterday, I had the chance to witness someone who's one of the most dedicated, competent advocates for privacy and digital rights bring that message to a whole new platform. It turns out, it's pretty delightful, especially in a moment when our civil liberties and rights online couldn't matter more!",
-      "feedId": "anildash",
-      "feedTitle": "Anil Dash",
-      "category": "Tech Blogs",
-      "feedHome": "https://anildash.com/"
-    },
-    {
       "title": "telecheck and tyms past",
       "link": "https://computer.rip/2026-03-29-telecheck-and-tyms-past.html",
       "date": "2026-03-29T00:00:00+00:00",
@@ -6087,16 +5937,6 @@
       "feedTitle": "Computer Rip",
       "category": "Tech Blogs",
       "feedHome": "https://computer.rip/"
-    },
-    {
-      "title": "Endgame for the Open Web",
-      "link": "https://anildash.com/2026/03/27/endgame-open-web/",
-      "date": "2026-03-27T00:00:00+00:00",
-      "summary": "You must imagine Sam Altman holding a knife to Tim Berners-Lee's throat. It's not a pleasant image. Sir Tim is, rightly, revered as the genial father of the World Wide Web. But, all the signs are pointing to the fact that we might be in endgame for &quot;open&quot; as we've known it on the Internet ",
-      "feedId": "anildash",
-      "feedTitle": "Anil Dash",
-      "category": "Tech Blogs",
-      "feedHome": "https://anildash.com/"
     },
     {
       "title": "SQLAlchemy 2 In Practice - Chapter 2 - Database Tables",
