@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-12T23:55:38.846592+00:00",
+  "updatedAt": "2026-07-13T02:57:52.342786+00:00",
   "totalFeeds": 51,
   "successCount": 45,
   "failedCount": 6,
@@ -20,8 +20,20 @@
         "home": "https://simonwillison.net/",
         "url": "https://simonwillison.net/atom/everything/",
         "status": "ok",
-        "fetchedAt": "2026-07-12T23:55:28.567741+00:00",
+        "fetchedAt": "2026-07-13T02:57:41.619302+00:00",
         "items": [
+          {
+            "title": "Directly Responsible Individuals (DRI)",
+            "link": "https://simonwillison.net/2026/Jul/12/directly-responsible-individuals/#atom-everything",
+            "date": "2026-07-12T23:57:14+00:00",
+            "summary": "Directly Responsible Individuals (DRI) I went looking for a definition of \"Directly Responsible Individuals\" and the best I found was in the GitLab handbook. Apparently the term originated at Apple, where it's used to describe the person who is \"ultimately accountable for the success or failure of a"
+          },
+          {
+            "title": "shot-scraper 1.11",
+            "link": "https://simonwillison.net/2026/Jul/12/shot-scraper/#atom-everything",
+            "date": "2026-07-12T23:46:52+00:00",
+            "summary": "Release: shot-scraper 1.11 Some minor improvements, mainly around command option consistency and making the server: mechanism used by both shot-scraper video and shot-scraper multi work if the server takes longer than a second to start serving traffic. server: processes used by shot-scraper multi an"
+          },
           {
             "title": "Fable gets another bump",
             "link": "https://simonwillison.net/2026/Jul/12/bump/#atom-everything",
@@ -32,7 +44,7 @@
             "title": "sqlite-utils 4.1.1",
             "link": "https://simonwillison.net/2026/Jul/12/sqlite-utils/#atom-everything",
             "date": "2026-07-12T20:55:30+00:00",
-            "summary": "Release: sqlite-utils 4.1.1 table.transform() now raises a TransactionError if called while a transaction is open with PRAGMAforeign_keys enabled and the table is referenced by foreign keys with destructive ON DELETE actions - CASCADE, SET NULL or SET DEFAULT. The pragma cannot be changed inside a t"
+            "summary": "Release: sqlite-utils 4.1.1 Mainly a fix for an edge case that regular Claude chat spotted while experimenting with the 4.1 release to answer a question about ON DELETE. table.transform() now raises a TransactionError if called while a transaction is open with PRAGMA foreign_keys enabled and the tab"
           },
           {
             "title": "sqlite-utils 4.1",
@@ -69,18 +81,6 @@
             "link": "https://simonwillison.net/2026/Jul/9/llm-meta-ai/#atom-everything",
             "date": "2026-07-09T16:12:20+00:00",
             "summary": "Release: llm-meta-ai 0.1 Let's LLM run prompts against the new muse-spark-1.1 model. Tags: llm, meta"
-          },
-          {
-            "title": "llm 0.31.1",
-            "link": "https://simonwillison.net/2026/Jul/9/llm/#atom-everything",
-            "date": "2026-07-09T16:06:15+00:00",
-            "summary": "Release: llm 0.31.1 Fix for a bug with OpenAI Chat Completion endpoints where a tool call with empty arguments could result in a JSON error from some providers. #1521 This bug came up when I was testing llm-meta-ai. Tags: llm"
-          },
-          {
-            "title": "Rewriting Bun in Rust",
-            "link": "https://simonwillison.net/2026/Jul/8/rewriting-bun-in-rust/#atom-everything",
-            "date": "2026-07-08T23:57:21+00:00",
-            "summary": "Rewriting Bun in Rust Jarred Sumner has been promising this blog post (since May 9th) about his Zig to Rust rewrite of Bun for significantly longer than it took him to finish the rewrite. Honestly, it was worth the wait. This is a detailed description of an extremely sophisticated piece of agentic e"
           }
         ]
       },
@@ -91,7 +91,7 @@
         "home": "https://openai.com/news/",
         "url": "https://openai.com/news/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-12T23:55:28.841626+00:00",
+        "fetchedAt": "2026-07-13T02:57:42.139946+00:00",
         "items": [
           {
             "title": "How Deutsche Telekom is rewiring telecommunications with AI",
@@ -162,7 +162,7 @@
         "home": "https://arxiv.org/list/cs.AI/recent",
         "url": "https://arxiv.org/rss/cs.AI",
         "status": "ok",
-        "fetchedAt": "2026-07-12T23:55:28.709766+00:00",
+        "fetchedAt": "2026-07-13T02:57:41.840950+00:00",
         "items": []
       },
       {
@@ -172,7 +172,7 @@
         "home": "https://arxiv.org/list/cs.LG/recent",
         "url": "https://arxiv.org/rss/cs.LG",
         "status": "ok",
-        "fetchedAt": "2026-07-12T23:55:28.709635+00:00",
+        "fetchedAt": "2026-07-13T02:57:41.843764+00:00",
         "items": []
       },
       {
@@ -182,7 +182,7 @@
         "home": "https://research.google/blog/",
         "url": "https://research.google/blog/rss/",
         "status": "ok",
-        "fetchedAt": "2026-07-12T23:55:28.770540+00:00",
+        "fetchedAt": "2026-07-13T02:57:41.714125+00:00",
         "items": [
           {
             "title": "SensorFM: Towards a general intelligence and interface for wearable health data",
@@ -253,7 +253,7 @@
         "home": "https://deepmind.google/blog/",
         "url": "https://deepmind.google/blog/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-12T23:55:28.880869+00:00",
+        "fetchedAt": "2026-07-13T02:57:41.831773+00:00",
         "items": [
           {
             "title": "Google DeepMind and A24 announce first-of-its-kind research partnership",
@@ -324,7 +324,7 @@
         "home": "https://lilianweng.github.io/",
         "url": "https://lilianweng.github.io/lil-log/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-12T23:55:28.637681+00:00",
+        "fetchedAt": "2026-07-13T02:57:41.587567+00:00",
         "items": [
           {
             "title": "Active Learning",
@@ -415,7 +415,7 @@
         "home": "https://minimaxir.com/",
         "url": "https://minimaxir.com/index.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-12T23:55:28.719384+00:00",
+        "fetchedAt": "2026-07-13T02:57:41.608962+00:00",
         "items": [
           {
             "title": "The mysterious Hy3 LLM is topping OpenRouter Model Rankings by a large margin",
@@ -498,7 +498,7 @@
         "home": "https://www.jeffgeerling.com/",
         "url": "https://www.jeffgeerling.com/blog.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-12T23:55:28.614267+00:00",
+        "fetchedAt": "2026-07-13T02:57:41.572484+00:00",
         "items": [
           {
             "title": "QuadRF can spot drones and see WiFi through my wall",
@@ -569,7 +569,7 @@
         "home": "https://www.seangoedecke.com/",
         "url": "https://www.seangoedecke.com/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-12T23:55:28.583577+00:00",
+        "fetchedAt": "2026-07-13T02:57:41.548693+00:00",
         "items": [
           {
             "title": "In defense of not understanding your codebase",
@@ -640,7 +640,7 @@
         "home": "https://krebsonsecurity.com/",
         "url": "https://krebsonsecurity.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-07-12T23:55:28.681560+00:00",
+        "fetchedAt": "2026-07-13T02:57:41.596483+00:00",
         "items": [
           {
             "title": "Felons, Fraudsters Flog Offensive Cybersecurity Startup",
@@ -711,7 +711,7 @@
         "home": "https://daringfireball.net/",
         "url": "https://daringfireball.net/feeds/main",
         "status": "ok",
-        "fetchedAt": "2026-07-12T23:55:28.634368+00:00",
+        "fetchedAt": "2026-07-13T02:57:41.741643+00:00",
         "items": [
           {
             "title": "WorkOS Pipes",
@@ -782,7 +782,7 @@
         "home": "https://ericmigi.com/",
         "url": "https://ericmigi.com/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-12T23:55:28.606251+00:00",
+        "fetchedAt": "2026-07-13T02:57:41.612231+00:00",
         "items": [
           {
             "title": "How I Use My Index 01 + Production Update",
@@ -853,7 +853,7 @@
         "home": "http://antirez.com/",
         "url": "http://antirez.com/rss",
         "status": "ok",
-        "fetchedAt": "2026-07-12T23:55:31.028181+00:00",
+        "fetchedAt": "2026-07-13T02:57:43.140402+00:00",
         "items": [
           {
             "title": "A new era for software testing",
@@ -924,7 +924,7 @@
         "home": "https://idiallo.com/",
         "url": "https://idiallo.com/feed.rss",
         "status": "ok",
-        "fetchedAt": "2026-07-12T23:55:28.895380+00:00",
+        "fetchedAt": "2026-07-13T02:57:41.732563+00:00",
         "items": [
           {
             "title": "And Then the Billionaire Paid Off $550 Million of Our Debts",
@@ -995,7 +995,7 @@
         "home": "https://maurycyz.com/",
         "url": "https://maurycyz.com/index.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-12T23:55:29.305059+00:00",
+        "fetchedAt": "2026-07-13T02:57:42.148131+00:00",
         "items": []
       },
       {
@@ -1005,7 +1005,7 @@
         "home": "https://pluralistic.net/",
         "url": "https://pluralistic.net/feed/",
         "status": "ok",
-        "fetchedAt": "2026-07-12T23:55:32.017314+00:00",
+        "fetchedAt": "2026-07-13T02:57:43.839765+00:00",
         "items": [
           {
             "title": "Pluralistic: Workplace \"flexibility\" isn't (11 Jul 2026)",
@@ -1076,7 +1076,7 @@
         "home": "https://shkspr.mobi/blog/",
         "url": "https://shkspr.mobi/blog/feed/",
         "status": "ok",
-        "fetchedAt": "2026-07-12T23:55:29.956911+00:00",
+        "fetchedAt": "2026-07-13T02:57:42.221577+00:00",
         "items": []
       },
       {
@@ -1096,7 +1096,7 @@
         "home": "https://mitchellh.com/",
         "url": "https://mitchellh.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-12T23:55:28.772142+00:00",
+        "fetchedAt": "2026-07-13T02:57:41.775115+00:00",
         "items": [
           {
             "title": "Pledging Another $400,000 to the Zig Software Foundation",
@@ -1167,7 +1167,7 @@
         "home": "https://dynomight.net/",
         "url": "https://dynomight.net/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-12T23:55:28.920780+00:00",
+        "fetchedAt": "2026-07-13T02:57:41.958005+00:00",
         "items": [
           {
             "title": "Life with hazard ratios",
@@ -1238,7 +1238,7 @@
         "home": "https://xeiaso.net/",
         "url": "https://xeiaso.net/blog.rss",
         "status": "ok",
-        "fetchedAt": "2026-07-12T23:55:29.567088+00:00",
+        "fetchedAt": "2026-07-13T02:57:42.311849+00:00",
         "items": [
           {
             "title": "The console wars have been lost",
@@ -1309,7 +1309,7 @@
         "home": "https://devblogs.microsoft.com/oldnewthing/",
         "url": "https://devblogs.microsoft.com/oldnewthing/feed",
         "status": "ok",
-        "fetchedAt": "2026-07-12T23:55:28.723457+00:00",
+        "fetchedAt": "2026-07-13T02:57:41.892637+00:00",
         "items": [
           {
             "title": "The case of the mysterious changes to integers when there shouldn’t have been any code generation effect",
@@ -1380,7 +1380,7 @@
         "home": "https://www.righto.com/",
         "url": "https://www.righto.com/feeds/posts/default",
         "status": "ok",
-        "fetchedAt": "2026-07-12T23:55:28.869490+00:00",
+        "fetchedAt": "2026-07-13T02:57:42.165293+00:00",
         "items": []
       },
       {
@@ -1390,7 +1390,7 @@
         "home": "https://lucumr.pocoo.org/",
         "url": "https://lucumr.pocoo.org/feed.atom",
         "status": "ok",
-        "fetchedAt": "2026-07-12T23:55:28.626858+00:00",
+        "fetchedAt": "2026-07-13T02:57:42.178060+00:00",
         "items": [
           {
             "title": "Better Models: Worse Tools",
@@ -1461,7 +1461,7 @@
         "home": "https://skyfall.dev/",
         "url": "https://skyfall.dev/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-12T23:55:29.008742+00:00",
+        "fetchedAt": "2026-07-13T02:57:42.070063+00:00",
         "items": [
           {
             "title": "Good riddance, 4o",
@@ -1536,7 +1536,7 @@
         "home": "https://overreacted.io/",
         "url": "https://overreacted.io/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-12T23:55:28.852105+00:00",
+        "fetchedAt": "2026-07-13T02:57:41.964365+00:00",
         "items": [
           {
             "title": "There Are No Instances in atproto",
@@ -1607,7 +1607,7 @@
         "home": "https://www.johndcook.com/",
         "url": "https://www.johndcook.com/blog/feed/",
         "status": "ok",
-        "fetchedAt": "2026-07-12T23:55:28.708058+00:00",
+        "fetchedAt": "2026-07-13T02:57:42.147919+00:00",
         "items": [
           {
             "title": "Posterior variance",
@@ -1678,7 +1678,7 @@
         "home": "https://matklad.github.io/",
         "url": "https://matklad.github.io/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-12T23:55:28.608789+00:00",
+        "fetchedAt": "2026-07-13T02:57:41.943592+00:00",
         "items": [
           {
             "title": "CSS: Unavoidable Bad Parts",
@@ -1749,7 +1749,7 @@
         "home": "https://eli.thegreenplace.net/",
         "url": "https://eli.thegreenplace.net/feeds/all.atom.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-12T23:55:29.244553+00:00",
+        "fetchedAt": "2026-07-13T02:57:41.753909+00:00",
         "items": [
           {
             "title": "Dot product: Component vs. Geometric definition",
@@ -1790,7 +1790,7 @@
         "home": "https://fabiensanglard.net/",
         "url": "https://fabiensanglard.net/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-12T23:55:29.088968+00:00",
+        "fetchedAt": "2026-07-13T02:57:41.924683+00:00",
         "items": [
           {
             "title": "A dock that finally wakes up reliably",
@@ -1861,7 +1861,7 @@
         "home": "https://blog.miguelgrinberg.com/",
         "url": "https://blog.miguelgrinberg.com/feed",
         "status": "ok",
-        "fetchedAt": "2026-07-12T23:55:29.560342+00:00",
+        "fetchedAt": "2026-07-13T02:57:42.312779+00:00",
         "items": [
           {
             "title": "I Am Not a Reverse Centaur",
@@ -1932,7 +1932,7 @@
         "home": "https://www.troyhunt.com/",
         "url": "https://www.troyhunt.com/rss/",
         "status": "ok",
-        "fetchedAt": "2026-07-12T23:55:28.764436+00:00",
+        "fetchedAt": "2026-07-13T02:57:42.092832+00:00",
         "items": [
           {
             "title": "Weekly Update 511: Live from my Riad in Marrakech",
@@ -2003,7 +2003,7 @@
         "home": "https://anildash.com/",
         "url": "https://anildash.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-12T23:55:28.938512+00:00",
+        "fetchedAt": "2026-07-13T02:57:42.065235+00:00",
         "items": [
           {
             "title": "Endgame for the Open Web",
@@ -2074,7 +2074,7 @@
         "home": "https://computer.rip/",
         "url": "https://computer.rip/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-12T23:55:29.380961+00:00",
+        "fetchedAt": "2026-07-13T02:57:42.505731+00:00",
         "items": [
           {
             "title": "megawatts by microwave",
@@ -2155,7 +2155,7 @@
         "home": "http://paulgraham.com/",
         "url": "http://www.aaronsw.com/2002/feeds/pgessays.rss",
         "status": "ok",
-        "fetchedAt": "2026-07-12T23:55:35.933314+00:00",
+        "fetchedAt": "2026-07-13T02:57:41.696912+00:00",
         "items": [
           {
             "title": "Superlinear Returns",
@@ -2226,7 +2226,7 @@
         "home": "https://steveblank.com/",
         "url": "https://steveblank.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-07-12T23:55:29.003516+00:00",
+        "fetchedAt": "2026-07-13T02:57:41.982259+00:00",
         "items": [
           {
             "title": "Lean Launch Pad 2026 @ Stanford – Lessons Learned Presentations",
@@ -2299,7 +2299,7 @@
         "home": "https://news.ycombinator.com/",
         "url": "https://news.ycombinator.com/rss",
         "status": "ok",
-        "fetchedAt": "2026-07-12T23:55:28.663784+00:00",
+        "fetchedAt": "2026-07-13T02:57:41.960729+00:00",
         "items": [
           {
             "title": "Since Chromium 148, Math.tanh is now fingerprintable to link underlying OS",
@@ -2308,9 +2308,9 @@
             "summary": "Comments"
           },
           {
-            "title": "Tiny Emulators",
-            "link": "https://floooh.github.io/tiny8bit-preview/index.html",
-            "date": "2026-07-12T20:23:05+00:00",
+            "title": "GhostLock, a stack-UAF that has existed in all Linux distributions for 15 years",
+            "link": "https://nebusec.ai/research/ionstack-part-2/",
+            "date": "2026-07-08T16:53:58+00:00",
             "summary": "Comments"
           },
           {
@@ -2320,15 +2320,21 @@
             "summary": "Comments"
           },
           {
-            "title": "So you want to learn physics (second edition, 2021)",
-            "link": "https://www.susanrigetti.com/physics",
-            "date": "2026-07-08T03:28:00+00:00",
+            "title": "Tiny Emulators",
+            "link": "https://floooh.github.io/tiny8bit-preview/index.html",
+            "date": "2026-07-12T20:23:05+00:00",
             "summary": "Comments"
           },
           {
-            "title": "Ask HN: What Are You Working On? (July 2026)",
-            "link": "https://news.ycombinator.com/item?id=48884984",
-            "date": "2026-07-12T21:26:41+00:00",
+            "title": "Why Vanilla JavaScript",
+            "link": "https://guseyn.com/html/posts/why-vanilla-js.html",
+            "date": "2026-07-12T22:53:51+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "So you want to learn physics (second edition, 2021)",
+            "link": "https://www.susanrigetti.com/physics",
+            "date": "2026-07-08T03:28:00+00:00",
             "summary": "Comments"
           },
           {
@@ -2338,27 +2344,21 @@
             "summary": "Comments"
           },
           {
-            "title": "Kode Dot Programmable pocket device for makers, pentesters and geeks",
-            "link": "https://kode.diy",
-            "date": "2026-07-12T21:27:29+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "Claude Code sends 33k tokens before reading the prompt; OpenCode sends 7k",
-            "link": "https://systima.ai/blog/claude-code-vs-opencode-token-overhead",
-            "date": "2026-07-12T18:25:51+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "Migrating a production AI agent to GPT-5.6: 2.2x faster, 27% cheaper",
-            "link": "https://ploy.ai/blog/migrating-a-production-ai-agent-to-gpt-5-6",
-            "date": "2026-07-12T17:13:07+00:00",
+            "title": "Modernizing Property Tax Assessments in Allegheny County",
+            "link": "https://www.prohousingpgh.org/blog/new-report-modernizing-property-tax-assessments-in-allegheny-county",
+            "date": "2026-07-13T01:47:21+00:00",
             "summary": "Comments"
           },
           {
             "title": "Old and new apps, via modern coding agents",
             "link": "https://terrytao.wordpress.com/2026/07/11/old-and-new-apps-via-modern-coding-agents/",
             "date": "2026-07-12T11:09:42+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "Ask HN: What Are You Working On? (July 2026)",
+            "link": "https://news.ycombinator.com/item?id=48884984",
+            "date": "2026-07-12T21:26:41+00:00",
             "summary": "Comments"
           }
         ]
@@ -2370,8 +2370,20 @@
         "home": "https://www.techmeme.com/",
         "url": "https://www.techmeme.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-12T23:55:28.724749+00:00",
+        "fetchedAt": "2026-07-13T02:57:42.198914+00:00",
         "items": [
+          {
+            "title": "A profile of Asha Sharma, an outsider elevated by Satya Nadella to lead Xbox, where she made sweeping job cuts and shed game studios within her first few months (Financial Times)",
+            "link": "https://www.techmeme.com/260712/p11#a260712p11",
+            "date": "2026-07-12T21:05:01-04:00",
+            "summary": "Financial Times: A profile of Asha Sharma, an outsider elevated by Satya Nadella to lead Xbox, where she made sweeping job cuts and shed game studios within her first few months&nbsp; &mdash;&nbsp; Elevated to fix Microsoft's struggling gaming division, she is making tough decisions about its future"
+          },
+          {
+            "title": "Memo: Tang Jie, founder of Z.ai, the Chinese lab behind the GLM models, argues frontier AI capabilities should stay \"as open and widely accessible as possible\" (Bloomberg)",
+            "link": "https://www.techmeme.com/260712/p10#a260712p10",
+            "date": "2026-07-12T20:15:03-04:00",
+            "summary": "Bloomberg: Memo: Tang Jie, founder of Z.ai, the Chinese lab behind the GLM models, argues frontier AI capabilities should stay &ldquo;as open and widely accessible as possible&rdquo;&nbsp; &mdash;&nbsp; The founder of Chinese AI lab Zhipu argued that frontier artificial intelligence should remain br"
+          },
           {
             "title": "Sources: Cursor is building a general-purpose AI agent codenamed Sand, aimed at non-developers, that handles emails, texts, and documents to rival Claude Cowork (Grace Kay/The Information)",
             "link": "https://www.techmeme.com/260712/p9#a260712p9",
@@ -2419,18 +2431,6 @@
             "link": "https://www.techmeme.com/260712/p2#a260712p2",
             "date": "2026-07-12T00:55:01-04:00",
             "summary": "Lucia Moses / Business Insider: NYC-based Vendelux, a live B2B event information platform for CMOs and marketing and sales teams, raised a $50M Series B led by Tribeca Venture Partners&nbsp; &mdash;&nbsp; - Vendelux, a company that helps CMOs figure out their live events strategy, raised $50 million"
-          },
-          {
-            "title": "EU Justice Commissioner Michael McGrath says the EC is set to propose new digital rules by year-end aimed at protecting consumers from online spending traps (Laura Dubois/Financial Times)",
-            "link": "https://www.techmeme.com/260712/p1#a260712p1",
-            "date": "2026-07-12T00:45:01-04:00",
-            "summary": "Laura Dubois / Financial Times: EU Justice Commissioner Michael McGrath says the EC is set to propose new digital rules by year-end aimed at protecting consumers from online spending traps&nbsp; &mdash;&nbsp; Justice commissioner Michael McGrath says Brussels seeks to strengthen social media safegua"
-          },
-          {
-            "title": "A look at Bending Spoons' hiring process: the company, which owns Vimeo, AOL, and Evernote, received 800,000 job applications last year and made only 286 hires (Ben Cohen/Wall Street Journal)",
-            "link": "https://www.techmeme.com/260711/p12#a260711p12",
-            "date": "2026-07-11T21:15:02-04:00",
-            "summary": "Ben Cohen / Wall Street Journal: A look at Bending Spoons' hiring process: the company, which owns Vimeo, AOL, and Evernote, received 800,000 job applications last year and made only 286 hires&nbsp; &mdash;&nbsp; Getting an offer from Bending Spoons, which owns AOL, has become harder than getting in"
           }
         ]
       },
@@ -2441,7 +2441,7 @@
         "home": "https://techcrunch.com/",
         "url": "https://techcrunch.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-07-12T23:55:28.907679+00:00",
+        "fetchedAt": "2026-07-13T02:57:42.067132+00:00",
         "items": [
           {
             "title": "TechCrunch Mobility: A robotaxi ultimatum",
@@ -2512,7 +2512,7 @@
         "home": "https://techcrunch.com/category/artificial-intelligence/",
         "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
         "status": "ok",
-        "fetchedAt": "2026-07-12T23:55:28.939975+00:00",
+        "fetchedAt": "2026-07-13T02:57:42.068754+00:00",
         "items": [
           {
             "title": "OpenAI bets on families as ChatGPT goes deeper into households",
@@ -2583,7 +2583,7 @@
         "home": "https://techcrunch.com/tag/funding/",
         "url": "https://techcrunch.com/tag/funding/feed/",
         "status": "ok",
-        "fetchedAt": "2026-07-12T23:55:28.979873+00:00",
+        "fetchedAt": "2026-07-13T02:57:42.072457+00:00",
         "items": [
           {
             "title": "AI chip maker SambaNova raises $1B at $11B valuation, 5 months after last mega round",
@@ -2654,7 +2654,7 @@
         "home": "https://venturebeat.com/",
         "url": "https://venturebeat.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-07-12T23:55:28.925870+00:00",
+        "fetchedAt": "2026-07-13T02:57:41.901962+00:00",
         "items": [
           {
             "title": "DeepSeek cut prices 75%. The 100x problem remains",
@@ -2707,7 +2707,7 @@
         "home": "https://venturebeat.com/category/ai/",
         "url": "https://venturebeat.com/category/ai/feed/",
         "status": "ok",
-        "fetchedAt": "2026-07-12T23:55:28.949648+00:00",
+        "fetchedAt": "2026-07-13T02:57:41.971994+00:00",
         "items": [
           {
             "title": "Google just redesigned the search box for the first time in 25 years — here’s why it matters more than you think.",
@@ -2762,7 +2762,7 @@
         "home": "https://www.ruanyifeng.com/blog/",
         "url": "https://www.ruanyifeng.com/blog/atom.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-12T23:55:28.904609+00:00",
+        "fetchedAt": "2026-07-13T02:57:41.704754+00:00",
         "items": [
           {
             "title": "科技爱好者周刊（第 403 期）：为什么 Dropbox 不成功",
@@ -2779,7 +2779,7 @@
           {
             "title": "Dario Amodei：AI 开源是伪命题",
             "link": "http://www.ruanyifeng.com/blog/2026/06/anthropic.html",
-            "date": "2026-07-09T14:06:39+00:00",
+            "date": "2026-07-13T00:55:44+00:00",
             "summary": "下面是 Anthropic 公司创始人 Dario Amodei 的言论。..."
           }
         ]
@@ -2791,7 +2791,7 @@
         "home": "https://www.bestblogs.dev/",
         "url": "https://www.bestblogs.dev/zh/feeds/rss?category=ai&minScore=90",
         "status": "ok",
-        "fetchedAt": "2026-07-12T23:55:29.696106+00:00",
+        "fetchedAt": "2026-07-13T02:57:43.029692+00:00",
         "items": [
           {
             "title": "AI4S 需要狂人与野心家｜对话英灵殿 Odin：\"如果神存在，我怎能容忍自己不是神？\"【公路播客】",
@@ -2859,9 +2859,59 @@
   },
   "allItems": [
     {
+      "title": "Modernizing Property Tax Assessments in Allegheny County",
+      "link": "https://www.prohousingpgh.org/blog/new-report-modernizing-property-tax-assessments-in-allegheny-county",
+      "date": "2026-07-13T01:47:21+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "Dario Amodei：AI 开源是伪命题",
+      "link": "http://www.ruanyifeng.com/blog/2026/06/anthropic.html",
+      "date": "2026-07-13T00:55:44+00:00",
+      "summary": "下面是 Anthropic 公司创始人 Dario Amodei 的言论。...",
+      "feedId": "ruanyifeng",
+      "feedTitle": "阮一峰的网络日志",
+      "category": "中文",
+      "feedHome": "https://www.ruanyifeng.com/blog/"
+    },
+    {
+      "title": "Directly Responsible Individuals (DRI)",
+      "link": "https://simonwillison.net/2026/Jul/12/directly-responsible-individuals/#atom-everything",
+      "date": "2026-07-12T23:57:14+00:00",
+      "summary": "Directly Responsible Individuals (DRI) I went looking for a definition of \"Directly Responsible Individuals\" and the best I found was in the GitLab handbook. Apparently the term originated at Apple, where it's used to describe the person who is \"ultimately accountable for the success or failure of a",
+      "feedId": "simonwillison",
+      "feedTitle": "Simon Willison",
+      "category": "AI & LLM",
+      "feedHome": "https://simonwillison.net/"
+    },
+    {
+      "title": "shot-scraper 1.11",
+      "link": "https://simonwillison.net/2026/Jul/12/shot-scraper/#atom-everything",
+      "date": "2026-07-12T23:46:52+00:00",
+      "summary": "Release: shot-scraper 1.11 Some minor improvements, mainly around command option consistency and making the server: mechanism used by both shot-scraper video and shot-scraper multi work if the server takes longer than a second to start serving traffic. server: processes used by shot-scraper multi an",
+      "feedId": "simonwillison",
+      "feedTitle": "Simon Willison",
+      "category": "AI & LLM",
+      "feedHome": "https://simonwillison.net/"
+    },
+    {
       "title": "Designing and assembling my first PCB",
       "link": "https://vilkeliskis.com/b/2026/0711.html",
       "date": "2026-07-12T22:56:56+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "Why Vanilla JavaScript",
+      "link": "https://guseyn.com/html/posts/why-vanilla-js.html",
+      "date": "2026-07-12T22:53:51+00:00",
       "summary": "Comments",
       "feedId": "hackernews",
       "feedTitle": "Hacker News",
@@ -2897,16 +2947,6 @@
       "feedTitle": "Daring Fireball",
       "category": "Tech Blogs",
       "feedHome": "https://daringfireball.net/"
-    },
-    {
-      "title": "Kode Dot Programmable pocket device for makers, pentesters and geeks",
-      "link": "https://kode.diy",
-      "date": "2026-07-12T21:27:29+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
     },
     {
       "title": "Ask HN: What Are You Working On? (July 2026)",
@@ -2949,10 +2989,20 @@
       "feedHome": "https://news.ycombinator.com/"
     },
     {
+      "title": "A profile of Asha Sharma, an outsider elevated by Satya Nadella to lead Xbox, where she made sweeping job cuts and shed game studios within her first few months (Financial Times)",
+      "link": "https://www.techmeme.com/260712/p11#a260712p11",
+      "date": "2026-07-12T21:05:01-04:00",
+      "summary": "Financial Times: A profile of Asha Sharma, an outsider elevated by Satya Nadella to lead Xbox, where she made sweeping job cuts and shed game studios within her first few months&nbsp; &mdash;&nbsp; Elevated to fix Microsoft's struggling gaming division, she is making tough decisions about its future",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
       "title": "sqlite-utils 4.1.1",
       "link": "https://simonwillison.net/2026/Jul/12/sqlite-utils/#atom-everything",
       "date": "2026-07-12T20:55:30+00:00",
-      "summary": "Release: sqlite-utils 4.1.1 table.transform() now raises a TransactionError if called while a transaction is open with PRAGMAforeign_keys enabled and the table is referenced by foreign keys with destructive ON DELETE actions - CASCADE, SET NULL or SET DEFAULT. The pragma cannot be changed inside a t",
+      "summary": "Release: sqlite-utils 4.1.1 Mainly a fix for an edge case that regular Claude chat spotted while experimenting with the 4.1 release to answer a question about ON DELETE. table.transform() now raises a TransactionError if called while a transaction is open with PRAGMA foreign_keys enabled and the tab",
       "feedId": "simonwillison",
       "feedTitle": "Simon Willison",
       "category": "AI & LLM",
@@ -2967,6 +3017,16 @@
       "feedTitle": "Hacker News",
       "category": "Startup & News",
       "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "Memo: Tang Jie, founder of Z.ai, the Chinese lab behind the GLM models, argues frontier AI capabilities should stay \"as open and widely accessible as possible\" (Bloomberg)",
+      "link": "https://www.techmeme.com/260712/p10#a260712p10",
+      "date": "2026-07-12T20:15:03-04:00",
+      "summary": "Bloomberg: Memo: Tang Jie, founder of Z.ai, the Chinese lab behind the GLM models, argues frontier AI capabilities should stay &ldquo;as open and widely accessible as possible&rdquo;&nbsp; &mdash;&nbsp; The founder of Chinese AI lab Zhipu argued that frontier artificial intelligence should remain br",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
     },
     {
       "title": "‘Every Frame Perfect’",
@@ -2997,16 +3057,6 @@
       "feedTitle": "Techmeme",
       "category": "Startup & News",
       "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "Claude Code sends 33k tokens before reading the prompt; OpenCode sends 7k",
-      "link": "https://systima.ai/blog/claude-code-vs-opencode-token-overhead",
-      "date": "2026-07-12T18:25:51+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
     },
     {
       "title": "Sam Altman and Elon Musk Argue Over Who’s Running the Bigger Scam",
@@ -3057,16 +3107,6 @@
       "feedTitle": "Daring Fireball",
       "category": "Tech Blogs",
       "feedHome": "https://daringfireball.net/"
-    },
-    {
-      "title": "Migrating a production AI agent to GPT-5.6: 2.2x faster, 27% cheaper",
-      "link": "https://ploy.ai/blog/migrating-a-production-ai-agent-to-gpt-5-6",
-      "date": "2026-07-12T17:13:07+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
     },
     {
       "title": "TechCrunch Mobility: A robotaxi ultimatum",
@@ -3179,16 +3219,6 @@
       "feedHome": "https://www.techmeme.com/"
     },
     {
-      "title": "EU Justice Commissioner Michael McGrath says the EC is set to propose new digital rules by year-end aimed at protecting consumers from online spending traps (Laura Dubois/Financial Times)",
-      "link": "https://www.techmeme.com/260712/p1#a260712p1",
-      "date": "2026-07-12T00:45:01-04:00",
-      "summary": "Laura Dubois / Financial Times: EU Justice Commissioner Michael McGrath says the EC is set to propose new digital rules by year-end aimed at protecting consumers from online spending traps&nbsp; &mdash;&nbsp; Justice commissioner Michael McGrath says Brussels seeks to strengthen social media safegua",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
       "title": "Reed Jobs would rather talk about curing cancer than his last name",
       "link": "https://techcrunch.com/2026/07/11/reed-jobs-would-rather-talk-about-curing-cancer-than-his-last-name/",
       "date": "2026-07-12T00:16:06+00:00",
@@ -3247,16 +3277,6 @@
       "feedTitle": "John D. Cook",
       "category": "Tech Blogs",
       "feedHome": "https://www.johndcook.com/"
-    },
-    {
-      "title": "A look at Bending Spoons' hiring process: the company, which owns Vimeo, AOL, and Evernote, received 800,000 job applications last year and made only 286 hires (Ben Cohen/Wall Street Journal)",
-      "link": "https://www.techmeme.com/260711/p12#a260711p12",
-      "date": "2026-07-11T21:15:02-04:00",
-      "summary": "Ben Cohen / Wall Street Journal: A look at Bending Spoons' hiring process: the company, which owns Vimeo, AOL, and Evernote, received 800,000 job applications last year and made only 286 hires&nbsp; &mdash;&nbsp; Getting an offer from Bending Spoons, which owns AOL, has become harder than getting in",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
     },
     {
       "title": "Smart glasses without a camera? Even Realities bets productivity beats recording everyone",
@@ -3729,26 +3749,6 @@
       "feedHome": "https://simonwillison.net/"
     },
     {
-      "title": "llm 0.31.1",
-      "link": "https://simonwillison.net/2026/Jul/9/llm/#atom-everything",
-      "date": "2026-07-09T16:06:15+00:00",
-      "summary": "Release: llm 0.31.1 Fix for a bug with OpenAI Chat Completion endpoints where a tool call with empty arguments could result in a JSON error from some providers. #1521 This bug came up when I was testing llm-meta-ai. Tags: llm",
-      "feedId": "simonwillison",
-      "feedTitle": "Simon Willison",
-      "category": "AI & LLM",
-      "feedHome": "https://simonwillison.net/"
-    },
-    {
-      "title": "Dario Amodei：AI 开源是伪命题",
-      "link": "http://www.ruanyifeng.com/blog/2026/06/anthropic.html",
-      "date": "2026-07-09T14:06:39+00:00",
-      "summary": "下面是 Anthropic 公司创始人 Dario Amodei 的言论。...",
-      "feedId": "ruanyifeng",
-      "feedTitle": "阮一峰的网络日志",
-      "category": "中文",
-      "feedHome": "https://www.ruanyifeng.com/blog/"
-    },
-    {
       "title": "I’ve decoded a #pragma detect_mismatch error and fixed the mismatch, but I still get the error",
       "link": "https://devblogs.microsoft.com/oldnewthing/20260709-00/?p=112512",
       "date": "2026-07-09T14:00:00+00:00",
@@ -3839,14 +3839,14 @@
       "feedHome": "https://xeiaso.net/"
     },
     {
-      "title": "Rewriting Bun in Rust",
-      "link": "https://simonwillison.net/2026/Jul/8/rewriting-bun-in-rust/#atom-everything",
-      "date": "2026-07-08T23:57:21+00:00",
-      "summary": "Rewriting Bun in Rust Jarred Sumner has been promising this blog post (since May 9th) about his Zig to Rust rewrite of Bun for significantly longer than it took him to finish the rewrite. Honestly, it was worth the wait. This is a detailed description of an extremely sophisticated piece of agentic e",
-      "feedId": "simonwillison",
-      "feedTitle": "Simon Willison",
-      "category": "AI & LLM",
-      "feedHome": "https://simonwillison.net/"
+      "title": "GhostLock, a stack-UAF that has existed in all Linux distributions for 15 years",
+      "link": "https://nebusec.ai/research/ionstack-part-2/",
+      "date": "2026-07-08T16:53:58+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
     },
     {
       "title": "The other kind of control flow guard check: The combined validate and call",
