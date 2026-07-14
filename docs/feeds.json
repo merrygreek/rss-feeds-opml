@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-13T23:02:08.904091+00:00",
+  "updatedAt": "2026-07-14T02:34:54.099357+00:00",
   "totalFeeds": 51,
   "successCount": 45,
   "failedCount": 6,
@@ -20,8 +20,14 @@
         "home": "https://simonwillison.net/",
         "url": "https://simonwillison.net/atom/everything/",
         "status": "ok",
-        "fetchedAt": "2026-07-13T23:01:58.338888+00:00",
+        "fetchedAt": "2026-07-14T02:34:43.561794+00:00",
         "items": [
+          {
+            "title": "Using uvx in GitHub Actions in a cache-friendly way",
+            "link": "https://simonwillison.net/2026/Jul/14/uvx-github-actions-cache/#atom-everything",
+            "date": "2026-07-14T00:56:20+00:00",
+            "summary": "TIL: Using uvx in GitHub Actions in a cache-friendly way I finally found a cache-friendly recipe for using uvx tool-name in GitHub Actions workflows that I like. The trick is setting a UV_EXCLUDE_NEWER: \"2026-07-12\" environment variable at the start of the workflow and then using that as part of the"
+          },
           {
             "title": "DOOMQL",
             "link": "https://simonwillison.net/2026/Jul/13/doomql/#atom-everything",
@@ -75,12 +81,6 @@
             "link": "https://simonwillison.net/2026/Jul/10/openai/#atom-everything",
             "date": "2026-07-10T01:05:57+00:00",
             "summary": "[...] Work on web and mobile runs in the cloud. Work in the desktop app can also use local files and desktop apps with your permission. At launch, cloud Work conversations do not appear in desktop Work; desktop Work threads and local files remain on that computer. &mdash; OpenAI, trying (unsuccessfu"
-          },
-          {
-            "title": "The new GPT-5.6 family: Luna, Terra, Sol",
-            "link": "https://simonwillison.net/2026/Jul/9/gpt-5-6/#atom-everything",
-            "date": "2026-07-09T19:46:38+00:00",
-            "summary": "OpenAI's latest flagship model hit general availability this morning, and comes in three sizes: Luna, Terra, and Sol (from smallest to largest). The new models are priced per 1M input/output tokens as Luna $1/$6, Terra $2.50/$15, Sol $5/$30. For comparison, the Claude Opus series are $5/$25 and the "
           }
         ]
       },
@@ -91,7 +91,7 @@
         "home": "https://openai.com/news/",
         "url": "https://openai.com/news/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-13T23:01:58.936526+00:00",
+        "fetchedAt": "2026-07-14T02:34:43.748474+00:00",
         "items": [
           {
             "title": "How Deutsche Telekom is rewiring telecommunications with AI",
@@ -162,7 +162,7 @@
         "home": "https://arxiv.org/list/cs.AI/recent",
         "url": "https://arxiv.org/rss/cs.AI",
         "status": "ok",
-        "fetchedAt": "2026-07-13T23:01:58.506965+00:00",
+        "fetchedAt": "2026-07-14T02:34:43.874561+00:00",
         "items": [
           {
             "title": "Interval Certifications for Multilayered Perceptrons via Lattice Traversal",
@@ -233,7 +233,7 @@
         "home": "https://arxiv.org/list/cs.LG/recent",
         "url": "https://arxiv.org/rss/cs.LG",
         "status": "ok",
-        "fetchedAt": "2026-07-13T23:01:58.472815+00:00",
+        "fetchedAt": "2026-07-14T02:34:44.140068+00:00",
         "items": [
           {
             "title": "A Unified Approach to Interpreting Knowledge Distillation for Large Language Models via Interactions",
@@ -304,7 +304,7 @@
         "home": "https://research.google/blog/",
         "url": "https://research.google/blog/rss/",
         "status": "ok",
-        "fetchedAt": "2026-07-13T23:01:58.534778+00:00",
+        "fetchedAt": "2026-07-14T02:34:43.834800+00:00",
         "items": [
           {
             "title": "SensorFM: Towards a general intelligence and interface for wearable health data",
@@ -375,7 +375,7 @@
         "home": "https://deepmind.google/blog/",
         "url": "https://deepmind.google/blog/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-13T23:01:58.517313+00:00",
+        "fetchedAt": "2026-07-14T02:34:43.919207+00:00",
         "items": [
           {
             "title": "Google DeepMind and A24 announce first-of-its-kind research partnership",
@@ -446,7 +446,7 @@
         "home": "https://lilianweng.github.io/",
         "url": "https://lilianweng.github.io/lil-log/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-13T23:01:58.321204+00:00",
+        "fetchedAt": "2026-07-14T02:34:43.510338+00:00",
         "items": [
           {
             "title": "Active Learning",
@@ -537,7 +537,7 @@
         "home": "https://minimaxir.com/",
         "url": "https://minimaxir.com/index.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-13T23:01:58.366941+00:00",
+        "fetchedAt": "2026-07-14T02:34:43.606396+00:00",
         "items": [
           {
             "title": "The mysterious Hy3 LLM is topping OpenRouter Model Rankings by a large margin",
@@ -620,7 +620,7 @@
         "home": "https://www.jeffgeerling.com/",
         "url": "https://www.jeffgeerling.com/blog.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-13T23:01:58.369792+00:00",
+        "fetchedAt": "2026-07-14T02:34:43.541197+00:00",
         "items": [
           {
             "title": "QuadRF can spot drones and see WiFi through my wall",
@@ -691,7 +691,7 @@
         "home": "https://www.seangoedecke.com/",
         "url": "https://www.seangoedecke.com/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-13T23:01:58.356859+00:00",
+        "fetchedAt": "2026-07-14T02:34:43.633498+00:00",
         "items": [
           {
             "title": "In defense of not understanding your codebase",
@@ -762,7 +762,7 @@
         "home": "https://krebsonsecurity.com/",
         "url": "https://krebsonsecurity.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-07-13T23:01:58.388353+00:00",
+        "fetchedAt": "2026-07-14T02:34:43.611340+00:00",
         "items": [
           {
             "title": "Lessons Learned from CISA’s Recent GitHub Leak",
@@ -833,7 +833,7 @@
         "home": "https://daringfireball.net/",
         "url": "https://daringfireball.net/feeds/main",
         "status": "ok",
-        "fetchedAt": "2026-07-13T23:01:58.443691+00:00",
+        "fetchedAt": "2026-07-14T02:34:43.620833+00:00",
         "items": [
           {
             "title": "Remember Musk’s Suit Alleging a Conspiracy Between Apple and OpenAI?",
@@ -904,7 +904,7 @@
         "home": "https://ericmigi.com/",
         "url": "https://ericmigi.com/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-13T23:01:58.422333+00:00",
+        "fetchedAt": "2026-07-14T02:34:43.591614+00:00",
         "items": [
           {
             "title": "How I Use My Index 01 + Production Update",
@@ -975,7 +975,7 @@
         "home": "http://antirez.com/",
         "url": "http://antirez.com/rss",
         "status": "ok",
-        "fetchedAt": "2026-07-13T23:01:59.966320+00:00",
+        "fetchedAt": "2026-07-14T02:34:46.261594+00:00",
         "items": [
           {
             "title": "Control the ideas, not the code",
@@ -1046,7 +1046,7 @@
         "home": "https://idiallo.com/",
         "url": "https://idiallo.com/feed.rss",
         "status": "ok",
-        "fetchedAt": "2026-07-13T23:01:58.512764+00:00",
+        "fetchedAt": "2026-07-14T02:34:43.945721+00:00",
         "items": [
           {
             "title": "And Then the Billionaire Paid Off $550 Million of Our Debts",
@@ -1117,7 +1117,7 @@
         "home": "https://maurycyz.com/",
         "url": "https://maurycyz.com/index.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-13T23:01:58.819987+00:00",
+        "fetchedAt": "2026-07-14T02:34:44.295029+00:00",
         "items": []
       },
       {
@@ -1127,7 +1127,7 @@
         "home": "https://pluralistic.net/",
         "url": "https://pluralistic.net/feed/",
         "status": "ok",
-        "fetchedAt": "2026-07-13T23:02:01.457867+00:00",
+        "fetchedAt": "2026-07-14T02:34:47.040771+00:00",
         "items": [
           {
             "title": "Pluralistic: Why aren't AI companies competing directly with their customers? (13 Jul 2026)",
@@ -1198,7 +1198,7 @@
         "home": "https://shkspr.mobi/blog/",
         "url": "https://shkspr.mobi/blog/feed/",
         "status": "ok",
-        "fetchedAt": "2026-07-13T23:01:59.173083+00:00",
+        "fetchedAt": "2026-07-14T02:34:44.488355+00:00",
         "items": []
       },
       {
@@ -1218,7 +1218,7 @@
         "home": "https://mitchellh.com/",
         "url": "https://mitchellh.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-13T23:01:58.571680+00:00",
+        "fetchedAt": "2026-07-14T02:34:43.921090+00:00",
         "items": [
           {
             "title": "Pledging Another $400,000 to the Zig Software Foundation",
@@ -1289,7 +1289,7 @@
         "home": "https://dynomight.net/",
         "url": "https://dynomight.net/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-13T23:01:58.637791+00:00",
+        "fetchedAt": "2026-07-14T02:34:44.276749+00:00",
         "items": [
           {
             "title": "Life with hazard ratios",
@@ -1360,7 +1360,7 @@
         "home": "https://xeiaso.net/",
         "url": "https://xeiaso.net/blog.rss",
         "status": "ok",
-        "fetchedAt": "2026-07-13T23:01:59.388549+00:00",
+        "fetchedAt": "2026-07-14T02:34:44.624865+00:00",
         "items": [
           {
             "title": "The console wars have been lost",
@@ -1431,7 +1431,7 @@
         "home": "https://devblogs.microsoft.com/oldnewthing/",
         "url": "https://devblogs.microsoft.com/oldnewthing/feed",
         "status": "ok",
-        "fetchedAt": "2026-07-13T23:01:58.692614+00:00",
+        "fetchedAt": "2026-07-14T02:34:43.665759+00:00",
         "items": [
           {
             "title": "Why don’t we just make the entire stack out of guard pages?",
@@ -1502,7 +1502,7 @@
         "home": "https://www.righto.com/",
         "url": "https://www.righto.com/feeds/posts/default",
         "status": "ok",
-        "fetchedAt": "2026-07-13T23:01:58.784553+00:00",
+        "fetchedAt": "2026-07-14T02:34:43.785492+00:00",
         "items": []
       },
       {
@@ -1512,7 +1512,7 @@
         "home": "https://lucumr.pocoo.org/",
         "url": "https://lucumr.pocoo.org/feed.atom",
         "status": "ok",
-        "fetchedAt": "2026-07-13T23:01:58.656210+00:00",
+        "fetchedAt": "2026-07-14T02:34:43.963466+00:00",
         "items": [
           {
             "title": "Better Models: Worse Tools",
@@ -1583,7 +1583,7 @@
         "home": "https://skyfall.dev/",
         "url": "https://skyfall.dev/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-13T23:01:58.788236+00:00",
+        "fetchedAt": "2026-07-14T02:34:44.076276+00:00",
         "items": [
           {
             "title": "Good riddance, 4o",
@@ -1658,7 +1658,7 @@
         "home": "https://overreacted.io/",
         "url": "https://overreacted.io/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-13T23:01:58.530347+00:00",
+        "fetchedAt": "2026-07-14T02:34:43.837897+00:00",
         "items": [
           {
             "title": "There Are No Instances in atproto",
@@ -1729,7 +1729,7 @@
         "home": "https://www.johndcook.com/",
         "url": "https://www.johndcook.com/blog/feed/",
         "status": "ok",
-        "fetchedAt": "2026-07-13T23:01:58.792998+00:00",
+        "fetchedAt": "2026-07-14T02:34:43.829379+00:00",
         "items": [
           {
             "title": "Posterior variance",
@@ -1800,7 +1800,7 @@
         "home": "https://matklad.github.io/",
         "url": "https://matklad.github.io/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-13T23:01:58.717975+00:00",
+        "fetchedAt": "2026-07-14T02:34:43.927297+00:00",
         "items": [
           {
             "title": "CSS: Unavoidable Bad Parts",
@@ -1871,7 +1871,7 @@
         "home": "https://eli.thegreenplace.net/",
         "url": "https://eli.thegreenplace.net/feeds/all.atom.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-13T23:01:58.796743+00:00",
+        "fetchedAt": "2026-07-14T02:34:44.053556+00:00",
         "items": [
           {
             "title": "Dot product: Component vs. Geometric definition",
@@ -1912,7 +1912,7 @@
         "home": "https://fabiensanglard.net/",
         "url": "https://fabiensanglard.net/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-13T23:01:58.594863+00:00",
+        "fetchedAt": "2026-07-14T02:34:43.890960+00:00",
         "items": [
           {
             "title": "A dock that finally wakes up reliably",
@@ -1983,7 +1983,7 @@
         "home": "https://blog.miguelgrinberg.com/",
         "url": "https://blog.miguelgrinberg.com/feed",
         "status": "ok",
-        "fetchedAt": "2026-07-13T23:01:59.294250+00:00",
+        "fetchedAt": "2026-07-14T02:34:44.760994+00:00",
         "items": [
           {
             "title": "I Am Not a Reverse Centaur",
@@ -2054,7 +2054,7 @@
         "home": "https://www.troyhunt.com/",
         "url": "https://www.troyhunt.com/rss/",
         "status": "ok",
-        "fetchedAt": "2026-07-13T23:01:58.545958+00:00",
+        "fetchedAt": "2026-07-14T02:34:43.850825+00:00",
         "items": [
           {
             "title": "Weekly Update 511: Live from my Riad in Marrakech",
@@ -2125,7 +2125,7 @@
         "home": "https://anildash.com/",
         "url": "https://anildash.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-13T23:01:58.621323+00:00",
+        "fetchedAt": "2026-07-14T02:34:44.026128+00:00",
         "items": [
           {
             "title": "Endgame for the Open Web",
@@ -2196,7 +2196,7 @@
         "home": "https://computer.rip/",
         "url": "https://computer.rip/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-13T23:01:59.293189+00:00",
+        "fetchedAt": "2026-07-14T02:34:44.540360+00:00",
         "items": [
           {
             "title": "megawatts by microwave",
@@ -2277,7 +2277,7 @@
         "home": "http://paulgraham.com/",
         "url": "http://www.aaronsw.com/2002/feeds/pgessays.rss",
         "status": "ok",
-        "fetchedAt": "2026-07-13T23:01:58.697939+00:00",
+        "fetchedAt": "2026-07-14T02:34:44.043099+00:00",
         "items": [
           {
             "title": "Superlinear Returns",
@@ -2348,7 +2348,7 @@
         "home": "https://steveblank.com/",
         "url": "https://steveblank.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-07-13T23:01:58.804334+00:00",
+        "fetchedAt": "2026-07-14T02:34:43.764002+00:00",
         "items": [
           {
             "title": "Lean Launch Pad 2026 @ Stanford – Lessons Learned Presentations",
@@ -2421,10 +2421,16 @@
         "home": "https://news.ycombinator.com/",
         "url": "https://news.ycombinator.com/rss",
         "status": "ok",
-        "fetchedAt": "2026-07-13T23:01:58.939831+00:00",
+        "fetchedAt": "2026-07-14T02:34:43.788213+00:00",
         "items": [
           {
-            "title": "Building and Shipping Mac and iOS Apps Without Ever Opening Xcode",
+            "title": "The Git history command deserves more attention",
+            "link": "https://lalitm.com/post/git-history/",
+            "date": "2026-07-14T00:57:11+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "Building and shipping Mac and iOS apps without opening Xcode",
             "link": "https://scottwillsey.com/building-and-shipping-mac-and-ios-apps-without-ever-opening-xcode/",
             "date": "2026-07-13T18:22:16+00:00",
             "summary": "Comments"
@@ -2436,51 +2442,45 @@
             "summary": "Comments"
           },
           {
-            "title": "Show HN: YouTube Guitar Tab Parser",
-            "link": "https://github.com/marcelpanse/youtube-guitar-tab-parser",
-            "date": "2026-07-13T20:13:14+00:00",
+            "title": "Success may not matter if you aren't doing what you love",
+            "link": "https://12gramsofcarbon.com/p/founders-guide-success-may-not-matter",
+            "date": "2026-07-14T00:26:00+00:00",
             "summary": "Comments"
           },
           {
-            "title": "Claude is just Mr. Meeseeks",
-            "link": "https://github.com/thephw/claude-meseeks",
-            "date": "2026-07-13T22:03:54+00:00",
+            "title": "An Englishwoman who sketched India before photography took hold",
+            "link": "https://www.bbc.com/news/articles/cm2drrv6q54o",
+            "date": "2026-07-13T23:12:22+00:00",
             "summary": "Comments"
           },
           {
-            "title": "Linux 0.11 rewritten in idiomatic Rust, boots in QEMU",
-            "link": "https://github.com/Poseidon-fan/linux-0.11-rs",
-            "date": "2026-07-13T20:11:29+00:00",
+            "title": "MorphoHDL: A minimalistic language for growing circuits",
+            "link": "https://paradigms-of-intelligence.github.io/morpho/",
+            "date": "2026-07-14T01:17:30+00:00",
             "summary": "Comments"
           },
           {
-            "title": "Linux on the Sega 32X. Who needs hardware synchronization primitives anyway?",
-            "link": "https://cakehonolulu.github.io/linux-on-32x/",
-            "date": "2026-07-13T18:18:25+00:00",
+            "title": "Fundamentals of Wireless Communication",
+            "link": "https://web.stanford.edu/~dntse/wireless_book.html",
+            "date": "2026-07-14T02:10:19+00:00",
             "summary": "Comments"
           },
           {
-            "title": "The art and engineering of Sega CD Silpheed",
-            "link": "https://fabiensanglard.net/silpheed/index.html",
-            "date": "2026-07-13T14:52:33+00:00",
+            "title": "Building Food Metadata with LLM Juries",
+            "link": "https://careersatdoordash.com/blog/building-food-metadata-with-llm-juries-context-optimization-multimodal-ai/",
+            "date": "2026-07-14T01:41:49+00:00",
             "summary": "Comments"
           },
           {
-            "title": "Climate.gov was destroyed. Open data saved it",
-            "link": "https://werd.io/climate-gov-was-destroyed-open-data-saved-it/",
-            "date": "2026-07-13T19:57:55+00:00",
+            "title": "World-First 'Super Alloy' Could Transform the Way Metals Are Made",
+            "link": "https://www.sciencealert.com/world-first-super-alloy-could-transform-the-way-metals-are-made",
+            "date": "2026-07-09T22:20:35+00:00",
             "summary": "Comments"
           },
           {
-            "title": "Telegram's t.me domain has been suspended",
-            "link": "https://www.whois.com/whois/t.me",
-            "date": "2026-07-13T19:52:25+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "SalesPatriot (YC W25) Is Hiring Full Stack Engineers (SF)",
-            "link": "https://jobs.ashbyhq.com/SalesPatriot/df223727-5781-433e-bc75-2aa5bf8dc8d7",
-            "date": "2026-07-13T21:01:00+00:00",
+            "title": "Is x86 ready to ACE it?",
+            "link": "https://chipsandcheese.com/p/is-x86-ready-to-ace-it",
+            "date": "2026-07-14T01:36:13+00:00",
             "summary": "Comments"
           }
         ]
@@ -2492,8 +2492,32 @@
         "home": "https://www.techmeme.com/",
         "url": "https://www.techmeme.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-13T23:01:59.108747+00:00",
+        "fetchedAt": "2026-07-14T02:34:43.988218+00:00",
         "items": [
+          {
+            "title": "Singapore-based and Alibaba-backed video generation startup PixVerse says it closed a Series C extension to raise $439M total for the round, valuing it at $2B+ (Ivan Mehta/TechCrunch)",
+            "link": "https://www.techmeme.com/260713/p35#a260713p35",
+            "date": "2026-07-13T20:45:01-04:00",
+            "summary": "Ivan Mehta / TechCrunch: Singapore-based and Alibaba-backed video generation startup PixVerse says it closed a Series C extension to raise $439M total for the round, valuing it at $2B+&nbsp; &mdash;&nbsp; Singapore-based video-generation startup PixVerse said today that it has closed its Series C ex"
+          },
+          {
+            "title": "Anthropic research based on ~310K anonymized Claude conversations shows how Claude's expressed values and behaviors vary across models and languages (Jason Nelson/Decrypt)",
+            "link": "https://www.techmeme.com/260713/p34#a260713p34",
+            "date": "2026-07-13T20:10:39-04:00",
+            "summary": "Jason Nelson / Decrypt: Anthropic research based on ~310K anonymized Claude conversations shows how Claude's expressed values and behaviors vary across models and languages&nbsp; &mdash;&nbsp; Claude doesn't behave the same way in every conversation.&nbsp; According to new research published Monday,"
+          },
+          {
+            "title": "Sources: Nous Research, the startup behind Hermes, an open-source agent and OpenClaw rival, is raising $75M+ at a $1.5B valuation led by Robot Ventures (TechCrunch)",
+            "link": "https://www.techmeme.com/260713/p33#a260713p33",
+            "date": "2026-07-13T19:45:02-04:00",
+            "summary": "TechCrunch: Sources: Nous Research, the startup behind Hermes, an open-source agent and OpenClaw rival, is raising $75M+ at a $1.5B valuation led by Robot Ventures&nbsp; &mdash;&nbsp; Nous Research, the startup behind the open-source Hermes agent, is finalizing a new round of funding led by Robot Ve"
+          },
+          {
+            "title": "Sources: Trump admin and industry groups have discussed streamlining releases of US open models of equal or lesser capability than leading Chinese open models (Benjamin Guggenheim/Washington Post)",
+            "link": "https://www.techmeme.com/260713/p32#a260713p32",
+            "date": "2026-07-13T19:15:01-04:00",
+            "summary": "Benjamin Guggenheim / Washington Post: Sources: Trump admin and industry groups have discussed streamlining releases of US open models of equal or lesser capability than leading Chinese open models&nbsp; &mdash;&nbsp; Plus, data centers could end up consuming less energy than we expect.&nbsp; &mdash"
+          },
           {
             "title": "Apple releases the first public betas of iOS 27, iPadOS 27, macOS 27 Golden Gate, watchOS 27, and tvOS 27, marking the public debut of the new Siri AI (Will Shanklin/Engadget)",
             "link": "https://www.techmeme.com/260713/p31#a260713p31",
@@ -2529,30 +2553,6 @@
             "link": "https://www.techmeme.com/260713/p26#a260713p26",
             "date": "2026-07-13T11:55:24-04:00",
             "summary": "Lily Mae Lazarus / Fortune: London-based Valarian, which allows companies to use US cloud providers for AI workloads but retain control of their data, raised a $50M Series A led by NEA&nbsp; &mdash;&nbsp; Max Buchan started advocating for infrastructure sovereignty when, as he puts it, &ldquo;global"
-          },
-          {
-            "title": "Seattle-based Augmodo, whose AI-powered \"Smartbadges\" worn by employees track shelf inventory, raised $21M led by TQ Ventures at a $350M valuation (Kurt Schlosser/GeekWire)",
-            "link": "https://www.techmeme.com/260713/p25#a260713p25",
-            "date": "2026-07-13T11:40:20-04:00",
-            "summary": "Kurt Schlosser / GeekWire: Seattle-based Augmodo, whose AI-powered &ldquo;Smartbadges&rdquo; worn by employees track shelf inventory, raised $21M led by TQ Ventures at a $350M valuation&nbsp; &mdash;&nbsp; Augmodo, the Seattle startup that straps AI-powered cameras onto retail workers to track store"
-          },
-          {
-            "title": "Gauntlet, which helps institutions and crypto companies allocate their digital assets, raised a $125M Series C from Japanese financial conglomerate SBI Holdings (Ben Weiss/Fortune)",
-            "link": "https://www.techmeme.com/260713/p24#a260713p24",
-            "date": "2026-07-13T11:15:01-04:00",
-            "summary": "Ben Weiss / Fortune: Gauntlet, which helps institutions and crypto companies allocate their digital assets, raised a $125M Series C from Japanese financial conglomerate SBI Holdings&nbsp; &mdash;&nbsp; A startup founded during the early days of DeFi is now backed by a financial giant.&nbsp; Gauntlet"
-          },
-          {
-            "title": "Global smartphone shipments fell 11% YoY in Q2 to the lowest Q2 levels since 2013 amid the DRAM and NAND shortage; Samsung returns to #1 with a 24% market share (Shilpi Jain/Counterpoint Research)",
-            "link": "https://www.techmeme.com/260713/p23#a260713p23",
-            "date": "2026-07-13T10:55:17-04:00",
-            "summary": "Shilpi Jain / Counterpoint Research: Global smartphone shipments fell 11% YoY in Q2 to the lowest Q2 levels since 2013 amid the DRAM and NAND shortage; Samsung returns to #1 with a 24% market share&nbsp; &mdash;&nbsp; - Global smartphone shipments fell 11% YoY in Q2 2026 reaching the lowest second-q"
-          },
-          {
-            "title": "Apple's stock is up 16% since June 25, adding ~$650B in market value and pushing shares back to record territory, as investors flee an AI stock selloff to Apple (Ryan Vlastelica/Bloomberg)",
-            "link": "https://www.techmeme.com/260713/p22#a260713p22",
-            "date": "2026-07-13T09:20:03-04:00",
-            "summary": "Ryan Vlastelica / Bloomberg: Apple's stock is up 16% since June 25, adding ~$650B in market value and pushing shares back to record territory, as investors flee an AI stock selloff to Apple&nbsp; &mdash;&nbsp; Investors are flocking back to Apple Inc. as nervousness about artificial intelligence spe"
           }
         ]
       },
@@ -2563,8 +2563,32 @@
         "home": "https://techcrunch.com/",
         "url": "https://techcrunch.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-07-13T23:01:58.694317+00:00",
+        "fetchedAt": "2026-07-14T02:34:43.967957+00:00",
         "items": [
+          {
+            "title": "Uber’s product chief on hotels, robotaxis, and why the company doesn’t want to be “everything for everyone”",
+            "link": "https://techcrunch.com/2026/07/13/ubers-product-chief-on-hotels-robotaxis-and-why-the-company-doesnt-want-to-be-everything-for-everyone/",
+            "date": "2026-07-14T00:45:00+00:00",
+            "summary": "Uber Chief Product Officer Sachin Kansal walks TechCrunch through the company's financial-services ambitions, its increasingly complicated relationship with Waymo, its new AV Labs data operation, and how AI is starting to show up in ways riders and drivers will actually notice."
+          },
+          {
+            "title": "Video-generation startup PixVerse raises $439M, valuation soars past $2B",
+            "link": "https://techcrunch.com/2026/07/13/video-generation-startup-pixverse-raises-439m-valuation-soars-past-2b/",
+            "date": "2026-07-14T00:00:00+00:00",
+            "summary": "With the cash, the company aims to expand its world model offering and reach customers across geographies."
+          },
+          {
+            "title": "X just tweaked its algorithm to make it more friendly, less battleground",
+            "link": "https://techcrunch.com/2026/07/13/x-just-tweaked-its-algorithm-to-make-it-more-friendly-less-battleground/",
+            "date": "2026-07-13T23:58:27+00:00",
+            "summary": "The social media site says it will amplify posts made by users' mutual followers' to give the feed more of a communal feel."
+          },
+          {
+            "title": "Hermes agent maker Nous Research in talks for new funding at $1.5B valuation",
+            "link": "https://techcrunch.com/2026/07/13/hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-valuation/",
+            "date": "2026-07-13T23:31:18+00:00",
+            "summary": "The company is raising at least $75 million, led by Robot Ventures, with significant participation from USV and other prominent investors."
+          },
           {
             "title": "Satya Nadella has issued a shocking warning to companies using AI",
             "link": "https://techcrunch.com/2026/07/13/satya-nadella-has-issued-a-shocking-warning-to-companies-using-ai/",
@@ -2600,30 +2624,6 @@
             "link": "https://techcrunch.com/2026/07/13/12-states-sue-to-block-paramounts-110b-warner-bros-deal/",
             "date": "2026-07-13T17:00:14+00:00",
             "summary": "The states allege that the deal would harm movie theaters, basic cable distributors, and audiences."
-          },
-          {
-            "title": "Should AI help you get away with killing your spouse?",
-            "link": "https://techcrunch.com/2026/07/13/should-ai-help-you-get-away-with-killing-your-spouse/",
-            "date": "2026-07-13T16:31:23+00:00",
-            "summary": "What does a world of total user-aligned AI actually look like?"
-          },
-          {
-            "title": "As TV-tracking app TV Time shuts down, its founder builds Bingers, a new home for fans",
-            "link": "https://techcrunch.com/2026/07/13/as-tv-tracking-app-tv-time-shuts-down-its-founder-builds-bingers-a-new-home-for-fans/",
-            "date": "2026-07-13T15:49:42+00:00",
-            "summary": "The creator of TV Time is building a successor app that will let users import their watch histories and preserve the community that formed around discussing their favorite shows."
-          },
-          {
-            "title": "Anthropic starts localizing Claude pricing for India, its biggest market after the US",
-            "link": "https://techcrunch.com/2026/07/13/anthropic-starts-localizing-claude-pricing-for-india-its-biggest-market-after-the-us/",
-            "date": "2026-07-13T15:34:59+00:00",
-            "summary": "Claude users in India are starting to see Indian rupee-denominated subscription plans."
-          },
-          {
-            "title": "SpaceX cleared to fly Starship again after booster failure in May",
-            "link": "https://techcrunch.com/2026/07/13/spacex-cleared-to-fly-starship-again-after-booster-failure-in-may/",
-            "date": "2026-07-13T14:19:44+00:00",
-            "summary": "This will be the first Starship test flight for SpaceX as a public company, testing the market's appetite for the company's \"fly, fail, fix\" approach to rocket development, which often ends in fireballs."
           }
         ]
       },
@@ -2634,8 +2634,26 @@
         "home": "https://techcrunch.com/category/artificial-intelligence/",
         "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
         "status": "ok",
-        "fetchedAt": "2026-07-13T23:01:58.722085+00:00",
+        "fetchedAt": "2026-07-14T02:34:43.989825+00:00",
         "items": [
+          {
+            "title": "Uber’s product chief on hotels, robotaxis, and why the company doesn’t want to be “everything for everyone”",
+            "link": "https://techcrunch.com/2026/07/13/ubers-product-chief-on-hotels-robotaxis-and-why-the-company-doesnt-want-to-be-everything-for-everyone/",
+            "date": "2026-07-14T00:45:00+00:00",
+            "summary": "Uber Chief Product Officer Sachin Kansal walks TechCrunch through the company's financial-services ambitions, its increasingly complicated relationship with Waymo, its new AV Labs data operation, and how AI is starting to show up in ways riders and drivers will actually notice."
+          },
+          {
+            "title": "Video-generation startup PixVerse raises $439M, valuation soars past $2B",
+            "link": "https://techcrunch.com/2026/07/13/video-generation-startup-pixverse-raises-439m-valuation-soars-past-2b/",
+            "date": "2026-07-14T00:00:00+00:00",
+            "summary": "With the cash, the company aims to expand its world model offering and reach customers across geographies."
+          },
+          {
+            "title": "Hermes agent maker Nous Research in talks for new funding at $1.5B valuation",
+            "link": "https://techcrunch.com/2026/07/13/hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-valuation/",
+            "date": "2026-07-13T23:31:18+00:00",
+            "summary": "The company is raising at least $75 million, led by Robot Ventures, with significant participation from USV and other prominent investors."
+          },
           {
             "title": "Satya Nadella has issued a shocking warning to companies using AI",
             "link": "https://techcrunch.com/2026/07/13/satya-nadella-has-issued-a-shocking-warning-to-companies-using-ai/",
@@ -2677,24 +2695,6 @@
             "link": "https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households/",
             "date": "2026-07-11T14:13:00+00:00",
             "summary": "ChatGPT is hiring a dedicated product manager to build experiences for families, caregivers, and older adults, according to a job posting."
-          },
-          {
-            "title": "Meta removes controversial AI feature on Instagram after backlash",
-            "link": "https://techcrunch.com/2026/07/10/meta-removes-controversial-ai-feature-on-instagram-after-backlash/",
-            "date": "2026-07-10T23:55:07+00:00",
-            "summary": "\"Our intent was to provide a useful creative tool and to give people control over whether their public content could be referenced in this way,\" the company said in a blog post. \"We've heard the feedback that this feature missed the mark, so it's no longer available.\""
-          },
-          {
-            "title": "Apple sues OpenAI over alleged trade secret theft",
-            "link": "https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft/",
-            "date": "2026-07-10T21:00:29+00:00",
-            "summary": "Apple alleges the misconduct was directed by OpenAI's senior leadership, including a longtime former employee."
-          },
-          {
-            "title": "Open source AI matters more than ever, according to Hugging Face’s Clem Delangue",
-            "link": "https://techcrunch.com/podcast/open-source-ai-matters-more-than-ever-according-to-hugging-faces-clem-delangue/",
-            "date": "2026-07-10T19:00:00+00:00",
-            "summary": "Open source AI is booming, according to&#160;Hugging Face&#160;CEO&#160;Clem Delangue. The company has grown into something like a GitHub for AI in recent years, where AI builders can share and download open models and datasets, now used by roughly half the Fortune 500. Delangue has seen the same st"
           }
         ]
       },
@@ -2705,7 +2705,7 @@
         "home": "https://techcrunch.com/tag/funding/",
         "url": "https://techcrunch.com/tag/funding/feed/",
         "status": "ok",
-        "fetchedAt": "2026-07-13T23:01:58.729699+00:00",
+        "fetchedAt": "2026-07-14T02:34:43.995154+00:00",
         "items": [
           {
             "title": "AI chip maker SambaNova raises $1B at $11B valuation, 5 months after last mega round",
@@ -2776,7 +2776,7 @@
         "home": "https://venturebeat.com/",
         "url": "https://venturebeat.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-07-13T23:01:58.544049+00:00",
+        "fetchedAt": "2026-07-14T02:34:43.768755+00:00",
         "items": [
           {
             "title": "ACRouter picks the smartest AI model per task, beating Opus-only setups by 2.6x on cost",
@@ -2829,7 +2829,7 @@
         "home": "https://venturebeat.com/category/ai/",
         "url": "https://venturebeat.com/category/ai/feed/",
         "status": "ok",
-        "fetchedAt": "2026-07-13T23:01:58.770623+00:00",
+        "fetchedAt": "2026-07-14T02:34:43.908628+00:00",
         "items": [
           {
             "title": "Google just redesigned the search box for the first time in 25 years — here’s why it matters more than you think.",
@@ -2884,7 +2884,7 @@
         "home": "https://www.ruanyifeng.com/blog/",
         "url": "https://www.ruanyifeng.com/blog/atom.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-13T23:01:58.482507+00:00",
+        "fetchedAt": "2026-07-14T02:34:43.624529+00:00",
         "items": [
           {
             "title": "科技爱好者周刊（第 403 期）：为什么 Dropbox 不成功",
@@ -2913,7 +2913,7 @@
         "home": "https://www.bestblogs.dev/",
         "url": "https://www.bestblogs.dev/zh/feeds/rss?category=ai&minScore=90",
         "status": "ok",
-        "fetchedAt": "2026-07-13T23:01:59.215365+00:00",
+        "fetchedAt": "2026-07-14T02:34:44.705389+00:00",
         "items": [
           {
             "title": "训推全开源：HyOCR-1.5 让端到端 OCR 大模型跑得更快、看得更准、功能更全",
@@ -2981,6 +2981,156 @@
   },
   "allItems": [
     {
+      "title": "Fundamentals of Wireless Communication",
+      "link": "https://web.stanford.edu/~dntse/wireless_book.html",
+      "date": "2026-07-14T02:10:19+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "Building Food Metadata with LLM Juries",
+      "link": "https://careersatdoordash.com/blog/building-food-metadata-with-llm-juries-context-optimization-multimodal-ai/",
+      "date": "2026-07-14T01:41:49+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "Is x86 ready to ACE it?",
+      "link": "https://chipsandcheese.com/p/is-x86-ready-to-ace-it",
+      "date": "2026-07-14T01:36:13+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "MorphoHDL: A minimalistic language for growing circuits",
+      "link": "https://paradigms-of-intelligence.github.io/morpho/",
+      "date": "2026-07-14T01:17:30+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "The Git history command deserves more attention",
+      "link": "https://lalitm.com/post/git-history/",
+      "date": "2026-07-14T00:57:11+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "Using uvx in GitHub Actions in a cache-friendly way",
+      "link": "https://simonwillison.net/2026/Jul/14/uvx-github-actions-cache/#atom-everything",
+      "date": "2026-07-14T00:56:20+00:00",
+      "summary": "TIL: Using uvx in GitHub Actions in a cache-friendly way I finally found a cache-friendly recipe for using uvx tool-name in GitHub Actions workflows that I like. The trick is setting a UV_EXCLUDE_NEWER: \"2026-07-12\" environment variable at the start of the workflow and then using that as part of the",
+      "feedId": "simonwillison",
+      "feedTitle": "Simon Willison",
+      "category": "AI & LLM",
+      "feedHome": "https://simonwillison.net/"
+    },
+    {
+      "title": "Uber’s product chief on hotels, robotaxis, and why the company doesn’t want to be “everything for everyone”",
+      "link": "https://techcrunch.com/2026/07/13/ubers-product-chief-on-hotels-robotaxis-and-why-the-company-doesnt-want-to-be-everything-for-everyone/",
+      "date": "2026-07-14T00:45:00+00:00",
+      "summary": "Uber Chief Product Officer Sachin Kansal walks TechCrunch through the company's financial-services ambitions, its increasingly complicated relationship with Waymo, its new AV Labs data operation, and how AI is starting to show up in ways riders and drivers will actually notice.",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "Uber’s product chief on hotels, robotaxis, and why the company doesn’t want to be “everything for everyone”",
+      "link": "https://techcrunch.com/2026/07/13/ubers-product-chief-on-hotels-robotaxis-and-why-the-company-doesnt-want-to-be-everything-for-everyone/",
+      "date": "2026-07-14T00:45:00+00:00",
+      "summary": "Uber Chief Product Officer Sachin Kansal walks TechCrunch through the company's financial-services ambitions, its increasingly complicated relationship with Waymo, its new AV Labs data operation, and how AI is starting to show up in ways riders and drivers will actually notice.",
+      "feedId": "techcrunch-ai",
+      "feedTitle": "TechCrunch AI",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
+    },
+    {
+      "title": "Success may not matter if you aren't doing what you love",
+      "link": "https://12gramsofcarbon.com/p/founders-guide-success-may-not-matter",
+      "date": "2026-07-14T00:26:00+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "Video-generation startup PixVerse raises $439M, valuation soars past $2B",
+      "link": "https://techcrunch.com/2026/07/13/video-generation-startup-pixverse-raises-439m-valuation-soars-past-2b/",
+      "date": "2026-07-14T00:00:00+00:00",
+      "summary": "With the cash, the company aims to expand its world model offering and reach customers across geographies.",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "Video-generation startup PixVerse raises $439M, valuation soars past $2B",
+      "link": "https://techcrunch.com/2026/07/13/video-generation-startup-pixverse-raises-439m-valuation-soars-past-2b/",
+      "date": "2026-07-14T00:00:00+00:00",
+      "summary": "With the cash, the company aims to expand its world model offering and reach customers across geographies.",
+      "feedId": "techcrunch-ai",
+      "feedTitle": "TechCrunch AI",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
+    },
+    {
+      "title": "X just tweaked its algorithm to make it more friendly, less battleground",
+      "link": "https://techcrunch.com/2026/07/13/x-just-tweaked-its-algorithm-to-make-it-more-friendly-less-battleground/",
+      "date": "2026-07-13T23:58:27+00:00",
+      "summary": "The social media site says it will amplify posts made by users' mutual followers' to give the feed more of a communal feel.",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "Hermes agent maker Nous Research in talks for new funding at $1.5B valuation",
+      "link": "https://techcrunch.com/2026/07/13/hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-valuation/",
+      "date": "2026-07-13T23:31:18+00:00",
+      "summary": "The company is raising at least $75 million, led by Robot Ventures, with significant participation from USV and other prominent investors.",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "Hermes agent maker Nous Research in talks for new funding at $1.5B valuation",
+      "link": "https://techcrunch.com/2026/07/13/hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-valuation/",
+      "date": "2026-07-13T23:31:18+00:00",
+      "summary": "The company is raising at least $75 million, led by Robot Ventures, with significant participation from USV and other prominent investors.",
+      "feedId": "techcrunch-ai",
+      "feedTitle": "TechCrunch AI",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
+    },
+    {
+      "title": "An Englishwoman who sketched India before photography took hold",
+      "link": "https://www.bbc.com/news/articles/cm2drrv6q54o",
+      "date": "2026-07-13T23:12:22+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
       "title": "DOOMQL",
       "link": "https://simonwillison.net/2026/Jul/13/doomql/#atom-everything",
       "date": "2026-07-13T22:34:41+00:00",
@@ -2991,16 +3141,6 @@
       "feedHome": "https://simonwillison.net/"
     },
     {
-      "title": "Claude is just Mr. Meeseeks",
-      "link": "https://github.com/thephw/claude-meseeks",
-      "date": "2026-07-13T22:03:54+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
       "title": "datasette code-frequency chart on GitHub",
       "link": "https://simonwillison.net/2026/Jul/13/datasette-code-frequency/#atom-everything",
       "date": "2026-07-13T21:45:27+00:00",
@@ -3009,16 +3149,6 @@
       "feedTitle": "Simon Willison",
       "category": "AI & LLM",
       "feedHome": "https://simonwillison.net/"
-    },
-    {
-      "title": "SalesPatriot (YC W25) Is Hiring Full Stack Engineers (SF)",
-      "link": "https://jobs.ashbyhq.com/SalesPatriot/df223727-5781-433e-bc75-2aa5bf8dc8d7",
-      "date": "2026-07-13T21:01:00+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
     },
     {
       "title": "Satya Nadella has issued a shocking warning to companies using AI",
@@ -3041,24 +3171,24 @@
       "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
     },
     {
-      "title": "Show HN: YouTube Guitar Tab Parser",
-      "link": "https://github.com/marcelpanse/youtube-guitar-tab-parser",
-      "date": "2026-07-13T20:13:14+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
+      "title": "Singapore-based and Alibaba-backed video generation startup PixVerse says it closed a Series C extension to raise $439M total for the round, valuing it at $2B+ (Ivan Mehta/TechCrunch)",
+      "link": "https://www.techmeme.com/260713/p35#a260713p35",
+      "date": "2026-07-13T20:45:01-04:00",
+      "summary": "Ivan Mehta / TechCrunch: Singapore-based and Alibaba-backed video generation startup PixVerse says it closed a Series C extension to raise $439M total for the round, valuing it at $2B+&nbsp; &mdash;&nbsp; Singapore-based video-generation startup PixVerse said today that it has closed its Series C ex",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
       "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
+      "feedHome": "https://www.techmeme.com/"
     },
     {
-      "title": "Linux 0.11 rewritten in idiomatic Rust, boots in QEMU",
-      "link": "https://github.com/Poseidon-fan/linux-0.11-rs",
-      "date": "2026-07-13T20:11:29+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
+      "title": "Anthropic research based on ~310K anonymized Claude conversations shows how Claude's expressed values and behaviors vary across models and languages (Jason Nelson/Decrypt)",
+      "link": "https://www.techmeme.com/260713/p34#a260713p34",
+      "date": "2026-07-13T20:10:39-04:00",
+      "summary": "Jason Nelson / Decrypt: Anthropic research based on ~310K anonymized Claude conversations shows how Claude's expressed values and behaviors vary across models and languages&nbsp; &mdash;&nbsp; Claude doesn't behave the same way in every conversation.&nbsp; According to new research published Monday,",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
       "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
+      "feedHome": "https://www.techmeme.com/"
     },
     {
       "title": "Apple says former employee exploited ‘rare’ bug to download confidential files after leaving for OpenAI",
@@ -3071,24 +3201,24 @@
       "feedHome": "https://techcrunch.com/"
     },
     {
-      "title": "Climate.gov was destroyed. Open data saved it",
-      "link": "https://werd.io/climate-gov-was-destroyed-open-data-saved-it/",
-      "date": "2026-07-13T19:57:55+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
+      "title": "Sources: Nous Research, the startup behind Hermes, an open-source agent and OpenClaw rival, is raising $75M+ at a $1.5B valuation led by Robot Ventures (TechCrunch)",
+      "link": "https://www.techmeme.com/260713/p33#a260713p33",
+      "date": "2026-07-13T19:45:02-04:00",
+      "summary": "TechCrunch: Sources: Nous Research, the startup behind Hermes, an open-source agent and OpenClaw rival, is raising $75M+ at a $1.5B valuation led by Robot Ventures&nbsp; &mdash;&nbsp; Nous Research, the startup behind the open-source Hermes agent, is finalizing a new round of funding led by Robot Ve",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
       "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
+      "feedHome": "https://www.techmeme.com/"
     },
     {
-      "title": "Telegram's t.me domain has been suspended",
-      "link": "https://www.whois.com/whois/t.me",
-      "date": "2026-07-13T19:52:25+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
+      "title": "Sources: Trump admin and industry groups have discussed streamlining releases of US open models of equal or lesser capability than leading Chinese open models (Benjamin Guggenheim/Washington Post)",
+      "link": "https://www.techmeme.com/260713/p32#a260713p32",
+      "date": "2026-07-13T19:15:01-04:00",
+      "summary": "Benjamin Guggenheim / Washington Post: Sources: Trump admin and industry groups have discussed streamlining releases of US open models of equal or lesser capability than leading Chinese open models&nbsp; &mdash;&nbsp; Plus, data centers could end up consuming less energy than we expect.&nbsp; &mdash",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
       "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
+      "feedHome": "https://www.techmeme.com/"
     },
     {
       "title": "Apple releases the first public betas of iOS 27, iPadOS 27, macOS 27 Golden Gate, watchOS 27, and tvOS 27, marking the public debut of the new Siri AI (Will Shanklin/Engadget)",
@@ -3101,7 +3231,7 @@
       "feedHome": "https://www.techmeme.com/"
     },
     {
-      "title": "Building and Shipping Mac and iOS Apps Without Ever Opening Xcode",
+      "title": "Building and shipping Mac and iOS apps without opening Xcode",
       "link": "https://scottwillsey.com/building-and-shipping-mac-and-ios-apps-without-ever-opening-xcode/",
       "date": "2026-07-13T18:22:16+00:00",
       "summary": "Comments",
@@ -3129,16 +3259,6 @@
       "feedTitle": "TechCrunch AI",
       "category": "Startup & News",
       "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
-    },
-    {
-      "title": "Linux on the Sega 32X. Who needs hardware synchronization primitives anyway?",
-      "link": "https://cakehonolulu.github.io/linux-on-32x/",
-      "date": "2026-07-13T18:18:25+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
     },
     {
       "title": "Sam Altman’s space data center trash talk is what most experts already believe",
@@ -3185,16 +3305,6 @@
       "link": "https://techcrunch.com/2026/07/13/should-ai-help-you-get-away-with-killing-your-spouse/",
       "date": "2026-07-13T16:31:23+00:00",
       "summary": "What does a world of total user-aligned AI actually look like?",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
-    },
-    {
-      "title": "Should AI help you get away with killing your spouse?",
-      "link": "https://techcrunch.com/2026/07/13/should-ai-help-you-get-away-with-killing-your-spouse/",
-      "date": "2026-07-13T16:31:23+00:00",
-      "summary": "What does a world of total user-aligned AI actually look like?",
       "feedId": "techcrunch-ai",
       "feedTitle": "TechCrunch AI",
       "category": "Startup & News",
@@ -3219,26 +3329,6 @@
       "feedTitle": "Hacker News",
       "category": "Startup & News",
       "feedHome": "https://news.ycombinator.com/"
-    },
-    {
-      "title": "As TV-tracking app TV Time shuts down, its founder builds Bingers, a new home for fans",
-      "link": "https://techcrunch.com/2026/07/13/as-tv-tracking-app-tv-time-shuts-down-its-founder-builds-bingers-a-new-home-for-fans/",
-      "date": "2026-07-13T15:49:42+00:00",
-      "summary": "The creator of TV Time is building a successor app that will let users import their watch histories and preserve the community that formed around discussing their favorite shows.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
-    },
-    {
-      "title": "Anthropic starts localizing Claude pricing for India, its biggest market after the US",
-      "link": "https://techcrunch.com/2026/07/13/anthropic-starts-localizing-claude-pricing-for-india-its-biggest-market-after-the-us/",
-      "date": "2026-07-13T15:34:59+00:00",
-      "summary": "Claude users in India are starting to see Indian rupee-denominated subscription plans.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
     },
     {
       "title": "Anthropic starts localizing Claude pricing for India, its biggest market after the US",
@@ -3279,26 +3369,6 @@
       "feedTitle": "Krebs on Security",
       "category": "Tech Blogs",
       "feedHome": "https://krebsonsecurity.com/"
-    },
-    {
-      "title": "The art and engineering of Sega CD Silpheed",
-      "link": "https://fabiensanglard.net/silpheed/index.html",
-      "date": "2026-07-13T14:52:33+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
-      "title": "SpaceX cleared to fly Starship again after booster failure in May",
-      "link": "https://techcrunch.com/2026/07/13/spacex-cleared-to-fly-starship-again-after-booster-failure-in-may/",
-      "date": "2026-07-13T14:19:44+00:00",
-      "summary": "This will be the first Starship test flight for SpaceX as a public company, testing the market's appetite for the company's \"fly, fail, fix\" approach to rocket development, which often ends in fireballs.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
     },
     {
       "title": "Waze adds new AI-powered features and customization updates",
@@ -3381,26 +3451,6 @@
       "feedHome": "https://www.techmeme.com/"
     },
     {
-      "title": "Seattle-based Augmodo, whose AI-powered \"Smartbadges\" worn by employees track shelf inventory, raised $21M led by TQ Ventures at a $350M valuation (Kurt Schlosser/GeekWire)",
-      "link": "https://www.techmeme.com/260713/p25#a260713p25",
-      "date": "2026-07-13T11:40:20-04:00",
-      "summary": "Kurt Schlosser / GeekWire: Seattle-based Augmodo, whose AI-powered &ldquo;Smartbadges&rdquo; worn by employees track shelf inventory, raised $21M led by TQ Ventures at a $350M valuation&nbsp; &mdash;&nbsp; Augmodo, the Seattle startup that straps AI-powered cameras onto retail workers to track store",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "Gauntlet, which helps institutions and crypto companies allocate their digital assets, raised a $125M Series C from Japanese financial conglomerate SBI Holdings (Ben Weiss/Fortune)",
-      "link": "https://www.techmeme.com/260713/p24#a260713p24",
-      "date": "2026-07-13T11:15:01-04:00",
-      "summary": "Ben Weiss / Fortune: Gauntlet, which helps institutions and crypto companies allocate their digital assets, raised a $125M Series C from Japanese financial conglomerate SBI Holdings&nbsp; &mdash;&nbsp; A startup founded during the early days of DeFi is now backed by a financial giant.&nbsp; Gauntlet",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
       "title": "训推全开源：HyOCR-1.5 让端到端 OCR 大模型跑得更快、看得更准、功能更全",
       "link": "https://www.bestblogs.dev/article/8d3c23ecd3?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
       "date": "2026-07-13T11:13:00+00:00",
@@ -3421,16 +3471,6 @@
       "feedHome": "https://www.bestblogs.dev/"
     },
     {
-      "title": "Global smartphone shipments fell 11% YoY in Q2 to the lowest Q2 levels since 2013 amid the DRAM and NAND shortage; Samsung returns to #1 with a 24% market share (Shilpi Jain/Counterpoint Research)",
-      "link": "https://www.techmeme.com/260713/p23#a260713p23",
-      "date": "2026-07-13T10:55:17-04:00",
-      "summary": "Shilpi Jain / Counterpoint Research: Global smartphone shipments fell 11% YoY in Q2 to the lowest Q2 levels since 2013 amid the DRAM and NAND shortage; Samsung returns to #1 with a 24% market share&nbsp; &mdash;&nbsp; - Global smartphone shipments fell 11% YoY in Q2 2026 reaching the lowest second-q",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
       "title": "Dario Amodei：AI 开源是伪命题",
       "link": "http://www.ruanyifeng.com/blog/2026/06/anthropic.html",
       "date": "2026-07-13T10:34:50+00:00",
@@ -3449,16 +3489,6 @@
       "feedTitle": "BestBlogs.dev AI 90+",
       "category": "中文",
       "feedHome": "https://www.bestblogs.dev/"
-    },
-    {
-      "title": "Apple's stock is up 16% since June 25, adding ~$650B in market value and pushing shares back to record territory, as investors flee an AI stock selloff to Apple (Ryan Vlastelica/Bloomberg)",
-      "link": "https://www.techmeme.com/260713/p22#a260713p22",
-      "date": "2026-07-13T09:20:03-04:00",
-      "summary": "Ryan Vlastelica / Bloomberg: Apple's stock is up 16% since June 25, adding ~$650B in market value and pushing shares back to record territory, as investors flee an AI stock selloff to Apple&nbsp; &mdash;&nbsp; Investors are flocking back to Apple Inc. as nervousness about artificial intelligence spe",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
     },
     {
       "title": "Pluralistic: Why aren't AI companies competing directly with their customers? (13 Jul 2026)",
@@ -3991,26 +4021,6 @@
       "feedHome": "https://fabiensanglard.net/"
     },
     {
-      "title": "Meta removes controversial AI feature on Instagram after backlash",
-      "link": "https://techcrunch.com/2026/07/10/meta-removes-controversial-ai-feature-on-instagram-after-backlash/",
-      "date": "2026-07-10T23:55:07+00:00",
-      "summary": "\"Our intent was to provide a useful creative tool and to give people control over whether their public content could be referenced in this way,\" the company said in a blog post. \"We've heard the feedback that this feature missed the mark, so it's no longer available.\"",
-      "feedId": "techcrunch-ai",
-      "feedTitle": "TechCrunch AI",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
-    },
-    {
-      "title": "Apple sues OpenAI over alleged trade secret theft",
-      "link": "https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft/",
-      "date": "2026-07-10T21:00:29+00:00",
-      "summary": "Apple alleges the misconduct was directed by OpenAI's senior leadership, including a longtime former employee.",
-      "feedId": "techcrunch-ai",
-      "feedTitle": "TechCrunch AI",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
-    },
-    {
       "title": "57% of enterprises have watched AI agents be confidently wrong. The fix is an agentic context layer, but who has one?",
       "link": "https://venturebeat.com/data/57-of-enterprises-have-watched-ai-agents-be-confidently-wrong-the-fix-is-an-agentic-context-layer-but-who-has-one",
       "date": "2026-07-10T20:58:32+00:00",
@@ -4039,16 +4049,6 @@
       "feedTitle": "VentureBeat",
       "category": "Startup & News",
       "feedHome": "https://venturebeat.com/"
-    },
-    {
-      "title": "Open source AI matters more than ever, according to Hugging Face’s Clem Delangue",
-      "link": "https://techcrunch.com/podcast/open-source-ai-matters-more-than-ever-according-to-hugging-faces-clem-delangue/",
-      "date": "2026-07-10T19:00:00+00:00",
-      "summary": "Open source AI is booming, according to&#160;Hugging Face&#160;CEO&#160;Clem Delangue. The company has grown into something like a GitHub for AI in recent years, where AI builders can share and download open models and datasets, now used by roughly half the Fortune 500. Delangue has seen the same st",
-      "feedId": "techcrunch-ai",
-      "feedTitle": "TechCrunch AI",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
     },
     {
       "title": "Quoting Nilay Patel",
@@ -4131,14 +4131,14 @@
       "feedHome": "https://fabiensanglard.net/"
     },
     {
-      "title": "The new GPT-5.6 family: Luna, Terra, Sol",
-      "link": "https://simonwillison.net/2026/Jul/9/gpt-5-6/#atom-everything",
-      "date": "2026-07-09T19:46:38+00:00",
-      "summary": "OpenAI's latest flagship model hit general availability this morning, and comes in three sizes: Luna, Terra, and Sol (from smallest to largest). The new models are priced per 1M input/output tokens as Luna $1/$6, Terra $2.50/$15, Sol $5/$30. For comparison, the Claude Opus series are $5/$25 and the ",
-      "feedId": "simonwillison",
-      "feedTitle": "Simon Willison",
-      "category": "AI & LLM",
-      "feedHome": "https://simonwillison.net/"
+      "title": "World-First 'Super Alloy' Could Transform the Way Metals Are Made",
+      "link": "https://www.sciencealert.com/world-first-super-alloy-could-transform-the-way-metals-are-made",
+      "date": "2026-07-09T22:20:35+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
     },
     {
       "title": "I’ve decoded a #pragma detect_mismatch error and fixed the mismatch, but I still get the error",
