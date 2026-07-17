@@ -1,13 +1,12 @@
 {
-  "updatedAt": "2026-07-16T22:11:37.830613+00:00",
+  "updatedAt": "2026-07-17T00:00:19.482028+00:00",
   "totalFeeds": 51,
-  "successCount": 44,
-  "failedCount": 7,
+  "successCount": 45,
+  "failedCount": 6,
   "failed": [
     "gwern",
     "garymarcus",
     "thesequence",
-    "seangoedecke",
     "lcamtuf",
     "rachelbythebay",
     "tedunangst"
@@ -21,8 +20,14 @@
         "home": "https://simonwillison.net/",
         "url": "https://simonwillison.net/atom/everything/",
         "status": "ok",
-        "fetchedAt": "2026-07-16T22:11:27.967777+00:00",
+        "fetchedAt": "2026-07-17T00:00:09.140134+00:00",
         "items": [
+          {
+            "title": "Firefox in WebAssembly",
+            "link": "https://simonwillison.net/2026/Jul/16/firefox-in-webassembly/#atom-everything",
+            "date": "2026-07-16T23:34:16+00:00",
+            "summary": "Firefox in WebAssembly This is absurdly cool: Puter compiled Firefox to WebAssembly such that the whole browser runs in another browser. Here's my blog, running in Firefox, running in WebAssembly, running in Chrome: They chose Firefox/Gecko because it has strong single-process support. The project t"
+          },
           {
             "title": "Kimi K3, and what we can still learn from the pelican benchmark",
             "link": "https://simonwillison.net/2026/Jul/16/kimi-k3/#atom-everything",
@@ -40,6 +45,12 @@
             "link": "https://simonwillison.net/2026/Jul/16/inkling/#atom-everything",
             "date": "2026-07-16T15:35:25+00:00",
             "summary": "Inkling: Our open-weights model Mira Murati's Thinking Machines Lab just released their first open-weights model. Inkling is \"a Mixture-of-Experts transformer with 975B total parameters, 41B active\" - an Apache-2.0 licensed multimodal model trained on 45 trillion tokens of text, images, audio and vi"
+          },
+          {
+            "title": "Mermaid to ASCII art (mermaid-ascii)",
+            "link": "https://simonwillison.net/2026/Jul/16/mermaid-ascii/#atom-everything",
+            "date": "2026-07-16T14:57:39+00:00",
+            "summary": "Tool: Mermaid to ASCII art (mermaid-ascii) After building the Mermaid to ASCII tool based on Grok Build's Rust code I learned that there's an older, more fully-featured Go library called AlexanderGrooff/mermaid-ascii that implements a similar pattern, so I had Claude Fable 5 compile that one to WebA"
           },
           {
             "title": "Quoting Linus Torvalds",
@@ -70,18 +81,6 @@
             "link": "https://simonwillison.net/2026/Jul/14/github-changeling/#atom-everything",
             "date": "2026-07-14T22:43:35+00:00",
             "summary": "Dependabot now waits until a new release has been available on its registry for at least three days before opening a version update pull request. This cooldown is now the default and requires no configuration. &mdash; GitHub Changelog, embracing dependency cooldowns Tags: dependency-cooldowns, packa"
-          },
-          {
-            "title": "simonw/pedalican",
-            "link": "https://simonwillison.net/2026/Jul/14/pedalican/#atom-everything",
-            "date": "2026-07-14T22:29:45+00:00",
-            "summary": "simonw/pedalican Clearly I wasn't paying attention when these were first announced back in May, but today I accidentally activated a \"pet\" in Codex Desktop - a little animated robot, reminiscent of Clippy - and then learned you can create your own. So I did, and now I have a cute little pelican on a"
-          },
-          {
-            "title": "lobste.rs is now running on SQLite",
-            "link": "https://simonwillison.net/2026/Jul/14/lobsters-sqlite/#atom-everything",
-            "date": "2026-07-14T19:44:11+00:00",
-            "summary": "lobste.rs is now running on SQLite Community site Lobsters has been planning a migration away from MariaDB since August 2018 - originally targeting PostgreSQL, but last year they decided to investigate SQLite instead. This weekend they completed the migration, and now consider it stable enough that "
           }
         ]
       },
@@ -92,7 +91,7 @@
         "home": "https://openai.com/news/",
         "url": "https://openai.com/news/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-16T22:11:28.333371+00:00",
+        "fetchedAt": "2026-07-17T00:00:17.181110+00:00",
         "items": [
           {
             "title": "Why teens deserve access to safe AI",
@@ -163,7 +162,7 @@
         "home": "https://arxiv.org/list/cs.AI/recent",
         "url": "https://arxiv.org/rss/cs.AI",
         "status": "ok",
-        "fetchedAt": "2026-07-16T22:11:28.081335+00:00",
+        "fetchedAt": "2026-07-17T00:00:09.420878+00:00",
         "items": [
           {
             "title": "OriginBlame: Record- and Token-Level Data Provenance for AI Training Datasets",
@@ -234,7 +233,7 @@
         "home": "https://arxiv.org/list/cs.LG/recent",
         "url": "https://arxiv.org/rss/cs.LG",
         "status": "ok",
-        "fetchedAt": "2026-07-16T22:11:28.109500+00:00",
+        "fetchedAt": "2026-07-17T00:00:09.503692+00:00",
         "items": [
           {
             "title": "Automatic Differentiation from Scratch: How PyTorch Computes Gradients in Physics-Informed Neural Networks",
@@ -305,7 +304,7 @@
         "home": "https://research.google/blog/",
         "url": "https://research.google/blog/rss/",
         "status": "ok",
-        "fetchedAt": "2026-07-16T22:11:31.075050+00:00",
+        "fetchedAt": "2026-07-17T00:00:09.387303+00:00",
         "items": [
           {
             "title": "Towards demystifying the creativity of diffusion models",
@@ -376,7 +375,7 @@
         "home": "https://deepmind.google/blog/",
         "url": "https://deepmind.google/blog/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-16T22:11:28.134152+00:00",
+        "fetchedAt": "2026-07-17T00:00:09.426345+00:00",
         "items": [
           {
             "title": "Our approach to bioresilience",
@@ -447,7 +446,7 @@
         "home": "https://lilianweng.github.io/",
         "url": "https://lilianweng.github.io/lil-log/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-16T22:11:27.912632+00:00",
+        "fetchedAt": "2026-07-17T00:00:09.131870+00:00",
         "items": [
           {
             "title": "Active Learning",
@@ -538,7 +537,7 @@
         "home": "https://minimaxir.com/",
         "url": "https://minimaxir.com/index.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-16T22:11:27.891814+00:00",
+        "fetchedAt": "2026-07-17T00:00:09.236752+00:00",
         "items": [
           {
             "title": "The mysterious Hy3 LLM is topping OpenRouter Model Rankings by a large margin",
@@ -621,7 +620,7 @@
         "home": "https://www.jeffgeerling.com/",
         "url": "https://www.jeffgeerling.com/blog.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-16T22:11:27.928334+00:00",
+        "fetchedAt": "2026-07-17T00:00:09.220567+00:00",
         "items": [
           {
             "title": "QuadRF can spot drones and see WiFi through my wall",
@@ -691,9 +690,70 @@
         "title": "Sean Goedecke",
         "home": "https://www.seangoedecke.com/",
         "url": "https://www.seangoedecke.com/rss.xml",
-        "status": "error",
-        "error": "Response payload is not completed: <ContentLengthError: 400, message='Not enough data to satisfy content length header (received 58348 of 125357 bytes).'>. ConnectionResetError(104, 'Connection reset by peer')",
-        "items": []
+        "status": "ok",
+        "fetchedAt": "2026-07-17T00:00:09.218870+00:00",
+        "items": [
+          {
+            "title": "What does \"playing politics\" mean for software engineers?",
+            "link": "https://seangoedecke.com/playing-politics/",
+            "date": "2026-07-14T00:00:00+00:00",
+            "summary": ""
+          },
+          {
+            "title": "In defense of not understanding your codebase",
+            "link": "https://seangoedecke.com/in-defense-of-not-understanding-your-codebase/",
+            "date": "2026-07-11T00:00:00+00:00",
+            "summary": ""
+          },
+          {
+            "title": "Blog about things you don't understand yet",
+            "link": "https://seangoedecke.com/blog-about-things-you-dont-understand-yet/",
+            "date": "2026-07-07T00:00:00+00:00",
+            "summary": ""
+          },
+          {
+            "title": "C2PA only works if everything is signed",
+            "link": "https://seangoedecke.com/c2pa-only-works-if-everything-is-signed/",
+            "date": "2026-07-06T00:00:00+00:00",
+            "summary": ""
+          },
+          {
+            "title": "Text AI watermarks will always be trivial to remove",
+            "link": "https://seangoedecke.com/text-ai-watermarks/",
+            "date": "2026-07-02T00:00:00+00:00",
+            "summary": ""
+          },
+          {
+            "title": "Saying the obvious thing",
+            "link": "https://seangoedecke.com/saying-the-obvious-thing/",
+            "date": "2026-06-27T00:00:00+00:00",
+            "summary": ""
+          },
+          {
+            "title": "AI inference is obviously profitable",
+            "link": "https://seangoedecke.com/ai-inference-is-obviously-profitable/",
+            "date": "2026-06-26T00:00:00+00:00",
+            "summary": ""
+          },
+          {
+            "title": "AI GPUs probably live longer than three years",
+            "link": "https://seangoedecke.com/ai-gpus-live-longer-than-three-years/",
+            "date": "2026-06-15T00:00:00+00:00",
+            "summary": ""
+          },
+          {
+            "title": "Doing nothing at work",
+            "link": "https://seangoedecke.com/doing-nothing-at-work/",
+            "date": "2026-06-08T00:00:00+00:00",
+            "summary": ""
+          },
+          {
+            "title": "Working with product managers",
+            "link": "https://seangoedecke.com/working-with-product-managers/",
+            "date": "2026-06-08T00:00:00+00:00",
+            "summary": ""
+          }
+        ]
       },
       {
         "id": "krebsonsecurity",
@@ -702,7 +762,7 @@
         "home": "https://krebsonsecurity.com/",
         "url": "https://krebsonsecurity.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-07-16T22:11:28.129382+00:00",
+        "fetchedAt": "2026-07-17T00:00:09.148625+00:00",
         "items": [
           {
             "title": "Microsoft Patches a Record 570 Security Flaws",
@@ -773,8 +833,14 @@
         "home": "https://daringfireball.net/",
         "url": "https://daringfireball.net/feeds/main",
         "status": "ok",
-        "fetchedAt": "2026-07-16T22:11:28.007124+00:00",
+        "fetchedAt": "2026-07-17T00:00:09.278217+00:00",
         "items": [
+          {
+            "title": "Dithering: ‘Apple Sues OpenAI’",
+            "link": "https://dithering.passport.online/member/episode/apple-sues-open-ai",
+            "date": "2026-07-16T23:29:14+00:00",
+            "summary": "Tuesday’s episode of Dithering was a good one, especially for the DF audience, so we’ve moved it outside the paywall and made it free-to-listen on the web. (We don’t (yet?) have an RSS feed that you can put in your podcast player for these occasional free episodes, alas.) I have a slightly different"
+          },
           {
             "title": "OpenAI Takes a Second Crack at a Response to Apple’s Trade Secret Theft Lawsuit",
             "link": "https://www.bloomberg.com/news/articles/2026-07-14/openai-says-it-s-not-aware-of-any-evidence-that-apple-lawsuit-has-merit",
@@ -828,12 +894,6 @@
             "link": "https://paper.design/?utm_source=df",
             "date": "2026-07-14T05:02:00+00:00",
             "summary": "Paper is a professional design tool where every layer is real HTML and CSS. Your design is already code, which means fewer handoffs and fewer translations between what you design and what ships. Paper works both ways: code to design, and design to code. Connect any agent through MCP and it can read "
-          },
-          {
-            "title": "Remember Musk’s Suit Alleging a Conspiracy Between Apple and OpenAI?",
-            "link": "https://arstechnica.com/tech-policy/2025/08/elon-musk-sues-apple-openai-to-block-exclusive-iphone-chatgpt-integration/",
-            "date": "2026-07-13T15:32:05+00:00",
-            "summary": "Ashley Belanger, reporting for Ars Technica back in August 2025: After a public outburst over Grok’s App Store rankings, on Monday, Elon Musk followed through on his threat to sue Apple and OpenAI. At first, Musk appeared fixated on ChatGPT consistently topping Apple’s “Must Have” app list — which G"
           }
         ]
       },
@@ -844,7 +904,7 @@
         "home": "https://ericmigi.com/",
         "url": "https://ericmigi.com/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-16T22:11:28.037939+00:00",
+        "fetchedAt": "2026-07-17T00:00:09.207573+00:00",
         "items": [
           {
             "title": "How I Use My Index 01 + Production Update",
@@ -915,7 +975,7 @@
         "home": "http://antirez.com/",
         "url": "http://antirez.com/rss",
         "status": "ok",
-        "fetchedAt": "2026-07-16T22:11:29.724660+00:00",
+        "fetchedAt": "2026-07-17T00:00:10.794586+00:00",
         "items": [
           {
             "title": "Control the ideas, not the code",
@@ -986,7 +1046,7 @@
         "home": "https://idiallo.com/",
         "url": "https://idiallo.com/feed.rss",
         "status": "ok",
-        "fetchedAt": "2026-07-16T22:11:28.116059+00:00",
+        "fetchedAt": "2026-07-17T00:00:09.359593+00:00",
         "items": [
           {
             "title": "Deleting Systems You Don't Understand",
@@ -1057,7 +1117,7 @@
         "home": "https://maurycyz.com/",
         "url": "https://maurycyz.com/index.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-16T22:11:28.505311+00:00",
+        "fetchedAt": "2026-07-17T00:00:09.661887+00:00",
         "items": []
       },
       {
@@ -1067,7 +1127,7 @@
         "home": "https://pluralistic.net/",
         "url": "https://pluralistic.net/feed/",
         "status": "ok",
-        "fetchedAt": "2026-07-16T22:11:31.067272+00:00",
+        "fetchedAt": "2026-07-17T00:00:11.483749+00:00",
         "items": [
           {
             "title": "Pluralistic: Deranged billionaires and their syndromes (16 Jul 2026)",
@@ -1138,7 +1198,7 @@
         "home": "https://shkspr.mobi/blog/",
         "url": "https://shkspr.mobi/blog/feed/",
         "status": "ok",
-        "fetchedAt": "2026-07-16T22:11:29.094293+00:00",
+        "fetchedAt": "2026-07-17T00:00:09.926370+00:00",
         "items": []
       },
       {
@@ -1158,7 +1218,7 @@
         "home": "https://mitchellh.com/",
         "url": "https://mitchellh.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-16T22:11:28.400562+00:00",
+        "fetchedAt": "2026-07-17T00:00:09.346253+00:00",
         "items": [
           {
             "title": "Pledging Another $400,000 to the Zig Software Foundation",
@@ -1229,7 +1289,7 @@
         "home": "https://dynomight.net/",
         "url": "https://dynomight.net/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-16T22:11:28.376303+00:00",
+        "fetchedAt": "2026-07-17T00:00:09.987990+00:00",
         "items": [
           {
             "title": "Pseudpocalypse",
@@ -1300,7 +1360,7 @@
         "home": "https://xeiaso.net/",
         "url": "https://xeiaso.net/blog.rss",
         "status": "ok",
-        "fetchedAt": "2026-07-16T22:11:28.553567+00:00",
+        "fetchedAt": "2026-07-17T00:00:10.239204+00:00",
         "items": [
           {
             "title": "Presigned URLs are technically a security vuln",
@@ -1371,7 +1431,7 @@
         "home": "https://devblogs.microsoft.com/oldnewthing/",
         "url": "https://devblogs.microsoft.com/oldnewthing/feed",
         "status": "ok",
-        "fetchedAt": "2026-07-16T22:11:28.111630+00:00",
+        "fetchedAt": "2026-07-17T00:00:09.313773+00:00",
         "items": [
           {
             "title": "Speculating on how the buggy control panel extension truncated a value that it had right in front of it",
@@ -1442,7 +1502,7 @@
         "home": "https://www.righto.com/",
         "url": "https://www.righto.com/feeds/posts/default",
         "status": "ok",
-        "fetchedAt": "2026-07-16T22:11:28.357053+00:00",
+        "fetchedAt": "2026-07-17T00:00:09.461997+00:00",
         "items": []
       },
       {
@@ -1452,7 +1512,7 @@
         "home": "https://lucumr.pocoo.org/",
         "url": "https://lucumr.pocoo.org/feed.atom",
         "status": "ok",
-        "fetchedAt": "2026-07-16T22:11:28.522985+00:00",
+        "fetchedAt": "2026-07-17T00:00:09.674078+00:00",
         "items": [
           {
             "title": "The Tower Keeps Rising",
@@ -1523,7 +1583,7 @@
         "home": "https://skyfall.dev/",
         "url": "https://skyfall.dev/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-16T22:11:28.608154+00:00",
+        "fetchedAt": "2026-07-17T00:00:09.320197+00:00",
         "items": [
           {
             "title": "Good riddance, 4o",
@@ -1598,7 +1658,7 @@
         "home": "https://overreacted.io/",
         "url": "https://overreacted.io/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-16T22:11:28.413938+00:00",
+        "fetchedAt": "2026-07-17T00:00:09.701112+00:00",
         "items": [
           {
             "title": "There Are No Instances in atproto",
@@ -1669,7 +1729,7 @@
         "home": "https://www.johndcook.com/",
         "url": "https://www.johndcook.com/blog/feed/",
         "status": "ok",
-        "fetchedAt": "2026-07-16T22:11:28.177223+00:00",
+        "fetchedAt": "2026-07-17T00:00:09.473958+00:00",
         "items": [
           {
             "title": "ICD-10 chapters and code letters",
@@ -1740,7 +1800,7 @@
         "home": "https://matklad.github.io/",
         "url": "https://matklad.github.io/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-16T22:11:28.173079+00:00",
+        "fetchedAt": "2026-07-17T00:00:09.283549+00:00",
         "items": [
           {
             "title": "CSS: Unavoidable Bad Parts",
@@ -1811,7 +1871,7 @@
         "home": "https://eli.thegreenplace.net/",
         "url": "https://eli.thegreenplace.net/feeds/all.atom.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-16T22:11:28.204268+00:00",
+        "fetchedAt": "2026-07-17T00:00:09.564701+00:00",
         "items": [
           {
             "title": "Notes on the Fourier Transform",
@@ -1852,7 +1912,7 @@
         "home": "https://fabiensanglard.net/",
         "url": "https://fabiensanglard.net/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-16T22:11:28.607691+00:00",
+        "fetchedAt": "2026-07-17T00:00:09.434490+00:00",
         "items": [
           {
             "title": "Jurassic Park computers in excruciating detail",
@@ -1923,7 +1983,7 @@
         "home": "https://blog.miguelgrinberg.com/",
         "url": "https://blog.miguelgrinberg.com/feed",
         "status": "ok",
-        "fetchedAt": "2026-07-16T22:11:28.953790+00:00",
+        "fetchedAt": "2026-07-17T00:00:10.104969+00:00",
         "items": [
           {
             "title": "I Am Not a Reverse Centaur",
@@ -1994,7 +2054,7 @@
         "home": "https://www.troyhunt.com/",
         "url": "https://www.troyhunt.com/rss/",
         "status": "ok",
-        "fetchedAt": "2026-07-16T22:11:28.609541+00:00",
+        "fetchedAt": "2026-07-17T00:00:09.506004+00:00",
         "items": [
           {
             "title": "Weekly Update 512: IoT Lockout Fail",
@@ -2065,7 +2125,7 @@
         "home": "https://anildash.com/",
         "url": "https://anildash.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-16T22:11:28.738195+00:00",
+        "fetchedAt": "2026-07-17T00:00:09.627747+00:00",
         "items": [
           {
             "title": "Endgame for the Open Web",
@@ -2136,7 +2196,7 @@
         "home": "https://computer.rip/",
         "url": "https://computer.rip/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-16T22:11:28.598579+00:00",
+        "fetchedAt": "2026-07-17T00:00:10.034224+00:00",
         "items": [
           {
             "title": "megawatts by microwave",
@@ -2217,7 +2277,7 @@
         "home": "http://paulgraham.com/",
         "url": "http://www.aaronsw.com/2002/feeds/pgessays.rss",
         "status": "ok",
-        "fetchedAt": "2026-07-16T22:11:28.168631+00:00",
+        "fetchedAt": "2026-07-17T00:00:09.631110+00:00",
         "items": [
           {
             "title": "Superlinear Returns",
@@ -2288,7 +2348,7 @@
         "home": "https://steveblank.com/",
         "url": "https://steveblank.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-07-16T22:11:28.271522+00:00",
+        "fetchedAt": "2026-07-17T00:00:09.528858+00:00",
         "items": [
           {
             "title": "Lean Launch Pad 2026 @ Stanford – Lessons Learned Presentations",
@@ -2361,7 +2421,7 @@
         "home": "https://news.ycombinator.com/",
         "url": "https://news.ycombinator.com/rss",
         "status": "ok",
-        "fetchedAt": "2026-07-16T22:11:28.667952+00:00",
+        "fetchedAt": "2026-07-17T00:00:09.441091+00:00",
         "items": [
           {
             "title": "Kimi K3: Open Frontier Intelligence",
@@ -2382,27 +2442,21 @@
             "summary": "Comments"
           },
           {
+            "title": "The Little Book of Reinforcement Learning",
+            "link": "https://github.com/alxndrTL/little-book-rl/",
+            "date": "2026-07-16T22:27:22+00:00",
+            "summary": "Comments"
+          },
+          {
             "title": "Decoy Font",
             "link": "https://www.mixfont.com/experiments/decoy-font",
             "date": "2026-07-16T16:18:21+00:00",
             "summary": "Comments"
           },
           {
-            "title": "Helium escaping from atmosphere of nearby rocky exoplanet in a habitable zone",
-            "link": "https://www.science.org/doi/10.1126/science.aea9708",
-            "date": "2026-07-16T20:24:02+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "NotebookLM is now Gemini Notebook",
-            "link": "https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook/",
-            "date": "2026-07-16T16:08:13+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "$100 AI Music Video: Claude Fable 5 vs. GPT-5.6 Sol",
-            "link": "https://www.tryai.dev/blog/ai-music-video-arena-claude-vs-gpt-5.6",
-            "date": "2026-07-16T20:03:23+00:00",
+            "title": "My car's OTA update broke Android Auto, and it's a indictment of modern software",
+            "link": "https://imdanielkendall.com/the-great-software-regress-how-move-fast-and-break-things-broke-our-lives/",
+            "date": "2026-07-16T22:29:44+00:00",
             "summary": "Comments"
           },
           {
@@ -2412,15 +2466,21 @@
             "summary": "Comments"
           },
           {
-            "title": "Detecting LLM-Generated Texts with “Classical” Machine Learning",
-            "link": "https://blog.lyc8503.net/en/post/llm-classifier/",
-            "date": "2026-07-16T16:41:37+00:00",
+            "title": "NotebookLM is now Gemini Notebook",
+            "link": "https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook/",
+            "date": "2026-07-16T16:08:13+00:00",
             "summary": "Comments"
           },
           {
-            "title": "OnePlus halts operations in USA and Europe",
-            "link": "https://community.oneplus.com/thread/2170715118587871237",
-            "date": "2026-07-16T10:14:04+00:00",
+            "title": "Ring-Zero: Scaling Zero RL to a Trillion Parameters for Emergent Reasoning",
+            "link": "https://arxiv.org/abs/2607.12395",
+            "date": "2026-07-16T21:38:02+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "'Likweli': A new monkey species discovered in the Congo Basin",
+            "link": "https://news.yale.edu/2026/07/15/meet-likweli-new-monkey-species-discovered-congo-basin",
+            "date": "2026-07-16T22:00:00+00:00",
             "summary": "Comments"
           }
         ]
@@ -2432,8 +2492,26 @@
         "home": "https://www.techmeme.com/",
         "url": "https://www.techmeme.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-16T22:11:28.504958+00:00",
+        "fetchedAt": "2026-07-17T00:00:09.879785+00:00",
         "items": [
+          {
+            "title": "Source: UK robotics startup Humanoid raised $150M in the first tranche of a Series A at a $1.2B pre-money valuation and seeks another $80M-$100M by September (Rocket Drew/The Information)",
+            "link": "https://www.techmeme.com/260716/p60#a260716p60",
+            "date": "2026-07-16T19:45:02-04:00",
+            "summary": "Rocket Drew / The Information: Source: UK robotics startup Humanoid raised $150M in the first tranche of a Series A at a $1.2B pre-money valuation and seeks another $80M-$100M by September&nbsp; &mdash;&nbsp; Humanoid raised $150 million in the first tranche of a Series A funding round that values t"
+          },
+          {
+            "title": "Source: PayPal's board sees Stripe and PE firm Advent International's $53B takeover bid as undervaluing the company and facing regulatory and financing hurdles (Reuters)",
+            "link": "https://www.techmeme.com/260716/p59#a260716p59",
+            "date": "2026-07-16T18:55:01-04:00",
+            "summary": "Reuters: Source: PayPal's board sees Stripe and PE firm Advent International's $53B takeover bid as undervaluing the company and facing regulatory and financing hurdles&nbsp; &mdash;&nbsp; PayPal's (PYPL.O) board sees a $53 billion takeover bid by rival Stripe and private equity firm Advent Internat"
+          },
+          {
+            "title": "A New York State school district is piloting a humanoid robot teacher by the company Realbotix to help students with summer school classes (Chase DiBenedetto/Mashable)",
+            "link": "https://www.techmeme.com/260716/p58#a260716p58",
+            "date": "2026-07-16T18:20:00-04:00",
+            "summary": "Chase DiBenedetto / Mashable: A New York State school district is piloting a humanoid robot teacher by the company Realbotix to help students with summer school classes&nbsp; &mdash;&nbsp; A New York school district is piloting a humanoid robot teacher to help students with summer school classes.&nb"
+          },
           {
             "title": "US Homeland Security says it seized 30k+ SIM cards in June and July in a nationwide operation it claims dismantled infrastructure used in telephone fraud (Lorelei Smillie/Bloomberg)",
             "link": "https://www.techmeme.com/260716/p57#a260716p57",
@@ -2475,24 +2553,6 @@
             "link": "https://www.techmeme.com/260716/p51#a260716p51",
             "date": "2026-07-16T15:15:00-04:00",
             "summary": "Sarah Perez / TechCrunch: Google updates its AI video editor Vids with Gemini Omni and a feature that lets users create custom digital avatars using a selfie and voice recording&nbsp; &mdash;&nbsp; OpenAI's Sora may have shut down, but Google apparently thinks there's still interest in a tool that l"
-          },
-          {
-            "title": "Moonshot AI releases Kimi K3, a 2.8T-parameter AI model that it says rivals Opus 4.8 and GPT-5.5, and plans to release model weights by July 27 (Kimi)",
-            "link": "https://www.techmeme.com/260716/p50#a260716p50",
-            "date": "2026-07-16T15:00:34-04:00",
-            "summary": "Kimi: Moonshot AI releases Kimi K3, a 2.8T-parameter AI model that it says rivals Opus 4.8 and GPT-5.5, and plans to release model weights by July 27&nbsp; &mdash;&nbsp; Today, we are introducing Kimi K3 &mdash; our most capable model.&nbsp; Kimi K3 is a 2.8T-parameter model built on our Kimi Delta "
-          },
-          {
-            "title": "After reports of GPT-5.6 deleting files, OpenAI says the issue most often occurs in full-access mode without sandboxing and it is working to mitigate the risk (Tibo/@thsottiaux)",
-            "link": "https://www.techmeme.com/260716/p49#a260716p49",
-            "date": "2026-07-16T14:50:02-04:00",
-            "summary": "Tibo / @thsottiaux: After reports of GPT-5.6 deleting files, OpenAI says the issue most often occurs in full-access mode without sandboxing and it is working to mitigate the risk&nbsp; &mdash;&nbsp; On file deletions. We've investigated a handful of reports where GPT-5.6 unexpectedly deleted files. "
-          },
-          {
-            "title": "Crypto.com raised $400M from Citadel Securities in its first institutional funding round, valuing the Singapore-based crypto exchange at $20B (CoinDesk)",
-            "link": "https://www.techmeme.com/260716/p48#a260716p48",
-            "date": "2026-07-16T14:35:01-04:00",
-            "summary": "CoinDesk: Crypto.com raised $400M from Citadel Securities in its first institutional funding round, valuing the Singapore-based crypto exchange at $20B&nbsp; &mdash;&nbsp; Crypto.com secured a $400 million strategic investment from market maker Citadel Securities in a deal that values the crypto exc"
           }
         ]
       },
@@ -2503,8 +2563,20 @@
         "home": "https://techcrunch.com/",
         "url": "https://techcrunch.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-07-16T22:11:28.198720+00:00",
+        "fetchedAt": "2026-07-17T00:00:09.298512+00:00",
         "items": [
+          {
+            "title": "San Francisco mayor pushes for tougher rules after the Waymo traffic fiasco",
+            "link": "https://techcrunch.com/2026/07/16/san-francisco-mayor-pushes-for-tougher-rules-after-the-waymo-traffic-fiasco/",
+            "date": "2026-07-16T23:25:22+00:00",
+            "summary": "In the wake of a massive hours-long gridlock event, San Francisco Mayor Daniel Lurie has told state regulators its time to put more requirements on robotaxi operators like Waymo."
+          },
+          {
+            "title": "SpaceX suddenly aborts second Starship V3 launch after ignition",
+            "link": "https://techcrunch.com/2026/07/16/spacex-suddenly-aborts-second-starship-v3-launch-after-ignition/",
+            "date": "2026-07-16T23:01:27+00:00",
+            "summary": "The company didn't immediately say what went wrong. SpaceX's stock plunged more than 4% in after-hours trading before paring losses."
+          },
           {
             "title": "Coca-Cola suspended production at its Fairlife dairy after a ransomware attack",
             "link": "https://techcrunch.com/2026/07/16/coca-cola-suspended-production-at-its-fairlife-dairy-after-a-ransomware-attack/",
@@ -2552,18 +2624,6 @@
             "link": "https://techcrunch.com/2026/07/16/x-cracks-down-on-creators-who-steal-content/",
             "date": "2026-07-16T16:40:36+00:00",
             "summary": "X will use Grok AI to better detect stolen content, redirect payouts to original creators, and crack down on engagement bait."
-          },
-          {
-            "title": "AI-powered travel agency Fora hits unicorn status, raises $60M",
-            "link": "https://techcrunch.com/2026/07/16/ai-powered-travel-agency-fora-hits-unicorn-status-raises-60m/",
-            "date": "2026-07-16T16:08:40+00:00",
-            "summary": "Travel agency Fora announced a $60 million Series D round led by Forerunner and Tactile Ventures, valuing the company at $1 billion."
-          },
-          {
-            "title": "Google’s AI Mode now lets you link and interact with select apps",
-            "link": "https://techcrunch.com/2026/07/16/googles-ai-mode-now-lets-you-link-and-interact-with-select-apps/",
-            "date": "2026-07-16T16:00:00+00:00",
-            "summary": "With this new update, Google is expanding AI Mode beyond answering questions and into completing tasks across the apps they use regularly."
           }
         ]
       },
@@ -2574,7 +2634,7 @@
         "home": "https://techcrunch.com/category/artificial-intelligence/",
         "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
         "status": "ok",
-        "fetchedAt": "2026-07-16T22:11:28.417571+00:00",
+        "fetchedAt": "2026-07-17T00:00:09.568849+00:00",
         "items": [
           {
             "title": "Google Vids now lets you star in your own AI videos",
@@ -2645,7 +2705,7 @@
         "home": "https://techcrunch.com/tag/funding/",
         "url": "https://techcrunch.com/tag/funding/feed/",
         "status": "ok",
-        "fetchedAt": "2026-07-16T22:11:28.421777+00:00",
+        "fetchedAt": "2026-07-17T00:00:09.573253+00:00",
         "items": [
           {
             "title": "AI chip maker SambaNova raises $1B at $11B valuation, 5 months after last mega round",
@@ -2716,7 +2776,7 @@
         "home": "https://venturebeat.com/",
         "url": "https://venturebeat.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-07-16T22:11:28.384728+00:00",
+        "fetchedAt": "2026-07-17T00:00:09.599863+00:00",
         "items": [
           {
             "title": "China’s Moonshot AI releases Kimi K3, the largest open-source model ever, rivaling top U.S. systems",
@@ -2769,7 +2829,7 @@
         "home": "https://venturebeat.com/category/ai/",
         "url": "https://venturebeat.com/category/ai/feed/",
         "status": "ok",
-        "fetchedAt": "2026-07-16T22:11:28.437736+00:00",
+        "fetchedAt": "2026-07-17T00:00:09.612968+00:00",
         "items": [
           {
             "title": "The AI compute gap: Enterprises are buying infrastructure faster than they can measure what it costs",
@@ -2824,7 +2884,7 @@
         "home": "https://www.ruanyifeng.com/blog/",
         "url": "https://www.ruanyifeng.com/blog/atom.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-16T22:11:28.146333+00:00",
+        "fetchedAt": "2026-07-17T00:00:09.318916+00:00",
         "items": [
           {
             "title": "科技爱好者周刊（第 403 期）：为什么 Dropbox 不成功",
@@ -2853,7 +2913,7 @@
         "home": "https://www.bestblogs.dev/",
         "url": "https://www.bestblogs.dev/zh/feeds/rss?category=ai&minScore=90",
         "status": "ok",
-        "fetchedAt": "2026-07-16T22:11:28.503167+00:00",
+        "fetchedAt": "2026-07-17T00:00:10.350051+00:00",
         "items": [
           {
             "title": "Lychee-FD：哈工大张民教授团队在全双工语音大模型领域取得重要突破，斩获 ACL 2026 杰出论文奖",
@@ -2904,22 +2964,102 @@
             "summary": "📌 一句话摘要 腾讯混元将 Hy3 模型进行 1bit 和 4bit 量化并适配 llama.cpp，使 295B 参数模型能在单卡或低资源设备上运行，同时保持接近满血性能。 📝 详细摘要 腾讯混元团队针对社区对旗舰模型 Hy3（295B 参数）在资源受限设备上的运行需求，将其权重分别量化为 1bit（IQ1_M）和 4bit（Q4_K_M）并打包为 GGUF 格式，配合 llama.cpp 实现。1bit 版本将模型权重从约 598 GB 压缩至约 85.5 GiB，可在单张 96GB 推理显卡上运行；4bit 版本约 169.9 GiB，需两张推理卡。实验表明，4bit 版本在输出分布和实"
           },
           {
-            "title": "鸿蒙为何选中一家世界模型「狂想者」？拆解极顶数创的 AI 3D 底牌",
-            "link": "https://www.bestblogs.dev/article/acb7b04876?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
-            "date": "2026-07-14T02:31:00+00:00",
-            "summary": "📌 一句话摘要 文章剖析极顶数创凭借自研 3D 大模型与鸿蒙深度适配，让 V2Fun 将 3D 建模简化为拍照即生成，并构建起从资产到世界模型的完整链路。 📝 详细摘要 文章详细阐述了极顶数创旗下 V2Fun 如何通过 AI 3D 生成技术降低创作门槛。移动端 V2Fun 鸿蒙原生 App 让用户仅需拍摄或上传照片，即可在几十秒内得到高还原度的 3D 模型，并支持 GLB、3MF 等标准格式导出用于 3D 打印；Web 工作台则提供 AI 图像、建模、材质、动画等完整管线，实现从概念到专业级资产的全链路生产。文章还深入介绍了团队的技术突破，包括 VAE+DiT 架构、几何 Token 化的最小"
-          },
-          {
             "title": "AI 越会回答，人为什么越需要深度思考？复旦发布 2026 人文社科智能发展蓝皮书",
             "link": "https://www.bestblogs.dev/article/0da2c5b25f?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
             "date": "2026-07-14T02:31:00+00:00",
             "summary": "📌 一句话摘要 AI 的快速发展让深度思考与人文社科的判断责任更加关键，复旦蓝皮书探讨 AI 与人文社会科学的双向融合，强调深度思考在研究、治理与证据链保留中的不可替代性。 📝 详细摘要 文章深入剖析了大模型在信息处理、论文写作、决策支持等场景的普及对人文社会科学的冲击，并提出 AI 与人文社科正从单向赋能转向双向融合。作者指出，AI 只能高效生成内容，却无法真正理解情境、价值与因果，因此深度思考、情境组织、经验迁移与价值判断仍是人类不可替代的核心能力。文章进一步提出 STRIDES 框架，要求在研究全过程中保留完整的假设、数据、代码、审查意见等环节，以防止自动化带来的可信度危机；同时区分代理"
+          },
+          {
+            "title": "鸿蒙为何选中一家世界模型「狂想者」？拆解极顶数创的 AI 3D 底牌",
+            "link": "https://www.bestblogs.dev/article/acb7b04876?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
+            "date": "2026-07-14T02:31:00+00:00",
+            "summary": "📌 一句话摘要 文章剖析极顶数创凭借自研 3D 大模型与鸿蒙深度适配，让 V2Fun 将 3D 建模简化为拍照即生成，并构建起从资产到世界模型的完整链路。 📝 详细摘要 文章详细阐述了极顶数创旗下 V2Fun 如何通过 AI 3D 生成技术降低创作门槛。移动端 V2Fun 鸿蒙原生 App 让用户仅需拍摄或上传照片，即可在几十秒内得到高还原度的 3D 模型，并支持 GLB、3MF 等标准格式导出用于 3D 打印；Web 工作台则提供 AI 图像、建模、材质、动画等完整管线，实现从概念到专业级资产的全链路生产。文章还深入介绍了团队的技术突破，包括 VAE+DiT 架构、几何 Token 化的最小"
           }
         ]
       }
     ]
   },
   "allItems": [
+    {
+      "title": "Firefox in WebAssembly",
+      "link": "https://simonwillison.net/2026/Jul/16/firefox-in-webassembly/#atom-everything",
+      "date": "2026-07-16T23:34:16+00:00",
+      "summary": "Firefox in WebAssembly This is absurdly cool: Puter compiled Firefox to WebAssembly such that the whole browser runs in another browser. Here's my blog, running in Firefox, running in WebAssembly, running in Chrome: They chose Firefox/Gecko because it has strong single-process support. The project t",
+      "feedId": "simonwillison",
+      "feedTitle": "Simon Willison",
+      "category": "AI & LLM",
+      "feedHome": "https://simonwillison.net/"
+    },
+    {
+      "title": "Dithering: ‘Apple Sues OpenAI’",
+      "link": "https://dithering.passport.online/member/episode/apple-sues-open-ai",
+      "date": "2026-07-16T23:29:14+00:00",
+      "summary": "Tuesday’s episode of Dithering was a good one, especially for the DF audience, so we’ve moved it outside the paywall and made it free-to-listen on the web. (We don’t (yet?) have an RSS feed that you can put in your podcast player for these occasional free episodes, alas.) I have a slightly different",
+      "feedId": "daringfireball",
+      "feedTitle": "Daring Fireball",
+      "category": "Tech Blogs",
+      "feedHome": "https://daringfireball.net/"
+    },
+    {
+      "title": "San Francisco mayor pushes for tougher rules after the Waymo traffic fiasco",
+      "link": "https://techcrunch.com/2026/07/16/san-francisco-mayor-pushes-for-tougher-rules-after-the-waymo-traffic-fiasco/",
+      "date": "2026-07-16T23:25:22+00:00",
+      "summary": "In the wake of a massive hours-long gridlock event, San Francisco Mayor Daniel Lurie has told state regulators its time to put more requirements on robotaxi operators like Waymo.",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "SpaceX suddenly aborts second Starship V3 launch after ignition",
+      "link": "https://techcrunch.com/2026/07/16/spacex-suddenly-aborts-second-starship-v3-launch-after-ignition/",
+      "date": "2026-07-16T23:01:27+00:00",
+      "summary": "The company didn't immediately say what went wrong. SpaceX's stock plunged more than 4% in after-hours trading before paring losses.",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "My car's OTA update broke Android Auto, and it's a indictment of modern software",
+      "link": "https://imdanielkendall.com/the-great-software-regress-how-move-fast-and-break-things-broke-our-lives/",
+      "date": "2026-07-16T22:29:44+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "The Little Book of Reinforcement Learning",
+      "link": "https://github.com/alxndrTL/little-book-rl/",
+      "date": "2026-07-16T22:27:22+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "'Likweli': A new monkey species discovered in the Congo Basin",
+      "link": "https://news.yale.edu/2026/07/15/meet-likweli-new-monkey-species-discovered-congo-basin",
+      "date": "2026-07-16T22:00:00+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "Ring-Zero: Scaling Zero RL to a Trillion Parameters for Emergent Reasoning",
+      "link": "https://arxiv.org/abs/2607.12395",
+      "date": "2026-07-16T21:38:02+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
     {
       "title": "Coca-Cola suspended production at its Fairlife dairy after a ransomware attack",
       "link": "https://techcrunch.com/2026/07/16/coca-cola-suspended-production-at-its-fairlife-dairy-after-a-ransomware-attack/",
@@ -2934,16 +3074,6 @@
       "title": "Mathematics of Data Science",
       "link": "https://arxiv.org/abs/2607.11938",
       "date": "2026-07-16T20:38:48+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
-      "title": "Helium escaping from atmosphere of nearby rocky exoplanet in a habitable zone",
-      "link": "https://www.science.org/doi/10.1126/science.aea9708",
-      "date": "2026-07-16T20:24:02+00:00",
       "summary": "Comments",
       "feedId": "hackernews",
       "feedTitle": "Hacker News",
@@ -2981,16 +3111,6 @@
       "feedHome": "https://techcrunch.com/"
     },
     {
-      "title": "$100 AI Music Video: Claude Fable 5 vs. GPT-5.6 Sol",
-      "link": "https://www.tryai.dev/blog/ai-music-video-arena-claude-vs-gpt-5.6",
-      "date": "2026-07-16T20:03:23+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
       "title": "OpenAI Takes a Second Crack at a Response to Apple’s Trade Secret Theft Lawsuit",
       "link": "https://www.bloomberg.com/news/articles/2026-07-14/openai-says-it-s-not-aware-of-any-evidence-that-apple-lawsuit-has-merit",
       "date": "2026-07-16T19:46:09+00:00",
@@ -2999,6 +3119,16 @@
       "feedTitle": "Daring Fireball",
       "category": "Tech Blogs",
       "feedHome": "https://daringfireball.net/"
+    },
+    {
+      "title": "Source: UK robotics startup Humanoid raised $150M in the first tranche of a Series A at a $1.2B pre-money valuation and seeks another $80M-$100M by September (Rocket Drew/The Information)",
+      "link": "https://www.techmeme.com/260716/p60#a260716p60",
+      "date": "2026-07-16T19:45:02-04:00",
+      "summary": "Rocket Drew / The Information: Source: UK robotics startup Humanoid raised $150M in the first tranche of a Series A at a $1.2B pre-money valuation and seeks another $80M-$100M by September&nbsp; &mdash;&nbsp; Humanoid raised $150 million in the first tranche of a Series A funding round that values t",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
     },
     {
       "title": "China’s Moonshot AI releases Kimi K3, the largest open-source model ever, rivaling top U.S. systems",
@@ -3061,6 +3191,16 @@
       "feedHome": "https://venturebeat.com/category/ai/"
     },
     {
+      "title": "Source: PayPal's board sees Stripe and PE firm Advent International's $53B takeover bid as undervaluing the company and facing regulatory and financing hurdles (Reuters)",
+      "link": "https://www.techmeme.com/260716/p59#a260716p59",
+      "date": "2026-07-16T18:55:01-04:00",
+      "summary": "Reuters: Source: PayPal's board sees Stripe and PE firm Advent International's $53B takeover bid as undervaluing the company and facing regulatory and financing hurdles&nbsp; &mdash;&nbsp; PayPal's (PYPL.O) board sees a $53 billion takeover bid by rival Stripe and private equity firm Advent Internat",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
       "title": "Google Vids now lets you star in your own AI videos",
       "link": "https://techcrunch.com/2026/07/16/google-vids-now-lets-you-star-in-your-own-ai-videos/",
       "date": "2026-07-16T18:32:54+00:00",
@@ -3099,6 +3239,16 @@
       "feedTitle": "TechCrunch AI",
       "category": "Startup & News",
       "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
+    },
+    {
+      "title": "A New York State school district is piloting a humanoid robot teacher by the company Realbotix to help students with summer school classes (Chase DiBenedetto/Mashable)",
+      "link": "https://www.techmeme.com/260716/p58#a260716p58",
+      "date": "2026-07-16T18:20:00-04:00",
+      "summary": "Chase DiBenedetto / Mashable: A New York State school district is piloting a humanoid robot teacher by the company Realbotix to help students with summer school classes&nbsp; &mdash;&nbsp; A New York school district is piloting a humanoid robot teacher to help students with summer school classes.&nb",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
     },
     {
       "title": "Pluralistic: Deranged billionaires and their syndromes (16 Jul 2026)",
@@ -3221,16 +3371,6 @@
       "feedHome": "https://techcrunch.com/"
     },
     {
-      "title": "Detecting LLM-Generated Texts with “Classical” Machine Learning",
-      "link": "https://blog.lyc8503.net/en/post/llm-classifier/",
-      "date": "2026-07-16T16:41:37+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
       "title": "The agent evaluation gap: Enterprise AI organizations have a reality-alignment problem, not a coverage problem — and most are shipping to production anyway",
       "link": "https://venturebeat.com/ai/the-agent-evaluation-gap-enterprise-ai-organizations-have-a-reality-alignment-problem-not-a-coverage-problem-and-most-are-shipping-to-production-anyway",
       "date": "2026-07-16T16:40:48+00:00",
@@ -3301,16 +3441,6 @@
       "feedHome": "https://www.techmeme.com/"
     },
     {
-      "title": "AI-powered travel agency Fora hits unicorn status, raises $60M",
-      "link": "https://techcrunch.com/2026/07/16/ai-powered-travel-agency-fora-hits-unicorn-status-raises-60m/",
-      "date": "2026-07-16T16:08:40+00:00",
-      "summary": "Travel agency Fora announced a $60 million Series D round led by Forerunner and Tactile Ventures, valuing the company at $1 billion.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
-    },
-    {
       "title": "NotebookLM is now Gemini Notebook",
       "link": "https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook/",
       "date": "2026-07-16T16:08:13+00:00",
@@ -3339,16 +3469,6 @@
       "feedTitle": "OpenAI News",
       "category": "AI & LLM",
       "feedHome": "https://openai.com/news/"
-    },
-    {
-      "title": "Google’s AI Mode now lets you link and interact with select apps",
-      "link": "https://techcrunch.com/2026/07/16/googles-ai-mode-now-lets-you-link-and-interact-with-select-apps/",
-      "date": "2026-07-16T16:00:00+00:00",
-      "summary": "With this new update, Google is expanding AI Mode beyond answering questions and into completing tasks across the apps they use regularly.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
     },
     {
       "title": "Google’s AI Mode now lets you link and interact with select apps",
@@ -3421,24 +3541,14 @@
       "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
     },
     {
-      "title": "Moonshot AI releases Kimi K3, a 2.8T-parameter AI model that it says rivals Opus 4.8 and GPT-5.5, and plans to release model weights by July 27 (Kimi)",
-      "link": "https://www.techmeme.com/260716/p50#a260716p50",
-      "date": "2026-07-16T15:00:34-04:00",
-      "summary": "Kimi: Moonshot AI releases Kimi K3, a 2.8T-parameter AI model that it says rivals Opus 4.8 and GPT-5.5, and plans to release model weights by July 27&nbsp; &mdash;&nbsp; Today, we are introducing Kimi K3 &mdash; our most capable model.&nbsp; Kimi K3 is a 2.8T-parameter model built on our Kimi Delta ",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "After reports of GPT-5.6 deleting files, OpenAI says the issue most often occurs in full-access mode without sandboxing and it is working to mitigate the risk (Tibo/@thsottiaux)",
-      "link": "https://www.techmeme.com/260716/p49#a260716p49",
-      "date": "2026-07-16T14:50:02-04:00",
-      "summary": "Tibo / @thsottiaux: After reports of GPT-5.6 deleting files, OpenAI says the issue most often occurs in full-access mode without sandboxing and it is working to mitigate the risk&nbsp; &mdash;&nbsp; On file deletions. We've investigated a handful of reports where GPT-5.6 unexpectedly deleted files. ",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
+      "title": "Mermaid to ASCII art (mermaid-ascii)",
+      "link": "https://simonwillison.net/2026/Jul/16/mermaid-ascii/#atom-everything",
+      "date": "2026-07-16T14:57:39+00:00",
+      "summary": "Tool: Mermaid to ASCII art (mermaid-ascii) After building the Mermaid to ASCII tool based on Grok Build's Rust code I learned that there's an older, more fully-featured Go library called AlexanderGrooff/mermaid-ascii that implements a similar pattern, so I had Claude Fable 5 compile that one to WebA",
+      "feedId": "simonwillison",
+      "feedTitle": "Simon Willison",
+      "category": "AI & LLM",
+      "feedHome": "https://simonwillison.net/"
     },
     {
       "title": "Kimi K3: Open Frontier Intelligence",
@@ -3459,16 +3569,6 @@
       "feedTitle": "TechCrunch AI",
       "category": "Startup & News",
       "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
-    },
-    {
-      "title": "Crypto.com raised $400M from Citadel Securities in its first institutional funding round, valuing the Singapore-based crypto exchange at $20B (CoinDesk)",
-      "link": "https://www.techmeme.com/260716/p48#a260716p48",
-      "date": "2026-07-16T14:35:01-04:00",
-      "summary": "CoinDesk: Crypto.com raised $400M from Citadel Securities in its first institutional funding round, valuing the Singapore-based crypto exchange at $20B&nbsp; &mdash;&nbsp; Crypto.com secured a $400 million strategic investment from market maker Citadel Securities in a deal that values the crypto exc",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
     },
     {
       "title": "Moonshot’s upcoming Kimi 3 is expected to close the gap with Anthropic’s Opus 4.8",
@@ -3509,16 +3609,6 @@
       "feedTitle": "TechCrunch AI",
       "category": "Startup & News",
       "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
-    },
-    {
-      "title": "OnePlus halts operations in USA and Europe",
-      "link": "https://community.oneplus.com/thread/2170715118587871237",
-      "date": "2026-07-16T10:14:04+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
     },
     {
       "title": "Our approach to bioresilience",
@@ -3981,26 +4071,6 @@
       "feedHome": "https://idiallo.com/"
     },
     {
-      "title": "simonw/pedalican",
-      "link": "https://simonwillison.net/2026/Jul/14/pedalican/#atom-everything",
-      "date": "2026-07-14T22:29:45+00:00",
-      "summary": "simonw/pedalican Clearly I wasn't paying attention when these were first announced back in May, but today I accidentally activated a \"pet\" in Codex Desktop - a little animated robot, reminiscent of Clippy - and then learned you can create your own. So I did, and now I have a cute little pelican on a",
-      "feedId": "simonwillison",
-      "feedTitle": "Simon Willison",
-      "category": "AI & LLM",
-      "feedHome": "https://simonwillison.net/"
-    },
-    {
-      "title": "lobste.rs is now running on SQLite",
-      "link": "https://simonwillison.net/2026/Jul/14/lobsters-sqlite/#atom-everything",
-      "date": "2026-07-14T19:44:11+00:00",
-      "summary": "lobste.rs is now running on SQLite Community site Lobsters has been planning a migration away from MariaDB since August 2018 - originally targeting PostgreSQL, but last year they decided to investigate SQLite instead. This weekend they completed the migration, and now consider it stable enough that ",
-      "feedId": "simonwillison",
-      "feedTitle": "Simon Willison",
-      "category": "AI & LLM",
-      "feedHome": "https://simonwillison.net/"
-    },
-    {
       "title": "Microsoft Patches a Record 570 Security Flaws",
       "link": "https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/",
       "date": "2026-07-14T19:22:42+00:00",
@@ -4111,20 +4181,20 @@
       "feedHome": "https://daringfireball.net/"
     },
     {
-      "title": "鸿蒙为何选中一家世界模型「狂想者」？拆解极顶数创的 AI 3D 底牌",
-      "link": "https://www.bestblogs.dev/article/acb7b04876?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
+      "title": "AI 越会回答，人为什么越需要深度思考？复旦发布 2026 人文社科智能发展蓝皮书",
+      "link": "https://www.bestblogs.dev/article/0da2c5b25f?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
       "date": "2026-07-14T02:31:00+00:00",
-      "summary": "📌 一句话摘要 文章剖析极顶数创凭借自研 3D 大模型与鸿蒙深度适配，让 V2Fun 将 3D 建模简化为拍照即生成，并构建起从资产到世界模型的完整链路。 📝 详细摘要 文章详细阐述了极顶数创旗下 V2Fun 如何通过 AI 3D 生成技术降低创作门槛。移动端 V2Fun 鸿蒙原生 App 让用户仅需拍摄或上传照片，即可在几十秒内得到高还原度的 3D 模型，并支持 GLB、3MF 等标准格式导出用于 3D 打印；Web 工作台则提供 AI 图像、建模、材质、动画等完整管线，实现从概念到专业级资产的全链路生产。文章还深入介绍了团队的技术突破，包括 VAE+DiT 架构、几何 Token 化的最小",
+      "summary": "📌 一句话摘要 AI 的快速发展让深度思考与人文社科的判断责任更加关键，复旦蓝皮书探讨 AI 与人文社会科学的双向融合，强调深度思考在研究、治理与证据链保留中的不可替代性。 📝 详细摘要 文章深入剖析了大模型在信息处理、论文写作、决策支持等场景的普及对人文社会科学的冲击，并提出 AI 与人文社科正从单向赋能转向双向融合。作者指出，AI 只能高效生成内容，却无法真正理解情境、价值与因果，因此深度思考、情境组织、经验迁移与价值判断仍是人类不可替代的核心能力。文章进一步提出 STRIDES 框架，要求在研究全过程中保留完整的假设、数据、代码、审查意见等环节，以防止自动化带来的可信度危机；同时区分代理",
       "feedId": "bestblogs",
       "feedTitle": "BestBlogs.dev AI 90+",
       "category": "中文",
       "feedHome": "https://www.bestblogs.dev/"
     },
     {
-      "title": "AI 越会回答，人为什么越需要深度思考？复旦发布 2026 人文社科智能发展蓝皮书",
-      "link": "https://www.bestblogs.dev/article/0da2c5b25f?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
+      "title": "鸿蒙为何选中一家世界模型「狂想者」？拆解极顶数创的 AI 3D 底牌",
+      "link": "https://www.bestblogs.dev/article/acb7b04876?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
       "date": "2026-07-14T02:31:00+00:00",
-      "summary": "📌 一句话摘要 AI 的快速发展让深度思考与人文社科的判断责任更加关键，复旦蓝皮书探讨 AI 与人文社会科学的双向融合，强调深度思考在研究、治理与证据链保留中的不可替代性。 📝 详细摘要 文章深入剖析了大模型在信息处理、论文写作、决策支持等场景的普及对人文社会科学的冲击，并提出 AI 与人文社科正从单向赋能转向双向融合。作者指出，AI 只能高效生成内容，却无法真正理解情境、价值与因果，因此深度思考、情境组织、经验迁移与价值判断仍是人类不可替代的核心能力。文章进一步提出 STRIDES 框架，要求在研究全过程中保留完整的假设、数据、代码、审查意见等环节，以防止自动化带来的可信度危机；同时区分代理",
+      "summary": "📌 一句话摘要 文章剖析极顶数创凭借自研 3D 大模型与鸿蒙深度适配，让 V2Fun 将 3D 建模简化为拍照即生成，并构建起从资产到世界模型的完整链路。 📝 详细摘要 文章详细阐述了极顶数创旗下 V2Fun 如何通过 AI 3D 生成技术降低创作门槛。移动端 V2Fun 鸿蒙原生 App 让用户仅需拍摄或上传照片，即可在几十秒内得到高还原度的 3D 模型，并支持 GLB、3MF 等标准格式导出用于 3D 打印；Web 工作台则提供 AI 图像、建模、材质、动画等完整管线，实现从概念到专业级资产的全链路生产。文章还深入介绍了团队的技术突破，包括 VAE+DiT 架构、几何 Token 化的最小",
       "feedId": "bestblogs",
       "feedTitle": "BestBlogs.dev AI 90+",
       "category": "中文",
@@ -4149,6 +4219,16 @@
       "feedTitle": "OpenAI News",
       "category": "AI & LLM",
       "feedHome": "https://openai.com/news/"
+    },
+    {
+      "title": "What does \"playing politics\" mean for software engineers?",
+      "link": "https://seangoedecke.com/playing-politics/",
+      "date": "2026-07-14T00:00:00+00:00",
+      "summary": "",
+      "feedId": "seangoedecke",
+      "feedTitle": "Sean Goedecke",
+      "category": "Tech Blogs",
+      "feedHome": "https://www.seangoedecke.com/"
     },
     {
       "title": "Pseudpocalypse",
@@ -4179,16 +4259,6 @@
       "feedTitle": "Xe Iaso",
       "category": "Tech Blogs",
       "feedHome": "https://xeiaso.net/"
-    },
-    {
-      "title": "Remember Musk’s Suit Alleging a Conspiracy Between Apple and OpenAI?",
-      "link": "https://arstechnica.com/tech-policy/2025/08/elon-musk-sues-apple-openai-to-block-exclusive-iphone-chatgpt-integration/",
-      "date": "2026-07-13T15:32:05+00:00",
-      "summary": "Ashley Belanger, reporting for Ars Technica back in August 2025: After a public outburst over Grok’s App Store rankings, on Monday, Elon Musk followed through on his threat to sue Apple and OpenAI. At first, Musk appeared fixated on ChatGPT consistently topping Apple’s “Must Have” app list — which G",
-      "feedId": "daringfireball",
-      "feedTitle": "Daring Fireball",
-      "category": "Tech Blogs",
-      "feedHome": "https://daringfireball.net/"
     },
     {
       "title": "Lessons Learned from CISA’s Recent GitHub Leak",
@@ -4319,6 +4389,16 @@
       "feedTitle": "Eli Bendersky",
       "category": "Tech Blogs",
       "feedHome": "https://eli.thegreenplace.net/"
+    },
+    {
+      "title": "In defense of not understanding your codebase",
+      "link": "https://seangoedecke.com/in-defense-of-not-understanding-your-codebase/",
+      "date": "2026-07-11T00:00:00+00:00",
+      "summary": "",
+      "feedId": "seangoedecke",
+      "feedTitle": "Sean Goedecke",
+      "category": "Tech Blogs",
+      "feedHome": "https://www.seangoedecke.com/"
     },
     {
       "title": "A dock that finally wakes up reliably",
@@ -4541,6 +4621,16 @@
       "feedHome": "https://pluralistic.net/"
     },
     {
+      "title": "Blog about things you don't understand yet",
+      "link": "https://seangoedecke.com/blog-about-things-you-dont-understand-yet/",
+      "date": "2026-07-07T00:00:00+00:00",
+      "summary": "",
+      "feedId": "seangoedecke",
+      "feedTitle": "Sean Goedecke",
+      "category": "Tech Blogs",
+      "feedHome": "https://www.seangoedecke.com/"
+    },
+    {
       "title": "Reproducing a geometry theorem diagram",
       "link": "https://www.johndcook.com/blog/2026/07/06/arc-hypotenuse/",
       "date": "2026-07-06T14:22:35+00:00",
@@ -4579,6 +4669,16 @@
       "feedTitle": "Ibrahim Diallo",
       "category": "Tech Blogs",
       "feedHome": "https://idiallo.com/"
+    },
+    {
+      "title": "C2PA only works if everything is signed",
+      "link": "https://seangoedecke.com/c2pa-only-works-if-everything-is-signed/",
+      "date": "2026-07-06T00:00:00+00:00",
+      "summary": "",
+      "feedId": "seangoedecke",
+      "feedTitle": "Sean Goedecke",
+      "category": "Tech Blogs",
+      "feedHome": "https://www.seangoedecke.com/"
     },
     {
       "title": "Life with hazard ratios",
@@ -4679,6 +4779,16 @@
       "feedTitle": "Pluralistic",
       "category": "Tech Blogs",
       "feedHome": "https://pluralistic.net/"
+    },
+    {
+      "title": "Text AI watermarks will always be trivial to remove",
+      "link": "https://seangoedecke.com/text-ai-watermarks/",
+      "date": "2026-07-02T00:00:00+00:00",
+      "summary": "",
+      "feedId": "seangoedecke",
+      "feedTitle": "Sean Goedecke",
+      "category": "Tech Blogs",
+      "feedHome": "https://www.seangoedecke.com/"
     },
     {
       "title": "Pluralistic: Technocarcinization (01 Jul 2026)",
@@ -4811,6 +4921,16 @@
       "feedHome": "https://idiallo.com/"
     },
     {
+      "title": "Saying the obvious thing",
+      "link": "https://seangoedecke.com/saying-the-obvious-thing/",
+      "date": "2026-06-27T00:00:00+00:00",
+      "summary": "",
+      "feedId": "seangoedecke",
+      "feedTitle": "Sean Goedecke",
+      "category": "Tech Blogs",
+      "feedHome": "https://www.seangoedecke.com/"
+    },
+    {
       "title": "Accelerating Gemini Nano models on Pixel with frozen Multi-Token Prediction",
       "link": "https://research.google/blog/accelerating-gemini-nano-models-on-pixel-with-frozen-multi-token-prediction/",
       "date": "2026-06-26T18:30:00+00:00",
@@ -4819,6 +4939,16 @@
       "feedTitle": "Google Research Blog",
       "category": "AI & LLM",
       "feedHome": "https://research.google/blog/"
+    },
+    {
+      "title": "AI inference is obviously profitable",
+      "link": "https://seangoedecke.com/ai-inference-is-obviously-profitable/",
+      "date": "2026-06-26T00:00:00+00:00",
+      "summary": "",
+      "feedId": "seangoedecke",
+      "feedTitle": "Sean Goedecke",
+      "category": "Tech Blogs",
+      "feedHome": "https://www.seangoedecke.com/"
     },
     {
       "title": "Blink if you’re human",
@@ -5061,6 +5191,16 @@
       "feedHome": "https://www.troyhunt.com/"
     },
     {
+      "title": "AI GPUs probably live longer than three years",
+      "link": "https://seangoedecke.com/ai-gpus-live-longer-than-three-years/",
+      "date": "2026-06-15T00:00:00+00:00",
+      "summary": "",
+      "feedId": "seangoedecke",
+      "feedTitle": "Sean Goedecke",
+      "category": "Tech Blogs",
+      "feedHome": "https://www.seangoedecke.com/"
+    },
+    {
       "title": "Plugins case study: Pluggy",
       "link": "https://eli.thegreenplace.net/2026/plugins-case-study-pluggy/",
       "date": "2026-06-14T03:20:58-07:00",
@@ -5229,6 +5369,26 @@
       "feedTitle": "Steve Blank",
       "category": "Tech Blogs",
       "feedHome": "https://steveblank.com/"
+    },
+    {
+      "title": "Doing nothing at work",
+      "link": "https://seangoedecke.com/doing-nothing-at-work/",
+      "date": "2026-06-08T00:00:00+00:00",
+      "summary": "",
+      "feedId": "seangoedecke",
+      "feedTitle": "Sean Goedecke",
+      "category": "Tech Blogs",
+      "feedHome": "https://www.seangoedecke.com/"
+    },
+    {
+      "title": "Working with product managers",
+      "link": "https://seangoedecke.com/working-with-product-managers/",
+      "date": "2026-06-08T00:00:00+00:00",
+      "summary": "",
+      "feedId": "seangoedecke",
+      "feedTitle": "Sean Goedecke",
+      "category": "Tech Blogs",
+      "feedHome": "https://www.seangoedecke.com/"
     },
     {
       "title": "A new era for software testing",
