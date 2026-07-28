@@ -1,13 +1,12 @@
 {
-  "updatedAt": "2026-07-28T00:02:56.880013+00:00",
+  "updatedAt": "2026-07-28T04:10:27.753601+00:00",
   "totalFeeds": 51,
-  "successCount": 44,
-  "failedCount": 7,
+  "successCount": 45,
+  "failedCount": 6,
   "failed": [
     "gwern",
     "garymarcus",
     "thesequence",
-    "shkspr",
     "lcamtuf",
     "rachelbythebay",
     "tedunangst"
@@ -21,7 +20,7 @@
         "home": "https://simonwillison.net/",
         "url": "https://simonwillison.net/atom/everything/",
         "status": "ok",
-        "fetchedAt": "2026-07-28T00:02:46.520619+00:00",
+        "fetchedAt": "2026-07-28T04:10:17.631567+00:00",
         "items": [
           {
             "title": "moonshotai/Kimi-K3",
@@ -92,7 +91,7 @@
         "home": "https://openai.com/news/",
         "url": "https://openai.com/news/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-28T00:02:46.469251+00:00",
+        "fetchedAt": "2026-07-28T04:10:17.622985+00:00",
         "items": [
           {
             "title": "How AI is expanding what people do at work",
@@ -163,8 +162,69 @@
         "home": "https://arxiv.org/list/cs.AI/recent",
         "url": "https://arxiv.org/rss/cs.AI",
         "status": "ok",
-        "fetchedAt": "2026-07-28T00:02:46.623603+00:00",
-        "items": []
+        "fetchedAt": "2026-07-28T04:10:17.908967+00:00",
+        "items": [
+          {
+            "title": "Concept-based Visual Counterfactual Explanations with Diffusion Models",
+            "link": "https://arxiv.org/abs/2607.22544",
+            "date": "2026-07-28T00:00:00-04:00",
+            "summary": "arXiv:2607.22544v1 Announce Type: new Abstract: Visual counterfactual explanations aim to answer \"what minimal change to this image would flip the model's prediction?\", and are increasingly important as vision models are deployed in safety-critical domains (e.g., medicine). Existing diffusion-based "
+          },
+          {
+            "title": "SeT-Diff: Towards Semantic Foundation Models for HPC Telemetry and Time-Series",
+            "link": "https://arxiv.org/abs/2607.22548",
+            "date": "2026-07-28T00:00:00-04:00",
+            "summary": "arXiv:2607.22548v1 Announce Type: new Abstract: Data centers and their compute nodes require accurate and flexible digital twins capable of modeling the complex interplay of workloads, environmental parameters, and physical metrics. Current machine learning approaches for HPC and its telemetry typic"
+          },
+          {
+            "title": "QFoldAgent: An Autonomous Quantum Optimization Multi-Agent System for Protein Structure Prediction",
+            "link": "https://arxiv.org/abs/2607.22549",
+            "date": "2026-07-28T00:00:00-04:00",
+            "summary": "arXiv:2607.22549v1 Announce Type: new Abstract: Hybrid quantum-classical protein structure prediction depends strongly on Hamiltonian penalty weights, yet existing lattice-based workflows typically fix these coefficients by hand and evaluate only very short fragments in simulation. We present QFoldA"
+          },
+          {
+            "title": "Same Question, Different Answers: Evaluating LLM Reliability Beyond Accuracy",
+            "link": "https://arxiv.org/abs/2607.22554",
+            "date": "2026-07-28T00:00:00-04:00",
+            "summary": "arXiv:2607.22554v1 Announce Type: new Abstract: Large language models (LLMs) often achieve strong accuracy on benchmarks, yet it remains unclear how reliably they apply this knowledge when the same question is phrased in different but equivalent ways. In this work, we study how model answers change "
+          },
+          {
+            "title": "DeepLens Diagnosis Agent: Agentic Workflow Design Lets a Small Reasoning Model Compete with Frontier LLMs",
+            "link": "https://arxiv.org/abs/2607.22555",
+            "date": "2026-07-28T00:00:00-04:00",
+            "summary": "arXiv:2607.22555v1 Announce Type: new Abstract: Medical diagnosis is a multi-stage process: extract facts, consult knowledge, generate a differential analysis, and select the best diagnosis with explanations. Frontier LLMs are strong generalists, but single-shot prompting often yields brittle diagno"
+          },
+          {
+            "title": "MIITA: Memory-Induced Inference-Time Adaptation for Continual Learning with Small Language Models",
+            "link": "https://arxiv.org/abs/2607.22556",
+            "date": "2026-07-28T00:00:00-04:00",
+            "summary": "arXiv:2607.22556v1 Announce Type: new Abstract: Continual learning (CL) is essential for small language models (SLMs) to adapt to evolving real-world needs in resource-constrained deployments. However, directly updating their limited parameter space causes catastrophic forgetting. While memory-based"
+          },
+          {
+            "title": "Codifying the Judge: Scalable Evaluation via Program Distillation",
+            "link": "https://arxiv.org/abs/2607.22561",
+            "date": "2026-07-28T00:00:00-04:00",
+            "summary": "arXiv:2607.22561v1 Announce Type: new Abstract: LLM-as-a-judge has become the standard for automated evaluation, but it suffers from high cost, significant latency, and opaque decisions -- limitations that undermine its scalability and reliability. We address these with a simple, efficient alternati"
+          },
+          {
+            "title": "SF-AMS: Strategic Forgetting for Structured Memory in LLM Agent",
+            "link": "https://arxiv.org/abs/2607.22562",
+            "date": "2026-07-28T00:00:00-04:00",
+            "summary": "arXiv:2607.22562v1 Announce Type: new Abstract: Managing long-context dependencies remains a primary bottleneck in LLM agents, as redundant and irrelevant information can degrade multi-step reasoning. Strategic Forgetting for Agent Memory Systems (SF-AMS) is proposed as a framework for maintaining c"
+          },
+          {
+            "title": "Synthetic Scenario Generation for Evaluation of Industry 4.0 Agents",
+            "link": "https://arxiv.org/abs/2607.22563",
+            "date": "2026-07-28T00:00:00-04:00",
+            "summary": "arXiv:2607.22563v1 Announce Type: new Abstract: Industrial agent benchmarks require realistic evaluation scenarios that integrate telemetry, failure modes, maintenance records, and domain standards. However, existing benchmarks such as AssetOpsBench rely on manually authored scenarios and cover a li"
+          },
+          {
+            "title": "Loss-Aware Feature-Map Pruning in Convolutional Neural Networks Using Multi-Armed Bandits",
+            "link": "https://arxiv.org/abs/2607.22564",
+            "date": "2026-07-28T00:00:00-04:00",
+            "summary": "arXiv:2607.22564v1 Announce Type: new Abstract: Convolutional neural networks often contain redundant feature maps that increase storage and inference cost. This paper presents a loss-aware feature-map pruning framework using multi-armed bandits. Feature-map pruning is structured because it removes "
+          }
+        ]
       },
       {
         "id": "arxiv-lg",
@@ -173,67 +233,67 @@
         "home": "https://arxiv.org/list/cs.LG/recent",
         "url": "https://arxiv.org/rss/cs.LG",
         "status": "ok",
-        "fetchedAt": "2026-07-28T00:02:46.687115+00:00",
+        "fetchedAt": "2026-07-28T04:10:17.826772+00:00",
         "items": [
           {
-            "title": "Cloud-Native Evaluation-as-a-Service: A Microservices Architecture for Scalable AI Monitoring with Conformal Guarantees",
-            "link": "https://arxiv.org/abs/2607.21623",
-            "date": "2026-07-27T00:00:00-04:00",
-            "summary": "arXiv:2607.21623v1 Announce Type: new Abstract: We present EaaS, a cloud-native reference architecture that operationalizes AI evaluation methods as six stateless Kubernetes microservices: conformal prediction with finite-sample-corrected Adaptive Prediction Sets, calibration assessment, drift detec"
+            "title": "Semalith v1.4: A Calibrated 184M Safety Classifier Achieving State-of-the-Art Prompt-Injection Detection at 44x Fewer Parameters than Llama-Guard-3-8B",
+            "link": "https://arxiv.org/abs/2607.22545",
+            "date": "2026-07-28T00:00:00-04:00",
+            "summary": "arXiv:2607.22545v1 Announce Type: new Abstract: Deploying large language models in financial-services and agentic settings requires safety classifiers that simultaneously handle prompt injection, regulatory compliance, and general harm, a combination no existing open guardrail addresses in a single "
           },
           {
-            "title": "On the Depth Scalability of Logic Gate Networks",
-            "link": "https://arxiv.org/abs/2607.21633",
-            "date": "2026-07-27T00:00:00-04:00",
-            "summary": "arXiv:2607.21633v1 Announce Type: new Abstract: Logic Gate Networks (LGNs) implement computation through compositions of Boolean operations, yet unlike classical Boolean circuits, existing LGNs do not reliably benefit from increased depth. We identify two distinct causes: optimization collapse in de"
+            "title": "CORVUS: Context Optimization and Reduction Via Underlying Synchronization for LLM Coding Agents",
+            "link": "https://arxiv.org/abs/2607.22711",
+            "date": "2026-07-28T00:00:00-04:00",
+            "summary": "arXiv:2607.22711v1 Announce Type: new Abstract: LLM coding agents operate by constructing trajectories that accumulate reasoning, tool calls, and results to enable multi-step decision-making. However, the conventional append-only trajectory architecture found in practice tightly couples file-read ac"
           },
           {
-            "title": "MotifRole-Diff: Risk-Optimal Role-Aware Corruption for Masked Molecular Graph Diffusion",
-            "link": "https://arxiv.org/abs/2607.21634",
-            "date": "2026-07-27T00:00:00-04:00",
-            "summary": "arXiv:2607.21634v1 Announce Type: new Abstract: Masked discrete diffusion for molecular graph generation typically applies a uniform corruption schedule to all tokens in a lossless graph-to-sequence representation, implicitly treating structurally heterogeneous molecular components as equally diffic"
+            "title": "CausalGate: Causal Importance Distillation for Transformer Module Pruning",
+            "link": "https://arxiv.org/abs/2607.22720",
+            "date": "2026-07-28T00:00:00-04:00",
+            "summary": "arXiv:2607.22720v1 Announce Type: new Abstract: Existing adaptive inference methods for Large Language Models rely on observational heuristics, such as hidden-state similarity or activation magnitudes, to drop redundant modules. However, these correlation-based metrics often fail to capture subtle, "
           },
           {
-            "title": "Toward User-Conditioned Evaluation of Personal LLM Agents under Temporal Interventions",
-            "link": "https://arxiv.org/abs/2607.21635",
-            "date": "2026-07-27T00:00:00-04:00",
-            "summary": "arXiv:2607.21635v1 Announce Type: new Abstract: Personal agents maintain memories, learned skills, tool configurations, and policy state that evolve with each user. Existing agent benchmarks often evaluate these capabilities in isolation: tool benchmarks test invocation under fixed APIs, memory benc"
+            "title": "Progress-conditioned Group Policy Optimization for Long-Horizon Agentic Tasks",
+            "link": "https://arxiv.org/abs/2607.22724",
+            "date": "2026-07-28T00:00:00-04:00",
+            "summary": "arXiv:2607.22724v1 Announce Type: new Abstract: Group-based policy optimization has been increasingly used to train large language model (LLM) agents from sparse outcome rewards by comparing trajectories or steps within a group. However, on difficult long-horizon tasks, this comparison can suffer fr"
           },
           {
-            "title": "Measuring the Dependency Gap: Diagnosing Inter-Column Fidelity in Tabular Generative Models",
-            "link": "https://arxiv.org/abs/2607.21636",
-            "date": "2026-07-27T00:00:00-04:00",
-            "summary": "arXiv:2607.21636v1 Announce Type: new Abstract: Synthetic tabular data is valued for preserving not only each column's marginal distribution but the dependencies between columns -- structure that carries much of the discriminative signal for minority classes in imbalanced domains such as fraud and c"
+            "title": "QFedPolyp: A Communication- and Inference-Efficient Federated Learning Framework for Polyp Segmentation",
+            "link": "https://arxiv.org/abs/2607.22743",
+            "date": "2026-07-28T00:00:00-04:00",
+            "summary": "arXiv:2607.22743v1 Announce Type: new Abstract: Background and Objective: Automatic polyp segmentation supports computer-aided diagnosis and early colorectal cancer detec- tion. Centralized deep learning requires hospitals to share sensitive medical data, while federated learning preserves privacy b"
           },
           {
-            "title": "Quasi-Monte Carlo Initialization for Meta-Reinforcement Learning",
-            "link": "https://arxiv.org/abs/2607.21637",
-            "date": "2026-07-27T00:00:00-04:00",
-            "summary": "arXiv:2607.21637v1 Announce Type: new Abstract: This paper explores the efficacy of quasi-Monte Carlo (QMC) weight initialization for meta-reinforcement learning within modern benchmark environments. Various sampling methods are used to bound a population-based search and aggregate an optimal prior "
+            "title": "Learning to Access Computation: Accessibility Plasticity as a Principle of Adaptive Intelligence",
+            "link": "https://arxiv.org/abs/2607.22748",
+            "date": "2026-07-28T00:00:00-04:00",
+            "summary": "arXiv:2607.22748v1 Announce Type: new Abstract: Modern neural networks primarily adapt through parameter modification within predefined computational structures. While recent methods introduce modularity, conditional computation, and parameter-efficient adaptation, they generally do not distinguish "
           },
           {
-            "title": "Toward Goal-Agnostic Joint-Embedding Predictive Control of Partial Differential Equations",
-            "link": "https://arxiv.org/abs/2607.21644",
-            "date": "2026-07-27T00:00:00-04:00",
-            "summary": "arXiv:2607.21644v1 Announce Type: new Abstract: We present a goal-agnostic control framework for partial differential equations (PDEs) built around a joint-embedding predictive architecture (JEPA). The small 2D ViT encoder and action-conditioned latent dynamics are trained offline without a reward o"
+            "title": "Hierarchical Grading in Large Language Models",
+            "link": "https://arxiv.org/abs/2607.22757",
+            "date": "2026-07-28T00:00:00-04:00",
+            "summary": "arXiv:2607.22757v1 Announce Type: new Abstract: We introduce Graded Large Language Models (GLLMs), an algebraic framework that equips the representation space of a transformer with a grading and propagates the induced weighted scalar action through embeddings, self-attention, and the training object"
           },
           {
-            "title": "Multi-Horizon Consistency as Geometry: When Latent Dynamics Contract, and When They Do Not",
-            "link": "https://arxiv.org/abs/2607.21645",
-            "date": "2026-07-27T00:00:00-04:00",
-            "summary": "arXiv:2607.21645v1 Announce Type: new Abstract: Multi-horizon latent consistency is a common training knob in video predictors and world models, but practitioners rarely know what it does to transition geometry. We treat lambda, the weight on multi-step latent agreement, as a diagnostic control and "
+            "title": "An Integrated Deep Learning and Statistical Framework for Whole-Network Gene--Environment Association with Leaf Vascular Architecture",
+            "link": "https://arxiv.org/abs/2607.22763",
+            "date": "2026-07-28T00:00:00-04:00",
+            "summary": "arXiv:2607.22763v1 Announce Type: new Abstract: Leaf veins exhibit remarkable diversity in architecture and patterning, yet existing gene--environment association studies have primarily quantified leaf venation using a small collection of low-dimensional summary traits, thereby discarding most of th"
           },
           {
-            "title": "Adjustment Speed as a Safety Constraint for Nonstationary Reinforcement Learning",
-            "link": "https://arxiv.org/abs/2607.21646",
-            "date": "2026-07-27T00:00:00-04:00",
-            "summary": "arXiv:2607.21646v1 Announce Type: new Abstract: Ensuring safety in reinforcement learning under nonstationarity requires determining whether a learning system can safely adapt to forecasted environmental change within the required recovery horizon. Existing safe reinforcement learning methods typica"
+            "title": "Beyond Shapley: An Influence-Based Data Auditing Pipeline for LLM Alignment and Evaluation",
+            "link": "https://arxiv.org/abs/2607.22766",
+            "date": "2026-07-28T00:00:00-04:00",
+            "summary": "arXiv:2607.22766v1 Announce Type: new Abstract: The alignment of Large Language Models (LLMs) is increasingly bottlenecked by data quality. As datasets scale, massive preference and instruction-tuning corpora inevitably accumulate hidden structural contradictions, safety risks, and systemic human an"
           },
           {
-            "title": "A Drift Stable Quantum Federated Learning for Intelligent Services",
-            "link": "https://arxiv.org/abs/2607.21647",
-            "date": "2026-07-27T00:00:00-04:00",
-            "summary": "arXiv:2607.21647v1 Announce Type: new Abstract: Quantum federated learning enables distributed clients to train quantum neural networks without sharing local data, making it promising for privacy-aware intelligent services. Intelligent services in this context refer to privacy-sensitive distributed "
+            "title": "DomainPilot: Domain-Level Loss-Guided Two-Stage Data Mixture Optimization for Efficient Language Model Fine-Tuning",
+            "link": "https://arxiv.org/abs/2607.22769",
+            "date": "2026-07-28T00:00:00-04:00",
+            "summary": "arXiv:2607.22769v1 Announce Type: new Abstract: The training efficacy of large language models (LLMs) is fundamentally constrained by the quality and composition of training data. Existing dynamic data scheduling methods face critical limitations in industrial-scale pretraining and supervised fine-t"
           }
         ]
       },
@@ -244,7 +304,7 @@
         "home": "https://research.google/blog/",
         "url": "https://research.google/blog/rss/",
         "status": "ok",
-        "fetchedAt": "2026-07-28T00:02:47.001808+00:00",
+        "fetchedAt": "2026-07-28T04:10:17.929079+00:00",
         "items": [
           {
             "title": "SymptomAI: Towards a conversational AI agent for everyday symptom assessment",
@@ -315,7 +375,7 @@
         "home": "https://deepmind.google/blog/",
         "url": "https://deepmind.google/blog/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-28T00:02:46.705489+00:00",
+        "fetchedAt": "2026-07-28T04:10:18.073976+00:00",
         "items": [
           {
             "title": "Accelerating the frontiers of scientific discovery: Google’s $40M commitment to the Genesis Mission",
@@ -386,7 +446,7 @@
         "home": "https://lilianweng.github.io/",
         "url": "https://lilianweng.github.io/lil-log/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-28T00:02:46.382871+00:00",
+        "fetchedAt": "2026-07-28T04:10:17.638665+00:00",
         "items": [
           {
             "title": "Active Learning",
@@ -477,7 +537,7 @@
         "home": "https://minimaxir.com/",
         "url": "https://minimaxir.com/index.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-28T00:02:46.530914+00:00",
+        "fetchedAt": "2026-07-28T04:10:17.655810+00:00",
         "items": [
           {
             "title": "LLMs break down in funny ways when told the Jacobian Conjecture counterargument",
@@ -560,7 +620,7 @@
         "home": "https://www.jeffgeerling.com/",
         "url": "https://www.jeffgeerling.com/blog.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-28T00:02:46.502329+00:00",
+        "fetchedAt": "2026-07-28T04:10:17.666523+00:00",
         "items": [
           {
             "title": "Adding a backup Internet WAN on my OPNsense Router",
@@ -631,7 +691,7 @@
         "home": "https://www.seangoedecke.com/",
         "url": "https://www.seangoedecke.com/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-28T00:02:46.585551+00:00",
+        "fetchedAt": "2026-07-28T04:10:17.838671+00:00",
         "items": [
           {
             "title": "LLMs reward expertise",
@@ -702,7 +762,7 @@
         "home": "https://krebsonsecurity.com/",
         "url": "https://krebsonsecurity.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-07-28T00:02:46.694454+00:00",
+        "fetchedAt": "2026-07-28T04:10:17.716076+00:00",
         "items": [
           {
             "title": "LG to Ban Residential Proxies from Smart TV Apps",
@@ -773,8 +833,20 @@
         "home": "https://daringfireball.net/",
         "url": "https://daringfireball.net/feeds/main",
         "status": "ok",
-        "fetchedAt": "2026-07-28T00:02:46.634634+00:00",
+        "fetchedAt": "2026-07-28T04:10:17.647725+00:00",
         "items": [
+          {
+            "title": "[Sponsor] Introducing Agent Fone",
+            "link": "https://fail.xyz/phone/",
+            "date": "2026-07-28T01:32:02+00:00",
+            "summary": "Every phone now ships with an assistant. You ask, it answers. Lame. We built a phone that writes software instead. The app idea you’ve had in your notes for years. The side hustle you will never get around to building. The weird thing only you would want. Describe it, answer a few questions, and it’"
+          },
+          {
+            "title": "‘Always Choose the Good Soap’",
+            "link": "https://sixcolors.com/post/2026/07/always-choose-the-good-soap/",
+            "date": "2026-07-28T01:30:32+00:00",
+            "summary": "Jason Snell: Apple’s most valuable asset is its brand. Not its real estate, not its intellectual property, not even any particular product. Even the mighty iPhone has no value if, over time, the traits that differentiate it from competitor products are erased. Apple’s brand has always stood for high"
+          },
           {
             "title": "★ Ads in Software Are Like Stickers on Laptops",
             "link": "https://daringfireball.net/2026/07/ads_in_software_are_like_stickers_on_laptops",
@@ -822,18 +894,6 @@
             "link": "https://birc.app/",
             "date": "2026-07-25T18:57:31+00:00",
             "summary": "For a long time the best native Mac IRC client was Textual, but although Textual still works, it’s been sunset by the author. Not to fear, however. Fredrik Blank just launched bIRC: Creating an IRC client in 2026 is not something that will pay the bills : ) It would be just for the joy of programmin"
-          },
-          {
-            "title": "★ Regarding Ad Blockers and Daring Fireball",
-            "link": "https://daringfireball.net/2026/07/regarding_ad_blockers_and_daring_fireball",
-            "date": "2026-07-26T17:07:19+00:00",
-            "summary": "Ultimately, when you install a content blocker extension, you take responsibility for any overzealousness in what they block."
-          },
-          {
-            "title": "Coiner of ‘Enshittification’ Endorses ‘Dickover’",
-            "link": "https://pluralistic.net/2026/07/21/dickovers/",
-            "date": "2026-07-24T20:06:36+00:00",
-            "summary": "Speaking of dickovers, here’s Cory Doctorow, writing this week at Pluralistic: Seizing the means of computation isn’t theft, it’s bargaining. Commercial surveillance companies will tell you that by spying on you, they are simply engaged in a marketplace exchange in which you swap your privacy for ac"
           }
         ]
       },
@@ -844,7 +904,7 @@
         "home": "https://ericmigi.com/",
         "url": "https://ericmigi.com/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-28T00:02:46.533644+00:00",
+        "fetchedAt": "2026-07-28T04:10:17.684285+00:00",
         "items": [
           {
             "title": "Index 01 Is In Mass Production!",
@@ -915,7 +975,7 @@
         "home": "http://antirez.com/",
         "url": "http://antirez.com/rss",
         "status": "ok",
-        "fetchedAt": "2026-07-28T00:02:48.370305+00:00",
+        "fetchedAt": "2026-07-28T04:10:20.169090+00:00",
         "items": [
           {
             "title": "Being Linux Torvalds",
@@ -986,7 +1046,7 @@
         "home": "https://idiallo.com/",
         "url": "https://idiallo.com/feed.rss",
         "status": "ok",
-        "fetchedAt": "2026-07-28T00:02:46.822691+00:00",
+        "fetchedAt": "2026-07-28T04:10:17.990861+00:00",
         "items": [
           {
             "title": "Why $550 Million Medical Debt only Cost $5.5 Million",
@@ -1057,7 +1117,7 @@
         "home": "https://maurycyz.com/",
         "url": "https://maurycyz.com/index.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-28T00:02:47.082441+00:00",
+        "fetchedAt": "2026-07-28T04:10:18.427363+00:00",
         "items": []
       },
       {
@@ -1067,7 +1127,7 @@
         "home": "https://pluralistic.net/",
         "url": "https://pluralistic.net/feed/",
         "status": "ok",
-        "fetchedAt": "2026-07-28T00:02:49.849747+00:00",
+        "fetchedAt": "2026-07-28T04:10:21.290975+00:00",
         "items": [
           {
             "title": "Pluralistic: How the EU can punish Google (despite Trump) (27 Jul 2026)",
@@ -1137,9 +1197,70 @@
         "title": "Terence Eden",
         "home": "https://shkspr.mobi/blog/",
         "url": "https://shkspr.mobi/blog/feed/",
-        "status": "error",
-        "error": "HTTP 415",
-        "items": []
+        "status": "ok",
+        "fetchedAt": "2026-07-28T04:10:19.000208+00:00",
+        "items": [
+          {
+            "title": "Book Review: Dungeon Crawler Carl by Matt Dinniman ★★⯪☆☆",
+            "link": "https://shkspr.mobi/blog/2026/07/book-review-dungeon-crawler-carl-by-matt-dinniman/",
+            "date": "2026-07-26T11:34:33+00:00",
+            "summary": "To call this derivative is an understatement. But that&#039;s what this genre demands; rehash all your favourite media properties into something new. It&#039;s the literary equivalent of having your Transformers™ fight your He-Man© toys. The plot, such as it is, features the Vogon Constructor Fleet "
+          },
+          {
+            "title": "Some Quick Thoughts on EMF Camp 2026",
+            "link": "https://shkspr.mobi/blog/2026/07/some-quick-thoughts-on-emf-camp-2026/",
+            "date": "2026-07-25T11:34:01+00:00",
+            "summary": "I&#039;ve performed a talk at the last three EMFs - so this time I decided to go purely as a tourist. It made things much more relaxing. No waking up from a stress dream that my laptop didn&#039;t work. No casually dropping my talk into every conversation to build up an audience. No queueing for the"
+          },
+          {
+            "title": "Book Review: Foreign Fruit - A Personal History of the Orange by Katie Goh ★⯪☆☆☆",
+            "link": "https://shkspr.mobi/blog/2026/07/book-review-foreign-fruit-a-personal-history-of-the-orange-by-katie-goh/",
+            "date": "2026-07-24T11:34:07+00:00",
+            "summary": "I didn&#039;t care for this book. It attempts to interweave botanical and cultural history with an autobiography and ends up doing neither particularly well. For every dose of poetry about the far-flung and exotic journey of the fruit, there&#039;s a dull recitation of facts from Wikipedia. Occasion"
+          },
+          {
+            "title": "Scattered thoughts on social geolocation",
+            "link": "https://shkspr.mobi/blog/2026/07/scattered-thoughts-on-social-geolocation/",
+            "date": "2026-07-22T11:34:12+00:00",
+            "summary": "I want to be able to share my location with my friends on social media. Twitter (RIP) had a way to attach an optional location to a post. Facebook still lets me check in to venues. But neither ActivityPub (Mastodon) nor AT Protocol (BlueSky) allow me to do that. I&#039;ve been banging on about this "
+          },
+          {
+            "title": "Public Transport - Don't Make Me Think!",
+            "link": "https://shkspr.mobi/blog/2026/07/public-transport-dont-make-me-think/",
+            "date": "2026-07-20T11:34:23+00:00",
+            "summary": "In the last year, I&#039;ve been through over a dozen cities and used public transport in all of them. It is wild just how confusing and complex buying a ticket can be. While some cities obviously take a user-centred approach to ticketing, others appear to take a Kafkaesque delight in a bureaucratic"
+          },
+          {
+            "title": "Book Review: A City on Mars - by Dr. Kelly Weinersmith and Zach Weinersmith ★★★★⯪",
+            "link": "https://shkspr.mobi/blog/2026/07/book-review-a-city-on-mars-by-dr-kelly-weinersmith-and-zach-weinersmith/",
+            "date": "2026-07-18T11:34:18+00:00",
+            "summary": "I&#039;m pretty sure this book is a psyop designed to demoralise a generation of starry-eyed dreamers. It is obviously written by the same people who told us not to land on Europa. A malignant energy designed to limit the scope of human ambition and thwart our plans to colonise the universe. The pro"
+          },
+          {
+            "title": "Gadget Review: Thermal Master DV2 - Infrared Birdwatching Scope ★★★★⯪",
+            "link": "https://shkspr.mobi/blog/2026/07/gadget-review-thermal-master-dv2-infrared-birdwatching-scope/",
+            "date": "2026-07-16T11:34:50+00:00",
+            "summary": "The good folks at Thermal Master have sent me their DV2 camera to review. As their name suggests, this is a thermal / infrared camera - they&#039;ve specifically designed this for bird watching and animal spotting. Let&#039;s put it through its paces and see how it compares to the competition! Strai"
+          },
+          {
+            "title": "I'm a USB-C Maximalist",
+            "link": "https://shkspr.mobi/blog/2026/07/im-a-usb-c-maximalist/",
+            "date": "2026-07-14T11:34:26+00:00",
+            "summary": "My wife and I recently went on a 7 week holiday around Europe. Although we each took a massive backpack, we wanted to travel fairly lightly. I took a single universal power brick. This little unit was all I needed to charge my various gadgets. It has a hefty USB-C PD (Power Delivery) port for rapid "
+          },
+          {
+            "title": "[RSS Club] Half a million steps is about 10 marathons",
+            "link": "https://shkspr.mobi/blog/2026/07/rss-club-half-a-million-steps-is-about-10-marathons/",
+            "date": "2026-07-13T11:34:09+00:00",
+            "summary": "Shhh! RSS Club posts are only available to feed subscribers. Keep the secret! I&#039;m not a big fan of the &#34;Quantified Self&#34; movement, but since buying a ridiculously cheap smartwatch, I&#039;ve been interested to see just how many steps I take per day. During our recent Interrail holiday, "
+          },
+          {
+            "title": "Another Ridiculous Interrail Holiday - 6,379Km and 13 Countries over 7 weeks",
+            "link": "https://shkspr.mobi/blog/2026/07/another-ridiculous-interrail-holiday-6379km-and-13-countries-over-7-weeks/",
+            "date": "2026-07-12T11:34:43+00:00",
+            "summary": "Last year, my wife and I went on a 5,025 Km Interrail adventure. We got the month-long unlimited pass and saw 10 Countries in 30 Days. That was a bit too intense. So this year we got the 15 travel days in 2 months package. We grabbed the 1st class tickets when they went on sale in December. Here&#03"
+          }
+        ]
       },
       {
         "id": "lcamtuf",
@@ -1158,7 +1279,7 @@
         "home": "https://mitchellh.com/",
         "url": "https://mitchellh.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-28T00:02:46.760235+00:00",
+        "fetchedAt": "2026-07-28T04:10:18.060338+00:00",
         "items": [
           {
             "title": "Everyone Should Know SIMD",
@@ -1229,7 +1350,7 @@
         "home": "https://dynomight.net/",
         "url": "https://dynomight.net/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-28T00:02:46.861267+00:00",
+        "fetchedAt": "2026-07-28T04:10:18.010810+00:00",
         "items": [
           {
             "title": "Does creatine make you smarter?",
@@ -1300,7 +1421,7 @@
         "home": "https://xeiaso.net/",
         "url": "https://xeiaso.net/blog.rss",
         "status": "ok",
-        "fetchedAt": "2026-07-28T00:02:47.331205+00:00",
+        "fetchedAt": "2026-07-28T04:10:18.542227+00:00",
         "items": [
           {
             "title": "Presigned URLs are technically a security vuln",
@@ -1371,7 +1492,7 @@
         "home": "https://devblogs.microsoft.com/oldnewthing/",
         "url": "https://devblogs.microsoft.com/oldnewthing/feed",
         "status": "ok",
-        "fetchedAt": "2026-07-28T00:02:46.882567+00:00",
+        "fetchedAt": "2026-07-28T04:10:18.111888+00:00",
         "items": [
           {
             "title": "Making an agile version of a Windows Runtime delegate in C++/WinRT, part 6",
@@ -1442,7 +1563,7 @@
         "home": "https://www.righto.com/",
         "url": "https://www.righto.com/feeds/posts/default",
         "status": "ok",
-        "fetchedAt": "2026-07-28T00:02:46.809504+00:00",
+        "fetchedAt": "2026-07-28T04:10:17.970966+00:00",
         "items": []
       },
       {
@@ -1452,7 +1573,7 @@
         "home": "https://lucumr.pocoo.org/",
         "url": "https://lucumr.pocoo.org/feed.atom",
         "status": "ok",
-        "fetchedAt": "2026-07-28T00:02:46.794122+00:00",
+        "fetchedAt": "2026-07-28T04:10:17.947002+00:00",
         "items": [
           {
             "title": "Codeberg Divides",
@@ -1523,7 +1644,7 @@
         "home": "https://skyfall.dev/",
         "url": "https://skyfall.dev/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-28T00:02:47.128353+00:00",
+        "fetchedAt": "2026-07-28T04:10:18.058666+00:00",
         "items": [
           {
             "title": "Good riddance, 4o",
@@ -1598,7 +1719,7 @@
         "home": "https://overreacted.io/",
         "url": "https://overreacted.io/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-28T00:02:46.570478+00:00",
+        "fetchedAt": "2026-07-28T04:10:17.987470+00:00",
         "items": [
           {
             "title": "There Are No Instances in atproto",
@@ -1669,7 +1790,7 @@
         "home": "https://www.johndcook.com/",
         "url": "https://www.johndcook.com/blog/feed/",
         "status": "ok",
-        "fetchedAt": "2026-07-28T00:02:46.867239+00:00",
+        "fetchedAt": "2026-07-28T04:10:18.078945+00:00",
         "items": [
           {
             "title": "Hiding data in permutations",
@@ -1740,7 +1861,7 @@
         "home": "https://matklad.github.io/",
         "url": "https://matklad.github.io/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-28T00:02:47.004033+00:00",
+        "fetchedAt": "2026-07-28T04:10:17.724146+00:00",
         "items": [
           {
             "title": "Memory Safety's Hardest Problem",
@@ -1811,7 +1932,7 @@
         "home": "https://eli.thegreenplace.net/",
         "url": "https://eli.thegreenplace.net/feeds/all.atom.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-28T00:02:47.020384+00:00",
+        "fetchedAt": "2026-07-28T04:10:18.356904+00:00",
         "items": [
           {
             "title": "Notes on the Fourier Transform",
@@ -1852,7 +1973,7 @@
         "home": "https://fabiensanglard.net/",
         "url": "https://fabiensanglard.net/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-28T00:02:47.102335+00:00",
+        "fetchedAt": "2026-07-28T04:10:18.487416+00:00",
         "items": [
           {
             "title": "Jurassic Park computers in excruciating detail",
@@ -1923,7 +2044,7 @@
         "home": "https://blog.miguelgrinberg.com/",
         "url": "https://blog.miguelgrinberg.com/feed",
         "status": "ok",
-        "fetchedAt": "2026-07-28T00:02:47.683508+00:00",
+        "fetchedAt": "2026-07-28T04:10:18.749682+00:00",
         "items": [
           {
             "title": "I Am Not a Reverse Centaur",
@@ -1994,7 +2115,7 @@
         "home": "https://www.troyhunt.com/",
         "url": "https://www.troyhunt.com/rss/",
         "status": "ok",
-        "fetchedAt": "2026-07-28T00:02:46.778567+00:00",
+        "fetchedAt": "2026-07-28T04:10:17.978613+00:00",
         "items": [
           {
             "title": "Weekly Update 514: This Week in Data Breaches",
@@ -2065,7 +2186,7 @@
         "home": "https://anildash.com/",
         "url": "https://anildash.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-28T00:02:47.018387+00:00",
+        "fetchedAt": "2026-07-28T04:10:18.301451+00:00",
         "items": [
           {
             "title": "Defending Privacy, Daily",
@@ -2136,7 +2257,7 @@
         "home": "https://computer.rip/",
         "url": "https://computer.rip/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-28T00:02:47.655004+00:00",
+        "fetchedAt": "2026-07-28T04:10:18.826806+00:00",
         "items": [
           {
             "title": "email encryption",
@@ -2217,7 +2338,7 @@
         "home": "http://paulgraham.com/",
         "url": "http://www.aaronsw.com/2002/feeds/pgessays.rss",
         "status": "ok",
-        "fetchedAt": "2026-07-28T00:02:46.758248+00:00",
+        "fetchedAt": "2026-07-28T04:10:18.128039+00:00",
         "items": [
           {
             "title": "Superlinear Returns",
@@ -2288,7 +2409,7 @@
         "home": "https://steveblank.com/",
         "url": "https://steveblank.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-07-28T00:02:46.788133+00:00",
+        "fetchedAt": "2026-07-28T04:10:18.221262+00:00",
         "items": [
           {
             "title": "Lean Launch Pad 2026 @ Stanford – Lessons Learned Presentations",
@@ -2361,7 +2482,7 @@
         "home": "https://news.ycombinator.com/",
         "url": "https://news.ycombinator.com/rss",
         "status": "ok",
-        "fetchedAt": "2026-07-28T00:02:47.057314+00:00",
+        "fetchedAt": "2026-07-28T04:10:18.157825+00:00",
         "items": [
           {
             "title": "Our position on open-weights models",
@@ -2370,9 +2491,15 @@
             "summary": "Comments"
           },
           {
-            "title": "DConf 2026 in London",
-            "link": "https://dconf.org/2026/index.html",
-            "date": "2026-07-27T23:14:19+00:00",
+            "title": "Using an open model feels surprisingly good",
+            "link": "https://matthewsaltz.com/blog/using-an-open-model-feels-surprisingly-good/",
+            "date": "2026-07-28T02:37:14+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "A $500 RL fine-tune of a 9B open model beat frontier models on catalog review",
+            "link": "https://fermisense.com/when-machines-take-the-wheel/",
+            "date": "2026-07-28T02:18:53+00:00",
             "summary": "Comments"
           },
           {
@@ -2382,45 +2509,39 @@
             "summary": "Comments"
           },
           {
+            "title": "Astronauts describe persistent 'observer' sensation after 6 month missions",
+            "link": "https://spacedaily.com/sd-v-astronauts-returning-from-six-month-missions-describe-a-persistent-observer-sensation-the-feeling-of-watching-their-own-lives-from-a-half-step-outside-the-frame-weeks-after-theyr/",
+            "date": "2026-07-27T23:19:19+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "Residential Proxies Are a National Security Threat",
+            "link": "https://jacob.gold/posts/residential-proxies-are-a-national-security-threat/",
+            "date": "2026-07-28T01:51:18+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "RTX 2080 Ti Memory Upgrade to 22 GB",
+            "link": "https://gpusolutions.net/rbservices/graphics-card-upgrade/",
+            "date": "2026-07-24T20:35:21+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "EYG: A Programming Language for Humans",
+            "link": "https://crowdhailer.me/2026-06-08/a-programming-language-for-humans/",
+            "date": "2026-07-28T02:21:37+00:00",
+            "summary": "Comments"
+          },
+          {
             "title": "Watching Go's new garbage collector move through the heap",
             "link": "https://theconsensus.dev/p/2026/07/19/observing-gos-garbage-collector-old-and-new.html",
             "date": "2026-07-25T07:55:19+00:00",
             "summary": "Comments"
           },
           {
-            "title": "America has become an entrepreneur's paradise",
-            "link": "https://www.economist.com/business/2026/07/27/america-has-become-an-entrepreneurs-paradise",
-            "date": "2026-07-27T23:04:13+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "Launch HN: Rise Reforming (YC S26) – Turning Waste Gases into Valuable Chemicals",
-            "link": "https://www.rise-reforming.com",
-            "date": "2026-07-27T19:58:22+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "Show HN: Dowe – A full-stack language for server, web, desktop, Android, and iOS",
-            "link": "https://www.dowe.dev",
-            "date": "2026-07-27T23:26:05+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "C/C++ projects packaged for Zig",
-            "link": "https://github.com/allyourcodebase",
-            "date": "2026-07-27T23:09:50+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "Hard Road – A beautiful procedural post-apocalyptic game",
-            "link": "https://hardroad.xyz/",
-            "date": "2026-07-27T22:36:55+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "Securing Services with Rootless Containers",
-            "link": "https://blog.coderspirit.xyz/blog/2026/07/06/securing-services-with-rootless-containers/",
-            "date": "2026-07-23T13:11:30+00:00",
+            "title": "DConf 2026 in London",
+            "link": "https://dconf.org/2026/index.html",
+            "date": "2026-07-27T23:14:19+00:00",
             "summary": "Comments"
           }
         ]
@@ -2432,8 +2553,26 @@
         "home": "https://www.techmeme.com/",
         "url": "https://www.techmeme.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-28T00:02:47.111047+00:00",
+        "fetchedAt": "2026-07-28T04:10:18.385021+00:00",
         "items": [
+          {
+            "title": "At market open Korean chipmakers' stocks plunged, with Samsung Electronics dropping 11%+, SK Hynix down 12%+, and the Korea Composite Stock Price Index down 9%+ (Youkyung Lee/Bloomberg)",
+            "link": "https://www.techmeme.com/260727/p37#a260727p37",
+            "date": "2026-07-27T22:05:01-04:00",
+            "summary": "Youkyung Lee / Bloomberg: At market open Korean chipmakers' stocks plunged, with Samsung Electronics dropping 11%+, SK Hynix down 12%+, and the Korea Composite Stock Price Index down 9%+&nbsp; &mdash;&nbsp; South Korean stocks plunged, dragged by the nation's memory chipmaking powerhouses as investo"
+          },
+          {
+            "title": "ChatGPT appears to block direct requests to copy an author's style, instead offering to capture the overall \"feeling\", amid its legal battles with book authors (Kyle Orland/Ars Technica)",
+            "link": "https://www.techmeme.com/260727/p36#a260727p36",
+            "date": "2026-07-27T21:40:01-04:00",
+            "summary": "Kyle Orland / Ars Technica: ChatGPT appears to block direct requests to copy an author's style, instead offering to capture the overall &ldquo;feeling&rdquo;, amid its legal battles with book authors&nbsp; &mdash;&nbsp; OpenAI's ChatGPT is now refusing requests to generate text that directly mimics "
+          },
+          {
+            "title": "Several digital-asset treasury firms have pivoted to AI amid a slump in crypto prices, but their poor stock performance suggests the strategy is not working (Monique Mulima/Bloomberg)",
+            "link": "https://www.techmeme.com/260727/p35#a260727p35",
+            "date": "2026-07-27T20:30:01-04:00",
+            "summary": "Monique Mulima / Bloomberg: Several digital-asset treasury firms have pivoted to AI amid a slump in crypto prices, but their poor stock performance suggests the strategy is not working&nbsp; &mdash;&nbsp; The implosion of the once-hot market for cryptocurrency treasury stocks is prompting a number o"
+          },
           {
             "title": "Apple releases updates for iOS, macOS, iPadOS, watchOS, tvOS, and visionOS with a huge number of security fixes; macOS Tahoe 26.6 alone addresses 155 CVEs (Zac Hall/9to5Mac)",
             "link": "https://www.techmeme.com/260727/p34#a260727p34",
@@ -2475,24 +2614,6 @@
             "link": "https://www.techmeme.com/260727/p28#a260727p28",
             "date": "2026-07-27T15:40:01-04:00",
             "summary": "Zac Hall / 9to5Mac: X rolls out X Money to US Premium and Premium+ subscribers, combining a deposit account with up to 6% APY, free instant transfers on X, and a Visa debit card&nbsp; &mdash;&nbsp; X has officially launched X Money, which includes Apple Wallet support, moving the service beyond its "
-          },
-          {
-            "title": "The US National Vulnerabilities Database recorded 45,207 software security flaws so far in 2026, on pace to roughly double the tally of flaws recorded in 2025 (Patrick Howell O'Neill/Bloomberg)",
-            "link": "https://www.techmeme.com/260727/p27#a260727p27",
-            "date": "2026-07-27T14:25:01-04:00",
-            "summary": "Patrick Howell O'Neill / Bloomberg: The US National Vulnerabilities Database recorded 45,207 software security flaws so far in 2026, on pace to roughly double the tally of flaws recorded in 2025&nbsp; &mdash;&nbsp; The number of software security flaws discovered in popular technology products in 20"
-          },
-          {
-            "title": "Xbox says it is working to resolve a \"major outage\" affecting its Account & Profile, Store & Subscriptions, and Apps & Mobile services (Chris Scullion/Video Games Chronicle)",
-            "link": "https://www.techmeme.com/260727/p26#a260727p26",
-            "date": "2026-07-27T13:40:01-04:00",
-            "summary": "Chris Scullion / Video Games Chronicle: Xbox says it is working to resolve a &ldquo;major outage&rdquo; affecting its Account &amp; Profile, Store &amp; Subscriptions, and Apps &amp; Mobile services&nbsp; &mdash;&nbsp; PLAYERS ARE REPORTING HAVING ISSUES WHEN TRYING TO SIGN IN OR SEE THEIR LIBRARY&n"
-          },
-          {
-            "title": "Microsoft says MAI-Cyber-1-Flash and MDASH, its vulnerability identification harness, deliver \"world-class performance at 50% of the cost of leading models\" (Microsoft AI)",
-            "link": "https://www.techmeme.com/260727/p25#a260727p25",
-            "date": "2026-07-27T13:10:00-04:00",
-            "summary": "Microsoft AI: Microsoft says MAI-Cyber-1-Flash and MDASH, its vulnerability identification harness, deliver &ldquo;world-class performance at 50% of the cost of leading models&rdquo;&nbsp; &mdash;&nbsp; Today we're announcing MAI-Cyber-1-Flash inside of MDASH, our multi-agent vulnerability identific"
           }
         ]
       },
@@ -2503,8 +2624,14 @@
         "home": "https://techcrunch.com/",
         "url": "https://techcrunch.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-07-28T00:02:46.616061+00:00",
+        "fetchedAt": "2026-07-28T04:10:18.166453+00:00",
         "items": [
+          {
+            "title": "Anthropic’s Dario Amodei responds: doesn’t oppose open-weight models, but fears Chinese AI",
+            "link": "https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai/",
+            "date": "2026-07-28T00:13:33+00:00",
+            "summary": "Anthropic founder and CEO Dario Amodei made his views clear about open-weight models and China's growing AI capabilities."
+          },
           {
             "title": "Satya Nadella says companies that trust one AI for everything may not survive",
             "link": "https://techcrunch.com/2026/07/27/satya-nadella-says-companies-that-trust-one-ai-for-everything-may-not-survive/",
@@ -2558,12 +2685,6 @@
             "link": "https://techcrunch.com/2026/07/27/openais-hugging-face-breach-has-reignited-the-debate-over-alignment-and-control/",
             "date": "2026-07-27T17:28:42+00:00",
             "summary": "OpenAI's Hugging Face breach has reignited debate over AI alignment and control, exposing competing views on whether increasingly capable AI should be better aligned, better contained, or both."
-          },
-          {
-            "title": "Threads users can now chat with Meta AI in their DMs",
-            "link": "https://techcrunch.com/2026/07/27/threads-users-can-now-chat-with-meta-ai-in-their-dms/",
-            "date": "2026-07-27T16:45:24+00:00",
-            "summary": "Meta on Monday said it is rolling out its Meta AI chatbot within Threads' DMs, giving users a way to chat with the AI assistant."
           }
         ]
       },
@@ -2574,8 +2695,14 @@
         "home": "https://techcrunch.com/category/artificial-intelligence/",
         "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
         "status": "ok",
-        "fetchedAt": "2026-07-28T00:02:46.617986+00:00",
+        "fetchedAt": "2026-07-28T04:10:18.179949+00:00",
         "items": [
+          {
+            "title": "Anthropic’s Dario Amodei responds: doesn’t oppose open-weight models, but fears Chinese AI",
+            "link": "https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai/",
+            "date": "2026-07-28T00:13:33+00:00",
+            "summary": "Anthropic founder and CEO Dario Amodei made his views clear about open-weight models and China's growing AI capabilities."
+          },
           {
             "title": "Satya Nadella says companies that trust one AI for everything may not survive",
             "link": "https://techcrunch.com/2026/07/27/satya-nadella-says-companies-that-trust-one-ai-for-everything-may-not-survive/",
@@ -2629,12 +2756,6 @@
             "link": "https://techcrunch.com/2026/07/27/ilya-sutskevers-safe-superintelligence-partners-with-nvidia-to-scale-its-ai-research/",
             "date": "2026-07-27T15:01:50+00:00",
             "summary": "After two years in stealth, Safe Superintelligence has announced a long-term partnership with Nvidia as it prepares to scale to its next phase."
-          },
-          {
-            "title": "Enigma raises $71M to make controlling a robot as easy as adjusting the volume",
-            "link": "https://techcrunch.com/2026/07/27/enigma-raises-70m-to-make-controlling-a-robot-as-easy-as-adjusting-the-volume/",
-            "date": "2026-07-27T13:00:00+00:00",
-            "summary": "The massive seed round was led by Index Ventures and Ribbit Capital, with participation from Sarah Guo's Conviction Partners."
           }
         ]
       },
@@ -2645,7 +2766,7 @@
         "home": "https://techcrunch.com/tag/funding/",
         "url": "https://techcrunch.com/tag/funding/feed/",
         "status": "ok",
-        "fetchedAt": "2026-07-28T00:02:46.815577+00:00",
+        "fetchedAt": "2026-07-28T04:10:18.213641+00:00",
         "items": [
           {
             "title": "AI chip maker SambaNova raises $1B at $11B valuation, 5 months after last mega round",
@@ -2716,8 +2837,14 @@
         "home": "https://venturebeat.com/",
         "url": "https://venturebeat.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-07-28T00:02:46.640033+00:00",
+        "fetchedAt": "2026-07-28T04:10:17.769593+00:00",
         "items": [
+          {
+            "title": "Kimi K3's full weights are here, but they're 'open' with a caveat: What enterprises should know",
+            "link": "https://venturebeat.com/technology/kimi-k3s-full-weights-are-here-but-theyre-open-with-a-caveat-what-enterprises-should-know",
+            "date": "2026-07-28T02:08:51+00:00",
+            "summary": "Chinese AI startup Moonshot AI, creators of the increasingly famous &quot;Kimi K&quot; family of powerful, open AI models, today released the full weights for its largest and most performant version yet — Kimi K3. But enterprises evaluating the model should read the attached custom Kimi K3 usage lic"
+          },
           {
             "title": "Microsoft launches AI cybersecurity model, agentic defense platform to cut enterprise security costs",
             "link": "https://venturebeat.com/security/microsoft-launches-ai-cybersecurity-model-agentic-defense-platform-to-cut-enterprise-security-costs",
@@ -2753,12 +2880,6 @@
             "link": "https://venturebeat.com/technology/venturebeat-research-where-enterprise-ai-agent-governance-hasnt-caught-up",
             "date": "2026-07-24T19:34:29+00:00",
             "summary": "Enterprises deployed AI agents ahead of the controls needed to manage them — and they did it knowingly. That is the central finding across the five parallel surveys VentureBeat Research fielded in June, spanning every layer of the agentic stack. Now those enterprises are retrofitting to catch up wit"
-          },
-          {
-            "title": "Anthropic launches Claude Opus 5, a cheaper AI model for coding, agents and enterprise workflows",
-            "link": "https://venturebeat.com/orchestration/anthropic-launches-claude-opus-5-a-cheaper-ai-model-for-coding-agents-and-enterprise-workflows",
-            "date": "2026-07-24T17:00:00+00:00",
-            "summary": "Anthropic released Claude Opus 5 on Friday, a model the company says delivers nearly all the intelligence of its top-of-the-line Claude Fable 5 at half the cost — a launch that signals how the AI race is shifting from raw capability to the economics of daily use.The model, available immediately on a"
           }
         ]
       },
@@ -2769,7 +2890,7 @@
         "home": "https://venturebeat.com/category/ai/",
         "url": "https://venturebeat.com/category/ai/feed/",
         "status": "ok",
-        "fetchedAt": "2026-07-28T00:02:46.846627+00:00",
+        "fetchedAt": "2026-07-28T04:10:17.919027+00:00",
         "items": [
           {
             "title": "Google just redesigned the search box for the first time in 25 years — here’s why it matters more than you think.",
@@ -2824,12 +2945,12 @@
         "home": "https://www.ruanyifeng.com/blog/",
         "url": "https://www.ruanyifeng.com/blog/atom.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-28T00:02:46.741524+00:00",
+        "fetchedAt": "2026-07-28T04:10:17.959284+00:00",
         "items": [
           {
             "title": "科技爱好者周刊（第 405 期）：资源，社会公平与算力",
             "link": "http://www.ruanyifeng.com/blog/2026/07/weekly-issue-405.html",
-            "date": "2026-07-27T15:50:55+00:00",
+            "date": "2026-07-28T00:58:50+00:00",
             "summary": "这里记录每周值得分享的科技内容，周五发布。..."
           },
           {
@@ -2841,7 +2962,7 @@
           {
             "title": "科技爱好者周刊（第 403 期）：为什么 Dropbox 不成功",
             "link": "http://www.ruanyifeng.com/blog/2026/07/weekly-issue-403.html",
-            "date": "2026-07-17T06:30:39+00:00",
+            "date": "2026-07-27T23:58:44+00:00",
             "summary": "这里记录每周值得分享的科技内容，周五发布。..."
           }
         ]
@@ -2853,19 +2974,13 @@
         "home": "https://www.bestblogs.dev/",
         "url": "https://www.bestblogs.dev/zh/feeds/rss?category=ai&minScore=90",
         "status": "ok",
-        "fetchedAt": "2026-07-28T00:02:46.990194+00:00",
+        "fetchedAt": "2026-07-28T04:10:19.032411+00:00",
         "items": [
           {
-            "title": "【Agentic RL / 强化学习 / OPD】OpenClaw-RL 源码阅读笔记 --- (12)--- GRPO",
-            "link": "https://www.bestblogs.dev/article/18c23147e1?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
-            "date": "2026-07-27T12:47:00+00:00",
-            "summary": "📌 一句话摘要 本文通过对 OpenClaw-RL 源码的深度解析，探讨了 GRPO 算法原理及其在在线对话场景下因无法批量采样而导致的算法退化问题，并提出了多种工程优化方案。 📝 详细摘要 本文是 OpenClaw-RL 源码阅读系列笔记的第 12 部分，核心聚焦于 GRPO (Group Relative Policy Optimization) 算法。作者首先对比了标准 PPO 与 GRPO 的差异，阐述了 GRPO 如何通过组内相对排名替代 Value Model 来估计 Advantage，从而降低计算成本。随后，文章深入剖析了 OpenClaw-RL 的具体实现，指出由于在线对话场"
-          },
-          {
-            "title": "离开字节、商汤之后，他要给 AI 创造一个真实世界",
-            "link": "https://www.bestblogs.dev/article/f73932c768?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
-            "date": "2026-07-27T08:59:00+00:00",
-            "summary": "📌 一句话摘要 本文通过对 iLands 创始人唐踹鑫的深度访谈，探讨了如何通过构建具有真实资源约束、经济激励与社会规则的共享网络，让 AI Agent 在真实经验流中实现自我进化与群体智能的涌现。 📝 详细摘要 文章记录了 iLands 创始人唐踹鑫关于 AI Agent 进化路径的深刻洞察。不同于单纯追求模型参数规模（Scaling）的路径，iLands 试图为 AI Agent 提供一个“真实世界”：通过引入 Token 作为生存成本（氧气），建立起包含雇佣、交易、协作与治理的社会经济网络。访谈揭示了 Agent 在该环境下展现出的惊人涌现行为，如自发建立互助会、发明信用体系（赊账）以及"
+            "title": "11 年，110 亿美金，然后呢？｜对话 Airwallex 吴恺：AI 时代，下一站 1000 亿",
+            "link": "https://www.bestblogs.dev/podcast/39ff94634?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
+            "date": "2026-07-26T16:00:00+00:00",
+            "summary": "📌 一句话摘要 Airwallex CRO 吴恺深度复盘从 0 到 110 亿美金的 11 年历程，分享拒绝收购、先亏四年铺全球网络等关键抉择，并揭示 AI 如何驱动公司从金融基础设施走向“超级智能入口”的千亿美金愿景。 📝 详细摘要 本期对话 Airwallex 首席营收官吴恺，全面拆解了这家从墨尔本起家、如今估值 110 亿美金的全球金融科技巨头的创业历程与未来战略。吴恺分享了公司在关键节点的艰难选择：在 B 轮时拒绝 Stripe 的收购要约；为构建全球支付网络不惜亏损四年，而非选择先在单一区域盈利。在 AI 浪潮下，Airwallex 凭借服务 Kimi、DeepSeek 等大模型公司"
           },
           {
             "title": "字节发了一张\"永远最新\"的模型卡片，我拿三个真实任务帮你测了测",
@@ -2914,12 +3029,328 @@
             "link": "https://www.bestblogs.dev/article/5e96e13346?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
             "date": "2026-07-22T10:25:00+00:00",
             "summary": "📌 一句话摘要 本文通过四位 ToB 行业资深人士的圆桌对话，深度拆解了企业 AI 落地过程中的认知错位、资源瓶颈、信任危机及幻觉治理等核心痛点，并提出了从“工具”向“数字同事”进化的路径。 📝 详细摘要 文章记录了一场关于企业 AI 落地的深度圆桌讨论。四位来自大数据与企服领域的资深专家（Kyligence、数猎天下、数势科技、实在智能）分享了实战经验。核心观点包括：客户期望极高但预算与资源（如显卡、数据开放度）严重不足，导致落地方程无解；企业 AI 面临“POC 成功但上线难”的信任困境，解决标准应是“不输于人”；解决 AI 幻觉的关键不在于单纯追求大模型规模，而在于通过工程化手段（如提供"
+          },
+          {
+            "title": "从 58% 到 98%：Codex Code Review 用 AGENTS.md 补上 AI 代码审查的最大短板",
+            "link": "https://www.bestblogs.dev/status/2079742073440473422?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
+            "date": "2026-07-22T01:35:24+00:00",
+            "summary": "📌 一句话摘要 OpenAI 为 Codex Code Review 引入自定义仓库规则，通过 AGENTS.md 文件将资深审查员的隐性知识编码化，使审查召回率从 58% 提升至 98%。 📝 详细摘要 本文深度解读了 OpenAI 为 Codex Code Review 推出的新功能：允许团队在 AGENTS.md 文件中定义自定义审查规则。核心机制是将资深审查员脑中的隐性知识（如“为什么这个字段不能动”）显性化，让 AI 在审查时能发现仅从代码 diff 看不出的破坏性变更。文章引用了 OpenAI 的真实案例，并详细剖析了评测的四个维度（覆盖率、克制、保持、可操作性），其中特别强调了“"
           }
         ]
       }
     ]
   },
   "allItems": [
+    {
+      "title": "Using an open model feels surprisingly good",
+      "link": "https://matthewsaltz.com/blog/using-an-open-model-feels-surprisingly-good/",
+      "date": "2026-07-28T02:37:14+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "EYG: A Programming Language for Humans",
+      "link": "https://crowdhailer.me/2026-06-08/a-programming-language-for-humans/",
+      "date": "2026-07-28T02:21:37+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "A $500 RL fine-tune of a 9B open model beat frontier models on catalog review",
+      "link": "https://fermisense.com/when-machines-take-the-wheel/",
+      "date": "2026-07-28T02:18:53+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "Kimi K3's full weights are here, but they're 'open' with a caveat: What enterprises should know",
+      "link": "https://venturebeat.com/technology/kimi-k3s-full-weights-are-here-but-theyre-open-with-a-caveat-what-enterprises-should-know",
+      "date": "2026-07-28T02:08:51+00:00",
+      "summary": "Chinese AI startup Moonshot AI, creators of the increasingly famous &quot;Kimi K&quot; family of powerful, open AI models, today released the full weights for its largest and most performant version yet — Kimi K3. But enterprises evaluating the model should read the attached custom Kimi K3 usage lic",
+      "feedId": "venturebeat",
+      "feedTitle": "VentureBeat",
+      "category": "Startup & News",
+      "feedHome": "https://venturebeat.com/"
+    },
+    {
+      "title": "Residential Proxies Are a National Security Threat",
+      "link": "https://jacob.gold/posts/residential-proxies-are-a-national-security-threat/",
+      "date": "2026-07-28T01:51:18+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "[Sponsor] Introducing Agent Fone",
+      "link": "https://fail.xyz/phone/",
+      "date": "2026-07-28T01:32:02+00:00",
+      "summary": "Every phone now ships with an assistant. You ask, it answers. Lame. We built a phone that writes software instead. The app idea you’ve had in your notes for years. The side hustle you will never get around to building. The weird thing only you would want. Describe it, answer a few questions, and it’",
+      "feedId": "daringfireball",
+      "feedTitle": "Daring Fireball",
+      "category": "Tech Blogs",
+      "feedHome": "https://daringfireball.net/"
+    },
+    {
+      "title": "‘Always Choose the Good Soap’",
+      "link": "https://sixcolors.com/post/2026/07/always-choose-the-good-soap/",
+      "date": "2026-07-28T01:30:32+00:00",
+      "summary": "Jason Snell: Apple’s most valuable asset is its brand. Not its real estate, not its intellectual property, not even any particular product. Even the mighty iPhone has no value if, over time, the traits that differentiate it from competitor products are erased. Apple’s brand has always stood for high",
+      "feedId": "daringfireball",
+      "feedTitle": "Daring Fireball",
+      "category": "Tech Blogs",
+      "feedHome": "https://daringfireball.net/"
+    },
+    {
+      "title": "科技爱好者周刊（第 405 期）：资源，社会公平与算力",
+      "link": "http://www.ruanyifeng.com/blog/2026/07/weekly-issue-405.html",
+      "date": "2026-07-28T00:58:50+00:00",
+      "summary": "这里记录每周值得分享的科技内容，周五发布。...",
+      "feedId": "ruanyifeng",
+      "feedTitle": "阮一峰的网络日志",
+      "category": "中文",
+      "feedHome": "https://www.ruanyifeng.com/blog/"
+    },
+    {
+      "title": "Anthropic’s Dario Amodei responds: doesn’t oppose open-weight models, but fears Chinese AI",
+      "link": "https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai/",
+      "date": "2026-07-28T00:13:33+00:00",
+      "summary": "Anthropic founder and CEO Dario Amodei made his views clear about open-weight models and China's growing AI capabilities.",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "Anthropic’s Dario Amodei responds: doesn’t oppose open-weight models, but fears Chinese AI",
+      "link": "https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai/",
+      "date": "2026-07-28T00:13:33+00:00",
+      "summary": "Anthropic founder and CEO Dario Amodei made his views clear about open-weight models and China's growing AI capabilities.",
+      "feedId": "techcrunch-ai",
+      "feedTitle": "TechCrunch AI",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
+    },
+    {
+      "title": "Concept-based Visual Counterfactual Explanations with Diffusion Models",
+      "link": "https://arxiv.org/abs/2607.22544",
+      "date": "2026-07-28T00:00:00-04:00",
+      "summary": "arXiv:2607.22544v1 Announce Type: new Abstract: Visual counterfactual explanations aim to answer \"what minimal change to this image would flip the model's prediction?\", and are increasingly important as vision models are deployed in safety-critical domains (e.g., medicine). Existing diffusion-based ",
+      "feedId": "arxiv-ai",
+      "feedTitle": "arXiv cs.AI",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.AI/recent"
+    },
+    {
+      "title": "SeT-Diff: Towards Semantic Foundation Models for HPC Telemetry and Time-Series",
+      "link": "https://arxiv.org/abs/2607.22548",
+      "date": "2026-07-28T00:00:00-04:00",
+      "summary": "arXiv:2607.22548v1 Announce Type: new Abstract: Data centers and their compute nodes require accurate and flexible digital twins capable of modeling the complex interplay of workloads, environmental parameters, and physical metrics. Current machine learning approaches for HPC and its telemetry typic",
+      "feedId": "arxiv-ai",
+      "feedTitle": "arXiv cs.AI",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.AI/recent"
+    },
+    {
+      "title": "QFoldAgent: An Autonomous Quantum Optimization Multi-Agent System for Protein Structure Prediction",
+      "link": "https://arxiv.org/abs/2607.22549",
+      "date": "2026-07-28T00:00:00-04:00",
+      "summary": "arXiv:2607.22549v1 Announce Type: new Abstract: Hybrid quantum-classical protein structure prediction depends strongly on Hamiltonian penalty weights, yet existing lattice-based workflows typically fix these coefficients by hand and evaluate only very short fragments in simulation. We present QFoldA",
+      "feedId": "arxiv-ai",
+      "feedTitle": "arXiv cs.AI",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.AI/recent"
+    },
+    {
+      "title": "Same Question, Different Answers: Evaluating LLM Reliability Beyond Accuracy",
+      "link": "https://arxiv.org/abs/2607.22554",
+      "date": "2026-07-28T00:00:00-04:00",
+      "summary": "arXiv:2607.22554v1 Announce Type: new Abstract: Large language models (LLMs) often achieve strong accuracy on benchmarks, yet it remains unclear how reliably they apply this knowledge when the same question is phrased in different but equivalent ways. In this work, we study how model answers change ",
+      "feedId": "arxiv-ai",
+      "feedTitle": "arXiv cs.AI",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.AI/recent"
+    },
+    {
+      "title": "DeepLens Diagnosis Agent: Agentic Workflow Design Lets a Small Reasoning Model Compete with Frontier LLMs",
+      "link": "https://arxiv.org/abs/2607.22555",
+      "date": "2026-07-28T00:00:00-04:00",
+      "summary": "arXiv:2607.22555v1 Announce Type: new Abstract: Medical diagnosis is a multi-stage process: extract facts, consult knowledge, generate a differential analysis, and select the best diagnosis with explanations. Frontier LLMs are strong generalists, but single-shot prompting often yields brittle diagno",
+      "feedId": "arxiv-ai",
+      "feedTitle": "arXiv cs.AI",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.AI/recent"
+    },
+    {
+      "title": "MIITA: Memory-Induced Inference-Time Adaptation for Continual Learning with Small Language Models",
+      "link": "https://arxiv.org/abs/2607.22556",
+      "date": "2026-07-28T00:00:00-04:00",
+      "summary": "arXiv:2607.22556v1 Announce Type: new Abstract: Continual learning (CL) is essential for small language models (SLMs) to adapt to evolving real-world needs in resource-constrained deployments. However, directly updating their limited parameter space causes catastrophic forgetting. While memory-based",
+      "feedId": "arxiv-ai",
+      "feedTitle": "arXiv cs.AI",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.AI/recent"
+    },
+    {
+      "title": "Codifying the Judge: Scalable Evaluation via Program Distillation",
+      "link": "https://arxiv.org/abs/2607.22561",
+      "date": "2026-07-28T00:00:00-04:00",
+      "summary": "arXiv:2607.22561v1 Announce Type: new Abstract: LLM-as-a-judge has become the standard for automated evaluation, but it suffers from high cost, significant latency, and opaque decisions -- limitations that undermine its scalability and reliability. We address these with a simple, efficient alternati",
+      "feedId": "arxiv-ai",
+      "feedTitle": "arXiv cs.AI",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.AI/recent"
+    },
+    {
+      "title": "SF-AMS: Strategic Forgetting for Structured Memory in LLM Agent",
+      "link": "https://arxiv.org/abs/2607.22562",
+      "date": "2026-07-28T00:00:00-04:00",
+      "summary": "arXiv:2607.22562v1 Announce Type: new Abstract: Managing long-context dependencies remains a primary bottleneck in LLM agents, as redundant and irrelevant information can degrade multi-step reasoning. Strategic Forgetting for Agent Memory Systems (SF-AMS) is proposed as a framework for maintaining c",
+      "feedId": "arxiv-ai",
+      "feedTitle": "arXiv cs.AI",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.AI/recent"
+    },
+    {
+      "title": "Synthetic Scenario Generation for Evaluation of Industry 4.0 Agents",
+      "link": "https://arxiv.org/abs/2607.22563",
+      "date": "2026-07-28T00:00:00-04:00",
+      "summary": "arXiv:2607.22563v1 Announce Type: new Abstract: Industrial agent benchmarks require realistic evaluation scenarios that integrate telemetry, failure modes, maintenance records, and domain standards. However, existing benchmarks such as AssetOpsBench rely on manually authored scenarios and cover a li",
+      "feedId": "arxiv-ai",
+      "feedTitle": "arXiv cs.AI",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.AI/recent"
+    },
+    {
+      "title": "Loss-Aware Feature-Map Pruning in Convolutional Neural Networks Using Multi-Armed Bandits",
+      "link": "https://arxiv.org/abs/2607.22564",
+      "date": "2026-07-28T00:00:00-04:00",
+      "summary": "arXiv:2607.22564v1 Announce Type: new Abstract: Convolutional neural networks often contain redundant feature maps that increase storage and inference cost. This paper presents a loss-aware feature-map pruning framework using multi-armed bandits. Feature-map pruning is structured because it removes ",
+      "feedId": "arxiv-ai",
+      "feedTitle": "arXiv cs.AI",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.AI/recent"
+    },
+    {
+      "title": "Semalith v1.4: A Calibrated 184M Safety Classifier Achieving State-of-the-Art Prompt-Injection Detection at 44x Fewer Parameters than Llama-Guard-3-8B",
+      "link": "https://arxiv.org/abs/2607.22545",
+      "date": "2026-07-28T00:00:00-04:00",
+      "summary": "arXiv:2607.22545v1 Announce Type: new Abstract: Deploying large language models in financial-services and agentic settings requires safety classifiers that simultaneously handle prompt injection, regulatory compliance, and general harm, a combination no existing open guardrail addresses in a single ",
+      "feedId": "arxiv-lg",
+      "feedTitle": "arXiv cs.LG",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.LG/recent"
+    },
+    {
+      "title": "CORVUS: Context Optimization and Reduction Via Underlying Synchronization for LLM Coding Agents",
+      "link": "https://arxiv.org/abs/2607.22711",
+      "date": "2026-07-28T00:00:00-04:00",
+      "summary": "arXiv:2607.22711v1 Announce Type: new Abstract: LLM coding agents operate by constructing trajectories that accumulate reasoning, tool calls, and results to enable multi-step decision-making. However, the conventional append-only trajectory architecture found in practice tightly couples file-read ac",
+      "feedId": "arxiv-lg",
+      "feedTitle": "arXiv cs.LG",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.LG/recent"
+    },
+    {
+      "title": "CausalGate: Causal Importance Distillation for Transformer Module Pruning",
+      "link": "https://arxiv.org/abs/2607.22720",
+      "date": "2026-07-28T00:00:00-04:00",
+      "summary": "arXiv:2607.22720v1 Announce Type: new Abstract: Existing adaptive inference methods for Large Language Models rely on observational heuristics, such as hidden-state similarity or activation magnitudes, to drop redundant modules. However, these correlation-based metrics often fail to capture subtle, ",
+      "feedId": "arxiv-lg",
+      "feedTitle": "arXiv cs.LG",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.LG/recent"
+    },
+    {
+      "title": "Progress-conditioned Group Policy Optimization for Long-Horizon Agentic Tasks",
+      "link": "https://arxiv.org/abs/2607.22724",
+      "date": "2026-07-28T00:00:00-04:00",
+      "summary": "arXiv:2607.22724v1 Announce Type: new Abstract: Group-based policy optimization has been increasingly used to train large language model (LLM) agents from sparse outcome rewards by comparing trajectories or steps within a group. However, on difficult long-horizon tasks, this comparison can suffer fr",
+      "feedId": "arxiv-lg",
+      "feedTitle": "arXiv cs.LG",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.LG/recent"
+    },
+    {
+      "title": "QFedPolyp: A Communication- and Inference-Efficient Federated Learning Framework for Polyp Segmentation",
+      "link": "https://arxiv.org/abs/2607.22743",
+      "date": "2026-07-28T00:00:00-04:00",
+      "summary": "arXiv:2607.22743v1 Announce Type: new Abstract: Background and Objective: Automatic polyp segmentation supports computer-aided diagnosis and early colorectal cancer detec- tion. Centralized deep learning requires hospitals to share sensitive medical data, while federated learning preserves privacy b",
+      "feedId": "arxiv-lg",
+      "feedTitle": "arXiv cs.LG",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.LG/recent"
+    },
+    {
+      "title": "Learning to Access Computation: Accessibility Plasticity as a Principle of Adaptive Intelligence",
+      "link": "https://arxiv.org/abs/2607.22748",
+      "date": "2026-07-28T00:00:00-04:00",
+      "summary": "arXiv:2607.22748v1 Announce Type: new Abstract: Modern neural networks primarily adapt through parameter modification within predefined computational structures. While recent methods introduce modularity, conditional computation, and parameter-efficient adaptation, they generally do not distinguish ",
+      "feedId": "arxiv-lg",
+      "feedTitle": "arXiv cs.LG",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.LG/recent"
+    },
+    {
+      "title": "Hierarchical Grading in Large Language Models",
+      "link": "https://arxiv.org/abs/2607.22757",
+      "date": "2026-07-28T00:00:00-04:00",
+      "summary": "arXiv:2607.22757v1 Announce Type: new Abstract: We introduce Graded Large Language Models (GLLMs), an algebraic framework that equips the representation space of a transformer with a grading and propagates the induced weighted scalar action through embeddings, self-attention, and the training object",
+      "feedId": "arxiv-lg",
+      "feedTitle": "arXiv cs.LG",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.LG/recent"
+    },
+    {
+      "title": "An Integrated Deep Learning and Statistical Framework for Whole-Network Gene--Environment Association with Leaf Vascular Architecture",
+      "link": "https://arxiv.org/abs/2607.22763",
+      "date": "2026-07-28T00:00:00-04:00",
+      "summary": "arXiv:2607.22763v1 Announce Type: new Abstract: Leaf veins exhibit remarkable diversity in architecture and patterning, yet existing gene--environment association studies have primarily quantified leaf venation using a small collection of low-dimensional summary traits, thereby discarding most of th",
+      "feedId": "arxiv-lg",
+      "feedTitle": "arXiv cs.LG",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.LG/recent"
+    },
+    {
+      "title": "Beyond Shapley: An Influence-Based Data Auditing Pipeline for LLM Alignment and Evaluation",
+      "link": "https://arxiv.org/abs/2607.22766",
+      "date": "2026-07-28T00:00:00-04:00",
+      "summary": "arXiv:2607.22766v1 Announce Type: new Abstract: The alignment of Large Language Models (LLMs) is increasingly bottlenecked by data quality. As datasets scale, massive preference and instruction-tuning corpora inevitably accumulate hidden structural contradictions, safety risks, and systemic human an",
+      "feedId": "arxiv-lg",
+      "feedTitle": "arXiv cs.LG",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.LG/recent"
+    },
+    {
+      "title": "DomainPilot: Domain-Level Loss-Guided Two-Stage Data Mixture Optimization for Efficient Language Model Fine-Tuning",
+      "link": "https://arxiv.org/abs/2607.22769",
+      "date": "2026-07-28T00:00:00-04:00",
+      "summary": "arXiv:2607.22769v1 Announce Type: new Abstract: The training efficacy of large language models (LLMs) is fundamentally constrained by the quality and composition of training data. Existing dynamic data scheduling methods face critical limitations in industrial-scale pretraining and supervised fine-t",
+      "feedId": "arxiv-lg",
+      "feedTitle": "arXiv cs.LG",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.LG/recent"
+    },
+    {
+      "title": "科技爱好者周刊（第 403 期）：为什么 Dropbox 不成功",
+      "link": "http://www.ruanyifeng.com/blog/2026/07/weekly-issue-403.html",
+      "date": "2026-07-27T23:58:44+00:00",
+      "summary": "这里记录每周值得分享的科技内容，周五发布。...",
+      "feedId": "ruanyifeng",
+      "feedTitle": "阮一峰的网络日志",
+      "category": "中文",
+      "feedHome": "https://www.ruanyifeng.com/blog/"
+    },
     {
       "title": "moonshotai/Kimi-K3",
       "link": "https://simonwillison.net/2026/Jul/27/kimi-k3/#atom-everything",
@@ -2931,9 +3362,9 @@
       "feedHome": "https://simonwillison.net/"
     },
     {
-      "title": "Show HN: Dowe – A full-stack language for server, web, desktop, Android, and iOS",
-      "link": "https://www.dowe.dev",
-      "date": "2026-07-27T23:26:05+00:00",
+      "title": "Astronauts describe persistent 'observer' sensation after 6 month missions",
+      "link": "https://spacedaily.com/sd-v-astronauts-returning-from-six-month-missions-describe-a-persistent-observer-sensation-the-feeling-of-watching-their-own-lives-from-a-half-step-outside-the-frame-weeks-after-theyr/",
+      "date": "2026-07-27T23:19:19+00:00",
       "summary": "Comments",
       "feedId": "hackernews",
       "feedTitle": "Hacker News",
@@ -2951,16 +3382,6 @@
       "feedHome": "https://news.ycombinator.com/"
     },
     {
-      "title": "C/C++ projects packaged for Zig",
-      "link": "https://github.com/allyourcodebase",
-      "date": "2026-07-27T23:09:50+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
       "title": "Hiding data in permutations",
       "link": "https://www.johndcook.com/blog/2026/07/27/hiding-data-in-permutations/",
       "date": "2026-07-27T23:08:59+00:00",
@@ -2969,16 +3390,6 @@
       "feedTitle": "John D. Cook",
       "category": "Tech Blogs",
       "feedHome": "https://www.johndcook.com/"
-    },
-    {
-      "title": "America has become an entrepreneur's paradise",
-      "link": "https://www.economist.com/business/2026/07/27/america-has-become-an-entrepreneurs-paradise",
-      "date": "2026-07-27T23:04:13+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
     },
     {
       "title": "Benchmarking Opus 5 on SlopCodeBench",
@@ -2991,14 +3402,14 @@
       "feedHome": "https://news.ycombinator.com/"
     },
     {
-      "title": "Hard Road – A beautiful procedural post-apocalyptic game",
-      "link": "https://hardroad.xyz/",
-      "date": "2026-07-27T22:36:55+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
+      "title": "At market open Korean chipmakers' stocks plunged, with Samsung Electronics dropping 11%+, SK Hynix down 12%+, and the Korea Composite Stock Price Index down 9%+ (Youkyung Lee/Bloomberg)",
+      "link": "https://www.techmeme.com/260727/p37#a260727p37",
+      "date": "2026-07-27T22:05:01-04:00",
+      "summary": "Youkyung Lee / Bloomberg: At market open Korean chipmakers' stocks plunged, with Samsung Electronics dropping 11%+, SK Hynix down 12%+, and the Korea Composite Stock Price Index down 9%+&nbsp; &mdash;&nbsp; South Korean stocks plunged, dragged by the nation's memory chipmaking powerhouses as investo",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
       "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
+      "feedHome": "https://www.techmeme.com/"
     },
     {
       "title": "Our position on open-weights models",
@@ -3019,6 +3430,16 @@
       "feedTitle": "Simon Willison",
       "category": "AI & LLM",
       "feedHome": "https://simonwillison.net/"
+    },
+    {
+      "title": "ChatGPT appears to block direct requests to copy an author's style, instead offering to capture the overall \"feeling\", amid its legal battles with book authors (Kyle Orland/Ars Technica)",
+      "link": "https://www.techmeme.com/260727/p36#a260727p36",
+      "date": "2026-07-27T21:40:01-04:00",
+      "summary": "Kyle Orland / Ars Technica: ChatGPT appears to block direct requests to copy an author's style, instead offering to capture the overall &ldquo;feeling&rdquo;, amid its legal battles with book authors&nbsp; &mdash;&nbsp; OpenAI's ChatGPT is now refusing requests to generate text that directly mimics ",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
     },
     {
       "title": "Satya Nadella says companies that trust one AI for everything may not survive",
@@ -3061,6 +3482,16 @@
       "feedHome": "https://techcrunch.com/"
     },
     {
+      "title": "Several digital-asset treasury firms have pivoted to AI amid a slump in crypto prices, but their poor stock performance suggests the strategy is not working (Monique Mulima/Bloomberg)",
+      "link": "https://www.techmeme.com/260727/p35#a260727p35",
+      "date": "2026-07-27T20:30:01-04:00",
+      "summary": "Monique Mulima / Bloomberg: Several digital-asset treasury firms have pivoted to AI amid a slump in crypto prices, but their poor stock performance suggests the strategy is not working&nbsp; &mdash;&nbsp; The implosion of the once-hot market for cryptocurrency treasury stocks is prompting a number o",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
       "title": "PSA: Your Claude shared chats and Artifacts may have ended up on Google",
       "link": "https://techcrunch.com/2026/07/27/psa-your-claude-shared-chats-and-artifacts-may-have-ended-up-on-google/",
       "date": "2026-07-27T20:19:42+00:00",
@@ -3079,16 +3510,6 @@
       "feedTitle": "TechCrunch AI",
       "category": "Startup & News",
       "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
-    },
-    {
-      "title": "Launch HN: Rise Reforming (YC S26) – Turning Waste Gases into Valuable Chemicals",
-      "link": "https://www.rise-reforming.com",
-      "date": "2026-07-27T19:58:22+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
     },
     {
       "title": "Apple releases updates for iOS, macOS, iPadOS, watchOS, tvOS, and visionOS with a huge number of security fixes; macOS Tahoe 26.6 alone addresses 155 CVEs (Zac Hall/9to5Mac)",
@@ -3235,16 +3656,6 @@
       "link": "https://techcrunch.com/2026/07/27/threads-users-can-now-chat-with-meta-ai-in-their-dms/",
       "date": "2026-07-27T16:45:24+00:00",
       "summary": "Meta on Monday said it is rolling out its Meta AI chatbot within Threads' DMs, giving users a way to chat with the AI assistant.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
-    },
-    {
-      "title": "Threads users can now chat with Meta AI in their DMs",
-      "link": "https://techcrunch.com/2026/07/27/threads-users-can-now-chat-with-meta-ai-in-their-dms/",
-      "date": "2026-07-27T16:45:24+00:00",
-      "summary": "Meta on Monday said it is rolling out its Meta AI chatbot within Threads' DMs, giving users a way to chat with the AI assistant.",
       "feedId": "techcrunch-ai",
       "feedTitle": "TechCrunch AI",
       "category": "Startup & News",
@@ -3299,16 +3710,6 @@
       "feedTitle": "TechCrunch AI",
       "category": "Startup & News",
       "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
-    },
-    {
-      "title": "科技爱好者周刊（第 405 期）：资源，社会公平与算力",
-      "link": "http://www.ruanyifeng.com/blog/2026/07/weekly-issue-405.html",
-      "date": "2026-07-27T15:50:55+00:00",
-      "summary": "这里记录每周值得分享的科技内容，周五发布。...",
-      "feedId": "ruanyifeng",
-      "feedTitle": "阮一峰的网络日志",
-      "category": "中文",
-      "feedHome": "https://www.ruanyifeng.com/blog/"
     },
     {
       "title": "X rolls out X Money to US Premium and Premium+ subscribers, combining a deposit account with up to 6% APY, free instant transfers on X, and a Visa debit card (Zac Hall/9to5Mac)",
@@ -3371,16 +3772,6 @@
       "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
     },
     {
-      "title": "The US National Vulnerabilities Database recorded 45,207 software security flaws so far in 2026, on pace to roughly double the tally of flaws recorded in 2025 (Patrick Howell O'Neill/Bloomberg)",
-      "link": "https://www.techmeme.com/260727/p27#a260727p27",
-      "date": "2026-07-27T14:25:01-04:00",
-      "summary": "Patrick Howell O'Neill / Bloomberg: The US National Vulnerabilities Database recorded 45,207 software security flaws so far in 2026, on pace to roughly double the tally of flaws recorded in 2025&nbsp; &mdash;&nbsp; The number of software security flaws discovered in popular technology products in 20",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
       "title": "Why SAP says enterprise AI agents need knowledge graphs and governance",
       "link": "https://venturebeat.com/orchestration/why-sap-says-enterprise-ai-agents-need-knowledge-graphs-and-governance",
       "date": "2026-07-27T14:00:12+00:00",
@@ -3401,46 +3792,6 @@
       "feedHome": "https://devblogs.microsoft.com/oldnewthing/"
     },
     {
-      "title": "Xbox says it is working to resolve a \"major outage\" affecting its Account & Profile, Store & Subscriptions, and Apps & Mobile services (Chris Scullion/Video Games Chronicle)",
-      "link": "https://www.techmeme.com/260727/p26#a260727p26",
-      "date": "2026-07-27T13:40:01-04:00",
-      "summary": "Chris Scullion / Video Games Chronicle: Xbox says it is working to resolve a &ldquo;major outage&rdquo; affecting its Account &amp; Profile, Store &amp; Subscriptions, and Apps &amp; Mobile services&nbsp; &mdash;&nbsp; PLAYERS ARE REPORTING HAVING ISSUES WHEN TRYING TO SIGN IN OR SEE THEIR LIBRARY&n",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "Microsoft says MAI-Cyber-1-Flash and MDASH, its vulnerability identification harness, deliver \"world-class performance at 50% of the cost of leading models\" (Microsoft AI)",
-      "link": "https://www.techmeme.com/260727/p25#a260727p25",
-      "date": "2026-07-27T13:10:00-04:00",
-      "summary": "Microsoft AI: Microsoft says MAI-Cyber-1-Flash and MDASH, its vulnerability identification harness, deliver &ldquo;world-class performance at 50% of the cost of leading models&rdquo;&nbsp; &mdash;&nbsp; Today we're announcing MAI-Cyber-1-Flash inside of MDASH, our multi-agent vulnerability identific",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "Enigma raises $71M to make controlling a robot as easy as adjusting the volume",
-      "link": "https://techcrunch.com/2026/07/27/enigma-raises-70m-to-make-controlling-a-robot-as-easy-as-adjusting-the-volume/",
-      "date": "2026-07-27T13:00:00+00:00",
-      "summary": "The massive seed round was led by Index Ventures and Ribbit Capital, with participation from Sarah Guo's Conviction Partners.",
-      "feedId": "techcrunch-ai",
-      "feedTitle": "TechCrunch AI",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
-    },
-    {
-      "title": "【Agentic RL / 强化学习 / OPD】OpenClaw-RL 源码阅读笔记 --- (12)--- GRPO",
-      "link": "https://www.bestblogs.dev/article/18c23147e1?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
-      "date": "2026-07-27T12:47:00+00:00",
-      "summary": "📌 一句话摘要 本文通过对 OpenClaw-RL 源码的深度解析，探讨了 GRPO 算法原理及其在在线对话场景下因无法批量采样而导致的算法退化问题，并提出了多种工程优化方案。 📝 详细摘要 本文是 OpenClaw-RL 源码阅读系列笔记的第 12 部分，核心聚焦于 GRPO (Group Relative Policy Optimization) 算法。作者首先对比了标准 PPO 与 GRPO 的差异，阐述了 GRPO 如何通过组内相对排名替代 Value Model 来估计 Advantage，从而降低计算成本。随后，文章深入剖析了 OpenClaw-RL 的具体实现，指出由于在线对话场",
-      "feedId": "bestblogs",
-      "feedTitle": "BestBlogs.dev AI 90+",
-      "category": "中文",
-      "feedHome": "https://www.bestblogs.dev/"
-    },
-    {
       "title": "Pluralistic: How the EU can punish Google (despite Trump) (27 Jul 2026)",
       "link": "https://pluralistic.net/2026/07/27/eucd-6/",
       "date": "2026-07-27T10:52:03+00:00",
@@ -3449,16 +3800,6 @@
       "feedTitle": "Pluralistic",
       "category": "Tech Blogs",
       "feedHome": "https://pluralistic.net/"
-    },
-    {
-      "title": "离开字节、商汤之后，他要给 AI 创造一个真实世界",
-      "link": "https://www.bestblogs.dev/article/f73932c768?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
-      "date": "2026-07-27T08:59:00+00:00",
-      "summary": "📌 一句话摘要 本文通过对 iLands 创始人唐踹鑫的深度访谈，探讨了如何通过构建具有真实资源约束、经济激励与社会规则的共享网络，让 AI Agent 在真实经验流中实现自我进化与群体智能的涌现。 📝 详细摘要 文章记录了 iLands 创始人唐踹鑫关于 AI Agent 进化路径的深刻洞察。不同于单纯追求模型参数规模（Scaling）的路径，iLands 试图为 AI Agent 提供一个“真实世界”：通过引入 Token 作为生存成本（氧气），建立起包含雇佣、交易、协作与治理的社会经济网络。访谈揭示了 Agent 在该环境下展现出的惊人涌现行为，如自发建立互助会、发明信用体系（赊账）以及",
-      "feedId": "bestblogs",
-      "feedTitle": "BestBlogs.dev AI 90+",
-      "category": "中文",
-      "feedHome": "https://www.bestblogs.dev/"
     },
     {
       "title": "New ransomware targets AI model weights and can't even collect the ransom",
@@ -3479,106 +3820,6 @@
       "feedTitle": "OpenAI News",
       "category": "AI & LLM",
       "feedHome": "https://openai.com/news/"
-    },
-    {
-      "title": "Cloud-Native Evaluation-as-a-Service: A Microservices Architecture for Scalable AI Monitoring with Conformal Guarantees",
-      "link": "https://arxiv.org/abs/2607.21623",
-      "date": "2026-07-27T00:00:00-04:00",
-      "summary": "arXiv:2607.21623v1 Announce Type: new Abstract: We present EaaS, a cloud-native reference architecture that operationalizes AI evaluation methods as six stateless Kubernetes microservices: conformal prediction with finite-sample-corrected Adaptive Prediction Sets, calibration assessment, drift detec",
-      "feedId": "arxiv-lg",
-      "feedTitle": "arXiv cs.LG",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.LG/recent"
-    },
-    {
-      "title": "On the Depth Scalability of Logic Gate Networks",
-      "link": "https://arxiv.org/abs/2607.21633",
-      "date": "2026-07-27T00:00:00-04:00",
-      "summary": "arXiv:2607.21633v1 Announce Type: new Abstract: Logic Gate Networks (LGNs) implement computation through compositions of Boolean operations, yet unlike classical Boolean circuits, existing LGNs do not reliably benefit from increased depth. We identify two distinct causes: optimization collapse in de",
-      "feedId": "arxiv-lg",
-      "feedTitle": "arXiv cs.LG",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.LG/recent"
-    },
-    {
-      "title": "MotifRole-Diff: Risk-Optimal Role-Aware Corruption for Masked Molecular Graph Diffusion",
-      "link": "https://arxiv.org/abs/2607.21634",
-      "date": "2026-07-27T00:00:00-04:00",
-      "summary": "arXiv:2607.21634v1 Announce Type: new Abstract: Masked discrete diffusion for molecular graph generation typically applies a uniform corruption schedule to all tokens in a lossless graph-to-sequence representation, implicitly treating structurally heterogeneous molecular components as equally diffic",
-      "feedId": "arxiv-lg",
-      "feedTitle": "arXiv cs.LG",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.LG/recent"
-    },
-    {
-      "title": "Toward User-Conditioned Evaluation of Personal LLM Agents under Temporal Interventions",
-      "link": "https://arxiv.org/abs/2607.21635",
-      "date": "2026-07-27T00:00:00-04:00",
-      "summary": "arXiv:2607.21635v1 Announce Type: new Abstract: Personal agents maintain memories, learned skills, tool configurations, and policy state that evolve with each user. Existing agent benchmarks often evaluate these capabilities in isolation: tool benchmarks test invocation under fixed APIs, memory benc",
-      "feedId": "arxiv-lg",
-      "feedTitle": "arXiv cs.LG",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.LG/recent"
-    },
-    {
-      "title": "Measuring the Dependency Gap: Diagnosing Inter-Column Fidelity in Tabular Generative Models",
-      "link": "https://arxiv.org/abs/2607.21636",
-      "date": "2026-07-27T00:00:00-04:00",
-      "summary": "arXiv:2607.21636v1 Announce Type: new Abstract: Synthetic tabular data is valued for preserving not only each column's marginal distribution but the dependencies between columns -- structure that carries much of the discriminative signal for minority classes in imbalanced domains such as fraud and c",
-      "feedId": "arxiv-lg",
-      "feedTitle": "arXiv cs.LG",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.LG/recent"
-    },
-    {
-      "title": "Quasi-Monte Carlo Initialization for Meta-Reinforcement Learning",
-      "link": "https://arxiv.org/abs/2607.21637",
-      "date": "2026-07-27T00:00:00-04:00",
-      "summary": "arXiv:2607.21637v1 Announce Type: new Abstract: This paper explores the efficacy of quasi-Monte Carlo (QMC) weight initialization for meta-reinforcement learning within modern benchmark environments. Various sampling methods are used to bound a population-based search and aggregate an optimal prior ",
-      "feedId": "arxiv-lg",
-      "feedTitle": "arXiv cs.LG",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.LG/recent"
-    },
-    {
-      "title": "Toward Goal-Agnostic Joint-Embedding Predictive Control of Partial Differential Equations",
-      "link": "https://arxiv.org/abs/2607.21644",
-      "date": "2026-07-27T00:00:00-04:00",
-      "summary": "arXiv:2607.21644v1 Announce Type: new Abstract: We present a goal-agnostic control framework for partial differential equations (PDEs) built around a joint-embedding predictive architecture (JEPA). The small 2D ViT encoder and action-conditioned latent dynamics are trained offline without a reward o",
-      "feedId": "arxiv-lg",
-      "feedTitle": "arXiv cs.LG",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.LG/recent"
-    },
-    {
-      "title": "Multi-Horizon Consistency as Geometry: When Latent Dynamics Contract, and When They Do Not",
-      "link": "https://arxiv.org/abs/2607.21645",
-      "date": "2026-07-27T00:00:00-04:00",
-      "summary": "arXiv:2607.21645v1 Announce Type: new Abstract: Multi-horizon latent consistency is a common training knob in video predictors and world models, but practitioners rarely know what it does to transition geometry. We treat lambda, the weight on multi-step latent agreement, as a diagnostic control and ",
-      "feedId": "arxiv-lg",
-      "feedTitle": "arXiv cs.LG",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.LG/recent"
-    },
-    {
-      "title": "Adjustment Speed as a Safety Constraint for Nonstationary Reinforcement Learning",
-      "link": "https://arxiv.org/abs/2607.21646",
-      "date": "2026-07-27T00:00:00-04:00",
-      "summary": "arXiv:2607.21646v1 Announce Type: new Abstract: Ensuring safety in reinforcement learning under nonstationarity requires determining whether a learning system can safely adapt to forecasted environmental change within the required recovery horizon. Existing safe reinforcement learning methods typica",
-      "feedId": "arxiv-lg",
-      "feedTitle": "arXiv cs.LG",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.LG/recent"
-    },
-    {
-      "title": "A Drift Stable Quantum Federated Learning for Intelligent Services",
-      "link": "https://arxiv.org/abs/2607.21647",
-      "date": "2026-07-27T00:00:00-04:00",
-      "summary": "arXiv:2607.21647v1 Announce Type: new Abstract: Quantum federated learning enables distributed clients to train quantum neural networks without sharing local data, making it promising for privacy-aware intelligent services. Intelligent services in this context refer to privacy-sensitive distributed ",
-      "feedId": "arxiv-lg",
-      "feedTitle": "arXiv cs.LG",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.LG/recent"
     },
     {
       "title": "Permutation roots",
@@ -3621,16 +3862,6 @@
       "feedHome": "https://www.johndcook.com/"
     },
     {
-      "title": "★ Regarding Ad Blockers and Daring Fireball",
-      "link": "https://daringfireball.net/2026/07/regarding_ad_blockers_and_daring_fireball",
-      "date": "2026-07-26T17:07:19+00:00",
-      "summary": "Ultimately, when you install a content blocker extension, you take responsibility for any overzealousness in what they block.",
-      "feedId": "daringfireball",
-      "feedTitle": "Daring Fireball",
-      "category": "Tech Blogs",
-      "feedHome": "https://daringfireball.net/"
-    },
-    {
       "title": "EU Fines Google $1 Billion for DMA Competition Violations, Including Making Search Results More Useful",
       "link": "https://digital-markets-act.ec.europa.eu/commission-fines-google-eur890-million-breaches-digital-markets-act-2026-07-23_en",
       "date": "2026-07-26T17:05:50+00:00",
@@ -3639,6 +3870,26 @@
       "feedTitle": "Daring Fireball",
       "category": "Tech Blogs",
       "feedHome": "https://daringfireball.net/"
+    },
+    {
+      "title": "11 年，110 亿美金，然后呢？｜对话 Airwallex 吴恺：AI 时代，下一站 1000 亿",
+      "link": "https://www.bestblogs.dev/podcast/39ff94634?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
+      "date": "2026-07-26T16:00:00+00:00",
+      "summary": "📌 一句话摘要 Airwallex CRO 吴恺深度复盘从 0 到 110 亿美金的 11 年历程，分享拒绝收购、先亏四年铺全球网络等关键抉择，并揭示 AI 如何驱动公司从金融基础设施走向“超级智能入口”的千亿美金愿景。 📝 详细摘要 本期对话 Airwallex 首席营收官吴恺，全面拆解了这家从墨尔本起家、如今估值 110 亿美金的全球金融科技巨头的创业历程与未来战略。吴恺分享了公司在关键节点的艰难选择：在 B 轮时拒绝 Stripe 的收购要约；为构建全球支付网络不惜亏损四年，而非选择先在单一区域盈利。在 AI 浪潮下，Airwallex 凭借服务 Kimi、DeepSeek 等大模型公司",
+      "feedId": "bestblogs",
+      "feedTitle": "BestBlogs.dev AI 90+",
+      "category": "中文",
+      "feedHome": "https://www.bestblogs.dev/"
+    },
+    {
+      "title": "Book Review: Dungeon Crawler Carl by Matt Dinniman ★★⯪☆☆",
+      "link": "https://shkspr.mobi/blog/2026/07/book-review-dungeon-crawler-carl-by-matt-dinniman/",
+      "date": "2026-07-26T11:34:33+00:00",
+      "summary": "To call this derivative is an understatement. But that&#039;s what this genre demands; rehash all your favourite media properties into something new. It&#039;s the literary equivalent of having your Transformers™ fight your He-Man© toys. The plot, such as it is, features the Vogon Constructor Fleet ",
+      "feedId": "shkspr",
+      "feedTitle": "Terence Eden",
+      "category": "Tech Blogs",
+      "feedHome": "https://shkspr.mobi/blog/"
     },
     {
       "title": "字节发了一张\"永远最新\"的模型卡片，我拿三个真实任务帮你测了测",
@@ -3771,6 +4022,16 @@
       "feedHome": "http://antirez.com/"
     },
     {
+      "title": "Some Quick Thoughts on EMF Camp 2026",
+      "link": "https://shkspr.mobi/blog/2026/07/some-quick-thoughts-on-emf-camp-2026/",
+      "date": "2026-07-25T11:34:01+00:00",
+      "summary": "I&#039;ve performed a talk at the last three EMFs - so this time I decided to go purely as a tourist. It made things much more relaxing. No waking up from a stress dream that my laptop didn&#039;t work. No casually dropping my talk into every conversation to build up an audience. No queueing for the",
+      "feedId": "shkspr",
+      "feedTitle": "Terence Eden",
+      "category": "Tech Blogs",
+      "feedHome": "https://shkspr.mobi/blog/"
+    },
+    {
       "title": "Pluralistic: Apple's robo-repo (25 Jul 2026)",
       "link": "https://pluralistic.net/2026/07/25/cruel-cruelty-oh-cruelty/",
       "date": "2026-07-25T10:41:10+00:00",
@@ -3821,30 +4082,20 @@
       "feedHome": "https://simonwillison.net/"
     },
     {
-      "title": "Coiner of ‘Enshittification’ Endorses ‘Dickover’",
-      "link": "https://pluralistic.net/2026/07/21/dickovers/",
-      "date": "2026-07-24T20:06:36+00:00",
-      "summary": "Speaking of dickovers, here’s Cory Doctorow, writing this week at Pluralistic: Seizing the means of computation isn’t theft, it’s bargaining. Commercial surveillance companies will tell you that by spying on you, they are simply engaged in a marketplace exchange in which you swap your privacy for ac",
-      "feedId": "daringfireball",
-      "feedTitle": "Daring Fireball",
-      "category": "Tech Blogs",
-      "feedHome": "https://daringfireball.net/"
+      "title": "RTX 2080 Ti Memory Upgrade to 22 GB",
+      "link": "https://gpusolutions.net/rbservices/graphics-card-upgrade/",
+      "date": "2026-07-24T20:35:21+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
     },
     {
       "title": "VentureBeat Research: Where enterprise AI agent governance hasn't caught up",
       "link": "https://venturebeat.com/technology/venturebeat-research-where-enterprise-ai-agent-governance-hasnt-caught-up",
       "date": "2026-07-24T19:34:29+00:00",
       "summary": "Enterprises deployed AI agents ahead of the controls needed to manage them — and they did it knowingly. That is the central finding across the five parallel surveys VentureBeat Research fielded in June, spanning every layer of the agentic stack. Now those enterprises are retrofitting to catch up wit",
-      "feedId": "venturebeat",
-      "feedTitle": "VentureBeat",
-      "category": "Startup & News",
-      "feedHome": "https://venturebeat.com/"
-    },
-    {
-      "title": "Anthropic launches Claude Opus 5, a cheaper AI model for coding, agents and enterprise workflows",
-      "link": "https://venturebeat.com/orchestration/anthropic-launches-claude-opus-5-a-cheaper-ai-model-for-coding-agents-and-enterprise-workflows",
-      "date": "2026-07-24T17:00:00+00:00",
-      "summary": "Anthropic released Claude Opus 5 on Friday, a model the company says delivers nearly all the intelligence of its top-of-the-line Claude Fable 5 at half the cost — a launch that signals how the AI race is shifting from raw capability to the economics of daily use.The model, available immediately on a",
       "feedId": "venturebeat",
       "feedTitle": "VentureBeat",
       "category": "Startup & News",
@@ -3859,6 +4110,16 @@
       "feedTitle": "The Old New Thing",
       "category": "Tech Blogs",
       "feedHome": "https://devblogs.microsoft.com/oldnewthing/"
+    },
+    {
+      "title": "Book Review: Foreign Fruit - A Personal History of the Orange by Katie Goh ★⯪☆☆☆",
+      "link": "https://shkspr.mobi/blog/2026/07/book-review-foreign-fruit-a-personal-history-of-the-orange-by-katie-goh/",
+      "date": "2026-07-24T11:34:07+00:00",
+      "summary": "I didn&#039;t care for this book. It attempts to interweave botanical and cultural history with an autobiography and ends up doing neither particularly well. For every dose of poetry about the far-flung and exotic journey of the fruit, there&#039;s a dull recitation of facts from Wikipedia. Occasion",
+      "feedId": "shkspr",
+      "feedTitle": "Terence Eden",
+      "category": "Tech Blogs",
+      "feedHome": "https://shkspr.mobi/blog/"
     },
     {
       "title": "Pluralistic: AI solipsists and AI cynics (24 Jul 2026)",
@@ -3959,16 +4220,6 @@
       "feedTitle": "The Old New Thing",
       "category": "Tech Blogs",
       "feedHome": "https://devblogs.microsoft.com/oldnewthing/"
-    },
-    {
-      "title": "Securing Services with Rootless Containers",
-      "link": "https://blog.coderspirit.xyz/blog/2026/07/06/securing-services-with-rootless-containers/",
-      "date": "2026-07-23T13:11:30+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
     },
     {
       "title": "Pluralistic: California's privacy obstacle course (23 Jul 2026)",
@@ -4151,6 +4402,16 @@
       "feedHome": "https://openai.com/news/"
     },
     {
+      "title": "Scattered thoughts on social geolocation",
+      "link": "https://shkspr.mobi/blog/2026/07/scattered-thoughts-on-social-geolocation/",
+      "date": "2026-07-22T11:34:12+00:00",
+      "summary": "I want to be able to share my location with my friends on social media. Twitter (RIP) had a way to attach an optional location to a post. Facebook still lets me check in to venues. But neither ActivityPub (Mastodon) nor AT Protocol (BlueSky) allow me to do that. I&#039;ve been banging on about this ",
+      "feedId": "shkspr",
+      "feedTitle": "Terence Eden",
+      "category": "Tech Blogs",
+      "feedHome": "https://shkspr.mobi/blog/"
+    },
+    {
       "title": "客户想登月，只肯付同城快递的钱：四个 ToB 老兵把企业 AI 的坑说透了",
       "link": "https://www.bestblogs.dev/article/5e96e13346?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
       "date": "2026-07-22T10:25:00+00:00",
@@ -4189,6 +4450,16 @@
       "feedTitle": "OpenAI News",
       "category": "AI & LLM",
       "feedHome": "https://openai.com/news/"
+    },
+    {
+      "title": "从 58% 到 98%：Codex Code Review 用 AGENTS.md 补上 AI 代码审查的最大短板",
+      "link": "https://www.bestblogs.dev/status/2079742073440473422?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
+      "date": "2026-07-22T01:35:24+00:00",
+      "summary": "📌 一句话摘要 OpenAI 为 Codex Code Review 引入自定义仓库规则，通过 AGENTS.md 文件将资深审查员的隐性知识编码化，使审查召回率从 58% 提升至 98%。 📝 详细摘要 本文深度解读了 OpenAI 为 Codex Code Review 推出的新功能：允许团队在 AGENTS.md 文件中定义自定义审查规则。核心机制是将资深审查员脑中的隐性知识（如“为什么这个字段不能动”）显性化，让 AI 在审查时能发现仅从代码 diff 看不出的破坏性变更。文章引用了 OpenAI 的真实案例，并详细剖析了评测的四个维度（覆盖率、克制、保持、可操作性），其中特别强调了“",
+      "feedId": "bestblogs",
+      "feedTitle": "BestBlogs.dev AI 90+",
+      "category": "中文",
+      "feedHome": "https://www.bestblogs.dev/"
     },
     {
       "title": "LG to Ban Residential Proxies from Smart TV Apps",
@@ -4341,6 +4612,16 @@
       "feedHome": "https://devblogs.microsoft.com/oldnewthing/"
     },
     {
+      "title": "Public Transport - Don't Make Me Think!",
+      "link": "https://shkspr.mobi/blog/2026/07/public-transport-dont-make-me-think/",
+      "date": "2026-07-20T11:34:23+00:00",
+      "summary": "In the last year, I&#039;ve been through over a dozen cities and used public transport in all of them. It is wild just how confusing and complex buying a ticket can be. While some cities obviously take a user-centred approach to ticketing, others appear to take a Kafkaesque delight in a bureaucratic",
+      "feedId": "shkspr",
+      "feedTitle": "Terence Eden",
+      "category": "Tech Blogs",
+      "feedHome": "https://shkspr.mobi/blog/"
+    },
+    {
       "title": "Memory Safety's Hardest Problem",
       "link": "https://matklad.github.io/2026/07/20/memory-safety-hardest-problem.html",
       "date": "2026-07-20T00:00:00+00:00",
@@ -4381,6 +4662,16 @@
       "feedHome": "https://minimaxir.com/"
     },
     {
+      "title": "Book Review: A City on Mars - by Dr. Kelly Weinersmith and Zach Weinersmith ★★★★⯪",
+      "link": "https://shkspr.mobi/blog/2026/07/book-review-a-city-on-mars-by-dr-kelly-weinersmith-and-zach-weinersmith/",
+      "date": "2026-07-18T11:34:18+00:00",
+      "summary": "I&#039;m pretty sure this book is a psyop designed to demoralise a generation of starry-eyed dreamers. It is obviously written by the same people who told us not to land on Europa. A malignant energy designed to limit the scope of human ambition and thwart our plans to colonise the universe. The pro",
+      "feedId": "shkspr",
+      "feedTitle": "Terence Eden",
+      "category": "Tech Blogs",
+      "feedHome": "https://shkspr.mobi/blog/"
+    },
+    {
       "title": "Overtraining as the path to human-like AI",
       "link": "https://seangoedecke.com/overtraining-as-the-path-to-human-like-ai/",
       "date": "2026-07-18T00:00:00+00:00",
@@ -4411,16 +4702,6 @@
       "feedHome": "https://devblogs.microsoft.com/oldnewthing/"
     },
     {
-      "title": "科技爱好者周刊（第 403 期）：为什么 Dropbox 不成功",
-      "link": "http://www.ruanyifeng.com/blog/2026/07/weekly-issue-403.html",
-      "date": "2026-07-17T06:30:39+00:00",
-      "summary": "这里记录每周值得分享的科技内容，周五发布。...",
-      "feedId": "ruanyifeng",
-      "feedTitle": "阮一峰的网络日志",
-      "category": "中文",
-      "feedHome": "https://www.ruanyifeng.com/blog/"
-    },
-    {
       "title": "Pluralistic: Deranged billionaires and their syndromes (16 Jul 2026)",
       "link": "https://pluralistic.net/2026/07/16/lucky-orifices/",
       "date": "2026-07-16T18:13:07+00:00",
@@ -4439,6 +4720,16 @@
       "feedTitle": "The Old New Thing",
       "category": "Tech Blogs",
       "feedHome": "https://devblogs.microsoft.com/oldnewthing/"
+    },
+    {
+      "title": "Gadget Review: Thermal Master DV2 - Infrared Birdwatching Scope ★★★★⯪",
+      "link": "https://shkspr.mobi/blog/2026/07/gadget-review-thermal-master-dv2-infrared-birdwatching-scope/",
+      "date": "2026-07-16T11:34:50+00:00",
+      "summary": "The good folks at Thermal Master have sent me their DV2 camera to review. As their name suggests, this is a thermal / infrared camera - they&#039;ve specifically designed this for bird watching and animal spotting. Let&#039;s put it through its paces and see how it compares to the competition! Strai",
+      "feedId": "shkspr",
+      "feedTitle": "Terence Eden",
+      "category": "Tech Blogs",
+      "feedHome": "https://shkspr.mobi/blog/"
     },
     {
       "title": "Our approach to bioresilience",
@@ -4531,6 +4822,16 @@
       "feedHome": "https://devblogs.microsoft.com/oldnewthing/"
     },
     {
+      "title": "I'm a USB-C Maximalist",
+      "link": "https://shkspr.mobi/blog/2026/07/im-a-usb-c-maximalist/",
+      "date": "2026-07-14T11:34:26+00:00",
+      "summary": "My wife and I recently went on a 7 week holiday around Europe. Although we each took a massive backpack, we wanted to travel fairly lightly. I took a single universal power brick. This little unit was all I needed to charge my various gadgets. It has a hefty USB-C PD (Power Delivery) port for rapid ",
+      "feedId": "shkspr",
+      "feedTitle": "Terence Eden",
+      "category": "Tech Blogs",
+      "feedHome": "https://shkspr.mobi/blog/"
+    },
+    {
       "title": "Pluralistic: Gerontocracy's failure mode (14 Jul 2026)",
       "link": "https://pluralistic.net/2026/07/14/designated-survivor/",
       "date": "2026-07-14T11:10:45+00:00",
@@ -4621,6 +4922,16 @@
       "feedHome": "https://deepmind.google/blog/"
     },
     {
+      "title": "[RSS Club] Half a million steps is about 10 marathons",
+      "link": "https://shkspr.mobi/blog/2026/07/rss-club-half-a-million-steps-is-about-10-marathons/",
+      "date": "2026-07-13T11:34:09+00:00",
+      "summary": "Shhh! RSS Club posts are only available to feed subscribers. Keep the secret! I&#039;m not a big fan of the &#34;Quantified Self&#34; movement, but since buying a ridiculously cheap smartwatch, I&#039;ve been interested to see just how many steps I take per day. During our recent Interrail holiday, ",
+      "feedId": "shkspr",
+      "feedTitle": "Terence Eden",
+      "category": "Tech Blogs",
+      "feedHome": "https://shkspr.mobi/blog/"
+    },
+    {
       "title": "Pluralistic: Why aren't AI companies competing directly with their customers? (13 Jul 2026)",
       "link": "https://pluralistic.net/2026/07/13/go-meta-meta/",
       "date": "2026-07-13T08:15:24+00:00",
@@ -4649,6 +4960,16 @@
       "feedTitle": "Fabien Sanglard",
       "category": "Tech Blogs",
       "feedHome": "https://fabiensanglard.net/"
+    },
+    {
+      "title": "Another Ridiculous Interrail Holiday - 6,379Km and 13 Countries over 7 weeks",
+      "link": "https://shkspr.mobi/blog/2026/07/another-ridiculous-interrail-holiday-6379km-and-13-countries-over-7-weeks/",
+      "date": "2026-07-12T11:34:43+00:00",
+      "summary": "Last year, my wife and I went on a 5,025 Km Interrail adventure. We got the month-long unlimited pass and saw 10 Countries in 30 Days. That was a bit too intense. So this year we got the 15 travel days in 2 months package. We grabbed the 1st class tickets when they went on sale in December. Here&#03",
+      "feedId": "shkspr",
+      "feedTitle": "Terence Eden",
+      "category": "Tech Blogs",
+      "feedHome": "https://shkspr.mobi/blog/"
     },
     {
       "title": "Pluralistic: Workplace \"flexibility\" isn't (11 Jul 2026)",
