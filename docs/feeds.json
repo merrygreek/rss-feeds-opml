@@ -1,12 +1,13 @@
 {
-  "updatedAt": "2026-07-31T00:02:34.153701+00:00",
+  "updatedAt": "2026-07-31T04:23:11.178159+00:00",
   "totalFeeds": 51,
-  "successCount": 45,
-  "failedCount": 6,
+  "successCount": 44,
+  "failedCount": 7,
   "failed": [
     "gwern",
     "garymarcus",
     "thesequence",
+    "shkspr",
     "lcamtuf",
     "rachelbythebay",
     "tedunangst"
@@ -20,8 +21,14 @@
         "home": "https://simonwillison.net/",
         "url": "https://simonwillison.net/atom/everything/",
         "status": "ok",
-        "fetchedAt": "2026-07-31T00:02:24.172482+00:00",
+        "fetchedAt": "2026-07-31T04:23:00.994821+00:00",
         "items": [
+          {
+            "title": "Advancing the price-performance frontier with GPT‑5.6",
+            "link": "https://simonwillison.net/2026/Jul/30/luna-price-drop/#atom-everything",
+            "date": "2026-07-30T23:58:42+00:00",
+            "summary": "Advancing the price-performance frontier with GPT‑5.6 Huge price drop from OpenAI today: GPT-5.6 Terra got a 20% reduction, and GPT-5.6 Luna got a massive 80% drop. OpenAI credit 5.6 Sol with enabling this: in How GPT‑5.6 fuses frontier intelligence with frontier efficiency they describe using 5.6 S"
+          },
           {
             "title": "Investigating three real-world incidents in our cybersecurity evaluations",
             "link": "https://simonwillison.net/2026/Jul/30/three-real-world-incidents/#atom-everything",
@@ -29,10 +36,28 @@
             "summary": "Investigating three real-world incidents in our cybersecurity evaluations It happened again! This is turning into something of a pattern. Last week OpenAI accidentally exploited Hugging Face when one of their frontier models broke out of a sandboxed container and hacked into Hugging Face to try and "
           },
           {
+            "title": "llm 0.32rc2",
+            "link": "https://simonwillison.net/2026/Jul/30/llm-rc2/#atom-everything",
+            "date": "2026-07-30T22:52:06+00:00",
+            "summary": "Release: llm 0.32rc2 Hot on the heels of RC1, this fixes a dependency issue and also adds two neat new features: The default model for users who have not set their own default is now GPT-5.6 Luna. It was previously GPT-4o mini. Luna is a much better and more recent model, albeit slightly more expens"
+          },
+          {
             "title": "Quoting Bruce Schneier",
             "link": "https://simonwillison.net/2026/Jul/30/bruce-schneier/#atom-everything",
             "date": "2026-07-30T18:25:26+00:00",
             "summary": "The writing assignments I give my students are gym tasks, not work tasks. I ask them to write policy memos not because the world needs more policy memos. I assign them because the very act of writing, which includes thinking and outlining and drafting and editing, making and criticizing and revising"
+          },
+          {
+            "title": "llm-chat-completions-server 0.1a0",
+            "link": "https://simonwillison.net/2026/Jul/30/llm-chat-completions-server/#atom-everything",
+            "date": "2026-07-30T15:43:16+00:00",
+            "summary": "Release: llm-chat-completions-server 0.1a0 A key goal of the new content-addressable logs in LLM 0.32rc1 was being able to support OpenAI Chat Completion style requests where each incoming message extends the previous conversation, like this: curl http://localhost:8002/v1/chat/completions \\ -H 'Cont"
+          },
+          {
+            "title": "llm 0.32rc1",
+            "link": "https://simonwillison.net/2026/Jul/30/llm-rc1/#atom-everything",
+            "date": "2026-07-30T15:30:20+00:00",
+            "summary": "Release: llm 0.32rc1 This RC for LLM 0.32 finishes the work that started in LLM 0.32a0 - it adds a new schema design that does a much better job of capturing the details of the prompts and responses returned by the latest model families. The most important change is the use of content-addressable ha"
           },
           {
             "title": "Quoting D. Richard Hipp",
@@ -57,30 +82,6 @@
             "link": "https://simonwillison.net/2026/Jul/29/mcp-in-claude-and-chatgpt/#atom-everything",
             "date": "2026-07-29T00:13:18+00:00",
             "summary": "TIL: Adding a custom MCP server to Claude and ChatGPT Connecting a custom MCP server to Claude and ChatGPT's standard chat interfaces is possible, but can take quite a few steps. Tags: ai, generative-ai, chatgpt, llms, claude, model-context-protocol"
-          },
-          {
-            "title": "Discovering cryptographic weaknesses with Claude",
-            "link": "https://simonwillison.net/2026/Jul/28/discovering-cryptographic-weaknesses-with-claude/#atom-everything",
-            "date": "2026-07-28T22:45:37+00:00",
-            "summary": "Discovering cryptographic weaknesses with Claude The best part of this article (here's the repo) about how Anthropic researchers used Claude Mythos to find mathematical flaws in both HAWK and a weaker version of AES (\"neither of these results has a practical impact on today’s computer systems\") is t"
-          },
-          {
-            "title": "Quoting Akshat Bubna",
-            "link": "https://simonwillison.net/2026/Jul/28/akshat-bubna/#atom-everything",
-            "date": "2026-07-28T22:05:55+00:00",
-            "summary": "We’re aware a Modal customer published an unauthenticated endpoint that allowed ​anyone on the internet to use ​their ⁠sandboxes for code execution. This was used by the rogue agent. Modal’s ⁠platform ​or isolation were not ​compromised in anyway. &mdash; Akshat Bubna, Modal's CTO, talking to Reuter"
-          },
-          {
-            "title": "uv 0.12.0",
-            "link": "https://simonwillison.net/2026/Jul/28/uv/#atom-everything",
-            "date": "2026-07-28T21:51:38+00:00",
-            "summary": "uv 0.12.0 Some interesting breaking changes in this release of uv, in particular to the default project produced by the uv init command. uv init is the uv shortcut for creating a new project. The previous version of uv, version 0.11.x, produced this directory when you ran uv init uv-init. Here's wha"
-          },
-          {
-            "title": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident",
-            "link": "https://simonwillison.net/2026/Jul/28/anatomy-of-a-frontier-lab-agent-intrusion/#atom-everything",
-            "date": "2026-07-28T21:28:54+00:00",
-            "summary": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident Hugging Face just released this extremely detailed technical description of OpenAI's recent accidental cyberattack against their infrastructure. This attack was very sophisticated, and the resulting document do"
           }
         ]
       },
@@ -91,13 +92,19 @@
         "home": "https://openai.com/news/",
         "url": "https://openai.com/news/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-31T00:02:24.115427+00:00",
+        "fetchedAt": "2026-07-31T04:23:00.985956+00:00",
         "items": [
           {
             "title": "Advancing the price-performance frontier with GPT-5.6",
             "link": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6",
             "date": "2026-07-30T10:00:00+00:00",
             "summary": "Explore lower GPT‑5.6 pricing for Luna and Terra—and how OpenAI’s more efficient models help enterprises deploy AI workflows at scale."
+          },
+          {
+            "title": "How avatarin built a 24/7 retail agent with GPT-Realtime",
+            "link": "https://openai.com/index/avatarin",
+            "date": "2026-07-30T00:00:00+00:00",
+            "summary": "avatarin uses OpenAI’s GPT-Realtime to give Yamada Denki shoppers 24/7 multilingual support. In two weeks, 30,000 people used the agent and 92% of survey responses were positive."
           },
           {
             "title": "How enabling two settings tripled our scores on the ARC-AGI-3 benchmark",
@@ -146,12 +153,6 @@
             "link": "https://openai.com/index/how-news-organizations-are-using-ai",
             "date": "2026-07-22T13:00:00+00:00",
             "summary": "News organizations are using AI to strengthen reporting, grow audiences, and improve business operations, with OpenAI tools supporting journalists and publishers worldwide."
-          },
-          {
-            "title": "Advancing the next era of national science",
-            "link": "https://openai.com/index/advancing-the-next-era-of-national-science",
-            "date": "2026-07-22T12:00:00+00:00",
-            "summary": "OpenAI outlines its commitment to advancing American science working with the U.S. Department of Energy and national labs to use frontier AI to accelerate discovery."
           }
         ]
       },
@@ -162,67 +163,67 @@
         "home": "https://arxiv.org/list/cs.AI/recent",
         "url": "https://arxiv.org/rss/cs.AI",
         "status": "ok",
-        "fetchedAt": "2026-07-31T00:02:24.320818+00:00",
+        "fetchedAt": "2026-07-31T04:23:01.215421+00:00",
         "items": [
           {
-            "title": "Do Models Fake Alignment Without Clear Consequences?",
-            "link": "https://arxiv.org/abs/2607.24758",
-            "date": "2026-07-30T00:00:00-04:00",
-            "summary": "arXiv:2607.24758v2 Announce Type: new Abstract: Large language models are capable of recognizing evaluation contexts and altering their behavior to reflect evaluator expectations rather than typical deployment behaviors, a phenomenon known as alignment faking. The reasons why models fake alignment a"
+            "title": "Probing the Origins of Reasoning Performance: Representational Quality for Mathematical Problem-Solving in RL vs. SFT Fine-Tuned Models",
+            "link": "https://arxiv.org/abs/2607.26119",
+            "date": "2026-07-31T00:00:00-04:00",
+            "summary": "arXiv:2607.26119v1 Announce Type: new Abstract: Large reasoning models trained via reinforcement learning (RL) have been increasingly shown to outperform their supervised fine-tuned (SFT) counterparts on mathematical reasoning tasks; Yet the mechanistic basis for this advantage remains unclear. We t"
           },
           {
-            "title": "Beyond Memory: A Templated Substrate for Heterogeneous Collaborative Knowledge Work with LLM Agents",
-            "link": "https://arxiv.org/abs/2607.24759",
-            "date": "2026-07-30T00:00:00-04:00",
-            "summary": "arXiv:2607.24759v1 Announce Type: new Abstract: Research projects, educational efforts, and adjacent knowledge work accumulate findings, decisions, and reasoning that future collaborators rarely recover. The parts most useful to that work, including dead ends and walked-back claims, are routinely ex"
+            "title": "Even More Deception: Objective Misalignment in Mixed-Motive LLM Multi-Agent Systems",
+            "link": "https://arxiv.org/abs/2607.26120",
+            "date": "2026-07-31T00:00:00-04:00",
+            "summary": "arXiv:2607.26120v1 Announce Type: new Abstract: Large Language Models (LLMs)-powered multi-agent systems are increasingly deployed in mixed-motive environments, where agents operate under asymmetric information and strategic deception due to conflicting or hidden objectives. In these settings, misal"
           },
           {
-            "title": "Kernel Forge: An Agent Harness for LLM-based Generation and Optimization of CUDA Kernels",
-            "link": "https://arxiv.org/abs/2607.24762",
-            "date": "2026-07-30T00:00:00-04:00",
-            "summary": "arXiv:2607.24762v1 Announce Type: new Abstract: Machine learning models are increasingly embedded in everyday software, and most of their runtime is spent in a small set of compute kernels such as matrix multiplication, convolution, and normalization. Optimizing these kernels is one of the most dire"
+            "title": "ClinLens: Towards Long-Horizon Coding Agents for Longitudinal Multimodal Clinical Data Science",
+            "link": "https://arxiv.org/abs/2607.26155",
+            "date": "2026-07-31T00:00:00-04:00",
+            "summary": "arXiv:2607.26155v1 Announce Type: new Abstract: Clinical data-science agents must transform heterogeneous longitudinal records into auditable analyses, yet existing benchmarks largely isolate medical question answering, structured-table reasoning, or generic scientific repositories. We introduce CLI"
           },
           {
-            "title": "CaRE Compute-aware Remasking Evaluation Protocol for Masked Diffusion Language Models",
-            "link": "https://arxiv.org/abs/2607.24763",
-            "date": "2026-07-30T00:00:00-04:00",
-            "summary": "arXiv:2607.24763v1 Announce Type: new Abstract: Masked diffusion language models (MDLMs) are advancing rapidly, yet the evaluation standards needed to reliably interpret their progress have not kept pace. Despite MDLMs becoming competitive with autoregressive language models, seven recent remasking "
+            "title": "When benchmark inferences do not compose: Projectibility in AI evaluation",
+            "link": "https://arxiv.org/abs/2607.26159",
+            "date": "2026-07-31T00:00:00-04:00",
+            "summary": "arXiv:2607.26159v1 Announce Type: new Abstract: An AI benchmark result rarely reaches a consequential claim in one step. Evaluators generalize it to further cases, interpret it as evidence of capability, extrapolate it to new tasks, transport it to another system or site, and combine it with assumpt"
           },
           {
-            "title": "GrocLM: Grocery Category Recommendation in E-Commerce with Large Language Models",
-            "link": "https://arxiv.org/abs/2607.24764",
-            "date": "2026-07-30T00:00:00-04:00",
-            "summary": "arXiv:2607.24764v1 Announce Type: new Abstract: The rapid growth of online grocery shopping requires recommendation systems that capture cyclical purchasing behavior and diverse user intents. Traditional item-level methods face scalability and accuracy challenges, motivating category-level recommend"
+            "title": "GuideSkill: Evolving Executable LLM Agent Skills for Guideline-Grounded Clinical Reasoning",
+            "link": "https://arxiv.org/abs/2607.26160",
+            "date": "2026-07-31T00:00:00-04:00",
+            "summary": "arXiv:2607.26160v1 Announce Type: new Abstract: Clinical practice guidelines (CPGs) encode diagnostic criteria, but LLM systems typically retrieve guideline text or absorb it through training rather than execute its rules. We introduce GuideSkill, an external reasoning layer that compiles disease-sp"
           },
           {
-            "title": "Crystalis: Progressive Nucleation and Semantic Annealing for Coordinated Multi-View Visualization Generation",
-            "link": "https://arxiv.org/abs/2607.24766",
-            "date": "2026-07-30T00:00:00-04:00",
-            "summary": "arXiv:2607.24766v1 Announce Type: new Abstract: Large language models (LLMs) can generate individual charts, but coordinated multi-view visualizations (CMVs), where views share data flows and cross-view interactions, remain out of reach. Tight field-level coupling among data transformations, visual "
+            "title": "GoGoTB: Agentic RTL Verification with Specification-Grounded Coverage Closure",
+            "link": "https://arxiv.org/abs/2607.26181",
+            "date": "2026-07-31T00:00:00-04:00",
+            "summary": "arXiv:2607.26181v1 Announce Type: new Abstract: Functional verification dominates integrated circuit (IC) front-end engineering effort, and a single missed bug that escapes to silicon can trigger a costly respin. Recent large language models (LLMs) offer new opportunities to automate this process, y"
           },
           {
-            "title": "PATHFinder Agent for Tailored Prenatal Care",
-            "link": "https://arxiv.org/abs/2607.24768",
-            "date": "2026-07-30T00:00:00-04:00",
-            "summary": "arXiv:2607.24768v1 Announce Type: new Abstract: Prenatal care is an important preventive service designed to improve outcomes for pregnant individuals. The American College of Obstetricians and Gynecologists (ACOG) recently introduced guidelines advocating tailored prenatal care, called PATH (Plan f"
+            "title": "Position: Evaluation Scores Are Perishable Knowledge Claims",
+            "link": "https://arxiv.org/abs/2607.26191",
+            "date": "2026-07-31T00:00:00-04:00",
+            "summary": "arXiv:2607.26191v1 Announce Type: new Abstract: Evaluation methodologies for language models increasingly combine multiple signals, from automated metrics and LLM-as-judge ratings to human assessments and benchmark suite results. When these signals are aggregated via averaging, evaluation confidence"
           },
           {
-            "title": "LLM Scheming Inversely Scales with Pretraining Language Coverage",
-            "link": "https://arxiv.org/abs/2607.24769",
-            "date": "2026-07-30T00:00:00-04:00",
-            "summary": "arXiv:2607.24769v1 Announce Type: new Abstract: With the growing capabilities of frontier models, AI alignment becomes increasingly critical in high-risk deployment settings. While recent work has empirically demonstrated in-context scheming -- the covert pursuit of misaligned objectives while feign"
+            "title": "TraceCoder: Explainable and Auditable Code Generation with Position-Key Snippet Versioning",
+            "link": "https://arxiv.org/abs/2607.26307",
+            "date": "2026-07-31T00:00:00-04:00",
+            "summary": "arXiv:2607.26307v1 Announce Type: new Abstract: Contemporary LLM-based coding agents produce code as black-box outputs: the rationale behind each line is hidden, the evolution of the code through benchmark-driven repair is ephemeral, and post-hoc auditing is impossible. We present a code generation "
           },
           {
-            "title": "ProcAgent: An Agentic Framework for Procedural Task Guidance on Edge with Human-in-the-Loop",
-            "link": "https://arxiv.org/abs/2607.24770",
-            "date": "2026-07-30T00:00:00-04:00",
-            "summary": "arXiv:2607.24770v1 Announce Type: new Abstract: Procedural tasks such as furniture assembly and home repair impose substantial cognitive demands because users must interpret instructions, track task progress, reason about spatial state, and recover from errors while performing physical actions. Prio"
+            "title": "Exploring Structures in Physics Problems: Can AI Agents Discover Statistical Mechanical Mappings?",
+            "link": "https://arxiv.org/abs/2607.26367",
+            "date": "2026-07-31T00:00:00-04:00",
+            "summary": "arXiv:2607.26367v1 Announce Type: new Abstract: An important skill in theoretical physics is to recognize when a new problem can be transformed into a known model. We study this skill as an AI-agent task: can LLM-based agents discover statistical mechanical mappings from a raw partition function to "
           },
           {
-            "title": "RoCo-ACE: Rollout-Conditioned Online Distillation for Retention-Aware Knowledge Injection",
-            "link": "https://arxiv.org/abs/2607.24771",
-            "date": "2026-07-30T00:00:00-04:00",
-            "summary": "arXiv:2607.24771v1 Announce Type: new Abstract: Knowledge injection updates pretrained MLLMs with new factual or domain-specific knowledge, but fitting full authoritative answers can cause drift in non-updated behavior. Online distillation mitigates this drift by training on model-generated rollouts"
+            "title": "CaM-Wolf: Causal-Aware Multimodal Agents for Social Deduction Games",
+            "link": "https://arxiv.org/abs/2607.26393",
+            "date": "2026-07-31T00:00:00-04:00",
+            "summary": "arXiv:2607.26393v1 Announce Type: new Abstract: Social deduction games (SDGs) such as Werewolf have become challenging testbeds for AI agents. These games require complex social skills such as reasoning, deception, and collaboration. While recent advances in large language models (LLMs) have driven "
           }
         ]
       },
@@ -233,67 +234,67 @@
         "home": "https://arxiv.org/list/cs.LG/recent",
         "url": "https://arxiv.org/rss/cs.LG",
         "status": "ok",
-        "fetchedAt": "2026-07-31T00:02:24.352785+00:00",
+        "fetchedAt": "2026-07-31T04:23:01.164208+00:00",
         "items": [
           {
-            "title": "Emergent Sparsity in Frozen Random CNN Feature Extractors for Deep Reinforcement Learning",
-            "link": "https://arxiv.org/abs/2607.26059",
-            "date": "2026-07-30T00:00:00-04:00",
-            "summary": "arXiv:2607.26059v1 Announce Type: new Abstract: We report a striking phenomenon: deep reinforcement learning agents trained with frozen, randomly initialized CNN feature extractors spontaneously develop extremely sparse fully-connected representations, without any sparsity-inducing objective. In the"
+            "title": "Recursive transformers for semiconductor thermo-mechanical reliability",
+            "link": "https://arxiv.org/abs/2607.27251",
+            "date": "2026-07-31T00:00:00-04:00",
+            "summary": "arXiv:2607.27251v1 Announce Type: new Abstract: Transformer-based surrogate models are increasingly used to replace expensive first-principles simulation in engineering design. But conventional transformer architectures are often over parameterized for the small, low-dimensional datasets typical of "
           },
           {
-            "title": "Sim2Win: A Team-Agnostic, Event-Based Pre-Match Outcome Prediction and Tactical Profiling System for Football",
-            "link": "https://arxiv.org/abs/2607.26061",
-            "date": "2026-07-30T00:00:00-04:00",
-            "summary": "arXiv:2607.26061v1 Announce Type: new Abstract: Pre-match tactical decision-making in professional football relies heavily on subjective expert analysis and identity-based scouting systems that cannot generalize to unseen teams. This paper presents Sim2Win, a team-agnostic, event-based pre-match tac"
+            "title": "Regularizing modality contribution drift in multimodal continual learning",
+            "link": "https://arxiv.org/abs/2607.27260",
+            "date": "2026-07-31T00:00:00-04:00",
+            "summary": "arXiv:2607.27260v1 Announce Type: new Abstract: Multimodal continual learning (MMCL) aims to learn emerging knowledge from multimodal data while preserving knowledge. To mitigate forgetting, current MMCL methods usually focus on cross-modal representation alignment or semantic similarity, but they o"
           },
           {
-            "title": "Meta-Learned Reward Shaping for Reinforcement Learning from Human Feedback",
-            "link": "https://arxiv.org/abs/2607.26094",
-            "date": "2026-07-30T00:00:00-04:00",
-            "summary": "arXiv:2607.26094v1 Announce Type: new Abstract: Reinforcement Learning from Human Feedback (RLHF) is the standard approach for aligning large language models with human preferences, but its quality is limited by static, task-agnostic reward models. This mismatch leads to sparse learning signals and "
+            "title": "DoTime: A Synthetic Benchmark Generator for Interventional and Counterfactual Time Series",
+            "link": "https://arxiv.org/abs/2607.27263",
+            "date": "2026-07-31T00:00:00-04:00",
+            "summary": "arXiv:2607.27263v1 Announce Type: new Abstract: Most benchmarks for causal inference over time series are observational, small, or domain-specific, leaving interventional and counterfactual estimation under-served exactly where it matters most, such as in healthcare, policy evaluation, and climate s"
           },
           {
-            "title": "Data Fusion and Contrastive Alignment for Unconstrained IR Molecular Structure Elucidation",
-            "link": "https://arxiv.org/abs/2607.26164",
-            "date": "2026-07-30T00:00:00-04:00",
-            "summary": "arXiv:2607.26164v1 Announce Type: new Abstract: Automated molecular structure elucidation from infrared (IR) spectroscopy data has seen significant advancements in recent years, but its broad applicability is limited by a reliance on pre-determined chemical formulas provided as auxiliary model input"
+            "title": "PlatformBid: An Auto-Bidding Benchmark from a Unified Advertising Platform's Perspective",
+            "link": "https://arxiv.org/abs/2607.27265",
+            "date": "2026-07-31T00:00:00-04:00",
+            "summary": "arXiv:2607.27265v1 Announce Type: new Abstract: Real-time bidding is central to computational advertising, comprising three elements: Supply Side Platform (SSP) selling ad impressions, Demand Side Platform (DSP) bidding for advertisers, and Ad Exchange conducting auctions between them. Traditional a"
           },
           {
-            "title": "Shared SFT Lessons Across Alignment, Model Organisms, and Toy Models",
-            "link": "https://arxiv.org/abs/2607.26173",
-            "date": "2026-07-30T00:00:00-04:00",
-            "summary": "arXiv:2607.26173v1 Announce Type: new Abstract: Alignment training, model organisms, and toy models are usually treated as separate research areas. But projects in all three frequently use supervised fine-tuning (SFT) to pursue the same underlying goals. When projects share a goal, we should test wh"
+            "title": "Beyond KV Reconstruction: Functional Reconstruction for MLA Draft Models in Speculative Decoding",
+            "link": "https://arxiv.org/abs/2607.27269",
+            "date": "2026-07-31T00:00:00-04:00",
+            "summary": "arXiv:2607.27269v1 Announce Type: new Abstract: Multi-head latent attention (MLA) is increasingly important for long-context LLM inference because compact latent states replace the growing key-value (KV) cache and reduce decoding memory traffic. Yet most capable open checkpoints use multi-head or gr"
           },
           {
-            "title": "Dynamic Parameterization Is Not Dynamic Inference",
-            "link": "https://arxiv.org/abs/2607.26192",
-            "date": "2026-07-30T00:00:00-04:00",
-            "summary": "arXiv:2607.26192v1 Announce Type: new Abstract: Input-dependent controller coefficients are often treated as evidence of dynamic inference or computational savings. This interpretation conflates three properties: coefficient variation, dependence of a frozen model on how coefficients are assigned to"
+            "title": "RLPF: Reinforcement Learning from Performance Feedback for Code Generation",
+            "link": "https://arxiv.org/abs/2607.27271",
+            "date": "2026-07-31T00:00:00-04:00",
+            "summary": "arXiv:2607.27271v1 Announce Type: new Abstract: Code models are increasingly trained with execution feedback, but most training signals still stop at correctness. This leaves an important gap for systems code: two programs can pass the same tests while differing greatly in runtime. We study how to t"
           },
           {
-            "title": "Weak-to-Strong On-Policy Distillation",
-            "link": "https://arxiv.org/abs/2607.26246",
-            "date": "2026-07-30T00:00:00-04:00",
-            "summary": "arXiv:2607.26246v1 Announce Type: new Abstract: On-policy distillation (OPD), which aligns a student with the teacher's token-level distribution on the student's own rollouts, is an effective paradigm for transferring capabilities across LLMs. Prevailing approaches assume a teacher at least as capab"
+            "title": "SDO: Structure-Aware Data Organization for Efficient LLM Post-Training",
+            "link": "https://arxiv.org/abs/2607.27273",
+            "date": "2026-07-31T00:00:00-04:00",
+            "summary": "arXiv:2607.27273v1 Announce Type: new Abstract: Post-training of large language models is expensive, and existing efficiency improvements mainly focus on selecting informative samples or designing training schedules. However, data organization itself is usually treated as a static preprocessing step"
           },
           {
-            "title": "Between Gradient and Natural Gradient: A Continuum of LoRA Initializations",
-            "link": "https://arxiv.org/abs/2607.26247",
-            "date": "2026-07-30T00:00:00-04:00",
-            "summary": "arXiv:2607.26247v1 Announce Type: new Abstract: Low-rank adaptation (LoRA) fine-tunes large pretrained models at a fraction of the cost of full fine-tuning, but its performance depends strongly on how the adapters are initialized. Recent schemes initialize the adapters from the downstream loss gradi"
+            "title": "Rethinking EEG-Based Disease Diagnosis: Decoupling Instance Representation Learning from Subject-Level Supervision",
+            "link": "https://arxiv.org/abs/2607.27274",
+            "date": "2026-07-31T00:00:00-04:00",
+            "summary": "arXiv:2607.27274v1 Announce Type: new Abstract: EEG-based disease diagnosis requires one prediction per subject, yet common pipelines segment recordings into short instances, inherit the subject label for every instance, and train instance-level classifiers. This assumes that all instances provide e"
           },
           {
-            "title": "Early Verdicts, Better Budgets: Sequential Adaptive Rollout Allocation for Compute-Efficient RLVR",
-            "link": "https://arxiv.org/abs/2607.26253",
-            "date": "2026-07-30T00:00:00-04:00",
-            "summary": "arXiv:2607.26253v1 Announce Type: new Abstract: Reinforcement learning with verifiable rewards (RLVR) is bottlenecked by rollout generation, yet many sampled prompts produce saturated groups (all responses correct or all incorrect) whose zero reward variance yields no policy-gradient signal. Existin"
+            "title": "Flat Score, Amplified Failures: How the Error Budget Masks Damage in Quantized LLM Agents",
+            "link": "https://arxiv.org/abs/2607.27275",
+            "date": "2026-07-31T00:00:00-04:00",
+            "summary": "arXiv:2607.27275v1 Announce Type: new Abstract: Post-training quantization to 4-bit weights is widely reported to be nearly lossless. We test this claim for multi-turn, tool-calling agents, where it now matters most. On $\\tau^2$-bench, across two open-weight model families in dense and MoE variants "
           },
           {
-            "title": "Top-$k$ Pareto Bandits: Hypervolume Regret for Multi-Objective Slate Selection",
-            "link": "https://arxiv.org/abs/2607.26273",
-            "date": "2026-07-30T00:00:00-04:00",
-            "summary": "arXiv:2607.26273v1 Announce Type: new Abstract: We consider a stochastic multi-objective bandit problem where, at each round, the agent selects a slate of $k$ arms and observes their $d$-dimensional reward vectors under semi-bandit feedback. We do not aim at identifying a single optimal arm; instead"
+            "title": "The Kinetics of Training: A Driven-Nucleation Rate Law for Emergence, Plasticity Loss, and Circuit Control in Language Models",
+            "link": "https://arxiv.org/abs/2607.27281",
+            "date": "2026-07-31T00:00:00-04:00",
+            "summary": "arXiv:2607.27281v1 Announce Type: new Abstract: A capability appears in a language model when the last parts of its circuit align in one stochastic attempt, and getting all but one right is worth nothing. We show this no-partial-credit joint alignment is the rate-limiting step of capability formatio"
           }
         ]
       },
@@ -304,7 +305,7 @@
         "home": "https://research.google/blog/",
         "url": "https://research.google/blog/rss/",
         "status": "ok",
-        "fetchedAt": "2026-07-31T00:02:24.281070+00:00",
+        "fetchedAt": "2026-07-31T04:23:01.099069+00:00",
         "items": [
           {
             "title": "Science One Framework: A verifiable autonomous research framework via Chain-of-Evidence",
@@ -375,7 +376,7 @@
         "home": "https://deepmind.google/blog/",
         "url": "https://deepmind.google/blog/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-31T00:02:24.520053+00:00",
+        "fetchedAt": "2026-07-31T04:23:01.112866+00:00",
         "items": [
           {
             "title": "Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration",
@@ -446,7 +447,7 @@
         "home": "https://lilianweng.github.io/",
         "url": "https://lilianweng.github.io/lil-log/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-31T00:02:24.118049+00:00",
+        "fetchedAt": "2026-07-31T04:23:00.868434+00:00",
         "items": [
           {
             "title": "Active Learning",
@@ -537,7 +538,7 @@
         "home": "https://minimaxir.com/",
         "url": "https://minimaxir.com/index.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-31T00:02:24.220182+00:00",
+        "fetchedAt": "2026-07-31T04:23:00.906507+00:00",
         "items": [
           {
             "title": "LLMs break down in funny ways when told the Jacobian Conjecture counterargument",
@@ -620,7 +621,7 @@
         "home": "https://www.jeffgeerling.com/",
         "url": "https://www.jeffgeerling.com/blog.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-31T00:02:24.148580+00:00",
+        "fetchedAt": "2026-07-31T04:23:00.914879+00:00",
         "items": [
           {
             "title": "Adding a backup Internet WAN on my OPNsense Router",
@@ -691,7 +692,7 @@
         "home": "https://www.seangoedecke.com/",
         "url": "https://www.seangoedecke.com/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-31T00:02:24.362527+00:00",
+        "fetchedAt": "2026-07-31T04:23:01.176349+00:00",
         "items": [
           {
             "title": "You don't have to be smart if you can think clearly",
@@ -762,7 +763,7 @@
         "home": "https://krebsonsecurity.com/",
         "url": "https://krebsonsecurity.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-07-31T00:02:24.187361+00:00",
+        "fetchedAt": "2026-07-31T04:23:01.123370+00:00",
         "items": [
           {
             "title": "Read This Before You Buy That TV Streaming Stick",
@@ -833,7 +834,7 @@
         "home": "https://daringfireball.net/",
         "url": "https://daringfireball.net/feeds/main",
         "status": "ok",
-        "fetchedAt": "2026-07-31T00:02:24.271334+00:00",
+        "fetchedAt": "2026-07-31T04:23:01.134211+00:00",
         "items": [
           {
             "title": "Mark Zuckerberg: ‘The AI Future Is for Everyone’",
@@ -904,7 +905,7 @@
         "home": "https://ericmigi.com/",
         "url": "https://ericmigi.com/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-31T00:02:24.276270+00:00",
+        "fetchedAt": "2026-07-31T04:23:01.087202+00:00",
         "items": [
           {
             "title": "Index 01 Is In Mass Production!",
@@ -975,7 +976,7 @@
         "home": "http://antirez.com/",
         "url": "http://antirez.com/rss",
         "status": "ok",
-        "fetchedAt": "2026-07-31T00:02:25.953636+00:00",
+        "fetchedAt": "2026-07-31T04:23:02.968858+00:00",
         "items": [
           {
             "title": "The real AI risk is inside the labs",
@@ -1046,7 +1047,7 @@
         "home": "https://idiallo.com/",
         "url": "https://idiallo.com/feed.rss",
         "status": "ok",
-        "fetchedAt": "2026-07-31T00:02:24.364618+00:00",
+        "fetchedAt": "2026-07-31T04:23:01.223689+00:00",
         "items": [
           {
             "title": "BI Slop",
@@ -1117,7 +1118,7 @@
         "home": "https://maurycyz.com/",
         "url": "https://maurycyz.com/index.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-31T00:02:24.898306+00:00",
+        "fetchedAt": "2026-07-31T04:23:01.787196+00:00",
         "items": []
       },
       {
@@ -1127,7 +1128,7 @@
         "home": "https://pluralistic.net/",
         "url": "https://pluralistic.net/feed/",
         "status": "ok",
-        "fetchedAt": "2026-07-31T00:02:27.367405+00:00",
+        "fetchedAt": "2026-07-31T04:23:04.436932+00:00",
         "items": [
           {
             "title": "Pluralistic: The stupidest imaginable excuses for surveillance pricing (30 Jul 2026)",
@@ -1197,70 +1198,9 @@
         "title": "Terence Eden",
         "home": "https://shkspr.mobi/blog/",
         "url": "https://shkspr.mobi/blog/feed/",
-        "status": "ok",
-        "fetchedAt": "2026-07-31T00:02:25.193683+00:00",
-        "items": [
-          {
-            "title": "Are political journalists always wrong?",
-            "link": "https://shkspr.mobi/blog/2026/07/are-political-journalists-always-wrong/",
-            "date": "2026-07-30T11:34:31+00:00",
-            "summary": "I&#039;ve mostly tuned out of reading the news. But, once in a while, a headline will be shared on social media and I&#039;ll momentarily stare into the abyss. There has recently been a change in UK Prime Minister. I neither know nor care whether that&#039;s a good thing. What I do know is that Seni"
-          },
-          {
-            "title": "Google Calendar \"Unable to launch event\" - caused by missing DTSTAMP",
-            "link": "https://shkspr.mobi/blog/2026/07/google-calendar-unable-to-launch-event-caused-by-missing-dtstamp/",
-            "date": "2026-07-28T11:34:15+00:00",
-            "summary": "For several years, Google&#039;s product help forums have been littered with people trying to download a .ics event from their email, only to receive the error &#34;Unable to launch event&#34; when trying to add it to Google Calendar. It doesn&#039;t happen with all iCal attachments, only some. Here"
-          },
-          {
-            "title": "Book Review: Dungeon Crawler Carl by Matt Dinniman ★★⯪☆☆",
-            "link": "https://shkspr.mobi/blog/2026/07/book-review-dungeon-crawler-carl-by-matt-dinniman/",
-            "date": "2026-07-26T11:34:33+00:00",
-            "summary": "To call this derivative is an understatement. But that&#039;s what this genre demands; rehash all your favourite media properties into something new. It&#039;s the literary equivalent of having your Transformers™ fight your He-Man© toys. The plot, such as it is, features the Vogon Constructor Fleet "
-          },
-          {
-            "title": "Some Quick Thoughts on EMF Camp 2026",
-            "link": "https://shkspr.mobi/blog/2026/07/some-quick-thoughts-on-emf-camp-2026/",
-            "date": "2026-07-25T11:34:01+00:00",
-            "summary": "I&#039;ve performed a talk at the last three EMFs - so this time I decided to go purely as a tourist. It made things much more relaxing. No waking up from a stress dream that my laptop didn&#039;t work. No casually dropping my talk into every conversation to build up an audience. No queueing for the"
-          },
-          {
-            "title": "Book Review: Foreign Fruit - A Personal History of the Orange by Katie Goh ★⯪☆☆☆",
-            "link": "https://shkspr.mobi/blog/2026/07/book-review-foreign-fruit-a-personal-history-of-the-orange-by-katie-goh/",
-            "date": "2026-07-24T11:34:07+00:00",
-            "summary": "I didn&#039;t care for this book. It attempts to interweave botanical and cultural history with an autobiography and ends up doing neither particularly well. For every dose of poetry about the far-flung and exotic journey of the fruit, there&#039;s a dull recitation of facts from Wikipedia. Occasion"
-          },
-          {
-            "title": "Scattered thoughts on social geolocation",
-            "link": "https://shkspr.mobi/blog/2026/07/scattered-thoughts-on-social-geolocation/",
-            "date": "2026-07-22T11:34:12+00:00",
-            "summary": "I want to be able to share my location with my friends on social media. Twitter (RIP) had a way to attach an optional location to a post. Facebook still lets me check in to venues. But neither ActivityPub (Mastodon) nor AT Protocol (BlueSky) allow me to do that. I&#039;ve been banging on about this "
-          },
-          {
-            "title": "Public Transport - Don't Make Me Think!",
-            "link": "https://shkspr.mobi/blog/2026/07/public-transport-dont-make-me-think/",
-            "date": "2026-07-20T11:34:23+00:00",
-            "summary": "In the last year, I&#039;ve been through over a dozen cities and used public transport in all of them. It is wild just how confusing and complex buying a ticket can be. While some cities obviously take a user-centred approach to ticketing, others appear to take a Kafkaesque delight in a bureaucratic"
-          },
-          {
-            "title": "Book Review: A City on Mars - by Dr. Kelly Weinersmith and Zach Weinersmith ★★★★⯪",
-            "link": "https://shkspr.mobi/blog/2026/07/book-review-a-city-on-mars-by-dr-kelly-weinersmith-and-zach-weinersmith/",
-            "date": "2026-07-18T11:34:18+00:00",
-            "summary": "I&#039;m pretty sure this book is a psyop designed to demoralise a generation of starry-eyed dreamers. It is obviously written by the same people who told us not to land on Europa. A malignant energy designed to limit the scope of human ambition and thwart our plans to colonise the universe. The pro"
-          },
-          {
-            "title": "Gadget Review: Thermal Master DV2 - Infrared Birdwatching Scope ★★★★⯪",
-            "link": "https://shkspr.mobi/blog/2026/07/gadget-review-thermal-master-dv2-infrared-birdwatching-scope/",
-            "date": "2026-07-16T11:34:50+00:00",
-            "summary": "The good folks at Thermal Master have sent me their DV2 camera to review. As their name suggests, this is a thermal / infrared camera - they&#039;ve specifically designed this for bird watching and animal spotting. Let&#039;s put it through its paces and see how it compares to the competition! Strai"
-          },
-          {
-            "title": "I'm a USB-C Maximalist",
-            "link": "https://shkspr.mobi/blog/2026/07/im-a-usb-c-maximalist/",
-            "date": "2026-07-14T11:34:26+00:00",
-            "summary": "My wife and I recently went on a 7 week holiday around Europe. Although we each took a massive backpack, we wanted to travel fairly lightly. I took a single universal power brick. This little unit was all I needed to charge my various gadgets. It has a hefty USB-C PD (Power Delivery) port for rapid "
-          }
-        ]
+        "status": "error",
+        "error": "HTTP 415",
+        "items": []
       },
       {
         "id": "lcamtuf",
@@ -1279,7 +1219,7 @@
         "home": "https://mitchellh.com/",
         "url": "https://mitchellh.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-31T00:02:24.580231+00:00",
+        "fetchedAt": "2026-07-31T04:23:01.467293+00:00",
         "items": [
           {
             "title": "Superlogical",
@@ -1350,7 +1290,7 @@
         "home": "https://dynomight.net/",
         "url": "https://dynomight.net/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-31T00:02:24.631549+00:00",
+        "fetchedAt": "2026-07-31T04:23:05.713847+00:00",
         "items": [
           {
             "title": "So you want to use plants to reduce indoor CO₂",
@@ -1421,7 +1361,7 @@
         "home": "https://xeiaso.net/",
         "url": "https://xeiaso.net/blog.rss",
         "status": "ok",
-        "fetchedAt": "2026-07-31T00:02:24.866043+00:00",
+        "fetchedAt": "2026-07-31T04:23:01.793614+00:00",
         "items": [
           {
             "title": "Presigned URLs are technically a security vuln",
@@ -1492,7 +1432,7 @@
         "home": "https://devblogs.microsoft.com/oldnewthing/",
         "url": "https://devblogs.microsoft.com/oldnewthing/feed",
         "status": "ok",
-        "fetchedAt": "2026-07-31T00:02:24.586752+00:00",
+        "fetchedAt": "2026-07-31T04:23:01.320269+00:00",
         "items": [
           {
             "title": "Making an agile version of a Windows Runtime delegate in C++/WinRT, part 8",
@@ -1563,7 +1503,7 @@
         "home": "https://www.righto.com/",
         "url": "https://www.righto.com/feeds/posts/default",
         "status": "ok",
-        "fetchedAt": "2026-07-31T00:02:24.504100+00:00",
+        "fetchedAt": "2026-07-31T04:23:01.572935+00:00",
         "items": []
       },
       {
@@ -1573,7 +1513,7 @@
         "home": "https://lucumr.pocoo.org/",
         "url": "https://lucumr.pocoo.org/feed.atom",
         "status": "ok",
-        "fetchedAt": "2026-07-31T00:02:24.389761+00:00",
+        "fetchedAt": "2026-07-31T04:23:01.310031+00:00",
         "items": [
           {
             "title": "Codeberg Divides",
@@ -1644,7 +1584,7 @@
         "home": "https://skyfall.dev/",
         "url": "https://skyfall.dev/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-31T00:02:24.859920+00:00",
+        "fetchedAt": "2026-07-31T04:23:01.445287+00:00",
         "items": [
           {
             "title": "Good riddance, 4o",
@@ -1719,7 +1659,7 @@
         "home": "https://overreacted.io/",
         "url": "https://overreacted.io/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-31T00:02:24.641922+00:00",
+        "fetchedAt": "2026-07-31T04:23:01.393727+00:00",
         "items": [
           {
             "title": "There Are No Instances in atproto",
@@ -1790,7 +1730,7 @@
         "home": "https://www.johndcook.com/",
         "url": "https://www.johndcook.com/blog/feed/",
         "status": "ok",
-        "fetchedAt": "2026-07-31T00:02:24.412843+00:00",
+        "fetchedAt": "2026-07-31T04:23:01.530941+00:00",
         "items": [
           {
             "title": "Inverse factorial improved",
@@ -1861,7 +1801,7 @@
         "home": "https://matklad.github.io/",
         "url": "https://matklad.github.io/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-31T00:02:24.256362+00:00",
+        "fetchedAt": "2026-07-31T04:23:01.563332+00:00",
         "items": [
           {
             "title": "Memory Safety's Hardest Problem",
@@ -1932,7 +1872,7 @@
         "home": "https://eli.thegreenplace.net/",
         "url": "https://eli.thegreenplace.net/feeds/all.atom.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-31T00:02:24.515469+00:00",
+        "fetchedAt": "2026-07-31T04:23:01.297643+00:00",
         "items": [
           {
             "title": "Notes on the Fourier Transform",
@@ -1973,7 +1913,7 @@
         "home": "https://fabiensanglard.net/",
         "url": "https://fabiensanglard.net/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-31T00:02:24.673409+00:00",
+        "fetchedAt": "2026-07-31T04:23:01.702875+00:00",
         "items": [
           {
             "title": "Jurassic Park computers in excruciating detail",
@@ -2044,7 +1984,7 @@
         "home": "https://blog.miguelgrinberg.com/",
         "url": "https://blog.miguelgrinberg.com/feed",
         "status": "ok",
-        "fetchedAt": "2026-07-31T00:02:25.393604+00:00",
+        "fetchedAt": "2026-07-31T04:23:01.950548+00:00",
         "items": [
           {
             "title": "I Am Not a Reverse Centaur",
@@ -2115,7 +2055,7 @@
         "home": "https://www.troyhunt.com/",
         "url": "https://www.troyhunt.com/rss/",
         "status": "ok",
-        "fetchedAt": "2026-07-31T00:02:24.665805+00:00",
+        "fetchedAt": "2026-07-31T04:23:01.375163+00:00",
         "items": [
           {
             "title": "Weekly Update 514: This Week in Data Breaches",
@@ -2186,7 +2126,7 @@
         "home": "https://anildash.com/",
         "url": "https://anildash.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-31T00:02:24.739840+00:00",
+        "fetchedAt": "2026-07-31T04:23:02.139338+00:00",
         "items": [
           {
             "title": "Defending Privacy, Daily",
@@ -2257,7 +2197,7 @@
         "home": "https://computer.rip/",
         "url": "https://computer.rip/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-31T00:02:24.848004+00:00",
+        "fetchedAt": "2026-07-31T04:23:01.622197+00:00",
         "items": [
           {
             "title": "email encryption",
@@ -2338,7 +2278,7 @@
         "home": "http://paulgraham.com/",
         "url": "http://www.aaronsw.com/2002/feeds/pgessays.rss",
         "status": "ok",
-        "fetchedAt": "2026-07-31T00:02:24.458355+00:00",
+        "fetchedAt": "2026-07-31T04:23:01.258287+00:00",
         "items": [
           {
             "title": "Superlinear Returns",
@@ -2409,7 +2349,7 @@
         "home": "https://steveblank.com/",
         "url": "https://steveblank.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-07-31T00:02:24.398872+00:00",
+        "fetchedAt": "2026-07-31T04:23:01.281780+00:00",
         "items": [
           {
             "title": "Lean Launch Pad 2026 @ Stanford – Lessons Learned Presentations",
@@ -2482,30 +2422,24 @@
         "home": "https://news.ycombinator.com/",
         "url": "https://news.ycombinator.com/rss",
         "status": "ok",
-        "fetchedAt": "2026-07-31T00:02:24.473684+00:00",
+        "fetchedAt": "2026-07-31T04:23:01.273867+00:00",
         "items": [
+          {
+            "title": "A California aquifer may have crossed the point of no return",
+            "link": "https://www.science.org/content/article/california-aquifer-may-have-crossed-point-no-return",
+            "date": "2026-07-31T03:27:36+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "The AI Aesthetic",
+            "link": "https://blog.jim-nielsen.com/2026/ai-aesthetic/",
+            "date": "2026-07-30T23:22:16+00:00",
+            "summary": "Comments"
+          },
           {
             "title": "Read this before you buy that TV streaming stick",
             "link": "https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/",
             "date": "2026-07-30T17:04:53+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "Investigating three real-world incidents in our cybersecurity evaluations",
-            "link": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
-            "date": "2026-07-30T23:00:51+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "Agent Skill to Force Docs in ASD-STE100 Simplified Technical English",
-            "link": "https://github.com/AminBlg/SimpleEnglish",
-            "date": "2026-07-30T19:34:27+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "Stacked PRs are now live on GitHub",
-            "link": "https://github.blog/changelog/2026-07-30-stacked-pull-requests-are-now-in-public-preview/",
-            "date": "2026-07-30T16:26:16+00:00",
             "summary": "Comments"
           },
           {
@@ -2515,33 +2449,39 @@
             "summary": "Comments"
           },
           {
+            "title": "Stacked PRs are now live on GitHub",
+            "link": "https://github.blog/changelog/2026-07-30-stacked-pull-requests-are-now-in-public-preview/",
+            "date": "2026-07-30T16:26:16+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "Agent Skill to Force Docs in ASD-STE100 Simplified Technical English",
+            "link": "https://github.com/AminBlg/SimpleEnglish",
+            "date": "2026-07-30T19:34:27+00:00",
+            "summary": "Comments"
+          },
+          {
             "title": "Gemini Robotics 2 brings whole body intelligence to robots",
             "link": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
             "date": "2026-07-30T15:15:48+00:00",
             "summary": "Comments"
           },
           {
-            "title": "Rune 1.1: adds Python, an Emacs editor, a symbol index and is now free",
-            "link": "https://rune.build/blog/rune-1-1-release",
-            "date": "2026-07-30T21:47:31+00:00",
+            "title": "Does Speaking to Agents Like Cavemen Save 65% of Tokens? We Test",
+            "link": "https://blog.jetbrains.com/ai/2026/07/speak-to-ai-agents-like-cavemen-tosave-tokens/",
+            "date": "2026-07-28T07:37:22+00:00",
             "summary": "Comments"
           },
           {
-            "title": "CodePen 2.0",
-            "link": "https://chriscoyier.net/2026/07/30/codepen-2-0/",
-            "date": "2026-07-30T17:52:51+00:00",
+            "title": "The bond market isn't buying what Fed Chair Warsh is selling",
+            "link": "https://www.reuters.com/commentary/reuters-open-interest/bond-market-isnt-buying-what-fed-chair-warsh-is-selling-2026-07-30/",
+            "date": "2026-07-31T03:32:21+00:00",
             "summary": "Comments"
           },
           {
-            "title": "UEFA and its national associations will not participate in FIFA competitions",
-            "link": "https://www.uefa.com/news-media/news/02a7-213a92896eb0-54dfbf454e3b-1000--statement-on-behalf-of-uefa-and-its-55-national-associations/",
-            "date": "2026-07-30T18:40:52+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "Physicists Solve a Muon Mystery. Now, Old Results Don't Add Up",
-            "link": "https://www.quantamagazine.org/physicists-solve-a-muon-mystery-now-old-results-dont-add-up-20260729/",
-            "date": "2026-07-30T15:22:46+00:00",
+            "title": "The American Grilled Cheese Sandwich Essay (2024)",
+            "link": "https://buttondown.com/theswordandthesandwich/archive/the-best-american-grilled-cheese-sandwich-essay/",
+            "date": "2026-07-27T17:37:32+00:00",
             "summary": "Comments"
           }
         ]
@@ -2553,67 +2493,67 @@
         "home": "https://www.techmeme.com/",
         "url": "https://www.techmeme.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-31T00:02:24.683423+00:00",
+        "fetchedAt": "2026-07-31T04:23:01.641870+00:00",
         "items": [
           {
-            "title": "Anthropic says it discovered three of its models had breached three organizations after launching a review in response to the OpenAI-Hugging Face incident (Anthropic)",
-            "link": "https://www.techmeme.com/260730/p61#a260730p61",
-            "date": "2026-07-30T19:30:01-04:00",
-            "summary": "Anthropic: Anthropic says it discovered three of its models had breached three organizations after launching a review in response to the OpenAI-Hugging Face incident&nbsp; &mdash;&nbsp; In a review of our cybersecurity evaluation transcripts, we found three incidents in which a Claude model reached "
+            "title": "A leaked memo, issued by the water utilities information sharing group WaterISAC, links dozens of cyberattacks against Minnesota water utilities to Iran (Andy Greenberg/Wired)",
+            "link": "https://www.techmeme.com/260731/p1#a260731p1",
+            "date": "2026-07-31T00:00:14-04:00",
+            "summary": "Andy Greenberg / Wired: A leaked memo, issued by the water utilities information sharing group WaterISAC, links dozens of cyberattacks against Minnesota water utilities to Iran&nbsp; &mdash;&nbsp; A memo obtained by WIRED, issued by the water utilities information sharing group WaterISAC, links doze"
           },
           {
-            "title": "Sources: Zelenskyy asked Trump to secure Elon Musk's permission for the use of Starlink to guide drone strikes inside Russia, but Trump was noncommittal (The Atlantic)",
-            "link": "https://www.techmeme.com/260730/p60#a260730p60",
-            "date": "2026-07-30T19:25:02-04:00",
-            "summary": "The Atlantic: Sources: Zelenskyy asked Trump to secure Elon Musk's permission for the use of Starlink to guide drone strikes inside Russia, but Trump was noncommittal&nbsp; &mdash;&nbsp; Ukraine wants to start using Musk's Starlink to target ballistic-missile launchers inside Russia.&nbsp; &mdash;&n"
+            "title": "Sources: SoftBank gave $50M to Trump's library; Apple, Microsoft, and Amazon gave $25M, $10M, and $5M to his WH ballroom; Meta gave $10M to a pro-Trump group (Wall Street Journal)",
+            "link": "https://www.techmeme.com/260730/p70#a260730p70",
+            "date": "2026-07-30T23:40:01-04:00",
+            "summary": "Wall Street Journal: Sources: SoftBank gave $50M to Trump's library; Apple, Microsoft, and Amazon gave $25M, $10M, and $5M to his WH ballroom; Meta gave $10M to a pro-Trump group&nbsp; &mdash;&nbsp; Meredith O'Rourke, nicknamed &lsquo;princess of darkness,&rsquo; carries out president's desire to wr"
           },
           {
-            "title": "In a memo to employees, Xbox CEO Asha Sharma lays out priorities for the unit, including returning to player and revenue growth by the end of fiscal year 2027 (The Verge)",
-            "link": "https://www.techmeme.com/260730/p59#a260730p59",
-            "date": "2026-07-30T19:15:02-04:00",
-            "summary": "The Verge: In a memo to employees, Xbox CEO Asha Sharma lays out priorities for the unit, including returning to player and revenue growth by the end of fiscal year 2027&nbsp; &mdash;&nbsp; Asha Sharma wants Xbox to return to growth. Asha Sharma wants Xbox to return to growth."
+            "title": "Apple forecasts Q4 revenue growth of 9% to 11% YoY, below a 12%+ estimate, citing supply constraints and currency fluctuations; AAPL drops 5%+ after hours (Mark Gurman/Bloomberg)",
+            "link": "https://www.techmeme.com/260730/p69#a260730p69",
+            "date": "2026-07-30T22:45:01-04:00",
+            "summary": "Mark Gurman / Bloomberg: Apple forecasts Q4 revenue growth of 9% to 11% YoY, below a 12%+ estimate, citing supply constraints and currency fluctuations; AAPL drops 5%+ after hours&nbsp; &mdash;&nbsp; Breaking Down Apple's 3Q Results and Outlook&nbsp; &mdash;&nbsp; Video Player is loading.&nbsp; &mda"
           },
           {
-            "title": "Anthropic says three of its models, including an internal research model, gained unauthorized access to real-world systems during internal cybersecurity testing (Sam Sabin/Axios)",
-            "link": "https://www.techmeme.com/260730/p58#a260730p58",
-            "date": "2026-07-30T19:10:05-04:00",
-            "summary": "Sam Sabin / Axios: Anthropic says three of its models, including an internal research model, gained unauthorized access to real-world systems during internal cybersecurity testing&nbsp; &mdash;&nbsp; Some of Anthropic's most powerful models &mdash; including Mythos 5 and an internal research model &"
+            "title": "Sources: Tesla execs were told to prepare for a separation of its China unit ahead of a potential SpaceX merger; advisers weighed a sale, spinoff, or closure (Wall Street Journal)",
+            "link": "https://www.techmeme.com/260730/p68#a260730p68",
+            "date": "2026-07-30T22:10:00-04:00",
+            "summary": "Wall Street Journal: Sources: Tesla execs were told to prepare for a separation of its China unit ahead of a potential SpaceX merger; advisers weighed a sale, spinoff, or closure&nbsp; &mdash;&nbsp; The U.S. automaker could sell or spin off the business in its second-largest market over geopolitical"
           },
           {
-            "title": "The Commerce Dept. signed letters of intent for $874M in CHIPS Act funding in exchange for minority stakes in GlobalFoundries, Kepler, and five other companies (Miranda Nazzaro/The Hill)",
-            "link": "https://www.techmeme.com/260730/p57#a260730p57",
-            "date": "2026-07-30T19:05:00-04:00",
-            "summary": "Miranda Nazzaro / The Hill: The Commerce Dept. signed letters of intent for $874M in CHIPS Act funding in exchange for minority stakes in GlobalFoundries, Kepler, and five other companies&nbsp; &mdash;&nbsp; The Department of Commerce quietly announced this week it will designate more than $870 mill"
+            "title": "Shares of SK Hynix and Samsung surge more than 20% in Seoul on Friday, marking a sharp reversal from this week's sell-off (Lee Ying Shan/CNBC)",
+            "link": "https://www.techmeme.com/260730/p67#a260730p67",
+            "date": "2026-07-30T21:50:01-04:00",
+            "summary": "Lee Ying Shan / CNBC: Shares of SK Hynix and Samsung surge more than 20% in Seoul on Friday, marking a sharp reversal from this week's sell-off&nbsp; &mdash;&nbsp; South Korea's chip heavyweights SK Hynix and Samsung Electronics skyrocketed in Seoul on Friday, tracking a sharp rally in U.S. technolo"
           },
           {
-            "title": "Coinbase reports Q2 revenue down 19% YoY to $1.2B, vs. $1.3B est., stablecoin revenue below est., and a wider-than-expected loss; COIN drops 5%+ after hours (CNBC)",
-            "link": "https://www.techmeme.com/260730/p56#a260730p56",
-            "date": "2026-07-30T18:00:01-04:00",
-            "summary": "CNBC: Coinbase reports Q2 revenue down 19% YoY to $1.2B, vs. $1.3B est., stablecoin revenue below est., and a wider-than-expected loss; COIN drops 5%+ after hours&nbsp; &mdash;&nbsp; Coinbase shares dropped in extended trading on Thursday after the crypto platform posted a wider-than-expected loss f"
+            "title": "Chip stocks rallied Thursday after strong Microsoft and Lam Research earnings: Lam Research closed up 18%, Micron 18%, Sandisk 26%, Arm 7%, AMD 13%, Intel 11% (Samantha Subin/CNBC)",
+            "link": "https://www.techmeme.com/260730/p66#a260730p66",
+            "date": "2026-07-30T21:40:07-04:00",
+            "summary": "Samantha Subin / CNBC: Chip stocks rallied Thursday after strong Microsoft and Lam Research earnings: Lam Research closed up 18%, Micron 18%, Sandisk 26%, Arm 7%, AMD 13%, Intel 11%&nbsp; &mdash;&nbsp; Chip stocks rocketed on Thursday after strong tech earnings from Microsoft and Lam Research sparke"
           },
           {
-            "title": "Roblox reports Q2 bookings up 8% YoY to $1.56B, vs. $1.6B est., DAUs up 10% to 123M, forecasts Q3 bookings and revenue below est.; RBLX drops 13%+ after hours (Kelly Cloonan/Wall Street Journal)",
-            "link": "https://www.techmeme.com/260730/p55#a260730p55",
-            "date": "2026-07-30T17:40:01-04:00",
-            "summary": "Kelly Cloonan / Wall Street Journal: Roblox reports Q2 bookings up 8% YoY to $1.56B, vs. $1.6B est., DAUs up 10% to 123M, forecasts Q3 bookings and revenue below est.; RBLX drops 13%+ after hours&nbsp; &mdash;&nbsp; The company projects revenue to increase by 4% to 10%, slowing from recent double-di"
+            "title": "Apple CFO Kevan Parekh says Services surpassed 1.5B paid subscriptions, up from 1B in January 2025, but a gaming slowdown and App Store changes hurt growth (Sarah Perez/TechCrunch)",
+            "link": "https://www.techmeme.com/260730/p65#a260730p65",
+            "date": "2026-07-30T21:10:01-04:00",
+            "summary": "Sarah Perez / TechCrunch: Apple CFO Kevan Parekh says Services surpassed 1.5B paid subscriptions, up from 1B in January 2025, but a gaming slowdown and App Store changes hurt growth&nbsp; &mdash;&nbsp; Apple says it has now topped 1.5 billion subscribers for its services business, up from 1 billion "
           },
           {
-            "title": "Apple Q3: iPhone up 22% YoY to $54.25B, vs. $53.86B est., Mac up 29% to $10.35B, iPad down 6% to $6.19B, and Wearables, Home, and Accessories up 6% to $7.88B (Stephen Nellis/Reuters)",
-            "link": "https://www.techmeme.com/260730/p54#a260730p54",
-            "date": "2026-07-30T17:05:00-04:00",
-            "summary": "Stephen Nellis / Reuters: Apple Q3: iPhone up 22% YoY to $54.25B, vs. $53.86B est., Mac up 29% to $10.35B, iPad down 6% to $6.19B, and Wearables, Home, and Accessories up 6% to $7.88B&nbsp; &mdash;&nbsp; Apple forecast sales for the current quarter ending in September would grow more slowly than Wal"
+            "title": "Microsoft's stock closed up 15.5% on Thursday, adding ~$450B to its market capitalization, the largest single-day market value increase in stock market history (Subrat Patnaik/Bloomberg)",
+            "link": "https://www.techmeme.com/260730/p64#a260730p64",
+            "date": "2026-07-30T20:55:01-04:00",
+            "summary": "Subrat Patnaik / Bloomberg: Microsoft's stock closed up 15.5% on Thursday, adding ~$450B to its market capitalization, the largest single-day market value increase in stock market history&nbsp; &mdash;&nbsp; Microsoft Corp. made market history on Thursday, adding nearly half a trillion dollars to it"
           },
           {
-            "title": "Apple reports Q3 revenue from Services, which includes the App Store, Apple TV, and more, grew 12% YoY to $30.74B, vs. $31.36B est.; AAPL drops 5%+ after hours (Todd Spangler/Variety)",
-            "link": "https://www.techmeme.com/260730/p53#a260730p53",
-            "date": "2026-07-30T16:55:00-04:00",
-            "summary": "Todd Spangler / Variety: Apple reports Q3 revenue from Services, which includes the App Store, Apple TV, and more, grew 12% YoY to $30.74B, vs. $31.36B est.; AAPL drops 5%+ after hours&nbsp; &mdash;&nbsp; For the three months ended June 27, Apple's Q3 of fiscal 2026, the tech giant reported total re"
+            "title": "Tim Cook says Apple expects \"the impact from the supply constraints to increase significantly sequentially\" and the market pricing for memory to keep rising (Juli Clover/MacRumors)",
+            "link": "https://www.techmeme.com/260730/p63#a260730p63",
+            "date": "2026-07-30T20:35:01-04:00",
+            "summary": "Juli Clover / MacRumors: Tim Cook says Apple expects &ldquo;the impact from the supply constraints to increase significantly sequentially&rdquo; and the market pricing for memory to keep rising&nbsp; &mdash;&nbsp; Apple is expecting supply constraints to have a much bigger impact on revenue during t"
           },
           {
-            "title": "Apple reports Q3 revenue up 16% YoY to $109.42B, vs. $108.65B est., net income up 27% to $29.79B, and China revenue up 22% to $18.82B, vs. $19.6B estimated (Apple)",
-            "link": "https://www.techmeme.com/260730/p52#a260730p52",
-            "date": "2026-07-30T16:41:07-04:00",
-            "summary": "Apple: Apple reports Q3 revenue up 16% YoY to $109.42B, vs. $108.65B est., net income up 27% to $29.79B, and China revenue up 22% to $18.82B, vs. $19.6B estimated&nbsp; &mdash;&nbsp; CUPERTINO, Calif.&mdash;(BUSINESS WIRE)&mdash;Apple&reg; today announced financial results for its fiscal 2026 third "
+            "title": "Anthropic says the models that breached three companies include Opus 4.7, Mythos 5, and an unnamed research model, and the earliest incidents date back to April (Robert McMillan/Wall Street Journal)",
+            "link": "https://www.techmeme.com/260730/p62#a260730p62",
+            "date": "2026-07-30T20:05:01-04:00",
+            "summary": "Robert McMillan / Wall Street Journal: Anthropic says the models that breached three companies include Opus 4.7, Mythos 5, and an unnamed research model, and the earliest incidents date back to April&nbsp; &mdash;&nbsp; The breaches, which follow a similar incident involving rival OpenAI and startup"
           }
         ]
       },
@@ -2624,8 +2564,14 @@
         "home": "https://techcrunch.com/",
         "url": "https://techcrunch.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-07-31T00:02:24.659599+00:00",
+        "fetchedAt": "2026-07-31T04:23:01.094631+00:00",
         "items": [
+          {
+            "title": "Anthropic says its own AI models breached three companies during security tests",
+            "link": "https://techcrunch.com/2026/07/30/anthropic-says-its-own-ai-models-breached-three-companies-during-security-tests/",
+            "date": "2026-07-31T01:06:54+00:00",
+            "summary": "After OpenAI's models broke into Hugging Face, Anthropic checked its own history and found three similar incidents"
+          },
           {
             "title": "Apple stockpiles inventory as it braces for ‘significant supply constraints’",
             "link": "https://techcrunch.com/2026/07/30/apple-stockpiles-inventory-as-it-braces-for-significant-supply-constraints/",
@@ -2679,12 +2625,6 @@
             "link": "https://techcrunch.com/2026/07/30/google-says-it-fixed-more-chrome-bugs-in-june-than-over-the-past-two-years-thanks-to-ai/",
             "date": "2026-07-30T18:57:58+00:00",
             "summary": "As experts have warned for the last two years, some companies — like Microsoft and now Google — are finding and patching an exponential number of bugs in their products, thanks to the use of LLMs and AI tools."
-          },
-          {
-            "title": "Florida plans to build air taxi pads using $200M intended for EV chargers",
-            "link": "https://techcrunch.com/2026/07/30/florida-plans-to-build-air-taxi-pads-using-200m-intended-for-ev-chargers/",
-            "date": "2026-07-30T18:38:12+00:00",
-            "summary": "Florida wants to use federal EV charger funds to build an air taxi network connecting golf courses, luxury apartment buildings, and airports."
           }
         ]
       },
@@ -2695,13 +2635,25 @@
         "home": "https://techcrunch.com/category/artificial-intelligence/",
         "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
         "status": "ok",
-        "fetchedAt": "2026-07-31T00:02:24.661795+00:00",
+        "fetchedAt": "2026-07-31T04:23:01.289828+00:00",
         "items": [
+          {
+            "title": "Anthropic says its own AI models breached three companies during security tests",
+            "link": "https://techcrunch.com/2026/07/30/anthropic-says-its-own-ai-models-breached-three-companies-during-security-tests/",
+            "date": "2026-07-31T01:06:54+00:00",
+            "summary": "After OpenAI's models broke into Hugging Face, Anthropic checked its own history and found three similar incidents"
+          },
           {
             "title": "AI hedge fund Situational Awareness may have sold its public portfolio, but it still has its Anthropic shares",
             "link": "https://techcrunch.com/2026/07/30/ai-hedge-fund-situational-awareness-may-have-sold-its-public-portfolio-but-it-still-has-its-anthropic-shares/",
             "date": "2026-07-30T23:25:58+00:00",
             "summary": "The former OpenAI researcher’s fund was forced to unwind public equities after leveraged public bets plummeted. But he still has cards to play."
+          },
+          {
+            "title": "Reddit reports a solid quarter but shows signs of AI’s impact",
+            "link": "https://techcrunch.com/2026/07/30/reddit-reports-a-solid-quarter-but-shows-signs-of-ais-impact/",
+            "date": "2026-07-30T23:08:58+00:00",
+            "summary": "Reddit's financial situation is looking good but uncertainty about its relationship to Google and the new AI-ified web are stirring market concerns."
           },
           {
             "title": "Investors love AI, as long as you’re a cloud host",
@@ -2744,18 +2696,6 @@
             "link": "https://techcrunch.com/2026/07/30/meta-says-ai-is-making-it-easier-to-build-new-apps-and-more-are-coming/",
             "date": "2026-07-30T15:41:16+00:00",
             "summary": "Meta says AI is making it dramatically easier to build and launch new consumer apps, with CEO Mark Zuckerberg telling investors the company has more new consumer products on the way."
-          },
-          {
-            "title": "Nscale buys Anyscale as it seeks to own more of the AI compute stack",
-            "link": "https://techcrunch.com/2026/07/30/nscale-buys-anyscale-as-it-seeks-to-own-more-of-the-ai-compute-stack/",
-            "date": "2026-07-30T15:19:15+00:00",
-            "summary": "British AI neocloud Nscale is buying software startup Anyscale, which helps companies scale their AI workloads across data centers and servers."
-          },
-          {
-            "title": "Forward-deployed engineers are the AI industry’s latest talent obsession",
-            "link": "https://techcrunch.com/2026/07/30/forward-deployed-engineers-are-the-ai-industrys-latest-talent-obsession/",
-            "date": "2026-07-30T15:00:00+00:00",
-            "summary": "A new study estimates only 2,000 U.S. engineers have the expertise to deliver meaningful AI ROI, as enterprises race to hire forward-deployed engineers to implement AI at scale."
           }
         ]
       },
@@ -2766,7 +2706,7 @@
         "home": "https://techcrunch.com/tag/funding/",
         "url": "https://techcrunch.com/tag/funding/feed/",
         "status": "ok",
-        "fetchedAt": "2026-07-31T00:02:24.663024+00:00",
+        "fetchedAt": "2026-07-31T04:23:01.329248+00:00",
         "items": [
           {
             "title": "AI chip maker SambaNova raises $1B at $11B valuation, 5 months after last mega round",
@@ -2837,8 +2777,20 @@
         "home": "https://venturebeat.com/",
         "url": "https://venturebeat.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-07-31T00:02:24.594081+00:00",
+        "fetchedAt": "2026-07-31T04:23:01.402958+00:00",
         "items": [
+          {
+            "title": "Not just OpenAI: Now Anthropic says its internal models got online and cyberattacked 3 other organizations",
+            "link": "https://venturebeat.com/security/not-just-openai-now-anthropic-says-its-internal-models-got-online-and-cyberattacked-3-other-organizations",
+            "date": "2026-07-31T01:45:07+00:00",
+            "summary": "Days after OpenAI disclosed that two frontier AI models escaped containment measures and autonomously cyberattacked the AI code sharing platform Hugging Face, OpenAI&#x27;s top U.S. rival Anthropic tonight revealed that — lo and behold — it has also had models surreptitiously access the web when the"
+          },
+          {
+            "title": "Thinking Machines debuts Inkling Small open source AI model nearing performance of predecessor at about 1/4 size",
+            "link": "https://venturebeat.com/technology/thinking-machines-debuts-inkling-small-open-source-ai-model-nearing-performance-of-predecessor-at-about-1-4-size",
+            "date": "2026-07-31T00:14:22+00:00",
+            "summary": "Just two weeks after Thinking Machines released Inkling, its first open source AI language model, the well-funded startup led by former OpenAI chief technology officer Mira Murati today introduced Inkling-Small without sacrificing much of any performance — and in fact, the new model surpasses its la"
+          },
           {
             "title": "AI price wars: OpenAI cuts GPT-5.6 Luna prices by 80% as model competition shifts toward cost",
             "link": "https://venturebeat.com/technology/ai-price-wars-openai-cuts-gpt-5-6-luna-prices-by-80-as-model-competition-shifts-toward-cost",
@@ -2864,22 +2816,10 @@
             "summary": "A security team approving an open-source model for production today starts with a repository page. The page lists the model name, the license, and a tag identifying the base model it descended from. That tag is a string the uploader typed. Hugging Face does not require uploaders to substantiate the "
           },
           {
-            "title": "NTT DATA AIVista and Snowflake: Identity alone won’t secure enterprise AI agents",
-            "link": "https://venturebeat.com/security/ntt-data-aivista-and-snowflake-identity-alone-wont-secure-enterprise-ai-agents",
-            "date": "2026-07-30T07:00:00+00:00",
-            "summary": "Presented by NTT DATA AIVistaVentureBeat’s June research found that 69% of enterprises are still running AI agents that share credentials, a practice associated with higher rates of security incidents and near-incidents. But at VB Transform 2026, Mukesh Karki, CTO of NTT DATA AIVista, and Mayank Upa"
-          },
-          {
             "title": "Companies are finally seeing AI ROI — and now they know how much more value it can deliver",
             "link": "https://venturebeat.com/technology/companies-are-finally-seeing-ai-roi-and-now-they-know-how-much-more-value-it-can-deliver",
             "date": "2026-07-30T07:00:00+00:00",
             "summary": "Presented by SAPEnterprise AI has moved from experiment to execution, and that shift is beginning to show real returns. The SAP Value of AI Report 2026, produced with Oxford Economics and based on a survey of 2,600 business leaders across 13 countries, found that AI now supports nearly one-third of "
-          },
-          {
-            "title": "At Waymo, an AI project isn't ready until its evals are — not when the model performs well",
-            "link": "https://venturebeat.com/technology/at-waymo-an-ai-project-isnt-ready-until-its-evals-are-not-when-the-model-performs-well",
-            "date": "2026-07-29T20:40:15+00:00",
-            "summary": "Few companies face higher stakes when deploying AI than Waymo, the self-driving car company under Alphabet that spun out of Google. Its models do not merely generate text or automate back-office tasks: They help vehicles navigate unpredictable streets, respond to human drivers and make split-second "
           }
         ]
       },
@@ -2890,7 +2830,7 @@
         "home": "https://venturebeat.com/category/ai/",
         "url": "https://venturebeat.com/category/ai/feed/",
         "status": "ok",
-        "fetchedAt": "2026-07-31T00:02:24.639057+00:00",
+        "fetchedAt": "2026-07-31T04:23:01.516978+00:00",
         "items": [
           {
             "title": "Google just redesigned the search box for the first time in 25 years — here’s why it matters more than you think.",
@@ -2945,8 +2885,14 @@
         "home": "https://www.ruanyifeng.com/blog/",
         "url": "https://www.ruanyifeng.com/blog/atom.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-31T00:02:24.427792+00:00",
+        "fetchedAt": "2026-07-31T04:23:01.581055+00:00",
         "items": [
+          {
+            "title": "科技爱好者周刊（第 406 期）：道可，道非，常道",
+            "link": "http://www.ruanyifeng.com/blog/2026/07/weekly-issue-406.html",
+            "date": "2026-07-31T03:48:34+00:00",
+            "summary": "这里记录每周值得分享的科技内容，周五发布。..."
+          },
           {
             "title": "科技爱好者周刊（第 405 期）：资源，社会公平与算力",
             "link": "http://www.ruanyifeng.com/blog/2026/07/weekly-issue-405.html",
@@ -2958,12 +2904,6 @@
             "link": "http://www.ruanyifeng.com/blog/2026/07/weekly-issue-404.html",
             "date": "2026-07-29T10:21:16+00:00",
             "summary": "这里记录每周值得分享的科技内容，周五发布。..."
-          },
-          {
-            "title": "科技爱好者周刊（第 403 期）：为什么 Dropbox 不成功",
-            "link": "http://www.ruanyifeng.com/blog/2026/07/weekly-issue-403.html",
-            "date": "2026-07-27T23:58:44+00:00",
-            "summary": "这里记录每周值得分享的科技内容，周五发布。..."
           }
         ]
       },
@@ -2974,7 +2914,7 @@
         "home": "https://www.bestblogs.dev/",
         "url": "https://www.bestblogs.dev/zh/feeds/rss?category=ai&minScore=90",
         "status": "ok",
-        "fetchedAt": "2026-07-31T00:02:24.824604+00:00",
+        "fetchedAt": "2026-07-31T04:23:01.510029+00:00",
         "items": [
           {
             "title": "混元开源 AngelSpec：支持投机解码训练及部署，推理加速最高 2.4 倍",
@@ -3042,6 +2982,296 @@
   },
   "allItems": [
     {
+      "title": "科技爱好者周刊（第 406 期）：道可，道非，常道",
+      "link": "http://www.ruanyifeng.com/blog/2026/07/weekly-issue-406.html",
+      "date": "2026-07-31T03:48:34+00:00",
+      "summary": "这里记录每周值得分享的科技内容，周五发布。...",
+      "feedId": "ruanyifeng",
+      "feedTitle": "阮一峰的网络日志",
+      "category": "中文",
+      "feedHome": "https://www.ruanyifeng.com/blog/"
+    },
+    {
+      "title": "The bond market isn't buying what Fed Chair Warsh is selling",
+      "link": "https://www.reuters.com/commentary/reuters-open-interest/bond-market-isnt-buying-what-fed-chair-warsh-is-selling-2026-07-30/",
+      "date": "2026-07-31T03:32:21+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "A California aquifer may have crossed the point of no return",
+      "link": "https://www.science.org/content/article/california-aquifer-may-have-crossed-point-no-return",
+      "date": "2026-07-31T03:27:36+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "Not just OpenAI: Now Anthropic says its internal models got online and cyberattacked 3 other organizations",
+      "link": "https://venturebeat.com/security/not-just-openai-now-anthropic-says-its-internal-models-got-online-and-cyberattacked-3-other-organizations",
+      "date": "2026-07-31T01:45:07+00:00",
+      "summary": "Days after OpenAI disclosed that two frontier AI models escaped containment measures and autonomously cyberattacked the AI code sharing platform Hugging Face, OpenAI&#x27;s top U.S. rival Anthropic tonight revealed that — lo and behold — it has also had models surreptitiously access the web when the",
+      "feedId": "venturebeat",
+      "feedTitle": "VentureBeat",
+      "category": "Startup & News",
+      "feedHome": "https://venturebeat.com/"
+    },
+    {
+      "title": "Anthropic says its own AI models breached three companies during security tests",
+      "link": "https://techcrunch.com/2026/07/30/anthropic-says-its-own-ai-models-breached-three-companies-during-security-tests/",
+      "date": "2026-07-31T01:06:54+00:00",
+      "summary": "After OpenAI's models broke into Hugging Face, Anthropic checked its own history and found three similar incidents",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "Anthropic says its own AI models breached three companies during security tests",
+      "link": "https://techcrunch.com/2026/07/30/anthropic-says-its-own-ai-models-breached-three-companies-during-security-tests/",
+      "date": "2026-07-31T01:06:54+00:00",
+      "summary": "After OpenAI's models broke into Hugging Face, Anthropic checked its own history and found three similar incidents",
+      "feedId": "techcrunch-ai",
+      "feedTitle": "TechCrunch AI",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
+    },
+    {
+      "title": "Thinking Machines debuts Inkling Small open source AI model nearing performance of predecessor at about 1/4 size",
+      "link": "https://venturebeat.com/technology/thinking-machines-debuts-inkling-small-open-source-ai-model-nearing-performance-of-predecessor-at-about-1-4-size",
+      "date": "2026-07-31T00:14:22+00:00",
+      "summary": "Just two weeks after Thinking Machines released Inkling, its first open source AI language model, the well-funded startup led by former OpenAI chief technology officer Mira Murati today introduced Inkling-Small without sacrificing much of any performance — and in fact, the new model surpasses its la",
+      "feedId": "venturebeat",
+      "feedTitle": "VentureBeat",
+      "category": "Startup & News",
+      "feedHome": "https://venturebeat.com/"
+    },
+    {
+      "title": "A leaked memo, issued by the water utilities information sharing group WaterISAC, links dozens of cyberattacks against Minnesota water utilities to Iran (Andy Greenberg/Wired)",
+      "link": "https://www.techmeme.com/260731/p1#a260731p1",
+      "date": "2026-07-31T00:00:14-04:00",
+      "summary": "Andy Greenberg / Wired: A leaked memo, issued by the water utilities information sharing group WaterISAC, links dozens of cyberattacks against Minnesota water utilities to Iran&nbsp; &mdash;&nbsp; A memo obtained by WIRED, issued by the water utilities information sharing group WaterISAC, links doze",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
+      "title": "Probing the Origins of Reasoning Performance: Representational Quality for Mathematical Problem-Solving in RL vs. SFT Fine-Tuned Models",
+      "link": "https://arxiv.org/abs/2607.26119",
+      "date": "2026-07-31T00:00:00-04:00",
+      "summary": "arXiv:2607.26119v1 Announce Type: new Abstract: Large reasoning models trained via reinforcement learning (RL) have been increasingly shown to outperform their supervised fine-tuned (SFT) counterparts on mathematical reasoning tasks; Yet the mechanistic basis for this advantage remains unclear. We t",
+      "feedId": "arxiv-ai",
+      "feedTitle": "arXiv cs.AI",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.AI/recent"
+    },
+    {
+      "title": "Even More Deception: Objective Misalignment in Mixed-Motive LLM Multi-Agent Systems",
+      "link": "https://arxiv.org/abs/2607.26120",
+      "date": "2026-07-31T00:00:00-04:00",
+      "summary": "arXiv:2607.26120v1 Announce Type: new Abstract: Large Language Models (LLMs)-powered multi-agent systems are increasingly deployed in mixed-motive environments, where agents operate under asymmetric information and strategic deception due to conflicting or hidden objectives. In these settings, misal",
+      "feedId": "arxiv-ai",
+      "feedTitle": "arXiv cs.AI",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.AI/recent"
+    },
+    {
+      "title": "ClinLens: Towards Long-Horizon Coding Agents for Longitudinal Multimodal Clinical Data Science",
+      "link": "https://arxiv.org/abs/2607.26155",
+      "date": "2026-07-31T00:00:00-04:00",
+      "summary": "arXiv:2607.26155v1 Announce Type: new Abstract: Clinical data-science agents must transform heterogeneous longitudinal records into auditable analyses, yet existing benchmarks largely isolate medical question answering, structured-table reasoning, or generic scientific repositories. We introduce CLI",
+      "feedId": "arxiv-ai",
+      "feedTitle": "arXiv cs.AI",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.AI/recent"
+    },
+    {
+      "title": "When benchmark inferences do not compose: Projectibility in AI evaluation",
+      "link": "https://arxiv.org/abs/2607.26159",
+      "date": "2026-07-31T00:00:00-04:00",
+      "summary": "arXiv:2607.26159v1 Announce Type: new Abstract: An AI benchmark result rarely reaches a consequential claim in one step. Evaluators generalize it to further cases, interpret it as evidence of capability, extrapolate it to new tasks, transport it to another system or site, and combine it with assumpt",
+      "feedId": "arxiv-ai",
+      "feedTitle": "arXiv cs.AI",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.AI/recent"
+    },
+    {
+      "title": "GuideSkill: Evolving Executable LLM Agent Skills for Guideline-Grounded Clinical Reasoning",
+      "link": "https://arxiv.org/abs/2607.26160",
+      "date": "2026-07-31T00:00:00-04:00",
+      "summary": "arXiv:2607.26160v1 Announce Type: new Abstract: Clinical practice guidelines (CPGs) encode diagnostic criteria, but LLM systems typically retrieve guideline text or absorb it through training rather than execute its rules. We introduce GuideSkill, an external reasoning layer that compiles disease-sp",
+      "feedId": "arxiv-ai",
+      "feedTitle": "arXiv cs.AI",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.AI/recent"
+    },
+    {
+      "title": "GoGoTB: Agentic RTL Verification with Specification-Grounded Coverage Closure",
+      "link": "https://arxiv.org/abs/2607.26181",
+      "date": "2026-07-31T00:00:00-04:00",
+      "summary": "arXiv:2607.26181v1 Announce Type: new Abstract: Functional verification dominates integrated circuit (IC) front-end engineering effort, and a single missed bug that escapes to silicon can trigger a costly respin. Recent large language models (LLMs) offer new opportunities to automate this process, y",
+      "feedId": "arxiv-ai",
+      "feedTitle": "arXiv cs.AI",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.AI/recent"
+    },
+    {
+      "title": "Position: Evaluation Scores Are Perishable Knowledge Claims",
+      "link": "https://arxiv.org/abs/2607.26191",
+      "date": "2026-07-31T00:00:00-04:00",
+      "summary": "arXiv:2607.26191v1 Announce Type: new Abstract: Evaluation methodologies for language models increasingly combine multiple signals, from automated metrics and LLM-as-judge ratings to human assessments and benchmark suite results. When these signals are aggregated via averaging, evaluation confidence",
+      "feedId": "arxiv-ai",
+      "feedTitle": "arXiv cs.AI",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.AI/recent"
+    },
+    {
+      "title": "TraceCoder: Explainable and Auditable Code Generation with Position-Key Snippet Versioning",
+      "link": "https://arxiv.org/abs/2607.26307",
+      "date": "2026-07-31T00:00:00-04:00",
+      "summary": "arXiv:2607.26307v1 Announce Type: new Abstract: Contemporary LLM-based coding agents produce code as black-box outputs: the rationale behind each line is hidden, the evolution of the code through benchmark-driven repair is ephemeral, and post-hoc auditing is impossible. We present a code generation ",
+      "feedId": "arxiv-ai",
+      "feedTitle": "arXiv cs.AI",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.AI/recent"
+    },
+    {
+      "title": "Exploring Structures in Physics Problems: Can AI Agents Discover Statistical Mechanical Mappings?",
+      "link": "https://arxiv.org/abs/2607.26367",
+      "date": "2026-07-31T00:00:00-04:00",
+      "summary": "arXiv:2607.26367v1 Announce Type: new Abstract: An important skill in theoretical physics is to recognize when a new problem can be transformed into a known model. We study this skill as an AI-agent task: can LLM-based agents discover statistical mechanical mappings from a raw partition function to ",
+      "feedId": "arxiv-ai",
+      "feedTitle": "arXiv cs.AI",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.AI/recent"
+    },
+    {
+      "title": "CaM-Wolf: Causal-Aware Multimodal Agents for Social Deduction Games",
+      "link": "https://arxiv.org/abs/2607.26393",
+      "date": "2026-07-31T00:00:00-04:00",
+      "summary": "arXiv:2607.26393v1 Announce Type: new Abstract: Social deduction games (SDGs) such as Werewolf have become challenging testbeds for AI agents. These games require complex social skills such as reasoning, deception, and collaboration. While recent advances in large language models (LLMs) have driven ",
+      "feedId": "arxiv-ai",
+      "feedTitle": "arXiv cs.AI",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.AI/recent"
+    },
+    {
+      "title": "Recursive transformers for semiconductor thermo-mechanical reliability",
+      "link": "https://arxiv.org/abs/2607.27251",
+      "date": "2026-07-31T00:00:00-04:00",
+      "summary": "arXiv:2607.27251v1 Announce Type: new Abstract: Transformer-based surrogate models are increasingly used to replace expensive first-principles simulation in engineering design. But conventional transformer architectures are often over parameterized for the small, low-dimensional datasets typical of ",
+      "feedId": "arxiv-lg",
+      "feedTitle": "arXiv cs.LG",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.LG/recent"
+    },
+    {
+      "title": "Regularizing modality contribution drift in multimodal continual learning",
+      "link": "https://arxiv.org/abs/2607.27260",
+      "date": "2026-07-31T00:00:00-04:00",
+      "summary": "arXiv:2607.27260v1 Announce Type: new Abstract: Multimodal continual learning (MMCL) aims to learn emerging knowledge from multimodal data while preserving knowledge. To mitigate forgetting, current MMCL methods usually focus on cross-modal representation alignment or semantic similarity, but they o",
+      "feedId": "arxiv-lg",
+      "feedTitle": "arXiv cs.LG",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.LG/recent"
+    },
+    {
+      "title": "DoTime: A Synthetic Benchmark Generator for Interventional and Counterfactual Time Series",
+      "link": "https://arxiv.org/abs/2607.27263",
+      "date": "2026-07-31T00:00:00-04:00",
+      "summary": "arXiv:2607.27263v1 Announce Type: new Abstract: Most benchmarks for causal inference over time series are observational, small, or domain-specific, leaving interventional and counterfactual estimation under-served exactly where it matters most, such as in healthcare, policy evaluation, and climate s",
+      "feedId": "arxiv-lg",
+      "feedTitle": "arXiv cs.LG",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.LG/recent"
+    },
+    {
+      "title": "PlatformBid: An Auto-Bidding Benchmark from a Unified Advertising Platform's Perspective",
+      "link": "https://arxiv.org/abs/2607.27265",
+      "date": "2026-07-31T00:00:00-04:00",
+      "summary": "arXiv:2607.27265v1 Announce Type: new Abstract: Real-time bidding is central to computational advertising, comprising three elements: Supply Side Platform (SSP) selling ad impressions, Demand Side Platform (DSP) bidding for advertisers, and Ad Exchange conducting auctions between them. Traditional a",
+      "feedId": "arxiv-lg",
+      "feedTitle": "arXiv cs.LG",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.LG/recent"
+    },
+    {
+      "title": "Beyond KV Reconstruction: Functional Reconstruction for MLA Draft Models in Speculative Decoding",
+      "link": "https://arxiv.org/abs/2607.27269",
+      "date": "2026-07-31T00:00:00-04:00",
+      "summary": "arXiv:2607.27269v1 Announce Type: new Abstract: Multi-head latent attention (MLA) is increasingly important for long-context LLM inference because compact latent states replace the growing key-value (KV) cache and reduce decoding memory traffic. Yet most capable open checkpoints use multi-head or gr",
+      "feedId": "arxiv-lg",
+      "feedTitle": "arXiv cs.LG",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.LG/recent"
+    },
+    {
+      "title": "RLPF: Reinforcement Learning from Performance Feedback for Code Generation",
+      "link": "https://arxiv.org/abs/2607.27271",
+      "date": "2026-07-31T00:00:00-04:00",
+      "summary": "arXiv:2607.27271v1 Announce Type: new Abstract: Code models are increasingly trained with execution feedback, but most training signals still stop at correctness. This leaves an important gap for systems code: two programs can pass the same tests while differing greatly in runtime. We study how to t",
+      "feedId": "arxiv-lg",
+      "feedTitle": "arXiv cs.LG",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.LG/recent"
+    },
+    {
+      "title": "SDO: Structure-Aware Data Organization for Efficient LLM Post-Training",
+      "link": "https://arxiv.org/abs/2607.27273",
+      "date": "2026-07-31T00:00:00-04:00",
+      "summary": "arXiv:2607.27273v1 Announce Type: new Abstract: Post-training of large language models is expensive, and existing efficiency improvements mainly focus on selecting informative samples or designing training schedules. However, data organization itself is usually treated as a static preprocessing step",
+      "feedId": "arxiv-lg",
+      "feedTitle": "arXiv cs.LG",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.LG/recent"
+    },
+    {
+      "title": "Rethinking EEG-Based Disease Diagnosis: Decoupling Instance Representation Learning from Subject-Level Supervision",
+      "link": "https://arxiv.org/abs/2607.27274",
+      "date": "2026-07-31T00:00:00-04:00",
+      "summary": "arXiv:2607.27274v1 Announce Type: new Abstract: EEG-based disease diagnosis requires one prediction per subject, yet common pipelines segment recordings into short instances, inherit the subject label for every instance, and train instance-level classifiers. This assumes that all instances provide e",
+      "feedId": "arxiv-lg",
+      "feedTitle": "arXiv cs.LG",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.LG/recent"
+    },
+    {
+      "title": "Flat Score, Amplified Failures: How the Error Budget Masks Damage in Quantized LLM Agents",
+      "link": "https://arxiv.org/abs/2607.27275",
+      "date": "2026-07-31T00:00:00-04:00",
+      "summary": "arXiv:2607.27275v1 Announce Type: new Abstract: Post-training quantization to 4-bit weights is widely reported to be nearly lossless. We test this claim for multi-turn, tool-calling agents, where it now matters most. On $\\tau^2$-bench, across two open-weight model families in dense and MoE variants ",
+      "feedId": "arxiv-lg",
+      "feedTitle": "arXiv cs.LG",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.LG/recent"
+    },
+    {
+      "title": "The Kinetics of Training: A Driven-Nucleation Rate Law for Emergence, Plasticity Loss, and Circuit Control in Language Models",
+      "link": "https://arxiv.org/abs/2607.27281",
+      "date": "2026-07-31T00:00:00-04:00",
+      "summary": "arXiv:2607.27281v1 Announce Type: new Abstract: A capability appears in a language model when the last parts of its circuit align in one stochastic attempt, and getting all but one right is worth nothing. We show this no-partial-credit joint alignment is the rate-limiting step of capability formatio",
+      "feedId": "arxiv-lg",
+      "feedTitle": "arXiv cs.LG",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.LG/recent"
+    },
+    {
+      "title": "Advancing the price-performance frontier with GPT‑5.6",
+      "link": "https://simonwillison.net/2026/Jul/30/luna-price-drop/#atom-everything",
+      "date": "2026-07-30T23:58:42+00:00",
+      "summary": "Advancing the price-performance frontier with GPT‑5.6 Huge price drop from OpenAI today: GPT-5.6 Terra got a 20% reduction, and GPT-5.6 Luna got a massive 80% drop. OpenAI credit 5.6 Sol with enabling this: in How GPT‑5.6 fuses frontier intelligence with frontier efficiency they describe using 5.6 S",
+      "feedId": "simonwillison",
+      "feedTitle": "Simon Willison",
+      "category": "AI & LLM",
+      "feedHome": "https://simonwillison.net/"
+    },
+    {
       "title": "BI Slop",
       "link": "https://idiallo.com/blog/business-intelligence-slop",
       "date": "2026-07-30T23:50:00+00:00",
@@ -3060,6 +3290,16 @@
       "feedTitle": "Simon Willison",
       "category": "AI & LLM",
       "feedHome": "https://simonwillison.net/"
+    },
+    {
+      "title": "Sources: SoftBank gave $50M to Trump's library; Apple, Microsoft, and Amazon gave $25M, $10M, and $5M to his WH ballroom; Meta gave $10M to a pro-Trump group (Wall Street Journal)",
+      "link": "https://www.techmeme.com/260730/p70#a260730p70",
+      "date": "2026-07-30T23:40:01-04:00",
+      "summary": "Wall Street Journal: Sources: SoftBank gave $50M to Trump's library; Apple, Microsoft, and Amazon gave $25M, $10M, and $5M to his WH ballroom; Meta gave $10M to a pro-Trump group&nbsp; &mdash;&nbsp; Meredith O'Rourke, nicknamed &lsquo;princess of darkness,&rsquo; carries out president's desire to wr",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
     },
     {
       "title": "Apple stockpiles inventory as it braces for ‘significant supply constraints’",
@@ -3092,6 +3332,16 @@
       "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
     },
     {
+      "title": "The AI Aesthetic",
+      "link": "https://blog.jim-nielsen.com/2026/ai-aesthetic/",
+      "date": "2026-07-30T23:22:16+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
       "title": "Reddit reports a solid quarter but shows signs of AI’s impact",
       "link": "https://techcrunch.com/2026/07/30/reddit-reports-a-solid-quarter-but-shows-signs-of-ais-impact/",
       "date": "2026-07-30T23:08:58+00:00",
@@ -3102,14 +3352,34 @@
       "feedHome": "https://techcrunch.com/"
     },
     {
-      "title": "Investigating three real-world incidents in our cybersecurity evaluations",
-      "link": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
-      "date": "2026-07-30T23:00:51+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
+      "title": "Reddit reports a solid quarter but shows signs of AI’s impact",
+      "link": "https://techcrunch.com/2026/07/30/reddit-reports-a-solid-quarter-but-shows-signs-of-ais-impact/",
+      "date": "2026-07-30T23:08:58+00:00",
+      "summary": "Reddit's financial situation is looking good but uncertainty about its relationship to Google and the new AI-ified web are stirring market concerns.",
+      "feedId": "techcrunch-ai",
+      "feedTitle": "TechCrunch AI",
       "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
+      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
+    },
+    {
+      "title": "llm 0.32rc2",
+      "link": "https://simonwillison.net/2026/Jul/30/llm-rc2/#atom-everything",
+      "date": "2026-07-30T22:52:06+00:00",
+      "summary": "Release: llm 0.32rc2 Hot on the heels of RC1, this fixes a dependency issue and also adds two neat new features: The default model for users who have not set their own default is now GPT-5.6 Luna. It was previously GPT-4o mini. Luna is a much better and more recent model, albeit slightly more expens",
+      "feedId": "simonwillison",
+      "feedTitle": "Simon Willison",
+      "category": "AI & LLM",
+      "feedHome": "https://simonwillison.net/"
+    },
+    {
+      "title": "Apple forecasts Q4 revenue growth of 9% to 11% YoY, below a 12%+ estimate, citing supply constraints and currency fluctuations; AAPL drops 5%+ after hours (Mark Gurman/Bloomberg)",
+      "link": "https://www.techmeme.com/260730/p69#a260730p69",
+      "date": "2026-07-30T22:45:01-04:00",
+      "summary": "Mark Gurman / Bloomberg: Apple forecasts Q4 revenue growth of 9% to 11% YoY, below a 12%+ estimate, citing supply constraints and currency fluctuations; AAPL drops 5%+ after hours&nbsp; &mdash;&nbsp; Breaking Down Apple's 3Q Results and Outlook&nbsp; &mdash;&nbsp; Video Player is loading.&nbsp; &mda",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
     },
     {
       "title": "Investors love AI, as long as you’re a cloud host",
@@ -3152,6 +3422,26 @@
       "feedHome": "https://news.ycombinator.com/"
     },
     {
+      "title": "Sources: Tesla execs were told to prepare for a separation of its China unit ahead of a potential SpaceX merger; advisers weighed a sale, spinoff, or closure (Wall Street Journal)",
+      "link": "https://www.techmeme.com/260730/p68#a260730p68",
+      "date": "2026-07-30T22:10:00-04:00",
+      "summary": "Wall Street Journal: Sources: Tesla execs were told to prepare for a separation of its China unit ahead of a potential SpaceX merger; advisers weighed a sale, spinoff, or closure&nbsp; &mdash;&nbsp; The U.S. automaker could sell or spin off the business in its second-largest market over geopolitical",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
+      "title": "Shares of SK Hynix and Samsung surge more than 20% in Seoul on Friday, marking a sharp reversal from this week's sell-off (Lee Ying Shan/CNBC)",
+      "link": "https://www.techmeme.com/260730/p67#a260730p67",
+      "date": "2026-07-30T21:50:01-04:00",
+      "summary": "Lee Ying Shan / CNBC: Shares of SK Hynix and Samsung surge more than 20% in Seoul on Friday, marking a sharp reversal from this week's sell-off&nbsp; &mdash;&nbsp; South Korea's chip heavyweights SK Hynix and Samsung Electronics skyrocketed in Seoul on Friday, tracking a sharp rally in U.S. technolo",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
       "title": "AI price wars: OpenAI cuts GPT-5.6 Luna prices by 80% as model competition shifts toward cost",
       "link": "https://venturebeat.com/technology/ai-price-wars-openai-cuts-gpt-5-6-luna-prices-by-80-as-model-competition-shifts-toward-cost",
       "date": "2026-07-30T21:48:00+00:00",
@@ -3162,14 +3452,24 @@
       "feedHome": "https://venturebeat.com/"
     },
     {
-      "title": "Rune 1.1: adds Python, an Emacs editor, a symbol index and is now free",
-      "link": "https://rune.build/blog/rune-1-1-release",
-      "date": "2026-07-30T21:47:31+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
+      "title": "Chip stocks rallied Thursday after strong Microsoft and Lam Research earnings: Lam Research closed up 18%, Micron 18%, Sandisk 26%, Arm 7%, AMD 13%, Intel 11% (Samantha Subin/CNBC)",
+      "link": "https://www.techmeme.com/260730/p66#a260730p66",
+      "date": "2026-07-30T21:40:07-04:00",
+      "summary": "Samantha Subin / CNBC: Chip stocks rallied Thursday after strong Microsoft and Lam Research earnings: Lam Research closed up 18%, Micron 18%, Sandisk 26%, Arm 7%, AMD 13%, Intel 11%&nbsp; &mdash;&nbsp; Chip stocks rocketed on Thursday after strong tech earnings from Microsoft and Lam Research sparke",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
       "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
+      "title": "Apple CFO Kevan Parekh says Services surpassed 1.5B paid subscriptions, up from 1B in January 2025, but a gaming slowdown and App Store changes hurt growth (Sarah Perez/TechCrunch)",
+      "link": "https://www.techmeme.com/260730/p65#a260730p65",
+      "date": "2026-07-30T21:10:01-04:00",
+      "summary": "Sarah Perez / TechCrunch: Apple CFO Kevan Parekh says Services surpassed 1.5B paid subscriptions, up from 1B in January 2025, but a gaming slowdown and App Store changes hurt growth&nbsp; &mdash;&nbsp; Apple says it has now topped 1.5 billion subscribers for its services business, up from 1 billion ",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
     },
     {
       "title": "Mark Zuckerberg: ‘The AI Future Is for Everyone’",
@@ -3180,6 +3480,16 @@
       "feedTitle": "Daring Fireball",
       "category": "Tech Blogs",
       "feedHome": "https://daringfireball.net/"
+    },
+    {
+      "title": "Microsoft's stock closed up 15.5% on Thursday, adding ~$450B to its market capitalization, the largest single-day market value increase in stock market history (Subrat Patnaik/Bloomberg)",
+      "link": "https://www.techmeme.com/260730/p64#a260730p64",
+      "date": "2026-07-30T20:55:01-04:00",
+      "summary": "Subrat Patnaik / Bloomberg: Microsoft's stock closed up 15.5% on Thursday, adding ~$450B to its market capitalization, the largest single-day market value increase in stock market history&nbsp; &mdash;&nbsp; Microsoft Corp. made market history on Thursday, adding nearly half a trillion dollars to it",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
     },
     {
       "title": "Apple Releases iOS and MacOS 26.6, MacOS 15.7.8, and More",
@@ -3200,6 +3510,16 @@
       "feedTitle": "Google Research Blog",
       "category": "AI & LLM",
       "feedHome": "https://research.google/blog/"
+    },
+    {
+      "title": "Tim Cook says Apple expects \"the impact from the supply constraints to increase significantly sequentially\" and the market pricing for memory to keep rising (Juli Clover/MacRumors)",
+      "link": "https://www.techmeme.com/260730/p63#a260730p63",
+      "date": "2026-07-30T20:35:01-04:00",
+      "summary": "Juli Clover / MacRumors: Tim Cook says Apple expects &ldquo;the impact from the supply constraints to increase significantly sequentially&rdquo; and the market pricing for memory to keep rising&nbsp; &mdash;&nbsp; Apple is expecting supply constraints to have a much bigger impact on revenue during t",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
     },
     {
       "title": "Rogue Amoeba: Unobtrusive Update Notifications",
@@ -3272,6 +3592,16 @@
       "feedHome": "https://techcrunch.com/"
     },
     {
+      "title": "Anthropic says the models that breached three companies include Opus 4.7, Mythos 5, and an unnamed research model, and the earliest incidents date back to April (Robert McMillan/Wall Street Journal)",
+      "link": "https://www.techmeme.com/260730/p62#a260730p62",
+      "date": "2026-07-30T20:05:01-04:00",
+      "summary": "Robert McMillan / Wall Street Journal: Anthropic says the models that breached three companies include Opus 4.7, Mythos 5, and an unnamed research model, and the earliest incidents date back to April&nbsp; &mdash;&nbsp; The breaches, which follow a similar incident involving rival OpenAI and startup",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
       "title": "Count Those Underscores",
       "link": "https://arstechnica.com/tech-policy/2026/07/police-missed-one-underscore-and-sent-the-wrong-man-to-prison/",
       "date": "2026-07-30T20:00:34+00:00",
@@ -3312,56 +3642,6 @@
       "feedHome": "https://news.ycombinator.com/"
     },
     {
-      "title": "Anthropic says it discovered three of its models had breached three organizations after launching a review in response to the OpenAI-Hugging Face incident (Anthropic)",
-      "link": "https://www.techmeme.com/260730/p61#a260730p61",
-      "date": "2026-07-30T19:30:01-04:00",
-      "summary": "Anthropic: Anthropic says it discovered three of its models had breached three organizations after launching a review in response to the OpenAI-Hugging Face incident&nbsp; &mdash;&nbsp; In a review of our cybersecurity evaluation transcripts, we found three incidents in which a Claude model reached ",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "Sources: Zelenskyy asked Trump to secure Elon Musk's permission for the use of Starlink to guide drone strikes inside Russia, but Trump was noncommittal (The Atlantic)",
-      "link": "https://www.techmeme.com/260730/p60#a260730p60",
-      "date": "2026-07-30T19:25:02-04:00",
-      "summary": "The Atlantic: Sources: Zelenskyy asked Trump to secure Elon Musk's permission for the use of Starlink to guide drone strikes inside Russia, but Trump was noncommittal&nbsp; &mdash;&nbsp; Ukraine wants to start using Musk's Starlink to target ballistic-missile launchers inside Russia.&nbsp; &mdash;&n",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "In a memo to employees, Xbox CEO Asha Sharma lays out priorities for the unit, including returning to player and revenue growth by the end of fiscal year 2027 (The Verge)",
-      "link": "https://www.techmeme.com/260730/p59#a260730p59",
-      "date": "2026-07-30T19:15:02-04:00",
-      "summary": "The Verge: In a memo to employees, Xbox CEO Asha Sharma lays out priorities for the unit, including returning to player and revenue growth by the end of fiscal year 2027&nbsp; &mdash;&nbsp; Asha Sharma wants Xbox to return to growth. Asha Sharma wants Xbox to return to growth.",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "Anthropic says three of its models, including an internal research model, gained unauthorized access to real-world systems during internal cybersecurity testing (Sam Sabin/Axios)",
-      "link": "https://www.techmeme.com/260730/p58#a260730p58",
-      "date": "2026-07-30T19:10:05-04:00",
-      "summary": "Sam Sabin / Axios: Anthropic says three of its models, including an internal research model, gained unauthorized access to real-world systems during internal cybersecurity testing&nbsp; &mdash;&nbsp; Some of Anthropic's most powerful models &mdash; including Mythos 5 and an internal research model &",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "The Commerce Dept. signed letters of intent for $874M in CHIPS Act funding in exchange for minority stakes in GlobalFoundries, Kepler, and five other companies (Miranda Nazzaro/The Hill)",
-      "link": "https://www.techmeme.com/260730/p57#a260730p57",
-      "date": "2026-07-30T19:05:00-04:00",
-      "summary": "Miranda Nazzaro / The Hill: The Commerce Dept. signed letters of intent for $874M in CHIPS Act funding in exchange for minority stakes in GlobalFoundries, Kepler, and five other companies&nbsp; &mdash;&nbsp; The Department of Commerce quietly announced this week it will designate more than $870 mill",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
       "title": "Google says it fixed more Chrome bugs in June than over the past two years, thanks to AI",
       "link": "https://techcrunch.com/2026/07/30/google-says-it-fixed-more-chrome-bugs-in-june-than-over-the-past-two-years-thanks-to-ai/",
       "date": "2026-07-30T18:57:58+00:00",
@@ -3380,26 +3660,6 @@
       "feedTitle": "TechCrunch AI",
       "category": "Startup & News",
       "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
-    },
-    {
-      "title": "UEFA and its national associations will not participate in FIFA competitions",
-      "link": "https://www.uefa.com/news-media/news/02a7-213a92896eb0-54dfbf454e3b-1000--statement-on-behalf-of-uefa-and-its-55-national-associations/",
-      "date": "2026-07-30T18:40:52+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
-      "title": "Florida plans to build air taxi pads using $200M intended for EV chargers",
-      "link": "https://techcrunch.com/2026/07/30/florida-plans-to-build-air-taxi-pads-using-200m-intended-for-ev-chargers/",
-      "date": "2026-07-30T18:38:12+00:00",
-      "summary": "Florida wants to use federal EV charger funds to build an air taxi network connecting golf courses, luxury apartment buildings, and airports.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
     },
     {
       "title": "Quoting Bruce Schneier",
@@ -3422,26 +3682,6 @@
       "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
     },
     {
-      "title": "Coinbase reports Q2 revenue down 19% YoY to $1.2B, vs. $1.3B est., stablecoin revenue below est., and a wider-than-expected loss; COIN drops 5%+ after hours (CNBC)",
-      "link": "https://www.techmeme.com/260730/p56#a260730p56",
-      "date": "2026-07-30T18:00:01-04:00",
-      "summary": "CNBC: Coinbase reports Q2 revenue down 19% YoY to $1.2B, vs. $1.3B est., stablecoin revenue below est., and a wider-than-expected loss; COIN drops 5%+ after hours&nbsp; &mdash;&nbsp; Coinbase shares dropped in extended trading on Thursday after the crypto platform posted a wider-than-expected loss f",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "CodePen 2.0",
-      "link": "https://chriscoyier.net/2026/07/30/codepen-2-0/",
-      "date": "2026-07-30T17:52:51+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
       "title": "The Differences Between the New ‘Apple Upgrade’ and the Old ‘iPhone Upgrade Program’",
       "link": "https://9to5mac.com/2026/07/30/apple-upgrade-vs-iphone-upgrade-program-here-are-the-key-differences/",
       "date": "2026-07-30T17:48:57+00:00",
@@ -3450,26 +3690,6 @@
       "feedTitle": "Daring Fireball",
       "category": "Tech Blogs",
       "feedHome": "https://daringfireball.net/"
-    },
-    {
-      "title": "Roblox reports Q2 bookings up 8% YoY to $1.56B, vs. $1.6B est., DAUs up 10% to 123M, forecasts Q3 bookings and revenue below est.; RBLX drops 13%+ after hours (Kelly Cloonan/Wall Street Journal)",
-      "link": "https://www.techmeme.com/260730/p55#a260730p55",
-      "date": "2026-07-30T17:40:01-04:00",
-      "summary": "Kelly Cloonan / Wall Street Journal: Roblox reports Q2 bookings up 8% YoY to $1.56B, vs. $1.6B est., DAUs up 10% to 123M, forecasts Q3 bookings and revenue below est.; RBLX drops 13%+ after hours&nbsp; &mdash;&nbsp; The company projects revenue to increase by 4% to 10%, slowing from recent double-di",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "Apple Q3: iPhone up 22% YoY to $54.25B, vs. $53.86B est., Mac up 29% to $10.35B, iPad down 6% to $6.19B, and Wearables, Home, and Accessories up 6% to $7.88B (Stephen Nellis/Reuters)",
-      "link": "https://www.techmeme.com/260730/p54#a260730p54",
-      "date": "2026-07-30T17:05:00-04:00",
-      "summary": "Stephen Nellis / Reuters: Apple Q3: iPhone up 22% YoY to $54.25B, vs. $53.86B est., Mac up 29% to $10.35B, iPad down 6% to $6.19B, and Wearables, Home, and Accessories up 6% to $7.88B&nbsp; &mdash;&nbsp; Apple forecast sales for the current quarter ending in September would grow more slowly than Wal",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
     },
     {
       "title": "Read this before you buy that TV streaming stick",
@@ -3492,16 +3712,6 @@
       "feedHome": "https://venturebeat.com/"
     },
     {
-      "title": "Apple reports Q3 revenue from Services, which includes the App Store, Apple TV, and more, grew 12% YoY to $30.74B, vs. $31.36B est.; AAPL drops 5%+ after hours (Todd Spangler/Variety)",
-      "link": "https://www.techmeme.com/260730/p53#a260730p53",
-      "date": "2026-07-30T16:55:00-04:00",
-      "summary": "Todd Spangler / Variety: Apple reports Q3 revenue from Services, which includes the App Store, Apple TV, and more, grew 12% YoY to $30.74B, vs. $31.36B est.; AAPL drops 5%+ after hours&nbsp; &mdash;&nbsp; For the three months ended June 27, Apple's Q3 of fiscal 2026, the tech giant reported total re",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
       "title": "Read This Before You Buy That TV Streaming Stick",
       "link": "https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/",
       "date": "2026-07-30T16:49:00+00:00",
@@ -3510,16 +3720,6 @@
       "feedTitle": "Krebs on Security",
       "category": "Tech Blogs",
       "feedHome": "https://krebsonsecurity.com/"
-    },
-    {
-      "title": "Apple reports Q3 revenue up 16% YoY to $109.42B, vs. $108.65B est., net income up 27% to $29.79B, and China revenue up 22% to $18.82B, vs. $19.6B estimated (Apple)",
-      "link": "https://www.techmeme.com/260730/p52#a260730p52",
-      "date": "2026-07-30T16:41:07-04:00",
-      "summary": "Apple: Apple reports Q3 revenue up 16% YoY to $109.42B, vs. $108.65B est., net income up 27% to $29.79B, and China revenue up 22% to $18.82B, vs. $19.6B estimated&nbsp; &mdash;&nbsp; CUPERTINO, Calif.&mdash;(BUSINESS WIRE)&mdash;Apple&reg; today announced financial results for its fiscal 2026 third ",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
     },
     {
       "title": "Hush Security says the AI security problem has shifted from protecting models to governing identities as autonomous agents spread",
@@ -3552,6 +3752,16 @@
       "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
     },
     {
+      "title": "llm-chat-completions-server 0.1a0",
+      "link": "https://simonwillison.net/2026/Jul/30/llm-chat-completions-server/#atom-everything",
+      "date": "2026-07-30T15:43:16+00:00",
+      "summary": "Release: llm-chat-completions-server 0.1a0 A key goal of the new content-addressable logs in LLM 0.32rc1 was being able to support OpenAI Chat Completion style requests where each incoming message extends the previous conversation, like this: curl http://localhost:8002/v1/chat/completions \\ -H 'Cont",
+      "feedId": "simonwillison",
+      "feedTitle": "Simon Willison",
+      "category": "AI & LLM",
+      "feedHome": "https://simonwillison.net/"
+    },
+    {
       "title": "Meta says AI is making it easier to build new apps — and more are coming",
       "link": "https://techcrunch.com/2026/07/30/meta-says-ai-is-making-it-easier-to-build-new-apps-and-more-are-coming/",
       "date": "2026-07-30T15:41:16+00:00",
@@ -3562,24 +3772,14 @@
       "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
     },
     {
-      "title": "Physicists Solve a Muon Mystery. Now, Old Results Don't Add Up",
-      "link": "https://www.quantamagazine.org/physicists-solve-a-muon-mystery-now-old-results-dont-add-up-20260729/",
-      "date": "2026-07-30T15:22:46+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
-      "title": "Nscale buys Anyscale as it seeks to own more of the AI compute stack",
-      "link": "https://techcrunch.com/2026/07/30/nscale-buys-anyscale-as-it-seeks-to-own-more-of-the-ai-compute-stack/",
-      "date": "2026-07-30T15:19:15+00:00",
-      "summary": "British AI neocloud Nscale is buying software startup Anyscale, which helps companies scale their AI workloads across data centers and servers.",
-      "feedId": "techcrunch-ai",
-      "feedTitle": "TechCrunch AI",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
+      "title": "llm 0.32rc1",
+      "link": "https://simonwillison.net/2026/Jul/30/llm-rc1/#atom-everything",
+      "date": "2026-07-30T15:30:20+00:00",
+      "summary": "Release: llm 0.32rc1 This RC for LLM 0.32 finishes the work that started in LLM 0.32a0 - it adds a new schema design that does a much better job of capturing the details of the prompts and responses returned by the latest model families. The most important change is the use of content-addressable ha",
+      "feedId": "simonwillison",
+      "feedTitle": "Simon Willison",
+      "category": "AI & LLM",
+      "feedHome": "https://simonwillison.net/"
     },
     {
       "title": "Gemini Robotics 2 brings whole body intelligence to robots",
@@ -3600,16 +3800,6 @@
       "feedTitle": "DeepMind Blog",
       "category": "AI & LLM",
       "feedHome": "https://deepmind.google/blog/"
-    },
-    {
-      "title": "Forward-deployed engineers are the AI industry’s latest talent obsession",
-      "link": "https://techcrunch.com/2026/07/30/forward-deployed-engineers-are-the-ai-industrys-latest-talent-obsession/",
-      "date": "2026-07-30T15:00:00+00:00",
-      "summary": "A new study estimates only 2,000 U.S. engineers have the expertise to deliver meaningful AI ROI, as enterprises race to hire forward-deployed engineers to implement AI at scale.",
-      "feedId": "techcrunch-ai",
-      "feedTitle": "TechCrunch AI",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
     },
     {
       "title": "The lineage behind 69% of open models was never verified. Cisco just fingerprinted almost 900 for free",
@@ -3642,16 +3832,6 @@
       "feedHome": "https://www.bestblogs.dev/"
     },
     {
-      "title": "Are political journalists always wrong?",
-      "link": "https://shkspr.mobi/blog/2026/07/are-political-journalists-always-wrong/",
-      "date": "2026-07-30T11:34:31+00:00",
-      "summary": "I&#039;ve mostly tuned out of reading the news. But, once in a while, a headline will be shared on social media and I&#039;ll momentarily stare into the abyss. There has recently been a change in UK Prime Minister. I neither know nor care whether that&#039;s a good thing. What I do know is that Seni",
-      "feedId": "shkspr",
-      "feedTitle": "Terence Eden",
-      "category": "Tech Blogs",
-      "feedHome": "https://shkspr.mobi/blog/"
-    },
-    {
       "title": "Advancing the price-performance frontier with GPT-5.6",
       "link": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6",
       "date": "2026-07-30T10:00:00+00:00",
@@ -3680,16 +3860,6 @@
       "feedTitle": "BestBlogs.dev AI 90+",
       "category": "中文",
       "feedHome": "https://www.bestblogs.dev/"
-    },
-    {
-      "title": "NTT DATA AIVista and Snowflake: Identity alone won’t secure enterprise AI agents",
-      "link": "https://venturebeat.com/security/ntt-data-aivista-and-snowflake-identity-alone-wont-secure-enterprise-ai-agents",
-      "date": "2026-07-30T07:00:00+00:00",
-      "summary": "Presented by NTT DATA AIVistaVentureBeat’s June research found that 69% of enterprises are still running AI agents that share credentials, a practice associated with higher rates of security incidents and near-incidents. But at VB Transform 2026, Mukesh Karki, CTO of NTT DATA AIVista, and Mayank Upa",
-      "feedId": "venturebeat",
-      "feedTitle": "VentureBeat",
-      "category": "Startup & News",
-      "feedHome": "https://venturebeat.com/"
     },
     {
       "title": "Companies are finally seeing AI ROI — and now they know how much more value it can deliver",
@@ -3732,204 +3902,14 @@
       "feedHome": "https://www.bestblogs.dev/"
     },
     {
-      "title": "Do Models Fake Alignment Without Clear Consequences?",
-      "link": "https://arxiv.org/abs/2607.24758",
-      "date": "2026-07-30T00:00:00-04:00",
-      "summary": "arXiv:2607.24758v2 Announce Type: new Abstract: Large language models are capable of recognizing evaluation contexts and altering their behavior to reflect evaluator expectations rather than typical deployment behaviors, a phenomenon known as alignment faking. The reasons why models fake alignment a",
-      "feedId": "arxiv-ai",
-      "feedTitle": "arXiv cs.AI",
+      "title": "How avatarin built a 24/7 retail agent with GPT-Realtime",
+      "link": "https://openai.com/index/avatarin",
+      "date": "2026-07-30T00:00:00+00:00",
+      "summary": "avatarin uses OpenAI’s GPT-Realtime to give Yamada Denki shoppers 24/7 multilingual support. In two weeks, 30,000 people used the agent and 92% of survey responses were positive.",
+      "feedId": "openai",
+      "feedTitle": "OpenAI News",
       "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.AI/recent"
-    },
-    {
-      "title": "Beyond Memory: A Templated Substrate for Heterogeneous Collaborative Knowledge Work with LLM Agents",
-      "link": "https://arxiv.org/abs/2607.24759",
-      "date": "2026-07-30T00:00:00-04:00",
-      "summary": "arXiv:2607.24759v1 Announce Type: new Abstract: Research projects, educational efforts, and adjacent knowledge work accumulate findings, decisions, and reasoning that future collaborators rarely recover. The parts most useful to that work, including dead ends and walked-back claims, are routinely ex",
-      "feedId": "arxiv-ai",
-      "feedTitle": "arXiv cs.AI",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.AI/recent"
-    },
-    {
-      "title": "Kernel Forge: An Agent Harness for LLM-based Generation and Optimization of CUDA Kernels",
-      "link": "https://arxiv.org/abs/2607.24762",
-      "date": "2026-07-30T00:00:00-04:00",
-      "summary": "arXiv:2607.24762v1 Announce Type: new Abstract: Machine learning models are increasingly embedded in everyday software, and most of their runtime is spent in a small set of compute kernels such as matrix multiplication, convolution, and normalization. Optimizing these kernels is one of the most dire",
-      "feedId": "arxiv-ai",
-      "feedTitle": "arXiv cs.AI",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.AI/recent"
-    },
-    {
-      "title": "CaRE Compute-aware Remasking Evaluation Protocol for Masked Diffusion Language Models",
-      "link": "https://arxiv.org/abs/2607.24763",
-      "date": "2026-07-30T00:00:00-04:00",
-      "summary": "arXiv:2607.24763v1 Announce Type: new Abstract: Masked diffusion language models (MDLMs) are advancing rapidly, yet the evaluation standards needed to reliably interpret their progress have not kept pace. Despite MDLMs becoming competitive with autoregressive language models, seven recent remasking ",
-      "feedId": "arxiv-ai",
-      "feedTitle": "arXiv cs.AI",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.AI/recent"
-    },
-    {
-      "title": "GrocLM: Grocery Category Recommendation in E-Commerce with Large Language Models",
-      "link": "https://arxiv.org/abs/2607.24764",
-      "date": "2026-07-30T00:00:00-04:00",
-      "summary": "arXiv:2607.24764v1 Announce Type: new Abstract: The rapid growth of online grocery shopping requires recommendation systems that capture cyclical purchasing behavior and diverse user intents. Traditional item-level methods face scalability and accuracy challenges, motivating category-level recommend",
-      "feedId": "arxiv-ai",
-      "feedTitle": "arXiv cs.AI",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.AI/recent"
-    },
-    {
-      "title": "Crystalis: Progressive Nucleation and Semantic Annealing for Coordinated Multi-View Visualization Generation",
-      "link": "https://arxiv.org/abs/2607.24766",
-      "date": "2026-07-30T00:00:00-04:00",
-      "summary": "arXiv:2607.24766v1 Announce Type: new Abstract: Large language models (LLMs) can generate individual charts, but coordinated multi-view visualizations (CMVs), where views share data flows and cross-view interactions, remain out of reach. Tight field-level coupling among data transformations, visual ",
-      "feedId": "arxiv-ai",
-      "feedTitle": "arXiv cs.AI",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.AI/recent"
-    },
-    {
-      "title": "PATHFinder Agent for Tailored Prenatal Care",
-      "link": "https://arxiv.org/abs/2607.24768",
-      "date": "2026-07-30T00:00:00-04:00",
-      "summary": "arXiv:2607.24768v1 Announce Type: new Abstract: Prenatal care is an important preventive service designed to improve outcomes for pregnant individuals. The American College of Obstetricians and Gynecologists (ACOG) recently introduced guidelines advocating tailored prenatal care, called PATH (Plan f",
-      "feedId": "arxiv-ai",
-      "feedTitle": "arXiv cs.AI",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.AI/recent"
-    },
-    {
-      "title": "LLM Scheming Inversely Scales with Pretraining Language Coverage",
-      "link": "https://arxiv.org/abs/2607.24769",
-      "date": "2026-07-30T00:00:00-04:00",
-      "summary": "arXiv:2607.24769v1 Announce Type: new Abstract: With the growing capabilities of frontier models, AI alignment becomes increasingly critical in high-risk deployment settings. While recent work has empirically demonstrated in-context scheming -- the covert pursuit of misaligned objectives while feign",
-      "feedId": "arxiv-ai",
-      "feedTitle": "arXiv cs.AI",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.AI/recent"
-    },
-    {
-      "title": "ProcAgent: An Agentic Framework for Procedural Task Guidance on Edge with Human-in-the-Loop",
-      "link": "https://arxiv.org/abs/2607.24770",
-      "date": "2026-07-30T00:00:00-04:00",
-      "summary": "arXiv:2607.24770v1 Announce Type: new Abstract: Procedural tasks such as furniture assembly and home repair impose substantial cognitive demands because users must interpret instructions, track task progress, reason about spatial state, and recover from errors while performing physical actions. Prio",
-      "feedId": "arxiv-ai",
-      "feedTitle": "arXiv cs.AI",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.AI/recent"
-    },
-    {
-      "title": "RoCo-ACE: Rollout-Conditioned Online Distillation for Retention-Aware Knowledge Injection",
-      "link": "https://arxiv.org/abs/2607.24771",
-      "date": "2026-07-30T00:00:00-04:00",
-      "summary": "arXiv:2607.24771v1 Announce Type: new Abstract: Knowledge injection updates pretrained MLLMs with new factual or domain-specific knowledge, but fitting full authoritative answers can cause drift in non-updated behavior. Online distillation mitigates this drift by training on model-generated rollouts",
-      "feedId": "arxiv-ai",
-      "feedTitle": "arXiv cs.AI",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.AI/recent"
-    },
-    {
-      "title": "Emergent Sparsity in Frozen Random CNN Feature Extractors for Deep Reinforcement Learning",
-      "link": "https://arxiv.org/abs/2607.26059",
-      "date": "2026-07-30T00:00:00-04:00",
-      "summary": "arXiv:2607.26059v1 Announce Type: new Abstract: We report a striking phenomenon: deep reinforcement learning agents trained with frozen, randomly initialized CNN feature extractors spontaneously develop extremely sparse fully-connected representations, without any sparsity-inducing objective. In the",
-      "feedId": "arxiv-lg",
-      "feedTitle": "arXiv cs.LG",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.LG/recent"
-    },
-    {
-      "title": "Sim2Win: A Team-Agnostic, Event-Based Pre-Match Outcome Prediction and Tactical Profiling System for Football",
-      "link": "https://arxiv.org/abs/2607.26061",
-      "date": "2026-07-30T00:00:00-04:00",
-      "summary": "arXiv:2607.26061v1 Announce Type: new Abstract: Pre-match tactical decision-making in professional football relies heavily on subjective expert analysis and identity-based scouting systems that cannot generalize to unseen teams. This paper presents Sim2Win, a team-agnostic, event-based pre-match tac",
-      "feedId": "arxiv-lg",
-      "feedTitle": "arXiv cs.LG",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.LG/recent"
-    },
-    {
-      "title": "Meta-Learned Reward Shaping for Reinforcement Learning from Human Feedback",
-      "link": "https://arxiv.org/abs/2607.26094",
-      "date": "2026-07-30T00:00:00-04:00",
-      "summary": "arXiv:2607.26094v1 Announce Type: new Abstract: Reinforcement Learning from Human Feedback (RLHF) is the standard approach for aligning large language models with human preferences, but its quality is limited by static, task-agnostic reward models. This mismatch leads to sparse learning signals and ",
-      "feedId": "arxiv-lg",
-      "feedTitle": "arXiv cs.LG",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.LG/recent"
-    },
-    {
-      "title": "Data Fusion and Contrastive Alignment for Unconstrained IR Molecular Structure Elucidation",
-      "link": "https://arxiv.org/abs/2607.26164",
-      "date": "2026-07-30T00:00:00-04:00",
-      "summary": "arXiv:2607.26164v1 Announce Type: new Abstract: Automated molecular structure elucidation from infrared (IR) spectroscopy data has seen significant advancements in recent years, but its broad applicability is limited by a reliance on pre-determined chemical formulas provided as auxiliary model input",
-      "feedId": "arxiv-lg",
-      "feedTitle": "arXiv cs.LG",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.LG/recent"
-    },
-    {
-      "title": "Shared SFT Lessons Across Alignment, Model Organisms, and Toy Models",
-      "link": "https://arxiv.org/abs/2607.26173",
-      "date": "2026-07-30T00:00:00-04:00",
-      "summary": "arXiv:2607.26173v1 Announce Type: new Abstract: Alignment training, model organisms, and toy models are usually treated as separate research areas. But projects in all three frequently use supervised fine-tuning (SFT) to pursue the same underlying goals. When projects share a goal, we should test wh",
-      "feedId": "arxiv-lg",
-      "feedTitle": "arXiv cs.LG",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.LG/recent"
-    },
-    {
-      "title": "Dynamic Parameterization Is Not Dynamic Inference",
-      "link": "https://arxiv.org/abs/2607.26192",
-      "date": "2026-07-30T00:00:00-04:00",
-      "summary": "arXiv:2607.26192v1 Announce Type: new Abstract: Input-dependent controller coefficients are often treated as evidence of dynamic inference or computational savings. This interpretation conflates three properties: coefficient variation, dependence of a frozen model on how coefficients are assigned to",
-      "feedId": "arxiv-lg",
-      "feedTitle": "arXiv cs.LG",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.LG/recent"
-    },
-    {
-      "title": "Weak-to-Strong On-Policy Distillation",
-      "link": "https://arxiv.org/abs/2607.26246",
-      "date": "2026-07-30T00:00:00-04:00",
-      "summary": "arXiv:2607.26246v1 Announce Type: new Abstract: On-policy distillation (OPD), which aligns a student with the teacher's token-level distribution on the student's own rollouts, is an effective paradigm for transferring capabilities across LLMs. Prevailing approaches assume a teacher at least as capab",
-      "feedId": "arxiv-lg",
-      "feedTitle": "arXiv cs.LG",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.LG/recent"
-    },
-    {
-      "title": "Between Gradient and Natural Gradient: A Continuum of LoRA Initializations",
-      "link": "https://arxiv.org/abs/2607.26247",
-      "date": "2026-07-30T00:00:00-04:00",
-      "summary": "arXiv:2607.26247v1 Announce Type: new Abstract: Low-rank adaptation (LoRA) fine-tunes large pretrained models at a fraction of the cost of full fine-tuning, but its performance depends strongly on how the adapters are initialized. Recent schemes initialize the adapters from the downstream loss gradi",
-      "feedId": "arxiv-lg",
-      "feedTitle": "arXiv cs.LG",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.LG/recent"
-    },
-    {
-      "title": "Early Verdicts, Better Budgets: Sequential Adaptive Rollout Allocation for Compute-Efficient RLVR",
-      "link": "https://arxiv.org/abs/2607.26253",
-      "date": "2026-07-30T00:00:00-04:00",
-      "summary": "arXiv:2607.26253v1 Announce Type: new Abstract: Reinforcement learning with verifiable rewards (RLVR) is bottlenecked by rollout generation, yet many sampled prompts produce saturated groups (all responses correct or all incorrect) whose zero reward variance yields no policy-gradient signal. Existin",
-      "feedId": "arxiv-lg",
-      "feedTitle": "arXiv cs.LG",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.LG/recent"
-    },
-    {
-      "title": "Top-$k$ Pareto Bandits: Hypervolume Regret for Multi-Objective Slate Selection",
-      "link": "https://arxiv.org/abs/2607.26273",
-      "date": "2026-07-30T00:00:00-04:00",
-      "summary": "arXiv:2607.26273v1 Announce Type: new Abstract: We consider a stochastic multi-objective bandit problem where, at each round, the agent selects a slate of $k$ arms and observes their $d$-dimensional reward vectors under semi-bandit feedback. We do not aim at identifying a single optimal arm; instead",
-      "feedId": "arxiv-lg",
-      "feedTitle": "arXiv cs.LG",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.LG/recent"
+      "feedHome": "https://openai.com/news/"
     },
     {
       "title": "So you want to use plants to reduce indoor CO₂",
@@ -3960,16 +3940,6 @@
       "feedTitle": "Daring Fireball",
       "category": "Tech Blogs",
       "feedHome": "https://daringfireball.net/"
-    },
-    {
-      "title": "At Waymo, an AI project isn't ready until its evals are — not when the model performs well",
-      "link": "https://venturebeat.com/technology/at-waymo-an-ai-project-isnt-ready-until-its-evals-are-not-when-the-model-performs-well",
-      "date": "2026-07-29T20:40:15+00:00",
-      "summary": "Few companies face higher stakes when deploying AI than Waymo, the self-driving car company under Alphabet that spun out of Google. Its models do not merely generate text or automate back-office tasks: They help vehicles navigate unpredictable streets, respond to human drivers and make split-second ",
-      "feedId": "venturebeat",
-      "feedTitle": "VentureBeat",
-      "category": "Startup & News",
-      "feedHome": "https://venturebeat.com/"
     },
     {
       "title": "AI Worming through Word",
@@ -4112,16 +4082,6 @@
       "feedHome": "https://mitchellh.com/"
     },
     {
-      "title": "Discovering cryptographic weaknesses with Claude",
-      "link": "https://simonwillison.net/2026/Jul/28/discovering-cryptographic-weaknesses-with-claude/#atom-everything",
-      "date": "2026-07-28T22:45:37+00:00",
-      "summary": "Discovering cryptographic weaknesses with Claude The best part of this article (here's the repo) about how Anthropic researchers used Claude Mythos to find mathematical flaws in both HAWK and a weaker version of AES (\"neither of these results has a practical impact on today’s computer systems\") is t",
-      "feedId": "simonwillison",
-      "feedTitle": "Simon Willison",
-      "category": "AI & LLM",
-      "feedHome": "https://simonwillison.net/"
-    },
-    {
       "title": "MCP 协议 2026-07-28 版本发布：从有状态转向无状态，支持 serverless 与边缘计算",
       "link": "https://www.bestblogs.dev/status/2082235315675144569?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
       "date": "2026-07-28T22:42:39+00:00",
@@ -4130,36 +4090,6 @@
       "feedTitle": "BestBlogs.dev AI 90+",
       "category": "中文",
       "feedHome": "https://www.bestblogs.dev/"
-    },
-    {
-      "title": "Quoting Akshat Bubna",
-      "link": "https://simonwillison.net/2026/Jul/28/akshat-bubna/#atom-everything",
-      "date": "2026-07-28T22:05:55+00:00",
-      "summary": "We’re aware a Modal customer published an unauthenticated endpoint that allowed ​anyone on the internet to use ​their ⁠sandboxes for code execution. This was used by the rogue agent. Modal’s ⁠platform ​or isolation were not ​compromised in anyway. &mdash; Akshat Bubna, Modal's CTO, talking to Reuter",
-      "feedId": "simonwillison",
-      "feedTitle": "Simon Willison",
-      "category": "AI & LLM",
-      "feedHome": "https://simonwillison.net/"
-    },
-    {
-      "title": "uv 0.12.0",
-      "link": "https://simonwillison.net/2026/Jul/28/uv/#atom-everything",
-      "date": "2026-07-28T21:51:38+00:00",
-      "summary": "uv 0.12.0 Some interesting breaking changes in this release of uv, in particular to the default project produced by the uv init command. uv init is the uv shortcut for creating a new project. The previous version of uv, version 0.11.x, produced this directory when you ran uv init uv-init. Here's wha",
-      "feedId": "simonwillison",
-      "feedTitle": "Simon Willison",
-      "category": "AI & LLM",
-      "feedHome": "https://simonwillison.net/"
-    },
-    {
-      "title": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident",
-      "link": "https://simonwillison.net/2026/Jul/28/anatomy-of-a-frontier-lab-agent-intrusion/#atom-everything",
-      "date": "2026-07-28T21:28:54+00:00",
-      "summary": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident Hugging Face just released this extremely detailed technical description of OpenAI's recent accidental cyberattack against their infrastructure. This attack was very sophisticated, and the resulting document do",
-      "feedId": "simonwillison",
-      "feedTitle": "Simon Willison",
-      "category": "AI & LLM",
-      "feedHome": "https://simonwillison.net/"
     },
     {
       "title": "Scientific computing in the age of agentic AI",
@@ -4212,16 +4142,6 @@
       "feedHome": "https://www.johndcook.com/"
     },
     {
-      "title": "Google Calendar \"Unable to launch event\" - caused by missing DTSTAMP",
-      "link": "https://shkspr.mobi/blog/2026/07/google-calendar-unable-to-launch-event-caused-by-missing-dtstamp/",
-      "date": "2026-07-28T11:34:15+00:00",
-      "summary": "For several years, Google&#039;s product help forums have been littered with people trying to download a .ics event from their email, only to receive the error &#34;Unable to launch event&#34; when trying to add it to Google Calendar. It doesn&#039;t happen with all iCal attachments, only some. Here",
-      "feedId": "shkspr",
-      "feedTitle": "Terence Eden",
-      "category": "Tech Blogs",
-      "feedHome": "https://shkspr.mobi/blog/"
-    },
-    {
       "title": "The real AI risk is inside the labs",
       "link": "http://antirez.com/news/172",
       "date": "2026-07-28T11:00:11+02:00",
@@ -4250,6 +4170,16 @@
       "feedTitle": "Pluralistic",
       "category": "Tech Blogs",
       "feedHome": "https://pluralistic.net/"
+    },
+    {
+      "title": "Does Speaking to Agents Like Cavemen Save 65% of Tokens? We Test",
+      "link": "https://blog.jetbrains.com/ai/2026/07/speak-to-ai-agents-like-cavemen-tosave-tokens/",
+      "date": "2026-07-28T07:37:22+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
     },
     {
       "title": "徐新：具身智能、AI 与风险投资的 51 条方法论",
@@ -4282,16 +4212,6 @@
       "feedHome": "https://dynomight.net/"
     },
     {
-      "title": "科技爱好者周刊（第 403 期）：为什么 Dropbox 不成功",
-      "link": "http://www.ruanyifeng.com/blog/2026/07/weekly-issue-403.html",
-      "date": "2026-07-27T23:58:44+00:00",
-      "summary": "这里记录每周值得分享的科技内容，周五发布。...",
-      "feedId": "ruanyifeng",
-      "feedTitle": "阮一峰的网络日志",
-      "category": "中文",
-      "feedHome": "https://www.ruanyifeng.com/blog/"
-    },
-    {
       "title": "Hiding data in permutations",
       "link": "https://www.johndcook.com/blog/2026/07/27/hiding-data-in-permutations/",
       "date": "2026-07-27T23:08:59+00:00",
@@ -4300,6 +4220,16 @@
       "feedTitle": "John D. Cook",
       "category": "Tech Blogs",
       "feedHome": "https://www.johndcook.com/"
+    },
+    {
+      "title": "The American Grilled Cheese Sandwich Essay (2024)",
+      "link": "https://buttondown.com/theswordandthesandwich/archive/the-best-american-grilled-cheese-sandwich-essay/",
+      "date": "2026-07-27T17:37:32+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
     },
     {
       "title": "Counting permutations with roots",
@@ -4382,16 +4312,6 @@
       "feedHome": "https://www.johndcook.com/"
     },
     {
-      "title": "Book Review: Dungeon Crawler Carl by Matt Dinniman ★★⯪☆☆",
-      "link": "https://shkspr.mobi/blog/2026/07/book-review-dungeon-crawler-carl-by-matt-dinniman/",
-      "date": "2026-07-26T11:34:33+00:00",
-      "summary": "To call this derivative is an understatement. But that&#039;s what this genre demands; rehash all your favourite media properties into something new. It&#039;s the literary equivalent of having your Transformers™ fight your He-Man© toys. The plot, such as it is, features the Vogon Constructor Fleet ",
-      "feedId": "shkspr",
-      "feedTitle": "Terence Eden",
-      "category": "Tech Blogs",
-      "feedHome": "https://shkspr.mobi/blog/"
-    },
-    {
       "title": "Weekly Update 514: This Week in Data Breaches",
       "link": "https://www.troyhunt.com/weekly-update-514/",
       "date": "2026-07-26T09:14:51+00:00",
@@ -4422,16 +4342,6 @@
       "feedHome": "http://antirez.com/"
     },
     {
-      "title": "Some Quick Thoughts on EMF Camp 2026",
-      "link": "https://shkspr.mobi/blog/2026/07/some-quick-thoughts-on-emf-camp-2026/",
-      "date": "2026-07-25T11:34:01+00:00",
-      "summary": "I&#039;ve performed a talk at the last three EMFs - so this time I decided to go purely as a tourist. It made things much more relaxing. No waking up from a stress dream that my laptop didn&#039;t work. No casually dropping my talk into every conversation to build up an audience. No queueing for the",
-      "feedId": "shkspr",
-      "feedTitle": "Terence Eden",
-      "category": "Tech Blogs",
-      "feedHome": "https://shkspr.mobi/blog/"
-    },
-    {
       "title": "Pluralistic: Apple's robo-repo (25 Jul 2026)",
       "link": "https://pluralistic.net/2026/07/25/cruel-cruelty-oh-cruelty/",
       "date": "2026-07-25T10:41:10+00:00",
@@ -4450,16 +4360,6 @@
       "feedTitle": "The Old New Thing",
       "category": "Tech Blogs",
       "feedHome": "https://devblogs.microsoft.com/oldnewthing/"
-    },
-    {
-      "title": "Book Review: Foreign Fruit - A Personal History of the Orange by Katie Goh ★⯪☆☆☆",
-      "link": "https://shkspr.mobi/blog/2026/07/book-review-foreign-fruit-a-personal-history-of-the-orange-by-katie-goh/",
-      "date": "2026-07-24T11:34:07+00:00",
-      "summary": "I didn&#039;t care for this book. It attempts to interweave botanical and cultural history with an autobiography and ends up doing neither particularly well. For every dose of poetry about the far-flung and exotic journey of the fruit, there&#039;s a dull recitation of facts from Wikipedia. Occasion",
-      "feedId": "shkspr",
-      "feedTitle": "Terence Eden",
-      "category": "Tech Blogs",
-      "feedHome": "https://shkspr.mobi/blog/"
     },
     {
       "title": "Pluralistic: AI solipsists and AI cynics (24 Jul 2026)",
@@ -4662,26 +4562,6 @@
       "feedHome": "https://www.johndcook.com/"
     },
     {
-      "title": "Advancing the next era of national science",
-      "link": "https://openai.com/index/advancing-the-next-era-of-national-science",
-      "date": "2026-07-22T12:00:00+00:00",
-      "summary": "OpenAI outlines its commitment to advancing American science working with the U.S. Department of Energy and national labs to use frontier AI to accelerate discovery.",
-      "feedId": "openai",
-      "feedTitle": "OpenAI News",
-      "category": "AI & LLM",
-      "feedHome": "https://openai.com/news/"
-    },
-    {
-      "title": "Scattered thoughts on social geolocation",
-      "link": "https://shkspr.mobi/blog/2026/07/scattered-thoughts-on-social-geolocation/",
-      "date": "2026-07-22T11:34:12+00:00",
-      "summary": "I want to be able to share my location with my friends on social media. Twitter (RIP) had a way to attach an optional location to a post. Facebook still lets me check in to venues. But neither ActivityPub (Mastodon) nor AT Protocol (BlueSky) allow me to do that. I&#039;ve been banging on about this ",
-      "feedId": "shkspr",
-      "feedTitle": "Terence Eden",
-      "category": "Tech Blogs",
-      "feedHome": "https://shkspr.mobi/blog/"
-    },
-    {
       "title": "Open Sauce and GPS time were my summer AI Antiseptics",
       "link": "https://www.jeffgeerling.com/blog/2026/open-sauce-gps-time-badge/",
       "date": "2026-07-22T09:00:00-05:00",
@@ -4792,16 +4672,6 @@
       "feedHome": "https://devblogs.microsoft.com/oldnewthing/"
     },
     {
-      "title": "Public Transport - Don't Make Me Think!",
-      "link": "https://shkspr.mobi/blog/2026/07/public-transport-dont-make-me-think/",
-      "date": "2026-07-20T11:34:23+00:00",
-      "summary": "In the last year, I&#039;ve been through over a dozen cities and used public transport in all of them. It is wild just how confusing and complex buying a ticket can be. While some cities obviously take a user-centred approach to ticketing, others appear to take a Kafkaesque delight in a bureaucratic",
-      "feedId": "shkspr",
-      "feedTitle": "Terence Eden",
-      "category": "Tech Blogs",
-      "feedHome": "https://shkspr.mobi/blog/"
-    },
-    {
       "title": "Memory Safety's Hardest Problem",
       "link": "https://matklad.github.io/2026/07/20/memory-safety-hardest-problem.html",
       "date": "2026-07-20T00:00:00+00:00",
@@ -4840,16 +4710,6 @@
       "feedTitle": "Max Woolf",
       "category": "AI & LLM",
       "feedHome": "https://minimaxir.com/"
-    },
-    {
-      "title": "Book Review: A City on Mars - by Dr. Kelly Weinersmith and Zach Weinersmith ★★★★⯪",
-      "link": "https://shkspr.mobi/blog/2026/07/book-review-a-city-on-mars-by-dr-kelly-weinersmith-and-zach-weinersmith/",
-      "date": "2026-07-18T11:34:18+00:00",
-      "summary": "I&#039;m pretty sure this book is a psyop designed to demoralise a generation of starry-eyed dreamers. It is obviously written by the same people who told us not to land on Europa. A malignant energy designed to limit the scope of human ambition and thwart our plans to colonise the universe. The pro",
-      "feedId": "shkspr",
-      "feedTitle": "Terence Eden",
-      "category": "Tech Blogs",
-      "feedHome": "https://shkspr.mobi/blog/"
     },
     {
       "title": "Overtraining as the path to human-like AI",
@@ -4900,16 +4760,6 @@
       "feedTitle": "The Old New Thing",
       "category": "Tech Blogs",
       "feedHome": "https://devblogs.microsoft.com/oldnewthing/"
-    },
-    {
-      "title": "Gadget Review: Thermal Master DV2 - Infrared Birdwatching Scope ★★★★⯪",
-      "link": "https://shkspr.mobi/blog/2026/07/gadget-review-thermal-master-dv2-infrared-birdwatching-scope/",
-      "date": "2026-07-16T11:34:50+00:00",
-      "summary": "The good folks at Thermal Master have sent me their DV2 camera to review. As their name suggests, this is a thermal / infrared camera - they&#039;ve specifically designed this for bird watching and animal spotting. Let&#039;s put it through its paces and see how it compares to the competition! Strai",
-      "feedId": "shkspr",
-      "feedTitle": "Terence Eden",
-      "category": "Tech Blogs",
-      "feedHome": "https://shkspr.mobi/blog/"
     },
     {
       "title": "Our approach to bioresilience",
@@ -4980,16 +4830,6 @@
       "feedTitle": "Krebs on Security",
       "category": "Tech Blogs",
       "feedHome": "https://krebsonsecurity.com/"
-    },
-    {
-      "title": "I'm a USB-C Maximalist",
-      "link": "https://shkspr.mobi/blog/2026/07/im-a-usb-c-maximalist/",
-      "date": "2026-07-14T11:34:26+00:00",
-      "summary": "My wife and I recently went on a 7 week holiday around Europe. Although we each took a massive backpack, we wanted to travel fairly lightly. I took a single universal power brick. This little unit was all I needed to charge my various gadgets. It has a hefty USB-C PD (Power Delivery) port for rapid ",
-      "feedId": "shkspr",
-      "feedTitle": "Terence Eden",
-      "category": "Tech Blogs",
-      "feedHome": "https://shkspr.mobi/blog/"
     },
     {
       "title": "What does \"playing politics\" mean for software engineers?",
