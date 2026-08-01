@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-31T23:01:53.099877+00:00",
+  "updatedAt": "2026-08-01T02:53:10.884669+00:00",
   "totalFeeds": 51,
   "successCount": 44,
   "failedCount": 7,
@@ -21,8 +21,26 @@
         "home": "https://simonwillison.net/",
         "url": "https://simonwillison.net/atom/everything/",
         "status": "ok",
-        "fetchedAt": "2026-07-31T23:01:42.932937+00:00",
+        "fetchedAt": "2026-08-01T02:53:01.057095+00:00",
         "items": [
+          {
+            "title": "deepseek-ai/DeepSeek-V4-Flash-0731",
+            "link": "https://simonwillison.net/2026/Jul/31/deepseek-v4-flash-0731/#atom-everything",
+            "date": "2026-07-31T23:59:44+00:00",
+            "summary": "deepseek-ai/DeepSeek-V4-Flash-0731 The latest release in DeepSeek's V4 family, \"with substantially enhanced agentic capabilities\". It's 304 billion parameters - 167GB on Hugging Face - but it appears to punch well above its weight. Artificial Analysis rank it ahead of MiniMax M3 - a 428B model. It's"
+          },
+          {
+            "title": "Stateless MCP has recaptured my interest (and inspired mcp-explorer and datasette-mcp)",
+            "link": "https://simonwillison.net/2026/Jul/31/stateless-mcp/#atom-everything",
+            "date": "2026-07-31T23:13:22+00:00",
+            "summary": "Tuesday was Stateless MCP day - the rollout of MCP 2.0, or the 2026-07-28 Model Context Protocol specification to use the more formal but less memorable name. This is the most significant change to the MCP spec since it first launched, and has also served to reignite my personal interest in the prot"
+          },
+          {
+            "title": "llm-mcp-client 0.1a0",
+            "link": "https://simonwillison.net/2026/Jul/31/llm-mcp-client/#atom-everything",
+            "date": "2026-07-31T23:03:47+00:00",
+            "summary": "Release: llm-mcp-client 0.1a0 See this blog entry. Tags: llm, model-context-protocol"
+          },
           {
             "title": "Oxide and Friends: The Open Weight Revolution with Simon Willison",
             "link": "https://simonwillison.net/2026/Jul/31/oxide-and-friends/#atom-everything",
@@ -34,6 +52,12 @@
             "link": "https://simonwillison.net/2026/Jul/31/smevals/#atom-everything",
             "date": "2026-07-31T21:15:23+00:00",
             "summary": "smevals - a small eval suite for evaluating models, prompts, and harnesses I've been working with Jesse Vincent's Prime Radiant applied AI research lab building out this evals framework to help answer questions about the capabilities of different models. The result is smevals, a new tool for running"
+          },
+          {
+            "title": "datasette-agent 0.4a0",
+            "link": "https://simonwillison.net/2026/Jul/31/datasette-agent/#atom-everything",
+            "date": "2026-07-31T14:14:23+00:00",
+            "summary": "Release: datasette-agent 0.4a0 New await context.browser_task() mechanism allowing agent tools to run code directly in the user's browser. #33 This is an exciting new capability: it makes it easy for Datasette Agent plugins to provide tools that execute custom JavaScript in the user's browser. Tags:"
           },
           {
             "title": "Advancing the price-performance frontier with GPT‑5.6",
@@ -58,30 +82,6 @@
             "link": "https://simonwillison.net/2026/Jul/30/bruce-schneier/#atom-everything",
             "date": "2026-07-30T18:25:26+00:00",
             "summary": "The writing assignments I give my students are gym tasks, not work tasks. I ask them to write policy memos not because the world needs more policy memos. I assign them because the very act of writing, which includes thinking and outlining and drafting and editing, making and criticizing and revising"
-          },
-          {
-            "title": "llm-chat-completions-server 0.1a0",
-            "link": "https://simonwillison.net/2026/Jul/30/llm-chat-completions-server/#atom-everything",
-            "date": "2026-07-30T15:43:16+00:00",
-            "summary": "Release: llm-chat-completions-server 0.1a0 A key goal of the new content-addressable logs in LLM 0.32rc1 was being able to support OpenAI Chat Completion style requests where each incoming message extends the previous conversation, like this: curl http://localhost:8002/v1/chat/completions \\ -H 'Cont"
-          },
-          {
-            "title": "llm 0.32rc1",
-            "link": "https://simonwillison.net/2026/Jul/30/llm-rc1/#atom-everything",
-            "date": "2026-07-30T15:30:20+00:00",
-            "summary": "Release: llm 0.32rc1 This RC for LLM 0.32 finishes the work that started in LLM 0.32a0 - it adds a new schema design that does a much better job of capturing the details of the prompts and responses returned by the latest model families. The most important change is the use of content-addressable ha"
-          },
-          {
-            "title": "Quoting D. Richard Hipp",
-            "link": "https://simonwillison.net/2026/Jul/29/d-richard-hipp/#atom-everything",
-            "date": "2026-07-29T21:15:21+00:00",
-            "summary": "Years ago, we didn’t have SQL. There were people whose job was to generate software that would query large data sets. Their job title was COBOL programmer. Then SQL comes along—I’m simplifying this only a little bit—and it gives you this convenient way so people could just specify. With a very simpl"
-          },
-          {
-            "title": "AI Worming through Word",
-            "link": "https://simonwillison.net/2026/Jul/29/ai-worming-through-word/#atom-everything",
-            "date": "2026-07-29T18:43:03+00:00",
-            "summary": "AI Worming through Word Neat new prompt injection variant by Håkon Måløy, who found a way to upgrade prompt injection attacks against Microsoft Word to full self-replicating worms: An attacker places hidden instructions in a document that is later used as source material in Copilot for Word. Copilot"
           }
         ]
       },
@@ -92,7 +92,7 @@
         "home": "https://openai.com/news/",
         "url": "https://openai.com/news/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-31T23:01:42.998187+00:00",
+        "fetchedAt": "2026-08-01T02:53:01.012128+00:00",
         "items": [
           {
             "title": "Advancing responsible AI across Europe",
@@ -163,7 +163,7 @@
         "home": "https://arxiv.org/list/cs.AI/recent",
         "url": "https://arxiv.org/rss/cs.AI",
         "status": "ok",
-        "fetchedAt": "2026-07-31T23:01:43.264370+00:00",
+        "fetchedAt": "2026-08-01T02:53:01.188623+00:00",
         "items": [
           {
             "title": "Probing the Origins of Reasoning Performance: Representational Quality for Mathematical Problem-Solving in RL vs. SFT Fine-Tuned Models",
@@ -234,7 +234,7 @@
         "home": "https://arxiv.org/list/cs.LG/recent",
         "url": "https://arxiv.org/rss/cs.LG",
         "status": "ok",
-        "fetchedAt": "2026-07-31T23:01:43.221758+00:00",
+        "fetchedAt": "2026-08-01T02:53:01.137656+00:00",
         "items": [
           {
             "title": "Recursive transformers for semiconductor thermo-mechanical reliability",
@@ -305,7 +305,7 @@
         "home": "https://research.google/blog/",
         "url": "https://research.google/blog/rss/",
         "status": "ok",
-        "fetchedAt": "2026-07-31T23:01:43.162710+00:00",
+        "fetchedAt": "2026-08-01T02:53:01.292428+00:00",
         "items": [
           {
             "title": "Science One Framework: A verifiable autonomous research framework via Chain-of-Evidence",
@@ -376,7 +376,7 @@
         "home": "https://deepmind.google/blog/",
         "url": "https://deepmind.google/blog/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-31T23:01:43.136724+00:00",
+        "fetchedAt": "2026-08-01T02:53:01.358504+00:00",
         "items": [
           {
             "title": "Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration",
@@ -447,7 +447,7 @@
         "home": "https://lilianweng.github.io/",
         "url": "https://lilianweng.github.io/lil-log/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-31T23:01:42.921296+00:00",
+        "fetchedAt": "2026-08-01T02:53:00.908153+00:00",
         "items": [
           {
             "title": "Active Learning",
@@ -538,7 +538,7 @@
         "home": "https://minimaxir.com/",
         "url": "https://minimaxir.com/index.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-31T23:01:43.056182+00:00",
+        "fetchedAt": "2026-08-01T02:53:00.954728+00:00",
         "items": [
           {
             "title": "LLMs break down in funny ways when told the Jacobian Conjecture counterargument",
@@ -621,7 +621,7 @@
         "home": "https://www.jeffgeerling.com/",
         "url": "https://www.jeffgeerling.com/blog.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-31T23:01:43.046946+00:00",
+        "fetchedAt": "2026-08-01T02:53:01.058589+00:00",
         "items": [
           {
             "title": "Getting 25 Gbps Thunderbolt Ethernet on my Mac Studio",
@@ -692,7 +692,7 @@
         "home": "https://www.seangoedecke.com/",
         "url": "https://www.seangoedecke.com/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-31T23:01:43.154507+00:00",
+        "fetchedAt": "2026-08-01T02:53:01.050153+00:00",
         "items": [
           {
             "title": "AI models need moral support to make discoveries",
@@ -763,7 +763,7 @@
         "home": "https://krebsonsecurity.com/",
         "url": "https://krebsonsecurity.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-07-31T23:01:43.094217+00:00",
+        "fetchedAt": "2026-08-01T02:53:01.106502+00:00",
         "items": [
           {
             "title": "Read This Before You Buy That TV Streaming Stick",
@@ -834,7 +834,7 @@
         "home": "https://daringfireball.net/",
         "url": "https://daringfireball.net/feeds/main",
         "status": "ok",
-        "fetchedAt": "2026-07-31T23:01:43.109411+00:00",
+        "fetchedAt": "2026-08-01T02:53:01.074411+00:00",
         "items": [
           {
             "title": "The Talk Show: ‘What’s in Louie’s Wallet’",
@@ -905,7 +905,7 @@
         "home": "https://ericmigi.com/",
         "url": "https://ericmigi.com/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-31T23:01:43.091882+00:00",
+        "fetchedAt": "2026-08-01T02:53:01.102545+00:00",
         "items": [
           {
             "title": "Index 01 Is In Mass Production!",
@@ -976,7 +976,7 @@
         "home": "http://antirez.com/",
         "url": "http://antirez.com/rss",
         "status": "ok",
-        "fetchedAt": "2026-07-31T23:01:44.909980+00:00",
+        "fetchedAt": "2026-08-01T02:53:03.658394+00:00",
         "items": [
           {
             "title": "The real AI risk is inside the labs",
@@ -1047,7 +1047,7 @@
         "home": "https://idiallo.com/",
         "url": "https://idiallo.com/feed.rss",
         "status": "ok",
-        "fetchedAt": "2026-07-31T23:01:43.185178+00:00",
+        "fetchedAt": "2026-08-01T02:53:01.338243+00:00",
         "items": [
           {
             "title": "BI Slop",
@@ -1118,7 +1118,7 @@
         "home": "https://maurycyz.com/",
         "url": "https://maurycyz.com/index.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-31T23:01:43.855487+00:00",
+        "fetchedAt": "2026-08-01T02:53:01.896677+00:00",
         "items": []
       },
       {
@@ -1128,7 +1128,7 @@
         "home": "https://pluralistic.net/",
         "url": "https://pluralistic.net/feed/",
         "status": "ok",
-        "fetchedAt": "2026-07-31T23:01:45.126104+00:00",
+        "fetchedAt": "2026-08-01T02:53:03.498844+00:00",
         "items": [
           {
             "title": "Pluralistic: Better to beg forgiveness (31 Jul 2026)",
@@ -1219,7 +1219,7 @@
         "home": "https://mitchellh.com/",
         "url": "https://mitchellh.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-31T23:01:43.532308+00:00",
+        "fetchedAt": "2026-08-01T02:53:01.425031+00:00",
         "items": [
           {
             "title": "Superlogical",
@@ -1290,7 +1290,7 @@
         "home": "https://dynomight.net/",
         "url": "https://dynomight.net/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-31T23:01:43.564022+00:00",
+        "fetchedAt": "2026-08-01T02:53:01.552181+00:00",
         "items": [
           {
             "title": "So you want to use plants to reduce indoor CO₂",
@@ -1361,7 +1361,7 @@
         "home": "https://xeiaso.net/",
         "url": "https://xeiaso.net/blog.rss",
         "status": "ok",
-        "fetchedAt": "2026-07-31T23:01:43.883065+00:00",
+        "fetchedAt": "2026-08-01T02:53:01.974181+00:00",
         "items": [
           {
             "title": "You should probably check on your smart appliances",
@@ -1432,7 +1432,7 @@
         "home": "https://devblogs.microsoft.com/oldnewthing/",
         "url": "https://devblogs.microsoft.com/oldnewthing/feed",
         "status": "ok",
-        "fetchedAt": "2026-07-31T23:01:43.113047+00:00",
+        "fetchedAt": "2026-08-01T02:53:01.403590+00:00",
         "items": [
           {
             "title": "Making an agile version of a Windows Runtime delegate in C++/WinRT, part 9",
@@ -1503,7 +1503,7 @@
         "home": "https://www.righto.com/",
         "url": "https://www.righto.com/feeds/posts/default",
         "status": "ok",
-        "fetchedAt": "2026-07-31T23:01:43.277609+00:00",
+        "fetchedAt": "2026-08-01T02:53:01.578725+00:00",
         "items": []
       },
       {
@@ -1513,7 +1513,7 @@
         "home": "https://lucumr.pocoo.org/",
         "url": "https://lucumr.pocoo.org/feed.atom",
         "status": "ok",
-        "fetchedAt": "2026-07-31T23:01:43.632388+00:00",
+        "fetchedAt": "2026-08-01T02:53:01.444204+00:00",
         "items": [
           {
             "title": "Codeberg Divides",
@@ -1584,7 +1584,7 @@
         "home": "https://skyfall.dev/",
         "url": "https://skyfall.dev/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-31T23:01:43.566676+00:00",
+        "fetchedAt": "2026-08-01T02:53:01.324653+00:00",
         "items": [
           {
             "title": "Good riddance, 4o",
@@ -1659,7 +1659,7 @@
         "home": "https://overreacted.io/",
         "url": "https://overreacted.io/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-31T23:01:43.389827+00:00",
+        "fetchedAt": "2026-08-01T02:53:01.276322+00:00",
         "items": [
           {
             "title": "There Are No Instances in atproto",
@@ -1730,7 +1730,7 @@
         "home": "https://www.johndcook.com/",
         "url": "https://www.johndcook.com/blog/feed/",
         "status": "ok",
-        "fetchedAt": "2026-07-31T23:01:43.356879+00:00",
+        "fetchedAt": "2026-08-01T02:53:01.142114+00:00",
         "items": [
           {
             "title": "Solving the RK4 design equations",
@@ -1801,7 +1801,7 @@
         "home": "https://matklad.github.io/",
         "url": "https://matklad.github.io/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-31T23:01:43.505639+00:00",
+        "fetchedAt": "2026-08-01T02:53:01.208645+00:00",
         "items": [
           {
             "title": "Memory Safety's Hardest Problem",
@@ -1872,7 +1872,7 @@
         "home": "https://eli.thegreenplace.net/",
         "url": "https://eli.thegreenplace.net/feeds/all.atom.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-31T23:01:43.636497+00:00",
+        "fetchedAt": "2026-08-01T02:53:01.554607+00:00",
         "items": [
           {
             "title": "Notes on the Fourier Transform",
@@ -1913,7 +1913,7 @@
         "home": "https://fabiensanglard.net/",
         "url": "https://fabiensanglard.net/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-31T23:01:43.750293+00:00",
+        "fetchedAt": "2026-08-01T02:53:01.431486+00:00",
         "items": [
           {
             "title": "Jurassic Park computers in excruciating detail",
@@ -1984,7 +1984,7 @@
         "home": "https://blog.miguelgrinberg.com/",
         "url": "https://blog.miguelgrinberg.com/feed",
         "status": "ok",
-        "fetchedAt": "2026-07-31T23:01:43.926332+00:00",
+        "fetchedAt": "2026-08-01T02:53:01.976348+00:00",
         "items": [
           {
             "title": "I Am Not a Reverse Centaur",
@@ -2055,7 +2055,7 @@
         "home": "https://www.troyhunt.com/",
         "url": "https://www.troyhunt.com/rss/",
         "status": "ok",
-        "fetchedAt": "2026-07-31T23:01:43.293506+00:00",
+        "fetchedAt": "2026-08-01T02:53:01.422891+00:00",
         "items": [
           {
             "title": "Weekly Update 514: This Week in Data Breaches",
@@ -2126,7 +2126,7 @@
         "home": "https://anildash.com/",
         "url": "https://anildash.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-31T23:01:43.663038+00:00",
+        "fetchedAt": "2026-08-01T02:53:01.244401+00:00",
         "items": [
           {
             "title": "Defending Privacy, Daily",
@@ -2197,7 +2197,7 @@
         "home": "https://computer.rip/",
         "url": "https://computer.rip/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-31T23:01:43.435268+00:00",
+        "fetchedAt": "2026-08-01T02:53:01.964504+00:00",
         "items": [
           {
             "title": "email encryption",
@@ -2278,7 +2278,7 @@
         "home": "http://paulgraham.com/",
         "url": "http://www.aaronsw.com/2002/feeds/pgessays.rss",
         "status": "ok",
-        "fetchedAt": "2026-07-31T23:01:43.360638+00:00",
+        "fetchedAt": "2026-08-01T02:53:01.514744+00:00",
         "items": [
           {
             "title": "Superlinear Returns",
@@ -2349,7 +2349,7 @@
         "home": "https://steveblank.com/",
         "url": "https://steveblank.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-07-31T23:01:43.285695+00:00",
+        "fetchedAt": "2026-08-01T02:53:01.266671+00:00",
         "items": [
           {
             "title": "Lean Launch Pad 2026 @ Stanford – Lessons Learned Presentations",
@@ -2422,14 +2422,8 @@
         "home": "https://news.ycombinator.com/",
         "url": "https://news.ycombinator.com/rss",
         "status": "ok",
-        "fetchedAt": "2026-07-31T23:01:43.438777+00:00",
+        "fetchedAt": "2026-08-01T02:53:01.225577+00:00",
         "items": [
-          {
-            "title": "Tailscale didn't stop the Hugging Face intrusion",
-            "link": "https://tailscale.com/blog/hugging-face-intrusion",
-            "date": "2026-07-31T19:03:45+00:00",
-            "summary": "Comments"
-          },
           {
             "title": "Elevators",
             "link": "https://john.fun/elevators",
@@ -2437,21 +2431,27 @@
             "summary": "Comments"
           },
           {
-            "title": "qm",
+            "title": "qm – Multiplayer agent harness for work",
             "link": "https://github.com/yc-software/qm",
             "date": "2026-07-31T18:04:58+00:00",
             "summary": "Comments"
           },
           {
-            "title": "Twenty-five years ago it was cryptography, today it's model weights",
-            "link": "https://weeraman.com/because-we-can/",
-            "date": "2026-07-28T13:31:25+00:00",
+            "title": "How to Exist",
+            "link": "https://www.raptitude.com/2026/07/how-to-exist/",
+            "date": "2026-08-01T00:25:00+00:00",
             "summary": "Comments"
           },
           {
-            "title": "Increasing the lifespan of a bulb makes it worse in every other way",
-            "link": "https://maurycyz.com/misc/tungsten/",
-            "date": "2026-07-31T11:34:24+00:00",
+            "title": "The Absurdity of Albert Camus",
+            "link": "https://www.historytoday.com/archive/portrait-author-historian/absurdity-albert-camus",
+            "date": "2026-07-30T23:21:17+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "Software for One",
+            "link": "https://www.ajwaxman.com/writing/software-for-one",
+            "date": "2026-07-29T12:29:20+00:00",
             "summary": "Comments"
           },
           {
@@ -2461,27 +2461,27 @@
             "summary": "Comments"
           },
           {
-            "title": "Golang proposal: container/: generic collection types",
-            "link": "https://github.com/golang/go/issues/80590",
-            "date": "2026-07-31T18:39:47+00:00",
-            "summary": "Comments"
-          },
-          {
             "title": "June in Servo: real world compat, media queries, SharedWorker, and more",
             "link": "https://servo.org/blog/2026/07/31/june-in-servo/",
             "date": "2026-07-31T18:17:52+00:00",
             "summary": "Comments"
           },
           {
-            "title": "Demystifying DRAM Read Disturbance: RowHammer and RowPress Phenomena",
-            "link": "https://arxiv.org/abs/2607.28233",
-            "date": "2026-07-31T20:44:29+00:00",
+            "title": "Big Food vs. the People",
+            "link": "https://www.lighthousereports.com/investigation/big-food-vs-the-people/",
+            "date": "2026-07-31T16:04:32+00:00",
             "summary": "Comments"
           },
           {
-            "title": "Loops (YC W22) Is Hiring a Product Educator",
-            "link": "https://www.ycombinator.com/companies/loops/jobs/zqUnwqB-product-educator-technical-content-creator",
-            "date": "2026-07-31T21:00:40+00:00",
+            "title": "Getting 25 Gbps Thunderbolt Ethernet on My Mac Studio",
+            "link": "https://www.jeffgeerling.com/blog/2026/getting-25g-ethernet-mac-thunderbolt/",
+            "date": "2026-07-31T16:15:31+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "Demystifying DRAM Read Disturbance: RowHammer and RowPress Phenomena",
+            "link": "https://arxiv.org/abs/2607.28233",
+            "date": "2026-07-31T20:44:29+00:00",
             "summary": "Comments"
           }
         ]
@@ -2493,8 +2493,26 @@
         "home": "https://www.techmeme.com/",
         "url": "https://www.techmeme.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-31T23:01:43.565626+00:00",
+        "fetchedAt": "2026-08-01T02:53:01.090496+00:00",
         "items": [
+          {
+            "title": "A US judge largely denies Perplexity and three data scraper firms' bid to dismiss Reddit's lawsuit over claims of copyright law violations under DMCA (Ashley Belanger/Ars Technica)",
+            "link": "https://www.techmeme.com/260731/p44#a260731p44",
+            "date": "2026-07-31T22:45:01-04:00",
+            "summary": "Ashley Belanger / Ars Technica: A US judge largely denies Perplexity and three data scraper firms' bid to dismiss Reddit's lawsuit over claims of copyright law violations under DMCA&nbsp; &mdash;&nbsp; On Friday, a judge largely denied a motion to dismiss from a web scraper, SerpApi, which is accuse"
+          },
+          {
+            "title": "Sensor Tower: India's mobile app market generated a record $345M in consumer spending in Q2, up 35% YoY; ChatGPT ranked No. 1 by downloads and No. 2 by revenue (Jagmeet Singh/TechCrunch)",
+            "link": "https://www.techmeme.com/260731/p43#a260731p43",
+            "date": "2026-07-31T21:25:02-04:00",
+            "summary": "Jagmeet Singh / TechCrunch: Sensor Tower: India's mobile app market generated a record $345M in consumer spending in Q2, up 35% YoY; ChatGPT ranked No. 1 by downloads and No. 2 by revenue&nbsp; &mdash;&nbsp; For years, India was the world's largest app download market but one of its toughest places "
+          },
+          {
+            "title": "Cybersecurity experts fault Anthropic and OpenAI for sloppy safeguards and inadequate human oversight after their models broke into outside organizations (Bloomberg)",
+            "link": "https://www.techmeme.com/260731/p42#a260731p42",
+            "date": "2026-07-31T20:00:13-04:00",
+            "summary": "Bloomberg: Cybersecurity experts fault Anthropic and OpenAI for sloppy safeguards and inadequate human oversight after their models broke into outside organizations&nbsp; &mdash;&nbsp; Cybersecurity experts are faulting Anthropic PBC and OpenAI for sloppy safeguards after their models broke into out"
+          },
           {
             "title": "The FTC clears quantum computing company IonQ's $1.8B acquisition of chipmaker SkyWater after the FTC's two members disagreed at first on imposing conditions (Jody Godoy/Reuters)",
             "link": "https://www.techmeme.com/260731/p41#a260731p41",
@@ -2536,24 +2554,6 @@
             "link": "https://www.techmeme.com/260731/p35#a260731p35",
             "date": "2026-07-31T16:25:01-04:00",
             "summary": "James Rundle / Wall Street Journal: FBI and EPA say water and wastewater utilities in at least seven states reported cyberattacks this week, with some causing flooding and other operational issues&nbsp; &mdash;&nbsp; Water plants in at least seven U.S. states have reported attacks this week, with so"
-          },
-          {
-            "title": "Illinois Governor JB Pritzker signs the Children's Social Media Safety Act, a bill designed to limit children's access to \"addictive\" social media algorithms (Ben Szalinski/Capitol News Illinois)",
-            "link": "https://www.techmeme.com/260731/p34#a260731p34",
-            "date": "2026-07-31T15:55:00-04:00",
-            "summary": "Ben Szalinski / Capitol News Illinois: Illinois Governor JB Pritzker signs the Children's Social Media Safety Act, a bill designed to limit children's access to &ldquo;addictive&rdquo; social media algorithms&nbsp; &mdash;&nbsp; Cracking down on social media algorithms one of governor's top prioriti"
-          },
-          {
-            "title": "An in-depth account of the past two days inside Situational Awareness, as Aschenbrenner assured investors he would focus on changes to his portfolio management (Wall Street Journal)",
-            "link": "https://www.techmeme.com/260731/p33#a260731p33",
-            "date": "2026-07-31T15:00:01-04:00",
-            "summary": "Wall Street Journal: An in-depth account of the past two days inside Situational Awareness, as Aschenbrenner assured investors he would focus on changes to his portfolio management&nbsp; &mdash;&nbsp; Leopold Aschenbrenner was hailed as the &lsquo;Nostradamus of AI.&rsquo; But his Situational Awaren"
-          },
-          {
-            "title": "Google rolls back an image generation tool in Google Earth to add \"stronger guardrails\" after concerns arose it can be used to create deepfake satellite imagery (Geoff Brumfiel/NPR)",
-            "link": "https://www.techmeme.com/260731/p32#a260731p32",
-            "date": "2026-07-31T14:45:01-04:00",
-            "summary": "Geoff Brumfiel / NPR: Google rolls back an image generation tool in Google Earth to add &ldquo;stronger guardrails&rdquo; after concerns arose it can be used to create deepfake satellite imagery&nbsp; &mdash;&nbsp; A day after Google unveiled a new feature that allowed users to create AI-generated s"
           }
         ]
       },
@@ -2564,7 +2564,7 @@
         "home": "https://techcrunch.com/",
         "url": "https://techcrunch.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-07-31T23:01:43.325443+00:00",
+        "fetchedAt": "2026-08-01T02:53:01.099955+00:00",
         "items": [
           {
             "title": "OpenAI reportedly finds evidence that more of its agents ran amok",
@@ -2576,7 +2576,7 @@
             "title": "Rivian spinoff Also to start delivering e-bikes after months of delays",
             "link": "https://techcrunch.com/2026/07/31/rivian-spinoff-also-to-start-delivering-e-bikes-after-months-of-delays/",
             "date": "2026-07-31T22:00:08+00:00",
-            "summary": "Also has big plans beyond the TM-B. The startup mostly refers to itself as a \"vehicle\" company, and has plans to make four-wheel pedal-assist cargo vehicles for Amazon."
+            "summary": "Also has big plans beyond the TM-B. The startup mostly refers to itself as a \"vehicle\" company and has plans to make four-wheel pedal-assist cargo vehicles for Amazon."
           },
           {
             "title": "Silicon Valley loves young founders. Until it doesn’t.",
@@ -2635,7 +2635,7 @@
         "home": "https://techcrunch.com/category/artificial-intelligence/",
         "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
         "status": "ok",
-        "fetchedAt": "2026-07-31T23:01:43.352864+00:00",
+        "fetchedAt": "2026-08-01T02:53:01.143952+00:00",
         "items": [
           {
             "title": "OpenAI reportedly finds evidence that more of its agents ran amok",
@@ -2706,7 +2706,7 @@
         "home": "https://techcrunch.com/tag/funding/",
         "url": "https://techcrunch.com/tag/funding/feed/",
         "status": "ok",
-        "fetchedAt": "2026-07-31T23:01:43.521130+00:00",
+        "fetchedAt": "2026-08-01T02:53:01.301382+00:00",
         "items": [
           {
             "title": "AI chip maker SambaNova raises $1B at $11B valuation, 5 months after last mega round",
@@ -2777,7 +2777,7 @@
         "home": "https://venturebeat.com/",
         "url": "https://venturebeat.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-07-31T23:01:43.548919+00:00",
+        "fetchedAt": "2026-08-01T02:53:01.287314+00:00",
         "items": [
           {
             "title": "Structured AI data pipelines score 10.9 points below free-form code — DataFlow-Harness closes the gap",
@@ -2830,7 +2830,7 @@
         "home": "https://venturebeat.com/category/ai/",
         "url": "https://venturebeat.com/category/ai/feed/",
         "status": "ok",
-        "fetchedAt": "2026-07-31T23:01:43.572066+00:00",
+        "fetchedAt": "2026-08-01T02:53:01.299587+00:00",
         "items": [
           {
             "title": "Google just redesigned the search box for the first time in 25 years — here’s why it matters more than you think.",
@@ -2885,7 +2885,7 @@
         "home": "https://www.ruanyifeng.com/blog/",
         "url": "https://www.ruanyifeng.com/blog/atom.xml",
         "status": "ok",
-        "fetchedAt": "2026-07-31T23:01:43.410428+00:00",
+        "fetchedAt": "2026-08-01T02:53:01.343351+00:00",
         "items": [
           {
             "title": "科技爱好者周刊（第 406 期）：道可，道非，常道",
@@ -2914,7 +2914,7 @@
         "home": "https://www.bestblogs.dev/",
         "url": "https://www.bestblogs.dev/zh/feeds/rss?category=ai&minScore=90",
         "status": "ok",
-        "fetchedAt": "2026-07-31T23:01:43.854830+00:00",
+        "fetchedAt": "2026-08-01T02:53:02.242443+00:00",
         "items": [
           {
             "title": "DeepSeek V4-Flash 正式版 API 上线，原生适配 Codex",
@@ -2982,6 +2982,46 @@
   },
   "allItems": [
     {
+      "title": "How to Exist",
+      "link": "https://www.raptitude.com/2026/07/how-to-exist/",
+      "date": "2026-08-01T00:25:00+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "deepseek-ai/DeepSeek-V4-Flash-0731",
+      "link": "https://simonwillison.net/2026/Jul/31/deepseek-v4-flash-0731/#atom-everything",
+      "date": "2026-07-31T23:59:44+00:00",
+      "summary": "deepseek-ai/DeepSeek-V4-Flash-0731 The latest release in DeepSeek's V4 family, \"with substantially enhanced agentic capabilities\". It's 304 billion parameters - 167GB on Hugging Face - but it appears to punch well above its weight. Artificial Analysis rank it ahead of MiniMax M3 - a 428B model. It's",
+      "feedId": "simonwillison",
+      "feedTitle": "Simon Willison",
+      "category": "AI & LLM",
+      "feedHome": "https://simonwillison.net/"
+    },
+    {
+      "title": "Stateless MCP has recaptured my interest (and inspired mcp-explorer and datasette-mcp)",
+      "link": "https://simonwillison.net/2026/Jul/31/stateless-mcp/#atom-everything",
+      "date": "2026-07-31T23:13:22+00:00",
+      "summary": "Tuesday was Stateless MCP day - the rollout of MCP 2.0, or the 2026-07-28 Model Context Protocol specification to use the more formal but less memorable name. This is the most significant change to the MCP spec since it first launched, and has also served to reignite my personal interest in the prot",
+      "feedId": "simonwillison",
+      "feedTitle": "Simon Willison",
+      "category": "AI & LLM",
+      "feedHome": "https://simonwillison.net/"
+    },
+    {
+      "title": "llm-mcp-client 0.1a0",
+      "link": "https://simonwillison.net/2026/Jul/31/llm-mcp-client/#atom-everything",
+      "date": "2026-07-31T23:03:47+00:00",
+      "summary": "Release: llm-mcp-client 0.1a0 See this blog entry. Tags: llm, model-context-protocol",
+      "feedId": "simonwillison",
+      "feedTitle": "Simon Willison",
+      "category": "AI & LLM",
+      "feedHome": "https://simonwillison.net/"
+    },
+    {
       "title": "The Talk Show: ‘What’s in Louie’s Wallet’",
       "link": "https://daringfireball.net/thetalkshow/2026/07/31/ep-453",
       "date": "2026-07-31T22:50:04+00:00",
@@ -3012,10 +3052,20 @@
       "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
     },
     {
+      "title": "A US judge largely denies Perplexity and three data scraper firms' bid to dismiss Reddit's lawsuit over claims of copyright law violations under DMCA (Ashley Belanger/Ars Technica)",
+      "link": "https://www.techmeme.com/260731/p44#a260731p44",
+      "date": "2026-07-31T22:45:01-04:00",
+      "summary": "Ashley Belanger / Ars Technica: A US judge largely denies Perplexity and three data scraper firms' bid to dismiss Reddit's lawsuit over claims of copyright law violations under DMCA&nbsp; &mdash;&nbsp; On Friday, a judge largely denied a motion to dismiss from a web scraper, SerpApi, which is accuse",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
       "title": "Rivian spinoff Also to start delivering e-bikes after months of delays",
       "link": "https://techcrunch.com/2026/07/31/rivian-spinoff-also-to-start-delivering-e-bikes-after-months-of-delays/",
       "date": "2026-07-31T22:00:08+00:00",
-      "summary": "Also has big plans beyond the TM-B. The startup mostly refers to itself as a \"vehicle\" company, and has plans to make four-wheel pedal-assist cargo vehicles for Amazon.",
+      "summary": "Also has big plans beyond the TM-B. The startup mostly refers to itself as a \"vehicle\" company and has plans to make four-wheel pedal-assist cargo vehicles for Amazon.",
       "feedId": "techcrunch",
       "feedTitle": "TechCrunch",
       "category": "Startup & News",
@@ -3040,6 +3090,16 @@
       "feedTitle": "Simon Willison",
       "category": "AI & LLM",
       "feedHome": "https://simonwillison.net/"
+    },
+    {
+      "title": "Sensor Tower: India's mobile app market generated a record $345M in consumer spending in Q2, up 35% YoY; ChatGPT ranked No. 1 by downloads and No. 2 by revenue (Jagmeet Singh/TechCrunch)",
+      "link": "https://www.techmeme.com/260731/p43#a260731p43",
+      "date": "2026-07-31T21:25:02-04:00",
+      "summary": "Jagmeet Singh / TechCrunch: Sensor Tower: India's mobile app market generated a record $345M in consumer spending in Q2, up 35% YoY; ChatGPT ranked No. 1 by downloads and No. 2 by revenue&nbsp; &mdash;&nbsp; For years, India was the world's largest app download market but one of its toughest places ",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
     },
     {
       "title": "Structured AI data pipelines score 10.9 points below free-form code — DataFlow-Harness closes the gap",
@@ -3082,16 +3142,6 @@
       "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
     },
     {
-      "title": "Loops (YC W22) Is Hiring a Product Educator",
-      "link": "https://www.ycombinator.com/companies/loops/jobs/zqUnwqB-product-educator-technical-content-creator",
-      "date": "2026-07-31T21:00:40+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
       "title": "Demystifying DRAM Read Disturbance: RowHammer and RowPress Phenomena",
       "link": "https://arxiv.org/abs/2607.28233",
       "date": "2026-07-31T20:44:29+00:00",
@@ -3100,6 +3150,16 @@
       "feedTitle": "Hacker News",
       "category": "Startup & News",
       "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "Cybersecurity experts fault Anthropic and OpenAI for sloppy safeguards and inadequate human oversight after their models broke into outside organizations (Bloomberg)",
+      "link": "https://www.techmeme.com/260731/p42#a260731p42",
+      "date": "2026-07-31T20:00:13-04:00",
+      "summary": "Bloomberg: Cybersecurity experts fault Anthropic and OpenAI for sloppy safeguards and inadequate human oversight after their models broke into outside organizations&nbsp; &mdash;&nbsp; Cybersecurity experts are faulting Anthropic PBC and OpenAI for sloppy safeguards after their models broke into out",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
     },
     {
       "title": "Google nixes its Earth AI feature one day after launch, amid criticism it would spread misinformation",
@@ -3142,16 +3202,6 @@
       "feedHome": "https://venturebeat.com/"
     },
     {
-      "title": "Tailscale didn't stop the Hugging Face intrusion",
-      "link": "https://tailscale.com/blog/hugging-face-intrusion",
-      "date": "2026-07-31T19:03:45+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
       "title": "VC-backed startups commit more fraud, and researchers think they know why",
       "link": "https://techcrunch.com/2026/07/31/vc-backed-startups-commit-more-fraud-and-researchers-think-they-know-why/",
       "date": "2026-07-31T19:00:00+00:00",
@@ -3180,16 +3230,6 @@
       "feedTitle": "Techmeme",
       "category": "Startup & News",
       "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "Golang proposal: container/: generic collection types",
-      "link": "https://github.com/golang/go/issues/80590",
-      "date": "2026-07-31T18:39:47+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
     },
     {
       "title": "★ Temu Is a Comically Bad App",
@@ -3232,7 +3272,7 @@
       "feedHome": "https://www.techmeme.com/"
     },
     {
-      "title": "qm",
+      "title": "qm – Multiplayer agent harness for work",
       "link": "https://github.com/yc-software/qm",
       "date": "2026-07-31T18:04:58+00:00",
       "summary": "Comments",
@@ -3322,6 +3362,16 @@
       "feedHome": "https://www.techmeme.com/"
     },
     {
+      "title": "Getting 25 Gbps Thunderbolt Ethernet on My Mac Studio",
+      "link": "https://www.jeffgeerling.com/blog/2026/getting-25g-ethernet-mac-thunderbolt/",
+      "date": "2026-07-31T16:15:31+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
       "title": "Siri AI could come with a paywall for power users",
       "link": "https://techcrunch.com/2026/07/31/siri-ai-could-come-with-a-paywall-for-power-users/",
       "date": "2026-07-31T16:08:18+00:00",
@@ -3342,14 +3392,14 @@
       "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
     },
     {
-      "title": "Illinois Governor JB Pritzker signs the Children's Social Media Safety Act, a bill designed to limit children's access to \"addictive\" social media algorithms (Ben Szalinski/Capitol News Illinois)",
-      "link": "https://www.techmeme.com/260731/p34#a260731p34",
-      "date": "2026-07-31T15:55:00-04:00",
-      "summary": "Ben Szalinski / Capitol News Illinois: Illinois Governor JB Pritzker signs the Children's Social Media Safety Act, a bill designed to limit children's access to &ldquo;addictive&rdquo; social media algorithms&nbsp; &mdash;&nbsp; Cracking down on social media algorithms one of governor's top prioriti",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
+      "title": "Big Food vs. the People",
+      "link": "https://www.lighthousereports.com/investigation/big-food-vs-the-people/",
+      "date": "2026-07-31T16:04:32+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
       "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
+      "feedHome": "https://news.ycombinator.com/"
     },
     {
       "title": "Elevators",
@@ -3370,16 +3420,6 @@
       "feedTitle": "TechCrunch AI",
       "category": "Startup & News",
       "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
-    },
-    {
-      "title": "An in-depth account of the past two days inside Situational Awareness, as Aschenbrenner assured investors he would focus on changes to his portfolio management (Wall Street Journal)",
-      "link": "https://www.techmeme.com/260731/p33#a260731p33",
-      "date": "2026-07-31T15:00:01-04:00",
-      "summary": "Wall Street Journal: An in-depth account of the past two days inside Situational Awareness, as Aschenbrenner assured investors he would focus on changes to his portfolio management&nbsp; &mdash;&nbsp; Leopold Aschenbrenner was hailed as the &lsquo;Nostradamus of AI.&rsquo; But his Situational Awaren",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
     },
     {
       "title": "Advancing responsible AI across Europe",
@@ -3412,16 +3452,6 @@
       "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
     },
     {
-      "title": "Google rolls back an image generation tool in Google Earth to add \"stronger guardrails\" after concerns arose it can be used to create deepfake satellite imagery (Geoff Brumfiel/NPR)",
-      "link": "https://www.techmeme.com/260731/p32#a260731p32",
-      "date": "2026-07-31T14:45:01-04:00",
-      "summary": "Geoff Brumfiel / NPR: Google rolls back an image generation tool in Google Earth to add &ldquo;stronger guardrails&rdquo; after concerns arose it can be used to create deepfake satellite imagery&nbsp; &mdash;&nbsp; A day after Google unveiled a new feature that allowed users to create AI-generated s",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
       "title": "科技爱好者周刊（第 406 期）：道可，道非，常道",
       "link": "http://www.ruanyifeng.com/blog/2026/07/weekly-issue-406.html",
       "date": "2026-07-31T14:43:45+00:00",
@@ -3430,6 +3460,16 @@
       "feedTitle": "阮一峰的网络日志",
       "category": "中文",
       "feedHome": "https://www.ruanyifeng.com/blog/"
+    },
+    {
+      "title": "datasette-agent 0.4a0",
+      "link": "https://simonwillison.net/2026/Jul/31/datasette-agent/#atom-everything",
+      "date": "2026-07-31T14:14:23+00:00",
+      "summary": "Release: datasette-agent 0.4a0 New await context.browser_task() mechanism allowing agent tools to run code directly in the user's browser. #33 This is an exciting new capability: it makes it easy for Datasette Agent plugins to provide tools that execute custom JavaScript in the user's browser. Tags:",
+      "feedId": "simonwillison",
+      "feedTitle": "Simon Willison",
+      "category": "AI & LLM",
+      "feedHome": "https://simonwillison.net/"
     },
     {
       "title": "AI labs want to pump the brakes, but Amazon and SpaceX are still blasting off",
@@ -3450,16 +3490,6 @@
       "feedTitle": "Pluralistic",
       "category": "Tech Blogs",
       "feedHome": "https://pluralistic.net/"
-    },
-    {
-      "title": "Increasing the lifespan of a bulb makes it worse in every other way",
-      "link": "https://maurycyz.com/misc/tungsten/",
-      "date": "2026-07-31T11:34:24+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
     },
     {
       "title": "Progressive Web Components",
@@ -3832,6 +3862,16 @@
       "feedHome": "https://simonwillison.net/"
     },
     {
+      "title": "The Absurdity of Albert Camus",
+      "link": "https://www.historytoday.com/archive/portrait-author-historian/absurdity-albert-camus",
+      "date": "2026-07-30T23:21:17+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
       "title": "llm 0.32rc2",
       "link": "https://simonwillison.net/2026/Jul/30/llm-rc2/#atom-everything",
       "date": "2026-07-30T22:52:06+00:00",
@@ -3962,26 +4002,6 @@
       "feedHome": "https://venturebeat.com/"
     },
     {
-      "title": "llm-chat-completions-server 0.1a0",
-      "link": "https://simonwillison.net/2026/Jul/30/llm-chat-completions-server/#atom-everything",
-      "date": "2026-07-30T15:43:16+00:00",
-      "summary": "Release: llm-chat-completions-server 0.1a0 A key goal of the new content-addressable logs in LLM 0.32rc1 was being able to support OpenAI Chat Completion style requests where each incoming message extends the previous conversation, like this: curl http://localhost:8002/v1/chat/completions \\ -H 'Cont",
-      "feedId": "simonwillison",
-      "feedTitle": "Simon Willison",
-      "category": "AI & LLM",
-      "feedHome": "https://simonwillison.net/"
-    },
-    {
-      "title": "llm 0.32rc1",
-      "link": "https://simonwillison.net/2026/Jul/30/llm-rc1/#atom-everything",
-      "date": "2026-07-30T15:30:20+00:00",
-      "summary": "Release: llm 0.32rc1 This RC for LLM 0.32 finishes the work that started in LLM 0.32a0 - it adds a new schema design that does a much better job of capturing the details of the prompts and responses returned by the latest model families. The most important change is the use of content-addressable ha",
-      "feedId": "simonwillison",
-      "feedTitle": "Simon Willison",
-      "category": "AI & LLM",
-      "feedHome": "https://simonwillison.net/"
-    },
-    {
       "title": "Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration",
       "link": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/",
       "date": "2026-07-30T15:00:59+00:00",
@@ -4092,16 +4112,6 @@
       "feedHome": "https://dynomight.net/"
     },
     {
-      "title": "Quoting D. Richard Hipp",
-      "link": "https://simonwillison.net/2026/Jul/29/d-richard-hipp/#atom-everything",
-      "date": "2026-07-29T21:15:21+00:00",
-      "summary": "Years ago, we didn’t have SQL. There were people whose job was to generate software that would query large data sets. Their job title was COBOL programmer. Then SQL comes along—I’m simplifying this only a little bit—and it gives you this convenient way so people could just specify. With a very simpl",
-      "feedId": "simonwillison",
-      "feedTitle": "Simon Willison",
-      "category": "AI & LLM",
-      "feedHome": "https://simonwillison.net/"
-    },
-    {
       "title": "Apple Says iOS 27 ‘Restricted Mode’ Isn’t for Users Who Miss Payments in New Apple Upgrade Program",
       "link": "https://9to5mac.com/2026/07/28/apple-says-ios-27-restricted-mode-isnt-for-new-upgrade-program-leases/",
       "date": "2026-07-29T20:56:33+00:00",
@@ -4110,16 +4120,6 @@
       "feedTitle": "Daring Fireball",
       "category": "Tech Blogs",
       "feedHome": "https://daringfireball.net/"
-    },
-    {
-      "title": "AI Worming through Word",
-      "link": "https://simonwillison.net/2026/Jul/29/ai-worming-through-word/#atom-everything",
-      "date": "2026-07-29T18:43:03+00:00",
-      "summary": "AI Worming through Word Neat new prompt injection variant by Håkon Måløy, who found a way to upgrade prompt injection attacks against Microsoft Word to full self-replicating worms: An attacker places hidden instructions in a document that is later used as source material in Copilot for Word. Copilot",
-      "feedId": "simonwillison",
-      "feedTitle": "Simon Willison",
-      "category": "AI & LLM",
-      "feedHome": "https://simonwillison.net/"
     },
     {
       "title": "Apple Upgrade — New Program With Klarna for Leasing iPhones, Macs, iPads, and More for Near-Zero Interest",
@@ -4160,6 +4160,16 @@
       "feedTitle": "The Old New Thing",
       "category": "Tech Blogs",
       "feedHome": "https://devblogs.microsoft.com/oldnewthing/"
+    },
+    {
+      "title": "Software for One",
+      "link": "https://www.ajwaxman.com/writing/software-for-one",
+      "date": "2026-07-29T12:29:20+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
     },
     {
       "title": "科技爱好者周刊（第 404 期）：你需要知道的 AI 内存知识",
@@ -4250,16 +4260,6 @@
       "feedTitle": "The Old New Thing",
       "category": "Tech Blogs",
       "feedHome": "https://devblogs.microsoft.com/oldnewthing/"
-    },
-    {
-      "title": "Twenty-five years ago it was cryptography, today it's model weights",
-      "link": "https://weeraman.com/because-we-can/",
-      "date": "2026-07-28T13:31:25+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
     },
     {
       "title": "Gemini Robotics 2 brings whole body intelligence to robots",
