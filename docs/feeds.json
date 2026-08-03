@@ -1,12 +1,13 @@
 {
-  "updatedAt": "2026-08-03T00:06:20.260592+00:00",
+  "updatedAt": "2026-08-03T04:31:08.191450+00:00",
   "totalFeeds": 51,
-  "successCount": 45,
-  "failedCount": 6,
+  "successCount": 44,
+  "failedCount": 7,
   "failed": [
     "gwern",
     "garymarcus",
     "thesequence",
+    "seangoedecke",
     "lcamtuf",
     "rachelbythebay",
     "tedunangst"
@@ -20,7 +21,7 @@
         "home": "https://simonwillison.net/",
         "url": "https://simonwillison.net/atom/everything/",
         "status": "ok",
-        "fetchedAt": "2026-08-03T00:06:09.987406+00:00",
+        "fetchedAt": "2026-08-03T04:30:57.900112+00:00",
         "items": [
           {
             "title": "condense-json 1.0",
@@ -91,7 +92,7 @@
         "home": "https://openai.com/news/",
         "url": "https://openai.com/news/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-03T00:06:09.890005+00:00",
+        "fetchedAt": "2026-08-03T04:30:57.859383+00:00",
         "items": [
           {
             "title": "Ten advances in mathematics and theoretical computer science",
@@ -162,8 +163,69 @@
         "home": "https://arxiv.org/list/cs.AI/recent",
         "url": "https://arxiv.org/rss/cs.AI",
         "status": "ok",
-        "fetchedAt": "2026-08-03T00:06:10.042374+00:00",
-        "items": []
+        "fetchedAt": "2026-08-03T04:30:58.012906+00:00",
+        "items": [
+          {
+            "title": "OpenClaw and Ollama in Agentic AI: Toward Fully Autonomous and Scalable AI Agent Systems",
+            "link": "https://arxiv.org/abs/2607.28629",
+            "date": "2026-08-03T00:00:00-04:00",
+            "summary": "arXiv:2607.28629v1 Announce Type: new Abstract: The rapid transition from reactive large language models (LLMs) to persistent, action-capable systems has exposed critical gaps in the architectural understanding of Agentic AI, particularly in separating inference, orchestration, and execution layers "
+          },
+          {
+            "title": "Can AI Evaluate AI Scientists? A Benchmarking Study of Autonomous Research Generation Systems Using Automated Multi-Model Review",
+            "link": "https://arxiv.org/abs/2607.28631",
+            "date": "2026-08-03T00:00:00-04:00",
+            "summary": "arXiv:2607.28631v1 Announce Type: new Abstract: AI Scientist systems capable of autonomous research have the potential to significantly accelerate scientific discovery. However, evaluating and comparing the quality of AI-generated papers remains an open challenge. We propose and implement a rigorous"
+          },
+          {
+            "title": "LLM Framework for Discovering Major Mathematical Conjectures: AI's Quest for the Next Riemann Hypothesis",
+            "link": "https://arxiv.org/abs/2607.28632",
+            "date": "2026-08-03T00:00:00-04:00",
+            "summary": "arXiv:2607.28632v1 Announce Type: new Abstract: Major mathematical conjectures still depend heavily on expert intuition, so a unified method for the systematic generation and validation of conjectures with substantial mathematical potential remains unavailable. We present a three stage pipeline for "
+          },
+          {
+            "title": "ThinkReset: Learnable Intermediate Interface Construction for Bounded-Context Long-Horizon Reasoning",
+            "link": "https://arxiv.org/abs/2607.28642",
+            "date": "2026-08-03T00:00:00-04:00",
+            "summary": "arXiv:2607.28642v1 Announce Type: new Abstract: Long chain-of-thought reasoning improves performance on complex problems, but it also introduces redundancy accumulation, context overflow, and error anchoring. We argue that under bounded context windows, the core bottleneck is not trajectory compress"
+          },
+          {
+            "title": "TAPR: Enhancing LLM Performance with a Task-Aware Prompt Rewriter",
+            "link": "https://arxiv.org/abs/2607.28657",
+            "date": "2026-08-03T00:00:00-04:00",
+            "summary": "arXiv:2607.28657v1 Announce Type: new Abstract: Large Language Models (LLMs) often require carefully crafted prompts to unlock their full potential, which can be a barrier for non-expert users. This work addresses the challenge by introducing a Task-Aware Prompt Rewriter (TAPR), a model that reformu"
+          },
+          {
+            "title": "Empowering Cross-Domain Sequential Recommendation with Hybrid Tokenization and Serial-Parallel Decoding",
+            "link": "https://arxiv.org/abs/2607.28659",
+            "date": "2026-08-03T00:00:00-04:00",
+            "summary": "arXiv:2607.28659v1 Announce Type: new Abstract: Cross-domain sequential recommendation (CDSR) aims to model users' dynamic interest transitions and sequential patterns across multiple domains. Recently, generative recommendation (GR) has emerged. It first learns semantic identifiers (SIDs) from item"
+          },
+          {
+            "title": "An Ontology-Guided, Deduplication-Aware Extraction Layer for Knowledge Graph Construction from Heterogeneous Documents",
+            "link": "https://arxiv.org/abs/2607.28662",
+            "date": "2026-08-03T00:00:00-04:00",
+            "summary": "arXiv:2607.28662v1 Announce Type: new Abstract: Large language models extract entities and relationships from unstructured documents fluently but inconsistently: type vocabularies fracture across documents, the same person surfaces under several name variants, relationships duplicate, and distinct i"
+          },
+          {
+            "title": "How Hard Does It Think? Analyzing Step-Aware Reasoning Energy in LLM Chain-of-Thought Trajectories",
+            "link": "https://arxiv.org/abs/2607.28674",
+            "date": "2026-08-03T00:00:00-04:00",
+            "summary": "arXiv:2607.28674v1 Announce Type: new Abstract: Understanding how computational effort is allocated across individual chain-of-thought (CoT) reasoning steps remains an open challenge: existing interpretability methods rely on output-level signals or collapse processing depth into a single trajectory"
+          },
+          {
+            "title": "Reasoning in Real World Clinical Care: Why Large Language Models Are Not Yet Safe for Autonomous Clinical Decision Support",
+            "link": "https://arxiv.org/abs/2607.28677",
+            "date": "2026-08-03T00:00:00-04:00",
+            "summary": "arXiv:2607.28677v1 Announce Type: new Abstract: LLM now pass medical licensing examinations and, in curated cases, can rival physicians at diagnostic reasoning. These developments have accelerated the use of LLMs for symptom assessment and clinical decision support in diagnostic and treatment guidan"
+          },
+          {
+            "title": "ViSAGE: Constructing Self-Correcting Memories for Long-Form Video Understanding",
+            "link": "https://arxiv.org/abs/2607.28678",
+            "date": "2026-08-03T00:00:00-04:00",
+            "summary": "arXiv:2607.28678v1 Announce Type: new Abstract: Multimodal agents operating in long-horizon environments must build and continually update multimedia memories to support entity-consistent, temporally grounded reasoning. However, existing agentic memory approaches often discard fine-grained dentity c"
+          }
+        ]
       },
       {
         "id": "arxiv-lg",
@@ -172,8 +234,69 @@
         "home": "https://arxiv.org/list/cs.LG/recent",
         "url": "https://arxiv.org/rss/cs.LG",
         "status": "ok",
-        "fetchedAt": "2026-08-03T00:06:10.032722+00:00",
-        "items": []
+        "fetchedAt": "2026-08-03T04:30:58.036679+00:00",
+        "items": [
+          {
+            "title": "Topology-Aware Data Movement for Disaggregated GPU Inference",
+            "link": "https://arxiv.org/abs/2607.28633",
+            "date": "2026-08-03T00:00:00-04:00",
+            "summary": "arXiv:2607.28633v1 Announce Type: new Abstract: Disaggregated LLM inference creates a datacenter networking problem that no existing system solves correctly. When prefill and decode run on separate GPU pools, the KV cache must be transferred between them. For a 70B model this is 2.6 GB per request, "
+          },
+          {
+            "title": "Sensitivity Analysis of GRU, LSTM and Transformer Encoder in Classification of Automated Driving Systems",
+            "link": "https://arxiv.org/abs/2607.28665",
+            "date": "2026-08-03T00:00:00-04:00",
+            "summary": "arXiv:2607.28665v1 Announce Type: new Abstract: Automated driving systems (ADSs) are becoming ubiquitous. Future Software Defined Vehicles (SDVs) may be able to run multiple ADSs, both native and aftermarket such as Comma.ai's Openpilot. Monitoring systems to independently verify which automated dri"
+          },
+          {
+            "title": "Guarantees on Dynamical System Distinguishability for LLM Token Generation",
+            "link": "https://arxiv.org/abs/2607.28667",
+            "date": "2026-08-03T00:00:00-04:00",
+            "summary": "arXiv:2607.28667v1 Announce Type: new Abstract: Recent work has shown that classifying large language models (LLMs)' responses can be distinguished by modeling token embeddings as trajectories of a black-box dynamical system (DS) and comparing prediction residuals of two DSs. Despite the empirical s"
+          },
+          {
+            "title": "LARA: Lightweight Adapters in the Residual Stream for Composable Adaptation and Alignment",
+            "link": "https://arxiv.org/abs/2607.28669",
+            "date": "2026-08-03T00:00:00-04:00",
+            "summary": "arXiv:2607.28669v1 Announce Type: new Abstract: We present LARA (Lightweight Additive Residual Adaptation), a method for efficient adaptation that operates in the residual stream of a frozen model rather than in its weights. Where LoRA adds an update of low rank to weight matrices, LARA reads the hi"
+          },
+          {
+            "title": "Hierarchical Copula-Gumbel-Top-\\texorpdfstring{$K$}{K} Routing: Two-Sided Dependence Control for Frozen Mixture-of-Experts at Fixed Per-Token Routing Laws",
+            "link": "https://arxiv.org/abs/2607.28670",
+            "date": "2026-08-03T00:00:00-04:00",
+            "summary": "arXiv:2607.28670v1 Announce Type: new Abstract: A stochastic Gumbel-Top-$K$ router defines, for every token of a mixture-of-experts (MoE) model, a \\emph{routing law}: a distribution over ordered expert lists and mixture weights. We ask which \\emph{joint} distributions over the routing choices of dif"
+          },
+          {
+            "title": "LAWFUL: Law-Aligned Witness for Faithful Use of Latents",
+            "link": "https://arxiv.org/abs/2607.28672",
+            "date": "2026-08-03T00:00:00-04:00",
+            "summary": "arXiv:2607.28672v1 Announce Type: new Abstract: When a neural network predicts a physical system accurately, has it learned the governing law as formal, structured knowledge, and if so, does the network's internal computation actually use that representation throughout the law's domain of validity? "
+          },
+          {
+            "title": "MPP-GNN: Subject-Adaptive Community Detection for fMRI-Based Alzheimer's Disease Classification",
+            "link": "https://arxiv.org/abs/2607.28681",
+            "date": "2026-08-03T00:00:00-04:00",
+            "summary": "arXiv:2607.28681v1 Announce Type: new Abstract: Functional magnetic resonance imaging (fMRI) is a widely used technique for studying the brain. Recent methods that utilize graph neural networks (GNNs) for analysis of brain functional connectivity have shown great potential for the classification of "
+          },
+          {
+            "title": "Technological Advances in Detecting and Managing Cognitive Impairment in Older Adults: Trends, Challenges, and Future Directions",
+            "link": "https://arxiv.org/abs/2607.28687",
+            "date": "2026-08-03T00:00:00-04:00",
+            "summary": "arXiv:2607.28687v1 Announce Type: new Abstract: As populations age, cognitive decline from mild cognitive impairment (MCI) to dementia is a defining health challenge of the coming decades, yet routine assessment often misses its earliest signs. This article critically synthesizes recent technologica"
+          },
+          {
+            "title": "SEDR-Seq2P: A Lightweight Dilated Residual Sequence-to-Point Network for Multi-Task Industrial NILM",
+            "link": "https://arxiv.org/abs/2607.28693",
+            "date": "2026-08-03T00:00:00-04:00",
+            "summary": "arXiv:2607.28693v1 Announce Type: new Abstract: Industrial NILM remains challenging because measurement noise and widespread concurrent machine operation reduce the generalization of models tuned on residential data. This work adopts a one-to-many, multi-task disaggregation setting, in which a singl"
+          },
+          {
+            "title": "Predicting Steel Fatigue Life from Micrographs Using Physics-Informed Deep Learning",
+            "link": "https://arxiv.org/abs/2607.28695",
+            "date": "2026-08-03T00:00:00-04:00",
+            "summary": "arXiv:2607.28695v1 Announce Type: new Abstract: Here is the plain text version optimized for arXiv's submission form. Custom macros (like \\CV and \\SI) have been converted to standard text/math so they render correctly on the webpage: Evaluating the fatigue life of structural steels conventionally re"
+          }
+        ]
       },
       {
         "id": "google-research",
@@ -182,7 +305,7 @@
         "home": "https://research.google/blog/",
         "url": "https://research.google/blog/rss/",
         "status": "ok",
-        "fetchedAt": "2026-08-03T00:06:10.054045+00:00",
+        "fetchedAt": "2026-08-03T04:30:58.102945+00:00",
         "items": [
           {
             "title": "Science One Framework: A verifiable autonomous research framework via Chain-of-Evidence",
@@ -253,7 +376,7 @@
         "home": "https://deepmind.google/blog/",
         "url": "https://deepmind.google/blog/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-03T00:06:10.039355+00:00",
+        "fetchedAt": "2026-08-03T04:30:58.047829+00:00",
         "items": [
           {
             "title": "Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration",
@@ -324,7 +447,7 @@
         "home": "https://lilianweng.github.io/",
         "url": "https://lilianweng.github.io/lil-log/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-03T00:06:09.765979+00:00",
+        "fetchedAt": "2026-08-03T04:30:57.794503+00:00",
         "items": [
           {
             "title": "Active Learning",
@@ -415,7 +538,7 @@
         "home": "https://minimaxir.com/",
         "url": "https://minimaxir.com/index.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-03T00:06:09.979566+00:00",
+        "fetchedAt": "2026-08-03T04:30:57.789350+00:00",
         "items": [
           {
             "title": "LLMs break down in funny ways when told the Jacobian Conjecture counterargument",
@@ -498,7 +621,7 @@
         "home": "https://www.jeffgeerling.com/",
         "url": "https://www.jeffgeerling.com/blog.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-03T00:06:09.955027+00:00",
+        "fetchedAt": "2026-08-03T04:30:57.792845+00:00",
         "items": [
           {
             "title": "Getting 25 Gbps Thunderbolt Ethernet on my Mac Studio",
@@ -568,70 +691,9 @@
         "title": "Sean Goedecke",
         "home": "https://www.seangoedecke.com/",
         "url": "https://www.seangoedecke.com/rss.xml",
-        "status": "ok",
-        "fetchedAt": "2026-08-03T00:06:10.025899+00:00",
-        "items": [
-          {
-            "title": "Giving and taking credit in big tech companies",
-            "link": "https://seangoedecke.com/giving-and-taking-credit/",
-            "date": "2026-08-02T00:00:00+00:00",
-            "summary": ""
-          },
-          {
-            "title": "AI models need moral support to make discoveries",
-            "link": "https://seangoedecke.com/ai-models-need-moral-support/",
-            "date": "2026-07-31T00:00:00+00:00",
-            "summary": ""
-          },
-          {
-            "title": "You don't have to be smart if you can think clearly",
-            "link": "https://seangoedecke.com/you-dont-have-to-be-smart-if-you-think-clearly/",
-            "date": "2026-07-29T00:00:00+00:00",
-            "summary": ""
-          },
-          {
-            "title": "LLMs reward expertise",
-            "link": "https://seangoedecke.com/llms-reward-expertise/",
-            "date": "2026-07-24T00:00:00+00:00",
-            "summary": ""
-          },
-          {
-            "title": "Powerful AIs might escape containment by releasing themselves as open-weight models",
-            "link": "https://seangoedecke.com/powerful-ais-might-escape-by-releasing-open-weight-models/",
-            "date": "2026-07-23T00:00:00+00:00",
-            "summary": ""
-          },
-          {
-            "title": "Impro is a handbook for running a cult",
-            "link": "https://seangoedecke.com/impro/",
-            "date": "2026-07-19T00:00:00+00:00",
-            "summary": ""
-          },
-          {
-            "title": "Overtraining as the path to human-like AI",
-            "link": "https://seangoedecke.com/overtraining-as-the-path-to-human-like-ai/",
-            "date": "2026-07-18T00:00:00+00:00",
-            "summary": ""
-          },
-          {
-            "title": "What does \"playing politics\" mean for software engineers?",
-            "link": "https://seangoedecke.com/playing-politics/",
-            "date": "2026-07-14T00:00:00+00:00",
-            "summary": ""
-          },
-          {
-            "title": "In defense of not understanding your codebase",
-            "link": "https://seangoedecke.com/in-defense-of-not-understanding-your-codebase/",
-            "date": "2026-07-11T00:00:00+00:00",
-            "summary": ""
-          },
-          {
-            "title": "Blog about things you don't understand yet",
-            "link": "https://seangoedecke.com/blog-about-things-you-dont-understand-yet/",
-            "date": "2026-07-07T00:00:00+00:00",
-            "summary": ""
-          }
-        ]
+        "status": "error",
+        "error": "Response payload is not completed: <ContentLengthError: 400, message='Not enough data to satisfy content length header (received 82745 of 126949 bytes).'>. ConnectionResetError(104, 'Connection reset by peer')",
+        "items": []
       },
       {
         "id": "krebsonsecurity",
@@ -640,7 +702,7 @@
         "home": "https://krebsonsecurity.com/",
         "url": "https://krebsonsecurity.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-08-03T00:06:14.981232+00:00",
+        "fetchedAt": "2026-08-03T04:30:57.781270+00:00",
         "items": [
           {
             "title": "Read This Before You Buy That TV Streaming Stick",
@@ -711,7 +773,7 @@
         "home": "https://daringfireball.net/",
         "url": "https://daringfireball.net/feeds/main",
         "status": "ok",
-        "fetchedAt": "2026-08-03T00:06:10.007708+00:00",
+        "fetchedAt": "2026-08-03T04:30:57.930215+00:00",
         "items": [
           {
             "title": "Agent Fone",
@@ -782,7 +844,7 @@
         "home": "https://ericmigi.com/",
         "url": "https://ericmigi.com/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-03T00:06:09.999693+00:00",
+        "fetchedAt": "2026-08-03T04:30:57.935605+00:00",
         "items": [
           {
             "title": "Index 01 Is In Mass Production!",
@@ -853,7 +915,7 @@
         "home": "http://antirez.com/",
         "url": "http://antirez.com/rss",
         "status": "ok",
-        "fetchedAt": "2026-08-03T00:06:11.754110+00:00",
+        "fetchedAt": "2026-08-03T04:30:59.867230+00:00",
         "items": [
           {
             "title": "The real AI risk is inside the labs",
@@ -924,7 +986,7 @@
         "home": "https://idiallo.com/",
         "url": "https://idiallo.com/feed.rss",
         "status": "ok",
-        "fetchedAt": "2026-08-03T00:06:10.078738+00:00",
+        "fetchedAt": "2026-08-03T04:30:58.246042+00:00",
         "items": [
           {
             "title": "BI Slop",
@@ -995,7 +1057,7 @@
         "home": "https://maurycyz.com/",
         "url": "https://maurycyz.com/index.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-03T00:06:10.631925+00:00",
+        "fetchedAt": "2026-08-03T04:30:58.723428+00:00",
         "items": []
       },
       {
@@ -1005,7 +1067,7 @@
         "home": "https://pluralistic.net/",
         "url": "https://pluralistic.net/feed/",
         "status": "ok",
-        "fetchedAt": "2026-08-03T00:06:13.148245+00:00",
+        "fetchedAt": "2026-08-03T04:31:01.264281+00:00",
         "items": [
           {
             "title": "Pluralistic: Why businesses lie about AI (01 Aug 2026)",
@@ -1076,7 +1138,7 @@
         "home": "https://shkspr.mobi/blog/",
         "url": "https://shkspr.mobi/blog/feed/",
         "status": "ok",
-        "fetchedAt": "2026-08-03T00:06:11.177125+00:00",
+        "fetchedAt": "2026-08-03T04:30:59.318327+00:00",
         "items": [
           {
             "title": "Gadget Review: HIKMICRO D02 Thermal Camera ★★★★★",
@@ -1157,7 +1219,7 @@
         "home": "https://mitchellh.com/",
         "url": "https://mitchellh.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-03T00:06:10.084130+00:00",
+        "fetchedAt": "2026-08-03T04:30:58.192626+00:00",
         "items": [
           {
             "title": "Superlogical",
@@ -1228,7 +1290,7 @@
         "home": "https://dynomight.net/",
         "url": "https://dynomight.net/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-03T00:06:10.235743+00:00",
+        "fetchedAt": "2026-08-03T04:30:58.236667+00:00",
         "items": [
           {
             "title": "So you want to use plants to reduce indoor CO₂",
@@ -1299,7 +1361,7 @@
         "home": "https://xeiaso.net/",
         "url": "https://xeiaso.net/blog.rss",
         "status": "ok",
-        "fetchedAt": "2026-08-03T00:06:10.760150+00:00",
+        "fetchedAt": "2026-08-03T04:30:58.824168+00:00",
         "items": [
           {
             "title": "You should probably check on your smart appliances",
@@ -1370,7 +1432,7 @@
         "home": "https://devblogs.microsoft.com/oldnewthing/",
         "url": "https://devblogs.microsoft.com/oldnewthing/feed",
         "status": "ok",
-        "fetchedAt": "2026-08-03T00:06:10.349611+00:00",
+        "fetchedAt": "2026-08-03T04:30:58.066169+00:00",
         "items": [
           {
             "title": "Making an agile version of a Windows Runtime delegate in C++/WinRT, part 10",
@@ -1441,7 +1503,7 @@
         "home": "https://www.righto.com/",
         "url": "https://www.righto.com/feeds/posts/default",
         "status": "ok",
-        "fetchedAt": "2026-08-03T00:06:10.307117+00:00",
+        "fetchedAt": "2026-08-03T04:30:58.303829+00:00",
         "items": []
       },
       {
@@ -1451,7 +1513,7 @@
         "home": "https://lucumr.pocoo.org/",
         "url": "https://lucumr.pocoo.org/feed.atom",
         "status": "ok",
-        "fetchedAt": "2026-08-03T00:06:10.268205+00:00",
+        "fetchedAt": "2026-08-03T04:30:58.141836+00:00",
         "items": [
           {
             "title": "Codeberg Divides",
@@ -1522,7 +1584,7 @@
         "home": "https://skyfall.dev/",
         "url": "https://skyfall.dev/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-03T00:06:10.532149+00:00",
+        "fetchedAt": "2026-08-03T04:30:58.592739+00:00",
         "items": [
           {
             "title": "Good riddance, 4o",
@@ -1597,7 +1659,7 @@
         "home": "https://overreacted.io/",
         "url": "https://overreacted.io/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-03T00:06:10.239982+00:00",
+        "fetchedAt": "2026-08-03T04:30:58.556532+00:00",
         "items": [
           {
             "title": "There Are No Instances in atproto",
@@ -1668,7 +1730,7 @@
         "home": "https://www.johndcook.com/",
         "url": "https://www.johndcook.com/blog/feed/",
         "status": "ok",
-        "fetchedAt": "2026-08-03T00:06:10.423590+00:00",
+        "fetchedAt": "2026-08-03T04:30:58.249820+00:00",
         "items": [
           {
             "title": "Holonomic functions",
@@ -1680,7 +1742,7 @@
             "title": "Estimating a cumulative sum",
             "link": "https://www.johndcook.com/blog/2026/08/02/estimating-a-cumulative-sum/",
             "date": "2026-08-02T17:57:31+00:00",
-            "summary": "In this post I mentioned two series which I denoted t(n) and c(n). The former is the number of unlabeled rooted trees with n nodes. The latter is the cumulative sum of the former, i.e. The sequence c(n) is also the number of constrains on an n-step Runge-Kutta method; that&#8217;s how I became inter"
+            "summary": "In this post I mentioned two series which I denoted t(n) and c(n). The former is the number of unlabeled rooted trees with n nodes. The latter is the cumulative sum of the former, i.e. The sequence c(n) is also the number of constraints on an n-step Runge-Kutta method; that&#8217;s how I became inte"
           },
           {
             "title": "Why polynomial coefficients?",
@@ -1739,7 +1801,7 @@
         "home": "https://matklad.github.io/",
         "url": "https://matklad.github.io/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-03T00:06:10.285900+00:00",
+        "fetchedAt": "2026-08-03T04:30:57.953827+00:00",
         "items": [
           {
             "title": "Memory Safety's Hardest Problem",
@@ -1810,7 +1872,7 @@
         "home": "https://eli.thegreenplace.net/",
         "url": "https://eli.thegreenplace.net/feeds/all.atom.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-03T00:06:10.119274+00:00",
+        "fetchedAt": "2026-08-03T04:30:58.306673+00:00",
         "items": [
           {
             "title": "Notes on the Fourier Transform",
@@ -1851,7 +1913,7 @@
         "home": "https://fabiensanglard.net/",
         "url": "https://fabiensanglard.net/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-03T00:06:10.416999+00:00",
+        "fetchedAt": "2026-08-03T04:30:58.363449+00:00",
         "items": [
           {
             "title": "Jurassic Park computers in excruciating detail",
@@ -1922,7 +1984,7 @@
         "home": "https://blog.miguelgrinberg.com/",
         "url": "https://blog.miguelgrinberg.com/feed",
         "status": "ok",
-        "fetchedAt": "2026-08-03T00:06:11.121137+00:00",
+        "fetchedAt": "2026-08-03T04:30:59.199144+00:00",
         "items": [
           {
             "title": "I Am Not a Reverse Centaur",
@@ -1993,8 +2055,14 @@
         "home": "https://www.troyhunt.com/",
         "url": "https://www.troyhunt.com/rss/",
         "status": "ok",
-        "fetchedAt": "2026-08-03T00:06:10.487053+00:00",
+        "fetchedAt": "2026-08-03T04:30:58.143963+00:00",
         "items": [
+          {
+            "title": "Weekly Update 515",
+            "link": "https://www.troyhunt.com/weekly-update-515/",
+            "date": "2026-08-03T00:07:14+00:00",
+            "summary": "Apparently, Aussies are so obsessed with coffee that it&apos;s referred to as the coffee capital of the world down here (some bits, at least). &quot;But what about Italy?&quot; people ask. Having spent a lot of time in a lot of Italy, no, it&apos;s just"
+          },
           {
             "title": "Weekly Update 514: This Week in Data Breaches",
             "link": "https://www.troyhunt.com/weekly-update-514/",
@@ -2048,12 +2116,6 @@
             "link": "https://www.troyhunt.com/weekly-update-507/",
             "date": "2026-06-10T05:31:56+00:00",
             "summary": "1,000 breaches is one hell of a milestone. It&apos;s not just the process of getting data, verifying it, loading it, sending notifications etc, it&apos;s all the other stuff that goes into keeping the whole thing afloat. Legal docs. Trademarks. Accounting. Agreements. The most mind-numbingly"
-          },
-          {
-            "title": "Welcoming the Philippine Government to Have I Been Pwned",
-            "link": "https://www.troyhunt.com/welcoming-the-philippine-government-to-have-i-been-pwned/",
-            "date": "2026-06-03T03:40:17+00:00",
-            "summary": "Today, we welcome the 46th government onboarded to Have I Been Pwned&#x2019;s free gov service: the Philippines.The Philippines&#x2019; National CERT, working with the Department of Information and Communications Technology, now has access to monitor official government domains against the data in H"
           }
         ]
       },
@@ -2064,7 +2126,7 @@
         "home": "https://anildash.com/",
         "url": "https://anildash.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-03T00:06:10.798487+00:00",
+        "fetchedAt": "2026-08-03T04:30:58.314547+00:00",
         "items": [
           {
             "title": "Defending Privacy, Daily",
@@ -2135,7 +2197,7 @@
         "home": "https://computer.rip/",
         "url": "https://computer.rip/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-03T00:06:10.757877+00:00",
+        "fetchedAt": "2026-08-03T04:30:58.356691+00:00",
         "items": [
           {
             "title": "telephones caught in between",
@@ -2216,7 +2278,7 @@
         "home": "http://paulgraham.com/",
         "url": "http://www.aaronsw.com/2002/feeds/pgessays.rss",
         "status": "ok",
-        "fetchedAt": "2026-08-03T00:06:10.280052+00:00",
+        "fetchedAt": "2026-08-03T04:30:58.449935+00:00",
         "items": [
           {
             "title": "Superlinear Returns",
@@ -2287,7 +2349,7 @@
         "home": "https://steveblank.com/",
         "url": "https://steveblank.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-08-03T00:06:10.531061+00:00",
+        "fetchedAt": "2026-08-03T04:30:58.173476+00:00",
         "items": [
           {
             "title": "Lean Launch Pad 2026 @ Stanford – Lessons Learned Presentations",
@@ -2360,12 +2422,24 @@
         "home": "https://news.ycombinator.com/",
         "url": "https://news.ycombinator.com/rss",
         "status": "ok",
-        "fetchedAt": "2026-08-03T00:06:10.309479+00:00",
+        "fetchedAt": "2026-08-03T04:30:57.938981+00:00",
         "items": [
           {
-            "title": "AI poster wins Ohio State Fair contest",
-            "link": "https://www.ohiostatefair.com/p/get-involved/arts/poster-contest",
-            "date": "2026-08-02T22:43:47+00:00",
+            "title": "Qwen3.8-Max: A New Bar for Coding and Cowork",
+            "link": "https://qwen.ai/blog?id=qwen3.8",
+            "date": "2026-08-03T02:16:09+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "Show HN: Isopolis – Isometric pixel map of SF",
+            "link": "https://sf.isopolis.city/",
+            "date": "2026-08-03T00:46:38+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "CP/M-386 – CP/M for 386 protected mode, derived from CP/M‑68K",
+            "link": "https://github.com/johnsonjh/cpm386",
+            "date": "2026-08-03T00:38:10+00:00",
             "summary": "Comments"
           },
           {
@@ -2375,9 +2449,21 @@
             "summary": "Comments"
           },
           {
-            "title": "Show HN: Shitty – fast terminal. Memory-unsafe and faster than yours",
-            "link": "https://github.com/pg83/shitty",
-            "date": "2026-08-02T23:05:41+00:00",
+            "title": "Show HN: ssh ssh.place",
+            "link": "https://ssh.place",
+            "date": "2026-08-03T00:23:21+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "Show HN: A Handwritten Blogging Platform",
+            "link": "https://handwritten.blog/",
+            "date": "2026-07-31T06:37:42+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "Why Book Corners won't sync contributions back to OpenStreetMap",
+            "link": "https://www.andreagrandi.it/posts/why-book-corners-wont-sync-contributions-back-to-openstreetmap/",
+            "date": "2026-08-03T00:12:16+00:00",
             "summary": "Comments"
           },
           {
@@ -2387,39 +2473,15 @@
             "summary": "Comments"
           },
           {
-            "title": "Note-Taking and Personal Knowledge Management",
-            "link": "https://unattributed.cc/note-taking-and-personal-knowledge-management",
-            "date": "2026-07-28T14:21:10+00:00",
-            "summary": "Comments"
-          },
-          {
             "title": "Show HN: Kakehashi – Experimental userspace to run macOS binaries on Linux ARM",
             "link": "https://github.com/wie-project/kakehashi",
             "date": "2026-08-02T16:26:40+00:00",
             "summary": "Comments"
           },
           {
-            "title": "The Computational Theory of Mind (2015)",
-            "link": "https://plato.stanford.edu/entries/computational-mind/",
-            "date": "2026-08-02T22:35:35+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "Read the Novels and Forget Everything Else",
-            "link": "https://hedgehogreview.com/web-features/thr/posts/read-the-novels-and-forget-everything-else",
-            "date": "2026-07-31T23:31:28+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "Developers are attached to tools because tools encode trust",
-            "link": "https://stackoverflow.blog/2026/07/29/developers-are-attached-to-tools-because-tools-encode-trust/",
-            "date": "2026-07-29T14:25:54+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "Sharing an X11 Server Across Hosts with FamilyWild",
-            "link": "https://dobrowolski.dev/article/sharing-an-x-server-across-hosts-with-familywild/",
-            "date": "2026-08-02T20:26:47+00:00",
+            "title": "Note-Taking and Personal Knowledge Management",
+            "link": "https://unattributed.cc/note-taking-and-personal-knowledge-management",
+            "date": "2026-07-28T14:21:10+00:00",
             "summary": "Comments"
           }
         ]
@@ -2431,8 +2493,44 @@
         "home": "https://www.techmeme.com/",
         "url": "https://www.techmeme.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-03T00:06:10.434179+00:00",
+        "fetchedAt": "2026-08-03T04:30:58.042665+00:00",
         "items": [
+          {
+            "title": "A look at Central Asia's emerging data center race, led by Uzbekistan's 6MW TAS-1 due by year-end and Kazakhstan's 125MW facility with 100K Nvidia chips by 2027 (Yevgeniya Mikhailidi/Nikkei Asia)",
+            "link": "https://www.techmeme.com/260803/p1#a260803p1",
+            "date": "2026-08-03T00:10:01-04:00",
+            "summary": "Yevgeniya Mikhailidi / Nikkei Asia: A look at Central Asia's emerging data center race, led by Uzbekistan's 6MW TAS-1 due by year-end and Kazakhstan's 125MW facility with 100K Nvidia chips by 2027&nbsp; &mdash;&nbsp; TASHKENT/ISTANBUL &mdash; The race to build data centers in Central Asia is intensi"
+          },
+          {
+            "title": "Alibaba says its 2.4T-parameter Qwen3.8-Max tops Kimi K3 on some benchmarks, and says it plans to release the weights of Qwen3.8-Max and Qwen3.8-27B next week (Luz Ding/Bloomberg)",
+            "link": "https://www.techmeme.com/260802/p16#a260802p16",
+            "date": "2026-08-02T23:40:01-04:00",
+            "summary": "Luz Ding / Bloomberg: Alibaba says its 2.4T-parameter Qwen3.8-Max tops Kimi K3 on some benchmarks, and says it plans to release the weights of Qwen3.8-Max and Qwen3.8-27B next week&nbsp; &mdash;&nbsp; Alibaba Group Holding Ltd. released its latest flagship AI model, with performance claims putting i"
+          },
+          {
+            "title": "Two independent teams used GPT-5.6 Sol Ultra on the same quantum cryptography problem, filing papers 3 hours apart, raising questions about scientific credit (Peter Hall/Scientific American)",
+            "link": "https://www.techmeme.com/260802/p15#a260802p15",
+            "date": "2026-08-02T22:50:01-04:00",
+            "summary": "Peter Hall / Scientific American: Two independent teams used GPT-5.6 Sol Ultra on the same quantum cryptography problem, filing papers 3 hours apart, raising questions about scientific credit&nbsp; &mdash;&nbsp; An M.I.T. Ph.D. student and two University of California system cryptographers used GPT-"
+          },
+          {
+            "title": "A look at the US open-weight AI model ecosystem, as VCs question the revenue potential of open-weight startups like Arcee, Reflection AI, and Poolside (Wall Street Journal)",
+            "link": "https://www.techmeme.com/260802/p14#a260802p14",
+            "date": "2026-08-02T21:45:40-04:00",
+            "summary": "Wall Street Journal: A look at the US open-weight AI model ecosystem, as VCs question the revenue potential of open-weight startups like Arcee, Reflection AI, and Poolside&nbsp; &mdash;&nbsp; Silicon Valley startups are setting up open models, with some operating on shoestring budgets because of lim"
+          },
+          {
+            "title": "Robinhood's prediction markets revenue surged 10x+ YoY to $156M in Q2, topping stock and crypto for the first time as speculators shift to real-world event bets (Yueqi Yang/The Information)",
+            "link": "https://www.techmeme.com/260802/p13#a260802p13",
+            "date": "2026-08-02T20:55:00-04:00",
+            "summary": "Yueqi Yang / The Information: Robinhood's prediction markets revenue surged 10x+ YoY to $156M in Q2, topping stock and crypto for the first time as speculators shift to real-world event bets&nbsp; &mdash;&nbsp; Brokerage app Robinhood has quickly become a force in prediction markets, challenging the"
+          },
+          {
+            "title": "Four US states rolled back or paused data center tax incentives, and nine others are weighing repeal measures, potentially adding 7% or more to equipment costs (Ann Davis Vaughan/The Information)",
+            "link": "https://www.techmeme.com/260802/p12#a260802p12",
+            "date": "2026-08-02T20:10:01-04:00",
+            "summary": "Ann Davis Vaughan / The Information: Four US states rolled back or paused data center tax incentives, and nine others are weighing repeal measures, potentially adding 7% or more to equipment costs&nbsp; &mdash;&nbsp; Governors and legislatures in U.S. states that previously welcomed data centers are"
+          },
           {
             "title": "Sources detail the troubled development of Tencent's ambitious, GTA-like game Last Sentinel, which has burned hundreds of millions of dollars over six years (Jason Schreier/Bloomberg)",
             "link": "https://www.techmeme.com/260802/p11#a260802p11",
@@ -2456,42 +2554,6 @@
             "link": "https://www.techmeme.com/260802/p8#a260802p8",
             "date": "2026-08-02T13:45:14-04:00",
             "summary": "Lily Hay Newman / Wired: Experts say US law is unprepared for rogue AI agents and models, as recent OpenAI and Anthropic incidents raise questions over legal liability and repercussions&nbsp; &mdash;&nbsp; Both major AI labs' models broke containment, escaped onto the internet, and hacked other comp"
-          },
-          {
-            "title": "Thoughts on Apple Upgrade; sources: MacBook Air is now facing shortages too; Apple wants to turn its future glasses and headsets into health and fitness devices (Mark Gurman/Bloomberg)",
-            "link": "https://www.techmeme.com/260802/p7#a260802p7",
-            "date": "2026-08-02T11:15:09-04:00",
-            "summary": "Mark Gurman / Bloomberg: Thoughts on Apple Upgrade; sources: MacBook Air is now facing shortages too; Apple wants to turn its future glasses and headsets into health and fitness devices&nbsp; &mdash;&nbsp; Also: MacBook Air runs into major shortages.&nbsp; &mdash;&nbsp; Apple has finally delivered a"
-          },
-          {
-            "title": "As Taiwanese server makers expand in Mexico, the country has become the second-largest supplier of servers to the US, behind Taiwan, with $46.9B in YTD sales (Financial Times)",
-            "link": "https://www.techmeme.com/260802/p6#a260802p6",
-            "date": "2026-08-02T07:00:32-04:00",
-            "summary": "Financial Times: As Taiwanese server makers expand in Mexico, the country has become the second-largest supplier of servers to the US, behind Taiwan, with $46.9B in YTD sales&nbsp; &mdash;&nbsp; Factories churning out servers for data centres are pushing exports to record levels"
-          },
-          {
-            "title": "A profile of Jacob Tsimerman, who won the Fields Medal last week and is taking a leave from the University of Toronto to join OpenAI and work on AI safety (Ben Cohen/Wall Street Journal)",
-            "link": "https://www.techmeme.com/260802/p5#a260802p5",
-            "date": "2026-08-02T02:00:36-04:00",
-            "summary": "Ben Cohen / Wall Street Journal: A profile of Jacob Tsimerman, who won the Fields Medal last week and is taking a leave from the University of Toronto to join OpenAI and work on AI safety&nbsp; &mdash;&nbsp; Jacob Tsimerman won the biggest prize in math.&nbsp; Now he's working on the most important "
-          },
-          {
-            "title": "Chinese VC firms are rushing to raise new funds after three years of record-low fundraising, amid renewed enthusiasm for China's tech, AI, and robotics sectors (Eleanor Olcott/Financial Times)",
-            "link": "https://www.techmeme.com/260802/p4#a260802p4",
-            "date": "2026-08-02T01:40:00-04:00",
-            "summary": "Eleanor Olcott / Financial Times: Chinese VC firms are rushing to raise new funds after three years of record-low fundraising, amid renewed enthusiasm for China's tech, AI, and robotics sectors&nbsp; &mdash;&nbsp; Managers capitalise on investors' desire to &lsquo;hedge&rsquo; against US market bets"
-          },
-          {
-            "title": "LemonEdge, a fund accounting and operations software provider for the private markets sector, raised a $21M Series A led by Blackstone Innovations Investments (FinTech Global)",
-            "link": "https://www.techmeme.com/260802/p3#a260802p3",
-            "date": "2026-08-02T01:30:01-04:00",
-            "summary": "FinTech Global: LemonEdge, a fund accounting and operations software provider for the private markets sector, raised a $21M Series A led by Blackstone Innovations Investments&nbsp; &mdash;&nbsp; LemonEdge, a fund accounting platform designed specifically for the private markets sector, has secured $"
-          },
-          {
-            "title": "Malaysia shuts down Network School, Balaji Srinivasan's techno-utopian project, over licensing issues; Srinivasan says he is opening a new campus in Kazakhstan (Wall Street Journal)",
-            "link": "https://www.techmeme.com/260802/p2#a260802p2",
-            "date": "2026-08-02T01:10:01-04:00",
-            "summary": "Wall Street Journal: Malaysia shuts down Network School, Balaji Srinivasan's techno-utopian project, over licensing issues; Srinivasan says he is opening a new campus in Kazakhstan&nbsp; &mdash;&nbsp; Balaji Srinivasan left Silicon Valley and created an incubator for new countries in an Asian ghost "
           }
         ]
       },
@@ -2502,7 +2564,7 @@
         "home": "https://techcrunch.com/",
         "url": "https://techcrunch.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-08-03T00:06:10.015657+00:00",
+        "fetchedAt": "2026-08-03T04:30:58.365444+00:00",
         "items": [
           {
             "title": "The global memory shortage hits the MacBook Air",
@@ -2573,7 +2635,7 @@
         "home": "https://techcrunch.com/category/artificial-intelligence/",
         "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
         "status": "ok",
-        "fetchedAt": "2026-08-03T00:06:10.018332+00:00",
+        "fetchedAt": "2026-08-03T04:30:58.368213+00:00",
         "items": [
           {
             "title": "Sam Altman and AI’s decel debate",
@@ -2644,7 +2706,7 @@
         "home": "https://techcrunch.com/tag/funding/",
         "url": "https://techcrunch.com/tag/funding/feed/",
         "status": "ok",
-        "fetchedAt": "2026-08-03T00:06:10.152703+00:00",
+        "fetchedAt": "2026-08-03T04:30:58.366742+00:00",
         "items": [
           {
             "title": "AI chip maker SambaNova raises $1B at $11B valuation, 5 months after last mega round",
@@ -2715,7 +2777,7 @@
         "home": "https://venturebeat.com/",
         "url": "https://venturebeat.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-08-03T00:06:10.133337+00:00",
+        "fetchedAt": "2026-08-03T04:30:58.283321+00:00",
         "items": [
           {
             "title": "Stop graphing everything: When GraphRAG actually beats vector RAG",
@@ -2768,7 +2830,7 @@
         "home": "https://venturebeat.com/category/ai/",
         "url": "https://venturebeat.com/category/ai/feed/",
         "status": "ok",
-        "fetchedAt": "2026-08-03T00:06:10.138860+00:00",
+        "fetchedAt": "2026-08-03T04:30:58.405971+00:00",
         "items": [
           {
             "title": "Google just redesigned the search box for the first time in 25 years — here’s why it matters more than you think.",
@@ -2823,12 +2885,12 @@
         "home": "https://www.ruanyifeng.com/blog/",
         "url": "https://www.ruanyifeng.com/blog/atom.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-03T00:06:10.488417+00:00",
+        "fetchedAt": "2026-08-03T04:30:58.050357+00:00",
         "items": [
           {
             "title": "科技爱好者周刊（第 406 期）：道可，道非，常道",
             "link": "http://www.ruanyifeng.com/blog/2026/07/weekly-issue-406.html",
-            "date": "2026-08-02T14:42:54+00:00",
+            "date": "2026-08-03T01:28:49+00:00",
             "summary": "这里记录每周值得分享的科技内容，周五发布。..."
           },
           {
@@ -2852,7 +2914,7 @@
         "home": "https://www.bestblogs.dev/",
         "url": "https://www.bestblogs.dev/zh/feeds/rss?category=ai&minScore=90",
         "status": "ok",
-        "fetchedAt": "2026-08-03T00:06:10.910929+00:00",
+        "fetchedAt": "2026-08-03T04:30:58.993754+00:00",
         "items": [
           {
             "title": "「热爱一个行业 15 年的理由是什么？」｜对谈汪天凡：我要投真正的快乐、投最纯的愿景、投人性的光辉【公路播客】",
@@ -2920,9 +2982,9 @@
   },
   "allItems": [
     {
-      "title": "Show HN: Shitty – fast terminal. Memory-unsafe and faster than yours",
-      "link": "https://github.com/pg83/shitty",
-      "date": "2026-08-02T23:05:41+00:00",
+      "title": "Qwen3.8-Max: A New Bar for Coding and Cowork",
+      "link": "https://qwen.ai/blog?id=qwen3.8",
+      "date": "2026-08-03T02:16:09+00:00",
       "summary": "Comments",
       "feedId": "hackernews",
       "feedTitle": "Hacker News",
@@ -2930,9 +2992,19 @@
       "feedHome": "https://news.ycombinator.com/"
     },
     {
-      "title": "AI poster wins Ohio State Fair contest",
-      "link": "https://www.ohiostatefair.com/p/get-involved/arts/poster-contest",
-      "date": "2026-08-02T22:43:47+00:00",
+      "title": "科技爱好者周刊（第 406 期）：道可，道非，常道",
+      "link": "http://www.ruanyifeng.com/blog/2026/07/weekly-issue-406.html",
+      "date": "2026-08-03T01:28:49+00:00",
+      "summary": "这里记录每周值得分享的科技内容，周五发布。...",
+      "feedId": "ruanyifeng",
+      "feedTitle": "阮一峰的网络日志",
+      "category": "中文",
+      "feedHome": "https://www.ruanyifeng.com/blog/"
+    },
+    {
+      "title": "Show HN: Isopolis – Isometric pixel map of SF",
+      "link": "https://sf.isopolis.city/",
+      "date": "2026-08-03T00:46:38+00:00",
       "summary": "Comments",
       "feedId": "hackernews",
       "feedTitle": "Hacker News",
@@ -2940,14 +3012,274 @@
       "feedHome": "https://news.ycombinator.com/"
     },
     {
-      "title": "The Computational Theory of Mind (2015)",
-      "link": "https://plato.stanford.edu/entries/computational-mind/",
-      "date": "2026-08-02T22:35:35+00:00",
+      "title": "CP/M-386 – CP/M for 386 protected mode, derived from CP/M‑68K",
+      "link": "https://github.com/johnsonjh/cpm386",
+      "date": "2026-08-03T00:38:10+00:00",
       "summary": "Comments",
       "feedId": "hackernews",
       "feedTitle": "Hacker News",
       "category": "Startup & News",
       "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "Show HN: ssh ssh.place",
+      "link": "https://ssh.place",
+      "date": "2026-08-03T00:23:21+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "Why Book Corners won't sync contributions back to OpenStreetMap",
+      "link": "https://www.andreagrandi.it/posts/why-book-corners-wont-sync-contributions-back-to-openstreetmap/",
+      "date": "2026-08-03T00:12:16+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "A look at Central Asia's emerging data center race, led by Uzbekistan's 6MW TAS-1 due by year-end and Kazakhstan's 125MW facility with 100K Nvidia chips by 2027 (Yevgeniya Mikhailidi/Nikkei Asia)",
+      "link": "https://www.techmeme.com/260803/p1#a260803p1",
+      "date": "2026-08-03T00:10:01-04:00",
+      "summary": "Yevgeniya Mikhailidi / Nikkei Asia: A look at Central Asia's emerging data center race, led by Uzbekistan's 6MW TAS-1 due by year-end and Kazakhstan's 125MW facility with 100K Nvidia chips by 2027&nbsp; &mdash;&nbsp; TASHKENT/ISTANBUL &mdash; The race to build data centers in Central Asia is intensi",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
+      "title": "Weekly Update 515",
+      "link": "https://www.troyhunt.com/weekly-update-515/",
+      "date": "2026-08-03T00:07:14+00:00",
+      "summary": "Apparently, Aussies are so obsessed with coffee that it&apos;s referred to as the coffee capital of the world down here (some bits, at least). &quot;But what about Italy?&quot; people ask. Having spent a lot of time in a lot of Italy, no, it&apos;s just",
+      "feedId": "troyhunt",
+      "feedTitle": "Troy Hunt",
+      "category": "Tech Blogs",
+      "feedHome": "https://www.troyhunt.com/"
+    },
+    {
+      "title": "OpenClaw and Ollama in Agentic AI: Toward Fully Autonomous and Scalable AI Agent Systems",
+      "link": "https://arxiv.org/abs/2607.28629",
+      "date": "2026-08-03T00:00:00-04:00",
+      "summary": "arXiv:2607.28629v1 Announce Type: new Abstract: The rapid transition from reactive large language models (LLMs) to persistent, action-capable systems has exposed critical gaps in the architectural understanding of Agentic AI, particularly in separating inference, orchestration, and execution layers ",
+      "feedId": "arxiv-ai",
+      "feedTitle": "arXiv cs.AI",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.AI/recent"
+    },
+    {
+      "title": "Can AI Evaluate AI Scientists? A Benchmarking Study of Autonomous Research Generation Systems Using Automated Multi-Model Review",
+      "link": "https://arxiv.org/abs/2607.28631",
+      "date": "2026-08-03T00:00:00-04:00",
+      "summary": "arXiv:2607.28631v1 Announce Type: new Abstract: AI Scientist systems capable of autonomous research have the potential to significantly accelerate scientific discovery. However, evaluating and comparing the quality of AI-generated papers remains an open challenge. We propose and implement a rigorous",
+      "feedId": "arxiv-ai",
+      "feedTitle": "arXiv cs.AI",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.AI/recent"
+    },
+    {
+      "title": "LLM Framework for Discovering Major Mathematical Conjectures: AI's Quest for the Next Riemann Hypothesis",
+      "link": "https://arxiv.org/abs/2607.28632",
+      "date": "2026-08-03T00:00:00-04:00",
+      "summary": "arXiv:2607.28632v1 Announce Type: new Abstract: Major mathematical conjectures still depend heavily on expert intuition, so a unified method for the systematic generation and validation of conjectures with substantial mathematical potential remains unavailable. We present a three stage pipeline for ",
+      "feedId": "arxiv-ai",
+      "feedTitle": "arXiv cs.AI",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.AI/recent"
+    },
+    {
+      "title": "ThinkReset: Learnable Intermediate Interface Construction for Bounded-Context Long-Horizon Reasoning",
+      "link": "https://arxiv.org/abs/2607.28642",
+      "date": "2026-08-03T00:00:00-04:00",
+      "summary": "arXiv:2607.28642v1 Announce Type: new Abstract: Long chain-of-thought reasoning improves performance on complex problems, but it also introduces redundancy accumulation, context overflow, and error anchoring. We argue that under bounded context windows, the core bottleneck is not trajectory compress",
+      "feedId": "arxiv-ai",
+      "feedTitle": "arXiv cs.AI",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.AI/recent"
+    },
+    {
+      "title": "TAPR: Enhancing LLM Performance with a Task-Aware Prompt Rewriter",
+      "link": "https://arxiv.org/abs/2607.28657",
+      "date": "2026-08-03T00:00:00-04:00",
+      "summary": "arXiv:2607.28657v1 Announce Type: new Abstract: Large Language Models (LLMs) often require carefully crafted prompts to unlock their full potential, which can be a barrier for non-expert users. This work addresses the challenge by introducing a Task-Aware Prompt Rewriter (TAPR), a model that reformu",
+      "feedId": "arxiv-ai",
+      "feedTitle": "arXiv cs.AI",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.AI/recent"
+    },
+    {
+      "title": "Empowering Cross-Domain Sequential Recommendation with Hybrid Tokenization and Serial-Parallel Decoding",
+      "link": "https://arxiv.org/abs/2607.28659",
+      "date": "2026-08-03T00:00:00-04:00",
+      "summary": "arXiv:2607.28659v1 Announce Type: new Abstract: Cross-domain sequential recommendation (CDSR) aims to model users' dynamic interest transitions and sequential patterns across multiple domains. Recently, generative recommendation (GR) has emerged. It first learns semantic identifiers (SIDs) from item",
+      "feedId": "arxiv-ai",
+      "feedTitle": "arXiv cs.AI",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.AI/recent"
+    },
+    {
+      "title": "An Ontology-Guided, Deduplication-Aware Extraction Layer for Knowledge Graph Construction from Heterogeneous Documents",
+      "link": "https://arxiv.org/abs/2607.28662",
+      "date": "2026-08-03T00:00:00-04:00",
+      "summary": "arXiv:2607.28662v1 Announce Type: new Abstract: Large language models extract entities and relationships from unstructured documents fluently but inconsistently: type vocabularies fracture across documents, the same person surfaces under several name variants, relationships duplicate, and distinct i",
+      "feedId": "arxiv-ai",
+      "feedTitle": "arXiv cs.AI",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.AI/recent"
+    },
+    {
+      "title": "How Hard Does It Think? Analyzing Step-Aware Reasoning Energy in LLM Chain-of-Thought Trajectories",
+      "link": "https://arxiv.org/abs/2607.28674",
+      "date": "2026-08-03T00:00:00-04:00",
+      "summary": "arXiv:2607.28674v1 Announce Type: new Abstract: Understanding how computational effort is allocated across individual chain-of-thought (CoT) reasoning steps remains an open challenge: existing interpretability methods rely on output-level signals or collapse processing depth into a single trajectory",
+      "feedId": "arxiv-ai",
+      "feedTitle": "arXiv cs.AI",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.AI/recent"
+    },
+    {
+      "title": "Reasoning in Real World Clinical Care: Why Large Language Models Are Not Yet Safe for Autonomous Clinical Decision Support",
+      "link": "https://arxiv.org/abs/2607.28677",
+      "date": "2026-08-03T00:00:00-04:00",
+      "summary": "arXiv:2607.28677v1 Announce Type: new Abstract: LLM now pass medical licensing examinations and, in curated cases, can rival physicians at diagnostic reasoning. These developments have accelerated the use of LLMs for symptom assessment and clinical decision support in diagnostic and treatment guidan",
+      "feedId": "arxiv-ai",
+      "feedTitle": "arXiv cs.AI",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.AI/recent"
+    },
+    {
+      "title": "ViSAGE: Constructing Self-Correcting Memories for Long-Form Video Understanding",
+      "link": "https://arxiv.org/abs/2607.28678",
+      "date": "2026-08-03T00:00:00-04:00",
+      "summary": "arXiv:2607.28678v1 Announce Type: new Abstract: Multimodal agents operating in long-horizon environments must build and continually update multimedia memories to support entity-consistent, temporally grounded reasoning. However, existing agentic memory approaches often discard fine-grained dentity c",
+      "feedId": "arxiv-ai",
+      "feedTitle": "arXiv cs.AI",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.AI/recent"
+    },
+    {
+      "title": "Topology-Aware Data Movement for Disaggregated GPU Inference",
+      "link": "https://arxiv.org/abs/2607.28633",
+      "date": "2026-08-03T00:00:00-04:00",
+      "summary": "arXiv:2607.28633v1 Announce Type: new Abstract: Disaggregated LLM inference creates a datacenter networking problem that no existing system solves correctly. When prefill and decode run on separate GPU pools, the KV cache must be transferred between them. For a 70B model this is 2.6 GB per request, ",
+      "feedId": "arxiv-lg",
+      "feedTitle": "arXiv cs.LG",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.LG/recent"
+    },
+    {
+      "title": "Sensitivity Analysis of GRU, LSTM and Transformer Encoder in Classification of Automated Driving Systems",
+      "link": "https://arxiv.org/abs/2607.28665",
+      "date": "2026-08-03T00:00:00-04:00",
+      "summary": "arXiv:2607.28665v1 Announce Type: new Abstract: Automated driving systems (ADSs) are becoming ubiquitous. Future Software Defined Vehicles (SDVs) may be able to run multiple ADSs, both native and aftermarket such as Comma.ai's Openpilot. Monitoring systems to independently verify which automated dri",
+      "feedId": "arxiv-lg",
+      "feedTitle": "arXiv cs.LG",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.LG/recent"
+    },
+    {
+      "title": "Guarantees on Dynamical System Distinguishability for LLM Token Generation",
+      "link": "https://arxiv.org/abs/2607.28667",
+      "date": "2026-08-03T00:00:00-04:00",
+      "summary": "arXiv:2607.28667v1 Announce Type: new Abstract: Recent work has shown that classifying large language models (LLMs)' responses can be distinguished by modeling token embeddings as trajectories of a black-box dynamical system (DS) and comparing prediction residuals of two DSs. Despite the empirical s",
+      "feedId": "arxiv-lg",
+      "feedTitle": "arXiv cs.LG",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.LG/recent"
+    },
+    {
+      "title": "LARA: Lightweight Adapters in the Residual Stream for Composable Adaptation and Alignment",
+      "link": "https://arxiv.org/abs/2607.28669",
+      "date": "2026-08-03T00:00:00-04:00",
+      "summary": "arXiv:2607.28669v1 Announce Type: new Abstract: We present LARA (Lightweight Additive Residual Adaptation), a method for efficient adaptation that operates in the residual stream of a frozen model rather than in its weights. Where LoRA adds an update of low rank to weight matrices, LARA reads the hi",
+      "feedId": "arxiv-lg",
+      "feedTitle": "arXiv cs.LG",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.LG/recent"
+    },
+    {
+      "title": "Hierarchical Copula-Gumbel-Top-\\texorpdfstring{$K$}{K} Routing: Two-Sided Dependence Control for Frozen Mixture-of-Experts at Fixed Per-Token Routing Laws",
+      "link": "https://arxiv.org/abs/2607.28670",
+      "date": "2026-08-03T00:00:00-04:00",
+      "summary": "arXiv:2607.28670v1 Announce Type: new Abstract: A stochastic Gumbel-Top-$K$ router defines, for every token of a mixture-of-experts (MoE) model, a \\emph{routing law}: a distribution over ordered expert lists and mixture weights. We ask which \\emph{joint} distributions over the routing choices of dif",
+      "feedId": "arxiv-lg",
+      "feedTitle": "arXiv cs.LG",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.LG/recent"
+    },
+    {
+      "title": "LAWFUL: Law-Aligned Witness for Faithful Use of Latents",
+      "link": "https://arxiv.org/abs/2607.28672",
+      "date": "2026-08-03T00:00:00-04:00",
+      "summary": "arXiv:2607.28672v1 Announce Type: new Abstract: When a neural network predicts a physical system accurately, has it learned the governing law as formal, structured knowledge, and if so, does the network's internal computation actually use that representation throughout the law's domain of validity? ",
+      "feedId": "arxiv-lg",
+      "feedTitle": "arXiv cs.LG",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.LG/recent"
+    },
+    {
+      "title": "MPP-GNN: Subject-Adaptive Community Detection for fMRI-Based Alzheimer's Disease Classification",
+      "link": "https://arxiv.org/abs/2607.28681",
+      "date": "2026-08-03T00:00:00-04:00",
+      "summary": "arXiv:2607.28681v1 Announce Type: new Abstract: Functional magnetic resonance imaging (fMRI) is a widely used technique for studying the brain. Recent methods that utilize graph neural networks (GNNs) for analysis of brain functional connectivity have shown great potential for the classification of ",
+      "feedId": "arxiv-lg",
+      "feedTitle": "arXiv cs.LG",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.LG/recent"
+    },
+    {
+      "title": "Technological Advances in Detecting and Managing Cognitive Impairment in Older Adults: Trends, Challenges, and Future Directions",
+      "link": "https://arxiv.org/abs/2607.28687",
+      "date": "2026-08-03T00:00:00-04:00",
+      "summary": "arXiv:2607.28687v1 Announce Type: new Abstract: As populations age, cognitive decline from mild cognitive impairment (MCI) to dementia is a defining health challenge of the coming decades, yet routine assessment often misses its earliest signs. This article critically synthesizes recent technologica",
+      "feedId": "arxiv-lg",
+      "feedTitle": "arXiv cs.LG",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.LG/recent"
+    },
+    {
+      "title": "SEDR-Seq2P: A Lightweight Dilated Residual Sequence-to-Point Network for Multi-Task Industrial NILM",
+      "link": "https://arxiv.org/abs/2607.28693",
+      "date": "2026-08-03T00:00:00-04:00",
+      "summary": "arXiv:2607.28693v1 Announce Type: new Abstract: Industrial NILM remains challenging because measurement noise and widespread concurrent machine operation reduce the generalization of models tuned on residential data. This work adopts a one-to-many, multi-task disaggregation setting, in which a singl",
+      "feedId": "arxiv-lg",
+      "feedTitle": "arXiv cs.LG",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.LG/recent"
+    },
+    {
+      "title": "Predicting Steel Fatigue Life from Micrographs Using Physics-Informed Deep Learning",
+      "link": "https://arxiv.org/abs/2607.28695",
+      "date": "2026-08-03T00:00:00-04:00",
+      "summary": "arXiv:2607.28695v1 Announce Type: new Abstract: Here is the plain text version optimized for arXiv's submission form. Custom macros (like \\CV and \\SI) have been converted to standard text/math so they render correctly on the webpage: Evaluating the fatigue life of structural steels conventionally re",
+      "feedId": "arxiv-lg",
+      "feedTitle": "arXiv cs.LG",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.LG/recent"
+    },
+    {
+      "title": "Alibaba says its 2.4T-parameter Qwen3.8-Max tops Kimi K3 on some benchmarks, and says it plans to release the weights of Qwen3.8-Max and Qwen3.8-27B next week (Luz Ding/Bloomberg)",
+      "link": "https://www.techmeme.com/260802/p16#a260802p16",
+      "date": "2026-08-02T23:40:01-04:00",
+      "summary": "Luz Ding / Bloomberg: Alibaba says its 2.4T-parameter Qwen3.8-Max tops Kimi K3 on some benchmarks, and says it plans to release the weights of Qwen3.8-Max and Qwen3.8-27B next week&nbsp; &mdash;&nbsp; Alibaba Group Holding Ltd. released its latest flagship AI model, with performance claims putting i",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
+      "title": "Two independent teams used GPT-5.6 Sol Ultra on the same quantum cryptography problem, filing papers 3 hours apart, raising questions about scientific credit (Peter Hall/Scientific American)",
+      "link": "https://www.techmeme.com/260802/p15#a260802p15",
+      "date": "2026-08-02T22:50:01-04:00",
+      "summary": "Peter Hall / Scientific American: Two independent teams used GPT-5.6 Sol Ultra on the same quantum cryptography problem, filing papers 3 hours apart, raising questions about scientific credit&nbsp; &mdash;&nbsp; An M.I.T. Ph.D. student and two University of California system cryptographers used GPT-",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
     },
     {
       "title": "condense-json 1.0",
@@ -2958,6 +3290,16 @@
       "feedTitle": "Simon Willison",
       "category": "AI & LLM",
       "feedHome": "https://simonwillison.net/"
+    },
+    {
+      "title": "A look at the US open-weight AI model ecosystem, as VCs question the revenue potential of open-weight startups like Arcee, Reflection AI, and Poolside (Wall Street Journal)",
+      "link": "https://www.techmeme.com/260802/p14#a260802p14",
+      "date": "2026-08-02T21:45:40-04:00",
+      "summary": "Wall Street Journal: A look at the US open-weight AI model ecosystem, as VCs question the revenue potential of open-weight startups like Arcee, Reflection AI, and Poolside&nbsp; &mdash;&nbsp; Silicon Valley startups are setting up open models, with some operating on shoestring budgets because of lim",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
     },
     {
       "title": "The global memory shortage hits the MacBook Air",
@@ -2990,6 +3332,16 @@
       "feedHome": "https://daringfireball.net/"
     },
     {
+      "title": "Robinhood's prediction markets revenue surged 10x+ YoY to $156M in Q2, topping stock and crypto for the first time as speculators shift to real-world event bets (Yueqi Yang/The Information)",
+      "link": "https://www.techmeme.com/260802/p13#a260802p13",
+      "date": "2026-08-02T20:55:00-04:00",
+      "summary": "Yueqi Yang / The Information: Robinhood's prediction markets revenue surged 10x+ YoY to $156M in Q2, topping stock and crypto for the first time as speculators shift to real-world event bets&nbsp; &mdash;&nbsp; Brokerage app Robinhood has quickly become a force in prediction markets, challenging the",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
       "title": "Sam Altman and AI’s decel debate",
       "link": "https://techcrunch.com/2026/08/02/sam-altman-and-ais-decel-debate/",
       "date": "2026-08-02T20:54:22+00:00",
@@ -3020,14 +3372,14 @@
       "feedHome": "https://www.johndcook.com/"
     },
     {
-      "title": "Sharing an X11 Server Across Hosts with FamilyWild",
-      "link": "https://dobrowolski.dev/article/sharing-an-x-server-across-hosts-with-familywild/",
-      "date": "2026-08-02T20:26:47+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
+      "title": "Four US states rolled back or paused data center tax incentives, and nine others are weighing repeal measures, potentially adding 7% or more to equipment costs (Ann Davis Vaughan/The Information)",
+      "link": "https://www.techmeme.com/260802/p12#a260802p12",
+      "date": "2026-08-02T20:10:01-04:00",
+      "summary": "Ann Davis Vaughan / The Information: Four US states rolled back or paused data center tax incentives, and nine others are weighing repeal measures, potentially adding 7% or more to equipment costs&nbsp; &mdash;&nbsp; Governors and legislatures in U.S. states that previously welcomed data centers are",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
       "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
+      "feedHome": "https://www.techmeme.com/"
     },
     {
       "title": "Stop graphing everything: When GraphRAG actually beats vector RAG",
@@ -3063,7 +3415,7 @@
       "title": "Estimating a cumulative sum",
       "link": "https://www.johndcook.com/blog/2026/08/02/estimating-a-cumulative-sum/",
       "date": "2026-08-02T17:57:31+00:00",
-      "summary": "In this post I mentioned two series which I denoted t(n) and c(n). The former is the number of unlabeled rooted trees with n nodes. The latter is the cumulative sum of the former, i.e. The sequence c(n) is also the number of constrains on an n-step Runge-Kutta method; that&#8217;s how I became inter",
+      "summary": "In this post I mentioned two series which I denoted t(n) and c(n). The former is the number of unlabeled rooted trees with n nodes. The latter is the cumulative sum of the former, i.e. The sequence c(n) is also the number of constraints on an n-step Runge-Kutta method; that&#8217;s how I became inte",
       "feedId": "johndcook",
       "feedTitle": "John D. Cook",
       "category": "Tech Blogs",
@@ -3140,40 +3492,10 @@
       "feedHome": "https://techcrunch.com/"
     },
     {
-      "title": "科技爱好者周刊（第 406 期）：道可，道非，常道",
-      "link": "http://www.ruanyifeng.com/blog/2026/07/weekly-issue-406.html",
-      "date": "2026-08-02T14:42:54+00:00",
-      "summary": "这里记录每周值得分享的科技内容，周五发布。...",
-      "feedId": "ruanyifeng",
-      "feedTitle": "阮一峰的网络日志",
-      "category": "中文",
-      "feedHome": "https://www.ruanyifeng.com/blog/"
-    },
-    {
       "title": "Experts say US law is unprepared for rogue AI agents and models, as recent OpenAI and Anthropic incidents raise questions over legal liability and repercussions (Lily Hay Newman/Wired)",
       "link": "https://www.techmeme.com/260802/p8#a260802p8",
       "date": "2026-08-02T13:45:14-04:00",
       "summary": "Lily Hay Newman / Wired: Experts say US law is unprepared for rogue AI agents and models, as recent OpenAI and Anthropic incidents raise questions over legal liability and repercussions&nbsp; &mdash;&nbsp; Both major AI labs' models broke containment, escaped onto the internet, and hacked other comp",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "Thoughts on Apple Upgrade; sources: MacBook Air is now facing shortages too; Apple wants to turn its future glasses and headsets into health and fitness devices (Mark Gurman/Bloomberg)",
-      "link": "https://www.techmeme.com/260802/p7#a260802p7",
-      "date": "2026-08-02T11:15:09-04:00",
-      "summary": "Mark Gurman / Bloomberg: Thoughts on Apple Upgrade; sources: MacBook Air is now facing shortages too; Apple wants to turn its future glasses and headsets into health and fitness devices&nbsp; &mdash;&nbsp; Also: MacBook Air runs into major shortages.&nbsp; &mdash;&nbsp; Apple has finally delivered a",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "As Taiwanese server makers expand in Mexico, the country has become the second-largest supplier of servers to the US, behind Taiwan, with $46.9B in YTD sales (Financial Times)",
-      "link": "https://www.techmeme.com/260802/p6#a260802p6",
-      "date": "2026-08-02T07:00:32-04:00",
-      "summary": "Financial Times: As Taiwanese server makers expand in Mexico, the country has become the second-largest supplier of servers to the US, behind Taiwan, with $46.9B in YTD sales&nbsp; &mdash;&nbsp; Factories churning out servers for data centres are pushing exports to record levels",
       "feedId": "techmeme",
       "feedTitle": "Techmeme",
       "category": "Startup & News",
@@ -3208,56 +3530,6 @@
       "feedTitle": "Hacker News",
       "category": "Startup & News",
       "feedHome": "https://news.ycombinator.com/"
-    },
-    {
-      "title": "A profile of Jacob Tsimerman, who won the Fields Medal last week and is taking a leave from the University of Toronto to join OpenAI and work on AI safety (Ben Cohen/Wall Street Journal)",
-      "link": "https://www.techmeme.com/260802/p5#a260802p5",
-      "date": "2026-08-02T02:00:36-04:00",
-      "summary": "Ben Cohen / Wall Street Journal: A profile of Jacob Tsimerman, who won the Fields Medal last week and is taking a leave from the University of Toronto to join OpenAI and work on AI safety&nbsp; &mdash;&nbsp; Jacob Tsimerman won the biggest prize in math.&nbsp; Now he's working on the most important ",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "Chinese VC firms are rushing to raise new funds after three years of record-low fundraising, amid renewed enthusiasm for China's tech, AI, and robotics sectors (Eleanor Olcott/Financial Times)",
-      "link": "https://www.techmeme.com/260802/p4#a260802p4",
-      "date": "2026-08-02T01:40:00-04:00",
-      "summary": "Eleanor Olcott / Financial Times: Chinese VC firms are rushing to raise new funds after three years of record-low fundraising, amid renewed enthusiasm for China's tech, AI, and robotics sectors&nbsp; &mdash;&nbsp; Managers capitalise on investors' desire to &lsquo;hedge&rsquo; against US market bets",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "LemonEdge, a fund accounting and operations software provider for the private markets sector, raised a $21M Series A led by Blackstone Innovations Investments (FinTech Global)",
-      "link": "https://www.techmeme.com/260802/p3#a260802p3",
-      "date": "2026-08-02T01:30:01-04:00",
-      "summary": "FinTech Global: LemonEdge, a fund accounting and operations software provider for the private markets sector, raised a $21M Series A led by Blackstone Innovations Investments&nbsp; &mdash;&nbsp; LemonEdge, a fund accounting platform designed specifically for the private markets sector, has secured $",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "Malaysia shuts down Network School, Balaji Srinivasan's techno-utopian project, over licensing issues; Srinivasan says he is opening a new campus in Kazakhstan (Wall Street Journal)",
-      "link": "https://www.techmeme.com/260802/p2#a260802p2",
-      "date": "2026-08-02T01:10:01-04:00",
-      "summary": "Wall Street Journal: Malaysia shuts down Network School, Balaji Srinivasan's techno-utopian project, over licensing issues; Srinivasan says he is opening a new campus in Kazakhstan&nbsp; &mdash;&nbsp; Balaji Srinivasan left Silicon Valley and created an incubator for new countries in an Asian ghost ",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "Giving and taking credit in big tech companies",
-      "link": "https://seangoedecke.com/giving-and-taking-credit/",
-      "date": "2026-08-02T00:00:00+00:00",
-      "summary": "",
-      "feedId": "seangoedecke",
-      "feedTitle": "Sean Goedecke",
-      "category": "Tech Blogs",
-      "feedHome": "https://www.seangoedecke.com/"
     },
     {
       "title": "telephones caught in between",
@@ -3490,16 +3762,6 @@
       "feedHome": "https://simonwillison.net/"
     },
     {
-      "title": "Read the Novels and Forget Everything Else",
-      "link": "https://hedgehogreview.com/web-features/thr/posts/read-the-novels-and-forget-everything-else",
-      "date": "2026-07-31T23:31:28+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
       "title": "Stateless MCP has recaptured my interest (and inspired mcp-explorer and datasette-mcp)",
       "link": "https://simonwillison.net/2026/Jul/31/stateless-mcp/#atom-everything",
       "date": "2026-07-31T23:13:22+00:00",
@@ -3720,6 +3982,16 @@
       "feedHome": "https://openai.com/news/"
     },
     {
+      "title": "Show HN: A Handwritten Blogging Platform",
+      "link": "https://handwritten.blog/",
+      "date": "2026-07-31T06:37:42+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
       "title": "一镜成片，随心参考｜Seedance 2.5 正式发布",
       "link": "https://www.bestblogs.dev/article/814263b7bf?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
       "date": "2026-07-31T04:47:00+00:00",
@@ -3788,16 +4060,6 @@
       "feedTitle": "OpenAI News",
       "category": "AI & LLM",
       "feedHome": "https://openai.com/news/"
-    },
-    {
-      "title": "AI models need moral support to make discoveries",
-      "link": "https://seangoedecke.com/ai-models-need-moral-support/",
-      "date": "2026-07-31T00:00:00+00:00",
-      "summary": "",
-      "feedId": "seangoedecke",
-      "feedTitle": "Sean Goedecke",
-      "category": "Tech Blogs",
-      "feedHome": "https://www.seangoedecke.com/"
     },
     {
       "title": "BI Slop",
@@ -4010,16 +4272,6 @@
       "feedHome": "https://openai.com/news/"
     },
     {
-      "title": "Developers are attached to tools because tools encode trust",
-      "link": "https://stackoverflow.blog/2026/07/29/developers-are-attached-to-tools-because-tools-encode-trust/",
-      "date": "2026-07-29T14:25:54+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
       "title": "Making an agile version of a Windows Runtime delegate in C++/WinRT, part 8",
       "link": "https://devblogs.microsoft.com/oldnewthing/20260729-00/?p=112570",
       "date": "2026-07-29T14:00:00+00:00",
@@ -4058,16 +4310,6 @@
       "feedTitle": "OpenAI News",
       "category": "AI & LLM",
       "feedHome": "https://openai.com/news/"
-    },
-    {
-      "title": "You don't have to be smart if you can think clearly",
-      "link": "https://seangoedecke.com/you-dont-have-to-be-smart-if-you-think-clearly/",
-      "date": "2026-07-29T00:00:00+00:00",
-      "summary": "",
-      "feedId": "seangoedecke",
-      "feedTitle": "Sean Goedecke",
-      "category": "Tech Blogs",
-      "feedHome": "https://www.seangoedecke.com/"
     },
     {
       "title": "Superlogical",
@@ -4310,16 +4552,6 @@
       "feedHome": "https://idiallo.com/"
     },
     {
-      "title": "LLMs reward expertise",
-      "link": "https://seangoedecke.com/llms-reward-expertise/",
-      "date": "2026-07-24T00:00:00+00:00",
-      "summary": "",
-      "feedId": "seangoedecke",
-      "feedTitle": "Sean Goedecke",
-      "category": "Tech Blogs",
-      "feedHome": "https://www.seangoedecke.com/"
-    },
-    {
       "title": "Index 01 Is In Mass Production!",
       "link": "https://repebble.com/blog/index-01-is-in-mass-production",
       "date": "2026-07-24T00:00:00+00:00",
@@ -4378,16 +4610,6 @@
       "feedTitle": "Max Woolf",
       "category": "AI & LLM",
       "feedHome": "https://minimaxir.com/"
-    },
-    {
-      "title": "Powerful AIs might escape containment by releasing themselves as open-weight models",
-      "link": "https://seangoedecke.com/powerful-ais-might-escape-by-releasing-open-weight-models/",
-      "date": "2026-07-23T00:00:00+00:00",
-      "summary": "",
-      "feedId": "seangoedecke",
-      "feedTitle": "Sean Goedecke",
-      "category": "Tech Blogs",
-      "feedHome": "https://www.seangoedecke.com/"
     },
     {
       "title": "SymptomAI: Towards a conversational AI agent for everyday symptom assessment",
@@ -4570,16 +4792,6 @@
       "feedHome": "https://matklad.github.io/"
     },
     {
-      "title": "Impro is a handbook for running a cult",
-      "link": "https://seangoedecke.com/impro/",
-      "date": "2026-07-19T00:00:00+00:00",
-      "summary": "",
-      "feedId": "seangoedecke",
-      "feedTitle": "Sean Goedecke",
-      "category": "Tech Blogs",
-      "feedHome": "https://www.seangoedecke.com/"
-    },
-    {
       "title": "email encryption",
       "link": "https://computer.rip/2026-07-19-email-encryption.html",
       "date": "2026-07-19T00:00:00+00:00",
@@ -4608,16 +4820,6 @@
       "feedTitle": "Terence Eden",
       "category": "Tech Blogs",
       "feedHome": "https://shkspr.mobi/blog/"
-    },
-    {
-      "title": "Overtraining as the path to human-like AI",
-      "link": "https://seangoedecke.com/overtraining-as-the-path-to-human-like-ai/",
-      "date": "2026-07-18T00:00:00+00:00",
-      "summary": "",
-      "feedId": "seangoedecke",
-      "feedTitle": "Sean Goedecke",
-      "category": "Tech Blogs",
-      "feedHome": "https://www.seangoedecke.com/"
     },
     {
       "title": "Introducing Gemini 3.5 Flash Cyber",
@@ -4708,16 +4910,6 @@
       "feedTitle": "Krebs on Security",
       "category": "Tech Blogs",
       "feedHome": "https://krebsonsecurity.com/"
-    },
-    {
-      "title": "What does \"playing politics\" mean for software engineers?",
-      "link": "https://seangoedecke.com/playing-politics/",
-      "date": "2026-07-14T00:00:00+00:00",
-      "summary": "",
-      "feedId": "seangoedecke",
-      "feedTitle": "Sean Goedecke",
-      "category": "Tech Blogs",
-      "feedHome": "https://www.seangoedecke.com/"
     },
     {
       "title": "Pebble Mega Update - July 2026",
@@ -4818,16 +5010,6 @@
       "feedTitle": "Eli Bendersky",
       "category": "Tech Blogs",
       "feedHome": "https://eli.thegreenplace.net/"
-    },
-    {
-      "title": "In defense of not understanding your codebase",
-      "link": "https://seangoedecke.com/in-defense-of-not-understanding-your-codebase/",
-      "date": "2026-07-11T00:00:00+00:00",
-      "summary": "",
-      "feedId": "seangoedecke",
-      "feedTitle": "Sean Goedecke",
-      "category": "Tech Blogs",
-      "feedHome": "https://www.seangoedecke.com/"
     },
     {
       "title": "A dock that finally wakes up reliably",
@@ -4948,16 +5130,6 @@
       "feedTitle": "Google Research Blog",
       "category": "AI & LLM",
       "feedHome": "https://research.google/blog/"
-    },
-    {
-      "title": "Blog about things you don't understand yet",
-      "link": "https://seangoedecke.com/blog-about-things-you-dont-understand-yet/",
-      "date": "2026-07-07T00:00:00+00:00",
-      "summary": "",
-      "feedId": "seangoedecke",
-      "feedTitle": "Sean Goedecke",
-      "category": "Tech Blogs",
-      "feedHome": "https://www.seangoedecke.com/"
     },
     {
       "title": "Amazon Basics, but for intellectual property.",
@@ -5468,16 +5640,6 @@
       "feedTitle": "Matklad",
       "category": "Tech Blogs",
       "feedHome": "https://matklad.github.io/"
-    },
-    {
-      "title": "Welcoming the Philippine Government to Have I Been Pwned",
-      "link": "https://www.troyhunt.com/welcoming-the-philippine-government-to-have-i-been-pwned/",
-      "date": "2026-06-03T03:40:17+00:00",
-      "summary": "Today, we welcome the 46th government onboarded to Have I Been Pwned&#x2019;s free gov service: the Philippines.The Philippines&#x2019; National CERT, working with the Department of Information and Communications Technology, now has access to monitor official government domains against the data in H",
-      "feedId": "troyhunt",
-      "feedTitle": "Troy Hunt",
-      "category": "Tech Blogs",
-      "feedHome": "https://www.troyhunt.com/"
     },
     {
       "title": "The art and engineering of Silpheed",
