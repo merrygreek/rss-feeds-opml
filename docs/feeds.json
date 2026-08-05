@@ -1,12 +1,13 @@
 {
-  "updatedAt": "2026-08-05T00:03:45.255672+00:00",
+  "updatedAt": "2026-08-05T04:10:14.032812+00:00",
   "totalFeeds": 51,
-  "successCount": 45,
-  "failedCount": 6,
+  "successCount": 44,
+  "failedCount": 7,
   "failed": [
     "gwern",
     "garymarcus",
     "thesequence",
+    "seangoedecke",
     "lcamtuf",
     "rachelbythebay",
     "tedunangst"
@@ -20,7 +21,7 @@
         "home": "https://simonwillison.net/",
         "url": "https://simonwillison.net/atom/everything/",
         "status": "ok",
-        "fetchedAt": "2026-08-05T00:03:35.309749+00:00",
+        "fetchedAt": "2026-08-05T04:10:04.034484+00:00",
         "items": [
           {
             "title": "New release of LLM adds support for reasoning traces, OpenAI Responses, server-side tools, and smarter logging",
@@ -29,10 +30,22 @@
             "summary": "I released LLM 0.32 this morning, the most significant new version of LLM since the initial launch of the project. The new version includes support for visible reasoning traces, server-side provider tools, redesigned content-addressable SQLite logs, new models, and new features enabled by the OpenAI"
           },
           {
+            "title": "llm-anthropic 0.26",
+            "link": "https://simonwillison.net/2026/Aug/4/llm-anthropic/#atom-everything",
+            "date": "2026-08-04T22:00:58+00:00",
+            "summary": "Release: llm-anthropic 0.26 Includes new features enabled by LLM 0.32: New models: claude-fable-5, claude-sonnet-5, and claude-opus-5. #75, #76 Added server-side tools for WebSearch, WebFetch, CodeExecution, and AnthropicMCP, available through LLM's -T interface or Python tools=. The previous -o web"
+          },
+          {
             "title": "PipeNetwork/minimax-h3-mlx",
             "link": "https://simonwillison.net/2026/Aug/4/minimax-h3-mlx/#atom-everything",
             "date": "2026-08-04T19:10:09+00:00",
             "summary": "PipeNetwork/minimax-h3-mlx MiniMax released MiniMax-H3 two days ago - they describe it as a \"a general-purpose, omni-modal generative system\", which in practice means it accepts text, images, audio and video and can use them to generate up to 15 second video clips with audio included. This Python pa"
+          },
+          {
+            "title": "llm 0.32",
+            "link": "https://simonwillison.net/2026/Aug/4/llm/#atom-everything",
+            "date": "2026-08-04T17:15:33+00:00",
+            "summary": "Release: llm 0.32 See my detailed blog post about this release. Tags: llm"
           },
           {
             "title": "Quoting Steve Yegge",
@@ -59,28 +72,16 @@
             "summary": "My comment on Devtools must be open source (exe.dev) &mdash; Hacker News.One of the arguments for open source software for end-users has always been the freedom to examine and modify how that software works. The reality for most people - even expert programmers - has been that the freedom is more ab"
           },
           {
+            "title": "condense-json 1.1",
+            "link": "https://simonwillison.net/2026/Aug/3/condense-json/#atom-everything",
+            "date": "2026-08-03T04:56:26+00:00",
+            "summary": "Release: condense-json 1.1 After shipping condense-json 1.0 I started integrating it into LLM, and found there were some desirable new features already: Replacements object can now include values other than strings. These will be identified and used as structural replacements by condense_json() and "
+          },
+          {
             "title": "condense-json 1.0",
             "link": "https://simonwillison.net/2026/Aug/2/condense-json/#atom-everything",
             "date": "2026-08-02T22:19:59+00:00",
             "summary": "Release: condense-json 1.0 I'm trying to get braver at releasing 1.0 versions. This little library is a year and a half old now - I've applied some sensible and non-disruptive fixes and shipped the big 1.0 for it. Here's an example of what it can do, lifted from the README: { \"foo\": { \"bar\": { \"stri"
-          },
-          {
-            "title": "Open letters about AI development",
-            "link": "https://simonwillison.net/2026/Aug/2/open-letters/#atom-everything",
-            "date": "2026-08-02T04:16:52+00:00",
-            "summary": "Open letters about AI development I wrote this summary of the past few weeks of open letters as a section of my sponsors-only newsletter but I've decided to share it here as well. Open Weights and American AI Leadership was shepherded by Microsoft, dated July 24th, and signed by 235 AI-adjacent comp"
-          },
-          {
-            "title": "July 2026 newsletter",
-            "link": "https://simonwillison.net/2026/Aug/2/july-newsletter/#atom-everything",
-            "date": "2026-08-02T04:12:41+00:00",
-            "summary": "The June edition of my sponsors-only monthly newsletter is out. If you are a sponsor (or if you start a sponsorship now) you can access it here. This month: Accidental cyberattacks by OpenAl and Anthropic models under test GPT-5.6 Sol, Terra, and Luna Claude Opus 5 Kimi K3 and DeepSeek-V4-Flash-0731"
-          },
-          {
-            "title": "Quoting Greg Brockman",
-            "link": "https://simonwillison.net/2026/Aug/1/greg-brockman/#atom-everything",
-            "date": "2026-08-01T22:29:44+00:00",
-            "summary": "at openai, many people hook their chatgpt up to slack. people really don't like when a coworker's chatgpt contacts them asking for help with a task, even when they'd be perfectly happy doing that same work if asked by that coworker. reinforces how much people care about human relationships and helpi"
           }
         ]
       },
@@ -91,7 +92,7 @@
         "home": "https://openai.com/news/",
         "url": "https://openai.com/news/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-05T00:03:35.303896+00:00",
+        "fetchedAt": "2026-08-05T04:10:04.159834+00:00",
         "items": [
           {
             "title": "Third-party cyber evaluations involving OpenAI models",
@@ -162,67 +163,67 @@
         "home": "https://arxiv.org/list/cs.AI/recent",
         "url": "https://arxiv.org/rss/cs.AI",
         "status": "ok",
-        "fetchedAt": "2026-08-05T00:03:35.602288+00:00",
+        "fetchedAt": "2026-08-05T04:10:04.536778+00:00",
         "items": [
           {
-            "title": "OpenClaw and Ollama in Agentic AI: Toward Fully Autonomous and Scalable AI Agent Systems",
-            "link": "https://arxiv.org/abs/2607.28629",
-            "date": "2026-08-04T00:00:00-04:00",
-            "summary": "arXiv:2607.28629v1 Announce Type: new Abstract: The rapid transition from reactive large language models (LLMs) to persistent, action-capable systems has exposed critical gaps in the architectural understanding of Agentic AI, particularly in separating inference, orchestration, and execution layers "
+            "title": "ISEE: Interactive Semantic Enrichment for Database Fields",
+            "link": "https://arxiv.org/abs/2608.02604",
+            "date": "2026-08-05T00:00:00-04:00",
+            "summary": "arXiv:2608.02604v1 Announce Type: new Abstract: LLM-based agents are increasingly being deployed for data-related tasks, including data sense-making, exploration, and retrieval. However, their performance heavily depends on the clarity and completeness of data semantics. In practice, many field desc"
           },
           {
-            "title": "Can AI Evaluate AI Scientists? A Benchmarking Study of Autonomous Research Generation Systems Using Automated Multi-Model Review",
-            "link": "https://arxiv.org/abs/2607.28631",
-            "date": "2026-08-04T00:00:00-04:00",
-            "summary": "arXiv:2607.28631v1 Announce Type: new Abstract: AI Scientist systems capable of autonomous research have the potential to significantly accelerate scientific discovery. However, evaluating and comparing the quality of AI-generated papers remains an open challenge. We propose and implement a rigorous"
+            "title": "Self-Organising Digital Circuits",
+            "link": "https://arxiv.org/abs/2608.02606",
+            "date": "2026-08-05T00:00:00-04:00",
+            "summary": "arXiv:2608.02606v1 Announce Type: new Abstract: Fault tolerance in classical computing has traditionally relied on static strategies like hardware redundancy and error-correcting codes. Biological systems, in contrast, exhibit adaptive plasticity, maintaining function through dynamic re-organisation"
           },
           {
-            "title": "LLM Framework for Discovering Major Mathematical Conjectures: AI's Quest for the Next Riemann Hypothesis",
-            "link": "https://arxiv.org/abs/2607.28632",
-            "date": "2026-08-04T00:00:00-04:00",
-            "summary": "arXiv:2607.28632v1 Announce Type: new Abstract: Major mathematical conjectures still depend heavily on expert intuition, so a unified method for the systematic generation and validation of conjectures with substantial mathematical potential remains unavailable. We present a three stage pipeline for "
+            "title": "Beyond the Hivemind: Escaping LLM Homogeneity via Meta-Persona Anchoring and Sequential Temperature Scaling",
+            "link": "https://arxiv.org/abs/2608.02618",
+            "date": "2026-08-05T00:00:00-04:00",
+            "summary": "arXiv:2608.02618v1 Announce Type: new Abstract: Recent studies have identified an ``Artificial Hivemind'' effect in Large Language Models (LLMs) causing models to converge on a narrow, homogenized consensus even for open questions. This semantic collapse limits the diversity of AI, resulting in high"
           },
           {
-            "title": "ThinkReset: Learnable Intermediate Interface Construction for Bounded-Context Long-Horizon Reasoning",
-            "link": "https://arxiv.org/abs/2607.28642",
-            "date": "2026-08-04T00:00:00-04:00",
-            "summary": "arXiv:2607.28642v1 Announce Type: new Abstract: Long chain-of-thought reasoning improves performance on complex problems, but it also introduces redundancy accumulation, context overflow, and error anchoring. We argue that under bounded context windows, the core bottleneck is not trajectory compress"
+            "title": "PULSE: An Executable Contract Language for Spatiotemporal Knowledge Graph Engineering",
+            "link": "https://arxiv.org/abs/2608.02630",
+            "date": "2026-08-05T00:00:00-04:00",
+            "summary": "arXiv:2608.02630v1 Announce Type: new Abstract: Knowledge graph engineering often distributes accepted state, observations, constraints, processes, and hypothetical scenarios across artifacts whose combined execution contract remains external. We present PULSE, an Object-Process-Methodology-inspired"
           },
           {
-            "title": "TAPR: Enhancing LLM Performance with a Task-Aware Prompt Rewriter",
-            "link": "https://arxiv.org/abs/2607.28657",
-            "date": "2026-08-04T00:00:00-04:00",
-            "summary": "arXiv:2607.28657v1 Announce Type: new Abstract: Large Language Models (LLMs) often require carefully crafted prompts to unlock their full potential, which can be a barrier for non-expert users. This work addresses the challenge by introducing a Task-Aware Prompt Rewriter (TAPR), a model that reformu"
+            "title": "HyperAgent: Planning and Acting over Tool-Schema Hypergraphs for Tool-Use LLM Agents",
+            "link": "https://arxiv.org/abs/2608.02650",
+            "date": "2026-08-05T00:00:00-04:00",
+            "summary": "arXiv:2608.02650v1 Announce Type: new Abstract: Large language model (LLM) agents increasingly rely on external tools to complete complex real-world tasks. However, reliable tool-use planning remains challenging due to the limitations of implicit reasoning and the evolving nature of real-world execu"
           },
           {
-            "title": "Empowering Cross-Domain Sequential Recommendation with Hybrid Tokenization and Serial-Parallel Decoding",
-            "link": "https://arxiv.org/abs/2607.28659",
-            "date": "2026-08-04T00:00:00-04:00",
-            "summary": "arXiv:2607.28659v1 Announce Type: new Abstract: Cross-domain sequential recommendation (CDSR) aims to model users' dynamic interest transitions and sequential patterns across multiple domains. Recently, generative recommendation (GR) has emerged. It first learns semantic identifiers (SIDs) from item"
+            "title": "Explainable AI for the EU Right to Explanation: A Systematic Review of the Law-XAI Translation Gap",
+            "link": "https://arxiv.org/abs/2608.02699",
+            "date": "2026-08-05T00:00:00-04:00",
+            "summary": "arXiv:2608.02699v1 Announce Type: new Abstract: When algorithms make or influence consequential decisions---about loan eligibility, hiring, or healthcare---EU law grants affected individuals a Right to Explanation. Yet whether (and how) Explainable AI (XAI) can satisfy this right in practice remains"
           },
           {
-            "title": "An Ontology-Guided, Deduplication-Aware Extraction Layer for Knowledge Graph Construction from Heterogeneous Documents",
-            "link": "https://arxiv.org/abs/2607.28662",
-            "date": "2026-08-04T00:00:00-04:00",
-            "summary": "arXiv:2607.28662v1 Announce Type: new Abstract: Large language models extract entities and relationships from unstructured documents fluently but inconsistently: type vocabularies fracture across documents, the same person surfaces under several name variants, relationships duplicate, and distinct i"
+            "title": "Predictive Set Theory: A Generative Framework for Cognitive Architecture with Operationalized Core Mechanisms",
+            "link": "https://arxiv.org/abs/2608.02704",
+            "date": "2026-08-05T00:00:00-04:00",
+            "summary": "arXiv:2608.02704v1 Announce Type: new Abstract: Predictive processing theories portray the brain as a hierarchical prediction engine that minimizes prediction error, yet they lack operational definitions for the structure of a \"prediction,\" the standardized response to a prediction error, and the me"
           },
           {
-            "title": "How Hard Does It Think? Analyzing Step-Aware Reasoning Energy in LLM Chain-of-Thought Trajectories",
-            "link": "https://arxiv.org/abs/2607.28674",
-            "date": "2026-08-04T00:00:00-04:00",
-            "summary": "arXiv:2607.28674v1 Announce Type: new Abstract: Understanding how computational effort is allocated across individual chain-of-thought (CoT) reasoning steps remains an open challenge: existing interpretability methods rely on output-level signals or collapse processing depth into a single trajectory"
+            "title": "Towards a new paradigm of scientific discovery with socialized artificial intelligence",
+            "link": "https://arxiv.org/abs/2608.02775",
+            "date": "2026-08-05T00:00:00-04:00",
+            "summary": "arXiv:2608.02775v1 Announce Type: new Abstract: Scientific discovery has advanced through successive transformations in the organization of knowledge. Observation and experimentation established the empirical foundations of science. Theory made it possible to derive general principles from particula"
           },
           {
-            "title": "Reasoning in Real World Clinical Care: Why Large Language Models Are Not Yet Safe for Autonomous Clinical Decision Support",
-            "link": "https://arxiv.org/abs/2607.28677",
-            "date": "2026-08-04T00:00:00-04:00",
-            "summary": "arXiv:2607.28677v1 Announce Type: new Abstract: LLM now pass medical licensing examinations and, in curated cases, can rival physicians at diagnostic reasoning. These developments have accelerated the use of LLMs for symptom assessment and clinical decision support in diagnostic and treatment guidan"
+            "title": "BAP-SQL: Budget-Aware Observation Planning for Agentic Text-to-SQL",
+            "link": "https://arxiv.org/abs/2608.02876",
+            "date": "2026-08-05T00:00:00-04:00",
+            "summary": "arXiv:2608.02876v1 Announce Type: new Abstract: Tool-using agents do not merely consume observations: their actions determine what arrives next. In agentic text-to-SQL, a broad query can spend context and database work before useful evidence appears, while post-hoc compression cannot recover omitted"
           },
           {
-            "title": "ViSAGE: Constructing Self-Correcting Memories for Long-Form Video Understanding",
-            "link": "https://arxiv.org/abs/2607.28678",
-            "date": "2026-08-04T00:00:00-04:00",
-            "summary": "arXiv:2607.28678v1 Announce Type: new Abstract: Multimodal agents operating in long-horizon environments must build and continually update multimedia memories to support entity-consistent, temporally grounded reasoning. However, existing agentic memory approaches often discard fine-grained dentity c"
+            "title": "VeriTrace: Human-Like Temporal Exploration Completes Agentic Action Space",
+            "link": "https://arxiv.org/abs/2608.02878",
+            "date": "2026-08-05T00:00:00-04:00",
+            "summary": "arXiv:2608.02878v1 Announce Type: new Abstract: Large language models have shown promise for automated Verilog RTL generation, yet state-of-the-art multi-agent systems plateau at ~95% accuracy on standard benchmarks. We trace this ceiling to an incomplete debugging action space: existing systems res"
           }
         ]
       },
@@ -233,67 +234,67 @@
         "home": "https://arxiv.org/list/cs.LG/recent",
         "url": "https://arxiv.org/rss/cs.LG",
         "status": "ok",
-        "fetchedAt": "2026-08-05T00:03:35.788205+00:00",
+        "fetchedAt": "2026-08-05T04:10:04.428412+00:00",
         "items": [
           {
-            "title": "Uncertainty-Aware Simulation-Based Inference for Operations Research with Large Language Models",
-            "link": "https://arxiv.org/abs/2608.00019",
-            "date": "2026-08-04T00:00:00-04:00",
-            "summary": "arXiv:2608.00019v1 Announce Type: new Abstract: Deploying large language models (LLMs) for operations research (OR) tasks remains challenging because correctness depends on a coherent modeling process, not merely a correct final answer. Standard autoregressive generation operates on a myopic policy,"
+            "title": "Deep Divide-and-Reduce in Symbolic Regression",
+            "link": "https://arxiv.org/abs/2608.02628",
+            "date": "2026-08-05T00:00:00-04:00",
+            "summary": "arXiv:2608.02628v1 Announce Type: new Abstract: Symbolic regression (SR) is the task of discovering underlying patterns from data and representing them using mathematical expressions. Current machine learning approaches to SR often lack a profound understanding of the intrinsic mathematical and phys"
           },
           {
-            "title": "Learning Compositional Meta-Routing for Agentic Workflows: An Executable Benchmark",
-            "link": "https://arxiv.org/abs/2608.00106",
-            "date": "2026-08-04T00:00:00-04:00",
-            "summary": "arXiv:2608.00106v1 Announce Type: new Abstract: Agentic systems must decide not only what answer to produce, but which reasoning and execution operations should precede it. A controller may answer directly, decompose a request, retrieve evidence, execute code, delegate to a specialist, or verify an "
+            "title": "Multimodal Auto-regressive Transformer Surrogate for Modeling Variable Operations and Quantifying Uncertainty in Geological Carbon Storage",
+            "link": "https://arxiv.org/abs/2608.02629",
+            "date": "2026-08-05T00:00:00-04:00",
+            "summary": "arXiv:2608.02629v1 Announce Type: new Abstract: The use of variable well perforation and injection strategies can improve the efficiency of geological carbon storage operations. We develop a new multimodal auto-regressive transformer surrogate to model these operations under geological uncertainty. "
           },
           {
-            "title": "MetaRoute-Bench: Evaluating Meta-Decision Policies for Agentic Workflow Routing",
-            "link": "https://arxiv.org/abs/2608.00107",
-            "date": "2026-08-04T00:00:00-04:00",
-            "summary": "arXiv:2608.00107v1 Announce Type: new Abstract: Agentic systems must repeatedly decide whether to answer directly, decompose a task, invoke a tool, execute code, delegate to a specialist, verify an intermediate result, or recover from failure. These meta-decisions affect not only task success but al"
+            "title": "LLMs Can Annotate Attribution Graphs",
+            "link": "https://arxiv.org/abs/2608.02632",
+            "date": "2026-08-05T00:00:00-04:00",
+            "summary": "arXiv:2608.02632v1 Announce Type: new Abstract: Circuit tracing is an exciting technique for revealing the internal computation of language models, but it requires a time-intensive manual step of grouping individual features or MLP neurons into supernodes. We present a simple pipeline for automating"
           },
           {
-            "title": "Progressive$^2$: A Teacher-Student Progressive Co-Evolving Knowledge Distillation Method for Substantial Model Compression",
-            "link": "https://arxiv.org/abs/2608.00129",
-            "date": "2026-08-04T00:00:00-04:00",
-            "summary": "arXiv:2608.00129v1 Announce Type: new Abstract: Knowledge distillation (KD) is a widely utilized technique for transferring knowledge from a large model (the teacher) to a smaller model (the student). Owing to its flexibility and broad applicability, KD has been extensively applied in the compressio"
+            "title": "GeoID-PINN: Identifiability-Aware Regional Epidemic Inference with Geographic Coupling",
+            "link": "https://arxiv.org/abs/2608.02633",
+            "date": "2026-08-05T00:00:00-04:00",
+            "summary": "arXiv:2608.02633v1 Announce Type: new Abstract: Regional surveillance data reflect local transmission, reporting, seeding, and external infection pressure, which are difficult to identify separately. We introduce GeoID-PINN, a physics-informed neural network (PINN) for susceptible-infectious-recover"
           },
           {
-            "title": "Rethinking Pretraining for Specialized Design Data: Evidence from the JONES-19 Cultural Design Dataset",
-            "link": "https://arxiv.org/abs/2608.00135",
-            "date": "2026-08-04T00:00:00-04:00",
-            "summary": "arXiv:2608.00135v1 Announce Type: new Abstract: Design and architectural archives encode expert human knowledge in graphical formats, providing a critical testbed for design-inspired Machine Learning (ML) challenges absent with typical computer vision benchmarks. Building on JONES-19, a small-size i"
+            "title": "Verifier-Guided Model Discovery for Physical Dynamical Systems with Pretrained Symbolic Transformers",
+            "link": "https://arxiv.org/abs/2608.02662",
+            "date": "2026-08-05T00:00:00-04:00",
+            "summary": "arXiv:2608.02662v1 Announce Type: new Abstract: Reliable forecasting of nonlinear physical systems underpins scientific discovery and engineering decision-making. Yet high-fidelity simulations are prohibitively costly, and machine-learning surrogates can be opaque and encode assumptions about system"
           },
           {
-            "title": "Leak It: A Probabilistic Approach to Training-Data Extraction from Black-Box Language Models",
-            "link": "https://arxiv.org/abs/2608.00144",
-            "date": "2026-08-04T00:00:00-04:00",
-            "summary": "arXiv:2608.00144v1 Announce Type: new Abstract: Membership inference (MIA) on language models is usually summarised by an aggregate ROC-AUC, but such evaluations are confounded: model-free blind baselines separate members from non-members from surface text alone. We study black-box, sampling-based t"
+            "title": "CT-HEG: A Bidirectional, Timestamp-Attributed Event Graph for ICU In-Hospital Mortality Prediction - An Architectural Ablation Study",
+            "link": "https://arxiv.org/abs/2608.02663",
+            "date": "2026-08-05T00:00:00-04:00",
+            "summary": "arXiv:2608.02663v1 Announce Type: new Abstract: Accurate ICU mortality prediction requires modeling irregular clinical observations across heterogeneous entity types. Existing sequence models handle irregular sampling but ignore typed relational structure; existing graph models assume fixed-interval"
           },
           {
-            "title": "Response Magnitude as a Dominant Signal for Held-Out CRISPRi Perturbation Effect Prediction",
-            "link": "https://arxiv.org/abs/2608.00152",
-            "date": "2026-08-04T00:00:00-04:00",
-            "summary": "arXiv:2608.00152v1 Announce Type: new Abstract: Predicting the magnitude of a CRISPRi perturbation's transcriptomic effect on held-out target genes is an important open problem in single-cell biology. Recent work has documented that simple baselines often match or exceed deep perturbation predictors"
+            "title": "Sphere Retraction Normalizations",
+            "link": "https://arxiv.org/abs/2608.02668",
+            "date": "2026-08-05T00:00:00-04:00",
+            "summary": "arXiv:2608.02668v1 Announce Type: new Abstract: Residual connections are the de facto mechanism for training deep neural networks stably. Geodesic Normalization (GeoNorm) recasts them on a Riemannian manifold, orthogonalizing each layer output against the current hidden state and applying the result"
           },
           {
-            "title": "Inference-Time Policy Alignment for Fair Reinforcement Learning",
-            "link": "https://arxiv.org/abs/2608.00175",
-            "date": "2026-08-04T00:00:00-04:00",
-            "summary": "arXiv:2608.00175v1 Announce Type: new Abstract: Deep reinforcement learning (RL) agents achieve strong performance by optimizing scalar reward functions. However, once deployed, the policies of these RL agents are often rigid and costly to adapt to new performance criteria. For instance, an agent tr"
+            "title": "Learning Molecular Representations from Cellular Phenotypes with Structure Preservation",
+            "link": "https://arxiv.org/abs/2608.02688",
+            "date": "2026-08-05T00:00:00-04:00",
+            "summary": "arXiv:2608.02688v1 Announce Type: new Abstract: Phenotypic drug discovery enables the discovery of functional relationships between molecular structures and cellular responses. However, existing multimodal representation learning methods often optimize cross-modal alignment without considering the i"
           },
           {
-            "title": "AutoCause: A Python framework that automates expert decisions in environmental time-series causal discovery",
-            "link": "https://arxiv.org/abs/2608.00198",
-            "date": "2026-08-04T00:00:00-04:00",
-            "summary": "arXiv:2608.00198v1 Announce Type: new Abstract: Environmental time-series causal discovery requires expert decisions about method choice, conditional-independence tests, lag horizons, sample-size adequacy, multiple-testing control, and evidence interpretation. Applied inconsistently across datasets,"
+            "title": "GLOBE: Trajectory-Aligned Gradient Matching with Structured SparseOptimization for Coreset Selection",
+            "link": "https://arxiv.org/abs/2608.02690",
+            "date": "2026-08-05T00:00:00-04:00",
+            "summary": "arXiv:2608.02690v1 Announce Type: new Abstract: On-device training of deep neural networks is fundamentally constrained by the computational and memory costs of large-scale datasets. Coreset selection offers a practical solution by retaining only a compact subset of real training samples. However, e"
           },
           {
-            "title": "A Physics-Chemistry-Informed Neural Network (PCINN) for Real-Time Spatial-ALD Coverage Prediction and Reliable Kinetics Inversion",
-            "link": "https://arxiv.org/abs/2608.00212",
-            "date": "2026-08-04T00:00:00-04:00",
-            "summary": "arXiv:2608.00212v1 Announce Type: new Abstract: Spatial atomic layer deposition (SALD) is a leading atmospheric-pressure, high-throughput route to industrial ALD, but design and control are limited by the cost of predicting surface coverage: high-fidelity CFD is far too slow for operating-window sca"
+            "title": "Output-Aware Rotation for INT2 KV-Cache Quantization",
+            "link": "https://arxiv.org/abs/2608.02691",
+            "date": "2026-08-05T00:00:00-04:00",
+            "summary": "arXiv:2608.02691v1 Announce Type: new Abstract: The key-value (KV) cache has become a major memory and bandwidth bottleneck in long-context large language model inference, making ultra-low-bit quantization increasingly important. However, existing rotation-based INT2 methods optimize cache statistic"
           }
         ]
       },
@@ -304,7 +305,7 @@
         "home": "https://research.google/blog/",
         "url": "https://research.google/blog/rss/",
         "status": "ok",
-        "fetchedAt": "2026-08-05T00:03:35.498973+00:00",
+        "fetchedAt": "2026-08-05T04:10:04.165141+00:00",
         "items": [
           {
             "title": "Science One Framework: A verifiable autonomous research framework via Chain-of-Evidence",
@@ -375,7 +376,7 @@
         "home": "https://deepmind.google/blog/",
         "url": "https://deepmind.google/blog/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-05T00:03:35.611599+00:00",
+        "fetchedAt": "2026-08-05T04:10:04.358823+00:00",
         "items": [
           {
             "title": "Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration",
@@ -446,7 +447,7 @@
         "home": "https://lilianweng.github.io/",
         "url": "https://lilianweng.github.io/lil-log/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-05T00:03:35.197088+00:00",
+        "fetchedAt": "2026-08-05T04:10:03.985841+00:00",
         "items": [
           {
             "title": "Active Learning",
@@ -537,7 +538,7 @@
         "home": "https://minimaxir.com/",
         "url": "https://minimaxir.com/index.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-05T00:03:35.386973+00:00",
+        "fetchedAt": "2026-08-05T04:10:04.189629+00:00",
         "items": [
           {
             "title": "LLMs break down in funny ways when told the Jacobian Conjecture counterargument",
@@ -620,7 +621,7 @@
         "home": "https://www.jeffgeerling.com/",
         "url": "https://www.jeffgeerling.com/blog.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-05T00:03:35.389038+00:00",
+        "fetchedAt": "2026-08-05T04:10:04.078009+00:00",
         "items": [
           {
             "title": "Getting 25 Gbps Thunderbolt Ethernet on my Mac Studio",
@@ -690,70 +691,9 @@
         "title": "Sean Goedecke",
         "home": "https://www.seangoedecke.com/",
         "url": "https://www.seangoedecke.com/rss.xml",
-        "status": "ok",
-        "fetchedAt": "2026-08-05T00:03:35.358899+00:00",
-        "items": [
-          {
-            "title": "Giving and taking credit in big tech companies",
-            "link": "https://seangoedecke.com/giving-and-taking-credit/",
-            "date": "2026-08-02T00:00:00+00:00",
-            "summary": ""
-          },
-          {
-            "title": "AI models need moral support to make discoveries",
-            "link": "https://seangoedecke.com/ai-models-need-moral-support/",
-            "date": "2026-07-31T00:00:00+00:00",
-            "summary": ""
-          },
-          {
-            "title": "You don't have to be smart if you can think clearly",
-            "link": "https://seangoedecke.com/you-dont-have-to-be-smart-if-you-think-clearly/",
-            "date": "2026-07-29T00:00:00+00:00",
-            "summary": ""
-          },
-          {
-            "title": "LLMs reward expertise",
-            "link": "https://seangoedecke.com/llms-reward-expertise/",
-            "date": "2026-07-24T00:00:00+00:00",
-            "summary": ""
-          },
-          {
-            "title": "Powerful AIs might escape containment by releasing themselves as open-weight models",
-            "link": "https://seangoedecke.com/powerful-ais-might-escape-by-releasing-open-weight-models/",
-            "date": "2026-07-23T00:00:00+00:00",
-            "summary": ""
-          },
-          {
-            "title": "Impro is a handbook for running a cult",
-            "link": "https://seangoedecke.com/impro/",
-            "date": "2026-07-19T00:00:00+00:00",
-            "summary": ""
-          },
-          {
-            "title": "Overtraining as the path to human-like AI",
-            "link": "https://seangoedecke.com/overtraining-as-the-path-to-human-like-ai/",
-            "date": "2026-07-18T00:00:00+00:00",
-            "summary": ""
-          },
-          {
-            "title": "What does \"playing politics\" mean for software engineers?",
-            "link": "https://seangoedecke.com/playing-politics/",
-            "date": "2026-07-14T00:00:00+00:00",
-            "summary": ""
-          },
-          {
-            "title": "In defense of not understanding your codebase",
-            "link": "https://seangoedecke.com/in-defense-of-not-understanding-your-codebase/",
-            "date": "2026-07-11T00:00:00+00:00",
-            "summary": ""
-          },
-          {
-            "title": "Blog about things you don't understand yet",
-            "link": "https://seangoedecke.com/blog-about-things-you-dont-understand-yet/",
-            "date": "2026-07-07T00:00:00+00:00",
-            "summary": ""
-          }
-        ]
+        "status": "error",
+        "error": "timeout",
+        "items": []
       },
       {
         "id": "krebsonsecurity",
@@ -762,7 +702,7 @@
         "home": "https://krebsonsecurity.com/",
         "url": "https://krebsonsecurity.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-08-05T00:03:35.380257+00:00",
+        "fetchedAt": "2026-08-05T04:10:04.249272+00:00",
         "items": [
           {
             "title": "Read This Before You Buy That TV Streaming Stick",
@@ -833,7 +773,7 @@
         "home": "https://daringfireball.net/",
         "url": "https://daringfireball.net/feeds/main",
         "status": "ok",
-        "fetchedAt": "2026-08-05T00:03:35.366389+00:00",
+        "fetchedAt": "2026-08-05T04:10:04.242908+00:00",
         "items": [
           {
             "title": "★ OpenAI Responds to Apple’s Lawsuit and Motion for Preliminary Injunction: ‘Apple Is Getting This Wrong’",
@@ -904,7 +844,7 @@
         "home": "https://ericmigi.com/",
         "url": "https://ericmigi.com/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-05T00:03:35.312632+00:00",
+        "fetchedAt": "2026-08-05T04:10:04.302180+00:00",
         "items": [
           {
             "title": "Index 01 Is In Mass Production!",
@@ -975,7 +915,7 @@
         "home": "http://antirez.com/",
         "url": "http://antirez.com/rss",
         "status": "ok",
-        "fetchedAt": "2026-08-05T00:03:37.947947+00:00",
+        "fetchedAt": "2026-08-05T04:10:06.473795+00:00",
         "items": [
           {
             "title": "The real AI risk is inside the labs",
@@ -1046,7 +986,7 @@
         "home": "https://idiallo.com/",
         "url": "https://idiallo.com/feed.rss",
         "status": "ok",
-        "fetchedAt": "2026-08-05T00:03:35.799330+00:00",
+        "fetchedAt": "2026-08-05T04:10:04.365720+00:00",
         "items": [
           {
             "title": "Invisible Problems",
@@ -1117,7 +1057,7 @@
         "home": "https://maurycyz.com/",
         "url": "https://maurycyz.com/index.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-05T00:03:36.312041+00:00",
+        "fetchedAt": "2026-08-05T04:10:04.963775+00:00",
         "items": []
       },
       {
@@ -1127,7 +1067,7 @@
         "home": "https://pluralistic.net/",
         "url": "https://pluralistic.net/feed/",
         "status": "ok",
-        "fetchedAt": "2026-08-05T00:03:38.571274+00:00",
+        "fetchedAt": "2026-08-05T04:10:06.417425+00:00",
         "items": [
           {
             "title": "Pluralistic: Post-American compute for a post-American Internet (04 Aug 2026)",
@@ -1198,7 +1138,7 @@
         "home": "https://shkspr.mobi/blog/",
         "url": "https://shkspr.mobi/blog/feed/",
         "status": "ok",
-        "fetchedAt": "2026-08-05T00:03:36.491505+00:00",
+        "fetchedAt": "2026-08-05T04:10:05.418569+00:00",
         "items": [
           {
             "title": "Gig Review: Belle & Sebastian - If You’re Feeling Sinister at Margate Dreamland ★★★★★",
@@ -1279,7 +1219,7 @@
         "home": "https://mitchellh.com/",
         "url": "https://mitchellh.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-05T00:03:35.868770+00:00",
+        "fetchedAt": "2026-08-05T04:10:04.465806+00:00",
         "items": [
           {
             "title": "Superlogical",
@@ -1350,7 +1290,7 @@
         "home": "https://dynomight.net/",
         "url": "https://dynomight.net/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-05T00:03:35.654832+00:00",
+        "fetchedAt": "2026-08-05T04:10:05.074507+00:00",
         "items": [
           {
             "title": "Indirect lessons from human alignment",
@@ -1421,19 +1361,19 @@
         "home": "https://xeiaso.net/",
         "url": "https://xeiaso.net/blog.rss",
         "status": "ok",
-        "fetchedAt": "2026-08-05T00:03:36.164412+00:00",
+        "fetchedAt": "2026-08-05T04:10:05.247300+00:00",
         "items": [
-          {
-            "title": "You should probably check on your smart appliances",
-            "link": "https://xeiaso.net/notes/2026/check-your-smart-tv/",
-            "date": "2026-07-14T00:00:00+00:00",
-            "summary": "TL;DR: is your refrigerator running malware? If so, you better catch it!"
-          },
           {
             "title": "Presigned URLs are technically a security vuln",
             "link": "https://www.tigrisdata.com/blog/presigned-urls-security-vuln/",
             "date": "2026-07-14T00:00:00+00:00",
             "summary": ""
+          },
+          {
+            "title": "You should probably check on your smart appliances",
+            "link": "https://xeiaso.net/notes/2026/check-your-smart-tv/",
+            "date": "2026-07-14T00:00:00+00:00",
+            "summary": "TL;DR: is your refrigerator running malware? If so, you better catch it!"
           },
           {
             "title": "The console wars have been lost",
@@ -1478,8 +1418,8 @@
             "summary": "TL;DR: the GPU doesn't have to math as hard"
           },
           {
-            "title": "\"No way to prevent this\" say users of only language where this regularly happens",
-            "link": "https://xeiaso.net/shitposts/no-way-to-prevent-this/memory-safety/CVE-2026-45447/",
+            "title": "Giving your Go apps Tigris superpowers",
+            "link": "https://www.tigrisdata.com/blog/storage-sdk-go/",
             "date": "2026-06-09T00:00:00+00:00",
             "summary": ""
           }
@@ -1492,8 +1432,14 @@
         "home": "https://devblogs.microsoft.com/oldnewthing/",
         "url": "https://devblogs.microsoft.com/oldnewthing/feed",
         "status": "ok",
-        "fetchedAt": "2026-08-05T00:03:35.390319+00:00",
+        "fetchedAt": "2026-08-05T04:10:04.742671+00:00",
         "items": [
+          {
+            "title": "Creating a fake agile wrapper that is technically agile but is not useful outside its home apartment, part 2",
+            "link": "https://devblogs.microsoft.com/oldnewthing/20260804-00/?p=112586",
+            "date": "2026-08-04T14:00:00+00:00",
+            "summary": "Using a reference stored in the global interface table. The post Creating a fake agile wrapper that is technically agile but is not useful outside its home apartment, part 2 appeared first on The Old New Thing."
+          },
           {
             "title": "Creating a fake agile wrapper that is technically agile but is not useful outside its home apartment, part 1",
             "link": "https://devblogs.microsoft.com/oldnewthing/20260803-00/?p=112582",
@@ -1547,12 +1493,6 @@
             "link": "https://devblogs.microsoft.com/oldnewthing/20260722-00/?p=112552",
             "date": "2026-07-22T14:00:00+00:00",
             "summary": "The object that actively refuses to be marshaled. The post Making an agile version of a Windows Runtime delegate in C++/WinRT, part 3 appeared first on The Old New Thing."
-          },
-          {
-            "title": "Making an agile version of a Windows Runtime delegate in C++/WinRT, part 2",
-            "link": "https://devblogs.microsoft.com/oldnewthing/20260721-00/?p=112550",
-            "date": "2026-07-21T14:00:00+00:00",
-            "summary": "Short-circuiting the easiest case. The post Making an agile version of a Windows Runtime delegate in C++/WinRT, part 2 appeared first on The Old New Thing."
           }
         ]
       },
@@ -1563,7 +1503,7 @@
         "home": "https://www.righto.com/",
         "url": "https://www.righto.com/feeds/posts/default",
         "status": "ok",
-        "fetchedAt": "2026-08-05T00:03:35.819691+00:00",
+        "fetchedAt": "2026-08-05T04:10:04.784057+00:00",
         "items": []
       },
       {
@@ -1573,7 +1513,7 @@
         "home": "https://lucumr.pocoo.org/",
         "url": "https://lucumr.pocoo.org/feed.atom",
         "status": "ok",
-        "fetchedAt": "2026-08-05T00:03:35.678026+00:00",
+        "fetchedAt": "2026-08-05T04:10:04.723272+00:00",
         "items": [
           {
             "title": "Codeberg Divides",
@@ -1644,7 +1584,7 @@
         "home": "https://skyfall.dev/",
         "url": "https://skyfall.dev/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-05T00:03:35.937938+00:00",
+        "fetchedAt": "2026-08-05T04:10:04.899265+00:00",
         "items": [
           {
             "title": "Good riddance, 4o",
@@ -1719,7 +1659,7 @@
         "home": "https://overreacted.io/",
         "url": "https://overreacted.io/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-05T00:03:35.916712+00:00",
+        "fetchedAt": "2026-08-05T04:10:04.565619+00:00",
         "items": [
           {
             "title": "There Are No Instances in atproto",
@@ -1790,10 +1730,10 @@
         "home": "https://www.johndcook.com/",
         "url": "https://www.johndcook.com/blog/feed/",
         "status": "ok",
-        "fetchedAt": "2026-08-05T00:03:36.047452+00:00",
+        "fetchedAt": "2026-08-05T04:10:04.627194+00:00",
         "items": [
           {
-            "title": "Metallic alchemy",
+            "title": "Mathematical alchemy",
             "link": "https://www.johndcook.com/blog/2026/08/04/metallic-alchemy/",
             "date": "2026-08-04T13:18:58+00:00",
             "summary": "After writing the previous post about metallic ratios, I thought about the analogy to alchemy and the attempt to make precious metals out of base metals. When can you make one metallic ratio out of another? Can you make the golden ratio out of the lead ratio? Before we can make gold out of lead, [&#"
@@ -1861,7 +1801,7 @@
         "home": "https://matklad.github.io/",
         "url": "https://matklad.github.io/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-05T00:03:35.844986+00:00",
+        "fetchedAt": "2026-08-05T04:10:04.385989+00:00",
         "items": [
           {
             "title": "Memory Safety's Hardest Problem",
@@ -1932,7 +1872,7 @@
         "home": "https://eli.thegreenplace.net/",
         "url": "https://eli.thegreenplace.net/feeds/all.atom.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-05T00:03:36.097538+00:00",
+        "fetchedAt": "2026-08-05T04:10:05.056786+00:00",
         "items": [
           {
             "title": "Relative velocity and closing speed",
@@ -1973,7 +1913,7 @@
         "home": "https://fabiensanglard.net/",
         "url": "https://fabiensanglard.net/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-05T00:03:35.828031+00:00",
+        "fetchedAt": "2026-08-05T04:10:04.383018+00:00",
         "items": [
           {
             "title": "Jurassic Park computers in excruciating detail",
@@ -2044,7 +1984,7 @@
         "home": "https://blog.miguelgrinberg.com/",
         "url": "https://blog.miguelgrinberg.com/feed",
         "status": "ok",
-        "fetchedAt": "2026-08-05T00:03:36.516877+00:00",
+        "fetchedAt": "2026-08-05T04:10:05.061488+00:00",
         "items": [
           {
             "title": "I Am Not a Reverse Centaur",
@@ -2115,7 +2055,7 @@
         "home": "https://www.troyhunt.com/",
         "url": "https://www.troyhunt.com/rss/",
         "status": "ok",
-        "fetchedAt": "2026-08-05T00:03:35.800829+00:00",
+        "fetchedAt": "2026-08-05T04:10:04.434898+00:00",
         "items": [
           {
             "title": "Welcoming the Nepalese Government to Have I Been Pwned",
@@ -2186,7 +2126,7 @@
         "home": "https://anildash.com/",
         "url": "https://anildash.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-05T00:03:35.696669+00:00",
+        "fetchedAt": "2026-08-05T04:10:04.577359+00:00",
         "items": [
           {
             "title": "Defending Privacy, Daily",
@@ -2257,7 +2197,7 @@
         "home": "https://computer.rip/",
         "url": "https://computer.rip/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-05T00:03:36.511738+00:00",
+        "fetchedAt": "2026-08-05T04:10:04.808941+00:00",
         "items": [
           {
             "title": "telephones caught in between",
@@ -2338,7 +2278,7 @@
         "home": "http://paulgraham.com/",
         "url": "http://www.aaronsw.com/2002/feeds/pgessays.rss",
         "status": "ok",
-        "fetchedAt": "2026-08-05T00:03:35.664728+00:00",
+        "fetchedAt": "2026-08-05T04:10:04.667399+00:00",
         "items": [
           {
             "title": "Superlinear Returns",
@@ -2409,7 +2349,7 @@
         "home": "https://steveblank.com/",
         "url": "https://steveblank.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-08-05T00:03:35.714394+00:00",
+        "fetchedAt": "2026-08-05T04:10:04.275731+00:00",
         "items": [
           {
             "title": "Lean Launch Pad 2026 @ Stanford – Lessons Learned Presentations",
@@ -2482,42 +2422,12 @@
         "home": "https://news.ycombinator.com/",
         "url": "https://news.ycombinator.com/rss",
         "status": "ok",
-        "fetchedAt": "2026-08-05T00:03:36.009325+00:00",
+        "fetchedAt": "2026-08-05T04:10:04.387727+00:00",
         "items": [
           {
             "title": "libexpat now funded by the City of Munich for up to 6 months",
             "link": "https://blog.hartwork.org/posts/libexpat-city-of-munich-open-source-sabbatical/",
             "date": "2026-08-04T23:18:12+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "I am retiring from fulltime writing (& pseudonymity) to launch Guardian Angel",
-            "link": "https://twitter.com/gwern/status/2084739205071343837",
-            "date": "2026-08-04T20:48:17+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "DuckDB – Data power tools for your laptop, now in Clojure (2023)",
-            "link": "https://techascent.com/blog/just-ducking-around.html",
-            "date": "2026-08-04T22:09:43+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "Mistral's Shieldstral: 3B open-weights model for multimodal moderation",
-            "link": "https://mistral.ai/news/shieldstral/",
-            "date": "2026-08-04T16:36:05+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "We finally learned to center a div, then browsers added sidebars",
-            "link": "https://seg6.space/posts/center-div/",
-            "date": "2026-08-04T22:24:00+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "Pass the Passkey: A Novel Attack Surface in Passwordless Authentication",
-            "link": "https://unit42.paloaltonetworks.com/passwordless-authentication-security-risks/",
-            "date": "2026-08-04T23:22:37+00:00",
             "summary": "Comments"
           },
           {
@@ -2527,9 +2437,39 @@
             "summary": "Comments"
           },
           {
-            "title": "AI fuels more than half of cybercrime in Africa as scams surge – Interpol",
-            "link": "https://www.africanews.com/2026/08/04/ai-fuels-more-than-half-of-cybercrime-in-africa-as-digital-scams-surge-interpol/",
-            "date": "2026-08-04T22:01:41+00:00",
+            "title": "After Losses, Retail Investors Flock to 3x Leverage as 2x Product Are Restricted",
+            "link": "https://www.asiae.co.kr/en/article/2026080416131786841",
+            "date": "2026-08-05T01:34:26+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "Eight Myths on Software Engineering and GenAI",
+            "link": "https://queue.acm.org/detail.cfm?id=3807963",
+            "date": "2026-08-04T23:50:52+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "Mistral's Shieldstral: 3B open-weights model for multimodal moderation",
+            "link": "https://mistral.ai/news/shieldstral/",
+            "date": "2026-08-04T16:36:05+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "IP and DNS Leaks in WebKit Affecting Proxy Browsers and iCloud Private Relay",
+            "link": "https://mysk.blog/2026/08/04/webkit-proxy-icloud-private-relay-ip-leak/",
+            "date": "2026-08-04T23:31:46+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "DuckDB – Data power tools for your laptop, now in Clojure (2023)",
+            "link": "https://techascent.com/blog/just-ducking-around.html",
+            "date": "2026-08-04T22:09:43+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "Zigbee vs. Matter over Thread:Understanding IoT Protocol Performance in Practice",
+            "link": "https://arxiv.org/abs/2603.04221",
+            "date": "2026-08-05T00:10:37+00:00",
             "summary": "Comments"
           },
           {
@@ -2539,9 +2479,9 @@
             "summary": "Comments"
           },
           {
-            "title": "In Memory of My Wife, Elise Cawley, with Thanks for 36 Wonderful Years",
-            "link": "https://writings.stephenwolfram.com/2026/08/in-memory-of-my-wife-elise-cawley-1961-2026-with-thanks-for-36-wonderful-years/",
-            "date": "2026-08-04T18:51:38+00:00",
+            "title": "Show HN: Maple-Preview – ternary 20B MoE running at 120 tok/s on a iPhone",
+            "link": "https://deepgrove.ai/maple-preview",
+            "date": "2026-08-04T19:44:55+00:00",
             "summary": "Comments"
           }
         ]
@@ -2553,8 +2493,32 @@
         "home": "https://www.techmeme.com/",
         "url": "https://www.techmeme.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-05T00:03:35.604022+00:00",
+        "fetchedAt": "2026-08-05T04:10:05.100131+00:00",
         "items": [
+          {
+            "title": "Cloudflare announces Cloudflare Wallets for users to pay for APIs and content via stablecoins, with the ability to create virtual wallets for agentic shopping (Jeff John Roberts/Fortune)",
+            "link": "https://www.techmeme.com/260804/p57#a260804p57",
+            "date": "2026-08-04T23:10:00-04:00",
+            "summary": "Jeff John Roberts / Fortune: Cloudflare announces Cloudflare Wallets for users to pay for APIs and content via stablecoins, with the ability to create virtual wallets for agentic shopping&nbsp; &mdash;&nbsp; The field of agentic commerce&mdash;a term that describes the use of bots for online buying "
+          },
+          {
+            "title": "The AI frenzy has divided the VC market, as the gap between top and bottom performers has more than doubled for 2024 funds compared to funds from 2017 to 2021 (Bloomberg)",
+            "link": "https://www.techmeme.com/260804/p56#a260804p56",
+            "date": "2026-08-04T22:15:00-04:00",
+            "summary": "Bloomberg: The AI frenzy has divided the VC market, as the gap between top and bottom performers has more than doubled for 2024 funds compared to funds from 2017 to 2021&nbsp; &mdash;&nbsp; Early last year, venture capital firm Felix Capital set out to raise $600 million for its next fund, touting p"
+          },
+          {
+            "title": "SpaceX reports Q2 revenue from connectivity, which includes Starlink, up 66% YoY to $4.29B vs. $3.83B est., Starlink subscribers up 100% to 12M vs. 12.19M est. (Todd Bishop/GeekWire)",
+            "link": "https://www.techmeme.com/260804/p55#a260804p55",
+            "date": "2026-08-04T21:30:01-04:00",
+            "summary": "Todd Bishop / GeekWire: SpaceX reports Q2 revenue from connectivity, which includes Starlink, up 66% YoY to $4.29B vs. $3.83B est., Starlink subscribers up 100% to 12M vs. 12.19M est.&nbsp; &mdash;&nbsp; The satellites rolling off the line in Redmond, Wash., are paying for Elon Musk's AI ambitions &"
+          },
+          {
+            "title": "House panel report: US telcos connected their systems to data centers in a way that exposed them to vulnerabilities, potentially enabling Salt Typhoon hacks (Kelcee Griffis/Bloomberg)",
+            "link": "https://www.techmeme.com/260804/p54#a260804p54",
+            "date": "2026-08-04T20:20:03-04:00",
+            "summary": "Kelcee Griffis / Bloomberg: House panel report: US telcos connected their systems to data centers in a way that exposed them to vulnerabilities, potentially enabling Salt Typhoon hacks&nbsp; &mdash;&nbsp; US telecommunications companies connected their systems to data centers and related infrastruct"
+          },
           {
             "title": "OpenAI says one of its models exploited a website after third-party AI security lab Irregular mistakenly gave it access to the internet during evaluations (Wired)",
             "link": "https://www.techmeme.com/260804/p53#a260804p53",
@@ -2590,30 +2554,6 @@
             "link": "https://www.techmeme.com/260804/p48#a260804p48",
             "date": "2026-08-04T17:30:02-04:00",
             "summary": "Sam Sabin / Axios: The UK AISI says it observed a total of 19 instances where Mythos and GPT-5.6 Sol tried to hack people and companies during a routine cyber evaluation in July&nbsp; &mdash;&nbsp; The U.K. AI Security Institute said it observed nearly 20 instances of Anthropic and OpenAI's most adv"
-          },
-          {
-            "title": "Sources: the US' AI framework excludes open models and defines a covered frontier model as closed source with SOTA capabilities and national security risks (Maria Curi/Axios)",
-            "link": "https://www.techmeme.com/260804/p47#a260804p47",
-            "date": "2026-08-04T17:25:00-04:00",
-            "summary": "Maria Curi / Axios: Sources: the US' AI framework excludes open models and defines a covered frontier model as closed source with SOTA capabilities and national security risks&nbsp; &mdash;&nbsp; The White House is excluding open models from its framework to test advanced AI capabilities, sources fa"
-          },
-          {
-            "title": "SpaceX says its Q2 capex was $18.4B, up from $2.8B a year ago, including $15.8B for AI; SPCX drops 6%+ after hours (Micah Maidenberg/Wall Street Journal)",
-            "link": "https://www.techmeme.com/260804/p46#a260804p46",
-            "date": "2026-08-04T17:15:04-04:00",
-            "summary": "Micah Maidenberg / Wall Street Journal: SpaceX says its Q2 capex was $18.4B, up from $2.8B a year ago, including $15.8B for AI; SPCX drops 6%+ after hours&nbsp; &mdash;&nbsp; SpaceX laid out $18.4 billion in capital investments during the April-to-June quarter, with most of the spending supporting a"
-          },
-          {
-            "title": "SpaceX reports Q2 revenue of $4.29B from its connectivity division, which includes Starlink, $100B of cash and marketable securities, and a $47.5B order backlog (Nathan Bomey/Axios)",
-            "link": "https://www.techmeme.com/260804/p45#a260804p45",
-            "date": "2026-08-04T17:10:01-04:00",
-            "summary": "Nathan Bomey / Axios: SpaceX reports Q2 revenue of $4.29B from its connectivity division, which includes Starlink, $100B of cash and marketable securities, and a $47.5B order backlog&nbsp; &mdash;&nbsp; SpaceX exceeded revenue expectations and reduced its losses in its initial quarter as a publicly "
-          },
-          {
-            "title": "Pinterest reports Q2 revenue up 18% YoY to $1.18B, vs. $1.15B est., MAUs up 11% to 640M, forecasts Q3 revenue in line with estimates; PINS drops 8%+ after hours (Jonathan Vanian/CNBC)",
-            "link": "https://www.techmeme.com/260804/p44#a260804p44",
-            "date": "2026-08-04T17:06:12-04:00",
-            "summary": "Jonathan Vanian / CNBC: Pinterest reports Q2 revenue up 18% YoY to $1.18B, vs. $1.15B est., MAUs up 11% to 640M, forecasts Q3 revenue in line with estimates; PINS drops 8%+ after hours&nbsp; &mdash;&nbsp; Pinterest shares fell 7% in extended trading on Tuesday after the company reported better-than-"
           }
         ]
       },
@@ -2624,7 +2564,7 @@
         "home": "https://techcrunch.com/",
         "url": "https://techcrunch.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-08-05T00:03:35.459170+00:00",
+        "fetchedAt": "2026-08-05T04:10:04.330611+00:00",
         "items": [
           {
             "title": "Elon Musk repeatedly one-upped his execs on SpaceX’s first earnings call",
@@ -2695,7 +2635,7 @@
         "home": "https://techcrunch.com/category/artificial-intelligence/",
         "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
         "status": "ok",
-        "fetchedAt": "2026-08-05T00:03:35.510140+00:00",
+        "fetchedAt": "2026-08-05T04:10:04.699348+00:00",
         "items": [
           {
             "title": "SpaceX has bought $329M worth of Tesla Megapacks so far this year",
@@ -2766,7 +2706,7 @@
         "home": "https://techcrunch.com/tag/funding/",
         "url": "https://techcrunch.com/tag/funding/feed/",
         "status": "ok",
-        "fetchedAt": "2026-08-05T00:03:35.839754+00:00",
+        "fetchedAt": "2026-08-05T04:10:04.725703+00:00",
         "items": [
           {
             "title": "AI chip maker SambaNova raises $1B at $11B valuation, 5 months after last mega round",
@@ -2837,7 +2777,7 @@
         "home": "https://venturebeat.com/",
         "url": "https://venturebeat.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-08-05T00:03:35.882079+00:00",
+        "fetchedAt": "2026-08-05T04:10:04.903013+00:00",
         "items": [
           {
             "title": "AI coding agents are blowing through budgets — Replit, Kilo Code, and Symbotic explain how they're managing it",
@@ -2890,7 +2830,7 @@
         "home": "https://venturebeat.com/category/ai/",
         "url": "https://venturebeat.com/category/ai/feed/",
         "status": "ok",
-        "fetchedAt": "2026-08-05T00:03:35.888161+00:00",
+        "fetchedAt": "2026-08-05T04:10:04.898181+00:00",
         "items": [
           {
             "title": "Google just redesigned the search box for the first time in 25 years — here’s why it matters more than you think.",
@@ -2945,7 +2885,7 @@
         "home": "https://www.ruanyifeng.com/blog/",
         "url": "https://www.ruanyifeng.com/blog/atom.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-05T00:03:35.873911+00:00",
+        "fetchedAt": "2026-08-05T04:10:04.321227+00:00",
         "items": [
           {
             "title": "科技爱好者周刊（第 406 期）：道可，道非，常道",
@@ -2974,7 +2914,7 @@
         "home": "https://www.bestblogs.dev/",
         "url": "https://www.bestblogs.dev/zh/feeds/rss?category=ai&minScore=90",
         "status": "ok",
-        "fetchedAt": "2026-08-05T00:03:36.869354+00:00",
+        "fetchedAt": "2026-08-05T04:10:05.299474+00:00",
         "items": [
           {
             "title": "腾讯把 Agent 记忆系统开源了，TencentDB Agent Memory 实测！",
@@ -3042,6 +2982,226 @@
   },
   "allItems": [
     {
+      "title": "After Losses, Retail Investors Flock to 3x Leverage as 2x Product Are Restricted",
+      "link": "https://www.asiae.co.kr/en/article/2026080416131786841",
+      "date": "2026-08-05T01:34:26+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "Zigbee vs. Matter over Thread:Understanding IoT Protocol Performance in Practice",
+      "link": "https://arxiv.org/abs/2603.04221",
+      "date": "2026-08-05T00:10:37+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "ISEE: Interactive Semantic Enrichment for Database Fields",
+      "link": "https://arxiv.org/abs/2608.02604",
+      "date": "2026-08-05T00:00:00-04:00",
+      "summary": "arXiv:2608.02604v1 Announce Type: new Abstract: LLM-based agents are increasingly being deployed for data-related tasks, including data sense-making, exploration, and retrieval. However, their performance heavily depends on the clarity and completeness of data semantics. In practice, many field desc",
+      "feedId": "arxiv-ai",
+      "feedTitle": "arXiv cs.AI",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.AI/recent"
+    },
+    {
+      "title": "Self-Organising Digital Circuits",
+      "link": "https://arxiv.org/abs/2608.02606",
+      "date": "2026-08-05T00:00:00-04:00",
+      "summary": "arXiv:2608.02606v1 Announce Type: new Abstract: Fault tolerance in classical computing has traditionally relied on static strategies like hardware redundancy and error-correcting codes. Biological systems, in contrast, exhibit adaptive plasticity, maintaining function through dynamic re-organisation",
+      "feedId": "arxiv-ai",
+      "feedTitle": "arXiv cs.AI",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.AI/recent"
+    },
+    {
+      "title": "Beyond the Hivemind: Escaping LLM Homogeneity via Meta-Persona Anchoring and Sequential Temperature Scaling",
+      "link": "https://arxiv.org/abs/2608.02618",
+      "date": "2026-08-05T00:00:00-04:00",
+      "summary": "arXiv:2608.02618v1 Announce Type: new Abstract: Recent studies have identified an ``Artificial Hivemind'' effect in Large Language Models (LLMs) causing models to converge on a narrow, homogenized consensus even for open questions. This semantic collapse limits the diversity of AI, resulting in high",
+      "feedId": "arxiv-ai",
+      "feedTitle": "arXiv cs.AI",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.AI/recent"
+    },
+    {
+      "title": "PULSE: An Executable Contract Language for Spatiotemporal Knowledge Graph Engineering",
+      "link": "https://arxiv.org/abs/2608.02630",
+      "date": "2026-08-05T00:00:00-04:00",
+      "summary": "arXiv:2608.02630v1 Announce Type: new Abstract: Knowledge graph engineering often distributes accepted state, observations, constraints, processes, and hypothetical scenarios across artifacts whose combined execution contract remains external. We present PULSE, an Object-Process-Methodology-inspired",
+      "feedId": "arxiv-ai",
+      "feedTitle": "arXiv cs.AI",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.AI/recent"
+    },
+    {
+      "title": "HyperAgent: Planning and Acting over Tool-Schema Hypergraphs for Tool-Use LLM Agents",
+      "link": "https://arxiv.org/abs/2608.02650",
+      "date": "2026-08-05T00:00:00-04:00",
+      "summary": "arXiv:2608.02650v1 Announce Type: new Abstract: Large language model (LLM) agents increasingly rely on external tools to complete complex real-world tasks. However, reliable tool-use planning remains challenging due to the limitations of implicit reasoning and the evolving nature of real-world execu",
+      "feedId": "arxiv-ai",
+      "feedTitle": "arXiv cs.AI",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.AI/recent"
+    },
+    {
+      "title": "Explainable AI for the EU Right to Explanation: A Systematic Review of the Law-XAI Translation Gap",
+      "link": "https://arxiv.org/abs/2608.02699",
+      "date": "2026-08-05T00:00:00-04:00",
+      "summary": "arXiv:2608.02699v1 Announce Type: new Abstract: When algorithms make or influence consequential decisions---about loan eligibility, hiring, or healthcare---EU law grants affected individuals a Right to Explanation. Yet whether (and how) Explainable AI (XAI) can satisfy this right in practice remains",
+      "feedId": "arxiv-ai",
+      "feedTitle": "arXiv cs.AI",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.AI/recent"
+    },
+    {
+      "title": "Predictive Set Theory: A Generative Framework for Cognitive Architecture with Operationalized Core Mechanisms",
+      "link": "https://arxiv.org/abs/2608.02704",
+      "date": "2026-08-05T00:00:00-04:00",
+      "summary": "arXiv:2608.02704v1 Announce Type: new Abstract: Predictive processing theories portray the brain as a hierarchical prediction engine that minimizes prediction error, yet they lack operational definitions for the structure of a \"prediction,\" the standardized response to a prediction error, and the me",
+      "feedId": "arxiv-ai",
+      "feedTitle": "arXiv cs.AI",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.AI/recent"
+    },
+    {
+      "title": "Towards a new paradigm of scientific discovery with socialized artificial intelligence",
+      "link": "https://arxiv.org/abs/2608.02775",
+      "date": "2026-08-05T00:00:00-04:00",
+      "summary": "arXiv:2608.02775v1 Announce Type: new Abstract: Scientific discovery has advanced through successive transformations in the organization of knowledge. Observation and experimentation established the empirical foundations of science. Theory made it possible to derive general principles from particula",
+      "feedId": "arxiv-ai",
+      "feedTitle": "arXiv cs.AI",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.AI/recent"
+    },
+    {
+      "title": "BAP-SQL: Budget-Aware Observation Planning for Agentic Text-to-SQL",
+      "link": "https://arxiv.org/abs/2608.02876",
+      "date": "2026-08-05T00:00:00-04:00",
+      "summary": "arXiv:2608.02876v1 Announce Type: new Abstract: Tool-using agents do not merely consume observations: their actions determine what arrives next. In agentic text-to-SQL, a broad query can spend context and database work before useful evidence appears, while post-hoc compression cannot recover omitted",
+      "feedId": "arxiv-ai",
+      "feedTitle": "arXiv cs.AI",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.AI/recent"
+    },
+    {
+      "title": "VeriTrace: Human-Like Temporal Exploration Completes Agentic Action Space",
+      "link": "https://arxiv.org/abs/2608.02878",
+      "date": "2026-08-05T00:00:00-04:00",
+      "summary": "arXiv:2608.02878v1 Announce Type: new Abstract: Large language models have shown promise for automated Verilog RTL generation, yet state-of-the-art multi-agent systems plateau at ~95% accuracy on standard benchmarks. We trace this ceiling to an incomplete debugging action space: existing systems res",
+      "feedId": "arxiv-ai",
+      "feedTitle": "arXiv cs.AI",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.AI/recent"
+    },
+    {
+      "title": "Deep Divide-and-Reduce in Symbolic Regression",
+      "link": "https://arxiv.org/abs/2608.02628",
+      "date": "2026-08-05T00:00:00-04:00",
+      "summary": "arXiv:2608.02628v1 Announce Type: new Abstract: Symbolic regression (SR) is the task of discovering underlying patterns from data and representing them using mathematical expressions. Current machine learning approaches to SR often lack a profound understanding of the intrinsic mathematical and phys",
+      "feedId": "arxiv-lg",
+      "feedTitle": "arXiv cs.LG",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.LG/recent"
+    },
+    {
+      "title": "Multimodal Auto-regressive Transformer Surrogate for Modeling Variable Operations and Quantifying Uncertainty in Geological Carbon Storage",
+      "link": "https://arxiv.org/abs/2608.02629",
+      "date": "2026-08-05T00:00:00-04:00",
+      "summary": "arXiv:2608.02629v1 Announce Type: new Abstract: The use of variable well perforation and injection strategies can improve the efficiency of geological carbon storage operations. We develop a new multimodal auto-regressive transformer surrogate to model these operations under geological uncertainty. ",
+      "feedId": "arxiv-lg",
+      "feedTitle": "arXiv cs.LG",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.LG/recent"
+    },
+    {
+      "title": "LLMs Can Annotate Attribution Graphs",
+      "link": "https://arxiv.org/abs/2608.02632",
+      "date": "2026-08-05T00:00:00-04:00",
+      "summary": "arXiv:2608.02632v1 Announce Type: new Abstract: Circuit tracing is an exciting technique for revealing the internal computation of language models, but it requires a time-intensive manual step of grouping individual features or MLP neurons into supernodes. We present a simple pipeline for automating",
+      "feedId": "arxiv-lg",
+      "feedTitle": "arXiv cs.LG",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.LG/recent"
+    },
+    {
+      "title": "GeoID-PINN: Identifiability-Aware Regional Epidemic Inference with Geographic Coupling",
+      "link": "https://arxiv.org/abs/2608.02633",
+      "date": "2026-08-05T00:00:00-04:00",
+      "summary": "arXiv:2608.02633v1 Announce Type: new Abstract: Regional surveillance data reflect local transmission, reporting, seeding, and external infection pressure, which are difficult to identify separately. We introduce GeoID-PINN, a physics-informed neural network (PINN) for susceptible-infectious-recover",
+      "feedId": "arxiv-lg",
+      "feedTitle": "arXiv cs.LG",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.LG/recent"
+    },
+    {
+      "title": "Verifier-Guided Model Discovery for Physical Dynamical Systems with Pretrained Symbolic Transformers",
+      "link": "https://arxiv.org/abs/2608.02662",
+      "date": "2026-08-05T00:00:00-04:00",
+      "summary": "arXiv:2608.02662v1 Announce Type: new Abstract: Reliable forecasting of nonlinear physical systems underpins scientific discovery and engineering decision-making. Yet high-fidelity simulations are prohibitively costly, and machine-learning surrogates can be opaque and encode assumptions about system",
+      "feedId": "arxiv-lg",
+      "feedTitle": "arXiv cs.LG",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.LG/recent"
+    },
+    {
+      "title": "CT-HEG: A Bidirectional, Timestamp-Attributed Event Graph for ICU In-Hospital Mortality Prediction - An Architectural Ablation Study",
+      "link": "https://arxiv.org/abs/2608.02663",
+      "date": "2026-08-05T00:00:00-04:00",
+      "summary": "arXiv:2608.02663v1 Announce Type: new Abstract: Accurate ICU mortality prediction requires modeling irregular clinical observations across heterogeneous entity types. Existing sequence models handle irregular sampling but ignore typed relational structure; existing graph models assume fixed-interval",
+      "feedId": "arxiv-lg",
+      "feedTitle": "arXiv cs.LG",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.LG/recent"
+    },
+    {
+      "title": "Sphere Retraction Normalizations",
+      "link": "https://arxiv.org/abs/2608.02668",
+      "date": "2026-08-05T00:00:00-04:00",
+      "summary": "arXiv:2608.02668v1 Announce Type: new Abstract: Residual connections are the de facto mechanism for training deep neural networks stably. Geodesic Normalization (GeoNorm) recasts them on a Riemannian manifold, orthogonalizing each layer output against the current hidden state and applying the result",
+      "feedId": "arxiv-lg",
+      "feedTitle": "arXiv cs.LG",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.LG/recent"
+    },
+    {
+      "title": "Learning Molecular Representations from Cellular Phenotypes with Structure Preservation",
+      "link": "https://arxiv.org/abs/2608.02688",
+      "date": "2026-08-05T00:00:00-04:00",
+      "summary": "arXiv:2608.02688v1 Announce Type: new Abstract: Phenotypic drug discovery enables the discovery of functional relationships between molecular structures and cellular responses. However, existing multimodal representation learning methods often optimize cross-modal alignment without considering the i",
+      "feedId": "arxiv-lg",
+      "feedTitle": "arXiv cs.LG",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.LG/recent"
+    },
+    {
+      "title": "GLOBE: Trajectory-Aligned Gradient Matching with Structured SparseOptimization for Coreset Selection",
+      "link": "https://arxiv.org/abs/2608.02690",
+      "date": "2026-08-05T00:00:00-04:00",
+      "summary": "arXiv:2608.02690v1 Announce Type: new Abstract: On-device training of deep neural networks is fundamentally constrained by the computational and memory costs of large-scale datasets. Coreset selection offers a practical solution by retaining only a compact subset of real training samples. However, e",
+      "feedId": "arxiv-lg",
+      "feedTitle": "arXiv cs.LG",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.LG/recent"
+    },
+    {
+      "title": "Output-Aware Rotation for INT2 KV-Cache Quantization",
+      "link": "https://arxiv.org/abs/2608.02691",
+      "date": "2026-08-05T00:00:00-04:00",
+      "summary": "arXiv:2608.02691v1 Announce Type: new Abstract: The key-value (KV) cache has become a major memory and bandwidth bottleneck in long-context large language model inference, making ultra-low-bit quantization increasingly important. However, existing rotation-based INT2 methods optimize cache statistic",
+      "feedId": "arxiv-lg",
+      "feedTitle": "arXiv cs.LG",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.LG/recent"
+    },
+    {
       "title": "New release of LLM adds support for reasoning traces, OpenAI Responses, server-side tools, and smarter logging",
       "link": "https://simonwillison.net/2026/Aug/4/new-release-of-llm/#atom-everything",
       "date": "2026-08-04T23:58:24+00:00",
@@ -3052,9 +3212,19 @@
       "feedHome": "https://simonwillison.net/"
     },
     {
-      "title": "Pass the Passkey: A Novel Attack Surface in Passwordless Authentication",
-      "link": "https://unit42.paloaltonetworks.com/passwordless-authentication-security-risks/",
-      "date": "2026-08-04T23:22:37+00:00",
+      "title": "Eight Myths on Software Engineering and GenAI",
+      "link": "https://queue.acm.org/detail.cfm?id=3807963",
+      "date": "2026-08-04T23:50:52+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "IP and DNS Leaks in WebKit Affecting Proxy Browsers and iCloud Private Relay",
+      "link": "https://mysk.blog/2026/08/04/webkit-proxy-icloud-private-relay-ip-leak/",
+      "date": "2026-08-04T23:31:46+00:00",
       "summary": "Comments",
       "feedId": "hackernews",
       "feedTitle": "Hacker News",
@@ -3082,6 +3252,16 @@
       "feedHome": "https://daringfireball.net/"
     },
     {
+      "title": "Cloudflare announces Cloudflare Wallets for users to pay for APIs and content via stablecoins, with the ability to create virtual wallets for agentic shopping (Jeff John Roberts/Fortune)",
+      "link": "https://www.techmeme.com/260804/p57#a260804p57",
+      "date": "2026-08-04T23:10:00-04:00",
+      "summary": "Jeff John Roberts / Fortune: Cloudflare announces Cloudflare Wallets for users to pay for APIs and content via stablecoins, with the ability to create virtual wallets for agentic shopping&nbsp; &mdash;&nbsp; The field of agentic commerce&mdash;a term that describes the use of bots for online buying ",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
       "title": "Elon Musk repeatedly one-upped his execs on SpaceX’s first earnings call",
       "link": "https://techcrunch.com/2026/08/04/elon-musk-repeatedly-one-upped-his-execs-on-spacexs-first-earnings-call/",
       "date": "2026-08-04T22:30:58+00:00",
@@ -3090,16 +3270,6 @@
       "feedTitle": "TechCrunch",
       "category": "Startup & News",
       "feedHome": "https://techcrunch.com/"
-    },
-    {
-      "title": "We finally learned to center a div, then browsers added sidebars",
-      "link": "https://seg6.space/posts/center-div/",
-      "date": "2026-08-04T22:24:00+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
     },
     {
       "title": "Lucid’s turnaround plan hinges on $1.4B in cash savings, robotaxis",
@@ -3132,6 +3302,16 @@
       "feedHome": "https://techcrunch.com/"
     },
     {
+      "title": "The AI frenzy has divided the VC market, as the gap between top and bottom performers has more than doubled for 2024 funds compared to funds from 2017 to 2021 (Bloomberg)",
+      "link": "https://www.techmeme.com/260804/p56#a260804p56",
+      "date": "2026-08-04T22:15:00-04:00",
+      "summary": "Bloomberg: The AI frenzy has divided the VC market, as the gap between top and bottom performers has more than doubled for 2024 funds compared to funds from 2017 to 2021&nbsp; &mdash;&nbsp; Early last year, venture capital firm Felix Capital set out to raise $600 million for its next fund, touting p",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
       "title": "DuckDB – Data power tools for your laptop, now in Clojure (2023)",
       "link": "https://techascent.com/blog/just-ducking-around.html",
       "date": "2026-08-04T22:09:43+00:00",
@@ -3142,14 +3322,24 @@
       "feedHome": "https://news.ycombinator.com/"
     },
     {
-      "title": "AI fuels more than half of cybercrime in Africa as scams surge – Interpol",
-      "link": "https://www.africanews.com/2026/08/04/ai-fuels-more-than-half-of-cybercrime-in-africa-as-digital-scams-surge-interpol/",
-      "date": "2026-08-04T22:01:41+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
+      "title": "llm-anthropic 0.26",
+      "link": "https://simonwillison.net/2026/Aug/4/llm-anthropic/#atom-everything",
+      "date": "2026-08-04T22:00:58+00:00",
+      "summary": "Release: llm-anthropic 0.26 Includes new features enabled by LLM 0.32: New models: claude-fable-5, claude-sonnet-5, and claude-opus-5. #75, #76 Added server-side tools for WebSearch, WebFetch, CodeExecution, and AnthropicMCP, available through LLM's -T interface or Python tools=. The previous -o web",
+      "feedId": "simonwillison",
+      "feedTitle": "Simon Willison",
+      "category": "AI & LLM",
+      "feedHome": "https://simonwillison.net/"
+    },
+    {
+      "title": "SpaceX reports Q2 revenue from connectivity, which includes Starlink, up 66% YoY to $4.29B vs. $3.83B est., Starlink subscribers up 100% to 12M vs. 12.19M est. (Todd Bishop/GeekWire)",
+      "link": "https://www.techmeme.com/260804/p55#a260804p55",
+      "date": "2026-08-04T21:30:01-04:00",
+      "summary": "Todd Bishop / GeekWire: SpaceX reports Q2 revenue from connectivity, which includes Starlink, up 66% YoY to $4.29B vs. $3.83B est., Starlink subscribers up 100% to 12M vs. 12.19M est.&nbsp; &mdash;&nbsp; The satellites rolling off the line in Redmond, Wash., are paying for Elon Musk's AI ambitions &",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
       "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
+      "feedHome": "https://www.techmeme.com/"
     },
     {
       "title": "SpaceX has bought $329M worth of Tesla Megapacks so far this year",
@@ -3172,16 +3362,6 @@
       "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
     },
     {
-      "title": "I am retiring from fulltime writing (& pseudonymity) to launch Guardian Angel",
-      "link": "https://twitter.com/gwern/status/2084739205071343837",
-      "date": "2026-08-04T20:48:17+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
       "title": "SpaceX doubles revenue on Anthropic and Google compute deals, Starlink growth",
       "link": "https://techcrunch.com/2026/08/04/spacex-doubles-revenues-on-anthropic-and-google-compute-deals-starlink-growth/",
       "date": "2026-08-04T20:36:30+00:00",
@@ -3200,6 +3380,16 @@
       "feedTitle": "TechCrunch",
       "category": "Startup & News",
       "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "House panel report: US telcos connected their systems to data centers in a way that exposed them to vulnerabilities, potentially enabling Salt Typhoon hacks (Kelcee Griffis/Bloomberg)",
+      "link": "https://www.techmeme.com/260804/p54#a260804p54",
+      "date": "2026-08-04T20:20:03-04:00",
+      "summary": "Kelcee Griffis / Bloomberg: House panel report: US telcos connected their systems to data centers in a way that exposed them to vulnerabilities, potentially enabling Salt Typhoon hacks&nbsp; &mdash;&nbsp; US telecommunications companies connected their systems to data centers and related infrastruct",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
     },
     {
       "title": "Open-weight AI models are catching up to the frontier. The safety gap remains.",
@@ -3250,6 +3440,16 @@
       "feedTitle": "Techmeme",
       "category": "Startup & News",
       "feedHome": "https://www.techmeme.com/"
+    },
+    {
+      "title": "Show HN: Maple-Preview – ternary 20B MoE running at 120 tok/s on a iPhone",
+      "link": "https://deepgrove.ai/maple-preview",
+      "date": "2026-08-04T19:44:55+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
     },
     {
       "title": "Meet Wrinkles, an app that uncovers the hidden stories of the places around you",
@@ -3352,16 +3552,6 @@
       "feedHome": "https://daringfireball.net/"
     },
     {
-      "title": "In Memory of My Wife, Elise Cawley, with Thanks for 36 Wonderful Years",
-      "link": "https://writings.stephenwolfram.com/2026/08/in-memory-of-my-wife-elise-cawley-1961-2026-with-thanks-for-36-wonderful-years/",
-      "date": "2026-08-04T18:51:38+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
       "title": "An internal TikTok doc shows it withheld a safeguarded algorithm from 10% of US users, including a 16-year-old who was fed self-harm content and died by suicide (Olivia Carville/Bloomberg)",
       "link": "https://www.techmeme.com/260804/p50#a260804p50",
       "date": "2026-08-04T18:25:02-04:00",
@@ -3392,16 +3582,6 @@
       "feedHome": "https://www.techmeme.com/"
     },
     {
-      "title": "Sources: the US' AI framework excludes open models and defines a covered frontier model as closed source with SOTA capabilities and national security risks (Maria Curi/Axios)",
-      "link": "https://www.techmeme.com/260804/p47#a260804p47",
-      "date": "2026-08-04T17:25:00-04:00",
-      "summary": "Maria Curi / Axios: Sources: the US' AI framework excludes open models and defines a covered frontier model as closed source with SOTA capabilities and national security risks&nbsp; &mdash;&nbsp; The White House is excluding open models from its framework to test advanced AI capabilities, sources fa",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
       "title": "AI coding agents are blowing through budgets — Replit, Kilo Code, and Symbotic explain how they're managing it",
       "link": "https://venturebeat.com/orchestration/ai-coding-agents-are-blowing-through-budgets-replit-kilo-code-and-symbotic-explain-how-theyre-managing-it",
       "date": "2026-08-04T17:16:41+00:00",
@@ -3412,34 +3592,14 @@
       "feedHome": "https://venturebeat.com/"
     },
     {
-      "title": "SpaceX says its Q2 capex was $18.4B, up from $2.8B a year ago, including $15.8B for AI; SPCX drops 6%+ after hours (Micah Maidenberg/Wall Street Journal)",
-      "link": "https://www.techmeme.com/260804/p46#a260804p46",
-      "date": "2026-08-04T17:15:04-04:00",
-      "summary": "Micah Maidenberg / Wall Street Journal: SpaceX says its Q2 capex was $18.4B, up from $2.8B a year ago, including $15.8B for AI; SPCX drops 6%+ after hours&nbsp; &mdash;&nbsp; SpaceX laid out $18.4 billion in capital investments during the April-to-June quarter, with most of the spending supporting a",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "SpaceX reports Q2 revenue of $4.29B from its connectivity division, which includes Starlink, $100B of cash and marketable securities, and a $47.5B order backlog (Nathan Bomey/Axios)",
-      "link": "https://www.techmeme.com/260804/p45#a260804p45",
-      "date": "2026-08-04T17:10:01-04:00",
-      "summary": "Nathan Bomey / Axios: SpaceX reports Q2 revenue of $4.29B from its connectivity division, which includes Starlink, $100B of cash and marketable securities, and a $47.5B order backlog&nbsp; &mdash;&nbsp; SpaceX exceeded revenue expectations and reduced its losses in its initial quarter as a publicly ",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "Pinterest reports Q2 revenue up 18% YoY to $1.18B, vs. $1.15B est., MAUs up 11% to 640M, forecasts Q3 revenue in line with estimates; PINS drops 8%+ after hours (Jonathan Vanian/CNBC)",
-      "link": "https://www.techmeme.com/260804/p44#a260804p44",
-      "date": "2026-08-04T17:06:12-04:00",
-      "summary": "Jonathan Vanian / CNBC: Pinterest reports Q2 revenue up 18% YoY to $1.18B, vs. $1.15B est., MAUs up 11% to 640M, forecasts Q3 revenue in line with estimates; PINS drops 8%+ after hours&nbsp; &mdash;&nbsp; Pinterest shares fell 7% in extended trading on Tuesday after the company reported better-than-",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
+      "title": "llm 0.32",
+      "link": "https://simonwillison.net/2026/Aug/4/llm/#atom-everything",
+      "date": "2026-08-04T17:15:33+00:00",
+      "summary": "Release: llm 0.32 See my detailed blog post about this release. Tags: llm",
+      "feedId": "simonwillison",
+      "feedTitle": "Simon Willison",
+      "category": "AI & LLM",
+      "feedHome": "https://simonwillison.net/"
     },
     {
       "title": "Mistral's Shieldstral: 3B open-weights model for multimodal moderation",
@@ -3542,7 +3702,17 @@
       "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
     },
     {
-      "title": "Metallic alchemy",
+      "title": "Creating a fake agile wrapper that is technically agile but is not useful outside its home apartment, part 2",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260804-00/?p=112586",
+      "date": "2026-08-04T14:00:00+00:00",
+      "summary": "Using a reference stored in the global interface table. The post Creating a fake agile wrapper that is technically agile but is not useful outside its home apartment, part 2 appeared first on The Old New Thing.",
+      "feedId": "oldnewthing",
+      "feedTitle": "The Old New Thing",
+      "category": "Tech Blogs",
+      "feedHome": "https://devblogs.microsoft.com/oldnewthing/"
+    },
+    {
+      "title": "Mathematical alchemy",
       "link": "https://www.johndcook.com/blog/2026/08/04/metallic-alchemy/",
       "date": "2026-08-04T13:18:58+00:00",
       "summary": "After writing the previous post about metallic ratios, I thought about the analogy to alchemy and the attempt to make precious metals out of base metals. When can you make one metallic ratio out of another? Can you make the golden ratio out of the lead ratio? Before we can make gold out of lead, [&#",
@@ -3620,206 +3790,6 @@
       "feedTitle": "Simon Willison",
       "category": "AI & LLM",
       "feedHome": "https://simonwillison.net/"
-    },
-    {
-      "title": "OpenClaw and Ollama in Agentic AI: Toward Fully Autonomous and Scalable AI Agent Systems",
-      "link": "https://arxiv.org/abs/2607.28629",
-      "date": "2026-08-04T00:00:00-04:00",
-      "summary": "arXiv:2607.28629v1 Announce Type: new Abstract: The rapid transition from reactive large language models (LLMs) to persistent, action-capable systems has exposed critical gaps in the architectural understanding of Agentic AI, particularly in separating inference, orchestration, and execution layers ",
-      "feedId": "arxiv-ai",
-      "feedTitle": "arXiv cs.AI",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.AI/recent"
-    },
-    {
-      "title": "Can AI Evaluate AI Scientists? A Benchmarking Study of Autonomous Research Generation Systems Using Automated Multi-Model Review",
-      "link": "https://arxiv.org/abs/2607.28631",
-      "date": "2026-08-04T00:00:00-04:00",
-      "summary": "arXiv:2607.28631v1 Announce Type: new Abstract: AI Scientist systems capable of autonomous research have the potential to significantly accelerate scientific discovery. However, evaluating and comparing the quality of AI-generated papers remains an open challenge. We propose and implement a rigorous",
-      "feedId": "arxiv-ai",
-      "feedTitle": "arXiv cs.AI",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.AI/recent"
-    },
-    {
-      "title": "LLM Framework for Discovering Major Mathematical Conjectures: AI's Quest for the Next Riemann Hypothesis",
-      "link": "https://arxiv.org/abs/2607.28632",
-      "date": "2026-08-04T00:00:00-04:00",
-      "summary": "arXiv:2607.28632v1 Announce Type: new Abstract: Major mathematical conjectures still depend heavily on expert intuition, so a unified method for the systematic generation and validation of conjectures with substantial mathematical potential remains unavailable. We present a three stage pipeline for ",
-      "feedId": "arxiv-ai",
-      "feedTitle": "arXiv cs.AI",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.AI/recent"
-    },
-    {
-      "title": "ThinkReset: Learnable Intermediate Interface Construction for Bounded-Context Long-Horizon Reasoning",
-      "link": "https://arxiv.org/abs/2607.28642",
-      "date": "2026-08-04T00:00:00-04:00",
-      "summary": "arXiv:2607.28642v1 Announce Type: new Abstract: Long chain-of-thought reasoning improves performance on complex problems, but it also introduces redundancy accumulation, context overflow, and error anchoring. We argue that under bounded context windows, the core bottleneck is not trajectory compress",
-      "feedId": "arxiv-ai",
-      "feedTitle": "arXiv cs.AI",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.AI/recent"
-    },
-    {
-      "title": "TAPR: Enhancing LLM Performance with a Task-Aware Prompt Rewriter",
-      "link": "https://arxiv.org/abs/2607.28657",
-      "date": "2026-08-04T00:00:00-04:00",
-      "summary": "arXiv:2607.28657v1 Announce Type: new Abstract: Large Language Models (LLMs) often require carefully crafted prompts to unlock their full potential, which can be a barrier for non-expert users. This work addresses the challenge by introducing a Task-Aware Prompt Rewriter (TAPR), a model that reformu",
-      "feedId": "arxiv-ai",
-      "feedTitle": "arXiv cs.AI",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.AI/recent"
-    },
-    {
-      "title": "Empowering Cross-Domain Sequential Recommendation with Hybrid Tokenization and Serial-Parallel Decoding",
-      "link": "https://arxiv.org/abs/2607.28659",
-      "date": "2026-08-04T00:00:00-04:00",
-      "summary": "arXiv:2607.28659v1 Announce Type: new Abstract: Cross-domain sequential recommendation (CDSR) aims to model users' dynamic interest transitions and sequential patterns across multiple domains. Recently, generative recommendation (GR) has emerged. It first learns semantic identifiers (SIDs) from item",
-      "feedId": "arxiv-ai",
-      "feedTitle": "arXiv cs.AI",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.AI/recent"
-    },
-    {
-      "title": "An Ontology-Guided, Deduplication-Aware Extraction Layer for Knowledge Graph Construction from Heterogeneous Documents",
-      "link": "https://arxiv.org/abs/2607.28662",
-      "date": "2026-08-04T00:00:00-04:00",
-      "summary": "arXiv:2607.28662v1 Announce Type: new Abstract: Large language models extract entities and relationships from unstructured documents fluently but inconsistently: type vocabularies fracture across documents, the same person surfaces under several name variants, relationships duplicate, and distinct i",
-      "feedId": "arxiv-ai",
-      "feedTitle": "arXiv cs.AI",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.AI/recent"
-    },
-    {
-      "title": "How Hard Does It Think? Analyzing Step-Aware Reasoning Energy in LLM Chain-of-Thought Trajectories",
-      "link": "https://arxiv.org/abs/2607.28674",
-      "date": "2026-08-04T00:00:00-04:00",
-      "summary": "arXiv:2607.28674v1 Announce Type: new Abstract: Understanding how computational effort is allocated across individual chain-of-thought (CoT) reasoning steps remains an open challenge: existing interpretability methods rely on output-level signals or collapse processing depth into a single trajectory",
-      "feedId": "arxiv-ai",
-      "feedTitle": "arXiv cs.AI",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.AI/recent"
-    },
-    {
-      "title": "Reasoning in Real World Clinical Care: Why Large Language Models Are Not Yet Safe for Autonomous Clinical Decision Support",
-      "link": "https://arxiv.org/abs/2607.28677",
-      "date": "2026-08-04T00:00:00-04:00",
-      "summary": "arXiv:2607.28677v1 Announce Type: new Abstract: LLM now pass medical licensing examinations and, in curated cases, can rival physicians at diagnostic reasoning. These developments have accelerated the use of LLMs for symptom assessment and clinical decision support in diagnostic and treatment guidan",
-      "feedId": "arxiv-ai",
-      "feedTitle": "arXiv cs.AI",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.AI/recent"
-    },
-    {
-      "title": "ViSAGE: Constructing Self-Correcting Memories for Long-Form Video Understanding",
-      "link": "https://arxiv.org/abs/2607.28678",
-      "date": "2026-08-04T00:00:00-04:00",
-      "summary": "arXiv:2607.28678v1 Announce Type: new Abstract: Multimodal agents operating in long-horizon environments must build and continually update multimedia memories to support entity-consistent, temporally grounded reasoning. However, existing agentic memory approaches often discard fine-grained dentity c",
-      "feedId": "arxiv-ai",
-      "feedTitle": "arXiv cs.AI",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.AI/recent"
-    },
-    {
-      "title": "Uncertainty-Aware Simulation-Based Inference for Operations Research with Large Language Models",
-      "link": "https://arxiv.org/abs/2608.00019",
-      "date": "2026-08-04T00:00:00-04:00",
-      "summary": "arXiv:2608.00019v1 Announce Type: new Abstract: Deploying large language models (LLMs) for operations research (OR) tasks remains challenging because correctness depends on a coherent modeling process, not merely a correct final answer. Standard autoregressive generation operates on a myopic policy,",
-      "feedId": "arxiv-lg",
-      "feedTitle": "arXiv cs.LG",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.LG/recent"
-    },
-    {
-      "title": "Learning Compositional Meta-Routing for Agentic Workflows: An Executable Benchmark",
-      "link": "https://arxiv.org/abs/2608.00106",
-      "date": "2026-08-04T00:00:00-04:00",
-      "summary": "arXiv:2608.00106v1 Announce Type: new Abstract: Agentic systems must decide not only what answer to produce, but which reasoning and execution operations should precede it. A controller may answer directly, decompose a request, retrieve evidence, execute code, delegate to a specialist, or verify an ",
-      "feedId": "arxiv-lg",
-      "feedTitle": "arXiv cs.LG",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.LG/recent"
-    },
-    {
-      "title": "MetaRoute-Bench: Evaluating Meta-Decision Policies for Agentic Workflow Routing",
-      "link": "https://arxiv.org/abs/2608.00107",
-      "date": "2026-08-04T00:00:00-04:00",
-      "summary": "arXiv:2608.00107v1 Announce Type: new Abstract: Agentic systems must repeatedly decide whether to answer directly, decompose a task, invoke a tool, execute code, delegate to a specialist, verify an intermediate result, or recover from failure. These meta-decisions affect not only task success but al",
-      "feedId": "arxiv-lg",
-      "feedTitle": "arXiv cs.LG",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.LG/recent"
-    },
-    {
-      "title": "Progressive$^2$: A Teacher-Student Progressive Co-Evolving Knowledge Distillation Method for Substantial Model Compression",
-      "link": "https://arxiv.org/abs/2608.00129",
-      "date": "2026-08-04T00:00:00-04:00",
-      "summary": "arXiv:2608.00129v1 Announce Type: new Abstract: Knowledge distillation (KD) is a widely utilized technique for transferring knowledge from a large model (the teacher) to a smaller model (the student). Owing to its flexibility and broad applicability, KD has been extensively applied in the compressio",
-      "feedId": "arxiv-lg",
-      "feedTitle": "arXiv cs.LG",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.LG/recent"
-    },
-    {
-      "title": "Rethinking Pretraining for Specialized Design Data: Evidence from the JONES-19 Cultural Design Dataset",
-      "link": "https://arxiv.org/abs/2608.00135",
-      "date": "2026-08-04T00:00:00-04:00",
-      "summary": "arXiv:2608.00135v1 Announce Type: new Abstract: Design and architectural archives encode expert human knowledge in graphical formats, providing a critical testbed for design-inspired Machine Learning (ML) challenges absent with typical computer vision benchmarks. Building on JONES-19, a small-size i",
-      "feedId": "arxiv-lg",
-      "feedTitle": "arXiv cs.LG",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.LG/recent"
-    },
-    {
-      "title": "Leak It: A Probabilistic Approach to Training-Data Extraction from Black-Box Language Models",
-      "link": "https://arxiv.org/abs/2608.00144",
-      "date": "2026-08-04T00:00:00-04:00",
-      "summary": "arXiv:2608.00144v1 Announce Type: new Abstract: Membership inference (MIA) on language models is usually summarised by an aggregate ROC-AUC, but such evaluations are confounded: model-free blind baselines separate members from non-members from surface text alone. We study black-box, sampling-based t",
-      "feedId": "arxiv-lg",
-      "feedTitle": "arXiv cs.LG",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.LG/recent"
-    },
-    {
-      "title": "Response Magnitude as a Dominant Signal for Held-Out CRISPRi Perturbation Effect Prediction",
-      "link": "https://arxiv.org/abs/2608.00152",
-      "date": "2026-08-04T00:00:00-04:00",
-      "summary": "arXiv:2608.00152v1 Announce Type: new Abstract: Predicting the magnitude of a CRISPRi perturbation's transcriptomic effect on held-out target genes is an important open problem in single-cell biology. Recent work has documented that simple baselines often match or exceed deep perturbation predictors",
-      "feedId": "arxiv-lg",
-      "feedTitle": "arXiv cs.LG",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.LG/recent"
-    },
-    {
-      "title": "Inference-Time Policy Alignment for Fair Reinforcement Learning",
-      "link": "https://arxiv.org/abs/2608.00175",
-      "date": "2026-08-04T00:00:00-04:00",
-      "summary": "arXiv:2608.00175v1 Announce Type: new Abstract: Deep reinforcement learning (RL) agents achieve strong performance by optimizing scalar reward functions. However, once deployed, the policies of these RL agents are often rigid and costly to adapt to new performance criteria. For instance, an agent tr",
-      "feedId": "arxiv-lg",
-      "feedTitle": "arXiv cs.LG",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.LG/recent"
-    },
-    {
-      "title": "AutoCause: A Python framework that automates expert decisions in environmental time-series causal discovery",
-      "link": "https://arxiv.org/abs/2608.00198",
-      "date": "2026-08-04T00:00:00-04:00",
-      "summary": "arXiv:2608.00198v1 Announce Type: new Abstract: Environmental time-series causal discovery requires expert decisions about method choice, conditional-independence tests, lag horizons, sample-size adequacy, multiple-testing control, and evidence interpretation. Applied inconsistently across datasets,",
-      "feedId": "arxiv-lg",
-      "feedTitle": "arXiv cs.LG",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.LG/recent"
-    },
-    {
-      "title": "A Physics-Chemistry-Informed Neural Network (PCINN) for Real-Time Spatial-ALD Coverage Prediction and Reliable Kinetics Inversion",
-      "link": "https://arxiv.org/abs/2608.00212",
-      "date": "2026-08-04T00:00:00-04:00",
-      "summary": "arXiv:2608.00212v1 Announce Type: new Abstract: Spatial atomic layer deposition (SALD) is a leading atmospheric-pressure, high-throughput route to industrial ALD, but design and control are limited by the cost of predicting surface coverage: high-fidelity CFD is far too slow for operating-window sca",
-      "feedId": "arxiv-lg",
-      "feedTitle": "arXiv cs.LG",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.LG/recent"
     },
     {
       "title": "New ways to learn and teach with ChatGPT Work and Codex",
@@ -4022,6 +3992,16 @@
       "feedHome": "https://www.troyhunt.com/"
     },
     {
+      "title": "condense-json 1.1",
+      "link": "https://simonwillison.net/2026/Aug/3/condense-json/#atom-everything",
+      "date": "2026-08-03T04:56:26+00:00",
+      "summary": "Release: condense-json 1.1 After shipping condense-json 1.0 I started integrating it into LLM, and found there were some desirable new features already: Replacements object can now include values other than strings. These will be identified and used as structural replacements by condense_json() and ",
+      "feedId": "simonwillison",
+      "feedTitle": "Simon Willison",
+      "category": "AI & LLM",
+      "feedHome": "https://simonwillison.net/"
+    },
+    {
       "title": "Qwen3.8-Max：编程与办公，全面跃升",
       "link": "https://www.bestblogs.dev/article/3818c83fff?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
       "date": "2026-08-03T03:02:00+00:00",
@@ -4112,36 +4092,6 @@
       "feedHome": "https://www.bestblogs.dev/"
     },
     {
-      "title": "Open letters about AI development",
-      "link": "https://simonwillison.net/2026/Aug/2/open-letters/#atom-everything",
-      "date": "2026-08-02T04:16:52+00:00",
-      "summary": "Open letters about AI development I wrote this summary of the past few weeks of open letters as a section of my sponsors-only newsletter but I've decided to share it here as well. Open Weights and American AI Leadership was shepherded by Microsoft, dated July 24th, and signed by 235 AI-adjacent comp",
-      "feedId": "simonwillison",
-      "feedTitle": "Simon Willison",
-      "category": "AI & LLM",
-      "feedHome": "https://simonwillison.net/"
-    },
-    {
-      "title": "July 2026 newsletter",
-      "link": "https://simonwillison.net/2026/Aug/2/july-newsletter/#atom-everything",
-      "date": "2026-08-02T04:12:41+00:00",
-      "summary": "The June edition of my sponsors-only monthly newsletter is out. If you are a sponsor (or if you start a sponsorship now) you can access it here. This month: Accidental cyberattacks by OpenAl and Anthropic models under test GPT-5.6 Sol, Terra, and Luna Claude Opus 5 Kimi K3 and DeepSeek-V4-Flash-0731",
-      "feedId": "simonwillison",
-      "feedTitle": "Simon Willison",
-      "category": "AI & LLM",
-      "feedHome": "https://simonwillison.net/"
-    },
-    {
-      "title": "Giving and taking credit in big tech companies",
-      "link": "https://seangoedecke.com/giving-and-taking-credit/",
-      "date": "2026-08-02T00:00:00+00:00",
-      "summary": "",
-      "feedId": "seangoedecke",
-      "feedTitle": "Sean Goedecke",
-      "category": "Tech Blogs",
-      "feedHome": "https://www.seangoedecke.com/"
-    },
-    {
       "title": "Indirect lessons from human alignment",
       "link": "https://dynomight.net/human-alignment/",
       "date": "2026-08-02T00:00:00+00:00",
@@ -4160,16 +4110,6 @@
       "feedTitle": "Computer Rip",
       "category": "Tech Blogs",
       "feedHome": "https://computer.rip/"
-    },
-    {
-      "title": "Quoting Greg Brockman",
-      "link": "https://simonwillison.net/2026/Aug/1/greg-brockman/#atom-everything",
-      "date": "2026-08-01T22:29:44+00:00",
-      "summary": "at openai, many people hook their chatgpt up to slack. people really don't like when a coworker's chatgpt contacts them asking for help with a task, even when they'd be perfectly happy doing that same work if asked by that coworker. reinforces how much people care about human relationships and helpi",
-      "feedId": "simonwillison",
-      "feedTitle": "Simon Willison",
-      "category": "AI & LLM",
-      "feedHome": "https://simonwillison.net/"
     },
     {
       "title": "Why polynomial coefficients?",
@@ -4392,16 +4332,6 @@
       "feedHome": "https://openai.com/news/"
     },
     {
-      "title": "AI models need moral support to make discoveries",
-      "link": "https://seangoedecke.com/ai-models-need-moral-support/",
-      "date": "2026-07-31T00:00:00+00:00",
-      "summary": "",
-      "feedId": "seangoedecke",
-      "feedTitle": "Sean Goedecke",
-      "category": "Tech Blogs",
-      "feedHome": "https://www.seangoedecke.com/"
-    },
-    {
       "title": "BI Slop",
       "link": "https://idiallo.com/blog/business-intelligence-slop",
       "date": "2026-07-30T23:50:00+00:00",
@@ -4510,16 +4440,6 @@
       "feedTitle": "Pluralistic",
       "category": "Tech Blogs",
       "feedHome": "https://pluralistic.net/"
-    },
-    {
-      "title": "You don't have to be smart if you can think clearly",
-      "link": "https://seangoedecke.com/you-dont-have-to-be-smart-if-you-think-clearly/",
-      "date": "2026-07-29T00:00:00+00:00",
-      "summary": "",
-      "feedId": "seangoedecke",
-      "feedTitle": "Sean Goedecke",
-      "category": "Tech Blogs",
-      "feedHome": "https://www.seangoedecke.com/"
     },
     {
       "title": "Superlogical",
@@ -4732,16 +4652,6 @@
       "feedHome": "https://idiallo.com/"
     },
     {
-      "title": "LLMs reward expertise",
-      "link": "https://seangoedecke.com/llms-reward-expertise/",
-      "date": "2026-07-24T00:00:00+00:00",
-      "summary": "",
-      "feedId": "seangoedecke",
-      "feedTitle": "Sean Goedecke",
-      "category": "Tech Blogs",
-      "feedHome": "https://www.seangoedecke.com/"
-    },
-    {
       "title": "Index 01 Is In Mass Production!",
       "link": "https://repebble.com/blog/index-01-is-in-mass-production",
       "date": "2026-07-24T00:00:00+00:00",
@@ -4790,16 +4700,6 @@
       "feedTitle": "Max Woolf",
       "category": "AI & LLM",
       "feedHome": "https://minimaxir.com/"
-    },
-    {
-      "title": "Powerful AIs might escape containment by releasing themselves as open-weight models",
-      "link": "https://seangoedecke.com/powerful-ais-might-escape-by-releasing-open-weight-models/",
-      "date": "2026-07-23T00:00:00+00:00",
-      "summary": "",
-      "feedId": "seangoedecke",
-      "feedTitle": "Sean Goedecke",
-      "category": "Tech Blogs",
-      "feedHome": "https://www.seangoedecke.com/"
     },
     {
       "title": "SymptomAI: Towards a conversational AI agent for everyday symptom assessment",
@@ -4912,16 +4812,6 @@
       "feedHome": "https://deepmind.google/blog/"
     },
     {
-      "title": "Making an agile version of a Windows Runtime delegate in C++/WinRT, part 2",
-      "link": "https://devblogs.microsoft.com/oldnewthing/20260721-00/?p=112550",
-      "date": "2026-07-21T14:00:00+00:00",
-      "summary": "Short-circuiting the easiest case. The post Making an agile version of a Windows Runtime delegate in C++/WinRT, part 2 appeared first on The Old New Thing.",
-      "feedId": "oldnewthing",
-      "feedTitle": "The Old New Thing",
-      "category": "Tech Blogs",
-      "feedHome": "https://devblogs.microsoft.com/oldnewthing/"
-    },
-    {
       "title": "Weekly Update 513: Clauding The Home Network",
       "link": "https://www.troyhunt.com/weekly-update-513/",
       "date": "2026-07-21T07:30:24+00:00",
@@ -4962,16 +4852,6 @@
       "feedHome": "https://matklad.github.io/"
     },
     {
-      "title": "Impro is a handbook for running a cult",
-      "link": "https://seangoedecke.com/impro/",
-      "date": "2026-07-19T00:00:00+00:00",
-      "summary": "",
-      "feedId": "seangoedecke",
-      "feedTitle": "Sean Goedecke",
-      "category": "Tech Blogs",
-      "feedHome": "https://www.seangoedecke.com/"
-    },
-    {
       "title": "email encryption",
       "link": "https://computer.rip/2026-07-19-email-encryption.html",
       "date": "2026-07-19T00:00:00+00:00",
@@ -4990,16 +4870,6 @@
       "feedTitle": "Max Woolf",
       "category": "AI & LLM",
       "feedHome": "https://minimaxir.com/"
-    },
-    {
-      "title": "Overtraining as the path to human-like AI",
-      "link": "https://seangoedecke.com/overtraining-as-the-path-to-human-like-ai/",
-      "date": "2026-07-18T00:00:00+00:00",
-      "summary": "",
-      "feedId": "seangoedecke",
-      "feedTitle": "Sean Goedecke",
-      "category": "Tech Blogs",
-      "feedHome": "https://www.seangoedecke.com/"
     },
     {
       "title": "Introducing Gemini 3.5 Flash Cyber",
@@ -5082,16 +4952,6 @@
       "feedHome": "https://krebsonsecurity.com/"
     },
     {
-      "title": "What does \"playing politics\" mean for software engineers?",
-      "link": "https://seangoedecke.com/playing-politics/",
-      "date": "2026-07-14T00:00:00+00:00",
-      "summary": "",
-      "feedId": "seangoedecke",
-      "feedTitle": "Sean Goedecke",
-      "category": "Tech Blogs",
-      "feedHome": "https://www.seangoedecke.com/"
-    },
-    {
       "title": "Pebble Mega Update - July 2026",
       "link": "https://repebble.com/blog/pebble-mega-update-july-2026",
       "date": "2026-07-14T00:00:00+00:00",
@@ -5112,20 +4972,20 @@
       "feedHome": "https://dynomight.net/"
     },
     {
-      "title": "You should probably check on your smart appliances",
-      "link": "https://xeiaso.net/notes/2026/check-your-smart-tv/",
+      "title": "Presigned URLs are technically a security vuln",
+      "link": "https://www.tigrisdata.com/blog/presigned-urls-security-vuln/",
       "date": "2026-07-14T00:00:00+00:00",
-      "summary": "TL;DR: is your refrigerator running malware? If so, you better catch it!",
+      "summary": "",
       "feedId": "xeiaso",
       "feedTitle": "Xe Iaso",
       "category": "Tech Blogs",
       "feedHome": "https://xeiaso.net/"
     },
     {
-      "title": "Presigned URLs are technically a security vuln",
-      "link": "https://www.tigrisdata.com/blog/presigned-urls-security-vuln/",
+      "title": "You should probably check on your smart appliances",
+      "link": "https://xeiaso.net/notes/2026/check-your-smart-tv/",
       "date": "2026-07-14T00:00:00+00:00",
-      "summary": "",
+      "summary": "TL;DR: is your refrigerator running malware? If so, you better catch it!",
       "feedId": "xeiaso",
       "feedTitle": "Xe Iaso",
       "category": "Tech Blogs",
@@ -5190,16 +5050,6 @@
       "feedTitle": "Eli Bendersky",
       "category": "Tech Blogs",
       "feedHome": "https://eli.thegreenplace.net/"
-    },
-    {
-      "title": "In defense of not understanding your codebase",
-      "link": "https://seangoedecke.com/in-defense-of-not-understanding-your-codebase/",
-      "date": "2026-07-11T00:00:00+00:00",
-      "summary": "",
-      "feedId": "seangoedecke",
-      "feedTitle": "Sean Goedecke",
-      "category": "Tech Blogs",
-      "feedHome": "https://www.seangoedecke.com/"
     },
     {
       "title": "A dock that finally wakes up reliably",
@@ -5320,16 +5170,6 @@
       "feedTitle": "Google Research Blog",
       "category": "AI & LLM",
       "feedHome": "https://research.google/blog/"
-    },
-    {
-      "title": "Blog about things you don't understand yet",
-      "link": "https://seangoedecke.com/blog-about-things-you-dont-understand-yet/",
-      "date": "2026-07-07T00:00:00+00:00",
-      "summary": "",
-      "feedId": "seangoedecke",
-      "feedTitle": "Sean Goedecke",
-      "category": "Tech Blogs",
-      "feedHome": "https://www.seangoedecke.com/"
     },
     {
       "title": "Amazon Basics, but for intellectual property.",
@@ -5752,8 +5592,8 @@
       "feedHome": "https://steveblank.com/"
     },
     {
-      "title": "\"No way to prevent this\" say users of only language where this regularly happens",
-      "link": "https://xeiaso.net/shitposts/no-way-to-prevent-this/memory-safety/CVE-2026-45447/",
+      "title": "Giving your Go apps Tigris superpowers",
+      "link": "https://www.tigrisdata.com/blog/storage-sdk-go/",
       "date": "2026-06-09T00:00:00+00:00",
       "summary": "",
       "feedId": "xeiaso",
