@@ -1,15 +1,16 @@
 {
-  "updatedAt": "2026-08-05T15:13:49.144570+00:00",
+  "updatedAt": "2026-08-05T17:38:29.856263+00:00",
   "totalFeeds": 51,
-  "successCount": 45,
-  "failedCount": 6,
+  "successCount": 44,
+  "failedCount": 7,
   "failed": [
     "gwern",
     "garymarcus",
     "thesequence",
     "lcamtuf",
     "rachelbythebay",
-    "tedunangst"
+    "tedunangst",
+    "steveblank"
   ],
   "grouped": {
     "AI & LLM": [
@@ -20,7 +21,7 @@
         "home": "https://simonwillison.net/",
         "url": "https://simonwillison.net/atom/everything/",
         "status": "ok",
-        "fetchedAt": "2026-08-05T15:13:38.749830+00:00",
+        "fetchedAt": "2026-08-05T17:38:19.862246+00:00",
         "items": [
           {
             "title": "New release of LLM adds support for reasoning traces, OpenAI Responses, server-side tools, and smarter logging",
@@ -91,7 +92,7 @@
         "home": "https://openai.com/news/",
         "url": "https://openai.com/news/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-05T15:13:38.851199+00:00",
+        "fetchedAt": "2026-08-05T17:38:19.934184+00:00",
         "items": [
           {
             "title": "Third-party cyber evaluations involving OpenAI models",
@@ -162,7 +163,7 @@
         "home": "https://arxiv.org/list/cs.AI/recent",
         "url": "https://arxiv.org/rss/cs.AI",
         "status": "ok",
-        "fetchedAt": "2026-08-05T15:13:39.225564+00:00",
+        "fetchedAt": "2026-08-05T17:38:20.329719+00:00",
         "items": [
           {
             "title": "ISEE: Interactive Semantic Enrichment for Database Fields",
@@ -233,7 +234,7 @@
         "home": "https://arxiv.org/list/cs.LG/recent",
         "url": "https://arxiv.org/rss/cs.LG",
         "status": "ok",
-        "fetchedAt": "2026-08-05T15:13:39.173269+00:00",
+        "fetchedAt": "2026-08-05T17:38:20.259701+00:00",
         "items": [
           {
             "title": "Deep Divide-and-Reduce in Symbolic Regression",
@@ -304,7 +305,7 @@
         "home": "https://research.google/blog/",
         "url": "https://research.google/blog/rss/",
         "status": "ok",
-        "fetchedAt": "2026-08-05T15:13:38.958900+00:00",
+        "fetchedAt": "2026-08-05T17:38:20.062379+00:00",
         "items": [
           {
             "title": "Science One Framework: A verifiable autonomous research framework via Chain-of-Evidence",
@@ -375,7 +376,7 @@
         "home": "https://deepmind.google/blog/",
         "url": "https://deepmind.google/blog/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-05T15:13:39.016132+00:00",
+        "fetchedAt": "2026-08-05T17:38:20.270967+00:00",
         "items": [
           {
             "title": "Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration",
@@ -446,7 +447,7 @@
         "home": "https://lilianweng.github.io/",
         "url": "https://lilianweng.github.io/lil-log/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-05T15:13:38.709825+00:00",
+        "fetchedAt": "2026-08-05T17:38:19.816927+00:00",
         "items": [
           {
             "title": "Active Learning",
@@ -537,7 +538,7 @@
         "home": "https://minimaxir.com/",
         "url": "https://minimaxir.com/index.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-05T15:13:38.877130+00:00",
+        "fetchedAt": "2026-08-05T17:38:19.884212+00:00",
         "items": [
           {
             "title": "LLMs break down in funny ways when told the Jacobian Conjecture counterargument",
@@ -620,8 +621,14 @@
         "home": "https://www.jeffgeerling.com/",
         "url": "https://www.jeffgeerling.com/blog.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-05T15:13:38.855483+00:00",
+        "fetchedAt": "2026-08-05T17:38:19.940592+00:00",
         "items": [
+          {
+            "title": "Proxmox officially supports Arm, with some caveats",
+            "link": "https://www.jeffgeerling.com/blog/2026/proxmox-ve-arm-official/",
+            "date": "2026-08-05T11:50:00-05:00",
+            "summary": "Proxmox today announced their Proxmox Virtual Environment is now available for 64-bit ARM. I tested it on my Ampere Altra Dev Platform—the same machine on which I've booted Windows on Arm the first time, messed with multiple GPUs, and most recently tested Houdini's native arm64 support. Install was "
+          },
           {
             "title": "Getting 25 Gbps Thunderbolt Ethernet on my Mac Studio",
             "link": "https://www.jeffgeerling.com/blog/2026/getting-25g-ethernet-mac-thunderbolt/",
@@ -675,12 +682,6 @@
             "link": "https://www.jeffgeerling.com/blog/2026/i-tested-every-ip-kvm/",
             "date": "2026-06-05T09:00:00-05:00",
             "summary": "Since the PiKVM came out in 2017, there's been an explosion of IP KVMs. I've tested almost every one. But what are they good for? You can use Remote Desktop, Screen Sharing, or VNC to remote control a computer from anywhere on a LAN. And if you don't have a private VPN, you could use RealVNC, Raspbe"
-          },
-          {
-            "title": "It's hard to justify buying a Framework 12",
-            "link": "https://www.jeffgeerling.com/blog/2026/its-hard-to-justify-framework-12/",
-            "date": "2026-05-29T09:00:00-05:00",
-            "summary": "My nephew just graduated high school, and wants a laptop. When he decides what computer to buy, price (or more precisely, value) is the most important attribute. Apple's MacBook Neo upended the 'value laptop' equation—Apple's not supposed to be both the cheapest option and the best value... but it s"
           }
         ]
       },
@@ -691,7 +692,7 @@
         "home": "https://www.seangoedecke.com/",
         "url": "https://www.seangoedecke.com/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-05T15:13:38.944377+00:00",
+        "fetchedAt": "2026-08-05T17:38:19.870660+00:00",
         "items": [
           {
             "title": "Giving and taking credit in big tech companies",
@@ -762,7 +763,7 @@
         "home": "https://krebsonsecurity.com/",
         "url": "https://krebsonsecurity.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-08-05T15:13:38.888388+00:00",
+        "fetchedAt": "2026-08-05T17:38:20.006839+00:00",
         "items": [
           {
             "title": "Read This Before You Buy That TV Streaming Stick",
@@ -833,8 +834,14 @@
         "home": "https://daringfireball.net/",
         "url": "https://daringfireball.net/feeds/main",
         "status": "ok",
-        "fetchedAt": "2026-08-05T15:13:38.909225+00:00",
+        "fetchedAt": "2026-08-05T17:38:19.981095+00:00",
         "items": [
+          {
+            "title": "Paul Thurrott Reviews the HP OmniBook Ultra 14, With Qualcomm’s Snapdragon X2",
+            "link": "https://www.thurrott.com/mobile/copilot-pc/340107/hp-omnibook-ultra-14-snapdragon-x2-review",
+            "date": "2026-08-05T15:55:53+00:00",
+            "summary": "Paul Thurrott: We didn’t need more evidence that Qualcomm’s Snapdragon X2 compute platform is superior to anything in the x86 world. But here it is, regardless: The HP OmniBook Ultra 14 is yet another nearly-perfect laptop running Windows 11 on Arm, an ideal combination of hardware and software that"
+          },
           {
             "title": "Hacker News Thread on OpenAI’s ‘Apple Is Getting This Wrong’ Post",
             "link": "https://news.ycombinator.com/item?id=49164649",
@@ -888,12 +895,6 @@
             "link": "https://www.theinformation.com/articles/apple-icloud-policy-fueled-employee-leaks-ahead-openai-suit?rc=jfy0lk",
             "date": "2026-08-03T22:36:56+00:00",
             "summary": "Aaron “Homeboy” Tilley, reporting for The Information (paywalled without gift links, alas, but MacRumors has a summary): When new employees join Apple, the company often issues them an iPhone and Mac and pays for an iCloud account with a large amount of online storage capacity. Crucially, during the"
-          },
-          {
-            "title": "Om Malik’s Final Essay: ‘The Myth, the Mythos and the Man’",
-            "link": "https://om.co/2026/06/07/the-myth-the-mythos-and-the-man/",
-            "date": "2026-08-03T20:34:13+00:00",
-            "summary": "Om published this on Monday June 7 — the day of the WWDC keynote. He sent me a note about it, that is too personal to share in full. He described it as his “last shot” — “In case I don’t make it”. He didn’t make it. I didn’t read it right away because I was busy with WWDC. Then, after he died, I did"
           }
         ]
       },
@@ -904,7 +905,7 @@
         "home": "https://ericmigi.com/",
         "url": "https://ericmigi.com/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-05T15:13:38.934499+00:00",
+        "fetchedAt": "2026-08-05T17:38:19.943878+00:00",
         "items": [
           {
             "title": "Index 01 Is In Mass Production!",
@@ -975,7 +976,7 @@
         "home": "http://antirez.com/",
         "url": "http://antirez.com/rss",
         "status": "ok",
-        "fetchedAt": "2026-08-05T15:13:40.922509+00:00",
+        "fetchedAt": "2026-08-05T17:38:22.536710+00:00",
         "items": [
           {
             "title": "The real AI risk is inside the labs",
@@ -1046,7 +1047,7 @@
         "home": "https://idiallo.com/",
         "url": "https://idiallo.com/feed.rss",
         "status": "ok",
-        "fetchedAt": "2026-08-05T15:13:39.228510+00:00",
+        "fetchedAt": "2026-08-05T17:38:20.274938+00:00",
         "items": [
           {
             "title": "Invisible Problems",
@@ -1117,7 +1118,7 @@
         "home": "https://maurycyz.com/",
         "url": "https://maurycyz.com/index.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-05T15:13:39.685935+00:00",
+        "fetchedAt": "2026-08-05T17:38:20.899310+00:00",
         "items": []
       },
       {
@@ -1127,7 +1128,7 @@
         "home": "https://pluralistic.net/",
         "url": "https://pluralistic.net/feed/",
         "status": "ok",
-        "fetchedAt": "2026-08-05T15:13:41.168361+00:00",
+        "fetchedAt": "2026-08-05T17:38:22.241763+00:00",
         "items": [
           {
             "title": "Pluralistic: Google is a scammer's paradise (05 Aug 2026)",
@@ -1198,7 +1199,7 @@
         "home": "https://shkspr.mobi/blog/",
         "url": "https://shkspr.mobi/blog/feed/",
         "status": "ok",
-        "fetchedAt": "2026-08-05T15:13:40.033926+00:00",
+        "fetchedAt": "2026-08-05T17:38:21.346279+00:00",
         "items": [
           {
             "title": "Gadget Review: T2 Max plug-in Thermal Camera ★★★⯪☆",
@@ -1279,7 +1280,7 @@
         "home": "https://mitchellh.com/",
         "url": "https://mitchellh.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-05T15:13:39.504895+00:00",
+        "fetchedAt": "2026-08-05T17:38:20.057393+00:00",
         "items": [
           {
             "title": "Superlogical",
@@ -1350,7 +1351,7 @@
         "home": "https://dynomight.net/",
         "url": "https://dynomight.net/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-05T15:13:39.261629+00:00",
+        "fetchedAt": "2026-08-05T17:38:21.177546+00:00",
         "items": [
           {
             "title": "Indirect lessons from human alignment",
@@ -1421,7 +1422,7 @@
         "home": "https://xeiaso.net/",
         "url": "https://xeiaso.net/blog.rss",
         "status": "ok",
-        "fetchedAt": "2026-08-05T15:13:39.721808+00:00",
+        "fetchedAt": "2026-08-05T17:38:20.658802+00:00",
         "items": [
           {
             "title": "Presigned URLs are technically a security vuln",
@@ -1492,7 +1493,7 @@
         "home": "https://devblogs.microsoft.com/oldnewthing/",
         "url": "https://devblogs.microsoft.com/oldnewthing/feed",
         "status": "ok",
-        "fetchedAt": "2026-08-05T15:13:39.430861+00:00",
+        "fetchedAt": "2026-08-05T17:38:20.095783+00:00",
         "items": [
           {
             "title": "Creating a fake agile wrapper that is technically agile but is not useful outside its home apartment, part 2",
@@ -1563,7 +1564,7 @@
         "home": "https://www.righto.com/",
         "url": "https://www.righto.com/feeds/posts/default",
         "status": "ok",
-        "fetchedAt": "2026-08-05T15:13:39.296470+00:00",
+        "fetchedAt": "2026-08-05T17:38:20.472856+00:00",
         "items": []
       },
       {
@@ -1573,7 +1574,7 @@
         "home": "https://lucumr.pocoo.org/",
         "url": "https://lucumr.pocoo.org/feed.atom",
         "status": "ok",
-        "fetchedAt": "2026-08-05T15:13:39.411461+00:00",
+        "fetchedAt": "2026-08-05T17:38:20.457848+00:00",
         "items": [
           {
             "title": "Codeberg Divides",
@@ -1644,7 +1645,7 @@
         "home": "https://skyfall.dev/",
         "url": "https://skyfall.dev/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-05T15:13:39.467611+00:00",
+        "fetchedAt": "2026-08-05T17:38:20.176492+00:00",
         "items": [
           {
             "title": "Good riddance, 4o",
@@ -1719,7 +1720,7 @@
         "home": "https://overreacted.io/",
         "url": "https://overreacted.io/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-05T15:13:39.335386+00:00",
+        "fetchedAt": "2026-08-05T17:38:20.037240+00:00",
         "items": [
           {
             "title": "There Are No Instances in atproto",
@@ -1790,7 +1791,7 @@
         "home": "https://www.johndcook.com/",
         "url": "https://www.johndcook.com/blog/feed/",
         "status": "ok",
-        "fetchedAt": "2026-08-05T15:13:39.005852+00:00",
+        "fetchedAt": "2026-08-05T17:38:20.116484+00:00",
         "items": [
           {
             "title": "Enumerating trees and circles",
@@ -1861,7 +1862,7 @@
         "home": "https://matklad.github.io/",
         "url": "https://matklad.github.io/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-05T15:13:39.355674+00:00",
+        "fetchedAt": "2026-08-05T17:38:20.031119+00:00",
         "items": [
           {
             "title": "Memory Safety's Hardest Problem",
@@ -1932,7 +1933,7 @@
         "home": "https://eli.thegreenplace.net/",
         "url": "https://eli.thegreenplace.net/feeds/all.atom.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-05T15:13:39.542083+00:00",
+        "fetchedAt": "2026-08-05T17:38:20.440697+00:00",
         "items": [
           {
             "title": "Relative velocity and closing speed",
@@ -1973,7 +1974,7 @@
         "home": "https://fabiensanglard.net/",
         "url": "https://fabiensanglard.net/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-05T15:13:39.695331+00:00",
+        "fetchedAt": "2026-08-05T17:38:20.199079+00:00",
         "items": [
           {
             "title": "Jurassic Park computers in excruciating detail",
@@ -2044,7 +2045,7 @@
         "home": "https://blog.miguelgrinberg.com/",
         "url": "https://blog.miguelgrinberg.com/feed",
         "status": "ok",
-        "fetchedAt": "2026-08-05T15:13:39.974978+00:00",
+        "fetchedAt": "2026-08-05T17:38:21.093017+00:00",
         "items": [
           {
             "title": "I Am Not a Reverse Centaur",
@@ -2115,7 +2116,7 @@
         "home": "https://www.troyhunt.com/",
         "url": "https://www.troyhunt.com/rss/",
         "status": "ok",
-        "fetchedAt": "2026-08-05T15:13:39.494440+00:00",
+        "fetchedAt": "2026-08-05T17:38:20.004548+00:00",
         "items": [
           {
             "title": "Welcoming the Nepalese Government to Have I Been Pwned",
@@ -2186,7 +2187,7 @@
         "home": "https://anildash.com/",
         "url": "https://anildash.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-05T15:13:39.460798+00:00",
+        "fetchedAt": "2026-08-05T17:38:20.191112+00:00",
         "items": [
           {
             "title": "Defending Privacy, Daily",
@@ -2257,7 +2258,7 @@
         "home": "https://computer.rip/",
         "url": "https://computer.rip/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-05T15:13:39.643298+00:00",
+        "fetchedAt": "2026-08-05T17:38:21.092139+00:00",
         "items": [
           {
             "title": "telephones caught in between",
@@ -2338,7 +2339,7 @@
         "home": "http://paulgraham.com/",
         "url": "http://www.aaronsw.com/2002/feeds/pgessays.rss",
         "status": "ok",
-        "fetchedAt": "2026-08-05T15:13:39.091401+00:00",
+        "fetchedAt": "2026-08-05T17:38:20.338699+00:00",
         "items": [
           {
             "title": "Superlinear Returns",
@@ -2408,70 +2409,9 @@
         "title": "Steve Blank",
         "home": "https://steveblank.com/",
         "url": "https://steveblank.com/feed/",
-        "status": "ok",
-        "fetchedAt": "2026-08-05T15:13:39.118376+00:00",
-        "items": [
-          {
-            "title": "Lean Launch Pad 2026 @ Stanford – Lessons Learned Presentations",
-            "link": "https://steveblank.com/2026/06/16/lean-launch-pad-2026-stanford-lessons-learned-presentations/",
-            "date": "2026-06-16T13:00:57+00:00",
-            "summary": "We just finished the 16th annual Lean LaunchPad class at Stanford. In those 16 years, the class has gone from a radical idea &#8211; that the Lean method could provide a more productive framework for new startups &#8211; to something that everyone agrees is a way to build new startups. The class had"
-          },
-          {
-            "title": "Incorruptible",
-            "link": "https://steveblank.com/2026/06/09/incorruptible/",
-            "date": "2026-06-09T13:00:23+00:00",
-            "summary": "Incorruptible: Why Good Companies Go Bad&#8230; and How Great Companies Stay Great, by Eric Ries. Every once in a while a book comes along that doesn&#8217;t just change your tactical thinking, but makes you see the world in a different way. Reading this book is like taking the red pill in the Matri"
-          },
-          {
-            "title": "Hacking for Defense @ Stanford 2026 – Lessons Learned Presentations",
-            "link": "https://steveblank.com/2026/06/08/g-for-defense-stanford-2026-lessons-learned-presentations/",
-            "date": "2026-06-08T13:00:15+00:00",
-            "summary": "We just wrapped up our Hacking for Defense class at Stanford. This was the 11th year we&#8217;ve taught Hacking for Defense, and the impact of asymmetric warfare, (drones, off-the-shelf technologies, etc.,) disruptive technologies (AI, commercial access to space) and a startup friendly DoW acquisiti"
-          },
-          {
-            "title": "Anthropic Mythos – We’ve Opened Pandora’s Box",
-            "link": "https://steveblank.com/2026/04/28/anthropic-mythos-weve-opened-pandoras-box/",
-            "date": "2026-04-28T13:00:48+00:00",
-            "summary": "This article previously appeared in The Cipher Brief. For a decade the cybersecurity community was predicting a cyber apocalypse tied to a single event &#8211; the day a Cryptographically Relevant Quantum Computer could run Shor’s algorithm and break the public-key cryptography systems most of the i"
-          },
-          {
-            "title": "AI and Teaching – The Brave New World",
-            "link": "https://steveblank.com/2026/04/22/ai-and-teaching-the-brave-new-world/",
-            "date": "2026-04-22T15:34:09+00:00",
-            "summary": "This article previously appeared in the Entrepreneur &#38; Innovation Exchange (EIX) This is the 16th year we’ve been teaching the Stanford Lean LaunchPad class. This year, from the first hour of the first class, we realized we were seeing something extraordinary happen. It was both the end and begi"
-          },
-          {
-            "title": "Nowhere Is Safe",
-            "link": "https://steveblank.com/2026/04/09/nowhere-is-safe/",
-            "date": "2026-04-09T13:00:25+00:00",
-            "summary": "Drones in Ukraine and in the War with Iran have made the surface of the earth a contested space. The U.S. has discovered that 1) air superiority and missile defense systems (THAAD, Patriot batteries) designed to counter tens or hundreds of aircraft and missiles is insufficient against asymmetric att"
-          },
-          {
-            "title": "Solving Yesterday’s Problems Will Kill You",
-            "link": "https://steveblank.com/2026/03/31/solving-yesterdays-problems-will-kill-you/",
-            "date": "2026-03-31T13:00:48+00:00",
-            "summary": "Join us at The 7th Annual Red Queen Conference April 22 -23 &#8211; Silicon Valley How do Portfolio Acquisition Executives and COCOMs ensure they’re working on the right problem with the right priority before locking in a requirement? Discuss, share and prototype Innovation Targeting concepts with y"
-          },
-          {
-            "title": "Your Startup Is Probably Dead On Arrival",
-            "link": "https://steveblank.com/2026/03/17/your-startup-is-probably-dead-on-arrival/",
-            "date": "2026-03-17T13:00:30+00:00",
-            "summary": "Your Startup Is Probably Dead On Arrival If you started a company more than two years ago, it’s likely that many of your assumptions are no longer true. You need to stop coding, building, recruiting, fund raising, etc., and take stock of what changed around you. Or your company will die. I just had "
-          },
-          {
-            "title": "Time to Move On – The Reason Relationships End",
-            "link": "https://steveblank.com/2026/02/24/time-to-move-on-the-reason-relationships-end/",
-            "date": "2026-02-24T14:00:57+00:00",
-            "summary": "What Lies Ahead I have no Way of Knowing, But It’s Now Time to Get Going Tom Petty This post previously appeared in Philanthropy.org A while ago I wrote about what happens in a startup when a new event creates a wake-up call that makes founding engineers reevaluate their jobs. (It’s worth a read her"
-          },
-          {
-            "title": "You Only Think They Work For You",
-            "link": "https://steveblank.com/2026/02/18/you-only-think-they-work-for-you/",
-            "date": "2026-02-18T14:00:39+00:00",
-            "summary": "When I was a new VP of Marketing I got a painful lesson of who my PR (Public Relations) agency actually worked for. Later I realized that it was true for all of my external vendors. And much later I realized what I really should have been asking them to do. The lessons still apply [&#8230;]"
-          }
-        ]
+        "status": "error",
+        "error": "HTTP 429",
+        "items": []
       }
     ],
     "Startup & News": [
@@ -2482,18 +2422,48 @@
         "home": "https://news.ycombinator.com/",
         "url": "https://news.ycombinator.com/rss",
         "status": "ok",
-        "fetchedAt": "2026-08-05T15:13:39.070824+00:00",
+        "fetchedAt": "2026-08-05T17:38:20.335449+00:00",
         "items": [
           {
-            "title": "Cloudflare OS: an open platform for agents, apps, and work",
-            "link": "https://blog.cloudflare.com/cloudflare-os/",
-            "date": "2026-08-05T13:58:53+00:00",
+            "title": "Discovery Loop",
+            "link": "https://www.discoveryloop.com/",
+            "date": "2026-08-05T16:19:44+00:00",
             "summary": "Comments"
           },
           {
-            "title": "Not hiring junior engineers won't solve the problem you think you have",
-            "link": "https://franciscotrindade.me/blog/the-kids-are-alright/",
-            "date": "2026-08-05T13:55:48+00:00",
+            "title": "Qwen 3.0 Image Pro",
+            "link": "https://www.qwencloud.com/models/qwen-image-3.0-pro",
+            "date": "2026-08-05T14:53:29+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "The next chapter of our AI momentum",
+            "link": "https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/",
+            "date": "2026-08-05T16:05:31+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "Oracle Just Halved Its Always Free ARM Limits",
+            "link": "https://www.cnelecar.com/blog/oracle-always-free-arm-limits-cut-2026/",
+            "date": "2026-08-05T14:46:36+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "Google DeepMind CEO Demis Hassabis is stepping down",
+            "link": "https://www.axios.com/2026/08/05/google-deepmind-demis-hassabis-ai",
+            "date": "2026-08-05T16:05:37+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "The \"Disability Dongle\": Why Silicon Valley Hates Me and You",
+            "link": "https://sightlessscribbles.com/disability-dongle/",
+            "date": "2026-08-05T14:38:13+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "Jeff Dean leaving Alphabet",
+            "link": "https://www.nytimes.com/2026/08/05/technology/google-researchers-ai-startup.html",
+            "date": "2026-08-05T16:04:33+00:00",
             "summary": "Comments"
           },
           {
@@ -2503,45 +2473,15 @@
             "summary": "Comments"
           },
           {
-            "title": "Building an Advanced Agentic Harness",
-            "link": "https://data4sci.com/blog/building-an-advanced-agentic-harness",
-            "date": "2026-08-05T13:54:12+00:00",
+            "title": "Cloudflare OS: an open platform for agents, apps, and work",
+            "link": "https://blog.cloudflare.com/cloudflare-os/",
+            "date": "2026-08-05T13:58:53+00:00",
             "summary": "Comments"
           },
           {
-            "title": "Silicon Valley sees AI as the solution – for everyone else",
-            "link": "https://observer.co.uk/news/science-technology/article/silicon-valley-sees-ai-as-the-solution-for-everyone-else-its-the-problem",
-            "date": "2026-08-05T13:58:28+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "Position: LLMs Can't Jump",
-            "link": "https://openreview.net/challenge?redirect=%2Fforum%3Fid%3DklU4737opt",
-            "date": "2026-08-05T11:01:37+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "Google's HTTP/2 codec slows Envoy",
-            "link": "https://apoxy.dev/blog/oghttp2-vs-nghttp2",
-            "date": "2026-08-05T13:26:01+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "Faster Than Ninja",
-            "link": "https://build2.org/blog/faster-than-ninja.xhtml",
-            "date": "2026-08-05T13:33:25+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "Why Erdős Problems Are Falling to AI",
-            "link": "https://www.quantamagazine.org/why-the-legendary-erdos-problems-are-falling-to-ai-20260803/",
-            "date": "2026-08-05T11:49:34+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "Intelligence Is Not the Main Bottleneck",
-            "link": "https://www.writingruxandrabio.com/p/intelligence-is-not-the-main-bottleneck",
-            "date": "2026-08-05T14:04:06+00:00",
+            "title": "Cops Used Flock to Track a Man Across State Lines for a Pretextual Weed Search",
+            "link": "https://www.404media.co/cops-used-flock-to-track-a-man-across-state-lines-to-create-pretext-to-search-his-car-for-weed/",
+            "date": "2026-08-05T15:20:11+00:00",
             "summary": "Comments"
           }
         ]
@@ -2553,67 +2493,67 @@
         "home": "https://www.techmeme.com/",
         "url": "https://www.techmeme.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-05T15:13:39.646250+00:00",
+        "fetchedAt": "2026-08-05T17:38:19.994933+00:00",
         "items": [
+          {
+            "title": "Reddit expands its test of Rules Hub, a suite of tools that rely on LLMs to help moderators manage their communities, and plans a full launch later this year (Jay Peters/The Verge)",
+            "link": "https://www.techmeme.com/260805/p31#a260805p31",
+            "date": "2026-08-05T13:20:03-04:00",
+            "summary": "Jay Peters / The Verge: Reddit expands its test of Rules Hub, a suite of tools that rely on LLMs to help moderators manage their communities, and plans a full launch later this year&nbsp; &mdash;&nbsp; It's also planning big changes for developers and old Reddit. &hellip; Reddit is enlisting AI to h"
+          },
+          {
+            "title": "Hark, founded by Figure AI CEO Brett Adcock, previews Handoff, a computer use agent it says outperforms GPT-5.4 and Opus 4.8, and plans for a summer release (Ivan Mehta/TechCrunch)",
+            "link": "https://www.techmeme.com/260805/p30#a260805p30",
+            "date": "2026-08-05T12:50:00-04:00",
+            "summary": "Ivan Mehta / TechCrunch: Hark, founded by Figure AI CEO Brett Adcock, previews Handoff, a computer use agent it says outperforms GPT-5.4 and Opus 4.8, and plans for a summer release&nbsp; &mdash;&nbsp; Hark, a startup that raised $700 million in Series A funding in May, today launched its agent Hark"
+          },
+          {
+            "title": "Google says Chief AI Architect and Google DeepMind CTO Koray Kavukcuoglu will take over many of Demis Hassabis' responsibilities as SVP; GOOG falls 3%+ (Bloomberg)",
+            "link": "https://www.techmeme.com/260805/p29#a260805p29",
+            "date": "2026-08-05T12:25:01-04:00",
+            "summary": "Bloomberg: Google says Chief AI Architect and Google DeepMind CTO Koray Kavukcuoglu will take over many of Demis Hassabis' responsibilities as SVP; GOOG falls 3%+&nbsp; &mdash;&nbsp; Alphabet Inc.'s Google is losing some of its most prominent AI veterans in a seismic overhaul that is casting doubt o"
+          },
+          {
+            "title": "Discovery Loop, co-founded by Jeff Dean, is backed by seed funding from Radical Ventures, Khosla Ventures, and others; Google also has a stake in the company (Cade Metz/New York Times)",
+            "link": "https://www.techmeme.com/260805/p28#a260805p28",
+            "date": "2026-08-05T12:15:01-04:00",
+            "summary": "Cade Metz / New York Times: Discovery Loop, co-founded by Jeff Dean, is backed by seed funding from Radical Ventures, Khosla Ventures, and others; Google also has a stake in the company&nbsp; &mdash;&nbsp; Jeff Dean, who for years was one of Google's most important executives, is leading the new art"
+          },
+          {
+            "title": "Jeff Dean and three other Google execs are leaving to launch Discovery Loop, which will seek AI-powered breakthroughs in drug discovery, chip design, and more (Steven Levy/Wired)",
+            "link": "https://www.techmeme.com/260805/p27#a260805p27",
+            "date": "2026-08-05T12:11:34-04:00",
+            "summary": "Steven Levy / Wired: Jeff Dean and three other Google execs are leaving to launch Discovery Loop, which will seek AI-powered breakthroughs in drug discovery, chip design, and more&nbsp; &mdash;&nbsp; Jeff Dean and other high-profile Google executives have founded Discovery Loop, a startup that will "
+          },
+          {
+            "title": "Demis Hassabis is stepping down as Google DeepMind CEO to be its chair and will add the title of Alphabet chief scientist; Hassabis says AGI is \"close at hand\" (Axios)",
+            "link": "https://www.techmeme.com/260805/p26#a260805p26",
+            "date": "2026-08-05T12:07:02-04:00",
+            "summary": "Axios: Demis Hassabis is stepping down as Google DeepMind CEO to be its chair and will add the title of Alphabet chief scientist; Hassabis says AGI is &ldquo;close at hand&rdquo;&nbsp; &mdash;&nbsp; Demis Hassabis is leaving his role as CEO of Google DeepMind to be the unit's chairman."
+          },
+          {
+            "title": "Elon Musk says SpaceX has decided to \"build exclusively on Nvidia because we think the Vera Rubin architecture is the best architecture\" (Shubhangi Goel/Business Insider)",
+            "link": "https://www.techmeme.com/260805/p25#a260805p25",
+            "date": "2026-08-05T11:55:03-04:00",
+            "summary": "Shubhangi Goel / Business Insider: Elon Musk says SpaceX has decided to &ldquo;build exclusively on Nvidia because we think the Vera Rubin architecture is the best architecture&rdquo;&nbsp; &mdash;&nbsp; SpaceX says it's ready to be a one-chip supplier company.&nbsp; &mdash;&nbsp; On SpaceX's highly"
+          },
+          {
+            "title": "Amazon's Zoox will start charging for rides in Las Vegas from August 10, marking the launch of its commercial operations after offering free rides since 2025 (Kirsten Korosec/TechCrunch)",
+            "link": "https://www.techmeme.com/260805/p24#a260805p24",
+            "date": "2026-08-05T11:30:02-04:00",
+            "summary": "Kirsten Korosec / TechCrunch: Amazon's Zoox will start charging for rides in Las Vegas from August 10, marking the launch of its commercial operations after offering free rides since 2025&nbsp; &mdash;&nbsp; Nearly a year ago, Zoox opened its robotaxi service to the public in Las Vegas.&nbsp; Now, i"
+          },
+          {
+            "title": "Faye, which offers travel insurance services and uses AI to help resolve claims, raised a $50M Series C led by Madrona, taking its total funding to $100M (Chris Metinko/Axios)",
+            "link": "https://www.techmeme.com/260805/p23#a260805p23",
+            "date": "2026-08-05T11:15:02-04:00",
+            "summary": "Chris Metinko / Axios: Faye, which offers travel insurance services and uses AI to help resolve claims, raised a $50M Series C led by Madrona, taking its total funding to $100M&nbsp; &mdash;&nbsp; Travel protection startup Faye raised a $50 million Series C led by Madrona, CEO Elad Schaffer tells Ax"
+          },
           {
             "title": "Developers in Africa are increasingly choosing Chinese open-source AI models over US models, saying they are downloadable, easier to customize, and much cheaper (New York Times)",
             "link": "https://www.techmeme.com/260805/p22#a260805p22",
             "date": "2026-08-05T10:45:00-04:00",
             "summary": "New York Times: Developers in Africa are increasingly choosing Chinese open-source AI models over US models, saying they are downloadable, easier to customize, and much cheaper&nbsp; &mdash;&nbsp; Developers built Sunflower, an artificial intelligence tool customized for Ugandan languages, using a C"
-          },
-          {
-            "title": "Sources: ByteDance founder Zhang Yiming told employees at an all-hands last month that the company will not use model distillation to accelerate capabilities (The Information)",
-            "link": "https://www.techmeme.com/260805/p21#a260805p21",
-            "date": "2026-08-05T09:40:14-04:00",
-            "summary": "The Information: Sources: ByteDance founder Zhang Yiming told employees at an all-hands last month that the company will not use model distillation to accelerate capabilities&nbsp; &mdash;&nbsp; ByteDance won't resort to distillation as a shortcut to advancing its AI model capabilities, even if that"
-          },
-          {
-            "title": "How Pringles maker Kellanova is using AI and a partnership with Siemens to improve production of the chip in Europe, including making digital twins of its dough (Isabelle Bousquette/Wall Street Journa",
-            "link": "https://www.techmeme.com/260805/p20#a260805p20",
-            "date": "2026-08-05T09:25:04-04:00",
-            "summary": "Isabelle Bousquette / Wall Street Journal: How Pringles maker Kellanova is using AI and a partnership with Siemens to improve production of the chip in Europe, including making digital twins of its dough&nbsp; &mdash;&nbsp; Kellanova, which manufactures Pringles in Europe, says a new AI project coul"
-          },
-          {
-            "title": "Anthropic confirms it is building an in-house silicon team to design custom chips for Claude, co-designing hardware and models and using a \"multi-chip approach\" (Tom Carter/Business Insider)",
-            "link": "https://www.techmeme.com/260805/p19#a260805p19",
-            "date": "2026-08-05T09:01:03-04:00",
-            "summary": "Tom Carter / Business Insider: Anthropic confirms it is building an in-house silicon team to design custom chips for Claude, co-designing hardware and models and using a &ldquo;multi-chip approach&rdquo;&nbsp; &mdash;&nbsp; - Anthropic plans to design its own AI chips to run Claude, the company told"
-          },
-          {
-            "title": "Sources: Google is in talks with AI coding agent startup Mechanize on a possible deal, potentially worth $1.5B+, to hire some of its talent and license its tech (Business Insider)",
-            "link": "https://www.techmeme.com/260805/p18#a260805p18",
-            "date": "2026-08-05T08:30:02-04:00",
-            "summary": "Business Insider: Sources: Google is in talks with AI coding agent startup Mechanize on a possible deal, potentially worth $1.5B+, to hire some of its talent and license its tech&nbsp; &mdash;&nbsp; Google wants its AI to get better at coding.&nbsp; It might have found a shortcut.&nbsp; &mdash;&nbsp"
-          },
-          {
-            "title": "FanDuel parent Flutter says CEO Peter Jackson is stepping down, replaced by President Dan Taylor, and reports a lower profit outlook as its US business falters (Wall Street Journal)",
-            "link": "https://www.techmeme.com/260805/p17#a260805p17",
-            "date": "2026-08-05T08:25:02-04:00",
-            "summary": "Wall Street Journal: FanDuel parent Flutter says CEO Peter Jackson is stepping down, replaced by President Dan Taylor, and reports a lower profit outlook as its US business falters&nbsp; &mdash;&nbsp; The parent company of FanDuel says CEO Peter Jackson is being replaced by Dan Taylor, the company's"
-          },
-          {
-            "title": "The UK Competition Appeal Tribunal rejects Google's bid to block a class action alleging it overcharged businesses for search ads and abused its dominance (Upmanyu Trivedi/Bloomberg)",
-            "link": "https://www.techmeme.com/260805/p16#a260805p16",
-            "date": "2026-08-05T08:20:03-04:00",
-            "summary": "Upmanyu Trivedi / Bloomberg: The UK Competition Appeal Tribunal rejects Google's bid to block a class action alleging it overcharged businesses for search ads and abused its dominance&nbsp; &mdash;&nbsp; Alphabet Inc.'s Google must face a class action lawsuit over alleged abuse of its dominance afte"
-          },
-          {
-            "title": "Google says it will begin removing Google Assistant from Android and Wear OS devices on September 4, replaced by Gemini; Assistant will remain on connected cars (Abner Li/9to5Google)",
-            "link": "https://www.techmeme.com/260805/p15#a260805p15",
-            "date": "2026-08-05T08:10:02-04:00",
-            "summary": "Abner Li / 9to5Google: Google says it will begin removing Google Assistant from Android and Wear OS devices on September 4, replaced by Gemini; Assistant will remain on connected cars&nbsp; &mdash;&nbsp; As expected, Google Assistant is going away in 2026, and the company just provided a September 4"
-          },
-          {
-            "title": "Uber CEO Dara Khosrowshahi says the company plans to spend $10B+ \"over the coming years\" to deploy 120K driverless vehicles, aiming to be in 15+ cities in 2026 (Financial Times)",
-            "link": "https://www.techmeme.com/260805/p14#a260805p14",
-            "date": "2026-08-05T07:35:02-04:00",
-            "summary": "Financial Times: Uber CEO Dara Khosrowshahi says the company plans to spend $10B+ &ldquo;over the coming years&rdquo; to deploy 120K driverless vehicles, aiming to be in 15+ cities in 2026&nbsp; &mdash;&nbsp; Chief Dara Khosrowshahi lauds strong bookings and record cash flow as company seeks to fund"
-          },
-          {
-            "title": "Shopify reports Q2 revenue up 34% YoY to $3.58B, above $3.45B est., GMV up 32% YoY to $115.57B, and forecasts Q3 revenue growth above est.; SHOP jumps 15%+ (Deborah Sophia/Reuters)",
-            "link": "https://www.techmeme.com/260805/p13#a260805p13",
-            "date": "2026-08-05T07:25:02-04:00",
-            "summary": "Deborah Sophia / Reuters: Shopify reports Q2 revenue up 34% YoY to $3.58B, above $3.45B est., GMV up 32% YoY to $115.57B, and forecasts Q3 revenue growth above est.; SHOP jumps 15%+&nbsp; &mdash;&nbsp; Canada's Shopify projected current-quarter revenue growth above Wall Street estimates on Wednesday"
           }
         ]
       },
@@ -2624,8 +2564,32 @@
         "home": "https://techcrunch.com/",
         "url": "https://techcrunch.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-08-05T15:13:38.920562+00:00",
+        "fetchedAt": "2026-08-05T17:38:19.982988+00:00",
         "items": [
+          {
+            "title": "Meet the eight startups pitching at Startup Battlefield Australia",
+            "link": "https://techcrunch.com/2026/08/05/meet-the-eight-startups-pitching-at-startup-battlefield-australia/",
+            "date": "2026-08-05T17:02:00+00:00",
+            "summary": "The applications are in, and the TechCrunch Startup Battlefield team made their decisions!"
+          },
+          {
+            "title": "PSA: Apple’s Private Relay can leak your real IP address",
+            "link": "https://techcrunch.com/2026/08/05/psa-apples-private-relay-can-leak-your-real-ip-address/",
+            "date": "2026-08-05T16:52:29+00:00",
+            "summary": "A bug in how Apple implements its Private Relay feature, which in theory masks users’ IP addresses from the sites they visit, can reveal users’ real IP addresses."
+          },
+          {
+            "title": "Shopify says AI search is driving more traffic and sales, not replacing Google",
+            "link": "https://techcrunch.com/2026/08/05/shopify-says-ai-search-is-driving-more-traffic-and-sales-not-replacing-google/",
+            "date": "2026-08-05T15:56:14+00:00",
+            "summary": "Shopify says AI isn’t cannibalizing search traffic the way it has for publishers. Instead, AI-driven traffic and orders to Shopify stores tripled year over year in Q2."
+          },
+          {
+            "title": "Hark previews its browser use agent for completing tasks",
+            "link": "https://techcrunch.com/2026/08/05/hark-previews-its-browser-use-agent-for-completing-tasks/",
+            "date": "2026-08-05T15:46:27+00:00",
+            "summary": "Hark claims that its browser use agent is faster and cheaper than competition."
+          },
           {
             "title": "Zoox to start charging for robotaxi rides in Las Vegas",
             "link": "https://techcrunch.com/2026/08/05/zoox-to-start-charging-for-robotaxi-rides-in-las-vegas/",
@@ -2654,37 +2618,13 @@
             "title": "Anthropic is hiring an AI chip design team",
             "link": "https://techcrunch.com/2026/08/05/anthropic-is-hiring-an-ai-chip-design-team/",
             "date": "2026-08-05T14:13:18+00:00",
-            "summary": "Anthropic is building a team for designing its own custom AI chips. The Claude-maker said it would co-design hardware and models to help its technology run faster and more efficiently."
+            "summary": "Anthropic is building a team for designing its own custom AI chips. The Claude maker said it would co-design hardware and models to help its technology run faster and more efficiently."
           },
           {
             "title": "Disney+ looks to TikTok creators to bring fan content to its short-form video feed",
             "link": "https://techcrunch.com/2026/08/05/disney-looks-to-tiktok-creators-to-bring-fan-content-to-its-short-form-video-feed/",
             "date": "2026-08-05T13:21:43+00:00",
             "summary": "As streamers compete with social media giants for viewer attention, Disney+ is partnering with TikTok to bring creator content to its app."
-          },
-          {
-            "title": "MacPaw taps Liquid AI to offer on-device inference to devs building for its app store",
-            "link": "https://techcrunch.com/2026/08/05/macpaw-taps-liquid-ai-to-offer-on-device-inference-to-devs-building-for-its-app-store/",
-            "date": "2026-08-05T12:28:38+00:00",
-            "summary": "MacPaw is building a local version of its AI assistant Eney using Liquid AI's models."
-          },
-          {
-            "title": "Robinhood to list a fund that lets anyone back Y Combinator startups",
-            "link": "https://techcrunch.com/2026/08/05/robinhood-to-list-a-fund-that-lets-anyone-back-y-combinator-startups/",
-            "date": "2026-08-05T12:23:52+00:00",
-            "summary": "Robinhood's latest financial instrument intends to let any retail investor feel like they, too, can make money by backing Y Combinator startups."
-          },
-          {
-            "title": "Indian EV startup River raises $120M Series C to scale production, launch more models",
-            "link": "https://techcrunch.com/2026/08/05/indian-ev-two-wheeler-startup-river-raises-120m-after-scaling-with-one-model/",
-            "date": "2026-08-05T11:26:00+00:00",
-            "summary": "River plans to build a new factory, launch additional models from 2027, and target profitability as it scales production."
-          },
-          {
-            "title": "Saudi Aramco backs India’s Mitti Labs to make Asia’s rice farming more water-resilient",
-            "link": "https://techcrunch.com/2026/08/05/saudi-aramco-backs-indias-mitti-labs-to-make-asias-rice-farming-more-water-resilient/",
-            "date": "2026-08-05T11:00:00+00:00",
-            "summary": "Mitti Labs plans to expand beyond India and enter the Philippines and Indonesia while growing its carbon credits and agricultural data business."
           }
         ]
       },
@@ -2695,8 +2635,20 @@
         "home": "https://techcrunch.com/category/artificial-intelligence/",
         "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
         "status": "ok",
-        "fetchedAt": "2026-08-05T15:13:39.318536+00:00",
+        "fetchedAt": "2026-08-05T17:38:19.984571+00:00",
         "items": [
+          {
+            "title": "Shopify says AI search is driving more traffic and sales, not replacing Google",
+            "link": "https://techcrunch.com/2026/08/05/shopify-says-ai-search-is-driving-more-traffic-and-sales-not-replacing-google/",
+            "date": "2026-08-05T15:56:14+00:00",
+            "summary": "Shopify says AI isn’t cannibalizing search traffic the way it has for publishers. Instead, AI-driven traffic and orders to Shopify stores tripled year over year in Q2."
+          },
+          {
+            "title": "Hark previews its browser use agent for completing tasks",
+            "link": "https://techcrunch.com/2026/08/05/hark-previews-its-browser-use-agent-for-completing-tasks/",
+            "date": "2026-08-05T15:46:27+00:00",
+            "summary": "Hark claims that its browser use agent is faster and cheaper than competition."
+          },
           {
             "title": "TechCrunch Disrupt 2026’s Real World AI Stage features robots, automated factories, and extinct animals",
             "link": "https://techcrunch.com/2026/08/05/techcrunch-disrupt-2026s-real-world-ai-stage-features-robots-automated-factories-and-extinct-animals/",
@@ -2707,7 +2659,7 @@
             "title": "Anthropic is hiring an AI chip design team",
             "link": "https://techcrunch.com/2026/08/05/anthropic-is-hiring-an-ai-chip-design-team/",
             "date": "2026-08-05T14:13:18+00:00",
-            "summary": "Anthropic is building a team for designing its own custom AI chips. The Claude-maker said it would co-design hardware and models to help its technology run faster and more efficiently."
+            "summary": "Anthropic is building a team for designing its own custom AI chips. The Claude maker said it would co-design hardware and models to help its technology run faster and more efficiently."
           },
           {
             "title": "MacPaw taps Liquid AI to offer on-device inference to devs building for its app store",
@@ -2719,7 +2671,7 @@
             "title": "AI makes weather prediction better. Can WindBorne make it lucrative?",
             "link": "https://techcrunch.com/2026/08/05/ai-makes-weather-prediction-better-can-windborne-make-it-lucrative/",
             "date": "2026-08-05T11:00:00+00:00",
-            "summary": "WindBorne Systems has raised $37 million Series B round to scale its weather balloons and AI forecasts."
+            "summary": "WindBorne Systems has raised a $37 million Series B round to scale its weather balloons and AI forecasts."
           },
           {
             "title": "SpaceX has bought $329M worth of Tesla Megapacks so far this year",
@@ -2744,18 +2696,6 @@
             "link": "https://techcrunch.com/2026/08/04/meet-wrinkles-an-ai-app-that-uncovers-the-hidden-stories-of-the-places-around-you/",
             "date": "2026-08-04T19:34:34+00:00",
             "summary": "Wrinkles, available on both iOS and Android, essentially acts as an AI-powered audio tour guide that reveals hidden history and local stories."
-          },
-          {
-            "title": "Nvidia doesn’t mess around: A week after open AI industry group formed, it’s already showing progress",
-            "link": "https://techcrunch.com/2026/08/04/nvidia-doesnt-mess-around-a-week-after-open-ai-industry-group-formed-its-already-showing-progress/",
-            "date": "2026-08-04T19:28:49+00:00",
-            "summary": "The week-old Open Secure AI Alliance, spearheaded by Nvidia and grown to over 120 companies, already has proposals out for defending against AI agents."
-          },
-          {
-            "title": "Spotify expands AI remix and covers project with Merlin partnership",
-            "link": "https://techcrunch.com/2026/08/04/spotify-adds-merlin-to-its-ai-music-remix-and-covers-effort/",
-            "date": "2026-08-04T15:50:06+00:00",
-            "summary": "Spotify says Merlin, which represents more than 30,000 independent labels and distributors, has joined Universal Music Group in backing its upcoming AI-powered remix and covers product. The paid tool will let fans create AI-generated covers and remixes of participating artists’ music while ensuring "
           }
         ]
       },
@@ -2766,7 +2706,7 @@
         "home": "https://techcrunch.com/tag/funding/",
         "url": "https://techcrunch.com/tag/funding/feed/",
         "status": "ok",
-        "fetchedAt": "2026-08-05T15:13:39.377505+00:00",
+        "fetchedAt": "2026-08-05T17:38:20.200723+00:00",
         "items": [
           {
             "title": "AI chip maker SambaNova raises $1B at $11B valuation, 5 months after last mega round",
@@ -2837,8 +2777,20 @@
         "home": "https://venturebeat.com/",
         "url": "https://venturebeat.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-08-05T15:13:39.095974+00:00",
+        "fetchedAt": "2026-08-05T17:38:20.111232+00:00",
         "items": [
+          {
+            "title": "The Shai-Hulud npm worm didn't fake its security check — it earned a legitimate one",
+            "link": "https://venturebeat.com/security/the-shai-hulud-npm-worm-didnt-fake-its-security-check-it-earned-a-legitimate-one",
+            "date": "2026-08-05T16:12:47+00:00",
+            "summary": "An attacker on Tuesday took over the GitHub account of the developer who maintains keyv, a small key-value storage library that npm serves roughly 127 million times a week. Within hours, poisoned versions of keyv and its sibling caching packages were live on npm, carrying a credential-stealing worm."
+          },
+          {
+            "title": "AI startup Hark unveils first product: an affordable, fast computer use agent Hark Handoff",
+            "link": "https://venturebeat.com/technology/ai-startup-hark-unveils-first-product-an-affordable-fast-computer-use-agent-hark-handoff",
+            "date": "2026-08-05T15:42:43+00:00",
+            "summary": "Hark, the secretive AI startup founded earlier this year by serial entrepreneur and roboticist Brett Adcock, today announced Handoff, a &quot;computer use agent&quot; (CUA) that it says is among the top-performing in the world at navigating the open web on a user&#x27;s behalf — ordering dinner on D"
+          },
           {
             "title": "AI is exposing the limits of traditional network architecture",
             "link": "https://venturebeat.com/infrastructure/ai-is-exposing-the-limits-of-traditional-network-architecture",
@@ -2868,18 +2820,6 @@
             "link": "https://venturebeat.com/orchestration/asanas-ai-agents-share-memory-across-your-company-but-not-your-secrets",
             "date": "2026-08-03T23:14:48+00:00",
             "summary": "Enterprise teams building AI agents keep hitting the same wall: a chatbot that can answer a prompt but can&#x27;t remember what the last five people asked it, and can&#x27;t tell you whether last month&#x27;s version actually worked.In a fireside chat with VentureBeat&#x27;s Sam Witteveen at VB Tran"
-          },
-          {
-            "title": "How NTT DATA AIVista closes the last mile of agentic AI for enterprise agents",
-            "link": "https://venturebeat.com/orchestration/how-ntt-data-aivista-closes-the-last-mile-of-agentic-ai-for-enterprise-agents",
-            "date": "2026-08-03T07:00:00+00:00",
-            "summary": "Presented by NTT DATA AIVista At VB Transform 2026, NTT DATA AIVista CEO Bratin Saha joined VentureBeat CEO and editor-in-chief Matt Marshall to discuss the last-mile challenge of operationalizing frontier models in regulated production, where reliability, context, guardrails, and security determine"
-          },
-          {
-            "title": "Stop graphing everything: When GraphRAG actually beats vector RAG",
-            "link": "https://venturebeat.com/orchestration/stop-graphing-everything-when-graphrag-actually-beats-vector-rag",
-            "date": "2026-08-02T19:00:00+00:00",
-            "summary": "If you have built anything with retrieval-augmented generation (RAG) in the last two years, you have lived its central frustration: You chop your documents into chunks, embed them, retrieve the top few that look similar to the question, and hand them to the model. For “What was our Q3 refund policy?"
           }
         ]
       },
@@ -2890,7 +2830,7 @@
         "home": "https://venturebeat.com/category/ai/",
         "url": "https://venturebeat.com/category/ai/feed/",
         "status": "ok",
-        "fetchedAt": "2026-08-05T15:13:39.306302+00:00",
+        "fetchedAt": "2026-08-05T17:38:20.175589+00:00",
         "items": [
           {
             "title": "Google just redesigned the search box for the first time in 25 years — here’s why it matters more than you think.",
@@ -2945,7 +2885,7 @@
         "home": "https://www.ruanyifeng.com/blog/",
         "url": "https://www.ruanyifeng.com/blog/atom.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-05T15:13:39.080726+00:00",
+        "fetchedAt": "2026-08-05T17:38:20.369188+00:00",
         "items": [
           {
             "title": "科技爱好者周刊（第 406 期）：道可，道非，常道",
@@ -2974,7 +2914,7 @@
         "home": "https://www.bestblogs.dev/",
         "url": "https://www.bestblogs.dev/zh/feeds/rss?category=ai&minScore=90",
         "status": "ok",
-        "fetchedAt": "2026-08-05T15:13:39.931899+00:00",
+        "fetchedAt": "2026-08-05T17:38:21.062565+00:00",
         "items": [
           {
             "title": "SeedRealtime 音视频全双工大模型发布：走向全模态自然交互",
@@ -3042,6 +2982,146 @@
   },
   "allItems": [
     {
+      "title": "Meet the eight startups pitching at Startup Battlefield Australia",
+      "link": "https://techcrunch.com/2026/08/05/meet-the-eight-startups-pitching-at-startup-battlefield-australia/",
+      "date": "2026-08-05T17:02:00+00:00",
+      "summary": "The applications are in, and the TechCrunch Startup Battlefield team made their decisions!",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "PSA: Apple’s Private Relay can leak your real IP address",
+      "link": "https://techcrunch.com/2026/08/05/psa-apples-private-relay-can-leak-your-real-ip-address/",
+      "date": "2026-08-05T16:52:29+00:00",
+      "summary": "A bug in how Apple implements its Private Relay feature, which in theory masks users’ IP addresses from the sites they visit, can reveal users’ real IP addresses.",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "Discovery Loop",
+      "link": "https://www.discoveryloop.com/",
+      "date": "2026-08-05T16:19:44+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "The Shai-Hulud npm worm didn't fake its security check — it earned a legitimate one",
+      "link": "https://venturebeat.com/security/the-shai-hulud-npm-worm-didnt-fake-its-security-check-it-earned-a-legitimate-one",
+      "date": "2026-08-05T16:12:47+00:00",
+      "summary": "An attacker on Tuesday took over the GitHub account of the developer who maintains keyv, a small key-value storage library that npm serves roughly 127 million times a week. Within hours, poisoned versions of keyv and its sibling caching packages were live on npm, carrying a credential-stealing worm.",
+      "feedId": "venturebeat",
+      "feedTitle": "VentureBeat",
+      "category": "Startup & News",
+      "feedHome": "https://venturebeat.com/"
+    },
+    {
+      "title": "Google DeepMind CEO Demis Hassabis is stepping down",
+      "link": "https://www.axios.com/2026/08/05/google-deepmind-demis-hassabis-ai",
+      "date": "2026-08-05T16:05:37+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "The next chapter of our AI momentum",
+      "link": "https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/",
+      "date": "2026-08-05T16:05:31+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "Jeff Dean leaving Alphabet",
+      "link": "https://www.nytimes.com/2026/08/05/technology/google-researchers-ai-startup.html",
+      "date": "2026-08-05T16:04:33+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "Shopify says AI search is driving more traffic and sales, not replacing Google",
+      "link": "https://techcrunch.com/2026/08/05/shopify-says-ai-search-is-driving-more-traffic-and-sales-not-replacing-google/",
+      "date": "2026-08-05T15:56:14+00:00",
+      "summary": "Shopify says AI isn’t cannibalizing search traffic the way it has for publishers. Instead, AI-driven traffic and orders to Shopify stores tripled year over year in Q2.",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "Shopify says AI search is driving more traffic and sales, not replacing Google",
+      "link": "https://techcrunch.com/2026/08/05/shopify-says-ai-search-is-driving-more-traffic-and-sales-not-replacing-google/",
+      "date": "2026-08-05T15:56:14+00:00",
+      "summary": "Shopify says AI isn’t cannibalizing search traffic the way it has for publishers. Instead, AI-driven traffic and orders to Shopify stores tripled year over year in Q2.",
+      "feedId": "techcrunch-ai",
+      "feedTitle": "TechCrunch AI",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
+    },
+    {
+      "title": "Paul Thurrott Reviews the HP OmniBook Ultra 14, With Qualcomm’s Snapdragon X2",
+      "link": "https://www.thurrott.com/mobile/copilot-pc/340107/hp-omnibook-ultra-14-snapdragon-x2-review",
+      "date": "2026-08-05T15:55:53+00:00",
+      "summary": "Paul Thurrott: We didn’t need more evidence that Qualcomm’s Snapdragon X2 compute platform is superior to anything in the x86 world. But here it is, regardless: The HP OmniBook Ultra 14 is yet another nearly-perfect laptop running Windows 11 on Arm, an ideal combination of hardware and software that",
+      "feedId": "daringfireball",
+      "feedTitle": "Daring Fireball",
+      "category": "Tech Blogs",
+      "feedHome": "https://daringfireball.net/"
+    },
+    {
+      "title": "Hark previews its browser use agent for completing tasks",
+      "link": "https://techcrunch.com/2026/08/05/hark-previews-its-browser-use-agent-for-completing-tasks/",
+      "date": "2026-08-05T15:46:27+00:00",
+      "summary": "Hark claims that its browser use agent is faster and cheaper than competition.",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "Hark previews its browser use agent for completing tasks",
+      "link": "https://techcrunch.com/2026/08/05/hark-previews-its-browser-use-agent-for-completing-tasks/",
+      "date": "2026-08-05T15:46:27+00:00",
+      "summary": "Hark claims that its browser use agent is faster and cheaper than competition.",
+      "feedId": "techcrunch-ai",
+      "feedTitle": "TechCrunch AI",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
+    },
+    {
+      "title": "AI startup Hark unveils first product: an affordable, fast computer use agent Hark Handoff",
+      "link": "https://venturebeat.com/technology/ai-startup-hark-unveils-first-product-an-affordable-fast-computer-use-agent-hark-handoff",
+      "date": "2026-08-05T15:42:43+00:00",
+      "summary": "Hark, the secretive AI startup founded earlier this year by serial entrepreneur and roboticist Brett Adcock, today announced Handoff, a &quot;computer use agent&quot; (CUA) that it says is among the top-performing in the world at navigating the open web on a user&#x27;s behalf — ordering dinner on D",
+      "feedId": "venturebeat",
+      "feedTitle": "VentureBeat",
+      "category": "Startup & News",
+      "feedHome": "https://venturebeat.com/"
+    },
+    {
+      "title": "Cops Used Flock to Track a Man Across State Lines for a Pretextual Weed Search",
+      "link": "https://www.404media.co/cops-used-flock-to-track-a-man-across-state-lines-to-create-pretext-to-search-his-car-for-weed/",
+      "date": "2026-08-05T15:20:11+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
       "title": "Zoox to start charging for robotaxi rides in Las Vegas",
       "link": "https://techcrunch.com/2026/08/05/zoox-to-start-charging-for-robotaxi-rides-in-las-vegas/",
       "date": "2026-08-05T15:06:42+00:00",
@@ -3082,6 +3162,16 @@
       "feedHome": "https://daringfireball.net/"
     },
     {
+      "title": "Qwen 3.0 Image Pro",
+      "link": "https://www.qwencloud.com/models/qwen-image-3.0-pro",
+      "date": "2026-08-05T14:53:29+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
       "title": "Enumerating trees and circles",
       "link": "https://www.johndcook.com/blog/2026/08/05/enumerating-trees-and-circles/",
       "date": "2026-08-05T14:49:35+00:00",
@@ -3100,6 +3190,16 @@
       "feedTitle": "Daring Fireball",
       "category": "Tech Blogs",
       "feedHome": "https://daringfireball.net/"
+    },
+    {
+      "title": "Oracle Just Halved Its Always Free ARM Limits",
+      "link": "https://www.cnelecar.com/blog/oracle-always-free-arm-limits-cut-2026/",
+      "date": "2026-08-05T14:46:36+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
     },
     {
       "title": "As Gen Z reconsiders dating apps, Tinder’s IRL events expand to dozens more cities",
@@ -3122,10 +3222,20 @@
       "feedHome": "https://techcrunch.com/"
     },
     {
+      "title": "The \"Disability Dongle\": Why Silicon Valley Hates Me and You",
+      "link": "https://sightlessscribbles.com/disability-dongle/",
+      "date": "2026-08-05T14:38:13+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
       "title": "Anthropic is hiring an AI chip design team",
       "link": "https://techcrunch.com/2026/08/05/anthropic-is-hiring-an-ai-chip-design-team/",
       "date": "2026-08-05T14:13:18+00:00",
-      "summary": "Anthropic is building a team for designing its own custom AI chips. The Claude-maker said it would co-design hardware and models to help its technology run faster and more efficiently.",
+      "summary": "Anthropic is building a team for designing its own custom AI chips. The Claude maker said it would co-design hardware and models to help its technology run faster and more efficiently.",
       "feedId": "techcrunch",
       "feedTitle": "TechCrunch",
       "category": "Startup & News",
@@ -3135,7 +3245,7 @@
       "title": "Anthropic is hiring an AI chip design team",
       "link": "https://techcrunch.com/2026/08/05/anthropic-is-hiring-an-ai-chip-design-team/",
       "date": "2026-08-05T14:13:18+00:00",
-      "summary": "Anthropic is building a team for designing its own custom AI chips. The Claude-maker said it would co-design hardware and models to help its technology run faster and more efficiently.",
+      "summary": "Anthropic is building a team for designing its own custom AI chips. The Claude maker said it would co-design hardware and models to help its technology run faster and more efficiently.",
       "feedId": "techcrunch-ai",
       "feedTitle": "TechCrunch AI",
       "category": "Startup & News",
@@ -3145,16 +3255,6 @@
       "title": "Aristotle quotes on virtue, knowledge, and happiness",
       "link": "https://www.campion.edu.au/blog/top-25-aristotle-quotes-on-virtue-knowledge-and-happiness/",
       "date": "2026-08-05T14:06:39+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
-      "title": "Intelligence Is Not the Main Bottleneck",
-      "link": "https://www.writingruxandrabio.com/p/intelligence-is-not-the-main-bottleneck",
-      "date": "2026-08-05T14:04:06+00:00",
       "summary": "Comments",
       "feedId": "hackernews",
       "feedTitle": "Hacker News",
@@ -3172,56 +3272,6 @@
       "feedHome": "https://news.ycombinator.com/"
     },
     {
-      "title": "Silicon Valley sees AI as the solution – for everyone else",
-      "link": "https://observer.co.uk/news/science-technology/article/silicon-valley-sees-ai-as-the-solution-for-everyone-else-its-the-problem",
-      "date": "2026-08-05T13:58:28+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
-      "title": "Not hiring junior engineers won't solve the problem you think you have",
-      "link": "https://franciscotrindade.me/blog/the-kids-are-alright/",
-      "date": "2026-08-05T13:55:48+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
-      "title": "Building an Advanced Agentic Harness",
-      "link": "https://data4sci.com/blog/building-an-advanced-agentic-harness",
-      "date": "2026-08-05T13:54:12+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
-      "title": "Faster Than Ninja",
-      "link": "https://build2.org/blog/faster-than-ninja.xhtml",
-      "date": "2026-08-05T13:33:25+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
-      "title": "Google's HTTP/2 codec slows Envoy",
-      "link": "https://apoxy.dev/blog/oghttp2-vs-nghttp2",
-      "date": "2026-08-05T13:26:01+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
       "title": "Disney+ looks to TikTok creators to bring fan content to its short-form video feed",
       "link": "https://techcrunch.com/2026/08/05/disney-looks-to-tiktok-creators-to-bring-fan-content-to-its-short-form-video-feed/",
       "date": "2026-08-05T13:21:43+00:00",
@@ -3232,14 +3282,24 @@
       "feedHome": "https://techcrunch.com/"
     },
     {
-      "title": "MacPaw taps Liquid AI to offer on-device inference to devs building for its app store",
-      "link": "https://techcrunch.com/2026/08/05/macpaw-taps-liquid-ai-to-offer-on-device-inference-to-devs-building-for-its-app-store/",
-      "date": "2026-08-05T12:28:38+00:00",
-      "summary": "MacPaw is building a local version of its AI assistant Eney using Liquid AI's models.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
+      "title": "Reddit expands its test of Rules Hub, a suite of tools that rely on LLMs to help moderators manage their communities, and plans a full launch later this year (Jay Peters/The Verge)",
+      "link": "https://www.techmeme.com/260805/p31#a260805p31",
+      "date": "2026-08-05T13:20:03-04:00",
+      "summary": "Jay Peters / The Verge: Reddit expands its test of Rules Hub, a suite of tools that rely on LLMs to help moderators manage their communities, and plans a full launch later this year&nbsp; &mdash;&nbsp; It's also planning big changes for developers and old Reddit. &hellip; Reddit is enlisting AI to h",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
       "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
+      "title": "Hark, founded by Figure AI CEO Brett Adcock, previews Handoff, a computer use agent it says outperforms GPT-5.4 and Opus 4.8, and plans for a summer release (Ivan Mehta/TechCrunch)",
+      "link": "https://www.techmeme.com/260805/p30#a260805p30",
+      "date": "2026-08-05T12:50:00-04:00",
+      "summary": "Ivan Mehta / TechCrunch: Hark, founded by Figure AI CEO Brett Adcock, previews Handoff, a computer use agent it says outperforms GPT-5.4 and Opus 4.8, and plans for a summer release&nbsp; &mdash;&nbsp; Hark, a startup that raised $700 million in Series A funding in May, today launched its agent Hark",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
     },
     {
       "title": "MacPaw taps Liquid AI to offer on-device inference to devs building for its app store",
@@ -3252,24 +3312,64 @@
       "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
     },
     {
-      "title": "Robinhood to list a fund that lets anyone back Y Combinator startups",
-      "link": "https://techcrunch.com/2026/08/05/robinhood-to-list-a-fund-that-lets-anyone-back-y-combinator-startups/",
-      "date": "2026-08-05T12:23:52+00:00",
-      "summary": "Robinhood's latest financial instrument intends to let any retail investor feel like they, too, can make money by backing Y Combinator startups.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
+      "title": "Google says Chief AI Architect and Google DeepMind CTO Koray Kavukcuoglu will take over many of Demis Hassabis' responsibilities as SVP; GOOG falls 3%+ (Bloomberg)",
+      "link": "https://www.techmeme.com/260805/p29#a260805p29",
+      "date": "2026-08-05T12:25:01-04:00",
+      "summary": "Bloomberg: Google says Chief AI Architect and Google DeepMind CTO Koray Kavukcuoglu will take over many of Demis Hassabis' responsibilities as SVP; GOOG falls 3%+&nbsp; &mdash;&nbsp; Alphabet Inc.'s Google is losing some of its most prominent AI veterans in a seismic overhaul that is casting doubt o",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
       "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
+      "feedHome": "https://www.techmeme.com/"
     },
     {
-      "title": "Why Erdős Problems Are Falling to AI",
-      "link": "https://www.quantamagazine.org/why-the-legendary-erdos-problems-are-falling-to-ai-20260803/",
-      "date": "2026-08-05T11:49:34+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
+      "title": "Discovery Loop, co-founded by Jeff Dean, is backed by seed funding from Radical Ventures, Khosla Ventures, and others; Google also has a stake in the company (Cade Metz/New York Times)",
+      "link": "https://www.techmeme.com/260805/p28#a260805p28",
+      "date": "2026-08-05T12:15:01-04:00",
+      "summary": "Cade Metz / New York Times: Discovery Loop, co-founded by Jeff Dean, is backed by seed funding from Radical Ventures, Khosla Ventures, and others; Google also has a stake in the company&nbsp; &mdash;&nbsp; Jeff Dean, who for years was one of Google's most important executives, is leading the new art",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
       "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
+      "title": "Jeff Dean and three other Google execs are leaving to launch Discovery Loop, which will seek AI-powered breakthroughs in drug discovery, chip design, and more (Steven Levy/Wired)",
+      "link": "https://www.techmeme.com/260805/p27#a260805p27",
+      "date": "2026-08-05T12:11:34-04:00",
+      "summary": "Steven Levy / Wired: Jeff Dean and three other Google execs are leaving to launch Discovery Loop, which will seek AI-powered breakthroughs in drug discovery, chip design, and more&nbsp; &mdash;&nbsp; Jeff Dean and other high-profile Google executives have founded Discovery Loop, a startup that will ",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
+      "title": "Demis Hassabis is stepping down as Google DeepMind CEO to be its chair and will add the title of Alphabet chief scientist; Hassabis says AGI is \"close at hand\" (Axios)",
+      "link": "https://www.techmeme.com/260805/p26#a260805p26",
+      "date": "2026-08-05T12:07:02-04:00",
+      "summary": "Axios: Demis Hassabis is stepping down as Google DeepMind CEO to be its chair and will add the title of Alphabet chief scientist; Hassabis says AGI is &ldquo;close at hand&rdquo;&nbsp; &mdash;&nbsp; Demis Hassabis is leaving his role as CEO of Google DeepMind to be the unit's chairman.",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
+      "title": "Elon Musk says SpaceX has decided to \"build exclusively on Nvidia because we think the Vera Rubin architecture is the best architecture\" (Shubhangi Goel/Business Insider)",
+      "link": "https://www.techmeme.com/260805/p25#a260805p25",
+      "date": "2026-08-05T11:55:03-04:00",
+      "summary": "Shubhangi Goel / Business Insider: Elon Musk says SpaceX has decided to &ldquo;build exclusively on Nvidia because we think the Vera Rubin architecture is the best architecture&rdquo;&nbsp; &mdash;&nbsp; SpaceX says it's ready to be a one-chip supplier company.&nbsp; &mdash;&nbsp; On SpaceX's highly",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
+      "title": "Proxmox officially supports Arm, with some caveats",
+      "link": "https://www.jeffgeerling.com/blog/2026/proxmox-ve-arm-official/",
+      "date": "2026-08-05T11:50:00-05:00",
+      "summary": "Proxmox today announced their Proxmox Virtual Environment is now available for 64-bit ARM. I tested it on my Ampere Altra Dev Platform—the same machine on which I've booted Windows on Arm the first time, messed with multiple GPUs, and most recently tested Houdini's native arm64 support. Install was ",
+      "feedId": "jeffgeerling",
+      "feedTitle": "Jeff Geerling",
+      "category": "Tech Blogs",
+      "feedHome": "https://www.jeffgeerling.com/"
     },
     {
       "title": "Gadget Review: T2 Max plug-in Thermal Camera ★★★⯪☆",
@@ -3282,40 +3382,30 @@
       "feedHome": "https://shkspr.mobi/blog/"
     },
     {
-      "title": "Indian EV startup River raises $120M Series C to scale production, launch more models",
-      "link": "https://techcrunch.com/2026/08/05/indian-ev-two-wheeler-startup-river-raises-120m-after-scaling-with-one-model/",
-      "date": "2026-08-05T11:26:00+00:00",
-      "summary": "River plans to build a new factory, launch additional models from 2027, and target profitability as it scales production.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
+      "title": "Amazon's Zoox will start charging for rides in Las Vegas from August 10, marking the launch of its commercial operations after offering free rides since 2025 (Kirsten Korosec/TechCrunch)",
+      "link": "https://www.techmeme.com/260805/p24#a260805p24",
+      "date": "2026-08-05T11:30:02-04:00",
+      "summary": "Kirsten Korosec / TechCrunch: Amazon's Zoox will start charging for rides in Las Vegas from August 10, marking the launch of its commercial operations after offering free rides since 2025&nbsp; &mdash;&nbsp; Nearly a year ago, Zoox opened its robotaxi service to the public in Las Vegas.&nbsp; Now, i",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
       "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
+      "feedHome": "https://www.techmeme.com/"
     },
     {
-      "title": "Position: LLMs Can't Jump",
-      "link": "https://openreview.net/challenge?redirect=%2Fforum%3Fid%3DklU4737opt",
-      "date": "2026-08-05T11:01:37+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
+      "title": "Faye, which offers travel insurance services and uses AI to help resolve claims, raised a $50M Series C led by Madrona, taking its total funding to $100M (Chris Metinko/Axios)",
+      "link": "https://www.techmeme.com/260805/p23#a260805p23",
+      "date": "2026-08-05T11:15:02-04:00",
+      "summary": "Chris Metinko / Axios: Faye, which offers travel insurance services and uses AI to help resolve claims, raised a $50M Series C led by Madrona, taking its total funding to $100M&nbsp; &mdash;&nbsp; Travel protection startup Faye raised a $50 million Series C led by Madrona, CEO Elad Schaffer tells Ax",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
       "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
-      "title": "Saudi Aramco backs India’s Mitti Labs to make Asia’s rice farming more water-resilient",
-      "link": "https://techcrunch.com/2026/08/05/saudi-aramco-backs-indias-mitti-labs-to-make-asias-rice-farming-more-water-resilient/",
-      "date": "2026-08-05T11:00:00+00:00",
-      "summary": "Mitti Labs plans to expand beyond India and enter the Philippines and Indonesia while growing its carbon credits and agricultural data business.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
+      "feedHome": "https://www.techmeme.com/"
     },
     {
       "title": "AI makes weather prediction better. Can WindBorne make it lucrative?",
       "link": "https://techcrunch.com/2026/08/05/ai-makes-weather-prediction-better-can-windborne-make-it-lucrative/",
       "date": "2026-08-05T11:00:00+00:00",
-      "summary": "WindBorne Systems has raised $37 million Series B round to scale its weather balloons and AI forecasts.",
+      "summary": "WindBorne Systems has raised a $37 million Series B round to scale its weather balloons and AI forecasts.",
       "feedId": "techcrunch-ai",
       "feedTitle": "TechCrunch AI",
       "category": "Startup & News",
@@ -3336,96 +3426,6 @@
       "link": "https://www.techmeme.com/260805/p22#a260805p22",
       "date": "2026-08-05T10:45:00-04:00",
       "summary": "New York Times: Developers in Africa are increasingly choosing Chinese open-source AI models over US models, saying they are downloadable, easier to customize, and much cheaper&nbsp; &mdash;&nbsp; Developers built Sunflower, an artificial intelligence tool customized for Ugandan languages, using a C",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "Sources: ByteDance founder Zhang Yiming told employees at an all-hands last month that the company will not use model distillation to accelerate capabilities (The Information)",
-      "link": "https://www.techmeme.com/260805/p21#a260805p21",
-      "date": "2026-08-05T09:40:14-04:00",
-      "summary": "The Information: Sources: ByteDance founder Zhang Yiming told employees at an all-hands last month that the company will not use model distillation to accelerate capabilities&nbsp; &mdash;&nbsp; ByteDance won't resort to distillation as a shortcut to advancing its AI model capabilities, even if that",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "How Pringles maker Kellanova is using AI and a partnership with Siemens to improve production of the chip in Europe, including making digital twins of its dough (Isabelle Bousquette/Wall Street Journa",
-      "link": "https://www.techmeme.com/260805/p20#a260805p20",
-      "date": "2026-08-05T09:25:04-04:00",
-      "summary": "Isabelle Bousquette / Wall Street Journal: How Pringles maker Kellanova is using AI and a partnership with Siemens to improve production of the chip in Europe, including making digital twins of its dough&nbsp; &mdash;&nbsp; Kellanova, which manufactures Pringles in Europe, says a new AI project coul",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "Anthropic confirms it is building an in-house silicon team to design custom chips for Claude, co-designing hardware and models and using a \"multi-chip approach\" (Tom Carter/Business Insider)",
-      "link": "https://www.techmeme.com/260805/p19#a260805p19",
-      "date": "2026-08-05T09:01:03-04:00",
-      "summary": "Tom Carter / Business Insider: Anthropic confirms it is building an in-house silicon team to design custom chips for Claude, co-designing hardware and models and using a &ldquo;multi-chip approach&rdquo;&nbsp; &mdash;&nbsp; - Anthropic plans to design its own AI chips to run Claude, the company told",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "Sources: Google is in talks with AI coding agent startup Mechanize on a possible deal, potentially worth $1.5B+, to hire some of its talent and license its tech (Business Insider)",
-      "link": "https://www.techmeme.com/260805/p18#a260805p18",
-      "date": "2026-08-05T08:30:02-04:00",
-      "summary": "Business Insider: Sources: Google is in talks with AI coding agent startup Mechanize on a possible deal, potentially worth $1.5B+, to hire some of its talent and license its tech&nbsp; &mdash;&nbsp; Google wants its AI to get better at coding.&nbsp; It might have found a shortcut.&nbsp; &mdash;&nbsp",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "FanDuel parent Flutter says CEO Peter Jackson is stepping down, replaced by President Dan Taylor, and reports a lower profit outlook as its US business falters (Wall Street Journal)",
-      "link": "https://www.techmeme.com/260805/p17#a260805p17",
-      "date": "2026-08-05T08:25:02-04:00",
-      "summary": "Wall Street Journal: FanDuel parent Flutter says CEO Peter Jackson is stepping down, replaced by President Dan Taylor, and reports a lower profit outlook as its US business falters&nbsp; &mdash;&nbsp; The parent company of FanDuel says CEO Peter Jackson is being replaced by Dan Taylor, the company's",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "The UK Competition Appeal Tribunal rejects Google's bid to block a class action alleging it overcharged businesses for search ads and abused its dominance (Upmanyu Trivedi/Bloomberg)",
-      "link": "https://www.techmeme.com/260805/p16#a260805p16",
-      "date": "2026-08-05T08:20:03-04:00",
-      "summary": "Upmanyu Trivedi / Bloomberg: The UK Competition Appeal Tribunal rejects Google's bid to block a class action alleging it overcharged businesses for search ads and abused its dominance&nbsp; &mdash;&nbsp; Alphabet Inc.'s Google must face a class action lawsuit over alleged abuse of its dominance afte",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "Google says it will begin removing Google Assistant from Android and Wear OS devices on September 4, replaced by Gemini; Assistant will remain on connected cars (Abner Li/9to5Google)",
-      "link": "https://www.techmeme.com/260805/p15#a260805p15",
-      "date": "2026-08-05T08:10:02-04:00",
-      "summary": "Abner Li / 9to5Google: Google says it will begin removing Google Assistant from Android and Wear OS devices on September 4, replaced by Gemini; Assistant will remain on connected cars&nbsp; &mdash;&nbsp; As expected, Google Assistant is going away in 2026, and the company just provided a September 4",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "Uber CEO Dara Khosrowshahi says the company plans to spend $10B+ \"over the coming years\" to deploy 120K driverless vehicles, aiming to be in 15+ cities in 2026 (Financial Times)",
-      "link": "https://www.techmeme.com/260805/p14#a260805p14",
-      "date": "2026-08-05T07:35:02-04:00",
-      "summary": "Financial Times: Uber CEO Dara Khosrowshahi says the company plans to spend $10B+ &ldquo;over the coming years&rdquo; to deploy 120K driverless vehicles, aiming to be in 15+ cities in 2026&nbsp; &mdash;&nbsp; Chief Dara Khosrowshahi lauds strong bookings and record cash flow as company seeks to fund",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "Shopify reports Q2 revenue up 34% YoY to $3.58B, above $3.45B est., GMV up 32% YoY to $115.57B, and forecasts Q3 revenue growth above est.; SHOP jumps 15%+ (Deborah Sophia/Reuters)",
-      "link": "https://www.techmeme.com/260805/p13#a260805p13",
-      "date": "2026-08-05T07:25:02-04:00",
-      "summary": "Deborah Sophia / Reuters: Shopify reports Q2 revenue up 34% YoY to $3.58B, above $3.45B est., GMV up 32% YoY to $115.57B, and forecasts Q3 revenue growth above est.; SHOP jumps 15%+&nbsp; &mdash;&nbsp; Canada's Shopify projected current-quarter revenue growth above Wall Street estimates on Wednesday",
       "feedId": "techmeme",
       "feedTitle": "Techmeme",
       "category": "Startup & News",
@@ -3732,16 +3732,6 @@
       "feedHome": "https://daringfireball.net/"
     },
     {
-      "title": "Nvidia doesn’t mess around: A week after open AI industry group formed, it’s already showing progress",
-      "link": "https://techcrunch.com/2026/08/04/nvidia-doesnt-mess-around-a-week-after-open-ai-industry-group-formed-its-already-showing-progress/",
-      "date": "2026-08-04T19:28:49+00:00",
-      "summary": "The week-old Open Secure AI Alliance, spearheaded by Nvidia and grown to over 120 companies, already has proposals out for defending against AI agents.",
-      "feedId": "techcrunch-ai",
-      "feedTitle": "TechCrunch AI",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
-    },
-    {
       "title": "PipeNetwork/minimax-h3-mlx",
       "link": "https://simonwillison.net/2026/Aug/4/minimax-h3-mlx/#atom-everything",
       "date": "2026-08-04T19:10:09+00:00",
@@ -3810,16 +3800,6 @@
       "feedTitle": "BestBlogs.dev AI 90+",
       "category": "中文",
       "feedHome": "https://www.bestblogs.dev/"
-    },
-    {
-      "title": "Spotify expands AI remix and covers project with Merlin partnership",
-      "link": "https://techcrunch.com/2026/08/04/spotify-adds-merlin-to-its-ai-music-remix-and-covers-effort/",
-      "date": "2026-08-04T15:50:06+00:00",
-      "summary": "Spotify says Merlin, which represents more than 30,000 independent labels and distributors, has joined Universal Music Group in backing its upcoming AI-powered remix and covers product. The paid tool will let fans create AI-generated covers and remixes of participating artists’ music while ensuring ",
-      "feedId": "techcrunch-ai",
-      "feedTitle": "TechCrunch AI",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
     },
     {
       "title": "John Ternus Has Rehired Former Hardware VP Laura Legros",
@@ -3992,16 +3972,6 @@
       "feedHome": "https://openai.com/news/"
     },
     {
-      "title": "Om Malik’s Final Essay: ‘The Myth, the Mythos and the Man’",
-      "link": "https://om.co/2026/06/07/the-myth-the-mythos-and-the-man/",
-      "date": "2026-08-03T20:34:13+00:00",
-      "summary": "Om published this on Monday June 7 — the day of the WWDC keynote. He sent me a note about it, that is too personal to share in full. He described it as his “last shot” — “In case I don’t make it”. He didn’t make it. I didn’t read it right away because I was busy with WWDC. Then, after he died, I did",
-      "feedId": "daringfireball",
-      "feedTitle": "Daring Fireball",
-      "category": "Tech Blogs",
-      "feedHome": "https://daringfireball.net/"
-    },
-    {
       "title": "Quoting David Crawshaw's prompt",
       "link": "https://simonwillison.net/2026/Aug/3/david-crawshaw/#atom-everything",
       "date": "2026-08-03T16:15:27+00:00",
@@ -4092,16 +4062,6 @@
       "feedHome": "https://idiallo.com/"
     },
     {
-      "title": "How NTT DATA AIVista closes the last mile of agentic AI for enterprise agents",
-      "link": "https://venturebeat.com/orchestration/how-ntt-data-aivista-closes-the-last-mile-of-agentic-ai-for-enterprise-agents",
-      "date": "2026-08-03T07:00:00+00:00",
-      "summary": "Presented by NTT DATA AIVista At VB Transform 2026, NTT DATA AIVista CEO Bratin Saha joined VentureBeat CEO and editor-in-chief Matt Marshall to discuss the last-mile challenge of operationalizing frontier models in regulated production, where reliability, context, guardrails, and security determine",
-      "feedId": "venturebeat",
-      "feedTitle": "VentureBeat",
-      "category": "Startup & News",
-      "feedHome": "https://venturebeat.com/"
-    },
-    {
       "title": "Welcoming the Nepalese Government to Have I Been Pwned",
       "link": "https://www.troyhunt.com/welcoming-the-nepalese-government-to-have-i-been-pwned/",
       "date": "2026-08-03T06:38:05+00:00",
@@ -4180,16 +4140,6 @@
       "feedTitle": "John D. Cook",
       "category": "Tech Blogs",
       "feedHome": "https://www.johndcook.com/"
-    },
-    {
-      "title": "Stop graphing everything: When GraphRAG actually beats vector RAG",
-      "link": "https://venturebeat.com/orchestration/stop-graphing-everything-when-graphrag-actually-beats-vector-rag",
-      "date": "2026-08-02T19:00:00+00:00",
-      "summary": "If you have built anything with retrieval-augmented generation (RAG) in the last two years, you have lived its central frustration: You chop your documents into chunks, embed them, retrieve the top few that look similar to the question, and hand them to the model. For “What was our Q3 refund policy?",
-      "feedId": "venturebeat",
-      "feedTitle": "VentureBeat",
-      "category": "Startup & News",
-      "feedHome": "https://venturebeat.com/"
     },
     {
       "title": "Estimating a cumulative sum",
@@ -5622,16 +5572,6 @@
       "feedHome": "https://xeiaso.net/"
     },
     {
-      "title": "Lean Launch Pad 2026 @ Stanford – Lessons Learned Presentations",
-      "link": "https://steveblank.com/2026/06/16/lean-launch-pad-2026-stanford-lessons-learned-presentations/",
-      "date": "2026-06-16T13:00:57+00:00",
-      "summary": "We just finished the 16th annual Lean LaunchPad class at Stanford. In those 16 years, the class has gone from a radical idea &#8211; that the Lean method could provide a more productive framework for new startups &#8211; to something that everyone agrees is a way to build new startups. The class had",
-      "feedId": "steveblank",
-      "feedTitle": "Steve Blank",
-      "category": "Tech Blogs",
-      "feedHome": "https://steveblank.com/"
-    },
-    {
       "title": "Weekly Update 508",
       "link": "https://www.troyhunt.com/weekly-update-508/",
       "date": "2026-06-15T04:55:47+00:00",
@@ -5742,16 +5682,6 @@
       "feedHome": "https://krebsonsecurity.com/"
     },
     {
-      "title": "Incorruptible",
-      "link": "https://steveblank.com/2026/06/09/incorruptible/",
-      "date": "2026-06-09T13:00:23+00:00",
-      "summary": "Incorruptible: Why Good Companies Go Bad&#8230; and How Great Companies Stay Great, by Eric Ries. Every once in a while a book comes along that doesn&#8217;t just change your tactical thinking, but makes you see the world in a different way. Reading this book is like taking the red pill in the Matri",
-      "feedId": "steveblank",
-      "feedTitle": "Steve Blank",
-      "category": "Tech Blogs",
-      "feedHome": "https://steveblank.com/"
-    },
-    {
       "title": "Giving your Go apps Tigris superpowers",
       "link": "https://www.tigrisdata.com/blog/storage-sdk-go/",
       "date": "2026-06-09T00:00:00+00:00",
@@ -5760,16 +5690,6 @@
       "feedTitle": "Xe Iaso",
       "category": "Tech Blogs",
       "feedHome": "https://xeiaso.net/"
-    },
-    {
-      "title": "Hacking for Defense @ Stanford 2026 – Lessons Learned Presentations",
-      "link": "https://steveblank.com/2026/06/08/g-for-defense-stanford-2026-lessons-learned-presentations/",
-      "date": "2026-06-08T13:00:15+00:00",
-      "summary": "We just wrapped up our Hacking for Defense class at Stanford. This was the 11th year we&#8217;ve taught Hacking for Defense, and the impact of asymmetric warfare, (drones, off-the-shelf technologies, etc.,) disruptive technologies (AI, commercial access to space) and a startup friendly DoW acquisiti",
-      "feedId": "steveblank",
-      "feedTitle": "Steve Blank",
-      "category": "Tech Blogs",
-      "feedHome": "https://steveblank.com/"
     },
     {
       "title": "A new era for software testing",
@@ -5830,16 +5750,6 @@
       "feedTitle": "Computer Rip",
       "category": "Tech Blogs",
       "feedHome": "https://computer.rip/"
-    },
-    {
-      "title": "It's hard to justify buying a Framework 12",
-      "link": "https://www.jeffgeerling.com/blog/2026/its-hard-to-justify-framework-12/",
-      "date": "2026-05-29T09:00:00-05:00",
-      "summary": "My nephew just graduated high school, and wants a laptop. When he decides what computer to buy, price (or more precisely, value) is the most important attribute. Apple's MacBook Neo upended the 'value laptop' equation—Apple's not supposed to be both the cheapest option and the best value... but it s",
-      "feedId": "jeffgeerling",
-      "feedTitle": "Jeff Geerling",
-      "category": "Tech Blogs",
-      "feedHome": "https://www.jeffgeerling.com/"
     },
     {
       "title": "SQLAlchemy 2 In Practice - Solutions to the Exercises",
@@ -6112,16 +6022,6 @@
       "feedHome": "https://anildash.com/"
     },
     {
-      "title": "Anthropic Mythos – We’ve Opened Pandora’s Box",
-      "link": "https://steveblank.com/2026/04/28/anthropic-mythos-weve-opened-pandoras-box/",
-      "date": "2026-04-28T13:00:48+00:00",
-      "summary": "This article previously appeared in The Cipher Brief. For a decade the cybersecurity community was predicting a cyber apocalypse tied to a single event &#8211; the day a Cryptographically Relevant Quantum Computer could run Shor’s algorithm and break the public-key cryptography systems most of the i",
-      "feedId": "steveblank",
-      "feedTitle": "Steve Blank",
-      "category": "Tech Blogs",
-      "feedHome": "https://steveblank.com/"
-    },
-    {
       "title": "Spring 2026 Dev Contest Results!",
       "link": "https://repebble.com/blog/spring-2026-dev-contest-results",
       "date": "2026-04-28T00:00:00+00:00",
@@ -6180,16 +6080,6 @@
       "feedTitle": "Miguel Grinberg",
       "category": "Tech Blogs",
       "feedHome": "https://blog.miguelgrinberg.com/"
-    },
-    {
-      "title": "AI and Teaching – The Brave New World",
-      "link": "https://steveblank.com/2026/04/22/ai-and-teaching-the-brave-new-world/",
-      "date": "2026-04-22T15:34:09+00:00",
-      "summary": "This article previously appeared in the Entrepreneur &#38; Innovation Exchange (EIX) This is the 16th year we’ve been teaching the Stanford Lean LaunchPad class. This year, from the first hour of the first class, we realized we were seeing something extraordinary happen. It was both the end and begi",
-      "feedId": "steveblank",
-      "feedTitle": "Steve Blank",
-      "category": "Tech Blogs",
-      "feedHome": "https://steveblank.com/"
     },
     {
       "title": "256 Lines or Less: Test Case Minimization",
@@ -6292,16 +6182,6 @@
       "feedHome": "https://blog.miguelgrinberg.com/"
     },
     {
-      "title": "Nowhere Is Safe",
-      "link": "https://steveblank.com/2026/04/09/nowhere-is-safe/",
-      "date": "2026-04-09T13:00:25+00:00",
-      "summary": "Drones in Ukraine and in the War with Iran have made the surface of the earth a contested space. The U.S. has discovered that 1) air superiority and missile defense systems (THAAD, Patriot batteries) designed to counter tens or hundreds of aircraft and missiles is insufficient against asymmetric att",
-      "feedId": "steveblank",
-      "feedTitle": "Steve Blank",
-      "category": "Tech Blogs",
-      "feedHome": "https://steveblank.com/"
-    },
-    {
       "title": "When the crisis comes",
       "link": "https://anildash.com/2026/04/08/when-the-crisis-comes/",
       "date": "2026-04-08T00:00:00+00:00",
@@ -6362,16 +6242,6 @@
       "feedHome": "https://anildash.com/"
     },
     {
-      "title": "Solving Yesterday’s Problems Will Kill You",
-      "link": "https://steveblank.com/2026/03/31/solving-yesterdays-problems-will-kill-you/",
-      "date": "2026-03-31T13:00:48+00:00",
-      "summary": "Join us at The 7th Annual Red Queen Conference April 22 -23 &#8211; Silicon Valley How do Portfolio Acquisition Executives and COCOMs ensure they’re working on the right problem with the right priority before locking in a requirement? Discuss, share and prototype Innovation Targeting concepts with y",
-      "feedId": "steveblank",
-      "feedTitle": "Steve Blank",
-      "category": "Tech Blogs",
-      "feedHome": "https://steveblank.com/"
-    },
-    {
       "title": "Defending Privacy, Daily",
       "link": "https://anildash.com/2026/03/31/defending-privacy-daily/",
       "date": "2026-03-31T00:00:00+00:00",
@@ -6422,16 +6292,6 @@
       "feedHome": "https://matklad.github.io/"
     },
     {
-      "title": "Your Startup Is Probably Dead On Arrival",
-      "link": "https://steveblank.com/2026/03/17/your-startup-is-probably-dead-on-arrival/",
-      "date": "2026-03-17T13:00:30+00:00",
-      "summary": "Your Startup Is Probably Dead On Arrival If you started a company more than two years ago, it’s likely that many of your assumptions are no longer true. You need to stop coding, building, recruiting, fund raising, etc., and take stock of what changed around you. Or your company will die. I just had ",
-      "feedId": "steveblank",
-      "feedTitle": "Steve Blank",
-      "category": "Tech Blogs",
-      "feedHome": "https://steveblank.com/"
-    },
-    {
       "title": "LotusNotes",
       "link": "https://computer.rip/2026-03-14-lotusnotes.html",
       "date": "2026-03-14T00:00:00+00:00",
@@ -6452,16 +6312,6 @@
       "feedHome": "https://minimaxir.com/"
     },
     {
-      "title": "Time to Move On – The Reason Relationships End",
-      "link": "https://steveblank.com/2026/02/24/time-to-move-on-the-reason-relationships-end/",
-      "date": "2026-02-24T14:00:57+00:00",
-      "summary": "What Lies Ahead I have no Way of Knowing, But It’s Now Time to Get Going Tom Petty This post previously appeared in Philanthropy.org A while ago I wrote about what happens in a startup when a new event creates a wake-up call that makes founding engineers reevaluate their jobs. (It’s worth a read her",
-      "feedId": "steveblank",
-      "feedTitle": "Steve Blank",
-      "category": "Tech Blogs",
-      "feedHome": "https://steveblank.com/"
-    },
-    {
       "title": "CloudPebble Returns! Plus New Pure JavaScript and Round 2 SDK",
       "link": "https://repebble.com/blog/cloudpebble-returns-plus-pure-javascript-and-round-2-sdk",
       "date": "2026-02-20T00:00:00+00:00",
@@ -6470,16 +6320,6 @@
       "feedTitle": "Eric Migicovsky",
       "category": "Tech Blogs",
       "feedHome": "https://ericmigi.com/"
-    },
-    {
-      "title": "You Only Think They Work For You",
-      "link": "https://steveblank.com/2026/02/18/you-only-think-they-work-for-you/",
-      "date": "2026-02-18T14:00:39+00:00",
-      "summary": "When I was a new VP of Marketing I got a painful lesson of who my PR (Public Relations) agency actually worked for. Later I realized that it was true for all of my external vendors. And much later I realized what I really should have been asking them to do. The lessons still apply [&#8230;]",
-      "feedId": "steveblank",
-      "feedTitle": "Steve Blank",
-      "category": "Tech Blogs",
-      "feedHome": "https://steveblank.com/"
     },
     {
       "title": "February Pebble Production and Software Updates",
