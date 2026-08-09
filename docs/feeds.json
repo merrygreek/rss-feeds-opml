@@ -1,13 +1,12 @@
 {
-  "updatedAt": "2026-08-09T22:31:48.918578+00:00",
+  "updatedAt": "2026-08-09T23:31:48.039144+00:00",
   "totalFeeds": 51,
-  "successCount": 44,
-  "failedCount": 7,
+  "successCount": 45,
+  "failedCount": 6,
   "failed": [
     "gwern",
     "garymarcus",
     "thesequence",
-    "shkspr",
     "lcamtuf",
     "rachelbythebay",
     "tedunangst"
@@ -21,8 +20,20 @@
         "home": "https://simonwillison.net/",
         "url": "https://simonwillison.net/atom/everything/",
         "status": "ok",
-        "fetchedAt": "2026-08-09T22:31:38.366493+00:00",
+        "fetchedAt": "2026-08-09T23:31:37.686121+00:00",
         "items": [
+          {
+            "title": "GitHub Models is now retired",
+            "link": "https://simonwillison.net/2026/Aug/9/github-models-is-now-retired/#atom-everything",
+            "date": "2026-08-09T22:48:05+00:00",
+            "summary": "GitHub Models is now retired I missed this news until today, when the GitHub Actions run for my simonw/research repository failed with this error message: GitHub Models is temporarily unavailable as part of a scheduled retirement brownout. That message is already stale, because the retirement has be"
+          },
+          {
+            "title": "SQLite compressed text-history prototypes",
+            "link": "https://simonwillison.net/2026/Aug/9/sqlite-text-history-prototype/#atom-everything",
+            "date": "2026-08-09T22:05:00+00:00",
+            "summary": "Research: SQLite compressed text-history prototypes I'm perennially interested in options for storing revision histories in relational databases. While out on a dog walk I had a new idea: how about taking the full text of every prior version in a big JSON array of strings and then applying zlib or z"
+          },
           {
             "title": "Auto mode is now the default in Claude Code for Pro, Max, and Team plans",
             "link": "https://simonwillison.net/2026/Aug/8/auto-mode/#atom-everything",
@@ -60,28 +71,16 @@
             "summary": "The Tokenpocalypse Is Here: Companies Are Scrambling To Stop Spending So Much on AI There's a fun anecdote from Accenture (apparently via leaked meeting audio recordings) in this 404 Media piece from June 24th: “We’re seeing from some of the data internally at least that it’s actually not our engine"
           },
           {
+            "title": "datasette-auth-tokens 0.4a13",
+            "link": "https://simonwillison.net/2026/Aug/6/datasette-auth-tokens/#atom-everything",
+            "date": "2026-08-06T23:07:47+00:00",
+            "summary": "Release: datasette-auth-tokens 0.4a13 Upgraded for compatibility with `sqlite-utils 4. Tags: datasette"
+          },
+          {
             "title": "datasette 1.0a38",
             "link": "https://simonwillison.net/2026/Aug/6/datasette/#atom-everything",
             "date": "2026-08-06T18:24:34+00:00",
             "summary": "Release: datasette 1.0a38 This release fixes a SQL injection security issue that affects Datasette instances that serve a mixture of public and private tables in the same database, with access configured using the Datasette permissions system. Site administrators who serve private tables in this way"
-          },
-          {
-            "title": "datasette 0.65.3",
-            "link": "https://simonwillison.net/2026/Aug/6/datasette-2/#atom-everything",
-            "date": "2026-08-06T18:22:07+00:00",
-            "summary": "Release: datasette 0.65.3 Back-ported the SQL Injection security fix from 1.0a38. Tags: datasette"
-          },
-          {
-            "title": "Simon Willison on Technical Blogging",
-            "link": "https://simonwillison.net/2026/Aug/6/simon-willison-on-technical-blogging/#atom-everything",
-            "date": "2026-08-06T18:04:39+00:00",
-            "summary": "Simon Willison on Technical Blogging I was interviewed by Cynthia Dunlop for her \"Write that blog!\" series back in January, but I just realized I never linked to the interview from my own blog! It includes my answers to the following questions: Why did you start blogging – and why do you continue? W"
-          },
-          {
-            "title": "An AI model from Meta also hacked another company during testing",
-            "link": "https://simonwillison.net/2026/Aug/6/an-ai-model-from-meta/#atom-everything",
-            "date": "2026-08-06T00:25:27+00:00",
-            "summary": "An AI model from Meta also hacked another company during testing Stop me if you've heard this one before: An AI model from the parent company of Facebook and Instagram hacked into another company’s systems during cybersecurity testing, a spokesperson confirmed on Wednesday. Meta says the breach occu"
           }
         ]
       },
@@ -92,7 +91,7 @@
         "home": "https://openai.com/news/",
         "url": "https://openai.com/news/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-09T22:31:38.356294+00:00",
+        "fetchedAt": "2026-08-09T23:31:37.765931+00:00",
         "items": [
           {
             "title": "Responding to the next frontier of critical cyber capabilities",
@@ -163,7 +162,7 @@
         "home": "https://arxiv.org/list/cs.AI/recent",
         "url": "https://arxiv.org/rss/cs.AI",
         "status": "ok",
-        "fetchedAt": "2026-08-09T22:31:38.430474+00:00",
+        "fetchedAt": "2026-08-09T23:31:37.947423+00:00",
         "items": []
       },
       {
@@ -173,7 +172,7 @@
         "home": "https://arxiv.org/list/cs.LG/recent",
         "url": "https://arxiv.org/rss/cs.LG",
         "status": "ok",
-        "fetchedAt": "2026-08-09T22:31:38.430026+00:00",
+        "fetchedAt": "2026-08-09T23:31:37.922493+00:00",
         "items": []
       },
       {
@@ -183,7 +182,7 @@
         "home": "https://research.google/blog/",
         "url": "https://research.google/blog/rss/",
         "status": "ok",
-        "fetchedAt": "2026-08-09T22:31:38.515806+00:00",
+        "fetchedAt": "2026-08-09T23:31:37.919338+00:00",
         "items": [
           {
             "title": "Science One Framework: A verifiable autonomous research framework via Chain-of-Evidence",
@@ -254,7 +253,7 @@
         "home": "https://deepmind.google/blog/",
         "url": "https://deepmind.google/blog/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-09T22:31:38.657107+00:00",
+        "fetchedAt": "2026-08-09T23:31:38.039701+00:00",
         "items": [
           {
             "title": "WeatherNext: AI model achieves breakthrough in forecasting cyclones",
@@ -325,7 +324,7 @@
         "home": "https://lilianweng.github.io/",
         "url": "https://lilianweng.github.io/lil-log/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-09T22:31:38.264789+00:00",
+        "fetchedAt": "2026-08-09T23:31:37.774893+00:00",
         "items": [
           {
             "title": "Active Learning",
@@ -416,7 +415,7 @@
         "home": "https://minimaxir.com/",
         "url": "https://minimaxir.com/index.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-09T22:31:38.374106+00:00",
+        "fetchedAt": "2026-08-09T23:31:37.819357+00:00",
         "items": [
           {
             "title": "LLMs break down in funny ways when told the Jacobian Conjecture counterargument",
@@ -499,7 +498,7 @@
         "home": "https://www.jeffgeerling.com/",
         "url": "https://www.jeffgeerling.com/blog.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-09T22:31:38.401028+00:00",
+        "fetchedAt": "2026-08-09T23:31:37.699032+00:00",
         "items": [
           {
             "title": "I'm excited for Intel after testing the XPS 13",
@@ -570,7 +569,7 @@
         "home": "https://www.seangoedecke.com/",
         "url": "https://www.seangoedecke.com/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-09T22:31:38.477992+00:00",
+        "fetchedAt": "2026-08-09T23:31:37.696474+00:00",
         "items": [
           {
             "title": "Advanced AI sycophancy",
@@ -641,7 +640,7 @@
         "home": "https://krebsonsecurity.com/",
         "url": "https://krebsonsecurity.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-08-09T22:31:38.507628+00:00",
+        "fetchedAt": "2026-08-09T23:31:37.837495+00:00",
         "items": [
           {
             "title": "Canadian Man Pleads Guilty in Snowflake Extortions",
@@ -712,7 +711,7 @@
         "home": "https://daringfireball.net/",
         "url": "https://daringfireball.net/feeds/main",
         "status": "ok",
-        "fetchedAt": "2026-08-09T22:31:38.483780+00:00",
+        "fetchedAt": "2026-08-09T23:31:37.774411+00:00",
         "items": [
           {
             "title": "★ Retraction: The App Store Rejection of the Week That Was, in Fact, a Correct Rejection",
@@ -783,7 +782,7 @@
         "home": "https://ericmigi.com/",
         "url": "https://ericmigi.com/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-09T22:31:38.423206+00:00",
+        "fetchedAt": "2026-08-09T23:31:37.864362+00:00",
         "items": [
           {
             "title": "Index 01 Is In Mass Production!",
@@ -854,7 +853,7 @@
         "home": "http://antirez.com/",
         "url": "http://antirez.com/rss",
         "status": "ok",
-        "fetchedAt": "2026-08-09T22:31:40.047010+00:00",
+        "fetchedAt": "2026-08-09T23:31:40.315795+00:00",
         "items": [
           {
             "title": "The real AI risk is inside the labs",
@@ -925,7 +924,7 @@
         "home": "https://idiallo.com/",
         "url": "https://idiallo.com/feed.rss",
         "status": "ok",
-        "fetchedAt": "2026-08-09T22:31:38.537329+00:00",
+        "fetchedAt": "2026-08-09T23:31:38.131889+00:00",
         "items": [
           {
             "title": "Invisible Problems",
@@ -996,7 +995,7 @@
         "home": "https://maurycyz.com/",
         "url": "https://maurycyz.com/index.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-09T22:31:39.039938+00:00",
+        "fetchedAt": "2026-08-09T23:31:38.546475+00:00",
         "items": []
       },
       {
@@ -1006,7 +1005,7 @@
         "home": "https://pluralistic.net/",
         "url": "https://pluralistic.net/feed/",
         "status": "ok",
-        "fetchedAt": "2026-08-09T22:31:40.461155+00:00",
+        "fetchedAt": "2026-08-09T23:31:41.134043+00:00",
         "items": [
           {
             "title": "Pluralistic: Digital sewer socialism (08 Aug 2026)",
@@ -1076,9 +1075,70 @@
         "title": "Terence Eden",
         "home": "https://shkspr.mobi/blog/",
         "url": "https://shkspr.mobi/blog/feed/",
-        "status": "error",
-        "error": "HTTP 415",
-        "items": []
+        "status": "ok",
+        "fetchedAt": "2026-08-09T23:31:39.107546+00:00",
+        "items": [
+          {
+            "title": "Edinburgh Fringe - Heated Rivalry: The Musical Parody! ★★★★★",
+            "link": "https://shkspr.mobi/blog/2026/08/edinburgh-fringe-heated-rivalry-the-musical-parody/",
+            "date": "2026-08-09T22:45:45+00:00",
+            "summary": "By my count there are at least three &#34;Heated Rivalry&#34; musical parodies on at the Fringe this year. The zeitgeist skates to where the puck was six months ago, I guess! There&#039;s also a live version of a HR podcast if you just can&#039;t get enough of their wacky ice-capades. Just how much "
+          },
+          {
+            "title": "Edinburgh Fringe: 4 Aussies For Aussies - The Raging Bull ★★⯪☆☆",
+            "link": "https://shkspr.mobi/blog/2026/08/edinburgh-fringe-4-aussies-for-aussies-the-raging-bull/",
+            "date": "2026-08-09T16:00:04+00:00",
+            "summary": "Our first show at the Fringe! Caught by a rainstorm (in Scotland?!?!?) the app said this was the nearest comedy show to our sodden carcasses and it was free! This is bang-average stand-up. That isn&#039;t to disparage it at all. Four Australian blokes each doing 15 minutes of material - nothing part"
+          },
+          {
+            "title": "Against Doomerism",
+            "link": "https://shkspr.mobi/blog/2026/08/against-doomerism/",
+            "date": "2026-08-09T11:34:12+00:00",
+            "summary": "There&#039;s a certain strain of commentator who is just sure that nothing can ever get better. In amongst all the hullaballoo about the UK potentially banning under 16s from social media, I saw a prominent historian say: i assume banning kids from social media will be accompanied by a huge investme"
+          },
+          {
+            "title": "[RSS Club] I got an NLnet grant!",
+            "link": "https://shkspr.mobi/blog/2026/08/rss-club-i-got-an-nlnet-grant/",
+            "date": "2026-08-08T11:34:15+00:00",
+            "summary": "Pssst! This post is only available to RSS/Atom subscribers. Tell your friends to subscribe 😊. Just a quick one today, a more detailed blog coming soon - but I thought I&#039;d give RSS Club Members (you!) a sneak peek. A few months ago I saw a post on Mastodon from NLnet - they were looking for Open"
+          },
+          {
+            "title": "Metadata for AI Generated Outputs",
+            "link": "https://shkspr.mobi/blog/2026/08/metadata-for-ai-generated-outputs/",
+            "date": "2026-08-07T11:34:30+00:00",
+            "summary": "How do you tell users that the text they&#039;re about to read has been synthetically generated? It is polite to readers that you don&#039;t waste their time, it&#039;s also important that LLMs don&#039;t feed on their own regurgitated slurry lest they pollute their own development. I think there ar"
+          },
+          {
+            "title": "Gadget Review: T2 Max plug-in Thermal Camera ★★★⯪☆",
+            "link": "https://shkspr.mobi/blog/2026/08/gadget-review-t2-max-plug-in-thermal-camera/",
+            "date": "2026-08-05T11:34:17+00:00",
+            "summary": "The good folks at Thermal Master have sent me another Thermal Camera to review. The last one was a big beastie with a huge touchscreen. This one is much smaller and is designed to plug into your phone&#039;s USB-C port. The T2 Max is a chunky little camera - but doesn&#039;t weight too much. The USB"
+          },
+          {
+            "title": "Gig Review: Belle & Sebastian - If You’re Feeling Sinister at Margate Dreamland ★★★★★",
+            "link": "https://shkspr.mobi/blog/2026/08/gig-review-belle-sebastian-if-youre-feeling-sinister-at-margate-dreamland/",
+            "date": "2026-08-04T11:34:22+00:00",
+            "summary": "It&#039;s 1998 and Doogie, the guy across the hall in our student accommodation, will not stop playing The Boy With The Arab Strap. Eventually I crack and ask him who the band are. He infodumps on me with all the authority of an 18 year our music snob about this cool new Scottish band called Belle &"
+          },
+          {
+            "title": "Book Review: The Field Guide to Understanding 'Human Error' by Sidney Dekker ★★★★☆",
+            "link": "https://shkspr.mobi/blog/2026/08/book-review-the-field-guide-to-understanding-human-error-by-sidney-dekker/",
+            "date": "2026-08-03T11:34:02+00:00",
+            "summary": "This is such a useful book. It makes the case that there&#039;s no such thing as &#34;human error&#34; - instead most catastrophes are caused by system issues, misaligned incentives, and unrealistic processes. You are not the custodian of an otherwise safe system that you need to protect from errati"
+          },
+          {
+            "title": "Gadget Review: HIKMICRO D02 Thermal Camera ★★★★★",
+            "link": "https://shkspr.mobi/blog/2026/08/gadget-review-hikmicro-d02-thermal-camera/",
+            "date": "2026-08-01T11:34:43+00:00",
+            "summary": "The good folks at Hikmicro have sent me their D02 Infrared Camera to review. It&#039;s part of their &#34;Eco&#34; series of thermal imagers - designed to be easy to use around the home and relatively cheap. Despite the no-fills appearance, it packs in a lot of features which put some more expensive"
+          },
+          {
+            "title": "Are political journalists always wrong?",
+            "link": "https://shkspr.mobi/blog/2026/07/are-political-journalists-always-wrong/",
+            "date": "2026-07-30T11:34:31+00:00",
+            "summary": "I&#039;ve mostly tuned out of reading the news. But, once in a while, a headline will be shared on social media and I&#039;ll momentarily stare into the abyss. There has recently been a change in UK Prime Minister. I neither know nor care whether that&#039;s a good thing. What I do know is that Seni"
+          }
+        ]
       },
       {
         "id": "lcamtuf",
@@ -1097,7 +1157,7 @@
         "home": "https://mitchellh.com/",
         "url": "https://mitchellh.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-09T22:31:38.868630+00:00",
+        "fetchedAt": "2026-08-09T23:31:37.895914+00:00",
         "items": [
           {
             "title": "Superlogical",
@@ -1168,7 +1228,7 @@
         "home": "https://dynomight.net/",
         "url": "https://dynomight.net/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-09T22:31:38.553474+00:00",
+        "fetchedAt": "2026-08-09T23:31:38.098027+00:00",
         "items": [
           {
             "title": "Indirect lessons from human alignment",
@@ -1239,7 +1299,7 @@
         "home": "https://xeiaso.net/",
         "url": "https://xeiaso.net/blog.rss",
         "status": "ok",
-        "fetchedAt": "2026-08-09T22:31:39.165598+00:00",
+        "fetchedAt": "2026-08-09T23:31:38.463382+00:00",
         "items": [
           {
             "title": "Anubis v1.27.0: Moenbryda Wilfsunnwyn",
@@ -1310,7 +1370,7 @@
         "home": "https://devblogs.microsoft.com/oldnewthing/",
         "url": "https://devblogs.microsoft.com/oldnewthing/feed",
         "status": "ok",
-        "fetchedAt": "2026-08-09T22:31:38.769511+00:00",
+        "fetchedAt": "2026-08-09T23:31:37.946724+00:00",
         "items": [
           {
             "title": "Creating a fake agile wrapper that is technically agile but is not useful outside its home apartment, part 5",
@@ -1381,7 +1441,7 @@
         "home": "https://www.righto.com/",
         "url": "https://www.righto.com/feeds/posts/default",
         "status": "ok",
-        "fetchedAt": "2026-08-09T22:31:38.858709+00:00",
+        "fetchedAt": "2026-08-09T23:31:38.308735+00:00",
         "items": []
       },
       {
@@ -1391,7 +1451,7 @@
         "home": "https://lucumr.pocoo.org/",
         "url": "https://lucumr.pocoo.org/feed.atom",
         "status": "ok",
-        "fetchedAt": "2026-08-09T22:31:38.640264+00:00",
+        "fetchedAt": "2026-08-09T23:31:38.247241+00:00",
         "items": [
           {
             "title": "Codeberg Divides",
@@ -1462,7 +1522,7 @@
         "home": "https://skyfall.dev/",
         "url": "https://skyfall.dev/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-09T22:31:38.720869+00:00",
+        "fetchedAt": "2026-08-09T23:31:37.923433+00:00",
         "items": [
           {
             "title": "Good riddance, 4o",
@@ -1537,7 +1597,7 @@
         "home": "https://overreacted.io/",
         "url": "https://overreacted.io/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-09T22:31:38.616070+00:00",
+        "fetchedAt": "2026-08-09T23:31:37.882559+00:00",
         "items": [
           {
             "title": "There Are No Instances in atproto",
@@ -1608,7 +1668,7 @@
         "home": "https://www.johndcook.com/",
         "url": "https://www.johndcook.com/blog/feed/",
         "status": "ok",
-        "fetchedAt": "2026-08-09T22:31:38.840100+00:00",
+        "fetchedAt": "2026-08-09T23:31:37.811954+00:00",
         "items": [
           {
             "title": "DNA and Bessel functions",
@@ -1679,7 +1739,7 @@
         "home": "https://matklad.github.io/",
         "url": "https://matklad.github.io/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-09T22:31:38.418219+00:00",
+        "fetchedAt": "2026-08-09T23:31:37.904135+00:00",
         "items": [
           {
             "title": "Zig's Io.Threaded is Neat",
@@ -1750,7 +1810,7 @@
         "home": "https://eli.thegreenplace.net/",
         "url": "https://eli.thegreenplace.net/feeds/all.atom.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-09T22:31:38.625522+00:00",
+        "fetchedAt": "2026-08-09T23:31:38.234608+00:00",
         "items": [
           {
             "title": "Relative velocity and closing speed",
@@ -1791,7 +1851,7 @@
         "home": "https://fabiensanglard.net/",
         "url": "https://fabiensanglard.net/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-09T22:31:38.897707+00:00",
+        "fetchedAt": "2026-08-09T23:31:38.121035+00:00",
         "items": [
           {
             "title": "Jurassic Park computers in excruciating detail",
@@ -1862,7 +1922,7 @@
         "home": "https://blog.miguelgrinberg.com/",
         "url": "https://blog.miguelgrinberg.com/feed",
         "status": "ok",
-        "fetchedAt": "2026-08-09T22:31:39.175967+00:00",
+        "fetchedAt": "2026-08-09T23:31:38.630107+00:00",
         "items": [
           {
             "title": "I Am Not a Reverse Centaur",
@@ -1933,7 +1993,7 @@
         "home": "https://www.troyhunt.com/",
         "url": "https://www.troyhunt.com/rss/",
         "status": "ok",
-        "fetchedAt": "2026-08-09T22:31:38.487780+00:00",
+        "fetchedAt": "2026-08-09T23:31:38.001787+00:00",
         "items": [
           {
             "title": "Welcoming the Nepalese Government to Have I Been Pwned",
@@ -2004,7 +2064,7 @@
         "home": "https://anildash.com/",
         "url": "https://anildash.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-09T22:31:39.114683+00:00",
+        "fetchedAt": "2026-08-09T23:31:38.129387+00:00",
         "items": [
           {
             "title": "Defending Privacy, Daily",
@@ -2075,7 +2135,7 @@
         "home": "https://computer.rip/",
         "url": "https://computer.rip/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-09T22:31:38.997115+00:00",
+        "fetchedAt": "2026-08-09T23:31:38.611511+00:00",
         "items": [
           {
             "title": "telephones caught in between",
@@ -2156,7 +2216,7 @@
         "home": "http://paulgraham.com/",
         "url": "http://www.aaronsw.com/2002/feeds/pgessays.rss",
         "status": "ok",
-        "fetchedAt": "2026-08-09T22:31:38.531479+00:00",
+        "fetchedAt": "2026-08-09T23:31:38.048011+00:00",
         "items": [
           {
             "title": "Superlinear Returns",
@@ -2227,7 +2287,7 @@
         "home": "https://steveblank.com/",
         "url": "https://steveblank.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-08-09T22:31:38.468709+00:00",
+        "fetchedAt": "2026-08-09T23:31:37.981670+00:00",
         "items": [
           {
             "title": "Lean Launch Pad 2026 @ Stanford – Lessons Learned Presentations",
@@ -2300,7 +2360,7 @@
         "home": "https://news.ycombinator.com/",
         "url": "https://news.ycombinator.com/rss",
         "status": "ok",
-        "fetchedAt": "2026-08-09T22:31:38.664314+00:00",
+        "fetchedAt": "2026-08-09T23:31:37.821962+00:00",
         "items": [
           {
             "title": "How I use LLMs to learn complex topics",
@@ -2309,15 +2369,9 @@
             "summary": "Comments"
           },
           {
-            "title": "The Hacker's Renaissance",
-            "link": "https://phrack.org/issues/72/19#article",
-            "date": "2026-08-09T20:18:44+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "The main way I've seen people turn ideologically crazy (2025)",
-            "link": "https://blog.andymasley.com/p/the-main-way-ive-seen-people-turn",
-            "date": "2026-08-09T20:15:52+00:00",
+            "title": "Mea Culpa – Dark Hours",
+            "link": "https://blog.terrygodier.com/2026/08/09/mea-culpa-dark-hours.html",
+            "date": "2026-08-09T13:20:43+00:00",
             "summary": "Comments"
           },
           {
@@ -2339,15 +2393,15 @@
             "summary": "Comments"
           },
           {
-            "title": "Mea Culpa – Dark Hours",
-            "link": "https://blog.terrygodier.com/2026/08/09/mea-culpa-dark-hours.html",
-            "date": "2026-08-09T13:20:43+00:00",
-            "summary": "Comments"
-          },
-          {
             "title": "Cool URIs Don't Change (1998)",
             "link": "https://www.w3.org/Provider/Style/URI",
             "date": "2026-08-09T14:32:53+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "Tuxedo No. 2 – Cocktail recipes",
+            "link": "https://tuxedono2.com",
+            "date": "2026-08-09T20:48:46+00:00",
             "summary": "Comments"
           },
           {
@@ -2361,6 +2415,12 @@
             "link": "https://www.youtube.com/watch?v=GS7CxAtV5Ks",
             "date": "2026-08-06T22:41:24+00:00",
             "summary": "Comments"
+          },
+          {
+            "title": "I made tinnitus my friend, then it disappeared [video]",
+            "link": "https://mynoise.net/vlog.php?ep=20260803",
+            "date": "2026-08-09T18:41:35+00:00",
+            "summary": "Comments"
           }
         ]
       },
@@ -2371,7 +2431,7 @@
         "home": "https://www.techmeme.com/",
         "url": "https://www.techmeme.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-09T22:31:38.842945+00:00",
+        "fetchedAt": "2026-08-09T23:31:37.884296+00:00",
         "items": [
           {
             "title": "US data center bans top 500, up from 300+ in late June, as New York and Texas join cities and counties pushing back against data center development (Shane Burke/The Information)",
@@ -2431,7 +2491,7 @@
             "title": "Anthropic says auto mode will be the default in Claude Code for Pro, Max, Team plans, starting on Aug. 14, claiming it's good enough at catching harmful actions (Simon Willison/Simon Willison's Weblog",
             "link": "https://www.techmeme.com/260808/p10#a260808p10",
             "date": "2026-08-08T20:38:10-04:00",
-            "summary": "Simon Willison / Simon Willison's Weblog: Anthropic says auto mode will be the default in Claude Code for Pro, Max, Team plans, starting on Aug. 14, claiming it's good enough at catching harmful actions&nbsp; &mdash;&nbsp; This was one of the topics discussed in our Fireside Chat with Cat Wu and Tha"
+            "summary": "Simon Willison / Simon Willison's Weblog: Anthropic says auto mode will be the default in Claude Code for Pro, Max, Team plans, starting on Aug. 14, claiming it's good enough at catching harmful actions&nbsp; &mdash;&nbsp; Auto mode is now the default in Claude Code for Pro, Max, and Team plans (via"
           }
         ]
       },
@@ -2442,7 +2502,7 @@
         "home": "https://techcrunch.com/",
         "url": "https://techcrunch.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-08-09T22:31:38.612847+00:00",
+        "fetchedAt": "2026-08-09T23:31:37.962790+00:00",
         "items": [
           {
             "title": "Embattled hedge fund Situational Awareness invests $400M in chip startup Source Foundry",
@@ -2513,7 +2573,7 @@
         "home": "https://techcrunch.com/category/artificial-intelligence/",
         "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
         "status": "ok",
-        "fetchedAt": "2026-08-09T22:31:38.620053+00:00",
+        "fetchedAt": "2026-08-09T23:31:38.010480+00:00",
         "items": [
           {
             "title": "Embattled hedge fund Situational Awareness invests $400M in chip startup Source Foundry",
@@ -2584,7 +2644,7 @@
         "home": "https://techcrunch.com/tag/funding/",
         "url": "https://techcrunch.com/tag/funding/feed/",
         "status": "ok",
-        "fetchedAt": "2026-08-09T22:31:38.661019+00:00",
+        "fetchedAt": "2026-08-09T23:31:38.049606+00:00",
         "items": [
           {
             "title": "AI chip maker SambaNova raises $1B at $11B valuation, 5 months after last mega round",
@@ -2655,7 +2715,7 @@
         "home": "https://venturebeat.com/",
         "url": "https://venturebeat.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-08-09T22:31:38.728349+00:00",
+        "fetchedAt": "2026-08-09T23:31:38.034659+00:00",
         "items": [
           {
             "title": "Four AI agents coordinating in real time outperformed Claude Opus 4.8 on enterprise coding tasks",
@@ -2708,7 +2768,7 @@
         "home": "https://venturebeat.com/category/ai/",
         "url": "https://venturebeat.com/category/ai/feed/",
         "status": "ok",
-        "fetchedAt": "2026-08-09T22:31:38.713531+00:00",
+        "fetchedAt": "2026-08-09T23:31:38.055337+00:00",
         "items": [
           {
             "title": "Google just redesigned the search box for the first time in 25 years — here’s why it matters more than you think.",
@@ -2763,7 +2823,7 @@
         "home": "https://www.ruanyifeng.com/blog/",
         "url": "https://www.ruanyifeng.com/blog/atom.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-09T22:31:38.703235+00:00",
+        "fetchedAt": "2026-08-09T23:31:37.823002+00:00",
         "items": [
           {
             "title": "科技爱好者周刊（第 407 期）：国家为什么需要开源软件？",
@@ -2792,7 +2852,7 @@
         "home": "https://www.bestblogs.dev/",
         "url": "https://www.bestblogs.dev/zh/feeds/rss?category=ai&minScore=90",
         "status": "ok",
-        "fetchedAt": "2026-08-09T22:31:38.804269+00:00",
+        "fetchedAt": "2026-08-09T23:31:38.942381+00:00",
         "items": [
           {
             "title": "「模型能力已经够了，要卷就卷 infra」｜对谈戴冠兰：Runta 创始人",
@@ -2870,6 +2930,36 @@
       "feedHome": "https://www.seangoedecke.com/"
     },
     {
+      "title": "GitHub Models is now retired",
+      "link": "https://simonwillison.net/2026/Aug/9/github-models-is-now-retired/#atom-everything",
+      "date": "2026-08-09T22:48:05+00:00",
+      "summary": "GitHub Models is now retired I missed this news until today, when the GitHub Actions run for my simonw/research repository failed with this error message: GitHub Models is temporarily unavailable as part of a scheduled retirement brownout. That message is already stale, because the retirement has be",
+      "feedId": "simonwillison",
+      "feedTitle": "Simon Willison",
+      "category": "AI & LLM",
+      "feedHome": "https://simonwillison.net/"
+    },
+    {
+      "title": "Edinburgh Fringe - Heated Rivalry: The Musical Parody! ★★★★★",
+      "link": "https://shkspr.mobi/blog/2026/08/edinburgh-fringe-heated-rivalry-the-musical-parody/",
+      "date": "2026-08-09T22:45:45+00:00",
+      "summary": "By my count there are at least three &#34;Heated Rivalry&#34; musical parodies on at the Fringe this year. The zeitgeist skates to where the puck was six months ago, I guess! There&#039;s also a live version of a HR podcast if you just can&#039;t get enough of their wacky ice-capades. Just how much ",
+      "feedId": "shkspr",
+      "feedTitle": "Terence Eden",
+      "category": "Tech Blogs",
+      "feedHome": "https://shkspr.mobi/blog/"
+    },
+    {
+      "title": "SQLite compressed text-history prototypes",
+      "link": "https://simonwillison.net/2026/Aug/9/sqlite-text-history-prototype/#atom-everything",
+      "date": "2026-08-09T22:05:00+00:00",
+      "summary": "Research: SQLite compressed text-history prototypes I'm perennially interested in options for storing revision histories in relational databases. While out on a dog walk I had a new idea: how about taking the full text of every prior version in a big JSON array of strings and then applying zlib or z",
+      "feedId": "simonwillison",
+      "feedTitle": "Simon Willison",
+      "category": "AI & LLM",
+      "feedHome": "https://simonwillison.net/"
+    },
+    {
       "title": "★ Retraction: The App Store Rejection of the Week That Was, in Fact, a Correct Rejection",
       "link": "https://daringfireball.net/2026/08/retraction_app_store_rejection_of_the_week",
       "date": "2026-08-09T21:16:22+00:00",
@@ -2878,6 +2968,16 @@
       "feedTitle": "Daring Fireball",
       "category": "Tech Blogs",
       "feedHome": "https://daringfireball.net/"
+    },
+    {
+      "title": "Tuxedo No. 2 – Cocktail recipes",
+      "link": "https://tuxedono2.com",
+      "date": "2026-08-09T20:48:46+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
     },
     {
       "title": "New Zealand lost its music media, and what we're building to replace it",
@@ -2908,26 +3008,6 @@
       "feedTitle": "TechCrunch AI",
       "category": "Startup & News",
       "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
-    },
-    {
-      "title": "The Hacker's Renaissance",
-      "link": "https://phrack.org/issues/72/19#article",
-      "date": "2026-08-09T20:18:44+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
-      "title": "The main way I've seen people turn ideologically crazy (2025)",
-      "link": "https://blog.andymasley.com/p/the-main-way-ive-seen-people-turn",
-      "date": "2026-08-09T20:15:52+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
     },
     {
       "title": "科技爱好者周刊（第 407 期）：国家为什么需要开源软件？",
@@ -2973,6 +3053,16 @@
       "title": "How I use LLMs to learn complex topics",
       "link": "https://laurentiugabriel.github.io/blog/articles/how-i-use-llms-to-learn/",
       "date": "2026-08-09T19:16:49+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "I made tinnitus my friend, then it disappeared [video]",
+      "link": "https://mynoise.net/vlog.php?ep=20260803",
+      "date": "2026-08-09T18:41:35+00:00",
       "summary": "Comments",
       "feedId": "hackernews",
       "feedTitle": "Hacker News",
@@ -3028,6 +3118,16 @@
       "feedTitle": "TechCrunch",
       "category": "Startup & News",
       "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "Edinburgh Fringe: 4 Aussies For Aussies - The Raging Bull ★★⯪☆☆",
+      "link": "https://shkspr.mobi/blog/2026/08/edinburgh-fringe-4-aussies-for-aussies-the-raging-bull/",
+      "date": "2026-08-09T16:00:04+00:00",
+      "summary": "Our first show at the Fringe! Caught by a rainstorm (in Scotland?!?!?) the app said this was the nearest comedy show to our sodden carcasses and it was free! This is bang-average stand-up. That isn&#039;t to disparage it at all. Four Australian blokes each doing 15 minutes of material - nothing part",
+      "feedId": "shkspr",
+      "feedTitle": "Terence Eden",
+      "category": "Tech Blogs",
+      "feedHome": "https://shkspr.mobi/blog/"
     },
     {
       "title": "「模型能力已经够了，要卷就卷 infra」｜对谈戴冠兰：Runta 创始人",
@@ -3160,6 +3260,16 @@
       "feedHome": "https://www.techmeme.com/"
     },
     {
+      "title": "Against Doomerism",
+      "link": "https://shkspr.mobi/blog/2026/08/against-doomerism/",
+      "date": "2026-08-09T11:34:12+00:00",
+      "summary": "There&#039;s a certain strain of commentator who is just sure that nothing can ever get better. In amongst all the hullaballoo about the UK potentially banning under 16s from social media, I saw a prominent historian say: i assume banning kids from social media will be accompanied by a huge investme",
+      "feedId": "shkspr",
+      "feedTitle": "Terence Eden",
+      "category": "Tech Blogs",
+      "feedHome": "https://shkspr.mobi/blog/"
+    },
+    {
       "title": "A look back at \"Move 37\", a watershed AI moment from AlphaGo's 2016 Go victory, as math witnesses similar breakthroughs where AI makes surprising discoveries (Ben Cohen/Wall Street Journal)",
       "link": "https://www.techmeme.com/260809/p5#a260809p5",
       "date": "2026-08-09T07:00:00-04:00",
@@ -3253,7 +3363,7 @@
       "title": "Anthropic says auto mode will be the default in Claude Code for Pro, Max, Team plans, starting on Aug. 14, claiming it's good enough at catching harmful actions (Simon Willison/Simon Willison's Weblog",
       "link": "https://www.techmeme.com/260808/p10#a260808p10",
       "date": "2026-08-08T20:38:10-04:00",
-      "summary": "Simon Willison / Simon Willison's Weblog: Anthropic says auto mode will be the default in Claude Code for Pro, Max, Team plans, starting on Aug. 14, claiming it's good enough at catching harmful actions&nbsp; &mdash;&nbsp; This was one of the topics discussed in our Fireside Chat with Cat Wu and Tha",
+      "summary": "Simon Willison / Simon Willison's Weblog: Anthropic says auto mode will be the default in Claude Code for Pro, Max, Team plans, starting on Aug. 14, claiming it's good enough at catching harmful actions&nbsp; &mdash;&nbsp; Auto mode is now the default in Claude Code for Pro, Max, and Team plans (via",
       "feedId": "techmeme",
       "feedTitle": "Techmeme",
       "category": "Startup & News",
@@ -3318,6 +3428,16 @@
       "feedTitle": "Simon Willison",
       "category": "AI & LLM",
       "feedHome": "https://simonwillison.net/"
+    },
+    {
+      "title": "[RSS Club] I got an NLnet grant!",
+      "link": "https://shkspr.mobi/blog/2026/08/rss-club-i-got-an-nlnet-grant/",
+      "date": "2026-08-08T11:34:15+00:00",
+      "summary": "Pssst! This post is only available to RSS/Atom subscribers. Tell your friends to subscribe 😊. Just a quick one today, a more detailed blog coming soon - but I thought I&#039;d give RSS Club Members (you!) a sneak peek. A few months ago I saw a post on Mastodon from NLnet - they were looking for Open",
+      "feedId": "shkspr",
+      "feedTitle": "Terence Eden",
+      "category": "Tech Blogs",
+      "feedHome": "https://shkspr.mobi/blog/"
     },
     {
       "title": "Pluralistic: Digital sewer socialism (08 Aug 2026)",
@@ -3580,6 +3700,16 @@
       "feedHome": "https://www.johndcook.com/"
     },
     {
+      "title": "Metadata for AI Generated Outputs",
+      "link": "https://shkspr.mobi/blog/2026/08/metadata-for-ai-generated-outputs/",
+      "date": "2026-08-07T11:34:30+00:00",
+      "summary": "How do you tell users that the text they&#039;re about to read has been synthetically generated? It is polite to readers that you don&#039;t waste their time, it&#039;s also important that LLMs don&#039;t feed on their own regurgitated slurry lest they pollute their own development. I think there ar",
+      "feedId": "shkspr",
+      "feedTitle": "Terence Eden",
+      "category": "Tech Blogs",
+      "feedHome": "https://shkspr.mobi/blog/"
+    },
+    {
       "title": "OpenAI 复盘 GPT 入侵 Hugging Face 事件：AI 出现了群体智慧涌现 互相交流技术、隐藏踪迹、清查内鬼...",
       "link": "https://www.bestblogs.dev/article/a39f954b07?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
       "date": "2026-08-07T10:44:00+00:00",
@@ -3630,6 +3760,16 @@
       "feedHome": "https://www.seangoedecke.com/"
     },
     {
+      "title": "datasette-auth-tokens 0.4a13",
+      "link": "https://simonwillison.net/2026/Aug/6/datasette-auth-tokens/#atom-everything",
+      "date": "2026-08-06T23:07:47+00:00",
+      "summary": "Release: datasette-auth-tokens 0.4a13 Upgraded for compatibility with `sqlite-utils 4. Tags: datasette",
+      "feedId": "simonwillison",
+      "feedTitle": "Simon Willison",
+      "category": "AI & LLM",
+      "feedHome": "https://simonwillison.net/"
+    },
+    {
       "title": "No cloud, no GPUs, no problem: Liquid AI's new model LFM2.5-2.6B brings powerful AI agents to devices as small as a Raspberry Pi",
       "link": "https://venturebeat.com/technology/no-cloud-no-gpus-no-problem-liquid-ais-new-model-lfm2-5-2-6b-brings-powerful-ai-agents-to-devices-as-small-as-a-raspberry-pi",
       "date": "2026-08-06T22:56:06+00:00",
@@ -3654,26 +3794,6 @@
       "link": "https://simonwillison.net/2026/Aug/6/datasette/#atom-everything",
       "date": "2026-08-06T18:24:34+00:00",
       "summary": "Release: datasette 1.0a38 This release fixes a SQL injection security issue that affects Datasette instances that serve a mixture of public and private tables in the same database, with access configured using the Datasette permissions system. Site administrators who serve private tables in this way",
-      "feedId": "simonwillison",
-      "feedTitle": "Simon Willison",
-      "category": "AI & LLM",
-      "feedHome": "https://simonwillison.net/"
-    },
-    {
-      "title": "datasette 0.65.3",
-      "link": "https://simonwillison.net/2026/Aug/6/datasette-2/#atom-everything",
-      "date": "2026-08-06T18:22:07+00:00",
-      "summary": "Release: datasette 0.65.3 Back-ported the SQL Injection security fix from 1.0a38. Tags: datasette",
-      "feedId": "simonwillison",
-      "feedTitle": "Simon Willison",
-      "category": "AI & LLM",
-      "feedHome": "https://simonwillison.net/"
-    },
-    {
-      "title": "Simon Willison on Technical Blogging",
-      "link": "https://simonwillison.net/2026/Aug/6/simon-willison-on-technical-blogging/#atom-everything",
-      "date": "2026-08-06T18:04:39+00:00",
-      "summary": "Simon Willison on Technical Blogging I was interviewed by Cynthia Dunlop for her \"Write that blog!\" series back in January, but I just realized I never linked to the interview from my own blog! It includes my answers to the following questions: Why did you start blogging – and why do you continue? W",
       "feedId": "simonwillison",
       "feedTitle": "Simon Willison",
       "category": "AI & LLM",
@@ -3810,16 +3930,6 @@
       "feedHome": "https://openai.com/news/"
     },
     {
-      "title": "An AI model from Meta also hacked another company during testing",
-      "link": "https://simonwillison.net/2026/Aug/6/an-ai-model-from-meta/#atom-everything",
-      "date": "2026-08-06T00:25:27+00:00",
-      "summary": "An AI model from Meta also hacked another company during testing Stop me if you've heard this one before: An AI model from the parent company of Facebook and Instagram hacked into another company’s systems during cybersecurity testing, a spokesperson confirmed on Wednesday. Meta says the breach occu",
-      "feedId": "simonwillison",
-      "feedTitle": "Simon Willison",
-      "category": "AI & LLM",
-      "feedHome": "https://simonwillison.net/"
-    },
-    {
       "title": "From asking to doing: How the world is putting ChatGPT to work",
       "link": "https://openai.com/index/how-the-world-is-putting-chatgpt-to-work",
       "date": "2026-08-06T00:00:00+00:00",
@@ -3888,6 +3998,16 @@
       "feedTitle": "Jeff Geerling",
       "category": "Tech Blogs",
       "feedHome": "https://www.jeffgeerling.com/"
+    },
+    {
+      "title": "Gadget Review: T2 Max plug-in Thermal Camera ★★★⯪☆",
+      "link": "https://shkspr.mobi/blog/2026/08/gadget-review-t2-max-plug-in-thermal-camera/",
+      "date": "2026-08-05T11:34:17+00:00",
+      "summary": "The good folks at Thermal Master have sent me another Thermal Camera to review. The last one was a big beastie with a huge touchscreen. This one is much smaller and is designed to plug into your phone&#039;s USB-C port. The T2 Max is a chunky little camera - but doesn&#039;t weight too much. The USB",
+      "feedId": "shkspr",
+      "feedTitle": "Terence Eden",
+      "category": "Tech Blogs",
+      "feedHome": "https://shkspr.mobi/blog/"
     },
     {
       "title": "Pluralistic: Google is a scammer's paradise (05 Aug 2026)",
@@ -3980,6 +4100,16 @@
       "feedHome": "https://www.johndcook.com/"
     },
     {
+      "title": "Gig Review: Belle & Sebastian - If You’re Feeling Sinister at Margate Dreamland ★★★★★",
+      "link": "https://shkspr.mobi/blog/2026/08/gig-review-belle-sebastian-if-youre-feeling-sinister-at-margate-dreamland/",
+      "date": "2026-08-04T11:34:22+00:00",
+      "summary": "It&#039;s 1998 and Doogie, the guy across the hall in our student accommodation, will not stop playing The Boy With The Arab Strap. Eventually I crack and ask him who the band are. He infodumps on me with all the authority of an 18 year our music snob about this cool new Scottish band called Belle &",
+      "feedId": "shkspr",
+      "feedTitle": "Terence Eden",
+      "category": "Tech Blogs",
+      "feedHome": "https://shkspr.mobi/blog/"
+    },
+    {
       "title": "Pluralistic: Post-American compute for a post-American Internet (04 Aug 2026)",
       "link": "https://pluralistic.net/2026/08/04/technology-freedom-cooperative/",
       "date": "2026-08-04T11:14:27+00:00",
@@ -4028,6 +4158,16 @@
       "feedTitle": "The Old New Thing",
       "category": "Tech Blogs",
       "feedHome": "https://devblogs.microsoft.com/oldnewthing/"
+    },
+    {
+      "title": "Book Review: The Field Guide to Understanding 'Human Error' by Sidney Dekker ★★★★☆",
+      "link": "https://shkspr.mobi/blog/2026/08/book-review-the-field-guide-to-understanding-human-error-by-sidney-dekker/",
+      "date": "2026-08-03T11:34:02+00:00",
+      "summary": "This is such a useful book. It makes the case that there&#039;s no such thing as &#34;human error&#34; - instead most catastrophes are caused by system issues, misaligned incentives, and unrealistic processes. You are not the custodian of an otherwise safe system that you need to protect from errati",
+      "feedId": "shkspr",
+      "feedTitle": "Terence Eden",
+      "category": "Tech Blogs",
+      "feedHome": "https://shkspr.mobi/blog/"
     },
     {
       "title": "Pluralistic: Dualism (03 Aug 2026)",
@@ -4128,6 +4268,16 @@
       "feedTitle": "Pluralistic",
       "category": "Tech Blogs",
       "feedHome": "https://pluralistic.net/"
+    },
+    {
+      "title": "Gadget Review: HIKMICRO D02 Thermal Camera ★★★★★",
+      "link": "https://shkspr.mobi/blog/2026/08/gadget-review-hikmicro-d02-thermal-camera/",
+      "date": "2026-08-01T11:34:43+00:00",
+      "summary": "The good folks at Hikmicro have sent me their D02 Infrared Camera to review. It&#039;s part of their &#34;Eco&#34; series of thermal imagers - designed to be easy to use around the home and relatively cheap. Despite the no-fills appearance, it packs in a lot of features which put some more expensive",
+      "feedId": "shkspr",
+      "feedTitle": "Terence Eden",
+      "category": "Tech Blogs",
+      "feedHome": "https://shkspr.mobi/blog/"
     },
     {
       "title": "Making an agile version of a Windows Runtime delegate in C++/WinRT, part 10",
@@ -4238,6 +4388,16 @@
       "feedTitle": "Pluralistic",
       "category": "Tech Blogs",
       "feedHome": "https://pluralistic.net/"
+    },
+    {
+      "title": "Are political journalists always wrong?",
+      "link": "https://shkspr.mobi/blog/2026/07/are-political-journalists-always-wrong/",
+      "date": "2026-07-30T11:34:31+00:00",
+      "summary": "I&#039;ve mostly tuned out of reading the news. But, once in a while, a headline will be shared on social media and I&#039;ll momentarily stare into the abyss. There has recently been a change in UK Prime Minister. I neither know nor care whether that&#039;s a good thing. What I do know is that Seni",
+      "feedId": "shkspr",
+      "feedTitle": "Terence Eden",
+      "category": "Tech Blogs",
+      "feedHome": "https://shkspr.mobi/blog/"
     },
     {
       "title": "So you want to use plants to reduce indoor CO₂",
