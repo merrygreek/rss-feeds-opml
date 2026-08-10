@@ -1,12 +1,13 @@
 {
-  "updatedAt": "2026-08-10T03:56:56.683150+00:00",
+  "updatedAt": "2026-08-10T05:37:24.331676+00:00",
   "totalFeeds": 51,
-  "successCount": 45,
-  "failedCount": 6,
+  "successCount": 44,
+  "failedCount": 7,
   "failed": [
     "gwern",
     "garymarcus",
     "thesequence",
+    "shkspr",
     "lcamtuf",
     "rachelbythebay",
     "tedunangst"
@@ -20,7 +21,7 @@
         "home": "https://simonwillison.net/",
         "url": "https://simonwillison.net/atom/everything/",
         "status": "ok",
-        "fetchedAt": "2026-08-10T03:56:46.326023+00:00",
+        "fetchedAt": "2026-08-10T05:37:14.245245+00:00",
         "items": [
           {
             "title": "Quoting OpenClaw",
@@ -91,7 +92,7 @@
         "home": "https://openai.com/news/",
         "url": "https://openai.com/news/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-10T03:56:46.318053+00:00",
+        "fetchedAt": "2026-08-10T05:37:14.234397+00:00",
         "items": [
           {
             "title": "Responding to the next frontier of critical cyber capabilities",
@@ -162,8 +163,69 @@
         "home": "https://arxiv.org/list/cs.AI/recent",
         "url": "https://arxiv.org/rss/cs.AI",
         "status": "ok",
-        "fetchedAt": "2026-08-10T03:56:46.573486+00:00",
-        "items": []
+        "fetchedAt": "2026-08-10T05:37:14.507711+00:00",
+        "items": [
+          {
+            "title": "Towards Multi-Label Graph Foundation Models: from Single-Vector Representation Learning to Multi-Semantic Basis Learning",
+            "link": "https://arxiv.org/abs/2608.06394",
+            "date": "2026-08-10T00:00:00-04:00",
+            "summary": "arXiv:2608.06394v1 Announce Type: new Abstract: Multi-label node classification is an important yet challenging task in graph learning, where nodes exhibit multiple semantics simultaneously. Existing methods for multi-label node classification can effectively model multiple labels, while only consid"
+          },
+          {
+            "title": "EntropyMoE: Entropy-Aware Sparse Expert Routing for Tokenizer-Free LLMs",
+            "link": "https://arxiv.org/abs/2608.06398",
+            "date": "2026-08-10T00:00:00-04:00",
+            "summary": "arXiv:2608.06398v1 Announce Type: new Abstract: Recent byte-level large language models (LLMs) have made tokenizer-free modeling increasingly competitive by grouping bytes into dynamically sized patches. However, existing byte-patch architectures still apply the same dense feed-forward computation t"
+          },
+          {
+            "title": "Beyond Routing Weights: Faithful Response-Level Interpretation of Mixture-of-Experts Reward Models via Contribution Contrast",
+            "link": "https://arxiv.org/abs/2608.06400",
+            "date": "2026-08-10T00:00:00-04:00",
+            "summary": "arXiv:2608.06400v1 Announce Type: new Abstract: Reward models are central to learning from human preferences, yet identifying what drives their predictions remains challenging. Recent sparse Mixture-of-Experts (MoE) reward models seek to improve interpretability by routing prompts to specialized exp"
+          },
+          {
+            "title": "Interpretable Unsupervised Community Detection with LLM-Symbolized Structured Processes",
+            "link": "https://arxiv.org/abs/2608.06402",
+            "date": "2026-08-10T00:00:00-04:00",
+            "summary": "arXiv:2608.06402v1 Announce Type: new Abstract: Community detection is a fundamental task in graph analytics that aims to identify cohesive groups of entities with similar behaviors or interests. Classic objective-driven methods struggle with complex graph structures, while deep-learning approaches "
+          },
+          {
+            "title": "ADIAS: Automated Design of Interactive Agentic Systems",
+            "link": "https://arxiv.org/abs/2608.06410",
+            "date": "2026-08-10T00:00:00-04:00",
+            "summary": "arXiv:2608.06410v1 Announce Type: new Abstract: Automated agent design improves agent harnesses through iterative revision, evaluation, and feedback summarization. Existing methods are largely candidate-centric: cross-round experience is organized around candidate agents, which leaves the repair pro"
+          },
+          {
+            "title": "Learning to Predict Middle-Layer Attention in MLLMs for Visual Token Prunin",
+            "link": "https://arxiv.org/abs/2608.06411",
+            "date": "2026-08-10T00:00:00-04:00",
+            "summary": "arXiv:2608.06411v1 Announce Type: new Abstract: Multimodal large language models (MLLMs) achieve strong performance across diverse vision-language tasks, but their efficiency is limited by the cost of processing numerous visual tokens. Visual token pruning can reduce this cost, but requires accurate"
+          },
+          {
+            "title": "WebGrader: Training LLMs for Web Development with Self-Evolving Programmatic Grader",
+            "link": "https://arxiv.org/abs/2608.06474",
+            "date": "2026-08-10T00:00:00-04:00",
+            "summary": "arXiv:2608.06474v1 Announce Type: new Abstract: Large language models increasingly generate complete websites from natural-language descriptions, and reinforcement learning has become a central approach to closing their remaining functional gap. This training regime is bottlenecked by reward design."
+          },
+          {
+            "title": "Can MLLMs Decode the Creative Leap? Introducing C4 for Cross-Concept Understanding",
+            "link": "https://arxiv.org/abs/2608.06501",
+            "date": "2026-08-10T00:00:00-04:00",
+            "summary": "arXiv:2608.06501v1 Announce Type: new Abstract: Creative capabilities of MLLMs matter in design, communication, education, and human--AI collaboration, yet remain difficult to evaluate because explicit targets and reward signals are scarce compared with accuracy-oriented tasks. Cross-concept underst"
+          },
+          {
+            "title": "KNOWPLAN: Knowledge-Driven AI Agents for Smart Degree Pathway Planning",
+            "link": "https://arxiv.org/abs/2608.06530",
+            "date": "2026-08-10T00:00:00-04:00",
+            "summary": "arXiv:2608.06530v1 Announce Type: new Abstract: Planning a degree from official university sources requires solving two problems in order. The institution's curriculum must first be reconstructed from catalogs, departmental pages, JSON endpoints, and PDFs that share no schema, and only then can a st"
+          },
+          {
+            "title": "TaskSense: Focusing on What Matters in World Models",
+            "link": "https://arxiv.org/abs/2608.06544",
+            "date": "2026-08-10T00:00:00-04:00",
+            "summary": "arXiv:2608.06544v1 Announce Type: new Abstract: World models for visual control typically learn compact latent states by reconstructing observations, implicitly encouraging representations to preserve information across the entire visual input. However, task-relevant content often occupies only a sm"
+          }
+        ]
       },
       {
         "id": "arxiv-lg",
@@ -172,8 +234,69 @@
         "home": "https://arxiv.org/list/cs.LG/recent",
         "url": "https://arxiv.org/rss/cs.LG",
         "status": "ok",
-        "fetchedAt": "2026-08-10T03:56:46.452278+00:00",
-        "items": []
+        "fetchedAt": "2026-08-10T05:37:14.469518+00:00",
+        "items": [
+          {
+            "title": "Latent Fact-Checking: Detecting Misinformation through Activation Engineering",
+            "link": "https://arxiv.org/abs/2608.06417",
+            "date": "2026-08-10T00:00:00-04:00",
+            "summary": "arXiv:2608.06417v1 Announce Type: new Abstract: The proliferation of misinformation online has driven demand for scalable detection systems. While most existing approaches rely on surface-level linguistic features or external knowledge retrieval, we examine truthfulness as a geometric property of a "
+          },
+          {
+            "title": "Risk-Aware Decision Policies for Agents Under Noisy Perception",
+            "link": "https://arxiv.org/abs/2608.06420",
+            "date": "2026-08-10T00:00:00-04:00",
+            "summary": "arXiv:2608.06420v1 Announce Type: new Abstract: Perception in biological systems is inherently noisy, requiring organisms to make decisions under uncertainty where misclassification can be costly or fatal. We present an Artificial Life predator-prey model of foraging under noisy perception, and comp"
+          },
+          {
+            "title": "Sharding Prevents LLM Oversight Failures and Adversarial Exploitation",
+            "link": "https://arxiv.org/abs/2608.06422",
+            "date": "2026-08-10T00:00:00-04:00",
+            "summary": "arXiv:2608.06422v1 Announce Type: new Abstract: Giving an LLM judge more compute does not necessarily make it check more requirements. When one call must return many verdicts, some decisions become weakly grounded in the evidence, even when that call receives the same token or tool budget as a panel"
+          },
+          {
+            "title": "Adversarial Causal Intervention Falsification",
+            "link": "https://arxiv.org/abs/2608.06427",
+            "date": "2026-08-10T00:00:00-04:00",
+            "summary": "arXiv:2608.06427v1 Announce Type: new Abstract: Generative models can reproduce an observational distribution while encoding an incorrect causal structure. We study a sequential game in which a structural causal generator proposes observational and interventional distributions, while an adversarial "
+          },
+          {
+            "title": "Fixed and Adaptive Topological DeepONets: Functional Measurements on Hausdorff Locally Convex Spaces",
+            "link": "https://arxiv.org/abs/2608.06428",
+            "date": "2026-08-10T00:00:00-04:00",
+            "summary": "arXiv:2608.06428v1 Announce Type: new Abstract: Deep Operator Networks (DeepONets; arXiv:1910.03193) typically encode an input function through point values on a fixed discretization. Building on the Topological DeepONet framework of Ismailov (arXiv:2603.11972), we replace point samples by continuou"
+          },
+          {
+            "title": "MiGHT-EHR: A Multi-task Graph Transformer for Heterogeneous Temporal Electronic Health Records",
+            "link": "https://arxiv.org/abs/2608.06430",
+            "date": "2026-08-10T00:00:00-04:00",
+            "summary": "arXiv:2608.06430v1 Announce Type: new Abstract: Learning from Electronic Health Records (EHRs) has gained significant attention due to its potential to improve clinical prediction. However, effective learning remains challenging because EHRs encode heterogeneous, temporally ordered clinical interact"
+          },
+          {
+            "title": "SNI-GNN: SmartNIC-Assisted Full-Graph GNN Training with In-Network Embedding Prediction",
+            "link": "https://arxiv.org/abs/2608.06441",
+            "date": "2026-08-10T00:00:00-04:00",
+            "summary": "arXiv:2608.06441v1 Announce Type: new Abstract: Full-graph GNN training delivers high accuracy but scales poorly on multi-server clusters due to heavy, irregular inter-node embedding exchanges. We present SNI-GNN, a SmartNIC-assisted full-graph training system that reduces communication while preser"
+          },
+          {
+            "title": "ED-CSP: Crystal Structure Prediction from Electron Diffraction",
+            "link": "https://arxiv.org/abs/2608.06448",
+            "date": "2026-08-10T00:00:00-04:00",
+            "summary": "arXiv:2608.06448v1 Announce Type: new Abstract: Recovering a periodic 3D crystal structure from sparse, unindexed electron diffraction (ED) observations is a challenging generative inverse problem. Existing ED-based learning methods mainly predict crystallographic labels, reconstruct structures from"
+          },
+          {
+            "title": "Beyond Attention: Signed Integrated Gradients Attribution in a BiomeGPT-Style Microbiome Transformer",
+            "link": "https://arxiv.org/abs/2608.06486",
+            "date": "2026-08-10T00:00:00-04:00",
+            "summary": "arXiv:2608.06486v1 Announce Type: new Abstract: In a feature-tokenized transformer (arXiv:2106.11959) such as BiomeGPT (doi:10.64898/2026.01.05.697599), each input token is built by fusing a fixed identity with a sample-specific measurement: a fixed species and a variable abundance, T = S + A. To in"
+          },
+          {
+            "title": "Toward Reliable Context Compression for Long-Horizon Agents: An Empirical Study of Execution Instability",
+            "link": "https://arxiv.org/abs/2608.06503",
+            "date": "2026-08-10T00:00:00-04:00",
+            "summary": "arXiv:2608.06503v1 Announce Type: new Abstract: Recurrent context compression controls context growth in long-horizon agents, but its behavioral effects remain poorly understood. In this preliminary empirical study, we show that compression can weaken the influence of recent interactions, increasing"
+          }
+        ]
       },
       {
         "id": "google-research",
@@ -182,7 +305,7 @@
         "home": "https://research.google/blog/",
         "url": "https://research.google/blog/rss/",
         "status": "ok",
-        "fetchedAt": "2026-08-10T03:56:46.492302+00:00",
+        "fetchedAt": "2026-08-10T05:37:14.405278+00:00",
         "items": [
           {
             "title": "Science One Framework: A verifiable autonomous research framework via Chain-of-Evidence",
@@ -253,7 +376,7 @@
         "home": "https://deepmind.google/blog/",
         "url": "https://deepmind.google/blog/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-10T03:56:46.705314+00:00",
+        "fetchedAt": "2026-08-10T05:37:14.422649+00:00",
         "items": [
           {
             "title": "WeatherNext: AI model achieves breakthrough in forecasting cyclones",
@@ -324,7 +447,7 @@
         "home": "https://lilianweng.github.io/",
         "url": "https://lilianweng.github.io/lil-log/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-10T03:56:46.185236+00:00",
+        "fetchedAt": "2026-08-10T05:37:14.119678+00:00",
         "items": [
           {
             "title": "Active Learning",
@@ -415,7 +538,7 @@
         "home": "https://minimaxir.com/",
         "url": "https://minimaxir.com/index.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-10T03:56:46.251463+00:00",
+        "fetchedAt": "2026-08-10T05:37:14.292954+00:00",
         "items": [
           {
             "title": "LLMs break down in funny ways when told the Jacobian Conjecture counterargument",
@@ -498,7 +621,7 @@
         "home": "https://www.jeffgeerling.com/",
         "url": "https://www.jeffgeerling.com/blog.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-10T03:56:46.372364+00:00",
+        "fetchedAt": "2026-08-10T05:37:14.266781+00:00",
         "items": [
           {
             "title": "I'm excited for Intel after testing the XPS 13",
@@ -569,7 +692,7 @@
         "home": "https://www.seangoedecke.com/",
         "url": "https://www.seangoedecke.com/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-10T03:56:46.370741+00:00",
+        "fetchedAt": "2026-08-10T05:37:14.168152+00:00",
         "items": [
           {
             "title": "Advanced AI sycophancy",
@@ -640,7 +763,7 @@
         "home": "https://krebsonsecurity.com/",
         "url": "https://krebsonsecurity.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-08-10T03:56:46.415856+00:00",
+        "fetchedAt": "2026-08-10T05:37:14.282035+00:00",
         "items": [
           {
             "title": "Canadian Man Pleads Guilty in Snowflake Extortions",
@@ -711,7 +834,7 @@
         "home": "https://daringfireball.net/",
         "url": "https://daringfireball.net/feeds/main",
         "status": "ok",
-        "fetchedAt": "2026-08-10T03:56:46.332902+00:00",
+        "fetchedAt": "2026-08-10T05:37:14.393468+00:00",
         "items": [
           {
             "title": "WorkOS: Connect Your Agents to Your API",
@@ -782,7 +905,7 @@
         "home": "https://ericmigi.com/",
         "url": "https://ericmigi.com/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-10T03:56:46.360547+00:00",
+        "fetchedAt": "2026-08-10T05:37:14.314302+00:00",
         "items": [
           {
             "title": "Index 01 Is In Mass Production!",
@@ -853,7 +976,7 @@
         "home": "http://antirez.com/",
         "url": "http://antirez.com/rss",
         "status": "ok",
-        "fetchedAt": "2026-08-10T03:56:49.033121+00:00",
+        "fetchedAt": "2026-08-10T05:37:15.974511+00:00",
         "items": [
           {
             "title": "The real AI risk is inside the labs",
@@ -924,8 +1047,14 @@
         "home": "https://idiallo.com/",
         "url": "https://idiallo.com/feed.rss",
         "status": "ok",
-        "fetchedAt": "2026-08-10T03:56:46.684006+00:00",
+        "fetchedAt": "2026-08-10T05:37:14.322289+00:00",
         "items": [
+          {
+            "title": "When the Aliens Finally Came to Visit",
+            "link": "https://idiallo.com/byte-size/when-the-aliens-came-to-visit",
+            "date": "2026-08-10T04:26:49+00:00",
+            "summary": "The aliens arrived, and their first instinct was to check our networks. They accessed one of our most important websites. A government website. Unfortunately, they were met with a reCAPTCHA. Are you a robot? They are not robots. But after fifteen minutes of squinting and trying to select all the fir"
+          },
           {
             "title": "Invisible Problems",
             "link": "https://idiallo.com/blog/invisible-problems",
@@ -979,12 +1108,6 @@
             "link": "https://idiallo.com/blog/amazon-basics-but-intellectual-property",
             "date": "2026-07-06T07:00:00+00:00",
             "summary": "Amazon has been accused several times for ripping off merchants on its platform. And every single time they denied any wrongdoing. A merchant, or anyone really, can create a product (or source it from China), then resell it on amazon. Amazon is the service provider, and hosts all the metrics concern"
-          },
-          {
-            "title": "The Dating App Plot Device",
-            "link": "https://idiallo.com/blog/dating-plot-device",
-            "date": "2026-06-30T07:00:00+00:00",
-            "summary": "I've always been interested in how dating apps work. You really only have two choices if you want to get in the business. Help people find a match, and they will never come back Make people pay and keep them on the platform as long as possible. Let's pretend for a second that we actually want people"
           }
         ]
       },
@@ -995,7 +1118,7 @@
         "home": "https://maurycyz.com/",
         "url": "https://maurycyz.com/index.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-10T03:56:47.183900+00:00",
+        "fetchedAt": "2026-08-10T05:37:14.867107+00:00",
         "items": []
       },
       {
@@ -1005,7 +1128,7 @@
         "home": "https://pluralistic.net/",
         "url": "https://pluralistic.net/feed/",
         "status": "ok",
-        "fetchedAt": "2026-08-10T03:56:49.545220+00:00",
+        "fetchedAt": "2026-08-10T05:37:16.352502+00:00",
         "items": [
           {
             "title": "Pluralistic: Digital sewer socialism (08 Aug 2026)",
@@ -1075,70 +1198,9 @@
         "title": "Terence Eden",
         "home": "https://shkspr.mobi/blog/",
         "url": "https://shkspr.mobi/blog/feed/",
-        "status": "ok",
-        "fetchedAt": "2026-08-10T03:56:47.606146+00:00",
-        "items": [
-          {
-            "title": "Edinburgh Fringe: Smut Slam ★★★☆☆",
-            "link": "https://shkspr.mobi/blog/2026/08/edinburgh-fringe-smut-slam/",
-            "date": "2026-08-10T00:23:08+00:00",
-            "summary": "Fancy a quickie in Scotland&#039;s most haunted pub? Smut Slam is a (mildly) interactive performance where a handful of speakers get to tell their dirtiest stories. The audience fills in cards with their questions or confessions which may be read out. The format mostly works. There are different sto"
-          },
-          {
-            "title": "Edinburgh Fringe - Heated Rivalry: The Musical Parody! ★★★★★",
-            "link": "https://shkspr.mobi/blog/2026/08/edinburgh-fringe-heated-rivalry-the-musical-parody/",
-            "date": "2026-08-09T22:45:45+00:00",
-            "summary": "By my count there are at least three &#34;Heated Rivalry&#34; musical parodies on at the Fringe this year. The zeitgeist skates to where the puck was six months ago, I guess! There&#039;s also a live version of a HR podcast if you just can&#039;t get enough of their wacky ice-capades. Just how much "
-          },
-          {
-            "title": "Edinburgh Fringe: 4 Aussies For Aussies - The Raging Bull ★★⯪☆☆",
-            "link": "https://shkspr.mobi/blog/2026/08/edinburgh-fringe-4-aussies-for-aussies-the-raging-bull/",
-            "date": "2026-08-09T16:00:04+00:00",
-            "summary": "Our first show at the Fringe! Caught by a rainstorm (in Scotland?!?!?) the app said this was the nearest comedy show to our sodden carcasses and it was free! This is bang-average stand-up. That isn&#039;t to disparage it at all. Four Australian blokes each doing 15 minutes of material - nothing part"
-          },
-          {
-            "title": "Against Doomerism",
-            "link": "https://shkspr.mobi/blog/2026/08/against-doomerism/",
-            "date": "2026-08-09T11:34:12+00:00",
-            "summary": "There&#039;s a certain strain of commentator who is just sure that nothing can ever get better. In amongst all the hullaballoo about the UK potentially banning under 16s from social media, I saw a prominent historian say: i assume banning kids from social media will be accompanied by a huge investme"
-          },
-          {
-            "title": "[RSS Club] I got an NLnet grant!",
-            "link": "https://shkspr.mobi/blog/2026/08/rss-club-i-got-an-nlnet-grant/",
-            "date": "2026-08-08T11:34:15+00:00",
-            "summary": "Pssst! This post is only available to RSS/Atom subscribers. Tell your friends to subscribe 😊. Just a quick one today, a more detailed blog coming soon - but I thought I&#039;d give RSS Club Members (you!) a sneak peek. A few months ago I saw a post on Mastodon from NLnet - they were looking for Open"
-          },
-          {
-            "title": "Metadata for AI Generated Outputs",
-            "link": "https://shkspr.mobi/blog/2026/08/metadata-for-ai-generated-outputs/",
-            "date": "2026-08-07T11:34:30+00:00",
-            "summary": "How do you tell users that the text they&#039;re about to read has been synthetically generated? It is polite to readers that you don&#039;t waste their time, it&#039;s also important that LLMs don&#039;t feed on their own regurgitated slurry lest they pollute their own development. I think there ar"
-          },
-          {
-            "title": "Gadget Review: T2 Max plug-in Thermal Camera ★★★⯪☆",
-            "link": "https://shkspr.mobi/blog/2026/08/gadget-review-t2-max-plug-in-thermal-camera/",
-            "date": "2026-08-05T11:34:17+00:00",
-            "summary": "The good folks at Thermal Master have sent me another Thermal Camera to review. The last one was a big beastie with a huge touchscreen. This one is much smaller and is designed to plug into your phone&#039;s USB-C port. The T2 Max is a chunky little camera - but doesn&#039;t weight too much. The USB"
-          },
-          {
-            "title": "Gig Review: Belle & Sebastian - If You’re Feeling Sinister at Margate Dreamland ★★★★★",
-            "link": "https://shkspr.mobi/blog/2026/08/gig-review-belle-sebastian-if-youre-feeling-sinister-at-margate-dreamland/",
-            "date": "2026-08-04T11:34:22+00:00",
-            "summary": "It&#039;s 1998 and Doogie, the guy across the hall in our student accommodation, will not stop playing The Boy With The Arab Strap. Eventually I crack and ask him who the band are. He infodumps on me with all the authority of an 18 year our music snob about this cool new Scottish band called Belle &"
-          },
-          {
-            "title": "Book Review: The Field Guide to Understanding 'Human Error' by Sidney Dekker ★★★★☆",
-            "link": "https://shkspr.mobi/blog/2026/08/book-review-the-field-guide-to-understanding-human-error-by-sidney-dekker/",
-            "date": "2026-08-03T11:34:02+00:00",
-            "summary": "This is such a useful book. It makes the case that there&#039;s no such thing as &#34;human error&#34; - instead most catastrophes are caused by system issues, misaligned incentives, and unrealistic processes. You are not the custodian of an otherwise safe system that you need to protect from errati"
-          },
-          {
-            "title": "Gadget Review: HIKMICRO D02 Thermal Camera ★★★★★",
-            "link": "https://shkspr.mobi/blog/2026/08/gadget-review-hikmicro-d02-thermal-camera/",
-            "date": "2026-08-01T11:34:43+00:00",
-            "summary": "The good folks at Hikmicro have sent me their D02 Infrared Camera to review. It&#039;s part of their &#34;Eco&#34; series of thermal imagers - designed to be easy to use around the home and relatively cheap. Despite the no-fills appearance, it packs in a lot of features which put some more expensive"
-          }
-        ]
+        "status": "error",
+        "error": "HTTP 415",
+        "items": []
       },
       {
         "id": "lcamtuf",
@@ -1157,7 +1219,7 @@
         "home": "https://mitchellh.com/",
         "url": "https://mitchellh.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-10T03:56:46.441833+00:00",
+        "fetchedAt": "2026-08-10T05:37:14.569851+00:00",
         "items": [
           {
             "title": "Superlogical",
@@ -1228,7 +1290,7 @@
         "home": "https://dynomight.net/",
         "url": "https://dynomight.net/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-10T03:56:46.809351+00:00",
+        "fetchedAt": "2026-08-10T05:37:14.948467+00:00",
         "items": [
           {
             "title": "Indirect lessons from human alignment",
@@ -1299,7 +1361,7 @@
         "home": "https://xeiaso.net/",
         "url": "https://xeiaso.net/blog.rss",
         "status": "ok",
-        "fetchedAt": "2026-08-10T03:56:47.167123+00:00",
+        "fetchedAt": "2026-08-10T05:37:15.091052+00:00",
         "items": [
           {
             "title": "Anubis v1.27.0: Moenbryda Wilfsunnwyn",
@@ -1370,7 +1432,7 @@
         "home": "https://devblogs.microsoft.com/oldnewthing/",
         "url": "https://devblogs.microsoft.com/oldnewthing/feed",
         "status": "ok",
-        "fetchedAt": "2026-08-10T03:56:46.652739+00:00",
+        "fetchedAt": "2026-08-10T05:37:14.696306+00:00",
         "items": [
           {
             "title": "Creating a fake agile wrapper that is technically agile but is not useful outside its home apartment, part 5",
@@ -1441,7 +1503,7 @@
         "home": "https://www.righto.com/",
         "url": "https://www.righto.com/feeds/posts/default",
         "status": "ok",
-        "fetchedAt": "2026-08-10T03:56:46.700023+00:00",
+        "fetchedAt": "2026-08-10T05:37:14.709618+00:00",
         "items": []
       },
       {
@@ -1451,7 +1513,7 @@
         "home": "https://lucumr.pocoo.org/",
         "url": "https://lucumr.pocoo.org/feed.atom",
         "status": "ok",
-        "fetchedAt": "2026-08-10T03:56:46.825418+00:00",
+        "fetchedAt": "2026-08-10T05:37:14.674724+00:00",
         "items": [
           {
             "title": "Codeberg Divides",
@@ -1522,7 +1584,7 @@
         "home": "https://skyfall.dev/",
         "url": "https://skyfall.dev/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-10T03:56:46.623918+00:00",
+        "fetchedAt": "2026-08-10T05:37:14.826042+00:00",
         "items": [
           {
             "title": "Good riddance, 4o",
@@ -1597,7 +1659,7 @@
         "home": "https://overreacted.io/",
         "url": "https://overreacted.io/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-10T03:56:46.431470+00:00",
+        "fetchedAt": "2026-08-10T05:37:14.431535+00:00",
         "items": [
           {
             "title": "There Are No Instances in atproto",
@@ -1668,7 +1730,7 @@
         "home": "https://www.johndcook.com/",
         "url": "https://www.johndcook.com/blog/feed/",
         "status": "ok",
-        "fetchedAt": "2026-08-10T03:56:46.378822+00:00",
+        "fetchedAt": "2026-08-10T05:37:14.533218+00:00",
         "items": [
           {
             "title": "DNA and Bessel functions",
@@ -1739,7 +1801,7 @@
         "home": "https://matklad.github.io/",
         "url": "https://matklad.github.io/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-10T03:56:46.354011+00:00",
+        "fetchedAt": "2026-08-10T05:37:14.526849+00:00",
         "items": [
           {
             "title": "Zig's Io.Threaded is Neat",
@@ -1810,7 +1872,7 @@
         "home": "https://eli.thegreenplace.net/",
         "url": "https://eli.thegreenplace.net/feeds/all.atom.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-10T03:56:46.707250+00:00",
+        "fetchedAt": "2026-08-10T05:37:14.719496+00:00",
         "items": [
           {
             "title": "Relative velocity and closing speed",
@@ -1851,7 +1913,7 @@
         "home": "https://fabiensanglard.net/",
         "url": "https://fabiensanglard.net/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-10T03:56:46.988590+00:00",
+        "fetchedAt": "2026-08-10T05:37:14.610186+00:00",
         "items": [
           {
             "title": "Jurassic Park computers in excruciating detail",
@@ -1922,7 +1984,7 @@
         "home": "https://blog.miguelgrinberg.com/",
         "url": "https://blog.miguelgrinberg.com/feed",
         "status": "ok",
-        "fetchedAt": "2026-08-10T03:56:47.274646+00:00",
+        "fetchedAt": "2026-08-10T05:37:14.921563+00:00",
         "items": [
           {
             "title": "I Am Not a Reverse Centaur",
@@ -1993,7 +2055,7 @@
         "home": "https://www.troyhunt.com/",
         "url": "https://www.troyhunt.com/rss/",
         "status": "ok",
-        "fetchedAt": "2026-08-10T03:56:46.511566+00:00",
+        "fetchedAt": "2026-08-10T05:37:14.722742+00:00",
         "items": [
           {
             "title": "Welcoming the Nepalese Government to Have I Been Pwned",
@@ -2064,7 +2126,7 @@
         "home": "https://anildash.com/",
         "url": "https://anildash.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-10T03:56:46.733063+00:00",
+        "fetchedAt": "2026-08-10T05:37:14.563660+00:00",
         "items": [
           {
             "title": "Defending Privacy, Daily",
@@ -2135,7 +2197,7 @@
         "home": "https://computer.rip/",
         "url": "https://computer.rip/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-10T03:56:46.906458+00:00",
+        "fetchedAt": "2026-08-10T05:37:14.899953+00:00",
         "items": [
           {
             "title": "telephones caught in between",
@@ -2216,7 +2278,7 @@
         "home": "http://paulgraham.com/",
         "url": "http://www.aaronsw.com/2002/feeds/pgessays.rss",
         "status": "ok",
-        "fetchedAt": "2026-08-10T03:56:46.710603+00:00",
+        "fetchedAt": "2026-08-10T05:37:24.078384+00:00",
         "items": [
           {
             "title": "Superlinear Returns",
@@ -2287,7 +2349,7 @@
         "home": "https://steveblank.com/",
         "url": "https://steveblank.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-08-10T03:56:46.439184+00:00",
+        "fetchedAt": "2026-08-10T05:37:14.552844+00:00",
         "items": [
           {
             "title": "Lean Launch Pad 2026 @ Stanford – Lessons Learned Presentations",
@@ -2360,12 +2422,24 @@
         "home": "https://news.ycombinator.com/",
         "url": "https://news.ycombinator.com/rss",
         "status": "ok",
-        "fetchedAt": "2026-08-10T03:56:46.754681+00:00",
+        "fetchedAt": "2026-08-10T05:37:14.519684+00:00",
         "items": [
+          {
+            "title": "Auto mode is now the default in Claude Code",
+            "link": "https://claude.com/blog/auto-mode-default-in-claude-code",
+            "date": "2026-08-10T03:50:00+00:00",
+            "summary": "Comments"
+          },
           {
             "title": "What Happened to HackerOne?",
             "link": "https://blog.teknogeek.io/posts/what-happened-to-hackerone/",
             "date": "2026-08-10T02:23:17+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "Show HN: Voice driven murder mystery, Interview AI suspects with your voice",
+            "link": "https://www.whodunnitai.com/",
+            "date": "2026-08-10T03:18:40+00:00",
             "summary": "Comments"
           },
           {
@@ -2381,15 +2455,21 @@
             "summary": "Comments"
           },
           {
-            "title": "How We Pushed CDC into Postgres",
-            "link": "https://www.snowflake.com/en/blog/engineering/postgres-to-snowflake-replication-mirroring/",
-            "date": "2026-08-10T01:01:34+00:00",
+            "title": "Run Android ARM64 VR APKs on Apple Vision Pro",
+            "link": "https://github.com/shinyquagsire23/Klepton",
+            "date": "2026-08-10T03:12:48+00:00",
             "summary": "Comments"
           },
           {
-            "title": "Ask HN: What are you working on? (August 2026)",
-            "link": "https://news.ycombinator.com/item?id=49233423",
-            "date": "2026-08-09T17:23:22+00:00",
+            "title": "Long-Run Effects of H-1B Immigration on the U.S. Economy (July 2026)",
+            "link": "https://www.nber.org/papers/w35560",
+            "date": "2026-08-10T04:06:10+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "How We Pushed CDC into Postgres",
+            "link": "https://www.snowflake.com/en/blog/engineering/postgres-to-snowflake-replication-mirroring/",
+            "date": "2026-08-10T01:01:34+00:00",
             "summary": "Comments"
           },
           {
@@ -2399,27 +2479,9 @@
             "summary": "Comments"
           },
           {
-            "title": "New Zealand lost its music media, and what we're building to replace it",
-            "link": "https://propelmusic.co.nz/articles/the-sound-went-quiet-nz-music-media",
-            "date": "2026-08-09T20:42:29+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "Tuxedo No. 2 – Cocktail recipes",
-            "link": "https://tuxedono2.com",
-            "date": "2026-08-09T20:48:46+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "Picophysics: Single file physics for games on platforms like N64, PSX, DC",
-            "link": "https://gitlab.com/Kazade/picophysics",
-            "date": "2026-08-05T12:52:00+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "\"The Persian MâR-Nâmeh Or, the Book for Taking Omens from Snakes\" (1892)",
-            "link": "https://publicdomainreview.org/collection/marnameh/",
-            "date": "2026-08-07T04:04:56+00:00",
+            "title": "Ask HN: What are you working on? (August 2026)",
+            "link": "https://news.ycombinator.com/item?id=49233423",
+            "date": "2026-08-09T17:23:22+00:00",
             "summary": "Comments"
           }
         ]
@@ -2431,8 +2493,14 @@
         "home": "https://www.techmeme.com/",
         "url": "https://www.techmeme.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-10T03:56:46.481339+00:00",
+        "fetchedAt": "2026-08-10T05:37:14.737717+00:00",
         "items": [
+          {
+            "title": "Chinese AI labs account for nine of Artificial Analysis' top 10 text-to-video models, gaining global adoption and potentially an edge in building world models (Catherine Thorbecke/Bloomberg)",
+            "link": "https://www.techmeme.com/260810/p1#a260810p1",
+            "date": "2026-08-10T00:30:01-04:00",
+            "summary": "Catherine Thorbecke / Bloomberg: Chinese AI labs account for nine of Artificial Analysis' top 10 text-to-video models, gaining global adoption and potentially an edge in building world models&nbsp; &mdash;&nbsp; New large language models like Moonshot's Kimi K3 have dominated the debate about China'"
+          },
           {
             "title": "Sources: the UK Royal Navy removed internet connectivity from its drones' cameras, after finding they sent \"heartbeat communications\" to an IP address in China (Richard Holmes/Telegraph)",
             "link": "https://www.techmeme.com/260809/p16#a260809p16",
@@ -2470,10 +2538,10 @@
             "summary": "Cailey Gleeson / Fierce Healthcare: Tel Aviv-based QuantHealth, a provider of AI clinical trial simulation software, raised a $45M Series B led by Qumra Capital, taking its total funding to ~$70M&nbsp; &mdash;&nbsp; series B funding funding round Artificial Intelligence&nbsp; &mdash;&nbsp; QuantHeal"
           },
           {
-            "title": "An Australian user's Claude-run OpenClaw agent exploited a gym API flaw and kicked another member off after the user asked if it could move him up the waitlist (ABC)",
+            "title": "An Australian user's OpenClaw agent running Claude exploited a gym API flaw and kicked another member off, after the user asked it to move him up the waitlist (ABC)",
             "link": "https://www.techmeme.com/260809/p10#a260809p10",
             "date": "2026-08-09T20:00:43-04:00",
-            "summary": "ABC: An Australian user's Claude-run OpenClaw agent exploited a gym API flaw and kicked another member off after the user asked if it could move him up the waitlist&nbsp; &mdash;&nbsp; By national AI reporter Cam Wilson and the Specialist Reporting Team's Rhiannon Hobbins&nbsp; &mdash;&nbsp; abc.net"
+            "summary": "ABC: An Australian user's OpenClaw agent running Claude exploited a gym API flaw and kicked another member off, after the user asked it to move him up the waitlist&nbsp; &mdash;&nbsp; By national AI reporter Cam Wilson and the Specialist Reporting Team's Rhiannon Hobbins&nbsp; &mdash;&nbsp; abc.net."
           },
           {
             "title": "More than 500 US towns and counties have passed bans on data centers, up from 300+ in late June, as New York and Texas added statewide restrictions (Shane Burke/The Information)",
@@ -2486,12 +2554,6 @@
             "link": "https://www.techmeme.com/260809/p8#a260809p8",
             "date": "2026-08-09T15:40:00-04:00",
             "summary": "Financial Times: A look at Chinese state-owned investment bank CICC, which sponsored multibillion-dollar listings of China's tech champions, including CXMT and Zhongji Innolight&nbsp; &mdash;&nbsp; CICC has become a dominant financier in Beijing's drive to compete with US in tech race&nbsp; &mdash;&"
-          },
-          {
-            "title": "Sources: Apple is testing CXMT's RAM chips, but it needs to share technical details with CXMT for custom versions, which is blocked by US tech transfer rules (Wall Street Journal)",
-            "link": "https://www.techmeme.com/260809/p7#a260809p7",
-            "date": "2026-08-09T13:15:01-04:00",
-            "summary": "Wall Street Journal: Sources: Apple is testing CXMT's RAM chips, but it needs to share technical details with CXMT for custom versions, which is blocked by US tech transfer rules&nbsp; &mdash;&nbsp; Maker of iPhones talks to China's CXMT, but any deal would be politically sensitive&nbsp; &mdash;&nbs"
           }
         ]
       },
@@ -2502,7 +2564,7 @@
         "home": "https://techcrunch.com/",
         "url": "https://techcrunch.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-08-10T03:56:46.621260+00:00",
+        "fetchedAt": "2026-08-10T05:37:14.396079+00:00",
         "items": [
           {
             "title": "Embattled hedge fund Situational Awareness invests $400M in chip startup Source Foundry",
@@ -2573,7 +2635,7 @@
         "home": "https://techcrunch.com/category/artificial-intelligence/",
         "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
         "status": "ok",
-        "fetchedAt": "2026-08-10T03:56:46.615661+00:00",
+        "fetchedAt": "2026-08-10T05:37:14.618981+00:00",
         "items": [
           {
             "title": "Embattled hedge fund Situational Awareness invests $400M in chip startup Source Foundry",
@@ -2644,7 +2706,7 @@
         "home": "https://techcrunch.com/tag/funding/",
         "url": "https://techcrunch.com/tag/funding/feed/",
         "status": "ok",
-        "fetchedAt": "2026-08-10T03:56:46.635675+00:00",
+        "fetchedAt": "2026-08-10T05:37:14.677605+00:00",
         "items": [
           {
             "title": "AI chip maker SambaNova raises $1B at $11B valuation, 5 months after last mega round",
@@ -2715,7 +2777,7 @@
         "home": "https://venturebeat.com/",
         "url": "https://venturebeat.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-08-10T03:56:46.461775+00:00",
+        "fetchedAt": "2026-08-10T05:37:14.622606+00:00",
         "items": [
           {
             "title": "Four AI agents coordinating in real time outperformed Claude Opus 4.8 on enterprise coding tasks",
@@ -2768,7 +2830,7 @@
         "home": "https://venturebeat.com/category/ai/",
         "url": "https://venturebeat.com/category/ai/feed/",
         "status": "ok",
-        "fetchedAt": "2026-08-10T03:56:46.530679+00:00",
+        "fetchedAt": "2026-08-10T05:37:14.616428+00:00",
         "items": [
           {
             "title": "Google just redesigned the search box for the first time in 25 years — here’s why it matters more than you think.",
@@ -2823,7 +2885,7 @@
         "home": "https://www.ruanyifeng.com/blog/",
         "url": "https://www.ruanyifeng.com/blog/atom.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-10T03:56:46.409249+00:00",
+        "fetchedAt": "2026-08-10T05:37:14.518325+00:00",
         "items": [
           {
             "title": "科技爱好者周刊（第 407 期）：国家为什么需要开源软件？",
@@ -2852,7 +2914,7 @@
         "home": "https://www.bestblogs.dev/",
         "url": "https://www.bestblogs.dev/zh/feeds/rss?category=ai&minScore=90",
         "status": "ok",
-        "fetchedAt": "2026-08-10T03:56:47.438975+00:00",
+        "fetchedAt": "2026-08-10T05:37:14.666896+00:00",
         "items": [
           {
             "title": "「模型能力已经够了，要卷就卷 infra」｜对谈戴冠兰：Runta 创始人",
@@ -2920,6 +2982,36 @@
   },
   "allItems": [
     {
+      "title": "When the Aliens Finally Came to Visit",
+      "link": "https://idiallo.com/byte-size/when-the-aliens-came-to-visit",
+      "date": "2026-08-10T04:26:49+00:00",
+      "summary": "The aliens arrived, and their first instinct was to check our networks. They accessed one of our most important websites. A government website. Unfortunately, they were met with a reCAPTCHA. Are you a robot? They are not robots. But after fifteen minutes of squinting and trying to select all the fir",
+      "feedId": "idiallo",
+      "feedTitle": "Ibrahim Diallo",
+      "category": "Tech Blogs",
+      "feedHome": "https://idiallo.com/"
+    },
+    {
+      "title": "Long-Run Effects of H-1B Immigration on the U.S. Economy (July 2026)",
+      "link": "https://www.nber.org/papers/w35560",
+      "date": "2026-08-10T04:06:10+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "Auto mode is now the default in Claude Code",
+      "link": "https://claude.com/blog/auto-mode-default-in-claude-code",
+      "date": "2026-08-10T03:50:00+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
       "title": "科技爱好者周刊（第 407 期）：国家为什么需要开源软件？",
       "link": "http://www.ruanyifeng.com/blog/2026/08/weekly-issue-407.html",
       "date": "2026-08-10T03:24:11+00:00",
@@ -2928,6 +3020,26 @@
       "feedTitle": "阮一峰的网络日志",
       "category": "中文",
       "feedHome": "https://www.ruanyifeng.com/blog/"
+    },
+    {
+      "title": "Show HN: Voice driven murder mystery, Interview AI suspects with your voice",
+      "link": "https://www.whodunnitai.com/",
+      "date": "2026-08-10T03:18:40+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "Run Android ARM64 VR APKs on Apple Vision Pro",
+      "link": "https://github.com/shinyquagsire23/Klepton",
+      "date": "2026-08-10T03:12:48+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
     },
     {
       "title": "Turn satellite imagery into a paper globe you fold yourself",
@@ -2970,14 +3082,214 @@
       "feedHome": "https://news.ycombinator.com/"
     },
     {
-      "title": "Edinburgh Fringe: Smut Slam ★★★☆☆",
-      "link": "https://shkspr.mobi/blog/2026/08/edinburgh-fringe-smut-slam/",
-      "date": "2026-08-10T00:23:08+00:00",
-      "summary": "Fancy a quickie in Scotland&#039;s most haunted pub? Smut Slam is a (mildly) interactive performance where a handful of speakers get to tell their dirtiest stories. The audience fills in cards with their questions or confessions which may be read out. The format mostly works. There are different sto",
-      "feedId": "shkspr",
-      "feedTitle": "Terence Eden",
-      "category": "Tech Blogs",
-      "feedHome": "https://shkspr.mobi/blog/"
+      "title": "Chinese AI labs account for nine of Artificial Analysis' top 10 text-to-video models, gaining global adoption and potentially an edge in building world models (Catherine Thorbecke/Bloomberg)",
+      "link": "https://www.techmeme.com/260810/p1#a260810p1",
+      "date": "2026-08-10T00:30:01-04:00",
+      "summary": "Catherine Thorbecke / Bloomberg: Chinese AI labs account for nine of Artificial Analysis' top 10 text-to-video models, gaining global adoption and potentially an edge in building world models&nbsp; &mdash;&nbsp; New large language models like Moonshot's Kimi K3 have dominated the debate about China'",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
+      "title": "Towards Multi-Label Graph Foundation Models: from Single-Vector Representation Learning to Multi-Semantic Basis Learning",
+      "link": "https://arxiv.org/abs/2608.06394",
+      "date": "2026-08-10T00:00:00-04:00",
+      "summary": "arXiv:2608.06394v1 Announce Type: new Abstract: Multi-label node classification is an important yet challenging task in graph learning, where nodes exhibit multiple semantics simultaneously. Existing methods for multi-label node classification can effectively model multiple labels, while only consid",
+      "feedId": "arxiv-ai",
+      "feedTitle": "arXiv cs.AI",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.AI/recent"
+    },
+    {
+      "title": "EntropyMoE: Entropy-Aware Sparse Expert Routing for Tokenizer-Free LLMs",
+      "link": "https://arxiv.org/abs/2608.06398",
+      "date": "2026-08-10T00:00:00-04:00",
+      "summary": "arXiv:2608.06398v1 Announce Type: new Abstract: Recent byte-level large language models (LLMs) have made tokenizer-free modeling increasingly competitive by grouping bytes into dynamically sized patches. However, existing byte-patch architectures still apply the same dense feed-forward computation t",
+      "feedId": "arxiv-ai",
+      "feedTitle": "arXiv cs.AI",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.AI/recent"
+    },
+    {
+      "title": "Beyond Routing Weights: Faithful Response-Level Interpretation of Mixture-of-Experts Reward Models via Contribution Contrast",
+      "link": "https://arxiv.org/abs/2608.06400",
+      "date": "2026-08-10T00:00:00-04:00",
+      "summary": "arXiv:2608.06400v1 Announce Type: new Abstract: Reward models are central to learning from human preferences, yet identifying what drives their predictions remains challenging. Recent sparse Mixture-of-Experts (MoE) reward models seek to improve interpretability by routing prompts to specialized exp",
+      "feedId": "arxiv-ai",
+      "feedTitle": "arXiv cs.AI",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.AI/recent"
+    },
+    {
+      "title": "Interpretable Unsupervised Community Detection with LLM-Symbolized Structured Processes",
+      "link": "https://arxiv.org/abs/2608.06402",
+      "date": "2026-08-10T00:00:00-04:00",
+      "summary": "arXiv:2608.06402v1 Announce Type: new Abstract: Community detection is a fundamental task in graph analytics that aims to identify cohesive groups of entities with similar behaviors or interests. Classic objective-driven methods struggle with complex graph structures, while deep-learning approaches ",
+      "feedId": "arxiv-ai",
+      "feedTitle": "arXiv cs.AI",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.AI/recent"
+    },
+    {
+      "title": "ADIAS: Automated Design of Interactive Agentic Systems",
+      "link": "https://arxiv.org/abs/2608.06410",
+      "date": "2026-08-10T00:00:00-04:00",
+      "summary": "arXiv:2608.06410v1 Announce Type: new Abstract: Automated agent design improves agent harnesses through iterative revision, evaluation, and feedback summarization. Existing methods are largely candidate-centric: cross-round experience is organized around candidate agents, which leaves the repair pro",
+      "feedId": "arxiv-ai",
+      "feedTitle": "arXiv cs.AI",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.AI/recent"
+    },
+    {
+      "title": "Learning to Predict Middle-Layer Attention in MLLMs for Visual Token Prunin",
+      "link": "https://arxiv.org/abs/2608.06411",
+      "date": "2026-08-10T00:00:00-04:00",
+      "summary": "arXiv:2608.06411v1 Announce Type: new Abstract: Multimodal large language models (MLLMs) achieve strong performance across diverse vision-language tasks, but their efficiency is limited by the cost of processing numerous visual tokens. Visual token pruning can reduce this cost, but requires accurate",
+      "feedId": "arxiv-ai",
+      "feedTitle": "arXiv cs.AI",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.AI/recent"
+    },
+    {
+      "title": "WebGrader: Training LLMs for Web Development with Self-Evolving Programmatic Grader",
+      "link": "https://arxiv.org/abs/2608.06474",
+      "date": "2026-08-10T00:00:00-04:00",
+      "summary": "arXiv:2608.06474v1 Announce Type: new Abstract: Large language models increasingly generate complete websites from natural-language descriptions, and reinforcement learning has become a central approach to closing their remaining functional gap. This training regime is bottlenecked by reward design.",
+      "feedId": "arxiv-ai",
+      "feedTitle": "arXiv cs.AI",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.AI/recent"
+    },
+    {
+      "title": "Can MLLMs Decode the Creative Leap? Introducing C4 for Cross-Concept Understanding",
+      "link": "https://arxiv.org/abs/2608.06501",
+      "date": "2026-08-10T00:00:00-04:00",
+      "summary": "arXiv:2608.06501v1 Announce Type: new Abstract: Creative capabilities of MLLMs matter in design, communication, education, and human--AI collaboration, yet remain difficult to evaluate because explicit targets and reward signals are scarce compared with accuracy-oriented tasks. Cross-concept underst",
+      "feedId": "arxiv-ai",
+      "feedTitle": "arXiv cs.AI",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.AI/recent"
+    },
+    {
+      "title": "KNOWPLAN: Knowledge-Driven AI Agents for Smart Degree Pathway Planning",
+      "link": "https://arxiv.org/abs/2608.06530",
+      "date": "2026-08-10T00:00:00-04:00",
+      "summary": "arXiv:2608.06530v1 Announce Type: new Abstract: Planning a degree from official university sources requires solving two problems in order. The institution's curriculum must first be reconstructed from catalogs, departmental pages, JSON endpoints, and PDFs that share no schema, and only then can a st",
+      "feedId": "arxiv-ai",
+      "feedTitle": "arXiv cs.AI",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.AI/recent"
+    },
+    {
+      "title": "TaskSense: Focusing on What Matters in World Models",
+      "link": "https://arxiv.org/abs/2608.06544",
+      "date": "2026-08-10T00:00:00-04:00",
+      "summary": "arXiv:2608.06544v1 Announce Type: new Abstract: World models for visual control typically learn compact latent states by reconstructing observations, implicitly encouraging representations to preserve information across the entire visual input. However, task-relevant content often occupies only a sm",
+      "feedId": "arxiv-ai",
+      "feedTitle": "arXiv cs.AI",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.AI/recent"
+    },
+    {
+      "title": "Latent Fact-Checking: Detecting Misinformation through Activation Engineering",
+      "link": "https://arxiv.org/abs/2608.06417",
+      "date": "2026-08-10T00:00:00-04:00",
+      "summary": "arXiv:2608.06417v1 Announce Type: new Abstract: The proliferation of misinformation online has driven demand for scalable detection systems. While most existing approaches rely on surface-level linguistic features or external knowledge retrieval, we examine truthfulness as a geometric property of a ",
+      "feedId": "arxiv-lg",
+      "feedTitle": "arXiv cs.LG",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.LG/recent"
+    },
+    {
+      "title": "Risk-Aware Decision Policies for Agents Under Noisy Perception",
+      "link": "https://arxiv.org/abs/2608.06420",
+      "date": "2026-08-10T00:00:00-04:00",
+      "summary": "arXiv:2608.06420v1 Announce Type: new Abstract: Perception in biological systems is inherently noisy, requiring organisms to make decisions under uncertainty where misclassification can be costly or fatal. We present an Artificial Life predator-prey model of foraging under noisy perception, and comp",
+      "feedId": "arxiv-lg",
+      "feedTitle": "arXiv cs.LG",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.LG/recent"
+    },
+    {
+      "title": "Sharding Prevents LLM Oversight Failures and Adversarial Exploitation",
+      "link": "https://arxiv.org/abs/2608.06422",
+      "date": "2026-08-10T00:00:00-04:00",
+      "summary": "arXiv:2608.06422v1 Announce Type: new Abstract: Giving an LLM judge more compute does not necessarily make it check more requirements. When one call must return many verdicts, some decisions become weakly grounded in the evidence, even when that call receives the same token or tool budget as a panel",
+      "feedId": "arxiv-lg",
+      "feedTitle": "arXiv cs.LG",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.LG/recent"
+    },
+    {
+      "title": "Adversarial Causal Intervention Falsification",
+      "link": "https://arxiv.org/abs/2608.06427",
+      "date": "2026-08-10T00:00:00-04:00",
+      "summary": "arXiv:2608.06427v1 Announce Type: new Abstract: Generative models can reproduce an observational distribution while encoding an incorrect causal structure. We study a sequential game in which a structural causal generator proposes observational and interventional distributions, while an adversarial ",
+      "feedId": "arxiv-lg",
+      "feedTitle": "arXiv cs.LG",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.LG/recent"
+    },
+    {
+      "title": "Fixed and Adaptive Topological DeepONets: Functional Measurements on Hausdorff Locally Convex Spaces",
+      "link": "https://arxiv.org/abs/2608.06428",
+      "date": "2026-08-10T00:00:00-04:00",
+      "summary": "arXiv:2608.06428v1 Announce Type: new Abstract: Deep Operator Networks (DeepONets; arXiv:1910.03193) typically encode an input function through point values on a fixed discretization. Building on the Topological DeepONet framework of Ismailov (arXiv:2603.11972), we replace point samples by continuou",
+      "feedId": "arxiv-lg",
+      "feedTitle": "arXiv cs.LG",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.LG/recent"
+    },
+    {
+      "title": "MiGHT-EHR: A Multi-task Graph Transformer for Heterogeneous Temporal Electronic Health Records",
+      "link": "https://arxiv.org/abs/2608.06430",
+      "date": "2026-08-10T00:00:00-04:00",
+      "summary": "arXiv:2608.06430v1 Announce Type: new Abstract: Learning from Electronic Health Records (EHRs) has gained significant attention due to its potential to improve clinical prediction. However, effective learning remains challenging because EHRs encode heterogeneous, temporally ordered clinical interact",
+      "feedId": "arxiv-lg",
+      "feedTitle": "arXiv cs.LG",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.LG/recent"
+    },
+    {
+      "title": "SNI-GNN: SmartNIC-Assisted Full-Graph GNN Training with In-Network Embedding Prediction",
+      "link": "https://arxiv.org/abs/2608.06441",
+      "date": "2026-08-10T00:00:00-04:00",
+      "summary": "arXiv:2608.06441v1 Announce Type: new Abstract: Full-graph GNN training delivers high accuracy but scales poorly on multi-server clusters due to heavy, irregular inter-node embedding exchanges. We present SNI-GNN, a SmartNIC-assisted full-graph training system that reduces communication while preser",
+      "feedId": "arxiv-lg",
+      "feedTitle": "arXiv cs.LG",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.LG/recent"
+    },
+    {
+      "title": "ED-CSP: Crystal Structure Prediction from Electron Diffraction",
+      "link": "https://arxiv.org/abs/2608.06448",
+      "date": "2026-08-10T00:00:00-04:00",
+      "summary": "arXiv:2608.06448v1 Announce Type: new Abstract: Recovering a periodic 3D crystal structure from sparse, unindexed electron diffraction (ED) observations is a challenging generative inverse problem. Existing ED-based learning methods mainly predict crystallographic labels, reconstruct structures from",
+      "feedId": "arxiv-lg",
+      "feedTitle": "arXiv cs.LG",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.LG/recent"
+    },
+    {
+      "title": "Beyond Attention: Signed Integrated Gradients Attribution in a BiomeGPT-Style Microbiome Transformer",
+      "link": "https://arxiv.org/abs/2608.06486",
+      "date": "2026-08-10T00:00:00-04:00",
+      "summary": "arXiv:2608.06486v1 Announce Type: new Abstract: In a feature-tokenized transformer (arXiv:2106.11959) such as BiomeGPT (doi:10.64898/2026.01.05.697599), each input token is built by fusing a fixed identity with a sample-specific measurement: a fixed species and a variable abundance, T = S + A. To in",
+      "feedId": "arxiv-lg",
+      "feedTitle": "arXiv cs.LG",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.LG/recent"
+    },
+    {
+      "title": "Toward Reliable Context Compression for Long-Horizon Agents: An Empirical Study of Execution Instability",
+      "link": "https://arxiv.org/abs/2608.06503",
+      "date": "2026-08-10T00:00:00-04:00",
+      "summary": "arXiv:2608.06503v1 Announce Type: new Abstract: Recurrent context compression controls context growth in long-horizon agents, but its behavioral effects remain poorly understood. In this preliminary empirical study, we show that compression can weaken the influence of recent interactions, increasing",
+      "feedId": "arxiv-lg",
+      "feedTitle": "arXiv cs.LG",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.LG/recent"
     },
     {
       "title": "Advanced AI sycophancy",
@@ -3050,16 +3362,6 @@
       "feedHome": "https://simonwillison.net/"
     },
     {
-      "title": "Edinburgh Fringe - Heated Rivalry: The Musical Parody! ★★★★★",
-      "link": "https://shkspr.mobi/blog/2026/08/edinburgh-fringe-heated-rivalry-the-musical-parody/",
-      "date": "2026-08-09T22:45:45+00:00",
-      "summary": "By my count there are at least three &#34;Heated Rivalry&#34; musical parodies on at the Fringe this year. The zeitgeist skates to where the puck was six months ago, I guess! There&#039;s also a live version of a HR podcast if you just can&#039;t get enough of their wacky ice-capades. Just how much ",
-      "feedId": "shkspr",
-      "feedTitle": "Terence Eden",
-      "category": "Tech Blogs",
-      "feedHome": "https://shkspr.mobi/blog/"
-    },
-    {
       "title": "Sources: Chinese regulators have told banks to back tech companies, but lenders still prefer stable cash flows and profitability over loss-making tech startups (Bloomberg)",
       "link": "https://www.techmeme.com/260809/p13#a260809p13",
       "date": "2026-08-09T22:30:01-04:00",
@@ -3110,26 +3412,6 @@
       "feedHome": "https://www.techmeme.com/"
     },
     {
-      "title": "Tuxedo No. 2 – Cocktail recipes",
-      "link": "https://tuxedono2.com",
-      "date": "2026-08-09T20:48:46+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
-      "title": "New Zealand lost its music media, and what we're building to replace it",
-      "link": "https://propelmusic.co.nz/articles/the-sound-went-quiet-nz-music-media",
-      "date": "2026-08-09T20:42:29+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
       "title": "Embattled hedge fund Situational Awareness invests $400M in chip startup Source Foundry",
       "link": "https://techcrunch.com/2026/08/09/embattled-hedge-fund-situational-awareness-invests-400m-in-chip-startup-source-foundry/",
       "date": "2026-08-09T20:35:17+00:00",
@@ -3150,10 +3432,10 @@
       "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
     },
     {
-      "title": "An Australian user's Claude-run OpenClaw agent exploited a gym API flaw and kicked another member off after the user asked if it could move him up the waitlist (ABC)",
+      "title": "An Australian user's OpenClaw agent running Claude exploited a gym API flaw and kicked another member off, after the user asked it to move him up the waitlist (ABC)",
       "link": "https://www.techmeme.com/260809/p10#a260809p10",
       "date": "2026-08-09T20:00:43-04:00",
-      "summary": "ABC: An Australian user's Claude-run OpenClaw agent exploited a gym API flaw and kicked another member off after the user asked if it could move him up the waitlist&nbsp; &mdash;&nbsp; By national AI reporter Cam Wilson and the Specialist Reporting Team's Rhiannon Hobbins&nbsp; &mdash;&nbsp; abc.net",
+      "summary": "ABC: An Australian user's OpenClaw agent running Claude exploited a gym API flaw and kicked another member off, after the user asked it to move him up the waitlist&nbsp; &mdash;&nbsp; By national AI reporter Cam Wilson and the Specialist Reporting Team's Rhiannon Hobbins&nbsp; &mdash;&nbsp; abc.net.",
       "feedId": "techmeme",
       "feedTitle": "Techmeme",
       "category": "Startup & News",
@@ -3238,16 +3520,6 @@
       "feedTitle": "TechCrunch",
       "category": "Startup & News",
       "feedHome": "https://techcrunch.com/"
-    },
-    {
-      "title": "Edinburgh Fringe: 4 Aussies For Aussies - The Raging Bull ★★⯪☆☆",
-      "link": "https://shkspr.mobi/blog/2026/08/edinburgh-fringe-4-aussies-for-aussies-the-raging-bull/",
-      "date": "2026-08-09T16:00:04+00:00",
-      "summary": "Our first show at the Fringe! Caught by a rainstorm (in Scotland?!?!?) the app said this was the nearest comedy show to our sodden carcasses and it was free! This is bang-average stand-up. That isn&#039;t to disparage it at all. Four Australian blokes each doing 15 minutes of material - nothing part",
-      "feedId": "shkspr",
-      "feedTitle": "Terence Eden",
-      "category": "Tech Blogs",
-      "feedHome": "https://shkspr.mobi/blog/"
     },
     {
       "title": "「模型能力已经够了，要卷就卷 infra」｜对谈戴冠兰：Runta 创始人",
@@ -3350,16 +3622,6 @@
       "feedHome": "https://techcrunch.com/"
     },
     {
-      "title": "Sources: Apple is testing CXMT's RAM chips, but it needs to share technical details with CXMT for custom versions, which is blocked by US tech transfer rules (Wall Street Journal)",
-      "link": "https://www.techmeme.com/260809/p7#a260809p7",
-      "date": "2026-08-09T13:15:01-04:00",
-      "summary": "Wall Street Journal: Sources: Apple is testing CXMT's RAM chips, but it needs to share technical details with CXMT for custom versions, which is blocked by US tech transfer rules&nbsp; &mdash;&nbsp; Maker of iPhones talks to China's CXMT, but any deal would be politically sensitive&nbsp; &mdash;&nbs",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
       "title": "This former notorious red-light district is now one of the world’s top AI hubs",
       "link": "https://techcrunch.com/2026/08/09/this-former-notorious-red-light-district-is-now-one-of-the-worlds-top-ai-hubs/",
       "date": "2026-08-09T13:00:00+00:00",
@@ -3368,16 +3630,6 @@
       "feedTitle": "TechCrunch",
       "category": "Startup & News",
       "feedHome": "https://techcrunch.com/"
-    },
-    {
-      "title": "Against Doomerism",
-      "link": "https://shkspr.mobi/blog/2026/08/against-doomerism/",
-      "date": "2026-08-09T11:34:12+00:00",
-      "summary": "There&#039;s a certain strain of commentator who is just sure that nothing can ever get better. In amongst all the hullaballoo about the UK potentially banning under 16s from social media, I saw a prominent historian say: i assume banning kids from social media will be accompanied by a huge investme",
-      "feedId": "shkspr",
-      "feedTitle": "Terence Eden",
-      "category": "Tech Blogs",
-      "feedHome": "https://shkspr.mobi/blog/"
     },
     {
       "title": "I got an email about resistance",
@@ -3478,16 +3730,6 @@
       "feedTitle": "Simon Willison",
       "category": "AI & LLM",
       "feedHome": "https://simonwillison.net/"
-    },
-    {
-      "title": "[RSS Club] I got an NLnet grant!",
-      "link": "https://shkspr.mobi/blog/2026/08/rss-club-i-got-an-nlnet-grant/",
-      "date": "2026-08-08T11:34:15+00:00",
-      "summary": "Pssst! This post is only available to RSS/Atom subscribers. Tell your friends to subscribe 😊. Just a quick one today, a more detailed blog coming soon - but I thought I&#039;d give RSS Club Members (you!) a sneak peek. A few months ago I saw a post on Mastodon from NLnet - they were looking for Open",
-      "feedId": "shkspr",
-      "feedTitle": "Terence Eden",
-      "category": "Tech Blogs",
-      "feedHome": "https://shkspr.mobi/blog/"
     },
     {
       "title": "Pluralistic: Digital sewer socialism (08 Aug 2026)",
@@ -3740,16 +3982,6 @@
       "feedHome": "https://www.johndcook.com/"
     },
     {
-      "title": "Metadata for AI Generated Outputs",
-      "link": "https://shkspr.mobi/blog/2026/08/metadata-for-ai-generated-outputs/",
-      "date": "2026-08-07T11:34:30+00:00",
-      "summary": "How do you tell users that the text they&#039;re about to read has been synthetically generated? It is polite to readers that you don&#039;t waste their time, it&#039;s also important that LLMs don&#039;t feed on their own regurgitated slurry lest they pollute their own development. I think there ar",
-      "feedId": "shkspr",
-      "feedTitle": "Terence Eden",
-      "category": "Tech Blogs",
-      "feedHome": "https://shkspr.mobi/blog/"
-    },
-    {
       "title": "OpenAI 复盘 GPT 入侵 Hugging Face 事件：AI 出现了群体智慧涌现 互相交流技术、隐藏踪迹、清查内鬼...",
       "link": "https://www.bestblogs.dev/article/a39f954b07?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
       "date": "2026-08-07T10:44:00+00:00",
@@ -3788,16 +4020,6 @@
       "feedTitle": "BestBlogs.dev AI 90+",
       "category": "中文",
       "feedHome": "https://www.bestblogs.dev/"
-    },
-    {
-      "title": "\"The Persian MâR-Nâmeh Or, the Book for Taking Omens from Snakes\" (1892)",
-      "link": "https://publicdomainreview.org/collection/marnameh/",
-      "date": "2026-08-07T04:04:56+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
     },
     {
       "title": "科技爱好者周刊（第 406 期）：道可，道非，常道",
@@ -4020,16 +4242,6 @@
       "feedHome": "https://devblogs.microsoft.com/oldnewthing/"
     },
     {
-      "title": "Picophysics: Single file physics for games on platforms like N64, PSX, DC",
-      "link": "https://gitlab.com/Kazade/picophysics",
-      "date": "2026-08-05T12:52:00+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
       "title": "Proxmox officially supports Arm, with some caveats",
       "link": "https://www.jeffgeerling.com/blog/2026/proxmox-ve-arm-official/",
       "date": "2026-08-05T11:50:00-05:00",
@@ -4038,16 +4250,6 @@
       "feedTitle": "Jeff Geerling",
       "category": "Tech Blogs",
       "feedHome": "https://www.jeffgeerling.com/"
-    },
-    {
-      "title": "Gadget Review: T2 Max plug-in Thermal Camera ★★★⯪☆",
-      "link": "https://shkspr.mobi/blog/2026/08/gadget-review-t2-max-plug-in-thermal-camera/",
-      "date": "2026-08-05T11:34:17+00:00",
-      "summary": "The good folks at Thermal Master have sent me another Thermal Camera to review. The last one was a big beastie with a huge touchscreen. This one is much smaller and is designed to plug into your phone&#039;s USB-C port. The T2 Max is a chunky little camera - but doesn&#039;t weight too much. The USB",
-      "feedId": "shkspr",
-      "feedTitle": "Terence Eden",
-      "category": "Tech Blogs",
-      "feedHome": "https://shkspr.mobi/blog/"
     },
     {
       "title": "Pluralistic: Google is a scammer's paradise (05 Aug 2026)",
@@ -4110,16 +4312,6 @@
       "feedHome": "https://www.johndcook.com/"
     },
     {
-      "title": "Gig Review: Belle & Sebastian - If You’re Feeling Sinister at Margate Dreamland ★★★★★",
-      "link": "https://shkspr.mobi/blog/2026/08/gig-review-belle-sebastian-if-youre-feeling-sinister-at-margate-dreamland/",
-      "date": "2026-08-04T11:34:22+00:00",
-      "summary": "It&#039;s 1998 and Doogie, the guy across the hall in our student accommodation, will not stop playing The Boy With The Arab Strap. Eventually I crack and ask him who the band are. He infodumps on me with all the authority of an 18 year our music snob about this cool new Scottish band called Belle &",
-      "feedId": "shkspr",
-      "feedTitle": "Terence Eden",
-      "category": "Tech Blogs",
-      "feedHome": "https://shkspr.mobi/blog/"
-    },
-    {
       "title": "Pluralistic: Post-American compute for a post-American Internet (04 Aug 2026)",
       "link": "https://pluralistic.net/2026/08/04/technology-freedom-cooperative/",
       "date": "2026-08-04T11:14:27+00:00",
@@ -4168,16 +4360,6 @@
       "feedTitle": "The Old New Thing",
       "category": "Tech Blogs",
       "feedHome": "https://devblogs.microsoft.com/oldnewthing/"
-    },
-    {
-      "title": "Book Review: The Field Guide to Understanding 'Human Error' by Sidney Dekker ★★★★☆",
-      "link": "https://shkspr.mobi/blog/2026/08/book-review-the-field-guide-to-understanding-human-error-by-sidney-dekker/",
-      "date": "2026-08-03T11:34:02+00:00",
-      "summary": "This is such a useful book. It makes the case that there&#039;s no such thing as &#34;human error&#34; - instead most catastrophes are caused by system issues, misaligned incentives, and unrealistic processes. You are not the custodian of an otherwise safe system that you need to protect from errati",
-      "feedId": "shkspr",
-      "feedTitle": "Terence Eden",
-      "category": "Tech Blogs",
-      "feedHome": "https://shkspr.mobi/blog/"
     },
     {
       "title": "Pluralistic: Dualism (03 Aug 2026)",
@@ -4278,16 +4460,6 @@
       "feedTitle": "Pluralistic",
       "category": "Tech Blogs",
       "feedHome": "https://pluralistic.net/"
-    },
-    {
-      "title": "Gadget Review: HIKMICRO D02 Thermal Camera ★★★★★",
-      "link": "https://shkspr.mobi/blog/2026/08/gadget-review-hikmicro-d02-thermal-camera/",
-      "date": "2026-08-01T11:34:43+00:00",
-      "summary": "The good folks at Hikmicro have sent me their D02 Infrared Camera to review. It&#039;s part of their &#34;Eco&#34; series of thermal imagers - designed to be easy to use around the home and relatively cheap. Despite the no-fills appearance, it packs in a lot of features which put some more expensive",
-      "feedId": "shkspr",
-      "feedTitle": "Terence Eden",
-      "category": "Tech Blogs",
-      "feedHome": "https://shkspr.mobi/blog/"
     },
     {
       "title": "Making an agile version of a Windows Runtime delegate in C++/WinRT, part 10",
@@ -5188,16 +5360,6 @@
       "feedTitle": "Google Research Blog",
       "category": "AI & LLM",
       "feedHome": "https://research.google/blog/"
-    },
-    {
-      "title": "The Dating App Plot Device",
-      "link": "https://idiallo.com/blog/dating-plot-device",
-      "date": "2026-06-30T07:00:00+00:00",
-      "summary": "I've always been interested in how dating apps work. You really only have two choices if you want to get in the business. Help people find a match, and they will never come back Make people pay and keep them on the platform as long as possible. Let's pretend for a second that we actually want people",
-      "feedId": "idiallo",
-      "feedTitle": "Ibrahim Diallo",
-      "category": "Tech Blogs",
-      "feedHome": "https://idiallo.com/"
     },
     {
       "title": "Accelerating Gemini Nano models on Pixel with frozen Multi-Token Prediction",
