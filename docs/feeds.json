@@ -1,14 +1,15 @@
 {
-  "updatedAt": "2026-08-12T13:11:00.129067+00:00",
+  "updatedAt": "2026-08-12T14:57:25.264333+00:00",
   "totalFeeds": 51,
-  "successCount": 44,
-  "failedCount": 7,
+  "successCount": 43,
+  "failedCount": 8,
   "failed": [
     "gwern",
     "garymarcus",
     "thesequence",
-    "seangoedecke",
+    "shkspr",
     "lcamtuf",
+    "righto",
     "rachelbythebay",
     "tedunangst"
   ],
@@ -21,7 +22,7 @@
         "home": "https://simonwillison.net/",
         "url": "https://simonwillison.net/atom/everything/",
         "status": "ok",
-        "fetchedAt": "2026-08-12T13:10:49.716055+00:00",
+        "fetchedAt": "2026-08-12T14:57:14.846503+00:00",
         "items": [
           {
             "title": "There are no lossless transformations of natural-language text",
@@ -92,7 +93,7 @@
         "home": "https://openai.com/news/",
         "url": "https://openai.com/news/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-12T13:10:49.705848+00:00",
+        "fetchedAt": "2026-08-12T14:57:14.926849+00:00",
         "items": [
           {
             "title": "From assistance to execution: How enterprises put AI to work",
@@ -163,7 +164,7 @@
         "home": "https://arxiv.org/list/cs.AI/recent",
         "url": "https://arxiv.org/rss/cs.AI",
         "status": "ok",
-        "fetchedAt": "2026-08-12T13:10:49.964451+00:00",
+        "fetchedAt": "2026-08-12T14:57:15.283448+00:00",
         "items": [
           {
             "title": "Closed-Loop LLM Co-Pilots for Digital Agriculture",
@@ -234,7 +235,7 @@
         "home": "https://arxiv.org/list/cs.LG/recent",
         "url": "https://arxiv.org/rss/cs.LG",
         "status": "ok",
-        "fetchedAt": "2026-08-12T13:10:49.889076+00:00",
+        "fetchedAt": "2026-08-12T14:57:15.208083+00:00",
         "items": [
           {
             "title": "Transformer Geometry Observatory TGO-IV: Developmental Topology Observatory",
@@ -305,7 +306,7 @@
         "home": "https://research.google/blog/",
         "url": "https://research.google/blog/rss/",
         "status": "ok",
-        "fetchedAt": "2026-08-12T13:10:49.896869+00:00",
+        "fetchedAt": "2026-08-12T14:57:15.160772+00:00",
         "items": [
           {
             "title": "Advancing AMIE towards expert-level audio-visual clinical consultations",
@@ -376,8 +377,14 @@
         "home": "https://deepmind.google/blog/",
         "url": "https://deepmind.google/blog/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-12T13:10:49.995264+00:00",
+        "fetchedAt": "2026-08-12T14:57:15.019657+00:00",
         "items": [
+          {
+            "title": "Putting sign language AI into users’ hands",
+            "link": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
+            "date": "2026-08-12T14:01:59+00:00",
+            "summary": "Introducing sign-language-to-text (SL2T), our breakthrough model powering new sign language features for Deaf and hard of hearing users."
+          },
           {
             "title": "WeatherNext: AI model achieves breakthrough in forecasting cyclones",
             "link": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
@@ -431,12 +438,6 @@
             "link": "https://deepmind.google/blog/empowering-indias-next-generation-of-innovators-with-atl-saathi/",
             "date": "2026-07-13T12:37:28+00:00",
             "summary": "Google and AIM launched ATL Saathi, a Gemini-powered AI tool empowering Indian educators in robotics labs."
-          },
-          {
-            "title": "Google DeepMind and A24 announce first-of-its-kind research partnership",
-            "link": "https://deepmind.google/blog/google-deepmind-and-a24-announce-first-of-its-kind-research-partnership/",
-            "date": "2026-07-03T14:25:43+00:00",
-            "summary": ""
           }
         ]
       },
@@ -447,7 +448,7 @@
         "home": "https://lilianweng.github.io/",
         "url": "https://lilianweng.github.io/lil-log/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-12T13:10:49.717954+00:00",
+        "fetchedAt": "2026-08-12T14:57:14.813885+00:00",
         "items": [
           {
             "title": "Active Learning",
@@ -538,7 +539,7 @@
         "home": "https://minimaxir.com/",
         "url": "https://minimaxir.com/index.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-12T13:10:49.724145+00:00",
+        "fetchedAt": "2026-08-12T14:57:14.983730+00:00",
         "items": [
           {
             "title": "LLMs break down in funny ways when told the Jacobian Conjecture counterargument",
@@ -621,7 +622,7 @@
         "home": "https://www.jeffgeerling.com/",
         "url": "https://www.jeffgeerling.com/blog.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-12T13:10:49.717538+00:00",
+        "fetchedAt": "2026-08-12T14:57:14.863542+00:00",
         "items": [
           {
             "title": "I'm excited for Intel after testing the XPS 13",
@@ -691,9 +692,70 @@
         "title": "Sean Goedecke",
         "home": "https://www.seangoedecke.com/",
         "url": "https://www.seangoedecke.com/rss.xml",
-        "status": "error",
-        "error": "Response payload is not completed: <ContentLengthError: 400, message='Not enough data to satisfy content length header (received 29742 of 126399 bytes).'>. ConnectionResetError(104, 'Connection reset by peer')",
-        "items": []
+        "status": "ok",
+        "fetchedAt": "2026-08-12T14:57:14.989988+00:00",
+        "items": [
+          {
+            "title": "No, local models will not win",
+            "link": "https://seangoedecke.com/local-models-will-not-win/",
+            "date": "2026-08-11T00:00:00+00:00",
+            "summary": ""
+          },
+          {
+            "title": "Advanced AI sycophancy",
+            "link": "https://seangoedecke.com/advanced-ai-sycophancy/",
+            "date": "2026-08-10T00:00:00+00:00",
+            "summary": ""
+          },
+          {
+            "title": "I got an email about resistance",
+            "link": "https://seangoedecke.com/i-got-an-email-about-resistance/",
+            "date": "2026-08-09T00:00:00+00:00",
+            "summary": ""
+          },
+          {
+            "title": "How to keep thinking",
+            "link": "https://seangoedecke.com/how-to-keep-thinking/",
+            "date": "2026-08-07T00:00:00+00:00",
+            "summary": ""
+          },
+          {
+            "title": "Giving and taking credit in big tech companies",
+            "link": "https://seangoedecke.com/giving-and-taking-credit/",
+            "date": "2026-08-02T00:00:00+00:00",
+            "summary": ""
+          },
+          {
+            "title": "AI models need moral support to make discoveries",
+            "link": "https://seangoedecke.com/ai-models-need-moral-support/",
+            "date": "2026-07-31T00:00:00+00:00",
+            "summary": ""
+          },
+          {
+            "title": "You don't have to be smart if you can think clearly",
+            "link": "https://seangoedecke.com/you-dont-have-to-be-smart-if-you-think-clearly/",
+            "date": "2026-07-29T00:00:00+00:00",
+            "summary": ""
+          },
+          {
+            "title": "LLMs reward expertise",
+            "link": "https://seangoedecke.com/llms-reward-expertise/",
+            "date": "2026-07-24T00:00:00+00:00",
+            "summary": ""
+          },
+          {
+            "title": "Powerful AIs might escape containment by releasing themselves as open-weight models",
+            "link": "https://seangoedecke.com/powerful-ais-might-escape-by-releasing-open-weight-models/",
+            "date": "2026-07-23T00:00:00+00:00",
+            "summary": ""
+          },
+          {
+            "title": "Impro is a handbook for running a cult",
+            "link": "https://seangoedecke.com/impro/",
+            "date": "2026-07-19T00:00:00+00:00",
+            "summary": ""
+          }
+        ]
       },
       {
         "id": "krebsonsecurity",
@@ -702,7 +764,7 @@
         "home": "https://krebsonsecurity.com/",
         "url": "https://krebsonsecurity.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-08-12T13:10:49.745260+00:00",
+        "fetchedAt": "2026-08-12T14:57:14.962375+00:00",
         "items": [
           {
             "title": "Microsoft Plugs Nearly 400 Security Holes",
@@ -773,8 +835,20 @@
         "home": "https://daringfireball.net/",
         "url": "https://daringfireball.net/feeds/main",
         "status": "ok",
-        "fetchedAt": "2026-08-12T13:10:49.809997+00:00",
+        "fetchedAt": "2026-08-12T14:57:14.973963+00:00",
         "items": [
+          {
+            "title": "Reed Jobs Tells a Neuroscience Story",
+            "link": "https://x.com/sabrinahalper/status/2086964813788258588?s=46",
+            "date": "2026-08-12T14:48:04+00:00",
+            "summary": "Watch this. No words needed, everyone can feel it. Genes are a hell of a thing. &nbsp;★&nbsp;"
+          },
+          {
+            "title": "Nature Is Healing",
+            "link": "https://mastodon.social/@BasicAppleGuy/117073366339407186",
+            "date": "2026-08-12T14:44:42+00:00",
+            "summary": "Basic Apple Guy: Apple just dropped the hardest icon glow-up for the new Chess icon in macOS 27 Beta 5. This is not just a tweak or small improvement. This is the difference between total shit and a really nice icon. &nbsp;★&nbsp;"
+          },
           {
             "title": "The Economist: ‘How to Spot AI Writing’",
             "link": "https://www.economist.com/culture/2026/07/30/how-to-spot-ai-writing?giftId=NzBlNTc2OGItMDgxNS00N2EzLWE4NmUtZDgzZmE4Y2FkM2Mw",
@@ -822,18 +896,6 @@
             "link": "https://drata.com/daring",
             "date": "2026-08-10T22:25:00+00:00",
             "summary": "Leverage autonomous AI agents to automate compliance, manage internal and third-party risk, and continuously prove your security posture. &nbsp;★&nbsp;"
-          },
-          {
-            "title": "What’s New in iOS 27 Beta 5",
-            "link": "https://9to5mac.com/2026/08/10/heres-whats-new-with-ios-27-beta-5/",
-            "date": "2026-08-10T21:54:25+00:00",
-            "summary": "Zac Hall at 9to5Mac has a good rundown of new features and changes in beta 5. Some app icons got tweaks (the Siri app in particular looks much cooler now), and a bunch of the existing American and British Siri speaking voices now have the Pace and Expressivity adjustment sliders. Also interesting: t"
-          },
-          {
-            "title": "‘Friday Night Baseball’ Will Start Broadcasting Games Live, in Apple Immersive, on Vision Pro",
-            "link": "https://www.apple.com/newsroom/2026/08/apple-mlb-announce-september-friday-night-baseball-schedule/",
-            "date": "2026-08-10T20:48:12+00:00",
-            "summary": "Apple Newsroom: For the first time, baseball fans can take in all the action of “Friday Night Baseball” live in Apple Immersive on Apple Vision Pro, leveraging 3D video recorded in 8K with a 180-degree field of view. On August 28, viewers with Vision Pro will experience the iconic Red Sox vs. Yankee"
           }
         ]
       },
@@ -844,7 +906,7 @@
         "home": "https://ericmigi.com/",
         "url": "https://ericmigi.com/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-12T13:10:49.831292+00:00",
+        "fetchedAt": "2026-08-12T14:57:14.965386+00:00",
         "items": [
           {
             "title": "Index 01 Is In Mass Production!",
@@ -915,7 +977,7 @@
         "home": "http://antirez.com/",
         "url": "http://antirez.com/rss",
         "status": "ok",
-        "fetchedAt": "2026-08-12T13:10:52.000011+00:00",
+        "fetchedAt": "2026-08-12T14:57:16.599985+00:00",
         "items": [
           {
             "title": "The real AI risk is inside the labs",
@@ -986,7 +1048,7 @@
         "home": "https://idiallo.com/",
         "url": "https://idiallo.com/feed.rss",
         "status": "ok",
-        "fetchedAt": "2026-08-12T13:10:49.969488+00:00",
+        "fetchedAt": "2026-08-12T14:57:14.993812+00:00",
         "items": [
           {
             "title": "Where Did the Productivity Gains Go?",
@@ -1057,7 +1119,7 @@
         "home": "https://maurycyz.com/",
         "url": "https://maurycyz.com/index.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-12T13:10:50.542492+00:00",
+        "fetchedAt": "2026-08-12T14:57:15.508815+00:00",
         "items": []
       },
       {
@@ -1067,7 +1129,7 @@
         "home": "https://pluralistic.net/",
         "url": "https://pluralistic.net/feed/",
         "status": "ok",
-        "fetchedAt": "2026-08-12T13:10:52.047089+00:00",
+        "fetchedAt": "2026-08-12T14:57:17.118489+00:00",
         "items": [
           {
             "title": "Pluralistic: Model collapse (12 Aug 2026)",
@@ -1137,70 +1199,9 @@
         "title": "Terence Eden",
         "home": "https://shkspr.mobi/blog/",
         "url": "https://shkspr.mobi/blog/feed/",
-        "status": "ok",
-        "fetchedAt": "2026-08-12T13:10:50.609568+00:00",
-        "items": [
-          {
-            "title": "Edinburgh Fringe - Justina Seselskaite: Settled ★★★★☆",
-            "link": "https://shkspr.mobi/blog/2026/08/edinburgh-fringe-justina-seselskaite-settled/",
-            "date": "2026-08-11T22:23:14+00:00",
-            "summary": "Sometimes at the Edinburgh Fringe, you take a punt on a random show because it&#039;s close by and you can&#039;t be bothered walking any further. Justina Seselskaite&#039;s set was round the corner and started in 7 ½ minutes - so we scurried into one of the less glamorous rooms of The Hilton, sat a"
-          },
-          {
-            "title": "Edinburgh Fringe: Handel Nine German Arias ★★★⯪☆",
-            "link": "https://shkspr.mobi/blog/2026/08/edinburgh-fringe-handel-nine-german-arias/",
-            "date": "2026-08-11T20:21:05+00:00",
-            "summary": "Part of going to The Fringe is to expose yourself to new ideas, different art forms, and a range of artworks. Not everything needs to be a &#34;zany&#34; comedy about AI or a loving pastiche of that 1990s disaster movie you love. So I found myself sat in a Unitarian Church listening to a harpsichord"
-          },
-          {
-            "title": "Edinburgh Fringe: Hamlet The Musical ★★☆☆☆",
-            "link": "https://shkspr.mobi/blog/2026/08/edinburgh-fringe-hamlet-the-musical/",
-            "date": "2026-08-11T18:19:16+00:00",
-            "summary": "🎼&#34;Hamlet&#039;s Mum Has Got It Going On&#34;🎵 There you go, now you&#039;ve seen the show. That&#039;s about the height it reaches. Distil the tortured Prince of Denmark down to an hour and sprinkle in parody pop songs. It so nearly works. There are a few good chuckles and a smattering of clever"
-          },
-          {
-            "title": "Edinburgh Fringe: Afronauts ★★★★☆",
-            "link": "https://shkspr.mobi/blog/2026/08/edinburgh-fringe-afronauts/",
-            "date": "2026-08-11T16:17:12+00:00",
-            "summary": "Afrofuturism is a hot topic in the world of sci-fi. This is the circus version of &#34;For All Mankind&#34; where the Zambia Space Academy (a 100% real thing) attempt to land on the moon and win the space race. Told in an acrobatic style, naturally. It is delightful to see classic acrobatics find a "
-          },
-          {
-            "title": "Edinburgh Fringe: Noted ★★★⯪☆",
-            "link": "https://shkspr.mobi/blog/2026/08/edinburgh-fringe-noted/",
-            "date": "2026-08-11T12:45:28+00:00",
-            "summary": "It is a brave children&#039;s show which starts with the song &#34;I&#039;m a smooth muthafukker&#34;… This is sort of a live-action XKCD cartoon. A frenetic troupe of performers are decked with hand-drawn portraits and then… well, it is somewhere between a Sesame Street animation and the stick-figu"
-          },
-          {
-            "title": "Gadget Review: Soundpeats UU2 POP Clip2 Earphones ★★★★⯪",
-            "link": "https://shkspr.mobi/blog/2026/08/gadget-review-soundpeats-pop-clip2-earphones/",
-            "date": "2026-08-11T11:34:37+00:00",
-            "summary": "Last year, I reviewed a new type of Clip-On earphone - the Soundpeats Clip1 Cuff. I was a bit sceptical, but was won around by their comfort. The good folks at Soundpeats have sent me their new version to review. I had a few niggles with the Clip1 - so let&#039;s see how the UU2 Clip2 compare. Desig"
-          },
-          {
-            "title": "Edinburgh Fringe: 15 Minutes of Shame ★★★★⯪",
-            "link": "https://shkspr.mobi/blog/2026/08/edinburgh-fringe-15-minutes-of-shame/",
-            "date": "2026-08-10T20:43:10+00:00",
-            "summary": "Sex work is work, so we&#039;re told. There&#039;s no difference between picking up a night job stacking shelves and a night job jacking-off on screen. Right? Perhaps a couple need a little bit of extra cash and the siren song of OnlyFans is right there. Let&#039;s fire up the webcam and release our"
-          },
-          {
-            "title": "Edinburgh Fringe - Kat Ronson: Millennial Girl ★★★★☆",
-            "link": "https://shkspr.mobi/blog/2026/08/edinburgh-fringe-kat-ronson-millennial-girl/",
-            "date": "2026-08-10T17:45:36+00:00",
-            "summary": "OMG! If you remember A/S/Ling your way through MSN to fill in your MySpace top 8, then you&#039;ll love this show. You&#039;re also over 30 and, therefore, old. Ew. The stage is littered with a Nokia 3310, Bliss Magazine, and Charlie Red. Katie (15/F/UK) talks us through the complexities of her nasc"
-          },
-          {
-            "title": "Edinburgh Fringe - Michael Brunström: William Tell vs the Algorithm ★★★☆☆",
-            "link": "https://shkspr.mobi/blog/2026/08/edinburgh-fringe-michael-brunstrom-william-tell-vs-the-algorithm/",
-            "date": "2026-08-10T15:57:27+00:00",
-            "summary": "The terror of AI has come to comedy. There are a dozen shows this year about the threat that technology poses to the way we live, laugh, and love. In this case, AI stands for Austrian Imperialism and the fight is for Switzerland&#039;s independence. Well, sort of. It gets a bit lost in an endless st"
-          },
-          {
-            "title": "Edinburgh Fringe - Rachel Creeger: Ultimate Jewish Mother 2026 ★★★★★",
-            "link": "https://shkspr.mobi/blog/2026/08/edinburgh-fringe-rachel-creeger-ultimate-jewish-mother-2026/",
-            "date": "2026-08-10T13:56:32+00:00",
-            "summary": "My mum&#039;s friend Rachel has a one-woman show on at the Fringe. As, apparently, the only orthodox Jew on the UK comedy circuit she has constructed a fully interactive Jewish Mother experience. Like several shows on the fringe, it relies on the audience writing questions on cards and the comedian "
-          }
-        ]
+        "status": "error",
+        "error": "HTTP 415",
+        "items": []
       },
       {
         "id": "lcamtuf",
@@ -1219,7 +1220,7 @@
         "home": "https://mitchellh.com/",
         "url": "https://mitchellh.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-12T13:10:49.815863+00:00",
+        "fetchedAt": "2026-08-12T14:57:15.133582+00:00",
         "items": [
           {
             "title": "Superlogical",
@@ -1290,7 +1291,7 @@
         "home": "https://dynomight.net/",
         "url": "https://dynomight.net/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-12T13:10:50.259949+00:00",
+        "fetchedAt": "2026-08-12T14:57:15.401119+00:00",
         "items": [
           {
             "title": "Thoughts I had while reading your comment",
@@ -1361,7 +1362,7 @@
         "home": "https://xeiaso.net/",
         "url": "https://xeiaso.net/blog.rss",
         "status": "ok",
-        "fetchedAt": "2026-08-12T13:10:50.533190+00:00",
+        "fetchedAt": "2026-08-12T14:57:15.569360+00:00",
         "items": [
           {
             "title": "Extending immutability: deletion without losing data",
@@ -1432,7 +1433,7 @@
         "home": "https://devblogs.microsoft.com/oldnewthing/",
         "url": "https://devblogs.microsoft.com/oldnewthing/feed",
         "status": "ok",
-        "fetchedAt": "2026-08-12T13:10:50.194681+00:00",
+        "fetchedAt": "2026-08-12T14:57:15.103305+00:00",
         "items": [
           {
             "title": "The little-known winstart.bat batch file",
@@ -1502,8 +1503,8 @@
         "title": "Ken Shirriff",
         "home": "https://www.righto.com/",
         "url": "https://www.righto.com/feeds/posts/default",
-        "status": "ok",
-        "fetchedAt": "2026-08-12T13:10:50.237846+00:00",
+        "status": "error",
+        "error": "HTTP 429",
         "items": []
       },
       {
@@ -1513,7 +1514,7 @@
         "home": "https://lucumr.pocoo.org/",
         "url": "https://lucumr.pocoo.org/feed.atom",
         "status": "ok",
-        "fetchedAt": "2026-08-12T13:10:50.158342+00:00",
+        "fetchedAt": "2026-08-12T14:57:15.222719+00:00",
         "items": [
           {
             "title": "Codeberg Divides",
@@ -1584,7 +1585,7 @@
         "home": "https://skyfall.dev/",
         "url": "https://skyfall.dev/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-12T13:10:50.196413+00:00",
+        "fetchedAt": "2026-08-12T14:57:15.171129+00:00",
         "items": [
           {
             "title": "Good riddance, 4o",
@@ -1659,7 +1660,7 @@
         "home": "https://overreacted.io/",
         "url": "https://overreacted.io/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-12T13:10:50.037342+00:00",
+        "fetchedAt": "2026-08-12T14:57:15.216075+00:00",
         "items": [
           {
             "title": "There Are No Instances in atproto",
@@ -1730,8 +1731,14 @@
         "home": "https://www.johndcook.com/",
         "url": "https://www.johndcook.com/blog/feed/",
         "status": "ok",
-        "fetchedAt": "2026-08-12T13:10:50.096562+00:00",
+        "fetchedAt": "2026-08-12T14:57:15.386328+00:00",
         "items": [
+          {
+            "title": "Cryptic but consistent",
+            "link": "https://www.johndcook.com/blog/2026/08/12/cryptic-but-consistent/",
+            "date": "2026-08-12T13:17:03+00:00",
+            "summary": "Suppose you&#8217;ve never worked at the command line and you&#8217;re reading a book about the bash shell. You read that !$ is a shortcut to refer to the last word of the previous command. That little fact will almost certainly not stick in your head for a couple reasons. First, you probably see no"
+          },
           {
             "title": "Dogs and fat tails",
             "link": "https://www.johndcook.com/blog/2026/08/11/dogs-and-fat-tails/",
@@ -1785,12 +1792,6 @@
             "link": "https://www.johndcook.com/blog/2026/08/07/cos200/",
             "date": "2026-08-07T13:19:07+00:00",
             "summary": "In a footnote to the previous post, I said that Python&#8217;s math library can calculate the logarithm of extremely large numbers but not the cosine. This post will expand on that comment. In this post I&#8217;ll use n = 200! as my example rather than 1000! because this value of N is larger than th"
-          },
-          {
-            "title": "Calculating log(1000!)",
-            "link": "https://www.johndcook.com/blog/2026/08/06/log1000/",
-            "date": "2026-08-06T13:23:43+00:00",
-            "summary": "The previous post pointed out that the following code such as the following unexpectedly works. &#62;&#62;&#62; from math import log, factorial &#62;&#62;&#62; log(factorial(1000)) 5912.128178488163 If you don&#8217;t find this unexpected, note that if you replace math.log with numpy.log the code wi"
           }
         ]
       },
@@ -1801,7 +1802,7 @@
         "home": "https://matklad.github.io/",
         "url": "https://matklad.github.io/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-12T13:10:50.137082+00:00",
+        "fetchedAt": "2026-08-12T14:57:15.381425+00:00",
         "items": [
           {
             "title": "Zig's Io.Threaded is Neat",
@@ -1872,7 +1873,7 @@
         "home": "https://eli.thegreenplace.net/",
         "url": "https://eli.thegreenplace.net/feeds/all.atom.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-12T13:10:50.351863+00:00",
+        "fetchedAt": "2026-08-12T14:57:15.066231+00:00",
         "items": [
           {
             "title": "Relative velocity and closing speed",
@@ -1913,7 +1914,7 @@
         "home": "https://fabiensanglard.net/",
         "url": "https://fabiensanglard.net/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-12T13:10:50.476193+00:00",
+        "fetchedAt": "2026-08-12T14:57:15.366511+00:00",
         "items": [
           {
             "title": "Jurassic Park computers in excruciating detail",
@@ -1984,7 +1985,7 @@
         "home": "https://blog.miguelgrinberg.com/",
         "url": "https://blog.miguelgrinberg.com/feed",
         "status": "ok",
-        "fetchedAt": "2026-08-12T13:10:50.959959+00:00",
+        "fetchedAt": "2026-08-12T14:57:16.032878+00:00",
         "items": [
           {
             "title": "I Am Not a Reverse Centaur",
@@ -2055,7 +2056,7 @@
         "home": "https://www.troyhunt.com/",
         "url": "https://www.troyhunt.com/rss/",
         "status": "ok",
-        "fetchedAt": "2026-08-12T13:10:50.184303+00:00",
+        "fetchedAt": "2026-08-12T14:57:15.034920+00:00",
         "items": [
           {
             "title": "Weekly Update 516: Live From Vietnam",
@@ -2126,7 +2127,7 @@
         "home": "https://anildash.com/",
         "url": "https://anildash.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-12T13:10:50.087073+00:00",
+        "fetchedAt": "2026-08-12T14:57:15.731407+00:00",
         "items": [
           {
             "title": "Defending Privacy, Daily",
@@ -2197,7 +2198,7 @@
         "home": "https://computer.rip/",
         "url": "https://computer.rip/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-12T13:10:50.426062+00:00",
+        "fetchedAt": "2026-08-12T14:57:15.719180+00:00",
         "items": [
           {
             "title": "telephones caught in between",
@@ -2278,7 +2279,7 @@
         "home": "http://paulgraham.com/",
         "url": "http://www.aaronsw.com/2002/feeds/pgessays.rss",
         "status": "ok",
-        "fetchedAt": "2026-08-12T13:10:50.306543+00:00",
+        "fetchedAt": "2026-08-12T14:57:20.691713+00:00",
         "items": [
           {
             "title": "Superlinear Returns",
@@ -2349,7 +2350,7 @@
         "home": "https://steveblank.com/",
         "url": "https://steveblank.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-08-12T13:10:50.001991+00:00",
+        "fetchedAt": "2026-08-12T14:57:15.298986+00:00",
         "items": [
           {
             "title": "Lean Launch Pad 2026 @ Stanford – Lessons Learned Presentations",
@@ -2422,12 +2423,30 @@
         "home": "https://news.ycombinator.com/",
         "url": "https://news.ycombinator.com/rss",
         "status": "ok",
-        "fetchedAt": "2026-08-12T13:10:49.855467+00:00",
+        "fetchedAt": "2026-08-12T14:57:15.720831+00:00",
         "items": [
           {
             "title": "2026 Eclipse Webcams",
             "link": "https://jonty.github.io/2026_eclipse_webcams/",
             "date": "2026-08-12T11:53:01+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "Obituary: AmigaDOS developer Dr. Tim King has passed away",
+            "link": "https://amiga-news.de/en/news/AN-2026-08-00070-EN.html",
+            "date": "2026-08-12T14:09:11+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "Why Tiny JPEGs Look Different in Chrome",
+            "link": "https://guillaumetech.github.io/posts/jpg-scaling-chrome/",
+            "date": "2026-08-12T14:00:54+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "Someone is running mass vulnerability scans, spoofing AI bots like ClaudeBot",
+            "link": "https://knownagents.com/insights",
+            "date": "2026-08-12T14:02:46+00:00",
             "summary": "Comments"
           },
           {
@@ -2437,51 +2456,33 @@
             "summary": "Comments"
           },
           {
+            "title": "Automatic1111 for Apple metal, 40% speed up sd1.5",
+            "link": "https://therad.ninja/from-8-10-seconds-to-3-7-teaching-automatic1111-to-speak-metal-on-an-m3-pro/",
+            "date": "2026-08-12T13:41:12+00:00",
+            "summary": "Comments"
+          },
+          {
             "title": "Show HN: Woxi - Open-source Mathematica / Wolfram Language reimplementation",
             "link": "https://woxi.ad-si.com",
             "date": "2026-08-12T10:06:29+00:00",
             "summary": "Comments"
           },
           {
-            "title": "LinkedIn CringeBot 3000",
-            "link": "https://www.cringebot3000.com/",
-            "date": "2026-08-12T06:30:49+00:00",
+            "title": "AI is removing the middle class of software engineering",
+            "link": "https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html",
+            "date": "2026-08-12T13:20:05+00:00",
             "summary": "Comments"
           },
           {
-            "title": "Delphi 13 Community Edition Is Now Available",
-            "link": "https://blogs.embarcadero.com/delphi-13-community-edition-is-now-available/",
-            "date": "2026-08-12T11:13:36+00:00",
+            "title": "License Plate Reader Searches Should Require a Warrant",
+            "link": "https://andrewpwheeler.com/2026/08/12/license-plate-reader-searches-should-require-a-warrant/",
+            "date": "2026-08-12T14:43:39+00:00",
             "summary": "Comments"
           },
           {
-            "title": "High-Res Photo Shows Sand-Capped Butte Rising from Mars Plain of Polygons",
-            "link": "https://petapixel.com/2026/08/04/amazing-high-res-photo-shows-a-butte-rising-from-mars/",
-            "date": "2026-08-06T10:29:50+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "Facebook is paying controversial creators to produce rage-bait content",
-            "link": "https://www.abc.net.au/news/2026-08-06/ragebait-how-facebook-is-paying-controversial-creators/106940696",
-            "date": "2026-08-12T09:35:30+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "Facebook ads are so hard to block that uBlock Origin stopped filtering them",
-            "link": "https://www.neowin.net/news/facebook-ads-are-so-hard-to-block-that-ublock-origin-stopped-filtering-them/",
-            "date": "2026-08-12T12:07:16+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "The hardest working font in Manhattan (2025)",
-            "link": "https://aresluna.org/the-hardest-working-font-in-manhattan/",
-            "date": "2026-08-06T20:22:29+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "Compression is prediction",
-            "link": "https://ngrok.com/blog/compression-is-prediction",
-            "date": "2026-08-11T19:49:44+00:00",
+            "title": "My Agent Setup",
+            "link": "https://chad.cm/posts/2026-8-11-my-agent-setup",
+            "date": "2026-08-12T13:56:05+00:00",
             "summary": "Comments"
           }
         ]
@@ -2493,67 +2494,67 @@
         "home": "https://www.techmeme.com/",
         "url": "https://www.techmeme.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-12T13:10:49.975361+00:00",
+        "fetchedAt": "2026-08-12T14:57:15.443853+00:00",
         "items": [
           {
-            "title": "Thrive Capital's Thrive Holdings, which acquires traditional service businesses and adds AI, raised $2B from SoftBank, D1, and others at a $12B valuation (Michael J. de la Merced/New York Times)",
-            "link": "https://www.techmeme.com/260812/p20#a260812p20",
-            "date": "2026-08-12T08:50:05-04:00",
-            "summary": "Michael J. de la Merced / New York Times: Thrive Capital's Thrive Holdings, which acquires traditional service businesses and adds AI, raised $2B from SoftBank, D1, and others at a $12B valuation&nbsp; &mdash;&nbsp; The company, Thrive Holdings, acquires businesses to infuse them with artificial int"
+            "title": "Google's Pixel 11 introduces Camera Looks, a total rethink of how the camera captures and styles an image, as users seek \"more authentic or traditional\" photos (David Imel/The Verge)",
+            "link": "https://www.techmeme.com/260812/p36#a260812p36",
+            "date": "2026-08-12T10:44:29-04:00",
+            "summary": "David Imel / The Verge: Google's Pixel 11 introduces Camera Looks, a total rethink of how the camera captures and styles an image, as users seek &ldquo;more authentic or traditional&rdquo; photos&nbsp; &mdash;&nbsp; If you look at a photo taken by a smartphone today, it's hard to find much that's te"
           },
           {
-            "title": "Amsterdam-based neocloud Nebius reports Q2 cloud revenue up 514% YoY to $575M and total revenue of $582M, above $557M est.; NBIS rises 15%+, and is up 131% YTD (Paula Doenecke/Bloomberg)",
-            "link": "https://www.techmeme.com/260812/p19#a260812p19",
-            "date": "2026-08-12T08:30:03-04:00",
-            "summary": "Paula Doenecke / Bloomberg: Amsterdam-based neocloud Nebius reports Q2 cloud revenue up 514% YoY to $575M and total revenue of $582M, above $557M est.; NBIS rises 15%+, and is up 131% YTD&nbsp; &mdash;&nbsp; Nebius Group NV reported a 514% jump in second-quarter sales for its cloud business followin"
+            "title": "Google DeepMind launches SL2T, a multilingual sign-language-to-text model debuting on the Pixel 11 in Gboard and Live Transcribe, first with ASL and English (Mike Wheatley/SiliconANGLE)",
+            "link": "https://www.techmeme.com/260812/p35#a260812p35",
+            "date": "2026-08-12T10:39:10-04:00",
+            "summary": "Mike Wheatley / SiliconANGLE: Google DeepMind launches SL2T, a multilingual sign-language-to-text model debuting on the Pixel 11 in Gboard and Live Transcribe, first with ASL and English&nbsp; &mdash;&nbsp; Google DeepMind said today it wants to bring the artificial intelligence revolution to the es"
           },
           {
-            "title": "Skan AI, which is building a \"context graph of work\" by observing staff using enterprise software, raised a $63M Series C co-led by Cathay Innovation and Dell (Michael Nuñez/VentureBeat)",
-            "link": "https://www.techmeme.com/260812/p18#a260812p18",
-            "date": "2026-08-12T08:00:41-04:00",
-            "summary": "Michael Nu&ntilde;ez / VentureBeat: Skan AI, which is building a &ldquo;context graph of work&rdquo; by observing staff using enterprise software, raised a $63M Series C co-led by Cathay Innovation and Dell&nbsp; &mdash;&nbsp; Skan AI, a startup that builds what it calls a &ldquo;context graph of wo"
+            "title": "Google says the Pixel 11 Pro and Pro XL are its most durable Pixel phones yet, using spacecraft-grade aluminum frames and a twice as scratch-resistant coating (Mariella Moon/Engadget)",
+            "link": "https://www.techmeme.com/260812/p34#a260812p34",
+            "date": "2026-08-12T10:39:10-04:00",
+            "summary": "Mariella Moon / Engadget: Google says the Pixel 11 Pro and Pro XL are its most durable Pixel phones yet, using spacecraft-grade aluminum frames and a twice as scratch-resistant coating&nbsp; &mdash;&nbsp; The Tensor G6 processor and handy new features are also on tap.&nbsp; &mdash;&nbsp; Google has "
           },
           {
-            "title": "A look at AI news website RuntimeWire, which costs $100/day to run and \"beat\" human reporters to OpenAI's Black Hat disclosure, favoring quantity over quality (Kate Knibbs/Wired)",
-            "link": "https://www.techmeme.com/260812/p17#a260812p17",
-            "date": "2026-08-12T07:45:02-04:00",
-            "summary": "Kate Knibbs / Wired: A look at AI news website RuntimeWire, which costs $100/day to run and &ldquo;beat&rdquo; human reporters to OpenAI's Black Hat disclosure, favoring quantity over quality&nbsp; &mdash;&nbsp; Last week, an AI newsroom beat mainstream journalists&mdash;including WIRED&mdash;to a s"
+            "title": "Google is introducing an insulin-resistance trend feature that uses AI, accelerometer, and other sensors, launching first on the Watch 5 and Fitbit devices (Samantha Kelly/Bloomberg)",
+            "link": "https://www.techmeme.com/260812/p33#a260812p33",
+            "date": "2026-08-12T10:30:01-04:00",
+            "summary": "Samantha Kelly / Bloomberg: Google is introducing an insulin-resistance trend feature that uses AI, accelerometer, and other sensors, launching first on the Watch 5 and Fitbit devices&nbsp; &mdash;&nbsp; Alphabet Inc.'s Google Inc. is bringing a new set of health features to its wearables, including"
           },
           {
-            "title": "African e-commerce company Jumia raised $50M, including $25M from the World Bank's IFC; Jumia's US-listed shares have fallen from $60+ in 2021 to $6 now (Loni Prinsloo/Bloomberg)",
-            "link": "https://www.techmeme.com/260812/p16#a260812p16",
-            "date": "2026-08-12T07:30:01-04:00",
-            "summary": "Loni Prinsloo / Bloomberg: African e-commerce company Jumia raised $50M, including $25M from the World Bank's IFC; Jumia's US-listed shares have fallen from $60+ in 2021 to $6 now&nbsp; &mdash;&nbsp; Jumia Technologies AG secured $50 million in fresh equity funding from its biggest shareholder and t"
+            "title": "Google is cutting the Google One AI Pro trial bundled with the Pixel 11 Pro and other handsets from 12 to six months and removes the free trial for the Pixel 11 (Damien Wilde/9to5Google)",
+            "link": "https://www.techmeme.com/260812/p32#a260812p32",
+            "date": "2026-08-12T10:30:01-04:00",
+            "summary": "Damien Wilde / 9to5Google: Google is cutting the Google One AI Pro trial bundled with the Pixel 11 Pro and other handsets from 12 to six months and removes the free trial for the Pixel 11&nbsp; &mdash;&nbsp; With the launch of the Pixel 9, Google offered fairly extensive 12-month free trials of the "
           },
           {
-            "title": "The NYC Council sent letters to Polymarket, Kalshi, Coinbase, and Gemini Titan to investigate alleged deceptive marketing practices and targeting minors (Wall Street Journal)",
-            "link": "https://www.techmeme.com/260812/p15#a260812p15",
-            "date": "2026-08-12T07:20:01-04:00",
-            "summary": "Wall Street Journal: The NYC Council sent letters to Polymarket, Kalshi, Coinbase, and Gemini Titan to investigate alleged deceptive marketing practices and targeting minors&nbsp; &mdash;&nbsp; Probe targets the marketing practices of four prediction markets with operations in the city&nbsp; &mdash;"
+            "title": "Google says Android's AirDrop-like Quick Share will now let some devices exchange files and contact info when tapped together, starting with Pixel 6 and newer (Jess Weatherbed/The Verge)",
+            "link": "https://www.techmeme.com/260812/p31#a260812p31",
+            "date": "2026-08-12T10:23:41-04:00",
+            "summary": "Jess Weatherbed / The Verge: Google says Android's AirDrop-like Quick Share will now let some devices exchange files and contact info when tapped together, starting with Pixel 6 and newer&nbsp; &mdash;&nbsp; &#65279;The Quick Share update makes it easier to share contact info and files between Pixel"
           },
           {
-            "title": "AI code-testing startup Blacksmith raised a $45M Series B led by Peak XV Partners at a $550M valuation, up from $60M after it raised a $10M Series A in 2025 (Jagmeet Singh/TechCrunch)",
-            "link": "https://www.techmeme.com/260812/p14#a260812p14",
-            "date": "2026-08-12T07:10:01-04:00",
-            "summary": "Jagmeet Singh / TechCrunch: AI code-testing startup Blacksmith raised a $45M Series B led by Peak XV Partners at a $550M valuation, up from $60M after it raised a $10M Series A in 2025&nbsp; &mdash;&nbsp; As AI makes coding dramatically faster, the next big challenge in software development is testi"
+            "title": "Google raises Pixel 11 prices by $100 and the Pixel Watch 5 by $50; the base Pixel 11 Pro and Pro XL come with 12GB of RAM, down from 16GB in the Pixel 9 and 10 (Kris Holt/Engadget)",
+            "link": "https://www.techmeme.com/260812/p30#a260812p30",
+            "date": "2026-08-12T10:23:41-04:00",
+            "summary": "Kris Holt / Engadget: Google raises Pixel 11 prices by $100 and the Pixel Watch 5 by $50; the base Pixel 11 Pro and Pro XL come with 12GB of RAM, down from 16GB in the Pixel 9 and 10&nbsp; &mdash;&nbsp; The Pixel 11 phones and Pixel Watch 5 are more expensive than last year's models.&nbsp; &mdash;&n"
           },
           {
-            "title": "Q&A with Redwood Research Chief Scientist Ryan Greenblatt on AI R&D, RSI, whether human expert data is bottlenecking progress, token prices, alignment, and more (Dwarkesh Patel/Dwarkesh Podcast)",
-            "link": "https://www.techmeme.com/260812/p13#a260812p13",
-            "date": "2026-08-12T06:50:00-04:00",
-            "summary": "Dwarkesh Patel / Dwarkesh Podcast: Q&amp;A with Redwood Research Chief Scientist Ryan Greenblatt on AI R&amp;D, RSI, whether human expert data is bottlenecking progress, token prices, alignment, and more&nbsp; &mdash;&nbsp; A debate about recursive self-improvement.&nbsp; &mdash;&nbsp; Had Ryan Gree"
+            "title": "Google says the Pixel Buds Pro 2 will get new features, including dynamic ANC and sleep sync, via a software update in September, and adds a new Olive color (Will Sattelberg/9to5Google)",
+            "link": "https://www.techmeme.com/260812/p29#a260812p29",
+            "date": "2026-08-12T10:20:01-04:00",
+            "summary": "Will Sattelberg / 9to5Google: Google says the Pixel Buds Pro 2 will get new features, including dynamic ANC and sleep sync, via a software update in September, and adds a new Olive color&nbsp; &mdash;&nbsp; It's been a couple of years since Google rolled out a new set of Pro-branded earbuds, and whi"
           },
           {
-            "title": "A look at the challenges facing incoming Google DeepMind head Koray Kavukcuoglu, who joined DeepMind in 2012 and will oversee Gemini and frontier AI research (Kai Nicol-Schwarz/CNBC)",
-            "link": "https://www.techmeme.com/260812/p12#a260812p12",
-            "date": "2026-08-12T06:30:00-04:00",
-            "summary": "Kai Nicol-Schwarz / CNBC: A look at the challenges facing incoming Google DeepMind head Koray Kavukcuoglu, who joined DeepMind in 2012 and will oversee Gemini and frontier AI research&nbsp; &mdash;&nbsp; DeepMind's new boss is set to face intense pressure to close the AI performance gap with OpenAI "
+            "title": "Google Pixel 11 series hands-on: few design changes, a HiLight status light on the rear camera bar, new colors, and small camera and performance improvements (The Shortcut)",
+            "link": "https://www.techmeme.com/260812/p27#a260812p27",
+            "date": "2026-08-12T10:18:31-04:00",
+            "summary": "The Shortcut: Google Pixel 11 series hands-on: few design changes, a HiLight status light on the rear camera bar, new colors, and small camera and performance improvements&nbsp; &mdash;&nbsp; Hands-on with all four new Pixel phones, plus the Pixel Watch 5&nbsp; &mdash;&nbsp; &#128293; The Shortcut h"
           },
           {
-            "title": "Former Alibaba star researcher Junyang Lin launches Shanghai-based Pragmatik Labs to build digital and physical AI agents; Pragmatik hit a $2B valuation in June (Juro Osawa/The Information)",
-            "link": "https://www.techmeme.com/260812/p11#a260812p11",
-            "date": "2026-08-12T06:15:14-04:00",
-            "summary": "Juro Osawa / The Information: Former Alibaba star researcher Junyang Lin launches Shanghai-based Pragmatik Labs to build digital and physical AI agents; Pragmatik hit a $2B valuation in June&nbsp; &mdash;&nbsp; Former Alibaba star researcher Junyang Lin announced that he had started a new AI company"
+            "title": "Google Pixel 11 Pro Fold hands-on: a letdown after Samsung released the Galaxy Z Fold 8, with few design changes, and it feels like Google is coasting this time (Sam Rutherford/Engadget)",
+            "link": "https://www.techmeme.com/260812/p28#a260812p28",
+            "date": "2026-08-12T10:18:31-04:00",
+            "summary": "Sam Rutherford / Engadget: Google Pixel 11 Pro Fold hands-on: a letdown after Samsung released the Galaxy Z Fold 8, with few design changes, and it feels like Google is coasting this time&nbsp; &mdash;&nbsp; In a year when Samsung made two new flagship foldables, the latest Pixel Pro Fold feels like"
           }
         ]
       },
@@ -2564,8 +2565,44 @@
         "home": "https://techcrunch.com/",
         "url": "https://techcrunch.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-08-12T13:10:49.778495+00:00",
+        "fetchedAt": "2026-08-12T14:57:15.314462+00:00",
         "items": [
+          {
+            "title": "Everything announced at Made by Google ’26: Pixel 11, Pixel Watch 5, Pixel Tag, and tons of Gemini features",
+            "link": "https://techcrunch.com/2026/08/12/google-unveils-pixel-11-lineup-new-airtag-rival-and-gemini-features-at-made-by-google-2026/",
+            "date": "2026-08-12T14:20:33+00:00",
+            "summary": "From the Pixel 11 series and a brand new competitor to Apple’s AirTag, here are all the announcements from the Made by Google 2026 event."
+          },
+          {
+            "title": "Google’s Quick Share adds a tap-to-share mode",
+            "link": "https://techcrunch.com/2026/08/12/googles-quick-share-adds-a-tap-to-share-mode/",
+            "date": "2026-08-12T14:13:03+00:00",
+            "summary": "Google's Quick Share feature is getting a tap-to-share mode for quickly exchanging contacts, photos, videos, and more."
+          },
+          {
+            "title": "Google’s Pixel 11 lineup offer fewer hardware changes, but much more Gemini",
+            "link": "https://techcrunch.com/2026/08/12/pixel-11-has-few-hardware-changes-and-more-gemini/",
+            "date": "2026-08-12T14:00:00+00:00",
+            "summary": "Google Pixel 11 Series starts $100 costlier than the last year, but offers 256GB base storage"
+          },
+          {
+            "title": "Google unveils the Pixel Watch 5 with a smarter Gemini and advanced health monitoring",
+            "link": "https://techcrunch.com/2026/08/12/google-unveils-the-pixel-watch-5-with-a-smarter-gemini-and-advanced-health-monitoring/",
+            "date": "2026-08-12T14:00:00+00:00",
+            "summary": "The new smartwatch, which starts at $399, can track blood pressure patterns and insulin resistance, as well as deliver personalized help and better sleep tracking."
+          },
+          {
+            "title": "Google takes on AirTag with the new $29 Pixel Tag",
+            "link": "https://techcrunch.com/2026/08/12/google-takes-on-airtag-with-the-new-29-pixel-tag/",
+            "date": "2026-08-12T14:00:00+00:00",
+            "summary": "Google’s new Pixel Tag taps into its Find Hub network to help users track lost keys, bags, and other items."
+          },
+          {
+            "title": "Google’s new Pixel 11 Pro Fold offers a stronger build and brighter screens",
+            "link": "https://techcrunch.com/2026/08/12/google-launches-the-pixel-11-pro-fold-with-a-stronger-build-and-brighter-screens/",
+            "date": "2026-08-12T14:00:00+00:00",
+            "summary": "The Pixel 11 Pro Fold will cost $1,899"
+          },
           {
             "title": "AI code-testing startup Blacksmith’s valuation jumps almost 10x in less than a year",
             "link": "https://techcrunch.com/2026/08/12/blacksmiths-valuation-jumps-10x-to-550m-as-ai-coding-fuels-software-validation/",
@@ -2589,42 +2626,6 @@
             "link": "https://techcrunch.com/2026/08/11/phoebe-gates-and-sophia-kianni-reportedly-knew-phia-was-cookie-stuffing-for-months/",
             "date": "2026-08-11T21:39:58+00:00",
             "summary": "Phia, the shopping startup co-founded by Phoebe Gates and Sophia Kianni, is once again under fire for its alleged business practices."
-          },
-          {
-            "title": "Accel closes oversubscribed $550M India fund within weeks, 19 months after its last",
-            "link": "https://techcrunch.com/2026/08/11/accel-closes-oversubscribed-550m-india-fund-within-weeks-19-months-after-its-last/",
-            "date": "2026-08-11T21:39:11+00:00",
-            "summary": "The U.S. VC firm still has more than 55% of its previous $650 million India fund available for deployment."
-          },
-          {
-            "title": "Uber surprised robotics company Serve by selling its entire stake",
-            "link": "https://techcrunch.com/2026/08/11/uber-surprised-robotics-company-serve-by-selling-its-entire-stake/",
-            "date": "2026-08-11T20:02:02+00:00",
-            "summary": "The divestiture comes as the two once-tight companies have started to diverge on the business side."
-          },
-          {
-            "title": "FBI says cybercriminals are hacking into victims’ online accounts to steal their intimate pictures",
-            "link": "https://techcrunch.com/2026/08/11/fbi-says-cybercriminals-are-hacking-into-victims-online-accounts-to-steal-their-intimate-pictures/",
-            "date": "2026-08-11T19:38:23+00:00",
-            "summary": "In a new alert, the FBI said cybercriminals are targeting adults and minors in an attempt to steal their personal and intimate pictures in extortion campaigns."
-          },
-          {
-            "title": "OpenAI launches ChatGPT desktop app for Linux",
-            "link": "https://techcrunch.com/2026/08/11/openai-launches-chatgpt-desktop-app-for-linux/",
-            "date": "2026-08-11T19:15:35+00:00",
-            "summary": "OpenAI is finally bringing a dedicated ChatGPT desktop app to Linux operating systems."
-          },
-          {
-            "title": "Google’s Gemini app surges to 1 billion users",
-            "link": "https://techcrunch.com/2026/08/11/googles-gemini-app-surges-to-one-billion-users/",
-            "date": "2026-08-11T18:49:12+00:00",
-            "summary": "Google also shared numbers of how people are actually using the chatbot, with 63% of Gemini users talking directly to the assistant using the voice feature. Plus, Gemini now generates more than 150 million images every day, according to Google."
-          },
-          {
-            "title": "Bluesky’s active user base is shrinking as its focus expands beyond the app",
-            "link": "https://techcrunch.com/2026/08/11/blueskys-active-user-base-is-shrinking-as-its-focus-expands-beyond-the-app/",
-            "date": "2026-08-11T17:46:14+00:00",
-            "summary": "Over a year following its post-election surge, Bluesky’s mobile app is seeing a continued decline in active users, though its remaining community is still relatively engaged."
           }
         ]
       },
@@ -2635,8 +2636,14 @@
         "home": "https://techcrunch.com/category/artificial-intelligence/",
         "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
         "status": "ok",
-        "fetchedAt": "2026-08-12T13:10:50.192798+00:00",
+        "fetchedAt": "2026-08-12T14:57:15.311703+00:00",
         "items": [
+          {
+            "title": "Everything announced at Made by Google ’26: Pixel 11, Pixel Watch 5, Pixel Tag, and tons of Gemini features",
+            "link": "https://techcrunch.com/2026/08/12/google-unveils-pixel-11-lineup-new-airtag-rival-and-gemini-features-at-made-by-google-2026/",
+            "date": "2026-08-12T14:20:33+00:00",
+            "summary": "From the Pixel 11 series and a brand new competitor to Apple’s AirTag, here are all the announcements from the Made by Google 2026 event."
+          },
           {
             "title": "AI code-testing startup Blacksmith’s valuation jumps almost 10x in less than a year",
             "link": "https://techcrunch.com/2026/08/12/blacksmiths-valuation-jumps-10x-to-550m-as-ai-coding-fuels-software-validation/",
@@ -2690,12 +2697,6 @@
             "link": "https://techcrunch.com/2026/08/11/anthropic-says-it-will-watermark-text-generated-by-its-ai-models/",
             "date": "2026-08-11T12:13:47+00:00",
             "summary": "Anthropic will extend support for watermarking AI generations for older models as well."
-          },
-          {
-            "title": "OpenAI reportedly completed a $7 billion employee tender offer",
-            "link": "https://techcrunch.com/2026/08/10/openai-reportedly-completed-a-7-billion-employee-tender-offer/",
-            "date": "2026-08-11T00:03:18+00:00",
-            "summary": "San Francisco's housing market is in trouble again."
           }
         ]
       },
@@ -2706,7 +2707,7 @@
         "home": "https://techcrunch.com/tag/funding/",
         "url": "https://techcrunch.com/tag/funding/feed/",
         "status": "ok",
-        "fetchedAt": "2026-08-12T13:10:50.221989+00:00",
+        "fetchedAt": "2026-08-12T14:57:15.319232+00:00",
         "items": [
           {
             "title": "AI chip maker SambaNova raises $1B at $11B valuation, 5 months after last mega round",
@@ -2777,7 +2778,7 @@
         "home": "https://venturebeat.com/",
         "url": "https://venturebeat.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-08-12T13:10:50.181338+00:00",
+        "fetchedAt": "2026-08-12T14:57:15.080333+00:00",
         "items": [
           {
             "title": "Skan AI raises $63 million betting that watching how employees actually work is the missing layer of enterprise AI",
@@ -2830,7 +2831,7 @@
         "home": "https://venturebeat.com/category/ai/",
         "url": "https://venturebeat.com/category/ai/feed/",
         "status": "ok",
-        "fetchedAt": "2026-08-12T13:10:50.245382+00:00",
+        "fetchedAt": "2026-08-12T14:57:15.328753+00:00",
         "items": [
           {
             "title": "Google just redesigned the search box for the first time in 25 years — here’s why it matters more than you think.",
@@ -2885,7 +2886,7 @@
         "home": "https://www.ruanyifeng.com/blog/",
         "url": "https://www.ruanyifeng.com/blog/atom.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-12T13:10:49.990429+00:00",
+        "fetchedAt": "2026-08-12T14:57:15.638429+00:00",
         "items": [
           {
             "title": "科技爱好者周刊（第 407 期）：国家为什么需要开源软件？",
@@ -2914,7 +2915,7 @@
         "home": "https://www.bestblogs.dev/",
         "url": "https://www.bestblogs.dev/zh/feeds/rss?category=ai&minScore=90",
         "status": "ok",
-        "fetchedAt": "2026-08-12T13:10:50.957439+00:00",
+        "fetchedAt": "2026-08-12T14:57:15.637206+00:00",
         "items": [
           {
             "title": "「说 Harness 会被淘汰的，肯定没做过工程」，Kimi 前 CLI 负责人戳破了 AI 圈最大的误解",
@@ -2982,14 +2983,184 @@
   },
   "allItems": [
     {
-      "title": "Facebook ads are so hard to block that uBlock Origin stopped filtering them",
-      "link": "https://www.neowin.net/news/facebook-ads-are-so-hard-to-block-that-ublock-origin-stopped-filtering-them/",
-      "date": "2026-08-12T12:07:16+00:00",
+      "title": "Reed Jobs Tells a Neuroscience Story",
+      "link": "https://x.com/sabrinahalper/status/2086964813788258588?s=46",
+      "date": "2026-08-12T14:48:04+00:00",
+      "summary": "Watch this. No words needed, everyone can feel it. Genes are a hell of a thing. &nbsp;★&nbsp;",
+      "feedId": "daringfireball",
+      "feedTitle": "Daring Fireball",
+      "category": "Tech Blogs",
+      "feedHome": "https://daringfireball.net/"
+    },
+    {
+      "title": "Nature Is Healing",
+      "link": "https://mastodon.social/@BasicAppleGuy/117073366339407186",
+      "date": "2026-08-12T14:44:42+00:00",
+      "summary": "Basic Apple Guy: Apple just dropped the hardest icon glow-up for the new Chess icon in macOS 27 Beta 5. This is not just a tweak or small improvement. This is the difference between total shit and a really nice icon. &nbsp;★&nbsp;",
+      "feedId": "daringfireball",
+      "feedTitle": "Daring Fireball",
+      "category": "Tech Blogs",
+      "feedHome": "https://daringfireball.net/"
+    },
+    {
+      "title": "License Plate Reader Searches Should Require a Warrant",
+      "link": "https://andrewpwheeler.com/2026/08/12/license-plate-reader-searches-should-require-a-warrant/",
+      "date": "2026-08-12T14:43:39+00:00",
       "summary": "Comments",
       "feedId": "hackernews",
       "feedTitle": "Hacker News",
       "category": "Startup & News",
       "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "Everything announced at Made by Google ’26: Pixel 11, Pixel Watch 5, Pixel Tag, and tons of Gemini features",
+      "link": "https://techcrunch.com/2026/08/12/google-unveils-pixel-11-lineup-new-airtag-rival-and-gemini-features-at-made-by-google-2026/",
+      "date": "2026-08-12T14:20:33+00:00",
+      "summary": "From the Pixel 11 series and a brand new competitor to Apple’s AirTag, here are all the announcements from the Made by Google 2026 event.",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "Everything announced at Made by Google ’26: Pixel 11, Pixel Watch 5, Pixel Tag, and tons of Gemini features",
+      "link": "https://techcrunch.com/2026/08/12/google-unveils-pixel-11-lineup-new-airtag-rival-and-gemini-features-at-made-by-google-2026/",
+      "date": "2026-08-12T14:20:33+00:00",
+      "summary": "From the Pixel 11 series and a brand new competitor to Apple’s AirTag, here are all the announcements from the Made by Google 2026 event.",
+      "feedId": "techcrunch-ai",
+      "feedTitle": "TechCrunch AI",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
+    },
+    {
+      "title": "Google’s Quick Share adds a tap-to-share mode",
+      "link": "https://techcrunch.com/2026/08/12/googles-quick-share-adds-a-tap-to-share-mode/",
+      "date": "2026-08-12T14:13:03+00:00",
+      "summary": "Google's Quick Share feature is getting a tap-to-share mode for quickly exchanging contacts, photos, videos, and more.",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "Obituary: AmigaDOS developer Dr. Tim King has passed away",
+      "link": "https://amiga-news.de/en/news/AN-2026-08-00070-EN.html",
+      "date": "2026-08-12T14:09:11+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "Someone is running mass vulnerability scans, spoofing AI bots like ClaudeBot",
+      "link": "https://knownagents.com/insights",
+      "date": "2026-08-12T14:02:46+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "Putting sign language AI into users’ hands",
+      "link": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
+      "date": "2026-08-12T14:01:59+00:00",
+      "summary": "Introducing sign-language-to-text (SL2T), our breakthrough model powering new sign language features for Deaf and hard of hearing users.",
+      "feedId": "deepmind",
+      "feedTitle": "DeepMind Blog",
+      "category": "AI & LLM",
+      "feedHome": "https://deepmind.google/blog/"
+    },
+    {
+      "title": "Why Tiny JPEGs Look Different in Chrome",
+      "link": "https://guillaumetech.github.io/posts/jpg-scaling-chrome/",
+      "date": "2026-08-12T14:00:54+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "Google’s Pixel 11 lineup offer fewer hardware changes, but much more Gemini",
+      "link": "https://techcrunch.com/2026/08/12/pixel-11-has-few-hardware-changes-and-more-gemini/",
+      "date": "2026-08-12T14:00:00+00:00",
+      "summary": "Google Pixel 11 Series starts $100 costlier than the last year, but offers 256GB base storage",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "Google unveils the Pixel Watch 5 with a smarter Gemini and advanced health monitoring",
+      "link": "https://techcrunch.com/2026/08/12/google-unveils-the-pixel-watch-5-with-a-smarter-gemini-and-advanced-health-monitoring/",
+      "date": "2026-08-12T14:00:00+00:00",
+      "summary": "The new smartwatch, which starts at $399, can track blood pressure patterns and insulin resistance, as well as deliver personalized help and better sleep tracking.",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "Google takes on AirTag with the new $29 Pixel Tag",
+      "link": "https://techcrunch.com/2026/08/12/google-takes-on-airtag-with-the-new-29-pixel-tag/",
+      "date": "2026-08-12T14:00:00+00:00",
+      "summary": "Google’s new Pixel Tag taps into its Find Hub network to help users track lost keys, bags, and other items.",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "Google’s new Pixel 11 Pro Fold offers a stronger build and brighter screens",
+      "link": "https://techcrunch.com/2026/08/12/google-launches-the-pixel-11-pro-fold-with-a-stronger-build-and-brighter-screens/",
+      "date": "2026-08-12T14:00:00+00:00",
+      "summary": "The Pixel 11 Pro Fold will cost $1,899",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "My Agent Setup",
+      "link": "https://chad.cm/posts/2026-8-11-my-agent-setup",
+      "date": "2026-08-12T13:56:05+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "Automatic1111 for Apple metal, 40% speed up sd1.5",
+      "link": "https://therad.ninja/from-8-10-seconds-to-3-7-teaching-automatic1111-to-speak-metal-on-an-m3-pro/",
+      "date": "2026-08-12T13:41:12+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "AI is removing the middle class of software engineering",
+      "link": "https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html",
+      "date": "2026-08-12T13:20:05+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "Cryptic but consistent",
+      "link": "https://www.johndcook.com/blog/2026/08/12/cryptic-but-consistent/",
+      "date": "2026-08-12T13:17:03+00:00",
+      "summary": "Suppose you&#8217;ve never worked at the command line and you&#8217;re reading a book about the bash shell. You read that !$ is a shortcut to refer to the last word of the previous command. That little fact will almost certainly not stick in your head for a couple reasons. First, you probably see no",
+      "feedId": "johndcook",
+      "feedTitle": "John D. Cook",
+      "category": "Tech Blogs",
+      "feedHome": "https://www.johndcook.com/"
     },
     {
       "title": "Where Did the Productivity Gains Go?",
@@ -3005,16 +3176,6 @@
       "title": "2026 Eclipse Webcams",
       "link": "https://jonty.github.io/2026_eclipse_webcams/",
       "date": "2026-08-12T11:53:01+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
-      "title": "Delphi 13 Community Edition Is Now Available",
-      "link": "https://blogs.embarcadero.com/delphi-13-community-edition-is-now-available/",
-      "date": "2026-08-12T11:13:36+00:00",
       "summary": "Comments",
       "feedId": "hackernews",
       "feedTitle": "Hacker News",
@@ -3052,6 +3213,106 @@
       "feedHome": "https://venturebeat.com/"
     },
     {
+      "title": "Google's Pixel 11 introduces Camera Looks, a total rethink of how the camera captures and styles an image, as users seek \"more authentic or traditional\" photos (David Imel/The Verge)",
+      "link": "https://www.techmeme.com/260812/p36#a260812p36",
+      "date": "2026-08-12T10:44:29-04:00",
+      "summary": "David Imel / The Verge: Google's Pixel 11 introduces Camera Looks, a total rethink of how the camera captures and styles an image, as users seek &ldquo;more authentic or traditional&rdquo; photos&nbsp; &mdash;&nbsp; If you look at a photo taken by a smartphone today, it's hard to find much that's te",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
+      "title": "Google DeepMind launches SL2T, a multilingual sign-language-to-text model debuting on the Pixel 11 in Gboard and Live Transcribe, first with ASL and English (Mike Wheatley/SiliconANGLE)",
+      "link": "https://www.techmeme.com/260812/p35#a260812p35",
+      "date": "2026-08-12T10:39:10-04:00",
+      "summary": "Mike Wheatley / SiliconANGLE: Google DeepMind launches SL2T, a multilingual sign-language-to-text model debuting on the Pixel 11 in Gboard and Live Transcribe, first with ASL and English&nbsp; &mdash;&nbsp; Google DeepMind said today it wants to bring the artificial intelligence revolution to the es",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
+      "title": "Google says the Pixel 11 Pro and Pro XL are its most durable Pixel phones yet, using spacecraft-grade aluminum frames and a twice as scratch-resistant coating (Mariella Moon/Engadget)",
+      "link": "https://www.techmeme.com/260812/p34#a260812p34",
+      "date": "2026-08-12T10:39:10-04:00",
+      "summary": "Mariella Moon / Engadget: Google says the Pixel 11 Pro and Pro XL are its most durable Pixel phones yet, using spacecraft-grade aluminum frames and a twice as scratch-resistant coating&nbsp; &mdash;&nbsp; The Tensor G6 processor and handy new features are also on tap.&nbsp; &mdash;&nbsp; Google has ",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
+      "title": "Google is introducing an insulin-resistance trend feature that uses AI, accelerometer, and other sensors, launching first on the Watch 5 and Fitbit devices (Samantha Kelly/Bloomberg)",
+      "link": "https://www.techmeme.com/260812/p33#a260812p33",
+      "date": "2026-08-12T10:30:01-04:00",
+      "summary": "Samantha Kelly / Bloomberg: Google is introducing an insulin-resistance trend feature that uses AI, accelerometer, and other sensors, launching first on the Watch 5 and Fitbit devices&nbsp; &mdash;&nbsp; Alphabet Inc.'s Google Inc. is bringing a new set of health features to its wearables, including",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
+      "title": "Google is cutting the Google One AI Pro trial bundled with the Pixel 11 Pro and other handsets from 12 to six months and removes the free trial for the Pixel 11 (Damien Wilde/9to5Google)",
+      "link": "https://www.techmeme.com/260812/p32#a260812p32",
+      "date": "2026-08-12T10:30:01-04:00",
+      "summary": "Damien Wilde / 9to5Google: Google is cutting the Google One AI Pro trial bundled with the Pixel 11 Pro and other handsets from 12 to six months and removes the free trial for the Pixel 11&nbsp; &mdash;&nbsp; With the launch of the Pixel 9, Google offered fairly extensive 12-month free trials of the ",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
+      "title": "Google says Android's AirDrop-like Quick Share will now let some devices exchange files and contact info when tapped together, starting with Pixel 6 and newer (Jess Weatherbed/The Verge)",
+      "link": "https://www.techmeme.com/260812/p31#a260812p31",
+      "date": "2026-08-12T10:23:41-04:00",
+      "summary": "Jess Weatherbed / The Verge: Google says Android's AirDrop-like Quick Share will now let some devices exchange files and contact info when tapped together, starting with Pixel 6 and newer&nbsp; &mdash;&nbsp; &#65279;The Quick Share update makes it easier to share contact info and files between Pixel",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
+      "title": "Google raises Pixel 11 prices by $100 and the Pixel Watch 5 by $50; the base Pixel 11 Pro and Pro XL come with 12GB of RAM, down from 16GB in the Pixel 9 and 10 (Kris Holt/Engadget)",
+      "link": "https://www.techmeme.com/260812/p30#a260812p30",
+      "date": "2026-08-12T10:23:41-04:00",
+      "summary": "Kris Holt / Engadget: Google raises Pixel 11 prices by $100 and the Pixel Watch 5 by $50; the base Pixel 11 Pro and Pro XL come with 12GB of RAM, down from 16GB in the Pixel 9 and 10&nbsp; &mdash;&nbsp; The Pixel 11 phones and Pixel Watch 5 are more expensive than last year's models.&nbsp; &mdash;&n",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
+      "title": "Google says the Pixel Buds Pro 2 will get new features, including dynamic ANC and sleep sync, via a software update in September, and adds a new Olive color (Will Sattelberg/9to5Google)",
+      "link": "https://www.techmeme.com/260812/p29#a260812p29",
+      "date": "2026-08-12T10:20:01-04:00",
+      "summary": "Will Sattelberg / 9to5Google: Google says the Pixel Buds Pro 2 will get new features, including dynamic ANC and sleep sync, via a software update in September, and adds a new Olive color&nbsp; &mdash;&nbsp; It's been a couple of years since Google rolled out a new set of Pro-branded earbuds, and whi",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
+      "title": "Google Pixel 11 series hands-on: few design changes, a HiLight status light on the rear camera bar, new colors, and small camera and performance improvements (The Shortcut)",
+      "link": "https://www.techmeme.com/260812/p27#a260812p27",
+      "date": "2026-08-12T10:18:31-04:00",
+      "summary": "The Shortcut: Google Pixel 11 series hands-on: few design changes, a HiLight status light on the rear camera bar, new colors, and small camera and performance improvements&nbsp; &mdash;&nbsp; Hands-on with all four new Pixel phones, plus the Pixel Watch 5&nbsp; &mdash;&nbsp; &#128293; The Shortcut h",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
+      "title": "Google Pixel 11 Pro Fold hands-on: a letdown after Samsung released the Galaxy Z Fold 8, with few design changes, and it feels like Google is coasting this time (Sam Rutherford/Engadget)",
+      "link": "https://www.techmeme.com/260812/p28#a260812p28",
+      "date": "2026-08-12T10:18:31-04:00",
+      "summary": "Sam Rutherford / Engadget: Google Pixel 11 Pro Fold hands-on: a letdown after Samsung released the Galaxy Z Fold 8, with few design changes, and it feels like Google is coasting this time&nbsp; &mdash;&nbsp; In a year when Samsung made two new flagship foldables, the latest Pixel Pro Fold feels like",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
       "title": "Show HN: Woxi - Open-source Mathematica / Wolfram Language reimplementation",
       "link": "https://woxi.ad-si.com",
       "date": "2026-08-12T10:06:29+00:00",
@@ -3082,16 +3343,6 @@
       "feedHome": "https://techcrunch.com/"
     },
     {
-      "title": "Facebook is paying controversial creators to produce rage-bait content",
-      "link": "https://www.abc.net.au/news/2026-08-06/ragebait-how-facebook-is-paying-controversial-creators/106940696",
-      "date": "2026-08-12T09:35:30+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
       "title": "Pluralistic: Model collapse (12 Aug 2026)",
       "link": "https://pluralistic.net/2026/08/12/insurance-value-of-biodiversity/",
       "date": "2026-08-12T08:55:27+00:00",
@@ -3100,26 +3351,6 @@
       "feedTitle": "Pluralistic",
       "category": "Tech Blogs",
       "feedHome": "https://pluralistic.net/"
-    },
-    {
-      "title": "Thrive Capital's Thrive Holdings, which acquires traditional service businesses and adds AI, raised $2B from SoftBank, D1, and others at a $12B valuation (Michael J. de la Merced/New York Times)",
-      "link": "https://www.techmeme.com/260812/p20#a260812p20",
-      "date": "2026-08-12T08:50:05-04:00",
-      "summary": "Michael J. de la Merced / New York Times: Thrive Capital's Thrive Holdings, which acquires traditional service businesses and adds AI, raised $2B from SoftBank, D1, and others at a $12B valuation&nbsp; &mdash;&nbsp; The company, Thrive Holdings, acquires businesses to infuse them with artificial int",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "Amsterdam-based neocloud Nebius reports Q2 cloud revenue up 514% YoY to $575M and total revenue of $582M, above $557M est.; NBIS rises 15%+, and is up 131% YTD (Paula Doenecke/Bloomberg)",
-      "link": "https://www.techmeme.com/260812/p19#a260812p19",
-      "date": "2026-08-12T08:30:03-04:00",
-      "summary": "Paula Doenecke / Bloomberg: Amsterdam-based neocloud Nebius reports Q2 cloud revenue up 514% YoY to $575M and total revenue of $582M, above $557M est.; NBIS rises 15%+, and is up 131% YTD&nbsp; &mdash;&nbsp; Nebius Group NV reported a 514% jump in second-quarter sales for its cloud business followin",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
     },
     {
       "title": "Weekly Update 516: Live From Vietnam",
@@ -3140,36 +3371,6 @@
       "feedTitle": "阮一峰的网络日志",
       "category": "中文",
       "feedHome": "https://www.ruanyifeng.com/blog/"
-    },
-    {
-      "title": "Skan AI, which is building a \"context graph of work\" by observing staff using enterprise software, raised a $63M Series C co-led by Cathay Innovation and Dell (Michael Nuñez/VentureBeat)",
-      "link": "https://www.techmeme.com/260812/p18#a260812p18",
-      "date": "2026-08-12T08:00:41-04:00",
-      "summary": "Michael Nu&ntilde;ez / VentureBeat: Skan AI, which is building a &ldquo;context graph of work&rdquo; by observing staff using enterprise software, raised a $63M Series C co-led by Cathay Innovation and Dell&nbsp; &mdash;&nbsp; Skan AI, a startup that builds what it calls a &ldquo;context graph of wo",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "A look at AI news website RuntimeWire, which costs $100/day to run and \"beat\" human reporters to OpenAI's Black Hat disclosure, favoring quantity over quality (Kate Knibbs/Wired)",
-      "link": "https://www.techmeme.com/260812/p17#a260812p17",
-      "date": "2026-08-12T07:45:02-04:00",
-      "summary": "Kate Knibbs / Wired: A look at AI news website RuntimeWire, which costs $100/day to run and &ldquo;beat&rdquo; human reporters to OpenAI's Black Hat disclosure, favoring quantity over quality&nbsp; &mdash;&nbsp; Last week, an AI newsroom beat mainstream journalists&mdash;including WIRED&mdash;to a s",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "African e-commerce company Jumia raised $50M, including $25M from the World Bank's IFC; Jumia's US-listed shares have fallen from $60+ in 2021 to $6 now (Loni Prinsloo/Bloomberg)",
-      "link": "https://www.techmeme.com/260812/p16#a260812p16",
-      "date": "2026-08-12T07:30:01-04:00",
-      "summary": "Loni Prinsloo / Bloomberg: African e-commerce company Jumia raised $50M, including $25M from the World Bank's IFC; Jumia's US-listed shares have fallen from $60+ in 2021 to $6 now&nbsp; &mdash;&nbsp; Jumia Technologies AG secured $50 million in fresh equity funding from its biggest shareholder and t",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
     },
     {
       "title": "Infrastructure and compute: Enterprises are buying AI compute for speed while flying blind on what it costs",
@@ -3220,66 +3421,6 @@
       "feedTitle": "VentureBeat",
       "category": "Startup & News",
       "feedHome": "https://venturebeat.com/"
-    },
-    {
-      "title": "The NYC Council sent letters to Polymarket, Kalshi, Coinbase, and Gemini Titan to investigate alleged deceptive marketing practices and targeting minors (Wall Street Journal)",
-      "link": "https://www.techmeme.com/260812/p15#a260812p15",
-      "date": "2026-08-12T07:20:01-04:00",
-      "summary": "Wall Street Journal: The NYC Council sent letters to Polymarket, Kalshi, Coinbase, and Gemini Titan to investigate alleged deceptive marketing practices and targeting minors&nbsp; &mdash;&nbsp; Probe targets the marketing practices of four prediction markets with operations in the city&nbsp; &mdash;",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "AI code-testing startup Blacksmith raised a $45M Series B led by Peak XV Partners at a $550M valuation, up from $60M after it raised a $10M Series A in 2025 (Jagmeet Singh/TechCrunch)",
-      "link": "https://www.techmeme.com/260812/p14#a260812p14",
-      "date": "2026-08-12T07:10:01-04:00",
-      "summary": "Jagmeet Singh / TechCrunch: AI code-testing startup Blacksmith raised a $45M Series B led by Peak XV Partners at a $550M valuation, up from $60M after it raised a $10M Series A in 2025&nbsp; &mdash;&nbsp; As AI makes coding dramatically faster, the next big challenge in software development is testi",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "Q&A with Redwood Research Chief Scientist Ryan Greenblatt on AI R&D, RSI, whether human expert data is bottlenecking progress, token prices, alignment, and more (Dwarkesh Patel/Dwarkesh Podcast)",
-      "link": "https://www.techmeme.com/260812/p13#a260812p13",
-      "date": "2026-08-12T06:50:00-04:00",
-      "summary": "Dwarkesh Patel / Dwarkesh Podcast: Q&amp;A with Redwood Research Chief Scientist Ryan Greenblatt on AI R&amp;D, RSI, whether human expert data is bottlenecking progress, token prices, alignment, and more&nbsp; &mdash;&nbsp; A debate about recursive self-improvement.&nbsp; &mdash;&nbsp; Had Ryan Gree",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "LinkedIn CringeBot 3000",
-      "link": "https://www.cringebot3000.com/",
-      "date": "2026-08-12T06:30:49+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
-      "title": "A look at the challenges facing incoming Google DeepMind head Koray Kavukcuoglu, who joined DeepMind in 2012 and will oversee Gemini and frontier AI research (Kai Nicol-Schwarz/CNBC)",
-      "link": "https://www.techmeme.com/260812/p12#a260812p12",
-      "date": "2026-08-12T06:30:00-04:00",
-      "summary": "Kai Nicol-Schwarz / CNBC: A look at the challenges facing incoming Google DeepMind head Koray Kavukcuoglu, who joined DeepMind in 2012 and will oversee Gemini and frontier AI research&nbsp; &mdash;&nbsp; DeepMind's new boss is set to face intense pressure to close the AI performance gap with OpenAI ",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "Former Alibaba star researcher Junyang Lin launches Shanghai-based Pragmatik Labs to build digital and physical AI agents; Pragmatik hit a $2B valuation in June (Juro Osawa/The Information)",
-      "link": "https://www.techmeme.com/260812/p11#a260812p11",
-      "date": "2026-08-12T06:15:14-04:00",
-      "summary": "Juro Osawa / The Information: Former Alibaba star researcher Junyang Lin launches Shanghai-based Pragmatik Labs to build digital and physical AI agents; Pragmatik hit a $2B valuation in June&nbsp; &mdash;&nbsp; Former Alibaba star researcher Junyang Lin announced that he had started a new AI company",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
     },
     {
       "title": "From assistance to execution: How enterprises put AI to work",
@@ -3552,30 +3693,10 @@
       "feedHome": "https://simonwillison.net/"
     },
     {
-      "title": "Edinburgh Fringe - Justina Seselskaite: Settled ★★★★☆",
-      "link": "https://shkspr.mobi/blog/2026/08/edinburgh-fringe-justina-seselskaite-settled/",
-      "date": "2026-08-11T22:23:14+00:00",
-      "summary": "Sometimes at the Edinburgh Fringe, you take a punt on a random show because it&#039;s close by and you can&#039;t be bothered walking any further. Justina Seselskaite&#039;s set was round the corner and started in 7 ½ minutes - so we scurried into one of the less glamorous rooms of The Hilton, sat a",
-      "feedId": "shkspr",
-      "feedTitle": "Terence Eden",
-      "category": "Tech Blogs",
-      "feedHome": "https://shkspr.mobi/blog/"
-    },
-    {
       "title": "Phoebe Gates and Sophia Kianni reportedly knew Phia was ‘cookie stuffing’ for months",
       "link": "https://techcrunch.com/2026/08/11/phoebe-gates-and-sophia-kianni-reportedly-knew-phia-was-cookie-stuffing-for-months/",
       "date": "2026-08-11T21:39:58+00:00",
       "summary": "Phia, the shopping startup co-founded by Phoebe Gates and Sophia Kianni, is once again under fire for its alleged business practices.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
-    },
-    {
-      "title": "Accel closes oversubscribed $550M India fund within weeks, 19 months after its last",
-      "link": "https://techcrunch.com/2026/08/11/accel-closes-oversubscribed-550m-india-fund-within-weeks-19-months-after-its-last/",
-      "date": "2026-08-11T21:39:11+00:00",
-      "summary": "The U.S. VC firm still has more than 55% of its previous $650 million India fund available for deployment.",
       "feedId": "techcrunch",
       "feedTitle": "TechCrunch",
       "category": "Startup & News",
@@ -3642,16 +3763,6 @@
       "feedHome": "https://simonwillison.net/"
     },
     {
-      "title": "Edinburgh Fringe: Handel Nine German Arias ★★★⯪☆",
-      "link": "https://shkspr.mobi/blog/2026/08/edinburgh-fringe-handel-nine-german-arias/",
-      "date": "2026-08-11T20:21:05+00:00",
-      "summary": "Part of going to The Fringe is to expose yourself to new ideas, different art forms, and a range of artworks. Not everything needs to be a &#34;zany&#34; comedy about AI or a loving pastiche of that 1990s disaster movie you love. So I found myself sat in a Unitarian Church listening to a harpsichord",
-      "feedId": "shkspr",
-      "feedTitle": "Terence Eden",
-      "category": "Tech Blogs",
-      "feedHome": "https://shkspr.mobi/blog/"
-    },
-    {
       "title": "Netflix Has Peaked",
       "link": "https://sharptext.net/2026/is-netflix-washed-now/",
       "date": "2026-08-11T20:17:15+00:00",
@@ -3660,16 +3771,6 @@
       "feedTitle": "Daring Fireball",
       "category": "Tech Blogs",
       "feedHome": "https://daringfireball.net/"
-    },
-    {
-      "title": "Uber surprised robotics company Serve by selling its entire stake",
-      "link": "https://techcrunch.com/2026/08/11/uber-surprised-robotics-company-serve-by-selling-its-entire-stake/",
-      "date": "2026-08-11T20:02:02+00:00",
-      "summary": "The divestiture comes as the two once-tight companies have started to diverge on the business side.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
     },
     {
       "title": "Alex Micek on BMW’s iDrive ‘Special Surprises’",
@@ -3682,26 +3783,6 @@
       "feedHome": "https://daringfireball.net/"
     },
     {
-      "title": "Compression is prediction",
-      "link": "https://ngrok.com/blog/compression-is-prediction",
-      "date": "2026-08-11T19:49:44+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
-      "title": "FBI says cybercriminals are hacking into victims’ online accounts to steal their intimate pictures",
-      "link": "https://techcrunch.com/2026/08/11/fbi-says-cybercriminals-are-hacking-into-victims-online-accounts-to-steal-their-intimate-pictures/",
-      "date": "2026-08-11T19:38:23+00:00",
-      "summary": "In a new alert, the FBI said cybercriminals are targeting adults and minors in an attempt to steal their personal and intimate pictures in extortion campaigns.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
-    },
-    {
       "title": "Mark Zuckerberg Posts 6,500-Word AI Essay",
       "link": "https://www.meta.com/thefutureisforeveryone/",
       "date": "2026-08-11T19:37:53+00:00",
@@ -3710,16 +3791,6 @@
       "feedTitle": "Daring Fireball",
       "category": "Tech Blogs",
       "feedHome": "https://daringfireball.net/"
-    },
-    {
-      "title": "OpenAI launches ChatGPT desktop app for Linux",
-      "link": "https://techcrunch.com/2026/08/11/openai-launches-chatgpt-desktop-app-for-linux/",
-      "date": "2026-08-11T19:15:35+00:00",
-      "summary": "OpenAI is finally bringing a dedicated ChatGPT desktop app to Linux operating systems.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
     },
     {
       "title": "OpenAI launches ChatGPT desktop app for Linux",
@@ -3746,40 +3817,10 @@
       "link": "https://techcrunch.com/2026/08/11/googles-gemini-app-surges-to-one-billion-users/",
       "date": "2026-08-11T18:49:12+00:00",
       "summary": "Google also shared numbers of how people are actually using the chatbot, with 63% of Gemini users talking directly to the assistant using the voice feature. Plus, Gemini now generates more than 150 million images every day, according to Google.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
-    },
-    {
-      "title": "Google’s Gemini app surges to 1 billion users",
-      "link": "https://techcrunch.com/2026/08/11/googles-gemini-app-surges-to-one-billion-users/",
-      "date": "2026-08-11T18:49:12+00:00",
-      "summary": "Google also shared numbers of how people are actually using the chatbot, with 63% of Gemini users talking directly to the assistant using the voice feature. Plus, Gemini now generates more than 150 million images every day, according to Google.",
       "feedId": "techcrunch-ai",
       "feedTitle": "TechCrunch AI",
       "category": "Startup & News",
       "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
-    },
-    {
-      "title": "Edinburgh Fringe: Hamlet The Musical ★★☆☆☆",
-      "link": "https://shkspr.mobi/blog/2026/08/edinburgh-fringe-hamlet-the-musical/",
-      "date": "2026-08-11T18:19:16+00:00",
-      "summary": "🎼&#34;Hamlet&#039;s Mum Has Got It Going On&#34;🎵 There you go, now you&#039;ve seen the show. That&#039;s about the height it reaches. Distil the tortured Prince of Denmark down to an hour and sprinkle in parody pop songs. It so nearly works. There are a few good chuckles and a smattering of clever",
-      "feedId": "shkspr",
-      "feedTitle": "Terence Eden",
-      "category": "Tech Blogs",
-      "feedHome": "https://shkspr.mobi/blog/"
-    },
-    {
-      "title": "Bluesky’s active user base is shrinking as its focus expands beyond the app",
-      "link": "https://techcrunch.com/2026/08/11/blueskys-active-user-base-is-shrinking-as-its-focus-expands-beyond-the-app/",
-      "date": "2026-08-11T17:46:14+00:00",
-      "summary": "Over a year following its post-election surge, Bluesky’s mobile app is seeing a continued decline in active users, though its remaining community is still relatively engaged.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
     },
     {
       "title": "Brad Lightcap, OpenAI’s longtime COO, is leaving to ‘start something new’",
@@ -3822,16 +3863,6 @@
       "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
     },
     {
-      "title": "Edinburgh Fringe: Afronauts ★★★★☆",
-      "link": "https://shkspr.mobi/blog/2026/08/edinburgh-fringe-afronauts/",
-      "date": "2026-08-11T16:17:12+00:00",
-      "summary": "Afrofuturism is a hot topic in the world of sci-fi. This is the circus version of &#34;For All Mankind&#34; where the Zambia Space Academy (a 100% real thing) attempt to land on the moon and win the space race. Told in an acrobatic style, naturally. It is delightful to see classic acrobatics find a ",
-      "feedId": "shkspr",
-      "feedTitle": "Terence Eden",
-      "category": "Tech Blogs",
-      "feedHome": "https://shkspr.mobi/blog/"
-    },
-    {
       "title": "Dogs and fat tails",
       "link": "https://www.johndcook.com/blog/2026/08/11/dogs-and-fat-tails/",
       "date": "2026-08-11T14:09:46+00:00",
@@ -3862,16 +3893,6 @@
       "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
     },
     {
-      "title": "Edinburgh Fringe: Noted ★★★⯪☆",
-      "link": "https://shkspr.mobi/blog/2026/08/edinburgh-fringe-noted/",
-      "date": "2026-08-11T12:45:28+00:00",
-      "summary": "It is a brave children&#039;s show which starts with the song &#34;I&#039;m a smooth muthafukker&#34;… This is sort of a live-action XKCD cartoon. A frenetic troupe of performers are decked with hand-drawn portraits and then… well, it is somewhere between a Sesame Street animation and the stick-figu",
-      "feedId": "shkspr",
-      "feedTitle": "Terence Eden",
-      "category": "Tech Blogs",
-      "feedHome": "https://shkspr.mobi/blog/"
-    },
-    {
       "title": "Anthropic says it will watermark text generated by its AI models",
       "link": "https://techcrunch.com/2026/08/11/anthropic-says-it-will-watermark-text-generated-by-its-ai-models/",
       "date": "2026-08-11T12:13:47+00:00",
@@ -3890,16 +3911,6 @@
       "feedTitle": "John D. Cook",
       "category": "Tech Blogs",
       "feedHome": "https://www.johndcook.com/"
-    },
-    {
-      "title": "Gadget Review: Soundpeats UU2 POP Clip2 Earphones ★★★★⯪",
-      "link": "https://shkspr.mobi/blog/2026/08/gadget-review-soundpeats-pop-clip2-earphones/",
-      "date": "2026-08-11T11:34:37+00:00",
-      "summary": "Last year, I reviewed a new type of Clip-On earphone - the Soundpeats Clip1 Cuff. I was a bit sceptical, but was won around by their comfort. The good folks at Soundpeats have sent me their new version to review. I had a few niggles with the Clip1 - so let&#039;s see how the UU2 Clip2 compare. Desig",
-      "feedId": "shkspr",
-      "feedTitle": "Terence Eden",
-      "category": "Tech Blogs",
-      "feedHome": "https://shkspr.mobi/blog/"
     },
     {
       "title": "Pluralistic: Surveillance vs guillotines (11 Aug 2026)",
@@ -3972,14 +3983,14 @@
       "feedHome": "https://www.bestblogs.dev/"
     },
     {
-      "title": "OpenAI reportedly completed a $7 billion employee tender offer",
-      "link": "https://techcrunch.com/2026/08/10/openai-reportedly-completed-a-7-billion-employee-tender-offer/",
-      "date": "2026-08-11T00:03:18+00:00",
-      "summary": "San Francisco's housing market is in trouble again.",
-      "feedId": "techcrunch-ai",
-      "feedTitle": "TechCrunch AI",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
+      "title": "No, local models will not win",
+      "link": "https://seangoedecke.com/local-models-will-not-win/",
+      "date": "2026-08-11T00:00:00+00:00",
+      "summary": "",
+      "feedId": "seangoedecke",
+      "feedTitle": "Sean Goedecke",
+      "category": "Tech Blogs",
+      "feedHome": "https://www.seangoedecke.com/"
     },
     {
       "title": "Thoughts I had while reading your comment",
@@ -4022,36 +4033,6 @@
       "feedHome": "https://daringfireball.net/"
     },
     {
-      "title": "What’s New in iOS 27 Beta 5",
-      "link": "https://9to5mac.com/2026/08/10/heres-whats-new-with-ios-27-beta-5/",
-      "date": "2026-08-10T21:54:25+00:00",
-      "summary": "Zac Hall at 9to5Mac has a good rundown of new features and changes in beta 5. Some app icons got tweaks (the Siri app in particular looks much cooler now), and a bunch of the existing American and British Siri speaking voices now have the Pace and Expressivity adjustment sliders. Also interesting: t",
-      "feedId": "daringfireball",
-      "feedTitle": "Daring Fireball",
-      "category": "Tech Blogs",
-      "feedHome": "https://daringfireball.net/"
-    },
-    {
-      "title": "‘Friday Night Baseball’ Will Start Broadcasting Games Live, in Apple Immersive, on Vision Pro",
-      "link": "https://www.apple.com/newsroom/2026/08/apple-mlb-announce-september-friday-night-baseball-schedule/",
-      "date": "2026-08-10T20:48:12+00:00",
-      "summary": "Apple Newsroom: For the first time, baseball fans can take in all the action of “Friday Night Baseball” live in Apple Immersive on Apple Vision Pro, leveraging 3D video recorded in 8K with a 180-degree field of view. On August 28, viewers with Vision Pro will experience the iconic Red Sox vs. Yankee",
-      "feedId": "daringfireball",
-      "feedTitle": "Daring Fireball",
-      "category": "Tech Blogs",
-      "feedHome": "https://daringfireball.net/"
-    },
-    {
-      "title": "Edinburgh Fringe: 15 Minutes of Shame ★★★★⯪",
-      "link": "https://shkspr.mobi/blog/2026/08/edinburgh-fringe-15-minutes-of-shame/",
-      "date": "2026-08-10T20:43:10+00:00",
-      "summary": "Sex work is work, so we&#039;re told. There&#039;s no difference between picking up a night job stacking shelves and a night job jacking-off on screen. Right? Perhaps a couple need a little bit of extra cash and the siren song of OnlyFans is right there. Let&#039;s fire up the webcam and release our",
-      "feedId": "shkspr",
-      "feedTitle": "Terence Eden",
-      "category": "Tech Blogs",
-      "feedHome": "https://shkspr.mobi/blog/"
-    },
-    {
       "title": "Claude 在黎曼猜想相关问题上取得重大数学突破",
       "link": "https://www.bestblogs.dev/status/2086902418139128225?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
       "date": "2026-08-10T19:48:03+00:00",
@@ -4062,16 +4043,6 @@
       "feedHome": "https://www.bestblogs.dev/"
     },
     {
-      "title": "Edinburgh Fringe - Kat Ronson: Millennial Girl ★★★★☆",
-      "link": "https://shkspr.mobi/blog/2026/08/edinburgh-fringe-kat-ronson-millennial-girl/",
-      "date": "2026-08-10T17:45:36+00:00",
-      "summary": "OMG! If you remember A/S/Ling your way through MSN to fill in your MySpace top 8, then you&#039;ll love this show. You&#039;re also over 30 and, therefore, old. Ew. The stage is littered with a Nokia 3310, Bliss Magazine, and Charlie Red. Katie (15/F/UK) talks us through the complexities of her nasc",
-      "feedId": "shkspr",
-      "feedTitle": "Terence Eden",
-      "category": "Tech Blogs",
-      "feedHome": "https://shkspr.mobi/blog/"
-    },
-    {
       "title": "What building an AI-native finance function taught me",
       "link": "https://openai.com/index/building-an-ai-native-finance-function",
       "date": "2026-08-10T17:00:00+00:00",
@@ -4080,16 +4051,6 @@
       "feedTitle": "OpenAI News",
       "category": "AI & LLM",
       "feedHome": "https://openai.com/news/"
-    },
-    {
-      "title": "Edinburgh Fringe - Michael Brunström: William Tell vs the Algorithm ★★★☆☆",
-      "link": "https://shkspr.mobi/blog/2026/08/edinburgh-fringe-michael-brunstrom-william-tell-vs-the-algorithm/",
-      "date": "2026-08-10T15:57:27+00:00",
-      "summary": "The terror of AI has come to comedy. There are a dozen shows this year about the threat that technology poses to the way we live, laugh, and love. In this case, AI stands for Austrian Imperialism and the fight is for Switzerland&#039;s independence. Well, sort of. It gets a bit lost in an endless st",
-      "feedId": "shkspr",
-      "feedTitle": "Terence Eden",
-      "category": "Tech Blogs",
-      "feedHome": "https://shkspr.mobi/blog/"
     },
     {
       "title": "15 人 14 天如何搓出戛纳 AI 电影？制作秘籍开源了",
@@ -4150,16 +4111,6 @@
       "feedTitle": "The Old New Thing",
       "category": "Tech Blogs",
       "feedHome": "https://devblogs.microsoft.com/oldnewthing/"
-    },
-    {
-      "title": "Edinburgh Fringe - Rachel Creeger: Ultimate Jewish Mother 2026 ★★★★★",
-      "link": "https://shkspr.mobi/blog/2026/08/edinburgh-fringe-rachel-creeger-ultimate-jewish-mother-2026/",
-      "date": "2026-08-10T13:56:32+00:00",
-      "summary": "My mum&#039;s friend Rachel has a one-woman show on at the Fringe. As, apparently, the only orthodox Jew on the UK comedy circuit she has constructed a fully interactive Jewish Mother experience. Like several shows on the fringe, it relies on the audience writing questions on cards and the comedian ",
-      "feedId": "shkspr",
-      "feedTitle": "Terence Eden",
-      "category": "Tech Blogs",
-      "feedHome": "https://shkspr.mobi/blog/"
     },
     {
       "title": "【Agentic RL / 强化学习 / OPD】Hermes & OPD 源码阅读笔记",
@@ -4262,6 +4213,16 @@
       "feedHome": "https://openai.com/news/"
     },
     {
+      "title": "Advanced AI sycophancy",
+      "link": "https://seangoedecke.com/advanced-ai-sycophancy/",
+      "date": "2026-08-10T00:00:00+00:00",
+      "summary": "",
+      "feedId": "seangoedecke",
+      "feedTitle": "Sean Goedecke",
+      "category": "Tech Blogs",
+      "feedHome": "https://www.seangoedecke.com/"
+    },
+    {
       "title": "Quoting Claude Opus 5 system prompt",
       "link": "https://simonwillison.net/2026/Aug/9/claude-opus-5-system-prompt/#atom-everything",
       "date": "2026-08-09T23:31:39+00:00",
@@ -4320,6 +4281,16 @@
       "feedTitle": "BestBlogs.dev AI 90+",
       "category": "中文",
       "feedHome": "https://www.bestblogs.dev/"
+    },
+    {
+      "title": "I got an email about resistance",
+      "link": "https://seangoedecke.com/i-got-an-email-about-resistance/",
+      "date": "2026-08-09T00:00:00+00:00",
+      "summary": "",
+      "feedId": "seangoedecke",
+      "feedTitle": "Sean Goedecke",
+      "category": "Tech Blogs",
+      "feedHome": "https://www.seangoedecke.com/"
     },
     {
       "title": "Auto mode is now the default in Claude Code for Pro, Max, and Team plans",
@@ -4422,14 +4393,14 @@
       "feedHome": "https://www.jeffgeerling.com/"
     },
     {
-      "title": "The hardest working font in Manhattan (2025)",
-      "link": "https://aresluna.org/the-hardest-working-font-in-manhattan/",
-      "date": "2026-08-06T20:22:29+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
+      "title": "How to keep thinking",
+      "link": "https://seangoedecke.com/how-to-keep-thinking/",
+      "date": "2026-08-07T00:00:00+00:00",
+      "summary": "",
+      "feedId": "seangoedecke",
+      "feedTitle": "Sean Goedecke",
+      "category": "Tech Blogs",
+      "feedHome": "https://www.seangoedecke.com/"
     },
     {
       "title": "Canadian Man Pleads Guilty in Snowflake Extortions",
@@ -4460,26 +4431,6 @@
       "feedTitle": "The Old New Thing",
       "category": "Tech Blogs",
       "feedHome": "https://devblogs.microsoft.com/oldnewthing/"
-    },
-    {
-      "title": "Calculating log(1000!)",
-      "link": "https://www.johndcook.com/blog/2026/08/06/log1000/",
-      "date": "2026-08-06T13:23:43+00:00",
-      "summary": "The previous post pointed out that the following code such as the following unexpectedly works. &#62;&#62;&#62; from math import log, factorial &#62;&#62;&#62; log(factorial(1000)) 5912.128178488163 If you don&#8217;t find this unexpected, note that if you replace math.log with numpy.log the code wi",
-      "feedId": "johndcook",
-      "feedTitle": "John D. Cook",
-      "category": "Tech Blogs",
-      "feedHome": "https://www.johndcook.com/"
-    },
-    {
-      "title": "High-Res Photo Shows Sand-Capped Butte Rising from Mars Plain of Polygons",
-      "link": "https://petapixel.com/2026/08/04/amazing-high-res-photo-shows-a-butte-rising-from-mars/",
-      "date": "2026-08-06T10:29:50+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
     },
     {
       "title": "Pluralistic: Eternal Sloptember (06 Aug 2026)",
@@ -4622,6 +4573,16 @@
       "feedHome": "https://www.troyhunt.com/"
     },
     {
+      "title": "Giving and taking credit in big tech companies",
+      "link": "https://seangoedecke.com/giving-and-taking-credit/",
+      "date": "2026-08-02T00:00:00+00:00",
+      "summary": "",
+      "feedId": "seangoedecke",
+      "feedTitle": "Sean Goedecke",
+      "category": "Tech Blogs",
+      "feedHome": "https://www.seangoedecke.com/"
+    },
+    {
       "title": "Indirect lessons from human alignment",
       "link": "https://dynomight.net/human-alignment/",
       "date": "2026-08-02T00:00:00+00:00",
@@ -4680,6 +4641,16 @@
       "feedTitle": "Jeff Geerling",
       "category": "Tech Blogs",
       "feedHome": "https://www.jeffgeerling.com/"
+    },
+    {
+      "title": "AI models need moral support to make discoveries",
+      "link": "https://seangoedecke.com/ai-models-need-moral-support/",
+      "date": "2026-07-31T00:00:00+00:00",
+      "summary": "",
+      "feedId": "seangoedecke",
+      "feedTitle": "Sean Goedecke",
+      "category": "Tech Blogs",
+      "feedHome": "https://www.seangoedecke.com/"
     },
     {
       "title": "BI Slop",
@@ -4762,6 +4733,16 @@
       "feedHome": "https://devblogs.microsoft.com/oldnewthing/"
     },
     {
+      "title": "You don't have to be smart if you can think clearly",
+      "link": "https://seangoedecke.com/you-dont-have-to-be-smart-if-you-think-clearly/",
+      "date": "2026-07-29T00:00:00+00:00",
+      "summary": "",
+      "feedId": "seangoedecke",
+      "feedTitle": "Sean Goedecke",
+      "category": "Tech Blogs",
+      "feedHome": "https://www.seangoedecke.com/"
+    },
+    {
       "title": "Superlogical",
       "link": "https://mitchellh.com/writing/superlogical",
       "date": "2026-07-29T00:00:00+00:00",
@@ -4842,6 +4823,16 @@
       "feedHome": "https://idiallo.com/"
     },
     {
+      "title": "LLMs reward expertise",
+      "link": "https://seangoedecke.com/llms-reward-expertise/",
+      "date": "2026-07-24T00:00:00+00:00",
+      "summary": "",
+      "feedId": "seangoedecke",
+      "feedTitle": "Sean Goedecke",
+      "category": "Tech Blogs",
+      "feedHome": "https://www.seangoedecke.com/"
+    },
+    {
       "title": "Index 01 Is In Mass Production!",
       "link": "https://repebble.com/blog/index-01-is-in-mass-production",
       "date": "2026-07-24T00:00:00+00:00",
@@ -4880,6 +4871,16 @@
       "feedTitle": "Max Woolf",
       "category": "AI & LLM",
       "feedHome": "https://minimaxir.com/"
+    },
+    {
+      "title": "Powerful AIs might escape containment by releasing themselves as open-weight models",
+      "link": "https://seangoedecke.com/powerful-ais-might-escape-by-releasing-open-weight-models/",
+      "date": "2026-07-23T00:00:00+00:00",
+      "summary": "",
+      "feedId": "seangoedecke",
+      "feedTitle": "Sean Goedecke",
+      "category": "Tech Blogs",
+      "feedHome": "https://www.seangoedecke.com/"
     },
     {
       "title": "SymptomAI: Towards a conversational AI agent for everyday symptom assessment",
@@ -5000,6 +5001,16 @@
       "feedTitle": "Matklad",
       "category": "Tech Blogs",
       "feedHome": "https://matklad.github.io/"
+    },
+    {
+      "title": "Impro is a handbook for running a cult",
+      "link": "https://seangoedecke.com/impro/",
+      "date": "2026-07-19T00:00:00+00:00",
+      "summary": "",
+      "feedId": "seangoedecke",
+      "feedTitle": "Sean Goedecke",
+      "category": "Tech Blogs",
+      "feedHome": "https://www.seangoedecke.com/"
     },
     {
       "title": "email encryption",
@@ -5340,16 +5351,6 @@
       "feedTitle": "Computer Rip",
       "category": "Tech Blogs",
       "feedHome": "https://computer.rip/"
-    },
-    {
-      "title": "Google DeepMind and A24 announce first-of-its-kind research partnership",
-      "link": "https://deepmind.google/blog/google-deepmind-and-a24-announce-first-of-its-kind-research-partnership/",
-      "date": "2026-07-03T14:25:43+00:00",
-      "summary": "",
-      "feedId": "deepmind",
-      "feedTitle": "DeepMind Blog",
-      "category": "AI & LLM",
-      "feedHome": "https://deepmind.google/blog/"
     },
     {
       "title": "Swimming Pools, Pee, and Trying to Delete Your Data From the Internet",
