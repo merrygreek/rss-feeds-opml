@@ -1,12 +1,13 @@
 {
-  "updatedAt": "2026-08-17T23:22:59.126484+00:00",
+  "updatedAt": "2026-08-18T01:15:34.851825+00:00",
   "totalFeeds": 51,
-  "successCount": 45,
-  "failedCount": 6,
+  "successCount": 44,
+  "failedCount": 7,
   "failed": [
     "gwern",
     "garymarcus",
     "thesequence",
+    "shkspr",
     "lcamtuf",
     "rachelbythebay",
     "tedunangst"
@@ -20,8 +21,14 @@
         "home": "https://simonwillison.net/",
         "url": "https://simonwillison.net/atom/everything/",
         "status": "ok",
-        "fetchedAt": "2026-08-17T23:22:48.807743+00:00",
+        "fetchedAt": "2026-08-18T01:15:24.983249+00:00",
         "items": [
+          {
+            "title": "Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index",
+            "link": "https://simonwillison.net/2026/Aug/17/qwen-38-27b-scores-52/",
+            "date": "2026-08-17T23:58:14+00:00",
+            "summary": "Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index That's the same score as GPT-5.6 Luna (max), and just one point behind GLM-5.2 (max) and DeepSeek V4 Pro 0813 (max) - that GLM is 753B and that DeepSeek is 1.6B parameters, and Luna is size unknown but presumably a whole lot bigger"
+          },
           {
             "title": "We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility",
             "link": "https://simonwillison.net/2026/Aug/17/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-tra/",
@@ -75,12 +82,6 @@
             "link": "https://simonwillison.net/2026/Aug/13/sqlite-utils/",
             "date": "2026-08-13T20:11:29+00:00",
             "summary": "Release: sqlite-utils 4.2 Lots of improvements in this one relating to the table.transform() feature, which adds support for complex alter table operations by creating a fresh table, copying across the data and then dropping and replacing the old one. transform() now preserves a much larger array of"
-          },
-          {
-            "title": "llm-gemini 0.33",
-            "link": "https://simonwillison.net/2026/Aug/13/llm-gemini/",
-            "date": "2026-08-13T19:37:34+00:00",
-            "summary": "Release: llm-gemini 0.33 It's been a while since the last llm-gemini release. This version of the plugin adds support for today's Gemini 3.7 Flash release, plus gemini-3.6-flash, gemini-3.5-flash-lite and two embedding models gemini-embedding-2 and gemini-embedding-001. The plugin is also upgraded f"
           }
         ]
       },
@@ -91,7 +92,7 @@
         "home": "https://openai.com/news/",
         "url": "https://openai.com/news/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-17T23:22:48.874688+00:00",
+        "fetchedAt": "2026-08-18T01:15:24.965546+00:00",
         "items": [
           {
             "title": "The Defender’s Window",
@@ -162,7 +163,7 @@
         "home": "https://arxiv.org/list/cs.AI/recent",
         "url": "https://arxiv.org/rss/cs.AI",
         "status": "ok",
-        "fetchedAt": "2026-08-17T23:22:49.033554+00:00",
+        "fetchedAt": "2026-08-18T01:15:25.229258+00:00",
         "items": [
           {
             "title": "Inducing Reward-Free Judging Rubrics that Reduce Over-Crediting in Agent Evaluation",
@@ -233,7 +234,7 @@
         "home": "https://arxiv.org/list/cs.LG/recent",
         "url": "https://arxiv.org/rss/cs.LG",
         "status": "ok",
-        "fetchedAt": "2026-08-17T23:22:48.995158+00:00",
+        "fetchedAt": "2026-08-18T01:15:25.262479+00:00",
         "items": [
           {
             "title": "L-FNO: Lorentzian Fourier Neural Operator for Stochastic Event Dynamics",
@@ -304,7 +305,7 @@
         "home": "https://research.google/blog/",
         "url": "https://research.google/blog/rss/",
         "status": "ok",
-        "fetchedAt": "2026-08-17T23:22:48.925931+00:00",
+        "fetchedAt": "2026-08-18T01:15:25.267217+00:00",
         "items": [
           {
             "title": "Seeing beyond BMI: Estimating cardiometabolic risk with smartphone imagery",
@@ -375,7 +376,7 @@
         "home": "https://deepmind.google/blog/",
         "url": "https://deepmind.google/blog/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-17T23:22:49.278484+00:00",
+        "fetchedAt": "2026-08-18T01:15:25.200849+00:00",
         "items": [
           {
             "title": "Introducing Gemini 3.7 Flash",
@@ -446,7 +447,7 @@
         "home": "https://lilianweng.github.io/",
         "url": "https://lilianweng.github.io/lil-log/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-17T23:22:48.884782+00:00",
+        "fetchedAt": "2026-08-18T01:15:24.873873+00:00",
         "items": [
           {
             "title": "Active Learning",
@@ -537,7 +538,7 @@
         "home": "https://minimaxir.com/",
         "url": "https://minimaxir.com/index.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-17T23:22:48.899208+00:00",
+        "fetchedAt": "2026-08-18T01:15:24.976524+00:00",
         "items": [
           {
             "title": "LLMs break down in funny ways when told the Jacobian Conjecture counterargument",
@@ -620,7 +621,7 @@
         "home": "https://www.jeffgeerling.com/",
         "url": "https://www.jeffgeerling.com/blog.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-17T23:22:48.773970+00:00",
+        "fetchedAt": "2026-08-18T01:15:25.046423+00:00",
         "items": [
           {
             "title": "I'm excited for Intel after testing the XPS 13",
@@ -691,7 +692,7 @@
         "home": "https://www.seangoedecke.com/",
         "url": "https://www.seangoedecke.com/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-17T23:22:49.004889+00:00",
+        "fetchedAt": "2026-08-18T01:15:25.176972+00:00",
         "items": [
           {
             "title": "AI text watermarking is not a big deal",
@@ -762,7 +763,7 @@
         "home": "https://krebsonsecurity.com/",
         "url": "https://krebsonsecurity.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-08-17T23:22:48.960051+00:00",
+        "fetchedAt": "2026-08-18T01:15:25.078187+00:00",
         "items": [
           {
             "title": "Who’s Tracking You? Use This New Service to Find Out",
@@ -833,8 +834,14 @@
         "home": "https://daringfireball.net/",
         "url": "https://daringfireball.net/feeds/main",
         "status": "ok",
-        "fetchedAt": "2026-08-17T23:22:48.892021+00:00",
+        "fetchedAt": "2026-08-18T01:15:25.136270+00:00",
         "items": [
+          {
+            "title": "★ Follow-Up Thoughts on Watermarking Schemes for AI-Generated Text",
+            "link": "https://daringfireball.net/2026/08/follow-up_thoughts_on_watermarking",
+            "date": "2026-08-18T00:55:13+00:00",
+            "summary": "I want the answers that I read to be cogent, lucid, accurate, blessedly terse — and ideally to strike a consistent tone that is pleasant to my reading ear. The genie is not going back in the bottle."
+          },
           {
             "title": "Apple TV Still Has No Start Date for ‘The Savant’",
             "link": "https://daringfireball.net/linked/2026/04/19/chastain-says-the-savant-will-be-released",
@@ -888,12 +895,6 @@
             "link": "https://daringfireball.net/2026/08/iphone_camera_lens_scratch_resistance",
             "date": "2026-08-16T03:02:24+00:00",
             "summary": "The exposed lens covers are made of sapphire, not glass, and are thus incredibly scratch resistant. And even if, somehow, do you pick up a scratch on a lens cover, it almost certainly won’t affect image quality at all."
-          },
-          {
-            "title": "Google’s ‘Material 3’ Design Write-Up Is 93.3 Percent Embarrassing",
-            "link": "https://design.google/library/expressive-material-design-google-research",
-            "date": "2026-08-14T17:40:41+00:00",
-            "summary": "This page from Google Design on their “Material 3” UI language came to my attention after my snarky post about the ungainly new to-do app they bizarrely bragged about on Twitter/X this week. I don’t think this “Material 3” page is new — I think it’s a few years old — but I’d never seen it before. Fi"
           }
         ]
       },
@@ -904,7 +905,7 @@
         "home": "https://ericmigi.com/",
         "url": "https://ericmigi.com/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-17T23:22:48.915802+00:00",
+        "fetchedAt": "2026-08-18T01:15:25.040880+00:00",
         "items": [
           {
             "title": "Index 01 Is In Mass Production!",
@@ -975,7 +976,7 @@
         "home": "http://antirez.com/",
         "url": "http://antirez.com/rss",
         "status": "ok",
-        "fetchedAt": "2026-08-17T23:22:51.402077+00:00",
+        "fetchedAt": "2026-08-18T01:15:26.935036+00:00",
         "items": [
           {
             "title": "The real AI risk is inside the labs",
@@ -1046,7 +1047,7 @@
         "home": "https://idiallo.com/",
         "url": "https://idiallo.com/feed.rss",
         "status": "ok",
-        "fetchedAt": "2026-08-17T23:22:49.203487+00:00",
+        "fetchedAt": "2026-08-18T01:15:25.127048+00:00",
         "items": [
           {
             "title": "Where Did the Productivity Gains Go?",
@@ -1117,7 +1118,7 @@
         "home": "https://maurycyz.com/",
         "url": "https://maurycyz.com/index.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-17T23:22:49.685562+00:00",
+        "fetchedAt": "2026-08-18T01:15:25.704978+00:00",
         "items": []
       },
       {
@@ -1127,7 +1128,7 @@
         "home": "https://pluralistic.net/",
         "url": "https://pluralistic.net/feed/",
         "status": "ok",
-        "fetchedAt": "2026-08-17T23:22:51.873661+00:00",
+        "fetchedAt": "2026-08-18T01:15:28.278385+00:00",
         "items": [
           {
             "title": "Pluralistic: Jennifer Jenkins' 'Music Copyright, Creativity, and Culture' (17 Aug 2026)",
@@ -1197,70 +1198,9 @@
         "title": "Terence Eden",
         "home": "https://shkspr.mobi/blog/",
         "url": "https://shkspr.mobi/blog/feed/",
-        "status": "ok",
-        "fetchedAt": "2026-08-17T23:22:50.228055+00:00",
-        "items": [
-          {
-            "title": "And then the men with guns tell you to do it anyway",
-            "link": "https://shkspr.mobi/blog/2026/08/and-then-the-men-with-guns-tell-you-to-do-it-anyway/",
-            "date": "2026-08-17T11:34:24+00:00",
-            "summary": "In early February 2011 Egypt was in the middle of a political revolution. One morning, everyone&#039;s phones suddenly pinged with an alert. The Armed Forces asks Egypt&#039;s honest and loyal men to confront the traitors and criminals and protect our people and honour and our precious Egypt. A seri"
-          },
-          {
-            "title": "Thoughts on visiting the Edinburgh Fringe as a newbie",
-            "link": "https://shkspr.mobi/blog/2026/08/thoughts-on-the-edinburgh-fringe-as-a-newbie/",
-            "date": "2026-08-16T11:34:21+00:00",
-            "summary": "This was my first ever time at The Fringe™. Here are some scattered thoughts looking at the good, the bad, and the annoying aspects of this madly extravagant exhibition of talent. We saw 23 shows together, and one separate show each. There were more hits than misses, but the frustration of wasting y"
-          },
-          {
-            "title": "Book Review: Slags by Emma Jane Unsworth ★★★⯪☆",
-            "link": "https://shkspr.mobi/blog/2026/08/book-review-slags-by-emma-jane-unsworth/",
-            "date": "2026-08-15T11:34:42+00:00",
-            "summary": "I&#039;m really not sure what to make of this book. It was recommended by my book club as something between tragedy and comedy. The characters are excruciatingly well written - if you (or your friends) shoplifted Impulse body-spray back in the 1990s, you&#039;ll be hit by a terrifying wave of nostal"
-          },
-          {
-            "title": "Edinburgh Fringe: Target Audience ★★★★★",
-            "link": "https://shkspr.mobi/blog/2026/08/edinburgh-fringe-target-audience/",
-            "date": "2026-08-14T18:45:41+00:00",
-            "summary": "Easily the best show I&#039;ve seen at the Fringe. For plot-related reasons, a television company asks a literary genius to create a &#34;pro-weapons sitcom&#34;. It is a fast paced mix of the sitcoms 2012 and Episodes. The jokes come at a steady pace - some attack with the furiousity of bullets, ot"
-          },
-          {
-            "title": "Edinburgh Fringe: Stand-up Philosophy ★★★⯪☆",
-            "link": "https://shkspr.mobi/blog/2026/08/edinburgh-fringe-stand-up-philosophy/",
-            "date": "2026-08-14T15:16:26+00:00",
-            "summary": "For a pay-what-you-want show this was decent. Three comedians doing sets on the theme of philosophy - followed by a Q&#38;A where the audience poses philosophical conundrums to them. It more-or-less works as a gimmick. Although an early afternoon crowd may have been more likely to ask questions anon"
-          },
-          {
-            "title": "Edinburgh Fringe: Waiting for Wonka ★★★⯪☆",
-            "link": "https://shkspr.mobi/blog/2026/08/edinburgh-fringe-waiting-for-wonka/",
-            "date": "2026-08-14T12:31:07+00:00",
-            "summary": "This play is fucked up! Such a brilliant concept - what happened to the kids from Charlie and the Chocolate Factory after they were rejected by Wonka? Stuck together in a Big-Brotheresque household, they trauma-dump on each other. New Zealand&#039;s Half Trick have shrunk their full-length play into"
-          },
-          {
-            "title": "Edinburgh Fringe: Doris, Dolly and the Dressing Room Divas ★★★★⯪",
-            "link": "https://shkspr.mobi/blog/2026/08/edinburgh-fringe-doris-dolly-and-the-dressing-room-divas/",
-            "date": "2026-08-13T22:23:25+00:00",
-            "summary": "Quite simply marvellous! Three Scottish divas giving us their interpretations of the greats while backed by an excellent pianist. So many shows at the Fringe skimp on sets and props - not this! A luscious array of costumes, hats, wigs, and ruby slippers bring the characters to life. The framing is t"
-          },
-          {
-            "title": "Edinburgh Fringe: The Musical Mystery Caller ★★★★★",
-            "link": "https://shkspr.mobi/blog/2026/08/edinburgh-fringe-the-musical-mystery-caller/",
-            "date": "2026-08-13T20:21:53+00:00",
-            "summary": "Walking down the street, I noticed a ringing phone box so, naturally, I answered it. What happened next was a few minutes of pure fringe magic! I had a little chat with the caller, he welcomed me to the smallest venue in the fringe, and then he improvised a banger of a song based on my peculiar proc"
-          },
-          {
-            "title": "Edinburgh Fringe: Miscast Sondheim ★★☆☆☆",
-            "link": "https://shkspr.mobi/blog/2026/08/edinburgh-fringe-miscast-sondheim/",
-            "date": "2026-08-13T18:45:15+00:00",
-            "summary": "I&#039;m not sure what they&#039;re teaching at LAMDA, but it certainly isn&#039;t vocal projection. We were forewarned about the technical difficulties - but if a trained stage singer can&#039;t reach the 6th row of a tiny theatre, that can&#039;t be blamed on the backstage team. The show advertise"
-          },
-          {
-            "title": "Edinburgh Fringe: Hot Flush – A Bold, We’re Old(ish) Burlesque Show ★★★☆☆",
-            "link": "https://shkspr.mobi/blog/2026/08/edinburgh-fringe-hot-flush-a-bold-were-oldish-burlesque-show/",
-            "date": "2026-08-13T16:45:02+00:00",
-            "summary": "Are menopausal women hot? It is often said that pornographic actresses move straight from &#34;barely legal&#34; to &#34;MILF&#34; without so much as moment in between. Unlike the fringe&#039;s other burlesque shows - which seem to exclusively feature nymphettes and twinks with nary a grey hair betw"
-          }
-        ]
+        "status": "error",
+        "error": "HTTP 415",
+        "items": []
       },
       {
         "id": "lcamtuf",
@@ -1279,7 +1219,7 @@
         "home": "https://mitchellh.com/",
         "url": "https://mitchellh.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-17T23:22:49.401174+00:00",
+        "fetchedAt": "2026-08-18T01:15:25.416335+00:00",
         "items": [
           {
             "title": "Superlogical",
@@ -1350,7 +1290,7 @@
         "home": "https://dynomight.net/",
         "url": "https://dynomight.net/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-17T23:22:49.089312+00:00",
+        "fetchedAt": "2026-08-18T01:15:25.383228+00:00",
         "items": [
           {
             "title": "Thoughts I had while reading your comment",
@@ -1421,7 +1361,7 @@
         "home": "https://xeiaso.net/",
         "url": "https://xeiaso.net/blog.rss",
         "status": "ok",
-        "fetchedAt": "2026-08-17T23:22:49.651799+00:00",
+        "fetchedAt": "2026-08-18T01:15:25.944857+00:00",
         "items": [
           {
             "title": "Site update: a few posts have been removed",
@@ -1492,7 +1432,7 @@
         "home": "https://devblogs.microsoft.com/oldnewthing/",
         "url": "https://devblogs.microsoft.com/oldnewthing/feed",
         "status": "ok",
-        "fetchedAt": "2026-08-17T23:22:49.419531+00:00",
+        "fetchedAt": "2026-08-18T01:15:25.158831+00:00",
         "items": [
           {
             "title": "How do functions like alloca allocate memory from the stack?",
@@ -1563,7 +1503,7 @@
         "home": "https://www.righto.com/",
         "url": "https://www.righto.com/feeds/posts/default",
         "status": "ok",
-        "fetchedAt": "2026-08-17T23:22:49.458674+00:00",
+        "fetchedAt": "2026-08-18T01:15:25.299141+00:00",
         "items": []
       },
       {
@@ -1573,7 +1513,7 @@
         "home": "https://lucumr.pocoo.org/",
         "url": "https://lucumr.pocoo.org/feed.atom",
         "status": "ok",
-        "fetchedAt": "2026-08-17T23:22:49.289826+00:00",
+        "fetchedAt": "2026-08-18T01:15:25.356827+00:00",
         "items": [
           {
             "title": "Codeberg Divides",
@@ -1644,7 +1584,7 @@
         "home": "https://skyfall.dev/",
         "url": "https://skyfall.dev/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-17T23:22:49.220068+00:00",
+        "fetchedAt": "2026-08-18T01:15:25.429608+00:00",
         "items": [
           {
             "title": "Good riddance, 4o",
@@ -1719,7 +1659,7 @@
         "home": "https://overreacted.io/",
         "url": "https://overreacted.io/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-17T23:22:49.300227+00:00",
+        "fetchedAt": "2026-08-18T01:15:25.140788+00:00",
         "items": [
           {
             "title": "There Are No Instances in atproto",
@@ -1790,7 +1730,7 @@
         "home": "https://www.johndcook.com/",
         "url": "https://www.johndcook.com/blog/feed/",
         "status": "ok",
-        "fetchedAt": "2026-08-17T23:22:49.101753+00:00",
+        "fetchedAt": "2026-08-18T01:15:25.114130+00:00",
         "items": [
           {
             "title": "Proportion of 1s in a Hadamard matrix",
@@ -1861,7 +1801,7 @@
         "home": "https://matklad.github.io/",
         "url": "https://matklad.github.io/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-17T23:22:48.962434+00:00",
+        "fetchedAt": "2026-08-18T01:15:25.555336+00:00",
         "items": [
           {
             "title": "Printing Lists",
@@ -1932,7 +1872,7 @@
         "home": "https://eli.thegreenplace.net/",
         "url": "https://eli.thegreenplace.net/feeds/all.atom.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-17T23:22:49.328337+00:00",
+        "fetchedAt": "2026-08-18T01:15:25.274026+00:00",
         "items": [
           {
             "title": "Concurrent Servers: Part 7 - Rust",
@@ -1973,7 +1913,7 @@
         "home": "https://fabiensanglard.net/",
         "url": "https://fabiensanglard.net/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-17T23:22:49.392677+00:00",
+        "fetchedAt": "2026-08-18T01:15:25.428646+00:00",
         "items": [
           {
             "title": "Quake Shareware, a CD-ROM just a little too full",
@@ -2044,7 +1984,7 @@
         "home": "https://blog.miguelgrinberg.com/",
         "url": "https://blog.miguelgrinberg.com/feed",
         "status": "ok",
-        "fetchedAt": "2026-08-17T23:22:49.831773+00:00",
+        "fetchedAt": "2026-08-18T01:15:25.851290+00:00",
         "items": [
           {
             "title": "I Am Not a Reverse Centaur",
@@ -2115,7 +2055,7 @@
         "home": "https://www.troyhunt.com/",
         "url": "https://www.troyhunt.com/rss/",
         "status": "ok",
-        "fetchedAt": "2026-08-17T23:22:49.107730+00:00",
+        "fetchedAt": "2026-08-18T01:15:25.413448+00:00",
         "items": [
           {
             "title": "Weekly Update 516: Live From Vietnam",
@@ -2186,7 +2126,7 @@
         "home": "https://anildash.com/",
         "url": "https://anildash.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-17T23:22:49.602505+00:00",
+        "fetchedAt": "2026-08-18T01:15:25.910522+00:00",
         "items": [
           {
             "title": "Defending Privacy, Daily",
@@ -2257,7 +2197,7 @@
         "home": "https://computer.rip/",
         "url": "https://computer.rip/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-17T23:22:49.596083+00:00",
+        "fetchedAt": "2026-08-18T01:15:25.788841+00:00",
         "items": [
           {
             "title": "telephones caught in between",
@@ -2338,7 +2278,7 @@
         "home": "http://paulgraham.com/",
         "url": "http://www.aaronsw.com/2002/feeds/pgessays.rss",
         "status": "ok",
-        "fetchedAt": "2026-08-17T23:22:49.385916+00:00",
+        "fetchedAt": "2026-08-18T01:15:25.057160+00:00",
         "items": [
           {
             "title": "Superlinear Returns",
@@ -2409,7 +2349,7 @@
         "home": "https://steveblank.com/",
         "url": "https://steveblank.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-08-17T23:22:49.410524+00:00",
+        "fetchedAt": "2026-08-18T01:15:25.494324+00:00",
         "items": [
           {
             "title": "Lean Launch Pad 2026 @ Stanford – Lessons Learned Presentations",
@@ -2482,7 +2422,7 @@
         "home": "https://news.ycombinator.com/",
         "url": "https://news.ycombinator.com/rss",
         "status": "ok",
-        "fetchedAt": "2026-08-17T23:22:49.035166+00:00",
+        "fetchedAt": "2026-08-18T01:15:25.679398+00:00",
         "items": [
           {
             "title": "How Bluesky draws its logo on screenshots",
@@ -2494,6 +2434,12 @@
             "title": "Quake Shareware, a CD-ROM just a little too full",
             "link": "https://fabiensanglard.net/quake_shareware_cd/index.html",
             "date": "2026-08-17T22:06:14+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "Fairphone 6 and PostmarketOS working main camera",
+            "link": "https://catcrafts.net/posts/fairphone-6-postmarketos-working-main-camera",
+            "date": "2026-08-17T22:01:17+00:00",
             "summary": "Comments"
           },
           {
@@ -2509,9 +2455,15 @@
             "summary": "Comments"
           },
           {
-            "title": "Fairphone 6 and PostmarketOS working main camera",
-            "link": "https://catcrafts.net/posts/fairphone-6-postmarketos-working-main-camera",
-            "date": "2026-08-17T22:01:17+00:00",
+            "title": "GPT-5.6 Sol Pricing Cut by 50%",
+            "link": "https://openrouter.ai/openai/gpt-5.6-sol",
+            "date": "2026-08-17T21:03:18+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "Flock cameras haven't improved Atlanta's crime clearance rates",
+            "link": "https://atlpresscollective.com/2026/07/28/flock-cameras-atlanta-clearance-rates/",
+            "date": "2026-08-17T22:48:25+00:00",
             "summary": "Comments"
           },
           {
@@ -2524,18 +2476,6 @@
             "title": "AI-Generated GitHub Copilot “Autofix” Allowed Compromise of Snowflake's Jira",
             "link": "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug",
             "date": "2026-08-17T14:18:38+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "AI;DR (AI; Didn't Read)",
-            "link": "https://www.rickmanelius.com/p/aidr-ai-didnt-read",
-            "date": "2026-08-17T19:47:15+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "How to disable or avoid intrusive AI",
-            "link": "https://www.librarian.net/notoai/",
-            "date": "2026-08-17T14:07:56+00:00",
             "summary": "Comments"
           },
           {
@@ -2553,8 +2493,14 @@
         "home": "https://www.techmeme.com/",
         "url": "https://www.techmeme.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-17T23:22:49.174064+00:00",
+        "fetchedAt": "2026-08-18T01:15:25.580240+00:00",
         "items": [
+          {
+            "title": "Sources: Situational Awareness offered part of its $5B Anthropic stake at a 20% discount as it scrambled for cash; word of its trouble left it \"being hunted\" (Wall Street Journal)",
+            "link": "https://www.techmeme.com/260817/p37#a260817p37",
+            "date": "2026-08-17T20:45:01-04:00",
+            "summary": "Wall Street Journal: Sources: Situational Awareness offered part of its $5B Anthropic stake at a 20% discount as it scrambled for cash; word of its trouble left it &ldquo;being hunted&rdquo;&nbsp; &mdash;&nbsp; From whispers of an Anthropic stake sale to strange options moves, traders sensed trouble"
+          },
           {
             "title": "David Sacks says \"Dario Amodei believes frontier AI is too powerful to distribute; we believe it is too powerful to centralize\" after Amodei shared policy ideas (David Sacks/@davidsacks)",
             "link": "https://www.techmeme.com/260817/p36#a260817p36",
@@ -2608,12 +2554,6 @@
             "link": "https://www.techmeme.com/260817/p28#a260817p28",
             "date": "2026-08-17T13:30:01-04:00",
             "summary": "Cursor: Cursor says it is rolling out its code hosting service Origin in early beta on all paid plans, featuring support for repos, pull requests, GitHub sync, and more&nbsp; &mdash;&nbsp; Cursor can now host your code.&nbsp; &mdash;&nbsp; Origin begins rolling out today in early beta on all paid pl"
-          },
-          {
-            "title": "YouTube will start counting a view as soon as a video starts to play, from August 24, lining up with the system used by Instagram, TikTok, and its Shorts videos (Emma Roth/The Verge)",
-            "link": "https://www.techmeme.com/260817/p27#a260817p27",
-            "date": "2026-08-17T13:25:04-04:00",
-            "summary": "Emma Roth / The Verge: YouTube will start counting a view as soon as a video starts to play, from August 24, lining up with the system used by Instagram, TikTok, and its Shorts videos&nbsp; &mdash;&nbsp; &#65279;By tracking views from the instant a video starts to play, YouTube's new counter works m"
           }
         ]
       },
@@ -2624,8 +2564,14 @@
         "home": "https://techcrunch.com/",
         "url": "https://techcrunch.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-08-17T23:22:49.104359+00:00",
+        "fetchedAt": "2026-08-18T01:15:25.362668+00:00",
         "items": [
+          {
+            "title": "Anthropic’s annualized revenue surges to $65B",
+            "link": "https://techcrunch.com/2026/08/17/anthropics-annualized-revenue-surges-to-65b/",
+            "date": "2026-08-17T23:56:26+00:00",
+            "summary": "The model maker added $18 billion in annualized revenue in two months."
+          },
           {
             "title": "AI automation startup Relay shuts down, staff joins Google’s Chrome team",
             "link": "https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team/",
@@ -2679,12 +2625,6 @@
             "link": "https://techcrunch.com/2026/08/17/feedly-attributes-weeklong-slowdown-to-bug-not-its-ai-pivot/",
             "date": "2026-08-17T17:10:59+00:00",
             "summary": "Feedly says a bug is behind the performance issues that have made its web app nearly \"unusable\" for some users, while complaints about its mobile apps and customer support are adding to frustrations."
-          },
-          {
-            "title": "Amazon, which started off selling books, is destroying rare texts to train AI",
-            "link": "https://techcrunch.com/2026/08/17/amazon-once-an-online-bookseller-is-destroying-rare-books-to-train-ai-models/",
-            "date": "2026-08-17T16:38:44+00:00",
-            "summary": "Rare books are incredibly valuable for training LLMs, since these models have already trained on whatever's available online."
           }
         ]
       },
@@ -2695,8 +2635,14 @@
         "home": "https://techcrunch.com/category/artificial-intelligence/",
         "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
         "status": "ok",
-        "fetchedAt": "2026-08-17T23:22:49.201316+00:00",
+        "fetchedAt": "2026-08-18T01:15:25.358331+00:00",
         "items": [
+          {
+            "title": "Anthropic’s annualized revenue surges to $65B",
+            "link": "https://techcrunch.com/2026/08/17/anthropics-annualized-revenue-surges-to-65b/",
+            "date": "2026-08-17T23:56:26+00:00",
+            "summary": "The model maker added $18 billion in annualized revenue in two months."
+          },
           {
             "title": "AI automation startup Relay shuts down, staff joins Google’s Chrome team",
             "link": "https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team/",
@@ -2750,12 +2696,6 @@
             "link": "https://techcrunch.com/2026/08/15/woman-claims-her-stepfather-used-grok-to-transform-childhood-photo-into-explicit-imagery/",
             "date": "2026-08-15T21:29:19+00:00",
             "summary": "The woman claimed that AI tools are \"taking everyday life and turning it into child sexual abuse.\""
-          },
-          {
-            "title": "Anthropic shares more details about how Claude’s new watermarks will work",
-            "link": "https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work/",
-            "date": "2026-08-15T18:58:39+00:00",
-            "summary": "How will the watermarking actually work? Can it be hidden with editing? And how does this affect code?"
           }
         ]
       },
@@ -2766,7 +2706,7 @@
         "home": "https://techcrunch.com/tag/funding/",
         "url": "https://techcrunch.com/tag/funding/feed/",
         "status": "ok",
-        "fetchedAt": "2026-08-17T23:22:49.240591+00:00",
+        "fetchedAt": "2026-08-18T01:15:25.398709+00:00",
         "items": [
           {
             "title": "Wispr raises $280M at $2B valuation as it looks beyond dictation",
@@ -2837,8 +2777,20 @@
         "home": "https://venturebeat.com/",
         "url": "https://venturebeat.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-08-17T23:22:49.399001+00:00",
+        "fetchedAt": "2026-08-18T01:15:25.421799+00:00",
         "items": [
+          {
+            "title": "Qwen3.8-27B runs frontier-class coding agents and reasoning locally, no cloud API required",
+            "link": "https://venturebeat.com/technology/qwen3-8-27b-runs-frontier-class-coding-agents-and-reasoning-locally-no-cloud-api-required",
+            "date": "2026-08-18T00:06:53+00:00",
+            "summary": "The biggest AI model release of the past few days, at least among the developers and AI power users on social media, wasn&#x27;t a frontier cloud model from OpenAI, Anthropic or Google.It was a 27-billion-parameter model from Alibaba: Qwen3.8-27B landed on Hugging Face on Friday under an enterprise-"
+          },
+          {
+            "title": "Cursor launches Origin code hosting platform as GitHub outage exposes opening in AI coding race",
+            "link": "https://venturebeat.com/infrastructure/cursor-launches-origin-code-hosting-platform-as-github-outage-exposes-opening-in-ai-coding-race",
+            "date": "2026-08-17T22:00:00+00:00",
+            "summary": "Cursor began rolling out Origin, its own code hosting platform, to paid users on Monday morning. Roughly three and a half hours later, GitHub&#x27;s status page lit up with what became a six-hour-and-forty-two-minute global degradation — error rates near 20% across pull requests, issues and the API,"
+          },
           {
             "title": "One AI module faked 86% of a pipeline's accuracy gains by feeding another the answers",
             "link": "https://venturebeat.com/orchestration/one-ai-module-faked-86-of-a-pipelines-accuracy-gains-by-feeding-another-the-answers",
@@ -2868,18 +2820,6 @@
             "link": "https://venturebeat.com/orchestration/cutting-rag-inference-costs-6x-starts-with-deciding-what-never-reaches-the-llm",
             "date": "2026-08-16T20:45:00+00:00",
             "summary": "Most teams building retrieval augmented generation (RAG) systems for high stakes classification make the same architectural bet: Route every ambiguous case straight to the language model and trust the retrieved context to sort it out. This works fine in a demo. It falls apart the moment the system h"
-          },
-          {
-            "title": "DeepSeek's top-ranked V4 Flash stumbles on real agent tasks as its prices surge",
-            "link": "https://venturebeat.com/orchestration/deepseeks-top-ranked-v4-flash-stumbles-on-real-agent-tasks-as-its-prices-surge",
-            "date": "2026-08-16T13:00:00+00:00",
-            "summary": "DeepSeek&#x27;s V4 Flash has topped model leaderboards and been hailed by developers as a &quot;total monster&quot; since its rollout. But in real-world testing, it completed just 53.8% of a batch of complex agent tasks. Composio ran the model through eight different agent harnesses, including Claud"
-          },
-          {
-            "title": "An eval harness found what qualitative review couldn't: AI models are most confident when wrong",
-            "link": "https://venturebeat.com/orchestration/an-eval-harness-found-what-qualitative-review-couldnt-ai-models-are-most-confident-when-wrong",
-            "date": "2026-08-15T19:00:00+00:00",
-            "summary": "There is a step in the development process for large language model (LLM)-assisted tooling that most teams skip because it&#x27;s tedious, time-consuming, and doesn&#x27;t produce results visible to end users: Verifying that what the model is saying is actually correct. Not fluent, not coherent, not"
           }
         ]
       },
@@ -2890,7 +2830,7 @@
         "home": "https://venturebeat.com/category/ai/",
         "url": "https://venturebeat.com/category/ai/feed/",
         "status": "ok",
-        "fetchedAt": "2026-08-17T23:22:49.437278+00:00",
+        "fetchedAt": "2026-08-18T01:15:25.435798+00:00",
         "items": [
           {
             "title": "Google just redesigned the search box for the first time in 25 years — here’s why it matters more than you think.",
@@ -2945,12 +2885,12 @@
         "home": "https://www.ruanyifeng.com/blog/",
         "url": "https://www.ruanyifeng.com/blog/atom.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-17T23:22:49.073311+00:00",
+        "fetchedAt": "2026-08-18T01:15:25.563808+00:00",
         "items": [
           {
             "title": "科技爱好者周刊（第 408 期）：你需要知道的 AI 缓存知识",
             "link": "http://www.ruanyifeng.com/blog/2026/08/weekly-issue-408.html",
-            "date": "2026-08-17T22:42:05+00:00",
+            "date": "2026-08-17T23:18:29+00:00",
             "summary": "这里记录每周值得分享的科技内容，周五发布。..."
           },
           {
@@ -2974,7 +2914,7 @@
         "home": "https://www.bestblogs.dev/",
         "url": "https://www.bestblogs.dev/zh/feeds/rss?category=ai&minScore=90",
         "status": "ok",
-        "fetchedAt": "2026-08-17T23:22:50.071180+00:00",
+        "fetchedAt": "2026-08-18T01:15:25.820722+00:00",
         "items": [
           {
             "title": "为什么复杂 RL 离不开分布式系统，分布式 RL 的核心矛盾又是什么？",
@@ -3042,6 +2982,66 @@
   },
   "allItems": [
     {
+      "title": "★ Follow-Up Thoughts on Watermarking Schemes for AI-Generated Text",
+      "link": "https://daringfireball.net/2026/08/follow-up_thoughts_on_watermarking",
+      "date": "2026-08-18T00:55:13+00:00",
+      "summary": "I want the answers that I read to be cogent, lucid, accurate, blessedly terse — and ideally to strike a consistent tone that is pleasant to my reading ear. The genie is not going back in the bottle.",
+      "feedId": "daringfireball",
+      "feedTitle": "Daring Fireball",
+      "category": "Tech Blogs",
+      "feedHome": "https://daringfireball.net/"
+    },
+    {
+      "title": "Qwen3.8-27B runs frontier-class coding agents and reasoning locally, no cloud API required",
+      "link": "https://venturebeat.com/technology/qwen3-8-27b-runs-frontier-class-coding-agents-and-reasoning-locally-no-cloud-api-required",
+      "date": "2026-08-18T00:06:53+00:00",
+      "summary": "The biggest AI model release of the past few days, at least among the developers and AI power users on social media, wasn&#x27;t a frontier cloud model from OpenAI, Anthropic or Google.It was a 27-billion-parameter model from Alibaba: Qwen3.8-27B landed on Hugging Face on Friday under an enterprise-",
+      "feedId": "venturebeat",
+      "feedTitle": "VentureBeat",
+      "category": "Startup & News",
+      "feedHome": "https://venturebeat.com/"
+    },
+    {
+      "title": "Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index",
+      "link": "https://simonwillison.net/2026/Aug/17/qwen-38-27b-scores-52/",
+      "date": "2026-08-17T23:58:14+00:00",
+      "summary": "Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index That's the same score as GPT-5.6 Luna (max), and just one point behind GLM-5.2 (max) and DeepSeek V4 Pro 0813 (max) - that GLM is 753B and that DeepSeek is 1.6B parameters, and Luna is size unknown but presumably a whole lot bigger",
+      "feedId": "simonwillison",
+      "feedTitle": "Simon Willison",
+      "category": "AI & LLM",
+      "feedHome": "https://simonwillison.net/"
+    },
+    {
+      "title": "Anthropic’s annualized revenue surges to $65B",
+      "link": "https://techcrunch.com/2026/08/17/anthropics-annualized-revenue-surges-to-65b/",
+      "date": "2026-08-17T23:56:26+00:00",
+      "summary": "The model maker added $18 billion in annualized revenue in two months.",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "Anthropic’s annualized revenue surges to $65B",
+      "link": "https://techcrunch.com/2026/08/17/anthropics-annualized-revenue-surges-to-65b/",
+      "date": "2026-08-17T23:56:26+00:00",
+      "summary": "The model maker added $18 billion in annualized revenue in two months.",
+      "feedId": "techcrunch-ai",
+      "feedTitle": "TechCrunch AI",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
+    },
+    {
+      "title": "科技爱好者周刊（第 408 期）：你需要知道的 AI 缓存知识",
+      "link": "http://www.ruanyifeng.com/blog/2026/08/weekly-issue-408.html",
+      "date": "2026-08-17T23:18:29+00:00",
+      "summary": "这里记录每周值得分享的科技内容，周五发布。...",
+      "feedId": "ruanyifeng",
+      "feedTitle": "阮一峰的网络日志",
+      "category": "中文",
+      "feedHome": "https://www.ruanyifeng.com/blog/"
+    },
+    {
       "title": "No Update Since Early July Regarding Siri AI Coming to the EU, Ever",
       "link": "https://www.ft.com/content/807d25c3-f4ac-4402-b815-3aa91018237d",
       "date": "2026-08-17T23:12:04+00:00",
@@ -3052,14 +3052,14 @@
       "feedHome": "https://daringfireball.net/"
     },
     {
-      "title": "科技爱好者周刊（第 408 期）：你需要知道的 AI 缓存知识",
-      "link": "http://www.ruanyifeng.com/blog/2026/08/weekly-issue-408.html",
-      "date": "2026-08-17T22:42:05+00:00",
-      "summary": "这里记录每周值得分享的科技内容，周五发布。...",
-      "feedId": "ruanyifeng",
-      "feedTitle": "阮一峰的网络日志",
-      "category": "中文",
-      "feedHome": "https://www.ruanyifeng.com/blog/"
+      "title": "Flock cameras haven't improved Atlanta's crime clearance rates",
+      "link": "https://atlpresscollective.com/2026/07/28/flock-cameras-atlanta-clearance-rates/",
+      "date": "2026-08-17T22:48:25+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
     },
     {
       "title": "How Bluesky draws its logo on screenshots",
@@ -3092,6 +3092,16 @@
       "feedHome": "https://news.ycombinator.com/"
     },
     {
+      "title": "Cursor launches Origin code hosting platform as GitHub outage exposes opening in AI coding race",
+      "link": "https://venturebeat.com/infrastructure/cursor-launches-origin-code-hosting-platform-as-github-outage-exposes-opening-in-ai-coding-race",
+      "date": "2026-08-17T22:00:00+00:00",
+      "summary": "Cursor began rolling out Origin, its own code hosting platform, to paid users on Monday morning. Roughly three and a half hours later, GitHub&#x27;s status page lit up with what became a six-hour-and-forty-two-minute global degradation — error rates near 20% across pull requests, issues and the API,",
+      "feedId": "venturebeat",
+      "feedTitle": "VentureBeat",
+      "category": "Startup & News",
+      "feedHome": "https://venturebeat.com/"
+    },
+    {
       "title": "Apple TV Still Has No Start Date for ‘The Savant’",
       "link": "https://daringfireball.net/linked/2026/04/19/chastain-says-the-savant-will-be-released",
       "date": "2026-08-17T21:55:54+00:00",
@@ -3122,6 +3132,26 @@
       "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
     },
     {
+      "title": "GPT-5.6 Sol Pricing Cut by 50%",
+      "link": "https://openrouter.ai/openai/gpt-5.6-sol",
+      "date": "2026-08-17T21:03:18+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "Sources: Situational Awareness offered part of its $5B Anthropic stake at a 20% discount as it scrambled for cash; word of its trouble left it \"being hunted\" (Wall Street Journal)",
+      "link": "https://www.techmeme.com/260817/p37#a260817p37",
+      "date": "2026-08-17T20:45:01-04:00",
+      "summary": "Wall Street Journal: Sources: Situational Awareness offered part of its $5B Anthropic stake at a 20% discount as it scrambled for cash; word of its trouble left it &ldquo;being hunted&rdquo;&nbsp; &mdash;&nbsp; From whispers of an Anthropic stake sale to strange options moves, traders sensed trouble",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
       "title": "‘Unprecedented’ number of Apple users received recent spyware alert, say investigators",
       "link": "https://techcrunch.com/2026/08/17/unprecedented-number-of-apple-users-received-recent-spyware-alert-say-investigators/",
       "date": "2026-08-17T20:18:35+00:00",
@@ -3130,16 +3160,6 @@
       "feedTitle": "TechCrunch",
       "category": "Startup & News",
       "feedHome": "https://techcrunch.com/"
-    },
-    {
-      "title": "AI;DR (AI; Didn't Read)",
-      "link": "https://www.rickmanelius.com/p/aidr-ai-didnt-read",
-      "date": "2026-08-17T19:47:15+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
     },
     {
       "title": "Save up to $300 on your TechCrunch Disrupt 2026 pass until August 21",
@@ -3286,16 +3306,6 @@
       "link": "https://techcrunch.com/2026/08/17/amazon-once-an-online-bookseller-is-destroying-rare-books-to-train-ai-models/",
       "date": "2026-08-17T16:38:44+00:00",
       "summary": "Rare books are incredibly valuable for training LLMs, since these models have already trained on whatever's available online.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
-    },
-    {
-      "title": "Amazon, which started off selling books, is destroying rare texts to train AI",
-      "link": "https://techcrunch.com/2026/08/17/amazon-once-an-online-bookseller-is-destroying-rare-books-to-train-ai-models/",
-      "date": "2026-08-17T16:38:44+00:00",
-      "summary": "Rare books are incredibly valuable for training LLMs, since these models have already trained on whatever's available online.",
       "feedId": "techcrunch-ai",
       "feedTitle": "TechCrunch AI",
       "category": "Startup & News",
@@ -3412,16 +3422,6 @@
       "feedHome": "https://news.ycombinator.com/"
     },
     {
-      "title": "How to disable or avoid intrusive AI",
-      "link": "https://www.librarian.net/notoai/",
-      "date": "2026-08-17T14:07:56+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
       "title": "A Preview of DuckDB v2.0",
       "link": "https://duckdb.org/2026/08/17/duckdb-20-highlights",
       "date": "2026-08-17T13:46:27+00:00",
@@ -3462,16 +3462,6 @@
       "feedHome": "https://www.techmeme.com/"
     },
     {
-      "title": "YouTube will start counting a view as soon as a video starts to play, from August 24, lining up with the system used by Instagram, TikTok, and its Shorts videos (Emma Roth/The Verge)",
-      "link": "https://www.techmeme.com/260817/p27#a260817p27",
-      "date": "2026-08-17T13:25:04-04:00",
-      "summary": "Emma Roth / The Verge: YouTube will start counting a view as soon as a video starts to play, from August 24, lining up with the system used by Instagram, TikTok, and its Shorts videos&nbsp; &mdash;&nbsp; &#65279;By tracking views from the instant a video starts to play, YouTube's new counter works m",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
       "title": "Wispr raises $280M at $2B valuation as it looks beyond dictation",
       "link": "https://techcrunch.com/2026/08/17/wispr-raises-280m-at-2b-valuation-as-it-looks-beyond-dictation/",
       "date": "2026-08-17T13:10:05+00:00",
@@ -3500,16 +3490,6 @@
       "feedTitle": "阮一峰的网络日志",
       "category": "中文",
       "feedHome": "https://www.ruanyifeng.com/blog/"
-    },
-    {
-      "title": "And then the men with guns tell you to do it anyway",
-      "link": "https://shkspr.mobi/blog/2026/08/and-then-the-men-with-guns-tell-you-to-do-it-anyway/",
-      "date": "2026-08-17T11:34:24+00:00",
-      "summary": "In early February 2011 Egypt was in the middle of a political revolution. One morning, everyone&#039;s phones suddenly pinged with an alert. The Armed Forces asks Egypt&#039;s honest and loyal men to confront the traitors and criminals and protect our people and honour and our precious Egypt. A seri",
-      "feedId": "shkspr",
-      "feedTitle": "Terence Eden",
-      "category": "Tech Blogs",
-      "feedHome": "https://shkspr.mobi/blog/"
     },
     {
       "title": "Seeing beyond BMI: Estimating cardiometabolic risk with smartphone imagery",
@@ -3922,26 +3902,6 @@
       "feedHome": "https://simonwillison.net/"
     },
     {
-      "title": "DeepSeek's top-ranked V4 Flash stumbles on real agent tasks as its prices surge",
-      "link": "https://venturebeat.com/orchestration/deepseeks-top-ranked-v4-flash-stumbles-on-real-agent-tasks-as-its-prices-surge",
-      "date": "2026-08-16T13:00:00+00:00",
-      "summary": "DeepSeek&#x27;s V4 Flash has topped model leaderboards and been hailed by developers as a &quot;total monster&quot; since its rollout. But in real-world testing, it completed just 53.8% of a batch of complex agent tasks. Composio ran the model through eight different agent harnesses, including Claud",
-      "feedId": "venturebeat",
-      "feedTitle": "VentureBeat",
-      "category": "Startup & News",
-      "feedHome": "https://venturebeat.com/"
-    },
-    {
-      "title": "Thoughts on visiting the Edinburgh Fringe as a newbie",
-      "link": "https://shkspr.mobi/blog/2026/08/thoughts-on-the-edinburgh-fringe-as-a-newbie/",
-      "date": "2026-08-16T11:34:21+00:00",
-      "summary": "This was my first ever time at The Fringe™. Here are some scattered thoughts looking at the good, the bad, and the annoying aspects of this madly extravagant exhibition of talent. We saw 23 shows together, and one separate show each. There were more hits than misses, but the frustration of wasting y",
-      "feedId": "shkspr",
-      "feedTitle": "Terence Eden",
-      "category": "Tech Blogs",
-      "feedHome": "https://shkspr.mobi/blog/"
-    },
-    {
       "title": "★ You Don’t Need to Worry About Scratching Your iPhone Camera Lenses",
       "link": "https://daringfireball.net/2026/08/iphone_camera_lens_scratch_resistance",
       "date": "2026-08-16T03:02:24+00:00",
@@ -3976,26 +3936,6 @@
       "link": "https://techcrunch.com/2026/08/15/woman-claims-her-stepfather-used-grok-to-transform-childhood-photo-into-explicit-imagery/",
       "date": "2026-08-15T21:29:19+00:00",
       "summary": "The woman claimed that AI tools are \"taking everyday life and turning it into child sexual abuse.\"",
-      "feedId": "techcrunch-ai",
-      "feedTitle": "TechCrunch AI",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
-    },
-    {
-      "title": "An eval harness found what qualitative review couldn't: AI models are most confident when wrong",
-      "link": "https://venturebeat.com/orchestration/an-eval-harness-found-what-qualitative-review-couldnt-ai-models-are-most-confident-when-wrong",
-      "date": "2026-08-15T19:00:00+00:00",
-      "summary": "There is a step in the development process for large language model (LLM)-assisted tooling that most teams skip because it&#x27;s tedious, time-consuming, and doesn&#x27;t produce results visible to end users: Verifying that what the model is saying is actually correct. Not fluent, not coherent, not",
-      "feedId": "venturebeat",
-      "feedTitle": "VentureBeat",
-      "category": "Startup & News",
-      "feedHome": "https://venturebeat.com/"
-    },
-    {
-      "title": "Anthropic shares more details about how Claude’s new watermarks will work",
-      "link": "https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work/",
-      "date": "2026-08-15T18:58:39+00:00",
-      "summary": "How will the watermarking actually work? Can it be hidden with editing? And how does this affect code?",
       "feedId": "techcrunch-ai",
       "feedTitle": "TechCrunch AI",
       "category": "Startup & News",
@@ -4052,16 +3992,6 @@
       "feedHome": "https://simonwillison.net/"
     },
     {
-      "title": "Book Review: Slags by Emma Jane Unsworth ★★★⯪☆",
-      "link": "https://shkspr.mobi/blog/2026/08/book-review-slags-by-emma-jane-unsworth/",
-      "date": "2026-08-15T11:34:42+00:00",
-      "summary": "I&#039;m really not sure what to make of this book. It was recommended by my book club as something between tragedy and comedy. The characters are excruciatingly well written - if you (or your friends) shoplifted Impulse body-spray back in the 1990s, you&#039;ll be hit by a terrifying wave of nostal",
-      "feedId": "shkspr",
-      "feedTitle": "Terence Eden",
-      "category": "Tech Blogs",
-      "feedHome": "https://shkspr.mobi/blog/"
-    },
-    {
       "title": "Stack Overflow 的衰退与知识生产的结构性迁移",
       "link": "https://www.bestblogs.dev/article/366fe87300?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
       "date": "2026-08-15T04:02:00+00:00",
@@ -4102,26 +4032,6 @@
       "feedHome": "https://simonwillison.net/"
     },
     {
-      "title": "Edinburgh Fringe: Target Audience ★★★★★",
-      "link": "https://shkspr.mobi/blog/2026/08/edinburgh-fringe-target-audience/",
-      "date": "2026-08-14T18:45:41+00:00",
-      "summary": "Easily the best show I&#039;ve seen at the Fringe. For plot-related reasons, a television company asks a literary genius to create a &#34;pro-weapons sitcom&#34;. It is a fast paced mix of the sitcoms 2012 and Episodes. The jokes come at a steady pace - some attack with the furiousity of bullets, ot",
-      "feedId": "shkspr",
-      "feedTitle": "Terence Eden",
-      "category": "Tech Blogs",
-      "feedHome": "https://shkspr.mobi/blog/"
-    },
-    {
-      "title": "Google’s ‘Material 3’ Design Write-Up Is 93.3 Percent Embarrassing",
-      "link": "https://design.google/library/expressive-material-design-google-research",
-      "date": "2026-08-14T17:40:41+00:00",
-      "summary": "This page from Google Design on their “Material 3” UI language came to my attention after my snarky post about the ungainly new to-do app they bizarrely bragged about on Twitter/X this week. I don’t think this “Material 3” page is new — I think it’s a few years old — but I’d never seen it before. Fi",
-      "feedId": "daringfireball",
-      "feedTitle": "Daring Fireball",
-      "category": "Tech Blogs",
-      "feedHome": "https://daringfireball.net/"
-    },
-    {
       "title": "Multi-Agent 的新趋势：从 Agent Team 到 Agent Swarm",
       "link": "https://www.bestblogs.dev/article/fba1f4c6dd?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
       "date": "2026-08-14T16:00:00+00:00",
@@ -4132,16 +4042,6 @@
       "feedHome": "https://www.bestblogs.dev/"
     },
     {
-      "title": "Edinburgh Fringe: Stand-up Philosophy ★★★⯪☆",
-      "link": "https://shkspr.mobi/blog/2026/08/edinburgh-fringe-stand-up-philosophy/",
-      "date": "2026-08-14T15:16:26+00:00",
-      "summary": "For a pay-what-you-want show this was decent. Three comedians doing sets on the theme of philosophy - followed by a Q&#38;A where the audience poses philosophical conundrums to them. It more-or-less works as a gimmick. Although an early afternoon crowd may have been more likely to ask questions anon",
-      "feedId": "shkspr",
-      "feedTitle": "Terence Eden",
-      "category": "Tech Blogs",
-      "feedHome": "https://shkspr.mobi/blog/"
-    },
-    {
       "title": "Forcing an ARM64X executable to run as a specific architecture",
       "link": "https://devblogs.microsoft.com/oldnewthing/20260814-00/?p=112613",
       "date": "2026-08-14T14:00:00+00:00",
@@ -4150,16 +4050,6 @@
       "feedTitle": "The Old New Thing",
       "category": "Tech Blogs",
       "feedHome": "https://devblogs.microsoft.com/oldnewthing/"
-    },
-    {
-      "title": "Edinburgh Fringe: Waiting for Wonka ★★★⯪☆",
-      "link": "https://shkspr.mobi/blog/2026/08/edinburgh-fringe-waiting-for-wonka/",
-      "date": "2026-08-14T12:31:07+00:00",
-      "summary": "This play is fucked up! Such a brilliant concept - what happened to the kids from Charlie and the Chocolate Factory after they were rejected by Wonka? Stuck together in a Big-Brotheresque household, they trauma-dump on each other. New Zealand&#039;s Half Trick have shrunk their full-length play into",
-      "feedId": "shkspr",
-      "feedTitle": "Terence Eden",
-      "category": "Tech Blogs",
-      "feedHome": "https://shkspr.mobi/blog/"
     },
     {
       "title": "Who’s Tracking You? Use This New Service to Find Out",
@@ -4262,26 +4152,6 @@
       "feedHome": "https://simonwillison.net/"
     },
     {
-      "title": "Edinburgh Fringe: Doris, Dolly and the Dressing Room Divas ★★★★⯪",
-      "link": "https://shkspr.mobi/blog/2026/08/edinburgh-fringe-doris-dolly-and-the-dressing-room-divas/",
-      "date": "2026-08-13T22:23:25+00:00",
-      "summary": "Quite simply marvellous! Three Scottish divas giving us their interpretations of the greats while backed by an excellent pianist. So many shows at the Fringe skimp on sets and props - not this! A luscious array of costumes, hats, wigs, and ruby slippers bring the characters to life. The framing is t",
-      "feedId": "shkspr",
-      "feedTitle": "Terence Eden",
-      "category": "Tech Blogs",
-      "feedHome": "https://shkspr.mobi/blog/"
-    },
-    {
-      "title": "Edinburgh Fringe: The Musical Mystery Caller ★★★★★",
-      "link": "https://shkspr.mobi/blog/2026/08/edinburgh-fringe-the-musical-mystery-caller/",
-      "date": "2026-08-13T20:21:53+00:00",
-      "summary": "Walking down the street, I noticed a ringing phone box so, naturally, I answered it. What happened next was a few minutes of pure fringe magic! I had a little chat with the caller, he welcomed me to the smallest venue in the fringe, and then he improvised a banger of a song based on my peculiar proc",
-      "feedId": "shkspr",
-      "feedTitle": "Terence Eden",
-      "category": "Tech Blogs",
-      "feedHome": "https://shkspr.mobi/blog/"
-    },
-    {
       "title": "sqlite-utils 4.2",
       "link": "https://simonwillison.net/2026/Aug/13/sqlite-utils/",
       "date": "2026-08-13T20:11:29+00:00",
@@ -4292,26 +4162,6 @@
       "feedHome": "https://simonwillison.net/"
     },
     {
-      "title": "llm-gemini 0.33",
-      "link": "https://simonwillison.net/2026/Aug/13/llm-gemini/",
-      "date": "2026-08-13T19:37:34+00:00",
-      "summary": "Release: llm-gemini 0.33 It's been a while since the last llm-gemini release. This version of the plugin adds support for today's Gemini 3.7 Flash release, plus gemini-3.6-flash, gemini-3.5-flash-lite and two embedding models gemini-embedding-2 and gemini-embedding-001. The plugin is also upgraded f",
-      "feedId": "simonwillison",
-      "feedTitle": "Simon Willison",
-      "category": "AI & LLM",
-      "feedHome": "https://simonwillison.net/"
-    },
-    {
-      "title": "Edinburgh Fringe: Miscast Sondheim ★★☆☆☆",
-      "link": "https://shkspr.mobi/blog/2026/08/edinburgh-fringe-miscast-sondheim/",
-      "date": "2026-08-13T18:45:15+00:00",
-      "summary": "I&#039;m not sure what they&#039;re teaching at LAMDA, but it certainly isn&#039;t vocal projection. We were forewarned about the technical difficulties - but if a trained stage singer can&#039;t reach the 6th row of a tiny theatre, that can&#039;t be blamed on the backstage team. The show advertise",
-      "feedId": "shkspr",
-      "feedTitle": "Terence Eden",
-      "category": "Tech Blogs",
-      "feedHome": "https://shkspr.mobi/blog/"
-    },
-    {
       "title": "Introducing Gemini 3.7 Flash",
       "link": "https://deepmind.google/blog/introducing-gemini-3-7-flash/",
       "date": "2026-08-13T17:04:18+00:00",
@@ -4320,16 +4170,6 @@
       "feedTitle": "DeepMind Blog",
       "category": "AI & LLM",
       "feedHome": "https://deepmind.google/blog/"
-    },
-    {
-      "title": "Edinburgh Fringe: Hot Flush – A Bold, We’re Old(ish) Burlesque Show ★★★☆☆",
-      "link": "https://shkspr.mobi/blog/2026/08/edinburgh-fringe-hot-flush-a-bold-were-oldish-burlesque-show/",
-      "date": "2026-08-13T16:45:02+00:00",
-      "summary": "Are menopausal women hot? It is often said that pornographic actresses move straight from &#34;barely legal&#34; to &#34;MILF&#34; without so much as moment in between. Unlike the fringe&#039;s other burlesque shows - which seem to exclusively feature nymphettes and twinks with nary a grey hair betw",
-      "feedId": "shkspr",
-      "feedTitle": "Terence Eden",
-      "category": "Tech Blogs",
-      "feedHome": "https://shkspr.mobi/blog/"
     },
     {
       "title": "Constructing Hadamard matrices",
