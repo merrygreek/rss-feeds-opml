@@ -1,12 +1,13 @@
 {
-  "updatedAt": "2026-08-25T03:54:09.255767+00:00",
+  "updatedAt": "2026-08-25T04:39:09.192048+00:00",
   "totalFeeds": 51,
-  "successCount": 45,
-  "failedCount": 6,
+  "successCount": 44,
+  "failedCount": 7,
   "failed": [
     "gwern",
     "garymarcus",
     "thesequence",
+    "seangoedecke",
     "lcamtuf",
     "rachelbythebay",
     "tedunangst"
@@ -20,7 +21,7 @@
         "home": "https://simonwillison.net/",
         "url": "https://simonwillison.net/atom/everything/",
         "status": "ok",
-        "fetchedAt": "2026-08-25T03:53:58.866143+00:00",
+        "fetchedAt": "2026-08-25T04:38:58.399719+00:00",
         "items": [
           {
             "title": "llm-anthropic 0.27",
@@ -91,7 +92,7 @@
         "home": "https://openai.com/news/",
         "url": "https://openai.com/news/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-25T03:53:58.849837+00:00",
+        "fetchedAt": "2026-08-25T04:38:58.459448+00:00",
         "items": [
           {
             "title": "Advancing price-performance for developers with GPT‑5.6 in Kiro",
@@ -162,67 +163,67 @@
         "home": "https://arxiv.org/list/cs.AI/recent",
         "url": "https://arxiv.org/rss/cs.AI",
         "status": "ok",
-        "fetchedAt": "2026-08-25T03:53:59.064718+00:00",
+        "fetchedAt": "2026-08-25T04:38:58.769319+00:00",
         "items": [
           {
-            "title": "SDAD: Spec-Driven Agentic Development for the AI-Native SDLC",
-            "link": "https://arxiv.org/abs/2608.20341",
-            "date": "2026-08-24T00:00:00-04:00",
-            "summary": "arXiv:2608.20341v1 Announce Type: new Abstract: Frontier coding agents backed by large language models with context windows from hundreds of thousands to millions of tokens are restructuring the Software Development Life Cycle (SDLC). Rich context handling and multi-step reasoning now allow substant"
+            "title": "KVBoost: Chunk-Level Key-Value Cache Reuse with Deviation-Guided Recomputation for Efficient Large Language Model Inference",
+            "link": "https://arxiv.org/abs/2608.21362",
+            "date": "2026-08-25T00:00:00-04:00",
+            "summary": "arXiv:2608.21362v1 Announce Type: new Abstract: Transformer-based large language models (LLMs) incur high prefill latency because key-value (KV) tensors must be recomputed for each request. Existing prefix-caching systems reduce this cost but require prompts to share a leading contiguous prefix, lim"
           },
           {
-            "title": "PrimeAgentOrchestrator: Memory-Primed Agent Spawning for Personal AI Infrastructure",
-            "link": "https://arxiv.org/abs/2608.20342",
-            "date": "2026-08-24T00:00:00-04:00",
-            "summary": "arXiv:2608.20342v1 Announce Type: new Abstract: Large language model (LLM) coding agents start each session with an empty context window, discarding accumulated knowledge from prior work. We present PrimeAgentOrchestrator (PAO), a system that spawns new instances of Claude Code -- Anthropic's termin"
+            "title": "AIREP: A Protocol for Per-Decision Evidence in AI Runtime Governance",
+            "link": "https://arxiv.org/abs/2608.21363",
+            "date": "2026-08-25T00:00:00-04:00",
+            "summary": "arXiv:2608.21363v1 Announce Type: new Abstract: A protocol is presented for recording the governance decisions of automated AI runtimes. When a runtime releases, blocks, defers, redacts, or escalates an individual output, AIREP records that decision as a single signed object that any party can check"
           },
           {
-            "title": "Truth Lies Deep: Countering Semantic Camouflage via Latent Intent Verification",
-            "link": "https://arxiv.org/abs/2608.20378",
-            "date": "2026-08-24T00:00:00-04:00",
-            "summary": "arXiv:2608.20378v1 Announce Type: new Abstract: Safety alignment in Large Language Models (LLMs) is often superficial, relying on refusal mechanisms that trigger only at the final stages of generation without erasing the foundational knowledge of harmful concepts acquired during pretraining. This st"
+            "title": "Reviewing Model Collapse and Countermeasures",
+            "link": "https://arxiv.org/abs/2608.21366",
+            "date": "2026-08-25T00:00:00-04:00",
+            "summary": "arXiv:2608.21366v1 Announce Type: new Abstract: Driven by massive amounts of web-scale data, generative AI (GenAI) has achieved remarkable progress, enabling various applications in diverse sectors. The advances of GenAI have actuated practitioners to use AI-synthesized data for training next-genera"
           },
           {
-            "title": "A Survey on Foundations and Frontiers of Multimodal Agentic Frameworks: Techniques and Applications",
-            "link": "https://arxiv.org/abs/2608.20379",
-            "date": "2026-08-24T00:00:00-04:00",
-            "summary": "arXiv:2608.20379v1 Announce Type: new Abstract: Advances in large language models (LLMs) have fueled a wave of research into agency: the ability to reason, plan, and act. This effort has produced agentic frameworks that orchestrate perception, memory, and decision-making around powerful LLM backbone"
+            "title": "AI Learning and Conceptual Transfer in the Game of Hidden Rules",
+            "link": "https://arxiv.org/abs/2608.21372",
+            "date": "2026-08-25T00:00:00-04:00",
+            "summary": "arXiv:2608.21372v1 Announce Type: new Abstract: This report summarizes the work conducted on the Game of Hidden Rules (GOHR), focusing on reinforcement learning agents trained to infer hidden rules from trial-and-error feedback, representation design, rule difficulty analysis, transfer learning, gen"
           },
           {
-            "title": "Interpretable Multimodal Classification with Linear Discriminant Tree Ensembles",
-            "link": "https://arxiv.org/abs/2608.20384",
-            "date": "2026-08-24T00:00:00-04:00",
-            "summary": "arXiv:2608.20384v1 Announce Type: new Abstract: Multimodal affect and behaviour classifiers that fuse heterogeneous text, audio, and visual streams must simultaneously achieve competitive accuracy and produce human-understandable explanations of the cues driving their decisions -- a dual objective t"
+            "title": "LitReview Arena: Evaluating Literature Review Agents with Battle-Style Peer Review Platform",
+            "link": "https://arxiv.org/abs/2608.21374",
+            "date": "2026-08-25T00:00:00-04:00",
+            "summary": "arXiv:2608.21374v1 Announce Type: new Abstract: Literature reviews are essential to scientific progress, but rigorously evaluating automatically generated reviews remains difficult because many aspects of research utility depend on expert judgment rather than reference-overlap metrics. We introduce "
           },
           {
-            "title": "Representation Affects Retrieval: A Case Study of Skill Discovery and Routing in a Multimodal Agent Harness",
-            "link": "https://arxiv.org/abs/2608.20389",
-            "date": "2026-08-24T00:00:00-04:00",
-            "summary": "arXiv:2608.20389v1 Announce Type: new Abstract: A production agent harness must discover and rank, from a growing library of skills, the one most appropriate for a user's task. At small scale this selection happens in context: the LLM planner chooses among skill representations exposed in its system"
+            "title": "SchemaRouter: Field-Aware Tool Routing for Efficient Heterogeneous Agentic RAG",
+            "link": "https://arxiv.org/abs/2608.21375",
+            "date": "2026-08-25T00:00:00-04:00",
+            "summary": "arXiv:2608.21375v1 Announce Type: new Abstract: Heterogeneous agentic retrieval-augmented generation (RAG) systems increasingly orchestrate external APIs, internal databases, vector stores, and graph stores. Exposing all tool descriptions to an LLM agent, or selecting tools only by vector similarity"
           },
           {
-            "title": "Nexus: Depth-Adaptive KV-Cache Splicing and Retrieval-Decoupled Tool Routing for Agentic LLMs on Unified Memory",
-            "link": "https://arxiv.org/abs/2608.20397",
-            "date": "2026-08-24T00:00:00-04:00",
-            "summary": "arXiv:2608.20397v1 Announce Type: new Abstract: Agentic large language models (LLMs) on the Model Context Protocol (MCP) re-encode verbose tool schemas every turn, so prefill - quadratic in sequence length - dominates time-to-first-token (TTFT) as the tool registry grows. Nexus's primary lever is to"
+            "title": "RIACT: A Responsible AI System for Personalized Study Habit Tracking and Early Burnout Signal Detection in University Students",
+            "link": "https://arxiv.org/abs/2608.21379",
+            "date": "2026-08-25T00:00:00-04:00",
+            "summary": "arXiv:2608.21379v1 Announce Type: new Abstract: Student burnout is highly prevalent in higher education, with reported rates ranging from 12% to over 70% and consistently exceeding those of the working population - yet it is typically identified only retrospectively, after academic decline has alrea"
           },
           {
-            "title": "Environmental Slow AI: Design Principles for Generative Systems",
-            "link": "https://arxiv.org/abs/2608.20398",
-            "date": "2026-08-24T00:00:00-04:00",
-            "summary": "arXiv:2608.20398v1 Announce Type: new Abstract: Generative AI (genAI) systems produce cultural artefacts at scale, but they also reflect embedded cultural values through their design. Once identified, these values become open to deliberate reshaping. This position paper examines the maximalist value"
+            "title": "There Is No Neutral Harness: Modern LLM Leaderboards Are Manufactured by Config-Fragile Items",
+            "link": "https://arxiv.org/abs/2608.21382",
+            "date": "2026-08-25T00:00:00-04:00",
+            "summary": "arXiv:2608.21382v1 Announce Type: new Abstract: Multiple-choice benchmarks fix the questions and the correct answers, but not the harness: the order of the options, the wording of the prompt, and whether a language model's answer is read from generated text or from per-option likelihoods. Work on th"
           },
           {
-            "title": "When Retrieval Fails Before It Begins: Structurally Indirect Prerequisite Eviction as a Retention Failure in Agentic Memory",
-            "link": "https://arxiv.org/abs/2608.20400",
-            "date": "2026-08-24T00:00:00-04:00",
-            "summary": "arXiv:2608.20400v1 Announce Type: new Abstract: Agentic memory under a fixed budget involves two stages: retention and retrieval. Existing retrieval-centered paradigms implicitly assume necessary evidence survives eviction, but we challenge this by isolating a pre-retrieval failure mode: structurall"
+            "title": "Spyre-Accelerated Retrieval-Augmented Generation on IBM LinuxONE: A Cloud-Native Architecture for Secure, High-Throughput Enterprise AI Inference",
+            "link": "https://arxiv.org/abs/2608.21393",
+            "date": "2026-08-25T00:00:00-04:00",
+            "summary": "arXiv:2608.21393v1 Announce Type: new Abstract: Running large language models inside enterprise environments has always bumped up against a practical wall: the data lives in one place, the AI horsepower sits somewhere else, and moving sensitive records between the two creates real headaches around l"
           },
           {
-            "title": "World models of environment, agent and joint agent-environment systems",
-            "link": "https://arxiv.org/abs/2608.20401",
-            "date": "2026-08-24T00:00:00-04:00",
-            "summary": "arXiv:2608.20401v1 Announce Type: new Abstract: World models are a central component of model-based reinforcement learning. They are usually discussed in terms of what variables they predict, such as observations, rewards, states, latent or information states. We argue that there is a prior distinct"
+            "title": "Hate Speech Classification In Roman Urdu: A Comparative Study On Parameter Efficient Fine-Tuning And Prompt Engineering",
+            "link": "https://arxiv.org/abs/2608.21408",
+            "date": "2026-08-25T00:00:00-04:00",
+            "summary": "arXiv:2608.21408v1 Announce Type: new Abstract: Due to the widespread accessibility of the internet and social media, toxic and hateful con-tent has grown exponentially, causing significant distress and negative societal impacts. Ro-man Urdu, a low-resource language used in Pakistan and among Urdu-s"
           }
         ]
       },
@@ -233,66 +234,66 @@
         "home": "https://arxiv.org/list/cs.LG/recent",
         "url": "https://arxiv.org/rss/cs.LG",
         "status": "ok",
-        "fetchedAt": "2026-08-25T03:53:59.022919+00:00",
+        "fetchedAt": "2026-08-25T04:38:58.674053+00:00",
         "items": [
           {
             "title": "Bankruptcy Prediction via Hybrid Resampling and Stacking Ensemble Techniques with Explainable Artificial Intelligence (XAI)-Driven Analysis",
             "link": "https://arxiv.org/abs/2608.20343",
-            "date": "2026-08-24T00:00:00-04:00",
+            "date": "2026-08-25T00:00:00-04:00",
             "summary": "arXiv:2608.20343v1 Announce Type: new Abstract: This study develops and evaluates a bankruptcy prediction framework that integrates consensus-based feature selection, hybrid resampling, stacking ensembles, and explainable artificial intelligence to improve minority-class detection in severely imbala"
           },
           {
             "title": "Machine Learning and ARIMA Model Averaging for Adaptive Public Health Forecasting: Comparative Evaluation and an Ontario COVID-19 Case Study",
             "link": "https://arxiv.org/abs/2608.20406",
-            "date": "2026-08-24T00:00:00-04:00",
+            "date": "2026-08-25T00:00:00-04:00",
             "summary": "arXiv:2608.20406v1 Announce Type: new Abstract: Public health forecasts must respond to abrupt changes in surveillance data without over-extrapolating noise, reporting artifacts, or temporary trends. We evaluated autoregressive integrated moving average (ARIMA), random forest, and extreme gradient b"
           },
           {
             "title": "From Thermal Preference Prediction to Adaptive Thermal Intervention: A Reinforcement Learning Approach Using Physiological and Environmental Sensing",
             "link": "https://arxiv.org/abs/2608.20423",
-            "date": "2026-08-24T00:00:00-04:00",
+            "date": "2026-08-25T00:00:00-04:00",
             "summary": "arXiv:2608.20423v1 Announce Type: new Abstract: Personalised thermal comfort is essential for occupant wellbeing and for the development of more responsive building-control strategies, yet conventional Heating, Ventilation, and Air Conditioning (HVAC) systems rely on static setpoints and population-"
           },
           {
             "title": "BF1: A Causal Dyadic Sparse-Attention Retrofit for Efficient Long-Context Transformers",
             "link": "https://arxiv.org/abs/2608.20427",
-            "date": "2026-08-24T00:00:00-04:00",
+            "date": "2026-08-25T00:00:00-04:00",
             "summary": "arXiv:2608.20427v1 Announce Type: new Abstract: Dense causal attention remains expensive at long context even when implemented with highly optimized exact kernels. We study BF1, a deterministic block-aligned dyadic sparse-attention route that combines a small exact local neighborhood, a global first"
           },
           {
             "title": "Approximate Homomorphisms and Convergent Representations in Transducers",
             "link": "https://arxiv.org/abs/2608.20428",
-            "date": "2026-08-24T00:00:00-04:00",
+            "date": "2026-08-25T00:00:00-04:00",
             "summary": "arXiv:2608.20428v1 Announce Type: new Abstract: We study the stability of minimal representations of controlled stochastic processes (in particular, transducers) under perturbations. This question is motivated by recent experiments finding predictive-state structure in the latent representations of "
           },
           {
             "title": "Wrong-Physics Backdoors in Neural PDE Operators",
             "link": "https://arxiv.org/abs/2608.20439",
-            "date": "2026-08-24T00:00:00-04:00",
+            "date": "2026-08-25T00:00:00-04:00",
             "summary": "arXiv:2608.20439v1 Announce Type: new Abstract: Neural PDE operators are increasingly trained on reusable solver archives, yet validation often relies on clean prediction error and parameter-agnostic plausibility checks. We introduce cross-parameter relinking, a data-poisoning primitive that makes a"
           },
           {
             "title": "Decision Tree and K-Means Analysis of Raman Spectra for Edible Oils: A Physics-Informed AI Approach",
             "link": "https://arxiv.org/abs/2608.20440",
-            "date": "2026-08-24T00:00:00-04:00",
+            "date": "2026-08-25T00:00:00-04:00",
             "summary": "arXiv:2608.20440v1 Announce Type: new Abstract: Authentication of edible oils in processed foods is important for food quality, fraud prevention, and regulatory compliance. This study establishes an integrated Raman spectroscopy and machine-learning framework that links intrinsic spectral organizati"
           },
           {
             "title": "Shared Physics Responses Recover Hidden Rankings in Neural Operator Libraries",
             "link": "https://arxiv.org/abs/2608.20441",
-            "date": "2026-08-24T00:00:00-04:00",
+            "date": "2026-08-25T00:00:00-04:00",
             "summary": "arXiv:2608.20441v1 Announce Type: new Abstract: Selecting the optimal neural-operator prediction during deployment is challenging when high-fidelity reference solutions are unavailable. We demonstrate that under a squared Hilbert-space loss, ranking a finite model library depends strictly on the low"
           },
           {
             "title": "Stored in Optimizer State, Valued by Later Training: A Causal Account of Subliminal Trait Transfer",
             "link": "https://arxiv.org/abs/2608.20442",
-            "date": "2026-08-24T00:00:00-04:00",
+            "date": "2026-08-25T00:00:00-04:00",
             "summary": "arXiv:2608.20442v1 Announce Type: new Abstract: Subliminal trait transfer allows a student model to acquire behavioral dispositions from teacher-generated data in which the trait is not semantically expressed. Recent work explains how such signals enter gradients, but not how they survive source rem"
           },
           {
             "title": "Amortized Bandwidth Learning for Kernel Density Estimation under Logarithmic Score",
             "link": "https://arxiv.org/abs/2608.20445",
-            "date": "2026-08-24T00:00:00-04:00",
+            "date": "2026-08-25T00:00:00-04:00",
             "summary": "arXiv:2608.20445v1 Announce Type: new Abstract: Kernel density estimation converts finite samples into probability densities, but its performance depends critically on bandwidth selection. Classical selectors prescribe the sample-to-bandwidth rule analytically or asymptotically, or solve a new optim"
           }
         ]
@@ -304,7 +305,7 @@
         "home": "https://research.google/blog/",
         "url": "https://research.google/blog/rss/",
         "status": "ok",
-        "fetchedAt": "2026-08-25T03:53:58.924790+00:00",
+        "fetchedAt": "2026-08-25T04:38:58.516362+00:00",
         "items": [
           {
             "title": "An AI tool for prioritizing candidate biomarkers from wearable sensor data",
@@ -375,7 +376,7 @@
         "home": "https://deepmind.google/blog/",
         "url": "https://deepmind.google/blog/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-25T03:53:59.160619+00:00",
+        "fetchedAt": "2026-08-25T04:38:58.827467+00:00",
         "items": [
           {
             "title": "From Atari to EVE Online: Building on 15 Years of AI Research in Games",
@@ -446,7 +447,7 @@
         "home": "https://lilianweng.github.io/",
         "url": "https://lilianweng.github.io/lil-log/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-25T03:53:59.075983+00:00",
+        "fetchedAt": "2026-08-25T04:38:58.465561+00:00",
         "items": [
           {
             "title": "Active Learning",
@@ -537,7 +538,7 @@
         "home": "https://minimaxir.com/",
         "url": "https://minimaxir.com/index.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-25T03:53:58.882761+00:00",
+        "fetchedAt": "2026-08-25T04:38:58.533429+00:00",
         "items": [
           {
             "title": "LLMs break down in funny ways when told the Jacobian Conjecture counterargument",
@@ -620,7 +621,7 @@
         "home": "https://www.jeffgeerling.com/",
         "url": "https://www.jeffgeerling.com/blog.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-25T03:53:58.861090+00:00",
+        "fetchedAt": "2026-08-25T04:38:58.467490+00:00",
         "items": [
           {
             "title": "Getting the Steam Deck LCD working on a Raspberry Pi",
@@ -690,70 +691,9 @@
         "title": "Sean Goedecke",
         "home": "https://www.seangoedecke.com/",
         "url": "https://www.seangoedecke.com/rss.xml",
-        "status": "ok",
-        "fetchedAt": "2026-08-25T03:53:58.978412+00:00",
-        "items": [
-          {
-            "title": "You should never be angry at work",
-            "link": "https://seangoedecke.com/you-should-never-be-angry-at-work/",
-            "date": "2026-08-22T00:00:00+00:00",
-            "summary": ""
-          },
-          {
-            "title": "Readers can't identify watermarked AI text",
-            "link": "https://seangoedecke.com/readers-cant-identify-watermarked-ai-text/",
-            "date": "2026-08-21T00:00:00+00:00",
-            "summary": ""
-          },
-          {
-            "title": "Good writing is obvious, not original",
-            "link": "https://seangoedecke.com/good-writing-is-obvious-not-original/",
-            "date": "2026-08-19T00:00:00+00:00",
-            "summary": ""
-          },
-          {
-            "title": "Help peer",
-            "link": "https://seangoedecke.com/help-peer/",
-            "date": "2026-08-18T00:00:00+00:00",
-            "summary": ""
-          },
-          {
-            "title": "AI text watermarking is not a big deal",
-            "link": "https://seangoedecke.com/ai-text-watermarking-is-not-a-big-deal/",
-            "date": "2026-08-16T00:00:00+00:00",
-            "summary": ""
-          },
-          {
-            "title": "No, local models will not win",
-            "link": "https://seangoedecke.com/local-models-will-not-win/",
-            "date": "2026-08-11T00:00:00+00:00",
-            "summary": ""
-          },
-          {
-            "title": "Advanced AI sycophancy",
-            "link": "https://seangoedecke.com/advanced-ai-sycophancy/",
-            "date": "2026-08-10T00:00:00+00:00",
-            "summary": ""
-          },
-          {
-            "title": "I got an email about resistance",
-            "link": "https://seangoedecke.com/i-got-an-email-about-resistance/",
-            "date": "2026-08-09T00:00:00+00:00",
-            "summary": ""
-          },
-          {
-            "title": "How to keep thinking",
-            "link": "https://seangoedecke.com/how-to-keep-thinking/",
-            "date": "2026-08-07T00:00:00+00:00",
-            "summary": ""
-          },
-          {
-            "title": "Giving and taking credit in big tech companies",
-            "link": "https://seangoedecke.com/giving-and-taking-credit/",
-            "date": "2026-08-02T00:00:00+00:00",
-            "summary": ""
-          }
-        ]
+        "status": "error",
+        "error": "Response payload is not completed: <ContentLengthError: 400, message='Not enough data to satisfy content length header (received 8394 of 134346 bytes).'>. ConnectionResetError(104, 'Connection reset by peer')",
+        "items": []
       },
       {
         "id": "krebsonsecurity",
@@ -762,7 +702,7 @@
         "home": "https://krebsonsecurity.com/",
         "url": "https://krebsonsecurity.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-08-25T03:53:58.870992+00:00",
+        "fetchedAt": "2026-08-25T04:38:58.536972+00:00",
         "items": [
           {
             "title": "Who’s Tracking You? Use This New Service to Find Out",
@@ -833,7 +773,7 @@
         "home": "https://daringfireball.net/",
         "url": "https://daringfireball.net/feeds/main",
         "status": "ok",
-        "fetchedAt": "2026-08-25T03:53:58.916724+00:00",
+        "fetchedAt": "2026-08-25T04:38:58.526275+00:00",
         "items": [
           {
             "title": "[Sponsor] Finalist 4: Inspired by Paper Day Planners",
@@ -904,7 +844,7 @@
         "home": "https://ericmigi.com/",
         "url": "https://ericmigi.com/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-25T03:53:58.902380+00:00",
+        "fetchedAt": "2026-08-25T04:38:58.470004+00:00",
         "items": [
           {
             "title": "Index 01 Is In Mass Production!",
@@ -975,7 +915,7 @@
         "home": "http://antirez.com/",
         "url": "http://antirez.com/rss",
         "status": "ok",
-        "fetchedAt": "2026-08-25T03:54:01.281231+00:00",
+        "fetchedAt": "2026-08-25T04:39:01.035616+00:00",
         "items": [
           {
             "title": "The real AI risk is inside the labs",
@@ -1046,7 +986,7 @@
         "home": "https://idiallo.com/",
         "url": "https://idiallo.com/feed.rss",
         "status": "ok",
-        "fetchedAt": "2026-08-25T03:53:59.135414+00:00",
+        "fetchedAt": "2026-08-25T04:38:58.784766+00:00",
         "items": [
           {
             "title": "Where Did the Productivity Gains Go?",
@@ -1117,7 +1057,7 @@
         "home": "https://maurycyz.com/",
         "url": "https://maurycyz.com/index.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-25T03:53:59.751974+00:00",
+        "fetchedAt": "2026-08-25T04:38:59.377316+00:00",
         "items": []
       },
       {
@@ -1127,7 +1067,7 @@
         "home": "https://pluralistic.net/",
         "url": "https://pluralistic.net/feed/",
         "status": "ok",
-        "fetchedAt": "2026-08-25T03:54:02.330342+00:00",
+        "fetchedAt": "2026-08-25T04:39:01.976156+00:00",
         "items": [
           {
             "title": "Pluralistic: How Canada can help Americans and defeat America (23 Aug 2026)",
@@ -1198,7 +1138,7 @@
         "home": "https://shkspr.mobi/blog/",
         "url": "https://shkspr.mobi/blog/feed/",
         "status": "ok",
-        "fetchedAt": "2026-08-25T03:53:59.822277+00:00",
+        "fetchedAt": "2026-08-25T04:38:59.211388+00:00",
         "items": [
           {
             "title": "Why do audience members choose specific shows at the Edinburgh Fringe?",
@@ -1279,7 +1219,7 @@
         "home": "https://mitchellh.com/",
         "url": "https://mitchellh.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-25T03:53:59.429198+00:00",
+        "fetchedAt": "2026-08-25T04:38:58.538817+00:00",
         "items": [
           {
             "title": "Superlogical",
@@ -1350,7 +1290,7 @@
         "home": "https://dynomight.net/",
         "url": "https://dynomight.net/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-25T03:53:59.319690+00:00",
+        "fetchedAt": "2026-08-25T04:38:58.869106+00:00",
         "items": [
           {
             "title": "Thoughts I had while reading your comment",
@@ -1421,7 +1361,7 @@
         "home": "https://xeiaso.net/",
         "url": "https://xeiaso.net/blog.rss",
         "status": "ok",
-        "fetchedAt": "2026-08-25T03:53:59.827758+00:00",
+        "fetchedAt": "2026-08-25T04:38:59.469664+00:00",
         "items": [
           {
             "title": "Anubis continues to expose new ways people configure webservers",
@@ -1492,7 +1432,7 @@
         "home": "https://devblogs.microsoft.com/oldnewthing/",
         "url": "https://devblogs.microsoft.com/oldnewthing/feed",
         "status": "ok",
-        "fetchedAt": "2026-08-25T03:53:59.289128+00:00",
+        "fetchedAt": "2026-08-25T04:38:58.951498+00:00",
         "items": [
           {
             "title": "Comparing the two holograms on the Windows 95 box",
@@ -1563,7 +1503,7 @@
         "home": "https://www.righto.com/",
         "url": "https://www.righto.com/feeds/posts/default",
         "status": "ok",
-        "fetchedAt": "2026-08-25T03:53:59.174093+00:00",
+        "fetchedAt": "2026-08-25T04:38:59.017361+00:00",
         "items": []
       },
       {
@@ -1573,7 +1513,7 @@
         "home": "https://lucumr.pocoo.org/",
         "url": "https://lucumr.pocoo.org/feed.atom",
         "status": "ok",
-        "fetchedAt": "2026-08-25T03:53:58.907645+00:00",
+        "fetchedAt": "2026-08-25T04:38:58.918473+00:00",
         "items": [
           {
             "title": "Anger, Anxiety and Agency",
@@ -1644,7 +1584,7 @@
         "home": "https://skyfall.dev/",
         "url": "https://skyfall.dev/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-25T03:53:59.280110+00:00",
+        "fetchedAt": "2026-08-25T04:38:58.954145+00:00",
         "items": [
           {
             "title": "Good riddance, 4o",
@@ -1719,7 +1659,7 @@
         "home": "https://overreacted.io/",
         "url": "https://overreacted.io/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-25T03:53:59.552621+00:00",
+        "fetchedAt": "2026-08-25T04:38:58.682771+00:00",
         "items": [
           {
             "title": "There Are No Instances in atproto",
@@ -1790,10 +1730,10 @@
         "home": "https://www.johndcook.com/",
         "url": "https://www.johndcook.com/blog/feed/",
         "status": "ok",
-        "fetchedAt": "2026-08-25T03:53:58.990947+00:00",
+        "fetchedAt": "2026-08-25T04:38:58.680587+00:00",
         "items": [
           {
-            "title": "Numerical (in)stability of recurrece relations",
+            "title": "Numerical (in)stability of recurrence relations",
             "link": "https://www.johndcook.com/blog/2026/08/24/numerical-instability-recurrece/",
             "date": "2026-08-25T01:47:47+00:00",
             "summary": "The previous post gave several examples of three-term recurrence relations for special functions. These relations can be computationally useful, but they have to be applied carefully. Several years ago I wrote a post on stable and unstable recurrences. In that post I show that the stability of the r"
@@ -1861,7 +1801,7 @@
         "home": "https://matklad.github.io/",
         "url": "https://matklad.github.io/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-25T03:53:59.111750+00:00",
+        "fetchedAt": "2026-08-25T04:38:58.777728+00:00",
         "items": [
           {
             "title": "Rust Glancer",
@@ -1932,7 +1872,7 @@
         "home": "https://eli.thegreenplace.net/",
         "url": "https://eli.thegreenplace.net/feeds/all.atom.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-25T03:53:59.477495+00:00",
+        "fetchedAt": "2026-08-25T04:38:59.000168+00:00",
         "items": [
           {
             "title": "Concurrent Servers: Part 8 - Go",
@@ -1973,7 +1913,7 @@
         "home": "https://fabiensanglard.net/",
         "url": "https://fabiensanglard.net/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-25T03:53:59.398154+00:00",
+        "fetchedAt": "2026-08-25T04:38:58.938033+00:00",
         "items": [
           {
             "title": "My agent.md to improve LLM-assisted code quality",
@@ -2044,7 +1984,7 @@
         "home": "https://blog.miguelgrinberg.com/",
         "url": "https://blog.miguelgrinberg.com/feed",
         "status": "ok",
-        "fetchedAt": "2026-08-25T03:53:59.753100+00:00",
+        "fetchedAt": "2026-08-25T04:38:59.873792+00:00",
         "items": [
           {
             "title": "I Am Not a Reverse Centaur",
@@ -2115,7 +2055,7 @@
         "home": "https://www.troyhunt.com/",
         "url": "https://www.troyhunt.com/rss/",
         "status": "ok",
-        "fetchedAt": "2026-08-25T03:53:59.176710+00:00",
+        "fetchedAt": "2026-08-25T04:38:58.632541+00:00",
         "items": [
           {
             "title": "Weekly Update 518: IoT Doorlock Nirvana with UniFi",
@@ -2186,7 +2126,7 @@
         "home": "https://anildash.com/",
         "url": "https://anildash.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-25T03:53:59.409874+00:00",
+        "fetchedAt": "2026-08-25T04:38:58.909125+00:00",
         "items": [
           {
             "title": "Actually, people love to work hard",
@@ -2257,7 +2197,7 @@
         "home": "https://computer.rip/",
         "url": "https://computer.rip/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-25T03:53:59.385078+00:00",
+        "fetchedAt": "2026-08-25T04:38:59.318292+00:00",
         "items": [
           {
             "title": "the figure of the earth",
@@ -2338,7 +2278,7 @@
         "home": "http://paulgraham.com/",
         "url": "http://www.aaronsw.com/2002/feeds/pgessays.rss",
         "status": "ok",
-        "fetchedAt": "2026-08-25T03:53:59.184083+00:00",
+        "fetchedAt": "2026-08-25T04:38:59.022700+00:00",
         "items": [
           {
             "title": "Superlinear Returns",
@@ -2409,7 +2349,7 @@
         "home": "https://steveblank.com/",
         "url": "https://steveblank.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-08-25T03:53:59.241761+00:00",
+        "fetchedAt": "2026-08-25T04:38:59.077755+00:00",
         "items": [
           {
             "title": "Lean Launch Pad 2026 @ Stanford – Lessons Learned Presentations",
@@ -2482,7 +2422,7 @@
         "home": "https://news.ycombinator.com/",
         "url": "https://news.ycombinator.com/rss",
         "status": "ok",
-        "fetchedAt": "2026-08-25T03:53:59.116446+00:00",
+        "fetchedAt": "2026-08-25T04:38:58.979306+00:00",
         "items": [
           {
             "title": "iCloud+ Hide My Email addresses will remain on icloud.com",
@@ -2509,15 +2449,15 @@
             "summary": "Comments"
           },
           {
-            "title": "Moon (2024)",
-            "link": "https://ciechanow.ski/moon/",
-            "date": "2026-08-24T22:06:02+00:00",
+            "title": "Headlong: A Microharness for Persistent Agents",
+            "link": "https://www.laude.org/updates/headlong-a-microharness-for-persistent-agents",
+            "date": "2026-08-25T03:54:19+00:00",
             "summary": "Comments"
           },
           {
-            "title": "Was Modern Art a CIA Psy-Op? (2020)",
-            "link": "https://daily.jstor.org/was-modern-art-really-a-cia-psy-op/",
-            "date": "2026-08-25T01:35:00+00:00",
+            "title": "Moon (2024)",
+            "link": "https://ciechanow.ski/moon/",
+            "date": "2026-08-24T22:06:02+00:00",
             "summary": "Comments"
           },
           {
@@ -2553,7 +2493,7 @@
         "home": "https://www.techmeme.com/",
         "url": "https://www.techmeme.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-25T03:53:59.991192+00:00",
+        "fetchedAt": "2026-08-25T04:38:58.877178+00:00",
         "items": [
           {
             "title": "Sources: Nvidia-backed neocloud Lambda is in talks to raise up to $3B at a $12B+ valuation; its revenue this year is estimated to reach $1.5B+ (Bloomberg)",
@@ -2624,7 +2564,7 @@
         "home": "https://techcrunch.com/",
         "url": "https://techcrunch.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-08-25T03:53:59.087521+00:00",
+        "fetchedAt": "2026-08-25T04:38:58.636821+00:00",
         "items": [
           {
             "title": "India’s Airbound bags $37M to take on trucks with rocket-like drones",
@@ -2695,7 +2635,7 @@
         "home": "https://techcrunch.com/category/artificial-intelligence/",
         "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
         "status": "ok",
-        "fetchedAt": "2026-08-25T03:53:59.086049+00:00",
+        "fetchedAt": "2026-08-25T04:38:58.821714+00:00",
         "items": [
           {
             "title": "Situational Awareness, star AI hedge fund that nearly imploded, now being probed by the SEC",
@@ -2766,7 +2706,7 @@
         "home": "https://techcrunch.com/tag/funding/",
         "url": "https://techcrunch.com/tag/funding/feed/",
         "status": "ok",
-        "fetchedAt": "2026-08-25T03:53:59.301959+00:00",
+        "fetchedAt": "2026-08-25T04:38:58.873778+00:00",
         "items": [
           {
             "title": "Wispr raises $280M at $2B valuation as it looks beyond dictation",
@@ -2837,7 +2777,7 @@
         "home": "https://venturebeat.com/",
         "url": "https://venturebeat.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-08-25T03:53:59.297892+00:00",
+        "fetchedAt": "2026-08-25T04:38:58.782801+00:00",
         "items": [
           {
             "title": "Anthropic’s new Claude Tag update lets its Slack agent read the full conversation — and jump in unprompted",
@@ -2890,7 +2830,7 @@
         "home": "https://venturebeat.com/category/ai/",
         "url": "https://venturebeat.com/category/ai/feed/",
         "status": "ok",
-        "fetchedAt": "2026-08-25T03:53:59.287394+00:00",
+        "fetchedAt": "2026-08-25T04:38:58.832511+00:00",
         "items": [
           {
             "title": "VentureBeat names Rob Strechay as its first Lead Analyst, expanding its enterprise AI research push",
@@ -2945,7 +2885,7 @@
         "home": "https://www.ruanyifeng.com/blog/",
         "url": "https://www.ruanyifeng.com/blog/atom.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-25T03:53:59.150451+00:00",
+        "fetchedAt": "2026-08-25T04:38:58.930900+00:00",
         "items": [
           {
             "title": "科技爱好者周刊（第 409 期）：程序员的职业未来",
@@ -2974,7 +2914,7 @@
         "home": "https://www.bestblogs.dev/",
         "url": "https://www.bestblogs.dev/zh/feeds/rss?category=ai&minScore=90",
         "status": "ok",
-        "fetchedAt": "2026-08-25T03:54:00.047056+00:00",
+        "fetchedAt": "2026-08-25T04:38:59.957452+00:00",
         "items": [
           {
             "title": "聊聊 Agentic RL 中的多轮 rollout、上下文重建与 RL 训练",
@@ -3042,6 +2982,16 @@
   },
   "allItems": [
     {
+      "title": "Headlong: A Microharness for Persistent Agents",
+      "link": "https://www.laude.org/updates/headlong-a-microharness-for-persistent-agents",
+      "date": "2026-08-25T03:54:19+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
       "title": "India’s Airbound bags $37M to take on trucks with rocket-like drones",
       "link": "https://techcrunch.com/2026/08/24/indias-airbound-bags-37m-to-take-on-trucks-with-rocket-like-drones/",
       "date": "2026-08-25T03:30:00+00:00",
@@ -3052,7 +3002,7 @@
       "feedHome": "https://techcrunch.com/"
     },
     {
-      "title": "Numerical (in)stability of recurrece relations",
+      "title": "Numerical (in)stability of recurrence relations",
       "link": "https://www.johndcook.com/blog/2026/08/24/numerical-instability-recurrece/",
       "date": "2026-08-25T01:47:47+00:00",
       "summary": "The previous post gave several examples of three-term recurrence relations for special functions. These relations can be computationally useful, but they have to be applied carefully. Several years ago I wrote a post on stable and unstable recurrences. In that post I show that the stability of the r",
@@ -3065,16 +3015,6 @@
       "title": "How Universities Should Prepare Founders",
       "link": "https://paulgraham.com/prepare.html",
       "date": "2026-08-25T01:40:39+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
-      "title": "Was Modern Art a CIA Psy-Op? (2020)",
-      "link": "https://daily.jstor.org/was-modern-art-really-a-cia-psy-op/",
-      "date": "2026-08-25T01:35:00+00:00",
       "summary": "Comments",
       "feedId": "hackernews",
       "feedTitle": "Hacker News",
@@ -3110,6 +3050,206 @@
       "feedTitle": "TechCrunch AI",
       "category": "Startup & News",
       "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
+    },
+    {
+      "title": "KVBoost: Chunk-Level Key-Value Cache Reuse with Deviation-Guided Recomputation for Efficient Large Language Model Inference",
+      "link": "https://arxiv.org/abs/2608.21362",
+      "date": "2026-08-25T00:00:00-04:00",
+      "summary": "arXiv:2608.21362v1 Announce Type: new Abstract: Transformer-based large language models (LLMs) incur high prefill latency because key-value (KV) tensors must be recomputed for each request. Existing prefix-caching systems reduce this cost but require prompts to share a leading contiguous prefix, lim",
+      "feedId": "arxiv-ai",
+      "feedTitle": "arXiv cs.AI",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.AI/recent"
+    },
+    {
+      "title": "AIREP: A Protocol for Per-Decision Evidence in AI Runtime Governance",
+      "link": "https://arxiv.org/abs/2608.21363",
+      "date": "2026-08-25T00:00:00-04:00",
+      "summary": "arXiv:2608.21363v1 Announce Type: new Abstract: A protocol is presented for recording the governance decisions of automated AI runtimes. When a runtime releases, blocks, defers, redacts, or escalates an individual output, AIREP records that decision as a single signed object that any party can check",
+      "feedId": "arxiv-ai",
+      "feedTitle": "arXiv cs.AI",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.AI/recent"
+    },
+    {
+      "title": "Reviewing Model Collapse and Countermeasures",
+      "link": "https://arxiv.org/abs/2608.21366",
+      "date": "2026-08-25T00:00:00-04:00",
+      "summary": "arXiv:2608.21366v1 Announce Type: new Abstract: Driven by massive amounts of web-scale data, generative AI (GenAI) has achieved remarkable progress, enabling various applications in diverse sectors. The advances of GenAI have actuated practitioners to use AI-synthesized data for training next-genera",
+      "feedId": "arxiv-ai",
+      "feedTitle": "arXiv cs.AI",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.AI/recent"
+    },
+    {
+      "title": "AI Learning and Conceptual Transfer in the Game of Hidden Rules",
+      "link": "https://arxiv.org/abs/2608.21372",
+      "date": "2026-08-25T00:00:00-04:00",
+      "summary": "arXiv:2608.21372v1 Announce Type: new Abstract: This report summarizes the work conducted on the Game of Hidden Rules (GOHR), focusing on reinforcement learning agents trained to infer hidden rules from trial-and-error feedback, representation design, rule difficulty analysis, transfer learning, gen",
+      "feedId": "arxiv-ai",
+      "feedTitle": "arXiv cs.AI",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.AI/recent"
+    },
+    {
+      "title": "LitReview Arena: Evaluating Literature Review Agents with Battle-Style Peer Review Platform",
+      "link": "https://arxiv.org/abs/2608.21374",
+      "date": "2026-08-25T00:00:00-04:00",
+      "summary": "arXiv:2608.21374v1 Announce Type: new Abstract: Literature reviews are essential to scientific progress, but rigorously evaluating automatically generated reviews remains difficult because many aspects of research utility depend on expert judgment rather than reference-overlap metrics. We introduce ",
+      "feedId": "arxiv-ai",
+      "feedTitle": "arXiv cs.AI",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.AI/recent"
+    },
+    {
+      "title": "SchemaRouter: Field-Aware Tool Routing for Efficient Heterogeneous Agentic RAG",
+      "link": "https://arxiv.org/abs/2608.21375",
+      "date": "2026-08-25T00:00:00-04:00",
+      "summary": "arXiv:2608.21375v1 Announce Type: new Abstract: Heterogeneous agentic retrieval-augmented generation (RAG) systems increasingly orchestrate external APIs, internal databases, vector stores, and graph stores. Exposing all tool descriptions to an LLM agent, or selecting tools only by vector similarity",
+      "feedId": "arxiv-ai",
+      "feedTitle": "arXiv cs.AI",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.AI/recent"
+    },
+    {
+      "title": "RIACT: A Responsible AI System for Personalized Study Habit Tracking and Early Burnout Signal Detection in University Students",
+      "link": "https://arxiv.org/abs/2608.21379",
+      "date": "2026-08-25T00:00:00-04:00",
+      "summary": "arXiv:2608.21379v1 Announce Type: new Abstract: Student burnout is highly prevalent in higher education, with reported rates ranging from 12% to over 70% and consistently exceeding those of the working population - yet it is typically identified only retrospectively, after academic decline has alrea",
+      "feedId": "arxiv-ai",
+      "feedTitle": "arXiv cs.AI",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.AI/recent"
+    },
+    {
+      "title": "There Is No Neutral Harness: Modern LLM Leaderboards Are Manufactured by Config-Fragile Items",
+      "link": "https://arxiv.org/abs/2608.21382",
+      "date": "2026-08-25T00:00:00-04:00",
+      "summary": "arXiv:2608.21382v1 Announce Type: new Abstract: Multiple-choice benchmarks fix the questions and the correct answers, but not the harness: the order of the options, the wording of the prompt, and whether a language model's answer is read from generated text or from per-option likelihoods. Work on th",
+      "feedId": "arxiv-ai",
+      "feedTitle": "arXiv cs.AI",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.AI/recent"
+    },
+    {
+      "title": "Spyre-Accelerated Retrieval-Augmented Generation on IBM LinuxONE: A Cloud-Native Architecture for Secure, High-Throughput Enterprise AI Inference",
+      "link": "https://arxiv.org/abs/2608.21393",
+      "date": "2026-08-25T00:00:00-04:00",
+      "summary": "arXiv:2608.21393v1 Announce Type: new Abstract: Running large language models inside enterprise environments has always bumped up against a practical wall: the data lives in one place, the AI horsepower sits somewhere else, and moving sensitive records between the two creates real headaches around l",
+      "feedId": "arxiv-ai",
+      "feedTitle": "arXiv cs.AI",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.AI/recent"
+    },
+    {
+      "title": "Hate Speech Classification In Roman Urdu: A Comparative Study On Parameter Efficient Fine-Tuning And Prompt Engineering",
+      "link": "https://arxiv.org/abs/2608.21408",
+      "date": "2026-08-25T00:00:00-04:00",
+      "summary": "arXiv:2608.21408v1 Announce Type: new Abstract: Due to the widespread accessibility of the internet and social media, toxic and hateful con-tent has grown exponentially, causing significant distress and negative societal impacts. Ro-man Urdu, a low-resource language used in Pakistan and among Urdu-s",
+      "feedId": "arxiv-ai",
+      "feedTitle": "arXiv cs.AI",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.AI/recent"
+    },
+    {
+      "title": "Bankruptcy Prediction via Hybrid Resampling and Stacking Ensemble Techniques with Explainable Artificial Intelligence (XAI)-Driven Analysis",
+      "link": "https://arxiv.org/abs/2608.20343",
+      "date": "2026-08-25T00:00:00-04:00",
+      "summary": "arXiv:2608.20343v1 Announce Type: new Abstract: This study develops and evaluates a bankruptcy prediction framework that integrates consensus-based feature selection, hybrid resampling, stacking ensembles, and explainable artificial intelligence to improve minority-class detection in severely imbala",
+      "feedId": "arxiv-lg",
+      "feedTitle": "arXiv cs.LG",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.LG/recent"
+    },
+    {
+      "title": "Machine Learning and ARIMA Model Averaging for Adaptive Public Health Forecasting: Comparative Evaluation and an Ontario COVID-19 Case Study",
+      "link": "https://arxiv.org/abs/2608.20406",
+      "date": "2026-08-25T00:00:00-04:00",
+      "summary": "arXiv:2608.20406v1 Announce Type: new Abstract: Public health forecasts must respond to abrupt changes in surveillance data without over-extrapolating noise, reporting artifacts, or temporary trends. We evaluated autoregressive integrated moving average (ARIMA), random forest, and extreme gradient b",
+      "feedId": "arxiv-lg",
+      "feedTitle": "arXiv cs.LG",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.LG/recent"
+    },
+    {
+      "title": "From Thermal Preference Prediction to Adaptive Thermal Intervention: A Reinforcement Learning Approach Using Physiological and Environmental Sensing",
+      "link": "https://arxiv.org/abs/2608.20423",
+      "date": "2026-08-25T00:00:00-04:00",
+      "summary": "arXiv:2608.20423v1 Announce Type: new Abstract: Personalised thermal comfort is essential for occupant wellbeing and for the development of more responsive building-control strategies, yet conventional Heating, Ventilation, and Air Conditioning (HVAC) systems rely on static setpoints and population-",
+      "feedId": "arxiv-lg",
+      "feedTitle": "arXiv cs.LG",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.LG/recent"
+    },
+    {
+      "title": "BF1: A Causal Dyadic Sparse-Attention Retrofit for Efficient Long-Context Transformers",
+      "link": "https://arxiv.org/abs/2608.20427",
+      "date": "2026-08-25T00:00:00-04:00",
+      "summary": "arXiv:2608.20427v1 Announce Type: new Abstract: Dense causal attention remains expensive at long context even when implemented with highly optimized exact kernels. We study BF1, a deterministic block-aligned dyadic sparse-attention route that combines a small exact local neighborhood, a global first",
+      "feedId": "arxiv-lg",
+      "feedTitle": "arXiv cs.LG",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.LG/recent"
+    },
+    {
+      "title": "Approximate Homomorphisms and Convergent Representations in Transducers",
+      "link": "https://arxiv.org/abs/2608.20428",
+      "date": "2026-08-25T00:00:00-04:00",
+      "summary": "arXiv:2608.20428v1 Announce Type: new Abstract: We study the stability of minimal representations of controlled stochastic processes (in particular, transducers) under perturbations. This question is motivated by recent experiments finding predictive-state structure in the latent representations of ",
+      "feedId": "arxiv-lg",
+      "feedTitle": "arXiv cs.LG",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.LG/recent"
+    },
+    {
+      "title": "Wrong-Physics Backdoors in Neural PDE Operators",
+      "link": "https://arxiv.org/abs/2608.20439",
+      "date": "2026-08-25T00:00:00-04:00",
+      "summary": "arXiv:2608.20439v1 Announce Type: new Abstract: Neural PDE operators are increasingly trained on reusable solver archives, yet validation often relies on clean prediction error and parameter-agnostic plausibility checks. We introduce cross-parameter relinking, a data-poisoning primitive that makes a",
+      "feedId": "arxiv-lg",
+      "feedTitle": "arXiv cs.LG",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.LG/recent"
+    },
+    {
+      "title": "Decision Tree and K-Means Analysis of Raman Spectra for Edible Oils: A Physics-Informed AI Approach",
+      "link": "https://arxiv.org/abs/2608.20440",
+      "date": "2026-08-25T00:00:00-04:00",
+      "summary": "arXiv:2608.20440v1 Announce Type: new Abstract: Authentication of edible oils in processed foods is important for food quality, fraud prevention, and regulatory compliance. This study establishes an integrated Raman spectroscopy and machine-learning framework that links intrinsic spectral organizati",
+      "feedId": "arxiv-lg",
+      "feedTitle": "arXiv cs.LG",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.LG/recent"
+    },
+    {
+      "title": "Shared Physics Responses Recover Hidden Rankings in Neural Operator Libraries",
+      "link": "https://arxiv.org/abs/2608.20441",
+      "date": "2026-08-25T00:00:00-04:00",
+      "summary": "arXiv:2608.20441v1 Announce Type: new Abstract: Selecting the optimal neural-operator prediction during deployment is challenging when high-fidelity reference solutions are unavailable. We demonstrate that under a squared Hilbert-space loss, ranking a finite model library depends strictly on the low",
+      "feedId": "arxiv-lg",
+      "feedTitle": "arXiv cs.LG",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.LG/recent"
+    },
+    {
+      "title": "Stored in Optimizer State, Valued by Later Training: A Causal Account of Subliminal Trait Transfer",
+      "link": "https://arxiv.org/abs/2608.20442",
+      "date": "2026-08-25T00:00:00-04:00",
+      "summary": "arXiv:2608.20442v1 Announce Type: new Abstract: Subliminal trait transfer allows a student model to acquire behavioral dispositions from teacher-generated data in which the trait is not semantically expressed. Recent work explains how such signals enter gradients, but not how they survive source rem",
+      "feedId": "arxiv-lg",
+      "feedTitle": "arXiv cs.LG",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.LG/recent"
+    },
+    {
+      "title": "Amortized Bandwidth Learning for Kernel Density Estimation under Logarithmic Score",
+      "link": "https://arxiv.org/abs/2608.20445",
+      "date": "2026-08-25T00:00:00-04:00",
+      "summary": "arXiv:2608.20445v1 Announce Type: new Abstract: Kernel density estimation converts finite samples into probability densities, but its performance depends critically on bandwidth selection. Classical selectors prescribe the sample-to-bandwidth rule analytically or asymptotically, or solve a new optim",
+      "feedId": "arxiv-lg",
+      "feedTitle": "arXiv cs.LG",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.LG/recent"
     },
     {
       "title": "Apple Rethinks Plan to Merge ‘Hide My Email’ Domain Name With ‘Sign In With Apple’",
@@ -3662,206 +3802,6 @@
       "feedHome": "https://www.bestblogs.dev/"
     },
     {
-      "title": "SDAD: Spec-Driven Agentic Development for the AI-Native SDLC",
-      "link": "https://arxiv.org/abs/2608.20341",
-      "date": "2026-08-24T00:00:00-04:00",
-      "summary": "arXiv:2608.20341v1 Announce Type: new Abstract: Frontier coding agents backed by large language models with context windows from hundreds of thousands to millions of tokens are restructuring the Software Development Life Cycle (SDLC). Rich context handling and multi-step reasoning now allow substant",
-      "feedId": "arxiv-ai",
-      "feedTitle": "arXiv cs.AI",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.AI/recent"
-    },
-    {
-      "title": "PrimeAgentOrchestrator: Memory-Primed Agent Spawning for Personal AI Infrastructure",
-      "link": "https://arxiv.org/abs/2608.20342",
-      "date": "2026-08-24T00:00:00-04:00",
-      "summary": "arXiv:2608.20342v1 Announce Type: new Abstract: Large language model (LLM) coding agents start each session with an empty context window, discarding accumulated knowledge from prior work. We present PrimeAgentOrchestrator (PAO), a system that spawns new instances of Claude Code -- Anthropic's termin",
-      "feedId": "arxiv-ai",
-      "feedTitle": "arXiv cs.AI",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.AI/recent"
-    },
-    {
-      "title": "Truth Lies Deep: Countering Semantic Camouflage via Latent Intent Verification",
-      "link": "https://arxiv.org/abs/2608.20378",
-      "date": "2026-08-24T00:00:00-04:00",
-      "summary": "arXiv:2608.20378v1 Announce Type: new Abstract: Safety alignment in Large Language Models (LLMs) is often superficial, relying on refusal mechanisms that trigger only at the final stages of generation without erasing the foundational knowledge of harmful concepts acquired during pretraining. This st",
-      "feedId": "arxiv-ai",
-      "feedTitle": "arXiv cs.AI",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.AI/recent"
-    },
-    {
-      "title": "A Survey on Foundations and Frontiers of Multimodal Agentic Frameworks: Techniques and Applications",
-      "link": "https://arxiv.org/abs/2608.20379",
-      "date": "2026-08-24T00:00:00-04:00",
-      "summary": "arXiv:2608.20379v1 Announce Type: new Abstract: Advances in large language models (LLMs) have fueled a wave of research into agency: the ability to reason, plan, and act. This effort has produced agentic frameworks that orchestrate perception, memory, and decision-making around powerful LLM backbone",
-      "feedId": "arxiv-ai",
-      "feedTitle": "arXiv cs.AI",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.AI/recent"
-    },
-    {
-      "title": "Interpretable Multimodal Classification with Linear Discriminant Tree Ensembles",
-      "link": "https://arxiv.org/abs/2608.20384",
-      "date": "2026-08-24T00:00:00-04:00",
-      "summary": "arXiv:2608.20384v1 Announce Type: new Abstract: Multimodal affect and behaviour classifiers that fuse heterogeneous text, audio, and visual streams must simultaneously achieve competitive accuracy and produce human-understandable explanations of the cues driving their decisions -- a dual objective t",
-      "feedId": "arxiv-ai",
-      "feedTitle": "arXiv cs.AI",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.AI/recent"
-    },
-    {
-      "title": "Representation Affects Retrieval: A Case Study of Skill Discovery and Routing in a Multimodal Agent Harness",
-      "link": "https://arxiv.org/abs/2608.20389",
-      "date": "2026-08-24T00:00:00-04:00",
-      "summary": "arXiv:2608.20389v1 Announce Type: new Abstract: A production agent harness must discover and rank, from a growing library of skills, the one most appropriate for a user's task. At small scale this selection happens in context: the LLM planner chooses among skill representations exposed in its system",
-      "feedId": "arxiv-ai",
-      "feedTitle": "arXiv cs.AI",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.AI/recent"
-    },
-    {
-      "title": "Nexus: Depth-Adaptive KV-Cache Splicing and Retrieval-Decoupled Tool Routing for Agentic LLMs on Unified Memory",
-      "link": "https://arxiv.org/abs/2608.20397",
-      "date": "2026-08-24T00:00:00-04:00",
-      "summary": "arXiv:2608.20397v1 Announce Type: new Abstract: Agentic large language models (LLMs) on the Model Context Protocol (MCP) re-encode verbose tool schemas every turn, so prefill - quadratic in sequence length - dominates time-to-first-token (TTFT) as the tool registry grows. Nexus's primary lever is to",
-      "feedId": "arxiv-ai",
-      "feedTitle": "arXiv cs.AI",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.AI/recent"
-    },
-    {
-      "title": "Environmental Slow AI: Design Principles for Generative Systems",
-      "link": "https://arxiv.org/abs/2608.20398",
-      "date": "2026-08-24T00:00:00-04:00",
-      "summary": "arXiv:2608.20398v1 Announce Type: new Abstract: Generative AI (genAI) systems produce cultural artefacts at scale, but they also reflect embedded cultural values through their design. Once identified, these values become open to deliberate reshaping. This position paper examines the maximalist value",
-      "feedId": "arxiv-ai",
-      "feedTitle": "arXiv cs.AI",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.AI/recent"
-    },
-    {
-      "title": "When Retrieval Fails Before It Begins: Structurally Indirect Prerequisite Eviction as a Retention Failure in Agentic Memory",
-      "link": "https://arxiv.org/abs/2608.20400",
-      "date": "2026-08-24T00:00:00-04:00",
-      "summary": "arXiv:2608.20400v1 Announce Type: new Abstract: Agentic memory under a fixed budget involves two stages: retention and retrieval. Existing retrieval-centered paradigms implicitly assume necessary evidence survives eviction, but we challenge this by isolating a pre-retrieval failure mode: structurall",
-      "feedId": "arxiv-ai",
-      "feedTitle": "arXiv cs.AI",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.AI/recent"
-    },
-    {
-      "title": "World models of environment, agent and joint agent-environment systems",
-      "link": "https://arxiv.org/abs/2608.20401",
-      "date": "2026-08-24T00:00:00-04:00",
-      "summary": "arXiv:2608.20401v1 Announce Type: new Abstract: World models are a central component of model-based reinforcement learning. They are usually discussed in terms of what variables they predict, such as observations, rewards, states, latent or information states. We argue that there is a prior distinct",
-      "feedId": "arxiv-ai",
-      "feedTitle": "arXiv cs.AI",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.AI/recent"
-    },
-    {
-      "title": "Bankruptcy Prediction via Hybrid Resampling and Stacking Ensemble Techniques with Explainable Artificial Intelligence (XAI)-Driven Analysis",
-      "link": "https://arxiv.org/abs/2608.20343",
-      "date": "2026-08-24T00:00:00-04:00",
-      "summary": "arXiv:2608.20343v1 Announce Type: new Abstract: This study develops and evaluates a bankruptcy prediction framework that integrates consensus-based feature selection, hybrid resampling, stacking ensembles, and explainable artificial intelligence to improve minority-class detection in severely imbala",
-      "feedId": "arxiv-lg",
-      "feedTitle": "arXiv cs.LG",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.LG/recent"
-    },
-    {
-      "title": "Machine Learning and ARIMA Model Averaging for Adaptive Public Health Forecasting: Comparative Evaluation and an Ontario COVID-19 Case Study",
-      "link": "https://arxiv.org/abs/2608.20406",
-      "date": "2026-08-24T00:00:00-04:00",
-      "summary": "arXiv:2608.20406v1 Announce Type: new Abstract: Public health forecasts must respond to abrupt changes in surveillance data without over-extrapolating noise, reporting artifacts, or temporary trends. We evaluated autoregressive integrated moving average (ARIMA), random forest, and extreme gradient b",
-      "feedId": "arxiv-lg",
-      "feedTitle": "arXiv cs.LG",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.LG/recent"
-    },
-    {
-      "title": "From Thermal Preference Prediction to Adaptive Thermal Intervention: A Reinforcement Learning Approach Using Physiological and Environmental Sensing",
-      "link": "https://arxiv.org/abs/2608.20423",
-      "date": "2026-08-24T00:00:00-04:00",
-      "summary": "arXiv:2608.20423v1 Announce Type: new Abstract: Personalised thermal comfort is essential for occupant wellbeing and for the development of more responsive building-control strategies, yet conventional Heating, Ventilation, and Air Conditioning (HVAC) systems rely on static setpoints and population-",
-      "feedId": "arxiv-lg",
-      "feedTitle": "arXiv cs.LG",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.LG/recent"
-    },
-    {
-      "title": "BF1: A Causal Dyadic Sparse-Attention Retrofit for Efficient Long-Context Transformers",
-      "link": "https://arxiv.org/abs/2608.20427",
-      "date": "2026-08-24T00:00:00-04:00",
-      "summary": "arXiv:2608.20427v1 Announce Type: new Abstract: Dense causal attention remains expensive at long context even when implemented with highly optimized exact kernels. We study BF1, a deterministic block-aligned dyadic sparse-attention route that combines a small exact local neighborhood, a global first",
-      "feedId": "arxiv-lg",
-      "feedTitle": "arXiv cs.LG",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.LG/recent"
-    },
-    {
-      "title": "Approximate Homomorphisms and Convergent Representations in Transducers",
-      "link": "https://arxiv.org/abs/2608.20428",
-      "date": "2026-08-24T00:00:00-04:00",
-      "summary": "arXiv:2608.20428v1 Announce Type: new Abstract: We study the stability of minimal representations of controlled stochastic processes (in particular, transducers) under perturbations. This question is motivated by recent experiments finding predictive-state structure in the latent representations of ",
-      "feedId": "arxiv-lg",
-      "feedTitle": "arXiv cs.LG",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.LG/recent"
-    },
-    {
-      "title": "Wrong-Physics Backdoors in Neural PDE Operators",
-      "link": "https://arxiv.org/abs/2608.20439",
-      "date": "2026-08-24T00:00:00-04:00",
-      "summary": "arXiv:2608.20439v1 Announce Type: new Abstract: Neural PDE operators are increasingly trained on reusable solver archives, yet validation often relies on clean prediction error and parameter-agnostic plausibility checks. We introduce cross-parameter relinking, a data-poisoning primitive that makes a",
-      "feedId": "arxiv-lg",
-      "feedTitle": "arXiv cs.LG",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.LG/recent"
-    },
-    {
-      "title": "Decision Tree and K-Means Analysis of Raman Spectra for Edible Oils: A Physics-Informed AI Approach",
-      "link": "https://arxiv.org/abs/2608.20440",
-      "date": "2026-08-24T00:00:00-04:00",
-      "summary": "arXiv:2608.20440v1 Announce Type: new Abstract: Authentication of edible oils in processed foods is important for food quality, fraud prevention, and regulatory compliance. This study establishes an integrated Raman spectroscopy and machine-learning framework that links intrinsic spectral organizati",
-      "feedId": "arxiv-lg",
-      "feedTitle": "arXiv cs.LG",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.LG/recent"
-    },
-    {
-      "title": "Shared Physics Responses Recover Hidden Rankings in Neural Operator Libraries",
-      "link": "https://arxiv.org/abs/2608.20441",
-      "date": "2026-08-24T00:00:00-04:00",
-      "summary": "arXiv:2608.20441v1 Announce Type: new Abstract: Selecting the optimal neural-operator prediction during deployment is challenging when high-fidelity reference solutions are unavailable. We demonstrate that under a squared Hilbert-space loss, ranking a finite model library depends strictly on the low",
-      "feedId": "arxiv-lg",
-      "feedTitle": "arXiv cs.LG",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.LG/recent"
-    },
-    {
-      "title": "Stored in Optimizer State, Valued by Later Training: A Causal Account of Subliminal Trait Transfer",
-      "link": "https://arxiv.org/abs/2608.20442",
-      "date": "2026-08-24T00:00:00-04:00",
-      "summary": "arXiv:2608.20442v1 Announce Type: new Abstract: Subliminal trait transfer allows a student model to acquire behavioral dispositions from teacher-generated data in which the trait is not semantically expressed. Recent work explains how such signals enter gradients, but not how they survive source rem",
-      "feedId": "arxiv-lg",
-      "feedTitle": "arXiv cs.LG",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.LG/recent"
-    },
-    {
-      "title": "Amortized Bandwidth Learning for Kernel Density Estimation under Logarithmic Score",
-      "link": "https://arxiv.org/abs/2608.20445",
-      "date": "2026-08-24T00:00:00-04:00",
-      "summary": "arXiv:2608.20445v1 Announce Type: new Abstract: Kernel density estimation converts finite samples into probability densities, but its performance depends critically on bandwidth selection. Classical selectors prescribe the sample-to-bandwidth rule analytically or asymptotically, or solve a new optim",
-      "feedId": "arxiv-lg",
-      "feedTitle": "arXiv cs.LG",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.LG/recent"
-    },
-    {
       "title": "Anger, Anxiety and Agency",
       "link": "https://lucumr.pocoo.org/2026/8/24/anger-anxiety-agency/",
       "date": "2026-08-24T00:00:00+00:00",
@@ -4142,16 +4082,6 @@
       "feedHome": "https://pluralistic.net/"
     },
     {
-      "title": "You should never be angry at work",
-      "link": "https://seangoedecke.com/you-should-never-be-angry-at-work/",
-      "date": "2026-08-22T00:00:00+00:00",
-      "summary": "",
-      "feedId": "seangoedecke",
-      "feedTitle": "Sean Goedecke",
-      "category": "Tech Blogs",
-      "feedHome": "https://www.seangoedecke.com/"
-    },
-    {
       "title": "Fast and Hard Code",
       "link": "https://lucumr.pocoo.org/2026/8/22/fast-hard-code/",
       "date": "2026-08-22T00:00:00+00:00",
@@ -4290,16 +4220,6 @@
       "feedTitle": "阮一峰的网络日志",
       "category": "中文",
       "feedHome": "https://www.ruanyifeng.com/blog/"
-    },
-    {
-      "title": "Readers can't identify watermarked AI text",
-      "link": "https://seangoedecke.com/readers-cant-identify-watermarked-ai-text/",
-      "date": "2026-08-21T00:00:00+00:00",
-      "summary": "",
-      "feedId": "seangoedecke",
-      "feedTitle": "Sean Goedecke",
-      "category": "Tech Blogs",
-      "feedHome": "https://www.seangoedecke.com/"
     },
     {
       "title": "Rust Glancer",
@@ -4492,16 +4412,6 @@
       "feedHome": "https://www.johndcook.com/"
     },
     {
-      "title": "Good writing is obvious, not original",
-      "link": "https://seangoedecke.com/good-writing-is-obvious-not-original/",
-      "date": "2026-08-19T00:00:00+00:00",
-      "summary": "",
-      "feedId": "seangoedecke",
-      "feedTitle": "Sean Goedecke",
-      "category": "Tech Blogs",
-      "feedHome": "https://www.seangoedecke.com/"
-    },
-    {
       "title": "Anubis continues to expose new ways people configure webservers",
       "link": "https://xeiaso.net/notes/2026/anubis-csp-worker-hell/",
       "date": "2026-08-19T00:00:00+00:00",
@@ -4602,16 +4512,6 @@
       "feedHome": "https://www.troyhunt.com/"
     },
     {
-      "title": "Help peer",
-      "link": "https://seangoedecke.com/help-peer/",
-      "date": "2026-08-18T00:00:00+00:00",
-      "summary": "",
-      "feedId": "seangoedecke",
-      "feedTitle": "Sean Goedecke",
-      "category": "Tech Blogs",
-      "feedHome": "https://www.seangoedecke.com/"
-    },
-    {
       "title": "How do functions like alloca allocate memory from the stack?",
       "link": "https://devblogs.microsoft.com/oldnewthing/20260817-00/?p=112617",
       "date": "2026-08-17T14:00:00+00:00",
@@ -4680,16 +4580,6 @@
       "feedTitle": "Terence Eden",
       "category": "Tech Blogs",
       "feedHome": "https://shkspr.mobi/blog/"
-    },
-    {
-      "title": "AI text watermarking is not a big deal",
-      "link": "https://seangoedecke.com/ai-text-watermarking-is-not-a-big-deal/",
-      "date": "2026-08-16T00:00:00+00:00",
-      "summary": "",
-      "feedId": "seangoedecke",
-      "feedTitle": "Sean Goedecke",
-      "category": "Tech Blogs",
-      "feedHome": "https://www.seangoedecke.com/"
     },
     {
       "title": "Book Review: Slags by Emma Jane Unsworth ★★★⯪☆",
@@ -4902,16 +4792,6 @@
       "feedHome": "https://pluralistic.net/"
     },
     {
-      "title": "No, local models will not win",
-      "link": "https://seangoedecke.com/local-models-will-not-win/",
-      "date": "2026-08-11T00:00:00+00:00",
-      "summary": "",
-      "feedId": "seangoedecke",
-      "feedTitle": "Sean Goedecke",
-      "category": "Tech Blogs",
-      "feedHome": "https://www.seangoedecke.com/"
-    },
-    {
       "title": "Thoughts I had while reading your comment",
       "link": "https://dynomight.net/comment/",
       "date": "2026-08-11T00:00:00+00:00",
@@ -4962,26 +4842,6 @@
       "feedHome": "https://idiallo.com/"
     },
     {
-      "title": "Advanced AI sycophancy",
-      "link": "https://seangoedecke.com/advanced-ai-sycophancy/",
-      "date": "2026-08-10T00:00:00+00:00",
-      "summary": "",
-      "feedId": "seangoedecke",
-      "feedTitle": "Sean Goedecke",
-      "category": "Tech Blogs",
-      "feedHome": "https://www.seangoedecke.com/"
-    },
-    {
-      "title": "I got an email about resistance",
-      "link": "https://seangoedecke.com/i-got-an-email-about-resistance/",
-      "date": "2026-08-09T00:00:00+00:00",
-      "summary": "",
-      "feedId": "seangoedecke",
-      "feedTitle": "Sean Goedecke",
-      "category": "Tech Blogs",
-      "feedHome": "https://www.seangoedecke.com/"
-    },
-    {
       "title": "Anubis v1.27.0: Moenbryda Wilfsunnwyn",
       "link": "https://anubis.techaro.lol/blog/release/v1.27.0/",
       "date": "2026-08-08T00:00:00+00:00",
@@ -5000,16 +4860,6 @@
       "feedTitle": "Jeff Geerling",
       "category": "Tech Blogs",
       "feedHome": "https://www.jeffgeerling.com/"
-    },
-    {
-      "title": "How to keep thinking",
-      "link": "https://seangoedecke.com/how-to-keep-thinking/",
-      "date": "2026-08-07T00:00:00+00:00",
-      "summary": "",
-      "feedId": "seangoedecke",
-      "feedTitle": "Sean Goedecke",
-      "category": "Tech Blogs",
-      "feedHome": "https://www.seangoedecke.com/"
     },
     {
       "title": "Canadian Man Pleads Guilty in Snowflake Extortions",
@@ -5100,16 +4950,6 @@
       "feedTitle": "Troy Hunt",
       "category": "Tech Blogs",
       "feedHome": "https://www.troyhunt.com/"
-    },
-    {
-      "title": "Giving and taking credit in big tech companies",
-      "link": "https://seangoedecke.com/giving-and-taking-credit/",
-      "date": "2026-08-02T00:00:00+00:00",
-      "summary": "",
-      "feedId": "seangoedecke",
-      "feedTitle": "Sean Goedecke",
-      "category": "Tech Blogs",
-      "feedHome": "https://www.seangoedecke.com/"
     },
     {
       "title": "Indirect lessons from human alignment",
