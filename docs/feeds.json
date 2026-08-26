@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-26T07:46:54.426091+00:00",
+  "updatedAt": "2026-08-26T08:43:33.936905+00:00",
   "totalFeeds": 51,
   "successCount": 45,
   "failedCount": 6,
@@ -20,8 +20,14 @@
         "home": "https://simonwillison.net/",
         "url": "https://simonwillison.net/atom/everything/",
         "status": "ok",
-        "fetchedAt": "2026-08-26T07:46:44.082130+00:00",
+        "fetchedAt": "2026-08-26T08:43:23.795890+00:00",
         "items": [
+          {
+            "title": "Quoting Paul Dix",
+            "link": "https://simonwillison.net/2026/Aug/26/paul-dix/",
+            "date": "2026-08-26T08:07:55+00:00",
+            "summary": "The fact that AI wrote 1M LOC and then refined it over the course of the next couple of months to produce a reliable piece of software that is currently running on millions of developer machines is absolutely mind blowing. And you can say, “well it’s not that impressive because they had an oracle to"
+          },
           {
             "title": "EVE Online: The Move to Python 3 Begins!",
             "link": "https://simonwillison.net/2026/Aug/25/eve-online-move-to-python-3/",
@@ -75,12 +81,6 @@
             "link": "https://simonwillison.net/2026/Aug/21/llm/",
             "date": "2026-08-21T17:16:13+00:00",
             "summary": "Release: llm 0.32.1 Fresh installs of LLM stopped working the other day because the OpenAI Python library dropped its usage of httpx, and it turned out LLM depended on that library but only installed it via a transitive openai dependency. This dot-release fixes that for the moment by pinning to open"
-          },
-          {
-            "title": "llm-openrouter 0.7",
-            "link": "https://simonwillison.net/2026/Aug/21/llm-openrouter/",
-            "date": "2026-08-21T16:58:19+00:00",
-            "summary": "Release: llm-openrouter 0.7 Now that this plugin is compatible with LLM 0.32 it can display the reasoning traces for LLMs available through OpenRouter. Updated for compatibility with LLM 0.32. Models now use OpenRouter's implementation of the Responses API. Three new server-side tools: Shell, WebFet"
           }
         ]
       },
@@ -91,7 +91,7 @@
         "home": "https://openai.com/news/",
         "url": "https://openai.com/news/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-26T07:46:44.197824+00:00",
+        "fetchedAt": "2026-08-26T08:43:23.858914+00:00",
         "items": [
           {
             "title": "The full stack behind abundant intelligence",
@@ -162,7 +162,7 @@
         "home": "https://arxiv.org/list/cs.AI/recent",
         "url": "https://arxiv.org/rss/cs.AI",
         "status": "ok",
-        "fetchedAt": "2026-08-26T07:46:44.338805+00:00",
+        "fetchedAt": "2026-08-26T08:43:23.998178+00:00",
         "items": [
           {
             "title": "RENDER: Controlling Reader-Facing Evidence in LLM Memory Evaluation",
@@ -233,7 +233,7 @@
         "home": "https://arxiv.org/list/cs.LG/recent",
         "url": "https://arxiv.org/rss/cs.LG",
         "status": "ok",
-        "fetchedAt": "2026-08-26T07:46:44.271893+00:00",
+        "fetchedAt": "2026-08-26T08:43:24.054847+00:00",
         "items": [
           {
             "title": "Equivariant Cellular Sheaves for Molecular Electronic Structure: Bridging Sheaf Cohomology and E(3)-Equivariant Hamiltonian Learning",
@@ -304,7 +304,7 @@
         "home": "https://research.google/blog/",
         "url": "https://research.google/blog/rss/",
         "status": "ok",
-        "fetchedAt": "2026-08-26T07:46:44.125568+00:00",
+        "fetchedAt": "2026-08-26T08:43:24.101607+00:00",
         "items": [
           {
             "title": "AgentHands: Generating interactive hand gestures for spatially grounded agent conversations in XR",
@@ -375,7 +375,7 @@
         "home": "https://deepmind.google/blog/",
         "url": "https://deepmind.google/blog/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-26T07:46:44.416890+00:00",
+        "fetchedAt": "2026-08-26T08:43:24.071141+00:00",
         "items": [
           {
             "title": "From Atari to EVE Online: Building on 15 Years of AI Research in Games",
@@ -446,7 +446,7 @@
         "home": "https://lilianweng.github.io/",
         "url": "https://lilianweng.github.io/lil-log/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-26T07:46:44.058446+00:00",
+        "fetchedAt": "2026-08-26T08:43:23.746732+00:00",
         "items": [
           {
             "title": "Active Learning",
@@ -537,7 +537,7 @@
         "home": "https://minimaxir.com/",
         "url": "https://minimaxir.com/index.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-26T07:46:44.110976+00:00",
+        "fetchedAt": "2026-08-26T08:43:23.864713+00:00",
         "items": [
           {
             "title": "LLMs break down in funny ways when told the Jacobian Conjecture counterargument",
@@ -620,7 +620,7 @@
         "home": "https://www.jeffgeerling.com/",
         "url": "https://www.jeffgeerling.com/blog.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-26T07:46:44.119355+00:00",
+        "fetchedAt": "2026-08-26T08:43:23.869092+00:00",
         "items": [
           {
             "title": "Debugging Ubiquiti's 5G Backup on AT&T",
@@ -691,7 +691,7 @@
         "home": "https://www.seangoedecke.com/",
         "url": "https://www.seangoedecke.com/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-26T07:46:44.135620+00:00",
+        "fetchedAt": "2026-08-26T08:43:23.780967+00:00",
         "items": [
           {
             "title": "You should never be angry at work",
@@ -762,7 +762,7 @@
         "home": "https://krebsonsecurity.com/",
         "url": "https://krebsonsecurity.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-08-26T07:46:44.222165+00:00",
+        "fetchedAt": "2026-08-26T08:43:23.945480+00:00",
         "items": [
           {
             "title": "Who’s Tracking You? Use This New Service to Find Out",
@@ -833,7 +833,7 @@
         "home": "https://daringfireball.net/",
         "url": "https://daringfireball.net/feeds/main",
         "status": "ok",
-        "fetchedAt": "2026-08-26T07:46:44.208054+00:00",
+        "fetchedAt": "2026-08-26T08:43:23.875852+00:00",
         "items": [
           {
             "title": "XCancel, the Twitter/X Mirror, Shuts Down After Cease and Desist From the Fine Folks at X Corp",
@@ -904,7 +904,7 @@
         "home": "https://ericmigi.com/",
         "url": "https://ericmigi.com/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-26T07:46:44.115849+00:00",
+        "fetchedAt": "2026-08-26T08:43:23.922949+00:00",
         "items": [
           {
             "title": "Index 01 Is In Mass Production!",
@@ -975,7 +975,7 @@
         "home": "http://antirez.com/",
         "url": "http://antirez.com/rss",
         "status": "ok",
-        "fetchedAt": "2026-08-26T07:46:45.921688+00:00",
+        "fetchedAt": "2026-08-26T08:43:26.342729+00:00",
         "items": [
           {
             "title": "The real AI risk is inside the labs",
@@ -1046,7 +1046,7 @@
         "home": "https://idiallo.com/",
         "url": "https://idiallo.com/feed.rss",
         "status": "ok",
-        "fetchedAt": "2026-08-26T07:46:44.344290+00:00",
+        "fetchedAt": "2026-08-26T08:43:24.128134+00:00",
         "items": [
           {
             "title": "Foot Guns for Sale",
@@ -1117,7 +1117,7 @@
         "home": "https://maurycyz.com/",
         "url": "https://maurycyz.com/index.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-26T07:46:44.824472+00:00",
+        "fetchedAt": "2026-08-26T08:43:24.775770+00:00",
         "items": []
       },
       {
@@ -1127,7 +1127,7 @@
         "home": "https://pluralistic.net/",
         "url": "https://pluralistic.net/feed/",
         "status": "ok",
-        "fetchedAt": "2026-08-26T07:46:47.243216+00:00",
+        "fetchedAt": "2026-08-26T08:43:26.395055+00:00",
         "items": [
           {
             "title": "Pluralistic: The age of disinvention (25 Aug 2026)",
@@ -1198,7 +1198,7 @@
         "home": "https://shkspr.mobi/blog/",
         "url": "https://shkspr.mobi/blog/feed/",
         "status": "ok",
-        "fetchedAt": "2026-08-26T07:46:44.596315+00:00",
+        "fetchedAt": "2026-08-26T08:43:24.871951+00:00",
         "items": [
           {
             "title": "Theatre Review: Cats at Regent's Park Open Air Theatre ★★★★☆",
@@ -1279,7 +1279,7 @@
         "home": "https://mitchellh.com/",
         "url": "https://mitchellh.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-26T07:46:44.419791+00:00",
+        "fetchedAt": "2026-08-26T08:43:23.924584+00:00",
         "items": [
           {
             "title": "Superlogical",
@@ -1350,7 +1350,7 @@
         "home": "https://dynomight.net/",
         "url": "https://dynomight.net/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-26T07:46:44.840491+00:00",
+        "fetchedAt": "2026-08-26T08:43:23.915097+00:00",
         "items": [
           {
             "title": "Thoughts I had while reading your comment",
@@ -1421,7 +1421,7 @@
         "home": "https://xeiaso.net/",
         "url": "https://xeiaso.net/blog.rss",
         "status": "ok",
-        "fetchedAt": "2026-08-26T07:46:44.930848+00:00",
+        "fetchedAt": "2026-08-26T08:43:24.877189+00:00",
         "items": [
           {
             "title": "Anubis continues to expose new ways people configure webservers",
@@ -1492,7 +1492,7 @@
         "home": "https://devblogs.microsoft.com/oldnewthing/",
         "url": "https://devblogs.microsoft.com/oldnewthing/feed",
         "status": "ok",
-        "fetchedAt": "2026-08-26T07:46:44.404170+00:00",
+        "fetchedAt": "2026-08-26T08:43:23.898816+00:00",
         "items": [
           {
             "title": "Comparing the two holograms on the Windows 95 box",
@@ -1563,7 +1563,7 @@
         "home": "https://www.righto.com/",
         "url": "https://www.righto.com/feeds/posts/default",
         "status": "ok",
-        "fetchedAt": "2026-08-26T07:46:44.665004+00:00",
+        "fetchedAt": "2026-08-26T08:43:24.309254+00:00",
         "items": []
       },
       {
@@ -1573,7 +1573,7 @@
         "home": "https://lucumr.pocoo.org/",
         "url": "https://lucumr.pocoo.org/feed.atom",
         "status": "ok",
-        "fetchedAt": "2026-08-26T07:46:44.543504+00:00",
+        "fetchedAt": "2026-08-26T08:43:24.198117+00:00",
         "items": [
           {
             "title": "Anger, Anxiety and Agency",
@@ -1644,7 +1644,7 @@
         "home": "https://skyfall.dev/",
         "url": "https://skyfall.dev/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-26T07:46:44.619121+00:00",
+        "fetchedAt": "2026-08-26T08:43:24.150922+00:00",
         "items": [
           {
             "title": "Good riddance, 4o",
@@ -1719,7 +1719,7 @@
         "home": "https://overreacted.io/",
         "url": "https://overreacted.io/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-26T07:46:44.550045+00:00",
+        "fetchedAt": "2026-08-26T08:43:24.073971+00:00",
         "items": [
           {
             "title": "There Are No Instances in atproto",
@@ -1790,7 +1790,7 @@
         "home": "https://www.johndcook.com/",
         "url": "https://www.johndcook.com/blog/feed/",
         "status": "ok",
-        "fetchedAt": "2026-08-26T07:46:44.396472+00:00",
+        "fetchedAt": "2026-08-26T08:43:24.113016+00:00",
         "items": [
           {
             "title": "Numerical (in)stability of recurrence relations",
@@ -1861,7 +1861,7 @@
         "home": "https://matklad.github.io/",
         "url": "https://matklad.github.io/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-26T07:46:44.281402+00:00",
+        "fetchedAt": "2026-08-26T08:43:24.156963+00:00",
         "items": [
           {
             "title": "Rust Glancer",
@@ -1932,7 +1932,7 @@
         "home": "https://eli.thegreenplace.net/",
         "url": "https://eli.thegreenplace.net/feeds/all.atom.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-26T07:46:44.436223+00:00",
+        "fetchedAt": "2026-08-26T08:43:24.361080+00:00",
         "items": [
           {
             "title": "Concurrent Servers: Part 8 - Go",
@@ -1973,7 +1973,7 @@
         "home": "https://fabiensanglard.net/",
         "url": "https://fabiensanglard.net/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-26T07:46:44.524550+00:00",
+        "fetchedAt": "2026-08-26T08:43:24.316800+00:00",
         "items": [
           {
             "title": "My agent.md to improve LLM-assisted code quality",
@@ -2044,7 +2044,7 @@
         "home": "https://blog.miguelgrinberg.com/",
         "url": "https://blog.miguelgrinberg.com/feed",
         "status": "ok",
-        "fetchedAt": "2026-08-26T07:46:44.789721+00:00",
+        "fetchedAt": "2026-08-26T08:43:24.959073+00:00",
         "items": [
           {
             "title": "Forgejo hack: How to set a starting issue and pull request number",
@@ -2115,7 +2115,7 @@
         "home": "https://www.troyhunt.com/",
         "url": "https://www.troyhunt.com/rss/",
         "status": "ok",
-        "fetchedAt": "2026-08-26T07:46:44.411660+00:00",
+        "fetchedAt": "2026-08-26T08:43:24.193443+00:00",
         "items": [
           {
             "title": "A Cautionary Tale About Data Breach Claims, Verification and Carhartt",
@@ -2186,7 +2186,7 @@
         "home": "https://anildash.com/",
         "url": "https://anildash.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-26T07:46:44.707159+00:00",
+        "fetchedAt": "2026-08-26T08:43:24.139231+00:00",
         "items": [
           {
             "title": "Actually, people love to work hard",
@@ -2257,7 +2257,7 @@
         "home": "https://computer.rip/",
         "url": "https://computer.rip/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-26T07:46:45.469236+00:00",
+        "fetchedAt": "2026-08-26T08:43:24.654098+00:00",
         "items": [
           {
             "title": "the figure of the earth",
@@ -2338,7 +2338,7 @@
         "home": "http://paulgraham.com/",
         "url": "http://www.aaronsw.com/2002/feeds/pgessays.rss",
         "status": "ok",
-        "fetchedAt": "2026-08-26T07:46:44.366100+00:00",
+        "fetchedAt": "2026-08-26T08:43:24.378255+00:00",
         "items": [
           {
             "title": "Superlinear Returns",
@@ -2409,7 +2409,7 @@
         "home": "https://steveblank.com/",
         "url": "https://steveblank.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-08-26T07:46:44.354911+00:00",
+        "fetchedAt": "2026-08-26T08:43:24.062832+00:00",
         "items": [
           {
             "title": "Lean Launch Pad 2026 @ Stanford – Lessons Learned Presentations",
@@ -2482,7 +2482,7 @@
         "home": "https://news.ycombinator.com/",
         "url": "https://news.ycombinator.com/rss",
         "status": "ok",
-        "fetchedAt": "2026-08-26T07:46:44.793285+00:00",
+        "fetchedAt": "2026-08-26T08:43:24.065813+00:00",
         "items": [
           {
             "title": "Apple introduces M6 and M5 Ultra",
@@ -2527,21 +2527,21 @@
             "summary": "Comments"
           },
           {
-            "title": "Agentic Context Management: Memory and Cost as Architecture Problems",
-            "link": "https://arxiv.org/abs/2607.21503",
-            "date": "2026-08-26T02:35:25+00:00",
-            "summary": "Comments"
-          },
-          {
             "title": "Black hole singularity is a surface not a point",
             "link": "https://arxiv.org/abs/2608.21590",
             "date": "2026-08-25T17:02:49+00:00",
             "summary": "Comments"
           },
           {
-            "title": "More than half of adults in U.S. say they lack basic statistical understanding",
-            "link": "https://www.psu.edu/news/research/story/more-half-adults-us-say-they-lack-basic-statistical-understanding",
-            "date": "2026-08-26T05:49:20+00:00",
+            "title": "Maiao: Gerrit-style code review workflow for GitHub, GitLab, Gitea, others",
+            "link": "https://github.com/runetes/maiao",
+            "date": "2026-08-25T22:40:07+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "When str.lower() is a security vulnerability in Python",
+            "link": "https://sethmlarson.dev/when-str-lower-is-a-security-vulnerability",
+            "date": "2026-08-25T20:49:03+00:00",
             "summary": "Comments"
           }
         ]
@@ -2553,8 +2553,38 @@
         "home": "https://www.techmeme.com/",
         "url": "https://www.techmeme.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-26T07:46:44.721025+00:00",
+        "fetchedAt": "2026-08-26T08:43:24.215940+00:00",
         "items": [
+          {
+            "title": "Bill Gates says tech executives are privately \"very worried\" about AI disruption but publicly downplay the risks to protect fundraising and planned IPOs (Karen Weise/New York Times)",
+            "link": "https://www.techmeme.com/260826/p14#a260826p14",
+            "date": "2026-08-26T04:35:02-04:00",
+            "summary": "Karen Weise / New York Times: Bill Gates says tech executives are privately &ldquo;very worried&rdquo; about AI disruption but publicly downplay the risks to protect fundraising and planned IPOs&nbsp; &mdash;&nbsp; Bill Gates is the latest in a string of tech luminaries to call out the risks of arti"
+          },
+          {
+            "title": "Bill Gates says \"the AI era will be one of the most turbulent times in human history\" and \"we are not preparing adequately\", calling for a regulatory framework (Bill Gates/GatesNotes)",
+            "link": "https://www.techmeme.com/260826/p13#a260826p13",
+            "date": "2026-08-26T04:25:02-04:00",
+            "summary": "Bill Gates / GatesNotes: Bill Gates says &ldquo;the AI era will be one of the most turbulent times in human history&rdquo; and &ldquo;we are not preparing adequately&rdquo;, calling for a regulatory framework&nbsp; &mdash;&nbsp; Bill Gates, artificial intelligence, AI, generative AI for everyone, re"
+          },
+          {
+            "title": "Revolut rolls out its euro-pegged stablecoin EURR, initially to eligible customers in Denmark, Poland, and Portugal; Stripe-owned Bridge issues the stablecoin (Charlie Wells/Bloomberg)",
+            "link": "https://www.techmeme.com/260826/p12#a260826p12",
+            "date": "2026-08-26T04:15:02-04:00",
+            "summary": "Charlie Wells / Bloomberg: Revolut rolls out its euro-pegged stablecoin EURR, initially to eligible customers in Denmark, Poland, and Portugal; Stripe-owned Bridge issues the stablecoin&nbsp; &mdash;&nbsp; Revolut Ltd. joined the rush among global banks and payment firms to roll out stablecoins, a b"
+          },
+          {
+            "title": "Navitas Semiconductor agrees to buy Claros, which develops data center power management hardware and software, for ~$232.8M; Claros raised a $30M seed in March (Nate Doughty/Washington ...)",
+            "link": "https://www.techmeme.com/260826/p11#a260826p11",
+            "date": "2026-08-26T04:05:01-04:00",
+            "summary": "Nate Doughty / Washington, D.C. Business Journal: Navitas Semiconductor agrees to buy Claros, which develops data center power management hardware and software, for ~$232.8M; Claros raised a $30M seed in March&nbsp; &mdash;&nbsp; Los Angeles-area manufacturer Navitas Semiconductor Corp. plans to buy"
+          },
+          {
+            "title": "Sources: DeepSeek generated $70.7M in revenue and posted a $106M net loss in the first seven months of 2026, ~10x its full-year 2025 revenue on a $139M net loss (The Information)",
+            "link": "https://www.techmeme.com/260826/p10#a260826p10",
+            "date": "2026-08-26T03:55:00-04:00",
+            "summary": "The Information: Sources: DeepSeek generated $70.7M in revenue and posted a $106M net loss in the first seven months of 2026, ~10x its full-year 2025 revenue on a $139M net loss&nbsp; &mdash;&nbsp; DeepSeek generated about 475 million yuan ($70.7 million) in revenue in the first seven months of this"
+          },
           {
             "title": "The US AI data center buildout is posing complex challenges to major lenders as they stretch themselves to finance, insure, and underwrite a novel asset class (Financial Times)",
             "link": "https://www.techmeme.com/260826/p9#a260826p9",
@@ -2568,52 +2598,22 @@
             "summary": "Pew Research Center: Survey: 28% of Americans use AI chatbots to get health information quickly, 25% to figure out symptom causes, and 22% to get health information at no cost&nbsp; &mdash;&nbsp; Reasons include making diagnoses and learning more about lab results or treatments.&nbsp; Nearly all cha"
           },
           {
-            "title": "A look at China's push to automate manufacturing, which employs 120 million people, amid a shrinking population and aging workforce, raising job loss concerns (Laura Bicker/BBC)",
+            "title": "A look at China's push to automate manufacturing, which employs 120M people, amid a shrinking population and aging workforce, raising job loss concerns (Laura Bicker/BBC)",
             "link": "https://www.techmeme.com/260826/p7#a260826p7",
             "date": "2026-08-26T02:30:01-04:00",
-            "summary": "Laura Bicker / BBC: A look at China's push to automate manufacturing, which employs 120 million people, amid a shrinking population and aging workforce, raising job loss concerns&nbsp; &mdash;&nbsp; &ldquo;I take a nap and the world changes,&rdquo; says Chen Tianyu.&nbsp; &mdash;&nbsp; His world cer"
+            "summary": "Laura Bicker / BBC: A look at China's push to automate manufacturing, which employs 120M people, amid a shrinking population and aging workforce, raising job loss concerns&nbsp; &mdash;&nbsp; &ldquo;I take a nap and the world changes,&rdquo; says Chen Tianyu.&nbsp; &mdash;&nbsp; His world certainly "
           },
           {
-            "title": "Source: Transport for London's delay in producing robotaxi guidance has frustrated some prospective operators, who play down the chances of starting this year (Financial Times)",
+            "title": "Source: Transport for London's delay in producing robotaxi guidance has frustrated some prospective operators, who play down the chances of launching in 2026 (Financial Times)",
             "link": "https://www.techmeme.com/260826/p6#a260826p6",
             "date": "2026-08-26T02:25:00-04:00",
-            "summary": "Financial Times: Source: Transport for London's delay in producing robotaxi guidance has frustrated some prospective operators, who play down the chances of starting this year&nbsp; &mdash;&nbsp; Operators play down chance of starting this year.&nbsp; London's robotaxi rollout is running behind the "
+            "summary": "Financial Times: Source: Transport for London's delay in producing robotaxi guidance has frustrated some prospective operators, who play down the chances of launching in 2026&nbsp; &mdash;&nbsp; Operators play down chance of starting this year.&nbsp; London's robotaxi rollout is running behind the a"
           },
           {
-            "title": "Intel reveals that Xeon 7, aimed at HPC and debuting in 2027, will support up to 256 cores and 22 chiplets, with 16 built on its bleeding-edge 18A-P process (Tobias Mann/The Register)",
+            "title": "Intel says Xeon 7, aimed at HPC and debuting in 2027, will support up to 256 cores and 22 chiplets, with 16 built on its bleeding-edge 18A-P process (Tobias Mann/The Register)",
             "link": "https://www.techmeme.com/260826/p5#a260826p5",
             "date": "2026-08-26T02:00:02-04:00",
-            "summary": "Tobias Mann / The Register: Intel reveals that Xeon 7, aimed at HPC and debuting in 2027, will support up to 256 cores and 22 chiplets, with 16 built on its bleeding-edge 18A-P process&nbsp; &mdash;&nbsp; Delayed, flawed, yet still beautiful&nbsp; &mdash;&nbsp; DEEP DIVE Intel's Xeon 7 platform, bet"
-          },
-          {
-            "title": "HP signs a multi-year global agreement with Huawei to license certain standard essential Wi-Fi patents, a sign of adoption of Huawei's technology outside China (Evelyn Cheng/CNBC)",
-            "link": "https://www.techmeme.com/260826/p4#a260826p4",
-            "date": "2026-08-26T01:35:01-04:00",
-            "summary": "Evelyn Cheng / CNBC: HP signs a multi-year global agreement with Huawei to license certain standard essential Wi-Fi patents, a sign of adoption of Huawei's technology outside China&nbsp; &mdash;&nbsp; BEIJING &mdash; U.S.-based personal computing and printing firm HP has signed a multi-year global a"
-          },
-          {
-            "title": "Indian AI infrastructure company AM Intelligence orders 9,000 Nvidia Vera Rubin systems and plans to offer 1GW of computing capacity as part of an $8B project (Saritha Rai/Bloomberg)",
-            "link": "https://www.techmeme.com/260826/p3#a260826p3",
-            "date": "2026-08-26T01:25:02-04:00",
-            "summary": "Saritha Rai / Bloomberg: Indian AI infrastructure company AM Intelligence orders 9,000 Nvidia Vera Rubin systems and plans to offer 1GW of computing capacity as part of an $8B project&nbsp; &mdash;&nbsp; AM Intelligence, an Indian AI infrastructure company, has ordered 9,000 Nvidia Corp. Vera Rubin "
-          },
-          {
-            "title": "Sources: YMTC, which seeks to raise $5B in an IPO, told investors in IPO prep meetings that it aims to become the largest NAND flash supplier by the end of 2027 (Financial Times)",
-            "link": "https://www.techmeme.com/260826/p2#a260826p2",
-            "date": "2026-08-26T00:45:01-04:00",
-            "summary": "Financial Times: Sources: YMTC, which seeks to raise $5B in an IPO, told investors in IPO prep meetings that it aims to become the largest NAND flash supplier by the end of 2027&nbsp; &mdash;&nbsp; YMTC sets out Nand production ambitions in investor meetings for $5bn Shanghai IPO&nbsp; &mdash;&nbsp;"
-          },
-          {
-            "title": "Digs, which is building AI software for residential construction, raised a $25.3M Series A led by building materials giant Builders FirstSource (Kurt Schlosser/GeekWire)",
-            "link": "https://www.techmeme.com/260826/p1#a260826p1",
-            "date": "2026-08-26T00:25:01-04:00",
-            "summary": "Kurt Schlosser / GeekWire: Digs, which is building AI software for residential construction, raised a $25.3M Series A led by building materials giant Builders FirstSource&nbsp; &mdash;&nbsp; Digs, a Vancouver, Wash.-based startup building AI software for residential construction, raised $25.3 millio"
-          },
-          {
-            "title": "Pennsylvania's AG sues Snap, alleging Snapchat fails to protect teens from compulsively using the app, two weeks after filing a similar lawsuit against TikTok (Miranda Nazzaro/The Hill)",
-            "link": "https://www.techmeme.com/260825/p49#a260825p49",
-            "date": "2026-08-25T22:35:01-04:00",
-            "summary": "Miranda Nazzaro / The Hill: Pennsylvania's AG sues Snap, alleging Snapchat fails to protect teens from compulsively using the app, two weeks after filing a similar lawsuit against TikTok&nbsp; &mdash;&nbsp; Pennsylvania Attorney General Dave Sunday (R) announced a lawsuit Tuesday, accusing Snap, the"
+            "summary": "Tobias Mann / The Register: Intel says Xeon 7, aimed at HPC and debuting in 2027, will support up to 256 cores and 22 chiplets, with 16 built on its bleeding-edge 18A-P process&nbsp; &mdash;&nbsp; Delayed, flawed, yet still beautiful&nbsp; &mdash;&nbsp; DEEP DIVE Intel's Xeon 7 platform, better know"
           }
         ]
       },
@@ -2624,7 +2624,7 @@
         "home": "https://techcrunch.com/",
         "url": "https://techcrunch.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-08-26T07:46:44.226151+00:00",
+        "fetchedAt": "2026-08-26T08:43:23.938360+00:00",
         "items": [
           {
             "title": "Ventures Platform goes bigger — and broader — with its second Africa fund",
@@ -2695,7 +2695,7 @@
         "home": "https://techcrunch.com/category/artificial-intelligence/",
         "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
         "status": "ok",
-        "fetchedAt": "2026-08-26T07:46:44.356691+00:00",
+        "fetchedAt": "2026-08-26T08:43:24.091573+00:00",
         "items": [
           {
             "title": "India’s Ringg gets backing from Peak XV as it pushes voice AI past the phone call",
@@ -2766,7 +2766,7 @@
         "home": "https://techcrunch.com/tag/funding/",
         "url": "https://techcrunch.com/tag/funding/feed/",
         "status": "ok",
-        "fetchedAt": "2026-08-26T07:46:44.422852+00:00",
+        "fetchedAt": "2026-08-26T08:43:24.130566+00:00",
         "items": [
           {
             "title": "Wispr raises $280M at $2B valuation as it looks beyond dictation",
@@ -2837,7 +2837,7 @@
         "home": "https://venturebeat.com/",
         "url": "https://venturebeat.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-08-26T07:46:44.429289+00:00",
+        "fetchedAt": "2026-08-26T08:43:24.125133+00:00",
         "items": [
           {
             "title": "Prompt injection ranks No. 1 with OWASP and No. 12 in the incident record. The attack itself is invisible to a scan.",
@@ -2890,7 +2890,7 @@
         "home": "https://venturebeat.com/category/ai/",
         "url": "https://venturebeat.com/category/ai/feed/",
         "status": "ok",
-        "fetchedAt": "2026-08-26T07:46:44.578386+00:00",
+        "fetchedAt": "2026-08-26T08:43:24.168609+00:00",
         "items": [
           {
             "title": "VentureBeat names Rob Strechay as its first Lead Analyst, expanding its enterprise AI research push",
@@ -2945,12 +2945,12 @@
         "home": "https://www.ruanyifeng.com/blog/",
         "url": "https://www.ruanyifeng.com/blog/atom.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-26T07:46:44.283211+00:00",
+        "fetchedAt": "2026-08-26T08:43:24.106435+00:00",
         "items": [
           {
             "title": "科技爱好者周刊（第 409 期）：程序员的职业未来",
             "link": "http://www.ruanyifeng.com/blog/2026/08/weekly-issue-409.html",
-            "date": "2026-08-26T06:20:03+00:00",
+            "date": "2026-08-26T08:18:13+00:00",
             "summary": "这里记录每周值得分享的科技内容，周五发布。..."
           },
           {
@@ -2974,7 +2974,7 @@
         "home": "https://www.bestblogs.dev/",
         "url": "https://www.bestblogs.dev/zh/feeds/rss?category=ai&minScore=90",
         "status": "ok",
-        "fetchedAt": "2026-08-26T07:46:44.652393+00:00",
+        "fetchedAt": "2026-08-26T08:43:25.032035+00:00",
         "items": [
           {
             "title": "深度分析办公 Agent 的入口变迁与竞争护城河",
@@ -3042,6 +3042,26 @@
   },
   "allItems": [
     {
+      "title": "科技爱好者周刊（第 409 期）：程序员的职业未来",
+      "link": "http://www.ruanyifeng.com/blog/2026/08/weekly-issue-409.html",
+      "date": "2026-08-26T08:18:13+00:00",
+      "summary": "这里记录每周值得分享的科技内容，周五发布。...",
+      "feedId": "ruanyifeng",
+      "feedTitle": "阮一峰的网络日志",
+      "category": "中文",
+      "feedHome": "https://www.ruanyifeng.com/blog/"
+    },
+    {
+      "title": "Quoting Paul Dix",
+      "link": "https://simonwillison.net/2026/Aug/26/paul-dix/",
+      "date": "2026-08-26T08:07:55+00:00",
+      "summary": "The fact that AI wrote 1M LOC and then refined it over the course of the next couple of months to produce a reliable piece of software that is currently running on millions of developer machines is absolutely mind blowing. And you can say, “well it’s not that impressive because they had an oracle to",
+      "feedId": "simonwillison",
+      "feedTitle": "Simon Willison",
+      "category": "AI & LLM",
+      "feedHome": "https://simonwillison.net/"
+    },
+    {
       "title": "Ventures Platform goes bigger — and broader — with its second Africa fund",
       "link": "https://techcrunch.com/2026/08/26/ventures-platform-goes-bigger-and-broader-with-its-second-africa-fund/",
       "date": "2026-08-26T07:00:00+00:00",
@@ -3052,26 +3072,6 @@
       "feedHome": "https://techcrunch.com/"
     },
     {
-      "title": "科技爱好者周刊（第 409 期）：程序员的职业未来",
-      "link": "http://www.ruanyifeng.com/blog/2026/08/weekly-issue-409.html",
-      "date": "2026-08-26T06:20:03+00:00",
-      "summary": "这里记录每周值得分享的科技内容，周五发布。...",
-      "feedId": "ruanyifeng",
-      "feedTitle": "阮一峰的网络日志",
-      "category": "中文",
-      "feedHome": "https://www.ruanyifeng.com/blog/"
-    },
-    {
-      "title": "More than half of adults in U.S. say they lack basic statistical understanding",
-      "link": "https://www.psu.edu/news/research/story/more-half-adults-us-say-they-lack-basic-statistical-understanding",
-      "date": "2026-08-26T05:49:20+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
       "title": "Harvest (IBM 7950): Supercomputer for cryptanalysis at the NSA in the Cold War",
       "link": "https://spectrum.ieee.org/cold-war-codebreaker-nsa-ibm",
       "date": "2026-08-26T05:09:07+00:00",
@@ -3080,6 +3080,56 @@
       "feedTitle": "Hacker News",
       "category": "Startup & News",
       "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "Bill Gates says tech executives are privately \"very worried\" about AI disruption but publicly downplay the risks to protect fundraising and planned IPOs (Karen Weise/New York Times)",
+      "link": "https://www.techmeme.com/260826/p14#a260826p14",
+      "date": "2026-08-26T04:35:02-04:00",
+      "summary": "Karen Weise / New York Times: Bill Gates says tech executives are privately &ldquo;very worried&rdquo; about AI disruption but publicly downplay the risks to protect fundraising and planned IPOs&nbsp; &mdash;&nbsp; Bill Gates is the latest in a string of tech luminaries to call out the risks of arti",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
+      "title": "Bill Gates says \"the AI era will be one of the most turbulent times in human history\" and \"we are not preparing adequately\", calling for a regulatory framework (Bill Gates/GatesNotes)",
+      "link": "https://www.techmeme.com/260826/p13#a260826p13",
+      "date": "2026-08-26T04:25:02-04:00",
+      "summary": "Bill Gates / GatesNotes: Bill Gates says &ldquo;the AI era will be one of the most turbulent times in human history&rdquo; and &ldquo;we are not preparing adequately&rdquo;, calling for a regulatory framework&nbsp; &mdash;&nbsp; Bill Gates, artificial intelligence, AI, generative AI for everyone, re",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
+      "title": "Revolut rolls out its euro-pegged stablecoin EURR, initially to eligible customers in Denmark, Poland, and Portugal; Stripe-owned Bridge issues the stablecoin (Charlie Wells/Bloomberg)",
+      "link": "https://www.techmeme.com/260826/p12#a260826p12",
+      "date": "2026-08-26T04:15:02-04:00",
+      "summary": "Charlie Wells / Bloomberg: Revolut rolls out its euro-pegged stablecoin EURR, initially to eligible customers in Denmark, Poland, and Portugal; Stripe-owned Bridge issues the stablecoin&nbsp; &mdash;&nbsp; Revolut Ltd. joined the rush among global banks and payment firms to roll out stablecoins, a b",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
+      "title": "Navitas Semiconductor agrees to buy Claros, which develops data center power management hardware and software, for ~$232.8M; Claros raised a $30M seed in March (Nate Doughty/Washington ...)",
+      "link": "https://www.techmeme.com/260826/p11#a260826p11",
+      "date": "2026-08-26T04:05:01-04:00",
+      "summary": "Nate Doughty / Washington, D.C. Business Journal: Navitas Semiconductor agrees to buy Claros, which develops data center power management hardware and software, for ~$232.8M; Claros raised a $30M seed in March&nbsp; &mdash;&nbsp; Los Angeles-area manufacturer Navitas Semiconductor Corp. plans to buy",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
+      "title": "Sources: DeepSeek generated $70.7M in revenue and posted a $106M net loss in the first seven months of 2026, ~10x its full-year 2025 revenue on a $139M net loss (The Information)",
+      "link": "https://www.techmeme.com/260826/p10#a260826p10",
+      "date": "2026-08-26T03:55:00-04:00",
+      "summary": "The Information: Sources: DeepSeek generated $70.7M in revenue and posted a $106M net loss in the first seven months of 2026, ~10x its full-year 2025 revenue on a $139M net loss&nbsp; &mdash;&nbsp; DeepSeek generated about 475 million yuan ($70.7 million) in revenue in the first seven months of this",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
     },
     {
       "title": "India’s Ringg gets backing from Peak XV as it pushes voice AI past the phone call",
@@ -3132,70 +3182,30 @@
       "feedHome": "https://www.techmeme.com/"
     },
     {
-      "title": "Agentic Context Management: Memory and Cost as Architecture Problems",
-      "link": "https://arxiv.org/abs/2607.21503",
-      "date": "2026-08-26T02:35:25+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
-      "title": "A look at China's push to automate manufacturing, which employs 120 million people, amid a shrinking population and aging workforce, raising job loss concerns (Laura Bicker/BBC)",
+      "title": "A look at China's push to automate manufacturing, which employs 120M people, amid a shrinking population and aging workforce, raising job loss concerns (Laura Bicker/BBC)",
       "link": "https://www.techmeme.com/260826/p7#a260826p7",
       "date": "2026-08-26T02:30:01-04:00",
-      "summary": "Laura Bicker / BBC: A look at China's push to automate manufacturing, which employs 120 million people, amid a shrinking population and aging workforce, raising job loss concerns&nbsp; &mdash;&nbsp; &ldquo;I take a nap and the world changes,&rdquo; says Chen Tianyu.&nbsp; &mdash;&nbsp; His world cer",
+      "summary": "Laura Bicker / BBC: A look at China's push to automate manufacturing, which employs 120M people, amid a shrinking population and aging workforce, raising job loss concerns&nbsp; &mdash;&nbsp; &ldquo;I take a nap and the world changes,&rdquo; says Chen Tianyu.&nbsp; &mdash;&nbsp; His world certainly ",
       "feedId": "techmeme",
       "feedTitle": "Techmeme",
       "category": "Startup & News",
       "feedHome": "https://www.techmeme.com/"
     },
     {
-      "title": "Source: Transport for London's delay in producing robotaxi guidance has frustrated some prospective operators, who play down the chances of starting this year (Financial Times)",
+      "title": "Source: Transport for London's delay in producing robotaxi guidance has frustrated some prospective operators, who play down the chances of launching in 2026 (Financial Times)",
       "link": "https://www.techmeme.com/260826/p6#a260826p6",
       "date": "2026-08-26T02:25:00-04:00",
-      "summary": "Financial Times: Source: Transport for London's delay in producing robotaxi guidance has frustrated some prospective operators, who play down the chances of starting this year&nbsp; &mdash;&nbsp; Operators play down chance of starting this year.&nbsp; London's robotaxi rollout is running behind the ",
+      "summary": "Financial Times: Source: Transport for London's delay in producing robotaxi guidance has frustrated some prospective operators, who play down the chances of launching in 2026&nbsp; &mdash;&nbsp; Operators play down chance of starting this year.&nbsp; London's robotaxi rollout is running behind the a",
       "feedId": "techmeme",
       "feedTitle": "Techmeme",
       "category": "Startup & News",
       "feedHome": "https://www.techmeme.com/"
     },
     {
-      "title": "Intel reveals that Xeon 7, aimed at HPC and debuting in 2027, will support up to 256 cores and 22 chiplets, with 16 built on its bleeding-edge 18A-P process (Tobias Mann/The Register)",
+      "title": "Intel says Xeon 7, aimed at HPC and debuting in 2027, will support up to 256 cores and 22 chiplets, with 16 built on its bleeding-edge 18A-P process (Tobias Mann/The Register)",
       "link": "https://www.techmeme.com/260826/p5#a260826p5",
       "date": "2026-08-26T02:00:02-04:00",
-      "summary": "Tobias Mann / The Register: Intel reveals that Xeon 7, aimed at HPC and debuting in 2027, will support up to 256 cores and 22 chiplets, with 16 built on its bleeding-edge 18A-P process&nbsp; &mdash;&nbsp; Delayed, flawed, yet still beautiful&nbsp; &mdash;&nbsp; DEEP DIVE Intel's Xeon 7 platform, bet",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "HP signs a multi-year global agreement with Huawei to license certain standard essential Wi-Fi patents, a sign of adoption of Huawei's technology outside China (Evelyn Cheng/CNBC)",
-      "link": "https://www.techmeme.com/260826/p4#a260826p4",
-      "date": "2026-08-26T01:35:01-04:00",
-      "summary": "Evelyn Cheng / CNBC: HP signs a multi-year global agreement with Huawei to license certain standard essential Wi-Fi patents, a sign of adoption of Huawei's technology outside China&nbsp; &mdash;&nbsp; BEIJING &mdash; U.S.-based personal computing and printing firm HP has signed a multi-year global a",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "Indian AI infrastructure company AM Intelligence orders 9,000 Nvidia Vera Rubin systems and plans to offer 1GW of computing capacity as part of an $8B project (Saritha Rai/Bloomberg)",
-      "link": "https://www.techmeme.com/260826/p3#a260826p3",
-      "date": "2026-08-26T01:25:02-04:00",
-      "summary": "Saritha Rai / Bloomberg: Indian AI infrastructure company AM Intelligence orders 9,000 Nvidia Vera Rubin systems and plans to offer 1GW of computing capacity as part of an $8B project&nbsp; &mdash;&nbsp; AM Intelligence, an Indian AI infrastructure company, has ordered 9,000 Nvidia Corp. Vera Rubin ",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "Sources: YMTC, which seeks to raise $5B in an IPO, told investors in IPO prep meetings that it aims to become the largest NAND flash supplier by the end of 2027 (Financial Times)",
-      "link": "https://www.techmeme.com/260826/p2#a260826p2",
-      "date": "2026-08-26T00:45:01-04:00",
-      "summary": "Financial Times: Sources: YMTC, which seeks to raise $5B in an IPO, told investors in IPO prep meetings that it aims to become the largest NAND flash supplier by the end of 2027&nbsp; &mdash;&nbsp; YMTC sets out Nand production ambitions in investor meetings for $5bn Shanghai IPO&nbsp; &mdash;&nbsp;",
+      "summary": "Tobias Mann / The Register: Intel says Xeon 7, aimed at HPC and debuting in 2027, will support up to 256 cores and 22 chiplets, with 16 built on its bleeding-edge 18A-P process&nbsp; &mdash;&nbsp; Delayed, flawed, yet still beautiful&nbsp; &mdash;&nbsp; DEEP DIVE Intel's Xeon 7 platform, better know",
       "feedId": "techmeme",
       "feedTitle": "Techmeme",
       "category": "Startup & News",
@@ -3220,16 +3230,6 @@
       "feedTitle": "TechCrunch AI",
       "category": "Startup & News",
       "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
-    },
-    {
-      "title": "Digs, which is building AI software for residential construction, raised a $25.3M Series A led by building materials giant Builders FirstSource (Kurt Schlosser/GeekWire)",
-      "link": "https://www.techmeme.com/260826/p1#a260826p1",
-      "date": "2026-08-26T00:25:01-04:00",
-      "summary": "Kurt Schlosser / GeekWire: Digs, which is building AI software for residential construction, raised a $25.3M Series A led by building materials giant Builders FirstSource&nbsp; &mdash;&nbsp; Digs, a Vancouver, Wash.-based startup building AI software for residential construction, raised $25.3 millio",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
     },
     {
       "title": "Queryable Executables",
@@ -3502,6 +3502,16 @@
       "feedHome": "https://daringfireball.net/"
     },
     {
+      "title": "Maiao: Gerrit-style code review workflow for GitHub, GitLab, Gitea, others",
+      "link": "https://github.com/runetes/maiao",
+      "date": "2026-08-25T22:40:07+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
       "title": "Dolly Parton Dies at 80",
       "link": "https://www.nytimes.com/2026/08/25/arts/music/dolly-parton-dead.html",
       "date": "2026-08-25T22:39:12+00:00",
@@ -3510,16 +3520,6 @@
       "feedTitle": "Daring Fireball",
       "category": "Tech Blogs",
       "feedHome": "https://daringfireball.net/"
-    },
-    {
-      "title": "Pennsylvania's AG sues Snap, alleging Snapchat fails to protect teens from compulsively using the app, two weeks after filing a similar lawsuit against TikTok (Miranda Nazzaro/The Hill)",
-      "link": "https://www.techmeme.com/260825/p49#a260825p49",
-      "date": "2026-08-25T22:35:01-04:00",
-      "summary": "Miranda Nazzaro / The Hill: Pennsylvania's AG sues Snap, alleging Snapchat fails to protect teens from compulsively using the app, two weeks after filing a similar lawsuit against TikTok&nbsp; &mdash;&nbsp; Pennsylvania Attorney General Dave Sunday (R) announced a lawsuit Tuesday, accusing Snap, the",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
     },
     {
       "title": "Update Regarding the Base Prices of the M5 Max Mac Studio",
@@ -3550,6 +3550,16 @@
       "feedTitle": "Troy Hunt",
       "category": "Tech Blogs",
       "feedHome": "https://www.troyhunt.com/"
+    },
+    {
+      "title": "When str.lower() is a security vulnerability in Python",
+      "link": "https://sethmlarson.dev/when-str-lower-is-a-security-vulnerability",
+      "date": "2026-08-25T20:49:03+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
     },
     {
       "title": "X sends cease-and-desist to open source project Nitter over alleged scraping",
@@ -4340,16 +4350,6 @@
       "feedTitle": "Google Research Blog",
       "category": "AI & LLM",
       "feedHome": "https://research.google/blog/"
-    },
-    {
-      "title": "llm-openrouter 0.7",
-      "link": "https://simonwillison.net/2026/Aug/21/llm-openrouter/",
-      "date": "2026-08-21T16:58:19+00:00",
-      "summary": "Release: llm-openrouter 0.7 Now that this plugin is compatible with LLM 0.32 it can display the reasoning traces for LLMs available through OpenRouter. Updated for compatibility with LLM 0.32. Models now use OpenRouter's implementation of the Responses API. Three new server-side tools: Shell, WebFet",
-      "feedId": "simonwillison",
-      "feedTitle": "Simon Willison",
-      "category": "AI & LLM",
-      "feedHome": "https://simonwillison.net/"
     },
     {
       "title": "Nvidia finds that simple linear math can replace costly AI model handoffs",
