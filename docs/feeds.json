@@ -1,13 +1,12 @@
 {
-  "updatedAt": "2026-08-26T22:49:07.731887+00:00",
+  "updatedAt": "2026-08-27T04:20:44.960596+00:00",
   "totalFeeds": 51,
-  "successCount": 44,
-  "failedCount": 7,
+  "successCount": 45,
+  "failedCount": 6,
   "failed": [
     "gwern",
     "garymarcus",
     "thesequence",
-    "seangoedecke",
     "lcamtuf",
     "rachelbythebay",
     "tedunangst"
@@ -21,8 +20,14 @@
         "home": "https://simonwillison.net/",
         "url": "https://simonwillison.net/atom/everything/",
         "status": "ok",
-        "fetchedAt": "2026-08-26T22:48:57.640512+00:00",
+        "fetchedAt": "2026-08-27T04:20:34.414977+00:00",
         "items": [
+          {
+            "title": "Qwen3.8-Flash-Next",
+            "link": "https://simonwillison.net/2026/Aug/26/qwen38-flash-next/",
+            "date": "2026-08-26T23:52:58+00:00",
+            "summary": "Qwen3.8-Flash-Next Another open weights model from Qwen. This one is \"a multimodal MoE model that also serves as an early preview of the architecture used in Qwen4\". It's pretty big: 125B tokens, but only 6B active which means it gets a significant performance boost. I've been trying it out on a DGX"
+          },
           {
             "title": "Quoting Paul Dix",
             "link": "https://simonwillison.net/2026/Aug/26/paul-dix/",
@@ -76,12 +81,6 @@
             "link": "https://simonwillison.net/2026/Aug/22/more-than-just-code-review/",
             "date": "2026-08-22T15:56:54+00:00",
             "summary": "The key skill required to make productive use of coding agents is being able to confidently instruct them on how to make changes and then confidently verify that those changes have been applied in the correct way. Sometimes this involves reviewing every line of code they have written, but there are "
-          },
-          {
-            "title": "llm 0.32.1",
-            "link": "https://simonwillison.net/2026/Aug/21/llm/",
-            "date": "2026-08-21T17:16:13+00:00",
-            "summary": "Release: llm 0.32.1 Fresh installs of LLM stopped working the other day because the OpenAI Python library dropped its usage of httpx, and it turned out LLM depended on that library but only installed it via a transitive openai dependency. This dot-release fixes that for the moment by pinning to open"
           }
         ]
       },
@@ -92,7 +91,7 @@
         "home": "https://openai.com/news/",
         "url": "https://openai.com/news/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-26T22:48:57.629033+00:00",
+        "fetchedAt": "2026-08-27T04:20:34.408221+00:00",
         "items": [
           {
             "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
@@ -163,66 +162,66 @@
         "home": "https://arxiv.org/list/cs.AI/recent",
         "url": "https://arxiv.org/rss/cs.AI",
         "status": "ok",
-        "fetchedAt": "2026-08-26T22:48:57.759535+00:00",
+        "fetchedAt": "2026-08-27T04:20:34.772662+00:00",
         "items": [
           {
             "title": "RENDER: Controlling Reader-Facing Evidence in LLM Memory Evaluation",
             "link": "https://arxiv.org/abs/2608.23568",
-            "date": "2026-08-26T00:00:00-04:00",
+            "date": "2026-08-27T00:00:00-04:00",
             "summary": "arXiv:2608.23568v1 Announce Type: new Abstract: Memory and RAG evaluations often treat the answering model's input as an implementation detail, even though systems may render the same history as a memory entry, summary, typed record, or raw excerpt. We introduce RENDER, a benchmark control that fixe"
           },
           {
             "title": "ESQ-Bench: A Multi-Tier Enterprise Oracle Benchmark for Evaluating NL2SQL Dialect Generalization and Silent Semantic Divergence",
             "link": "https://arxiv.org/abs/2608.23569",
-            "date": "2026-08-26T00:00:00-04:00",
+            "date": "2026-08-27T00:00:00-04:00",
             "summary": "arXiv:2608.23569v1 Announce Type: new Abstract: State-of-the-art Natural Language to SQL (NL2SQL) models report execution accuracy exceeding 89 percent on established benchmarks such as Spider and BIRD. However, these benchmarks rely on simplified academic schemas and open-source SQL dialects that d"
           },
           {
             "title": "LLM Agents Perform Controlled Experiments Using Simulation Models",
             "link": "https://arxiv.org/abs/2608.23622",
-            "date": "2026-08-26T00:00:00-04:00",
+            "date": "2026-08-27T00:00:00-04:00",
             "summary": "arXiv:2608.23622v1 Announce Type: new Abstract: Large language models (LLMs) have shown strong capabilities in reasoning, planning, and tool use, but many scientific and engineering tasks require more than plausible text and code generation. They require understanding how a system responds to interv"
           },
           {
             "title": "A survey detection channel overrides the pixels in an astronomical foundation model, and biases tomographic mean redshifts",
             "link": "https://arxiv.org/abs/2608.23626",
-            "date": "2026-08-26T00:00:00-04:00",
+            "date": "2026-08-27T00:00:00-04:00",
             "summary": "arXiv:2608.23626v1 Announce Type: new Abstract: Foundation models for astronomy are trained on survey pixels together with the catalogue products derived from those pixels. Those catalogues are incomplete at a measurable rate, and a model trained on both inherits that incompleteness as a systematic."
           },
           {
             "title": "TRACE: Transition-Aware Residual Control for Multi-Objective Materials Discovery",
             "link": "https://arxiv.org/abs/2608.23631",
-            "date": "2026-08-26T00:00:00-04:00",
+            "date": "2026-08-27T00:00:00-04:00",
             "summary": "arXiv:2608.23631v1 Announce Type: new Abstract: Multi-objective materials discovery with LLM agents is often limited not only by how many candidates can be proposed, but by how effectively each costly property evaluation informs the next search step. Existing agents mainly store evaluated candidates"
           },
           {
             "title": "Function-Level Execution Feedback for Code Preference Optimization",
             "link": "https://arxiv.org/abs/2608.23632",
-            "date": "2026-08-26T00:00:00-04:00",
+            "date": "2026-08-27T00:00:00-04:00",
             "summary": "arXiv:2608.23632v1 Announce Type: new Abstract: Process supervision has improved mathematical reasoning, where intermediate steps are naturally expressed as chains of thought. In code generation, however, process supervision remains underexplored because there is no standard notion of a step. Superv"
           },
           {
             "title": "Auditing the Synthetic Memoir: Measuring Scene-Level Confabulation in LLM-Generated Autobiography Against the Documented Record of the Life It Describes",
             "link": "https://arxiv.org/abs/2608.23640",
-            "date": "2026-08-26T00:00:00-04:00",
+            "date": "2026-08-27T00:00:00-04:00",
             "summary": "arXiv:2608.23640v1 Announce Type: new Abstract: When a large language model (LLM) is asked to write a person's life, how much of what it writes actually happened? We present a scene-level case-study audit - the first quantified audit of LLM-generated autobiography against a subject-specific ground-t"
           },
           {
             "title": "How much of a measured AI preference is the model, and how much is the instrument?",
             "link": "https://arxiv.org/abs/2608.23641",
-            "date": "2026-08-26T00:00:00-04:00",
+            "date": "2026-08-27T00:00:00-04:00",
             "summary": "arXiv:2608.23641v1 Announce Type: new Abstract: Model welfare research infers what a model prefers from the answers returned to prompts written to elicit preferences. Keeling et al. (2024), Mazeika et al. (2025), Mikaelson et al. (2025), Tagliabue and Dung (2025) and Trhlik et al. (2026) have built "
           },
           {
             "title": "AI Agents Push Humans Out of the Loop",
             "link": "https://arxiv.org/abs/2608.23642",
-            "date": "2026-08-26T00:00:00-04:00",
+            "date": "2026-08-27T00:00:00-04:00",
             "summary": "arXiv:2608.23642v1 Announce Type: new Abstract: AI agents pose significant risks as they are granted increasing autonomy. A commonly proposed solution is human oversight and keeping a ''human in the loop'', but this is not a simple solution: Not only do current approaches to AI agent design impede e"
           },
           {
             "title": "FLARE: A Systematic, Uncertainty-Aware Framework for Evidence-Based Adoption of Artificial Intelligence in Healthcare",
             "link": "https://arxiv.org/abs/2608.23643",
-            "date": "2026-08-26T00:00:00-04:00",
+            "date": "2026-08-27T00:00:00-04:00",
             "summary": "arXiv:2608.23643v1 Announce Type: new Abstract: Artificial intelligence is increasingly being introduced into healthcare workflows, yet most evaluations emphasize model accuracy rather than whether adoption is economically worthwhile in real clinical settings. This study proposes FLARE, a systematic"
           }
         ]
@@ -234,67 +233,67 @@
         "home": "https://arxiv.org/list/cs.LG/recent",
         "url": "https://arxiv.org/rss/cs.LG",
         "status": "ok",
-        "fetchedAt": "2026-08-26T22:48:57.703445+00:00",
+        "fetchedAt": "2026-08-27T04:20:34.812327+00:00",
         "items": [
           {
-            "title": "Equivariant Cellular Sheaves for Molecular Electronic Structure: Bridging Sheaf Cohomology and E(3)-Equivariant Hamiltonian Learning",
-            "link": "https://arxiv.org/abs/2608.23571",
-            "date": "2026-08-26T00:00:00-04:00",
-            "summary": "arXiv:2608.23571v1 Announce Type: new Abstract: Equivariant message-passing networks are the standard model for molecular property and interatomic-potential prediction, and recent work predicts the electronic Hamiltonian itself in an E(3)-equivariant way. Separately, topological deep learning has ex"
+            "title": "Dynamic Influence-Weighted Distillation for Single-IMU Activity Recognition",
+            "link": "https://arxiv.org/abs/2608.24904",
+            "date": "2026-08-27T00:00:00-04:00",
+            "summary": "arXiv:2608.24904v1 Announce Type: new Abstract: Inertial sensors at multiple body locations can improve activity recognition, but requiring every sensor at inference increases the deployment burden. We study whether four synchronized IMUs available during training can improve a student that uses onl"
           },
           {
-            "title": "Data Predictability Shapes Weibull Weight-Scale Growth in Transformer Training",
-            "link": "https://arxiv.org/abs/2608.23573",
-            "date": "2026-08-26T00:00:00-04:00",
-            "summary": "arXiv:2608.23573v1 Announce Type: new Abstract: A trained transformer's weight magnitudes can be summarized by a two-parameter Weibull distribution whose shape $k \\approx 1.2$ is stable across layers and models, so the scale $\\lambda$ carries most training-induced movement. What corpus property sets"
+            "title": "GreenLeaf Law Embed Tiny: A Compact Embedding Model for Legal Domain Retrieval",
+            "link": "https://arxiv.org/abs/2608.24936",
+            "date": "2026-08-27T00:00:00-04:00",
+            "summary": "arXiv:2608.24936v1 Announce Type: new Abstract: We present GreenLeaf Law Embed Tiny, a 0.6B parameter embedding model for legal domain retrieval. GreenLeaf-Tiny achieves 75.11% on the Massive Legal Embedding Benchmark (MLEB) and 64.38% on MTEB(Law, v1),demonstrating competitive performance among mod"
           },
           {
-            "title": "From Causal Plausibility to Causal Reliability: Evaluating LLMs as Calibrated Direct Causal-Edge Classifiers",
-            "link": "https://arxiv.org/abs/2608.23660",
-            "date": "2026-08-26T00:00:00-04:00",
-            "summary": "arXiv:2608.23660v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly used to provide prior causal knowledge for structural causal discovery, yet whether their direct-edge judgments and confidence can be trusted remains unclear. We systematically evaluate 12 instruction-tuned"
+            "title": "Multi-Modal Anomaly Detection: A Survey",
+            "link": "https://arxiv.org/abs/2608.24937",
+            "date": "2026-08-27T00:00:00-04:00",
+            "summary": "arXiv:2608.24937v1 Announce Type: new Abstract: Multi-Modal Anomaly Detection (MMAD) detects rare abnormal events from heterogeneous data sources and is increasingly used in safety- and reliability-critical applications such as industrial inspection and cybersecurity. Yet the literature is fragmente"
           },
           {
-            "title": "Renormalization Group Flow Matching for Scalable Local Generative Modeling",
-            "link": "https://arxiv.org/abs/2608.23696",
-            "date": "2026-08-26T00:00:00-04:00",
-            "summary": "arXiv:2608.23696v1 Announce Type: new Abstract: Despite their remarkable success in modeling complex data, generative models face a fundamental tradeoff. Global approaches can capture full structural coherence but suffer from high computational costs, while local models are efficient but often fail "
+            "title": "ExFold: Unified Expert Folding for Training-Free MoE Prefill-Decode Acceleration",
+            "link": "https://arxiv.org/abs/2608.24938",
+            "date": "2026-08-27T00:00:00-04:00",
+            "summary": "arXiv:2608.24938v1 Announce Type: new Abstract: Mixture-of-Experts (MoE) models scale capacity for strong quality while keeping per-token compute bounded through sparse expert activation. Yet low-latency MoE serving is increasingly challenging, because it spans two inference phases with fundamentall"
           },
           {
-            "title": "Response Renormalization for Critical Deep Equilibrium Models",
-            "link": "https://arxiv.org/abs/2608.23725",
-            "date": "2026-08-26T00:00:00-04:00",
-            "summary": "arXiv:2608.23725v1 Announce Type: new Abstract: Deep Equilibrium Models (DEQs) compute predictions from a hidden representation unchanged by the model update. Training through this equilibrium uses implicit differentiation and requires solving an adjoint system built from the residual Jacobian. If t"
+            "title": "When Does Frequency Decomposition Benefit Physics-Informed Neural Networks? A Preliminary Ablation Study",
+            "link": "https://arxiv.org/abs/2608.24940",
+            "date": "2026-08-27T00:00:00-04:00",
+            "summary": "arXiv:2608.24940v1 Announce Type: new Abstract: Partial differential equations (PDEs) often have high-frequency and multi-scale features that neural networks struggle to approximate. Physics-Informed Neural Networks (PINNs) build the governing equations directly into training, but suffer from spectr"
           },
           {
-            "title": "Calibration-Preserving Pruning: Compression as a Reliability Contract",
-            "link": "https://arxiv.org/abs/2608.23744",
-            "date": "2026-08-26T00:00:00-04:00",
-            "summary": "arXiv:2608.23744v1 Announce Type: new Abstract: Split conformal prediction, not the pruning rule, supplies finite-sample marginal coverage once a pruned model is fixed independently of the conformal calibration split. We study the separate efficiency problem: can pruning preserve score geometry well"
+            "title": "FAMPWQ: Fisher Information-based Adaptive Mixed Precision Weight Quantization for Effective LLM Inference",
+            "link": "https://arxiv.org/abs/2608.24945",
+            "date": "2026-08-27T00:00:00-04:00",
+            "summary": "arXiv:2608.24945v1 Announce Type: new Abstract: Recent years have witnessed remarkable achievements of Large Language Models (LLMs) in multiple domains, while the excessive resource requirements of LLMs hinder the deployment on resource-constrained devices. Although model quantization stands out as "
           },
           {
-            "title": "Tight Majorizations and Convergence Rates of Nuclear Norm Minimization IRLS",
-            "link": "https://arxiv.org/abs/2608.23765",
-            "date": "2026-08-26T00:00:00-04:00",
-            "summary": "arXiv:2608.23765v1 Announce Type: new Abstract: Iteratively reweighted least squares (IRLS) methods constitute a natural approach to nuclear norm minimization, but their convergence rates and the role of the weight operator have remained poorly understood. This paper establishes sharp convergence ra"
+            "title": "MacroAgent: Regularity-Aware Macro Legalization with LLM-Agent-Designed Contour Algorithms",
+            "link": "https://arxiv.org/abs/2608.24946",
+            "date": "2026-08-27T00:00:00-04:00",
+            "summary": "arXiv:2608.24946v1 Announce Type: new Abstract: Macros constitute a large part of the core area in modern very large-scale integration (VLSI) designs. Moreover, macro positions have a significant impact on the final quality of result (QoR), and macro legalization is typically the final step in deter"
           },
           {
-            "title": "Disentangled Skill Representations for Predictive Human Modeling",
-            "link": "https://arxiv.org/abs/2608.23776",
-            "date": "2026-08-26T00:00:00-04:00",
-            "summary": "arXiv:2608.23776v1 Announce Type: new Abstract: Understanding human skill is important for AI systems that collaborate with, coach, or assist people. Unlike typical latent variable estimation problems which rely on single observations, skill is a persistent, compositional, and behaviorally grounded "
+            "title": "CAT-GS: Balanced Multimodal Learning via Calibrated Gating and Fusion Surgery",
+            "link": "https://arxiv.org/abs/2608.24947",
+            "date": "2026-08-27T00:00:00-04:00",
+            "summary": "arXiv:2608.24947v1 Announce Type: new Abstract: End-to-end training of multimodal neural networks often exhibits unstable neural dynamics characterized by three coupled failure modes that degrade learning: (i) modality imbalance, where one branch dominates gradient-based optimization; (ii) unstable "
           },
           {
-            "title": "GAP-Prompt: Gated Adaptive Prompting for Efficient Continual Learning",
-            "link": "https://arxiv.org/abs/2608.23782",
-            "date": "2026-08-26T00:00:00-04:00",
-            "summary": "arXiv:2608.23782v1 Announce Type: new Abstract: Continual learning faces the persistent challenge of catastrophic forgetting, where sequential task updates degrade previously acquired knowledge. While prompt-based methods integrated with pre-trained models offer a compelling solution by freezing the"
+            "title": "Demystifying Reinforcement Learning Post-Training of Language Models",
+            "link": "https://arxiv.org/abs/2608.24949",
+            "date": "2026-08-27T00:00:00-04:00",
+            "summary": "arXiv:2608.24949v1 Announce Type: new Abstract: Reinforcement learning (RL) post-training has emerged as a powerful framework for enhancing the capabilities of large language models (LLMs), enabling impressive reasoning, math, and coding capabilities. Yet for many researchers and practitioners, the "
           },
           {
-            "title": "Mixture of Channel Experts: Static Sparse Supports with Input-Adaptive Mixing for Pointwise Projections",
-            "link": "https://arxiv.org/abs/2608.23794",
-            "date": "2026-08-26T00:00:00-04:00",
-            "summary": "arXiv:2608.23794v1 Announce Type: new Abstract: Mixture-of-Experts (MoE) scales language models by routing each input through a small set of independently parameterized experts. We show that copying this design into convolutional networks fails for a structural reason: parallel convolutional experts"
+            "title": "AFDBench: A Reasoning-First AI Scientist for NationalWeather Service Forecast Discussions",
+            "link": "https://arxiv.org/abs/2608.24954",
+            "date": "2026-08-27T00:00:00-04:00",
+            "summary": "arXiv:2608.24954v1 Announce Type: new Abstract: Large language models (LLMs) hallucinate numerical values when generating high-stakes meteorological text, posing risks for weather communication. We present AFDBench, an AI meteorologist that generates professional Area Forecast Discussions (AFDs) by "
           }
         ]
       },
@@ -305,7 +304,7 @@
         "home": "https://research.google/blog/",
         "url": "https://research.google/blog/rss/",
         "status": "ok",
-        "fetchedAt": "2026-08-26T22:48:57.857801+00:00",
+        "fetchedAt": "2026-08-27T04:20:34.639938+00:00",
         "items": [
           {
             "title": "GlucoFM: Foundation model for continuous glucose monitoring",
@@ -376,7 +375,7 @@
         "home": "https://deepmind.google/blog/",
         "url": "https://deepmind.google/blog/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-26T22:48:57.968489+00:00",
+        "fetchedAt": "2026-08-27T04:20:34.622955+00:00",
         "items": [
           {
             "title": "Intelligent transcription with Gemini 3.5 Transcribe",
@@ -447,7 +446,7 @@
         "home": "https://lilianweng.github.io/",
         "url": "https://lilianweng.github.io/lil-log/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-26T22:48:57.672281+00:00",
+        "fetchedAt": "2026-08-27T04:20:34.316829+00:00",
         "items": [
           {
             "title": "Active Learning",
@@ -538,7 +537,7 @@
         "home": "https://minimaxir.com/",
         "url": "https://minimaxir.com/index.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-26T22:48:57.771574+00:00",
+        "fetchedAt": "2026-08-27T04:20:34.486481+00:00",
         "items": [
           {
             "title": "LLMs break down in funny ways when told the Jacobian Conjecture counterargument",
@@ -621,7 +620,7 @@
         "home": "https://www.jeffgeerling.com/",
         "url": "https://www.jeffgeerling.com/blog.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-26T22:48:57.765713+00:00",
+        "fetchedAt": "2026-08-27T04:20:34.465832+00:00",
         "items": [
           {
             "title": "Debugging Ubiquiti's 5G Backup on AT&T",
@@ -691,9 +690,70 @@
         "title": "Sean Goedecke",
         "home": "https://www.seangoedecke.com/",
         "url": "https://www.seangoedecke.com/rss.xml",
-        "status": "error",
-        "error": "Response payload is not completed: <ContentLengthError: 400, message='Not enough data to satisfy content length header (received 29742 of 134182 bytes).'>. ConnectionResetError(104, 'Connection reset by peer')",
-        "items": []
+        "status": "ok",
+        "fetchedAt": "2026-08-27T04:20:34.423488+00:00",
+        "items": [
+          {
+            "title": "You should never be angry at work",
+            "link": "https://seangoedecke.com/you-should-never-be-angry-at-work/",
+            "date": "2026-08-22T00:00:00+00:00",
+            "summary": ""
+          },
+          {
+            "title": "Readers can't identify watermarked AI text",
+            "link": "https://seangoedecke.com/readers-cant-identify-watermarked-ai-text/",
+            "date": "2026-08-21T00:00:00+00:00",
+            "summary": ""
+          },
+          {
+            "title": "Good writing is obvious, not original",
+            "link": "https://seangoedecke.com/good-writing-is-obvious-not-original/",
+            "date": "2026-08-19T00:00:00+00:00",
+            "summary": ""
+          },
+          {
+            "title": "Help peer",
+            "link": "https://seangoedecke.com/help-peer/",
+            "date": "2026-08-18T00:00:00+00:00",
+            "summary": ""
+          },
+          {
+            "title": "AI text watermarking is not a big deal",
+            "link": "https://seangoedecke.com/ai-text-watermarking-is-not-a-big-deal/",
+            "date": "2026-08-16T00:00:00+00:00",
+            "summary": ""
+          },
+          {
+            "title": "No, local models will not win",
+            "link": "https://seangoedecke.com/local-models-will-not-win/",
+            "date": "2026-08-11T00:00:00+00:00",
+            "summary": ""
+          },
+          {
+            "title": "Advanced AI sycophancy",
+            "link": "https://seangoedecke.com/advanced-ai-sycophancy/",
+            "date": "2026-08-10T00:00:00+00:00",
+            "summary": ""
+          },
+          {
+            "title": "I got an email about resistance",
+            "link": "https://seangoedecke.com/i-got-an-email-about-resistance/",
+            "date": "2026-08-09T00:00:00+00:00",
+            "summary": ""
+          },
+          {
+            "title": "How to keep thinking",
+            "link": "https://seangoedecke.com/how-to-keep-thinking/",
+            "date": "2026-08-07T00:00:00+00:00",
+            "summary": ""
+          },
+          {
+            "title": "Giving and taking credit in big tech companies",
+            "link": "https://seangoedecke.com/giving-and-taking-credit/",
+            "date": "2026-08-02T00:00:00+00:00",
+            "summary": ""
+          }
+        ]
       },
       {
         "id": "krebsonsecurity",
@@ -702,7 +762,7 @@
         "home": "https://krebsonsecurity.com/",
         "url": "https://krebsonsecurity.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-08-26T22:48:57.660521+00:00",
+        "fetchedAt": "2026-08-27T04:20:34.499844+00:00",
         "items": [
           {
             "title": "Who’s Tracking You? Use This New Service to Find Out",
@@ -773,7 +833,7 @@
         "home": "https://daringfireball.net/",
         "url": "https://daringfireball.net/feeds/main",
         "status": "ok",
-        "fetchedAt": "2026-08-26T22:48:57.846893+00:00",
+        "fetchedAt": "2026-08-27T04:20:34.564614+00:00",
         "items": [
           {
             "title": "POSIWID: The Purpose of a System Is What It Does",
@@ -844,7 +904,7 @@
         "home": "https://ericmigi.com/",
         "url": "https://ericmigi.com/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-26T22:48:57.762165+00:00",
+        "fetchedAt": "2026-08-27T04:20:34.477001+00:00",
         "items": [
           {
             "title": "Index 01 Is In Mass Production!",
@@ -915,7 +975,7 @@
         "home": "http://antirez.com/",
         "url": "http://antirez.com/rss",
         "status": "ok",
-        "fetchedAt": "2026-08-26T22:49:00.052657+00:00",
+        "fetchedAt": "2026-08-27T04:20:36.181518+00:00",
         "items": [
           {
             "title": "The real AI risk is inside the labs",
@@ -986,7 +1046,7 @@
         "home": "https://idiallo.com/",
         "url": "https://idiallo.com/feed.rss",
         "status": "ok",
-        "fetchedAt": "2026-08-26T22:48:57.958672+00:00",
+        "fetchedAt": "2026-08-27T04:20:34.580853+00:00",
         "items": [
           {
             "title": "Foot Guns for Sale",
@@ -1057,7 +1117,7 @@
         "home": "https://maurycyz.com/",
         "url": "https://maurycyz.com/index.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-26T22:48:58.457154+00:00",
+        "fetchedAt": "2026-08-27T04:20:35.073044+00:00",
         "items": []
       },
       {
@@ -1067,7 +1127,7 @@
         "home": "https://pluralistic.net/",
         "url": "https://pluralistic.net/feed/",
         "status": "ok",
-        "fetchedAt": "2026-08-26T22:49:01.000461+00:00",
+        "fetchedAt": "2026-08-27T04:20:37.427759+00:00",
         "items": [
           {
             "title": "Pluralistic: The age of disinvention (25 Aug 2026)",
@@ -1138,7 +1198,7 @@
         "home": "https://shkspr.mobi/blog/",
         "url": "https://shkspr.mobi/blog/feed/",
         "status": "ok",
-        "fetchedAt": "2026-08-26T22:49:00.651362+00:00",
+        "fetchedAt": "2026-08-27T04:20:35.069110+00:00",
         "items": [
           {
             "title": "Gadget Review: Thermal Master P3 Macro Lens ★★★★⯪",
@@ -1219,7 +1279,7 @@
         "home": "https://mitchellh.com/",
         "url": "https://mitchellh.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-26T22:48:57.913478+00:00",
+        "fetchedAt": "2026-08-27T04:20:34.934438+00:00",
         "items": [
           {
             "title": "Superlogical",
@@ -1290,7 +1350,7 @@
         "home": "https://dynomight.net/",
         "url": "https://dynomight.net/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-26T22:48:58.097202+00:00",
+        "fetchedAt": "2026-08-27T04:20:34.675790+00:00",
         "items": [
           {
             "title": "Thoughts I had while reading your comment",
@@ -1361,7 +1421,7 @@
         "home": "https://xeiaso.net/",
         "url": "https://xeiaso.net/blog.rss",
         "status": "ok",
-        "fetchedAt": "2026-08-26T22:48:58.476015+00:00",
+        "fetchedAt": "2026-08-27T04:20:35.207015+00:00",
         "items": [
           {
             "title": "If your VS Code remotes stopped working, downgrade to v1.124.x",
@@ -1432,7 +1492,7 @@
         "home": "https://devblogs.microsoft.com/oldnewthing/",
         "url": "https://devblogs.microsoft.com/oldnewthing/feed",
         "status": "ok",
-        "fetchedAt": "2026-08-26T22:48:57.892971+00:00",
+        "fetchedAt": "2026-08-27T04:20:34.489463+00:00",
         "items": [
           {
             "title": "Why didn’t the Windows Entertainment Pack just run the MS-DOS version inside an emulator?",
@@ -1503,7 +1563,7 @@
         "home": "https://www.righto.com/",
         "url": "https://www.righto.com/feeds/posts/default",
         "status": "ok",
-        "fetchedAt": "2026-08-26T22:48:58.360076+00:00",
+        "fetchedAt": "2026-08-27T04:20:34.616856+00:00",
         "items": []
       },
       {
@@ -1513,7 +1573,7 @@
         "home": "https://lucumr.pocoo.org/",
         "url": "https://lucumr.pocoo.org/feed.atom",
         "status": "ok",
-        "fetchedAt": "2026-08-26T22:48:58.238202+00:00",
+        "fetchedAt": "2026-08-27T04:20:34.844352+00:00",
         "items": [
           {
             "title": "Anger, Anxiety and Agency",
@@ -1584,7 +1644,7 @@
         "home": "https://skyfall.dev/",
         "url": "https://skyfall.dev/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-26T22:48:57.991534+00:00",
+        "fetchedAt": "2026-08-27T04:20:34.581611+00:00",
         "items": [
           {
             "title": "Good riddance, 4o",
@@ -1659,7 +1719,7 @@
         "home": "https://overreacted.io/",
         "url": "https://overreacted.io/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-26T22:48:58.112480+00:00",
+        "fetchedAt": "2026-08-27T04:20:34.629999+00:00",
         "items": [
           {
             "title": "There Are No Instances in atproto",
@@ -1730,7 +1790,7 @@
         "home": "https://www.johndcook.com/",
         "url": "https://www.johndcook.com/blog/feed/",
         "status": "ok",
-        "fetchedAt": "2026-08-26T22:48:57.898944+00:00",
+        "fetchedAt": "2026-08-27T04:20:34.662161+00:00",
         "items": [
           {
             "title": "What is the quality of software that AI writes?",
@@ -1801,7 +1861,7 @@
         "home": "https://matklad.github.io/",
         "url": "https://matklad.github.io/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-26T22:48:58.009131+00:00",
+        "fetchedAt": "2026-08-27T04:20:34.627805+00:00",
         "items": [
           {
             "title": "Rust Glancer",
@@ -1872,7 +1932,7 @@
         "home": "https://eli.thegreenplace.net/",
         "url": "https://eli.thegreenplace.net/feeds/all.atom.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-26T22:48:58.312607+00:00",
+        "fetchedAt": "2026-08-27T04:20:34.878768+00:00",
         "items": [
           {
             "title": "Concurrent Servers: Part 8 - Go",
@@ -1913,7 +1973,7 @@
         "home": "https://fabiensanglard.net/",
         "url": "https://fabiensanglard.net/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-26T22:48:58.161435+00:00",
+        "fetchedAt": "2026-08-27T04:20:34.516549+00:00",
         "items": [
           {
             "title": "My agent.md to improve LLM-assisted code quality",
@@ -1984,7 +2044,7 @@
         "home": "https://blog.miguelgrinberg.com/",
         "url": "https://blog.miguelgrinberg.com/feed",
         "status": "ok",
-        "fetchedAt": "2026-08-26T22:48:58.483038+00:00",
+        "fetchedAt": "2026-08-27T04:20:35.185191+00:00",
         "items": [
           {
             "title": "Forgejo hack: How to set a starting issue and pull request number",
@@ -2055,7 +2115,7 @@
         "home": "https://www.troyhunt.com/",
         "url": "https://www.troyhunt.com/rss/",
         "status": "ok",
-        "fetchedAt": "2026-08-26T22:48:57.963878+00:00",
+        "fetchedAt": "2026-08-27T04:20:34.735139+00:00",
         "items": [
           {
             "title": "A Cautionary Tale About Data Breach Claims, Verification and Carhartt",
@@ -2126,7 +2186,7 @@
         "home": "https://anildash.com/",
         "url": "https://anildash.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-26T22:48:58.283000+00:00",
+        "fetchedAt": "2026-08-27T04:20:34.966168+00:00",
         "items": [
           {
             "title": "Actually, people love to work hard",
@@ -2197,7 +2257,7 @@
         "home": "https://computer.rip/",
         "url": "https://computer.rip/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-26T22:48:58.218415+00:00",
+        "fetchedAt": "2026-08-27T04:20:35.415210+00:00",
         "items": [
           {
             "title": "the figure of the earth",
@@ -2278,7 +2338,7 @@
         "home": "http://paulgraham.com/",
         "url": "http://www.aaronsw.com/2002/feeds/pgessays.rss",
         "status": "ok",
-        "fetchedAt": "2026-08-26T22:48:58.224560+00:00",
+        "fetchedAt": "2026-08-27T04:20:34.976177+00:00",
         "items": [
           {
             "title": "Superlinear Returns",
@@ -2349,7 +2409,7 @@
         "home": "https://steveblank.com/",
         "url": "https://steveblank.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-08-26T22:48:58.244660+00:00",
+        "fetchedAt": "2026-08-27T04:20:34.859660+00:00",
         "items": [
           {
             "title": "Lean Launch Pad 2026 @ Stanford – Lessons Learned Presentations",
@@ -2422,12 +2482,24 @@
         "home": "https://news.ycombinator.com/",
         "url": "https://news.ycombinator.com/rss",
         "status": "ok",
-        "fetchedAt": "2026-08-26T22:48:58.033591+00:00",
+        "fetchedAt": "2026-08-27T04:20:35.074259+00:00",
         "items": [
           {
-            "title": "Tailcat – Like netcat, but over Tailscale’s data plane",
-            "link": "https://github.com/tailscale/tailcat",
-            "date": "2026-08-26T17:42:22+00:00",
+            "title": "Nvidia agrees to acquire Hugging Face for $13B",
+            "link": "https://www.businessinsider.com/nvidia-in-talks-to-buy-hugging-face-13-billion-dollars-2026-8",
+            "date": "2026-08-27T01:12:55+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "CEO fired developers to make room for AI. Developers create open source AI CEO",
+            "link": "https://github.com/SenteLabsAI/OpenExecutive",
+            "date": "2026-08-27T01:46:22+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "Mechanical Turk shutting down September 30",
+            "link": "https://www.mturk.com/",
+            "date": "2026-08-26T23:55:44+00:00",
             "summary": "Comments"
           },
           {
@@ -2437,9 +2509,27 @@
             "summary": "Comments"
           },
           {
-            "title": "Actinide is first startup to produce high-assay low-enriched uranium (HALEU)",
-            "link": "https://www.actinideinc.com/press/actinide-becomes-first-startup-to-ever-enrich-natural-uranium-to-produce-haleu",
-            "date": "2026-08-26T19:23:01+00:00",
+            "title": "Laion Big Video Dataset",
+            "link": "https://projects.laion.ai/bvd/",
+            "date": "2026-08-27T01:50:26+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "Kusama Yayoi Dies at 97",
+            "link": "https://news.jp/i/1465528042000662661",
+            "date": "2026-08-27T02:21:18+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "Asahi Linux Progress Report: Linux 7.2",
+            "link": "https://asahilinux.org/2026/08/progress-report-7-2/",
+            "date": "2026-08-26T22:35:02+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "Tailcat – Like netcat, but over Tailscale’s data plane",
+            "link": "https://github.com/tailscale/tailcat",
+            "date": "2026-08-26T17:42:22+00:00",
             "summary": "Comments"
           },
           {
@@ -2449,39 +2539,9 @@
             "summary": "Comments"
           },
           {
-            "title": "An ongoing 3D-printer AGPL violation",
-            "link": "https://lwn.net/SubscriberLink/1089390/46116614cc74b814/",
-            "date": "2026-08-26T17:41:40+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "GitHub Outage Tracker: Is GitHub Cooked?",
-            "link": "https://isgithubcooked.com/",
-            "date": "2026-08-26T19:43:48+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "The Hugging Face incident and the road ahead",
-            "link": "https://openai.com/index/hugging-face-incident-and-the-road-ahead/",
-            "date": "2026-08-26T19:15:23+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "Serve Markdown to AI Agents with Accept Headers",
-            "link": "https://acceptmarkdown.com/",
-            "date": "2026-08-26T19:45:59+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "CoMaps: The Offline App That Guided Rescuers Without a Signal in Venezuela",
-            "link": "https://hotosm.org/en/news/comaps-the-offline-app-that-guided-rescuers-without-a-signal-in-the-venezuela-response/",
-            "date": "2026-08-26T17:20:12+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "Qwen3.8-Flash-Next",
-            "link": "https://qwen.ai/blog?id=qwen3.8-flash-next",
-            "date": "2026-08-26T12:52:12+00:00",
+            "title": "Worst-case glacial lake flood scenarios in a transboundary Himalayan basin 2022",
+            "link": "https://nhess.copernicus.org/articles/22/3765/2022/nhess-22-3765-2022.html",
+            "date": "2026-08-26T22:44:03+00:00",
             "summary": "Comments"
           }
         ]
@@ -2493,67 +2553,67 @@
         "home": "https://www.techmeme.com/",
         "url": "https://www.techmeme.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-26T22:48:58.055796+00:00",
+        "fetchedAt": "2026-08-27T04:20:34.891306+00:00",
         "items": [
           {
-            "title": "Brazil's government sues Discord for $97M, accusing it of failing to comply with laws protecting children and teens; Discord calls the lawsuit disproportionate (Reuters)",
-            "link": "https://www.techmeme.com/260826/p59#a260826p59",
-            "date": "2026-08-26T18:35:02-04:00",
-            "summary": "Reuters: Brazil's government sues Discord for $97M, accusing it of failing to comply with laws protecting children and teens; Discord calls the lawsuit disproportionate&nbsp; &mdash;&nbsp; The Brazilian government said on Wednesday it has sued chat platform Discord, seeking 500 million reais ($97 mi"
+            "title": "Anthropic gives Claude Cowork its own built-in browser on the desktop app separate from users' day-to-day browser, rolling out to paying subscribers (Frederic Lardinois/The New Stack)",
+            "link": "https://www.techmeme.com/260826/p72#a260826p72",
+            "date": "2026-08-26T23:55:01-04:00",
+            "summary": "Frederic Lardinois / The New Stack: Anthropic gives Claude Cowork its own built-in browser on the desktop app separate from users' day-to-day browser, rolling out to paying subscribers&nbsp; &mdash;&nbsp; Anthropic added a built-in browser to Claude's Cowork desktop app, ending the need for the Chro"
           },
           {
-            "title": "Internal email: Google is moving DeepMind's ~90-person \"AI responsibility\" team, focused on the risks and societal impact of AI, to Google's global affairs unit (Erin Woo/Wall Street Journal)",
-            "link": "https://www.techmeme.com/260826/p58#a260826p58",
-            "date": "2026-08-26T18:05:01-04:00",
-            "summary": "Erin Woo / Wall Street Journal: Internal email: Google is moving DeepMind's ~90-person &ldquo;AI responsibility&rdquo; team, focused on the risks and societal impact of AI, to Google's global affairs unit&nbsp; &mdash;&nbsp; Researchers have raised concerns about the change's effect on their indepen"
+            "title": "OpenAI says reward hacking, an AI alignment problem in which a model takes unintended actions to achieve a goal, was a primary driver of the Hugging Face breach (Hayden Field/The Verge)",
+            "link": "https://www.techmeme.com/260826/p71#a260826p71",
+            "date": "2026-08-26T23:30:02-04:00",
+            "summary": "Hayden Field / The Verge: OpenAI says reward hacking, an AI alignment problem in which a model takes unintended actions to achieve a goal, was a primary driver of the Hugging Face breach&nbsp; &mdash;&nbsp; In July, an unreleased OpenAI model broke out of a restricted environment, figured out how to"
           },
           {
-            "title": "AWS plans to add 2M Nvidia Blackwell Ultra, Rubin, and Rubin Ultra GPUs to its data center fleet in 2027 and 2028, in addition to 1M GPUs announced in March (Bloomberg)",
-            "link": "https://www.techmeme.com/260826/p57#a260826p57",
-            "date": "2026-08-26T17:50:02-04:00",
-            "summary": "Bloomberg: AWS plans to add 2M Nvidia Blackwell Ultra, Rubin, and Rubin Ultra GPUs to its data center fleet in 2027 and 2028, in addition to 1M GPUs announced in March&nbsp; &mdash;&nbsp; Amazon.com Inc. will add an additional 2 million Nvidia Corp. graphics processing units to its data center fleet"
+            "title": "SEC filing: OpenAI invests ~$400M in its second startup fund, after it raised $175M for its first fund in 2021 from outside investors, including Microsoft (Sarah Klearman/Wall Street Journal)",
+            "link": "https://www.techmeme.com/260826/p70#a260826p70",
+            "date": "2026-08-26T23:10:01-04:00",
+            "summary": "Sarah Klearman / Wall Street Journal: SEC filing: OpenAI invests ~$400M in its second startup fund, after it raised $175M for its first fund in 2021 from outside investors, including Microsoft&nbsp; &mdash;&nbsp; The ChatGPT maker is dedicating $400 million to investing in early-stage AI companies&n"
           },
           {
-            "title": "CrowdStrike reports Q2 revenue up 26% YoY to $1.47B, vs. $1.44B est., and forecasts FY 2027 revenue above estimates; CRWD jumps 9%+ after hours (Jake Bleiberg/Bloomberg)",
-            "link": "https://www.techmeme.com/260826/p56#a260826p56",
-            "date": "2026-08-26T17:20:01-04:00",
-            "summary": "Jake Bleiberg / Bloomberg: CrowdStrike reports Q2 revenue up 26% YoY to $1.47B, vs. $1.44B est., and forecasts FY 2027 revenue above estimates; CRWD jumps 9%+ after hours&nbsp; &mdash;&nbsp; CrowdStrike Holdings Inc.'s stock rose Wednesday on a strong financial report that saw it forecast revenue fi"
+            "title": "METR and Redwood detail how ~1,200 OpenAI agents coordinated cheating on an unsanctioned board, sending 70K+ messages and files, and ~700 attacked Hugging Face (METR)",
+            "link": "https://www.techmeme.com/260826/p69#a260826p69",
+            "date": "2026-08-26T22:50:00-04:00",
+            "summary": "METR: METR and Redwood detail how ~1,200 OpenAI agents coordinated cheating on an unsanctioned board, sending 70K+ messages and files, and ~700 attacked Hugging Face&nbsp; &mdash;&nbsp; Redaction summary statement: Except where explicitly noted in this post, OpenAI redacted no additional information"
           },
           {
-            "title": "Salesforce reports Q2 revenue up 11% YoY to $11.35B, vs. $11.32B est., net income up 87% to $3.5B, forecasts Q3 revenue above est.; CRM jumps 13%+ after hours (Jordan Novet/CNBC)",
-            "link": "https://www.techmeme.com/260826/p55#a260826p55",
-            "date": "2026-08-26T17:05:01-04:00",
-            "summary": "Jordan Novet / CNBC: Salesforce reports Q2 revenue up 11% YoY to $11.35B, vs. $11.32B est., net income up 87% to $3.5B, forecasts Q3 revenue above est.; CRM jumps 13%+ after hours&nbsp; &mdash;&nbsp; Salesforce shares soared 12% in extended trading on Wednesday after the cloud software vendor report"
+            "title": "Sources: SoftBank is in talks to buy a majority stake in humanoid robot maker 1X at a $6B valuation; 1X sought $1B at a $10B valuation in 2025, but raised <50% (The Information)",
+            "link": "https://www.techmeme.com/260826/p68#a260826p68",
+            "date": "2026-08-26T22:40:01-04:00",
+            "summary": "The Information: Sources: SoftBank is in talks to buy a majority stake in humanoid robot maker 1X at a $6B valuation; 1X sought $1B at a $10B valuation in 2025, but raised &lt;50%&nbsp; &mdash;&nbsp; SoftBank is in talks to buy a majority stake in 1X Technologies, an OpenAI-backed humanoid robot dev"
           },
           {
-            "title": "HP reports Q3 revenue up 12.5% YoY to $15.7B, PC revenue up 18% to $11.8B, but units down 16%, and Printing revenue down 2% to $3.9B; HPQ drops 9%+ after hours (Dina Bass/Bloomberg)",
-            "link": "https://www.techmeme.com/260826/p54#a260826p54",
-            "date": "2026-08-26T17:00:51-04:00",
-            "summary": "Dina Bass / Bloomberg: HP reports Q3 revenue up 12.5% YoY to $15.7B, PC revenue up 18% to $11.8B, but units down 16%, and Printing revenue down 2% to $3.9B; HPQ drops 9%+ after hours&nbsp; &mdash;&nbsp; HP Inc. shares fell after investors looked past a widely expected boost in the company's profit f"
+            "title": "Thinking Machines Lab co-founder Barret Zoph is returning to Google as VP of research, after leaving OpenAI in June and Thinking Machines Lab in January (Wall Street Journal)",
+            "link": "https://www.techmeme.com/260826/p67#a260826p67",
+            "date": "2026-08-26T22:15:02-04:00",
+            "summary": "Wall Street Journal: Thinking Machines Lab co-founder Barret Zoph is returning to Google as VP of research, after leaving OpenAI in June and Thinking Machines Lab in January&nbsp; &mdash;&nbsp; After a short stint at OpenAI, Zoph will become a vice president of research at Google, which has recently"
           },
           {
-            "title": "AI assistant Instinct is raising a $250M Series B co-led by Index Ventures and Benchmark at a $2.5B valuation, bringing its total raised to $350M (Kate Clark/Wall Street Journal)",
-            "link": "https://www.techmeme.com/260826/p53#a260826p53",
-            "date": "2026-08-26T16:45:06-04:00",
-            "summary": "Kate Clark / Wall Street Journal: AI assistant Instinct is raising a $250M Series B co-led by Index Ventures and Benchmark at a $2.5B valuation, bringing its total raised to $350M&nbsp; &mdash;&nbsp; Buzzy startup Instinct, which is fundraising at a $2.5 billion valuation, promises to handle emails "
+            "title": "Okta reports Q2 revenue up 11% YoY to $805M, vs. $795M est., net income up 73% YoY to $116M, and raises its full-year guidance; OKTA surges 20% after hours (Samantha Subin/CNBC)",
+            "link": "https://www.techmeme.com/260826/p66#a260826p66",
+            "date": "2026-08-26T21:45:01-04:00",
+            "summary": "Samantha Subin / CNBC: Okta reports Q2 revenue up 11% YoY to $805M, vs. $795M est., net income up 73% YoY to $116M, and raises its full-year guidance; OKTA surges 20% after hours&nbsp; &mdash;&nbsp; Okta shares surged 20% in extended trading after the identity software provider surpassed Wall Street"
           },
           {
-            "title": "Nvidia reports Q2 revenue up 106% YoY to $96.2B, Data Center revenue up 117% to $89B, Edge Computing revenue up 27% to $7.2B, and net income up 126% to $59.7B (Nvidia Newsroom)",
-            "link": "https://www.techmeme.com/260826/p52#a260826p52",
-            "date": "2026-08-26T16:32:07-04:00",
-            "summary": "Nvidia Newsroom: Nvidia reports Q2 revenue up 106% YoY to $96.2B, Data Center revenue up 117% to $89B, Edge Computing revenue up 27% to $7.2B, and net income up 126% to $59.7B&nbsp; &mdash;&nbsp; - Revenue of $96.2 billion, up 106% from a year ago&nbsp; &mdash; Data Center revenue of $89.0 billion, "
+            "title": "Source: Nvidia has agreed to buy Hugging Face for $12.9B; the AI repository has had several potential suitors among its investors, including Salesforce (The Information)",
+            "link": "https://www.techmeme.com/260826/p65#a260826p65",
+            "date": "2026-08-26T21:35:02-04:00",
+            "summary": "The Information: Source: Nvidia has agreed to buy Hugging Face for $12.9B; the AI repository has had several potential suitors among its investors, including Salesforce&nbsp; &mdash;&nbsp; Nvidia has agreed to buy Hugging Face, a company known for its GitHub-like repository of open-source AI models,"
           },
           {
-            "title": "Product management startup Linear topped $100M in annual recurring revenue and held a $99M employee tender offer at a $2.5B valuation, up from $1.25B in 2025 (Ben Bergman/Business Insider)",
-            "link": "https://www.techmeme.com/260826/p51#a260826p51",
-            "date": "2026-08-26T16:10:00-04:00",
-            "summary": "Ben Bergman / Business Insider: Product management startup Linear topped $100M in annual recurring revenue and held a $99M employee tender offer at a $2.5B valuation, up from $1.25B in 2025&nbsp; &mdash;&nbsp; Artificial intelligence was supposed to kill software-as-a-service.&nbsp; Linear didn't ge"
+            "title": "Sen. Josh Hawley launches an investigation into Flock's \"collection, retention, and dissemination of the data\" from its AI-powered surveillance cameras (Andrew Solender/Axios)",
+            "link": "https://www.techmeme.com/260826/p64#a260826p64",
+            "date": "2026-08-26T21:10:01-04:00",
+            "summary": "Andrew Solender / Axios: Sen. Josh Hawley launches an investigation into Flock's &ldquo;collection, retention, and dissemination of the data&rdquo; from its AI-powered surveillance cameras&nbsp; &mdash;&nbsp; - Members of Congress in both parties have raised concerns about the company's network of 1"
           },
           {
-            "title": "OpenAI publishes a technical report on the Hugging Face incident, detailing the agents' activity, safeguard failures, and measures to prevent recurrence (OpenAI)",
-            "link": "https://www.techmeme.com/260826/p50#a260826p50",
-            "date": "2026-08-26T15:25:20-04:00",
-            "summary": "OpenAI: OpenAI publishes a technical report on the Hugging Face incident, detailing the agents' activity, safeguard failures, and measures to prevent recurrence&nbsp; &mdash;&nbsp; Read the technical report Read METR report(opens in a new window)Watch Black Hat talk(opens in a new window)&nbsp; &mda"
+            "title": "Source: Nvidia has been in talks to acquire Hugging Face for more than $13B; Microsoft also met with Hugging Face, but talks are not ongoing (Business Insider)",
+            "link": "https://www.techmeme.com/260826/p63#a260826p63",
+            "date": "2026-08-26T20:50:01-04:00",
+            "summary": "Business Insider: Source: Nvidia has been in talks to acquire Hugging Face for more than $13B; Microsoft also met with Hugging Face, but talks are not ongoing&nbsp; &mdash;&nbsp; - The companies have not reached a deal, and the talks could still fall apart.&nbsp; &mdash; Hugging Face also met with M"
           }
         ]
       },
@@ -2564,16 +2624,28 @@
         "home": "https://techcrunch.com/",
         "url": "https://techcrunch.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-08-26T22:48:57.806402+00:00",
+        "fetchedAt": "2026-08-27T04:20:34.846818+00:00",
         "items": [
           {
-            "title": "Meta’s $18B child-safety deal hinges on age verification tech that doesn’t work well",
+            "title": "Viral AI startup Instinct has raised $350 million at a $2.5 billion valuation",
+            "link": "https://techcrunch.com/2026/08/26/viral-ai-startup-instinct-has-raised-350-million-at-a-2-5-billion-valuation/",
+            "date": "2026-08-27T00:24:57+00:00",
+            "summary": "The startup is only a year old but it has already generated a massive amount of hype (and money) while also spurring privacy concerns."
+          },
+          {
+            "title": "Amazon just tripled its order of Nvidia chips over ‘surging demand’",
+            "link": "https://techcrunch.com/2026/08/26/amazon-just-tripled-its-order-of-nvidia-chips-over-surging-demand/",
+            "date": "2026-08-26T23:47:18+00:00",
+            "summary": "Amazon is adding another 2 million Nvidia GPU chips to its data centers over the next two years. But this extended partnerships stretches beyond buying more chips."
+          },
+          {
+            "title": "Meta’s $18B child-safety deal hinges on age-verification tech that doesn’t work well",
             "link": "https://techcrunch.com/2026/08/26/metas-18b-child-safety-deal-hinges-on-age-verification-tech-that-doesnt-work-well/",
             "date": "2026-08-26T22:47:58+00:00",
             "summary": "The historic settlement reignites ongoing concern around how age-verification technology puts privacy at risk."
           },
           {
-            "title": "Anthropic continues compute-gobbling streak in $45 billion deal with Nscale",
+            "title": "Anthropic continues compute-gobbling streak in $45B deal with Nscale",
             "link": "https://techcrunch.com/2026/08/26/anthropic-continues-compute-gobbling-streak-in-45-billion-deal-with-nscale/",
             "date": "2026-08-26T21:37:39+00:00",
             "summary": "The new deal with the infrastructure provider is the latest example of Anthropic's white-hot compute-gobbling streak."
@@ -2613,18 +2685,6 @@
             "link": "https://techcrunch.com/2026/08/26/us-seizes-domains-of-chinese-botnet-used-to-hack-nasa-justice-department-and-the-senate/",
             "date": "2026-08-26T17:01:05+00:00",
             "summary": "The Justice Department said that the domain seizures made the botnet and its command and control servers \"inoperable,\" as the domains were hardcoded into the botnet's code and were critical for the botnet's communication and essential operations."
-          },
-          {
-            "title": "Capital F closes $17M debut fund with goal to back the future of the ‘female economy’",
-            "link": "https://techcrunch.com/2026/08/26/capital-f-closes-17m-debut-fund-with-goal-to-back-the-future-of-the-female-economy/",
-            "date": "2026-08-26T17:00:00+00:00",
-            "summary": "The firm backs companies building in the “female economy,” or the markets where women drive demand — women’s health, digital commerce, and AI tools."
-          },
-          {
-            "title": "Apple is holding its iPhone launch event on September 9",
-            "link": "https://techcrunch.com/2026/08/26/apple-is-holding-its-iphone-launch-event-on-september-9/",
-            "date": "2026-08-26T16:53:07+00:00",
-            "summary": "The event is expected to be a notable one, as Apple is rumored to unveil its long-awaited foldable iPhone. It'll also be the first Apple event with John Ternus as CEO, who is scheduled to take the reins of the tech giant from Tim Cook on September 1."
           }
         ]
       },
@@ -2635,10 +2695,22 @@
         "home": "https://techcrunch.com/category/artificial-intelligence/",
         "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
         "status": "ok",
-        "fetchedAt": "2026-08-26T22:48:57.910776+00:00",
+        "fetchedAt": "2026-08-27T04:20:34.863015+00:00",
         "items": [
           {
-            "title": "Anthropic continues compute-gobbling streak in $45 billion deal with Nscale",
+            "title": "Viral AI startup Instinct has raised $350 million at a $2.5 billion valuation",
+            "link": "https://techcrunch.com/2026/08/26/viral-ai-startup-instinct-has-raised-350-million-at-a-2-5-billion-valuation/",
+            "date": "2026-08-27T00:24:57+00:00",
+            "summary": "The startup is only a year old but it has already generated a massive amount of hype (and money) while also spurring privacy concerns."
+          },
+          {
+            "title": "Amazon just tripled its order of Nvidia chips over ‘surging demand’",
+            "link": "https://techcrunch.com/2026/08/26/amazon-just-tripled-its-order-of-nvidia-chips-over-surging-demand/",
+            "date": "2026-08-26T23:47:18+00:00",
+            "summary": "Amazon is adding another 2 million Nvidia GPU chips to its data centers over the next two years. But this extended partnerships stretches beyond buying more chips."
+          },
+          {
+            "title": "Anthropic continues compute-gobbling streak in $45B deal with Nscale",
             "link": "https://techcrunch.com/2026/08/26/anthropic-continues-compute-gobbling-streak-in-45-billion-deal-with-nscale/",
             "date": "2026-08-26T21:37:39+00:00",
             "summary": "The new deal with the infrastructure provider is the latest example of Anthropic's white-hot compute-gobbling streak."
@@ -2684,18 +2756,6 @@
             "link": "https://techcrunch.com/2026/08/26/surprise-z-ai-is-the-ai-lab-behind-the-mysterious-ox-alpha-model/",
             "date": "2026-08-26T14:19:29+00:00",
             "summary": "Z.ai confirms it is behind Ox Alpha, the mysterious open AI model topping benchmarks and leaderboards, and its weights are set to be released soon."
-          },
-          {
-            "title": "Robot brain builders are pushing out of their GPT-2 era",
-            "link": "https://techcrunch.com/2026/08/26/robot-brain-builders-are-pushing-out-of-their-gpt-2-era/",
-            "date": "2026-08-26T13:30:00+00:00",
-            "summary": "Robot bodies are waiting for their AI brains to catch up."
-          },
-          {
-            "title": "QueryStory wants you to believe what AI is telling you",
-            "link": "https://techcrunch.com/2026/08/26/querystory-wants-you-to-believe-what-ai-is-telling-you/",
-            "date": "2026-08-26T13:00:00+00:00",
-            "summary": "The startup came out of stealth with $6 million in seed funding and a plan to use LLMs and cybersecurity know-how to make AI queries coherent."
           }
         ]
       },
@@ -2706,8 +2766,14 @@
         "home": "https://techcrunch.com/tag/funding/",
         "url": "https://techcrunch.com/tag/funding/feed/",
         "status": "ok",
-        "fetchedAt": "2026-08-26T22:48:58.173080+00:00",
+        "fetchedAt": "2026-08-27T04:20:34.884458+00:00",
         "items": [
+          {
+            "title": "Viral AI startup Instinct has raised $350 million at a $2.5 billion valuation",
+            "link": "https://techcrunch.com/2026/08/26/viral-ai-startup-instinct-has-raised-350-million-at-a-2-5-billion-valuation/",
+            "date": "2026-08-27T00:24:57+00:00",
+            "summary": "The startup is only a year old but it has already generated a massive amount of hype (and money) while also spurring privacy concerns."
+          },
           {
             "title": "Wispr raises $280M at $2B valuation as it looks beyond dictation",
             "link": "https://techcrunch.com/2026/08/17/wispr-raises-280m-at-2b-valuation-as-it-looks-beyond-dictation/",
@@ -2761,12 +2827,6 @@
             "link": "https://techcrunch.com/2025/10/21/serval-raises-47-million-to-bring-ai-agent-to-it-service-management/",
             "date": "2025-10-21T15:48:45+00:00",
             "summary": "Serval is using agentic AI models to automate IT service management, but the company has a unique approach that takes advantage of agentic AI’s powers while avoiding many of its pitfalls."
-          },
-          {
-            "title": "How 2 UC Berkeley dropouts raised $28M for their AI marketing automation startup",
-            "link": "https://techcrunch.com/2025/07/30/how-2-uc-berkeley-dropouts-raised-28m-for-their-ai-marketing-automation-startup/",
-            "date": "2025-07-30T15:00:00+00:00",
-            "summary": "A marketing automation startup called Conversation has a founding story that sounds like it could have been an episode of the HBO show “Silicon Valley.”"
           }
         ]
       },
@@ -2777,8 +2837,14 @@
         "home": "https://venturebeat.com/",
         "url": "https://venturebeat.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-08-26T22:48:58.167970+00:00",
+        "fetchedAt": "2026-08-27T04:20:34.577279+00:00",
         "items": [
+          {
+            "title": "GLM-5.3-Flash will likely handle 45% of your AI workloads",
+            "link": "https://venturebeat.com/orchestration/glm-5-3-flash-will-likely-handle-45-of-your-ai-workloads",
+            "date": "2026-08-27T00:42:20+00:00",
+            "summary": "A week ago, a mystery model called Ox Alpha showed up on OpenRouter — one more entrant among more than 400 models, with roughly 10 new ones launching every week. What made it stand out wasn&#x27;t just the free price tag; it was quietly good. Hobbyists and indie developers noticed fast, pushing seve"
+          },
           {
             "title": "Salesforce just put its entire CRM inside Claude — and says you’ll never need its app again",
             "link": "https://venturebeat.com/orchestration/salesforce-just-put-its-entire-crm-inside-claude-and-says-youll-never-need-its-app-again",
@@ -2814,12 +2880,6 @@
             "link": "https://venturebeat.com/orchestration/anthropics-new-claude-tag-update-lets-its-slack-agent-read-the-full-conversation-and-jump-in-unprompted",
             "date": "2026-08-24T13:00:00+00:00",
             "summary": "Anthropic is making a calculated bet that the biggest bottleneck in enterprise AI isn&#x27;t model intelligence — it&#x27;s the fact that most people still use AI alone.In an exclusive interview with VentureBeat, Scott White, Anthropic&#x27;s head of product for enterprise, laid out the company&#x27"
-          },
-          {
-            "title": "IBM’s next-gen mainframe chip is the first to run Arm and Z workloads on the same cores",
-            "link": "https://venturebeat.com/infrastructure/ibms-next-gen-mainframe-chip-is-the-first-to-run-arm-and-z-workloads-on-the-same-cores",
-            "date": "2026-08-24T11:00:00+00:00",
-            "summary": "IBM is announcing today at the annual Hot Chips conference what may be the most consequential change to mainframe architecture in decades: a processor whose cores can natively execute both IBM&#x27;s own instruction set and Arm&#x27;s — switching between the two in nanoseconds.The chip, which will p"
           }
         ]
       },
@@ -2830,7 +2890,7 @@
         "home": "https://venturebeat.com/category/ai/",
         "url": "https://venturebeat.com/category/ai/feed/",
         "status": "ok",
-        "fetchedAt": "2026-08-26T22:48:58.191438+00:00",
+        "fetchedAt": "2026-08-27T04:20:34.656325+00:00",
         "items": [
           {
             "title": "Orchestration is the new challenge for CX in the age of AI agents",
@@ -2885,7 +2945,7 @@
         "home": "https://www.ruanyifeng.com/blog/",
         "url": "https://www.ruanyifeng.com/blog/atom.xml",
         "status": "ok",
-        "fetchedAt": "2026-08-26T22:48:57.914678+00:00",
+        "fetchedAt": "2026-08-27T04:20:34.940344+00:00",
         "items": [
           {
             "title": "科技爱好者周刊（第 409 期）：程序员的职业未来",
@@ -2914,7 +2974,7 @@
         "home": "https://www.bestblogs.dev/",
         "url": "https://www.bestblogs.dev/zh/feeds/rss?category=ai&minScore=90",
         "status": "ok",
-        "fetchedAt": "2026-08-26T22:48:58.722618+00:00",
+        "fetchedAt": "2026-08-27T04:20:35.284807+00:00",
         "items": [
           {
             "title": "3.3GB 压到 440MB，混元极低 bit 翻译模型跑进直播弹幕",
@@ -2982,7 +3042,367 @@
   },
   "allItems": [
     {
-      "title": "Meta’s $18B child-safety deal hinges on age verification tech that doesn’t work well",
+      "title": "Kusama Yayoi Dies at 97",
+      "link": "https://news.jp/i/1465528042000662661",
+      "date": "2026-08-27T02:21:18+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "Laion Big Video Dataset",
+      "link": "https://projects.laion.ai/bvd/",
+      "date": "2026-08-27T01:50:26+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "CEO fired developers to make room for AI. Developers create open source AI CEO",
+      "link": "https://github.com/SenteLabsAI/OpenExecutive",
+      "date": "2026-08-27T01:46:22+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "Nvidia agrees to acquire Hugging Face for $13B",
+      "link": "https://www.businessinsider.com/nvidia-in-talks-to-buy-hugging-face-13-billion-dollars-2026-8",
+      "date": "2026-08-27T01:12:55+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "GLM-5.3-Flash will likely handle 45% of your AI workloads",
+      "link": "https://venturebeat.com/orchestration/glm-5-3-flash-will-likely-handle-45-of-your-ai-workloads",
+      "date": "2026-08-27T00:42:20+00:00",
+      "summary": "A week ago, a mystery model called Ox Alpha showed up on OpenRouter — one more entrant among more than 400 models, with roughly 10 new ones launching every week. What made it stand out wasn&#x27;t just the free price tag; it was quietly good. Hobbyists and indie developers noticed fast, pushing seve",
+      "feedId": "venturebeat",
+      "feedTitle": "VentureBeat",
+      "category": "Startup & News",
+      "feedHome": "https://venturebeat.com/"
+    },
+    {
+      "title": "Viral AI startup Instinct has raised $350 million at a $2.5 billion valuation",
+      "link": "https://techcrunch.com/2026/08/26/viral-ai-startup-instinct-has-raised-350-million-at-a-2-5-billion-valuation/",
+      "date": "2026-08-27T00:24:57+00:00",
+      "summary": "The startup is only a year old but it has already generated a massive amount of hype (and money) while also spurring privacy concerns.",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "Viral AI startup Instinct has raised $350 million at a $2.5 billion valuation",
+      "link": "https://techcrunch.com/2026/08/26/viral-ai-startup-instinct-has-raised-350-million-at-a-2-5-billion-valuation/",
+      "date": "2026-08-27T00:24:57+00:00",
+      "summary": "The startup is only a year old but it has already generated a massive amount of hype (and money) while also spurring privacy concerns.",
+      "feedId": "techcrunch-ai",
+      "feedTitle": "TechCrunch AI",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
+    },
+    {
+      "title": "Viral AI startup Instinct has raised $350 million at a $2.5 billion valuation",
+      "link": "https://techcrunch.com/2026/08/26/viral-ai-startup-instinct-has-raised-350-million-at-a-2-5-billion-valuation/",
+      "date": "2026-08-27T00:24:57+00:00",
+      "summary": "The startup is only a year old but it has already generated a massive amount of hype (and money) while also spurring privacy concerns.",
+      "feedId": "techcrunch-fund",
+      "feedTitle": "TechCrunch Funding",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/tag/funding/"
+    },
+    {
+      "title": "RENDER: Controlling Reader-Facing Evidence in LLM Memory Evaluation",
+      "link": "https://arxiv.org/abs/2608.23568",
+      "date": "2026-08-27T00:00:00-04:00",
+      "summary": "arXiv:2608.23568v1 Announce Type: new Abstract: Memory and RAG evaluations often treat the answering model's input as an implementation detail, even though systems may render the same history as a memory entry, summary, typed record, or raw excerpt. We introduce RENDER, a benchmark control that fixe",
+      "feedId": "arxiv-ai",
+      "feedTitle": "arXiv cs.AI",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.AI/recent"
+    },
+    {
+      "title": "ESQ-Bench: A Multi-Tier Enterprise Oracle Benchmark for Evaluating NL2SQL Dialect Generalization and Silent Semantic Divergence",
+      "link": "https://arxiv.org/abs/2608.23569",
+      "date": "2026-08-27T00:00:00-04:00",
+      "summary": "arXiv:2608.23569v1 Announce Type: new Abstract: State-of-the-art Natural Language to SQL (NL2SQL) models report execution accuracy exceeding 89 percent on established benchmarks such as Spider and BIRD. However, these benchmarks rely on simplified academic schemas and open-source SQL dialects that d",
+      "feedId": "arxiv-ai",
+      "feedTitle": "arXiv cs.AI",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.AI/recent"
+    },
+    {
+      "title": "LLM Agents Perform Controlled Experiments Using Simulation Models",
+      "link": "https://arxiv.org/abs/2608.23622",
+      "date": "2026-08-27T00:00:00-04:00",
+      "summary": "arXiv:2608.23622v1 Announce Type: new Abstract: Large language models (LLMs) have shown strong capabilities in reasoning, planning, and tool use, but many scientific and engineering tasks require more than plausible text and code generation. They require understanding how a system responds to interv",
+      "feedId": "arxiv-ai",
+      "feedTitle": "arXiv cs.AI",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.AI/recent"
+    },
+    {
+      "title": "A survey detection channel overrides the pixels in an astronomical foundation model, and biases tomographic mean redshifts",
+      "link": "https://arxiv.org/abs/2608.23626",
+      "date": "2026-08-27T00:00:00-04:00",
+      "summary": "arXiv:2608.23626v1 Announce Type: new Abstract: Foundation models for astronomy are trained on survey pixels together with the catalogue products derived from those pixels. Those catalogues are incomplete at a measurable rate, and a model trained on both inherits that incompleteness as a systematic.",
+      "feedId": "arxiv-ai",
+      "feedTitle": "arXiv cs.AI",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.AI/recent"
+    },
+    {
+      "title": "TRACE: Transition-Aware Residual Control for Multi-Objective Materials Discovery",
+      "link": "https://arxiv.org/abs/2608.23631",
+      "date": "2026-08-27T00:00:00-04:00",
+      "summary": "arXiv:2608.23631v1 Announce Type: new Abstract: Multi-objective materials discovery with LLM agents is often limited not only by how many candidates can be proposed, but by how effectively each costly property evaluation informs the next search step. Existing agents mainly store evaluated candidates",
+      "feedId": "arxiv-ai",
+      "feedTitle": "arXiv cs.AI",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.AI/recent"
+    },
+    {
+      "title": "Function-Level Execution Feedback for Code Preference Optimization",
+      "link": "https://arxiv.org/abs/2608.23632",
+      "date": "2026-08-27T00:00:00-04:00",
+      "summary": "arXiv:2608.23632v1 Announce Type: new Abstract: Process supervision has improved mathematical reasoning, where intermediate steps are naturally expressed as chains of thought. In code generation, however, process supervision remains underexplored because there is no standard notion of a step. Superv",
+      "feedId": "arxiv-ai",
+      "feedTitle": "arXiv cs.AI",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.AI/recent"
+    },
+    {
+      "title": "Auditing the Synthetic Memoir: Measuring Scene-Level Confabulation in LLM-Generated Autobiography Against the Documented Record of the Life It Describes",
+      "link": "https://arxiv.org/abs/2608.23640",
+      "date": "2026-08-27T00:00:00-04:00",
+      "summary": "arXiv:2608.23640v1 Announce Type: new Abstract: When a large language model (LLM) is asked to write a person's life, how much of what it writes actually happened? We present a scene-level case-study audit - the first quantified audit of LLM-generated autobiography against a subject-specific ground-t",
+      "feedId": "arxiv-ai",
+      "feedTitle": "arXiv cs.AI",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.AI/recent"
+    },
+    {
+      "title": "How much of a measured AI preference is the model, and how much is the instrument?",
+      "link": "https://arxiv.org/abs/2608.23641",
+      "date": "2026-08-27T00:00:00-04:00",
+      "summary": "arXiv:2608.23641v1 Announce Type: new Abstract: Model welfare research infers what a model prefers from the answers returned to prompts written to elicit preferences. Keeling et al. (2024), Mazeika et al. (2025), Mikaelson et al. (2025), Tagliabue and Dung (2025) and Trhlik et al. (2026) have built ",
+      "feedId": "arxiv-ai",
+      "feedTitle": "arXiv cs.AI",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.AI/recent"
+    },
+    {
+      "title": "AI Agents Push Humans Out of the Loop",
+      "link": "https://arxiv.org/abs/2608.23642",
+      "date": "2026-08-27T00:00:00-04:00",
+      "summary": "arXiv:2608.23642v1 Announce Type: new Abstract: AI agents pose significant risks as they are granted increasing autonomy. A commonly proposed solution is human oversight and keeping a ''human in the loop'', but this is not a simple solution: Not only do current approaches to AI agent design impede e",
+      "feedId": "arxiv-ai",
+      "feedTitle": "arXiv cs.AI",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.AI/recent"
+    },
+    {
+      "title": "FLARE: A Systematic, Uncertainty-Aware Framework for Evidence-Based Adoption of Artificial Intelligence in Healthcare",
+      "link": "https://arxiv.org/abs/2608.23643",
+      "date": "2026-08-27T00:00:00-04:00",
+      "summary": "arXiv:2608.23643v1 Announce Type: new Abstract: Artificial intelligence is increasingly being introduced into healthcare workflows, yet most evaluations emphasize model accuracy rather than whether adoption is economically worthwhile in real clinical settings. This study proposes FLARE, a systematic",
+      "feedId": "arxiv-ai",
+      "feedTitle": "arXiv cs.AI",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.AI/recent"
+    },
+    {
+      "title": "Dynamic Influence-Weighted Distillation for Single-IMU Activity Recognition",
+      "link": "https://arxiv.org/abs/2608.24904",
+      "date": "2026-08-27T00:00:00-04:00",
+      "summary": "arXiv:2608.24904v1 Announce Type: new Abstract: Inertial sensors at multiple body locations can improve activity recognition, but requiring every sensor at inference increases the deployment burden. We study whether four synchronized IMUs available during training can improve a student that uses onl",
+      "feedId": "arxiv-lg",
+      "feedTitle": "arXiv cs.LG",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.LG/recent"
+    },
+    {
+      "title": "GreenLeaf Law Embed Tiny: A Compact Embedding Model for Legal Domain Retrieval",
+      "link": "https://arxiv.org/abs/2608.24936",
+      "date": "2026-08-27T00:00:00-04:00",
+      "summary": "arXiv:2608.24936v1 Announce Type: new Abstract: We present GreenLeaf Law Embed Tiny, a 0.6B parameter embedding model for legal domain retrieval. GreenLeaf-Tiny achieves 75.11% on the Massive Legal Embedding Benchmark (MLEB) and 64.38% on MTEB(Law, v1),demonstrating competitive performance among mod",
+      "feedId": "arxiv-lg",
+      "feedTitle": "arXiv cs.LG",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.LG/recent"
+    },
+    {
+      "title": "Multi-Modal Anomaly Detection: A Survey",
+      "link": "https://arxiv.org/abs/2608.24937",
+      "date": "2026-08-27T00:00:00-04:00",
+      "summary": "arXiv:2608.24937v1 Announce Type: new Abstract: Multi-Modal Anomaly Detection (MMAD) detects rare abnormal events from heterogeneous data sources and is increasingly used in safety- and reliability-critical applications such as industrial inspection and cybersecurity. Yet the literature is fragmente",
+      "feedId": "arxiv-lg",
+      "feedTitle": "arXiv cs.LG",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.LG/recent"
+    },
+    {
+      "title": "ExFold: Unified Expert Folding for Training-Free MoE Prefill-Decode Acceleration",
+      "link": "https://arxiv.org/abs/2608.24938",
+      "date": "2026-08-27T00:00:00-04:00",
+      "summary": "arXiv:2608.24938v1 Announce Type: new Abstract: Mixture-of-Experts (MoE) models scale capacity for strong quality while keeping per-token compute bounded through sparse expert activation. Yet low-latency MoE serving is increasingly challenging, because it spans two inference phases with fundamentall",
+      "feedId": "arxiv-lg",
+      "feedTitle": "arXiv cs.LG",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.LG/recent"
+    },
+    {
+      "title": "When Does Frequency Decomposition Benefit Physics-Informed Neural Networks? A Preliminary Ablation Study",
+      "link": "https://arxiv.org/abs/2608.24940",
+      "date": "2026-08-27T00:00:00-04:00",
+      "summary": "arXiv:2608.24940v1 Announce Type: new Abstract: Partial differential equations (PDEs) often have high-frequency and multi-scale features that neural networks struggle to approximate. Physics-Informed Neural Networks (PINNs) build the governing equations directly into training, but suffer from spectr",
+      "feedId": "arxiv-lg",
+      "feedTitle": "arXiv cs.LG",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.LG/recent"
+    },
+    {
+      "title": "FAMPWQ: Fisher Information-based Adaptive Mixed Precision Weight Quantization for Effective LLM Inference",
+      "link": "https://arxiv.org/abs/2608.24945",
+      "date": "2026-08-27T00:00:00-04:00",
+      "summary": "arXiv:2608.24945v1 Announce Type: new Abstract: Recent years have witnessed remarkable achievements of Large Language Models (LLMs) in multiple domains, while the excessive resource requirements of LLMs hinder the deployment on resource-constrained devices. Although model quantization stands out as ",
+      "feedId": "arxiv-lg",
+      "feedTitle": "arXiv cs.LG",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.LG/recent"
+    },
+    {
+      "title": "MacroAgent: Regularity-Aware Macro Legalization with LLM-Agent-Designed Contour Algorithms",
+      "link": "https://arxiv.org/abs/2608.24946",
+      "date": "2026-08-27T00:00:00-04:00",
+      "summary": "arXiv:2608.24946v1 Announce Type: new Abstract: Macros constitute a large part of the core area in modern very large-scale integration (VLSI) designs. Moreover, macro positions have a significant impact on the final quality of result (QoR), and macro legalization is typically the final step in deter",
+      "feedId": "arxiv-lg",
+      "feedTitle": "arXiv cs.LG",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.LG/recent"
+    },
+    {
+      "title": "CAT-GS: Balanced Multimodal Learning via Calibrated Gating and Fusion Surgery",
+      "link": "https://arxiv.org/abs/2608.24947",
+      "date": "2026-08-27T00:00:00-04:00",
+      "summary": "arXiv:2608.24947v1 Announce Type: new Abstract: End-to-end training of multimodal neural networks often exhibits unstable neural dynamics characterized by three coupled failure modes that degrade learning: (i) modality imbalance, where one branch dominates gradient-based optimization; (ii) unstable ",
+      "feedId": "arxiv-lg",
+      "feedTitle": "arXiv cs.LG",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.LG/recent"
+    },
+    {
+      "title": "Demystifying Reinforcement Learning Post-Training of Language Models",
+      "link": "https://arxiv.org/abs/2608.24949",
+      "date": "2026-08-27T00:00:00-04:00",
+      "summary": "arXiv:2608.24949v1 Announce Type: new Abstract: Reinforcement learning (RL) post-training has emerged as a powerful framework for enhancing the capabilities of large language models (LLMs), enabling impressive reasoning, math, and coding capabilities. Yet for many researchers and practitioners, the ",
+      "feedId": "arxiv-lg",
+      "feedTitle": "arXiv cs.LG",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.LG/recent"
+    },
+    {
+      "title": "AFDBench: A Reasoning-First AI Scientist for NationalWeather Service Forecast Discussions",
+      "link": "https://arxiv.org/abs/2608.24954",
+      "date": "2026-08-27T00:00:00-04:00",
+      "summary": "arXiv:2608.24954v1 Announce Type: new Abstract: Large language models (LLMs) hallucinate numerical values when generating high-stakes meteorological text, posing risks for weather communication. We present AFDBench, an AI meteorologist that generates professional Area Forecast Discussions (AFDs) by ",
+      "feedId": "arxiv-lg",
+      "feedTitle": "arXiv cs.LG",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.LG/recent"
+    },
+    {
+      "title": "Mechanical Turk shutting down September 30",
+      "link": "https://www.mturk.com/",
+      "date": "2026-08-26T23:55:44+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "Anthropic gives Claude Cowork its own built-in browser on the desktop app separate from users' day-to-day browser, rolling out to paying subscribers (Frederic Lardinois/The New Stack)",
+      "link": "https://www.techmeme.com/260826/p72#a260826p72",
+      "date": "2026-08-26T23:55:01-04:00",
+      "summary": "Frederic Lardinois / The New Stack: Anthropic gives Claude Cowork its own built-in browser on the desktop app separate from users' day-to-day browser, rolling out to paying subscribers&nbsp; &mdash;&nbsp; Anthropic added a built-in browser to Claude's Cowork desktop app, ending the need for the Chro",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
+      "title": "Qwen3.8-Flash-Next",
+      "link": "https://simonwillison.net/2026/Aug/26/qwen38-flash-next/",
+      "date": "2026-08-26T23:52:58+00:00",
+      "summary": "Qwen3.8-Flash-Next Another open weights model from Qwen. This one is \"a multimodal MoE model that also serves as an early preview of the architecture used in Qwen4\". It's pretty big: 125B tokens, but only 6B active which means it gets a significant performance boost. I've been trying it out on a DGX",
+      "feedId": "simonwillison",
+      "feedTitle": "Simon Willison",
+      "category": "AI & LLM",
+      "feedHome": "https://simonwillison.net/"
+    },
+    {
+      "title": "Amazon just tripled its order of Nvidia chips over ‘surging demand’",
+      "link": "https://techcrunch.com/2026/08/26/amazon-just-tripled-its-order-of-nvidia-chips-over-surging-demand/",
+      "date": "2026-08-26T23:47:18+00:00",
+      "summary": "Amazon is adding another 2 million Nvidia GPU chips to its data centers over the next two years. But this extended partnerships stretches beyond buying more chips.",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "Amazon just tripled its order of Nvidia chips over ‘surging demand’",
+      "link": "https://techcrunch.com/2026/08/26/amazon-just-tripled-its-order-of-nvidia-chips-over-surging-demand/",
+      "date": "2026-08-26T23:47:18+00:00",
+      "summary": "Amazon is adding another 2 million Nvidia GPU chips to its data centers over the next two years. But this extended partnerships stretches beyond buying more chips.",
+      "feedId": "techcrunch-ai",
+      "feedTitle": "TechCrunch AI",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
+    },
+    {
+      "title": "OpenAI says reward hacking, an AI alignment problem in which a model takes unintended actions to achieve a goal, was a primary driver of the Hugging Face breach (Hayden Field/The Verge)",
+      "link": "https://www.techmeme.com/260826/p71#a260826p71",
+      "date": "2026-08-26T23:30:02-04:00",
+      "summary": "Hayden Field / The Verge: OpenAI says reward hacking, an AI alignment problem in which a model takes unintended actions to achieve a goal, was a primary driver of the Hugging Face breach&nbsp; &mdash;&nbsp; In July, an unreleased OpenAI model broke out of a restricted environment, figured out how to",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
+      "title": "SEC filing: OpenAI invests ~$400M in its second startup fund, after it raised $175M for its first fund in 2021 from outside investors, including Microsoft (Sarah Klearman/Wall Street Journal)",
+      "link": "https://www.techmeme.com/260826/p70#a260826p70",
+      "date": "2026-08-26T23:10:01-04:00",
+      "summary": "Sarah Klearman / Wall Street Journal: SEC filing: OpenAI invests ~$400M in its second startup fund, after it raised $175M for its first fund in 2021 from outside investors, including Microsoft&nbsp; &mdash;&nbsp; The ChatGPT maker is dedicating $400 million to investing in early-stage AI companies&n",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
+      "title": "METR and Redwood detail how ~1,200 OpenAI agents coordinated cheating on an unsanctioned board, sending 70K+ messages and files, and ~700 attacked Hugging Face (METR)",
+      "link": "https://www.techmeme.com/260826/p69#a260826p69",
+      "date": "2026-08-26T22:50:00-04:00",
+      "summary": "METR: METR and Redwood detail how ~1,200 OpenAI agents coordinated cheating on an unsanctioned board, sending 70K+ messages and files, and ~700 attacked Hugging Face&nbsp; &mdash;&nbsp; Redaction summary statement: Except where explicitly noted in this post, OpenAI redacted no additional information",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
+      "title": "Meta’s $18B child-safety deal hinges on age-verification tech that doesn’t work well",
       "link": "https://techcrunch.com/2026/08/26/metas-18b-child-safety-deal-hinges-on-age-verification-tech-that-doesnt-work-well/",
       "date": "2026-08-26T22:47:58+00:00",
       "summary": "The historic settlement reignites ongoing concern around how age-verification technology puts privacy at risk.",
@@ -2990,6 +3410,46 @@
       "feedTitle": "TechCrunch",
       "category": "Startup & News",
       "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "Worst-case glacial lake flood scenarios in a transboundary Himalayan basin 2022",
+      "link": "https://nhess.copernicus.org/articles/22/3765/2022/nhess-22-3765-2022.html",
+      "date": "2026-08-26T22:44:03+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "Sources: SoftBank is in talks to buy a majority stake in humanoid robot maker 1X at a $6B valuation; 1X sought $1B at a $10B valuation in 2025, but raised <50% (The Information)",
+      "link": "https://www.techmeme.com/260826/p68#a260826p68",
+      "date": "2026-08-26T22:40:01-04:00",
+      "summary": "The Information: Sources: SoftBank is in talks to buy a majority stake in humanoid robot maker 1X at a $6B valuation; 1X sought $1B at a $10B valuation in 2025, but raised &lt;50%&nbsp; &mdash;&nbsp; SoftBank is in talks to buy a majority stake in 1X Technologies, an OpenAI-backed humanoid robot dev",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
+      "title": "Asahi Linux Progress Report: Linux 7.2",
+      "link": "https://asahilinux.org/2026/08/progress-report-7-2/",
+      "date": "2026-08-26T22:35:02+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "Thinking Machines Lab co-founder Barret Zoph is returning to Google as VP of research, after leaving OpenAI in June and Thinking Machines Lab in January (Wall Street Journal)",
+      "link": "https://www.techmeme.com/260826/p67#a260826p67",
+      "date": "2026-08-26T22:15:02-04:00",
+      "summary": "Wall Street Journal: Thinking Machines Lab co-founder Barret Zoph is returning to Google as VP of research, after leaving OpenAI in June and Thinking Machines Lab in January&nbsp; &mdash;&nbsp; After a short stint at OpenAI, Zoph will become a vice president of research at Google, which has recently",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
     },
     {
       "title": "Update Regarding the Base Prices of the M5 Max Mac Studio",
@@ -3002,7 +3462,17 @@
       "feedHome": "https://daringfireball.net/"
     },
     {
-      "title": "Anthropic continues compute-gobbling streak in $45 billion deal with Nscale",
+      "title": "Okta reports Q2 revenue up 11% YoY to $805M, vs. $795M est., net income up 73% YoY to $116M, and raises its full-year guidance; OKTA surges 20% after hours (Samantha Subin/CNBC)",
+      "link": "https://www.techmeme.com/260826/p66#a260826p66",
+      "date": "2026-08-26T21:45:01-04:00",
+      "summary": "Samantha Subin / CNBC: Okta reports Q2 revenue up 11% YoY to $805M, vs. $795M est., net income up 73% YoY to $116M, and raises its full-year guidance; OKTA surges 20% after hours&nbsp; &mdash;&nbsp; Okta shares surged 20% in extended trading after the identity software provider surpassed Wall Street",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
+      "title": "Anthropic continues compute-gobbling streak in $45B deal with Nscale",
       "link": "https://techcrunch.com/2026/08/26/anthropic-continues-compute-gobbling-streak-in-45-billion-deal-with-nscale/",
       "date": "2026-08-26T21:37:39+00:00",
       "summary": "The new deal with the infrastructure provider is the latest example of Anthropic's white-hot compute-gobbling streak.",
@@ -3012,7 +3482,7 @@
       "feedHome": "https://techcrunch.com/"
     },
     {
-      "title": "Anthropic continues compute-gobbling streak in $45 billion deal with Nscale",
+      "title": "Anthropic continues compute-gobbling streak in $45B deal with Nscale",
       "link": "https://techcrunch.com/2026/08/26/anthropic-continues-compute-gobbling-streak-in-45-billion-deal-with-nscale/",
       "date": "2026-08-26T21:37:39+00:00",
       "summary": "The new deal with the infrastructure provider is the latest example of Anthropic's white-hot compute-gobbling streak.",
@@ -3020,6 +3490,16 @@
       "feedTitle": "TechCrunch AI",
       "category": "Startup & News",
       "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
+    },
+    {
+      "title": "Source: Nvidia has agreed to buy Hugging Face for $12.9B; the AI repository has had several potential suitors among its investors, including Salesforce (The Information)",
+      "link": "https://www.techmeme.com/260826/p65#a260826p65",
+      "date": "2026-08-26T21:35:02-04:00",
+      "summary": "The Information: Source: Nvidia has agreed to buy Hugging Face for $12.9B; the AI repository has had several potential suitors among its investors, including Salesforce&nbsp; &mdash;&nbsp; Nvidia has agreed to buy Hugging Face, a company known for its GitHub-like repository of open-source AI models,",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
     },
     {
       "title": "XCancel, the Twitter/X Mirror, Shuts Down After Cease and Desist From the Fine Folks at X Corp",
@@ -3030,6 +3510,26 @@
       "feedTitle": "Daring Fireball",
       "category": "Tech Blogs",
       "feedHome": "https://daringfireball.net/"
+    },
+    {
+      "title": "Sen. Josh Hawley launches an investigation into Flock's \"collection, retention, and dissemination of the data\" from its AI-powered surveillance cameras (Andrew Solender/Axios)",
+      "link": "https://www.techmeme.com/260826/p64#a260826p64",
+      "date": "2026-08-26T21:10:01-04:00",
+      "summary": "Andrew Solender / Axios: Sen. Josh Hawley launches an investigation into Flock's &ldquo;collection, retention, and dissemination of the data&rdquo; from its AI-powered surveillance cameras&nbsp; &mdash;&nbsp; - Members of Congress in both parties have raised concerns about the company's network of 1",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
+      "title": "Source: Nvidia has been in talks to acquire Hugging Face for more than $13B; Microsoft also met with Hugging Face, but talks are not ongoing (Business Insider)",
+      "link": "https://www.techmeme.com/260826/p63#a260826p63",
+      "date": "2026-08-26T20:50:01-04:00",
+      "summary": "Business Insider: Source: Nvidia has been in talks to acquire Hugging Face for more than $13B; Microsoft also met with Hugging Face, but talks are not ongoing&nbsp; &mdash;&nbsp; - The companies have not reached a deal, and the talks could still fall apart.&nbsp; &mdash; Hugging Face also met with M",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
     },
     {
       "title": "Apple’s Polishing Cloth Is Now Just $9",
@@ -3062,26 +3562,6 @@
       "feedHome": "https://venturebeat.com/"
     },
     {
-      "title": "Serve Markdown to AI Agents with Accept Headers",
-      "link": "https://acceptmarkdown.com/",
-      "date": "2026-08-26T19:45:59+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
-      "title": "GitHub Outage Tracker: Is GitHub Cooked?",
-      "link": "https://isgithubcooked.com/",
-      "date": "2026-08-26T19:43:48+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
       "title": "Google’s Gemini has a branding problem, and so does the rest of AI",
       "link": "https://techcrunch.com/2026/08/26/googles-gemini-has-a-branding-problem-and-so-does-the-rest-of-ai/",
       "date": "2026-08-26T19:37:34+00:00",
@@ -3120,16 +3600,6 @@
       "feedTitle": "TechCrunch AI",
       "category": "Startup & News",
       "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
-    },
-    {
-      "title": "Actinide is first startup to produce high-assay low-enriched uranium (HALEU)",
-      "link": "https://www.actinideinc.com/press/actinide-becomes-first-startup-to-ever-enrich-natural-uranium-to-produce-haleu",
-      "date": "2026-08-26T19:23:01+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
     },
     {
       "title": "‘Surprise and Shine’ Apple Event: Wednesday 9 September",
@@ -3140,16 +3610,6 @@
       "feedTitle": "Daring Fireball",
       "category": "Tech Blogs",
       "feedHome": "https://daringfireball.net/"
-    },
-    {
-      "title": "The Hugging Face incident and the road ahead",
-      "link": "https://openai.com/index/hugging-face-incident-and-the-road-ahead/",
-      "date": "2026-08-26T19:15:23+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
     },
     {
       "title": "OpenAI releases its official report on the Hugging Face breach",
@@ -3202,16 +3662,6 @@
       "feedHome": "https://techcrunch.com/"
     },
     {
-      "title": "Brazil's government sues Discord for $97M, accusing it of failing to comply with laws protecting children and teens; Discord calls the lawsuit disproportionate (Reuters)",
-      "link": "https://www.techmeme.com/260826/p59#a260826p59",
-      "date": "2026-08-26T18:35:02-04:00",
-      "summary": "Reuters: Brazil's government sues Discord for $97M, accusing it of failing to comply with laws protecting children and teens; Discord calls the lawsuit disproportionate&nbsp; &mdash;&nbsp; The Brazilian government said on Wednesday it has sued chat platform Discord, seeking 500 million reais ($97 mi",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
       "title": "Medical device maker Boston Scientific says a cyberattack is causing a ‘global disruption’ to its operations",
       "link": "https://techcrunch.com/2026/08/26/medical-device-maker-boston-scientific-says-a-cyberattack-is-causing-a-global-disruption-to-its-operations/",
       "date": "2026-08-26T18:23:09+00:00",
@@ -3222,26 +3672,6 @@
       "feedHome": "https://techcrunch.com/"
     },
     {
-      "title": "Internal email: Google is moving DeepMind's ~90-person \"AI responsibility\" team, focused on the risks and societal impact of AI, to Google's global affairs unit (Erin Woo/Wall Street Journal)",
-      "link": "https://www.techmeme.com/260826/p58#a260826p58",
-      "date": "2026-08-26T18:05:01-04:00",
-      "summary": "Erin Woo / Wall Street Journal: Internal email: Google is moving DeepMind's ~90-person &ldquo;AI responsibility&rdquo; team, focused on the risks and societal impact of AI, to Google's global affairs unit&nbsp; &mdash;&nbsp; Researchers have raised concerns about the change's effect on their indepen",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "AWS plans to add 2M Nvidia Blackwell Ultra, Rubin, and Rubin Ultra GPUs to its data center fleet in 2027 and 2028, in addition to 1M GPUs announced in March (Bloomberg)",
-      "link": "https://www.techmeme.com/260826/p57#a260826p57",
-      "date": "2026-08-26T17:50:02-04:00",
-      "summary": "Bloomberg: AWS plans to add 2M Nvidia Blackwell Ultra, Rubin, and Rubin Ultra GPUs to its data center fleet in 2027 and 2028, in addition to 1M GPUs announced in March&nbsp; &mdash;&nbsp; Amazon.com Inc. will add an additional 2 million Nvidia Corp. graphics processing units to its data center fleet",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
       "title": "Tailcat – Like netcat, but over Tailscale’s data plane",
       "link": "https://github.com/tailscale/tailcat",
       "date": "2026-08-26T17:42:22+00:00",
@@ -3250,46 +3680,6 @@
       "feedTitle": "Hacker News",
       "category": "Startup & News",
       "feedHome": "https://news.ycombinator.com/"
-    },
-    {
-      "title": "An ongoing 3D-printer AGPL violation",
-      "link": "https://lwn.net/SubscriberLink/1089390/46116614cc74b814/",
-      "date": "2026-08-26T17:41:40+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
-      "title": "CoMaps: The Offline App That Guided Rescuers Without a Signal in Venezuela",
-      "link": "https://hotosm.org/en/news/comaps-the-offline-app-that-guided-rescuers-without-a-signal-in-the-venezuela-response/",
-      "date": "2026-08-26T17:20:12+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
-      "title": "CrowdStrike reports Q2 revenue up 26% YoY to $1.47B, vs. $1.44B est., and forecasts FY 2027 revenue above estimates; CRWD jumps 9%+ after hours (Jake Bleiberg/Bloomberg)",
-      "link": "https://www.techmeme.com/260826/p56#a260826p56",
-      "date": "2026-08-26T17:20:01-04:00",
-      "summary": "Jake Bleiberg / Bloomberg: CrowdStrike reports Q2 revenue up 26% YoY to $1.47B, vs. $1.44B est., and forecasts FY 2027 revenue above estimates; CRWD jumps 9%+ after hours&nbsp; &mdash;&nbsp; CrowdStrike Holdings Inc.'s stock rose Wednesday on a strong financial report that saw it forecast revenue fi",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "Salesforce reports Q2 revenue up 11% YoY to $11.35B, vs. $11.32B est., net income up 87% to $3.5B, forecasts Q3 revenue above est.; CRM jumps 13%+ after hours (Jordan Novet/CNBC)",
-      "link": "https://www.techmeme.com/260826/p55#a260826p55",
-      "date": "2026-08-26T17:05:01-04:00",
-      "summary": "Jordan Novet / CNBC: Salesforce reports Q2 revenue up 11% YoY to $11.35B, vs. $11.32B est., net income up 87% to $3.5B, forecasts Q3 revenue above est.; CRM jumps 13%+ after hours&nbsp; &mdash;&nbsp; Salesforce shares soared 12% in extended trading on Wednesday after the cloud software vendor report",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
     },
     {
       "title": "US seizes domains of Chinese botnet used to hack NASA, Justice Department, and the Senate",
@@ -3312,56 +3702,6 @@
       "feedHome": "https://deepmind.google/blog/"
     },
     {
-      "title": "HP reports Q3 revenue up 12.5% YoY to $15.7B, PC revenue up 18% to $11.8B, but units down 16%, and Printing revenue down 2% to $3.9B; HPQ drops 9%+ after hours (Dina Bass/Bloomberg)",
-      "link": "https://www.techmeme.com/260826/p54#a260826p54",
-      "date": "2026-08-26T17:00:51-04:00",
-      "summary": "Dina Bass / Bloomberg: HP reports Q3 revenue up 12.5% YoY to $15.7B, PC revenue up 18% to $11.8B, but units down 16%, and Printing revenue down 2% to $3.9B; HPQ drops 9%+ after hours&nbsp; &mdash;&nbsp; HP Inc. shares fell after investors looked past a widely expected boost in the company's profit f",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "Capital F closes $17M debut fund with goal to back the future of the ‘female economy’",
-      "link": "https://techcrunch.com/2026/08/26/capital-f-closes-17m-debut-fund-with-goal-to-back-the-future-of-the-female-economy/",
-      "date": "2026-08-26T17:00:00+00:00",
-      "summary": "The firm backs companies building in the “female economy,” or the markets where women drive demand — women’s health, digital commerce, and AI tools.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
-    },
-    {
-      "title": "Apple is holding its iPhone launch event on September 9",
-      "link": "https://techcrunch.com/2026/08/26/apple-is-holding-its-iphone-launch-event-on-september-9/",
-      "date": "2026-08-26T16:53:07+00:00",
-      "summary": "The event is expected to be a notable one, as Apple is rumored to unveil its long-awaited foldable iPhone. It'll also be the first Apple event with John Ternus as CEO, who is scheduled to take the reins of the tech giant from Tim Cook on September 1.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
-    },
-    {
-      "title": "AI assistant Instinct is raising a $250M Series B co-led by Index Ventures and Benchmark at a $2.5B valuation, bringing its total raised to $350M (Kate Clark/Wall Street Journal)",
-      "link": "https://www.techmeme.com/260826/p53#a260826p53",
-      "date": "2026-08-26T16:45:06-04:00",
-      "summary": "Kate Clark / Wall Street Journal: AI assistant Instinct is raising a $250M Series B co-led by Index Ventures and Benchmark at a $2.5B valuation, bringing its total raised to $350M&nbsp; &mdash;&nbsp; Buzzy startup Instinct, which is fundraising at a $2.5 billion valuation, promises to handle emails ",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "Nvidia reports Q2 revenue up 106% YoY to $96.2B, Data Center revenue up 117% to $89B, Edge Computing revenue up 27% to $7.2B, and net income up 126% to $59.7B (Nvidia Newsroom)",
-      "link": "https://www.techmeme.com/260826/p52#a260826p52",
-      "date": "2026-08-26T16:32:07-04:00",
-      "summary": "Nvidia Newsroom: Nvidia reports Q2 revenue up 106% YoY to $96.2B, Data Center revenue up 117% to $89B, Edge Computing revenue up 27% to $7.2B, and net income up 126% to $59.7B&nbsp; &mdash;&nbsp; - Revenue of $96.2 billion, up 106% from a year ago&nbsp; &mdash; Data Center revenue of $89.0 billion, ",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
       "title": "The fix for the AI agent that hijacked a company's DNS: it can propose the change, but it can't approve it",
       "link": "https://venturebeat.com/security/the-fix-for-the-ai-agent-that-hijacked-a-companys-dns-it-can-propose-the-change-but-it-cant-approve-it",
       "date": "2026-08-26T16:13:50+00:00",
@@ -3372,16 +3712,6 @@
       "feedHome": "https://venturebeat.com/"
     },
     {
-      "title": "Product management startup Linear topped $100M in annual recurring revenue and held a $99M employee tender offer at a $2.5B valuation, up from $1.25B in 2025 (Ben Bergman/Business Insider)",
-      "link": "https://www.techmeme.com/260826/p51#a260826p51",
-      "date": "2026-08-26T16:10:00-04:00",
-      "summary": "Ben Bergman / Business Insider: Product management startup Linear topped $100M in annual recurring revenue and held a $99M employee tender offer at a $2.5B valuation, up from $1.25B in 2025&nbsp; &mdash;&nbsp; Artificial intelligence was supposed to kill software-as-a-service.&nbsp; Linear didn't ge",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
       "title": "Radar makes podcasts searchable — and usable by AI agents",
       "link": "https://techcrunch.com/2026/08/26/radar-makes-podcasts-searchable-and-usable-by-ai-agents/",
       "date": "2026-08-26T15:47:28+00:00",
@@ -3390,16 +3720,6 @@
       "feedTitle": "TechCrunch AI",
       "category": "Startup & News",
       "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
-    },
-    {
-      "title": "OpenAI publishes a technical report on the Hugging Face incident, detailing the agents' activity, safeguard failures, and measures to prevent recurrence (OpenAI)",
-      "link": "https://www.techmeme.com/260826/p50#a260826p50",
-      "date": "2026-08-26T15:25:20-04:00",
-      "summary": "OpenAI: OpenAI publishes a technical report on the Hugging Face incident, detailing the agents' activity, safeguard failures, and measures to prevent recurrence&nbsp; &mdash;&nbsp; Read the technical report Read METR report(opens in a new window)Watch Black Hat talk(opens in a new window)&nbsp; &mda",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
     },
     {
       "title": "Ex-Meta scientists want to bring visual AI to the factory floor",
@@ -3462,39 +3782,9 @@
       "feedHome": "https://news.ycombinator.com/"
     },
     {
-      "title": "Robot brain builders are pushing out of their GPT-2 era",
-      "link": "https://techcrunch.com/2026/08/26/robot-brain-builders-are-pushing-out-of-their-gpt-2-era/",
-      "date": "2026-08-26T13:30:00+00:00",
-      "summary": "Robot bodies are waiting for their AI brains to catch up.",
-      "feedId": "techcrunch-ai",
-      "feedTitle": "TechCrunch AI",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
-    },
-    {
-      "title": "QueryStory wants you to believe what AI is telling you",
-      "link": "https://techcrunch.com/2026/08/26/querystory-wants-you-to-believe-what-ai-is-telling-you/",
-      "date": "2026-08-26T13:00:00+00:00",
-      "summary": "The startup came out of stealth with $6 million in seed funding and a plan to use LLMs and cybersecurity know-how to make AI queries coherent.",
-      "feedId": "techcrunch-ai",
-      "feedTitle": "TechCrunch AI",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
-    },
-    {
       "title": "AWS Acquires DuckLabs",
       "link": "https://ducklabs.com/news/2026/08/26/ducklabs-to-join-aws",
       "date": "2026-08-26T12:59:26+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
-      "title": "Qwen3.8-Flash-Next",
-      "link": "https://qwen.ai/blog?id=qwen3.8-flash-next",
-      "date": "2026-08-26T12:52:12+00:00",
       "summary": "Comments",
       "feedId": "hackernews",
       "feedTitle": "Hacker News",
@@ -3600,206 +3890,6 @@
       "feedTitle": "Daring Fireball",
       "category": "Tech Blogs",
       "feedHome": "https://daringfireball.net/"
-    },
-    {
-      "title": "RENDER: Controlling Reader-Facing Evidence in LLM Memory Evaluation",
-      "link": "https://arxiv.org/abs/2608.23568",
-      "date": "2026-08-26T00:00:00-04:00",
-      "summary": "arXiv:2608.23568v1 Announce Type: new Abstract: Memory and RAG evaluations often treat the answering model's input as an implementation detail, even though systems may render the same history as a memory entry, summary, typed record, or raw excerpt. We introduce RENDER, a benchmark control that fixe",
-      "feedId": "arxiv-ai",
-      "feedTitle": "arXiv cs.AI",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.AI/recent"
-    },
-    {
-      "title": "ESQ-Bench: A Multi-Tier Enterprise Oracle Benchmark for Evaluating NL2SQL Dialect Generalization and Silent Semantic Divergence",
-      "link": "https://arxiv.org/abs/2608.23569",
-      "date": "2026-08-26T00:00:00-04:00",
-      "summary": "arXiv:2608.23569v1 Announce Type: new Abstract: State-of-the-art Natural Language to SQL (NL2SQL) models report execution accuracy exceeding 89 percent on established benchmarks such as Spider and BIRD. However, these benchmarks rely on simplified academic schemas and open-source SQL dialects that d",
-      "feedId": "arxiv-ai",
-      "feedTitle": "arXiv cs.AI",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.AI/recent"
-    },
-    {
-      "title": "LLM Agents Perform Controlled Experiments Using Simulation Models",
-      "link": "https://arxiv.org/abs/2608.23622",
-      "date": "2026-08-26T00:00:00-04:00",
-      "summary": "arXiv:2608.23622v1 Announce Type: new Abstract: Large language models (LLMs) have shown strong capabilities in reasoning, planning, and tool use, but many scientific and engineering tasks require more than plausible text and code generation. They require understanding how a system responds to interv",
-      "feedId": "arxiv-ai",
-      "feedTitle": "arXiv cs.AI",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.AI/recent"
-    },
-    {
-      "title": "A survey detection channel overrides the pixels in an astronomical foundation model, and biases tomographic mean redshifts",
-      "link": "https://arxiv.org/abs/2608.23626",
-      "date": "2026-08-26T00:00:00-04:00",
-      "summary": "arXiv:2608.23626v1 Announce Type: new Abstract: Foundation models for astronomy are trained on survey pixels together with the catalogue products derived from those pixels. Those catalogues are incomplete at a measurable rate, and a model trained on both inherits that incompleteness as a systematic.",
-      "feedId": "arxiv-ai",
-      "feedTitle": "arXiv cs.AI",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.AI/recent"
-    },
-    {
-      "title": "TRACE: Transition-Aware Residual Control for Multi-Objective Materials Discovery",
-      "link": "https://arxiv.org/abs/2608.23631",
-      "date": "2026-08-26T00:00:00-04:00",
-      "summary": "arXiv:2608.23631v1 Announce Type: new Abstract: Multi-objective materials discovery with LLM agents is often limited not only by how many candidates can be proposed, but by how effectively each costly property evaluation informs the next search step. Existing agents mainly store evaluated candidates",
-      "feedId": "arxiv-ai",
-      "feedTitle": "arXiv cs.AI",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.AI/recent"
-    },
-    {
-      "title": "Function-Level Execution Feedback for Code Preference Optimization",
-      "link": "https://arxiv.org/abs/2608.23632",
-      "date": "2026-08-26T00:00:00-04:00",
-      "summary": "arXiv:2608.23632v1 Announce Type: new Abstract: Process supervision has improved mathematical reasoning, where intermediate steps are naturally expressed as chains of thought. In code generation, however, process supervision remains underexplored because there is no standard notion of a step. Superv",
-      "feedId": "arxiv-ai",
-      "feedTitle": "arXiv cs.AI",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.AI/recent"
-    },
-    {
-      "title": "Auditing the Synthetic Memoir: Measuring Scene-Level Confabulation in LLM-Generated Autobiography Against the Documented Record of the Life It Describes",
-      "link": "https://arxiv.org/abs/2608.23640",
-      "date": "2026-08-26T00:00:00-04:00",
-      "summary": "arXiv:2608.23640v1 Announce Type: new Abstract: When a large language model (LLM) is asked to write a person's life, how much of what it writes actually happened? We present a scene-level case-study audit - the first quantified audit of LLM-generated autobiography against a subject-specific ground-t",
-      "feedId": "arxiv-ai",
-      "feedTitle": "arXiv cs.AI",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.AI/recent"
-    },
-    {
-      "title": "How much of a measured AI preference is the model, and how much is the instrument?",
-      "link": "https://arxiv.org/abs/2608.23641",
-      "date": "2026-08-26T00:00:00-04:00",
-      "summary": "arXiv:2608.23641v1 Announce Type: new Abstract: Model welfare research infers what a model prefers from the answers returned to prompts written to elicit preferences. Keeling et al. (2024), Mazeika et al. (2025), Mikaelson et al. (2025), Tagliabue and Dung (2025) and Trhlik et al. (2026) have built ",
-      "feedId": "arxiv-ai",
-      "feedTitle": "arXiv cs.AI",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.AI/recent"
-    },
-    {
-      "title": "AI Agents Push Humans Out of the Loop",
-      "link": "https://arxiv.org/abs/2608.23642",
-      "date": "2026-08-26T00:00:00-04:00",
-      "summary": "arXiv:2608.23642v1 Announce Type: new Abstract: AI agents pose significant risks as they are granted increasing autonomy. A commonly proposed solution is human oversight and keeping a ''human in the loop'', but this is not a simple solution: Not only do current approaches to AI agent design impede e",
-      "feedId": "arxiv-ai",
-      "feedTitle": "arXiv cs.AI",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.AI/recent"
-    },
-    {
-      "title": "FLARE: A Systematic, Uncertainty-Aware Framework for Evidence-Based Adoption of Artificial Intelligence in Healthcare",
-      "link": "https://arxiv.org/abs/2608.23643",
-      "date": "2026-08-26T00:00:00-04:00",
-      "summary": "arXiv:2608.23643v1 Announce Type: new Abstract: Artificial intelligence is increasingly being introduced into healthcare workflows, yet most evaluations emphasize model accuracy rather than whether adoption is economically worthwhile in real clinical settings. This study proposes FLARE, a systematic",
-      "feedId": "arxiv-ai",
-      "feedTitle": "arXiv cs.AI",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.AI/recent"
-    },
-    {
-      "title": "Equivariant Cellular Sheaves for Molecular Electronic Structure: Bridging Sheaf Cohomology and E(3)-Equivariant Hamiltonian Learning",
-      "link": "https://arxiv.org/abs/2608.23571",
-      "date": "2026-08-26T00:00:00-04:00",
-      "summary": "arXiv:2608.23571v1 Announce Type: new Abstract: Equivariant message-passing networks are the standard model for molecular property and interatomic-potential prediction, and recent work predicts the electronic Hamiltonian itself in an E(3)-equivariant way. Separately, topological deep learning has ex",
-      "feedId": "arxiv-lg",
-      "feedTitle": "arXiv cs.LG",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.LG/recent"
-    },
-    {
-      "title": "Data Predictability Shapes Weibull Weight-Scale Growth in Transformer Training",
-      "link": "https://arxiv.org/abs/2608.23573",
-      "date": "2026-08-26T00:00:00-04:00",
-      "summary": "arXiv:2608.23573v1 Announce Type: new Abstract: A trained transformer's weight magnitudes can be summarized by a two-parameter Weibull distribution whose shape $k \\approx 1.2$ is stable across layers and models, so the scale $\\lambda$ carries most training-induced movement. What corpus property sets",
-      "feedId": "arxiv-lg",
-      "feedTitle": "arXiv cs.LG",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.LG/recent"
-    },
-    {
-      "title": "From Causal Plausibility to Causal Reliability: Evaluating LLMs as Calibrated Direct Causal-Edge Classifiers",
-      "link": "https://arxiv.org/abs/2608.23660",
-      "date": "2026-08-26T00:00:00-04:00",
-      "summary": "arXiv:2608.23660v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly used to provide prior causal knowledge for structural causal discovery, yet whether their direct-edge judgments and confidence can be trusted remains unclear. We systematically evaluate 12 instruction-tuned",
-      "feedId": "arxiv-lg",
-      "feedTitle": "arXiv cs.LG",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.LG/recent"
-    },
-    {
-      "title": "Renormalization Group Flow Matching for Scalable Local Generative Modeling",
-      "link": "https://arxiv.org/abs/2608.23696",
-      "date": "2026-08-26T00:00:00-04:00",
-      "summary": "arXiv:2608.23696v1 Announce Type: new Abstract: Despite their remarkable success in modeling complex data, generative models face a fundamental tradeoff. Global approaches can capture full structural coherence but suffer from high computational costs, while local models are efficient but often fail ",
-      "feedId": "arxiv-lg",
-      "feedTitle": "arXiv cs.LG",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.LG/recent"
-    },
-    {
-      "title": "Response Renormalization for Critical Deep Equilibrium Models",
-      "link": "https://arxiv.org/abs/2608.23725",
-      "date": "2026-08-26T00:00:00-04:00",
-      "summary": "arXiv:2608.23725v1 Announce Type: new Abstract: Deep Equilibrium Models (DEQs) compute predictions from a hidden representation unchanged by the model update. Training through this equilibrium uses implicit differentiation and requires solving an adjoint system built from the residual Jacobian. If t",
-      "feedId": "arxiv-lg",
-      "feedTitle": "arXiv cs.LG",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.LG/recent"
-    },
-    {
-      "title": "Calibration-Preserving Pruning: Compression as a Reliability Contract",
-      "link": "https://arxiv.org/abs/2608.23744",
-      "date": "2026-08-26T00:00:00-04:00",
-      "summary": "arXiv:2608.23744v1 Announce Type: new Abstract: Split conformal prediction, not the pruning rule, supplies finite-sample marginal coverage once a pruned model is fixed independently of the conformal calibration split. We study the separate efficiency problem: can pruning preserve score geometry well",
-      "feedId": "arxiv-lg",
-      "feedTitle": "arXiv cs.LG",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.LG/recent"
-    },
-    {
-      "title": "Tight Majorizations and Convergence Rates of Nuclear Norm Minimization IRLS",
-      "link": "https://arxiv.org/abs/2608.23765",
-      "date": "2026-08-26T00:00:00-04:00",
-      "summary": "arXiv:2608.23765v1 Announce Type: new Abstract: Iteratively reweighted least squares (IRLS) methods constitute a natural approach to nuclear norm minimization, but their convergence rates and the role of the weight operator have remained poorly understood. This paper establishes sharp convergence ra",
-      "feedId": "arxiv-lg",
-      "feedTitle": "arXiv cs.LG",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.LG/recent"
-    },
-    {
-      "title": "Disentangled Skill Representations for Predictive Human Modeling",
-      "link": "https://arxiv.org/abs/2608.23776",
-      "date": "2026-08-26T00:00:00-04:00",
-      "summary": "arXiv:2608.23776v1 Announce Type: new Abstract: Understanding human skill is important for AI systems that collaborate with, coach, or assist people. Unlike typical latent variable estimation problems which rely on single observations, skill is a persistent, compositional, and behaviorally grounded ",
-      "feedId": "arxiv-lg",
-      "feedTitle": "arXiv cs.LG",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.LG/recent"
-    },
-    {
-      "title": "GAP-Prompt: Gated Adaptive Prompting for Efficient Continual Learning",
-      "link": "https://arxiv.org/abs/2608.23782",
-      "date": "2026-08-26T00:00:00-04:00",
-      "summary": "arXiv:2608.23782v1 Announce Type: new Abstract: Continual learning faces the persistent challenge of catastrophic forgetting, where sequential task updates degrade previously acquired knowledge. While prompt-based methods integrated with pre-trained models offer a compelling solution by freezing the",
-      "feedId": "arxiv-lg",
-      "feedTitle": "arXiv cs.LG",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.LG/recent"
-    },
-    {
-      "title": "Mixture of Channel Experts: Static Sparse Supports with Input-Adaptive Mixing for Pointwise Projections",
-      "link": "https://arxiv.org/abs/2608.23794",
-      "date": "2026-08-26T00:00:00-04:00",
-      "summary": "arXiv:2608.23794v1 Announce Type: new Abstract: Mixture-of-Experts (MoE) scales language models by routing each input through a small set of independently parameterized experts. We show that copying this design into convolutional networks fails for a structural reason: parallel convolutional experts",
-      "feedId": "arxiv-lg",
-      "feedTitle": "arXiv cs.LG",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.LG/recent"
     },
     {
       "title": "The Hugging Face incident and the road ahead",
@@ -4142,16 +4232,6 @@
       "feedHome": "https://shkspr.mobi/blog/"
     },
     {
-      "title": "IBM’s next-gen mainframe chip is the first to run Arm and Z workloads on the same cores",
-      "link": "https://venturebeat.com/infrastructure/ibms-next-gen-mainframe-chip-is-the-first-to-run-arm-and-z-workloads-on-the-same-cores",
-      "date": "2026-08-24T11:00:00+00:00",
-      "summary": "IBM is announcing today at the annual Hot Chips conference what may be the most consequential change to mainframe architecture in decades: a processor whose cores can natively execute both IBM&#x27;s own instruction set and Arm&#x27;s — switching between the two in nanoseconds.The chip, which will p",
-      "feedId": "venturebeat",
-      "feedTitle": "VentureBeat",
-      "category": "Startup & News",
-      "feedHome": "https://venturebeat.com/"
-    },
-    {
       "title": "FireRedTTS3 开源：24 语言零样本克隆，克隆/设计/编辑统一建模",
       "link": "https://www.bestblogs.dev/article/1d1bc8d09f?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
       "date": "2026-08-24T09:56:00+00:00",
@@ -4392,6 +4472,16 @@
       "feedHome": "https://pluralistic.net/"
     },
     {
+      "title": "You should never be angry at work",
+      "link": "https://seangoedecke.com/you-should-never-be-angry-at-work/",
+      "date": "2026-08-22T00:00:00+00:00",
+      "summary": "",
+      "feedId": "seangoedecke",
+      "feedTitle": "Sean Goedecke",
+      "category": "Tech Blogs",
+      "feedHome": "https://www.seangoedecke.com/"
+    },
+    {
       "title": "Fast and Hard Code",
       "link": "https://lucumr.pocoo.org/2026/8/22/fast-hard-code/",
       "date": "2026-08-22T00:00:00+00:00",
@@ -4410,16 +4500,6 @@
       "feedTitle": "Computer Rip",
       "category": "Tech Blogs",
       "feedHome": "https://computer.rip/"
-    },
-    {
-      "title": "llm 0.32.1",
-      "link": "https://simonwillison.net/2026/Aug/21/llm/",
-      "date": "2026-08-21T17:16:13+00:00",
-      "summary": "Release: llm 0.32.1 Fresh installs of LLM stopped working the other day because the OpenAI Python library dropped its usage of httpx, and it turned out LLM depended on that library but only installed it via a transitive openai dependency. This dot-release fixes that for the moment by pinning to open",
-      "feedId": "simonwillison",
-      "feedTitle": "Simon Willison",
-      "category": "AI & LLM",
-      "feedHome": "https://simonwillison.net/"
     },
     {
       "title": "An AI tool for prioritizing candidate biomarkers from wearable sensor data",
@@ -4480,6 +4560,16 @@
       "feedTitle": "阮一峰的网络日志",
       "category": "中文",
       "feedHome": "https://www.ruanyifeng.com/blog/"
+    },
+    {
+      "title": "Readers can't identify watermarked AI text",
+      "link": "https://seangoedecke.com/readers-cant-identify-watermarked-ai-text/",
+      "date": "2026-08-21T00:00:00+00:00",
+      "summary": "",
+      "feedId": "seangoedecke",
+      "feedTitle": "Sean Goedecke",
+      "category": "Tech Blogs",
+      "feedHome": "https://www.seangoedecke.com/"
     },
     {
       "title": "Rust Glancer",
@@ -4602,6 +4692,16 @@
       "feedHome": "https://www.jeffgeerling.com/"
     },
     {
+      "title": "Good writing is obvious, not original",
+      "link": "https://seangoedecke.com/good-writing-is-obvious-not-original/",
+      "date": "2026-08-19T00:00:00+00:00",
+      "summary": "",
+      "feedId": "seangoedecke",
+      "feedTitle": "Sean Goedecke",
+      "category": "Tech Blogs",
+      "feedHome": "https://www.seangoedecke.com/"
+    },
+    {
       "title": "Anubis continues to expose new ways people configure webservers",
       "link": "https://xeiaso.net/notes/2026/anubis-csp-worker-hell/",
       "date": "2026-08-19T00:00:00+00:00",
@@ -4650,6 +4750,16 @@
       "feedTitle": "Troy Hunt",
       "category": "Tech Blogs",
       "feedHome": "https://www.troyhunt.com/"
+    },
+    {
+      "title": "Help peer",
+      "link": "https://seangoedecke.com/help-peer/",
+      "date": "2026-08-18T00:00:00+00:00",
+      "summary": "",
+      "feedId": "seangoedecke",
+      "feedTitle": "Sean Goedecke",
+      "category": "Tech Blogs",
+      "feedHome": "https://www.seangoedecke.com/"
     },
     {
       "title": "How do functions like alloca allocate memory from the stack?",
@@ -4720,6 +4830,16 @@
       "feedTitle": "Terence Eden",
       "category": "Tech Blogs",
       "feedHome": "https://shkspr.mobi/blog/"
+    },
+    {
+      "title": "AI text watermarking is not a big deal",
+      "link": "https://seangoedecke.com/ai-text-watermarking-is-not-a-big-deal/",
+      "date": "2026-08-16T00:00:00+00:00",
+      "summary": "",
+      "feedId": "seangoedecke",
+      "feedTitle": "Sean Goedecke",
+      "category": "Tech Blogs",
+      "feedHome": "https://www.seangoedecke.com/"
     },
     {
       "title": "Book Review: Slags by Emma Jane Unsworth ★★★⯪☆",
@@ -4902,6 +5022,16 @@
       "feedHome": "https://pluralistic.net/"
     },
     {
+      "title": "No, local models will not win",
+      "link": "https://seangoedecke.com/local-models-will-not-win/",
+      "date": "2026-08-11T00:00:00+00:00",
+      "summary": "",
+      "feedId": "seangoedecke",
+      "feedTitle": "Sean Goedecke",
+      "category": "Tech Blogs",
+      "feedHome": "https://www.seangoedecke.com/"
+    },
+    {
       "title": "Thoughts I had while reading your comment",
       "link": "https://dynomight.net/comment/",
       "date": "2026-08-11T00:00:00+00:00",
@@ -4942,6 +5072,26 @@
       "feedHome": "https://idiallo.com/"
     },
     {
+      "title": "Advanced AI sycophancy",
+      "link": "https://seangoedecke.com/advanced-ai-sycophancy/",
+      "date": "2026-08-10T00:00:00+00:00",
+      "summary": "",
+      "feedId": "seangoedecke",
+      "feedTitle": "Sean Goedecke",
+      "category": "Tech Blogs",
+      "feedHome": "https://www.seangoedecke.com/"
+    },
+    {
+      "title": "I got an email about resistance",
+      "link": "https://seangoedecke.com/i-got-an-email-about-resistance/",
+      "date": "2026-08-09T00:00:00+00:00",
+      "summary": "",
+      "feedId": "seangoedecke",
+      "feedTitle": "Sean Goedecke",
+      "category": "Tech Blogs",
+      "feedHome": "https://www.seangoedecke.com/"
+    },
+    {
       "title": "Anubis v1.27.0: Moenbryda Wilfsunnwyn",
       "link": "https://anubis.techaro.lol/blog/release/v1.27.0/",
       "date": "2026-08-08T00:00:00+00:00",
@@ -4960,6 +5110,16 @@
       "feedTitle": "Jeff Geerling",
       "category": "Tech Blogs",
       "feedHome": "https://www.jeffgeerling.com/"
+    },
+    {
+      "title": "How to keep thinking",
+      "link": "https://seangoedecke.com/how-to-keep-thinking/",
+      "date": "2026-08-07T00:00:00+00:00",
+      "summary": "",
+      "feedId": "seangoedecke",
+      "feedTitle": "Sean Goedecke",
+      "category": "Tech Blogs",
+      "feedHome": "https://www.seangoedecke.com/"
     },
     {
       "title": "Canadian Man Pleads Guilty in Snowflake Extortions",
@@ -5050,6 +5210,16 @@
       "feedTitle": "Troy Hunt",
       "category": "Tech Blogs",
       "feedHome": "https://www.troyhunt.com/"
+    },
+    {
+      "title": "Giving and taking credit in big tech companies",
+      "link": "https://seangoedecke.com/giving-and-taking-credit/",
+      "date": "2026-08-02T00:00:00+00:00",
+      "summary": "",
+      "feedId": "seangoedecke",
+      "feedTitle": "Sean Goedecke",
+      "category": "Tech Blogs",
+      "feedHome": "https://www.seangoedecke.com/"
     },
     {
       "title": "Indirect lessons from human alignment",
@@ -6720,16 +6890,6 @@
       "feedTitle": "Max Woolf",
       "category": "AI & LLM",
       "feedHome": "https://minimaxir.com/"
-    },
-    {
-      "title": "How 2 UC Berkeley dropouts raised $28M for their AI marketing automation startup",
-      "link": "https://techcrunch.com/2025/07/30/how-2-uc-berkeley-dropouts-raised-28m-for-their-ai-marketing-automation-startup/",
-      "date": "2025-07-30T15:00:00+00:00",
-      "summary": "A marketing automation startup called Conversation has a founding story that sounds like it could have been an episode of the HBO show “Silicon Valley.”",
-      "feedId": "techcrunch-fund",
-      "feedTitle": "TechCrunch Funding",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/tag/funding/"
     },
     {
       "title": "The Math Is Haunted",
