@@ -1,13 +1,12 @@
 {
-  "updatedAt": "2026-09-01T23:04:52.910460+00:00",
+  "updatedAt": "2026-09-02T03:21:09.764458+00:00",
   "totalFeeds": 51,
-  "successCount": 44,
-  "failedCount": 7,
+  "successCount": 45,
+  "failedCount": 6,
   "failed": [
     "gwern",
     "garymarcus",
     "thesequence",
-    "seangoedecke",
     "lcamtuf",
     "rachelbythebay",
     "tedunangst"
@@ -21,13 +20,25 @@
         "home": "https://simonwillison.net/",
         "url": "https://simonwillison.net/atom/everything/",
         "status": "ok",
-        "fetchedAt": "2026-09-01T23:04:42.265219+00:00",
+        "fetchedAt": "2026-09-02T03:20:58.892347+00:00",
         "items": [
+          {
+            "title": "Claude Fable 5.1 made me a really nice animated pelican",
+            "link": "https://simonwillison.net/2026/Sep/1/claude-fable-5-1/",
+            "date": "2026-09-01T23:57:28+00:00",
+            "summary": "Today is Claude Fable (and Mythos) 5.1 day. Anthropic say that Fable 5.1 \"sets a new standard for coding, knowledge work, and long-running problem-solving tasks\". Their announcement spends a notable amount of time on scientific research, boasting of a 52.6% score on the brand new Terminal-Bench-Scie"
+          },
           {
             "title": "Codex bundles LibreOffice",
             "link": "https://simonwillison.net/2026/Sep/1/codex-libreoffice/",
             "date": "2026-09-01T19:03:01+00:00",
             "summary": "I was poking around in my ~/.cache/ folder using OmniDiskSweeper when I spotted something interesting. The OpenAI Codex desktop app (since rebranded to just ChatGPT) has 1.7GB of stuff in there in a folder called codex-primary-runtime, including a full Python installation, a full Node.js installatio"
+          },
+          {
+            "title": "GeoJSON Map Viewer",
+            "link": "https://simonwillison.net/2026/Sep/1/geojson/",
+            "date": "2026-09-01T18:05:45+00:00",
+            "summary": "Tool: GeoJSON Map Viewer I was helping Natalie gather some maps of local political boundaries (for the Granada Community Services District and the Midcoast Community Council and found a need to display some GeoJSON files on a map and export that as a PNG. I asked GPT-5.6-Sol for suggestions of tools"
           },
           {
             "title": "Quoting Tarn Adams",
@@ -70,18 +81,6 @@
             "link": "https://simonwillison.net/2026/Aug/28/just-a-rumour-of-a-bug/",
             "date": "2026-08-28T22:12:02+00:00",
             "summary": "Just a rumour of a bug is enough to find a security exploit these days Anil Madhavapeddy is a professor of computer science at Cambridge and a core maintainer of the OCaml compiler. In this somewhat alarming post he reports that security issues in OCaml projects are seeing evidence of attempted expl"
-          },
-          {
-            "title": "Breaking Claude Code Opus 5 Auto Mode",
-            "link": "https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode/",
-            "date": "2026-08-27T22:50:25+00:00",
-            "summary": "Breaking Claude Code Opus 5 Auto Mode Anthropic are putting a great deal of faith in Claude Code's auto mode for protecting their coding agent users against prompt injection attacks. They recently made that the default and have made bold claims about its effectiveness. Johann Rehberger is one of the"
-          },
-          {
-            "title": "Qwen3.8-Flash-Next",
-            "link": "https://simonwillison.net/2026/Aug/26/qwen38-flash-next/",
-            "date": "2026-08-26T23:52:58+00:00",
-            "summary": "Qwen3.8-Flash-Next Another open weights model from Qwen. This one is \"a multimodal MoE model that also serves as an early preview of the architecture used in Qwen4\". It's pretty big: 125B tokens, but only 6B active which means it gets a significant performance boost. I've been trying it out on a DGX"
           }
         ]
       },
@@ -92,7 +91,7 @@
         "home": "https://openai.com/news/",
         "url": "https://openai.com/news/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-01T23:04:42.342295+00:00",
+        "fetchedAt": "2026-09-02T03:20:58.965781+00:00",
         "items": [
           {
             "title": "How AI-native companies turn workflows into operating capability",
@@ -111,6 +110,12 @@
             "link": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
             "date": "2026-09-01T12:00:00+00:00",
             "summary": "ChatGPT can now connect to trusted healthcare data, helping clinicians securely access patient context, medical research, and more."
+          },
+          {
+            "title": "How law firm Gilbert + Tobin governs and scales AI with OpenAI",
+            "link": "https://openai.com/index/gilbert-tobin",
+            "date": "2026-09-01T01:00:00+00:00",
+            "summary": "See how Gilbert + Tobin combines CEO-led commitment, rigorous governance, and human accountability to scale ChatGPT Enterprise and Codex across the firm."
           },
           {
             "title": "OpenAI supports California’s bill to advance youth AI safety",
@@ -147,12 +152,6 @@
             "link": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
             "date": "2026-08-27T09:00:00+00:00",
             "summary": "A randomized study of more than 1,000 students examines ChatGPT, critical thinking, originality, and student performance on a real-world university assignment."
-          },
-          {
-            "title": "Expanding OpenAI’s presence in Brazil",
-            "link": "https://openai.com/index/expanding-our-presence-in-brazil",
-            "date": "2026-08-27T03:00:00+00:00",
-            "summary": "OpenAI is expanding its presence in Brazil, deepening engagement with developers, businesses, and communities to support AI adoption across the country."
           }
         ]
       },
@@ -163,7 +162,7 @@
         "home": "https://arxiv.org/list/cs.AI/recent",
         "url": "https://arxiv.org/rss/cs.AI",
         "status": "ok",
-        "fetchedAt": "2026-09-01T23:04:42.790958+00:00",
+        "fetchedAt": "2026-09-02T03:20:59.253059+00:00",
         "items": [
           {
             "title": "DS-Lighting: Making Agent Harnesses Explicit for Data-Science Automation",
@@ -234,7 +233,7 @@
         "home": "https://arxiv.org/list/cs.LG/recent",
         "url": "https://arxiv.org/rss/cs.LG",
         "status": "ok",
-        "fetchedAt": "2026-09-01T23:04:42.678306+00:00",
+        "fetchedAt": "2026-09-02T03:20:59.342288+00:00",
         "items": [
           {
             "title": "ERR+: Sequential Entropy Resolution for Efficient and Decisive LLM Reasoning",
@@ -305,7 +304,7 @@
         "home": "https://research.google/blog/",
         "url": "https://research.google/blog/rss/",
         "status": "ok",
-        "fetchedAt": "2026-09-01T23:04:42.538661+00:00",
+        "fetchedAt": "2026-09-02T03:20:58.989887+00:00",
         "items": [
           {
             "title": "Mapping global methane emissions from space with deep learning",
@@ -376,7 +375,7 @@
         "home": "https://deepmind.google/blog/",
         "url": "https://deepmind.google/blog/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-01T23:04:42.569409+00:00",
+        "fetchedAt": "2026-09-02T03:20:59.276775+00:00",
         "items": [
           {
             "title": "Introducing agentic video understanding with Gemini",
@@ -447,7 +446,7 @@
         "home": "https://lilianweng.github.io/",
         "url": "https://lilianweng.github.io/lil-log/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-01T23:04:42.210795+00:00",
+        "fetchedAt": "2026-09-02T03:20:58.875433+00:00",
         "items": [
           {
             "title": "Active Learning",
@@ -538,7 +537,7 @@
         "home": "https://minimaxir.com/",
         "url": "https://minimaxir.com/index.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-01T23:04:42.371580+00:00",
+        "fetchedAt": "2026-09-02T03:20:58.883843+00:00",
         "items": [
           {
             "title": "LLMs break down in funny ways when told the Jacobian Conjecture counterargument",
@@ -621,7 +620,7 @@
         "home": "https://www.jeffgeerling.com/",
         "url": "https://www.jeffgeerling.com/blog.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-01T23:04:42.352144+00:00",
+        "fetchedAt": "2026-09-02T03:20:59.007740+00:00",
         "items": [
           {
             "title": "Before NTP there were Time and Daytime",
@@ -691,9 +690,70 @@
         "title": "Sean Goedecke",
         "home": "https://www.seangoedecke.com/",
         "url": "https://www.seangoedecke.com/rss.xml",
-        "status": "error",
-        "error": "timeout",
-        "items": []
+        "status": "ok",
+        "fetchedAt": "2026-09-02T03:20:59.106047+00:00",
+        "items": [
+          {
+            "title": "You have to beat the models at something",
+            "link": "https://seangoedecke.com/you-have-to-beat-the-models-at-something/",
+            "date": "2026-08-30T00:00:00+00:00",
+            "summary": ""
+          },
+          {
+            "title": "Selling out",
+            "link": "https://seangoedecke.com/selling-out/",
+            "date": "2026-08-28T00:00:00+00:00",
+            "summary": ""
+          },
+          {
+            "title": "You should never be angry at work",
+            "link": "https://seangoedecke.com/you-should-never-be-angry-at-work/",
+            "date": "2026-08-22T00:00:00+00:00",
+            "summary": ""
+          },
+          {
+            "title": "Readers can't identify watermarked AI text",
+            "link": "https://seangoedecke.com/readers-cant-identify-watermarked-ai-text/",
+            "date": "2026-08-21T00:00:00+00:00",
+            "summary": ""
+          },
+          {
+            "title": "Good writing is obvious, not original",
+            "link": "https://seangoedecke.com/good-writing-is-obvious-not-original/",
+            "date": "2026-08-19T00:00:00+00:00",
+            "summary": ""
+          },
+          {
+            "title": "Help peer",
+            "link": "https://seangoedecke.com/help-peer/",
+            "date": "2026-08-18T00:00:00+00:00",
+            "summary": ""
+          },
+          {
+            "title": "AI text watermarking is not a big deal",
+            "link": "https://seangoedecke.com/ai-text-watermarking-is-not-a-big-deal/",
+            "date": "2026-08-16T00:00:00+00:00",
+            "summary": ""
+          },
+          {
+            "title": "No, local models will not win",
+            "link": "https://seangoedecke.com/local-models-will-not-win/",
+            "date": "2026-08-11T00:00:00+00:00",
+            "summary": ""
+          },
+          {
+            "title": "Advanced AI sycophancy",
+            "link": "https://seangoedecke.com/advanced-ai-sycophancy/",
+            "date": "2026-08-10T00:00:00+00:00",
+            "summary": ""
+          },
+          {
+            "title": "I got an email about resistance",
+            "link": "https://seangoedecke.com/i-got-an-email-about-resistance/",
+            "date": "2026-08-09T00:00:00+00:00",
+            "summary": ""
+          }
+        ]
       },
       {
         "id": "krebsonsecurity",
@@ -702,7 +762,7 @@
         "home": "https://krebsonsecurity.com/",
         "url": "https://krebsonsecurity.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-09-01T23:04:42.428217+00:00",
+        "fetchedAt": "2026-09-02T03:20:59.077822+00:00",
         "items": [
           {
             "title": "FBI Probes Service Selling 153M+ Drivers Licenses",
@@ -773,7 +833,7 @@
         "home": "https://daringfireball.net/",
         "url": "https://daringfireball.net/feeds/main",
         "status": "ok",
-        "fetchedAt": "2026-09-01T23:04:42.483783+00:00",
+        "fetchedAt": "2026-09-02T03:20:59.003640+00:00",
         "items": [
           {
             "title": "Tim Cook’s Departure Memo on His Last Day as CEO",
@@ -844,7 +904,7 @@
         "home": "https://ericmigi.com/",
         "url": "https://ericmigi.com/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-01T23:04:42.390349+00:00",
+        "fetchedAt": "2026-09-02T03:20:59.057058+00:00",
         "items": [
           {
             "title": "New Pebble Weather App + Software Updates",
@@ -915,7 +975,7 @@
         "home": "http://antirez.com/",
         "url": "http://antirez.com/rss",
         "status": "ok",
-        "fetchedAt": "2026-09-01T23:04:44.541766+00:00",
+        "fetchedAt": "2026-09-02T03:21:00.781619+00:00",
         "items": [
           {
             "title": "The real AI risk is inside the labs",
@@ -986,7 +1046,7 @@
         "home": "https://idiallo.com/",
         "url": "https://idiallo.com/feed.rss",
         "status": "ok",
-        "fetchedAt": "2026-09-01T23:04:42.571833+00:00",
+        "fetchedAt": "2026-09-02T03:20:59.263743+00:00",
         "items": [
           {
             "title": "Here's a good way to present AI videos",
@@ -1057,7 +1117,7 @@
         "home": "https://maurycyz.com/",
         "url": "https://maurycyz.com/index.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-01T23:04:43.009234+00:00",
+        "fetchedAt": "2026-09-02T03:20:59.513617+00:00",
         "items": []
       },
       {
@@ -1067,7 +1127,7 @@
         "home": "https://pluralistic.net/",
         "url": "https://pluralistic.net/feed/",
         "status": "ok",
-        "fetchedAt": "2026-09-01T23:04:45.492087+00:00",
+        "fetchedAt": "2026-09-02T03:21:02.002992+00:00",
         "items": [
           {
             "title": "Pluralistic: The age of disinvention (25 Aug 2026)",
@@ -1138,7 +1198,7 @@
         "home": "https://shkspr.mobi/blog/",
         "url": "https://shkspr.mobi/blog/feed/",
         "status": "ok",
-        "fetchedAt": "2026-09-01T23:04:43.378358+00:00",
+        "fetchedAt": "2026-09-02T03:21:00.365226+00:00",
         "items": [
           {
             "title": "Book Review: ActivityPub by Evan Prodromou ★★★★⯪",
@@ -1219,7 +1279,7 @@
         "home": "https://mitchellh.com/",
         "url": "https://mitchellh.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-01T23:04:42.711821+00:00",
+        "fetchedAt": "2026-09-02T03:20:59.461671+00:00",
         "items": [
           {
             "title": "Superlogical",
@@ -1290,7 +1350,7 @@
         "home": "https://dynomight.net/",
         "url": "https://dynomight.net/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-01T23:04:43.131677+00:00",
+        "fetchedAt": "2026-09-02T03:20:59.355570+00:00",
         "items": [
           {
             "title": "Thoughts I had while reading your comment",
@@ -1361,7 +1421,7 @@
         "home": "https://xeiaso.net/",
         "url": "https://xeiaso.net/blog.rss",
         "status": "ok",
-        "fetchedAt": "2026-09-01T23:04:43.154428+00:00",
+        "fetchedAt": "2026-09-02T03:20:59.733296+00:00",
         "items": [
           {
             "title": "\"No way to prevent this\" say users of only language where this regularly happens",
@@ -1432,8 +1492,14 @@
         "home": "https://devblogs.microsoft.com/oldnewthing/",
         "url": "https://devblogs.microsoft.com/oldnewthing/feed",
         "status": "ok",
-        "fetchedAt": "2026-09-01T23:04:42.934096+00:00",
+        "fetchedAt": "2026-09-02T03:20:58.995774+00:00",
         "items": [
+          {
+            "title": "Microspeak: Funded / unfunded",
+            "link": "https://devblogs.microsoft.com/oldnewthing/20260901-00/?p=112662",
+            "date": "2026-09-01T14:00:00+00:00",
+            "summary": "People are our most valuable asset. The post Microspeak: Funded / unfunded appeared first on The Old New Thing."
+          },
           {
             "title": "AWE does not require PAE, though PAE makes it much more useful",
             "link": "https://devblogs.microsoft.com/oldnewthing/20260831-00/?p=112660",
@@ -1487,12 +1553,6 @@
             "link": "https://devblogs.microsoft.com/oldnewthing/20260819-00/?p=112624",
             "date": "2026-08-19T14:00:00+00:00",
             "summary": "Just use the callable directly. The post On wrapping a callable in a lambda that just calls it with the same parameters appeared first on The Old New Thing."
-          },
-          {
-            "title": "Why did the Microsoft Entertainment Pack for Windows have a special sticker announcing that it also had Tetris?",
-            "link": "https://devblogs.microsoft.com/oldnewthing/20260818-00/?p=112621",
-            "date": "2026-08-18T14:00:00+00:00",
-            "summary": "A contingency plan. The post Why did the Microsoft Entertainment Pack for Windows have a special sticker announcing that it also had Tetris? appeared first on The Old New Thing."
           }
         ]
       },
@@ -1503,7 +1563,7 @@
         "home": "https://www.righto.com/",
         "url": "https://www.righto.com/feeds/posts/default",
         "status": "ok",
-        "fetchedAt": "2026-09-01T23:04:42.708695+00:00",
+        "fetchedAt": "2026-09-02T03:20:59.675184+00:00",
         "items": []
       },
       {
@@ -1513,7 +1573,7 @@
         "home": "https://lucumr.pocoo.org/",
         "url": "https://lucumr.pocoo.org/feed.atom",
         "status": "ok",
-        "fetchedAt": "2026-09-01T23:04:42.875048+00:00",
+        "fetchedAt": "2026-09-02T03:20:59.409352+00:00",
         "items": [
           {
             "title": "Anger, Anxiety and Agency",
@@ -1584,7 +1644,7 @@
         "home": "https://skyfall.dev/",
         "url": "https://skyfall.dev/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-01T23:04:43.070694+00:00",
+        "fetchedAt": "2026-09-02T03:20:59.479865+00:00",
         "items": [
           {
             "title": "Good riddance, 4o",
@@ -1659,7 +1719,7 @@
         "home": "https://overreacted.io/",
         "url": "https://overreacted.io/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-01T23:04:43.195671+00:00",
+        "fetchedAt": "2026-09-02T03:20:59.544917+00:00",
         "items": [
           {
             "title": "There Are No Instances in atproto",
@@ -1730,7 +1790,7 @@
         "home": "https://www.johndcook.com/",
         "url": "https://www.johndcook.com/blog/feed/",
         "status": "ok",
-        "fetchedAt": "2026-09-01T23:04:42.891226+00:00",
+        "fetchedAt": "2026-09-02T03:20:59.140877+00:00",
         "items": [
           {
             "title": "Patented application of linear algebra",
@@ -1801,7 +1861,7 @@
         "home": "https://matklad.github.io/",
         "url": "https://matklad.github.io/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-01T23:04:42.920730+00:00",
+        "fetchedAt": "2026-09-02T03:20:59.022544+00:00",
         "items": [
           {
             "title": "Cancelation Terminology",
@@ -1872,7 +1932,7 @@
         "home": "https://eli.thegreenplace.net/",
         "url": "https://eli.thegreenplace.net/feeds/all.atom.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-01T23:04:42.799017+00:00",
+        "fetchedAt": "2026-09-02T03:20:59.658238+00:00",
         "items": [
           {
             "title": "How big are factorials?",
@@ -1913,7 +1973,7 @@
         "home": "https://fabiensanglard.net/",
         "url": "https://fabiensanglard.net/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-01T23:04:43.274081+00:00",
+        "fetchedAt": "2026-09-02T03:20:59.073468+00:00",
         "items": [
           {
             "title": "My agent.md to improve LLM-assisted code quality",
@@ -1984,7 +2044,7 @@
         "home": "https://blog.miguelgrinberg.com/",
         "url": "https://blog.miguelgrinberg.com/feed",
         "status": "ok",
-        "fetchedAt": "2026-09-01T23:04:43.684721+00:00",
+        "fetchedAt": "2026-09-02T03:20:59.928433+00:00",
         "items": [
           {
             "title": "Forgejo hack #2: Integration with Read The Docs",
@@ -2055,7 +2115,7 @@
         "home": "https://www.troyhunt.com/",
         "url": "https://www.troyhunt.com/rss/",
         "status": "ok",
-        "fetchedAt": "2026-09-01T23:04:42.500232+00:00",
+        "fetchedAt": "2026-09-02T03:20:59.265678+00:00",
         "items": [
           {
             "title": "Weekly Update 519: Breaches & Data Integrity",
@@ -2126,7 +2186,7 @@
         "home": "https://anildash.com/",
         "url": "https://anildash.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-01T23:04:43.192137+00:00",
+        "fetchedAt": "2026-09-02T03:20:59.684131+00:00",
         "items": [
           {
             "title": "Actually, people love to work hard",
@@ -2197,7 +2257,7 @@
         "home": "https://computer.rip/",
         "url": "https://computer.rip/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-01T23:04:43.055734+00:00",
+        "fetchedAt": "2026-09-02T03:21:00.327710+00:00",
         "items": [
           {
             "title": "the figure of the earth",
@@ -2278,7 +2338,7 @@
         "home": "http://paulgraham.com/",
         "url": "http://www.aaronsw.com/2002/feeds/pgessays.rss",
         "status": "ok",
-        "fetchedAt": "2026-09-01T23:04:42.431480+00:00",
+        "fetchedAt": "2026-09-02T03:20:59.390524+00:00",
         "items": [
           {
             "title": "Superlinear Returns",
@@ -2349,7 +2409,7 @@
         "home": "https://steveblank.com/",
         "url": "https://steveblank.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-09-01T23:04:43.213021+00:00",
+        "fetchedAt": "2026-09-02T03:20:59.398110+00:00",
         "items": [
           {
             "title": "Lean Launch Pad 2026 @ Stanford – Lessons Learned Presentations",
@@ -2422,8 +2482,14 @@
         "home": "https://news.ycombinator.com/",
         "url": "https://news.ycombinator.com/rss",
         "status": "ok",
-        "fetchedAt": "2026-09-01T23:04:43.023043+00:00",
+        "fetchedAt": "2026-09-02T03:20:59.730997+00:00",
         "items": [
+          {
+            "title": "Hang on to Your Firefox",
+            "link": "https://www.newsonaut.com/articles/hang-on-to-your-firefox",
+            "date": "2026-09-01T20:30:51+00:00",
+            "summary": "Comments"
+          },
           {
             "title": "Claude Fable 5.1 and Claude Mythos 5.1",
             "link": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
@@ -2437,9 +2503,15 @@
             "summary": "Comments"
           },
           {
-            "title": "Hang on to Your Firefox",
-            "link": "https://www.newsonaut.com/articles/hang-on-to-your-firefox",
-            "date": "2026-09-01T20:30:51+00:00",
+            "title": "The efficient frontier of LLM inference",
+            "link": "https://www.baseten.co/blog/the-efficient-frontier-of-llm-inference/",
+            "date": "2026-09-01T23:48:05+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "'Idiocracy' Predicted All of This",
+            "link": "https://www.texasmonthly.com/culture/mike-judge-idiocracy-turns-20/",
+            "date": "2026-09-02T02:18:42+00:00",
             "summary": "Comments"
           },
           {
@@ -2449,27 +2521,9 @@
             "summary": "Comments"
           },
           {
-            "title": "The ChatGPT/Codex app bundles a full copy of LibreOffice",
-            "link": "https://simonwillison.net/2026/Sep/1/codex-libreoffice/",
-            "date": "2026-09-01T20:07:57+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "Refurbishing a Tektronix TDS7104 Oscilloscope",
-            "link": "https://tomverbeure.github.io/2026/08/23/Tektronix-TDS7104-Refurbishing.html",
-            "date": "2026-09-01T19:55:47+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "AnkiDroid: Google Play no longer allowing Open Collective donation link",
-            "link": "https://github.com/ankidroid/Anki-Android/issues/21656",
-            "date": "2026-09-01T10:11:02+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "The creator of Jujutsu has joined ERSC",
-            "link": "https://ersc.io/blog/martin-joins-ersc",
-            "date": "2026-09-01T17:46:21+00:00",
+            "title": "My local model setup on an M4 Pro Mac Mini",
+            "link": "https://lws.io/blog/my-local-model-setup/",
+            "date": "2026-09-01T22:30:52+00:00",
             "summary": "Comments"
           },
           {
@@ -2479,9 +2533,15 @@
             "summary": "Comments"
           },
           {
-            "title": "Launch HN: Nori Robotics (YC S26) – A low-cost humanoid robot for development",
-            "link": "https://www.norirobotics.com/",
-            "date": "2026-09-01T17:35:10+00:00",
+            "title": "Sonic Pi",
+            "link": "https://sonic-pi.net/",
+            "date": "2026-08-28T17:51:19+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "The creator of Jujutsu has joined ERSC",
+            "link": "https://ersc.io/blog/martin-joins-ersc",
+            "date": "2026-09-01T17:46:21+00:00",
             "summary": "Comments"
           }
         ]
@@ -2493,8 +2553,56 @@
         "home": "https://www.techmeme.com/",
         "url": "https://www.techmeme.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-01T23:04:43.214339+00:00",
+        "fetchedAt": "2026-09-02T03:20:59.676358+00:00",
         "items": [
+          {
+            "title": "NYC's Department of Education adopts a policy barring public school students from using AI until high school, banning companion chatbots in all grades, and more (Matthew Haag/New York Times)",
+            "link": "https://www.techmeme.com/260901/p63#a260901p63",
+            "date": "2026-09-01T23:10:02-04:00",
+            "summary": "Matthew Haag / New York Times: NYC's Department of Education adopts a policy barring public school students from using AI until high school, banning companion chatbots in all grades, and more&nbsp; &mdash;&nbsp; A new policy to be announced by the Department of Education bars younger students from u"
+          },
+          {
+            "title": "A look at Snap's bet on Specs AR glasses; sources: Evan Spiegel wore them for an interview against internal advice, planned outside funding for Specs never came (Wall Street Journal)",
+            "link": "https://www.techmeme.com/260901/p62#a260901p62",
+            "date": "2026-09-01T22:45:02-04:00",
+            "summary": "Wall Street Journal: A look at Snap's bet on Specs AR glasses; sources: Evan Spiegel wore them for an interview against internal advice, planned outside funding for Specs never came&nbsp; &mdash;&nbsp; As company struggles with profitability, Snap CEO is doubling down on a hardware play that has mad"
+          },
+          {
+            "title": "Source: OpenAI's Astra model uses \"recurrent depth\", a technique that improves cost and performance but obscures the AI's reasoning, making it harder to monitor (The Information)",
+            "link": "https://www.techmeme.com/260901/p61#a260901p61",
+            "date": "2026-09-01T21:55:00-04:00",
+            "summary": "The Information: Source: OpenAI's Astra model uses &ldquo;recurrent depth&rdquo;, a technique that improves cost and performance but obscures the AI's reasoning, making it harder to monitor&nbsp; &mdash;&nbsp; OpenAI says its forthcoming AI model Astra marks a step up in capabilities such as coding "
+          },
+          {
+            "title": "Sources: Cognition is raising around $1B at a ~$47B valuation, up from $26B in May; Cognition received nearly $10B in investor interest (Bloomberg)",
+            "link": "https://www.techmeme.com/260901/p60#a260901p60",
+            "date": "2026-09-01T20:55:01-04:00",
+            "summary": "Bloomberg: Sources: Cognition is raising around $1B at a ~$47B valuation, up from $26B in May; Cognition received nearly $10B in investor interest&nbsp; &mdash;&nbsp; Artificial intelligence coding startup Cognition AI Inc. is set to close a new round of funding that would vault its valuation to abo"
+          },
+          {
+            "title": "Anthropic says Fable 5.1 will cost an estimated 25% less than Fable 5 for typical workloads and up to 45% less for highly agentic work (Zac Hall/9to5Mac)",
+            "link": "https://www.techmeme.com/260901/p59#a260901p59",
+            "date": "2026-09-01T19:52:37-04:00",
+            "summary": "Zac Hall / 9to5Mac: Anthropic says Fable 5.1 will cost an estimated 25% less than Fable 5 for typical workloads and up to 45% less for highly agentic work&nbsp; &mdash;&nbsp; In June, Anthropic first released Fable 5, its Mythos-class AI model for Claude.&nbsp; Three months later, Anthropic is enhan"
+          },
+          {
+            "title": "Anthropic prices Fable 5.1 at $10/1M input tokens and $50/1M output tokens, unchanged from Fable 5, and cuts cache read pricing by 75% to $0.25/1M tokens (Frederic Lardinois/The New Stack)",
+            "link": "https://www.techmeme.com/260901/p58#a260901p58",
+            "date": "2026-09-01T19:45:01-04:00",
+            "summary": "Frederic Lardinois / The New Stack: Anthropic prices Fable 5.1 at $10/1M input tokens and $50/1M output tokens, unchanged from Fable 5, and cuts cache read pricing by 75% to $0.25/1M tokens&nbsp; &mdash;&nbsp; On Tuesday, Anthropic launched the latest versions of its flagship Fable and Mythos models"
+          },
+          {
+            "title": "India's JioHotstar launches internationally without live sports, replacing Hotstar in the UK, Canada, and Singapore; the company says it has 500M+ MAUs in India (TechCrunch)",
+            "link": "https://www.techmeme.com/260901/p57#a260901p57",
+            "date": "2026-09-01T19:30:08-04:00",
+            "summary": "TechCrunch: India's JioHotstar launches internationally without live sports, replacing Hotstar in the UK, Canada, and Singapore; the company says it has 500M+ MAUs in India&nbsp; &mdash;&nbsp; JioHotstar, the streaming platform controlled by Indian conglomerate Reliance Industries, is taking its bra"
+          },
+          {
+            "title": "IPO filing: SB Energy says it has 8.8GW of data center capacity contracted or under construction across Texas and Ohio and a $430B data center segment backlog (Monique Mulima/Bloomberg)",
+            "link": "https://www.techmeme.com/260901/p56#a260901p56",
+            "date": "2026-09-01T19:20:00-04:00",
+            "summary": "Monique Mulima / Bloomberg: IPO filing: SB Energy says it has 8.8GW of data center capacity contracted or under construction across Texas and Ohio and a $430B data center segment backlog&nbsp; &mdash;&nbsp; SB Energy Inc., a data center firm backed by SoftBank Group Corp., filed for a US initial pub"
+          },
           {
             "title": "Fermi Explorer Mission plans to launch a spacecraft to Alpha Centauri, the Sun's nearest star system, by 2029, using a trajectory discovered by PSI's AI system (Michelle Kim/MIT Technology Review)",
             "link": "https://www.techmeme.com/260901/p55#a260901p55",
@@ -2506,54 +2614,6 @@
             "link": "https://www.techmeme.com/260901/p54#a260901p54",
             "date": "2026-09-01T18:25:01-04:00",
             "summary": "Mariapaula Gonzalez / Barron's Online: MongoDB reports Q2 revenue up 30% YoY to $771.8M, vs. $735M est., Atlas revenue up ~29% YoY, below major hedge funds' expectations; MDB drops 12%+ after hours&nbsp; &mdash;&nbsp; McCormick's Rebound Is Starting to Look Seasoned&nbsp; &mdash;&nbsp; Sea Limited I"
-          },
-          {
-            "title": "Google rolls out its September Android Drop, with remembered items in Find Hub, Guided vision in Gemini Live, Motion Assist to reduce motion sickness, and more (Ryan Whitwam/Ars Technica)",
-            "link": "https://www.techmeme.com/260901/p53#a260901p53",
-            "date": "2026-09-01T17:55:01-04:00",
-            "summary": "Ryan Whitwam / Ars Technica: Google rolls out its September Android Drop, with remembered items in Find Hub, Guided vision in Gemini Live, Motion Assist to reduce motion sickness, and more&nbsp; &mdash;&nbsp; Let's be frank: Some of Google's recent Android feature Drops have been duds, offering litt"
-          },
-          {
-            "title": "Filing: Apple says John Ternus will get a compensation package worth ~$58M in FY 2027, while Tim Cook's role as executive chairman will pay ~$47M (Mark Gurman/Bloomberg)",
-            "link": "https://www.techmeme.com/260901/p52#a260901p52",
-            "date": "2026-09-01T17:50:02-04:00",
-            "summary": "Mark Gurman / Bloomberg: Filing: Apple says John Ternus will get a compensation package worth ~$58M in FY 2027, while Tim Cook's role as executive chairman will pay ~$47M&nbsp; &mdash;&nbsp; Apple Inc. said that new Chief Executive Officer John Ternus will get a compensation package worth about $58 "
-          },
-          {
-            "title": "Sources: Google plans to release Gemini 3.8 Flash as soon as Wednesday; Gemini 4 has done well on pre-training evals but still needs to complete post-training (Erin Woo/Wall Street Journal)",
-            "link": "https://www.techmeme.com/260901/p51#a260901p51",
-            "date": "2026-09-01T17:40:02-04:00",
-            "summary": "Erin Woo / Wall Street Journal: Sources: Google plans to release Gemini 3.8 Flash as soon as Wednesday; Gemini 4 has done well on pre-training evals but still needs to complete post-training&nbsp; &mdash;&nbsp; Internal tests of Gemini 3.8 Flash show progress in an area where the company has lagged "
-          },
-          {
-            "title": "The US urged G20 members to avoid writing entirely new AI regulations, and instead focus on writing rules for \"novel\" situations that involve the tech (Reuters)",
-            "link": "https://www.techmeme.com/260901/p50#a260901p50",
-            "date": "2026-09-01T17:35:01-04:00",
-            "summary": "Reuters: The US urged G20 members to avoid writing entirely new AI regulations, and instead focus on writing rules for &ldquo;novel&rdquo; situations that involve the tech&nbsp; &mdash;&nbsp; The U.S. pressed G20 members on Tuesday to take a hands-off approach to AI regulation and avoid creating new"
-          },
-          {
-            "title": "Palo Alto Networks reports Q4 revenue up 34% YoY to $3.41B, vs. $3.35B est., and acquires Console, which provides AI-powered IT service management (Samantha Subin/CNBC)",
-            "link": "https://www.techmeme.com/260901/p49#a260901p49",
-            "date": "2026-09-01T17:05:01-04:00",
-            "summary": "Samantha Subin / CNBC: Palo Alto Networks reports Q4 revenue up 34% YoY to $3.41B, vs. $3.35B est., and acquires Console, which provides AI-powered IT service management&nbsp; &mdash;&nbsp; Palo Alto Networks surpassed fiscal fourth-quarter estimates as mounting artificial intelligence risks boost d"
-          },
-          {
-            "title": "Claude Fable 5.1 and Mythos 5.1 are Anthropic's first models to watermark text outputs; a detection API is available to eligible groups as required under EU law (Ben Patterson/PCWorld)",
-            "link": "https://www.techmeme.com/260901/p48#a260901p48",
-            "date": "2026-09-01T16:55:02-04:00",
-            "summary": "Ben Patterson / PCWorld: Claude Fable 5.1 and Mythos 5.1 are Anthropic's first models to watermark text outputs; a detection API is available to eligible groups as required under EU law&nbsp; &mdash;&nbsp; Anthropic has announced the arrival of its latest Claude models, and just as it promised last "
-          },
-          {
-            "title": "Apple updates Apple Maps to show Lake America for US users, Lake Ontario for Canadian users, and both for the rest of the world, following Trump's EO (Mark Gurman/Bloomberg)",
-            "link": "https://www.techmeme.com/260901/p47#a260901p47",
-            "date": "2026-09-01T16:40:01-04:00",
-            "summary": "Mark Gurman / Bloomberg: Apple updates Apple Maps to show Lake America for US users, Lake Ontario for Canadian users, and both for the rest of the world, following Trump's EO&nbsp; &mdash;&nbsp; Apple Inc. renamed Lake Ontario &ldquo;Lake America&rdquo; on its maps service, following a similar move "
-          },
-          {
-            "title": "Memo: Alexandr Wang says Meta is switching from Google Chat to Slack for internal communications as Slack is the \"strongest platform available today for agents\" (Business Insider)",
-            "link": "https://www.techmeme.com/260901/p46#a260901p46",
-            "date": "2026-09-01T16:30:00-04:00",
-            "summary": "Business Insider: Memo: Alexandr Wang says Meta is switching from Google Chat to Slack for internal communications as Slack is the &ldquo;strongest platform available today for agents&rdquo;&nbsp; &mdash;&nbsp; - Meta is migrating to Slack for internal communications, a memo from AI chief Alexandr W"
           }
         ]
       },
@@ -2564,8 +2624,14 @@
         "home": "https://techcrunch.com/",
         "url": "https://techcrunch.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-09-01T23:04:43.106186+00:00",
+        "fetchedAt": "2026-09-02T03:20:59.133702+00:00",
         "items": [
+          {
+            "title": "Larry Page’s flying car company Pivotal loses its CEO",
+            "link": "https://techcrunch.com/2026/09/01/larry-pages-flying-car-company-pivotal-loses-its-ceo/",
+            "date": "2026-09-01T23:59:59+00:00",
+            "summary": "The company told TechCrunch he is \"pursuing new endeavors.\" Karklin will be replaced on an interim basis by Mike Ross, an aviation executive who joined Pivotal's board of directors in November 2025."
+          },
           {
             "title": "Reliance’s JioHotstar takes its streaming empire global — without sports",
             "link": "https://techcrunch.com/2026/09/01/reliances-jiohotstar-takes-its-streaming-empire-global-without-sports/",
@@ -2585,7 +2651,7 @@
             "summary": "AI model-training startup AfterQuery has reportedly raised a round that valued it at $3.2 billion, just five months after announcing its $30 million Series A at a $300 million valuation in April."
           },
           {
-            "title": "Open AI’s Astra model is on the way — and very good at breaking into computer systems",
+            "title": "OpenAI’s Astra model is on the way — and very good at breaking into computer systems",
             "link": "https://techcrunch.com/2026/09/01/open-ais-astra-model-is-on-the-way-and-very-good-at-breaking-into-computer-systems/",
             "date": "2026-09-01T21:06:24+00:00",
             "summary": "OpenAI previewed the precautions it is taking as it prepares to release Astra, its newest, cyber-critical LLM."
@@ -2619,12 +2685,6 @@
             "link": "https://techcrunch.com/2026/09/01/thrives-kushner-defends-involvement-in-fifa-mess-hires-elons-go-to-lawyer/",
             "date": "2026-09-01T19:30:24+00:00",
             "summary": "New York's prestigious-yet-secretive venture firm Thrive Capital finally speaks out about its involvement in the messy drama upending international soccer."
-          },
-          {
-            "title": "Who is John Ternus, the new Apple CEO?",
-            "link": "https://techcrunch.com/2026/09/01/who-is-john-ternus-the-incoming-apple-ceo/",
-            "date": "2026-09-01T18:02:00+00:00",
-            "summary": "Starting on September 1, Ternus will lead one of the world's most valuable companies, but if you're not a dedicated Apple enthusiast, you've probably never heard of this man, who has largely remained out of the spotlight until now."
           }
         ]
       },
@@ -2635,7 +2695,7 @@
         "home": "https://techcrunch.com/category/artificial-intelligence/",
         "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
         "status": "ok",
-        "fetchedAt": "2026-09-01T23:04:43.102365+00:00",
+        "fetchedAt": "2026-09-02T03:20:59.401787+00:00",
         "items": [
           {
             "title": "AfterQuery reportedly becomes Y Combinator’s fastest-ever unicorn, now valued at $3.2B",
@@ -2644,7 +2704,7 @@
             "summary": "AI model-training startup AfterQuery has reportedly raised a round that valued it at $3.2 billion, just five months after announcing its $30 million Series A at a $300 million valuation in April."
           },
           {
-            "title": "Open AI’s Astra model is on the way — and very good at breaking into computer systems",
+            "title": "OpenAI’s Astra model is on the way — and very good at breaking into computer systems",
             "link": "https://techcrunch.com/2026/09/01/open-ais-astra-model-is-on-the-way-and-very-good-at-breaking-into-computer-systems/",
             "date": "2026-09-01T21:06:24+00:00",
             "summary": "OpenAI previewed the precautions it is taking as it prepares to release Astra, its newest, cyber-critical LLM."
@@ -2706,7 +2766,7 @@
         "home": "https://techcrunch.com/tag/funding/",
         "url": "https://techcrunch.com/tag/funding/feed/",
         "status": "ok",
-        "fetchedAt": "2026-09-01T23:04:43.134805+00:00",
+        "fetchedAt": "2026-09-02T03:20:59.413366+00:00",
         "items": [
           {
             "title": "Viral AI startup Instinct has raised $350M at a $2.5B valuation",
@@ -2777,7 +2837,7 @@
         "home": "https://venturebeat.com/",
         "url": "https://venturebeat.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-09-01T23:04:42.886820+00:00",
+        "fetchedAt": "2026-09-02T03:20:59.472332+00:00",
         "items": [
           {
             "title": "Frontier models can recover up to 65% of facts they can't directly recall — just by thinking longer",
@@ -2830,7 +2890,7 @@
         "home": "https://venturebeat.com/category/ai/",
         "url": "https://venturebeat.com/category/ai/feed/",
         "status": "ok",
-        "fetchedAt": "2026-09-01T23:04:42.948438+00:00",
+        "fetchedAt": "2026-09-02T03:20:59.433079+00:00",
         "items": [
           {
             "title": "Enterprise AI's real risk isn't autonomous agents. It's the complexity between them.",
@@ -2885,7 +2945,7 @@
         "home": "https://www.ruanyifeng.com/blog/",
         "url": "https://www.ruanyifeng.com/blog/atom.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-01T23:04:42.445870+00:00",
+        "fetchedAt": "2026-09-02T03:20:59.495197+00:00",
         "items": [
           {
             "title": "科技爱好者周刊（第 410 期）：你需要知道的 AI 三种机制",
@@ -2914,7 +2974,7 @@
         "home": "https://www.bestblogs.dev/",
         "url": "https://www.bestblogs.dev/zh/feeds/rss?category=ai&minScore=90",
         "status": "ok",
-        "fetchedAt": "2026-09-01T23:04:43.486286+00:00",
+        "fetchedAt": "2026-09-02T03:20:59.649651+00:00",
         "items": [
           {
             "title": "Anthropic 发布 Claude Fable 5.1：性能提升、降价和数据安全新方案",
@@ -2935,10 +2995,28 @@
             "summary": "📌 一句话摘要 MiniMax 的 H3 Max 模型将视频生成速度提升至 3 秒内，实现了实时直播和无缝衔接的短视频播放，开启了 AI 视频的商业化新模式。 📝 详细摘要 H3 Max 是 MiniMax 与 fal 联合开发的视频生成模型，通过后训练和推理优化，将生成速度提升至原版 H3 的 35 倍。这一突破使得 AI 能够实时生成直播内容，并支持无缝切换的短视频播放，为视频生成赛道带来了新的商业化可能性。 💡 主要观点 H3 Max 的速度革命 H3 Max 将 5 秒 768p 视频的生成时间缩短至不到 3 秒，这一速度超越了视频播放速度，使得 AI 能够实时响应并生成内容，彻底改变"
           },
           {
+            "title": "北大 & MemoraX 提出 GraphMemix：用“证据森林”重构多模态 Agent 长期记忆",
+            "link": "https://www.bestblogs.dev/article/56ad4d52fe?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
+            "date": "2026-09-01T06:43:00+00:00",
+            "summary": "📌 一句话摘要 北京大学与 MemoraX 提出 GraphMemix，将多模态 Agent 的长期记忆选择从简单的相似度排序升级为查询感知的“证据森林”组合优化问题，显著提升了复杂证据恢复的准确率与效率。 📝 详细摘要 针对多模态 Agent 在长程交互中面临的冗余信息淹没关键证据以及相似度检索难以捕捉互补信息的问题，北京大学与 MemoraX 研发了 GraphMemix。该方法不再依赖全量历史的离线摘要或简单的向量检索，而是在查询触发后构建有界局部图，通过节点验证器和证据链验证器分别估计单条记忆效用与关系增量，最终利用 Kruskal 算法求解最大权重证据森林。实验表明，GraphMem"
+          },
+          {
             "title": "自进化 WAM 来了！清华 AIR 联手域变换提出具身 In-Context Causal Learning",
             "link": "https://www.bestblogs.dev/article/25836da63c?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
             "date": "2026-09-01T05:12:30+00:00",
             "summary": "📌 一句话摘要 Zeva 是首个实现 In-Context Causal Learning 的具身 WAM，它让模型可以在不更新权重的情况下，从自己的交互经验中持续学习，从而在多个典型具身基准任务上将累计成功率从 26% 提升到 73%。 📝 详细摘要 Zeva 解决了具身智能中模型适应新环境的瓶颈，通过 In-Context Causal Learning，模型可以从一次次交互中提取因果关系，并将其存储在双时标记忆中，用于指导后续的动作生成。这种方法避免了昂贵的微调或 test-time training，实现了部署中的自进化，并支持通过一次人类演示快速初始化模型。 💡 主要观点 In-Co"
+          },
+          {
+            "title": "1.5 TB 压到 214 GB，Hy4 preview 轻量版来了",
+            "link": "https://www.bestblogs.dev/article/09259bfee5?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
+            "date": "2026-09-01T03:41:00+00:00",
+            "summary": "📌 一句话摘要 腾讯混元通过 Sherry 稀疏三值量化和 MIX-STQ1_0 混合精度策略，将 Hy4 preview 模型从 1.5 TB 压缩至 214 GB，同时保持了在长文理解、检索和数学等任务上的高精度，并实现了跨异构设备的联合推理。 📝 详细摘要 文章介绍了腾讯混元对 Hy4 preview 模型的轻量化工作。通过引入 Sherry 稀疏三值量化算法和 MIX-STQ1_0 混合精度策略，模型大小被压缩至约 214 GB，而推理性能和模型精度仍保持在较高水平。此外，文章还展示了如何利用 prima.cpp 在异构设备上进行联合推理，以应对超大模型的部署挑战。 💡 主要观点 Sh"
+          },
+          {
+            "title": "美国风投访华一周，写下的中国 AI 保密信外泄了",
+            "link": "https://www.bestblogs.dev/article/780e622b37?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
+            "date": "2026-08-31T03:23:00+00:00",
+            "summary": "📌 一句话摘要 美国风投 Dimension 的内部信揭示了中美 AI 的深度相互依赖：中国在算力稀缺下进化出全栈效率文化，其开放权重模型已渗入西方生产栈，而中美在硬件脱钩的同时，软件与数据层却在快速交织。 📝 详细摘要 本文翻译并分析了一封 Dimension 投资团队的内部信，探讨了中美 AI 竞争的真实状态。信中指出，出口管制反而促使中国实验室在 CUDA 以下层级进行系统优化，形成了全栈效率文化；中国开放权重模型（如 Qwen）已大规模进入美国 AI 初创公司的生产环境，导致模型能力商品化。同时，中美 AI 呈现出一种奇特的互补与依赖：美国领先于前沿模型训练，中国擅长蒸馏与权重开放，而"
           },
           {
             "title": "Vibe Coding 时代的模块划分策略",
@@ -2957,30 +3035,62 @@
             "link": "https://www.bestblogs.dev/status/2094103823362974202?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
             "date": "2026-08-30T16:43:52+00:00",
             "summary": "📌 一句话摘要 本推文分享了在 AI 自动化编码时代，如何通过合理的架构、大量的自动化测试、规则文档、功能精简、CI/CD 集成以及流程卡点，来确保产品的代码可以持续迭代、好维护、不腐化。 📝 详细摘要 作者以其项目 Mole 为例，探讨了在 AI 广泛参与的开发环境中，保持代码质量和可维护性的具体策略。他强调了清晰的架构划分的重要性、自动化测试在发现潜藏缺陷中的作用、通过规则文档记录设计决策、避免过度优化引入不必要的复杂性，以及利用 GitHub Actions 进行综合验证，以确保最终发布的软件与源代码保持一致。 💡 主要观点 即使在 AI 时代，清晰的架构和分层仍然是基础。 AI 能快速"
-          },
-          {
-            "title": "Coding 不再是程序员专属！阿里 Qoder 这波有点绝",
-            "link": "https://www.bestblogs.dev/article/c7c28b9e8b?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
-            "date": "2026-08-29T12:11:37+00:00",
-            "summary": "📌 一句话摘要 阿里 Qoder 推出全新桌面端，将 AI 编程能力从 IDE 扩展到桌面，让非程序员也能通过语音对话轻松创建和修改软件，实现 '聊着聊着就成了' 的开发体验。 📝 详细摘要 Qoder 的新桌面端将 AI 编程能力从 IDE 扩展到桌面，让非程序员也能通过语音对话轻松创建和修改软件。用户可以与桌面上的 Qoder 宠物聊天，描述需求，Qoder 会自动生成代码、运行测试，并提供可视化反馈。该系统基于阿里在 Agentic Coding 领域的积累，支持上下文理解、规划、执行和验证，旨在让更多人能够利用 AI 进行数字资产操作。 💡 主要观点 桌面端扩展 Qoder 从 IDE"
-          },
-          {
-            "title": "刚刚，港股 AGI 第一股杀疯了！Agent 业务半年进账近 5 亿，Token 收入 Q2 暴涨 500%",
-            "link": "https://www.bestblogs.dev/article/a467d6af81?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
-            "date": "2026-08-28T09:45:19+00:00",
-            "summary": "📌 一句话摘要 云知声 2026 上半年智能体业务收入 4.78 亿，Token 收入近 3000 万环比涨 500%，复购超 60%，收入增长 38.7%，亏损收窄。 📝 详细摘要 云知声 2026 年中期财报显示，上半年营收 5.62 亿元，同比增长 38.7%；智能体业务收入 4.78 亿元，同比增长 35.7%，占总收入 85.1%；Token 业务收入近 3000 万元，Q2 环比增长超 500%，毛利率超过 60%；复购收入占比超过 60%，手握近 10 亿现金流。公司研发投入 2.84 亿元，U2 模型在 Agent 评测中位列全球第一梯队；通过强基模＋深应用闭环，参考 Pala"
-          },
-          {
-            "title": "首款癌症疫苗，一针 300 万？？？",
-            "link": "https://www.bestblogs.dev/article/ed69be43dd?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
-            "date": "2026-08-28T06:22:59+00:00",
-            "summary": "📌 一句话摘要 AI 驱动的个性化 mRNA 黑色素瘤疫苗 Intismeran 在Ⅲ期试验中取得阳性结果，但预计单疗程费用约 47.5 万美元（约 318 万人民币），引发可及性担忧。 📝 详细摘要 文章详细介绍了莫德纳与默沙东合作研发的个性化 mRNA 黑色素瘤疫苗 Intismeran。该疫苗在近十年的研发过程中，AI 贯穿新抗原筛选、mRNA 序列设计及生产排程等全流程，实现一人一制备。Ⅲ期临床 INTerpath-001 纳入 1137 名高危黑色素瘤患者，Intismeran 联合 PD-1 抑制剂 K 药同时达到无复发生存期和无远处转移生存期主要终点，成为首个在Ⅲ期取得阳性结果的"
           }
         ]
       }
     ]
   },
   "allItems": [
+    {
+      "title": "'Idiocracy' Predicted All of This",
+      "link": "https://www.texasmonthly.com/culture/mike-judge-idiocracy-turns-20/",
+      "date": "2026-09-02T02:18:42+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "Larry Page’s flying car company Pivotal loses its CEO",
+      "link": "https://techcrunch.com/2026/09/01/larry-pages-flying-car-company-pivotal-loses-its-ceo/",
+      "date": "2026-09-01T23:59:59+00:00",
+      "summary": "The company told TechCrunch he is \"pursuing new endeavors.\" Karklin will be replaced on an interim basis by Mike Ross, an aviation executive who joined Pivotal's board of directors in November 2025.",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "Claude Fable 5.1 made me a really nice animated pelican",
+      "link": "https://simonwillison.net/2026/Sep/1/claude-fable-5-1/",
+      "date": "2026-09-01T23:57:28+00:00",
+      "summary": "Today is Claude Fable (and Mythos) 5.1 day. Anthropic say that Fable 5.1 \"sets a new standard for coding, knowledge work, and long-running problem-solving tasks\". Their announcement spends a notable amount of time on scientific research, boasting of a 52.6% score on the brand new Terminal-Bench-Scie",
+      "feedId": "simonwillison",
+      "feedTitle": "Simon Willison",
+      "category": "AI & LLM",
+      "feedHome": "https://simonwillison.net/"
+    },
+    {
+      "title": "The efficient frontier of LLM inference",
+      "link": "https://www.baseten.co/blog/the-efficient-frontier-of-llm-inference/",
+      "date": "2026-09-01T23:48:05+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "NYC's Department of Education adopts a policy barring public school students from using AI until high school, banning companion chatbots in all grades, and more (Matthew Haag/New York Times)",
+      "link": "https://www.techmeme.com/260901/p63#a260901p63",
+      "date": "2026-09-01T23:10:02-04:00",
+      "summary": "Matthew Haag / New York Times: NYC's Department of Education adopts a policy barring public school students from using AI until high school, banning companion chatbots in all grades, and more&nbsp; &mdash;&nbsp; A new policy to be announced by the Department of Education bars younger students from u",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
     {
       "title": "Reliance’s JioHotstar takes its streaming empire global — without sports",
       "link": "https://techcrunch.com/2026/09/01/reliances-jiohotstar-takes-its-streaming-empire-global-without-sports/",
@@ -2992,6 +3102,16 @@
       "feedHome": "https://techcrunch.com/"
     },
     {
+      "title": "A look at Snap's bet on Specs AR glasses; sources: Evan Spiegel wore them for an interview against internal advice, planned outside funding for Specs never came (Wall Street Journal)",
+      "link": "https://www.techmeme.com/260901/p62#a260901p62",
+      "date": "2026-09-01T22:45:02-04:00",
+      "summary": "Wall Street Journal: A look at Snap's bet on Specs AR glasses; sources: Evan Spiegel wore them for an interview against internal advice, planned outside funding for Specs never came&nbsp; &mdash;&nbsp; As company struggles with profitability, Snap CEO is doubling down on a hardware play that has mad",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
       "title": "FBI Probes Service Selling 153M+ Drivers Licenses",
       "link": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
       "date": "2026-09-01T22:40:28+00:00",
@@ -3000,6 +3120,16 @@
       "feedTitle": "Krebs on Security",
       "category": "Tech Blogs",
       "feedHome": "https://krebsonsecurity.com/"
+    },
+    {
+      "title": "My local model setup on an M4 Pro Mac Mini",
+      "link": "https://lws.io/blog/my-local-model-setup/",
+      "date": "2026-09-01T22:30:52+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
     },
     {
       "title": "Weekly Update 519: Breaches & Data Integrity",
@@ -3052,6 +3182,16 @@
       "feedHome": "https://news.ycombinator.com/"
     },
     {
+      "title": "Source: OpenAI's Astra model uses \"recurrent depth\", a technique that improves cost and performance but obscures the AI's reasoning, making it harder to monitor (The Information)",
+      "link": "https://www.techmeme.com/260901/p61#a260901p61",
+      "date": "2026-09-01T21:55:00-04:00",
+      "summary": "The Information: Source: OpenAI's Astra model uses &ldquo;recurrent depth&rdquo;, a technique that improves cost and performance but obscures the AI's reasoning, making it harder to monitor&nbsp; &mdash;&nbsp; OpenAI says its forthcoming AI model Astra marks a step up in capabilities such as coding ",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
       "title": "Tim Cook’s Departure Memo on His Last Day as CEO",
       "link": "https://9to5mac.com/2026/08/31/read-tim-cooks-full-memo-to-apple-employees-on-his-last-day-as-ceo/",
       "date": "2026-09-01T21:26:07+00:00",
@@ -3062,7 +3202,7 @@
       "feedHome": "https://daringfireball.net/"
     },
     {
-      "title": "Open AI’s Astra model is on the way — and very good at breaking into computer systems",
+      "title": "OpenAI’s Astra model is on the way — and very good at breaking into computer systems",
       "link": "https://techcrunch.com/2026/09/01/open-ais-astra-model-is-on-the-way-and-very-good-at-breaking-into-computer-systems/",
       "date": "2026-09-01T21:06:24+00:00",
       "summary": "OpenAI previewed the precautions it is taking as it prepares to release Astra, its newest, cyber-critical LLM.",
@@ -3072,7 +3212,7 @@
       "feedHome": "https://techcrunch.com/"
     },
     {
-      "title": "Open AI’s Astra model is on the way — and very good at breaking into computer systems",
+      "title": "OpenAI’s Astra model is on the way — and very good at breaking into computer systems",
       "link": "https://techcrunch.com/2026/09/01/open-ais-astra-model-is-on-the-way-and-very-good-at-breaking-into-computer-systems/",
       "date": "2026-09-01T21:06:24+00:00",
       "summary": "OpenAI previewed the precautions it is taking as it prepares to release Astra, its newest, cyber-critical LLM.",
@@ -3080,6 +3220,16 @@
       "feedTitle": "TechCrunch AI",
       "category": "Startup & News",
       "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
+    },
+    {
+      "title": "Sources: Cognition is raising around $1B at a ~$47B valuation, up from $26B in May; Cognition received nearly $10B in investor interest (Bloomberg)",
+      "link": "https://www.techmeme.com/260901/p60#a260901p60",
+      "date": "2026-09-01T20:55:01-04:00",
+      "summary": "Bloomberg: Sources: Cognition is raising around $1B at a ~$47B valuation, up from $26B in May; Cognition received nearly $10B in investor interest&nbsp; &mdash;&nbsp; Artificial intelligence coding startup Cognition AI Inc. is set to close a new round of funding that would vault its valuation to abo",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
     },
     {
       "title": "Google’s Android update tackles motion sickness, accessibility, and more",
@@ -3122,24 +3272,14 @@
       "feedHome": "https://news.ycombinator.com/"
     },
     {
-      "title": "The ChatGPT/Codex app bundles a full copy of LibreOffice",
-      "link": "https://simonwillison.net/2026/Sep/1/codex-libreoffice/",
-      "date": "2026-09-01T20:07:57+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
+      "title": "Anthropic says Fable 5.1 will cost an estimated 25% less than Fable 5 for typical workloads and up to 45% less for highly agentic work (Zac Hall/9to5Mac)",
+      "link": "https://www.techmeme.com/260901/p59#a260901p59",
+      "date": "2026-09-01T19:52:37-04:00",
+      "summary": "Zac Hall / 9to5Mac: Anthropic says Fable 5.1 will cost an estimated 25% less than Fable 5 for typical workloads and up to 45% less for highly agentic work&nbsp; &mdash;&nbsp; In June, Anthropic first released Fable 5, its Mythos-class AI model for Claude.&nbsp; Three months later, Anthropic is enhan",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
       "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
-      "title": "Refurbishing a Tektronix TDS7104 Oscilloscope",
-      "link": "https://tomverbeure.github.io/2026/08/23/Tektronix-TDS7104-Refurbishing.html",
-      "date": "2026-09-01T19:55:47+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
+      "feedHome": "https://www.techmeme.com/"
     },
     {
       "title": "John Ternus hypes ‘huge launch next week’ in first memo as Apple CEO",
@@ -3150,6 +3290,16 @@
       "feedTitle": "TechCrunch",
       "category": "Startup & News",
       "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "Anthropic prices Fable 5.1 at $10/1M input tokens and $50/1M output tokens, unchanged from Fable 5, and cuts cache read pricing by 75% to $0.25/1M tokens (Frederic Lardinois/The New Stack)",
+      "link": "https://www.techmeme.com/260901/p58#a260901p58",
+      "date": "2026-09-01T19:45:01-04:00",
+      "summary": "Frederic Lardinois / The New Stack: Anthropic prices Fable 5.1 at $10/1M input tokens and $50/1M output tokens, unchanged from Fable 5, and cuts cache read pricing by 75% to $0.25/1M tokens&nbsp; &mdash;&nbsp; On Tuesday, Anthropic launched the latest versions of its flagship Fable and Mythos models",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
     },
     {
       "title": "Anthropic’s new Fable release is cheaper, less restrictive",
@@ -3182,6 +3332,16 @@
       "feedHome": "https://techcrunch.com/"
     },
     {
+      "title": "India's JioHotstar launches internationally without live sports, replacing Hotstar in the UK, Canada, and Singapore; the company says it has 500M+ MAUs in India (TechCrunch)",
+      "link": "https://www.techmeme.com/260901/p57#a260901p57",
+      "date": "2026-09-01T19:30:08-04:00",
+      "summary": "TechCrunch: India's JioHotstar launches internationally without live sports, replacing Hotstar in the UK, Canada, and Singapore; the company says it has 500M+ MAUs in India&nbsp; &mdash;&nbsp; JioHotstar, the streaming platform controlled by Indian conglomerate Reliance Industries, is taking its bra",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
       "title": "Frontier models can recover up to 65% of facts they can't directly recall — just by thinking longer",
       "link": "https://venturebeat.com/orchestration/frontier-models-can-recover-up-to-65-of-facts-they-cant-directly-recall-just-by-thinking-longer",
       "date": "2026-09-01T19:20:09+00:00",
@@ -3190,6 +3350,16 @@
       "feedTitle": "VentureBeat",
       "category": "Startup & News",
       "feedHome": "https://venturebeat.com/"
+    },
+    {
+      "title": "IPO filing: SB Energy says it has 8.8GW of data center capacity contracted or under construction across Texas and Ohio and a $430B data center segment backlog (Monique Mulima/Bloomberg)",
+      "link": "https://www.techmeme.com/260901/p56#a260901p56",
+      "date": "2026-09-01T19:20:00-04:00",
+      "summary": "Monique Mulima / Bloomberg: IPO filing: SB Energy says it has 8.8GW of data center capacity contracted or under construction across Texas and Ohio and a $430B data center segment backlog&nbsp; &mdash;&nbsp; SB Energy Inc., a data center firm backed by SoftBank Group Corp., filed for a US initial pub",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
     },
     {
       "title": "Codex bundles LibreOffice",
@@ -3272,6 +3442,16 @@
       "feedHome": "https://www.techmeme.com/"
     },
     {
+      "title": "GeoJSON Map Viewer",
+      "link": "https://simonwillison.net/2026/Sep/1/geojson/",
+      "date": "2026-09-01T18:05:45+00:00",
+      "summary": "Tool: GeoJSON Map Viewer I was helping Natalie gather some maps of local political boundaries (for the Granada Community Services District and the Midcoast Community Council and found a need to display some GeoJSON files on a map and export that as a PNG. I asked GPT-5.6-Sol for suggestions of tools",
+      "feedId": "simonwillison",
+      "feedTitle": "Simon Willison",
+      "category": "AI & LLM",
+      "feedHome": "https://simonwillison.net/"
+    },
+    {
       "title": "Apple Reveals Forensic Evidence From Chang Liu’s MacBook in OpenAI Lawsuit",
       "link": "https://9to5mac.com/2026/08/31/apple-openai-forensic-macbook-evidence/",
       "date": "2026-09-01T18:04:14+00:00",
@@ -3280,26 +3460,6 @@
       "feedTitle": "Daring Fireball",
       "category": "Tech Blogs",
       "feedHome": "https://daringfireball.net/"
-    },
-    {
-      "title": "Who is John Ternus, the new Apple CEO?",
-      "link": "https://techcrunch.com/2026/09/01/who-is-john-ternus-the-incoming-apple-ceo/",
-      "date": "2026-09-01T18:02:00+00:00",
-      "summary": "Starting on September 1, Ternus will lead one of the world's most valuable companies, but if you're not a dedicated Apple enthusiast, you've probably never heard of this man, who has largely remained out of the spotlight until now.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
-    },
-    {
-      "title": "Google rolls out its September Android Drop, with remembered items in Find Hub, Guided vision in Gemini Live, Motion Assist to reduce motion sickness, and more (Ryan Whitwam/Ars Technica)",
-      "link": "https://www.techmeme.com/260901/p53#a260901p53",
-      "date": "2026-09-01T17:55:01-04:00",
-      "summary": "Ryan Whitwam / Ars Technica: Google rolls out its September Android Drop, with remembered items in Find Hub, Guided vision in Gemini Live, Motion Assist to reduce motion sickness, and more&nbsp; &mdash;&nbsp; Let's be frank: Some of Google's recent Android feature Drops have been duds, offering litt",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
     },
     {
       "title": "Claude Fable 5.1 and Claude Mythos 5.1",
@@ -3312,16 +3472,6 @@
       "feedHome": "https://news.ycombinator.com/"
     },
     {
-      "title": "Filing: Apple says John Ternus will get a compensation package worth ~$58M in FY 2027, while Tim Cook's role as executive chairman will pay ~$47M (Mark Gurman/Bloomberg)",
-      "link": "https://www.techmeme.com/260901/p52#a260901p52",
-      "date": "2026-09-01T17:50:02-04:00",
-      "summary": "Mark Gurman / Bloomberg: Filing: Apple says John Ternus will get a compensation package worth ~$58M in FY 2027, while Tim Cook's role as executive chairman will pay ~$47M&nbsp; &mdash;&nbsp; Apple Inc. said that new Chief Executive Officer John Ternus will get a compensation package worth about $58 ",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
       "title": "The creator of Jujutsu has joined ERSC",
       "link": "https://ersc.io/blog/martin-joins-ersc",
       "date": "2026-09-01T17:46:21+00:00",
@@ -3330,16 +3480,6 @@
       "feedTitle": "Hacker News",
       "category": "Startup & News",
       "feedHome": "https://news.ycombinator.com/"
-    },
-    {
-      "title": "Sources: Google plans to release Gemini 3.8 Flash as soon as Wednesday; Gemini 4 has done well on pre-training evals but still needs to complete post-training (Erin Woo/Wall Street Journal)",
-      "link": "https://www.techmeme.com/260901/p51#a260901p51",
-      "date": "2026-09-01T17:40:02-04:00",
-      "summary": "Erin Woo / Wall Street Journal: Sources: Google plans to release Gemini 3.8 Flash as soon as Wednesday; Gemini 4 has done well on pre-training evals but still needs to complete post-training&nbsp; &mdash;&nbsp; Internal tests of Gemini 3.8 Flash show progress in an area where the company has lagged ",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
     },
     {
       "title": "Google’s answer to Canva is an AI tool where you prompt instead of design",
@@ -3352,26 +3492,6 @@
       "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
     },
     {
-      "title": "Launch HN: Nori Robotics (YC S26) – A low-cost humanoid robot for development",
-      "link": "https://www.norirobotics.com/",
-      "date": "2026-09-01T17:35:10+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
-      "title": "The US urged G20 members to avoid writing entirely new AI regulations, and instead focus on writing rules for \"novel\" situations that involve the tech (Reuters)",
-      "link": "https://www.techmeme.com/260901/p50#a260901p50",
-      "date": "2026-09-01T17:35:01-04:00",
-      "summary": "Reuters: The US urged G20 members to avoid writing entirely new AI regulations, and instead focus on writing rules for &ldquo;novel&rdquo; situations that involve the tech&nbsp; &mdash;&nbsp; The U.S. pressed G20 members on Tuesday to take a hands-off approach to AI regulation and avoid creating new",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
       "title": "Introducing agentic video understanding with Gemini",
       "link": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
       "date": "2026-09-01T17:08:51+00:00",
@@ -3380,16 +3500,6 @@
       "feedTitle": "DeepMind Blog",
       "category": "AI & LLM",
       "feedHome": "https://deepmind.google/blog/"
-    },
-    {
-      "title": "Palo Alto Networks reports Q4 revenue up 34% YoY to $3.41B, vs. $3.35B est., and acquires Console, which provides AI-powered IT service management (Samantha Subin/CNBC)",
-      "link": "https://www.techmeme.com/260901/p49#a260901p49",
-      "date": "2026-09-01T17:05:01-04:00",
-      "summary": "Samantha Subin / CNBC: Palo Alto Networks reports Q4 revenue up 34% YoY to $3.41B, vs. $3.35B est., and acquires Console, which provides AI-powered IT service management&nbsp; &mdash;&nbsp; Palo Alto Networks surpassed fiscal fourth-quarter estimates as mounting artificial intelligence risks boost d",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
     },
     {
       "title": "Quoting Tarn Adams",
@@ -3422,26 +3532,6 @@
       "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
     },
     {
-      "title": "Claude Fable 5.1 and Mythos 5.1 are Anthropic's first models to watermark text outputs; a detection API is available to eligible groups as required under EU law (Ben Patterson/PCWorld)",
-      "link": "https://www.techmeme.com/260901/p48#a260901p48",
-      "date": "2026-09-01T16:55:02-04:00",
-      "summary": "Ben Patterson / PCWorld: Claude Fable 5.1 and Mythos 5.1 are Anthropic's first models to watermark text outputs; a detection API is available to eligible groups as required under EU law&nbsp; &mdash;&nbsp; Anthropic has announced the arrival of its latest Claude models, and just as it promised last ",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "Apple updates Apple Maps to show Lake America for US users, Lake Ontario for Canadian users, and both for the rest of the world, following Trump's EO (Mark Gurman/Bloomberg)",
-      "link": "https://www.techmeme.com/260901/p47#a260901p47",
-      "date": "2026-09-01T16:40:01-04:00",
-      "summary": "Mark Gurman / Bloomberg: Apple updates Apple Maps to show Lake America for US users, Lake Ontario for Canadian users, and both for the rest of the world, following Trump's EO&nbsp; &mdash;&nbsp; Apple Inc. renamed Lake Ontario &ldquo;Lake America&rdquo; on its maps service, following a similar move ",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
       "title": "Sequoia-incubated Empirik launches with $21M to predict outages before they happen",
       "link": "https://techcrunch.com/2026/09/01/sequoia-incubated-empirik-launches-with-21m-to-predict-outages-before-they-happen/",
       "date": "2026-09-01T16:31:04+00:00",
@@ -3450,16 +3540,6 @@
       "feedTitle": "TechCrunch AI",
       "category": "Startup & News",
       "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
-    },
-    {
-      "title": "Memo: Alexandr Wang says Meta is switching from Google Chat to Slack for internal communications as Slack is the \"strongest platform available today for agents\" (Business Insider)",
-      "link": "https://www.techmeme.com/260901/p46#a260901p46",
-      "date": "2026-09-01T16:30:00-04:00",
-      "summary": "Business Insider: Memo: Alexandr Wang says Meta is switching from Google Chat to Slack for internal communications as Slack is the &ldquo;strongest platform available today for agents&rdquo;&nbsp; &mdash;&nbsp; - Meta is migrating to Slack for internal communications, a memo from AI chief Alexandr W",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
     },
     {
       "title": "Amazon Alexa can now alert you when something new might tempt you to shop",
@@ -3522,6 +3602,16 @@
       "feedHome": "https://www.bestblogs.dev/"
     },
     {
+      "title": "Microspeak: Funded / unfunded",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260901-00/?p=112662",
+      "date": "2026-09-01T14:00:00+00:00",
+      "summary": "People are our most valuable asset. The post Microspeak: Funded / unfunded appeared first on The Old New Thing.",
+      "feedId": "oldnewthing",
+      "feedTitle": "The Old New Thing",
+      "category": "Tech Blogs",
+      "feedHome": "https://devblogs.microsoft.com/oldnewthing/"
+    },
+    {
       "title": "AI is redefining the workforce — and most planning models aren’t ready",
       "link": "https://venturebeat.com/orchestration/ai-is-redefining-the-workforce-and-most-planning-models-arent-ready",
       "date": "2026-09-01T14:00:00+00:00",
@@ -3582,16 +3672,6 @@
       "feedHome": "https://shkspr.mobi/blog/"
     },
     {
-      "title": "AnkiDroid: Google Play no longer allowing Open Collective donation link",
-      "link": "https://github.com/ankidroid/Anki-Android/issues/21656",
-      "date": "2026-09-01T10:11:02+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
       "title": "[Sponsor] WorkOS: How to Give an Agent a Task Instead of a Token",
       "link": "https://workos.com/blog/delegated-access-for-ai-agents?utm_source=daringfireball&utm_medium=newsletter&utm_campaign=q32026",
       "date": "2026-09-01T07:59:07+00:00",
@@ -3600,6 +3680,16 @@
       "feedTitle": "Daring Fireball",
       "category": "Tech Blogs",
       "feedHome": "https://daringfireball.net/"
+    },
+    {
+      "title": "北大 & MemoraX 提出 GraphMemix：用“证据森林”重构多模态 Agent 长期记忆",
+      "link": "https://www.bestblogs.dev/article/56ad4d52fe?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
+      "date": "2026-09-01T06:43:00+00:00",
+      "summary": "📌 一句话摘要 北京大学与 MemoraX 提出 GraphMemix，将多模态 Agent 的长期记忆选择从简单的相似度排序升级为查询感知的“证据森林”组合优化问题，显著提升了复杂证据恢复的准确率与效率。 📝 详细摘要 针对多模态 Agent 在长程交互中面临的冗余信息淹没关键证据以及相似度检索难以捕捉互补信息的问题，北京大学与 MemoraX 研发了 GraphMemix。该方法不再依赖全量历史的离线摘要或简单的向量检索，而是在查询触发后构建有界局部图，通过节点验证器和证据链验证器分别估计单条记忆效用与关系增量，最终利用 Kruskal 算法求解最大权重证据森林。实验表明，GraphMem",
+      "feedId": "bestblogs",
+      "feedTitle": "BestBlogs.dev AI 90+",
+      "category": "中文",
+      "feedHome": "https://www.bestblogs.dev/"
     },
     {
       "title": "科技爱好者周刊（第 410 期）：你需要知道的 AI 三种机制",
@@ -3622,6 +3712,16 @@
       "feedHome": "https://www.bestblogs.dev/"
     },
     {
+      "title": "1.5 TB 压到 214 GB，Hy4 preview 轻量版来了",
+      "link": "https://www.bestblogs.dev/article/09259bfee5?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
+      "date": "2026-09-01T03:41:00+00:00",
+      "summary": "📌 一句话摘要 腾讯混元通过 Sherry 稀疏三值量化和 MIX-STQ1_0 混合精度策略，将 Hy4 preview 模型从 1.5 TB 压缩至 214 GB，同时保持了在长文理解、检索和数学等任务上的高精度，并实现了跨异构设备的联合推理。 📝 详细摘要 文章介绍了腾讯混元对 Hy4 preview 模型的轻量化工作。通过引入 Sherry 稀疏三值量化算法和 MIX-STQ1_0 混合精度策略，模型大小被压缩至约 214 GB，而推理性能和模型精度仍保持在较高水平。此外，文章还展示了如何利用 prima.cpp 在异构设备上进行联合推理，以应对超大模型的部署挑战。 💡 主要观点 Sh",
+      "feedId": "bestblogs",
+      "feedTitle": "BestBlogs.dev AI 90+",
+      "category": "中文",
+      "feedHome": "https://www.bestblogs.dev/"
+    },
+    {
       "title": "OpenClaw 2.0 is here, ushering in the era of 'multiplayer' AI coding: What it means for enterprises",
       "link": "https://venturebeat.com/technology/openclaw-2-0-is-here-what-it-means-for-enterprises",
       "date": "2026-09-01T03:26:53+00:00",
@@ -3630,6 +3730,16 @@
       "feedTitle": "VentureBeat",
       "category": "Startup & News",
       "feedHome": "https://venturebeat.com/"
+    },
+    {
+      "title": "How law firm Gilbert + Tobin governs and scales AI with OpenAI",
+      "link": "https://openai.com/index/gilbert-tobin",
+      "date": "2026-09-01T01:00:00+00:00",
+      "summary": "See how Gilbert + Tobin combines CEO-led commitment, rigorous governance, and human accountability to scale ChatGPT Enterprise and Codex across the firm.",
+      "feedId": "openai",
+      "feedTitle": "OpenAI News",
+      "category": "AI & LLM",
+      "feedHome": "https://openai.com/news/"
     },
     {
       "title": "DS-Lighting: Making Agent Harnesses Explicit for Data-Science Automation",
@@ -3942,6 +4052,16 @@
       "feedHome": "https://openai.com/news/"
     },
     {
+      "title": "美国风投访华一周，写下的中国 AI 保密信外泄了",
+      "link": "https://www.bestblogs.dev/article/780e622b37?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
+      "date": "2026-08-31T03:23:00+00:00",
+      "summary": "📌 一句话摘要 美国风投 Dimension 的内部信揭示了中美 AI 的深度相互依赖：中国在算力稀缺下进化出全栈效率文化，其开放权重模型已渗入西方生产栈，而中美在硬件脱钩的同时，软件与数据层却在快速交织。 📝 详细摘要 本文翻译并分析了一封 Dimension 投资团队的内部信，探讨了中美 AI 竞争的真实状态。信中指出，出口管制反而促使中国实验室在 CUDA 以下层级进行系统优化，形成了全栈效率文化；中国开放权重模型（如 Qwen）已大规模进入美国 AI 初创公司的生产环境，导致模型能力商品化。同时，中美 AI 呈现出一种奇特的互补与依赖：美国领先于前沿模型训练，中国擅长蒸馏与权重开放，而",
+      "feedId": "bestblogs",
+      "feedTitle": "BestBlogs.dev AI 90+",
+      "category": "中文",
+      "feedHome": "https://www.bestblogs.dev/"
+    },
+    {
       "title": "Vibe Coding 时代的模块划分策略",
       "link": "https://www.bestblogs.dev/status/2094243627123744937?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
       "date": "2026-08-31T01:59:24+00:00",
@@ -4032,6 +4152,16 @@
       "feedHome": "https://shkspr.mobi/blog/"
     },
     {
+      "title": "You have to beat the models at something",
+      "link": "https://seangoedecke.com/you-have-to-beat-the-models-at-something/",
+      "date": "2026-08-30T00:00:00+00:00",
+      "summary": "",
+      "feedId": "seangoedecke",
+      "feedTitle": "Sean Goedecke",
+      "category": "Tech Blogs",
+      "feedHome": "https://www.seangoedecke.com/"
+    },
+    {
       "title": "New Pebble Weather App + Software Updates",
       "link": "https://repebble.com/blog/new-pebble-weather-app-software-updates",
       "date": "2026-08-30T00:00:00+00:00",
@@ -4060,16 +4190,6 @@
       "feedTitle": "Daring Fireball",
       "category": "Tech Blogs",
       "feedHome": "https://daringfireball.net/"
-    },
-    {
-      "title": "Coding 不再是程序员专属！阿里 Qoder 这波有点绝",
-      "link": "https://www.bestblogs.dev/article/c7c28b9e8b?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
-      "date": "2026-08-29T12:11:37+00:00",
-      "summary": "📌 一句话摘要 阿里 Qoder 推出全新桌面端，将 AI 编程能力从 IDE 扩展到桌面，让非程序员也能通过语音对话轻松创建和修改软件，实现 '聊着聊着就成了' 的开发体验。 📝 详细摘要 Qoder 的新桌面端将 AI 编程能力从 IDE 扩展到桌面，让非程序员也能通过语音对话轻松创建和修改软件。用户可以与桌面上的 Qoder 宠物聊天，描述需求，Qoder 会自动生成代码、运行测试，并提供可视化反馈。该系统基于阿里在 Agentic Coding 领域的积累，支持上下文理解、规划、执行和验证，旨在让更多人能够利用 AI 进行数字资产操作。 💡 主要观点 桌面端扩展 Qoder 从 IDE",
-      "feedId": "bestblogs",
-      "feedTitle": "BestBlogs.dev AI 90+",
-      "category": "中文",
-      "feedHome": "https://www.bestblogs.dev/"
     },
     {
       "title": "A simple \"copy this code\" button in JavaScript",
@@ -4142,6 +4262,16 @@
       "feedHome": "https://daringfireball.net/"
     },
     {
+      "title": "Sonic Pi",
+      "link": "https://sonic-pi.net/",
+      "date": "2026-08-28T17:51:19+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
       "title": "Making the unnecessary easier",
       "link": "https://www.johndcook.com/blog/2026/08/28/making-the-unnecessary-easier/",
       "date": "2026-08-28T14:35:36+00:00",
@@ -4192,26 +4322,6 @@
       "feedHome": "https://www.jeffgeerling.com/"
     },
     {
-      "title": "刚刚，港股 AGI 第一股杀疯了！Agent 业务半年进账近 5 亿，Token 收入 Q2 暴涨 500%",
-      "link": "https://www.bestblogs.dev/article/a467d6af81?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
-      "date": "2026-08-28T09:45:19+00:00",
-      "summary": "📌 一句话摘要 云知声 2026 上半年智能体业务收入 4.78 亿，Token 收入近 3000 万环比涨 500%，复购超 60%，收入增长 38.7%，亏损收窄。 📝 详细摘要 云知声 2026 年中期财报显示，上半年营收 5.62 亿元，同比增长 38.7%；智能体业务收入 4.78 亿元，同比增长 35.7%，占总收入 85.1%；Token 业务收入近 3000 万元，Q2 环比增长超 500%，毛利率超过 60%；复购收入占比超过 60%，手握近 10 亿现金流。公司研发投入 2.84 亿元，U2 模型在 Agent 评测中位列全球第一梯队；通过强基模＋深应用闭环，参考 Pala",
-      "feedId": "bestblogs",
-      "feedTitle": "BestBlogs.dev AI 90+",
-      "category": "中文",
-      "feedHome": "https://www.bestblogs.dev/"
-    },
-    {
-      "title": "首款癌症疫苗，一针 300 万？？？",
-      "link": "https://www.bestblogs.dev/article/ed69be43dd?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
-      "date": "2026-08-28T06:22:59+00:00",
-      "summary": "📌 一句话摘要 AI 驱动的个性化 mRNA 黑色素瘤疫苗 Intismeran 在Ⅲ期试验中取得阳性结果，但预计单疗程费用约 47.5 万美元（约 318 万人民币），引发可及性担忧。 📝 详细摘要 文章详细介绍了莫德纳与默沙东合作研发的个性化 mRNA 黑色素瘤疫苗 Intismeran。该疫苗在近十年的研发过程中，AI 贯穿新抗原筛选、mRNA 序列设计及生产排程等全流程，实现一人一制备。Ⅲ期临床 INTerpath-001 纳入 1137 名高危黑色素瘤患者，Intismeran 联合 PD-1 抑制剂 K 药同时达到无复发生存期和无远处转移生存期主要终点，成为首个在Ⅲ期取得阳性结果的",
-      "feedId": "bestblogs",
-      "feedTitle": "BestBlogs.dev AI 90+",
-      "category": "中文",
-      "feedHome": "https://www.bestblogs.dev/"
-    },
-    {
       "title": "Our decision on Cursor following its acquisition by SpaceX",
       "link": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
       "date": "2026-08-28T06:00:00+00:00",
@@ -4242,14 +4352,14 @@
       "feedHome": "https://eli.thegreenplace.net/"
     },
     {
-      "title": "Breaking Claude Code Opus 5 Auto Mode",
-      "link": "https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode/",
-      "date": "2026-08-27T22:50:25+00:00",
-      "summary": "Breaking Claude Code Opus 5 Auto Mode Anthropic are putting a great deal of faith in Claude Code's auto mode for protecting their coding agent users against prompt injection attacks. They recently made that the default and have made bold claims about its effectiveness. Johann Rehberger is one of the",
-      "feedId": "simonwillison",
-      "feedTitle": "Simon Willison",
-      "category": "AI & LLM",
-      "feedHome": "https://simonwillison.net/"
+      "title": "Selling out",
+      "link": "https://seangoedecke.com/selling-out/",
+      "date": "2026-08-28T00:00:00+00:00",
+      "summary": "",
+      "feedId": "seangoedecke",
+      "feedTitle": "Sean Goedecke",
+      "category": "Tech Blogs",
+      "feedHome": "https://www.seangoedecke.com/"
     },
     {
       "title": "Planetary prediction engine: Automating global models via Earth AI",
@@ -4352,16 +4462,6 @@
       "feedHome": "https://openai.com/news/"
     },
     {
-      "title": "Expanding OpenAI’s presence in Brazil",
-      "link": "https://openai.com/index/expanding-our-presence-in-brazil",
-      "date": "2026-08-27T03:00:00+00:00",
-      "summary": "OpenAI is expanding its presence in Brazil, deepening engagement with developers, businesses, and communities to support AI adoption across the country.",
-      "feedId": "openai",
-      "feedTitle": "OpenAI News",
-      "category": "AI & LLM",
-      "feedHome": "https://openai.com/news/"
-    },
-    {
       "title": "Viral AI startup Instinct has raised $350M at a $2.5B valuation",
       "link": "https://techcrunch.com/2026/08/26/viral-ai-startup-instinct-has-raised-350-million-at-a-2-5-billion-valuation/",
       "date": "2026-08-27T00:24:57+00:00",
@@ -4380,16 +4480,6 @@
       "feedTitle": "Xe Iaso",
       "category": "Tech Blogs",
       "feedHome": "https://xeiaso.net/"
-    },
-    {
-      "title": "Qwen3.8-Flash-Next",
-      "link": "https://simonwillison.net/2026/Aug/26/qwen38-flash-next/",
-      "date": "2026-08-26T23:52:58+00:00",
-      "summary": "Qwen3.8-Flash-Next Another open weights model from Qwen. This one is \"a multimodal MoE model that also serves as an early preview of the architecture used in Qwen4\". It's pretty big: 125B tokens, but only 6B active which means it gets a significant performance boost. I've been trying it out on a DGX",
-      "feedId": "simonwillison",
-      "feedTitle": "Simon Willison",
-      "category": "AI & LLM",
-      "feedHome": "https://simonwillison.net/"
     },
     {
       "title": "What is the quality of software that AI writes?",
@@ -4712,6 +4802,16 @@
       "feedHome": "https://pluralistic.net/"
     },
     {
+      "title": "You should never be angry at work",
+      "link": "https://seangoedecke.com/you-should-never-be-angry-at-work/",
+      "date": "2026-08-22T00:00:00+00:00",
+      "summary": "",
+      "feedId": "seangoedecke",
+      "feedTitle": "Sean Goedecke",
+      "category": "Tech Blogs",
+      "feedHome": "https://www.seangoedecke.com/"
+    },
+    {
       "title": "Fast and Hard Code",
       "link": "https://lucumr.pocoo.org/2026/8/22/fast-hard-code/",
       "date": "2026-08-22T00:00:00+00:00",
@@ -4780,6 +4880,16 @@
       "feedTitle": "阮一峰的网络日志",
       "category": "中文",
       "feedHome": "https://www.ruanyifeng.com/blog/"
+    },
+    {
+      "title": "Readers can't identify watermarked AI text",
+      "link": "https://seangoedecke.com/readers-cant-identify-watermarked-ai-text/",
+      "date": "2026-08-21T00:00:00+00:00",
+      "summary": "",
+      "feedId": "seangoedecke",
+      "feedTitle": "Sean Goedecke",
+      "category": "Tech Blogs",
+      "feedHome": "https://www.seangoedecke.com/"
     },
     {
       "title": "Rust Glancer",
@@ -4882,6 +4992,16 @@
       "feedHome": "https://www.jeffgeerling.com/"
     },
     {
+      "title": "Good writing is obvious, not original",
+      "link": "https://seangoedecke.com/good-writing-is-obvious-not-original/",
+      "date": "2026-08-19T00:00:00+00:00",
+      "summary": "",
+      "feedId": "seangoedecke",
+      "feedTitle": "Sean Goedecke",
+      "category": "Tech Blogs",
+      "feedHome": "https://www.seangoedecke.com/"
+    },
+    {
       "title": "Anubis continues to expose new ways people configure webservers",
       "link": "https://xeiaso.net/notes/2026/anubis-csp-worker-hell/",
       "date": "2026-08-19T00:00:00+00:00",
@@ -4912,16 +5032,6 @@
       "feedHome": "https://pluralistic.net/"
     },
     {
-      "title": "Why did the Microsoft Entertainment Pack for Windows have a special sticker announcing that it also had Tetris?",
-      "link": "https://devblogs.microsoft.com/oldnewthing/20260818-00/?p=112621",
-      "date": "2026-08-18T14:00:00+00:00",
-      "summary": "A contingency plan. The post Why did the Microsoft Entertainment Pack for Windows have a special sticker announcing that it also had Tetris? appeared first on The Old New Thing.",
-      "feedId": "oldnewthing",
-      "feedTitle": "The Old New Thing",
-      "category": "Tech Blogs",
-      "feedHome": "https://devblogs.microsoft.com/oldnewthing/"
-    },
-    {
       "title": "Weekly Update 517: Cyber Ransoms",
       "link": "https://www.troyhunt.com/weekly-update-517/",
       "date": "2026-08-18T03:44:58+00:00",
@@ -4930,6 +5040,16 @@
       "feedTitle": "Troy Hunt",
       "category": "Tech Blogs",
       "feedHome": "https://www.troyhunt.com/"
+    },
+    {
+      "title": "Help peer",
+      "link": "https://seangoedecke.com/help-peer/",
+      "date": "2026-08-18T00:00:00+00:00",
+      "summary": "",
+      "feedId": "seangoedecke",
+      "feedTitle": "Sean Goedecke",
+      "category": "Tech Blogs",
+      "feedHome": "https://www.seangoedecke.com/"
     },
     {
       "title": "Wispr raises $280M at $2B valuation as it looks beyond dictation",
@@ -4970,6 +5090,16 @@
       "feedTitle": "Fabien Sanglard",
       "category": "Tech Blogs",
       "feedHome": "https://fabiensanglard.net/"
+    },
+    {
+      "title": "AI text watermarking is not a big deal",
+      "link": "https://seangoedecke.com/ai-text-watermarking-is-not-a-big-deal/",
+      "date": "2026-08-16T00:00:00+00:00",
+      "summary": "",
+      "feedId": "seangoedecke",
+      "feedTitle": "Sean Goedecke",
+      "category": "Tech Blogs",
+      "feedHome": "https://www.seangoedecke.com/"
     },
     {
       "title": "Site update: a few posts have been removed",
@@ -5102,6 +5232,16 @@
       "feedHome": "https://pluralistic.net/"
     },
     {
+      "title": "No, local models will not win",
+      "link": "https://seangoedecke.com/local-models-will-not-win/",
+      "date": "2026-08-11T00:00:00+00:00",
+      "summary": "",
+      "feedId": "seangoedecke",
+      "feedTitle": "Sean Goedecke",
+      "category": "Tech Blogs",
+      "feedHome": "https://www.seangoedecke.com/"
+    },
+    {
       "title": "Thoughts I had while reading your comment",
       "link": "https://dynomight.net/comment/",
       "date": "2026-08-11T00:00:00+00:00",
@@ -5140,6 +5280,26 @@
       "feedTitle": "Ibrahim Diallo",
       "category": "Tech Blogs",
       "feedHome": "https://idiallo.com/"
+    },
+    {
+      "title": "Advanced AI sycophancy",
+      "link": "https://seangoedecke.com/advanced-ai-sycophancy/",
+      "date": "2026-08-10T00:00:00+00:00",
+      "summary": "",
+      "feedId": "seangoedecke",
+      "feedTitle": "Sean Goedecke",
+      "category": "Tech Blogs",
+      "feedHome": "https://www.seangoedecke.com/"
+    },
+    {
+      "title": "I got an email about resistance",
+      "link": "https://seangoedecke.com/i-got-an-email-about-resistance/",
+      "date": "2026-08-09T00:00:00+00:00",
+      "summary": "",
+      "feedId": "seangoedecke",
+      "feedTitle": "Sean Goedecke",
+      "category": "Tech Blogs",
+      "feedHome": "https://www.seangoedecke.com/"
     },
     {
       "title": "Anubis v1.27.0: Moenbryda Wilfsunnwyn",
