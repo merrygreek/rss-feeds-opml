@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-16T22:40:56.523092+00:00",
+  "updatedAt": "2026-09-17T01:06:45.908020+00:00",
   "totalFeeds": 51,
   "successCount": 43,
   "failedCount": 8,
@@ -22,8 +22,20 @@
         "home": "https://simonwillison.net/",
         "url": "https://simonwillison.net/atom/everything/",
         "status": "ok",
-        "fetchedAt": "2026-09-16T22:40:46.435465+00:00",
+        "fetchedAt": "2026-09-17T01:06:35.256405+00:00",
         "items": [
+          {
+            "title": "datasette 1.0a40",
+            "link": "https://simonwillison.net/2026/Sep/16/datasette/",
+            "date": "2026-09-16T23:51:43+00:00",
+            "summary": "Release: datasette 1.0a40 Same security fix as 0.65.5, plus some neat new features and bug fixes: Plugins can now launch and manage background tasks using the new datasette.add_background_task() method. Thanks, Alex Garcia. I've migrated Datasette to httpx2 for features like the internal datasette.c"
+          },
+          {
+            "title": "datasette 0.65.5",
+            "link": "https://simonwillison.net/2026/Sep/16/datasette-2/",
+            "date": "2026-09-16T23:51:08+00:00",
+            "summary": "Release: datasette 0.65.5 Security fix for an issue where a trailing newline in a requested table name could bypass table permissions and expose private rows, reported by dpfkdlemtp in GHSA-h547-rmjf-5m2m. Tags: security, datasette"
+          },
           {
             "title": "Claude Cowork and chat are now one Claude",
             "link": "https://simonwillison.net/2026/Sep/16/one-claude/",
@@ -71,18 +83,6 @@
             "link": "https://simonwillison.net/2026/Sep/13/shot-scraper/",
             "date": "2026-09-13T23:58:14+00:00",
             "summary": "Release: shot-scraper 1.12 I've added WebP support to my shot-scraper screenshot automation tool. You can now take a WebP screenshot of a web page like this: shot-scraper https://simonwillison.net -o screenshot.webp --quality 80 The --quality option sets the quality - without that option the WebP fi"
-          },
-          {
-            "title": "Generating running routes with GPT-6 Astra and ChatGPT Work",
-            "link": "https://simonwillison.net/2026/Sep/12/astra-running-routes/",
-            "date": "2026-09-12T23:56:42+00:00",
-            "summary": "Here's a neat thing I had ChatGPT Work with GPT-6 Astra (Max) do this morning: I live at &lt;my address&gt;. Figure out 5K and 10K running routes from me that loop from my house. Use OSM data. It worked for 27 minutes and produced exactly what I'd asked for, as both an embedded visualization and dow"
-          },
-          {
-            "title": "California Brown Pelican",
-            "link": "https://simonwillison.net/2026/Sep/12/sighting-399708714/",
-            "date": "2026-09-12T21:16:09+00:00",
-            "summary": "California Brown Pelican, in San Mateo County, CA, USThe Pacifica Pier shut down at the start of June after a crack in the concrete walkway made access to the pier unsafe. It has since been entirely taken over by pelicans! Tags: wildlife"
           }
         ]
       },
@@ -93,7 +93,7 @@
         "home": "https://openai.com/news/",
         "url": "https://openai.com/news/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-16T22:40:46.506626+00:00",
+        "fetchedAt": "2026-09-17T01:06:35.414901+00:00",
         "items": [
           {
             "title": "Helping older adults use AI in everyday life",
@@ -164,7 +164,7 @@
         "home": "https://arxiv.org/list/cs.AI/recent",
         "url": "https://arxiv.org/rss/cs.AI",
         "status": "ok",
-        "fetchedAt": "2026-09-16T22:40:46.615302+00:00",
+        "fetchedAt": "2026-09-17T01:06:35.481084+00:00",
         "items": [
           {
             "title": "Optimal Pruning for Neural Architectures using Fisher Information Distances",
@@ -235,7 +235,7 @@
         "home": "https://arxiv.org/list/cs.LG/recent",
         "url": "https://arxiv.org/rss/cs.LG",
         "status": "ok",
-        "fetchedAt": "2026-09-16T22:40:46.643949+00:00",
+        "fetchedAt": "2026-09-17T01:06:35.450035+00:00",
         "items": [
           {
             "title": "Causal neural set filtering for online multi-target tracking",
@@ -306,7 +306,7 @@
         "home": "https://research.google/blog/",
         "url": "https://research.google/blog/rss/",
         "status": "ok",
-        "fetchedAt": "2026-09-16T22:40:46.718074+00:00",
+        "fetchedAt": "2026-09-17T01:06:35.425310+00:00",
         "items": [
           {
             "title": "Bypassing inference bottlenecks: Accelerating complex AI search with Retrieve-for-Train",
@@ -377,7 +377,7 @@
         "home": "https://deepmind.google/blog/",
         "url": "https://deepmind.google/blog/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-16T22:40:46.724897+00:00",
+        "fetchedAt": "2026-09-17T01:06:35.579998+00:00",
         "items": [
           {
             "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
@@ -448,7 +448,7 @@
         "home": "https://lilianweng.github.io/",
         "url": "https://lilianweng.github.io/lil-log/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-16T22:40:46.510720+00:00",
+        "fetchedAt": "2026-09-17T01:06:35.266074+00:00",
         "items": [
           {
             "title": "Active Learning",
@@ -539,7 +539,7 @@
         "home": "https://minimaxir.com/",
         "url": "https://minimaxir.com/index.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-16T22:40:46.534817+00:00",
+        "fetchedAt": "2026-09-17T01:06:35.287547+00:00",
         "items": [
           {
             "title": "LLMs break down in funny ways when told the Jacobian Conjecture counterargument",
@@ -622,7 +622,7 @@
         "home": "https://www.jeffgeerling.com/",
         "url": "https://www.jeffgeerling.com/blog.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-16T22:40:46.546903+00:00",
+        "fetchedAt": "2026-09-17T01:06:35.314854+00:00",
         "items": [
           {
             "title": "OpenNMC is an open replacement for expensive APC management cards",
@@ -693,7 +693,7 @@
         "home": "https://www.seangoedecke.com/",
         "url": "https://www.seangoedecke.com/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-16T22:40:46.551850+00:00",
+        "fetchedAt": "2026-09-17T01:06:35.350746+00:00",
         "items": [
           {
             "title": "Jev means structured output is interesting again",
@@ -764,7 +764,7 @@
         "home": "https://krebsonsecurity.com/",
         "url": "https://krebsonsecurity.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-09-16T22:40:46.537915+00:00",
+        "fetchedAt": "2026-09-17T01:06:35.292245+00:00",
         "items": [
           {
             "title": "Data Broker Radaris Loses Domains in Privacy Fight",
@@ -835,8 +835,14 @@
         "home": "https://daringfireball.net/",
         "url": "https://daringfireball.net/feeds/main",
         "status": "ok",
-        "fetchedAt": "2026-09-16T22:40:46.542973+00:00",
+        "fetchedAt": "2026-09-17T01:06:35.491744+00:00",
         "items": [
+          {
+            "title": "Xcode 27.2 Is Out, but 27.1 Is Not, Which Means Developers Still Can’t Get Started on Duo-Adapted Apps",
+            "link": "https://developer.apple.com/documentation/xcode-release-notes/xcode-27_2-release-notes",
+            "date": "2026-09-16T22:53:35+00:00",
+            "summary": "A note flagged “Important” atop the Xcode 27.2 release notes: The iOS SDK and simulator support for iPhone Duo will be available later this month in an upcoming release of Xcode 27.1. Adapting apps for the Duo is not just a simple “recompile with the new SDK”. It’s different. For just about all apps"
+          },
           {
             "title": "Is That a Duo in Ternus’s Pocket or Was He Just Happy That Apple TV Shows Won 28 Emmys?",
             "link": "https://x.com/DEADLINE/status/2099645816361332775",
@@ -846,14 +852,14 @@
           {
             "title": "Woz Launches Merch Store",
             "link": "https://x.com/stevewoz/status/2100074363605397658",
-            "date": "2026-09-16T21:39:32+00:00",
+            "date": "2026-09-16T22:54:15+00:00",
             "summary": "Steve Wozniak: I’ve decided it’s time to have a little more fun on X this year! 😄⚡ I get to speak at some amazing events, meet fascinating people, hear great stories, and occasionally find myself in places I never expected to be. So I figured… why not share some of those moments here? He announced t"
           },
           {
             "title": "Apple OS 27.2 Betas Are Out; Version 27.1 Is the Duo-Exclusive iOS Fork",
             "link": "https://www.macrumors.com/2026/09/16/heres-why-apple-released-ios-27-2-beta/",
-            "date": "2026-09-16T20:00:54+00:00",
-            "summary": "Joe Rossignol, MacRumors: Apple just seeded the first beta of iOS 27.2 to developers for testing. Yes, you read that correctly: iOS 27.2, not iOS 27.1. Why no iOS 27.1 beta? The answer likely relates to the iPhone Duo. This unusual version numbering is entirely about the Duo. The Duo is on its own f"
+            "date": "2026-09-16T22:47:13+00:00",
+            "summary": "Joe Rossignol, MacRumors: Apple just seeded the first beta of iOS 27.2 to developers for testing. Yes, you read that correctly: iOS 27.2, not iOS 27.1. Why no iOS 27.1 beta? The answer likely relates to the iPhone Duo. This unusual version numbering is entirely about the Duo. The Duo is on its own b"
           },
           {
             "title": "AirPods 5 With Wireless Charging Case Works With MagSafe, But Not Magnetically",
@@ -890,12 +896,6 @@
             "link": "https://scriptingosx.com/2026/09/apple-27-platform-updates-september-2026/",
             "date": "2026-09-14T19:41:41+00:00",
             "summary": "Armin Briegel at Scripting OS X has compiled links for all the release notes for all of today’s OS updates (features, developer, security). In addition to the 27.0 updates, Apple also released 26.7 updates and MacOS 15.8 Sequoia. Big day. &nbsp;★&nbsp;"
-          },
-          {
-            "title": "Dumpster Fire – Litterbox-Inspired Extension for Firefox",
-            "link": "https://addons.mozilla.org/en-US/firefox/addon/dumpster-fire/",
-            "date": "2026-09-14T14:47:44+00:00",
-            "summary": "Miles Abbott: Open x.com links in a popup so you can read the one post and leave. Port of the Litterbox Safari extension. Litterbox is a cleverer name, but Dumpster Fire is funnier. &nbsp;★&nbsp;"
           }
         ]
       },
@@ -906,7 +906,7 @@
         "home": "https://ericmigi.com/",
         "url": "https://ericmigi.com/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-16T22:40:46.648008+00:00",
+        "fetchedAt": "2026-09-17T01:06:35.341291+00:00",
         "items": [
           {
             "title": "New Pebble Weather App + Software Updates",
@@ -977,7 +977,7 @@
         "home": "http://antirez.com/",
         "url": "http://antirez.com/rss",
         "status": "ok",
-        "fetchedAt": "2026-09-16T22:40:48.807095+00:00",
+        "fetchedAt": "2026-09-17T01:06:37.589116+00:00",
         "items": [
           {
             "title": "The real AI risk is inside the labs",
@@ -1048,7 +1048,7 @@
         "home": "https://idiallo.com/",
         "url": "https://idiallo.com/feed.rss",
         "status": "ok",
-        "fetchedAt": "2026-09-16T22:40:46.764392+00:00",
+        "fetchedAt": "2026-09-17T01:06:35.487070+00:00",
         "items": [
           {
             "title": "AI Forces You to Commit to Your Initial Belief",
@@ -1119,7 +1119,7 @@
         "home": "https://maurycyz.com/",
         "url": "https://maurycyz.com/index.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-16T22:40:47.277620+00:00",
+        "fetchedAt": "2026-09-17T01:06:36.134588+00:00",
         "items": []
       },
       {
@@ -1129,7 +1129,7 @@
         "home": "https://pluralistic.net/",
         "url": "https://pluralistic.net/feed/",
         "status": "ok",
-        "fetchedAt": "2026-09-16T22:40:49.621806+00:00",
+        "fetchedAt": "2026-09-17T01:06:38.572255+00:00",
         "items": [
           {
             "title": "Pluralistic: How an AI moratorium can save AI bosses (16 Sep 2026)",
@@ -1200,7 +1200,7 @@
         "home": "https://shkspr.mobi/blog/",
         "url": "https://shkspr.mobi/blog/feed/",
         "status": "ok",
-        "fetchedAt": "2026-09-16T22:40:47.645103+00:00",
+        "fetchedAt": "2026-09-17T01:06:36.320055+00:00",
         "items": [
           {
             "title": "How to get a DOI for your blog posts",
@@ -1281,7 +1281,7 @@
         "home": "https://mitchellh.com/",
         "url": "https://mitchellh.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-16T22:40:46.768414+00:00",
+        "fetchedAt": "2026-09-17T01:06:35.582040+00:00",
         "items": [
           {
             "title": "Superlogical",
@@ -1352,7 +1352,7 @@
         "home": "https://dynomight.net/",
         "url": "https://dynomight.net/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-16T22:40:47.374103+00:00",
+        "fetchedAt": "2026-09-17T01:06:35.892217+00:00",
         "items": [
           {
             "title": "Thoughts I had while reading your comment",
@@ -1423,7 +1423,7 @@
         "home": "https://xeiaso.net/",
         "url": "https://xeiaso.net/blog.rss",
         "status": "ok",
-        "fetchedAt": "2026-09-16T22:40:47.179931+00:00",
+        "fetchedAt": "2026-09-17T01:06:36.189530+00:00",
         "items": [
           {
             "title": "Everyone should slow down AI development except for me",
@@ -1494,7 +1494,7 @@
         "home": "https://devblogs.microsoft.com/oldnewthing/",
         "url": "https://devblogs.microsoft.com/oldnewthing/feed",
         "status": "ok",
-        "fetchedAt": "2026-09-16T22:40:46.806802+00:00",
+        "fetchedAt": "2026-09-17T01:06:35.312257+00:00",
         "items": [
           {
             "title": "Why do Microsoft job levels start in the high 50’s instead of starting at a sane number like 1?",
@@ -1565,7 +1565,7 @@
         "home": "https://www.righto.com/",
         "url": "https://www.righto.com/feeds/posts/default",
         "status": "ok",
-        "fetchedAt": "2026-09-16T22:40:47.041239+00:00",
+        "fetchedAt": "2026-09-17T01:06:35.871324+00:00",
         "items": []
       },
       {
@@ -1575,7 +1575,7 @@
         "home": "https://lucumr.pocoo.org/",
         "url": "https://lucumr.pocoo.org/feed.atom",
         "status": "ok",
-        "fetchedAt": "2026-09-16T22:40:47.157776+00:00",
+        "fetchedAt": "2026-09-17T01:06:35.852714+00:00",
         "items": [
           {
             "title": "Interpreting Pangram",
@@ -1646,7 +1646,7 @@
         "home": "https://skyfall.dev/",
         "url": "https://skyfall.dev/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-16T22:40:46.929452+00:00",
+        "fetchedAt": "2026-09-17T01:06:35.755379+00:00",
         "items": [
           {
             "title": "Good riddance, 4o",
@@ -1721,7 +1721,7 @@
         "home": "https://overreacted.io/",
         "url": "https://overreacted.io/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-16T22:40:46.822412+00:00",
+        "fetchedAt": "2026-09-17T01:06:35.554619+00:00",
         "items": [
           {
             "title": "There Are No Instances in atproto",
@@ -1792,7 +1792,7 @@
         "home": "https://www.johndcook.com/",
         "url": "https://www.johndcook.com/blog/feed/",
         "status": "ok",
-        "fetchedAt": "2026-09-16T22:40:46.864430+00:00",
+        "fetchedAt": "2026-09-17T01:06:35.724137+00:00",
         "items": [
           {
             "title": "Converting between cosine similarity and concentration ratio",
@@ -1863,7 +1863,7 @@
         "home": "https://matklad.github.io/",
         "url": "https://matklad.github.io/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-16T22:40:46.816872+00:00",
+        "fetchedAt": "2026-09-17T01:06:35.532007+00:00",
         "items": [
           {
             "title": "Static Allocation, Constant Work",
@@ -1934,7 +1934,7 @@
         "home": "https://eli.thegreenplace.net/",
         "url": "https://eli.thegreenplace.net/feeds/all.atom.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-16T22:40:47.073355+00:00",
+        "fetchedAt": "2026-09-17T01:06:36.003732+00:00",
         "items": [
           {
             "title": "How big are factorials?",
@@ -1975,7 +1975,7 @@
         "home": "https://fabiensanglard.net/",
         "url": "https://fabiensanglard.net/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-16T22:40:46.814871+00:00",
+        "fetchedAt": "2026-09-17T01:06:35.720639+00:00",
         "items": [
           {
             "title": "My agent.md to improve LLM-assisted code quality",
@@ -2046,7 +2046,7 @@
         "home": "https://blog.miguelgrinberg.com/",
         "url": "https://blog.miguelgrinberg.com/feed",
         "status": "ok",
-        "fetchedAt": "2026-09-16T22:40:47.303711+00:00",
+        "fetchedAt": "2026-09-17T01:06:36.199451+00:00",
         "items": [
           {
             "title": "You Should be Using Rootless Containers",
@@ -2117,7 +2117,7 @@
         "home": "https://www.troyhunt.com/",
         "url": "https://www.troyhunt.com/rss/",
         "status": "ok",
-        "fetchedAt": "2026-09-16T22:40:46.965466+00:00",
+        "fetchedAt": "2026-09-17T01:06:35.729002+00:00",
         "items": [
           {
             "title": "Weekly Update 521: Breach Perception v. Reality",
@@ -2188,7 +2188,7 @@
         "home": "https://anildash.com/",
         "url": "https://anildash.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-16T22:40:46.859344+00:00",
+        "fetchedAt": "2026-09-17T01:06:35.923281+00:00",
         "items": [
           {
             "title": "Discovering Prince, Ten Years Later",
@@ -2259,7 +2259,7 @@
         "home": "https://computer.rip/",
         "url": "https://computer.rip/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-16T22:40:47.688667+00:00",
+        "fetchedAt": "2026-09-17T01:06:36.187066+00:00",
         "items": [
           {
             "title": "avalanche technology",
@@ -2340,7 +2340,7 @@
         "home": "http://paulgraham.com/",
         "url": "http://www.aaronsw.com/2002/feeds/pgessays.rss",
         "status": "ok",
-        "fetchedAt": "2026-09-16T22:40:46.741763+00:00",
+        "fetchedAt": "2026-09-17T01:06:35.574754+00:00",
         "items": [
           {
             "title": "Superlinear Returns",
@@ -2411,7 +2411,7 @@
         "home": "https://steveblank.com/",
         "url": "https://steveblank.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-09-16T22:40:46.922098+00:00",
+        "fetchedAt": "2026-09-17T01:06:35.502277+00:00",
         "items": [
           {
             "title": "Lean Launch Pad 2026 @ Stanford – Lessons Learned Presentations",
@@ -2484,18 +2484,18 @@
         "home": "https://news.ycombinator.com/",
         "url": "https://news.ycombinator.com/rss",
         "status": "ok",
-        "fetchedAt": "2026-09-16T22:40:46.588132+00:00",
+        "fetchedAt": "2026-09-17T01:06:35.676194+00:00",
         "items": [
+          {
+            "title": "Nvidia announces native GPU programming in Rust",
+            "link": "https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels/",
+            "date": "2026-09-16T11:15:53+00:00",
+            "summary": "Comments"
+          },
           {
             "title": "Training a 4B model to produce 81% faster query plans than Postgres",
             "link": "https://rohanbansal.com/qorl",
             "date": "2026-09-16T18:50:00+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "Flock cameras are riddled with security vulnerabilities and hardcoded creds",
-            "link": "https://micahflee.com/flock-cameras-are-riddled-with-security-vulnerabilities-and-hard-coded-credentials/",
-            "date": "2026-09-16T22:19:27+00:00",
             "summary": "Comments"
           },
           {
@@ -2511,21 +2511,27 @@
             "summary": "Comments"
           },
           {
+            "title": "Backups Aren't Simple",
+            "link": "https://filipovski.net/2026/09/16/backups-arent-simple.html",
+            "date": "2026-09-16T20:27:16+00:00",
+            "summary": "Comments"
+          },
+          {
             "title": "Small programming tricks",
             "link": "https://will-keleher.com/posts/small-programming-tricks-matter/",
             "date": "2026-09-16T15:56:47+00:00",
             "summary": "Comments"
           },
           {
-            "title": "Nvidia announces native GPU programming in Rust",
-            "link": "https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels/",
-            "date": "2026-09-16T11:15:53+00:00",
+            "title": "OpenSpec – A lightweight and configurable AI spec framework",
+            "link": "https://openspec.dev/",
+            "date": "2026-09-16T23:06:39+00:00",
             "summary": "Comments"
           },
           {
-            "title": "AWS says it can't restore some data from mideast facilities struck by Iran",
-            "link": "https://www.wsj.com/world/middle-east/aws-says-it-cant-restore-some-data-from-mideast-facilities-struck-by-iran-ddcb7e5d",
-            "date": "2026-09-15T21:41:42+00:00",
+            "title": "The engineering behind the US Strategic Petroleum Reserve",
+            "link": "https://johnjwang.com/post/2026/09/15/engineering-behind-us-strategic-petroleum-reserve",
+            "date": "2026-09-15T22:15:25+00:00",
             "summary": "Comments"
           },
           {
@@ -2539,12 +2545,6 @@
             "link": "https://devblogs.microsoft.com/dotnet/performance-improvements-in-net-11/",
             "date": "2026-09-15T12:18:16+00:00",
             "summary": "Comments"
-          },
-          {
-            "title": "Accurate Models of AMD Matrix Cores",
-            "link": "https://arxiv.org/abs/2609.14845",
-            "date": "2026-09-16T18:56:05+00:00",
-            "summary": "Comments"
           }
         ]
       },
@@ -2555,25 +2555,43 @@
         "home": "https://www.techmeme.com/",
         "url": "https://www.techmeme.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-16T22:40:46.890753+00:00",
+        "fetchedAt": "2026-09-17T01:06:35.694082+00:00",
         "items": [
           {
-            "title": "OpenAI discloses six new AI safety incidents since October, including models concealing mistakes, and announces a new framework for reporting model misalignment (Axios)",
+            "title": "Hands-on with Snap's Specs: more advanced than Meta's top-end glasses, fully untethered, mostly comfortable, navigation works well, but design has compromises (Bloomberg)",
+            "link": "https://www.techmeme.com/260916/p51#a260916p51",
+            "date": "2026-09-16T20:35:00-04:00",
+            "summary": "Bloomberg: Hands-on with Snap's Specs: more advanced than Meta's top-end glasses, fully untethered, mostly comfortable, navigation works well, but design has compromises&nbsp; &mdash;&nbsp; The technically advanced Specs feature an integrated display and a convenient self-contained design."
+          },
+          {
+            "title": "Snap introduces Specs Intelligence, an AI assistant designed to work across iPhone, Mac, and Specs glasses, calling it an \"anticipatory AI service\" (Jay Peters/The Verge)",
+            "link": "https://www.techmeme.com/260916/p50#a260916p50",
+            "date": "2026-09-16T20:30:32-04:00",
+            "summary": "Jay Peters / The Verge: Snap introduces Specs Intelligence, an AI assistant designed to work across iPhone, Mac, and Specs glasses, calling it an &ldquo;anticipatory AI service&rdquo;&nbsp; &mdash;&nbsp; Snap's &lsquo;Specs Intelligence&rsquo; is an &lsquo;anticipatory AI service&rsquo; available fo"
+          },
+          {
+            "title": "The US House advances the Ratepayer Protection Act, aimed at preventing data center-related utility costs from being passed on to consumers, by a vote of 417-3 (Justin Papp/CNBC)",
+            "link": "https://www.techmeme.com/260916/p49#a260916p49",
+            "date": "2026-09-16T19:30:27-04:00",
+            "summary": "Justin Papp / CNBC: The US House advances the Ratepayer Protection Act, aimed at preventing data center-related utility costs from being passed on to consumers, by a vote of 417-3&nbsp; &mdash;&nbsp; The House on Wednesday advanced a bill by a vote of 417-3 that aims to curb data center-related util"
+          },
+          {
+            "title": "OpenAI discloses six new misalignment incidents since October, including models concealing mistakes, and announces a framework for reporting model misalignment (Axios)",
             "link": "https://www.techmeme.com/260916/p48#a260916p48",
             "date": "2026-09-16T18:30:24-04:00",
-            "summary": "Axios: OpenAI discloses six new AI safety incidents since October, including models concealing mistakes, and announces a new framework for reporting model misalignment&nbsp; &mdash;&nbsp; OpenAI on Wednesday disclosed six new incidents in which its models concealed mistakes, sought unauthorized cred"
+            "summary": "Axios: OpenAI discloses six new misalignment incidents since October, including models concealing mistakes, and announces a framework for reporting model misalignment&nbsp; &mdash;&nbsp; OpenAI on Wednesday disclosed six new incidents in which its models concealed mistakes, sought unauthorized crede"
           },
           {
-            "title": "Sources: a group of 10 banks is providing a $22B loan to Blackstone and Alphabet's venture Crux AI, which provides compute for AI labs, to fund TPU purchases (Bloomberg)",
+            "title": "Sources: a group of 10 banks is giving a $22B loan to Blackstone and Alphabet's cloud venture Crux AI, which aims to provide compute for AI labs, to buy TPUs (Bloomberg)",
             "link": "https://www.techmeme.com/260916/p47#a260916p47",
             "date": "2026-09-16T18:20:01-04:00",
-            "summary": "Bloomberg: Sources: a group of 10 banks is providing a $22B loan to Blackstone and Alphabet's venture Crux AI, which provides compute for AI labs, to fund TPU purchases&nbsp; &mdash;&nbsp; A group of 10 banks is providing a $22 billion chip loan to support Blackstone Inc. and Alphabet Inc.'s new clo"
+            "summary": "Bloomberg: Sources: a group of 10 banks is giving a $22B loan to Blackstone and Alphabet's cloud venture Crux AI, which aims to provide compute for AI labs, to buy TPUs&nbsp; &mdash;&nbsp; A group of 10 banks is providing a $22 billion chip loan to support Blackstone Inc. and Alphabet Inc.'s new clo"
           },
           {
-            "title": "Sources: drone delivery startup Zipline is in talks to raise around $1B at a roughly $20B valuation, up from a $7.6B valuation in January (Bloomberg)",
+            "title": "Sources: drone delivery startup Zipline is in talks to raise ~$1B at a ~$20B valuation, up from $7.6B in January, and Paradigm is in talks to lead the round (Bloomberg)",
             "link": "https://www.techmeme.com/260916/p46#a260916p46",
             "date": "2026-09-16T18:02:06-04:00",
-            "summary": "Bloomberg: Sources: drone delivery startup Zipline is in talks to raise around $1B at a roughly $20B valuation, up from a $7.6B valuation in January&nbsp; &mdash;&nbsp; Zipline is in talks to raise around $1 billion in a funding round that would value the drone delivery and logistics startup at roug"
+            "summary": "Bloomberg: Sources: drone delivery startup Zipline is in talks to raise ~$1B at a ~$20B valuation, up from $7.6B in January, and Paradigm is in talks to lead the round&nbsp; &mdash;&nbsp; Zipline is in talks to raise around $1 billion in a funding round that would value the drone delivery and logist"
           },
           {
             "title": "Review of Meta's Muse: a pretty killer AI assistant and usage rates on the free plan seem generous, but trusting Meta with personal data will take some time (M.G. Siegler/Spyglass)",
@@ -2588,34 +2606,16 @@
             "summary": "Sarah Perez / TechCrunch: X adds a &ldquo;Trade&rdquo; option to its Cashtag feature, letting US users complete trades at brokerages such as Interactive Brokers, Moomoo, Gemini, Kraken, and Coinbase&nbsp; &mdash;&nbsp; X will now allow users to trade from their timelines.&nbsp; The Elon Musk-owned s"
           },
           {
-            "title": "Hang Ten Systems, which uses AI to help large enterprises build software, raised an additional $53M seed led by Xora, five weeks after its initial $32M seed (Jagmeet Singh/TechCrunch)",
+            "title": "Hang Ten Systems, which uses AI to help large enterprises build software, expanded its seed funding by $53M, led by Xora, five weeks after its initial $32M seed (Jagmeet Singh/TechCrunch)",
             "link": "https://www.techmeme.com/260916/p43#a260916p43",
             "date": "2026-09-16T16:05:02-04:00",
-            "summary": "Jagmeet Singh / TechCrunch: Hang Ten Systems, which uses AI to help large enterprises build software, raised an additional $53M seed led by Xora, five weeks after its initial $32M seed&nbsp; &mdash;&nbsp; Hang Ten Systems, an AI startup founded by former Infosys CEO Vishal Sikka just four months ago"
+            "summary": "Jagmeet Singh / TechCrunch: Hang Ten Systems, which uses AI to help large enterprises build software, expanded its seed funding by $53M, led by Xora, five weeks after its initial $32M seed&nbsp; &mdash;&nbsp; Hang Ten Systems, an AI startup founded by former Infosys CEO Vishal Sikka just four months"
           },
           {
             "title": "Self-driving tech company May Mobility plans to go public via a SPAC merger at a $1.4B pro forma enterprise value and raise up to $337M in gross proceeds (Joann Muller/Axios)",
             "link": "https://www.techmeme.com/260916/p42#a260916p42",
             "date": "2026-09-16T15:05:01-04:00",
             "summary": "Joann Muller / Axios: Self-driving tech company May Mobility plans to go public via a SPAC merger at a $1.4B pro forma enterprise value and raise up to $337M in gross proceeds&nbsp; &mdash;&nbsp; Self-driving tech company May Mobility has reached a deal to go public via a merger with a SPAC affiliat"
-          },
-          {
-            "title": "Google adds MCP integration to Google Home, letting third-party AI agents analyze home data and control devices, rolling out to Premium Advanced users in the US (Jennifer Pattison Tuohy/The Verge)",
-            "link": "https://www.techmeme.com/260916/p41#a260916p41",
-            "date": "2026-09-16T14:45:01-04:00",
-            "summary": "Jennifer Pattison Tuohy / The Verge: Google adds MCP integration to Google Home, letting third-party AI agents analyze home data and control devices, rolling out to Premium Advanced users in the US&nbsp; &mdash;&nbsp; &#65279;Google Home adds MCP integration, allowing third-party AI agents to analyz"
-          },
-          {
-            "title": "Delos Data, which develops network chips and software to connect AI chips in a data center, raised $100M from Matrix, Playground, Socratic Partners, and others (Stephen Nellis/Reuters)",
-            "link": "https://www.techmeme.com/260916/p40#a260916p40",
-            "date": "2026-09-16T12:50:01-04:00",
-            "summary": "Stephen Nellis / Reuters: Delos Data, which develops network chips and software to connect AI chips in a data center, raised $100M from Matrix, Playground, Socratic Partners, and others&nbsp; &mdash;&nbsp; Delos Data, a startup founded by veterans of Intel Corp (INTC.O), on Tuesday said it has raise"
-          },
-          {
-            "title": "Anthropic merges Claude chat and Cowork, and adds a feature for making presentations and documents, rolling out to Pro and Max plans first (Ivan Mehta/TechCrunch)",
-            "link": "https://www.techmeme.com/260916/p39#a260916p39",
-            "date": "2026-09-16T12:42:10-04:00",
-            "summary": "Ivan Mehta / TechCrunch: Anthropic merges Claude chat and Cowork, and adds a feature for making presentations and documents, rolling out to Pro and Max plans first&nbsp; &mdash;&nbsp; Anthropic is merging its front-end for Claude chat and Cowork, making it less confusing for people to decide which t"
           }
         ]
       },
@@ -2626,8 +2626,26 @@
         "home": "https://techcrunch.com/",
         "url": "https://techcrunch.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-09-16T22:40:46.681967+00:00",
+        "fetchedAt": "2026-09-17T01:06:35.529366+00:00",
         "items": [
+          {
+            "title": "Snap tries to make the case again for its $2,200 smart glasses",
+            "link": "https://techcrunch.com/2026/09/16/snap-tries-to-make-the-case-again-for-its-2200-smart-glasses/",
+            "date": "2026-09-17T00:58:49+00:00",
+            "summary": "Snap unveiled new features for its smart glasses this week."
+          },
+          {
+            "title": "Musk’s long-time backer is giving SpaceX stock to its investors",
+            "link": "https://techcrunch.com/2026/09/16/musks-long-time-backer-is-giving-spacex-stock-to-its-investors/",
+            "date": "2026-09-16T23:50:07+00:00",
+            "summary": "Valor Equity Partners is handing out stock to its LPs instead of cash returns."
+          },
+          {
+            "title": "Al Gore has a surprisingly calm take on the AI data center backlash",
+            "link": "https://techcrunch.com/2026/09/16/al-gore-has-a-surprisingly-calm-take-on-the-ai-data-center-backlash/",
+            "date": "2026-09-16T23:43:09+00:00",
+            "summary": "In an interview with TechCrunch, Al Gore suggested he isn't losing sleep over AI data center emissions — he's more worried about the AI industry's own warnings about where the technology is headed."
+          },
           {
             "title": "US automakers could soon be forced to include AM radio for free",
             "link": "https://techcrunch.com/2026/09/16/us-automakers-could-soon-be-forced-to-include-am-radio-for-free/",
@@ -2669,24 +2687,6 @@
             "link": "https://techcrunch.com/2026/09/16/automattics-interim-ceo-and-legal-chief-signed-reciprocal-severance-deals-during-mullenwegs-brief-ouster/",
             "date": "2026-09-16T19:35:29+00:00",
             "summary": "CFO Mark Davies and legal chief Andy Missan signed each other’s severance agreements while Matt Mullenweg was on leave, providing a year of salary and additional equity vesting if their departures qualify for the benefits."
-          },
-          {
-            "title": "Former Waymo CFO jumps to self-driving startup Wayve",
-            "link": "https://techcrunch.com/2026/09/16/former-waymo-cfo-jumps-to-self-driving-startup-wayve/",
-            "date": "2026-09-16T19:02:49+00:00",
-            "summary": "Elisa de Martel, who left her position as chief financial officer at Alphabet's autonomous vehicle company Waymo in January, will be based out of Silicon Valley."
-          },
-          {
-            "title": "Hear why Science Corp CEO Max Hodak says the screen era is ending at TechCrunch Disrupt 2026",
-            "link": "https://techcrunch.com/2026/09/16/hear-why-science-corp-ceo-max-hodak-says-the-screen-era-is-ending-at-techcrunch-disrupt-2026/",
-            "date": "2026-09-16T18:45:35+00:00",
-            "summary": "At this year's Disrupt, Science Corp CEO Max Hodak will present a vision for screen-free interfaces that can even offer medical help. Register before September 25 to save up to $200 on your pass."
-          },
-          {
-            "title": "AI labs want in-house auditors — but maybe they should shut the front door first",
-            "link": "https://techcrunch.com/2026/09/16/ai-labs-want-in-house-auditors-but-maybe-they-should-shut-the-front-door-first/",
-            "date": "2026-09-16T18:25:25+00:00",
-            "summary": "There may be a simpler and more effective fix for rogue agents, hiding in plain sight."
           }
         ]
       },
@@ -2697,7 +2697,7 @@
         "home": "https://techcrunch.com/category/artificial-intelligence/",
         "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
         "status": "ok",
-        "fetchedAt": "2026-09-16T22:40:46.714094+00:00",
+        "fetchedAt": "2026-09-17T01:06:35.524874+00:00",
         "items": [
           {
             "title": "Anthropic and OpenAI want to embed safety evaluators. Will they really be independent?",
@@ -2768,7 +2768,7 @@
         "home": "https://techcrunch.com/tag/funding/",
         "url": "https://techcrunch.com/tag/funding/feed/",
         "status": "ok",
-        "fetchedAt": "2026-09-16T22:40:46.727306+00:00",
+        "fetchedAt": "2026-09-17T01:06:35.591325+00:00",
         "items": [
           {
             "title": "Viral AI startup Instinct has raised $350M at a $2.5B valuation",
@@ -2861,7 +2861,7 @@
         "home": "https://www.ruanyifeng.com/blog/",
         "url": "https://www.ruanyifeng.com/blog/atom.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-16T22:40:46.698485+00:00",
+        "fetchedAt": "2026-09-17T01:06:35.420535+00:00",
         "items": [
           {
             "title": "科技爱好者周刊（第 412 期）：禁止 issue，只用 PR",
@@ -2890,7 +2890,7 @@
         "home": "https://www.bestblogs.dev/",
         "url": "https://www.bestblogs.dev/zh/feeds/rss?category=ai&minScore=90",
         "status": "ok",
-        "fetchedAt": "2026-09-16T22:40:47.671691+00:00",
+        "fetchedAt": "2026-09-17T01:06:36.425293+00:00",
         "items": [
           {
             "title": "CobbleDB 深度解读：Perplexity 重写 AI 搜索存储层",
@@ -2958,6 +2958,96 @@
   },
   "allItems": [
     {
+      "title": "Snap tries to make the case again for its $2,200 smart glasses",
+      "link": "https://techcrunch.com/2026/09/16/snap-tries-to-make-the-case-again-for-its-2200-smart-glasses/",
+      "date": "2026-09-17T00:58:49+00:00",
+      "summary": "Snap unveiled new features for its smart glasses this week.",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "datasette 1.0a40",
+      "link": "https://simonwillison.net/2026/Sep/16/datasette/",
+      "date": "2026-09-16T23:51:43+00:00",
+      "summary": "Release: datasette 1.0a40 Same security fix as 0.65.5, plus some neat new features and bug fixes: Plugins can now launch and manage background tasks using the new datasette.add_background_task() method. Thanks, Alex Garcia. I've migrated Datasette to httpx2 for features like the internal datasette.c",
+      "feedId": "simonwillison",
+      "feedTitle": "Simon Willison",
+      "category": "AI & LLM",
+      "feedHome": "https://simonwillison.net/"
+    },
+    {
+      "title": "datasette 0.65.5",
+      "link": "https://simonwillison.net/2026/Sep/16/datasette-2/",
+      "date": "2026-09-16T23:51:08+00:00",
+      "summary": "Release: datasette 0.65.5 Security fix for an issue where a trailing newline in a requested table name could bypass table permissions and expose private rows, reported by dpfkdlemtp in GHSA-h547-rmjf-5m2m. Tags: security, datasette",
+      "feedId": "simonwillison",
+      "feedTitle": "Simon Willison",
+      "category": "AI & LLM",
+      "feedHome": "https://simonwillison.net/"
+    },
+    {
+      "title": "Musk’s long-time backer is giving SpaceX stock to its investors",
+      "link": "https://techcrunch.com/2026/09/16/musks-long-time-backer-is-giving-spacex-stock-to-its-investors/",
+      "date": "2026-09-16T23:50:07+00:00",
+      "summary": "Valor Equity Partners is handing out stock to its LPs instead of cash returns.",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "Al Gore has a surprisingly calm take on the AI data center backlash",
+      "link": "https://techcrunch.com/2026/09/16/al-gore-has-a-surprisingly-calm-take-on-the-ai-data-center-backlash/",
+      "date": "2026-09-16T23:43:09+00:00",
+      "summary": "In an interview with TechCrunch, Al Gore suggested he isn't losing sleep over AI data center emissions — he's more worried about the AI industry's own warnings about where the technology is headed.",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "OpenSpec – A lightweight and configurable AI spec framework",
+      "link": "https://openspec.dev/",
+      "date": "2026-09-16T23:06:39+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "Woz Launches Merch Store",
+      "link": "https://x.com/stevewoz/status/2100074363605397658",
+      "date": "2026-09-16T22:54:15+00:00",
+      "summary": "Steve Wozniak: I’ve decided it’s time to have a little more fun on X this year! 😄⚡ I get to speak at some amazing events, meet fascinating people, hear great stories, and occasionally find myself in places I never expected to be. So I figured… why not share some of those moments here? He announced t",
+      "feedId": "daringfireball",
+      "feedTitle": "Daring Fireball",
+      "category": "Tech Blogs",
+      "feedHome": "https://daringfireball.net/"
+    },
+    {
+      "title": "Xcode 27.2 Is Out, but 27.1 Is Not, Which Means Developers Still Can’t Get Started on Duo-Adapted Apps",
+      "link": "https://developer.apple.com/documentation/xcode-release-notes/xcode-27_2-release-notes",
+      "date": "2026-09-16T22:53:35+00:00",
+      "summary": "A note flagged “Important” atop the Xcode 27.2 release notes: The iOS SDK and simulator support for iPhone Duo will be available later this month in an upcoming release of Xcode 27.1. Adapting apps for the Duo is not just a simple “recompile with the new SDK”. It’s different. For just about all apps",
+      "feedId": "daringfireball",
+      "feedTitle": "Daring Fireball",
+      "category": "Tech Blogs",
+      "feedHome": "https://daringfireball.net/"
+    },
+    {
+      "title": "Apple OS 27.2 Betas Are Out; Version 27.1 Is the Duo-Exclusive iOS Fork",
+      "link": "https://www.macrumors.com/2026/09/16/heres-why-apple-released-ios-27-2-beta/",
+      "date": "2026-09-16T22:47:13+00:00",
+      "summary": "Joe Rossignol, MacRumors: Apple just seeded the first beta of iOS 27.2 to developers for testing. Yes, you read that correctly: iOS 27.2, not iOS 27.1. Why no iOS 27.1 beta? The answer likely relates to the iPhone Duo. This unusual version numbering is entirely about the Duo. The Duo is on its own b",
+      "feedId": "daringfireball",
+      "feedTitle": "Daring Fireball",
+      "category": "Tech Blogs",
+      "feedHome": "https://daringfireball.net/"
+    },
+    {
       "title": "US automakers could soon be forced to include AM radio for free",
       "link": "https://techcrunch.com/2026/09/16/us-automakers-could-soon-be-forced-to-include-am-radio-for-free/",
       "date": "2026-09-16T22:37:08+00:00",
@@ -2972,26 +3062,6 @@
       "link": "https://x.com/DEADLINE/status/2099645816361332775",
       "date": "2026-09-16T22:21:30+00:00",
       "summary": "Note the reaction from the Deadline reporter. &nbsp;★&nbsp;",
-      "feedId": "daringfireball",
-      "feedTitle": "Daring Fireball",
-      "category": "Tech Blogs",
-      "feedHome": "https://daringfireball.net/"
-    },
-    {
-      "title": "Flock cameras are riddled with security vulnerabilities and hardcoded creds",
-      "link": "https://micahflee.com/flock-cameras-are-riddled-with-security-vulnerabilities-and-hard-coded-credentials/",
-      "date": "2026-09-16T22:19:27+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
-      "title": "Woz Launches Merch Store",
-      "link": "https://x.com/stevewoz/status/2100074363605397658",
-      "date": "2026-09-16T21:39:32+00:00",
-      "summary": "Steve Wozniak: I’ve decided it’s time to have a little more fun on X this year! 😄⚡ I get to speak at some amazing events, meet fascinating people, hear great stories, and occasionally find myself in places I never expected to be. So I figured… why not share some of those moments here? He announced t",
       "feedId": "daringfireball",
       "feedTitle": "Daring Fireball",
       "category": "Tech Blogs",
@@ -3058,6 +3128,36 @@
       "feedHome": "https://news.ycombinator.com/"
     },
     {
+      "title": "Hands-on with Snap's Specs: more advanced than Meta's top-end glasses, fully untethered, mostly comfortable, navigation works well, but design has compromises (Bloomberg)",
+      "link": "https://www.techmeme.com/260916/p51#a260916p51",
+      "date": "2026-09-16T20:35:00-04:00",
+      "summary": "Bloomberg: Hands-on with Snap's Specs: more advanced than Meta's top-end glasses, fully untethered, mostly comfortable, navigation works well, but design has compromises&nbsp; &mdash;&nbsp; The technically advanced Specs feature an integrated display and a convenient self-contained design.",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
+      "title": "Snap introduces Specs Intelligence, an AI assistant designed to work across iPhone, Mac, and Specs glasses, calling it an \"anticipatory AI service\" (Jay Peters/The Verge)",
+      "link": "https://www.techmeme.com/260916/p50#a260916p50",
+      "date": "2026-09-16T20:30:32-04:00",
+      "summary": "Jay Peters / The Verge: Snap introduces Specs Intelligence, an AI assistant designed to work across iPhone, Mac, and Specs glasses, calling it an &ldquo;anticipatory AI service&rdquo;&nbsp; &mdash;&nbsp; Snap's &lsquo;Specs Intelligence&rsquo; is an &lsquo;anticipatory AI service&rsquo; available fo",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
+      "title": "Backups Aren't Simple",
+      "link": "https://filipovski.net/2026/09/16/backups-arent-simple.html",
+      "date": "2026-09-16T20:27:16+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
       "title": "After accusations of selling ‘perv glasses,’ Meta prepares to sell a pair without a camera",
       "link": "https://techcrunch.com/2026/09/16/after-accusations-of-selling-perv-glasses-meta-prepares-to-sell-a-pair-without-a-camera/",
       "date": "2026-09-16T20:12:00+00:00",
@@ -3088,16 +3188,6 @@
       "feedHome": "https://news.ycombinator.com/"
     },
     {
-      "title": "Apple OS 27.2 Betas Are Out; Version 27.1 Is the Duo-Exclusive iOS Fork",
-      "link": "https://www.macrumors.com/2026/09/16/heres-why-apple-released-ios-27-2-beta/",
-      "date": "2026-09-16T20:00:54+00:00",
-      "summary": "Joe Rossignol, MacRumors: Apple just seeded the first beta of iOS 27.2 to developers for testing. Yes, you read that correctly: iOS 27.2, not iOS 27.1. Why no iOS 27.1 beta? The answer likely relates to the iPhone Duo. This unusual version numbering is entirely about the Duo. The Duo is on its own f",
-      "feedId": "daringfireball",
-      "feedTitle": "Daring Fireball",
-      "category": "Tech Blogs",
-      "feedHome": "https://daringfireball.net/"
-    },
-    {
       "title": "X will now let US users trade via Cashtags",
       "link": "https://techcrunch.com/2026/09/16/x-will-now-let-u-s-users-trade-via-cashtags/",
       "date": "2026-09-16T19:57:22+00:00",
@@ -3118,24 +3208,14 @@
       "feedHome": "https://techcrunch.com/"
     },
     {
-      "title": "Former Waymo CFO jumps to self-driving startup Wayve",
-      "link": "https://techcrunch.com/2026/09/16/former-waymo-cfo-jumps-to-self-driving-startup-wayve/",
-      "date": "2026-09-16T19:02:49+00:00",
-      "summary": "Elisa de Martel, who left her position as chief financial officer at Alphabet's autonomous vehicle company Waymo in January, will be based out of Silicon Valley.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
+      "title": "The US House advances the Ratepayer Protection Act, aimed at preventing data center-related utility costs from being passed on to consumers, by a vote of 417-3 (Justin Papp/CNBC)",
+      "link": "https://www.techmeme.com/260916/p49#a260916p49",
+      "date": "2026-09-16T19:30:27-04:00",
+      "summary": "Justin Papp / CNBC: The US House advances the Ratepayer Protection Act, aimed at preventing data center-related utility costs from being passed on to consumers, by a vote of 417-3&nbsp; &mdash;&nbsp; The House on Wednesday advanced a bill by a vote of 417-3 that aims to curb data center-related util",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
       "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
-    },
-    {
-      "title": "Accurate Models of AMD Matrix Cores",
-      "link": "https://arxiv.org/abs/2609.14845",
-      "date": "2026-09-16T18:56:05+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
+      "feedHome": "https://www.techmeme.com/"
     },
     {
       "title": "Training a 4B model to produce 81% faster query plans than Postgres",
@@ -3148,34 +3228,14 @@
       "feedHome": "https://news.ycombinator.com/"
     },
     {
-      "title": "Hear why Science Corp CEO Max Hodak says the screen era is ending at TechCrunch Disrupt 2026",
-      "link": "https://techcrunch.com/2026/09/16/hear-why-science-corp-ceo-max-hodak-says-the-screen-era-is-ending-at-techcrunch-disrupt-2026/",
-      "date": "2026-09-16T18:45:35+00:00",
-      "summary": "At this year's Disrupt, Science Corp CEO Max Hodak will present a vision for screen-free interfaces that can even offer medical help. Register before September 25 to save up to $200 on your pass.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
-    },
-    {
-      "title": "OpenAI discloses six new AI safety incidents since October, including models concealing mistakes, and announces a new framework for reporting model misalignment (Axios)",
+      "title": "OpenAI discloses six new misalignment incidents since October, including models concealing mistakes, and announces a framework for reporting model misalignment (Axios)",
       "link": "https://www.techmeme.com/260916/p48#a260916p48",
       "date": "2026-09-16T18:30:24-04:00",
-      "summary": "Axios: OpenAI discloses six new AI safety incidents since October, including models concealing mistakes, and announces a new framework for reporting model misalignment&nbsp; &mdash;&nbsp; OpenAI on Wednesday disclosed six new incidents in which its models concealed mistakes, sought unauthorized cred",
+      "summary": "Axios: OpenAI discloses six new misalignment incidents since October, including models concealing mistakes, and announces a framework for reporting model misalignment&nbsp; &mdash;&nbsp; OpenAI on Wednesday disclosed six new incidents in which its models concealed mistakes, sought unauthorized crede",
       "feedId": "techmeme",
       "feedTitle": "Techmeme",
       "category": "Startup & News",
       "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "AI labs want in-house auditors — but maybe they should shut the front door first",
-      "link": "https://techcrunch.com/2026/09/16/ai-labs-want-in-house-auditors-but-maybe-they-should-shut-the-front-door-first/",
-      "date": "2026-09-16T18:25:25+00:00",
-      "summary": "There may be a simpler and more effective fix for rogue agents, hiding in plain sight.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
     },
     {
       "title": "AI labs want in-house auditors — but maybe they should shut the front door first",
@@ -3188,10 +3248,10 @@
       "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
     },
     {
-      "title": "Sources: a group of 10 banks is providing a $22B loan to Blackstone and Alphabet's venture Crux AI, which provides compute for AI labs, to fund TPU purchases (Bloomberg)",
+      "title": "Sources: a group of 10 banks is giving a $22B loan to Blackstone and Alphabet's cloud venture Crux AI, which aims to provide compute for AI labs, to buy TPUs (Bloomberg)",
       "link": "https://www.techmeme.com/260916/p47#a260916p47",
       "date": "2026-09-16T18:20:01-04:00",
-      "summary": "Bloomberg: Sources: a group of 10 banks is providing a $22B loan to Blackstone and Alphabet's venture Crux AI, which provides compute for AI labs, to fund TPU purchases&nbsp; &mdash;&nbsp; A group of 10 banks is providing a $22 billion chip loan to support Blackstone Inc. and Alphabet Inc.'s new clo",
+      "summary": "Bloomberg: Sources: a group of 10 banks is giving a $22B loan to Blackstone and Alphabet's cloud venture Crux AI, which aims to provide compute for AI labs, to buy TPUs&nbsp; &mdash;&nbsp; A group of 10 banks is providing a $22 billion chip loan to support Blackstone Inc. and Alphabet Inc.'s new clo",
       "feedId": "techmeme",
       "feedTitle": "Techmeme",
       "category": "Startup & News",
@@ -3218,10 +3278,10 @@
       "feedHome": "https://simonwillison.net/"
     },
     {
-      "title": "Sources: drone delivery startup Zipline is in talks to raise around $1B at a roughly $20B valuation, up from a $7.6B valuation in January (Bloomberg)",
+      "title": "Sources: drone delivery startup Zipline is in talks to raise ~$1B at a ~$20B valuation, up from $7.6B in January, and Paradigm is in talks to lead the round (Bloomberg)",
       "link": "https://www.techmeme.com/260916/p46#a260916p46",
       "date": "2026-09-16T18:02:06-04:00",
-      "summary": "Bloomberg: Sources: drone delivery startup Zipline is in talks to raise around $1B at a roughly $20B valuation, up from a $7.6B valuation in January&nbsp; &mdash;&nbsp; Zipline is in talks to raise around $1 billion in a funding round that would value the drone delivery and logistics startup at roug",
+      "summary": "Bloomberg: Sources: drone delivery startup Zipline is in talks to raise ~$1B at a ~$20B valuation, up from $7.6B in January, and Paradigm is in talks to lead the round&nbsp; &mdash;&nbsp; Zipline is in talks to raise around $1 billion in a funding round that would value the drone delivery and logist",
       "feedId": "techmeme",
       "feedTitle": "Techmeme",
       "category": "Startup & News",
@@ -3288,10 +3348,10 @@
       "feedHome": "https://www.johndcook.com/"
     },
     {
-      "title": "Hang Ten Systems, which uses AI to help large enterprises build software, raised an additional $53M seed led by Xora, five weeks after its initial $32M seed (Jagmeet Singh/TechCrunch)",
+      "title": "Hang Ten Systems, which uses AI to help large enterprises build software, expanded its seed funding by $53M, led by Xora, five weeks after its initial $32M seed (Jagmeet Singh/TechCrunch)",
       "link": "https://www.techmeme.com/260916/p43#a260916p43",
       "date": "2026-09-16T16:05:02-04:00",
-      "summary": "Jagmeet Singh / TechCrunch: Hang Ten Systems, which uses AI to help large enterprises build software, raised an additional $53M seed led by Xora, five weeks after its initial $32M seed&nbsp; &mdash;&nbsp; Hang Ten Systems, an AI startup founded by former Infosys CEO Vishal Sikka just four months ago",
+      "summary": "Jagmeet Singh / TechCrunch: Hang Ten Systems, which uses AI to help large enterprises build software, expanded its seed funding by $53M, led by Xora, five weeks after its initial $32M seed&nbsp; &mdash;&nbsp; Hang Ten Systems, an AI startup founded by former Infosys CEO Vishal Sikka just four months",
       "feedId": "techmeme",
       "feedTitle": "Techmeme",
       "category": "Startup & News",
@@ -3358,16 +3418,6 @@
       "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
     },
     {
-      "title": "Google adds MCP integration to Google Home, letting third-party AI agents analyze home data and control devices, rolling out to Premium Advanced users in the US (Jennifer Pattison Tuohy/The Verge)",
-      "link": "https://www.techmeme.com/260916/p41#a260916p41",
-      "date": "2026-09-16T14:45:01-04:00",
-      "summary": "Jennifer Pattison Tuohy / The Verge: Google adds MCP integration to Google Home, letting third-party AI agents analyze home data and control devices, rolling out to Premium Advanced users in the US&nbsp; &mdash;&nbsp; &#65279;Google Home adds MCP integration, allowing third-party AI agents to analyz",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
       "title": "Threads’ new features let podcasters promote shows and reach listeners",
       "link": "https://techcrunch.com/2026/09/16/threads-new-features-let-podcasters-promote-shows-and-reach-listeners/",
       "date": "2026-09-16T14:24:58+00:00",
@@ -3416,26 +3466,6 @@
       "feedTitle": "OpenAI News",
       "category": "AI & LLM",
       "feedHome": "https://openai.com/news/"
-    },
-    {
-      "title": "Delos Data, which develops network chips and software to connect AI chips in a data center, raised $100M from Matrix, Playground, Socratic Partners, and others (Stephen Nellis/Reuters)",
-      "link": "https://www.techmeme.com/260916/p40#a260916p40",
-      "date": "2026-09-16T12:50:01-04:00",
-      "summary": "Stephen Nellis / Reuters: Delos Data, which develops network chips and software to connect AI chips in a data center, raised $100M from Matrix, Playground, Socratic Partners, and others&nbsp; &mdash;&nbsp; Delos Data, a startup founded by veterans of Intel Corp (INTC.O), on Tuesday said it has raise",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "Anthropic merges Claude chat and Cowork, and adds a feature for making presentations and documents, rolling out to Pro and Max plans first (Ivan Mehta/TechCrunch)",
-      "link": "https://www.techmeme.com/260916/p39#a260916p39",
-      "date": "2026-09-16T12:42:10-04:00",
-      "summary": "Ivan Mehta / TechCrunch: Anthropic merges Claude chat and Cowork, and adds a feature for making presentations and documents, rolling out to Pro and Max plans first&nbsp; &mdash;&nbsp; Anthropic is merging its front-end for Claude chat and Cowork, making it less confusing for people to decide which t",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
     },
     {
       "title": "Fibonacci product",
@@ -3778,6 +3808,16 @@
       "feedHome": "https://simonwillison.net/"
     },
     {
+      "title": "The engineering behind the US Strategic Petroleum Reserve",
+      "link": "https://johnjwang.com/post/2026/09/15/engineering-behind-us-strategic-petroleum-reserve",
+      "date": "2026-09-15T22:15:25+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
       "title": "FDE 101：前线部署工程师如何助力复杂技术产品落地",
       "link": "https://www.bestblogs.dev/status/2099982947394687156?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
       "date": "2026-09-15T22:05:25+00:00",
@@ -3796,16 +3836,6 @@
       "feedTitle": "John D. Cook",
       "category": "Tech Blogs",
       "feedHome": "https://www.johndcook.com/"
-    },
-    {
-      "title": "AWS says it can't restore some data from mideast facilities struck by Iran",
-      "link": "https://www.wsj.com/world/middle-east/aws-says-it-cant-restore-some-data-from-mideast-facilities-struck-by-iran-ddcb7e5d",
-      "date": "2026-09-15T21:41:42+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
     },
     {
       "title": "Bypassing inference bottlenecks: Accelerating complex AI search with Retrieve-for-Train",
@@ -3978,16 +4008,6 @@
       "feedHome": "https://daringfireball.net/"
     },
     {
-      "title": "Dumpster Fire – Litterbox-Inspired Extension for Firefox",
-      "link": "https://addons.mozilla.org/en-US/firefox/addon/dumpster-fire/",
-      "date": "2026-09-14T14:47:44+00:00",
-      "summary": "Miles Abbott: Open x.com links in a popup so you can read the one post and leave. Port of the Litterbox Safari extension. Litterbox is a cleverer name, but Dumpster Fire is funnier. &nbsp;★&nbsp;",
-      "feedId": "daringfireball",
-      "feedTitle": "Daring Fireball",
-      "category": "Tech Blogs",
-      "feedHome": "https://daringfireball.net/"
-    },
-    {
       "title": "Quoting Laurie Voss",
       "link": "https://simonwillison.net/2026/Sep/14/laurie-voss/",
       "date": "2026-09-14T14:34:29+00:00",
@@ -4146,26 +4166,6 @@
       "feedTitle": "Sean Goedecke",
       "category": "Tech Blogs",
       "feedHome": "https://www.seangoedecke.com/"
-    },
-    {
-      "title": "Generating running routes with GPT-6 Astra and ChatGPT Work",
-      "link": "https://simonwillison.net/2026/Sep/12/astra-running-routes/",
-      "date": "2026-09-12T23:56:42+00:00",
-      "summary": "Here's a neat thing I had ChatGPT Work with GPT-6 Astra (Max) do this morning: I live at &lt;my address&gt;. Figure out 5K and 10K running routes from me that loop from my house. Use OSM data. It worked for 27 minutes and produced exactly what I'd asked for, as both an embedded visualization and dow",
-      "feedId": "simonwillison",
-      "feedTitle": "Simon Willison",
-      "category": "AI & LLM",
-      "feedHome": "https://simonwillison.net/"
-    },
-    {
-      "title": "California Brown Pelican",
-      "link": "https://simonwillison.net/2026/Sep/12/sighting-399708714/",
-      "date": "2026-09-12T21:16:09+00:00",
-      "summary": "California Brown Pelican, in San Mateo County, CA, USThe Pacifica Pier shut down at the start of June after a crack in the concrete walkway made access to the pier unsafe. It has since been entirely taken over by pelicans! Tags: wildlife",
-      "feedId": "simonwillison",
-      "feedTitle": "Simon Willison",
-      "category": "AI & LLM",
-      "feedHome": "https://simonwillison.net/"
     },
     {
       "title": "Reversing Factorio's RNG",
