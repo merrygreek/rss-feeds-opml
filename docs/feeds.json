@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-17T17:57:42.150860+00:00",
+  "updatedAt": "2026-09-17T21:13:41.673354+00:00",
   "totalFeeds": 51,
   "successCount": 43,
   "failedCount": 8,
@@ -22,8 +22,14 @@
         "home": "https://simonwillison.net/",
         "url": "https://simonwillison.net/atom/everything/",
         "status": "ok",
-        "fetchedAt": "2026-09-17T17:57:31.424988+00:00",
+        "fetchedAt": "2026-09-17T21:13:31.821960+00:00",
         "items": [
+          {
+            "title": "Self-generated prompt injections in compaction summaries",
+            "link": "https://simonwillison.net/2026/Sep/17/compaction-summaries/",
+            "date": "2026-09-17T20:57:55+00:00",
+            "summary": "Self-generated prompt injections in compaction summaries In Our framework for reporting model misalignment OpenAI provide \"six reports on unexpected or concerning model behavior we’ve observed in the last six months\". This one here is my favorite: they caught some of their models in training deliber"
+          },
           {
             "title": "datasette 1.0a40",
             "link": "https://simonwillison.net/2026/Sep/16/datasette/",
@@ -77,12 +83,6 @@
             "link": "https://simonwillison.net/2026/Sep/14/commit-rewriter/",
             "date": "2026-09-14T00:28:10+00:00",
             "summary": "Release: commit-rewriter 0.1 I built this little web app the other day to help edit the commit messages for the Datasette security releases. The initial commits were full of coding agent cruft and references to issue IDs from our private repository, so they weren't fit for publication. If you want t"
-          },
-          {
-            "title": "shot-scraper 1.12",
-            "link": "https://simonwillison.net/2026/Sep/13/shot-scraper/",
-            "date": "2026-09-13T23:58:14+00:00",
-            "summary": "Release: shot-scraper 1.12 I've added WebP support to my shot-scraper screenshot automation tool. You can now take a WebP screenshot of a web page like this: shot-scraper https://simonwillison.net -o screenshot.webp --quality 80 The --quality option sets the quality - without that option the WebP fi"
           }
         ]
       },
@@ -93,8 +93,14 @@
         "home": "https://openai.com/news/",
         "url": "https://openai.com/news/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-17T17:57:31.493545+00:00",
+        "fetchedAt": "2026-09-17T21:13:31.814892+00:00",
         "items": [
+          {
+            "title": "Introducing Astra for Law",
+            "link": "https://openai.com/index/astra-for-law",
+            "date": "2026-09-17T00:00:00+00:00",
+            "summary": "OpenAI for Law brings frontier intelligence for law, custom firm workflows, connected legal data sources, and legal-grade controls for confidential client work."
+          },
           {
             "title": "Helping older adults use AI in everyday life",
             "link": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
@@ -148,12 +154,6 @@
             "link": "https://openai.com/index/cognition-devin-testing-with-astra",
             "date": "2026-09-11T16:00:00+00:00",
             "summary": "GPT‑6 Astra improves Devin’s ability to test software and show that it works, with the goal of helping engineers review less code and ship more."
-          },
-          {
-            "title": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
-            "link": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
-            "date": "2026-09-10T16:00:00+00:00",
-            "summary": "César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant infections."
           }
         ]
       },
@@ -164,7 +164,7 @@
         "home": "https://arxiv.org/list/cs.AI/recent",
         "url": "https://arxiv.org/rss/cs.AI",
         "status": "ok",
-        "fetchedAt": "2026-09-17T17:57:31.869015+00:00",
+        "fetchedAt": "2026-09-17T21:13:32.140438+00:00",
         "items": [
           {
             "title": "Making AI-Assisted Claims Independently Challengeable: Publication Authority and a Protocol for Falsifiable Publication Records",
@@ -235,7 +235,7 @@
         "home": "https://arxiv.org/list/cs.LG/recent",
         "url": "https://arxiv.org/rss/cs.LG",
         "status": "ok",
-        "fetchedAt": "2026-09-17T17:57:31.945617+00:00",
+        "fetchedAt": "2026-09-17T21:13:32.092259+00:00",
         "items": [
           {
             "title": "Pay Only for Disagreement: Certified No-Regression Verdicts for Model Updates with Matching Label-Complexity Bounds",
@@ -306,8 +306,14 @@
         "home": "https://research.google/blog/",
         "url": "https://research.google/blog/rss/",
         "status": "ok",
-        "fetchedAt": "2026-09-17T17:57:31.768890+00:00",
+        "fetchedAt": "2026-09-17T21:13:31.986095+00:00",
         "items": [
+          {
+            "title": "The future of practice: Enabling teachers to create learning interactives with generative UI",
+            "link": "https://research.google/blog/the-future-of-practice-enabling-teachers-to-create-learning-interactives-with-generative-ui/",
+            "date": "2026-09-17T20:45:00+00:00",
+            "summary": "Education Innovation"
+          },
           {
             "title": "Bypassing inference bottlenecks: Accelerating complex AI search with Retrieve-for-Train",
             "link": "https://research.google/blog/bypassing-inference-bottlenecks-accelerating-complex-ai-search-with-retrieve-for-train/",
@@ -361,12 +367,6 @@
             "link": "https://research.google/blog/agenthands-generating-interactive-hand-gestures-for-spatially-grounded-agent-conversations-in-xr/",
             "date": "2026-08-25T19:10:59+00:00",
             "summary": "Human-Computer Interaction and Visualization"
-          },
-          {
-            "title": "An AI tool for prioritizing candidate biomarkers from wearable sensor data",
-            "link": "https://research.google/blog/an-ai-tool-for-prioritizing-candidate-biomarkers-from-wearable-sensor-data/",
-            "date": "2026-08-21T17:02:24+00:00",
-            "summary": "Generative AI"
           }
         ]
       },
@@ -377,7 +377,7 @@
         "home": "https://deepmind.google/blog/",
         "url": "https://deepmind.google/blog/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-17T17:57:31.733551+00:00",
+        "fetchedAt": "2026-09-17T21:13:32.144596+00:00",
         "items": [
           {
             "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
@@ -448,7 +448,7 @@
         "home": "https://lilianweng.github.io/",
         "url": "https://lilianweng.github.io/lil-log/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-17T17:57:31.502178+00:00",
+        "fetchedAt": "2026-09-17T21:13:31.719526+00:00",
         "items": [
           {
             "title": "Active Learning",
@@ -539,7 +539,7 @@
         "home": "https://minimaxir.com/",
         "url": "https://minimaxir.com/index.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-17T17:57:31.560320+00:00",
+        "fetchedAt": "2026-09-17T21:13:31.948033+00:00",
         "items": [
           {
             "title": "LLMs break down in funny ways when told the Jacobian Conjecture counterargument",
@@ -622,7 +622,7 @@
         "home": "https://www.jeffgeerling.com/",
         "url": "https://www.jeffgeerling.com/blog.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-17T17:57:31.504089+00:00",
+        "fetchedAt": "2026-09-17T21:13:31.886849+00:00",
         "items": [
           {
             "title": "OpenNMC is an open replacement for expensive APC management cards",
@@ -693,7 +693,7 @@
         "home": "https://www.seangoedecke.com/",
         "url": "https://www.seangoedecke.com/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-17T17:57:31.620273+00:00",
+        "fetchedAt": "2026-09-17T21:13:31.853527+00:00",
         "items": [
           {
             "title": "Jev means structured output is interesting again",
@@ -764,7 +764,7 @@
         "home": "https://krebsonsecurity.com/",
         "url": "https://krebsonsecurity.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-09-17T17:57:31.600071+00:00",
+        "fetchedAt": "2026-09-17T21:13:32.043002+00:00",
         "items": [
           {
             "title": "Data Broker Radaris Loses Domains in Privacy Fight",
@@ -835,7 +835,7 @@
         "home": "https://daringfireball.net/",
         "url": "https://daringfireball.net/feeds/main",
         "status": "ok",
-        "fetchedAt": "2026-09-17T17:57:31.510900+00:00",
+        "fetchedAt": "2026-09-17T21:13:31.933859+00:00",
         "items": [
           {
             "title": "Why Do U.S. Models of the iPhone 18 Pro Max, and Only U.S. Models of the 18 Pro Max, Use Qualcomm Cellular Modems Instead of Apple’s Own Superior C2 Modem?",
@@ -906,7 +906,7 @@
         "home": "https://ericmigi.com/",
         "url": "https://ericmigi.com/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-17T17:57:31.564202+00:00",
+        "fetchedAt": "2026-09-17T21:13:31.914095+00:00",
         "items": [
           {
             "title": "New Pebble Weather App + Software Updates",
@@ -977,7 +977,7 @@
         "home": "http://antirez.com/",
         "url": "http://antirez.com/rss",
         "status": "ok",
-        "fetchedAt": "2026-09-17T17:57:33.912569+00:00",
+        "fetchedAt": "2026-09-17T21:13:33.533202+00:00",
         "items": [
           {
             "title": "The real AI risk is inside the labs",
@@ -1048,7 +1048,7 @@
         "home": "https://idiallo.com/",
         "url": "https://idiallo.com/feed.rss",
         "status": "ok",
-        "fetchedAt": "2026-09-17T17:57:31.801016+00:00",
+        "fetchedAt": "2026-09-17T21:13:32.048708+00:00",
         "items": [
           {
             "title": "AI Forces You to Commit to Your Initial Belief",
@@ -1119,7 +1119,7 @@
         "home": "https://maurycyz.com/",
         "url": "https://maurycyz.com/index.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-17T17:57:32.396502+00:00",
+        "fetchedAt": "2026-09-17T21:13:32.478010+00:00",
         "items": []
       },
       {
@@ -1129,7 +1129,7 @@
         "home": "https://pluralistic.net/",
         "url": "https://pluralistic.net/feed/",
         "status": "ok",
-        "fetchedAt": "2026-09-17T17:57:35.386360+00:00",
+        "fetchedAt": "2026-09-17T21:13:34.134234+00:00",
         "items": [
           {
             "title": "Pluralistic: On the sincerity of AI bosses (17 Sep 2026)",
@@ -1200,7 +1200,7 @@
         "home": "https://shkspr.mobi/blog/",
         "url": "https://shkspr.mobi/blog/feed/",
         "status": "ok",
-        "fetchedAt": "2026-09-17T17:57:32.638562+00:00",
+        "fetchedAt": "2026-09-17T21:13:32.514483+00:00",
         "items": [
           {
             "title": "How to get a DOI for your blog posts",
@@ -1281,7 +1281,7 @@
         "home": "https://mitchellh.com/",
         "url": "https://mitchellh.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-17T17:57:32.014135+00:00",
+        "fetchedAt": "2026-09-17T21:13:32.424956+00:00",
         "items": [
           {
             "title": "Superlogical",
@@ -1352,7 +1352,7 @@
         "home": "https://dynomight.net/",
         "url": "https://dynomight.net/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-17T17:57:31.997343+00:00",
+        "fetchedAt": "2026-09-17T21:13:32.504055+00:00",
         "items": [
           {
             "title": "Thoughts I had while reading your comment",
@@ -1423,7 +1423,7 @@
         "home": "https://xeiaso.net/",
         "url": "https://xeiaso.net/blog.rss",
         "status": "ok",
-        "fetchedAt": "2026-09-17T17:57:32.086433+00:00",
+        "fetchedAt": "2026-09-17T21:13:32.289335+00:00",
         "items": [
           {
             "title": "You can run git on object storage if you re-make packfiles",
@@ -1494,7 +1494,7 @@
         "home": "https://devblogs.microsoft.com/oldnewthing/",
         "url": "https://devblogs.microsoft.com/oldnewthing/feed",
         "status": "ok",
-        "fetchedAt": "2026-09-17T17:57:31.827149+00:00",
+        "fetchedAt": "2026-09-17T21:13:32.214090+00:00",
         "items": [
           {
             "title": "std::call_once vs. std::async",
@@ -1565,7 +1565,7 @@
         "home": "https://www.righto.com/",
         "url": "https://www.righto.com/feeds/posts/default",
         "status": "ok",
-        "fetchedAt": "2026-09-17T17:57:31.756392+00:00",
+        "fetchedAt": "2026-09-17T21:13:32.038838+00:00",
         "items": []
       },
       {
@@ -1575,7 +1575,7 @@
         "home": "https://lucumr.pocoo.org/",
         "url": "https://lucumr.pocoo.org/feed.atom",
         "status": "ok",
-        "fetchedAt": "2026-09-17T17:57:32.241612+00:00",
+        "fetchedAt": "2026-09-17T21:13:32.151582+00:00",
         "items": [
           {
             "title": "Interpreting Pangram",
@@ -1646,7 +1646,7 @@
         "home": "https://skyfall.dev/",
         "url": "https://skyfall.dev/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-17T17:57:32.206689+00:00",
+        "fetchedAt": "2026-09-17T21:13:32.452715+00:00",
         "items": [
           {
             "title": "Good riddance, 4o",
@@ -1721,7 +1721,7 @@
         "home": "https://overreacted.io/",
         "url": "https://overreacted.io/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-17T17:57:32.055051+00:00",
+        "fetchedAt": "2026-09-17T21:13:32.165308+00:00",
         "items": [
           {
             "title": "There Are No Instances in atproto",
@@ -1792,7 +1792,7 @@
         "home": "https://www.johndcook.com/",
         "url": "https://www.johndcook.com/blog/feed/",
         "status": "ok",
-        "fetchedAt": "2026-09-17T17:57:31.552151+00:00",
+        "fetchedAt": "2026-09-17T21:13:32.212709+00:00",
         "items": [
           {
             "title": "Empirical fractal",
@@ -1863,7 +1863,7 @@
         "home": "https://matklad.github.io/",
         "url": "https://matklad.github.io/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-17T17:57:31.737650+00:00",
+        "fetchedAt": "2026-09-17T21:13:31.970145+00:00",
         "items": [
           {
             "title": "Static Allocation, Constant Work",
@@ -1934,7 +1934,7 @@
         "home": "https://eli.thegreenplace.net/",
         "url": "https://eli.thegreenplace.net/feeds/all.atom.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-17T17:57:32.231809+00:00",
+        "fetchedAt": "2026-09-17T21:13:32.422896+00:00",
         "items": [
           {
             "title": "How big are factorials?",
@@ -1975,7 +1975,7 @@
         "home": "https://fabiensanglard.net/",
         "url": "https://fabiensanglard.net/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-17T17:57:32.165689+00:00",
+        "fetchedAt": "2026-09-17T21:13:32.438802+00:00",
         "items": [
           {
             "title": "My agent.md to improve LLM-assisted code quality",
@@ -2046,7 +2046,7 @@
         "home": "https://blog.miguelgrinberg.com/",
         "url": "https://blog.miguelgrinberg.com/feed",
         "status": "ok",
-        "fetchedAt": "2026-09-17T17:57:32.488938+00:00",
+        "fetchedAt": "2026-09-17T21:13:32.947682+00:00",
         "items": [
           {
             "title": "You Should be Using Rootless Containers",
@@ -2117,7 +2117,7 @@
         "home": "https://www.troyhunt.com/",
         "url": "https://www.troyhunt.com/rss/",
         "status": "ok",
-        "fetchedAt": "2026-09-17T17:57:31.711667+00:00",
+        "fetchedAt": "2026-09-17T21:13:32.224607+00:00",
         "items": [
           {
             "title": "Weekly Update 521: Breach Perception v. Reality",
@@ -2188,7 +2188,7 @@
         "home": "https://anildash.com/",
         "url": "https://anildash.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-17T17:57:32.099561+00:00",
+        "fetchedAt": "2026-09-17T21:13:32.271474+00:00",
         "items": [
           {
             "title": "Discovering Prince, Ten Years Later",
@@ -2259,7 +2259,7 @@
         "home": "https://computer.rip/",
         "url": "https://computer.rip/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-17T17:57:32.393502+00:00",
+        "fetchedAt": "2026-09-17T21:13:32.883452+00:00",
         "items": [
           {
             "title": "avalanche technology",
@@ -2340,7 +2340,7 @@
         "home": "http://paulgraham.com/",
         "url": "http://www.aaronsw.com/2002/feeds/pgessays.rss",
         "status": "ok",
-        "fetchedAt": "2026-09-17T17:57:32.142457+00:00",
+        "fetchedAt": "2026-09-17T21:13:32.217412+00:00",
         "items": [
           {
             "title": "Superlinear Returns",
@@ -2411,7 +2411,7 @@
         "home": "https://steveblank.com/",
         "url": "https://steveblank.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-09-17T17:57:32.028117+00:00",
+        "fetchedAt": "2026-09-17T21:13:32.279891+00:00",
         "items": [
           {
             "title": "Lean Launch Pad 2026 @ Stanford – Lessons Learned Presentations",
@@ -2484,8 +2484,20 @@
         "home": "https://news.ycombinator.com/",
         "url": "https://news.ycombinator.com/rss",
         "status": "ok",
-        "fetchedAt": "2026-09-17T17:57:31.948310+00:00",
+        "fetchedAt": "2026-09-17T21:13:32.218524+00:00",
         "items": [
+          {
+            "title": "Astra for Law",
+            "link": "https://openai.com/index/astra-for-law/",
+            "date": "2026-09-17T20:17:48+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "Hister: A private search engine for the pages you visit and the files you keep",
+            "link": "https://github.com/asciimoo/hister",
+            "date": "2026-09-17T16:25:37+00:00",
+            "summary": "Comments"
+          },
           {
             "title": "Fujitsu launches made-in-Japan next-generation CPU FUJITSU-MONAKA",
             "link": "https://global.fujitsu/en-global/pr/news/2026/09/14-02",
@@ -2493,15 +2505,21 @@
             "summary": "Comments"
           },
           {
-            "title": "hister",
-            "link": "https://github.com/asciimoo/hister",
-            "date": "2026-09-17T16:25:37+00:00",
+            "title": "Wax motor",
+            "link": "https://en.wikipedia.org/wiki/Wax_motor",
+            "date": "2026-09-16T12:35:14+00:00",
             "summary": "Comments"
           },
           {
-            "title": "Rate limits on GitLab.com are changing",
-            "link": "https://about.gitlab.com/blog/rate-limit-change-2026/",
-            "date": "2026-09-17T15:33:54+00:00",
+            "title": "Bend",
+            "link": "https://bend-lang.com/",
+            "date": "2026-09-17T20:36:13+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "Everybody's Lost Their Minds",
+            "link": "https://www.netmeister.org/blog/everybodys-lost-their-minds.html",
+            "date": "2026-09-17T19:43:34+00:00",
             "summary": "Comments"
           },
           {
@@ -2511,39 +2529,21 @@
             "summary": "Comments"
           },
           {
-            "title": "Whoisinspace.com/",
-            "link": "https://whoisinspace.com",
-            "date": "2026-09-17T15:59:37+00:00",
+            "title": "Infinite-Parameter LLMs: Generating and Adapting Weights from Live Data",
+            "link": "https://arxiv.org/abs/2609.18842",
+            "date": "2026-09-17T16:55:14+00:00",
             "summary": "Comments"
           },
           {
-            "title": "Launch HN: Skillsync (YC W26) – AI chat sessions made portable across agents",
-            "link": "https://news.ycombinator.com/item?id=49743049",
-            "date": "2026-09-17T16:22:15+00:00",
+            "title": "Rate limits on GitLab.com are changing",
+            "link": "https://about.gitlab.com/blog/rate-limit-change-2026/",
+            "date": "2026-09-17T15:33:54+00:00",
             "summary": "Comments"
           },
           {
-            "title": "How GLM built its own inference infrastructure",
-            "link": "https://z.ai/blog/glm-built-its-inference-infrastructure",
-            "date": "2026-09-17T08:27:09+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "Zettascale (YC S24) Is Hiring ASIC/FPGA Engineers to Build Chips for ASI",
-            "link": "https://zscc.ai/careers?job_id=109821",
-            "date": "2026-09-17T17:00:59+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "Why I didn’t sign the Fields medallists’ letter",
-            "link": "https://gowers.wordpress.com/2026/09/17/why-i-didnt-sign-the-fields-medallists-letter/",
-            "date": "2026-09-17T08:51:51+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "One Year of Sponsored Servo Development",
-            "link": "https://servo.org/blog/2026/09/15/one-year-of-sponsorship/",
-            "date": "2026-09-17T08:13:54+00:00",
+            "title": "Towards Self-Driving Codebases",
+            "link": "https://blog.detail.dev/posts/towards-self-driving-codebases/",
+            "date": "2026-09-17T16:58:31+00:00",
             "summary": "Comments"
           }
         ]
@@ -2555,8 +2555,38 @@
         "home": "https://www.techmeme.com/",
         "url": "https://www.techmeme.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-17T17:57:31.760771+00:00",
+        "fetchedAt": "2026-09-17T21:13:32.554422+00:00",
         "items": [
+          {
+            "title": "OpenAI launches Astra for Law, combining GPT-6 Astra with a legal search index and instructions for legal analysis and writing, initially for select law firms (OpenAI)",
+            "link": "https://www.techmeme.com/260917/p39#a260917p39",
+            "date": "2026-09-17T17:05:01-04:00",
+            "summary": "OpenAI: OpenAI launches Astra for Law, combining GPT-6 Astra with a legal search index and instructions for legal analysis and writing, initially for select law firms&nbsp; &mdash;&nbsp; Our most powerful model, configured into a new AI foundation for law.&nbsp; &mdash;&nbsp; Explore solutions for l"
+          },
+          {
+            "title": "Anthropic outlines metrics to track AI development at frontier labs: how much AI R&D is done by AI, how well agents are overseen, and how compute is allocated (Anthropic)",
+            "link": "https://www.techmeme.com/260917/p38#a260917p38",
+            "date": "2026-09-17T16:55:01-04:00",
+            "summary": "Anthropic: Anthropic outlines metrics to track AI development at frontier labs: how much AI R&amp;D is done by AI, how well agents are overseen, and how compute is allocated&nbsp; &mdash;&nbsp; AI systems are becoming exponentially more powerful and have begun to automate more of the process of buil"
+          },
+          {
+            "title": "Andrew Ng says renewed AI extinction warnings are \"much more science fiction than science\" and the latest \"wave of PR\" is probably intended to shape regulation (Micah Barkley/Bloomberg)",
+            "link": "https://www.techmeme.com/260917/p37#a260917p37",
+            "date": "2026-09-17T16:01:20-04:00",
+            "summary": "Micah Barkley / Bloomberg: Andrew Ng says renewed AI extinction warnings are &ldquo;much more science fiction than science&rdquo; and the latest &ldquo;wave of PR&rdquo; is probably intended to shape regulation&nbsp; &mdash;&nbsp; Artificial intelligence pioneer Andrew Ng said warnings about existen"
+          },
+          {
+            "title": "NYT court filing: ChatGPT's head wrote that publishers face an \"existential threat\" and a Microsoft executive called AI training \"an astonishing theft\" (Financial Times)",
+            "link": "https://www.techmeme.com/260917/p36#a260917p36",
+            "date": "2026-09-17T15:35:01-04:00",
+            "summary": "Financial Times: NYT court filing: ChatGPT's head wrote that publishers face an &ldquo;existential threat&rdquo; and a Microsoft executive called AI training &ldquo;an astonishing theft&rdquo;&nbsp; &mdash;&nbsp; Lawyers say AI co-founder Greg Brockman was &lsquo;motivated by the gazillions&rsquo; h"
+          },
+          {
+            "title": "A survey of 42,151 adults in 36 countries and 8,607 US adults: populations in 34 of 37 surveyed countries expect AI to cause net job loss rather than growth (Pew Research Center)",
+            "link": "https://www.techmeme.com/260917/p35#a260917p35",
+            "date": "2026-09-17T14:40:00-04:00",
+            "summary": "Pew Research Center: A survey of 42,151 adults in 36 countries and 8,607 US adults: populations in 34 of 37 surveyed countries expect AI to cause net job loss rather than growth&nbsp; &mdash;&nbsp; 37-country survey also finds growing awareness of AI - and growing concern in some places&nbsp; &mdash"
+          },
           {
             "title": "Analysis: tech employers filed layoff notices for 14,500+ Bay Area workers in the 12 months to June; Bay Area software engineer demand is down 42% since 2022 (Francesca Maglione/Bloomberg)",
             "link": "https://www.techmeme.com/260917/p34#a260917p34",
@@ -2582,40 +2612,10 @@
             "summary": "Bloomberg: Sources: the White House's Office of the National Cyber Director is drafting an EO to establish a government-led incubator aimed at cybersecurity research&nbsp; &mdash;&nbsp; The Trump administration is weighing a plan to establish a government-led incubator aimed at investing in cybersec"
           },
           {
-            "title": "The UK FCA, alongside tax authorities and police, raids three illegal peer-to-peer crypto businesses, signaling an end to \"light-touch\" crypto regulation (Olivier Acuna/CoinDesk)",
+            "title": "The UK FCA, working with tax authorities and police, raids three illegal peer-to-peer crypto businesses, signaling an end to its \"light-touch\" crypto regulation (Olivier Acuna/CoinDesk)",
             "link": "https://www.techmeme.com/260917/p30#a260917p30",
             "date": "2026-09-17T11:40:00-04:00",
-            "summary": "Olivier Acuna / CoinDesk: The UK FCA, alongside tax authorities and police, raids three illegal peer-to-peer crypto businesses, signaling an end to &ldquo;light-touch&rdquo; crypto regulation&nbsp; &mdash;&nbsp; The U.K.'s Financial Conduct Authority (FCA) said Thursday that it conducted actions to "
-          },
-          {
-            "title": "Source: OpenAI staff expect the Hodge Conjecture, a Millennium Prize Problem, to be solved relatively soon, after solving the Navier-Stokes equations (Stephanie Palazzolo/The Information)",
-            "link": "https://www.techmeme.com/260917/p29#a260917p29",
-            "date": "2026-09-17T11:00:44-04:00",
-            "summary": "Stephanie Palazzolo / The Information: Source: OpenAI staff expect the Hodge Conjecture, a Millennium Prize Problem, to be solved relatively soon, after solving the Navier-Stokes equations&nbsp; &mdash;&nbsp; Remember when OpenAI landed in hot water earlier this month after mathematicians accused th"
-          },
-          {
-            "title": "King Charles hosts tech leaders, such as Jensen Huang, Demis Hassabis, and OpenAI CFO Sarah Friar, in Scotland to discuss AI risks; Huang calls for safety tests (Bloomberg)",
-            "link": "https://www.techmeme.com/260917/p28#a260917p28",
-            "date": "2026-09-17T10:05:04-04:00",
-            "summary": "Bloomberg: King Charles hosts tech leaders, such as Jensen Huang, Demis Hassabis, and OpenAI CFO Sarah Friar, in Scotland to discuss AI risks; Huang calls for safety tests&nbsp; &mdash;&nbsp; Huang Says AI Firms Should Be &lsquo;More Rigorous in Testing&rsquo;&nbsp; &mdash;&nbsp; Video Player is loa"
-          },
-          {
-            "title": "Lucid and Bolt sign an initial agreement to deploy a fleet of 25K+ robotaxis in Europe built on Lucid's affordable EV platform, set to launch as soon as 2028 (Financial Times)",
-            "link": "https://www.techmeme.com/260917/p27#a260917p27",
-            "date": "2026-09-17T09:55:01-04:00",
-            "summary": "Financial Times: Lucid and Bolt sign an initial agreement to deploy a fleet of 25K+ robotaxis in Europe built on Lucid's affordable EV platform, set to launch as soon as 2028&nbsp; &mdash;&nbsp; Rollout would be most ambitious plan yet for autonomous ride-hailing on the continent&nbsp; &mdash;&nbsp;"
-          },
-          {
-            "title": "Comp AI, which uses AI agents to draft security policies, collect audit evidence, conduct continuous compliance monitoring, and more, raised a $34M Series A (Dominic-Madori Davis/TechCrunch)",
-            "link": "https://www.techmeme.com/260917/p26#a260917p26",
-            "date": "2026-09-17T09:45:02-04:00",
-            "summary": "Dominic-Madori Davis / TechCrunch: Comp AI, which uses AI agents to draft security policies, collect audit evidence, conduct continuous compliance monitoring, and more, raised a $34M Series A&nbsp; &mdash;&nbsp; Comp AI, a cybersecurity and compliance startup, announced that it has raised a $34 mill"
-          },
-          {
-            "title": "The US SEC unveils a five-year \"Innovation Exemption\" to free platforms that facilitate blockchain and tokenized stock trading from many stock exchange rules (Hannah Lang/Reuters)",
-            "link": "https://www.techmeme.com/260917/p25#a260917p25",
-            "date": "2026-09-17T09:36:13-04:00",
-            "summary": "Hannah Lang / Reuters: The US SEC unveils a five-year &ldquo;Innovation Exemption&rdquo; to free platforms that facilitate blockchain and tokenized stock trading from many stock exchange rules&nbsp; &mdash;&nbsp; The U.S. Securities and Exchange Commission on Thursday unveiled its long-awaited exemp"
+            "summary": "Olivier Acuna / CoinDesk: The UK FCA, working with tax authorities and police, raids three illegal peer-to-peer crypto businesses, signaling an end to its &ldquo;light-touch&rdquo; crypto regulation&nbsp; &mdash;&nbsp; The U.K.'s Financial Conduct Authority (FCA) said Thursday that it conducted acti"
           }
         ]
       },
@@ -2626,13 +2626,49 @@
         "home": "https://techcrunch.com/",
         "url": "https://techcrunch.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-09-17T17:57:31.662194+00:00",
+        "fetchedAt": "2026-09-17T21:13:32.221053+00:00",
         "items": [
           {
-            "title": "Even the King of England has his hesitations about AI",
+            "title": "The fix for rogue AI agents could be more AI",
+            "link": "https://techcrunch.com/2026/09/17/the-fix-for-rogue-ai-agents-could-be-more-ai/",
+            "date": "2026-09-17T20:34:47+00:00",
+            "summary": "As companies hand off longer and more complex tasks to AI agents, they are running into an oversight problem: Agents can act faster, longer, and at greater volume than humans can realistically review."
+          },
+          {
+            "title": "OpenAI caught its models leaving notes to successors to hide bad behavior",
+            "link": "https://techcrunch.com/2026/09/17/openai-caught-its-models-leaving-notes-to-successors-to-hide-bad-behavior/",
+            "date": "2026-09-17T20:34:24+00:00",
+            "summary": "OpenAI disclosed instances of GPT-5.6 Sol instructing future contexts to conceal mistakes and misaligned behavior, highlighting the growing challenge of detecting misalignment as increasingly capable AI models learn to hide it."
+          },
+          {
+            "title": "Is the AI safety debate about safety or control?",
+            "link": "https://techcrunch.com/2026/09/17/is-the-ai-safety-debate-about-safety-or-control/",
+            "date": "2026-09-17T20:19:37+00:00",
+            "summary": "Not everyone agrees with Amodei's call for globally coordinated action for AI safety."
+          },
+          {
+            "title": "UN turns to Google to make its global data ready for AI agents",
+            "link": "https://techcrunch.com/2026/09/17/un-turns-to-google-to-make-its-global-data-ready-for-ai-agents/",
+            "date": "2026-09-17T20:00:00+00:00",
+            "summary": "The shift comes after a UNICEF test found leading AI models struggled to accurately retrieve global development statistics."
+          },
+          {
+            "title": "Microsoft exec called AI scraping ‘the largest theft of labor in human history,’ new unredacted filings reveal",
+            "link": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal/",
+            "date": "2026-09-17T19:46:08+00:00",
+            "summary": "Newly unsealed court filings show Microsoft privately called OpenAI's data practices \"theft\" while both companies scraped paywalled Times content, built datasets from it, and warned internally it would gut publishers."
+          },
+          {
+            "title": "Waymo restarts San Antonio service 5 months after flooding troubles",
+            "link": "https://techcrunch.com/2026/09/17/waymo-restarts-san-antonio-service-five-months-after-flooding-troubles/",
+            "date": "2026-09-17T18:30:30+00:00",
+            "summary": "The company suspended service in the city in April after one of its robotaxis got swept away."
+          },
+          {
+            "title": "Even the king of England has his hesitations about AI",
             "link": "https://techcrunch.com/2026/09/17/even-the-king-of-england-has-his-hesitations-about-ai/",
             "date": "2026-09-17T17:26:25+00:00",
-            "summary": "King Charles hosted a private summit Thursday with some of the most prominent names in AI and UK government."
+            "summary": "King Charles hosted a private summit Thursday with some of the most prominent names in AI and the U.K. government."
           },
           {
             "title": "Base Labs launches an open-weight AI safety partnership with Hugging Face and Goodfire",
@@ -2651,42 +2687,6 @@
             "link": "https://techcrunch.com/2026/09/17/techcrunch-disrupt-2026-side-events-schedule-nmi-backblaze-peakxv-partners-augment-and-more-to-host/",
             "date": "2026-09-17T16:34:36+00:00",
             "summary": "TechCrunch Disrupt is where the tech community comes together to build, debate, and connect. And while the main event takes over Moscone West from October 13-15, the conversation doesn’t stop when the Expo Hall closes."
-          },
-          {
-            "title": "Apple will let EU apps use less-alarming tracking-consent screens",
-            "link": "https://techcrunch.com/2026/09/17/apple-will-let-eu-apps-use-less-alarming-tracking-consent-screens/",
-            "date": "2026-09-17T16:09:58+00:00",
-            "summary": "Apple is changing its App Tracking Transparency prompts in parts of Europe after competition regulators said the system favored Apple over third-party apps, giving developers more flexibility over how they ask users for tracking consent."
-          },
-          {
-            "title": "Roku’s new Labs hub brings experimental apps to the big screen",
-            "link": "https://techcrunch.com/2026/09/17/rokus-new-labs-hub-brings-experimental-apps-to-the-big-screen/",
-            "date": "2026-09-17T15:50:29+00:00",
-            "summary": "Roku’s latest OS update introduces Roku Labs, a new hub for experimental apps, alongside personalized home screens in more markets, streaming subscription bundles, and more."
-          },
-          {
-            "title": "Last call: Disrupt volunteer application closes soon",
-            "link": "https://techcrunch.com/2026/09/17/last-call-disrupt-volunteer-application-closes-soon/",
-            "date": "2026-09-17T15:02:00+00:00",
-            "summary": "If you've been on the fence about volunteering at TechCrunch Disrupt 2026, this is your sign to stop deliberating and start applying."
-          },
-          {
-            "title": "I tried Tovala’s smart oven for two weeks — here’s whether it beats takeout",
-            "link": "https://techcrunch.com/2026/09/17/i-tried-tovalas-smart-oven-for-two-weeks-heres-whether-it-beats-takeout/",
-            "date": "2026-09-17T15:00:00+00:00",
-            "summary": "Tovala offers both a smart oven and a meal-delivery service. Its meals come with QR codes that you scan using the app, allowing the oven to automatically follow the cooking instructions."
-          },
-          {
-            "title": "Huawei plans Q1 2027 launch of new AI chip as it takes on Nvidia",
-            "link": "https://techcrunch.com/2026/09/17/huawei-plans-q1-2027-launch-of-new-ai-chip-as-it-takes-on-nvidia/",
-            "date": "2026-09-17T14:06:14+00:00",
-            "summary": "Huawei is accelerating the launch of its next-generation Ascend 960DT AI chip as it pushes to compete with Nvidia and close China’s AI computing gap with the U.S."
-          },
-          {
-            "title": "2 days left to exhibit at TechCrunch Disrupt 2026",
-            "link": "https://techcrunch.com/2026/09/17/2-days-left-to-exhibit-at-techcrunch-disrupt-2026/",
-            "date": "2026-09-17T14:00:00+00:00",
-            "summary": "Last day to book your exhibit table at Disrupt is September 18. Two days left. Get your startup in front of 10,000+ founders, investors, operators, and tech leaders on October 13–15."
           }
         ]
       },
@@ -2697,8 +2697,44 @@
         "home": "https://techcrunch.com/category/artificial-intelligence/",
         "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
         "status": "ok",
-        "fetchedAt": "2026-09-17T17:57:31.667280+00:00",
+        "fetchedAt": "2026-09-17T21:13:32.248313+00:00",
         "items": [
+          {
+            "title": "The fix for rogue AI agents could be more AI",
+            "link": "https://techcrunch.com/2026/09/17/the-fix-for-rogue-ai-agents-could-be-more-ai/",
+            "date": "2026-09-17T20:34:47+00:00",
+            "summary": "As companies hand off longer and more complex tasks to AI agents, they are running into an oversight problem: Agents can act faster, longer, and at greater volume than humans can realistically review."
+          },
+          {
+            "title": "OpenAI caught its models leaving notes to successors to hide bad behavior",
+            "link": "https://techcrunch.com/2026/09/17/openai-caught-its-models-leaving-notes-to-successors-to-hide-bad-behavior/",
+            "date": "2026-09-17T20:34:24+00:00",
+            "summary": "OpenAI disclosed instances of GPT-5.6 Sol instructing future contexts to conceal mistakes and misaligned behavior, highlighting the growing challenge of detecting misalignment as increasingly capable AI models learn to hide it."
+          },
+          {
+            "title": "Is the AI safety debate about safety or control?",
+            "link": "https://techcrunch.com/2026/09/17/is-the-ai-safety-debate-about-safety-or-control/",
+            "date": "2026-09-17T20:19:37+00:00",
+            "summary": "Not everyone agrees with Amodei's call for globally coordinated action for AI safety."
+          },
+          {
+            "title": "UN turns to Google to make its global data ready for AI agents",
+            "link": "https://techcrunch.com/2026/09/17/un-turns-to-google-to-make-its-global-data-ready-for-ai-agents/",
+            "date": "2026-09-17T20:00:00+00:00",
+            "summary": "The shift comes after a UNICEF test found leading AI models struggled to accurately retrieve global development statistics."
+          },
+          {
+            "title": "Microsoft exec called AI scraping ‘the largest theft of labor in human history,’ new unredacted filings reveal",
+            "link": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal/",
+            "date": "2026-09-17T19:46:08+00:00",
+            "summary": "Newly unsealed court filings show Microsoft privately called OpenAI's data practices \"theft\" while both companies scraped paywalled Times content, built datasets from it, and warned internally it would gut publishers."
+          },
+          {
+            "title": "Even the king of England has his hesitations about AI",
+            "link": "https://techcrunch.com/2026/09/17/even-the-king-of-england-has-his-hesitations-about-ai/",
+            "date": "2026-09-17T17:26:25+00:00",
+            "summary": "King Charles hosted a private summit Thursday with some of the most prominent names in AI and the U.K. government."
+          },
           {
             "title": "Base Labs launches an open-weight AI safety partnership with Hugging Face and Goodfire",
             "link": "https://techcrunch.com/2026/09/17/base-labs-launches-an-open-weight-ai-safety-partnership-with-hugging-face-and-goodfire/",
@@ -2722,42 +2758,6 @@
             "link": "https://techcrunch.com/2026/09/17/2-days-left-to-exhibit-at-techcrunch-disrupt-2026/",
             "date": "2026-09-17T14:00:00+00:00",
             "summary": "Last day to book your exhibit table at Disrupt is September 18. Two days left. Get your startup in front of 10,000+ founders, investors, operators, and tech leaders on October 13–15."
-          },
-          {
-            "title": "Rival AI agents, Instinct and Meta’s Muse, both add the ability to make calls",
-            "link": "https://techcrunch.com/2026/09/17/rival-ai-agents-instinct-and-metas-muse-both-add-the-ability-to-make-calls/",
-            "date": "2026-09-17T13:46:16+00:00",
-            "summary": "People can use these assistants to make restaurant reservations and cancel subscriptions."
-          },
-          {
-            "title": "Google, Nvidia, and Anthropic want Emerald AI to find space on the grid for more data centers",
-            "link": "https://techcrunch.com/2026/09/17/google-nvidia-and-anthropic-want-emerald-ai-to-find-space-on-the-grid-for-more-data-centers/",
-            "date": "2026-09-17T13:38:33+00:00",
-            "summary": "A new coalition that includes Google, Nvidia, Anthropic, and Emerald AI wants to find 100 GW of grid capacity for new data centers."
-          },
-          {
-            "title": "Iceland-based Treble raises $18 million for its voice simulation platform",
-            "link": "https://techcrunch.com/2026/09/16/iceland-based-treble-raises-18-million-for-its-voice-simulation-platform/",
-            "date": "2026-09-17T05:00:00+00:00",
-            "summary": "Treble's voice simulation platform is used by voice AI model developers and AI wearable and robotics companies,"
-          },
-          {
-            "title": "Your startup’s next teammate might be an AI agent: Gusto, Insight Partners, and Leland explain what that changes at TechCrunch Disrupt 2026",
-            "link": "https://techcrunch.com/2026/09/16/your-startups-next-teammate-might-be-an-ai-agent-gusto-insight-partners-and-leland-explain-what-that-changes-at-techcrunch-disrupt-2026/",
-            "date": "2026-09-17T03:30:00+00:00",
-            "summary": "This session will explore how early-stage companies are building teams where humans and AI agents work alongside each other — and how founders can do that without sacrificing speed, accountability, or culture. Learn more at TechCrunch Disrupt 2026. Register before September 25 to save up to $200."
-          },
-          {
-            "title": "Snap tries to make the case again for its $2,200 smart glasses",
-            "link": "https://techcrunch.com/2026/09/16/snap-tries-to-make-the-case-again-for-its-2200-smart-glasses/",
-            "date": "2026-09-17T00:58:49+00:00",
-            "summary": "Since Specs' debut earlier this year, Snap has clearly been looking for an opportunity to explain why the smart glasses deserve to exist."
-          },
-          {
-            "title": "Al Gore says the real AI risk isn’t data centers",
-            "link": "https://techcrunch.com/2026/09/16/al-gore-has-a-surprisingly-calm-take-on-the-ai-data-center-backlash/",
-            "date": "2026-09-16T23:43:09+00:00",
-            "summary": "In an interview with TechCrunch, Al Gore suggested he isn't losing sleep over AI data center emissions — he's more worried about the AI industry's own warnings about where the technology is headed."
           }
         ]
       },
@@ -2768,7 +2768,7 @@
         "home": "https://techcrunch.com/tag/funding/",
         "url": "https://techcrunch.com/tag/funding/feed/",
         "status": "ok",
-        "fetchedAt": "2026-09-17T17:57:31.702653+00:00",
+        "fetchedAt": "2026-09-17T21:13:32.252577+00:00",
         "items": [
           {
             "title": "Viral AI startup Instinct has raised $350M at a $2.5B valuation",
@@ -2861,7 +2861,7 @@
         "home": "https://www.ruanyifeng.com/blog/",
         "url": "https://www.ruanyifeng.com/blog/atom.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-17T17:57:31.648741+00:00",
+        "fetchedAt": "2026-09-17T21:13:32.231336+00:00",
         "items": [
           {
             "title": "科技爱好者周刊（第 412 期）：禁止 issue，只用 PR",
@@ -2890,8 +2890,14 @@
         "home": "https://www.bestblogs.dev/",
         "url": "https://www.bestblogs.dev/zh/feeds/rss?category=ai&minScore=90",
         "status": "ok",
-        "fetchedAt": "2026-09-17T17:57:32.907608+00:00",
+        "fetchedAt": "2026-09-17T21:13:32.391011+00:00",
         "items": [
+          {
+            "title": "刚刚，唐杰发布智谱 RSI 首个成果",
+            "link": "https://www.bestblogs.dev/article/ad72d41df7?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
+            "date": "2026-09-17T08:28:23+00:00",
+            "summary": "📌 一句话摘要 智谱 AI 创始人唐杰分享了 GLM-5.3 驱动的 Infra Agent 在 10 万卡国产芯片集群上从零搭建并优化生产级推理系统的案例，实现了端到端吞吐 3.2 倍的提升，展现了递归自我改进（RSI）的早期工程雏形。 📝 详细摘要 本文详细记录了智谱 AI 利用 GLM-5.3 驱动的 Infra Agent 优化其推理基础设施的实践过程。该 Agent 在国产芯片集群上通过构建“稠密反馈”闭环（包含正确性测试、执行 Trace、微基准测试等），在不到两周内将端到端吞吐提升至初始基线的 3.2 倍。文章通过算子精度修复、Python GIL 并发瓶颈定位以及 KDA De"
+          },
           {
             "title": "智谱 GLM-5.3-Flash 自优化推理系统：AI Agent 驱动的密集反馈",
             "link": "https://www.bestblogs.dev/status/2100494599475155288?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
@@ -2945,12 +2951,6 @@
             "link": "https://www.bestblogs.dev/status/2100042172800307431?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
             "date": "2026-09-16T02:00:45+00:00",
             "summary": "📌 一句话摘要 Perplexity 用 CobbleDB + Pillar + Lorry 三件套替换 DynamoDB，批量读延迟降低约 5 倍、成本至少降 20%，约 4 万行 Rust 由 2 名工程师加数百个 AI Agent 两个月建成。 📝 详细摘要 作者系统拆解了 Perplexity 自研存储栈的动机与设计。AI 搜索的写侧（离线清洗、切段、嵌入）与读侧（在线批量取 100–120 个页面 key）负载方向相反，塞进同一数据库会让回填干扰延迟敏感的在线读。DynamoDB 存在按字节计费、托管黑盒不可调优、处理管道直连热存储三大短板。新架构以 CobbleDB 承担可调优读路"
-          },
-          {
-            "title": "用 1393 个 Agent 重构 Hermes 代码库：削减 34.4% 的实践复盘",
-            "link": "https://www.bestblogs.dev/status/2100034501909065938?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
-            "date": "2026-09-16T01:30:16+00:00",
-            "summary": "📌 一句话摘要 Nous Research 让开源 Agent Hermes 重构自身代码库，19 小时派出 1393 个子 Agent，将超百万行非测试 Python 代码削减 34.4%，模型花费约 1.93 万美元，并公开了编排、验证与故障恢复的完整机制。 📝 详细摘要 作者详细复盘 Nous Research 用 Hermes Agent 重构自身代码库的案例。背景是仓库非测试 Python 代码超 106 万行、gateway/run.py 单文件 34847 行，团队长期无人排期清理。运作机制包括：日常协作积累的 Skills 作为前提；编排者–工人树状分工，顶层只协调不改代码，把"
           }
         ]
       }
@@ -2958,64 +2958,264 @@
   },
   "allItems": [
     {
-      "title": "Even the King of England has his hesitations about AI",
-      "link": "https://techcrunch.com/2026/09/17/even-the-king-of-england-has-his-hesitations-about-ai/",
-      "date": "2026-09-17T17:26:25+00:00",
-      "summary": "King Charles hosted a private summit Thursday with some of the most prominent names in AI and UK government.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
+      "title": "Self-generated prompt injections in compaction summaries",
+      "link": "https://simonwillison.net/2026/Sep/17/compaction-summaries/",
+      "date": "2026-09-17T20:57:55+00:00",
+      "summary": "Self-generated prompt injections in compaction summaries In Our framework for reporting model misalignment OpenAI provide \"six reports on unexpected or concerning model behavior we’ve observed in the last six months\". This one here is my favorite: they caught some of their models in training deliber",
+      "feedId": "simonwillison",
+      "feedTitle": "Simon Willison",
+      "category": "AI & LLM",
+      "feedHome": "https://simonwillison.net/"
     },
     {
-      "title": "Base Labs launches an open-weight AI safety partnership with Hugging Face and Goodfire",
-      "link": "https://techcrunch.com/2026/09/17/base-labs-launches-an-open-weight-ai-safety-partnership-with-hugging-face-and-goodfire/",
-      "date": "2026-09-17T17:15:59+00:00",
-      "summary": "Base Labs, the research group Baseten spun up earlier this year, will develop and publish methods for training and monitoring open models.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
+      "title": "The future of practice: Enabling teachers to create learning interactives with generative UI",
+      "link": "https://research.google/blog/the-future-of-practice-enabling-teachers-to-create-learning-interactives-with-generative-ui/",
+      "date": "2026-09-17T20:45:00+00:00",
+      "summary": "Education Innovation",
+      "feedId": "google-research",
+      "feedTitle": "Google Research Blog",
+      "category": "AI & LLM",
+      "feedHome": "https://research.google/blog/"
     },
     {
-      "title": "Base Labs launches an open-weight AI safety partnership with Hugging Face and Goodfire",
-      "link": "https://techcrunch.com/2026/09/17/base-labs-launches-an-open-weight-ai-safety-partnership-with-hugging-face-and-goodfire/",
-      "date": "2026-09-17T17:15:59+00:00",
-      "summary": "Base Labs, the research group Baseten spun up earlier this year, will develop and publish methods for training and monitoring open models.",
-      "feedId": "techcrunch-ai",
-      "feedTitle": "TechCrunch AI",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
-    },
-    {
-      "title": "Pinterest teases a new ‘Restyle’ feature that lets you redesign your room with AI",
-      "link": "https://techcrunch.com/2026/09/17/pinterest-teases-a-new-restyle-feature-that-lets-you-redesign-your-room-with-ai/",
-      "date": "2026-09-17T17:15:00+00:00",
-      "summary": "Pinterest is testing Restyle, a new AI-powered feature that lets users visualize furniture, decor, lighting, and more in photos of their own rooms — potentially helping turn saved inspiration into purchases.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
-    },
-    {
-      "title": "Pinterest teases a new ‘Restyle’ feature that lets you redesign your room with AI",
-      "link": "https://techcrunch.com/2026/09/17/pinterest-teases-a-new-restyle-feature-that-lets-you-redesign-your-room-with-ai/",
-      "date": "2026-09-17T17:15:00+00:00",
-      "summary": "Pinterest is testing Restyle, a new AI-powered feature that lets users visualize furniture, decor, lighting, and more in photos of their own rooms — potentially helping turn saved inspiration into purchases.",
-      "feedId": "techcrunch-ai",
-      "feedTitle": "TechCrunch AI",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
-    },
-    {
-      "title": "Zettascale (YC S24) Is Hiring ASIC/FPGA Engineers to Build Chips for ASI",
-      "link": "https://zscc.ai/careers?job_id=109821",
-      "date": "2026-09-17T17:00:59+00:00",
+      "title": "Bend",
+      "link": "https://bend-lang.com/",
+      "date": "2026-09-17T20:36:13+00:00",
       "summary": "Comments",
       "feedId": "hackernews",
       "feedTitle": "Hacker News",
       "category": "Startup & News",
       "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "The fix for rogue AI agents could be more AI",
+      "link": "https://techcrunch.com/2026/09/17/the-fix-for-rogue-ai-agents-could-be-more-ai/",
+      "date": "2026-09-17T20:34:47+00:00",
+      "summary": "As companies hand off longer and more complex tasks to AI agents, they are running into an oversight problem: Agents can act faster, longer, and at greater volume than humans can realistically review.",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "The fix for rogue AI agents could be more AI",
+      "link": "https://techcrunch.com/2026/09/17/the-fix-for-rogue-ai-agents-could-be-more-ai/",
+      "date": "2026-09-17T20:34:47+00:00",
+      "summary": "As companies hand off longer and more complex tasks to AI agents, they are running into an oversight problem: Agents can act faster, longer, and at greater volume than humans can realistically review.",
+      "feedId": "techcrunch-ai",
+      "feedTitle": "TechCrunch AI",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
+    },
+    {
+      "title": "OpenAI caught its models leaving notes to successors to hide bad behavior",
+      "link": "https://techcrunch.com/2026/09/17/openai-caught-its-models-leaving-notes-to-successors-to-hide-bad-behavior/",
+      "date": "2026-09-17T20:34:24+00:00",
+      "summary": "OpenAI disclosed instances of GPT-5.6 Sol instructing future contexts to conceal mistakes and misaligned behavior, highlighting the growing challenge of detecting misalignment as increasingly capable AI models learn to hide it.",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "OpenAI caught its models leaving notes to successors to hide bad behavior",
+      "link": "https://techcrunch.com/2026/09/17/openai-caught-its-models-leaving-notes-to-successors-to-hide-bad-behavior/",
+      "date": "2026-09-17T20:34:24+00:00",
+      "summary": "OpenAI disclosed instances of GPT-5.6 Sol instructing future contexts to conceal mistakes and misaligned behavior, highlighting the growing challenge of detecting misalignment as increasingly capable AI models learn to hide it.",
+      "feedId": "techcrunch-ai",
+      "feedTitle": "TechCrunch AI",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
+    },
+    {
+      "title": "Is the AI safety debate about safety or control?",
+      "link": "https://techcrunch.com/2026/09/17/is-the-ai-safety-debate-about-safety-or-control/",
+      "date": "2026-09-17T20:19:37+00:00",
+      "summary": "Not everyone agrees with Amodei's call for globally coordinated action for AI safety.",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "Is the AI safety debate about safety or control?",
+      "link": "https://techcrunch.com/2026/09/17/is-the-ai-safety-debate-about-safety-or-control/",
+      "date": "2026-09-17T20:19:37+00:00",
+      "summary": "Not everyone agrees with Amodei's call for globally coordinated action for AI safety.",
+      "feedId": "techcrunch-ai",
+      "feedTitle": "TechCrunch AI",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
+    },
+    {
+      "title": "Astra for Law",
+      "link": "https://openai.com/index/astra-for-law/",
+      "date": "2026-09-17T20:17:48+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "UN turns to Google to make its global data ready for AI agents",
+      "link": "https://techcrunch.com/2026/09/17/un-turns-to-google-to-make-its-global-data-ready-for-ai-agents/",
+      "date": "2026-09-17T20:00:00+00:00",
+      "summary": "The shift comes after a UNICEF test found leading AI models struggled to accurately retrieve global development statistics.",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "UN turns to Google to make its global data ready for AI agents",
+      "link": "https://techcrunch.com/2026/09/17/un-turns-to-google-to-make-its-global-data-ready-for-ai-agents/",
+      "date": "2026-09-17T20:00:00+00:00",
+      "summary": "The shift comes after a UNICEF test found leading AI models struggled to accurately retrieve global development statistics.",
+      "feedId": "techcrunch-ai",
+      "feedTitle": "TechCrunch AI",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
+    },
+    {
+      "title": "Microsoft exec called AI scraping ‘the largest theft of labor in human history,’ new unredacted filings reveal",
+      "link": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal/",
+      "date": "2026-09-17T19:46:08+00:00",
+      "summary": "Newly unsealed court filings show Microsoft privately called OpenAI's data practices \"theft\" while both companies scraped paywalled Times content, built datasets from it, and warned internally it would gut publishers.",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "Microsoft exec called AI scraping ‘the largest theft of labor in human history,’ new unredacted filings reveal",
+      "link": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal/",
+      "date": "2026-09-17T19:46:08+00:00",
+      "summary": "Newly unsealed court filings show Microsoft privately called OpenAI's data practices \"theft\" while both companies scraped paywalled Times content, built datasets from it, and warned internally it would gut publishers.",
+      "feedId": "techcrunch-ai",
+      "feedTitle": "TechCrunch AI",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
+    },
+    {
+      "title": "Everybody's Lost Their Minds",
+      "link": "https://www.netmeister.org/blog/everybodys-lost-their-minds.html",
+      "date": "2026-09-17T19:43:34+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "Waymo restarts San Antonio service 5 months after flooding troubles",
+      "link": "https://techcrunch.com/2026/09/17/waymo-restarts-san-antonio-service-five-months-after-flooding-troubles/",
+      "date": "2026-09-17T18:30:30+00:00",
+      "summary": "The company suspended service in the city in April after one of its robotaxis got swept away.",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "Even the king of England has his hesitations about AI",
+      "link": "https://techcrunch.com/2026/09/17/even-the-king-of-england-has-his-hesitations-about-ai/",
+      "date": "2026-09-17T17:26:25+00:00",
+      "summary": "King Charles hosted a private summit Thursday with some of the most prominent names in AI and the U.K. government.",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "Even the king of England has his hesitations about AI",
+      "link": "https://techcrunch.com/2026/09/17/even-the-king-of-england-has-his-hesitations-about-ai/",
+      "date": "2026-09-17T17:26:25+00:00",
+      "summary": "King Charles hosted a private summit Thursday with some of the most prominent names in AI and the U.K. government.",
+      "feedId": "techcrunch-ai",
+      "feedTitle": "TechCrunch AI",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
+    },
+    {
+      "title": "Base Labs launches an open-weight AI safety partnership with Hugging Face and Goodfire",
+      "link": "https://techcrunch.com/2026/09/17/base-labs-launches-an-open-weight-ai-safety-partnership-with-hugging-face-and-goodfire/",
+      "date": "2026-09-17T17:15:59+00:00",
+      "summary": "Base Labs, the research group Baseten spun up earlier this year, will develop and publish methods for training and monitoring open models.",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "Base Labs launches an open-weight AI safety partnership with Hugging Face and Goodfire",
+      "link": "https://techcrunch.com/2026/09/17/base-labs-launches-an-open-weight-ai-safety-partnership-with-hugging-face-and-goodfire/",
+      "date": "2026-09-17T17:15:59+00:00",
+      "summary": "Base Labs, the research group Baseten spun up earlier this year, will develop and publish methods for training and monitoring open models.",
+      "feedId": "techcrunch-ai",
+      "feedTitle": "TechCrunch AI",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
+    },
+    {
+      "title": "Pinterest teases a new ‘Restyle’ feature that lets you redesign your room with AI",
+      "link": "https://techcrunch.com/2026/09/17/pinterest-teases-a-new-restyle-feature-that-lets-you-redesign-your-room-with-ai/",
+      "date": "2026-09-17T17:15:00+00:00",
+      "summary": "Pinterest is testing Restyle, a new AI-powered feature that lets users visualize furniture, decor, lighting, and more in photos of their own rooms — potentially helping turn saved inspiration into purchases.",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "Pinterest teases a new ‘Restyle’ feature that lets you redesign your room with AI",
+      "link": "https://techcrunch.com/2026/09/17/pinterest-teases-a-new-restyle-feature-that-lets-you-redesign-your-room-with-ai/",
+      "date": "2026-09-17T17:15:00+00:00",
+      "summary": "Pinterest is testing Restyle, a new AI-powered feature that lets users visualize furniture, decor, lighting, and more in photos of their own rooms — potentially helping turn saved inspiration into purchases.",
+      "feedId": "techcrunch-ai",
+      "feedTitle": "TechCrunch AI",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
+    },
+    {
+      "title": "OpenAI launches Astra for Law, combining GPT-6 Astra with a legal search index and instructions for legal analysis and writing, initially for select law firms (OpenAI)",
+      "link": "https://www.techmeme.com/260917/p39#a260917p39",
+      "date": "2026-09-17T17:05:01-04:00",
+      "summary": "OpenAI: OpenAI launches Astra for Law, combining GPT-6 Astra with a legal search index and instructions for legal analysis and writing, initially for select law firms&nbsp; &mdash;&nbsp; Our most powerful model, configured into a new AI foundation for law.&nbsp; &mdash;&nbsp; Explore solutions for l",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
+      "title": "Towards Self-Driving Codebases",
+      "link": "https://blog.detail.dev/posts/towards-self-driving-codebases/",
+      "date": "2026-09-17T16:58:31+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "Infinite-Parameter LLMs: Generating and Adapting Weights from Live Data",
+      "link": "https://arxiv.org/abs/2609.18842",
+      "date": "2026-09-17T16:55:14+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "Anthropic outlines metrics to track AI development at frontier labs: how much AI R&D is done by AI, how well agents are overseen, and how compute is allocated (Anthropic)",
+      "link": "https://www.techmeme.com/260917/p38#a260917p38",
+      "date": "2026-09-17T16:55:01-04:00",
+      "summary": "Anthropic: Anthropic outlines metrics to track AI development at frontier labs: how much AI R&amp;D is done by AI, how well agents are overseen, and how compute is allocated&nbsp; &mdash;&nbsp; AI systems are becoming exponentially more powerful and have begun to automate more of the process of buil",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
     },
     {
       "title": "Empirical fractal",
@@ -3038,7 +3238,7 @@
       "feedHome": "https://techcrunch.com/"
     },
     {
-      "title": "hister",
+      "title": "Hister: A private search engine for the pages you visit and the files you keep",
       "link": "https://github.com/asciimoo/hister",
       "date": "2026-09-17T16:25:37+00:00",
       "summary": "Comments",
@@ -3048,44 +3248,24 @@
       "feedHome": "https://news.ycombinator.com/"
     },
     {
-      "title": "Launch HN: Skillsync (YC W26) – AI chat sessions made portable across agents",
-      "link": "https://news.ycombinator.com/item?id=49743049",
-      "date": "2026-09-17T16:22:15+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
+      "title": "Andrew Ng says renewed AI extinction warnings are \"much more science fiction than science\" and the latest \"wave of PR\" is probably intended to shape regulation (Micah Barkley/Bloomberg)",
+      "link": "https://www.techmeme.com/260917/p37#a260917p37",
+      "date": "2026-09-17T16:01:20-04:00",
+      "summary": "Micah Barkley / Bloomberg: Andrew Ng says renewed AI extinction warnings are &ldquo;much more science fiction than science&rdquo; and the latest &ldquo;wave of PR&rdquo; is probably intended to shape regulation&nbsp; &mdash;&nbsp; Artificial intelligence pioneer Andrew Ng said warnings about existen",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
       "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
+      "feedHome": "https://www.techmeme.com/"
     },
     {
-      "title": "Apple will let EU apps use less-alarming tracking-consent screens",
-      "link": "https://techcrunch.com/2026/09/17/apple-will-let-eu-apps-use-less-alarming-tracking-consent-screens/",
-      "date": "2026-09-17T16:09:58+00:00",
-      "summary": "Apple is changing its App Tracking Transparency prompts in parts of Europe after competition regulators said the system favored Apple over third-party apps, giving developers more flexibility over how they ask users for tracking consent.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
+      "title": "NYT court filing: ChatGPT's head wrote that publishers face an \"existential threat\" and a Microsoft executive called AI training \"an astonishing theft\" (Financial Times)",
+      "link": "https://www.techmeme.com/260917/p36#a260917p36",
+      "date": "2026-09-17T15:35:01-04:00",
+      "summary": "Financial Times: NYT court filing: ChatGPT's head wrote that publishers face an &ldquo;existential threat&rdquo; and a Microsoft executive called AI training &ldquo;an astonishing theft&rdquo;&nbsp; &mdash;&nbsp; Lawyers say AI co-founder Greg Brockman was &lsquo;motivated by the gazillions&rsquo; h",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
       "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
-    },
-    {
-      "title": "Whoisinspace.com/",
-      "link": "https://whoisinspace.com",
-      "date": "2026-09-17T15:59:37+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
-      "title": "Roku’s new Labs hub brings experimental apps to the big screen",
-      "link": "https://techcrunch.com/2026/09/17/rokus-new-labs-hub-brings-experimental-apps-to-the-big-screen/",
-      "date": "2026-09-17T15:50:29+00:00",
-      "summary": "Roku’s latest OS update introduces Roku Labs, a new hub for experimental apps, alongside personalized home screens in more markets, streaming subscription bundles, and more.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
+      "feedHome": "https://www.techmeme.com/"
     },
     {
       "title": "CrowdSec Source Code Leak",
@@ -3108,26 +3288,6 @@
       "feedHome": "https://news.ycombinator.com/"
     },
     {
-      "title": "Last call: Disrupt volunteer application closes soon",
-      "link": "https://techcrunch.com/2026/09/17/last-call-disrupt-volunteer-application-closes-soon/",
-      "date": "2026-09-17T15:02:00+00:00",
-      "summary": "If you've been on the fence about volunteering at TechCrunch Disrupt 2026, this is your sign to stop deliberating and start applying.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
-    },
-    {
-      "title": "I tried Tovala’s smart oven for two weeks — here’s whether it beats takeout",
-      "link": "https://techcrunch.com/2026/09/17/i-tried-tovalas-smart-oven-for-two-weeks-heres-whether-it-beats-takeout/",
-      "date": "2026-09-17T15:00:00+00:00",
-      "summary": "Tovala offers both a smart oven and a meal-delivery service. Its meals come with QR codes that you scan using the app, allowing the oven to automatically follow the cooking instructions.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
-    },
-    {
       "title": "Why Do U.S. Models of the iPhone 18 Pro Max, and Only U.S. Models of the 18 Pro Max, Use Qualcomm Cellular Modems Instead of Apple’s Own Superior C2 Modem?",
       "link": "https://www.macrumors.com/2026/09/12/iphone-18-pro-max-us-model-difference/",
       "date": "2026-09-17T14:41:53+00:00",
@@ -3138,6 +3298,16 @@
       "feedHome": "https://daringfireball.net/"
     },
     {
+      "title": "A survey of 42,151 adults in 36 countries and 8,607 US adults: populations in 34 of 37 surveyed countries expect AI to cause net job loss rather than growth (Pew Research Center)",
+      "link": "https://www.techmeme.com/260917/p35#a260917p35",
+      "date": "2026-09-17T14:40:00-04:00",
+      "summary": "Pew Research Center: A survey of 42,151 adults in 36 countries and 8,607 US adults: populations in 34 of 37 surveyed countries expect AI to cause net job loss rather than growth&nbsp; &mdash;&nbsp; 37-country survey also finds growing awareness of AI - and growing concern in some places&nbsp; &mdash",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
       "title": "★ Thoughts and Observations on Apple’s ‘Surprise and Shine’ Event; the Announcements of the iPhones 18 Pro, AirPods 5, Apple Watches Series 12 and Ultra 4, and the iPhone Duo; and the Dawn of the Tern",
       "link": "https://daringfireball.net/2026/09/thoughts_and_observations_on_apples_surprise_and_shine_event",
       "date": "2026-09-17T14:31:03+00:00",
@@ -3146,16 +3316,6 @@
       "feedTitle": "Daring Fireball",
       "category": "Tech Blogs",
       "feedHome": "https://daringfireball.net/"
-    },
-    {
-      "title": "Huawei plans Q1 2027 launch of new AI chip as it takes on Nvidia",
-      "link": "https://techcrunch.com/2026/09/17/huawei-plans-q1-2027-launch-of-new-ai-chip-as-it-takes-on-nvidia/",
-      "date": "2026-09-17T14:06:14+00:00",
-      "summary": "Huawei is accelerating the launch of its next-generation Ascend 960DT AI chip as it pushes to compete with Nvidia and close China’s AI computing gap with the U.S.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
     },
     {
       "title": "Huawei plans Q1 2027 launch of new AI chip as it takes on Nvidia",
@@ -3192,26 +3352,6 @@
       "link": "https://techcrunch.com/2026/09/17/2-days-left-to-exhibit-at-techcrunch-disrupt-2026/",
       "date": "2026-09-17T14:00:00+00:00",
       "summary": "Last day to book your exhibit table at Disrupt is September 18. Two days left. Get your startup in front of 10,000+ founders, investors, operators, and tech leaders on October 13–15.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
-    },
-    {
-      "title": "2 days left to exhibit at TechCrunch Disrupt 2026",
-      "link": "https://techcrunch.com/2026/09/17/2-days-left-to-exhibit-at-techcrunch-disrupt-2026/",
-      "date": "2026-09-17T14:00:00+00:00",
-      "summary": "Last day to book your exhibit table at Disrupt is September 18. Two days left. Get your startup in front of 10,000+ founders, investors, operators, and tech leaders on October 13–15.",
-      "feedId": "techcrunch-ai",
-      "feedTitle": "TechCrunch AI",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
-    },
-    {
-      "title": "Rival AI agents, Instinct and Meta’s Muse, both add the ability to make calls",
-      "link": "https://techcrunch.com/2026/09/17/rival-ai-agents-instinct-and-metas-muse-both-add-the-ability-to-make-calls/",
-      "date": "2026-09-17T13:46:16+00:00",
-      "summary": "People can use these assistants to make restaurant reservations and cancel subscriptions.",
       "feedId": "techcrunch-ai",
       "feedTitle": "TechCrunch AI",
       "category": "Startup & News",
@@ -3226,16 +3366,6 @@
       "feedTitle": "Daring Fireball",
       "category": "Tech Blogs",
       "feedHome": "https://daringfireball.net/"
-    },
-    {
-      "title": "Google, Nvidia, and Anthropic want Emerald AI to find space on the grid for more data centers",
-      "link": "https://techcrunch.com/2026/09/17/google-nvidia-and-anthropic-want-emerald-ai-to-find-space-on-the-grid-for-more-data-centers/",
-      "date": "2026-09-17T13:38:33+00:00",
-      "summary": "A new coalition that includes Google, Nvidia, Anthropic, and Emerald AI wants to find 100 GW of grid capacity for new data centers.",
-      "feedId": "techcrunch-ai",
-      "feedTitle": "TechCrunch AI",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
     },
     {
       "title": "Analysis: tech employers filed layoff notices for 14,500+ Bay Area workers in the 12 months to June; Bay Area software engineer demand is down 42% since 2022 (Francesca Maglione/Bloomberg)",
@@ -3278,94 +3408,24 @@
       "feedHome": "https://www.techmeme.com/"
     },
     {
-      "title": "The UK FCA, alongside tax authorities and police, raids three illegal peer-to-peer crypto businesses, signaling an end to \"light-touch\" crypto regulation (Olivier Acuna/CoinDesk)",
+      "title": "The UK FCA, working with tax authorities and police, raids three illegal peer-to-peer crypto businesses, signaling an end to its \"light-touch\" crypto regulation (Olivier Acuna/CoinDesk)",
       "link": "https://www.techmeme.com/260917/p30#a260917p30",
       "date": "2026-09-17T11:40:00-04:00",
-      "summary": "Olivier Acuna / CoinDesk: The UK FCA, alongside tax authorities and police, raids three illegal peer-to-peer crypto businesses, signaling an end to &ldquo;light-touch&rdquo; crypto regulation&nbsp; &mdash;&nbsp; The U.K.'s Financial Conduct Authority (FCA) said Thursday that it conducted actions to ",
+      "summary": "Olivier Acuna / CoinDesk: The UK FCA, working with tax authorities and police, raids three illegal peer-to-peer crypto businesses, signaling an end to its &ldquo;light-touch&rdquo; crypto regulation&nbsp; &mdash;&nbsp; The U.K.'s Financial Conduct Authority (FCA) said Thursday that it conducted acti",
       "feedId": "techmeme",
       "feedTitle": "Techmeme",
       "category": "Startup & News",
       "feedHome": "https://www.techmeme.com/"
     },
     {
-      "title": "Source: OpenAI staff expect the Hodge Conjecture, a Millennium Prize Problem, to be solved relatively soon, after solving the Navier-Stokes equations (Stephanie Palazzolo/The Information)",
-      "link": "https://www.techmeme.com/260917/p29#a260917p29",
-      "date": "2026-09-17T11:00:44-04:00",
-      "summary": "Stephanie Palazzolo / The Information: Source: OpenAI staff expect the Hodge Conjecture, a Millennium Prize Problem, to be solved relatively soon, after solving the Navier-Stokes equations&nbsp; &mdash;&nbsp; Remember when OpenAI landed in hot water earlier this month after mathematicians accused th",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "King Charles hosts tech leaders, such as Jensen Huang, Demis Hassabis, and OpenAI CFO Sarah Friar, in Scotland to discuss AI risks; Huang calls for safety tests (Bloomberg)",
-      "link": "https://www.techmeme.com/260917/p28#a260917p28",
-      "date": "2026-09-17T10:05:04-04:00",
-      "summary": "Bloomberg: King Charles hosts tech leaders, such as Jensen Huang, Demis Hassabis, and OpenAI CFO Sarah Friar, in Scotland to discuss AI risks; Huang calls for safety tests&nbsp; &mdash;&nbsp; Huang Says AI Firms Should Be &lsquo;More Rigorous in Testing&rsquo;&nbsp; &mdash;&nbsp; Video Player is loa",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "Lucid and Bolt sign an initial agreement to deploy a fleet of 25K+ robotaxis in Europe built on Lucid's affordable EV platform, set to launch as soon as 2028 (Financial Times)",
-      "link": "https://www.techmeme.com/260917/p27#a260917p27",
-      "date": "2026-09-17T09:55:01-04:00",
-      "summary": "Financial Times: Lucid and Bolt sign an initial agreement to deploy a fleet of 25K+ robotaxis in Europe built on Lucid's affordable EV platform, set to launch as soon as 2028&nbsp; &mdash;&nbsp; Rollout would be most ambitious plan yet for autonomous ride-hailing on the continent&nbsp; &mdash;&nbsp;",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "Comp AI, which uses AI agents to draft security policies, collect audit evidence, conduct continuous compliance monitoring, and more, raised a $34M Series A (Dominic-Madori Davis/TechCrunch)",
-      "link": "https://www.techmeme.com/260917/p26#a260917p26",
-      "date": "2026-09-17T09:45:02-04:00",
-      "summary": "Dominic-Madori Davis / TechCrunch: Comp AI, which uses AI agents to draft security policies, collect audit evidence, conduct continuous compliance monitoring, and more, raised a $34M Series A&nbsp; &mdash;&nbsp; Comp AI, a cybersecurity and compliance startup, announced that it has raised a $34 mill",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "The US SEC unveils a five-year \"Innovation Exemption\" to free platforms that facilitate blockchain and tokenized stock trading from many stock exchange rules (Hannah Lang/Reuters)",
-      "link": "https://www.techmeme.com/260917/p25#a260917p25",
-      "date": "2026-09-17T09:36:13-04:00",
-      "summary": "Hannah Lang / Reuters: The US SEC unveils a five-year &ldquo;Innovation Exemption&rdquo; to free platforms that facilitate blockchain and tokenized stock trading from many stock exchange rules&nbsp; &mdash;&nbsp; The U.S. Securities and Exchange Commission on Thursday unveiled its long-awaited exemp",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "Why I didn’t sign the Fields medallists’ letter",
-      "link": "https://gowers.wordpress.com/2026/09/17/why-i-didnt-sign-the-fields-medallists-letter/",
-      "date": "2026-09-17T08:51:51+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
-      "title": "How GLM built its own inference infrastructure",
-      "link": "https://z.ai/blog/glm-built-its-inference-infrastructure",
-      "date": "2026-09-17T08:27:09+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
-      "title": "One Year of Sponsored Servo Development",
-      "link": "https://servo.org/blog/2026/09/15/one-year-of-sponsorship/",
-      "date": "2026-09-17T08:13:54+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
+      "title": "刚刚，唐杰发布智谱 RSI 首个成果",
+      "link": "https://www.bestblogs.dev/article/ad72d41df7?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
+      "date": "2026-09-17T08:28:23+00:00",
+      "summary": "📌 一句话摘要 智谱 AI 创始人唐杰分享了 GLM-5.3 驱动的 Infra Agent 在 10 万卡国产芯片集群上从零搭建并优化生产级推理系统的案例，实现了端到端吞吐 3.2 倍的提升，展现了递归自我改进（RSI）的早期工程雏形。 📝 详细摘要 本文详细记录了智谱 AI 利用 GLM-5.3 驱动的 Infra Agent 优化其推理基础设施的实践过程。该 Agent 在国产芯片集群上通过构建“稠密反馈”闭环（包含正确性测试、执行 Trace、微基准测试等），在不到两周内将端到端吞吐提升至初始基线的 3.2 倍。文章通过算子精度修复、Python GIL 并发瓶颈定位以及 KDA De",
+      "feedId": "bestblogs",
+      "feedTitle": "BestBlogs.dev AI 90+",
+      "category": "中文",
+      "feedHome": "https://www.bestblogs.dev/"
     },
     {
       "title": "智谱 GLM-5.3-Flash 自优化推理系统：AI Agent 驱动的密集反馈",
@@ -3396,36 +3456,6 @@
       "feedTitle": "BestBlogs.dev AI 90+",
       "category": "中文",
       "feedHome": "https://www.bestblogs.dev/"
-    },
-    {
-      "title": "Iceland-based Treble raises $18 million for its voice simulation platform",
-      "link": "https://techcrunch.com/2026/09/16/iceland-based-treble-raises-18-million-for-its-voice-simulation-platform/",
-      "date": "2026-09-17T05:00:00+00:00",
-      "summary": "Treble's voice simulation platform is used by voice AI model developers and AI wearable and robotics companies,",
-      "feedId": "techcrunch-ai",
-      "feedTitle": "TechCrunch AI",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
-    },
-    {
-      "title": "Your startup’s next teammate might be an AI agent: Gusto, Insight Partners, and Leland explain what that changes at TechCrunch Disrupt 2026",
-      "link": "https://techcrunch.com/2026/09/16/your-startups-next-teammate-might-be-an-ai-agent-gusto-insight-partners-and-leland-explain-what-that-changes-at-techcrunch-disrupt-2026/",
-      "date": "2026-09-17T03:30:00+00:00",
-      "summary": "This session will explore how early-stage companies are building teams where humans and AI agents work alongside each other — and how founders can do that without sacrificing speed, accountability, or culture. Learn more at TechCrunch Disrupt 2026. Register before September 25 to save up to $200.",
-      "feedId": "techcrunch-ai",
-      "feedTitle": "TechCrunch AI",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
-    },
-    {
-      "title": "Snap tries to make the case again for its $2,200 smart glasses",
-      "link": "https://techcrunch.com/2026/09/16/snap-tries-to-make-the-case-again-for-its-2200-smart-glasses/",
-      "date": "2026-09-17T00:58:49+00:00",
-      "summary": "Since Specs' debut earlier this year, Snap has clearly been looking for an opportunity to explain why the smart glasses deserve to exist.",
-      "feedId": "techcrunch-ai",
-      "feedTitle": "TechCrunch AI",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
     },
     {
       "title": "Making AI-Assisted Claims Independently Challengeable: Publication Authority and a Protocol for Falsifiable Publication Records",
@@ -3628,6 +3658,16 @@
       "feedHome": "https://arxiv.org/list/cs.LG/recent"
     },
     {
+      "title": "Introducing Astra for Law",
+      "link": "https://openai.com/index/astra-for-law",
+      "date": "2026-09-17T00:00:00+00:00",
+      "summary": "OpenAI for Law brings frontier intelligence for law, custom firm workflows, connected legal data sources, and legal-grade controls for confidential client work.",
+      "feedId": "openai",
+      "feedTitle": "OpenAI News",
+      "category": "AI & LLM",
+      "feedHome": "https://openai.com/news/"
+    },
+    {
       "title": "datasette 1.0a40",
       "link": "https://simonwillison.net/2026/Sep/16/datasette/",
       "date": "2026-09-16T23:51:43+00:00",
@@ -3646,16 +3686,6 @@
       "feedTitle": "Simon Willison",
       "category": "AI & LLM",
       "feedHome": "https://simonwillison.net/"
-    },
-    {
-      "title": "Al Gore says the real AI risk isn’t data centers",
-      "link": "https://techcrunch.com/2026/09/16/al-gore-has-a-surprisingly-calm-take-on-the-ai-data-center-backlash/",
-      "date": "2026-09-16T23:43:09+00:00",
-      "summary": "In an interview with TechCrunch, Al Gore suggested he isn't losing sleep over AI data center emissions — he's more worried about the AI industry's own warnings about where the technology is headed.",
-      "feedId": "techcrunch-ai",
-      "feedTitle": "TechCrunch AI",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
     },
     {
       "title": "OpenAI 模型失准报告框架：六个 Agent 越界行为案例",
@@ -3828,6 +3858,16 @@
       "feedHome": "https://openai.com/news/"
     },
     {
+      "title": "Wax motor",
+      "link": "https://en.wikipedia.org/wiki/Wax_motor",
+      "date": "2026-09-16T12:35:14+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
       "title": "Fibonacci product",
       "link": "https://www.johndcook.com/blog/2026/09/16/fibonacci-product/",
       "date": "2026-09-16T12:04:09+00:00",
@@ -3922,16 +3962,6 @@
       "link": "https://www.bestblogs.dev/status/2100042172800307431?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
       "date": "2026-09-16T02:00:45+00:00",
       "summary": "📌 一句话摘要 Perplexity 用 CobbleDB + Pillar + Lorry 三件套替换 DynamoDB，批量读延迟降低约 5 倍、成本至少降 20%，约 4 万行 Rust 由 2 名工程师加数百个 AI Agent 两个月建成。 📝 详细摘要 作者系统拆解了 Perplexity 自研存储栈的动机与设计。AI 搜索的写侧（离线清洗、切段、嵌入）与读侧（在线批量取 100–120 个页面 key）负载方向相反，塞进同一数据库会让回填干扰延迟敏感的在线读。DynamoDB 存在按字节计费、托管黑盒不可调优、处理管道直连热存储三大短板。新架构以 CobbleDB 承担可调优读路",
-      "feedId": "bestblogs",
-      "feedTitle": "BestBlogs.dev AI 90+",
-      "category": "中文",
-      "feedHome": "https://www.bestblogs.dev/"
-    },
-    {
-      "title": "用 1393 个 Agent 重构 Hermes 代码库：削减 34.4% 的实践复盘",
-      "link": "https://www.bestblogs.dev/status/2100034501909065938?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
-      "date": "2026-09-16T01:30:16+00:00",
-      "summary": "📌 一句话摘要 Nous Research 让开源 Agent Hermes 重构自身代码库，19 小时派出 1393 个子 Agent，将超百万行非测试 Python 代码削减 34.4%，模型花费约 1.93 万美元，并公开了编排、验证与故障恢复的完整机制。 📝 详细摘要 作者详细复盘 Nous Research 用 Hermes Agent 重构自身代码库的案例。背景是仓库非测试 Python 代码超 106 万行、gateway/run.py 单文件 34847 行，团队长期无人排期清理。运作机制包括：日常协作积累的 Skills 作为前提；编排者–工人树状分工，顶层只协调不改代码，把",
       "feedId": "bestblogs",
       "feedTitle": "BestBlogs.dev AI 90+",
       "category": "中文",
@@ -4198,16 +4228,6 @@
       "feedHome": "https://lucumr.pocoo.org/"
     },
     {
-      "title": "shot-scraper 1.12",
-      "link": "https://simonwillison.net/2026/Sep/13/shot-scraper/",
-      "date": "2026-09-13T23:58:14+00:00",
-      "summary": "Release: shot-scraper 1.12 I've added WebP support to my shot-scraper screenshot automation tool. You can now take a WebP screenshot of a web page like this: shot-scraper https://simonwillison.net -o screenshot.webp --quality 80 The --quality option sets the quality - without that option the WebP fi",
-      "feedId": "simonwillison",
-      "feedTitle": "Simon Willison",
-      "category": "AI & LLM",
-      "feedHome": "https://simonwillison.net/"
-    },
-    {
       "title": "AI Forces You to Commit to Your Initial Belief",
       "link": "https://idiallo.com/blog/making-changes-mid-sentence",
       "date": "2026-09-13T20:00:00+00:00",
@@ -4376,16 +4396,6 @@
       "feedTitle": "Google Research Blog",
       "category": "AI & LLM",
       "feedHome": "https://research.google/blog/"
-    },
-    {
-      "title": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
-      "link": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
-      "date": "2026-09-10T16:00:00+00:00",
-      "summary": "César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant infections.",
-      "feedId": "openai",
-      "feedTitle": "OpenAI News",
-      "category": "AI & LLM",
-      "feedHome": "https://openai.com/news/"
     },
     {
       "title": "Why is the x86 undefined instruction called ud2? Why 2?",
@@ -5156,16 +5166,6 @@
       "feedTitle": "Computer Rip",
       "category": "Tech Blogs",
       "feedHome": "https://computer.rip/"
-    },
-    {
-      "title": "An AI tool for prioritizing candidate biomarkers from wearable sensor data",
-      "link": "https://research.google/blog/an-ai-tool-for-prioritizing-candidate-biomarkers-from-wearable-sensor-data/",
-      "date": "2026-08-21T17:02:24+00:00",
-      "summary": "Generative AI",
-      "feedId": "google-research",
-      "feedTitle": "Google Research Blog",
-      "category": "AI & LLM",
-      "feedHome": "https://research.google/blog/"
     },
     {
       "title": "From Atari to EVE Online: Building on 15 Years of AI Research in Games",
