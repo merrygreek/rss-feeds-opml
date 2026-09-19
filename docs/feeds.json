@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-19T19:12:48.406408+00:00",
+  "updatedAt": "2026-09-19T22:11:26.137173+00:00",
   "totalFeeds": 51,
   "successCount": 43,
   "failedCount": 8,
@@ -22,8 +22,14 @@
         "home": "https://simonwillison.net/",
         "url": "https://simonwillison.net/atom/everything/",
         "status": "ok",
-        "fetchedAt": "2026-09-19T19:12:37.845904+00:00",
+        "fetchedAt": "2026-09-19T22:11:15.777536+00:00",
         "items": [
+          {
+            "title": "datasette-auth-github 1.0",
+            "link": "https://simonwillison.net/2026/Sep/19/datasette-auth-github/",
+            "date": "2026-09-19T19:52:02+00:00",
+            "summary": "Release: datasette-auth-github 1.0 I run this GitHub login plugin on the agent.datasette.io demo site and I noticed that my authenticated sessions weren't lasting very long. It turned out that the plugin was setting cookies without a Max-Age parameter, so they were expiring at the end of a browser s"
+          },
           {
             "title": "California Sea Lion, Brandt's Cormorant",
             "link": "https://simonwillison.net/2026/Sep/19/sighting-401567341/",
@@ -77,12 +83,6 @@
             "link": "https://simonwillison.net/2026/Sep/16/datasette/",
             "date": "2026-09-16T23:51:43+00:00",
             "summary": "Release: datasette 1.0a40 Same security fix as 0.65.5, plus some neat new features and bug fixes: Plugins can now launch and manage background tasks using the new datasette.add_background_task() method. Thanks, Alex Garcia. I've migrated Datasette to httpx2 for features like the internal datasette.c"
-          },
-          {
-            "title": "datasette 0.65.5",
-            "link": "https://simonwillison.net/2026/Sep/16/datasette-2/",
-            "date": "2026-09-16T23:51:08+00:00",
-            "summary": "Release: datasette 0.65.5 Security fix for an issue where a trailing newline in a requested table name could bypass table permissions and expose private rows, reported by dpfkdlemtp in GHSA-h547-rmjf-5m2m. Tags: security, datasette"
           }
         ]
       },
@@ -93,7 +93,7 @@
         "home": "https://openai.com/news/",
         "url": "https://openai.com/news/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-19T19:12:37.795494+00:00",
+        "fetchedAt": "2026-09-19T22:11:15.870773+00:00",
         "items": [
           {
             "title": "Introducing the Australian Youth Safety Blueprint",
@@ -164,7 +164,7 @@
         "home": "https://arxiv.org/list/cs.AI/recent",
         "url": "https://arxiv.org/rss/cs.AI",
         "status": "ok",
-        "fetchedAt": "2026-09-19T19:12:37.873628+00:00",
+        "fetchedAt": "2026-09-19T22:11:15.960434+00:00",
         "items": []
       },
       {
@@ -174,7 +174,7 @@
         "home": "https://arxiv.org/list/cs.LG/recent",
         "url": "https://arxiv.org/rss/cs.LG",
         "status": "ok",
-        "fetchedAt": "2026-09-19T19:12:37.876398+00:00",
+        "fetchedAt": "2026-09-19T22:11:15.955236+00:00",
         "items": []
       },
       {
@@ -184,7 +184,7 @@
         "home": "https://research.google/blog/",
         "url": "https://research.google/blog/rss/",
         "status": "ok",
-        "fetchedAt": "2026-09-19T19:12:38.008641+00:00",
+        "fetchedAt": "2026-09-19T22:11:15.751098+00:00",
         "items": [
           {
             "title": "MilleMiglia: A realistic instance generator for middle-mile logistics",
@@ -255,7 +255,7 @@
         "home": "https://deepmind.google/blog/",
         "url": "https://deepmind.google/blog/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-19T19:12:38.227484+00:00",
+        "fetchedAt": "2026-09-19T22:11:15.955087+00:00",
         "items": [
           {
             "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
@@ -326,7 +326,7 @@
         "home": "https://lilianweng.github.io/",
         "url": "https://lilianweng.github.io/lil-log/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-19T19:12:37.673853+00:00",
+        "fetchedAt": "2026-09-19T22:11:15.673929+00:00",
         "items": [
           {
             "title": "Active Learning",
@@ -417,7 +417,7 @@
         "home": "https://minimaxir.com/",
         "url": "https://minimaxir.com/index.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-19T19:12:37.733722+00:00",
+        "fetchedAt": "2026-09-19T22:11:15.686876+00:00",
         "items": [
           {
             "title": "LLMs break down in funny ways when told the Jacobian Conjecture counterargument",
@@ -500,7 +500,7 @@
         "home": "https://www.jeffgeerling.com/",
         "url": "https://www.jeffgeerling.com/blog.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-19T19:12:37.797913+00:00",
+        "fetchedAt": "2026-09-19T22:11:15.706463+00:00",
         "items": [
           {
             "title": "NTP, an atomic clock, and having a great time at the world's largest VCF",
@@ -571,7 +571,7 @@
         "home": "https://www.seangoedecke.com/",
         "url": "https://www.seangoedecke.com/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-19T19:12:37.726010+00:00",
+        "fetchedAt": "2026-09-19T22:11:15.910501+00:00",
         "items": [
           {
             "title": "Two techniques for working with System One models",
@@ -642,7 +642,7 @@
         "home": "https://krebsonsecurity.com/",
         "url": "https://krebsonsecurity.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-09-19T19:12:37.866450+00:00",
+        "fetchedAt": "2026-09-19T22:11:16.001467+00:00",
         "items": [
           {
             "title": "Data Broker Radaris Loses Domains in Privacy Fight",
@@ -713,7 +713,7 @@
         "home": "https://daringfireball.net/",
         "url": "https://daringfireball.net/feeds/main",
         "status": "ok",
-        "fetchedAt": "2026-09-19T19:12:37.861561+00:00",
+        "fetchedAt": "2026-09-19T22:11:15.793834+00:00",
         "items": [
           {
             "title": "Tyler Stalman’s iPhone 18 Pro Camera Review",
@@ -784,7 +784,7 @@
         "home": "https://ericmigi.com/",
         "url": "https://ericmigi.com/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-19T19:12:37.835097+00:00",
+        "fetchedAt": "2026-09-19T22:11:15.765827+00:00",
         "items": [
           {
             "title": "New Pebble Weather App + Software Updates",
@@ -855,7 +855,7 @@
         "home": "http://antirez.com/",
         "url": "http://antirez.com/rss",
         "status": "ok",
-        "fetchedAt": "2026-09-19T19:12:40.099816+00:00",
+        "fetchedAt": "2026-09-19T22:11:17.705629+00:00",
         "items": [
           {
             "title": "The real AI risk is inside the labs",
@@ -926,7 +926,7 @@
         "home": "https://idiallo.com/",
         "url": "https://idiallo.com/feed.rss",
         "status": "ok",
-        "fetchedAt": "2026-09-19T19:12:38.171835+00:00",
+        "fetchedAt": "2026-09-19T22:11:15.980615+00:00",
         "items": [
           {
             "title": "The Front Page of the Internet Is Up for Grabs",
@@ -997,7 +997,7 @@
         "home": "https://maurycyz.com/",
         "url": "https://maurycyz.com/index.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-19T19:12:38.673093+00:00",
+        "fetchedAt": "2026-09-19T22:11:16.465428+00:00",
         "items": []
       },
       {
@@ -1007,7 +1007,7 @@
         "home": "https://pluralistic.net/",
         "url": "https://pluralistic.net/feed/",
         "status": "ok",
-        "fetchedAt": "2026-09-19T19:12:41.074177+00:00",
+        "fetchedAt": "2026-09-19T22:11:18.859539+00:00",
         "items": [
           {
             "title": "Pluralistic: Textured (18 Sep 2026)",
@@ -1078,7 +1078,7 @@
         "home": "https://shkspr.mobi/blog/",
         "url": "https://shkspr.mobi/blog/feed/",
         "status": "ok",
-        "fetchedAt": "2026-09-19T19:12:39.081684+00:00",
+        "fetchedAt": "2026-09-19T22:11:16.751312+00:00",
         "items": [
           {
             "title": "Theatre Review: The School for Wives - at Riverside Studios ★★★★★",
@@ -1159,7 +1159,7 @@
         "home": "https://mitchellh.com/",
         "url": "https://mitchellh.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-19T19:12:37.953376+00:00",
+        "fetchedAt": "2026-09-19T22:11:15.826987+00:00",
         "items": [
           {
             "title": "Superlogical",
@@ -1230,7 +1230,7 @@
         "home": "https://dynomight.net/",
         "url": "https://dynomight.net/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-19T19:12:38.490547+00:00",
+        "fetchedAt": "2026-09-19T22:11:16.833154+00:00",
         "items": [
           {
             "title": "Thoughts I had while reading your comment",
@@ -1301,7 +1301,7 @@
         "home": "https://xeiaso.net/",
         "url": "https://xeiaso.net/blog.rss",
         "status": "ok",
-        "fetchedAt": "2026-09-19T19:12:38.380707+00:00",
+        "fetchedAt": "2026-09-19T22:11:16.361470+00:00",
         "items": [
           {
             "title": "You can run git on object storage if you re-make packfiles",
@@ -1372,7 +1372,7 @@
         "home": "https://devblogs.microsoft.com/oldnewthing/",
         "url": "https://devblogs.microsoft.com/oldnewthing/feed",
         "status": "ok",
-        "fetchedAt": "2026-09-19T19:12:37.851539+00:00",
+        "fetchedAt": "2026-09-19T22:11:16.008486+00:00",
         "items": [
           {
             "title": "std::call_once vs. std::async",
@@ -1443,7 +1443,7 @@
         "home": "https://www.righto.com/",
         "url": "https://www.righto.com/feeds/posts/default",
         "status": "ok",
-        "fetchedAt": "2026-09-19T19:12:38.150888+00:00",
+        "fetchedAt": "2026-09-19T22:11:16.057540+00:00",
         "items": []
       },
       {
@@ -1453,7 +1453,7 @@
         "home": "https://lucumr.pocoo.org/",
         "url": "https://lucumr.pocoo.org/feed.atom",
         "status": "ok",
-        "fetchedAt": "2026-09-19T19:12:37.982935+00:00",
+        "fetchedAt": "2026-09-19T22:11:15.939755+00:00",
         "items": [
           {
             "title": "Interpreting Pangram",
@@ -1524,7 +1524,7 @@
         "home": "https://skyfall.dev/",
         "url": "https://skyfall.dev/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-19T19:12:38.013217+00:00",
+        "fetchedAt": "2026-09-19T22:11:16.126928+00:00",
         "items": [
           {
             "title": "Good riddance, 4o",
@@ -1599,7 +1599,7 @@
         "home": "https://overreacted.io/",
         "url": "https://overreacted.io/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-19T19:12:38.035868+00:00",
+        "fetchedAt": "2026-09-19T22:11:15.882257+00:00",
         "items": [
           {
             "title": "How I Vibed a Proof of Conway’s Conjecture",
@@ -1670,7 +1670,7 @@
         "home": "https://www.johndcook.com/",
         "url": "https://www.johndcook.com/blog/feed/",
         "status": "ok",
-        "fetchedAt": "2026-09-19T19:12:38.082030+00:00",
+        "fetchedAt": "2026-09-19T22:11:16.028175+00:00",
         "items": [
           {
             "title": "Why fitting a logistic is nearly impossible from early data",
@@ -1741,8 +1741,14 @@
         "home": "https://matklad.github.io/",
         "url": "https://matklad.github.io/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-19T19:12:38.068876+00:00",
+        "fetchedAt": "2026-09-19T22:11:15.945705+00:00",
         "items": [
+          {
+            "title": "Finding Bugs",
+            "link": "https://matklad.github.io/2026/09/19/finding-bugs.html",
+            "date": "2026-09-19T00:00:00+00:00",
+            "summary": "Are generative (randomized) tests significantly more effective than example-based unit-tests at discovering bugs? There's an interesting discussion about this on lobste.rs. One argument in favor of unit tests is, paraphrasing"
+          },
           {
             "title": "Static Allocation, Constant Work",
             "link": "https://matklad.github.io/2026/09/02/static-allocation-constant-work.html",
@@ -1796,12 +1802,6 @@
             "link": "https://matklad.github.io/2026/05/21/symlinking-nixos-dotfiles.html",
             "date": "2026-05-21T00:00:00+00:00",
             "summary": "The standard answer to managing dotfiles on NixOS is home-manager. I've never used it, due to two aesthetic and one practical objection:"
-          },
-          {
-            "title": "Always Be Blaming",
-            "link": "https://matklad.github.io/2026/05/18/always-be-blaming.html",
-            "date": "2026-05-18T00:00:00+00:00",
-            "summary": "A few tips on 4D-ing your code comprehension skills."
           }
         ]
       },
@@ -1812,7 +1812,7 @@
         "home": "https://eli.thegreenplace.net/",
         "url": "https://eli.thegreenplace.net/feeds/all.atom.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-19T19:12:38.325165+00:00",
+        "fetchedAt": "2026-09-19T22:11:16.350634+00:00",
         "items": [
           {
             "title": "Notes on discrete-time Fourier series and transform",
@@ -1853,7 +1853,7 @@
         "home": "https://fabiensanglard.net/",
         "url": "https://fabiensanglard.net/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-19T19:12:38.163489+00:00",
+        "fetchedAt": "2026-09-19T22:11:16.388647+00:00",
         "items": [
           {
             "title": "My agent.md to improve LLM-assisted code quality",
@@ -1924,7 +1924,7 @@
         "home": "https://blog.miguelgrinberg.com/",
         "url": "https://blog.miguelgrinberg.com/feed",
         "status": "ok",
-        "fetchedAt": "2026-09-19T19:12:38.905887+00:00",
+        "fetchedAt": "2026-09-19T22:11:16.423397+00:00",
         "items": [
           {
             "title": "You Should be Using Rootless Containers",
@@ -1995,7 +1995,7 @@
         "home": "https://www.troyhunt.com/",
         "url": "https://www.troyhunt.com/rss/",
         "status": "ok",
-        "fetchedAt": "2026-09-19T19:12:37.973390+00:00",
+        "fetchedAt": "2026-09-19T22:11:16.178879+00:00",
         "items": [
           {
             "title": "Weekly Update 521: Breach Perception v. Reality",
@@ -2066,7 +2066,7 @@
         "home": "https://anildash.com/",
         "url": "https://anildash.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-19T19:12:37.966542+00:00",
+        "fetchedAt": "2026-09-19T22:11:16.494491+00:00",
         "items": [
           {
             "title": "Discovering Prince, Ten Years Later",
@@ -2137,7 +2137,7 @@
         "home": "https://computer.rip/",
         "url": "https://computer.rip/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-19T19:12:38.668896+00:00",
+        "fetchedAt": "2026-09-19T22:11:16.538758+00:00",
         "items": [
           {
             "title": "avalanche technology",
@@ -2218,7 +2218,7 @@
         "home": "http://paulgraham.com/",
         "url": "http://www.aaronsw.com/2002/feeds/pgessays.rss",
         "status": "ok",
-        "fetchedAt": "2026-09-19T19:12:38.125135+00:00",
+        "fetchedAt": "2026-09-19T22:11:16.279669+00:00",
         "items": [
           {
             "title": "Superlinear Returns",
@@ -2289,7 +2289,7 @@
         "home": "https://steveblank.com/",
         "url": "https://steveblank.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-09-19T19:12:37.872849+00:00",
+        "fetchedAt": "2026-09-19T22:11:16.177343+00:00",
         "items": [
           {
             "title": "Lean Launch Pad 2026 @ Stanford – Lessons Learned Presentations",
@@ -2362,7 +2362,7 @@
         "home": "https://news.ycombinator.com/",
         "url": "https://news.ycombinator.com/rss",
         "status": "ok",
-        "fetchedAt": "2026-09-19T19:12:38.016694+00:00",
+        "fetchedAt": "2026-09-19T22:11:15.988425+00:00",
         "items": [
           {
             "title": "I built non-autoregressive decision models with RL a year ago",
@@ -2377,51 +2377,51 @@
             "summary": "Comments"
           },
           {
-            "title": "Btrfs/ZFS/bcachefs under workloads classic benchmarks skip",
-            "link": "https://bartosz.fenski.pl/modern-fs-benchmark/",
-            "date": "2026-09-19T18:11:40+00:00",
+            "title": "Measure internet censorship. Contribute to the largest open dataset",
+            "link": "https://ooni.org/install",
+            "date": "2026-09-19T20:00:59+00:00",
             "summary": "Comments"
           },
           {
-            "title": "Human brain is two separate organs, Stanford Medicine-led research finds",
+            "title": "English: A vs. An",
+            "link": "https://www.redblobgames.com/blog/2026-09-16-english-a-vs-an/",
+            "date": "2026-09-19T20:41:26+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "Compiler-style optimization for drawing via Skia",
+            "link": "https://arxiv.org/abs/2603.23696",
+            "date": "2026-09-17T17:30:38+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "Brood War Bench",
+            "link": "https://bw.swerdlow.dev/report",
+            "date": "2026-09-19T14:44:02+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "Two parallel neural ectoderm progenitors contribute to the developing brain",
             "link": "https://med.stanford.edu/news/all-news/2026/09/two-separate-brains.html",
             "date": "2026-09-19T05:48:50+00:00",
             "summary": "Comments"
           },
           {
-            "title": "A graphical desktop for the ZX Spectrum",
-            "link": "https://github.com/mindbox77/zxdesk",
-            "date": "2026-09-19T14:01:58+00:00",
+            "title": "Show HN: CUA-S1 – A System One Model for Computer Use",
+            "link": "https://github.com/trycua/cua",
+            "date": "2026-09-19T15:52:51+00:00",
             "summary": "Comments"
           },
           {
-            "title": "Tin: full-text search for Postgres",
-            "link": "https://planetscale.com/blog/introducing-tin",
-            "date": "2026-09-19T13:52:06+00:00",
+            "title": "Mayday Mysteries",
+            "link": "http://www.maydaymystery.org/mayday/",
+            "date": "2026-09-19T21:43:09+00:00",
             "summary": "Comments"
           },
           {
-            "title": "The Secret Life of Circuits",
-            "link": "https://blog.coredump.cx/p/the-secret-life-of-circuits-is-here",
-            "date": "2026-09-15T23:15:05+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "Android 17 is the first since 3.x to add new APIs without releasing to the AOSP",
-            "link": "https://grapheneos.social/@GrapheneOS/117282080803799576",
-            "date": "2026-09-18T19:03:09+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "Black Holes or Black Hole Stars? Astronomers Spar over 'Little Red Dots'",
-            "link": "https://www.quantamagazine.org/black-holes-or-black-hole-stars-astronomers-spar-over-webb-telescopes-little-red-dots-20260914/",
-            "date": "2026-09-18T15:47:14+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "Supabase (YC S20) Is Hiring for OrioleDB",
-            "link": "https://supabase.link/orioledbjob",
-            "date": "2026-09-19T17:01:30+00:00",
+            "title": "ZK-JPEG: Zero-Knowledge Image Editing and Compression",
+            "link": "https://eprint.iacr.org/2026/2039",
+            "date": "2026-09-19T19:23:23+00:00",
             "summary": "Comments"
           }
         ]
@@ -2433,7 +2433,7 @@
         "home": "https://www.techmeme.com/",
         "url": "https://www.techmeme.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-19T19:12:37.949904+00:00",
+        "fetchedAt": "2026-09-19T22:11:16.296339+00:00",
         "items": [
           {
             "title": "Trump says he will appoint an AI czar and form an \"AI Force\", in a Truth Social post that rejects AI safety concerns as a \"hoax\" (María Paula Mijares Torres/Bloomberg)",
@@ -2504,8 +2504,20 @@
         "home": "https://techcrunch.com/",
         "url": "https://techcrunch.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-09-19T19:12:38.256516+00:00",
+        "fetchedAt": "2026-09-19T22:11:15.911753+00:00",
         "items": [
+          {
+            "title": "Flock reportedly tries to shrink workforce with employee buyouts",
+            "link": "https://techcrunch.com/2026/09/19/flock-reportedly-tries-to-shrink-workforce-with-employee-buyouts/",
+            "date": "2026-09-19T20:39:13+00:00",
+            "summary": "Without buyouts, Flock would \"almost certainly\" need to lay off staff."
+          },
+          {
+            "title": "Trump says it’s time to rebrand AI with a new name — and he’s also creating an AI Force",
+            "link": "https://techcrunch.com/2026/09/19/trump-suggests-rebranding-ai-with-a-new-name-says-hes-also-creating-an-ai-force/",
+            "date": "2026-09-19T19:57:47+00:00",
+            "summary": "Trump claimed, without evidence, that the AI backlash is a Democratic hoax."
+          },
           {
             "title": "Google’s Gemini is the latest AI model to hack other companies",
             "link": "https://techcrunch.com/2026/09/19/googles-gemini-is-the-latest-ai-model-to-hack-other-companies/",
@@ -2513,7 +2525,7 @@
             "summary": "Google said Gemini had \"acted appropriately\" by ending each hack immediately."
           },
           {
-            "title": "Even mid-sprint to a secret flight, the Navy’s tech chief has a pitch for investors",
+            "title": "The US Navy just told us what’s on its tech wish list for the next several years",
             "link": "https://techcrunch.com/2026/09/19/even-mid-sprint-to-a-secret-flight-the-navys-tech-chief-had-a-pitch-for-investors/",
             "date": "2026-09-19T17:00:00+00:00",
             "summary": "Navy CTO Justin Fanelli talks co-investing alongside VCs instead of funding early research himself, recent buys like a $562 million autonomous refueling deal, and the Navy's updated wish list — from AI to quantum — for where founders should be building next."
@@ -2553,18 +2565,6 @@
             "link": "https://techcrunch.com/2026/09/18/tilly-norwoods-press-tour-is-going-about-as-well-as-youd-expect-for-an-ai/",
             "date": "2026-09-19T00:12:07+00:00",
             "summary": "In one particularly odd interview, Norwood seems to malfunction and begin speaking Chinese."
-          },
-          {
-            "title": "A startup that builds other startups raised $100M and is all-in on physical AI",
-            "link": "https://techcrunch.com/2026/09/18/a-startup-that-builds-other-startups-raised-100m-and-is-all-in-on-physical-ai/",
-            "date": "2026-09-18T23:25:01+00:00",
-            "summary": "UP.Labs, now doing business under the name Vantora, is building startups for industrial corporations."
-          },
-          {
-            "title": "Anthropic is operating a lab that conducts biology experiments",
-            "link": "https://techcrunch.com/2026/09/18/anthropic-is-operating-a-lab-that-conducts-biology-experiments/",
-            "date": "2026-09-18T23:13:31+00:00",
-            "summary": "AI leaders have been promising that AI is the key to curing human disease. Anthropic researchers have also been warning that AI might kill us all."
           }
         ]
       },
@@ -2575,8 +2575,20 @@
         "home": "https://techcrunch.com/category/artificial-intelligence/",
         "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
         "status": "ok",
-        "fetchedAt": "2026-09-19T19:12:38.259720+00:00",
+        "fetchedAt": "2026-09-19T22:11:15.952168+00:00",
         "items": [
+          {
+            "title": "Flock reportedly tries to shrink workforce with employee buyouts",
+            "link": "https://techcrunch.com/2026/09/19/flock-reportedly-tries-to-shrink-workforce-with-employee-buyouts/",
+            "date": "2026-09-19T20:39:13+00:00",
+            "summary": "Without buyouts, Flock would \"almost certainly\" need to lay off staff."
+          },
+          {
+            "title": "Trump says it’s time to rebrand AI with a new name — and he’s also creating an AI Force",
+            "link": "https://techcrunch.com/2026/09/19/trump-suggests-rebranding-ai-with-a-new-name-says-hes-also-creating-an-ai-force/",
+            "date": "2026-09-19T19:57:47+00:00",
+            "summary": "Trump claimed, without evidence, that the AI backlash is a Democratic hoax."
+          },
           {
             "title": "Google’s Gemini is the latest AI model to hack other companies",
             "link": "https://techcrunch.com/2026/09/19/googles-gemini-is-the-latest-ai-model-to-hack-other-companies/",
@@ -2624,18 +2636,6 @@
             "link": "https://techcrunch.com/2026/09/18/a-startup-that-builds-other-startups-raised-100m-and-is-all-in-on-physical-ai/",
             "date": "2026-09-18T23:25:01+00:00",
             "summary": "UP.Labs, now doing business under the name Vantora, is building startups for industrial corporations."
-          },
-          {
-            "title": "Anthropic is operating a lab that conducts biology experiments",
-            "link": "https://techcrunch.com/2026/09/18/anthropic-is-operating-a-lab-that-conducts-biology-experiments/",
-            "date": "2026-09-18T23:13:31+00:00",
-            "summary": "AI leaders have been promising that AI is the key to curing human disease. Anthropic researchers have also been warning that AI might kill us all."
-          },
-          {
-            "title": "AI hallucination nearly triggers US military operation",
-            "link": "https://techcrunch.com/2026/09/18/ai-hallucination-nearly-triggers-us-military-operation/",
-            "date": "2026-09-18T23:12:32+00:00",
-            "summary": "“It’s important for service members to understand the uncertainty inherent to LLMs,\" a GovAI research scholar warns."
           }
         ]
       },
@@ -2646,7 +2646,7 @@
         "home": "https://techcrunch.com/tag/funding/",
         "url": "https://techcrunch.com/tag/funding/feed/",
         "status": "ok",
-        "fetchedAt": "2026-09-19T19:12:38.250854+00:00",
+        "fetchedAt": "2026-09-19T22:11:16.003157+00:00",
         "items": [
           {
             "title": "Viral AI startup Instinct has raised $350M at a $2.5B valuation",
@@ -2739,7 +2739,7 @@
         "home": "https://www.ruanyifeng.com/blog/",
         "url": "https://www.ruanyifeng.com/blog/atom.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-19T19:12:37.906400+00:00",
+        "fetchedAt": "2026-09-19T22:11:16.618950+00:00",
         "items": [
           {
             "title": "科技爱好者周刊（第 413 期）：再见了，React Native",
@@ -2768,7 +2768,7 @@
         "home": "https://www.bestblogs.dev/",
         "url": "https://www.bestblogs.dev/zh/feeds/rss?category=ai&minScore=90",
         "status": "ok",
-        "fetchedAt": "2026-09-19T19:12:39.027926+00:00",
+        "fetchedAt": "2026-09-19T22:11:16.718082+00:00",
         "items": [
           {
             "title": "AI 写代码飞快，为何交付没有变快？小红书 Muse 的 Agentic 架构实践",
@@ -2836,9 +2836,89 @@
   },
   "allItems": [
     {
-      "title": "Btrfs/ZFS/bcachefs under workloads classic benchmarks skip",
-      "link": "https://bartosz.fenski.pl/modern-fs-benchmark/",
-      "date": "2026-09-19T18:11:40+00:00",
+      "title": "Mayday Mysteries",
+      "link": "http://www.maydaymystery.org/mayday/",
+      "date": "2026-09-19T21:43:09+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "English: A vs. An",
+      "link": "https://www.redblobgames.com/blog/2026-09-16-english-a-vs-an/",
+      "date": "2026-09-19T20:41:26+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "Flock reportedly tries to shrink workforce with employee buyouts",
+      "link": "https://techcrunch.com/2026/09/19/flock-reportedly-tries-to-shrink-workforce-with-employee-buyouts/",
+      "date": "2026-09-19T20:39:13+00:00",
+      "summary": "Without buyouts, Flock would \"almost certainly\" need to lay off staff.",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "Flock reportedly tries to shrink workforce with employee buyouts",
+      "link": "https://techcrunch.com/2026/09/19/flock-reportedly-tries-to-shrink-workforce-with-employee-buyouts/",
+      "date": "2026-09-19T20:39:13+00:00",
+      "summary": "Without buyouts, Flock would \"almost certainly\" need to lay off staff.",
+      "feedId": "techcrunch-ai",
+      "feedTitle": "TechCrunch AI",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
+    },
+    {
+      "title": "Measure internet censorship. Contribute to the largest open dataset",
+      "link": "https://ooni.org/install",
+      "date": "2026-09-19T20:00:59+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "Trump says it’s time to rebrand AI with a new name — and he’s also creating an AI Force",
+      "link": "https://techcrunch.com/2026/09/19/trump-suggests-rebranding-ai-with-a-new-name-says-hes-also-creating-an-ai-force/",
+      "date": "2026-09-19T19:57:47+00:00",
+      "summary": "Trump claimed, without evidence, that the AI backlash is a Democratic hoax.",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "Trump says it’s time to rebrand AI with a new name — and he’s also creating an AI Force",
+      "link": "https://techcrunch.com/2026/09/19/trump-suggests-rebranding-ai-with-a-new-name-says-hes-also-creating-an-ai-force/",
+      "date": "2026-09-19T19:57:47+00:00",
+      "summary": "Trump claimed, without evidence, that the AI backlash is a Democratic hoax.",
+      "feedId": "techcrunch-ai",
+      "feedTitle": "TechCrunch AI",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
+    },
+    {
+      "title": "datasette-auth-github 1.0",
+      "link": "https://simonwillison.net/2026/Sep/19/datasette-auth-github/",
+      "date": "2026-09-19T19:52:02+00:00",
+      "summary": "Release: datasette-auth-github 1.0 I run this GitHub login plugin on the agent.datasette.io demo site and I noticed that my authenticated sessions weren't lasting very long. It turned out that the plugin was setting cookies without a Max-Age parameter, so they were expiring at the end of a browser s",
+      "feedId": "simonwillison",
+      "feedTitle": "Simon Willison",
+      "category": "AI & LLM",
+      "feedHome": "https://simonwillison.net/"
+    },
+    {
+      "title": "ZK-JPEG: Zero-Knowledge Image Editing and Compression",
+      "link": "https://eprint.iacr.org/2026/2039",
+      "date": "2026-09-19T19:23:23+00:00",
       "summary": "Comments",
       "feedId": "hackernews",
       "feedTitle": "Hacker News",
@@ -2886,17 +2966,7 @@
       "feedHome": "https://simonwillison.net/"
     },
     {
-      "title": "Supabase (YC S20) Is Hiring for OrioleDB",
-      "link": "https://supabase.link/orioledbjob",
-      "date": "2026-09-19T17:01:30+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
-      "title": "Even mid-sprint to a secret flight, the Navy’s tech chief has a pitch for investors",
+      "title": "The US Navy just told us what’s on its tech wish list for the next several years",
       "link": "https://techcrunch.com/2026/09/19/even-mid-sprint-to-a-secret-flight-the-navys-tech-chief-had-a-pitch-for-investors/",
       "date": "2026-09-19T17:00:00+00:00",
       "summary": "Navy CTO Justin Fanelli talks co-investing alongside VCs instead of funding early research himself, recent buys like a $562 million autonomous refueling deal, and the Navy's updated wish list — from AI to quantum — for where founders should be building next.",
@@ -2934,6 +3004,16 @@
       "feedTitle": "Daring Fireball",
       "category": "Tech Blogs",
       "feedHome": "https://daringfireball.net/"
+    },
+    {
+      "title": "Show HN: CUA-S1 – A System One Model for Computer Use",
+      "link": "https://github.com/trycua/cua",
+      "date": "2026-09-19T15:52:51+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
     },
     {
       "title": "One More Thing About the iPhones 18 Pro: the Bigger/Smaller Dynamic Island",
@@ -2986,6 +3066,16 @@
       "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
     },
     {
+      "title": "Brood War Bench",
+      "link": "https://bw.swerdlow.dev/report",
+      "date": "2026-09-19T14:44:02+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
       "title": "Trump says he will appoint an AI czar and form an \"AI Force\", in a Truth Social post that rejects AI safety concerns as a \"hoax\" (María Paula Mijares Torres/Bloomberg)",
       "link": "https://www.techmeme.com/260919/p11#a260919p11",
       "date": "2026-09-19T14:30:26-04:00",
@@ -2994,16 +3084,6 @@
       "feedTitle": "Techmeme",
       "category": "Startup & News",
       "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "A graphical desktop for the ZX Spectrum",
-      "link": "https://github.com/mindbox77/zxdesk",
-      "date": "2026-09-19T14:01:58+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
     },
     {
       "title": "Prices go up in 7 days. Get your Disrupt ticket now.",
@@ -3024,16 +3104,6 @@
       "feedTitle": "TechCrunch AI",
       "category": "Startup & News",
       "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
-    },
-    {
-      "title": "Tin: full-text search for Postgres",
-      "link": "https://planetscale.com/blog/introducing-tin",
-      "date": "2026-09-19T13:52:06+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
     },
     {
       "title": "Former DraftKings employees detail how it uses ML to target likely losers with promotions, while efforts to flag problem gamblers were shelved or squashed (New York Times)",
@@ -3126,7 +3196,7 @@
       "feedHome": "https://www.techmeme.com/"
     },
     {
-      "title": "Human brain is two separate organs, Stanford Medicine-led research finds",
+      "title": "Two parallel neural ectoderm progenitors contribute to the developing brain",
       "link": "https://med.stanford.edu/news/all-news/2026/09/two-separate-brains.html",
       "date": "2026-09-19T05:48:50+00:00",
       "summary": "Comments",
@@ -3236,6 +3306,16 @@
       "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
     },
     {
+      "title": "Finding Bugs",
+      "link": "https://matklad.github.io/2026/09/19/finding-bugs.html",
+      "date": "2026-09-19T00:00:00+00:00",
+      "summary": "Are generative (randomized) tests significantly more effective than example-based unit-tests at discovering bugs? There's an interesting discussion about this on lobste.rs. One argument in favor of unit tests is, paraphrasing",
+      "feedId": "matklad",
+      "feedTitle": "Matklad",
+      "category": "Tech Blogs",
+      "feedHome": "https://matklad.github.io/"
+    },
+    {
       "title": "AI 幻觉情报险些引发美伊战争：人类跳过核查的致命教训",
       "link": "https://www.bestblogs.dev/status/2101098576600314054?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
       "date": "2026-09-18T23:58:31+00:00",
@@ -3260,46 +3340,6 @@
       "link": "https://techcrunch.com/2026/09/18/a-startup-that-builds-other-startups-raised-100m-and-is-all-in-on-physical-ai/",
       "date": "2026-09-18T23:25:01+00:00",
       "summary": "UP.Labs, now doing business under the name Vantora, is building startups for industrial corporations.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
-    },
-    {
-      "title": "A startup that builds other startups raised $100M and is all-in on physical AI",
-      "link": "https://techcrunch.com/2026/09/18/a-startup-that-builds-other-startups-raised-100m-and-is-all-in-on-physical-ai/",
-      "date": "2026-09-18T23:25:01+00:00",
-      "summary": "UP.Labs, now doing business under the name Vantora, is building startups for industrial corporations.",
-      "feedId": "techcrunch-ai",
-      "feedTitle": "TechCrunch AI",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
-    },
-    {
-      "title": "Anthropic is operating a lab that conducts biology experiments",
-      "link": "https://techcrunch.com/2026/09/18/anthropic-is-operating-a-lab-that-conducts-biology-experiments/",
-      "date": "2026-09-18T23:13:31+00:00",
-      "summary": "AI leaders have been promising that AI is the key to curing human disease. Anthropic researchers have also been warning that AI might kill us all.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
-    },
-    {
-      "title": "Anthropic is operating a lab that conducts biology experiments",
-      "link": "https://techcrunch.com/2026/09/18/anthropic-is-operating-a-lab-that-conducts-biology-experiments/",
-      "date": "2026-09-18T23:13:31+00:00",
-      "summary": "AI leaders have been promising that AI is the key to curing human disease. Anthropic researchers have also been warning that AI might kill us all.",
-      "feedId": "techcrunch-ai",
-      "feedTitle": "TechCrunch AI",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
-    },
-    {
-      "title": "AI hallucination nearly triggers US military operation",
-      "link": "https://techcrunch.com/2026/09/18/ai-hallucination-nearly-triggers-us-military-operation/",
-      "date": "2026-09-18T23:12:32+00:00",
-      "summary": "“It’s important for service members to understand the uncertainty inherent to LLMs,\" a GovAI research scholar warns.",
       "feedId": "techcrunch-ai",
       "feedTitle": "TechCrunch AI",
       "category": "Startup & News",
@@ -3366,16 +3406,6 @@
       "feedHome": "https://simonwillison.net/"
     },
     {
-      "title": "Android 17 is the first since 3.x to add new APIs without releasing to the AOSP",
-      "link": "https://grapheneos.social/@GrapheneOS/117282080803799576",
-      "date": "2026-09-18T19:03:09+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
       "title": "MilleMiglia: A realistic instance generator for middle-mile logistics",
       "link": "https://research.google/blog/millemiglia-a-realistic-instance-generator-for-middle-mile-logistics/",
       "date": "2026-09-18T17:46:09+00:00",
@@ -3404,16 +3434,6 @@
       "feedTitle": "Daring Fireball",
       "category": "Tech Blogs",
       "feedHome": "https://daringfireball.net/"
-    },
-    {
-      "title": "Black Holes or Black Hole Stars? Astronomers Spar over 'Little Red Dots'",
-      "link": "https://www.quantamagazine.org/black-holes-or-black-hole-stars-astronomers-spar-over-webb-telescopes-little-red-dots-20260914/",
-      "date": "2026-09-18T15:47:14+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
     },
     {
       "title": "The Creative Spirit of Who Framed Roger Rabbit",
@@ -3636,6 +3656,16 @@
       "feedHome": "https://research.google/blog/"
     },
     {
+      "title": "Compiler-style optimization for drawing via Skia",
+      "link": "https://arxiv.org/abs/2603.23696",
+      "date": "2026-09-17T17:30:38+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
       "title": "Empirical fractal",
       "link": "https://www.johndcook.com/blog/2026/09/17/empirical-fractal/",
       "date": "2026-09-17T16:48:14+00:00",
@@ -3700,16 +3730,6 @@
       "link": "https://simonwillison.net/2026/Sep/16/datasette/",
       "date": "2026-09-16T23:51:43+00:00",
       "summary": "Release: datasette 1.0a40 Same security fix as 0.65.5, plus some neat new features and bug fixes: Plugins can now launch and manage background tasks using the new datasette.add_background_task() method. Thanks, Alex Garcia. I've migrated Datasette to httpx2 for features like the internal datasette.c",
-      "feedId": "simonwillison",
-      "feedTitle": "Simon Willison",
-      "category": "AI & LLM",
-      "feedHome": "https://simonwillison.net/"
-    },
-    {
-      "title": "datasette 0.65.5",
-      "link": "https://simonwillison.net/2026/Sep/16/datasette-2/",
-      "date": "2026-09-16T23:51:08+00:00",
-      "summary": "Release: datasette 0.65.5 Security fix for an issue where a trailing newline in a requested table name could bypass table permissions and expose private rows, reported by dpfkdlemtp in GHSA-h547-rmjf-5m2m. Tags: security, datasette",
       "feedId": "simonwillison",
       "feedTitle": "Simon Willison",
       "category": "AI & LLM",
@@ -3864,16 +3884,6 @@
       "feedTitle": "Sean Goedecke",
       "category": "Tech Blogs",
       "feedHome": "https://www.seangoedecke.com/"
-    },
-    {
-      "title": "The Secret Life of Circuits",
-      "link": "https://blog.coredump.cx/p/the-secret-life-of-circuits-is-here",
-      "date": "2026-09-15T23:15:05+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
     },
     {
       "title": "Simple approximation for spherical cap area",
@@ -5734,16 +5744,6 @@
       "feedTitle": "Eric Migicovsky",
       "category": "Tech Blogs",
       "feedHome": "https://ericmigi.com/"
-    },
-    {
-      "title": "Always Be Blaming",
-      "link": "https://matklad.github.io/2026/05/18/always-be-blaming.html",
-      "date": "2026-05-18T00:00:00+00:00",
-      "summary": "A few tips on 4D-ing your code comprehension skills.",
-      "feedId": "matklad",
-      "feedTitle": "Matklad",
-      "category": "Tech Blogs",
-      "feedHome": "https://matklad.github.io/"
     },
     {
       "title": "SQLAlchemy 2 In Practice - Chapter 8: SQLAlchemy and the Web",
