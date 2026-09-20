@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-20T21:12:43.987812+00:00",
+  "updatedAt": "2026-09-20T23:54:52.245938+00:00",
   "totalFeeds": 51,
   "successCount": 43,
   "failedCount": 8,
@@ -22,8 +22,26 @@
         "home": "https://simonwillison.net/",
         "url": "https://simonwillison.net/atom/everything/",
         "status": "ok",
-        "fetchedAt": "2026-09-20T21:12:33.219621+00:00",
+        "fetchedAt": "2026-09-20T23:54:42.391723+00:00",
         "items": [
+          {
+            "title": "Quoting voxium",
+            "link": "https://simonwillison.net/2026/Sep/20/voxium/",
+            "date": "2026-09-20T21:06:43+00:00",
+            "summary": "It has been half a month since I started a new role at a big company. Nobody knows anything here. The specs, code, tests, PRDs, tickets, resolution of those tickets, reports, etc., everything is made by Claude Code. Nobody on my team likes this. They are being forced to ship as much as they can. I h"
+          },
+          {
+            "title": "llm-keys-ui 0.1",
+            "link": "https://simonwillison.net/2026/Sep/20/llm-keys-ui/",
+            "date": "2026-09-20T19:22:19+00:00",
+            "summary": "Release: llm-keys-ui 0.1 This plugin solves a very specific problem. I've started using Codex Remote to run coding agents on various machines while controlling them from my phone. Sometimes I use those machines to hack on LLM projects, and occasionally that means I need to configure an API key. I do"
+          },
+          {
+            "title": "datasette-explain 0.2.2",
+            "link": "https://simonwillison.net/2026/Sep/20/datasette-explain/",
+            "date": "2026-09-20T00:22:04+00:00",
+            "summary": "Release: datasette-explain 0.2.2 Explain plans now work on read-only stored-query pages. I upgraded datasette.simonwillison.net to Datasette 1.0a40, which inspired me to ship a new version of this explain plugin. Tags: sqlite, datasette"
+          },
           {
             "title": "datasette-auth-github 1.0",
             "link": "https://simonwillison.net/2026/Sep/19/datasette-auth-github/",
@@ -65,24 +83,6 @@
             "link": "https://simonwillison.net/2026/Sep/17/targeted-attacks-on-rustaceans/",
             "date": "2026-09-17T23:59:19+00:00",
             "summary": "Be alert: targeted attacks on prominent Rustaceans Important warning from Adam Harvey and the crates security team: We believe that there is an ongoing campaign targeting rust-lang members and owners of popular crates that is attempting to compromise devices and accounts in order to use them to publ"
-          },
-          {
-            "title": "How To Write With An LLM",
-            "link": "https://simonwillison.net/2026/Sep/17/how-to-write-with-an-llm/",
-            "date": "2026-09-17T23:37:27+00:00",
-            "summary": "How To Write With An LLM Thomas Ptacek on using LLMs as copyeditors, not as writing assistants: Rule Number One: You may not use a single word an LLM suggests to you. [...] I think that as a form of intellectual personal protective equipment you should adopt the rule that any specific turn of phrase"
-          },
-          {
-            "title": "Self-generated prompt injections in compaction summaries",
-            "link": "https://simonwillison.net/2026/Sep/17/compaction-summaries/",
-            "date": "2026-09-17T20:57:55+00:00",
-            "summary": "Self-generated prompt injections in compaction summaries In Our framework for reporting model misalignment OpenAI provide \"six reports on unexpected or concerning model behavior we’ve observed in the last six months\". This one here is my favorite: they caught some of their models in training deliber"
-          },
-          {
-            "title": "datasette 1.0a40",
-            "link": "https://simonwillison.net/2026/Sep/16/datasette/",
-            "date": "2026-09-16T23:51:43+00:00",
-            "summary": "Release: datasette 1.0a40 Same security fix as 0.65.5, plus some neat new features and bug fixes: Plugins can now launch and manage background tasks using the new datasette.add_background_task() method. Thanks, Alex Garcia. I've migrated Datasette to httpx2 for features like the internal datasette.c"
           }
         ]
       },
@@ -93,7 +93,7 @@
         "home": "https://openai.com/news/",
         "url": "https://openai.com/news/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-20T21:12:33.324771+00:00",
+        "fetchedAt": "2026-09-20T23:54:42.358796+00:00",
         "items": [
           {
             "title": "Introducing the Australian Youth Safety Blueprint",
@@ -164,7 +164,7 @@
         "home": "https://arxiv.org/list/cs.AI/recent",
         "url": "https://arxiv.org/rss/cs.AI",
         "status": "ok",
-        "fetchedAt": "2026-09-20T21:12:33.362972+00:00",
+        "fetchedAt": "2026-09-20T23:54:42.501570+00:00",
         "items": []
       },
       {
@@ -174,7 +174,7 @@
         "home": "https://arxiv.org/list/cs.LG/recent",
         "url": "https://arxiv.org/rss/cs.LG",
         "status": "ok",
-        "fetchedAt": "2026-09-20T21:12:33.395579+00:00",
+        "fetchedAt": "2026-09-20T23:54:42.514779+00:00",
         "items": []
       },
       {
@@ -184,7 +184,7 @@
         "home": "https://research.google/blog/",
         "url": "https://research.google/blog/rss/",
         "status": "ok",
-        "fetchedAt": "2026-09-20T21:12:33.474496+00:00",
+        "fetchedAt": "2026-09-20T23:54:42.433063+00:00",
         "items": [
           {
             "title": "MilleMiglia: A realistic instance generator for middle-mile logistics",
@@ -255,7 +255,7 @@
         "home": "https://deepmind.google/blog/",
         "url": "https://deepmind.google/blog/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-20T21:12:33.617796+00:00",
+        "fetchedAt": "2026-09-20T23:54:42.468261+00:00",
         "items": [
           {
             "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
@@ -326,7 +326,7 @@
         "home": "https://lilianweng.github.io/",
         "url": "https://lilianweng.github.io/lil-log/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-20T21:12:33.201101+00:00",
+        "fetchedAt": "2026-09-20T23:54:42.250339+00:00",
         "items": [
           {
             "title": "Active Learning",
@@ -417,7 +417,7 @@
         "home": "https://minimaxir.com/",
         "url": "https://minimaxir.com/index.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-20T21:12:33.378072+00:00",
+        "fetchedAt": "2026-09-20T23:54:42.427361+00:00",
         "items": [
           {
             "title": "LLMs break down in funny ways when told the Jacobian Conjecture counterargument",
@@ -500,7 +500,7 @@
         "home": "https://www.jeffgeerling.com/",
         "url": "https://www.jeffgeerling.com/blog.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-20T21:12:33.361993+00:00",
+        "fetchedAt": "2026-09-20T23:54:42.420295+00:00",
         "items": [
           {
             "title": "NTP, an atomic clock, and having a great time at the world's largest VCF",
@@ -571,7 +571,7 @@
         "home": "https://www.seangoedecke.com/",
         "url": "https://www.seangoedecke.com/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-20T21:12:33.355300+00:00",
+        "fetchedAt": "2026-09-20T23:54:42.415795+00:00",
         "items": [
           {
             "title": "Grit your teeth and ship it",
@@ -642,7 +642,7 @@
         "home": "https://krebsonsecurity.com/",
         "url": "https://krebsonsecurity.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-09-20T21:12:33.358434+00:00",
+        "fetchedAt": "2026-09-20T23:54:42.409225+00:00",
         "items": [
           {
             "title": "Data Broker Radaris Loses Domains in Privacy Fight",
@@ -713,7 +713,7 @@
         "home": "https://daringfireball.net/",
         "url": "https://daringfireball.net/feeds/main",
         "status": "ok",
-        "fetchedAt": "2026-09-20T21:12:33.260724+00:00",
+        "fetchedAt": "2026-09-20T23:54:42.523763+00:00",
         "items": [
           {
             "title": "WorkOS: How SSO Works and the Fastest Way to Add It",
@@ -784,7 +784,7 @@
         "home": "https://ericmigi.com/",
         "url": "https://ericmigi.com/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-20T21:12:33.365575+00:00",
+        "fetchedAt": "2026-09-20T23:54:42.398898+00:00",
         "items": [
           {
             "title": "New Pebble Weather App + Software Updates",
@@ -855,7 +855,7 @@
         "home": "http://antirez.com/",
         "url": "http://antirez.com/rss",
         "status": "ok",
-        "fetchedAt": "2026-09-20T21:12:35.822015+00:00",
+        "fetchedAt": "2026-09-20T23:54:44.046506+00:00",
         "items": [
           {
             "title": "The real AI risk is inside the labs",
@@ -926,7 +926,7 @@
         "home": "https://idiallo.com/",
         "url": "https://idiallo.com/feed.rss",
         "status": "ok",
-        "fetchedAt": "2026-09-20T21:12:33.681268+00:00",
+        "fetchedAt": "2026-09-20T23:54:42.438917+00:00",
         "items": [
           {
             "title": "The Front Page of the Internet Is Up for Grabs",
@@ -997,7 +997,7 @@
         "home": "https://maurycyz.com/",
         "url": "https://maurycyz.com/index.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-20T21:12:34.208808+00:00",
+        "fetchedAt": "2026-09-20T23:54:42.959272+00:00",
         "items": []
       },
       {
@@ -1007,7 +1007,7 @@
         "home": "https://pluralistic.net/",
         "url": "https://pluralistic.net/feed/",
         "status": "ok",
-        "fetchedAt": "2026-09-20T21:12:35.766899+00:00",
+        "fetchedAt": "2026-09-20T23:54:44.637279+00:00",
         "items": [
           {
             "title": "Pluralistic: Textured (18 Sep 2026)",
@@ -1078,7 +1078,7 @@
         "home": "https://shkspr.mobi/blog/",
         "url": "https://shkspr.mobi/blog/feed/",
         "status": "ok",
-        "fetchedAt": "2026-09-20T21:12:34.176811+00:00",
+        "fetchedAt": "2026-09-20T23:54:42.951055+00:00",
         "items": [
           {
             "title": "Book Review: How to Build a Space Station by Jonathan Morrison ★★★⯪☆",
@@ -1159,7 +1159,7 @@
         "home": "https://mitchellh.com/",
         "url": "https://mitchellh.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-20T21:12:33.532636+00:00",
+        "fetchedAt": "2026-09-20T23:54:42.798584+00:00",
         "items": [
           {
             "title": "Superlogical",
@@ -1230,7 +1230,7 @@
         "home": "https://dynomight.net/",
         "url": "https://dynomight.net/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-20T21:12:33.579498+00:00",
+        "fetchedAt": "2026-09-20T23:54:42.865091+00:00",
         "items": [
           {
             "title": "Thoughts I had while reading your comment",
@@ -1301,7 +1301,7 @@
         "home": "https://xeiaso.net/",
         "url": "https://xeiaso.net/blog.rss",
         "status": "ok",
-        "fetchedAt": "2026-09-20T21:12:34.030270+00:00",
+        "fetchedAt": "2026-09-20T23:54:42.737991+00:00",
         "items": [
           {
             "title": "This is why we play",
@@ -1372,7 +1372,7 @@
         "home": "https://devblogs.microsoft.com/oldnewthing/",
         "url": "https://devblogs.microsoft.com/oldnewthing/feed",
         "status": "ok",
-        "fetchedAt": "2026-09-20T21:12:33.481297+00:00",
+        "fetchedAt": "2026-09-20T23:54:42.599711+00:00",
         "items": [
           {
             "title": "std::call_once vs. std::async",
@@ -1443,7 +1443,7 @@
         "home": "https://www.righto.com/",
         "url": "https://www.righto.com/feeds/posts/default",
         "status": "ok",
-        "fetchedAt": "2026-09-20T21:12:33.693250+00:00",
+        "fetchedAt": "2026-09-20T23:54:42.813576+00:00",
         "items": []
       },
       {
@@ -1453,7 +1453,7 @@
         "home": "https://lucumr.pocoo.org/",
         "url": "https://lucumr.pocoo.org/feed.atom",
         "status": "ok",
-        "fetchedAt": "2026-09-20T21:12:33.660434+00:00",
+        "fetchedAt": "2026-09-20T23:54:42.821480+00:00",
         "items": [
           {
             "title": "Interpreting Pangram",
@@ -1524,7 +1524,7 @@
         "home": "https://skyfall.dev/",
         "url": "https://skyfall.dev/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-20T21:12:33.623789+00:00",
+        "fetchedAt": "2026-09-20T23:54:42.658818+00:00",
         "items": [
           {
             "title": "Good riddance, 4o",
@@ -1599,7 +1599,7 @@
         "home": "https://overreacted.io/",
         "url": "https://overreacted.io/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-20T21:12:33.424136+00:00",
+        "fetchedAt": "2026-09-20T23:54:42.824553+00:00",
         "items": [
           {
             "title": "How I Vibed a Proof of Conway’s Conjecture",
@@ -1670,7 +1670,7 @@
         "home": "https://www.johndcook.com/",
         "url": "https://www.johndcook.com/blog/feed/",
         "status": "ok",
-        "fetchedAt": "2026-09-20T21:12:33.587216+00:00",
+        "fetchedAt": "2026-09-20T23:54:42.654268+00:00",
         "items": [
           {
             "title": "Why fitting a logistic is nearly impossible from early data",
@@ -1741,7 +1741,7 @@
         "home": "https://matklad.github.io/",
         "url": "https://matklad.github.io/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-20T21:12:33.426793+00:00",
+        "fetchedAt": "2026-09-20T23:54:42.537249+00:00",
         "items": [
           {
             "title": "Finding Bugs",
@@ -1812,7 +1812,7 @@
         "home": "https://eli.thegreenplace.net/",
         "url": "https://eli.thegreenplace.net/feeds/all.atom.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-20T21:12:33.678060+00:00",
+        "fetchedAt": "2026-09-20T23:54:42.488651+00:00",
         "items": [
           {
             "title": "Notes on discrete-time Fourier series and transform",
@@ -1853,7 +1853,7 @@
         "home": "https://fabiensanglard.net/",
         "url": "https://fabiensanglard.net/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-20T21:12:33.666720+00:00",
+        "fetchedAt": "2026-09-20T23:54:42.544404+00:00",
         "items": [
           {
             "title": "My agent.md to improve LLM-assisted code quality",
@@ -1924,7 +1924,7 @@
         "home": "https://blog.miguelgrinberg.com/",
         "url": "https://blog.miguelgrinberg.com/feed",
         "status": "ok",
-        "fetchedAt": "2026-09-20T21:12:34.294145+00:00",
+        "fetchedAt": "2026-09-20T23:54:43.231199+00:00",
         "items": [
           {
             "title": "You Should be Using Rootless Containers",
@@ -1995,7 +1995,7 @@
         "home": "https://www.troyhunt.com/",
         "url": "https://www.troyhunt.com/rss/",
         "status": "ok",
-        "fetchedAt": "2026-09-20T21:12:33.627385+00:00",
+        "fetchedAt": "2026-09-20T23:54:42.771729+00:00",
         "items": [
           {
             "title": "Weekly Update 521: Breach Perception v. Reality",
@@ -2066,7 +2066,7 @@
         "home": "https://anildash.com/",
         "url": "https://anildash.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-20T21:12:33.558898+00:00",
+        "fetchedAt": "2026-09-20T23:54:42.833345+00:00",
         "items": [
           {
             "title": "Discovering Prince, Ten Years Later",
@@ -2137,8 +2137,14 @@
         "home": "https://computer.rip/",
         "url": "https://computer.rip/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-20T21:12:34.264382+00:00",
+        "fetchedAt": "2026-09-20T23:54:43.191262+00:00",
         "items": [
+          {
+            "title": "a new world airport and its baggage",
+            "link": "https://computer.rip/2026-09-20-denver-baggage.html",
+            "date": "2026-09-20T00:00:00+00:00",
+            "summary": "Aviation came to Denver mainly in the form of mail. Like much of the inland West, the first airfields served a smattering of passenger flights (both expensive and uncomfortable in the 1930s) and a regular schedule of contract mail carriers. Postal Service air mail contracts built many of the nation'"
+          },
           {
             "title": "avalanche technology",
             "link": "https://computer.rip/2026-09-05-avalanche.html",
@@ -2192,12 +2198,6 @@
             "link": "https://computer.rip/2026-04-26-voice-modems.html",
             "date": "2026-04-26T00:00:00+00:00",
             "summary": "If you've done much with modern cellphones, you've probably noticed just how odd the architecture can be around audio. Specifically, I mean call audio: modern smartphones have made call audio less of a special case (mostly by just becoming more complicated in general), but in older phones you would "
-          },
-          {
-            "title": "IrDA",
-            "link": "https://computer.rip/2026-04-11-IrDA.html",
-            "date": "2026-04-11T00:00:00+00:00",
-            "summary": "Light: it's the radiation we can see. The communications potential of light is obvious, and indeed, many of the earliest forms of long-distance communication relied on it: signal fires, semaphore, heliographs. You could say that we still make extensive use of light for communications today, in the f"
           }
         ]
       },
@@ -2218,7 +2218,7 @@
         "home": "http://paulgraham.com/",
         "url": "http://www.aaronsw.com/2002/feeds/pgessays.rss",
         "status": "ok",
-        "fetchedAt": "2026-09-20T21:12:33.536452+00:00",
+        "fetchedAt": "2026-09-20T23:54:42.777183+00:00",
         "items": [
           {
             "title": "Superlinear Returns",
@@ -2289,7 +2289,7 @@
         "home": "https://steveblank.com/",
         "url": "https://steveblank.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-09-20T21:12:33.410078+00:00",
+        "fetchedAt": "2026-09-20T23:54:42.513182+00:00",
         "items": [
           {
             "title": "Lean Launch Pad 2026 @ Stanford – Lessons Learned Presentations",
@@ -2362,12 +2362,30 @@
         "home": "https://news.ycombinator.com/",
         "url": "https://news.ycombinator.com/rss",
         "status": "ok",
-        "fetchedAt": "2026-09-20T21:12:33.669290+00:00",
+        "fetchedAt": "2026-09-20T23:54:42.686919+00:00",
         "items": [
+          {
+            "title": "Google's Open Agentic Orchestrator",
+            "link": "https://agentexecutor.io",
+            "date": "2026-09-20T22:32:43+00:00",
+            "summary": "Comments"
+          },
           {
             "title": "Samsung is expected to more than double output of its HBM4 and HBM4E DRAM",
             "link": "https://en.sedaily.com/finance/2026/09/20/samsung-to-double-hbm4-output-next-year-sources-say",
             "date": "2026-09-20T17:38:50+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "What Happened to the Snowden Archive",
+            "link": "https://libroot.org/posts/what-happened-to-the-snowden-archive",
+            "date": "2026-09-20T22:35:49+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "Nobody pays for FOSS, we can force them to",
+            "link": "https://seldo.com/posts/nobody-pays-for-open-source-we-can-force-them-to/",
+            "date": "2026-09-20T21:04:32+00:00",
             "summary": "Comments"
           },
           {
@@ -2380,6 +2398,12 @@
             "title": "Qwen Image 2.1",
             "link": "https://qwen.ai/blog?id=qwen-image-2.1",
             "date": "2026-09-20T13:09:25+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "The Effect of CRTs on Pixel Art",
+            "link": "https://datagubbe.se/crt/",
+            "date": "2026-09-19T17:14:51+00:00",
             "summary": "Comments"
           },
           {
@@ -2399,30 +2423,6 @@
             "link": "https://www.gadgetreview.com/singapore-is-paying-people-to-put-down-their-phones-and-read-books",
             "date": "2026-09-20T15:18:05+00:00",
             "summary": "Comments"
-          },
-          {
-            "title": "A Necessary History of the Oddest Letter: W",
-            "link": "https://lithub.com/a-necessary-history-of-the-oddest-letter-w/",
-            "date": "2026-09-20T17:55:57+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "I turned Jev into a (lousy) chatbot",
-            "link": "https://github.com/kyle-pena-nlp/jevchat/",
-            "date": "2026-09-20T17:51:27+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "Software Sandboxing: The Basics (2025)",
-            "link": "https://blog.emilua.org/2025/01/12/software-sandboxing-basics/",
-            "date": "2026-09-20T18:42:47+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "Laya (OS Jev) on Mac M4 CoreML Offline (45 decisions per second)",
-            "link": "https://gist.github.com/fordnox/e592d0f68b543fd044be8e6d040863a0",
-            "date": "2026-09-20T15:58:52+00:00",
-            "summary": "Comments"
           }
         ]
       },
@@ -2433,8 +2433,20 @@
         "home": "https://www.techmeme.com/",
         "url": "https://www.techmeme.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-20T21:12:33.463671+00:00",
+        "fetchedAt": "2026-09-20T23:54:43.128408+00:00",
         "items": [
+          {
+            "title": "China has made AI a national mission, but local workers' fear of displacement mirrors worries abroad, and potential for social unrest may force CCP to slow down (Michael Schuman/The Atlantic)",
+            "link": "https://www.techmeme.com/260920/p14#a260920p14",
+            "date": "2026-09-20T19:15:01-04:00",
+            "summary": "Michael Schuman / The Atlantic: China has made AI a national mission, but local workers' fear of displacement mirrors worries abroad, and potential for social unrest may force CCP to slow down&nbsp; &mdash;&nbsp; A top-down tech revolution is harder to manage than a bottom-up one.&nbsp; &mdash;&nbsp"
+          },
+          {
+            "title": "Alibaba releases Qwen-Image-2.1, a 7B open-weight model it says outperforms most closed-source models, with native transparency and up to ten reference images (Qwen)",
+            "link": "https://www.techmeme.com/260920/p13#a260920p13",
+            "date": "2026-09-20T17:40:01-04:00",
+            "summary": "Qwen: Alibaba releases Qwen-Image-2.1, a 7B open-weight model it says outperforms most closed-source models, with native transparency and up to ten reference images&nbsp; &mdash;&nbsp; &middot; QwenTeam&#20008;Translations:.&#20307;&#20013;&#25991;&nbsp; &mdash;&nbsp; We are excited to open-source Q"
+          },
           {
             "title": "Jensen Huang says AI leaders calling for regulation don't want new legislation, but to be \"relieved of the laws we do have\" because of \"ulterior reasons\" (Truman Dickerson/Business Insider)",
             "link": "https://www.techmeme.com/260920/p12#a260920p12",
@@ -2482,18 +2494,6 @@
             "link": "https://www.techmeme.com/260920/p5#a260920p5",
             "date": "2026-09-20T02:02:29-04:00",
             "summary": "Sarah Neville / Financial Times: Clinicians raise concerns over medical AI adoption beyond diagnostics and imaging, citing limited clinical and performance data on its broader effectiveness&nbsp; &mdash;&nbsp; The technology's advances have not yet translated into big improvements in real-life care."
-          },
-          {
-            "title": "Alibaba's Damo Academy open sources RADAR, a medical vision-language model it says can read CT scans and identify ~150 abdominal conditions, including cancers (Ann Cao/South China Morning Post)",
-            "link": "https://www.techmeme.com/260920/p4#a260920p4",
-            "date": "2026-09-20T01:30:59-04:00",
-            "summary": "Ann Cao / South China Morning Post: Alibaba's Damo Academy open sources RADAR, a medical vision-language model it says can read CT scans and identify ~150 abdominal conditions, including cancers&nbsp; &mdash;&nbsp; Tested on nearly 40,000 real-world exams, the model outperformed most radiologists, a"
-          },
-          {
-            "title": "Chinese DRAM chipmaker CXMT says its new fifth-gen technology platform enters mass production and unveils two 24Gb LPDDR5X phone memory products built on it (Reuters)",
-            "link": "https://www.techmeme.com/260920/p3#a260920p3",
-            "date": "2026-09-20T01:20:02-04:00",
-            "summary": "Reuters: Chinese DRAM chipmaker CXMT says its new fifth-gen technology platform enters mass production and unveils two 24Gb LPDDR5X phone memory products built on it&nbsp; &mdash;&nbsp; Chinese DRAM chipmaker CXMT (688825.SS) said on Sunday its fifth-generation technology platform had entered mass p"
           }
         ]
       },
@@ -2504,8 +2504,14 @@
         "home": "https://techcrunch.com/",
         "url": "https://techcrunch.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-09-20T21:12:33.670635+00:00",
+        "fetchedAt": "2026-09-20T23:54:42.561946+00:00",
         "items": [
+          {
+            "title": "6 days left to save up to $200 to TechCrunch Disrupt 2026",
+            "link": "https://techcrunch.com/2026/09/20/6-days-left-to-get-ahead-at-techcrunch-disrupt-2026/",
+            "date": "2026-09-20T21:41:08+00:00",
+            "summary": "Current ticket pricing ends in 6 days on Sept. 25 at 11:59 p.m. PT. Join 10,000+ founders, investors and tech leaders at Disrupt and save up to $200 on your ticket until then."
+          },
           {
             "title": "World model companies are keeping a lot of secrets",
             "link": "https://techcrunch.com/2026/09/20/world-model-companies-are-keeping-a-lot-of-secrets/",
@@ -2555,12 +2561,6 @@
             "summary": "Brynn Putnam and Tristan Walker have already done something that most founders only dream about: created companies so compelling that bigger outfits bought them. Putnam, a trained ballerina with a small chain of boutique studios, built the connected-fitness company Mirror and sold it to Lululemon fo"
           },
           {
-            "title": "6 days left to get ahead at TechCrunch Disrupt 2026",
-            "link": "https://techcrunch.com/2026/09/20/6-days-left-to-get-ahead-at-techcrunch-disrupt-2026/",
-            "date": "2026-09-20T14:00:00+00:00",
-            "summary": "Current ticket pricing ends in 6 days on Sept. 25 at 11:59 p.m. PT. Join 10,000+ founders, investors and tech leaders at Disrupt and save up to $200 on your ticket until then."
-          },
-          {
             "title": "Flock reportedly tries to shrink workforce with employee buyouts",
             "link": "https://techcrunch.com/2026/09/19/flock-reportedly-tries-to-shrink-workforce-with-employee-buyouts/",
             "date": "2026-09-19T20:39:13+00:00",
@@ -2575,8 +2575,14 @@
         "home": "https://techcrunch.com/category/artificial-intelligence/",
         "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
         "status": "ok",
-        "fetchedAt": "2026-09-20T21:12:33.679259+00:00",
+        "fetchedAt": "2026-09-20T23:54:42.564309+00:00",
         "items": [
+          {
+            "title": "6 days left to save up to $200 to TechCrunch Disrupt 2026",
+            "link": "https://techcrunch.com/2026/09/20/6-days-left-to-get-ahead-at-techcrunch-disrupt-2026/",
+            "date": "2026-09-20T21:41:08+00:00",
+            "summary": "Current ticket pricing ends in 6 days on Sept. 25 at 11:59 p.m. PT. Join 10,000+ founders, investors and tech leaders at Disrupt and save up to $200 on your ticket until then."
+          },
           {
             "title": "World model companies are keeping a lot of secrets",
             "link": "https://techcrunch.com/2026/09/20/world-model-companies-are-keeping-a-lot-of-secrets/",
@@ -2600,12 +2606,6 @@
             "link": "https://techcrunch.com/2026/09/20/scrolled-wants-to-turn-textbooks-into-tiktok/",
             "date": "2026-09-20T18:00:00+00:00",
             "summary": "ScrollEd turns textbooks into a scrollable, Instagram-like feed with video, audio, and quizzes. The Palo Alto startup, founded by student co-founders (and spouses) Utsav Gupta and Rebecca Neff, pitches at TechCrunch Disrupt."
-          },
-          {
-            "title": "6 days left to get ahead at TechCrunch Disrupt 2026",
-            "link": "https://techcrunch.com/2026/09/20/6-days-left-to-get-ahead-at-techcrunch-disrupt-2026/",
-            "date": "2026-09-20T14:00:00+00:00",
-            "summary": "Current ticket pricing ends in 6 days on Sept. 25 at 11:59 p.m. PT. Join 10,000+ founders, investors and tech leaders at Disrupt and save up to $200 on your ticket until then."
           },
           {
             "title": "Flock reportedly tries to shrink workforce with employee buyouts",
@@ -2646,7 +2646,7 @@
         "home": "https://techcrunch.com/tag/funding/",
         "url": "https://techcrunch.com/tag/funding/feed/",
         "status": "ok",
-        "fetchedAt": "2026-09-20T21:12:33.673450+00:00",
+        "fetchedAt": "2026-09-20T23:54:42.566300+00:00",
         "items": [
           {
             "title": "Viral AI startup Instinct has raised $350M at a $2.5B valuation",
@@ -2739,7 +2739,7 @@
         "home": "https://www.ruanyifeng.com/blog/",
         "url": "https://www.ruanyifeng.com/blog/atom.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-20T21:12:33.622794+00:00",
+        "fetchedAt": "2026-09-20T23:54:42.503584+00:00",
         "items": [
           {
             "title": "科技爱好者周刊（第 413 期）：再见了，React Native",
@@ -2768,8 +2768,14 @@
         "home": "https://www.bestblogs.dev/",
         "url": "https://www.bestblogs.dev/zh/feeds/rss?category=ai&minScore=90",
         "status": "ok",
-        "fetchedAt": "2026-09-20T21:12:34.591759+00:00",
+        "fetchedAt": "2026-09-20T23:54:42.925113+00:00",
         "items": [
+          {
+            "title": "Anthropic 与特朗普政府的 85 天 AI 监管博弈内幕",
+            "link": "https://www.bestblogs.dev/status/2101802939148910974?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
+            "date": "2026-09-20T22:37:24+00:00",
+            "summary": "📌 一句话摘要 通过 Politico 的深度调查，还原了特朗普政府与 Anthropic 围绕 Mythos 和 Fable 模型展开的监管拉锯战，揭示了美国在 AI 安全、国家安全与竞争压力之间的剧烈矛盾。 📝 详细摘要 本文基于 Politico 的深度调查，详细还原了今年 4 月至 7 月间，美国政府与 Anthropic 公司在 AI 安全监管上的博弈过程。由于 Mythos 模型具备极强的网络攻击能力引发白宫危机，导致政府试图建立强制性前沿模型评估机制，但在科技巨头压力及「防止帮到中国」的论点下，监管力度被削弱。随后 Fable 模型的越狱漏洞引发白宫动用出口管制强制下架 19 天"
+          },
           {
             "title": "YC 最新判断：Harness 比模型更重要",
             "link": "https://www.bestblogs.dev/article/683d44b352?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
@@ -2777,10 +2783,10 @@
             "summary": "📌 一句话摘要 AI 竞争的胜负手正从模型能力转向 Harness（运行框架），Harness 通过优化提示词、工具调用、记忆管理及权限运维，能显著提升模型表现并弥补模型间的能力差距。 📝 详细摘要 本文基于 YC 的最新分享，深入探讨了 AI Harness（模型运行框架）的重要性。作者指出，模型决定能力上限，而 Harness 决定了能否触达上限。通过对 ARC-AGI-3 测试成绩对比、Prime Agent 的信息分层设计、OpenJarvis 的本地化优化实验以及 YC 内部的 QM 系统分析，文章论证了 Harness 在提升 Agent 表现、弥补小模型与大模型差距、以及解决企业"
           },
           {
-            "title": "刚刚，阶跃 Step 5 Preview 发布！一举杀进全球开源前三",
-            "link": "https://www.bestblogs.dev/article/31516333af?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
-            "date": "2026-09-20T05:58:00+00:00",
-            "summary": "📌 一句话摘要 阶跃星辰发布 Step 5 Preview，以 600B 稀疏 MoE 架构在 AA 智能指数夺得全球开源前三，并通过实测编程、长程 Agent、深度研究及金融尽调四大场景，验证其高性价比与生产级长任务执行力。 📝 详细摘要 新智元独家实测阶跃星辰新一代旗舰模型 Step 5 Preview。该模型采用 600B 总参数、27B 激活参数的稀疏 MoE 架构，原生支持 1M 上下文，在 Artificial Analysis 智能指数 v4.2 中以 44 分跻身全球开源模型前三，并确立了「同智能最便宜、同价格最聪明」的新帕累托前沿。文章详细披露了其「窄而深」（92 层）、Sp"
+            "title": "狂裁 70% 工程师指望 AI 顶上？Android 之神算了一笔账：补贴一旦退潮，AI 账单直接贵过程序员",
+            "link": "https://www.bestblogs.dev/article/d4c3386566?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
+            "date": "2026-09-20T09:18:00+00:00",
+            "summary": "📌 一句话摘要 Android 知名工程师 Jake Wharton 在访谈中解释了自己求职时把「不沾 AI」列为首要标准的原因，并算了一笔账：AI 编程工具目前靠风投补贴压低价格，一旦补贴退潮，LLM 生成代码的成本将高于被裁掉的工程师。 📝 详细摘要 本文是 CSDN 对 Jake Wharton 的访谈整理。Jake Wharton 曾参与 Retrofit、OkHttp 等开源项目，是 Google Kotlin 团队第一位工程师，2025 年 11 月在裁员潮中离开 Cash App。他回顾了 Kotlin 成为 Android 一等语言的过程、离开 Google 的原因，并逐条解释"
           },
           {
             "title": "把「因果思维链」焊进世界模型，它凭什么登顶？",
@@ -2801,6 +2807,12 @@
             "summary": "📌 一句话摘要 由 Datawhale 和 SGLang 官方联合发起的《从零手搓 SGLang》课程，通过四阶段的递进学习，帮助学员从理解 LLM 推理概念出发，逐步实现迷你推理引擎，再吃透前沿优化技巧，最终完成对 SGLang 的贡献。 📝 详细摘要 该课程分为四个主要部分：第一部分阐述编码伦理和基础部署；第二部分讲解 LLM、推理、GPU、KV Cache 的核心概念；第三部分则是动手实现一个简化版的 SGLang（mini-sglang），涵盖请求处理、调度、内存管理等多个方面；第四部分则深入真实 SGLang 源码，讲解注意力后端、量子化等高级优化，并指导学生完成 PR 提交流程。课"
           },
           {
+            "title": "到底什么是 Context？万字长文谈 Pi Agent context 管理",
+            "link": "https://www.bestblogs.dev/article/38abe4f33e?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
+            "date": "2026-09-19T16:00:00+00:00",
+            "summary": "📌 一句话摘要 本文以 Pi Agent 为例，系统拆解了 Agent 中 Context 的构成、动态增长、预算控制与压缩重建机制，指出 Context 是 Harness 组装、随执行动态演进的信息环境，而 Compaction 本质是 Context 表示的降维与重建。 📝 详细摘要 文章从「Skill 是 Prompt 还是 Context」的讨论切入，先给出区分：Prompt 是相对静态的指令设计，Context 是 Agent 运行中动态形成的信息环境。随后以 Pi Agent 为例展开：Context 由 System Prompt、Tool Definitions、User M"
+          },
+          {
             "title": "AI 写代码飞快，为何交付没有变快？小红书 Muse 的 Agentic 架构实践",
             "link": "https://www.bestblogs.dev/article/035d4a4609?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
             "date": "2026-09-19T05:30:00+00:00",
@@ -2817,18 +2829,6 @@
             "link": "https://www.bestblogs.dev/status/2101098576600314054?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
             "date": "2026-09-18T23:58:31+00:00",
             "summary": "📌 一句话摘要 美军因一份由分析员用 AI 炮制的虚假情报，险些对运载核部件的中国船只发动攻击，暴露出 AI 军事化进程中人工核查机制缺失与流程违规的双重风险。 📝 详细摘要 CNN 独家报道，今年春天美伊紧张期间，美军特种作战司令部一名分析员将公开资料与机密信号情报输入 AI 聊天机器人，得出中国船只运载核武器部件的错误结论，并让 AI 将其包装成标准格式的情报报告。由于格式逼真且缺乏统一验证标准，该虚假信息在军方内部流转，导致武装人员登船准备就绪、军机升空。行动前夕经深入核查才发现是 AI“幻觉”产物，避免了战争危机。事件背景是五角大楼推进“AI 优先”战略，但各部门系统割裂、安全流程不统"
-          },
-          {
-            "title": "jev-use：通过职责分离实现极低成本的 Computer Use",
-            "link": "https://www.bestblogs.dev/status/2100870131324985740?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
-            "date": "2026-09-18T08:50:46+00:00",
-            "summary": "📌 一句话摘要 Cua 推出的 jev-use 架构将 Computer Use 拆分为决策层 (Jev) 与执行层 (Cua Driver)，将「开放式生成」转为「有界选择」，极大地降低了延迟与成本。 📝 详细摘要 Cua 推出的 jev-use 采用两层架构，由 Cua Driver 负责跨平台感知与执行验证，Jev 负责轻量级决策。该架构的核心在于将复杂的端到端生成简化为从确定性候选动作中选择 ID 的过程。实测显示在 2048 游戏中，其速度比 Astra 快 5 倍，成本降低近 1000 倍。这种将确定性基础设施包围极小模型决策点的模式，标志着 Computer Use 的瓶颈正从可"
-          },
-          {
-            "title": "AGI 最难一战，竟在医院！中国 AI 登上 Science，医生不怕失业还催着上线",
-            "link": "https://www.bestblogs.dev/article/7cebf67213?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
-            "date": "2026-09-18T06:11:06+00:00",
-            "summary": "📌 一句话摘要 阿里达摩院研发的 DAMO RADAR 模型登上 Science，通过“器官级细粒度对齐”的视觉-语言对比学习，实现了首个专家级通用腹部影像 AI，可一次性识别 18 种解剖结构的 146 种疾病，且模型与代码已全部开源。 📝 详细摘要 本文介绍了由阿里达摩院研发并发表在 Science 上的通用影像 AI 模型 DAMO RADAR。针对医疗影像 AI 长期依赖专用模型、标注成本高且难以处理多病共存的痛点，RADAR 采用了视觉-语言对比学习，通过“器官级细粒度对齐”模拟放射科医生的阅片逻辑，将 CT 影像与诊断报告进行精确匹配。验证结果显示，该模型在腹部 146 种疾病的诊"
           }
         ]
       }
@@ -2844,6 +2844,76 @@
       "feedTitle": "Xe Iaso",
       "category": "Tech Blogs",
       "feedHome": "https://xeiaso.net/"
+    },
+    {
+      "title": "Anthropic 与特朗普政府的 85 天 AI 监管博弈内幕",
+      "link": "https://www.bestblogs.dev/status/2101802939148910974?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
+      "date": "2026-09-20T22:37:24+00:00",
+      "summary": "📌 一句话摘要 通过 Politico 的深度调查，还原了特朗普政府与 Anthropic 围绕 Mythos 和 Fable 模型展开的监管拉锯战，揭示了美国在 AI 安全、国家安全与竞争压力之间的剧烈矛盾。 📝 详细摘要 本文基于 Politico 的深度调查，详细还原了今年 4 月至 7 月间，美国政府与 Anthropic 公司在 AI 安全监管上的博弈过程。由于 Mythos 模型具备极强的网络攻击能力引发白宫危机，导致政府试图建立强制性前沿模型评估机制，但在科技巨头压力及「防止帮到中国」的论点下，监管力度被削弱。随后 Fable 模型的越狱漏洞引发白宫动用出口管制强制下架 19 天",
+      "feedId": "bestblogs",
+      "feedTitle": "BestBlogs.dev AI 90+",
+      "category": "中文",
+      "feedHome": "https://www.bestblogs.dev/"
+    },
+    {
+      "title": "What Happened to the Snowden Archive",
+      "link": "https://libroot.org/posts/what-happened-to-the-snowden-archive",
+      "date": "2026-09-20T22:35:49+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "Google's Open Agentic Orchestrator",
+      "link": "https://agentexecutor.io",
+      "date": "2026-09-20T22:32:43+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "6 days left to save up to $200 to TechCrunch Disrupt 2026",
+      "link": "https://techcrunch.com/2026/09/20/6-days-left-to-get-ahead-at-techcrunch-disrupt-2026/",
+      "date": "2026-09-20T21:41:08+00:00",
+      "summary": "Current ticket pricing ends in 6 days on Sept. 25 at 11:59 p.m. PT. Join 10,000+ founders, investors and tech leaders at Disrupt and save up to $200 on your ticket until then.",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "6 days left to save up to $200 to TechCrunch Disrupt 2026",
+      "link": "https://techcrunch.com/2026/09/20/6-days-left-to-get-ahead-at-techcrunch-disrupt-2026/",
+      "date": "2026-09-20T21:41:08+00:00",
+      "summary": "Current ticket pricing ends in 6 days on Sept. 25 at 11:59 p.m. PT. Join 10,000+ founders, investors and tech leaders at Disrupt and save up to $200 on your ticket until then.",
+      "feedId": "techcrunch-ai",
+      "feedTitle": "TechCrunch AI",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
+    },
+    {
+      "title": "Quoting voxium",
+      "link": "https://simonwillison.net/2026/Sep/20/voxium/",
+      "date": "2026-09-20T21:06:43+00:00",
+      "summary": "It has been half a month since I started a new role at a big company. Nobody knows anything here. The specs, code, tests, PRDs, tickets, resolution of those tickets, reports, etc., everything is made by Claude Code. Nobody on my team likes this. They are being forced to ship as much as they can. I h",
+      "feedId": "simonwillison",
+      "feedTitle": "Simon Willison",
+      "category": "AI & LLM",
+      "feedHome": "https://simonwillison.net/"
+    },
+    {
+      "title": "Nobody pays for FOSS, we can force them to",
+      "link": "https://seldo.com/posts/nobody-pays-for-open-source-we-can-force-them-to/",
+      "date": "2026-09-20T21:04:32+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
     },
     {
       "title": "World model companies are keeping a lot of secrets",
@@ -2876,6 +2946,26 @@
       "feedHome": "https://techcrunch.com/"
     },
     {
+      "title": "llm-keys-ui 0.1",
+      "link": "https://simonwillison.net/2026/Sep/20/llm-keys-ui/",
+      "date": "2026-09-20T19:22:19+00:00",
+      "summary": "Release: llm-keys-ui 0.1 This plugin solves a very specific problem. I've started using Codex Remote to run coding agents on various machines while controlling them from my phone. Sometimes I use those machines to hack on LLM projects, and occasionally that means I need to configure an API key. I do",
+      "feedId": "simonwillison",
+      "feedTitle": "Simon Willison",
+      "category": "AI & LLM",
+      "feedHome": "https://simonwillison.net/"
+    },
+    {
+      "title": "China has made AI a national mission, but local workers' fear of displacement mirrors worries abroad, and potential for social unrest may force CCP to slow down (Michael Schuman/The Atlantic)",
+      "link": "https://www.techmeme.com/260920/p14#a260920p14",
+      "date": "2026-09-20T19:15:01-04:00",
+      "summary": "Michael Schuman / The Atlantic: China has made AI a national mission, but local workers' fear of displacement mirrors worries abroad, and potential for social unrest may force CCP to slow down&nbsp; &mdash;&nbsp; A top-down tech revolution is harder to manage than a bottom-up one.&nbsp; &mdash;&nbsp",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
       "title": "Is the AI industry really ready to slow down?",
       "link": "https://techcrunch.com/2026/09/20/is-the-ai-industry-really-ready-to-slow-down/",
       "date": "2026-09-20T18:56:04+00:00",
@@ -2894,16 +2984,6 @@
       "feedTitle": "TechCrunch AI",
       "category": "Startup & News",
       "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
-    },
-    {
-      "title": "Software Sandboxing: The Basics (2025)",
-      "link": "https://blog.emilua.org/2025/01/12/software-sandboxing-basics/",
-      "date": "2026-09-20T18:42:47+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
     },
     {
       "title": "Vocci’s ring adds a new form factor to meeting note-taking",
@@ -2944,16 +3024,6 @@
       "feedTitle": "TechCrunch AI",
       "category": "Startup & News",
       "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
-    },
-    {
-      "title": "A Necessary History of the Oddest Letter: W",
-      "link": "https://lithub.com/a-necessary-history-of-the-oddest-letter-w/",
-      "date": "2026-09-20T17:55:57+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
     },
     {
       "title": "GM Revives CarPlay for 2027 Trucks",
@@ -2966,14 +3036,14 @@
       "feedHome": "https://daringfireball.net/"
     },
     {
-      "title": "I turned Jev into a (lousy) chatbot",
-      "link": "https://github.com/kyle-pena-nlp/jevchat/",
-      "date": "2026-09-20T17:51:27+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
+      "title": "Alibaba releases Qwen-Image-2.1, a 7B open-weight model it says outperforms most closed-source models, with native transparency and up to ten reference images (Qwen)",
+      "link": "https://www.techmeme.com/260920/p13#a260920p13",
+      "date": "2026-09-20T17:40:01-04:00",
+      "summary": "Qwen: Alibaba releases Qwen-Image-2.1, a 7B open-weight model it says outperforms most closed-source models, with native transparency and up to ten reference images&nbsp; &mdash;&nbsp; &middot; QwenTeam&#20008;Translations:.&#20307;&#20013;&#25991;&nbsp; &mdash;&nbsp; We are excited to open-source Q",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
       "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
+      "feedHome": "https://www.techmeme.com/"
     },
     {
       "title": "Samsung is expected to more than double output of its HBM4 and HBM4E DRAM",
@@ -3036,16 +3106,6 @@
       "feedHome": "https://techcrunch.com/"
     },
     {
-      "title": "Laya (OS Jev) on Mac M4 CoreML Offline (45 decisions per second)",
-      "link": "https://gist.github.com/fordnox/e592d0f68b543fd044be8e6d040863a0",
-      "date": "2026-09-20T15:58:52+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
       "title": "ChatGPT now knows what you do on other websites via ad collector",
       "link": "https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector/",
       "date": "2026-09-20T15:18:44+00:00",
@@ -3094,26 +3154,6 @@
       "feedTitle": "Techmeme",
       "category": "Startup & News",
       "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "6 days left to get ahead at TechCrunch Disrupt 2026",
-      "link": "https://techcrunch.com/2026/09/20/6-days-left-to-get-ahead-at-techcrunch-disrupt-2026/",
-      "date": "2026-09-20T14:00:00+00:00",
-      "summary": "Current ticket pricing ends in 6 days on Sept. 25 at 11:59 p.m. PT. Join 10,000+ founders, investors and tech leaders at Disrupt and save up to $200 on your ticket until then.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
-    },
-    {
-      "title": "6 days left to get ahead at TechCrunch Disrupt 2026",
-      "link": "https://techcrunch.com/2026/09/20/6-days-left-to-get-ahead-at-techcrunch-disrupt-2026/",
-      "date": "2026-09-20T14:00:00+00:00",
-      "summary": "Current ticket pricing ends in 6 days on Sept. 25 at 11:59 p.m. PT. Join 10,000+ founders, investors and tech leaders at Disrupt and save up to $200 on your ticket until then.",
-      "feedId": "techcrunch-ai",
-      "feedTitle": "TechCrunch AI",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
     },
     {
       "title": "Indeed: data center roles in the US offer a ~42% pay premium for hourly maintenance and installation workers compared with similar jobs at other businesses (Owen Tucker-Smith/Wall Street Journal)",
@@ -3186,6 +3226,16 @@
       "feedHome": "https://www.ruanyifeng.com/blog/"
     },
     {
+      "title": "狂裁 70% 工程师指望 AI 顶上？Android 之神算了一笔账：补贴一旦退潮，AI 账单直接贵过程序员",
+      "link": "https://www.bestblogs.dev/article/d4c3386566?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
+      "date": "2026-09-20T09:18:00+00:00",
+      "summary": "📌 一句话摘要 Android 知名工程师 Jake Wharton 在访谈中解释了自己求职时把「不沾 AI」列为首要标准的原因，并算了一笔账：AI 编程工具目前靠风投补贴压低价格，一旦补贴退潮，LLM 生成代码的成本将高于被裁掉的工程师。 📝 详细摘要 本文是 CSDN 对 Jake Wharton 的访谈整理。Jake Wharton 曾参与 Retrofit、OkHttp 等开源项目，是 Google Kotlin 团队第一位工程师，2025 年 11 月在裁员潮中离开 Cash App。他回顾了 Kotlin 成为 Android 一等语言的过程、离开 Google 的原因，并逐条解释",
+      "feedId": "bestblogs",
+      "feedTitle": "BestBlogs.dev AI 90+",
+      "category": "中文",
+      "feedHome": "https://www.bestblogs.dev/"
+    },
+    {
       "title": "An interview with Raspberry Pi CEO Eben Upton on the Raspberry Pi Foundation, his skepticism of AI evangelists, AI driving edge compute device demand, and more (John Thornhill/Financial Times)",
       "link": "https://www.techmeme.com/260920/p7#a260920p7",
       "date": "2026-09-20T08:05:07-04:00",
@@ -3194,16 +3244,6 @@
       "feedTitle": "Techmeme",
       "category": "Startup & News",
       "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "刚刚，阶跃 Step 5 Preview 发布！一举杀进全球开源前三",
-      "link": "https://www.bestblogs.dev/article/31516333af?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
-      "date": "2026-09-20T05:58:00+00:00",
-      "summary": "📌 一句话摘要 阶跃星辰发布 Step 5 Preview，以 600B 稀疏 MoE 架构在 AA 智能指数夺得全球开源前三，并通过实测编程、长程 Agent、深度研究及金融尽调四大场景，验证其高性价比与生产级长任务执行力。 📝 详细摘要 新智元独家实测阶跃星辰新一代旗舰模型 Step 5 Preview。该模型采用 600B 总参数、27B 激活参数的稀疏 MoE 架构，原生支持 1M 上下文，在 Artificial Analysis 智能指数 v4.2 中以 44 分跻身全球开源模型前三，并确立了「同智能最便宜、同价格最聪明」的新帕累托前沿。文章详细披露了其「窄而深」（92 层）、Sp",
-      "feedId": "bestblogs",
-      "feedTitle": "BestBlogs.dev AI 90+",
-      "category": "中文",
-      "feedHome": "https://www.bestblogs.dev/"
     },
     {
       "title": "US policy analysts, lawmakers, and others say several state-level AI chatbot safety bills included language that could provide loopholes for tech companies (Katie McQue/NPR)",
@@ -3246,24 +3286,14 @@
       "feedHome": "https://www.techmeme.com/"
     },
     {
-      "title": "Alibaba's Damo Academy open sources RADAR, a medical vision-language model it says can read CT scans and identify ~150 abdominal conditions, including cancers (Ann Cao/South China Morning Post)",
-      "link": "https://www.techmeme.com/260920/p4#a260920p4",
-      "date": "2026-09-20T01:30:59-04:00",
-      "summary": "Ann Cao / South China Morning Post: Alibaba's Damo Academy open sources RADAR, a medical vision-language model it says can read CT scans and identify ~150 abdominal conditions, including cancers&nbsp; &mdash;&nbsp; Tested on nearly 40,000 real-world exams, the model outperformed most radiologists, a",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "Chinese DRAM chipmaker CXMT says its new fifth-gen technology platform enters mass production and unveils two 24Gb LPDDR5X phone memory products built on it (Reuters)",
-      "link": "https://www.techmeme.com/260920/p3#a260920p3",
-      "date": "2026-09-20T01:20:02-04:00",
-      "summary": "Reuters: Chinese DRAM chipmaker CXMT says its new fifth-gen technology platform enters mass production and unveils two 24Gb LPDDR5X phone memory products built on it&nbsp; &mdash;&nbsp; Chinese DRAM chipmaker CXMT (688825.SS) said on Sunday its fifth-generation technology platform had entered mass p",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
+      "title": "datasette-explain 0.2.2",
+      "link": "https://simonwillison.net/2026/Sep/20/datasette-explain/",
+      "date": "2026-09-20T00:22:04+00:00",
+      "summary": "Release: datasette-explain 0.2.2 Explain plans now work on read-only stored-query pages. I upgraded datasette.simonwillison.net to Datasette 1.0a40, which inspired me to ship a new version of this explain plugin. Tags: sqlite, datasette",
+      "feedId": "simonwillison",
+      "feedTitle": "Simon Willison",
+      "category": "AI & LLM",
+      "feedHome": "https://simonwillison.net/"
     },
     {
       "title": "从零手搓 SGLang：Datawhale 与 RadixArk 的开源课程推荐",
@@ -3314,6 +3344,16 @@
       "feedTitle": "Sean Goedecke",
       "category": "Tech Blogs",
       "feedHome": "https://www.seangoedecke.com/"
+    },
+    {
+      "title": "a new world airport and its baggage",
+      "link": "https://computer.rip/2026-09-20-denver-baggage.html",
+      "date": "2026-09-20T00:00:00+00:00",
+      "summary": "Aviation came to Denver mainly in the form of mail. Like much of the inland West, the first airfields served a smattering of passenger flights (both expensive and uncomfortable in the 1930s) and a regular schedule of contract mail carriers. Postal Service air mail contracts built many of the nation'",
+      "feedId": "computerrip",
+      "feedTitle": "Computer Rip",
+      "category": "Tech Blogs",
+      "feedHome": "https://computer.rip/"
     },
     {
       "title": "Flock reportedly tries to shrink workforce with employee buyouts",
@@ -3376,6 +3416,16 @@
       "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
     },
     {
+      "title": "The Effect of CRTs on Pixel Art",
+      "link": "https://datagubbe.se/crt/",
+      "date": "2026-09-19T17:14:51+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
       "title": "California Sea Lion, Brandt's Cormorant",
       "link": "https://simonwillison.net/2026/Sep/19/sighting-401567341/",
       "date": "2026-09-19T17:10:08+00:00",
@@ -3414,6 +3464,16 @@
       "feedTitle": "Daring Fireball",
       "category": "Tech Blogs",
       "feedHome": "https://daringfireball.net/"
+    },
+    {
+      "title": "到底什么是 Context？万字长文谈 Pi Agent context 管理",
+      "link": "https://www.bestblogs.dev/article/38abe4f33e?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
+      "date": "2026-09-19T16:00:00+00:00",
+      "summary": "📌 一句话摘要 本文以 Pi Agent 为例，系统拆解了 Agent 中 Context 的构成、动态增长、预算控制与压缩重建机制，指出 Context 是 Harness 组装、随执行动态演进的信息环境，而 Compaction 本质是 Context 表示的降维与重建。 📝 详细摘要 文章从「Skill 是 Prompt 还是 Context」的讨论切入，先给出区分：Prompt 是相对静态的指令设计，Context 是 Agent 运行中动态形成的信息环境。随后以 Pi Agent 为例展开：Context 由 System Prompt、Tool Definitions、User M",
+      "feedId": "bestblogs",
+      "feedTitle": "BestBlogs.dev AI 90+",
+      "category": "中文",
+      "feedHome": "https://www.bestblogs.dev/"
     },
     {
       "title": "Petlibro’s new AI-powered feeder is a game changer for multi-cat homes",
@@ -3596,16 +3656,6 @@
       "feedHome": "https://www.jeffgeerling.com/"
     },
     {
-      "title": "jev-use：通过职责分离实现极低成本的 Computer Use",
-      "link": "https://www.bestblogs.dev/status/2100870131324985740?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
-      "date": "2026-09-18T08:50:46+00:00",
-      "summary": "📌 一句话摘要 Cua 推出的 jev-use 架构将 Computer Use 拆分为决策层 (Jev) 与执行层 (Cua Driver)，将「开放式生成」转为「有界选择」，极大地降低了延迟与成本。 📝 详细摘要 Cua 推出的 jev-use 采用两层架构，由 Cua Driver 负责跨平台感知与执行验证，Jev 负责轻量级决策。该架构的核心在于将复杂的端到端生成简化为从确定性候选动作中选择 ID 的过程。实测显示在 2048 游戏中，其速度比 Astra 快 5 倍，成本降低近 1000 倍。这种将确定性基础设施包围极小模型决策点的模式，标志着 Computer Use 的瓶颈正从可",
-      "feedId": "bestblogs",
-      "feedTitle": "BestBlogs.dev AI 90+",
-      "category": "中文",
-      "feedHome": "https://www.bestblogs.dev/"
-    },
-    {
       "title": "Pluralistic: Textured (18 Sep 2026)",
       "link": "https://pluralistic.net/2026/09/18/surprise/",
       "date": "2026-09-18T07:45:10+00:00",
@@ -3614,16 +3664,6 @@
       "feedTitle": "Pluralistic",
       "category": "Tech Blogs",
       "feedHome": "https://pluralistic.net/"
-    },
-    {
-      "title": "AGI 最难一战，竟在医院！中国 AI 登上 Science，医生不怕失业还催着上线",
-      "link": "https://www.bestblogs.dev/article/7cebf67213?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
-      "date": "2026-09-18T06:11:06+00:00",
-      "summary": "📌 一句话摘要 阿里达摩院研发的 DAMO RADAR 模型登上 Science，通过“器官级细粒度对齐”的视觉-语言对比学习，实现了首个专家级通用腹部影像 AI，可一次性识别 18 种解剖结构的 146 种疾病，且模型与代码已全部开源。 📝 详细摘要 本文介绍了由阿里达摩院研发并发表在 Science 上的通用影像 AI 模型 DAMO RADAR。针对医疗影像 AI 长期依赖专用模型、标注成本高且难以处理多病共存的痛点，RADAR 采用了视觉-语言对比学习，通过“器官级细粒度对齐”模拟放射科医生的阅片逻辑，将 CT 影像与诊断报告进行精确匹配。验证结果显示，该模型在腹部 146 种疾病的诊",
-      "feedId": "bestblogs",
-      "feedTitle": "BestBlogs.dev AI 90+",
-      "category": "中文",
-      "feedHome": "https://www.bestblogs.dev/"
     },
     {
       "title": "科技爱好者周刊（第 411 期）：OpenClaw 2.0 是一个缩影",
@@ -3674,26 +3714,6 @@
       "feedTitle": "Ibrahim Diallo",
       "category": "Tech Blogs",
       "feedHome": "https://idiallo.com/"
-    },
-    {
-      "title": "How To Write With An LLM",
-      "link": "https://simonwillison.net/2026/Sep/17/how-to-write-with-an-llm/",
-      "date": "2026-09-17T23:37:27+00:00",
-      "summary": "How To Write With An LLM Thomas Ptacek on using LLMs as copyeditors, not as writing assistants: Rule Number One: You may not use a single word an LLM suggests to you. [...] I think that as a form of intellectual personal protective equipment you should adopt the rule that any specific turn of phrase",
-      "feedId": "simonwillison",
-      "feedTitle": "Simon Willison",
-      "category": "AI & LLM",
-      "feedHome": "https://simonwillison.net/"
-    },
-    {
-      "title": "Self-generated prompt injections in compaction summaries",
-      "link": "https://simonwillison.net/2026/Sep/17/compaction-summaries/",
-      "date": "2026-09-17T20:57:55+00:00",
-      "summary": "Self-generated prompt injections in compaction summaries In Our framework for reporting model misalignment OpenAI provide \"six reports on unexpected or concerning model behavior we’ve observed in the last six months\". This one here is my favorite: they caught some of their models in training deliber",
-      "feedId": "simonwillison",
-      "feedTitle": "Simon Willison",
-      "category": "AI & LLM",
-      "feedHome": "https://simonwillison.net/"
     },
     {
       "title": "The future of practice: Enabling teachers to create learning interactives with generative UI",
@@ -3764,16 +3784,6 @@
       "feedTitle": "OpenAI News",
       "category": "AI & LLM",
       "feedHome": "https://openai.com/news/"
-    },
-    {
-      "title": "datasette 1.0a40",
-      "link": "https://simonwillison.net/2026/Sep/16/datasette/",
-      "date": "2026-09-16T23:51:43+00:00",
-      "summary": "Release: datasette 1.0a40 Same security fix as 0.65.5, plus some neat new features and bug fixes: Plugins can now launch and manage background tasks using the new datasette.add_background_task() method. Thanks, Alex Garcia. I've migrated Datasette to httpx2 for features like the internal datasette.c",
-      "feedId": "simonwillison",
-      "feedTitle": "Simon Willison",
-      "category": "AI & LLM",
-      "feedHome": "https://simonwillison.net/"
     },
     {
       "title": "Data Broker Radaris Loses Domains in Privacy Fight",
@@ -5944,16 +5954,6 @@
       "feedTitle": "Mitchell Hashimoto",
       "category": "Tech Blogs",
       "feedHome": "https://mitchellh.com/"
-    },
-    {
-      "title": "IrDA",
-      "link": "https://computer.rip/2026-04-11-IrDA.html",
-      "date": "2026-04-11T00:00:00+00:00",
-      "summary": "Light: it's the radiation we can see. The communications potential of light is obvious, and indeed, many of the earliest forms of long-distance communication relied on it: signal fires, semaphore, heliographs. You could say that we still make extensive use of light for communications today, in the f",
-      "feedId": "computerrip",
-      "feedTitle": "Computer Rip",
-      "category": "Tech Blogs",
-      "feedHome": "https://computer.rip/"
     },
     {
       "title": "Nowhere Is Safe",
