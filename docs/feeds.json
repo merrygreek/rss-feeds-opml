@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-22T21:49:49.009620+00:00",
+  "updatedAt": "2026-09-23T00:04:52.825031+00:00",
   "totalFeeds": 51,
   "successCount": 43,
   "failedCount": 8,
@@ -22,13 +22,31 @@
         "home": "https://simonwillison.net/",
         "url": "https://simonwillison.net/atom/everything/",
         "status": "ok",
-        "fetchedAt": "2026-09-22T21:49:39.077373+00:00",
+        "fetchedAt": "2026-09-23T00:04:42.670098+00:00",
         "items": [
+          {
+            "title": "Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war",
+            "link": "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/",
+            "date": "2026-09-22T23:46:41+00:00",
+            "summary": "Yesterday was Grok 4.7 (pelicans) and MiMo v2.6 Flash/Pro (more pelicans). Today Anthropic released Claude Opus 5.5, and around an hour later OpenAI released GPT-6 Sol and GPT-6 Luna. It's going to take a while to get a good read on all of these new models, but here are my impressions so far. GPT-6 "
+          },
+          {
+            "title": "llm 0.36",
+            "link": "https://simonwillison.net/2026/Sep/22/llm/",
+            "date": "2026-09-22T18:48:37+00:00",
+            "summary": "Release: llm 0.36 New OpenAI models: gpt-6-sol for GPT-6 Sol and gpt-6-luna for GPT-6 Luna. #1702 Model plugins can now declare supports_conversation = False for models that only accept single-turn prompts. LLM raises llm.ConversationNotSupported when these models receive assistant or tool history, "
+          },
           {
             "title": "Quoting @therealcornpop",
             "link": "https://simonwillison.net/2026/Sep/22/therealcornpop/",
             "date": "2026-09-22T18:03:21+00:00",
             "summary": "Hey, you know it's like super obvious if you're using AI to write your scripts for TikTok and YouTube, right? [...] It's not just the general AI-isms of \"it's not X, it's Y\", or the rule of three, or the really weird broken staccato-like way of writing where you just say a lot of things with all the"
+          },
+          {
+            "title": "llm-anthropic 0.29",
+            "link": "https://simonwillison.net/2026/Sep/22/llm-anthropic/",
+            "date": "2026-09-22T17:14:55+00:00",
+            "summary": "Release: llm-anthropic 0.29 Adds support for Claude Opus 5.5: llm -m claude-opus-5.5 \"prompt goes here\" Tags: llm, anthropic"
           },
           {
             "title": "llm-typesafe 0.1a0",
@@ -65,24 +83,6 @@
             "link": "https://simonwillison.net/2026/Sep/20/llm-keys-ui/",
             "date": "2026-09-20T19:22:19+00:00",
             "summary": "Release: llm-keys-ui 0.1 This plugin solves a very specific problem. I've started using Codex Remote to run coding agents on various machines while controlling them from my phone. Sometimes I use those machines to hack on LLM projects, and occasionally that means I need to configure an API key. I do"
-          },
-          {
-            "title": "datasette-explain 0.2.2",
-            "link": "https://simonwillison.net/2026/Sep/20/datasette-explain/",
-            "date": "2026-09-20T00:22:04+00:00",
-            "summary": "Release: datasette-explain 0.2.2 Explain plans now work on read-only stored-query pages. I upgraded datasette.simonwillison.net to Datasette 1.0a40, which inspired me to ship a new version of this explain plugin. Tags: sqlite, datasette"
-          },
-          {
-            "title": "datasette-auth-github 1.0",
-            "link": "https://simonwillison.net/2026/Sep/19/datasette-auth-github/",
-            "date": "2026-09-19T19:52:02+00:00",
-            "summary": "Release: datasette-auth-github 1.0 I run this GitHub login plugin on the agent.datasette.io demo site and I noticed that my authenticated sessions weren't lasting very long. It turned out that the plugin was setting cookies without a Max-Age parameter, so they were expiring at the end of a browser s"
-          },
-          {
-            "title": "California Sea Lion, Brandt's Cormorant",
-            "link": "https://simonwillison.net/2026/Sep/19/sighting-401567341/",
-            "date": "2026-09-19T17:10:08+00:00",
-            "summary": "California Sea Lion, Brandt&#x27;s Cormorant, in Pillar Point Harbor, CA, USI only noticed this after I had taken the photo: Morris the Northern Gannet is peeking out from behind the base of the sign. Tags: wildlife"
           }
         ]
       },
@@ -93,7 +93,7 @@
         "home": "https://openai.com/news/",
         "url": "https://openai.com/news/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-22T21:49:39.135531+00:00",
+        "fetchedAt": "2026-09-23T00:04:42.618386+00:00",
         "items": [
           {
             "title": "Better prompt caching for GPT-6",
@@ -108,22 +108,28 @@
             "summary": "Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost."
           },
           {
+            "title": "Parallel cut research time and cost in half with GPT‑6 Astra",
+            "link": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
+            "date": "2026-09-22T12:00:00+00:00",
+            "summary": "GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models."
+          },
+          {
             "title": "Priorities and principles for effective third party assessments",
             "link": "https://openai.com/index/priorities-principles-third-party-assessments",
             "date": "2026-09-22T00:00:00+00:00",
             "summary": "OpenAI outlines priorities and principles for rigorous, secure, and independent third-party AI safety assessments of frontier models and safeguards."
           },
           {
-            "title": "Advisory Group on Mathematics and Artificial Intelligence",
-            "link": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
-            "date": "2026-09-21T12:00:00+00:00",
-            "summary": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results."
-          },
-          {
             "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
             "link": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
             "date": "2026-09-21T12:00:00+00:00",
             "summary": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster."
+          },
+          {
+            "title": "Advisory Group on Mathematics and Artificial Intelligence",
+            "link": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
+            "date": "2026-09-21T12:00:00+00:00",
+            "summary": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results."
           },
           {
             "title": "Building standards for the next phase of AI",
@@ -148,12 +154,6 @@
             "link": "https://openai.com/index/australian-youth-safety-blueprint",
             "date": "2026-09-18T12:00:00+00:00",
             "summary": "OpenAI introduces the Australian Youth Safety Blueprint, a six-pillar roadmap for safer AI experiences that protect and empower young people."
-          },
-          {
-            "title": "How Cooley is accelerating IPO work with ChatGPT",
-            "link": "https://openai.com/index/cooley-gopublic",
-            "date": "2026-09-17T12:00:00+00:00",
-            "summary": "Cooley built GO Public with ChatGPT Work to bring intelligence to the IPO process, helping lawyers surface issues earlier and focus judgment where it matters most."
           }
         ]
       },
@@ -164,7 +164,7 @@
         "home": "https://arxiv.org/list/cs.AI/recent",
         "url": "https://arxiv.org/rss/cs.AI",
         "status": "ok",
-        "fetchedAt": "2026-09-22T21:49:39.459181+00:00",
+        "fetchedAt": "2026-09-23T00:04:42.892567+00:00",
         "items": [
           {
             "title": "RBS-Attention: Radius-Bounded Sparse Prefill for Long-Context Large Language Models",
@@ -235,7 +235,7 @@
         "home": "https://arxiv.org/list/cs.LG/recent",
         "url": "https://arxiv.org/rss/cs.LG",
         "status": "ok",
-        "fetchedAt": "2026-09-22T21:49:39.559166+00:00",
+        "fetchedAt": "2026-09-23T00:04:42.993526+00:00",
         "items": [
           {
             "title": "PRQuant: Permutation Residual Quantization for Low-Overhead Inference",
@@ -306,7 +306,7 @@
         "home": "https://research.google/blog/",
         "url": "https://research.google/blog/rss/",
         "status": "ok",
-        "fetchedAt": "2026-09-22T21:49:39.298528+00:00",
+        "fetchedAt": "2026-09-23T00:04:42.744095+00:00",
         "items": [
           {
             "title": "MilleMiglia: A realistic instance generator for middle-mile logistics",
@@ -377,7 +377,7 @@
         "home": "https://deepmind.google/blog/",
         "url": "https://deepmind.google/blog/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-22T21:49:39.414982+00:00",
+        "fetchedAt": "2026-09-23T00:04:42.740384+00:00",
         "items": [
           {
             "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
@@ -448,7 +448,7 @@
         "home": "https://lilianweng.github.io/",
         "url": "https://lilianweng.github.io/lil-log/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-22T21:49:39.141446+00:00",
+        "fetchedAt": "2026-09-23T00:04:42.566622+00:00",
         "items": [
           {
             "title": "Active Learning",
@@ -539,7 +539,7 @@
         "home": "https://minimaxir.com/",
         "url": "https://minimaxir.com/index.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-22T21:49:39.233294+00:00",
+        "fetchedAt": "2026-09-23T00:04:42.649022+00:00",
         "items": [
           {
             "title": "Writing Rust code that's faster than state-of-the-art libraries by asking agents to make the code faster",
@@ -622,7 +622,7 @@
         "home": "https://www.jeffgeerling.com/",
         "url": "https://www.jeffgeerling.com/blog.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-22T21:49:39.218404+00:00",
+        "fetchedAt": "2026-09-23T00:04:42.711571+00:00",
         "items": [
           {
             "title": "Raspberry Pi locks down Pi 5 RAM upgrades in firmware",
@@ -693,7 +693,7 @@
         "home": "https://www.seangoedecke.com/",
         "url": "https://www.seangoedecke.com/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-22T21:49:39.251126+00:00",
+        "fetchedAt": "2026-09-23T00:04:42.785952+00:00",
         "items": [
           {
             "title": "System One models like Jev can train their own replacements",
@@ -764,7 +764,7 @@
         "home": "https://krebsonsecurity.com/",
         "url": "https://krebsonsecurity.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-09-22T21:49:39.140869+00:00",
+        "fetchedAt": "2026-09-23T00:04:42.780504+00:00",
         "items": [
           {
             "title": "Data Broker Radaris Loses Domains in Privacy Fight",
@@ -835,12 +835,18 @@
         "home": "https://daringfireball.net/",
         "url": "https://daringfireball.net/feeds/main",
         "status": "ok",
-        "fetchedAt": "2026-09-22T21:49:39.226203+00:00",
+        "fetchedAt": "2026-09-23T00:04:42.756952+00:00",
         "items": [
+          {
+            "title": "Meta’s Muse Logomark, Designed by Jessica Hische",
+            "link": "https://thedieline.com/jessica-hische-metas-muse-and-the-ethical-landmines-of-design/",
+            "date": "2026-09-22T22:54:28+00:00",
+            "summary": "Bill McCool, writing at Dieline: This past Wednesday, lettering artist, designer, and author Jessica Hische took to Threads to announce that she had worked alongside Meta’s team to create the icon and logotype for their agentic AI, Muse. Acknowledging that people would be “mad because it’s AI and Me"
+          },
           {
             "title": "Meta’s New Muse AI Agent Read Jason Aten’s Messages Database",
             "link": "https://www.inc.com/jason-aten/metas-new-muse-ai-agent-read-my-private-messages-i-never-asked-it-to/91408202",
-            "date": "2026-09-22T21:37:08+00:00",
+            "date": "2026-09-22T22:34:32+00:00",
             "summary": "Jason Aten, writing for Inc: Then, yesterday, I was having a conversation with my Primary Technology podcast co-host, Stephen Robles, about the new iPhones. Moments later, I got a push notification from Muse suggesting that the conversation we were having would make for a good column and offered to "
           },
           {
@@ -890,12 +896,6 @@
             "link": "https://x.com/JoannaStern/status/2102105565195288859",
             "date": "2026-09-21T21:52:51+00:00",
             "summary": "Joanna Stern, on X: GM has confirmed it is NOT rolling phone projection to GM EVs. Instead this announcement is specific to JUST their new gas powered light-duty pickups, which have always supported Apple CarPlay and Android Auto. &nbsp;★&nbsp;"
-          },
-          {
-            "title": "America’s Decline Can Be Measured by the Names of Ballparks and Arenas",
-            "link": "https://www.mlb.com/news/tigers-ballpark-name-changed-to-fifth-third-park",
-            "date": "2026-09-21T22:04:42+00:00",
-            "summary": "MLB: Comerica Park has had several alternate identities since it became the Tigers’ home in 2000. Some have called it Comerica National Park for its spacious dimensions. Some fans simply came to call it Comerica, or abbreviated it to CoPa, as they grew comfortable with it over the years. Starting ne"
           }
         ]
       },
@@ -906,7 +906,7 @@
         "home": "https://ericmigi.com/",
         "url": "https://ericmigi.com/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-22T21:49:39.253792+00:00",
+        "fetchedAt": "2026-09-23T00:04:42.716552+00:00",
         "items": [
           {
             "title": "New Pebble Weather App + Software Updates",
@@ -977,7 +977,7 @@
         "home": "http://antirez.com/",
         "url": "http://antirez.com/rss",
         "status": "ok",
-        "fetchedAt": "2026-09-22T21:49:41.653286+00:00",
+        "fetchedAt": "2026-09-23T00:04:44.561532+00:00",
         "items": [
           {
             "title": "The real AI risk is inside the labs",
@@ -1048,7 +1048,7 @@
         "home": "https://idiallo.com/",
         "url": "https://idiallo.com/feed.rss",
         "status": "ok",
-        "fetchedAt": "2026-09-22T21:49:39.462883+00:00",
+        "fetchedAt": "2026-09-23T00:04:42.795262+00:00",
         "items": [
           {
             "title": "It's Not Just True, It's False",
@@ -1119,7 +1119,7 @@
         "home": "https://maurycyz.com/",
         "url": "https://maurycyz.com/index.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-22T21:49:39.943220+00:00",
+        "fetchedAt": "2026-09-23T00:04:43.416095+00:00",
         "items": []
       },
       {
@@ -1129,7 +1129,7 @@
         "home": "https://pluralistic.net/",
         "url": "https://pluralistic.net/feed/",
         "status": "ok",
-        "fetchedAt": "2026-09-22T21:49:42.632082+00:00",
+        "fetchedAt": "2026-09-23T00:04:45.050424+00:00",
         "items": [
           {
             "title": "Pluralistic: Bonta sold us out to Trump's oligarchs (22 Sep 2026)",
@@ -1200,7 +1200,7 @@
         "home": "https://shkspr.mobi/blog/",
         "url": "https://shkspr.mobi/blog/feed/",
         "status": "ok",
-        "fetchedAt": "2026-09-22T21:49:40.206480+00:00",
+        "fetchedAt": "2026-09-23T00:04:43.740106+00:00",
         "items": [
           {
             "title": "Are LLMs still surprisingly bad at some simple tasks?",
@@ -1281,7 +1281,7 @@
         "home": "https://mitchellh.com/",
         "url": "https://mitchellh.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-22T21:49:39.359987+00:00",
+        "fetchedAt": "2026-09-23T00:04:43.035001+00:00",
         "items": [
           {
             "title": "Superlogical",
@@ -1352,7 +1352,7 @@
         "home": "https://dynomight.net/",
         "url": "https://dynomight.net/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-22T21:49:39.437485+00:00",
+        "fetchedAt": "2026-09-23T00:04:42.874898+00:00",
         "items": [
           {
             "title": "Thoughts I had while reading your comment",
@@ -1423,7 +1423,7 @@
         "home": "https://xeiaso.net/",
         "url": "https://xeiaso.net/blog.rss",
         "status": "ok",
-        "fetchedAt": "2026-09-22T21:49:39.927482+00:00",
+        "fetchedAt": "2026-09-23T00:04:43.642313+00:00",
         "items": [
           {
             "title": "This is why we play",
@@ -1494,7 +1494,7 @@
         "home": "https://devblogs.microsoft.com/oldnewthing/",
         "url": "https://devblogs.microsoft.com/oldnewthing/feed",
         "status": "ok",
-        "fetchedAt": "2026-09-22T21:49:39.172710+00:00",
+        "fetchedAt": "2026-09-23T00:04:43.116415+00:00",
         "items": [
           {
             "title": "What’s the highest legal FILETIME? Is it safe to use?",
@@ -1565,7 +1565,7 @@
         "home": "https://www.righto.com/",
         "url": "https://www.righto.com/feeds/posts/default",
         "status": "ok",
-        "fetchedAt": "2026-09-22T21:49:39.897339+00:00",
+        "fetchedAt": "2026-09-23T00:04:43.385365+00:00",
         "items": []
       },
       {
@@ -1575,7 +1575,7 @@
         "home": "https://lucumr.pocoo.org/",
         "url": "https://lucumr.pocoo.org/feed.atom",
         "status": "ok",
-        "fetchedAt": "2026-09-22T21:49:39.320265+00:00",
+        "fetchedAt": "2026-09-23T00:04:43.084485+00:00",
         "items": [
           {
             "title": "Interpreting Pangram",
@@ -1646,7 +1646,7 @@
         "home": "https://skyfall.dev/",
         "url": "https://skyfall.dev/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-22T21:49:39.804353+00:00",
+        "fetchedAt": "2026-09-23T00:04:43.315273+00:00",
         "items": [
           {
             "title": "Good riddance, 4o",
@@ -1721,7 +1721,7 @@
         "home": "https://overreacted.io/",
         "url": "https://overreacted.io/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-22T21:49:39.398730+00:00",
+        "fetchedAt": "2026-09-23T00:04:43.001529+00:00",
         "items": [
           {
             "title": "How I Vibed a Proof of Conway’s Conjecture",
@@ -1792,7 +1792,7 @@
         "home": "https://www.johndcook.com/",
         "url": "https://www.johndcook.com/blog/feed/",
         "status": "ok",
-        "fetchedAt": "2026-09-22T21:49:39.258189+00:00",
+        "fetchedAt": "2026-09-23T00:04:43.255717+00:00",
         "items": [
           {
             "title": "Nathaniel Bowditch",
@@ -1863,7 +1863,7 @@
         "home": "https://matklad.github.io/",
         "url": "https://matklad.github.io/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-22T21:49:39.603014+00:00",
+        "fetchedAt": "2026-09-23T00:04:43.236239+00:00",
         "items": [
           {
             "title": "Finding Bugs",
@@ -1934,7 +1934,7 @@
         "home": "https://eli.thegreenplace.net/",
         "url": "https://eli.thegreenplace.net/feeds/all.atom.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-22T21:49:39.771417+00:00",
+        "fetchedAt": "2026-09-23T00:04:43.484515+00:00",
         "items": [
           {
             "title": "Notes on discrete-time Fourier series and transform",
@@ -1975,7 +1975,7 @@
         "home": "https://fabiensanglard.net/",
         "url": "https://fabiensanglard.net/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-22T21:49:40.008804+00:00",
+        "fetchedAt": "2026-09-23T00:04:43.122178+00:00",
         "items": [
           {
             "title": "My agent.md to improve LLM-assisted code quality",
@@ -2046,7 +2046,7 @@
         "home": "https://blog.miguelgrinberg.com/",
         "url": "https://blog.miguelgrinberg.com/feed",
         "status": "ok",
-        "fetchedAt": "2026-09-22T21:49:40.058889+00:00",
+        "fetchedAt": "2026-09-23T00:04:43.897511+00:00",
         "items": [
           {
             "title": "You Should be Using Rootless Containers",
@@ -2117,7 +2117,7 @@
         "home": "https://www.troyhunt.com/",
         "url": "https://www.troyhunt.com/rss/",
         "status": "ok",
-        "fetchedAt": "2026-09-22T21:49:39.638225+00:00",
+        "fetchedAt": "2026-09-23T00:04:42.893628+00:00",
         "items": [
           {
             "title": "Weekly Update 521: Breach Perception v. Reality",
@@ -2188,7 +2188,7 @@
         "home": "https://anildash.com/",
         "url": "https://anildash.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-22T21:49:39.787474+00:00",
+        "fetchedAt": "2026-09-23T00:04:43.361060+00:00",
         "items": [
           {
             "title": "Discovering Prince, Ten Years Later",
@@ -2259,7 +2259,7 @@
         "home": "https://computer.rip/",
         "url": "https://computer.rip/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-22T21:49:39.760941+00:00",
+        "fetchedAt": "2026-09-23T00:04:43.210411+00:00",
         "items": [
           {
             "title": "a new world airport and its baggage",
@@ -2340,7 +2340,7 @@
         "home": "http://paulgraham.com/",
         "url": "http://www.aaronsw.com/2002/feeds/pgessays.rss",
         "status": "ok",
-        "fetchedAt": "2026-09-22T21:49:39.664027+00:00",
+        "fetchedAt": "2026-09-23T00:04:42.813651+00:00",
         "items": [
           {
             "title": "Superlinear Returns",
@@ -2411,7 +2411,7 @@
         "home": "https://steveblank.com/",
         "url": "https://steveblank.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-09-22T21:49:39.619283+00:00",
+        "fetchedAt": "2026-09-23T00:04:43.135591+00:00",
         "items": [
           {
             "title": "Lean Launch Pad 2026 @ Stanford – Lessons Learned Presentations",
@@ -2484,7 +2484,7 @@
         "home": "https://news.ycombinator.com/",
         "url": "https://news.ycombinator.com/rss",
         "status": "ok",
-        "fetchedAt": "2026-09-22T21:49:39.604703+00:00",
+        "fetchedAt": "2026-09-23T00:04:42.998873+00:00",
         "items": [
           {
             "title": "GPT-6 Sol and Luna",
@@ -2496,12 +2496,6 @@
             "title": "Claude Opus 5.5",
             "link": "https://www.anthropic.com/claude-opus-5-5",
             "date": "2026-09-22T16:29:05+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "Microsoft killed FoxPro in 2007. Anyway, here's FoxPro revived",
-            "link": "https://foxscript.org/",
-            "date": "2026-09-22T21:00:30+00:00",
             "summary": "Comments"
           },
           {
@@ -2517,9 +2511,21 @@
             "summary": "Comments"
           },
           {
-            "title": "What California is learning from solar panels built over irrigation canals",
-            "link": "https://www.kqed.org/science/2002033/heres-what-california-is-learning-from-solar-panels-built-over-irrigation-canals",
-            "date": "2026-09-22T03:10:05+00:00",
+            "title": "Microsoft killed FoxPro in 2007. Anyway, here's FoxPro revived",
+            "link": "https://foxscript.org/",
+            "date": "2026-09-22T21:00:30+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "ReBarUEFI: Resizable BAR for almost any UEFI system",
+            "link": "https://github.com/xCuri0/ReBarUEFI",
+            "date": "2026-09-21T01:07:46+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "SAML: A fractal of bad design",
+            "link": "https://blog.trailofbits.com/2026/09/21/saml-a-fractal-of-bad-design/",
+            "date": "2026-09-22T18:57:17+00:00",
             "summary": "Comments"
           },
           {
@@ -2529,21 +2535,15 @@
             "summary": "Comments"
           },
           {
+            "title": "Unreal Agent",
+            "link": "https://unreallabs.ai/blog/unreal-agent/",
+            "date": "2026-09-22T18:15:53+00:00",
+            "summary": "Comments"
+          },
+          {
             "title": "WordPress: Unauthenticated path traversal leading to conditional RCE",
             "link": "https://github.com/WordPress/wordpress-develop/security/advisories/GHSA-7hp8-65ch-5whp",
             "date": "2026-09-22T16:33:45+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "SAML: A Fractal of Bad Design",
-            "link": "https://blog.trailofbits.com/2026/09/21/saml-a-fractal-of-bad-design/",
-            "date": "2026-09-22T18:57:17+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "Native apps written in TypeScript and CSS",
-            "link": "https://github.com/geastack/examples",
-            "date": "2026-09-22T19:42:20+00:00",
             "summary": "Comments"
           }
         ]
@@ -2555,8 +2555,32 @@
         "home": "https://www.techmeme.com/",
         "url": "https://www.techmeme.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-22T21:49:39.862715+00:00",
+        "fetchedAt": "2026-09-23T00:04:43.438922+00:00",
         "items": [
+          {
+            "title": "Firecrawl, which provides web scraping tools for AI agents, raised a $75M Series B led by Smash Capital (Maria Deutscher/SiliconANGLE)",
+            "link": "https://www.techmeme.com/260922/p57#a260922p57",
+            "date": "2026-09-22T19:25:14-04:00",
+            "summary": "Maria Deutscher / SiliconANGLE: Firecrawl, which provides web scraping tools for AI agents, raised a $75M Series B led by Smash Capital&nbsp; &mdash;&nbsp; Firecrawl Inc., a provider of web scraping tools for artificial intelligence agents, today announced that it has raised $75 million in funding.&"
+          },
+          {
+            "title": "Rabbit launches OS3, a cloud AI agent that connects to local apps and files on Windows, Mac, and Linux and works via web, Telegram, iMessage, or its R1 device (Julian Chokkattu/Wired)",
+            "link": "https://www.techmeme.com/260922/p56#a260922p56",
+            "date": "2026-09-22T18:50:01-04:00",
+            "summary": "Julian Chokkattu / Wired: Rabbit launches OS3, a cloud AI agent that connects to local apps and files on Windows, Mac, and Linux and works via web, Telegram, iMessage, or its R1 device&nbsp; &mdash;&nbsp; Two years after trying to sidestep mobile apps with dedicated AI hardware, Rabbit is launching "
+          },
+          {
+            "title": "Data security startup Cyera raised $400M from Goldman Sachs in a Series G extension, bringing its total funding since June 2025 to $1.94B (James Rundle/Wall Street Journal)",
+            "link": "https://www.techmeme.com/260922/p55#a260922p55",
+            "date": "2026-09-22T18:35:02-04:00",
+            "summary": "James Rundle / Wall Street Journal: Data security startup Cyera raised $400M from Goldman Sachs in a Series G extension, bringing its total funding since June 2025 to $1.94B&nbsp; &mdash;&nbsp; Data-security startup raises more than $1.9 billion in 15 months as Wall Street AI anxiety leads to an inv"
+          },
+          {
+            "title": "Microsoft says it will give DARPA on-site access to its latest quantum computing hardware, including the Majorana 2 chip, at its new Maryland research center (Stephen Nellis/Reuters)",
+            "link": "https://www.techmeme.com/260922/p54#a260922p54",
+            "date": "2026-09-22T18:01:12-04:00",
+            "summary": "Stephen Nellis / Reuters: Microsoft says it will give DARPA on-site access to its latest quantum computing hardware, including the Majorana 2 chip, at its new Maryland research center&nbsp; &mdash;&nbsp; Microsoft (MSFT.O) on Tuesday said it will give the US Defense Advanced Research Projects Agency"
+          },
           {
             "title": "Sources: Scott Bessent is emerging as a frontrunner for the AI czar position; other names include WH OSTP Director Michael Kratsios and OPM Director Scott Kupor (Semafor)",
             "link": "https://www.techmeme.com/260922/p53#a260922p53",
@@ -2592,30 +2616,6 @@
             "link": "https://www.techmeme.com/260922/p48#a260922p48",
             "date": "2026-09-22T15:30:01-04:00",
             "summary": "Stephanie Palazzolo / The Information: New York-based Ande, whose AI agents help businesses arrange corporate events for employees or customers, emerges from stealth with $52M in seed and Series A&nbsp; &mdash;&nbsp; Personal AI agents like Instinct and Muse have promised to take away the hassle of "
-          },
-          {
-            "title": "ShinyHunters claims it used an Oracle PeopleSoft zero-day to hack FBI-related services and steal employee and applicant data; it also defaced the FBI jobs site (Joseph Cox/404 Media)",
-            "link": "https://www.techmeme.com/260922/p47#a260922p47",
-            "date": "2026-09-22T15:10:01-04:00",
-            "summary": "Joseph Cox / 404 Media: ShinyHunters claims it used an Oracle PeopleSoft zero-day to hack FBI-related services and steal employee and applicant data; it also defaced the FBI jobs site&nbsp; &mdash;&nbsp; A sample of 5,000 alleged agents seen by 404 Media includes names, addresses, phone numbers, and"
-          },
-          {
-            "title": "In his UN General Assembly speech, Trump rejects a \"globalist scheme to control\" AI, saying the US is \"leading now over China by a lot and everyone else\" (Financial Times)",
-            "link": "https://www.techmeme.com/260922/p46#a260922p46",
-            "date": "2026-09-22T14:55:02-04:00",
-            "summary": "Financial Times: In his UN General Assembly speech, Trump rejects a &ldquo;globalist scheme to control&rdquo; AI, saying the US is &ldquo;leading now over China by a lot and everyone else&rdquo;&nbsp; &mdash;&nbsp; President says US is 'leading over China by a lot and everyone else, and we're going "
-          },
-          {
-            "title": "Sources: Mirendil, founded by former Anthropic researchers to build self-improving AI, is in talks to raise ~$1B led by Kleiner Perkins at a $5B valuation (Bloomberg)",
-            "link": "https://www.techmeme.com/260922/p45#a260922p45",
-            "date": "2026-09-22T14:40:01-04:00",
-            "summary": "Bloomberg: Sources: Mirendil, founded by former Anthropic researchers to build self-improving AI, is in talks to raise ~$1B led by Kleiner Perkins at a $5B valuation&nbsp; &mdash;&nbsp; Mirendil, an artificial intelligence startup launched by former Anthropic PBC researchers, is in talks to raise a "
-          },
-          {
-            "title": "GPT-6 Sol costs $2/1M input and $10/1M output tokens, and GPT-6 Luna costs $0.10/1M input and $0.50/1M output tokens, both about 50% cheaper than GPT-5.6 (Nat Rubio-Licht/The Deep View)",
-            "link": "https://www.techmeme.com/260922/p44#a260922p44",
-            "date": "2026-09-22T14:25:01-04:00",
-            "summary": "Nat Rubio-Licht / The Deep View: GPT-6 Sol costs $2/1M input and $10/1M output tokens, and GPT-6 Luna costs $0.10/1M input and $0.50/1M output tokens, both about 50% cheaper than GPT-5.6&nbsp; &mdash;&nbsp; OpenAI is releasing a more budget-friendly version of its most powerful model.&nbsp; &mdash;&"
           }
         ]
       },
@@ -2626,8 +2626,20 @@
         "home": "https://techcrunch.com/",
         "url": "https://techcrunch.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-09-22T21:49:39.405420+00:00",
+        "fetchedAt": "2026-09-23T00:04:42.925426+00:00",
         "items": [
+          {
+            "title": "TechCrunch Founder Summit’s agenda revealed: Unlock fundraising, hiring, and AI insights in Boston on November 4",
+            "link": "https://techcrunch.com/2026/09/22/techcrunch-founder-summits-agenda-revealed-unlock-fundraising-hiring-and-ai-insights-in-boston-on-november-4/",
+            "date": "2026-09-22T23:21:49+00:00",
+            "summary": "Founders shouldn't have to learn the hardest lessons the hardest way. TechCrunch Founder Summit is designed to make the challenges of starting a company easier and the highs that much greater."
+          },
+          {
+            "title": "Snorkel AI triples valuation to $3.5B as demand for AI training data booms",
+            "link": "https://techcrunch.com/2026/09/22/snorkel-ai-triples-valuation-to-3-5b-as-demand-for-ai-training-data-booms/",
+            "date": "2026-09-22T21:56:43+00:00",
+            "summary": "The seven-year-old startup has raised a $350 million Series E to fuel its data-as-a-service approach."
+          },
           {
             "title": "Qualcomm launches two new smartphone chips with emphasis on AI",
             "link": "https://techcrunch.com/2026/09/22/qualcomm-launches-two-new-smartphone-chips-with-emphasis-on-ai/",
@@ -2675,18 +2687,6 @@
             "link": "https://techcrunch.com/2026/09/22/anthropic-releases-opus-5-5-with-lower-prices-and-fable-level-performance/",
             "date": "2026-09-22T16:30:07+00:00",
             "summary": "Anthropic called it \"the strongest-performing model we've tested to date.\""
-          },
-          {
-            "title": "Stolen passwords are exposing America’s water providers to hackers",
-            "link": "https://techcrunch.com/2026/09/22/stolen-passwords-are-exposing-americas-water-providers-to-hackers/",
-            "date": "2026-09-22T15:50:58+00:00",
-            "summary": "Researchers say another looming threat hangs over some of America's most important critical infrastructure."
-          },
-          {
-            "title": "Noble Carbon will show how it’s making EV charger installs painless at TechCrunch Disrupt",
-            "link": "https://techcrunch.com/2026/09/22/noble-carbon-will-show-how-its-making-ev-charger-installs-painless-at-techcrunch-disrupt/",
-            "date": "2026-09-22T15:00:00+00:00",
-            "summary": "Noble Carbon has developed a smart circuit breaker that allows households to electrify without the pain of a main panel upgrade."
           }
         ]
       },
@@ -2697,8 +2697,20 @@
         "home": "https://techcrunch.com/category/artificial-intelligence/",
         "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
         "status": "ok",
-        "fetchedAt": "2026-09-22T21:49:39.607501+00:00",
+        "fetchedAt": "2026-09-23T00:04:43.024521+00:00",
         "items": [
+          {
+            "title": "TechCrunch Founder Summit’s agenda revealed: Unlock fundraising, hiring, and AI insights in Boston on November 4",
+            "link": "https://techcrunch.com/2026/09/22/techcrunch-founder-summits-agenda-revealed-unlock-fundraising-hiring-and-ai-insights-in-boston-on-november-4/",
+            "date": "2026-09-22T23:21:49+00:00",
+            "summary": "Founders shouldn't have to learn the hardest lessons the hardest way. TechCrunch Founder Summit is designed to make the challenges of starting a company easier and the highs that much greater."
+          },
+          {
+            "title": "Snorkel AI triples valuation to $3.5B as demand for AI training data booms",
+            "link": "https://techcrunch.com/2026/09/22/snorkel-ai-triples-valuation-to-3-5b-as-demand-for-ai-training-data-booms/",
+            "date": "2026-09-22T21:56:43+00:00",
+            "summary": "The seven-year-old startup has raised a $350 million Series E to fuel its data-as-a-service approach."
+          },
           {
             "title": "Qualcomm launches two new smartphone chips with emphasis on AI",
             "link": "https://techcrunch.com/2026/09/22/qualcomm-launches-two-new-smartphone-chips-with-emphasis-on-ai/",
@@ -2746,18 +2758,6 @@
             "link": "https://techcrunch.com/2026/09/22/exhibitor-program-reopened-book-by-sept-30/",
             "date": "2026-09-22T14:15:00+00:00",
             "summary": "We have reopened our exhibitor program for 1 more week. Book your exhibit table by September 30 at 11:59 p.m. PT and showcase your startup in front of 10,000+ founders, investors, and tech leaders at SF's Moscone West from October 13-15."
-          },
-          {
-            "title": "4 days to save up to $200: Reason 2 of 5 to be at TechCrunch Disrupt 2026",
-            "link": "https://techcrunch.com/2026/09/22/4-days-to-save-up-to-200-reason-2-of-5-to-be-at-techcrunch-disrupt-2026/",
-            "date": "2026-09-22T14:00:00+00:00",
-            "summary": "Save up to $200 on your TechCrunch Disrupt 2026 pass, plus 50% off a second pass before prices increase on September 25 at 11:59 p.m. PT. Register today."
-          },
-          {
-            "title": "Everyone can find a reason to dislike data center construction",
-            "link": "https://techcrunch.com/2026/09/22/everyone-can-find-a-reason-to-dislike-data-center-construction/",
-            "date": "2026-09-22T13:00:00+00:00",
-            "summary": "Inside two years of fraught AI data center debates in Pennsylvania."
           }
         ]
       },
@@ -2768,7 +2768,7 @@
         "home": "https://techcrunch.com/tag/funding/",
         "url": "https://techcrunch.com/tag/funding/feed/",
         "status": "ok",
-        "fetchedAt": "2026-09-22T21:49:39.630745+00:00",
+        "fetchedAt": "2026-09-23T00:04:43.016677+00:00",
         "items": [
           {
             "title": "Viral AI startup Instinct has raised $350M at a $2.5B valuation",
@@ -2861,7 +2861,7 @@
         "home": "https://www.ruanyifeng.com/blog/",
         "url": "https://www.ruanyifeng.com/blog/atom.xml",
         "status": "ok",
-        "fetchedAt": "2026-09-22T21:49:39.460200+00:00",
+        "fetchedAt": "2026-09-23T00:04:43.113916+00:00",
         "items": [
           {
             "title": "科技爱好者周刊（第 413 期）：再见了，React Native",
@@ -2890,49 +2890,19 @@
         "home": "https://www.bestblogs.dev/",
         "url": "https://www.bestblogs.dev/zh/feeds/rss?category=ai&minScore=90",
         "status": "ok",
-        "fetchedAt": "2026-09-22T21:49:40.734633+00:00",
+        "fetchedAt": "2026-09-23T00:04:43.581136+00:00",
         "items": [
           {
-            "title": "Claude Opus 5.5",
-            "link": "https://www.bestblogs.dev/status/2102452507993919719?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
-            "date": "2026-09-22T17:38:34+00:00",
-            "summary": "📌 一句话摘要 Claude Opus 5.5 📝 详细摘要 Claude Opus 5.5 💡 主要观点 Claude Opus 5.5 📊 文章信息 AI 初评：93 来源：向阳乔木(@vista8) 作者：向阳乔木 分类：人工智能 语言：中文 阅读时间：7 分钟 字数：1702 标签： AI 与智能应用, 图像生成, 提示工程, 视觉艺术, 大语言模型 (LLM) 阅读推文"
-          },
-          {
-            "title": "Claude Opus 5.5",
-            "link": "https://www.bestblogs.dev/status/2102445889503760482?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
-            "date": "2026-09-22T17:12:16+00:00",
-            "summary": "📌 一句话摘要 Claude Opus 5.5 📝 详细摘要 Claude Opus 5.5 💡 主要观点 Claude Opus 5.5 📊 文章信息 AI 初评：90 来源：向阳乔木(@vista8) 作者：向阳乔木 分类：人工智能 语言：中文 阅读时间：1 分钟 字数：146 标签： AI 与智能应用, 图像生成, 提示工程, 视觉艺术, 大语言模型 (LLM) 阅读推文"
-          },
-          {
-            "title": "国产模型年底跑不到 3T 模型就可能出局",
-            "link": "https://www.bestblogs.dev/status/2102417027013149016?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
-            "date": "2026-09-22T15:17:34+00:00",
-            "summary": "📌 一句话摘要 国内预训练架构创新全球领先，但后训练数据积累落后海外约半年 📝 详细摘要 国内预训练架构创新全球领先，但后训练数据积累落后海外约半年 💡 主要观点 后训练门槛比预训练低得多 核心竞争在数据质量，不在 infra 组织架构重要性超过算力储备 腾讯把多模态模块从独立部门拆出来，和预训练体系合并，整体研发效率提上去了 📊 文章信息 AI 初评：90 来源：向阳乔木(@vista8) 作者：向阳乔木 分类：人工智能 语言：中文 阅读时间：2 分钟 字数：320 标签： AI 与智能应用, AI Agent, 开发者工具, AI与智能应用, 工程实践 阅读推文"
-          },
-          {
-            "title": "6 天烧光 2000 多万，拿下开源第一！小米史无前例「炼丹直播」收官",
-            "link": "https://www.bestblogs.dev/article/355218e8be?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
-            "date": "2026-09-22T11:50:28+00:00",
-            "summary": "📌 一句话摘要 小米在 6 天内花费 2000 多万美元训练了 MiMo-V2.6-Pro 模型，成功登上全球开源王座，实现了专家级通用腹部影像 AI，能够识别 18 种解剖结构和 146 种疾病。 📝 详细摘要 本文介绍了小米在 6 天内训练的 MiMo-V2.6-Pro 模型，模型能够识别 18 种解剖结构和 146 种疾病，实现了专家级通用腹部影像 AI。小米使用了视觉-语言对比学习和自适应对比建模等技术，通过「器官级细粒度对齐」模拟放射科医生的阅片逻辑，将 CT 影像与诊断报告进行精确匹配。验证结果显示，该模型在腹部 146 种疾病的诊断上表现优异，AUC 稳定在 0.9 左右，在人机"
-          },
-          {
-            "title": "实测 MiMo-V2.6，这个小米直播烧了 347 万美元训出来的模型到底怎么样？",
-            "link": "https://www.bestblogs.dev/article/b46a287fc5?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
-            "date": "2026-09-22T09:30:00+00:00",
-            "summary": "📌 一句话摘要 文章实测 MiMo-V2.6 模型的训练成本与性能，揭示了其高性价比的特点和实际应用价值。 📝 详细摘要 本文通过实测 MiMo-V2.6 模型的训练过程，分析了其从 58.4 到 72.6 的智能指数提升，以及在 3D 建模、前端审美、真实 coding、办公数据处理和长程研究等五个场景下的实际表现，指出该模型在成本控制和能力提升方面具有显著优势。 💡 主要观点 核心原则：能不看图就不看图，能不点鼠标就不点鼠标 该工具优先探测 App 的命令行、脚本接口或辅助功能树，避免视觉识别错误带来的不稳定性，实现更稳定的 Agent 操作。 三层操控策略与内核适配 根据 App 内核类"
+            "title": "机器人 / 物理 Agent Harness 综合分析与对比：从「更强的模型」到「更好的系统」",
+            "link": "https://www.bestblogs.dev/article/3fc3c9a057?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
+            "date": "2026-09-22T12:25:00+00:00",
+            "summary": "📌 一句话摘要 机器人/物理 Agent Harness 综合分析与对比：从 \"更强的模型\" 到 \"更好的系统\" 📝 详细摘要 本文覆盖五个在 2026 年集中出现、共同回答 \"如何为机器人/物理 Agent 构建 Harness\" 这一问题的代表性项目：X-OmniClaw、MemoHarness、HumanCLAW、RoboClaw 和 RPent。 💡 主要观点 提出无需外部模块的自记忆管理机制（Self-Memory） MemPO 让模型在每轮交互开头自主生成记忆摘要，仅保留最近一轮的工具结果，倒逼模型通过强化学习端到端学会 \"什么值得记、怎么记\"，无需依赖外部复杂的记忆检索模块。 设"
           },
           {
             "title": "SGLang × Qwen × NVIDIA：NVFP4 KV Cache 突破长上下文与 Agentic 推理瓶颈",
             "link": "https://www.bestblogs.dev/status/2102322093228757129?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
             "date": "2026-09-22T09:00:20+00:00",
             "summary": "📌 一句话摘要 作者系统解读 SGLang 联合 Qwen、NVIDIA 将 NVFP4 格式落地 KV Cache 的博客，4-bit 下兼顾精度与性能，长上下文与 Agentic 场景收益随上下文放大。 📝 详细摘要 这条长推系统解读了 SGLang × Qwen × NVIDIA 三方合作的 NVFP4 KV Cache 博客。作者先点出长上下文与 Agentic 场景下 KV Cache 是最大内存压力源，FP8 已把占用相对 BF16 砍半，但压到 4-bit 量化误差会显著放大。NVFP4 用两级缩放（4-bit E2M1 数值 + 每 16 值一个 FP8 块缩放 + FP32 "
-          },
-          {
-            "title": "“大模型的 Steam”！AgentArk 用 Coding Agent 扩展通用多模 Agent 的 RL 与评测环境",
-            "link": "https://www.bestblogs.dev/article/0be6700633?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
-            "date": "2026-09-22T04:00:00+00:00",
-            "summary": "📌 一句话摘要 AgentArk 是一个面向多模态智能体的开放环境框架，利用 Coding Agent 持续扩展 task，并让同一批环境同时支持 Agentic RL 训练与评测。 📝 详细摘要 AgentArk 是一个面向多模态智能体的开放环境框架，利用 Coding Agent 持续扩展 task，并让同一批环境同时支持 Agentic RL 训练与评测。AgentArk 的基本路线很直接：利用已经非常强的 Coding Agent，自动开发用于评测和训练下一代 Multimodal Agent 的环境。AgentArk 的环境生产不是一次性的 \"prompt → code\"，而是一个带"
           },
           {
             "title": "小米开源 MiMo-V2.6：大规模强化学习驱动的顶级多模态模型",
@@ -2951,6 +2921,36 @@
             "link": "https://www.bestblogs.dev/status/2102200837749825655?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
             "date": "2026-09-22T00:58:31+00:00",
             "summary": "📌 一句话摘要 Grok Bot 团队通过构建包含直接验证、任务记忆、工程技能和架构约束的「米其林厨房」环境，实现了单月 2500 个 PR 的高吞吐生产交付。 📝 详细摘要 本文拆解了 Grok Bot 团队实现高效交付的底层逻辑。核心在于不依赖人工盯防，而是将工程约束和验证能力「物化」为运行环境。通过四层能力（运行时证据采集、功能地图、Playbook 技能库、架构路径约束），将资深工程师的判断转化为可复用的环境能力。作者强调代码库应被视为智能体的物化记忆，纠错应优先沉淀到约束系统中，最终形成从缺陷报告到 PR 的自动化闭环。 💡 主要观点 构建「米其林厨房」：用环境约束替代人工审查 通过"
+          },
+          {
+            "title": "Xiaomi MiMo-V2.6：扩展强化学习，迈向自我提升",
+            "link": "https://www.bestblogs.dev/article/8717d12a88?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
+            "date": "2026-09-21T20:18:00+00:00",
+            "summary": "📌 一句话摘要 小米发布 MiMo-V2.6 系列全模态模型，通过规模化强化学习（RL）提升模型在复杂任务、软件工程及数学证明等领域的自适应改进能力。 📝 详细摘要 小米正式发布 Xiaomi MiMo-V2.6 系列，包含 Pro 和 Flash 两个全模态模型。该版本的核心在于探索 RSI（递归自我改进）路径，通过可验证的复杂任务进行规模化强化学习（RL），让模型在持续反馈中拓展边界。在性能上，MiMo-V2.6-Pro 在 AA 综合智能指数中获得 46 分，超过 Kimi K3 和 Qwen3.8 Max，成为当前最强开源模型。技术上，团队从更大 Batch 与更高吞吐、更多任务与复杂"
+          },
+          {
+            "title": "我的一人公司品牌部又又又升级：这次我雇了个演员和一个导演（LibTV 1.5）",
+            "link": "https://www.bestblogs.dev/article/1f63898f35?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
+            "date": "2026-09-21T15:02:00+00:00",
+            "summary": "📌 一句话摘要 花叔实测 LibTV 1.5 的角色造型与 3D 虚拟影棚功能，通过埋设泪痣、雀斑、挑染等「签名」特征验证 AI 演员一致性，并用 3D 预演解决空间关系错误，让 AI 视频制作首次具备可复用、可回滚的工程属性。 📝 详细摘要 本文是作者对 LibTV 1.5 的深度实测复盘。核心思路是把 AI 视频从「抽卡」变成「工程」：先用「人像造型室」捏出一个带泪痣、雀斑、右鬓挑染三个签名特征的固定演员「小满」，通过挂卡与不挂卡的对照实验验证角色一致性（四张中三张命中）；再让她连拍可乐、咖啡、手机壳、补光灯四支广告，总结出「背景越干净、打光越接近角色卡条件，命中率越高」的规律，以及「改哪"
+          },
+          {
+            "title": "Hugging Face tokenizers v1 核心重构技术解析",
+            "link": "https://www.bestblogs.dev/status/2102039343770517786?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
+            "date": "2026-09-21T14:16:48+00:00",
+            "summary": "📌 一句话摘要 Hugging Face 发布 tokenizers v1，通过 SIMD 位流、BPE 词缓存与零分配合并循环，实现编码提速 3–30 倍及内存优化。 📝 详细摘要 作者解读了 Hugging Face 推出的 tokenizers v1。该版本在不改变 API 的前提下通过三项工程优化实现巨大提速：利用 bitcannon 的 SIMD 位流替代通用正则引擎进行预切分；引入基于 BPE 确定性的词缓存（Word Cache）跳过重复计算；并通过零分配与无分支的 merge loop 优化内存与 CPU 分支预测。作者强调，这三项技术分别针对控制流、重复计算及内存分配层面的瓶"
+          },
+          {
+            "title": "10 个人加一套 AI 软件，做出 100 个人的增长：AI 时代企业服务的算账逻辑",
+            "link": "https://www.bestblogs.dev/article/d924c2ab52?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
+            "date": "2026-09-21T08:00:00+00:00",
+            "summary": "📌 一句话摘要 深演智能创始人黄晓南指出，企业级 AI 虽聪明但“涉世未深”，需 FDE 将客户痛点产品化，并强调大模型无法获取企业数据、知识和工作流是核心护城河，未来企业服务将由“Agentic Software”驱动，实现“10 个人做 100 人的增长”，关键在于甲方能否找到核心增长点并与大模型建立“垂直”关系。 📝 详细摘要 本文深度访谈了深演智能创始人兼 CEO 黄晓南，探讨 AI 时代企业服务的算账逻辑。她认为，通用 AI 虽已达高分，但在企业级场景中仍像“刚毕业的博士”，聪明但“涉世未深”。文章阐述了 FDE（前线部署工程师）的核心使命是把客户问题转化为可复用的产品，其中业务理解"
+          },
+          {
+            "title": "腾讯开源记忆系统 T-Mem：用「预演」触发器补齐联想性召回盲区",
+            "link": "https://www.bestblogs.dev/status/2101944326788153739?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
+            "date": "2026-09-21T07:59:14+00:00",
+            "summary": "📌 一句话摘要 腾讯团队开源长期记忆系统 T-Mem，指出四代记忆架构检索配方相同、联想性召回是结构性盲区，通过写入时生成四族 trigger 补上这一半，在 LoCoMo-Plus 联想子集上大幅领先。 📝 详细摘要 这条长推系统解读了腾讯团队开源的记忆系统 T-Mem。作者先梳理四代长期记忆架构（Flat RAG、图结构记忆、agentic 层级记忆、操作系统式记忆内核），指出它们检索配方完全相同——把查询与存储内容投进同一相似度空间取 top-K，导致记忆可达性被相似度封顶，只能覆盖「描述性召回」，而长对话中同样常见的「联想性召回」（查询与记忆零表面重合、仅由因果或情境延续绑定）成为结构"
           }
         ]
       }
@@ -2958,14 +2958,74 @@
   },
   "allItems": [
     {
+      "title": "Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war",
+      "link": "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/",
+      "date": "2026-09-22T23:46:41+00:00",
+      "summary": "Yesterday was Grok 4.7 (pelicans) and MiMo v2.6 Flash/Pro (more pelicans). Today Anthropic released Claude Opus 5.5, and around an hour later OpenAI released GPT-6 Sol and GPT-6 Luna. It's going to take a while to get a good read on all of these new models, but here are my impressions so far. GPT-6 ",
+      "feedId": "simonwillison",
+      "feedTitle": "Simon Willison",
+      "category": "AI & LLM",
+      "feedHome": "https://simonwillison.net/"
+    },
+    {
+      "title": "TechCrunch Founder Summit’s agenda revealed: Unlock fundraising, hiring, and AI insights in Boston on November 4",
+      "link": "https://techcrunch.com/2026/09/22/techcrunch-founder-summits-agenda-revealed-unlock-fundraising-hiring-and-ai-insights-in-boston-on-november-4/",
+      "date": "2026-09-22T23:21:49+00:00",
+      "summary": "Founders shouldn't have to learn the hardest lessons the hardest way. TechCrunch Founder Summit is designed to make the challenges of starting a company easier and the highs that much greater.",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "TechCrunch Founder Summit’s agenda revealed: Unlock fundraising, hiring, and AI insights in Boston on November 4",
+      "link": "https://techcrunch.com/2026/09/22/techcrunch-founder-summits-agenda-revealed-unlock-fundraising-hiring-and-ai-insights-in-boston-on-november-4/",
+      "date": "2026-09-22T23:21:49+00:00",
+      "summary": "Founders shouldn't have to learn the hardest lessons the hardest way. TechCrunch Founder Summit is designed to make the challenges of starting a company easier and the highs that much greater.",
+      "feedId": "techcrunch-ai",
+      "feedTitle": "TechCrunch AI",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
+    },
+    {
+      "title": "Meta’s Muse Logomark, Designed by Jessica Hische",
+      "link": "https://thedieline.com/jessica-hische-metas-muse-and-the-ethical-landmines-of-design/",
+      "date": "2026-09-22T22:54:28+00:00",
+      "summary": "Bill McCool, writing at Dieline: This past Wednesday, lettering artist, designer, and author Jessica Hische took to Threads to announce that she had worked alongside Meta’s team to create the icon and logotype for their agentic AI, Muse. Acknowledging that people would be “mad because it’s AI and Me",
+      "feedId": "daringfireball",
+      "feedTitle": "Daring Fireball",
+      "category": "Tech Blogs",
+      "feedHome": "https://daringfireball.net/"
+    },
+    {
       "title": "Meta’s New Muse AI Agent Read Jason Aten’s Messages Database",
       "link": "https://www.inc.com/jason-aten/metas-new-muse-ai-agent-read-my-private-messages-i-never-asked-it-to/91408202",
-      "date": "2026-09-22T21:37:08+00:00",
+      "date": "2026-09-22T22:34:32+00:00",
       "summary": "Jason Aten, writing for Inc: Then, yesterday, I was having a conversation with my Primary Technology podcast co-host, Stephen Robles, about the new iPhones. Moments later, I got a push notification from Muse suggesting that the conversation we were having would make for a good column and offered to ",
       "feedId": "daringfireball",
       "feedTitle": "Daring Fireball",
       "category": "Tech Blogs",
       "feedHome": "https://daringfireball.net/"
+    },
+    {
+      "title": "Snorkel AI triples valuation to $3.5B as demand for AI training data booms",
+      "link": "https://techcrunch.com/2026/09/22/snorkel-ai-triples-valuation-to-3-5b-as-demand-for-ai-training-data-booms/",
+      "date": "2026-09-22T21:56:43+00:00",
+      "summary": "The seven-year-old startup has raised a $350 million Series E to fuel its data-as-a-service approach.",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "Snorkel AI triples valuation to $3.5B as demand for AI training data booms",
+      "link": "https://techcrunch.com/2026/09/22/snorkel-ai-triples-valuation-to-3-5b-as-demand-for-ai-training-data-booms/",
+      "date": "2026-09-22T21:56:43+00:00",
+      "summary": "The seven-year-old startup has raised a $350 million Series E to fuel its data-as-a-service approach.",
+      "feedId": "techcrunch-ai",
+      "feedTitle": "TechCrunch AI",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
     },
     {
       "title": "Microsoft killed FoxPro in 2007. Anyway, here's FoxPro revived",
@@ -3038,16 +3098,6 @@
       "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
     },
     {
-      "title": "Native apps written in TypeScript and CSS",
-      "link": "https://github.com/geastack/examples",
-      "date": "2026-09-22T19:42:20+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
       "title": "Apple could take on Whoop with a new fitness tracker, report says",
       "link": "https://techcrunch.com/2026/09/22/apple-could-take-on-whoop-with-a-new-fitness-tracker-report-says/",
       "date": "2026-09-22T19:27:57+00:00",
@@ -3066,6 +3116,16 @@
       "feedTitle": "Daring Fireball",
       "category": "Tech Blogs",
       "feedHome": "https://daringfireball.net/"
+    },
+    {
+      "title": "Firecrawl, which provides web scraping tools for AI agents, raised a $75M Series B led by Smash Capital (Maria Deutscher/SiliconANGLE)",
+      "link": "https://www.techmeme.com/260922/p57#a260922p57",
+      "date": "2026-09-22T19:25:14-04:00",
+      "summary": "Maria Deutscher / SiliconANGLE: Firecrawl, which provides web scraping tools for AI agents, raised a $75M Series B led by Smash Capital&nbsp; &mdash;&nbsp; Firecrawl Inc., a provider of web scraping tools for artificial intelligence agents, today announced that it has raised $75 million in funding.&",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
     },
     {
       "title": "Meta admits Muse’s likeness to OpenClaw isn’t a coincidence",
@@ -3088,7 +3148,7 @@
       "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
     },
     {
-      "title": "SAML: A Fractal of Bad Design",
+      "title": "SAML: A fractal of bad design",
       "link": "https://blog.trailofbits.com/2026/09/21/saml-a-fractal-of-bad-design/",
       "date": "2026-09-22T18:57:17+00:00",
       "summary": "Comments",
@@ -3096,6 +3156,26 @@
       "feedTitle": "Hacker News",
       "category": "Startup & News",
       "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "Rabbit launches OS3, a cloud AI agent that connects to local apps and files on Windows, Mac, and Linux and works via web, Telegram, iMessage, or its R1 device (Julian Chokkattu/Wired)",
+      "link": "https://www.techmeme.com/260922/p56#a260922p56",
+      "date": "2026-09-22T18:50:01-04:00",
+      "summary": "Julian Chokkattu / Wired: Rabbit launches OS3, a cloud AI agent that connects to local apps and files on Windows, Mac, and Linux and works via web, Telegram, iMessage, or its R1 device&nbsp; &mdash;&nbsp; Two years after trying to sidestep mobile apps with dedicated AI hardware, Rabbit is launching ",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
+      "title": "llm 0.36",
+      "link": "https://simonwillison.net/2026/Sep/22/llm/",
+      "date": "2026-09-22T18:48:37+00:00",
+      "summary": "Release: llm 0.36 New OpenAI models: gpt-6-sol for GPT-6 Sol and gpt-6-luna for GPT-6 Luna. #1702 Model plugins can now declare supports_conversation = False for models that only accept single-turn prompts. LLM raises llm.ConversationNotSupported when these models receive assistant or tool history, ",
+      "feedId": "simonwillison",
+      "feedTitle": "Simon Willison",
+      "category": "AI & LLM",
+      "feedHome": "https://simonwillison.net/"
     },
     {
       "title": "Hacking group ShinyHunters claims it breached the FBI, stole agents’ and applicants’ data",
@@ -3108,6 +3188,16 @@
       "feedHome": "https://techcrunch.com/"
     },
     {
+      "title": "Data security startup Cyera raised $400M from Goldman Sachs in a Series G extension, bringing its total funding since June 2025 to $1.94B (James Rundle/Wall Street Journal)",
+      "link": "https://www.techmeme.com/260922/p55#a260922p55",
+      "date": "2026-09-22T18:35:02-04:00",
+      "summary": "James Rundle / Wall Street Journal: Data security startup Cyera raised $400M from Goldman Sachs in a Series G extension, bringing its total funding since June 2025 to $1.94B&nbsp; &mdash;&nbsp; Data-security startup raises more than $1.9 billion in 15 months as Wall Street AI anxiety leads to an inv",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
       "title": "a16z is challenging Silicon Valley’s love for drop-outs by launching a school",
       "link": "https://techcrunch.com/2026/09/22/a16z-is-challenging-silicon-valleys-love-for-drop-outs-by-launching-a-school/",
       "date": "2026-09-22T18:24:34+00:00",
@@ -3118,6 +3208,16 @@
       "feedHome": "https://techcrunch.com/"
     },
     {
+      "title": "Unreal Agent",
+      "link": "https://unreallabs.ai/blog/unreal-agent/",
+      "date": "2026-09-22T18:15:53+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
       "title": "Quoting @therealcornpop",
       "link": "https://simonwillison.net/2026/Sep/22/therealcornpop/",
       "date": "2026-09-22T18:03:21+00:00",
@@ -3126,6 +3226,16 @@
       "feedTitle": "Simon Willison",
       "category": "AI & LLM",
       "feedHome": "https://simonwillison.net/"
+    },
+    {
+      "title": "Microsoft says it will give DARPA on-site access to its latest quantum computing hardware, including the Majorana 2 chip, at its new Maryland research center (Stephen Nellis/Reuters)",
+      "link": "https://www.techmeme.com/260922/p54#a260922p54",
+      "date": "2026-09-22T18:01:12-04:00",
+      "summary": "Stephen Nellis / Reuters: Microsoft says it will give DARPA on-site access to its latest quantum computing hardware, including the Majorana 2 chip, at its new Maryland research center&nbsp; &mdash;&nbsp; Microsoft (MSFT.O) on Tuesday said it will give the US Defense Advanced Research Projects Agency",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
     },
     {
       "title": "GPT-6 Sol and Luna",
@@ -3188,16 +3298,6 @@
       "feedHome": "https://www.techmeme.com/"
     },
     {
-      "title": "Claude Opus 5.5",
-      "link": "https://www.bestblogs.dev/status/2102452507993919719?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
-      "date": "2026-09-22T17:38:34+00:00",
-      "summary": "📌 一句话摘要 Claude Opus 5.5 📝 详细摘要 Claude Opus 5.5 💡 主要观点 Claude Opus 5.5 📊 文章信息 AI 初评：93 来源：向阳乔木(@vista8) 作者：向阳乔木 分类：人工智能 语言：中文 阅读时间：7 分钟 字数：1702 标签： AI 与智能应用, 图像生成, 提示工程, 视觉艺术, 大语言模型 (LLM) 阅读推文",
-      "feedId": "bestblogs",
-      "feedTitle": "BestBlogs.dev AI 90+",
-      "category": "中文",
-      "feedHome": "https://www.bestblogs.dev/"
-    },
-    {
       "title": "Waymo’s latest expansion strategy: teenagers",
       "link": "https://techcrunch.com/2026/09/22/waymos-latest-expansion-strategy-teenagers/",
       "date": "2026-09-22T17:36:06+00:00",
@@ -3208,14 +3308,14 @@
       "feedHome": "https://techcrunch.com/"
     },
     {
-      "title": "Claude Opus 5.5",
-      "link": "https://www.bestblogs.dev/status/2102445889503760482?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
-      "date": "2026-09-22T17:12:16+00:00",
-      "summary": "📌 一句话摘要 Claude Opus 5.5 📝 详细摘要 Claude Opus 5.5 💡 主要观点 Claude Opus 5.5 📊 文章信息 AI 初评：90 来源：向阳乔木(@vista8) 作者：向阳乔木 分类：人工智能 语言：中文 阅读时间：1 分钟 字数：146 标签： AI 与智能应用, 图像生成, 提示工程, 视觉艺术, 大语言模型 (LLM) 阅读推文",
-      "feedId": "bestblogs",
-      "feedTitle": "BestBlogs.dev AI 90+",
-      "category": "中文",
-      "feedHome": "https://www.bestblogs.dev/"
+      "title": "llm-anthropic 0.29",
+      "link": "https://simonwillison.net/2026/Sep/22/llm-anthropic/",
+      "date": "2026-09-22T17:14:55+00:00",
+      "summary": "Release: llm-anthropic 0.29 Adds support for Claude Opus 5.5: llm -m claude-opus-5.5 \"prompt goes here\" Tags: llm, anthropic",
+      "feedId": "simonwillison",
+      "feedTitle": "Simon Willison",
+      "category": "AI & LLM",
+      "feedHome": "https://simonwillison.net/"
     },
     {
       "title": "Claude Opus 5.5 Intelligence, Performance and Price Analysis (Max)",
@@ -3318,16 +3418,6 @@
       "feedHome": "https://simonwillison.net/"
     },
     {
-      "title": "Stolen passwords are exposing America’s water providers to hackers",
-      "link": "https://techcrunch.com/2026/09/22/stolen-passwords-are-exposing-americas-water-providers-to-hackers/",
-      "date": "2026-09-22T15:50:58+00:00",
-      "summary": "Researchers say another looming threat hangs over some of America's most important critical infrastructure.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
-    },
-    {
       "title": "Siri AI Class-Action Lawsuit Settlement Website Is Now Live",
       "link": "https://www.macrumors.com/2026/09/20/siri-ai-settlement-website-now-live/",
       "date": "2026-09-22T15:44:45+00:00",
@@ -3346,36 +3436,6 @@
       "feedTitle": "Techmeme",
       "category": "Startup & News",
       "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "国产模型年底跑不到 3T 模型就可能出局",
-      "link": "https://www.bestblogs.dev/status/2102417027013149016?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
-      "date": "2026-09-22T15:17:34+00:00",
-      "summary": "📌 一句话摘要 国内预训练架构创新全球领先，但后训练数据积累落后海外约半年 📝 详细摘要 国内预训练架构创新全球领先，但后训练数据积累落后海外约半年 💡 主要观点 后训练门槛比预训练低得多 核心竞争在数据质量，不在 infra 组织架构重要性超过算力储备 腾讯把多模态模块从独立部门拆出来，和预训练体系合并，整体研发效率提上去了 📊 文章信息 AI 初评：90 来源：向阳乔木(@vista8) 作者：向阳乔木 分类：人工智能 语言：中文 阅读时间：2 分钟 字数：320 标签： AI 与智能应用, AI Agent, 开发者工具, AI与智能应用, 工程实践 阅读推文",
-      "feedId": "bestblogs",
-      "feedTitle": "BestBlogs.dev AI 90+",
-      "category": "中文",
-      "feedHome": "https://www.bestblogs.dev/"
-    },
-    {
-      "title": "ShinyHunters claims it used an Oracle PeopleSoft zero-day to hack FBI-related services and steal employee and applicant data; it also defaced the FBI jobs site (Joseph Cox/404 Media)",
-      "link": "https://www.techmeme.com/260922/p47#a260922p47",
-      "date": "2026-09-22T15:10:01-04:00",
-      "summary": "Joseph Cox / 404 Media: ShinyHunters claims it used an Oracle PeopleSoft zero-day to hack FBI-related services and steal employee and applicant data; it also defaced the FBI jobs site&nbsp; &mdash;&nbsp; A sample of 5,000 alleged agents seen by 404 Media includes names, addresses, phone numbers, and",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "Noble Carbon will show how it’s making EV charger installs painless at TechCrunch Disrupt",
-      "link": "https://techcrunch.com/2026/09/22/noble-carbon-will-show-how-its-making-ev-charger-installs-painless-at-techcrunch-disrupt/",
-      "date": "2026-09-22T15:00:00+00:00",
-      "summary": "Noble Carbon has developed a smart circuit breaker that allows households to electrify without the pain of a main panel upgrade.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
     },
     {
       "title": "AstroForge is putting AI in command of its next spacecraft",
@@ -3398,16 +3458,6 @@
       "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
     },
     {
-      "title": "In his UN General Assembly speech, Trump rejects a \"globalist scheme to control\" AI, saying the US is \"leading now over China by a lot and everyone else\" (Financial Times)",
-      "link": "https://www.techmeme.com/260922/p46#a260922p46",
-      "date": "2026-09-22T14:55:02-04:00",
-      "summary": "Financial Times: In his UN General Assembly speech, Trump rejects a &ldquo;globalist scheme to control&rdquo; AI, saying the US is &ldquo;leading now over China by a lot and everyone else&rdquo;&nbsp; &mdash;&nbsp; President says US is 'leading over China by a lot and everyone else, and we're going ",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
       "title": "科技爱好者周刊（第 413 期）：再见了，React Native",
       "link": "http://www.ruanyifeng.com/blog/2026/09/weekly-issue-413.html",
       "date": "2026-09-22T14:44:59+00:00",
@@ -3418,16 +3468,6 @@
       "feedHome": "https://www.ruanyifeng.com/blog/"
     },
     {
-      "title": "Sources: Mirendil, founded by former Anthropic researchers to build self-improving AI, is in talks to raise ~$1B led by Kleiner Perkins at a $5B valuation (Bloomberg)",
-      "link": "https://www.techmeme.com/260922/p45#a260922p45",
-      "date": "2026-09-22T14:40:01-04:00",
-      "summary": "Bloomberg: Sources: Mirendil, founded by former Anthropic researchers to build self-improving AI, is in talks to raise ~$1B led by Kleiner Perkins at a $5B valuation&nbsp; &mdash;&nbsp; Mirendil, an artificial intelligence startup launched by former Anthropic PBC researchers, is in talks to raise a ",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
       "title": "TechCrunch Disrupt 2026: Aaron Edsinger brings Hello Robot’s Stretch 4 to life onstage",
       "link": "https://techcrunch.com/2026/09/22/techcrunch-disrupt-2026-aaron-edsinger-brings-hello-robots-stretch-4-to-life-onstage/",
       "date": "2026-09-22T14:30:00+00:00",
@@ -3436,16 +3476,6 @@
       "feedTitle": "TechCrunch AI",
       "category": "Startup & News",
       "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
-    },
-    {
-      "title": "GPT-6 Sol costs $2/1M input and $10/1M output tokens, and GPT-6 Luna costs $0.10/1M input and $0.50/1M output tokens, both about 50% cheaper than GPT-5.6 (Nat Rubio-Licht/The Deep View)",
-      "link": "https://www.techmeme.com/260922/p44#a260922p44",
-      "date": "2026-09-22T14:25:01-04:00",
-      "summary": "Nat Rubio-Licht / The Deep View: GPT-6 Sol costs $2/1M input and $10/1M output tokens, and GPT-6 Luna costs $0.10/1M input and $0.50/1M output tokens, both about 50% cheaper than GPT-5.6&nbsp; &mdash;&nbsp; OpenAI is releasing a more budget-friendly version of its most powerful model.&nbsp; &mdash;&",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
     },
     {
       "title": "Exhibit tables added: One last chance to showcase your startup at TechCrunch Disrupt 2026",
@@ -3468,16 +3498,6 @@
       "feedHome": "https://www.johndcook.com/"
     },
     {
-      "title": "4 days to save up to $200: Reason 2 of 5 to be at TechCrunch Disrupt 2026",
-      "link": "https://techcrunch.com/2026/09/22/4-days-to-save-up-to-200-reason-2-of-5-to-be-at-techcrunch-disrupt-2026/",
-      "date": "2026-09-22T14:00:00+00:00",
-      "summary": "Save up to $200 on your TechCrunch Disrupt 2026 pass, plus 50% off a second pass before prices increase on September 25 at 11:59 p.m. PT. Register today.",
-      "feedId": "techcrunch-ai",
-      "feedTitle": "TechCrunch AI",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
-    },
-    {
       "title": "OpenAI GPT–6 Astra breaks Enigma message that has resisted solution since 2005",
       "link": "https://www.cryptocellar.org/bgac/the-mvueh-break.html",
       "date": "2026-09-22T13:52:15+00:00",
@@ -3488,24 +3508,24 @@
       "feedHome": "https://news.ycombinator.com/"
     },
     {
-      "title": "Everyone can find a reason to dislike data center construction",
-      "link": "https://techcrunch.com/2026/09/22/everyone-can-find-a-reason-to-dislike-data-center-construction/",
-      "date": "2026-09-22T13:00:00+00:00",
-      "summary": "Inside two years of fraught AI data center debates in Pennsylvania.",
-      "feedId": "techcrunch-ai",
-      "feedTitle": "TechCrunch AI",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
-    },
-    {
-      "title": "6 天烧光 2000 多万，拿下开源第一！小米史无前例「炼丹直播」收官",
-      "link": "https://www.bestblogs.dev/article/355218e8be?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
-      "date": "2026-09-22T11:50:28+00:00",
-      "summary": "📌 一句话摘要 小米在 6 天内花费 2000 多万美元训练了 MiMo-V2.6-Pro 模型，成功登上全球开源王座，实现了专家级通用腹部影像 AI，能够识别 18 种解剖结构和 146 种疾病。 📝 详细摘要 本文介绍了小米在 6 天内训练的 MiMo-V2.6-Pro 模型，模型能够识别 18 种解剖结构和 146 种疾病，实现了专家级通用腹部影像 AI。小米使用了视觉-语言对比学习和自适应对比建模等技术，通过「器官级细粒度对齐」模拟放射科医生的阅片逻辑，将 CT 影像与诊断报告进行精确匹配。验证结果显示，该模型在腹部 146 种疾病的诊断上表现优异，AUC 稳定在 0.9 左右，在人机",
+      "title": "机器人 / 物理 Agent Harness 综合分析与对比：从「更强的模型」到「更好的系统」",
+      "link": "https://www.bestblogs.dev/article/3fc3c9a057?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
+      "date": "2026-09-22T12:25:00+00:00",
+      "summary": "📌 一句话摘要 机器人/物理 Agent Harness 综合分析与对比：从 \"更强的模型\" 到 \"更好的系统\" 📝 详细摘要 本文覆盖五个在 2026 年集中出现、共同回答 \"如何为机器人/物理 Agent 构建 Harness\" 这一问题的代表性项目：X-OmniClaw、MemoHarness、HumanCLAW、RoboClaw 和 RPent。 💡 主要观点 提出无需外部模块的自记忆管理机制（Self-Memory） MemPO 让模型在每轮交互开头自主生成记忆摘要，仅保留最近一轮的工具结果，倒逼模型通过强化学习端到端学会 \"什么值得记、怎么记\"，无需依赖外部复杂的记忆检索模块。 设",
       "feedId": "bestblogs",
       "feedTitle": "BestBlogs.dev AI 90+",
       "category": "中文",
       "feedHome": "https://www.bestblogs.dev/"
+    },
+    {
+      "title": "Parallel cut research time and cost in half with GPT‑6 Astra",
+      "link": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
+      "date": "2026-09-22T12:00:00+00:00",
+      "summary": "GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models.",
+      "feedId": "openai",
+      "feedTitle": "OpenAI News",
+      "category": "AI & LLM",
+      "feedHome": "https://openai.com/news/"
     },
     {
       "title": "Are LLMs still surprisingly bad at some simple tasks?",
@@ -3516,16 +3536,6 @@
       "feedTitle": "Terence Eden",
       "category": "Tech Blogs",
       "feedHome": "https://shkspr.mobi/blog/"
-    },
-    {
-      "title": "实测 MiMo-V2.6，这个小米直播烧了 347 万美元训出来的模型到底怎么样？",
-      "link": "https://www.bestblogs.dev/article/b46a287fc5?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
-      "date": "2026-09-22T09:30:00+00:00",
-      "summary": "📌 一句话摘要 文章实测 MiMo-V2.6 模型的训练成本与性能，揭示了其高性价比的特点和实际应用价值。 📝 详细摘要 本文通过实测 MiMo-V2.6 模型的训练过程，分析了其从 58.4 到 72.6 的智能指数提升，以及在 3D 建模、前端审美、真实 coding、办公数据处理和长程研究等五个场景下的实际表现，指出该模型在成本控制和能力提升方面具有显著优势。 💡 主要观点 核心原则：能不看图就不看图，能不点鼠标就不点鼠标 该工具优先探测 App 的命令行、脚本接口或辅助功能树，避免视觉识别错误带来的不稳定性，实现更稳定的 Agent 操作。 三层操控策略与内核适配 根据 App 内核类",
-      "feedId": "bestblogs",
-      "feedTitle": "BestBlogs.dev AI 90+",
-      "category": "中文",
-      "feedHome": "https://www.bestblogs.dev/"
     },
     {
       "title": "SGLang × Qwen × NVIDIA：NVFP4 KV Cache 突破长上下文与 Agentic 推理瓶颈",
@@ -3546,26 +3556,6 @@
       "feedTitle": "Pluralistic",
       "category": "Tech Blogs",
       "feedHome": "https://pluralistic.net/"
-    },
-    {
-      "title": "“大模型的 Steam”！AgentArk 用 Coding Agent 扩展通用多模 Agent 的 RL 与评测环境",
-      "link": "https://www.bestblogs.dev/article/0be6700633?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
-      "date": "2026-09-22T04:00:00+00:00",
-      "summary": "📌 一句话摘要 AgentArk 是一个面向多模态智能体的开放环境框架，利用 Coding Agent 持续扩展 task，并让同一批环境同时支持 Agentic RL 训练与评测。 📝 详细摘要 AgentArk 是一个面向多模态智能体的开放环境框架，利用 Coding Agent 持续扩展 task，并让同一批环境同时支持 Agentic RL 训练与评测。AgentArk 的基本路线很直接：利用已经非常强的 Coding Agent，自动开发用于评测和训练下一代 Multimodal Agent 的环境。AgentArk 的环境生产不是一次性的 \"prompt → code\"，而是一个带",
-      "feedId": "bestblogs",
-      "feedTitle": "BestBlogs.dev AI 90+",
-      "category": "中文",
-      "feedHome": "https://www.bestblogs.dev/"
-    },
-    {
-      "title": "What California is learning from solar panels built over irrigation canals",
-      "link": "https://www.kqed.org/science/2002033/heres-what-california-is-learning-from-solar-panels-built-over-irrigation-canals",
-      "date": "2026-09-22T03:10:05+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
     },
     {
       "title": "小米开源 MiMo-V2.6：大规模强化学习驱动的顶级多模态模型",
@@ -3868,16 +3858,6 @@
       "feedHome": "https://simonwillison.net/"
     },
     {
-      "title": "America’s Decline Can Be Measured by the Names of Ballparks and Arenas",
-      "link": "https://www.mlb.com/news/tigers-ballpark-name-changed-to-fifth-third-park",
-      "date": "2026-09-21T22:04:42+00:00",
-      "summary": "MLB: Comerica Park has had several alternate identities since it became the Tigers’ home in 2000. Some have called it Comerica National Park for its spacious dimensions. Some fans simply came to call it Comerica, or abbreviated it to CoPa, as they grew comfortable with it over the years. Starting ne",
-      "feedId": "daringfireball",
-      "feedTitle": "Daring Fireball",
-      "category": "Tech Blogs",
-      "feedHome": "https://daringfireball.net/"
-    },
-    {
       "title": "GM Confirms They’re Still Smoking Crack",
       "link": "https://x.com/JoannaStern/status/2102105565195288859",
       "date": "2026-09-21T21:52:51+00:00",
@@ -3886,6 +3866,36 @@
       "feedTitle": "Daring Fireball",
       "category": "Tech Blogs",
       "feedHome": "https://daringfireball.net/"
+    },
+    {
+      "title": "Xiaomi MiMo-V2.6：扩展强化学习，迈向自我提升",
+      "link": "https://www.bestblogs.dev/article/8717d12a88?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
+      "date": "2026-09-21T20:18:00+00:00",
+      "summary": "📌 一句话摘要 小米发布 MiMo-V2.6 系列全模态模型，通过规模化强化学习（RL）提升模型在复杂任务、软件工程及数学证明等领域的自适应改进能力。 📝 详细摘要 小米正式发布 Xiaomi MiMo-V2.6 系列，包含 Pro 和 Flash 两个全模态模型。该版本的核心在于探索 RSI（递归自我改进）路径，通过可验证的复杂任务进行规模化强化学习（RL），让模型在持续反馈中拓展边界。在性能上，MiMo-V2.6-Pro 在 AA 综合智能指数中获得 46 分，超过 Kimi K3 和 Qwen3.8 Max，成为当前最强开源模型。技术上，团队从更大 Batch 与更高吞吐、更多任务与复杂",
+      "feedId": "bestblogs",
+      "feedTitle": "BestBlogs.dev AI 90+",
+      "category": "中文",
+      "feedHome": "https://www.bestblogs.dev/"
+    },
+    {
+      "title": "我的一人公司品牌部又又又升级：这次我雇了个演员和一个导演（LibTV 1.5）",
+      "link": "https://www.bestblogs.dev/article/1f63898f35?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
+      "date": "2026-09-21T15:02:00+00:00",
+      "summary": "📌 一句话摘要 花叔实测 LibTV 1.5 的角色造型与 3D 虚拟影棚功能，通过埋设泪痣、雀斑、挑染等「签名」特征验证 AI 演员一致性，并用 3D 预演解决空间关系错误，让 AI 视频制作首次具备可复用、可回滚的工程属性。 📝 详细摘要 本文是作者对 LibTV 1.5 的深度实测复盘。核心思路是把 AI 视频从「抽卡」变成「工程」：先用「人像造型室」捏出一个带泪痣、雀斑、右鬓挑染三个签名特征的固定演员「小满」，通过挂卡与不挂卡的对照实验验证角色一致性（四张中三张命中）；再让她连拍可乐、咖啡、手机壳、补光灯四支广告，总结出「背景越干净、打光越接近角色卡条件，命中率越高」的规律，以及「改哪",
+      "feedId": "bestblogs",
+      "feedTitle": "BestBlogs.dev AI 90+",
+      "category": "中文",
+      "feedHome": "https://www.bestblogs.dev/"
+    },
+    {
+      "title": "Hugging Face tokenizers v1 核心重构技术解析",
+      "link": "https://www.bestblogs.dev/status/2102039343770517786?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
+      "date": "2026-09-21T14:16:48+00:00",
+      "summary": "📌 一句话摘要 Hugging Face 发布 tokenizers v1，通过 SIMD 位流、BPE 词缓存与零分配合并循环，实现编码提速 3–30 倍及内存优化。 📝 详细摘要 作者解读了 Hugging Face 推出的 tokenizers v1。该版本在不改变 API 的前提下通过三项工程优化实现巨大提速：利用 bitcannon 的 SIMD 位流替代通用正则引擎进行预切分；引入基于 BPE 确定性的词缓存（Word Cache）跳过重复计算；并通过零分配与无分支的 merge loop 优化内存与 CPU 分支预测。作者强调，这三项技术分别针对控制流、重复计算及内存分配层面的瓶",
+      "feedId": "bestblogs",
+      "feedTitle": "BestBlogs.dev AI 90+",
+      "category": "中文",
+      "feedHome": "https://www.bestblogs.dev/"
     },
     {
       "title": "What’s the highest legal FILETIME? Is it safe to use?",
@@ -3908,20 +3918,20 @@
       "feedHome": "https://www.jeffgeerling.com/"
     },
     {
-      "title": "Advisory Group on Mathematics and Artificial Intelligence",
-      "link": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
+      "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
+      "link": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
       "date": "2026-09-21T12:00:00+00:00",
-      "summary": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
+      "summary": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
       "feedId": "openai",
       "feedTitle": "OpenAI News",
       "category": "AI & LLM",
       "feedHome": "https://openai.com/news/"
     },
     {
-      "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
-      "link": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
+      "title": "Advisory Group on Mathematics and Artificial Intelligence",
+      "link": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
       "date": "2026-09-21T12:00:00+00:00",
-      "summary": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
+      "summary": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
       "feedId": "openai",
       "feedTitle": "OpenAI News",
       "category": "AI & LLM",
@@ -3958,6 +3968,26 @@
       "feedHome": "https://minimaxir.com/"
     },
     {
+      "title": "10 个人加一套 AI 软件，做出 100 个人的增长：AI 时代企业服务的算账逻辑",
+      "link": "https://www.bestblogs.dev/article/d924c2ab52?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
+      "date": "2026-09-21T08:00:00+00:00",
+      "summary": "📌 一句话摘要 深演智能创始人黄晓南指出，企业级 AI 虽聪明但“涉世未深”，需 FDE 将客户痛点产品化，并强调大模型无法获取企业数据、知识和工作流是核心护城河，未来企业服务将由“Agentic Software”驱动，实现“10 个人做 100 人的增长”，关键在于甲方能否找到核心增长点并与大模型建立“垂直”关系。 📝 详细摘要 本文深度访谈了深演智能创始人兼 CEO 黄晓南，探讨 AI 时代企业服务的算账逻辑。她认为，通用 AI 虽已达高分，但在企业级场景中仍像“刚毕业的博士”，聪明但“涉世未深”。文章阐述了 FDE（前线部署工程师）的核心使命是把客户问题转化为可复用的产品，其中业务理解",
+      "feedId": "bestblogs",
+      "feedTitle": "BestBlogs.dev AI 90+",
+      "category": "中文",
+      "feedHome": "https://www.bestblogs.dev/"
+    },
+    {
+      "title": "腾讯开源记忆系统 T-Mem：用「预演」触发器补齐联想性召回盲区",
+      "link": "https://www.bestblogs.dev/status/2101944326788153739?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
+      "date": "2026-09-21T07:59:14+00:00",
+      "summary": "📌 一句话摘要 腾讯团队开源长期记忆系统 T-Mem，指出四代记忆架构检索配方相同、联想性召回是结构性盲区，通过写入时生成四族 trigger 补上这一半，在 LoCoMo-Plus 联想子集上大幅领先。 📝 详细摘要 这条长推系统解读了腾讯团队开源的记忆系统 T-Mem。作者先梳理四代长期记忆架构（Flat RAG、图结构记忆、agentic 层级记忆、操作系统式记忆内核），指出它们检索配方完全相同——把查询与存储内容投进同一相似度空间取 top-K，导致记忆可达性被相似度封顶，只能覆盖「描述性召回」，而长对话中同样常见的「联想性召回」（查询与记忆零表面重合、仅由因果或情境延续绑定）成为结构",
+      "feedId": "bestblogs",
+      "feedTitle": "BestBlogs.dev AI 90+",
+      "category": "中文",
+      "feedHome": "https://www.bestblogs.dev/"
+    },
+    {
       "title": "Expanding OpenAI Academy with new learning paths",
       "link": "https://openai.com/index/expanding-openai-academy-with-new-learning-paths",
       "date": "2026-09-21T07:00:00+00:00",
@@ -3966,6 +3996,16 @@
       "feedTitle": "OpenAI News",
       "category": "AI & LLM",
       "feedHome": "https://openai.com/news/"
+    },
+    {
+      "title": "ReBarUEFI: Resizable BAR for almost any UEFI system",
+      "link": "https://github.com/xCuri0/ReBarUEFI",
+      "date": "2026-09-21T01:07:46+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
     },
     {
       "title": "How V7 gives AI agents institutional memory",
@@ -4028,16 +4068,6 @@
       "feedHome": "https://shkspr.mobi/blog/"
     },
     {
-      "title": "datasette-explain 0.2.2",
-      "link": "https://simonwillison.net/2026/Sep/20/datasette-explain/",
-      "date": "2026-09-20T00:22:04+00:00",
-      "summary": "Release: datasette-explain 0.2.2 Explain plans now work on read-only stored-query pages. I upgraded datasette.simonwillison.net to Datasette 1.0a40, which inspired me to ship a new version of this explain plugin. Tags: sqlite, datasette",
-      "feedId": "simonwillison",
-      "feedTitle": "Simon Willison",
-      "category": "AI & LLM",
-      "feedHome": "https://simonwillison.net/"
-    },
-    {
       "title": "System One models like Jev can train their own replacements",
       "link": "https://seangoedecke.com/system-one-models-can-train-their-own-replacements/",
       "date": "2026-09-20T00:00:00+00:00",
@@ -4066,26 +4096,6 @@
       "feedTitle": "Computer Rip",
       "category": "Tech Blogs",
       "feedHome": "https://computer.rip/"
-    },
-    {
-      "title": "datasette-auth-github 1.0",
-      "link": "https://simonwillison.net/2026/Sep/19/datasette-auth-github/",
-      "date": "2026-09-19T19:52:02+00:00",
-      "summary": "Release: datasette-auth-github 1.0 I run this GitHub login plugin on the agent.datasette.io demo site and I noticed that my authenticated sessions weren't lasting very long. It turned out that the plugin was setting cookies without a Max-Age parameter, so they were expiring at the end of a browser s",
-      "feedId": "simonwillison",
-      "feedTitle": "Simon Willison",
-      "category": "AI & LLM",
-      "feedHome": "https://simonwillison.net/"
-    },
-    {
-      "title": "California Sea Lion, Brandt's Cormorant",
-      "link": "https://simonwillison.net/2026/Sep/19/sighting-401567341/",
-      "date": "2026-09-19T17:10:08+00:00",
-      "summary": "California Sea Lion, Brandt&#x27;s Cormorant, in Pillar Point Harbor, CA, USI only noticed this after I had taken the photo: Morris the Northern Gannet is peeking out from behind the base of the sign. Tags: wildlife",
-      "feedId": "simonwillison",
-      "feedTitle": "Simon Willison",
-      "category": "AI & LLM",
-      "feedHome": "https://simonwillison.net/"
     },
     {
       "title": "Notes on discrete-time Fourier series and transform",
@@ -4256,16 +4266,6 @@
       "feedTitle": "The Old New Thing",
       "category": "Tech Blogs",
       "feedHome": "https://devblogs.microsoft.com/oldnewthing/"
-    },
-    {
-      "title": "How Cooley is accelerating IPO work with ChatGPT",
-      "link": "https://openai.com/index/cooley-gopublic",
-      "date": "2026-09-17T12:00:00+00:00",
-      "summary": "Cooley built GO Public with ChatGPT Work to bring intelligence to the IPO process, helping lawyers surface issues earlier and focus judgment where it matters most.",
-      "feedId": "openai",
-      "feedTitle": "OpenAI News",
-      "category": "AI & LLM",
-      "feedHome": "https://openai.com/news/"
     },
     {
       "title": "Pluralistic: On the sincerity of AI bosses (17 Sep 2026)",
