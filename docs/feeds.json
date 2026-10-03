@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-03T00:12:07.210599+00:00",
+  "updatedAt": "2026-10-03T06:06:25.655051+00:00",
   "totalFeeds": 51,
   "successCount": 41,
   "failedCount": 10,
@@ -10,7 +10,7 @@
     "lcamtuf",
     "rachelbythebay",
     "tedunangst",
-    "paulgraham",
+    "steveblank",
     "venturebeat",
     "venturebeat-ai",
     "ruanyifeng"
@@ -24,7 +24,7 @@
         "home": "https://simonwillison.net/",
         "url": "https://simonwillison.net/atom/everything/",
         "status": "ok",
-        "fetchedAt": "2026-10-03T00:11:57.115429+00:00",
+        "fetchedAt": "2026-10-03T06:06:15.653138+00:00",
         "items": [
           {
             "title": "Quoting Matthew Green",
@@ -95,7 +95,7 @@
         "home": "https://openai.com/news/",
         "url": "https://openai.com/news/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-03T00:11:57.234216+00:00",
+        "fetchedAt": "2026-10-03T06:06:15.737858+00:00",
         "items": [
           {
             "title": "A model guide for the GPT-6 family",
@@ -166,69 +166,8 @@
         "home": "https://arxiv.org/list/cs.AI/recent",
         "url": "https://arxiv.org/rss/cs.AI",
         "status": "ok",
-        "fetchedAt": "2026-10-03T00:11:57.335748+00:00",
-        "items": [
-          {
-            "title": "Heavy-Tailed Memory Traces in Long-Horizon Language Agents",
-            "link": "https://arxiv.org/abs/2610.00010",
-            "date": "2026-10-02T00:00:00-04:00",
-            "summary": "arXiv:2610.00010v1 Announce Type: new Abstract: Long-horizon language agents increasingly rely on external memory as a frozen world model, yet current memory systems are usually judged only by task success or token cost. We argue that the missing object is the shape of memory use: under finite conte"
-          },
-          {
-            "title": "When Do Causal World Models Help Modular LLM Agents",
-            "link": "https://arxiv.org/abs/2610.00012",
-            "date": "2026-10-02T00:00:00-04:00",
-            "summary": "arXiv:2610.00012v1 Announce Type: new Abstract: LLM agents increasingly act through modular systems, such as order, payment, inventory, and shipment services, where actions in one module change which transitions are valid in another. Standard world models usually fit observational traces, but this i"
-          },
-          {
-            "title": "From Proposal to Verified Effect: Praxa, an Evidence-Bound Harness for Governed AI Agent Execution",
-            "link": "https://arxiv.org/abs/2610.00015",
-            "date": "2026-10-02T00:00:00-04:00",
-            "summary": "arXiv:2610.00015v1 Announce Type: new Abstract: Large-language-model agents can propose and execute actions, but proposal, authority, dispatch, verified external effect, and serving promotion are different claims. We present Praxa, an agent harness that represents these states explicitly through det"
-          },
-          {
-            "title": "What Do Rationales Communicate? A Message-Intervention Study in Role-Specialized QA",
-            "link": "https://arxiv.org/abs/2610.00018",
-            "date": "2026-10-02T00:00:00-04:00",
-            "summary": "arXiv:2610.00018v1 Announce Type: new Abstract: Role-specialized QA pipelines increasingly pass rationales from a reasoner to a verifier, but it is unclear what this message actually buys: better answers, stronger support assessment, or a new failure surface. We introduce a message-intervention diag"
-          },
-          {
-            "title": "Measuring the Microtask Eligibility Gap: When Is an Off-the-Shelf SLM Enough for an Agent Harness?",
-            "link": "https://arxiv.org/abs/2610.00025",
-            "date": "2026-10-02T00:00:00-04:00",
-            "summary": "arXiv:2610.00025v1 Announce Type: new Abstract: Agent harnesses increasingly want to run small language models (SLMs) on the microtasks around a frontier large language model (LLM) planner: auto-approving shell commands, writing memory, selecting tools, ranking past turns. We ask whether off-the-she"
-          },
-          {
-            "title": "Characterizing a Configuration Where Inference-Time PRM-Pruned Fragment Grafting Is Inert: Evidence from Three Reasoning LMs",
-            "link": "https://arxiv.org/abs/2610.00047",
-            "date": "2026-10-02T00:00:00-04:00",
-            "summary": "arXiv:2610.00047v1 Announce Type: new Abstract: Diversity collapse in parallel chain-of-thought has motivated inference-time interventions built on a natural design: when a process reward model (PRM) prunes a chain, its high-PRM prefix is extracted and grafted verbatim as an in-context demonstration"
-          },
-          {
-            "title": "Gradient-Aligned Pair Selection for Personalized Preference Optimization",
-            "link": "https://arxiv.org/abs/2610.00061",
-            "date": "2026-10-02T00:00:00-04:00",
-            "summary": "arXiv:2610.00061v1 Announce Type: new Abstract: Personalizing large language models (LLMs) requires aligning generation behavior with user-specific preferences rather than aggregate quality. While Direct Preference Optimization (DPO) provides a stable framework for preference learning, its effective"
-          },
-          {
-            "title": "K-Dense BYOK: An Open-Source AI Research Assistant That Runs Locally and Keeps a Hash-Chained Lab Notebook",
-            "link": "https://arxiv.org/abs/2610.00074",
-            "date": "2026-10-02T00:00:00-04:00",
-            "summary": "arXiv:2610.00074v1 Announce Type: new Abstract: K-Dense BYOK (bring your own keys) is a free, open-source AI research assistant for scientists in any field that runs on the researcher's own computer. The researcher supplies access to a model of their choice, hosted or running locally, and the applic"
-          },
-          {
-            "title": "Scientific Agents: Evaluating Profession-Specific System Prompts on Scientific Tasks",
-            "link": "https://arxiv.org/abs/2610.00084",
-            "date": "2026-10-02T00:00:00-04:00",
-            "summary": "arXiv:2610.00084v1 Announce Type: new Abstract: Detailed profession-specific system prompts raise token use and estimated cost per response without a consistent accuracy gain. We evaluate Scientific Agents, an open-source corpus of 503 profession-specific AGENTS.md profiles, with Gemini 3.8 Flash vi"
-          },
-          {
-            "title": "Comedic Fool's Gold: Reward Exploits and Countermeasures in Conversational Humor",
-            "link": "https://arxiv.org/abs/2610.00197",
-            "date": "2026-10-02T00:00:00-04:00",
-            "summary": "arXiv:2610.00197v1 Announce Type: new Abstract: We investigate automated rewards for training language models in conversational humor, focusing on reward exploits and countermeasures. Two approaches aim to capture understandable surprise and predicted audience amusement. Controlled tests show that a"
-          }
-        ]
+        "fetchedAt": "2026-10-03T06:06:15.793598+00:00",
+        "items": []
       },
       {
         "id": "arxiv-lg",
@@ -237,67 +176,67 @@
         "home": "https://arxiv.org/list/cs.LG/recent",
         "url": "https://arxiv.org/rss/cs.LG",
         "status": "ok",
-        "fetchedAt": "2026-10-03T00:11:57.473533+00:00",
+        "fetchedAt": "2026-10-03T06:06:15.901037+00:00",
         "items": [
           {
-            "title": "Travel Time Prediction in Supply Chain Management Using Machine Learning",
-            "link": "https://arxiv.org/abs/2609.38190",
-            "date": "2026-10-02T00:00:00-04:00",
-            "summary": "arXiv:2609.38190v1 Announce Type: new Abstract: The purpose of this research is to find data and methods using machine learning and deep learning to correctly predict the estimated travel time for transportation and logistics in a supply chain system. The supply chain ecosystem is very complex and h"
+            "title": "Reverse Item Response Theory for Sparsity-Robust Ranking in Fragmented Cancer Drug-Response Matrices",
+            "link": "https://arxiv.org/abs/2610.00002",
+            "date": "2026-10-03T00:00:00-04:00",
+            "summary": "arXiv:2610.00002v1 Announce Type: new Abstract: We introduce reverse Item Response Theory (IRT) to pharmacogenomic drug-response analysis by treating cancer types as latent \"subjects\" with resistance ability and drugs as \"items\" with evasion difficulty. Applied to 242,036 drug sensitivity measuremen"
           },
           {
-            "title": "EHR2Trace: Auditable EHR Data Infrastructure for Patient World Models and Clinical Agents",
-            "link": "https://arxiv.org/abs/2609.38193",
-            "date": "2026-10-02T00:00:00-04:00",
-            "summary": "arXiv:2609.38193v1 Announce Type: new Abstract: Patient world models and clinical agents aim to predict changes in patients' health and support clinical work. Developing these systems requires reliable histories of patient conditions, treatments, and the information available at each decision. Elect"
+            "title": "How Far is Adam from Natural Gradient Descent?",
+            "link": "https://arxiv.org/abs/2610.00004",
+            "date": "2026-10-03T00:00:00-04:00",
+            "summary": "arXiv:2610.00004v1 Announce Type: new Abstract: Adam is the standard optimizer in deep learning, yet its geometric relationship to natural gradient descent (NGD) contains unresolved questions. We study Adam's full update rule, including momentum, as a diagonal empirical Fisher approximation subject "
           },
           {
-            "title": "A Moving-Horizon Approximate Branch-and-Reduce Method for Deep Classification Trees",
-            "link": "https://arxiv.org/abs/2609.38194",
-            "date": "2026-10-02T00:00:00-04:00",
-            "summary": "arXiv:2609.38194v1 Announce Type: new Abstract: Despite the importance for interpretability, decision trees face severe scalability challenges. Existing global optimal methods are often limited by binary feature selection and shallow tree depths, whereas traditional heuristic approaches frequently s"
+            "title": "FourierQK: Filter Shape, Admissibility and the Leakage-Coverage Law",
+            "link": "https://arxiv.org/abs/2610.00009",
+            "date": "2026-10-03T00:00:00-04:00",
+            "summary": "arXiv:2610.00009v1 Announce Type: new Abstract: Frequency-collapse attention [Zeris, 2026e] achieves large gains over standard dot-product attention by replacing the Q/K dot product with a bandpass-filtered inner product at a learned frequency. A natural follow-up question is: which filter shape wor"
           },
           {
-            "title": "A Data-Free Physics-Informed Neural Operator for Level-Set Interface Advection",
-            "link": "https://arxiv.org/abs/2609.38195",
-            "date": "2026-10-02T00:00:00-04:00",
-            "summary": "arXiv:2609.38195v1 Announce Type: new Abstract: Operators for interfacial problems are trained on reference solutions produced by the solver they are intended to replace. This work develops a data-free physics-informed neural operator for level-set interface advection, in which the interface is the "
+            "title": "Integrating Fairness and Explainability in a Multiple Instance Reinforcement Learning System",
+            "link": "https://arxiv.org/abs/2610.00035",
+            "date": "2026-10-03T00:00:00-04:00",
+            "summary": "arXiv:2610.00035v1 Announce Type: new Abstract: Predicting student performance from educational interaction data requires models that are both accurate and sufficiently transparent to support meaningful intervention, while demographic information introduces an additional risk of unfair predictions. "
           },
           {
-            "title": "Conformal Adversarial Generative Ensemble",
-            "link": "https://arxiv.org/abs/2609.38196",
-            "date": "2026-10-02T00:00:00-04:00",
-            "summary": "arXiv:2609.38196v1 Announce Type: new Abstract: Accurate time series forecasting is critical across various domains, yet traditional ensemble methods often suffer from the disproportionate influence of extreme forecasts. We introduce the Conformal Adversarial Generative Ensemble (CAGE), a novel fram"
+            "title": "Fast Polynomial Transcendentals for LLMs",
+            "link": "https://arxiv.org/abs/2610.00049",
+            "date": "2026-10-03T00:00:00-04:00",
+            "summary": "arXiv:2610.00049v1 Announce Type: new Abstract: Graphics processing unit (GPU) generations scale matrix, special-function, and memory pipelines at different rates, so kernel bottlenecks move as hardware evolves. FlashAttention-4 exposed this imbalance inside attention on NVIDIA Blackwell. We test wh"
           },
           {
-            "title": "DualCast: A Dual-Path Language Model for Bimodal Financial Time-Series Forecasting",
-            "link": "https://arxiv.org/abs/2609.38197",
-            "date": "2026-10-02T00:00:00-04:00",
-            "summary": "arXiv:2609.38197v1 Announce Type: new Abstract: Financial time-series forecasting must capture price dynamics across heterogeneous assets while incorporating news available at prediction time. We introduce DualCast, a dual-path framework that extends a frozen language model with a discrete financial"
+            "title": "SW-KAN: Kolmogorov-Arnold Networks with Stieltjes-Wigert q-Orthogonal Polynomials",
+            "link": "https://arxiv.org/abs/2610.00050",
+            "date": "2026-10-03T00:00:00-04:00",
+            "summary": "arXiv:2610.00050v1 Announce Type: new Abstract: Kolmogorov-Arnold Networks (KANs) represent a paradigmatic shift in deep learning by replacing fixed node activations with learnable univariate functions on edges, offering enhanced interpretability and parameter efficiency. While recent polynomial-bas"
           },
           {
-            "title": "FlashDiffusion: Fused Tiled Kernel Spectral Decomposition",
-            "link": "https://arxiv.org/abs/2609.38198",
-            "date": "2026-10-02T00:00:00-04:00",
-            "summary": "arXiv:2609.38198v1 Announce Type: new Abstract: Diffusion maps, and kernel methods more generally, provide an interpretable nonlinear spectral representation basis for geometric learning. In the geometric limit, small bandwidth, these matrices tend to be high rank and thus require materializing dens"
+            "title": "Format-Aware Fusion for Fast FP4 Pretraining",
+            "link": "https://arxiv.org/abs/2610.00053",
+            "date": "2026-10-03T00:00:00-04:00",
+            "summary": "arXiv:2610.00053v1 Announce Type: new Abstract: Four-bit floating-point (FP4) Tensor Cores accelerate matrix multiplication, but scale computation, operand packing, layout construction, and saved backward state can erase the gain. We present \\emph{format-aware fusion}, which co-designs each quantiza"
           },
           {
-            "title": "Kinematic signatures of impairment: Detecting alcohol intoxication in e-scooter riders using sensor data and machine learning",
-            "link": "https://arxiv.org/abs/2609.38276",
-            "date": "2026-10-02T00:00:00-04:00",
-            "summary": "arXiv:2609.38276v1 Announce Type: new Abstract: Alcohol intoxication is a leading contributor to fatal and severe-injured e-scooterist crashes. Current countermeasures, such as temporal restrictions or pre-ride cognitive screening, cannot continuously assess an e-scooterist's physical motor control "
+            "title": "\"very likely\" Means \"uncertain\"? How LLMs Diverge from Humans in Linguistic Uncertainty Quantification",
+            "link": "https://arxiv.org/abs/2610.00083",
+            "date": "2026-10-03T00:00:00-04:00",
+            "summary": "arXiv:2610.00083v1 Announce Type: new Abstract: Humans express uncertainty verbally via markers (e.g., \"possible,\" \"likely\"), yet most LLM uncertainty quantification (UQ) relies on costing likelihood- or consistency-based signals. From a cognitive perspective, accurate verbal uncertainty reflects me"
           },
           {
-            "title": "Hermes: Learning Contextual Reasoning Unlocks Test-Time Scaling",
-            "link": "https://arxiv.org/abs/2609.38332",
-            "date": "2026-10-02T00:00:00-04:00",
-            "summary": "arXiv:2609.38332v1 Announce Type: new Abstract: Test-time scaling improves model performance by allocating additional compute during inference. Using this compute effectively across multiple context windows requires deciding how to allocate fresh contexts and what information to carry between them. "
+            "title": "Nous: Learning and Certifying Memory Decisions Before Source Calibration",
+            "link": "https://arxiv.org/abs/2610.00094",
+            "date": "2026-10-03T00:00:00-04:00",
+            "summary": "arXiv:2610.00094v1 Announce Type: new Abstract: Belief-based agent memory needs reliable decisions about current state, yet its evidence may be noisy, copied, or stale. Must a memory calibrate its sources before it can improve its decisions? We separate learning, calibration, and revision certificat"
           },
           {
-            "title": "Activation-Conditioned Self-Distillation",
-            "link": "https://arxiv.org/abs/2609.38342",
-            "date": "2026-10-02T00:00:00-04:00",
-            "summary": "arXiv:2609.38342v1 Announce Type: new Abstract: On-policy self-distillation uses a model as its own teacher to provide dense supervision for reasoning, often through reference-solution conditioning. Providing privileged information does not by itself ensure effective token-level supervision througho"
+            "title": "One Mastery Threshold Does Not Fit All Knowledge Tracing Models",
+            "link": "https://arxiv.org/abs/2610.00095",
+            "date": "2026-10-03T00:00:00-04:00",
+            "summary": "arXiv:2610.00095v1 Announce Type: new Abstract: Tutoring systems use mastery thresholds to decide when students can stop practicing and advance, but the same numerical threshold can lead to very different decisions when the underlying knowledge tracing (KT) model changes. We examine six KT models ac"
           }
         ]
       },
@@ -308,7 +247,7 @@
         "home": "https://research.google/blog/",
         "url": "https://research.google/blog/rss/",
         "status": "ok",
-        "fetchedAt": "2026-10-03T00:11:57.357776+00:00",
+        "fetchedAt": "2026-10-03T06:06:15.805793+00:00",
         "items": [
           {
             "title": "Toward provably private learning from federated data",
@@ -379,7 +318,7 @@
         "home": "https://deepmind.google/blog/",
         "url": "https://deepmind.google/blog/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-03T00:11:57.243362+00:00",
+        "fetchedAt": "2026-10-03T06:06:15.756815+00:00",
         "items": [
           {
             "title": "Gemini 4 Argon: our next era of frontier intelligence",
@@ -450,7 +389,7 @@
         "home": "https://lilianweng.github.io/",
         "url": "https://lilianweng.github.io/lil-log/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-03T00:11:57.060419+00:00",
+        "fetchedAt": "2026-10-03T06:06:15.640288+00:00",
         "items": [
           {
             "title": "Active Learning",
@@ -541,7 +480,7 @@
         "home": "https://minimaxir.com/",
         "url": "https://minimaxir.com/index.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-03T00:11:57.122510+00:00",
+        "fetchedAt": "2026-10-03T06:06:15.746368+00:00",
         "items": [
           {
             "title": "Writing Rust code that's faster than state-of-the-art libraries by asking agents to make the code faster",
@@ -624,7 +563,7 @@
         "home": "https://www.jeffgeerling.com/",
         "url": "https://www.jeffgeerling.com/blog.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-03T00:11:57.105276+00:00",
+        "fetchedAt": "2026-10-03T06:06:15.808766+00:00",
         "items": [
           {
             "title": "I'm starting HomelabFest (in St. Louis, Sep 2027)",
@@ -695,7 +634,7 @@
         "home": "https://www.seangoedecke.com/",
         "url": "https://www.seangoedecke.com/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-03T00:11:57.103505+00:00",
+        "fetchedAt": "2026-10-03T06:06:15.801241+00:00",
         "items": [
           {
             "title": "Superpersuasion will look like bribery",
@@ -766,7 +705,7 @@
         "home": "https://krebsonsecurity.com/",
         "url": "https://krebsonsecurity.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-10-03T00:11:57.362271+00:00",
+        "fetchedAt": "2026-10-03T06:06:15.812815+00:00",
         "items": [
           {
             "title": "Dutch Police Arrest ‘Reformed’ Hacker in Shiny Hunters Investigation",
@@ -837,12 +776,12 @@
         "home": "https://daringfireball.net/",
         "url": "https://daringfireball.net/feeds/main",
         "status": "ok",
-        "fetchedAt": "2026-10-03T00:11:57.130741+00:00",
+        "fetchedAt": "2026-10-03T06:06:15.790779+00:00",
         "items": [
           {
             "title": "★ Apple Is Going to Further Tighten the Screws on Full Disk Access on MacOS, in Response to Agentic AI Apps Running Amok",
             "link": "https://daringfireball.net/2026/10/apple_full_disk_access",
-            "date": "2026-10-02T23:54:58+00:00",
+            "date": "2026-10-03T00:49:40+00:00",
             "summary": "Hopefully Apple has in mind a solution to this situation that will still enable knowledgeable power users to confirm agreement to a sufficiently scary warning and put their Macs in a state similar to what we have today. I worry."
           },
           {
@@ -908,7 +847,7 @@
         "home": "https://ericmigi.com/",
         "url": "https://ericmigi.com/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-03T00:11:57.165191+00:00",
+        "fetchedAt": "2026-10-03T06:06:15.659577+00:00",
         "items": [
           {
             "title": "New Pebble Weather App + Software Updates",
@@ -979,7 +918,7 @@
         "home": "http://antirez.com/",
         "url": "http://antirez.com/rss",
         "status": "ok",
-        "fetchedAt": "2026-10-03T00:11:59.605926+00:00",
+        "fetchedAt": "2026-10-03T06:06:17.313881+00:00",
         "items": [
           {
             "title": "The real AI risk is inside the labs",
@@ -1050,7 +989,7 @@
         "home": "https://idiallo.com/",
         "url": "https://idiallo.com/feed.rss",
         "status": "ok",
-        "fetchedAt": "2026-10-03T00:11:57.491541+00:00",
+        "fetchedAt": "2026-10-03T06:06:15.948561+00:00",
         "items": [
           {
             "title": "Edge Is Pretending to Be Chrome",
@@ -1121,7 +1060,7 @@
         "home": "https://maurycyz.com/",
         "url": "https://maurycyz.com/index.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-03T00:11:58.084742+00:00",
+        "fetchedAt": "2026-10-03T06:06:16.317164+00:00",
         "items": []
       },
       {
@@ -1131,7 +1070,7 @@
         "home": "https://pluralistic.net/",
         "url": "https://pluralistic.net/feed/",
         "status": "ok",
-        "fetchedAt": "2026-10-03T00:12:00.456285+00:00",
+        "fetchedAt": "2026-10-03T06:06:19.007111+00:00",
         "items": [
           {
             "title": "Pluralistic: Voting is to politics as shopping is to boycotts (01 Oct 2026)",
@@ -1202,7 +1141,7 @@
         "home": "https://shkspr.mobi/blog/",
         "url": "https://shkspr.mobi/blog/feed/",
         "status": "ok",
-        "fetchedAt": "2026-10-03T00:11:58.295243+00:00",
+        "fetchedAt": "2026-10-03T06:06:16.519312+00:00",
         "items": [
           {
             "title": "Gadget Review: Una Watch ★★★★☆",
@@ -1283,7 +1222,7 @@
         "home": "https://mitchellh.com/",
         "url": "https://mitchellh.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-03T00:11:57.527742+00:00",
+        "fetchedAt": "2026-10-03T06:06:15.817128+00:00",
         "items": [
           {
             "title": "Superlogical",
@@ -1354,7 +1293,7 @@
         "home": "https://dynomight.net/",
         "url": "https://dynomight.net/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-03T00:11:57.860741+00:00",
+        "fetchedAt": "2026-10-03T06:06:16.093931+00:00",
         "items": [
           {
             "title": "Why is the human body so crap except for the liver?",
@@ -1425,7 +1364,7 @@
         "home": "https://xeiaso.net/",
         "url": "https://xeiaso.net/blog.rss",
         "status": "ok",
-        "fetchedAt": "2026-10-03T00:11:58.149278+00:00",
+        "fetchedAt": "2026-10-03T06:06:16.475536+00:00",
         "items": [
           {
             "title": "This is why we play",
@@ -1496,7 +1435,7 @@
         "home": "https://devblogs.microsoft.com/oldnewthing/",
         "url": "https://devblogs.microsoft.com/oldnewthing/feed",
         "status": "ok",
-        "fetchedAt": "2026-10-03T00:11:57.583546+00:00",
+        "fetchedAt": "2026-10-03T06:06:15.783355+00:00",
         "items": [
           {
             "title": "Windows on Itanium also provided for hot-patching, in an even simpler way",
@@ -1567,7 +1506,7 @@
         "home": "https://www.righto.com/",
         "url": "https://www.righto.com/feeds/posts/default",
         "status": "ok",
-        "fetchedAt": "2026-10-03T00:11:57.517699+00:00",
+        "fetchedAt": "2026-10-03T06:06:15.997719+00:00",
         "items": []
       },
       {
@@ -1577,7 +1516,7 @@
         "home": "https://lucumr.pocoo.org/",
         "url": "https://lucumr.pocoo.org/feed.atom",
         "status": "ok",
-        "fetchedAt": "2026-10-03T00:11:57.549657+00:00",
+        "fetchedAt": "2026-10-03T06:06:15.975773+00:00",
         "items": [
           {
             "title": "Deser: Rethinking Rust Serialization",
@@ -1648,7 +1587,7 @@
         "home": "https://skyfall.dev/",
         "url": "https://skyfall.dev/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-03T00:11:57.528399+00:00",
+        "fetchedAt": "2026-10-03T06:06:16.069327+00:00",
         "items": [
           {
             "title": "Good riddance, 4o",
@@ -1723,7 +1662,7 @@
         "home": "https://overreacted.io/",
         "url": "https://overreacted.io/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-03T00:11:57.749829+00:00",
+        "fetchedAt": "2026-10-03T06:06:16.032138+00:00",
         "items": [
           {
             "title": "How I Vibed a Proof of Conway’s Conjecture",
@@ -1794,7 +1733,7 @@
         "home": "https://www.johndcook.com/",
         "url": "https://www.johndcook.com/blog/feed/",
         "status": "ok",
-        "fetchedAt": "2026-10-03T00:11:57.403994+00:00",
+        "fetchedAt": "2026-10-03T06:06:15.959857+00:00",
         "items": [
           {
             "title": "Servers in dawn-dusk orbit",
@@ -1865,7 +1804,7 @@
         "home": "https://matklad.github.io/",
         "url": "https://matklad.github.io/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-03T00:11:57.251100+00:00",
+        "fetchedAt": "2026-10-03T06:06:15.925574+00:00",
         "items": [
           {
             "title": "Finding Bugs",
@@ -1936,7 +1875,7 @@
         "home": "https://eli.thegreenplace.net/",
         "url": "https://eli.thegreenplace.net/feeds/all.atom.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-03T00:11:57.878021+00:00",
+        "fetchedAt": "2026-10-03T06:06:16.101000+00:00",
         "items": [
           {
             "title": "Summary of reading: July - September 2026",
@@ -1977,7 +1916,7 @@
         "home": "https://fabiensanglard.net/",
         "url": "https://fabiensanglard.net/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-03T00:11:57.779655+00:00",
+        "fetchedAt": "2026-10-03T06:06:15.941253+00:00",
         "items": [
           {
             "title": "My agent.md to improve LLM-assisted code quality",
@@ -2048,7 +1987,7 @@
         "home": "https://blog.miguelgrinberg.com/",
         "url": "https://blog.miguelgrinberg.com/feed",
         "status": "ok",
-        "fetchedAt": "2026-10-03T00:11:58.263843+00:00",
+        "fetchedAt": "2026-10-03T06:06:16.802419+00:00",
         "items": [
           {
             "title": "You Should be Using Rootless Containers",
@@ -2119,7 +2058,7 @@
         "home": "https://www.troyhunt.com/",
         "url": "https://www.troyhunt.com/rss/",
         "status": "ok",
-        "fetchedAt": "2026-10-03T00:11:57.238762+00:00",
+        "fetchedAt": "2026-10-03T06:06:15.965190+00:00",
         "items": [
           {
             "title": "Weekly Update 523: Live From a Norwegian Fjord",
@@ -2190,7 +2129,7 @@
         "home": "https://anildash.com/",
         "url": "https://anildash.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-03T00:11:57.634364+00:00",
+        "fetchedAt": "2026-10-03T06:06:16.049754+00:00",
         "items": [
           {
             "title": "(One) Good AI Is Here",
@@ -2261,7 +2200,7 @@
         "home": "https://computer.rip/",
         "url": "https://computer.rip/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-03T00:11:57.802080+00:00",
+        "fetchedAt": "2026-10-03T06:06:16.515367+00:00",
         "items": [
           {
             "title": "a new world airport and its baggage",
@@ -2341,8 +2280,8 @@
         "title": "Paul Graham Essays",
         "home": "http://paulgraham.com/",
         "url": "http://www.aaronsw.com/2002/feeds/pgessays.rss",
-        "status": "error",
-        "error": "Cannot connect to host www.aaronsw.com:80 ssl:False [Name or service not known]",
+        "status": "ok",
+        "fetchedAt": "2026-10-03T06:06:15.916749+00:00",
         "items": []
       },
       {
@@ -2351,70 +2290,9 @@
         "title": "Steve Blank",
         "home": "https://steveblank.com/",
         "url": "https://steveblank.com/feed/",
-        "status": "ok",
-        "fetchedAt": "2026-10-03T00:11:57.369087+00:00",
-        "items": [
-          {
-            "title": "Lean LaunchPad – The Next Generation",
-            "link": "https://steveblank.com/2026/09/30/lean-launchpad-the-next-generation/",
-            "date": "2026-09-30T13:00:28+00:00",
-            "summary": "You&#8217;re reading a four-part series on how AI has impacted our Lean LaunchPad class and what we did about it. Part 1: The Year AI Came For Us Part 2: AI Killed the MVP – Long Live the IUP Part 3: The World Outside the Classroom Changed, The Class Didn’t This post: Lean LaunchPad – The [&#8230;]"
-          },
-          {
-            "title": "The World Outside the Classroom Changed, The Class Didn’t",
-            "link": "https://steveblank.com/2026/09/28/the-world-outside-the-classroom-changed-the-class-didnt/",
-            "date": "2026-09-28T13:00:57+00:00",
-            "summary": "This post previously appeared in Poets and Quants This is the third of four posts on how AI has impacted our Lean LaunchPad class and what we did about it. Part 1: The Year AI Came For Us Part 2: AI Killed the MVP – Long Live the IUP Part 3: This Post Part 4: [&#8230;]"
-          },
-          {
-            "title": "AI Killed the MVP – Long Live the IUP",
-            "link": "https://steveblank.com/2026/09/25/ai-killed-the-mvp-long-live-the-iup/",
-            "date": "2026-09-25T13:00:16+00:00",
-            "summary": "This post previously appeared in Poets and Quants This is the second of four posts on how AI has impacted our Lean LaunchPad class and what we did about it. Part 1: The Year AI Came For Us Part 2: This Post Next Week Part 3: The World Outside the Classroom Changed, The Class Didn’t [&#8230;]"
-          },
-          {
-            "title": "The Year AI Came For Us: Teaching Entrepreneurship Will Never Be The Same",
-            "link": "https://steveblank.com/2026/09/23/the-year-ai-came-for-us-teaching-entrepreneurship-will-never-be-the-same/",
-            "date": "2026-09-23T13:00:12+00:00",
-            "summary": "This post previously appeared in Poets and Quants. 15 years ago, my Lean LaunchPad class changed how entrepreneurship is taught. The class is now taught in hundreds of universities worldwide and helped launch thousands of startups. But this past summer, I got thinking about whether AI killed our Lea"
-          },
-          {
-            "title": "Lean Launch Pad 2026 @ Stanford – Lessons Learned Presentations",
-            "link": "https://steveblank.com/2026/06/16/lean-launch-pad-2026-stanford-lessons-learned-presentations/",
-            "date": "2026-06-16T13:00:57+00:00",
-            "summary": "We just finished the 16th annual Lean LaunchPad class at Stanford. In those 16 years, the class has gone from a radical idea &#8211; that the Lean method could provide a more productive framework for new startups &#8211; to something that everyone agrees is a way to build new startups. The class had"
-          },
-          {
-            "title": "Incorruptible",
-            "link": "https://steveblank.com/2026/06/09/incorruptible/",
-            "date": "2026-06-09T13:00:23+00:00",
-            "summary": "Incorruptible: Why Good Companies Go Bad&#8230; and How Great Companies Stay Great, by Eric Ries. Every once in a while a book comes along that doesn&#8217;t just change your tactical thinking, but makes you see the world in a different way. Reading this book is like taking the red pill in the Matri"
-          },
-          {
-            "title": "Hacking for Defense @ Stanford 2026 – Lessons Learned Presentations",
-            "link": "https://steveblank.com/2026/06/08/g-for-defense-stanford-2026-lessons-learned-presentations/",
-            "date": "2026-06-08T13:00:15+00:00",
-            "summary": "We just wrapped up our Hacking for Defense class at Stanford. This was the 11th year we&#8217;ve taught Hacking for Defense, and the impact of asymmetric warfare, (drones, off-the-shelf technologies, etc.,) disruptive technologies (AI, commercial access to space) and a startup friendly DoW acquisiti"
-          },
-          {
-            "title": "Anthropic Mythos – We’ve Opened Pandora’s Box",
-            "link": "https://steveblank.com/2026/04/28/anthropic-mythos-weve-opened-pandoras-box/",
-            "date": "2026-04-28T13:00:48+00:00",
-            "summary": "This article previously appeared in The Cipher Brief. For a decade the cybersecurity community was predicting a cyber apocalypse tied to a single event &#8211; the day a Cryptographically Relevant Quantum Computer could run Shor’s algorithm and break the public-key cryptography systems most of the i"
-          },
-          {
-            "title": "AI and Teaching – The Brave New World",
-            "link": "https://steveblank.com/2026/04/22/ai-and-teaching-the-brave-new-world/",
-            "date": "2026-04-22T15:34:09+00:00",
-            "summary": "This article previously appeared in the Entrepreneur &#38; Innovation Exchange (EIX) This is the 16th year we’ve been teaching the Stanford Lean LaunchPad class. This year, from the first hour of the first class, we realized we were seeing something extraordinary happen. It was both the end and begi"
-          },
-          {
-            "title": "Nowhere Is Safe",
-            "link": "https://steveblank.com/2026/04/09/nowhere-is-safe/",
-            "date": "2026-04-09T13:00:25+00:00",
-            "summary": "Drones in Ukraine and in the War with Iran have made the surface of the earth a contested space. The U.S. has discovered that 1) air superiority and missile defense systems (THAAD, Patriot batteries) designed to counter tens or hundreds of aircraft and missiles is insufficient against asymmetric att"
-          }
-        ]
+        "status": "error",
+        "error": "HTTP 429",
+        "items": []
       }
     ],
     "Startup & News": [
@@ -2425,12 +2303,12 @@
         "home": "https://news.ycombinator.com/",
         "url": "https://news.ycombinator.com/rss",
         "status": "ok",
-        "fetchedAt": "2026-10-03T00:11:57.374139+00:00",
+        "fetchedAt": "2026-10-03T06:06:16.170935+00:00",
         "items": [
           {
-            "title": "Apple Pass Designer",
-            "link": "https://developer.apple.com/pass-designer/",
-            "date": "2026-10-02T19:06:56+00:00",
+            "title": "Newgrounds.com – A community of games, music, and art",
+            "link": "https://www.newgrounds.com/",
+            "date": "2026-10-03T00:55:25+00:00",
             "summary": "Comments"
           },
           {
@@ -2446,15 +2324,9 @@
             "summary": "Comments"
           },
           {
-            "title": "A 12-year sequence of telescope images of a star and four planets orbiting",
-            "link": "https://bsky.app/profile/theplanetaryguy.com/post/3mwucf5ert22f",
-            "date": "2026-10-02T11:07:17+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "With most information hidden, the game Stratego had stumped AI until now",
-            "link": "https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget/",
-            "date": "2026-10-02T14:11:24+00:00",
+            "title": "Extra Big Ass Intelligence",
+            "link": "https://www.extrabigassintelligence.com/",
+            "date": "2026-10-03T03:19:10+00:00",
             "summary": "Comments"
           },
           {
@@ -2464,9 +2336,21 @@
             "summary": "Comments"
           },
           {
-            "title": "Muse Gadgets",
-            "link": "https://gadgets.muse.ai",
-            "date": "2026-10-02T19:26:54+00:00",
+            "title": "Apple Pass Designer",
+            "link": "https://developer.apple.com/pass-designer/",
+            "date": "2026-10-02T19:06:56+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "Cloudflare OHTTP gateway",
+            "link": "https://blog.cloudflare.com/announcing-cloudflare-ohttp-gateway/",
+            "date": "2026-10-03T03:15:05+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "A 12-year sequence of telescope images of a star and four planets orbiting",
+            "link": "https://bsky.app/profile/theplanetaryguy.com/post/3mwucf5ert22f",
+            "date": "2026-10-02T11:07:17+00:00",
             "summary": "Comments"
           },
           {
@@ -2476,15 +2360,9 @@
             "summary": "Comments"
           },
           {
-            "title": "From the creator of Redis; run LLM locally with ds4",
-            "link": "https://dwarfstar.sh/",
-            "date": "2026-10-02T18:01:16+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "Zig v0.17.0",
-            "link": "https://ziglang.org/download/0.17.0/release-notes.html",
-            "date": "2026-10-02T20:56:36+00:00",
+            "title": "With most information hidden, the game Stratego had stumped AI until now",
+            "link": "https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget/",
+            "date": "2026-10-02T14:11:24+00:00",
             "summary": "Comments"
           }
         ]
@@ -2496,8 +2374,50 @@
         "home": "https://www.techmeme.com/",
         "url": "https://www.techmeme.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-03T00:11:57.170008+00:00",
+        "fetchedAt": "2026-10-03T06:06:16.343926+00:00",
         "items": [
+          {
+            "title": "Relay, which develops cloud-hosted, AI-powered smart radio communicators for frontline workers, raised $36M to help businesses capture \"frontline intelligence\" (Mike Wheatley/SiliconANGLE)",
+            "link": "https://www.techmeme.com/261003/p5#a261003p5",
+            "date": "2026-10-03T01:55:57-04:00",
+            "summary": "Mike Wheatley / SiliconANGLE: Relay, which develops cloud-hosted, AI-powered smart radio communicators for frontline workers, raised $36M to help businesses capture &ldquo;frontline intelligence&rdquo;&nbsp; &mdash;&nbsp; The business communications startup Relay Inc. says it's trying to capture &ld"
+          },
+          {
+            "title": "Nasdaq-listed neocloud Nebius acquires Inferize, whose tech helps optimize GPU utilization and reduce AI request costs, sources say for $100M to $150M (Meir Orbach/CTech)",
+            "link": "https://www.techmeme.com/261003/p4#a261003p4",
+            "date": "2026-10-03T01:45:00-04:00",
+            "summary": "Meir Orbach / CTech: Nasdaq-listed neocloud Nebius acquires Inferize, whose tech helps optimize GPU utilization and reduce AI request costs, sources say for $100M to $150M&nbsp; &mdash;&nbsp; The Israeli startup, which was founded by former Granulate executives and employs 17 people, built technolog"
+          },
+          {
+            "title": "Sources: TSMC is exploring plans to work with Elon Musk's Terafab project as it mulls a presence in Texas, adding to its existing plans to expand in Arizona (Tim Culpan/Culpium)",
+            "link": "https://www.techmeme.com/261003/p3#a261003p3",
+            "date": "2026-10-03T01:30:02-04:00",
+            "summary": "Tim Culpan / Culpium: Sources: TSMC is exploring plans to work with Elon Musk's Terafab project as it mulls a presence in Texas, adding to its existing plans to expand in Arizona&nbsp; &mdash;&nbsp; [Exclusive] Taiwanese foundry giant may use Terafab as anchor client for a future Texas semiconductor"
+          },
+          {
+            "title": "Reco, whose tech helps enterprises secure and govern AI agents across SaaS environments, raised a $55M Series B extension, taking its total funding to $140M (Ram Iyer/TechCrunch)",
+            "link": "https://www.techmeme.com/261003/p2#a261003p2",
+            "date": "2026-10-03T01:11:01-04:00",
+            "summary": "Ram Iyer / TechCrunch: Reco, whose tech helps enterprises secure and govern AI agents across SaaS environments, raised a $55M Series B extension, taking its total funding to $140M&nbsp; &mdash;&nbsp; Terms like &ldquo;AI sprawl&rdquo; have become common fare on tech social media and in thought leade"
+          },
+          {
+            "title": "Onsemi revises its Synaptics acquisition to a ~$5.7B all-cash offer, down from the ~$7B all-stock deal announced in June, after Synaptics received another bid (Elias Schisgall/Wall Street Journal)",
+            "link": "https://www.techmeme.com/261003/p1#a261003p1",
+            "date": "2026-10-03T00:45:05-04:00",
+            "summary": "Elias Schisgall / Wall Street Journal: Onsemi revises its Synaptics acquisition to a ~$5.7B all-cash offer, down from the ~$7B all-stock deal announced in June, after Synaptics received another bid&nbsp; &mdash;&nbsp; ON Semiconductor says it will pay $123 a share for Synaptics, giving the deal a va"
+          },
+          {
+            "title": "A US judge rules an officer's use of Flock to search a car's license plate was a form of \"indiscriminate mass surveillance\", and violated the Fourth Amendment (Jason Koebler/404 Media)",
+            "link": "https://www.techmeme.com/261002/p31#a261002p31",
+            "date": "2026-10-02T21:40:52-04:00",
+            "summary": "Jason Koebler / 404 Media: A US judge rules an officer's use of Flock to search a car's license plate was a form of &ldquo;indiscriminate mass surveillance&rdquo;, and violated the Fourth Amendment&nbsp; &mdash;&nbsp; Flock's nationwide network is quickly &ldquo;approaching dragnet-type law enforcem"
+          },
+          {
+            "title": "Supabase raised $150M led by Singapore's GIC and agrees to acquire Turso, which offers a database optimized for AI agents, for an undisclosed sum (Maria Deutscher/SiliconANGLE)",
+            "link": "https://www.techmeme.com/261002/p30#a261002p30",
+            "date": "2026-10-02T20:50:01-04:00",
+            "summary": "Maria Deutscher / SiliconANGLE: Supabase raised $150M led by Singapore's GIC and agrees to acquire Turso, which offers a database optimized for AI agents, for an undisclosed sum&nbsp; &mdash;&nbsp; Supabase Inc., a startup that commercializes the open-source PostgreSQL database, has raised $150 mill"
+          },
           {
             "title": "David Robinson, who worked on OpenAI's Safety Systems team and had previously led policy planning, left OpenAI last week (Stephen Council/Business Insider)",
             "link": "https://www.techmeme.com/261002/p29#a261002p29",
@@ -2515,48 +2435,6 @@
             "link": "https://www.techmeme.com/261002/p27#a261002p27",
             "date": "2026-10-02T19:20:01-04:00",
             "summary": "Molly Taft / Wired: Amazon says it has stopped using NDAs with county officials for data center projects and acknowledges community backlash is leading to data center moratoriums&nbsp; &mdash;&nbsp; In a blog post published Friday, CEO Matt Garman detailed the steps the company says it's already tak"
-          },
-          {
-            "title": "Nvidia announces a version of DGX Spark with 64 GB of unified memory for $4,999, or $1,000 more than the 128 GB version at launch (Michael Kan/PCMag)",
-            "link": "https://www.techmeme.com/261002/p26#a261002p26",
-            "date": "2026-10-02T19:00:38-04:00",
-            "summary": "Michael Kan / PCMag: Nvidia announces a version of DGX Spark with 64 GB of unified memory for $4,999, or $1,000 more than the 128 GB version at launch&nbsp; &mdash;&nbsp; The ongoing memory shortage has prompted Nvidia to create a 64GB version of its DGX Spark mini PC, which runs AI models locally.&"
-          },
-          {
-            "title": "Apple releases an update for iPhone 18 Pro Max devices on AT&T to address cellular failures; units that already lost service require hardware replacement (Chance Miller/9to5Mac)",
-            "link": "https://www.techmeme.com/261002/p25#a261002p25",
-            "date": "2026-10-02T17:35:01-04:00",
-            "summary": "Chance Miller / 9to5Mac: Apple releases an update for iPhone 18 Pro Max devices on AT&amp;T to address cellular failures; units that already lost service require hardware replacement&nbsp; &mdash;&nbsp; Apple has confirmed an issue causing a &ldquo;small number&rdquo; of iPhone 18 Pro Max devices on"
-          },
-          {
-            "title": "Meta announces Muse Gadgets, providing an open source ESP32 microchip firmware and a Linux SDK to let users bring Muse to their hardware, like Raspberry Pi 5 (Karissa Bell/Engadget)",
-            "link": "https://www.techmeme.com/261002/p24#a261002p24",
-            "date": "2026-10-02T16:50:01-04:00",
-            "summary": "Karissa Bell / Engadget: Meta announces Muse Gadgets, providing an open source ESP32 microchip firmware and a Linux SDK to let users bring Muse to their hardware, like Raspberry Pi 5&nbsp; &mdash;&nbsp; The company created its own smart home device, the Muse Home Link&nbsp; &mdash;&nbsp; We still do"
-          },
-          {
-            "title": "Meta says it is letting go of employees it hired from AI safety startup Virtue AI four months after they joined the company, citing clashing work styles (Ashley Gold/Semafor)",
-            "link": "https://www.techmeme.com/261002/p23#a261002p23",
-            "date": "2026-10-02T16:25:21-04:00",
-            "summary": "Ashley Gold / Semafor: Meta says it is letting go of employees it hired from AI safety startup Virtue AI four months after they joined the company, citing clashing work styles&nbsp; &mdash;&nbsp; Meta said it's letting go of employees it hired from AI safety startup Virtue AI four months after they "
-          },
-          {
-            "title": "Memo: the US Army is creating an autonomous systems command, after Defense Secretary Pete Hegseth announced the Meridian and Agincourt robotic warfare projects (Colin Demarest/Axios)",
-            "link": "https://www.techmeme.com/261002/p22#a261002p22",
-            "date": "2026-10-02T16:00:13-04:00",
-            "summary": "Colin Demarest / Axios: Memo: the US Army is creating an autonomous systems command, after Defense Secretary Pete Hegseth announced the Meridian and Agincourt robotic warfare projects&nbsp; &mdash;&nbsp; The U.S. Army is creating a new autonomous systems command and appointing an acquisition executi"
-          },
-          {
-            "title": "TypeSafe CEO Diogo Almeida says Jev is in use by ~25% of Fortune 500 companies and \"we were at a trillion tokens per day about a week ago\" (Elias Schisgall/Wall Street Journal)",
-            "link": "https://www.techmeme.com/261002/p21#a261002p21",
-            "date": "2026-10-02T15:25:15-04:00",
-            "summary": "Elias Schisgall / Wall Street Journal: TypeSafe CEO Diogo Almeida says Jev is in use by ~25% of Fortune 500 companies and &ldquo;we were at a trillion tokens per day about a week ago&rdquo;&nbsp; &mdash;&nbsp; The Jev model, which TypeSafe's CEO considers at the forefront of a &lsquo;new class of AI"
-          },
-          {
-            "title": "Tavus unveils Griffin, the \"first Human Interaction Model\", which it says passed the \"video Turing test\", with 48% of users thinking it was human in live chats (@tavus)",
-            "link": "https://www.techmeme.com/261002/p20#a261002p20",
-            "date": "2026-10-02T14:45:03-04:00",
-            "summary": "@tavus: Tavus unveils Griffin, the &ldquo;first Human Interaction Model&rdquo;, which it says passed the &ldquo;video Turing test&rdquo;, with 48% of users thinking it was human in live chats&nbsp; &mdash;&nbsp; Introducing Griffin, the first model to pass the video Turing test. 48% of people who ta"
           }
         ]
       },
@@ -2567,8 +2445,20 @@
         "home": "https://techcrunch.com/",
         "url": "https://techcrunch.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-10-03T00:11:57.372016+00:00",
+        "fetchedAt": "2026-10-03T06:06:16.015626+00:00",
         "items": [
+          {
+            "title": "Meta wants your next gadget to be Muse-infused",
+            "link": "https://techcrunch.com/2026/10/02/meta-wants-you-to-build-your-own-muse-gadget/",
+            "date": "2026-10-03T00:45:39+00:00",
+            "summary": "Meta wants Muse in your TV and your toaster, so it's giving the code away for free."
+          },
+          {
+            "title": "Sanders introduces bill to ban the federal government from using Flock",
+            "link": "https://techcrunch.com/2026/10/02/sanders-introduces-bill-to-ban-the-federal-government-from-using-flock/",
+            "date": "2026-10-03T00:21:57+00:00",
+            "summary": "The proposed legislation would extend to all automotica license plate readers."
+          },
           {
             "title": "Sean Parker is rebuilding Stability AI around music",
             "link": "https://techcrunch.com/2026/10/02/sean-parker-is-rebuilding-stability-ai-around-music/",
@@ -2616,18 +2506,6 @@
             "link": "https://techcrunch.com/2026/10/02/pope-leo-xiv-is-not-a-fan-of-ai-generated-art/",
             "date": "2026-10-02T15:39:41+00:00",
             "summary": "\"There is an ontological difference, even before an aesthetic one, between art and what a machine can generate through statistical calculation based on millions of images created by others,\" the pope wrote. \"Algorithms lack the spark of humanity.\""
-          },
-          {
-            "title": "Laytr’s new app lets you save anything you find online, not just articles to read",
-            "link": "https://techcrunch.com/2026/10/02/laytrs-new-app-lets-you-save-anything-you-find-online-not-just-articles-to-read/",
-            "date": "2026-10-02T15:31:20+00:00",
-            "summary": "Laytr lets you save articles, recipes, screenshots, videos, PDFs, and more for later, while keeping your archive private and synced across your Apple devices."
-          },
-          {
-            "title": "Slovenia’s .si domain sees a surge in registrations after Trump’s ‘super intelligence’ order",
-            "link": "https://techcrunch.com/2026/10/02/slovenias-si-domain-sees-a-surge-in-registrations-after-trumps-super-intelligence-order/",
-            "date": "2026-10-02T14:47:46+00:00",
-            "summary": "The .si domain name is seeing unprecedented demand after President Trump's super intelligence executive order."
           }
         ]
       },
@@ -2638,8 +2516,14 @@
         "home": "https://techcrunch.com/category/artificial-intelligence/",
         "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
         "status": "ok",
-        "fetchedAt": "2026-10-03T00:11:57.480498+00:00",
+        "fetchedAt": "2026-10-03T06:06:16.017428+00:00",
         "items": [
+          {
+            "title": "Meta wants your next gadget to be Muse-infused",
+            "link": "https://techcrunch.com/2026/10/02/meta-wants-you-to-build-your-own-muse-gadget/",
+            "date": "2026-10-03T00:45:39+00:00",
+            "summary": "Meta wants Muse in your TV and your toaster, so it's giving the code away for free."
+          },
           {
             "title": "Sean Parker is rebuilding Stability AI around music",
             "link": "https://techcrunch.com/2026/10/02/sean-parker-is-rebuilding-stability-ai-around-music/",
@@ -2693,12 +2577,6 @@
             "link": "https://techcrunch.com/2026/10/02/techcrunch-disrupt-2026-clays-kareem-amin-on-the-rise-of-the-gtm-engineer/",
             "date": "2026-10-02T14:30:00+00:00",
             "summary": "Clay Co-founder and CEO Kareem Amin joins the AI Stage to discuss the rise of GTM engineer at TechCrunch Disrupt 2026. Register for your ticket and get a second pass at 50% off."
-          },
-          {
-            "title": "Last 24 hours: Exhibit at TechCrunch Disrupt 2026 and reach 10,000+ tech leaders",
-            "link": "https://techcrunch.com/2026/10/02/last-24-hours-exhibit-at-techcrunch-disrupt-2026-and-reach-10000-tech-leaders/",
-            "date": "2026-10-02T14:00:00+00:00",
-            "summary": "Today is the last day to book your exhibit table at TechCrunch Disrupt 2026. From October 13–15, 10,000+ founders, investors, operators, and tech leaders will arrive at San Francisco’s Moscone West looking for companies, products, ideas, and people worth knowing. The question is: Will they find your"
           }
         ]
       },
@@ -2709,7 +2587,7 @@
         "home": "https://techcrunch.com/tag/funding/",
         "url": "https://techcrunch.com/tag/funding/feed/",
         "status": "ok",
-        "fetchedAt": "2026-10-03T00:11:57.497337+00:00",
+        "fetchedAt": "2026-10-03T06:06:16.021733+00:00",
         "items": [
           {
             "title": "Viral AI startup Instinct has raised $350M at a $2.5B valuation",
@@ -2812,7 +2690,7 @@
         "home": "https://www.bestblogs.dev/",
         "url": "https://www.bestblogs.dev/zh/feeds/rss?category=ai&minScore=90",
         "status": "ok",
-        "fetchedAt": "2026-10-03T00:11:58.083510+00:00",
+        "fetchedAt": "2026-10-03T06:06:16.316375+00:00",
         "items": [
           {
             "title": "推理成为新中心、Agent 把生产级问题提前：AI Infra 的边界正在被重写",
@@ -2880,6 +2758,226 @@
   },
   "allItems": [
     {
+      "title": "Extra Big Ass Intelligence",
+      "link": "https://www.extrabigassintelligence.com/",
+      "date": "2026-10-03T03:19:10+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "Cloudflare OHTTP gateway",
+      "link": "https://blog.cloudflare.com/announcing-cloudflare-ohttp-gateway/",
+      "date": "2026-10-03T03:15:05+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "Relay, which develops cloud-hosted, AI-powered smart radio communicators for frontline workers, raised $36M to help businesses capture \"frontline intelligence\" (Mike Wheatley/SiliconANGLE)",
+      "link": "https://www.techmeme.com/261003/p5#a261003p5",
+      "date": "2026-10-03T01:55:57-04:00",
+      "summary": "Mike Wheatley / SiliconANGLE: Relay, which develops cloud-hosted, AI-powered smart radio communicators for frontline workers, raised $36M to help businesses capture &ldquo;frontline intelligence&rdquo;&nbsp; &mdash;&nbsp; The business communications startup Relay Inc. says it's trying to capture &ld",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
+      "title": "Nasdaq-listed neocloud Nebius acquires Inferize, whose tech helps optimize GPU utilization and reduce AI request costs, sources say for $100M to $150M (Meir Orbach/CTech)",
+      "link": "https://www.techmeme.com/261003/p4#a261003p4",
+      "date": "2026-10-03T01:45:00-04:00",
+      "summary": "Meir Orbach / CTech: Nasdaq-listed neocloud Nebius acquires Inferize, whose tech helps optimize GPU utilization and reduce AI request costs, sources say for $100M to $150M&nbsp; &mdash;&nbsp; The Israeli startup, which was founded by former Granulate executives and employs 17 people, built technolog",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
+      "title": "Sources: TSMC is exploring plans to work with Elon Musk's Terafab project as it mulls a presence in Texas, adding to its existing plans to expand in Arizona (Tim Culpan/Culpium)",
+      "link": "https://www.techmeme.com/261003/p3#a261003p3",
+      "date": "2026-10-03T01:30:02-04:00",
+      "summary": "Tim Culpan / Culpium: Sources: TSMC is exploring plans to work with Elon Musk's Terafab project as it mulls a presence in Texas, adding to its existing plans to expand in Arizona&nbsp; &mdash;&nbsp; [Exclusive] Taiwanese foundry giant may use Terafab as anchor client for a future Texas semiconductor",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
+      "title": "Reco, whose tech helps enterprises secure and govern AI agents across SaaS environments, raised a $55M Series B extension, taking its total funding to $140M (Ram Iyer/TechCrunch)",
+      "link": "https://www.techmeme.com/261003/p2#a261003p2",
+      "date": "2026-10-03T01:11:01-04:00",
+      "summary": "Ram Iyer / TechCrunch: Reco, whose tech helps enterprises secure and govern AI agents across SaaS environments, raised a $55M Series B extension, taking its total funding to $140M&nbsp; &mdash;&nbsp; Terms like &ldquo;AI sprawl&rdquo; have become common fare on tech social media and in thought leade",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
+      "title": "Newgrounds.com – A community of games, music, and art",
+      "link": "https://www.newgrounds.com/",
+      "date": "2026-10-03T00:55:25+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "★ Apple Is Going to Further Tighten the Screws on Full Disk Access on MacOS, in Response to Agentic AI Apps Running Amok",
+      "link": "https://daringfireball.net/2026/10/apple_full_disk_access",
+      "date": "2026-10-03T00:49:40+00:00",
+      "summary": "Hopefully Apple has in mind a solution to this situation that will still enable knowledgeable power users to confirm agreement to a sufficiently scary warning and put their Macs in a state similar to what we have today. I worry.",
+      "feedId": "daringfireball",
+      "feedTitle": "Daring Fireball",
+      "category": "Tech Blogs",
+      "feedHome": "https://daringfireball.net/"
+    },
+    {
+      "title": "Meta wants your next gadget to be Muse-infused",
+      "link": "https://techcrunch.com/2026/10/02/meta-wants-you-to-build-your-own-muse-gadget/",
+      "date": "2026-10-03T00:45:39+00:00",
+      "summary": "Meta wants Muse in your TV and your toaster, so it's giving the code away for free.",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "Meta wants your next gadget to be Muse-infused",
+      "link": "https://techcrunch.com/2026/10/02/meta-wants-you-to-build-your-own-muse-gadget/",
+      "date": "2026-10-03T00:45:39+00:00",
+      "summary": "Meta wants Muse in your TV and your toaster, so it's giving the code away for free.",
+      "feedId": "techcrunch-ai",
+      "feedTitle": "TechCrunch AI",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
+    },
+    {
+      "title": "Onsemi revises its Synaptics acquisition to a ~$5.7B all-cash offer, down from the ~$7B all-stock deal announced in June, after Synaptics received another bid (Elias Schisgall/Wall Street Journal)",
+      "link": "https://www.techmeme.com/261003/p1#a261003p1",
+      "date": "2026-10-03T00:45:05-04:00",
+      "summary": "Elias Schisgall / Wall Street Journal: Onsemi revises its Synaptics acquisition to a ~$5.7B all-cash offer, down from the ~$7B all-stock deal announced in June, after Synaptics received another bid&nbsp; &mdash;&nbsp; ON Semiconductor says it will pay $123 a share for Synaptics, giving the deal a va",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
+      "title": "Sanders introduces bill to ban the federal government from using Flock",
+      "link": "https://techcrunch.com/2026/10/02/sanders-introduces-bill-to-ban-the-federal-government-from-using-flock/",
+      "date": "2026-10-03T00:21:57+00:00",
+      "summary": "The proposed legislation would extend to all automotica license plate readers.",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "Reverse Item Response Theory for Sparsity-Robust Ranking in Fragmented Cancer Drug-Response Matrices",
+      "link": "https://arxiv.org/abs/2610.00002",
+      "date": "2026-10-03T00:00:00-04:00",
+      "summary": "arXiv:2610.00002v1 Announce Type: new Abstract: We introduce reverse Item Response Theory (IRT) to pharmacogenomic drug-response analysis by treating cancer types as latent \"subjects\" with resistance ability and drugs as \"items\" with evasion difficulty. Applied to 242,036 drug sensitivity measuremen",
+      "feedId": "arxiv-lg",
+      "feedTitle": "arXiv cs.LG",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.LG/recent"
+    },
+    {
+      "title": "How Far is Adam from Natural Gradient Descent?",
+      "link": "https://arxiv.org/abs/2610.00004",
+      "date": "2026-10-03T00:00:00-04:00",
+      "summary": "arXiv:2610.00004v1 Announce Type: new Abstract: Adam is the standard optimizer in deep learning, yet its geometric relationship to natural gradient descent (NGD) contains unresolved questions. We study Adam's full update rule, including momentum, as a diagonal empirical Fisher approximation subject ",
+      "feedId": "arxiv-lg",
+      "feedTitle": "arXiv cs.LG",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.LG/recent"
+    },
+    {
+      "title": "FourierQK: Filter Shape, Admissibility and the Leakage-Coverage Law",
+      "link": "https://arxiv.org/abs/2610.00009",
+      "date": "2026-10-03T00:00:00-04:00",
+      "summary": "arXiv:2610.00009v1 Announce Type: new Abstract: Frequency-collapse attention [Zeris, 2026e] achieves large gains over standard dot-product attention by replacing the Q/K dot product with a bandpass-filtered inner product at a learned frequency. A natural follow-up question is: which filter shape wor",
+      "feedId": "arxiv-lg",
+      "feedTitle": "arXiv cs.LG",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.LG/recent"
+    },
+    {
+      "title": "Integrating Fairness and Explainability in a Multiple Instance Reinforcement Learning System",
+      "link": "https://arxiv.org/abs/2610.00035",
+      "date": "2026-10-03T00:00:00-04:00",
+      "summary": "arXiv:2610.00035v1 Announce Type: new Abstract: Predicting student performance from educational interaction data requires models that are both accurate and sufficiently transparent to support meaningful intervention, while demographic information introduces an additional risk of unfair predictions. ",
+      "feedId": "arxiv-lg",
+      "feedTitle": "arXiv cs.LG",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.LG/recent"
+    },
+    {
+      "title": "Fast Polynomial Transcendentals for LLMs",
+      "link": "https://arxiv.org/abs/2610.00049",
+      "date": "2026-10-03T00:00:00-04:00",
+      "summary": "arXiv:2610.00049v1 Announce Type: new Abstract: Graphics processing unit (GPU) generations scale matrix, special-function, and memory pipelines at different rates, so kernel bottlenecks move as hardware evolves. FlashAttention-4 exposed this imbalance inside attention on NVIDIA Blackwell. We test wh",
+      "feedId": "arxiv-lg",
+      "feedTitle": "arXiv cs.LG",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.LG/recent"
+    },
+    {
+      "title": "SW-KAN: Kolmogorov-Arnold Networks with Stieltjes-Wigert q-Orthogonal Polynomials",
+      "link": "https://arxiv.org/abs/2610.00050",
+      "date": "2026-10-03T00:00:00-04:00",
+      "summary": "arXiv:2610.00050v1 Announce Type: new Abstract: Kolmogorov-Arnold Networks (KANs) represent a paradigmatic shift in deep learning by replacing fixed node activations with learnable univariate functions on edges, offering enhanced interpretability and parameter efficiency. While recent polynomial-bas",
+      "feedId": "arxiv-lg",
+      "feedTitle": "arXiv cs.LG",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.LG/recent"
+    },
+    {
+      "title": "Format-Aware Fusion for Fast FP4 Pretraining",
+      "link": "https://arxiv.org/abs/2610.00053",
+      "date": "2026-10-03T00:00:00-04:00",
+      "summary": "arXiv:2610.00053v1 Announce Type: new Abstract: Four-bit floating-point (FP4) Tensor Cores accelerate matrix multiplication, but scale computation, operand packing, layout construction, and saved backward state can erase the gain. We present \\emph{format-aware fusion}, which co-designs each quantiza",
+      "feedId": "arxiv-lg",
+      "feedTitle": "arXiv cs.LG",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.LG/recent"
+    },
+    {
+      "title": "\"very likely\" Means \"uncertain\"? How LLMs Diverge from Humans in Linguistic Uncertainty Quantification",
+      "link": "https://arxiv.org/abs/2610.00083",
+      "date": "2026-10-03T00:00:00-04:00",
+      "summary": "arXiv:2610.00083v1 Announce Type: new Abstract: Humans express uncertainty verbally via markers (e.g., \"possible,\" \"likely\"), yet most LLM uncertainty quantification (UQ) relies on costing likelihood- or consistency-based signals. From a cognitive perspective, accurate verbal uncertainty reflects me",
+      "feedId": "arxiv-lg",
+      "feedTitle": "arXiv cs.LG",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.LG/recent"
+    },
+    {
+      "title": "Nous: Learning and Certifying Memory Decisions Before Source Calibration",
+      "link": "https://arxiv.org/abs/2610.00094",
+      "date": "2026-10-03T00:00:00-04:00",
+      "summary": "arXiv:2610.00094v1 Announce Type: new Abstract: Belief-based agent memory needs reliable decisions about current state, yet its evidence may be noisy, copied, or stale. Must a memory calibrate its sources before it can improve its decisions? We separate learning, calibration, and revision certificat",
+      "feedId": "arxiv-lg",
+      "feedTitle": "arXiv cs.LG",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.LG/recent"
+    },
+    {
+      "title": "One Mastery Threshold Does Not Fit All Knowledge Tracing Models",
+      "link": "https://arxiv.org/abs/2610.00095",
+      "date": "2026-10-03T00:00:00-04:00",
+      "summary": "arXiv:2610.00095v1 Announce Type: new Abstract: Tutoring systems use mastery thresholds to decide when students can stop practicing and advance, but the same numerical threshold can lead to very different decisions when the underlying knowledge tracing (KT) model changes. We examine six KT models ac",
+      "feedId": "arxiv-lg",
+      "feedTitle": "arXiv cs.LG",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.LG/recent"
+    },
+    {
       "title": "Superpersuasion will look like bribery",
       "link": "https://seangoedecke.com/superpersuasion-will-look-like-bribery/",
       "date": "2026-10-03T00:00:00+00:00",
@@ -2890,14 +2988,14 @@
       "feedHome": "https://www.seangoedecke.com/"
     },
     {
-      "title": "★ Apple Is Going to Further Tighten the Screws on Full Disk Access on MacOS, in Response to Agentic AI Apps Running Amok",
-      "link": "https://daringfireball.net/2026/10/apple_full_disk_access",
-      "date": "2026-10-02T23:54:58+00:00",
-      "summary": "Hopefully Apple has in mind a solution to this situation that will still enable knowledgeable power users to confirm agreement to a sufficiently scary warning and put their Macs in a state similar to what we have today. I worry.",
-      "feedId": "daringfireball",
-      "feedTitle": "Daring Fireball",
-      "category": "Tech Blogs",
-      "feedHome": "https://daringfireball.net/"
+      "title": "A US judge rules an officer's use of Flock to search a car's license plate was a form of \"indiscriminate mass surveillance\", and violated the Fourth Amendment (Jason Koebler/404 Media)",
+      "link": "https://www.techmeme.com/261002/p31#a261002p31",
+      "date": "2026-10-02T21:40:52-04:00",
+      "summary": "Jason Koebler / 404 Media: A US judge rules an officer's use of Flock to search a car's license plate was a form of &ldquo;indiscriminate mass surveillance&rdquo;, and violated the Fourth Amendment&nbsp; &mdash;&nbsp; Flock's nationwide network is quickly &ldquo;approaching dragnet-type law enforcem",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
     },
     {
       "title": "Sean Parker is rebuilding Stability AI around music",
@@ -2930,14 +3028,14 @@
       "feedHome": "https://daringfireball.net/"
     },
     {
-      "title": "Zig v0.17.0",
-      "link": "https://ziglang.org/download/0.17.0/release-notes.html",
-      "date": "2026-10-02T20:56:36+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
+      "title": "Supabase raised $150M led by Singapore's GIC and agrees to acquire Turso, which offers a database optimized for AI agents, for an undisclosed sum (Maria Deutscher/SiliconANGLE)",
+      "link": "https://www.techmeme.com/261002/p30#a261002p30",
+      "date": "2026-10-02T20:50:01-04:00",
+      "summary": "Maria Deutscher / SiliconANGLE: Supabase raised $150M led by Singapore's GIC and agrees to acquire Turso, which offers a database optimized for AI agents, for an undisclosed sum&nbsp; &mdash;&nbsp; Supabase Inc., a startup that commercializes the open-source PostgreSQL database, has raised $150 mill",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
       "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
+      "feedHome": "https://www.techmeme.com/"
     },
     {
       "title": "Yankees Sweep Boston in Two Games, by Combined Score of 18-2",
@@ -2968,16 +3066,6 @@
       "feedTitle": "Techmeme",
       "category": "Startup & News",
       "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "Muse Gadgets",
-      "link": "https://gadgets.muse.ai",
-      "date": "2026-10-02T19:26:54+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
     },
     {
       "title": "Amazon says it has stopped using NDAs with county officials for data center projects and acknowledges community backlash is leading to data center moratoriums (Molly Taft/Wired)",
@@ -3020,16 +3108,6 @@
       "feedHome": "https://news.ycombinator.com/"
     },
     {
-      "title": "Nvidia announces a version of DGX Spark with 64 GB of unified memory for $4,999, or $1,000 more than the 128 GB version at launch (Michael Kan/PCMag)",
-      "link": "https://www.techmeme.com/261002/p26#a261002p26",
-      "date": "2026-10-02T19:00:38-04:00",
-      "summary": "Michael Kan / PCMag: Nvidia announces a version of DGX Spark with 64 GB of unified memory for $4,999, or $1,000 more than the 128 GB version at launch&nbsp; &mdash;&nbsp; The ongoing memory shortage has prompted Nvidia to create a 64GB version of its DGX Spark mini PC, which runs AI models locally.&",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
       "title": "Apple says it’s tightening macOS ‘Full Disk Access’ controls due to new risks from AI agents",
       "link": "https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/",
       "date": "2026-10-02T18:11:27+00:00",
@@ -3048,16 +3126,6 @@
       "feedTitle": "TechCrunch AI",
       "category": "Startup & News",
       "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
-    },
-    {
-      "title": "From the creator of Redis; run LLM locally with ds4",
-      "link": "https://dwarfstar.sh/",
-      "date": "2026-10-02T18:01:16+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
     },
     {
       "title": "Call it AI, call it Super Intelligence, only 2% of consumers are buying it",
@@ -3090,16 +3158,6 @@
       "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
     },
     {
-      "title": "Apple releases an update for iPhone 18 Pro Max devices on AT&T to address cellular failures; units that already lost service require hardware replacement (Chance Miller/9to5Mac)",
-      "link": "https://www.techmeme.com/261002/p25#a261002p25",
-      "date": "2026-10-02T17:35:01-04:00",
-      "summary": "Chance Miller / 9to5Mac: Apple releases an update for iPhone 18 Pro Max devices on AT&amp;T to address cellular failures; units that already lost service require hardware replacement&nbsp; &mdash;&nbsp; Apple has confirmed an issue causing a &ldquo;small number&rdquo; of iPhone 18 Pro Max devices on",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
       "title": "TechCrunch Disrupt 2026: Blackstone’s Jas Khaira on building the next generation of AI giants",
       "link": "https://techcrunch.com/2026/10/02/techcrunch-disrupt-2026-blackstones-jas-khaira-on-building-the-next-generation-of-ai-giants/",
       "date": "2026-10-02T17:32:05+00:00",
@@ -3138,26 +3196,6 @@
       "feedTitle": "TechCrunch AI",
       "category": "Startup & News",
       "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
-    },
-    {
-      "title": "Meta announces Muse Gadgets, providing an open source ESP32 microchip firmware and a Linux SDK to let users bring Muse to their hardware, like Raspberry Pi 5 (Karissa Bell/Engadget)",
-      "link": "https://www.techmeme.com/261002/p24#a261002p24",
-      "date": "2026-10-02T16:50:01-04:00",
-      "summary": "Karissa Bell / Engadget: Meta announces Muse Gadgets, providing an open source ESP32 microchip firmware and a Linux SDK to let users bring Muse to their hardware, like Raspberry Pi 5&nbsp; &mdash;&nbsp; The company created its own smart home device, the Muse Home Link&nbsp; &mdash;&nbsp; We still do",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "Meta says it is letting go of employees it hired from AI safety startup Virtue AI four months after they joined the company, citing clashing work styles (Ashley Gold/Semafor)",
-      "link": "https://www.techmeme.com/261002/p23#a261002p23",
-      "date": "2026-10-02T16:25:21-04:00",
-      "summary": "Ashley Gold / Semafor: Meta says it is letting go of employees it hired from AI safety startup Virtue AI four months after they joined the company, citing clashing work styles&nbsp; &mdash;&nbsp; Meta said it's letting go of employees it hired from AI safety startup Virtue AI four months after they ",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
     },
     {
       "title": "A model guide for the GPT-6 family",
@@ -3168,16 +3206,6 @@
       "feedTitle": "OpenAI News",
       "category": "AI & LLM",
       "feedHome": "https://openai.com/news/"
-    },
-    {
-      "title": "Memo: the US Army is creating an autonomous systems command, after Defense Secretary Pete Hegseth announced the Meridian and Agincourt robotic warfare projects (Colin Demarest/Axios)",
-      "link": "https://www.techmeme.com/261002/p22#a261002p22",
-      "date": "2026-10-02T16:00:13-04:00",
-      "summary": "Colin Demarest / Axios: Memo: the US Army is creating an autonomous systems command, after Defense Secretary Pete Hegseth announced the Meridian and Agincourt robotic warfare projects&nbsp; &mdash;&nbsp; The U.S. Army is creating a new autonomous systems command and appointing an acquisition executi",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
     },
     {
       "title": "Paramount and Warner Bros. Discovery to become Skydance",
@@ -3210,26 +3238,6 @@
       "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
     },
     {
-      "title": "Laytr’s new app lets you save anything you find online, not just articles to read",
-      "link": "https://techcrunch.com/2026/10/02/laytrs-new-app-lets-you-save-anything-you-find-online-not-just-articles-to-read/",
-      "date": "2026-10-02T15:31:20+00:00",
-      "summary": "Laytr lets you save articles, recipes, screenshots, videos, PDFs, and more for later, while keeping your archive private and synced across your Apple devices.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
-    },
-    {
-      "title": "TypeSafe CEO Diogo Almeida says Jev is in use by ~25% of Fortune 500 companies and \"we were at a trillion tokens per day about a week ago\" (Elias Schisgall/Wall Street Journal)",
-      "link": "https://www.techmeme.com/261002/p21#a261002p21",
-      "date": "2026-10-02T15:25:15-04:00",
-      "summary": "Elias Schisgall / Wall Street Journal: TypeSafe CEO Diogo Almeida says Jev is in use by ~25% of Fortune 500 companies and &ldquo;we were at a trillion tokens per day about a week ago&rdquo;&nbsp; &mdash;&nbsp; The Jev model, which TypeSafe's CEO considers at the forefront of a &lsquo;new class of AI",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
       "title": "Toward provably private learning from federated data",
       "link": "https://research.google/blog/toward-provably-private-learning-from-federated-data/",
       "date": "2026-10-02T14:57:41+00:00",
@@ -3238,26 +3246,6 @@
       "feedTitle": "Google Research Blog",
       "category": "AI & LLM",
       "feedHome": "https://research.google/blog/"
-    },
-    {
-      "title": "Slovenia’s .si domain sees a surge in registrations after Trump’s ‘super intelligence’ order",
-      "link": "https://techcrunch.com/2026/10/02/slovenias-si-domain-sees-a-surge-in-registrations-after-trumps-super-intelligence-order/",
-      "date": "2026-10-02T14:47:46+00:00",
-      "summary": "The .si domain name is seeing unprecedented demand after President Trump's super intelligence executive order.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
-    },
-    {
-      "title": "Tavus unveils Griffin, the \"first Human Interaction Model\", which it says passed the \"video Turing test\", with 48% of users thinking it was human in live chats (@tavus)",
-      "link": "https://www.techmeme.com/261002/p20#a261002p20",
-      "date": "2026-10-02T14:45:03-04:00",
-      "summary": "@tavus: Tavus unveils Griffin, the &ldquo;first Human Interaction Model&rdquo;, which it says passed the &ldquo;video Turing test&rdquo;, with 48% of users thinking it was human in live chats&nbsp; &mdash;&nbsp; Introducing Griffin, the first model to pass the video Turing test. 48% of people who ta",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
     },
     {
       "title": "TechCrunch Disrupt 2026: Clay’s Kareem Amin on the rise of the GTM engineer",
@@ -3290,16 +3278,6 @@
       "feedHome": "https://news.ycombinator.com/"
     },
     {
-      "title": "Last 24 hours: Exhibit at TechCrunch Disrupt 2026 and reach 10,000+ tech leaders",
-      "link": "https://techcrunch.com/2026/10/02/last-24-hours-exhibit-at-techcrunch-disrupt-2026-and-reach-10000-tech-leaders/",
-      "date": "2026-10-02T14:00:00+00:00",
-      "summary": "Today is the last day to book your exhibit table at TechCrunch Disrupt 2026. From October 13–15, 10,000+ founders, investors, operators, and tech leaders will arrive at San Francisco’s Moscone West looking for companies, products, ideas, and people worth knowing. The question is: Will they find your",
-      "feedId": "techcrunch-ai",
-      "feedTitle": "TechCrunch AI",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
-    },
-    {
       "title": "Gadget Review: Una Watch ★★★★☆",
       "link": "https://shkspr.mobi/blog/2026/10/gadget-review-una-watch/",
       "date": "2026-10-02T11:34:48+00:00",
@@ -3318,206 +3296,6 @@
       "feedTitle": "Hacker News",
       "category": "Startup & News",
       "feedHome": "https://news.ycombinator.com/"
-    },
-    {
-      "title": "Heavy-Tailed Memory Traces in Long-Horizon Language Agents",
-      "link": "https://arxiv.org/abs/2610.00010",
-      "date": "2026-10-02T00:00:00-04:00",
-      "summary": "arXiv:2610.00010v1 Announce Type: new Abstract: Long-horizon language agents increasingly rely on external memory as a frozen world model, yet current memory systems are usually judged only by task success or token cost. We argue that the missing object is the shape of memory use: under finite conte",
-      "feedId": "arxiv-ai",
-      "feedTitle": "arXiv cs.AI",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.AI/recent"
-    },
-    {
-      "title": "When Do Causal World Models Help Modular LLM Agents",
-      "link": "https://arxiv.org/abs/2610.00012",
-      "date": "2026-10-02T00:00:00-04:00",
-      "summary": "arXiv:2610.00012v1 Announce Type: new Abstract: LLM agents increasingly act through modular systems, such as order, payment, inventory, and shipment services, where actions in one module change which transitions are valid in another. Standard world models usually fit observational traces, but this i",
-      "feedId": "arxiv-ai",
-      "feedTitle": "arXiv cs.AI",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.AI/recent"
-    },
-    {
-      "title": "From Proposal to Verified Effect: Praxa, an Evidence-Bound Harness for Governed AI Agent Execution",
-      "link": "https://arxiv.org/abs/2610.00015",
-      "date": "2026-10-02T00:00:00-04:00",
-      "summary": "arXiv:2610.00015v1 Announce Type: new Abstract: Large-language-model agents can propose and execute actions, but proposal, authority, dispatch, verified external effect, and serving promotion are different claims. We present Praxa, an agent harness that represents these states explicitly through det",
-      "feedId": "arxiv-ai",
-      "feedTitle": "arXiv cs.AI",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.AI/recent"
-    },
-    {
-      "title": "What Do Rationales Communicate? A Message-Intervention Study in Role-Specialized QA",
-      "link": "https://arxiv.org/abs/2610.00018",
-      "date": "2026-10-02T00:00:00-04:00",
-      "summary": "arXiv:2610.00018v1 Announce Type: new Abstract: Role-specialized QA pipelines increasingly pass rationales from a reasoner to a verifier, but it is unclear what this message actually buys: better answers, stronger support assessment, or a new failure surface. We introduce a message-intervention diag",
-      "feedId": "arxiv-ai",
-      "feedTitle": "arXiv cs.AI",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.AI/recent"
-    },
-    {
-      "title": "Measuring the Microtask Eligibility Gap: When Is an Off-the-Shelf SLM Enough for an Agent Harness?",
-      "link": "https://arxiv.org/abs/2610.00025",
-      "date": "2026-10-02T00:00:00-04:00",
-      "summary": "arXiv:2610.00025v1 Announce Type: new Abstract: Agent harnesses increasingly want to run small language models (SLMs) on the microtasks around a frontier large language model (LLM) planner: auto-approving shell commands, writing memory, selecting tools, ranking past turns. We ask whether off-the-she",
-      "feedId": "arxiv-ai",
-      "feedTitle": "arXiv cs.AI",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.AI/recent"
-    },
-    {
-      "title": "Characterizing a Configuration Where Inference-Time PRM-Pruned Fragment Grafting Is Inert: Evidence from Three Reasoning LMs",
-      "link": "https://arxiv.org/abs/2610.00047",
-      "date": "2026-10-02T00:00:00-04:00",
-      "summary": "arXiv:2610.00047v1 Announce Type: new Abstract: Diversity collapse in parallel chain-of-thought has motivated inference-time interventions built on a natural design: when a process reward model (PRM) prunes a chain, its high-PRM prefix is extracted and grafted verbatim as an in-context demonstration",
-      "feedId": "arxiv-ai",
-      "feedTitle": "arXiv cs.AI",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.AI/recent"
-    },
-    {
-      "title": "Gradient-Aligned Pair Selection for Personalized Preference Optimization",
-      "link": "https://arxiv.org/abs/2610.00061",
-      "date": "2026-10-02T00:00:00-04:00",
-      "summary": "arXiv:2610.00061v1 Announce Type: new Abstract: Personalizing large language models (LLMs) requires aligning generation behavior with user-specific preferences rather than aggregate quality. While Direct Preference Optimization (DPO) provides a stable framework for preference learning, its effective",
-      "feedId": "arxiv-ai",
-      "feedTitle": "arXiv cs.AI",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.AI/recent"
-    },
-    {
-      "title": "K-Dense BYOK: An Open-Source AI Research Assistant That Runs Locally and Keeps a Hash-Chained Lab Notebook",
-      "link": "https://arxiv.org/abs/2610.00074",
-      "date": "2026-10-02T00:00:00-04:00",
-      "summary": "arXiv:2610.00074v1 Announce Type: new Abstract: K-Dense BYOK (bring your own keys) is a free, open-source AI research assistant for scientists in any field that runs on the researcher's own computer. The researcher supplies access to a model of their choice, hosted or running locally, and the applic",
-      "feedId": "arxiv-ai",
-      "feedTitle": "arXiv cs.AI",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.AI/recent"
-    },
-    {
-      "title": "Scientific Agents: Evaluating Profession-Specific System Prompts on Scientific Tasks",
-      "link": "https://arxiv.org/abs/2610.00084",
-      "date": "2026-10-02T00:00:00-04:00",
-      "summary": "arXiv:2610.00084v1 Announce Type: new Abstract: Detailed profession-specific system prompts raise token use and estimated cost per response without a consistent accuracy gain. We evaluate Scientific Agents, an open-source corpus of 503 profession-specific AGENTS.md profiles, with Gemini 3.8 Flash vi",
-      "feedId": "arxiv-ai",
-      "feedTitle": "arXiv cs.AI",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.AI/recent"
-    },
-    {
-      "title": "Comedic Fool's Gold: Reward Exploits and Countermeasures in Conversational Humor",
-      "link": "https://arxiv.org/abs/2610.00197",
-      "date": "2026-10-02T00:00:00-04:00",
-      "summary": "arXiv:2610.00197v1 Announce Type: new Abstract: We investigate automated rewards for training language models in conversational humor, focusing on reward exploits and countermeasures. Two approaches aim to capture understandable surprise and predicted audience amusement. Controlled tests show that a",
-      "feedId": "arxiv-ai",
-      "feedTitle": "arXiv cs.AI",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.AI/recent"
-    },
-    {
-      "title": "Travel Time Prediction in Supply Chain Management Using Machine Learning",
-      "link": "https://arxiv.org/abs/2609.38190",
-      "date": "2026-10-02T00:00:00-04:00",
-      "summary": "arXiv:2609.38190v1 Announce Type: new Abstract: The purpose of this research is to find data and methods using machine learning and deep learning to correctly predict the estimated travel time for transportation and logistics in a supply chain system. The supply chain ecosystem is very complex and h",
-      "feedId": "arxiv-lg",
-      "feedTitle": "arXiv cs.LG",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.LG/recent"
-    },
-    {
-      "title": "EHR2Trace: Auditable EHR Data Infrastructure for Patient World Models and Clinical Agents",
-      "link": "https://arxiv.org/abs/2609.38193",
-      "date": "2026-10-02T00:00:00-04:00",
-      "summary": "arXiv:2609.38193v1 Announce Type: new Abstract: Patient world models and clinical agents aim to predict changes in patients' health and support clinical work. Developing these systems requires reliable histories of patient conditions, treatments, and the information available at each decision. Elect",
-      "feedId": "arxiv-lg",
-      "feedTitle": "arXiv cs.LG",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.LG/recent"
-    },
-    {
-      "title": "A Moving-Horizon Approximate Branch-and-Reduce Method for Deep Classification Trees",
-      "link": "https://arxiv.org/abs/2609.38194",
-      "date": "2026-10-02T00:00:00-04:00",
-      "summary": "arXiv:2609.38194v1 Announce Type: new Abstract: Despite the importance for interpretability, decision trees face severe scalability challenges. Existing global optimal methods are often limited by binary feature selection and shallow tree depths, whereas traditional heuristic approaches frequently s",
-      "feedId": "arxiv-lg",
-      "feedTitle": "arXiv cs.LG",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.LG/recent"
-    },
-    {
-      "title": "A Data-Free Physics-Informed Neural Operator for Level-Set Interface Advection",
-      "link": "https://arxiv.org/abs/2609.38195",
-      "date": "2026-10-02T00:00:00-04:00",
-      "summary": "arXiv:2609.38195v1 Announce Type: new Abstract: Operators for interfacial problems are trained on reference solutions produced by the solver they are intended to replace. This work develops a data-free physics-informed neural operator for level-set interface advection, in which the interface is the ",
-      "feedId": "arxiv-lg",
-      "feedTitle": "arXiv cs.LG",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.LG/recent"
-    },
-    {
-      "title": "Conformal Adversarial Generative Ensemble",
-      "link": "https://arxiv.org/abs/2609.38196",
-      "date": "2026-10-02T00:00:00-04:00",
-      "summary": "arXiv:2609.38196v1 Announce Type: new Abstract: Accurate time series forecasting is critical across various domains, yet traditional ensemble methods often suffer from the disproportionate influence of extreme forecasts. We introduce the Conformal Adversarial Generative Ensemble (CAGE), a novel fram",
-      "feedId": "arxiv-lg",
-      "feedTitle": "arXiv cs.LG",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.LG/recent"
-    },
-    {
-      "title": "DualCast: A Dual-Path Language Model for Bimodal Financial Time-Series Forecasting",
-      "link": "https://arxiv.org/abs/2609.38197",
-      "date": "2026-10-02T00:00:00-04:00",
-      "summary": "arXiv:2609.38197v1 Announce Type: new Abstract: Financial time-series forecasting must capture price dynamics across heterogeneous assets while incorporating news available at prediction time. We introduce DualCast, a dual-path framework that extends a frozen language model with a discrete financial",
-      "feedId": "arxiv-lg",
-      "feedTitle": "arXiv cs.LG",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.LG/recent"
-    },
-    {
-      "title": "FlashDiffusion: Fused Tiled Kernel Spectral Decomposition",
-      "link": "https://arxiv.org/abs/2609.38198",
-      "date": "2026-10-02T00:00:00-04:00",
-      "summary": "arXiv:2609.38198v1 Announce Type: new Abstract: Diffusion maps, and kernel methods more generally, provide an interpretable nonlinear spectral representation basis for geometric learning. In the geometric limit, small bandwidth, these matrices tend to be high rank and thus require materializing dens",
-      "feedId": "arxiv-lg",
-      "feedTitle": "arXiv cs.LG",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.LG/recent"
-    },
-    {
-      "title": "Kinematic signatures of impairment: Detecting alcohol intoxication in e-scooter riders using sensor data and machine learning",
-      "link": "https://arxiv.org/abs/2609.38276",
-      "date": "2026-10-02T00:00:00-04:00",
-      "summary": "arXiv:2609.38276v1 Announce Type: new Abstract: Alcohol intoxication is a leading contributor to fatal and severe-injured e-scooterist crashes. Current countermeasures, such as temporal restrictions or pre-ride cognitive screening, cannot continuously assess an e-scooterist's physical motor control ",
-      "feedId": "arxiv-lg",
-      "feedTitle": "arXiv cs.LG",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.LG/recent"
-    },
-    {
-      "title": "Hermes: Learning Contextual Reasoning Unlocks Test-Time Scaling",
-      "link": "https://arxiv.org/abs/2609.38332",
-      "date": "2026-10-02T00:00:00-04:00",
-      "summary": "arXiv:2609.38332v1 Announce Type: new Abstract: Test-time scaling improves model performance by allocating additional compute during inference. Using this compute effectively across multiple context windows requires deciding how to allocate fresh contexts and what information to carry between them. ",
-      "feedId": "arxiv-lg",
-      "feedTitle": "arXiv cs.LG",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.LG/recent"
-    },
-    {
-      "title": "Activation-Conditioned Self-Distillation",
-      "link": "https://arxiv.org/abs/2609.38342",
-      "date": "2026-10-02T00:00:00-04:00",
-      "summary": "arXiv:2609.38342v1 Announce Type: new Abstract: On-policy self-distillation uses a model as its own teacher to provide dense supervision for reasoning, often through reference-solution conditioning. Providing privileged information does not by itself ensure effective token-level supervision througho",
-      "feedId": "arxiv-lg",
-      "feedTitle": "arXiv cs.LG",
-      "category": "AI & LLM",
-      "feedHome": "https://arxiv.org/list/cs.LG/recent"
     },
     {
       "title": "Chatham scales its capital markets expertise with OpenAI",
@@ -3708,16 +3486,6 @@
       "feedTitle": "The Old New Thing",
       "category": "Tech Blogs",
       "feedHome": "https://devblogs.microsoft.com/oldnewthing/"
-    },
-    {
-      "title": "Lean LaunchPad – The Next Generation",
-      "link": "https://steveblank.com/2026/09/30/lean-launchpad-the-next-generation/",
-      "date": "2026-09-30T13:00:28+00:00",
-      "summary": "You&#8217;re reading a four-part series on how AI has impacted our Lean LaunchPad class and what we did about it. Part 1: The Year AI Came For Us Part 2: AI Killed the MVP – Long Live the IUP Part 3: The World Outside the Classroom Changed, The Class Didn’t This post: Lean LaunchPad – The [&#8230;]",
-      "feedId": "steveblank",
-      "feedTitle": "Steve Blank",
-      "category": "Tech Blogs",
-      "feedHome": "https://steveblank.com/"
     },
     {
       "title": "Are you a smartwatch \"power user\"?",
@@ -3960,16 +3728,6 @@
       "feedHome": "https://devblogs.microsoft.com/oldnewthing/"
     },
     {
-      "title": "The World Outside the Classroom Changed, The Class Didn’t",
-      "link": "https://steveblank.com/2026/09/28/the-world-outside-the-classroom-changed-the-class-didnt/",
-      "date": "2026-09-28T13:00:57+00:00",
-      "summary": "This post previously appeared in Poets and Quants This is the third of four posts on how AI has impacted our Lean LaunchPad class and what we did about it. Part 1: The Year AI Came For Us Part 2: AI Killed the MVP – Long Live the IUP Part 3: This Post Part 4: [&#8230;]",
-      "feedId": "steveblank",
-      "feedTitle": "Steve Blank",
-      "category": "Tech Blogs",
-      "feedHome": "https://steveblank.com/"
-    },
-    {
       "title": "Book Review: Bobiverse Books 1-3 by Dennis E. Taylor ★★★☆☆",
       "link": "https://shkspr.mobi/blog/2026/09/book-review-bobiverse-books-1-3-by-dennis-e-taylor/",
       "date": "2026-09-28T11:34:52+00:00",
@@ -4090,16 +3848,6 @@
       "feedHome": "https://devblogs.microsoft.com/oldnewthing/"
     },
     {
-      "title": "AI Killed the MVP – Long Live the IUP",
-      "link": "https://steveblank.com/2026/09/25/ai-killed-the-mvp-long-live-the-iup/",
-      "date": "2026-09-25T13:00:16+00:00",
-      "summary": "This post previously appeared in Poets and Quants This is the second of four posts on how AI has impacted our Lean LaunchPad class and what we did about it. Part 1: The Year AI Came For Us Part 2: This Post Next Week Part 3: The World Outside the Classroom Changed, The Class Didn’t [&#8230;]",
-      "feedId": "steveblank",
-      "feedTitle": "Steve Blank",
-      "category": "Tech Blogs",
-      "feedHome": "https://steveblank.com/"
-    },
-    {
       "title": "Servers in dawn-dusk orbit",
       "link": "https://www.johndcook.com/blog/2026/09/25/dawn-dusk-orbit/",
       "date": "2026-09-25T11:45:31+00:00",
@@ -4218,16 +3966,6 @@
       "feedTitle": "The Old New Thing",
       "category": "Tech Blogs",
       "feedHome": "https://devblogs.microsoft.com/oldnewthing/"
-    },
-    {
-      "title": "The Year AI Came For Us: Teaching Entrepreneurship Will Never Be The Same",
-      "link": "https://steveblank.com/2026/09/23/the-year-ai-came-for-us-teaching-entrepreneurship-will-never-be-the-same/",
-      "date": "2026-09-23T13:00:12+00:00",
-      "summary": "This post previously appeared in Poets and Quants. 15 years ago, my Lean LaunchPad class changed how entrepreneurship is taught. The class is now taught in hundreds of universities worldwide and helped launch thousands of startups. But this past summer, I got thinking about whether AI killed our Lea",
-      "feedId": "steveblank",
-      "feedTitle": "Steve Blank",
-      "category": "Tech Blogs",
-      "feedHome": "https://steveblank.com/"
     },
     {
       "title": "Weekly Update 522: Live From Oslo with Scott Helme",
@@ -5840,16 +5578,6 @@
       "feedHome": "https://overreacted.io/"
     },
     {
-      "title": "Lean Launch Pad 2026 @ Stanford – Lessons Learned Presentations",
-      "link": "https://steveblank.com/2026/06/16/lean-launch-pad-2026-stanford-lessons-learned-presentations/",
-      "date": "2026-06-16T13:00:57+00:00",
-      "summary": "We just finished the 16th annual Lean LaunchPad class at Stanford. In those 16 years, the class has gone from a radical idea &#8211; that the Lean method could provide a more productive framework for new startups &#8211; to something that everyone agrees is a way to build new startups. The class had",
-      "feedId": "steveblank",
-      "feedTitle": "Steve Blank",
-      "category": "Tech Blogs",
-      "feedHome": "https://steveblank.com/"
-    },
-    {
       "title": "Maybe it's time for lots of little indie AIs to take over",
       "link": "https://anildash.com/2026/06/15/indie-AI-takeover/",
       "date": "2026-06-15T00:00:00+00:00",
@@ -5878,26 +5606,6 @@
       "feedTitle": "Miguel Grinberg",
       "category": "Tech Blogs",
       "feedHome": "https://blog.miguelgrinberg.com/"
-    },
-    {
-      "title": "Incorruptible",
-      "link": "https://steveblank.com/2026/06/09/incorruptible/",
-      "date": "2026-06-09T13:00:23+00:00",
-      "summary": "Incorruptible: Why Good Companies Go Bad&#8230; and How Great Companies Stay Great, by Eric Ries. Every once in a while a book comes along that doesn&#8217;t just change your tactical thinking, but makes you see the world in a different way. Reading this book is like taking the red pill in the Matri",
-      "feedId": "steveblank",
-      "feedTitle": "Steve Blank",
-      "category": "Tech Blogs",
-      "feedHome": "https://steveblank.com/"
-    },
-    {
-      "title": "Hacking for Defense @ Stanford 2026 – Lessons Learned Presentations",
-      "link": "https://steveblank.com/2026/06/08/g-for-defense-stanford-2026-lessons-learned-presentations/",
-      "date": "2026-06-08T13:00:15+00:00",
-      "summary": "We just wrapped up our Hacking for Defense class at Stanford. This was the 11th year we&#8217;ve taught Hacking for Defense, and the impact of asymmetric warfare, (drones, off-the-shelf technologies, etc.,) disruptive technologies (AI, commercial access to space) and a startup friendly DoW acquisiti",
-      "feedId": "steveblank",
-      "feedTitle": "Steve Blank",
-      "category": "Tech Blogs",
-      "feedHome": "https://steveblank.com/"
     },
     {
       "title": "A new era for software testing",
@@ -6100,16 +5808,6 @@
       "feedHome": "https://anildash.com/"
     },
     {
-      "title": "Anthropic Mythos – We’ve Opened Pandora’s Box",
-      "link": "https://steveblank.com/2026/04/28/anthropic-mythos-weve-opened-pandoras-box/",
-      "date": "2026-04-28T13:00:48+00:00",
-      "summary": "This article previously appeared in The Cipher Brief. For a decade the cybersecurity community was predicting a cyber apocalypse tied to a single event &#8211; the day a Cryptographically Relevant Quantum Computer could run Shor’s algorithm and break the public-key cryptography systems most of the i",
-      "feedId": "steveblank",
-      "feedTitle": "Steve Blank",
-      "category": "Tech Blogs",
-      "feedHome": "https://steveblank.com/"
-    },
-    {
       "title": "Spring 2026 Dev Contest Results!",
       "link": "https://repebble.com/blog/spring-2026-dev-contest-results",
       "date": "2026-04-28T00:00:00+00:00",
@@ -6170,16 +5868,6 @@
       "feedHome": "https://blog.miguelgrinberg.com/"
     },
     {
-      "title": "AI and Teaching – The Brave New World",
-      "link": "https://steveblank.com/2026/04/22/ai-and-teaching-the-brave-new-world/",
-      "date": "2026-04-22T15:34:09+00:00",
-      "summary": "This article previously appeared in the Entrepreneur &#38; Innovation Exchange (EIX) This is the 16th year we’ve been teaching the Stanford Lean LaunchPad class. This year, from the first hour of the first class, we realized we were seeing something extraordinary happen. It was both the end and begi",
-      "feedId": "steveblank",
-      "feedTitle": "Steve Blank",
-      "category": "Tech Blogs",
-      "feedHome": "https://steveblank.com/"
-    },
-    {
       "title": "AI cybersecurity is not proof of work",
       "link": "http://antirez.com/news/163",
       "date": "2026-04-16T12:46:46+02:00",
@@ -6218,16 +5906,6 @@
       "feedTitle": "Mitchell Hashimoto",
       "category": "Tech Blogs",
       "feedHome": "https://mitchellh.com/"
-    },
-    {
-      "title": "Nowhere Is Safe",
-      "link": "https://steveblank.com/2026/04/09/nowhere-is-safe/",
-      "date": "2026-04-09T13:00:25+00:00",
-      "summary": "Drones in Ukraine and in the War with Iran have made the surface of the earth a contested space. The U.S. has discovered that 1) air superiority and missile defense systems (THAAD, Patriot batteries) designed to counter tens or hundreds of aircraft and missiles is insufficient against asymmetric att",
-      "feedId": "steveblank",
-      "feedTitle": "Steve Blank",
-      "category": "Tech Blogs",
-      "feedHome": "https://steveblank.com/"
     },
     {
       "title": "The Building Block Economy",
