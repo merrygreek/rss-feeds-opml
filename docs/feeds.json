@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-06T14:48:24.620356+00:00",
+  "updatedAt": "2026-10-06T20:00:29.982376+00:00",
   "totalFeeds": 51,
   "successCount": 42,
   "failedCount": 9,
@@ -23,8 +23,26 @@
         "home": "https://simonwillison.net/",
         "url": "https://simonwillison.net/atom/everything/",
         "status": "ok",
-        "fetchedAt": "2026-10-06T14:48:13.849774+00:00",
+        "fetchedAt": "2026-10-06T20:00:20.156437+00:00",
         "items": [
+          {
+            "title": "Using Parseable with Datasette for OpenTelemetry traces",
+            "link": "https://simonwillison.net/2026/Oct/6/datasette-parseable-opentelemetry/",
+            "date": "2026-10-06T19:07:31+00:00",
+            "summary": "TIL: Using Parseable with Datasette for OpenTelemetry traces I saw Parseable in a Show HN today - it's a new observability platform with both an open source (AGPL) Rust implementation (a single ~180MB binary), an \"Enterprise\" version with extra features and a cloud hosted option. Since Datasette 1.0"
+          },
+          {
+            "title": "Mistral Large 4",
+            "link": "https://simonwillison.net/2026/Oct/6/hn-49982139/",
+            "date": "2026-10-06T18:20:58+00:00",
+            "summary": "My comment on Mistral Large 4 &mdash; Hacker News. wren6991: The benchmark is saturated. Frontier models are tested with an armadillo in fishnet tights jaywalking on Mars. OK well I couldn't resist this one: llm -m claude-opus-5.5 'Generate an SVG of an armadillo in fishnet tights jaywalking on Mars"
+          },
+          {
+            "title": "Scrimshaw Jukebox",
+            "link": "https://simonwillison.net/2026/Oct/6/scrimshaw-jukebox/",
+            "date": "2026-10-06T15:17:39+00:00",
+            "summary": "Tool: Scrimshaw Jukebox I wanted to see if Claude Opus 5.5 could compose music, so I tried this: I want you to write some computer game music for me. First design simple text based format for the music and build an artifact that can play it out loud - include some example tracks in that artifact I a"
+          },
           {
             "title": "Quoting Felix Rieseberg",
             "link": "https://simonwillison.net/2026/Oct/5/felix-rieseberg/",
@@ -66,24 +84,6 @@
             "link": "https://simonwillison.net/2026/Oct/1/matthew-green/",
             "date": "2026-10-01T06:29:01+00:00",
             "summary": "[...] Put these pieces together and you have the two halves of a worm: a payload that hijacks the agent, and an agent that will carry the payload to the next agent. Agents in separately-isolated sandboxes discovered that they could leave instructions for each other in a shared package cache, and tho"
-          },
-          {
-            "title": "He Built This City",
-            "link": "https://simonwillison.net/2026/Sep/30/he-built-this-city/",
-            "date": "2026-09-30T21:54:19+00:00",
-            "summary": "I visited the Museum of the City of New York today and got to see He Built This City: Joe Macken’s Model, the 50 x27 feet model of the city built over a 21 year period from balsa wood and cardboard. It exceeded my already high expectations. The exhibition closes on 12th October so you should absolut"
-          },
-          {
-            "title": "Quoting Anthropic Frontier Red Team",
-            "link": "https://simonwillison.net/2026/Sep/29/anthropic-frontier-red-team/",
-            "date": "2026-09-29T22:20:28+00:00",
-            "summary": "We evaluate several models on 100 tasks from the [internal Binary Exploitation benchmark] (selected at random), and find that GLM-5.3 develops full control flow hijacks in 4% of the trials; Claude Mythos Preview did so in 6%. Although GLM-5.3 performs below Claude Mythos Preview here, a meaningful t"
-          },
-          {
-            "title": "GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price",
-            "link": "https://simonwillison.net/2026/Sep/29/hn-49898129/",
-            "date": "2026-09-29T18:27:48+00:00",
-            "summary": "My comment on GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price &mdash; Hacker News.I'm a bit late with the pelicans because I was live-blogging the keynote: https://simonwillison.net/2026/Sep/29/openai-devday-2026-liv... Here they are for GPT-6.1-Sol: https://tools.simonwillison.net/mar"
           }
         ]
       },
@@ -94,8 +94,20 @@
         "home": "https://openai.com/news/",
         "url": "https://openai.com/news/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-06T14:48:13.832626+00:00",
+        "fetchedAt": "2026-10-06T20:00:20.006865+00:00",
         "items": [
+          {
+            "title": "Advancing computer use with Ironclad",
+            "link": "https://openai.com/index/advancing-computer-use-with-ironclad",
+            "date": "2026-10-06T10:00:00+00:00",
+            "summary": "Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work."
+          },
+          {
+            "title": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
+            "link": "https://openai.com/index/atlassian-partnership",
+            "date": "2026-10-06T16:00:00+00:00",
+            "summary": "Atlassian and OpenAI are expanding their partnership to connect frontier models with enterprise knowledge and help teams plan, build, and deliver work."
+          },
           {
             "title": "Our approach to EU text provenance rules",
             "link": "https://openai.com/index/eu-text-provenance",
@@ -143,18 +155,6 @@
             "link": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
             "date": "2026-09-30T10:30:00+00:00",
             "summary": "Learn how OpenAI disrupted a campaign to extract protected model reasoning and is strengthening defenses against adversarial distillation."
-          },
-          {
-            "title": "Helping small businesses put AI to work",
-            "link": "https://openai.com/index/helping-small-businesses-put-ai-to-work",
-            "date": "2026-09-30T10:00:00+00:00",
-            "summary": "OpenAI is partnering with America’s SBDC to expand hands-on AI training and local support for small businesses, alongside a new report on how small teams are using AI."
-          },
-          {
-            "title": "DevDay 2026 Recap",
-            "link": "https://openai.com/index/devday-2026-recap",
-            "date": "2026-09-29T10:00:00+00:00",
-            "summary": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders."
           }
         ]
       },
@@ -165,7 +165,7 @@
         "home": "https://arxiv.org/list/cs.AI/recent",
         "url": "https://arxiv.org/rss/cs.AI",
         "status": "ok",
-        "fetchedAt": "2026-10-06T14:48:14.009143+00:00",
+        "fetchedAt": "2026-10-06T20:00:20.084886+00:00",
         "items": []
       },
       {
@@ -175,7 +175,7 @@
         "home": "https://arxiv.org/list/cs.LG/recent",
         "url": "https://arxiv.org/rss/cs.LG",
         "status": "ok",
-        "fetchedAt": "2026-10-06T14:48:14.007880+00:00",
+        "fetchedAt": "2026-10-06T20:00:20.070624+00:00",
         "items": []
       },
       {
@@ -185,13 +185,19 @@
         "home": "https://research.google/blog/",
         "url": "https://research.google/blog/rss/",
         "status": "ok",
-        "fetchedAt": "2026-10-06T14:48:13.991864+00:00",
+        "fetchedAt": "2026-10-06T20:00:20.161712+00:00",
         "items": [
+          {
+            "title": "Unlocking Earth AI’s planetary geospatial foundation models for global public health",
+            "link": "https://research.google/blog/earth-ais-planetary-geospatial-foundation-models-for-global-public-health/",
+            "date": "2026-10-06T15:05:11+00:00",
+            "summary": "Earth AI"
+          },
           {
             "title": "Open and Emergent Problems in Agentic Privacy and Security: A Contextual Angle",
             "link": "https://research.google/blog/open-and-emergent-problems-in-agentic-privacy-and-security-a-contextual-angle/",
-            "date": "2026-10-05T21:08:31+00:00",
-            "summary": "Education Innovation"
+            "date": "2026-10-05T21:08:00+00:00",
+            "summary": "Generative AI"
           },
           {
             "title": "Toward provably private learning from federated data",
@@ -240,12 +246,6 @@
             "link": "https://research.google/blog/transfer-learning-for-genomic-prediction-in-underrepresented-populations/",
             "date": "2026-09-03T18:20:31+00:00",
             "summary": "General Science"
-          },
-          {
-            "title": "A connectomics milestone: Mapping the complete male fruit fly brain",
-            "link": "https://research.google/blog/a-connectomics-milestone-mapping-the-complete-male-fruit-fly-brain/",
-            "date": "2026-09-03T16:00:00+00:00",
-            "summary": "General Science"
           }
         ]
       },
@@ -256,7 +256,7 @@
         "home": "https://deepmind.google/blog/",
         "url": "https://deepmind.google/blog/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-06T14:48:13.864958+00:00",
+        "fetchedAt": "2026-10-06T20:00:20.148419+00:00",
         "items": [
           {
             "title": "Gemini 4 Argon: our next era of frontier intelligence",
@@ -327,7 +327,7 @@
         "home": "https://lilianweng.github.io/",
         "url": "https://lilianweng.github.io/lil-log/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-06T14:48:13.718791+00:00",
+        "fetchedAt": "2026-10-06T20:00:20.009926+00:00",
         "items": [
           {
             "title": "Active Learning",
@@ -418,7 +418,7 @@
         "home": "https://minimaxir.com/",
         "url": "https://minimaxir.com/index.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-06T14:48:13.837236+00:00",
+        "fetchedAt": "2026-10-06T20:00:20.222049+00:00",
         "items": [
           {
             "title": "Writing Rust code that's faster than state-of-the-art libraries by asking agents to make the code faster",
@@ -501,7 +501,7 @@
         "home": "https://www.jeffgeerling.com/",
         "url": "https://www.jeffgeerling.com/blog.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-06T14:48:13.845046+00:00",
+        "fetchedAt": "2026-10-06T20:00:20.193034+00:00",
         "items": [
           {
             "title": "I'm starting HomelabFest (in St. Louis, Sep 2027)",
@@ -572,7 +572,7 @@
         "home": "https://www.seangoedecke.com/",
         "url": "https://www.seangoedecke.com/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-06T14:48:13.910895+00:00",
+        "fetchedAt": "2026-10-06T20:00:20.170437+00:00",
         "items": [
           {
             "title": "Superpersuasion will look like bribery",
@@ -643,7 +643,7 @@
         "home": "https://krebsonsecurity.com/",
         "url": "https://krebsonsecurity.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-10-06T14:48:13.796737+00:00",
+        "fetchedAt": "2026-10-06T20:00:20.186153+00:00",
         "items": [
           {
             "title": "Dutch Police Arrest ‘Reformed’ Hacker in Shiny Hunters Investigation",
@@ -714,12 +714,18 @@
         "home": "https://daringfireball.net/",
         "url": "https://daringfireball.net/feeds/main",
         "status": "ok",
-        "fetchedAt": "2026-10-06T14:48:13.905101+00:00",
+        "fetchedAt": "2026-10-06T20:00:20.202280+00:00",
         "items": [
+          {
+            "title": "Unofficial Command-Line Tool Removes Apple Intelligence From MacOS 27",
+            "link": "https://arstechnica.com/apple/2026/10/command-line-tool-quickly-removes-apple-intelligence-from-macos-27/",
+            "date": "2026-10-06T18:17:44+00:00",
+            "summary": "Scharon Harding, Ars Technica: Unlike with previous versions of macOS, macOS 27 Golden Gate doesn’t have a toggle for turning off Apple Intelligence. That makes disabling AI features that you may not want more difficult. It also means that the AI models necessary for running Apple Intelligence will "
+          },
           {
             "title": "Steve Jobs, Walking Through a Mockup for Apple Park in 2010",
             "link": "https://book.stevejobsarchive.com/#photo-37",
-            "date": "2026-10-06T02:54:41+00:00",
+            "date": "2026-10-06T17:23:34+00:00",
             "summary": "What an apt photo, today of all days. What a gift Make Something Wonderful is. &nbsp;★&nbsp;"
           },
           {
@@ -769,12 +775,6 @@
             "link": "https://workos.com/guide/the-developers-guide-to-sso?utm_source=daringfireball&utm_medium=newsletter&utm_campaign=q32026",
             "date": "2026-09-30T20:17:33+00:00",
             "summary": "SSO is table stakes for enterprise deals, but building it into your app yourself means writing SAML controllers, parsing XML assertions, and handling IdP-specific quirks for each provider. Learn how SAML flows work, the tradeoffs between building or buying, and best practices for security, routing, "
-          },
-          {
-            "title": "Gurman Reports Apple Is Launching New ‘Smart Home’ Products on October 13",
-            "link": "https://www.bloomberg.com/news/articles/2026-09-30/apple-is-finally-ready-to-enter-its-next-big-category-the-smart-home?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc5MDc3MDk0MywiZXhwIjoxNzkxMzc1NzQzLCJhcnRpY2xlSWQiOiJUTTM0SDRUOTZPU0cwMCIsImJjb25uZWN0SWQiOiJDNEVEQ0FFMUZBMDU0MEJFQTI0QTlGMjExQzFFOTA4MCJ9.11wEtJfuMwCkznTkepXugZ2wuZTmxO9CdsNJLAcBd1M",
-            "date": "2026-09-30T23:14:52+00:00",
-            "summary": "Mark Gurman, reporting for Bloomberg (gift link): Apple Inc. plans to make its long-delayed push into the smart-home market on Oct. 13, marking a critical product expansion for the company under new Chief Executive Officer John Ternus. At the center of the strategy is a smart-home hub code-named J49"
           }
         ]
       },
@@ -785,7 +785,7 @@
         "home": "https://ericmigi.com/",
         "url": "https://ericmigi.com/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-06T14:48:13.885876+00:00",
+        "fetchedAt": "2026-10-06T20:00:20.080383+00:00",
         "items": [
           {
             "title": "New Pebble Weather App + Software Updates",
@@ -856,7 +856,7 @@
         "home": "http://antirez.com/",
         "url": "http://antirez.com/rss",
         "status": "ok",
-        "fetchedAt": "2026-10-06T14:48:16.159561+00:00",
+        "fetchedAt": "2026-10-06T20:00:21.963005+00:00",
         "items": [
           {
             "title": "The real AI risk is inside the labs",
@@ -927,7 +927,7 @@
         "home": "https://idiallo.com/",
         "url": "https://idiallo.com/feed.rss",
         "status": "ok",
-        "fetchedAt": "2026-10-06T14:48:14.112908+00:00",
+        "fetchedAt": "2026-10-06T20:00:20.205769+00:00",
         "items": [
           {
             "title": "Why My Asus Laptop Kept Rebooting After Sleep and How to Fix it",
@@ -998,7 +998,7 @@
         "home": "https://maurycyz.com/",
         "url": "https://maurycyz.com/index.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-06T14:48:14.502989+00:00",
+        "fetchedAt": "2026-10-06T20:00:20.603184+00:00",
         "items": []
       },
       {
@@ -1008,7 +1008,7 @@
         "home": "https://pluralistic.net/",
         "url": "https://pluralistic.net/feed/",
         "status": "ok",
-        "fetchedAt": "2026-10-06T14:48:17.279080+00:00",
+        "fetchedAt": "2026-10-06T20:00:20.316397+00:00",
         "items": [
           {
             "title": "Pluralistic: Swapping money for expertise (06 Oct 2026)",
@@ -1079,7 +1079,7 @@
         "home": "https://shkspr.mobi/blog/",
         "url": "https://shkspr.mobi/blog/feed/",
         "status": "ok",
-        "fetchedAt": "2026-10-06T14:48:14.990666+00:00",
+        "fetchedAt": "2026-10-06T20:00:21.033541+00:00",
         "items": [
           {
             "title": "Una Watch - SDK and Writing Your First App",
@@ -1160,7 +1160,7 @@
         "home": "https://mitchellh.com/",
         "url": "https://mitchellh.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-06T14:48:13.940845+00:00",
+        "fetchedAt": "2026-10-06T20:00:20.471501+00:00",
         "items": [
           {
             "title": "Superlogical",
@@ -1231,7 +1231,7 @@
         "home": "https://dynomight.net/",
         "url": "https://dynomight.net/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-06T14:48:14.567162+00:00",
+        "fetchedAt": "2026-10-06T20:00:20.400076+00:00",
         "items": [
           {
             "title": "Why is the human body so crap except for the liver?",
@@ -1302,7 +1302,7 @@
         "home": "https://xeiaso.net/",
         "url": "https://xeiaso.net/blog.rss",
         "status": "ok",
-        "fetchedAt": "2026-10-06T14:48:14.822739+00:00",
+        "fetchedAt": "2026-10-06T20:00:20.728654+00:00",
         "items": [
           {
             "title": "How to Solve: AAC Heavyweight M1 (Savage)",
@@ -1373,7 +1373,7 @@
         "home": "https://devblogs.microsoft.com/oldnewthing/",
         "url": "https://devblogs.microsoft.com/oldnewthing/feed",
         "status": "ok",
-        "fetchedAt": "2026-10-06T14:48:14.000199+00:00",
+        "fetchedAt": "2026-10-06T20:00:20.347160+00:00",
         "items": [
           {
             "title": "If somebody tries to hot-patch an already-hot-patched function, how do they avoid conflicts?",
@@ -1444,7 +1444,7 @@
         "home": "https://www.righto.com/",
         "url": "https://www.righto.com/feeds/posts/default",
         "status": "ok",
-        "fetchedAt": "2026-10-06T14:48:14.159207+00:00",
+        "fetchedAt": "2026-10-06T20:00:20.875706+00:00",
         "items": []
       },
       {
@@ -1454,7 +1454,7 @@
         "home": "https://lucumr.pocoo.org/",
         "url": "https://lucumr.pocoo.org/feed.atom",
         "status": "ok",
-        "fetchedAt": "2026-10-06T14:48:14.328626+00:00",
+        "fetchedAt": "2026-10-06T20:00:20.410302+00:00",
         "items": [
           {
             "title": "What is Codemode",
@@ -1525,7 +1525,7 @@
         "home": "https://skyfall.dev/",
         "url": "https://skyfall.dev/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-06T14:48:14.307294+00:00",
+        "fetchedAt": "2026-10-06T20:00:20.844504+00:00",
         "items": [
           {
             "title": "Good riddance, 4o",
@@ -1600,7 +1600,7 @@
         "home": "https://overreacted.io/",
         "url": "https://overreacted.io/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-06T14:48:14.499583+00:00",
+        "fetchedAt": "2026-10-06T20:00:20.459735+00:00",
         "items": [
           {
             "title": "How I Vibed a Proof of Conway’s Conjecture",
@@ -1671,8 +1671,14 @@
         "home": "https://www.johndcook.com/",
         "url": "https://www.johndcook.com/blog/feed/",
         "status": "ok",
-        "fetchedAt": "2026-10-06T14:48:14.242371+00:00",
+        "fetchedAt": "2026-10-06T20:00:20.617114+00:00",
         "items": [
+          {
+            "title": "A topological model for provability logic",
+            "link": "https://www.johndcook.com/blog/2026/10/06/godel-lob/",
+            "date": "2026-10-06T19:46:28+00:00",
+            "summary": "Gödel&#8217;s incompleteness theorem illustrated the need to distinguish between what is true and what is provable. There are true statements that cannot be proven. Let □p denote the assertion that p is provable in Peano arithmetic. The logic with this interpretation for the □ operator is the Gödel-"
+          },
           {
             "title": "Miquel’s pentagon theorem",
             "link": "https://www.johndcook.com/blog/2026/10/04/miquels-pentagon-theorem/",
@@ -1726,12 +1732,6 @@
             "link": "https://www.johndcook.com/blog/2026/09/18/logistic-fit-sensitivity/",
             "date": "2026-09-19T01:17:36+00:00",
             "summary": "Nothing grows exponentially forever. What appears to be an exponential curve often turns out to be some sort of S curve, such as a logistic curve. Suppose you&#8217;re collecting data on the left side of the curve. If there&#8217;s even a small amount of error in your data, you won&#8217;t be able t"
-          },
-          {
-            "title": "Empirical fractal",
-            "link": "https://www.johndcook.com/blog/2026/09/17/empirical-fractal/",
-            "date": "2026-09-17T16:48:14+00:00",
-            "summary": "There&#8217;s a common saying in discussion of fractals that the length of a coastline depends on how small a device you use to measure it. I thought this was a hypothetical, say as applied to the steps in the construction of the Koch snowflake. But the saying has its roots in actually surveying. Le"
           }
         ]
       },
@@ -1742,7 +1742,7 @@
         "home": "https://matklad.github.io/",
         "url": "https://matklad.github.io/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-06T14:48:14.033513+00:00",
+        "fetchedAt": "2026-10-06T20:00:20.332238+00:00",
         "items": [
           {
             "title": "Benchmark In Milliseconds",
@@ -1813,7 +1813,7 @@
         "home": "https://eli.thegreenplace.net/",
         "url": "https://eli.thegreenplace.net/feeds/all.atom.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-06T14:48:14.207886+00:00",
+        "fetchedAt": "2026-10-06T20:00:20.600757+00:00",
         "items": [
           {
             "title": "Summary of reading: July - September 2026",
@@ -1854,7 +1854,7 @@
         "home": "https://fabiensanglard.net/",
         "url": "https://fabiensanglard.net/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-06T14:48:14.110503+00:00",
+        "fetchedAt": "2026-10-06T20:00:20.717499+00:00",
         "items": [
           {
             "title": "My agent.md to improve LLM-assisted code quality",
@@ -1925,7 +1925,7 @@
         "home": "https://blog.miguelgrinberg.com/",
         "url": "https://blog.miguelgrinberg.com/feed",
         "status": "ok",
-        "fetchedAt": "2026-10-06T14:48:14.828041+00:00",
+        "fetchedAt": "2026-10-06T20:00:20.841903+00:00",
         "items": [
           {
             "title": "How fast is Python 3.15?",
@@ -1996,7 +1996,7 @@
         "home": "https://www.troyhunt.com/",
         "url": "https://www.troyhunt.com/rss/",
         "status": "ok",
-        "fetchedAt": "2026-10-06T14:48:14.029254+00:00",
+        "fetchedAt": "2026-10-06T20:00:20.334369+00:00",
         "items": [
           {
             "title": "Weekly Update 524: Live From Copenhagen",
@@ -2067,7 +2067,7 @@
         "home": "https://anildash.com/",
         "url": "https://anildash.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-06T14:48:14.272062+00:00",
+        "fetchedAt": "2026-10-06T20:00:20.865426+00:00",
         "items": [
           {
             "title": "Why are the Artemis II photos on Flickr?",
@@ -2138,7 +2138,7 @@
         "home": "https://computer.rip/",
         "url": "https://computer.rip/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-06T14:48:14.630463+00:00",
+        "fetchedAt": "2026-10-06T20:00:20.916761+00:00",
         "items": [
           {
             "title": "a new world airport and its baggage",
@@ -2219,7 +2219,7 @@
         "home": "http://paulgraham.com/",
         "url": "http://www.aaronsw.com/2002/feeds/pgessays.rss",
         "status": "ok",
-        "fetchedAt": "2026-10-06T14:48:14.041349+00:00",
+        "fetchedAt": "2026-10-06T20:00:20.533039+00:00",
         "items": []
       },
       {
@@ -2229,7 +2229,7 @@
         "home": "https://steveblank.com/",
         "url": "https://steveblank.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-10-06T14:48:13.961276+00:00",
+        "fetchedAt": "2026-10-06T20:00:20.117299+00:00",
         "items": [
           {
             "title": "Lean LaunchPad – The Next Generation",
@@ -2302,28 +2302,16 @@
         "home": "https://news.ycombinator.com/",
         "url": "https://news.ycombinator.com/rss",
         "status": "ok",
-        "fetchedAt": "2026-10-06T14:48:14.139668+00:00",
+        "fetchedAt": "2026-10-06T20:00:20.330184+00:00",
         "items": [
           {
             "title": "Mistral Large 4",
-            "link": "https://docs.mistral.ai/models/mistral-large-4-0",
+            "link": "https://mistral.ai/news/mistral-large-4/\\",
             "date": "2026-10-06T13:15:49+00:00",
             "summary": "Comments"
           },
           {
-            "title": "Mistral Large 4: \"Le Chonk\"",
-            "link": "https://mistral.ai/news/mistral-large-4/",
-            "date": "2026-10-06T13:25:50+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "Release of Polars 2.0",
-            "link": "https://pola.rs/posts/release-polars-2/",
-            "date": "2026-10-06T11:59:01+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "Nobel Prize in Physics goes to Francis Halzen",
+            "title": "Nobel Prize in Physics 2026: Francis Halzen",
             "link": "https://www.nobelprize.org/prizes/physics/2026/",
             "date": "2026-10-06T09:48:46+00:00",
             "summary": "Comments"
@@ -2335,9 +2323,9 @@
             "summary": "Comments"
           },
           {
-            "title": "JetBrains reported a net financial loss first time in its tracked history",
-            "link": "https://www.helgilibrary.com/companies/jetbrains",
-            "date": "2026-10-06T11:45:55+00:00",
+            "title": "Berthd",
+            "link": "https://berthd.app/",
+            "date": "2026-10-06T19:14:19+00:00",
             "summary": "Comments"
           },
           {
@@ -2347,21 +2335,33 @@
             "summary": "Comments"
           },
           {
-            "title": "Meta's Muse Is an Adorable Privacy and Security Dumpster Fire",
-            "link": "https://www.techdirt.com/2026/10/06/metas-muse-is-an-adorable-privacy-and-security-dumpster-fire/",
-            "date": "2026-10-06T12:45:49+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "Show HN: Parseable, an open observability datalake, handles 100M time-series/min",
-            "link": "https://www.parseable.com",
-            "date": "2026-10-06T13:30:50+00:00",
+            "title": "Gleam doesn't compile to Erlang source anymore",
+            "link": "https://gleam.run/news/gleam-doesnt-compile-to-erlang-source-anymore/",
+            "date": "2026-10-06T08:08:20+00:00",
             "summary": "Comments"
           },
           {
             "title": "Mathematics of Geothermal Energy",
             "link": "https://www.ebsco.com/research-starters/power-and-energy/mathematics-geothermal-energy/",
             "date": "2026-10-06T13:05:26+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "Show HN: I turned my iPhone and a $20 smart plug into an f-stop timer",
+            "link": "https://peterszentkiralyi.eu/darkplug/",
+            "date": "2026-10-06T13:58:07+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "The Early History of Smalltalk (1993)",
+            "link": "https://worrydream.com/EarlyHistoryOfSmalltalk/",
+            "date": "2026-10-06T15:19:57+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "Subquadratic 3SUM and Subcubic APSP",
+            "link": "https://arxiv.org/abs/2610.06783",
+            "date": "2026-10-06T12:31:17+00:00",
             "summary": "Comments"
           }
         ]
@@ -2373,67 +2373,67 @@
         "home": "https://www.techmeme.com/",
         "url": "https://www.techmeme.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-06T14:48:14.121788+00:00",
+        "fetchedAt": "2026-10-06T20:00:20.877018+00:00",
         "items": [
           {
-            "title": "Anduril lands an up to $2.9B US Navy contract to make Virginia-class submarine components, days after Palmer Luckey was named to a DOD future weapons task force (Samantha Subin/CNBC)",
-            "link": "https://www.techmeme.com/261006/p23#a261006p23",
-            "date": "2026-10-06T10:30:01-04:00",
-            "summary": "Samantha Subin / CNBC: Anduril lands an up to $2.9B US Navy contract to make Virginia-class submarine components, days after Palmer Luckey was named to a DOD future weapons task force&nbsp; &mdash;&nbsp; Anduril won an up to $2.9 billion contract with the U.S. Navy on Tuesday to boost submarine prod"
+            "title": "Mistral launches a preview of Mistral Large 4, or Le Chonk, a 1T model it claims tops any open model developed in the US or Europe; weights are due October 27 (Carl Franzen/VentureBeat)",
+            "link": "https://www.techmeme.com/261006/p34#a261006p34",
+            "date": "2026-10-06T15:45:01-04:00",
+            "summary": "Carl Franzen / VentureBeat: Mistral launches a preview of Mistral Large 4, or Le Chonk, a 1T model it claims tops any open model developed in the US or Europe; weights are due October 27&nbsp; &mdash;&nbsp; Mistral is launching a public preview of Mistral Large 4, a one-trillion-parameter multimodal"
           },
           {
-            "title": "Mistral releases Mistral Large 4, dubbed \"le Chonk\", a 1T-parameter open-weight model for general agentic capabilities, trained on 4,000 Grace Blackwell GPUs (Sabrina Ortiz/The Deep View)",
-            "link": "https://www.techmeme.com/261006/p22#a261006p22",
-            "date": "2026-10-06T09:08:33-04:00",
-            "summary": "Sabrina Ortiz / The Deep View: Mistral releases Mistral Large 4, dubbed &ldquo;le Chonk&rdquo;, a 1T-parameter open-weight model for general agentic capabilities, trained on 4,000 Grace Blackwell GPUs&nbsp; &mdash;&nbsp; Most flagship models dominating the market are from frontier labs and are close"
+            "title": "Sources: Waymo increased the size of its inaugural debt raise from $3B+ to $5B, as it grapples with rising AI costs and rapidly expands its robotaxi fleet (Bloomberg)",
+            "link": "https://www.techmeme.com/261006/p35#a261006p35",
+            "date": "2026-10-06T15:45:01-04:00",
+            "summary": "Bloomberg: Sources: Waymo increased the size of its inaugural debt raise from $3B+ to $5B, as it grapples with rising AI costs and rapidly expands its robotaxi fleet&nbsp; &mdash;&nbsp; Waymo increased the size of its inaugural debt raise to $5 billion, tapping lenders to help fuel the robotaxi comp"
           },
           {
-            "title": "Uber agrees to acquire Boston-based catering platform ezCater for $2.3B in cash to help Uber Eats reach corporate clients; the deal is set to close in months (Natalie Lung/Bloomberg)",
-            "link": "https://www.techmeme.com/261006/p21#a261006p21",
-            "date": "2026-10-06T09:00:57-04:00",
-            "summary": "Natalie Lung / Bloomberg: Uber agrees to acquire Boston-based catering platform ezCater for $2.3B in cash to help Uber Eats reach corporate clients; the deal is set to close in months&nbsp; &mdash;&nbsp; Uber Technologies Inc. is buying catering firm ezCater Inc. for $2.3 billion in a cash deal that"
+            "title": "Anthropic integrates its Cyber Verification Program and Project Glasswing into a new, expanded version of CVP, with three tiers and access to its latest models (Anthropic)",
+            "link": "https://www.techmeme.com/261006/p33#a261006p33",
+            "date": "2026-10-06T15:35:03-04:00",
+            "summary": "Anthropic: Anthropic integrates its Cyber Verification Program and Project Glasswing into a new, expanded version of CVP, with three tiers and access to its latest models&nbsp; &mdash;&nbsp; We're launching a new, expanded version of our Cyber Verification Program (CVP), which makes advanced cyber c"
           },
           {
-            "title": "UK retailer Asos' stock falls 10%+ after users got app notifications saying \"we have fully compromised the Snowflake instance\"; source: Asos is investigating (Financial Times)",
-            "link": "https://www.techmeme.com/261006/p20#a261006p20",
-            "date": "2026-10-06T08:50:01-04:00",
-            "summary": "Financial Times: UK retailer Asos' stock falls 10%+ after users got app notifications saying &ldquo;we have fully compromised the Snowflake instance&rdquo;; source: Asos is investigating&nbsp; &mdash;&nbsp; Shares in FTSE 250 retailer fall more than 10% following reports from mobile users&nbsp; &mda"
+            "title": "Mistral says ML4 was trained using 3,800 Nvidia Grace Blackwell GPUs in its own data centers in Europe and much of its training data was multilingual (Mistral Blog)",
+            "link": "https://www.techmeme.com/261006/p32#a261006p32",
+            "date": "2026-10-06T15:00:52-04:00",
+            "summary": "Mistral Blog: Mistral says ML4 was trained using 3,800 Nvidia Grace Blackwell GPUs in its own data centers in Europe and much of its training data was multilingual&nbsp; &mdash;&nbsp; Le Chonk&nbsp; &mdash;&nbsp; Today, we're launching a public preview of Mistral Large 4.&nbsp; Unofficially ML4, ver"
           },
           {
-            "title": "Anthropic's IPO prospectus: Dario Amodei earned $18M in 2025, middle of the pack for tech CEOs, and President Daniela Amodei, his sister, earned $16.4M (Reuters)",
-            "link": "https://www.techmeme.com/261006/p19#a261006p19",
-            "date": "2026-10-06T08:05:01-04:00",
-            "summary": "Reuters: Anthropic's IPO prospectus: Dario Amodei earned $18M in 2025, middle of the pack for tech CEOs, and President Daniela Amodei, his sister, earned $16.4M&nbsp; &mdash;&nbsp; Dario Amodei made $18 million last year as CEO of Claude AI developer Anthropic, the company's IPO filing shows, puttin"
+            "title": "Meta, Walmart, Stripe, and others publish the Personal Agent Protocol to standardize and secure interactions between AI bots and businesses (Kate Rooney/CNBC)",
+            "link": "https://www.techmeme.com/261006/p31#a261006p31",
+            "date": "2026-10-06T14:55:00-04:00",
+            "summary": "Kate Rooney / CNBC: Meta, Walmart, Stripe, and others publish the Personal Agent Protocol to standardize and secure interactions between AI bots and businesses&nbsp; &mdash;&nbsp; A month after Meta's launch of Muse, the personal agent that quickly turned into a viral sensation, a group of companies"
           },
           {
-            "title": "Study: China is struggling to attract foreign AI talent; for every 30 Chinese AI researchers in the US in 2025, only one in China made the opposite journey (Zeyi Yang/New York Times)",
-            "link": "https://www.techmeme.com/261006/p18#a261006p18",
-            "date": "2026-10-06T07:55:07-04:00",
-            "summary": "Zeyi Yang / New York Times: Study: China is struggling to attract foreign AI talent; for every 30 Chinese AI researchers in the US in 2025, only one in China made the opposite journey&nbsp; &mdash;&nbsp; China's booming artificial intelligence sector has given local researchers good reason to remain"
+            "title": "Flai, which makes AI tools for car dealerships to manage phone calls, emails, and texts, raised a $27M Series A led by Base10 Partners (Sean O'Kane/TechCrunch)",
+            "link": "https://www.techmeme.com/261006/p30#a261006p30",
+            "date": "2026-10-06T14:05:00-04:00",
+            "summary": "Sean O'Kane / TechCrunch: Flai, which makes AI tools for car dealerships to manage phone calls, emails, and texts, raised a $27M Series A led by Base10 Partners&nbsp; &mdash;&nbsp; When Flai was raising its seed round last year, it was just a team of three people pounding the pavement to get car dea"
           },
           {
-            "title": "Google contracts for 3,590 MW of power from Constellation Energy in the US' largest power grid, with new nuclear energy accounting for ~25% of that supply (Laila Kearney/Reuters)",
-            "link": "https://www.techmeme.com/261006/p17#a261006p17",
-            "date": "2026-10-06T07:41:02-04:00",
-            "summary": "Laila Kearney / Reuters: Google contracts for 3,590 MW of power from Constellation Energy in the US' largest power grid, with new nuclear energy accounting for ~25% of that supply&nbsp; &mdash;&nbsp; Google (GOOGL.O) has contracted for 3,590 megawatts of power from Constellation Energy (CEG.O) in th"
+            "title": "Sources: AI neocloud Lambda is raising up to $4B led by Blackstone and Coatue at a pre-money valuation of $14.5B in a final round before its planned IPO (Robbie Whelan/Wall Street Journal)",
+            "link": "https://www.techmeme.com/261006/p29#a261006p29",
+            "date": "2026-10-06T13:10:01-04:00",
+            "summary": "Robbie Whelan / Wall Street Journal: Sources: AI neocloud Lambda is raising up to $4B led by Blackstone and Coatue at a pre-money valuation of $14.5B in a final round before its planned IPO&nbsp; &mdash;&nbsp; Blackstone and Coatue are leading the round, which values the cloud-computing startup at $"
           },
           {
-            "title": "Source: Palmer Luckey's Erebor hits $7B+ in deposits since launching in February, including $3B+ over the past quarter with 500+ new customers (Financial Times)",
-            "link": "https://www.techmeme.com/261006/p16#a261006p16",
-            "date": "2026-10-06T07:35:01-04:00",
-            "summary": "Financial Times: Source: Palmer Luckey's Erebor hits $7B+ in deposits since launching in February, including $3B+ over the past quarter with 500+ new customers&nbsp; &mdash;&nbsp; Palmer Luckey's bank for the technology industry has surged to more than $7bn in deposits since launching in February, a"
+            "title": "A look at consumer AI trends: ChatGPT has 3x more US subscribers than Claude or Gemini, the top 1% of spenders drive 19.5% of spend, and AI agents gain traction (Olivia Moore/Andreessen Horowitz)",
+            "link": "https://www.techmeme.com/261006/p28#a261006p28",
+            "date": "2026-10-06T12:50:00-04:00",
+            "summary": "Olivia Moore / Andreessen Horowitz: A look at consumer AI trends: ChatGPT has 3x more US subscribers than Claude or Gemini, the top 1% of spenders drive 19.5% of spend, and AI agents gain traction&nbsp; &mdash;&nbsp; Three years into tracking consumer AI, the leaderboard is becoming familiar.&nbsp; "
           },
           {
-            "title": "Sources: the FBI removes an Accenture contractor over a breach exposing thousands of employees' data; the FBI says a contractor failed to apply a security patch (Reuters)",
-            "link": "https://www.techmeme.com/261006/p15#a261006p15",
-            "date": "2026-10-06T07:20:01-04:00",
-            "summary": "Reuters: Sources: the FBI removes an Accenture contractor over a breach exposing thousands of employees' data; the FBI says a contractor failed to apply a security patch&nbsp; &mdash;&nbsp; The Federal Bureau of Investigation removed an Accenture contractor on Monday over their role in a damaging da"
+            "title": "Navra, founded by SoFi and Figure co-founder Mike Cagney to make on-chain lending and securities markets more accessible, raised a $19M Series A led by Ribbit (Ryan Lawler/Axios)",
+            "link": "https://www.techmeme.com/261006/p27#a261006p27",
+            "date": "2026-10-06T12:35:01-04:00",
+            "summary": "Ryan Lawler / Axios: Navra, founded by SoFi and Figure co-founder Mike Cagney to make on-chain lending and securities markets more accessible, raised a $19M Series A led by Ribbit&nbsp; &mdash;&nbsp; Navra, the newest startup from SoFi and Figure co-founder Mike Cagney, has raised $19 million in Ser"
           },
           {
-            "title": "Hadrian, an agentic AI offensive security service, raised $40M co-led by Forgepoint Capital International and SmartFin, taking its total funding to $65M (Tamara Djurickovic/Tech.eu)",
-            "link": "https://www.techmeme.com/261006/p14#a261006p14",
-            "date": "2026-10-06T07:10:01-04:00",
-            "summary": "Tamara Djurickovic / Tech.eu: Hadrian, an agentic AI offensive security service, raised $40M co-led by Forgepoint Capital International and SmartFin, taking its total funding to $65M&nbsp; &mdash;&nbsp; Hadrian will use the funding to expand across EMEA and the US while growing its engineering and r"
+            "title": "Anthropic expands its Claude Startups program with $45K in discounts and credits via the Claude Startup Stack, a $1,000 API credit, and a year of Claude Team (Ashley Capoot/CNBC)",
+            "link": "https://www.techmeme.com/261006/p26#a261006p26",
+            "date": "2026-10-06T12:30:02-04:00",
+            "summary": "Ashley Capoot / CNBC: Anthropic expands its Claude Startups program with $45K in discounts and credits via the Claude Startup Stack, a $1,000 API credit, and a year of Claude Team&nbsp; &mdash;&nbsp; Anthropic on Tuesday announced it's expanding its Claude Startups program, the artificial intelligen"
           }
         ]
       },
@@ -2444,67 +2444,67 @@
         "home": "https://techcrunch.com/",
         "url": "https://techcrunch.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-10-06T14:48:14.233128+00:00",
+        "fetchedAt": "2026-10-06T20:00:20.245533+00:00",
         "items": [
+          {
+            "title": "The next hurdle for AI agents: getting websites to let them in",
+            "link": "https://techcrunch.com/2026/10/06/the-next-hurdle-for-ai-agents-getting-websites-to-let-them-in/",
+            "date": "2026-10-06T19:56:50+00:00",
+            "summary": "Personal AI agents promise to shop, book flights, and make reservations for you. But deliberate blocks and anti-bot defenses are getting in the way, leaving consumers caught in the middle. A new standard aims to help."
+          },
+          {
+            "title": "Hark releases an AI personal assistant with a focus on privacy",
+            "link": "https://techcrunch.com/2026/10/06/hark-releases-an-ai-personal-assistant-with-a-focus-on-privacy/",
+            "date": "2026-10-06T18:22:45+00:00",
+            "summary": "The AI lab's personal assistant is an operating system from the future designed to compete with Muse, Dots, and Instinct."
+          },
+          {
+            "title": "India’s JioHotstar takes partnership route for Middle East expansion",
+            "link": "https://techcrunch.com/2026/10/06/indias-jiohotstar-takes-partnership-route-for-middle-east-expansion/",
+            "date": "2026-10-06T17:14:07+00:00",
+            "summary": "JioHotstar will be offered inside Starzplay rather than through a stand-alone service."
+          },
+          {
+            "title": "Mirror Particle is building a ‘world model’ of human behavior",
+            "link": "https://techcrunch.com/2026/10/06/mirror-particle-is-building-a-world-model-of-human-behavior/",
+            "date": "2026-10-06T16:35:00+00:00",
+            "summary": "Mirror Particle will launch at TechCrunch Disrupt's Startup Battlefield 200 with a world model built from scratch to predict human behavior, arguing that LLM role-play falls short for market research and brand strategy."
+          },
+          {
+            "title": "Furientis lands $25M from Benchmark to mass-produce low-cost missile interceptors",
+            "link": "https://techcrunch.com/2026/10/06/furientis-lands-25m-from-benchmark-to-mass-produce-low-cost-missile-interceptors/",
+            "date": "2026-10-06T16:29:12+00:00",
+            "summary": "The storied Silicon Valley firm makes its first pure defense investment."
+          },
+          {
+            "title": "Learn all about scaling, fundraising, founder how-tos, and more at TechCrunch Founder Summit, November 4",
+            "link": "https://techcrunch.com/2026/10/06/learn-all-about-scaling-fundraising-founder-how-tos-and-more-at-techcrunch-founder-summit-november-4/",
+            "date": "2026-10-06T16:18:45+00:00",
+            "summary": "There isn’t a single manual to read or prompt to give an LLM that can equip you with the skills and knowledge to build a company. But on November 4, TechCrunch Founder Summit gives founders the next-best thing: A packed day at Boston's SoWa Power Station, where investors and operators share how they"
+          },
+          {
+            "title": "Anthropic is giving startups a free year of Claude Team and $1,000 in credits",
+            "link": "https://techcrunch.com/2026/10/06/anthropic-gives-startups-a-free-year-of-enterprise-service-and-1000-in-token-credits/",
+            "date": "2026-10-06T16:00:00+00:00",
+            "summary": "\"We created this program because we believe the benefits of AI will reach most people through the companies that build on top of models, rather than through the models alone.\""
+          },
+          {
+            "title": "LibreOffice says ‘no AI’ is now a software feature",
+            "link": "https://techcrunch.com/2026/10/06/libreoffice-says-no-ai-is-now-a-software-feature/",
+            "date": "2026-10-06T15:25:00+00:00",
+            "summary": "The maker of the open source document editor says it has no plans to add AI to its software's default configuration, citing user privacy."
+          },
+          {
+            "title": "Vinod Khosla believes ex-DeepMind engineer’s Wajo will win agent market on trust",
+            "link": "https://techcrunch.com/2026/10/06/vinod-khosla-believes-ex-deepmind-engineers-wajo-will-win-agent-market-on-trust/",
+            "date": "2026-10-06T15:15:00+00:00",
+            "summary": "Wajo's Fo agent can hire humans to complete a task."
+          },
           {
             "title": "Bluesky wants to give you your own domain on the open web",
             "link": "https://techcrunch.com/2026/10/06/bluesky-wants-to-give-you-your-own-domain-on-the-open-web/",
             "date": "2026-10-06T14:41:52+00:00",
             "summary": "Bluesky says the process will still take 18-24 months, so don't expect your new, shortened 'bsky' handle any time soon."
-          },
-          {
-            "title": "Emmys will move from broadcast TV to Prime Video in 2027",
-            "link": "https://techcrunch.com/2026/10/06/emmys-will-move-from-broadcast-tv-to-prime-video-in-2027/",
-            "date": "2026-10-06T14:37:31+00:00",
-            "summary": "Non-Amazon Prime subscribers will be able to watch the awards show on the platform."
-          },
-          {
-            "title": "Mistral’s new 1T model aims to leapfrog closed and open rivals",
-            "link": "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/",
-            "date": "2026-10-06T14:33:16+00:00",
-            "summary": "French AI lab Mistral AI has released Mistral Large 4, a new large multimodal model aiming to leapfrog both American and Chinese rivals."
-          },
-          {
-            "title": "Pinterest’s AI now turns beauty Pins into action plans",
-            "link": "https://techcrunch.com/2026/10/06/pinterests-ai-now-turns-beauty-pins-into-action-plans/",
-            "date": "2026-10-06T14:00:49+00:00",
-            "summary": "Pinterest’s new AI-powered Beauty Guides translate hair and nail Pins into salon terminology, with estimated costs, appointment times, and maintenance needs."
-          },
-          {
-            "title": "Uber is spending $2.3B to get into catering",
-            "link": "https://techcrunch.com/2026/10/06/uber-is-spending-2-3b-to-get-into-catering/",
-            "date": "2026-10-06T14:00:25+00:00",
-            "summary": "It's the latest in a string of deals meant to grow Uber Eats into a food delivery behemoth."
-          },
-          {
-            "title": "Get all your questions answered at TechCrunch Disrupt 2026: The full breakout session agenda revealed",
-            "link": "https://techcrunch.com/2026/10/06/get-all-your-questions-answered-at-techcrunch-disrupt-2026-the-full-breakout-session-agenda-revealed/",
-            "date": "2026-10-06T14:00:00+00:00",
-            "summary": "Get all of your scaling and tech questions answered at TechCrunch Disrupt 2026. Here's the full breakout session agenda, happening October 13-15 in San Francisco. Register now to join and save up to $100, and get a second pass at 50% off."
-          },
-          {
-            "title": "Paramount closes historic Warner Bros. merger to form Skydance",
-            "link": "https://techcrunch.com/2026/10/06/paramount-closes-historic-warner-bros-merger-to-form-skydance/",
-            "date": "2026-10-06T13:57:32+00:00",
-            "summary": "The deal brings together two major streaming platforms, Paramount+ and HBO Max, along with networks including CBS, CNN, MTV, TBS, Comedy Central, and Food Network."
-          },
-          {
-            "title": "Glimpse wants to give hardware companies an X-ray view of every critical part",
-            "link": "https://techcrunch.com/2026/10/06/glimpse-wants-to-give-hardware-companies-an-x-ray-view-of-every-critical-part/",
-            "date": "2026-10-06T13:15:00+00:00",
-            "summary": "Called Explore, Glimpse's new image processing software lets hardware makers speed up quality control checks using CT scanners."
-          },
-          {
-            "title": "Flai’s AI dealership software is booking 50,000 appointments per month",
-            "link": "https://techcrunch.com/2026/10/06/flais-ai-dealership-software-is-booking-50000-appointments-per-month/",
-            "date": "2026-10-06T13:00:00+00:00",
-            "summary": "Flai's revenue has grown 20x in a year, and the company just closed a $27 million Series A funding round."
-          },
-          {
-            "title": "Facebook tests going Reels-first in India",
-            "link": "https://techcrunch.com/2026/10/06/facebook-tests-going-reels-first-in-india/",
-            "date": "2026-10-06T12:38:53+00:00",
-            "summary": "Meta is testing a new Facebook UX in India that sends some users directly into full-screen video when they open the app, putting Reels front and center."
           }
         ]
       },
@@ -2515,8 +2515,38 @@
         "home": "https://techcrunch.com/category/artificial-intelligence/",
         "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
         "status": "ok",
-        "fetchedAt": "2026-10-06T14:48:14.239226+00:00",
+        "fetchedAt": "2026-10-06T20:00:20.415441+00:00",
         "items": [
+          {
+            "title": "The next hurdle for AI agents: getting websites to let them in",
+            "link": "https://techcrunch.com/2026/10/06/the-next-hurdle-for-ai-agents-getting-websites-to-let-them-in/",
+            "date": "2026-10-06T19:56:50+00:00",
+            "summary": "Personal AI agents promise to shop, book flights, and make reservations for you. But deliberate blocks and anti-bot defenses are getting in the way, leaving consumers caught in the middle. A new standard aims to help."
+          },
+          {
+            "title": "Hark releases an AI personal assistant with a focus on privacy",
+            "link": "https://techcrunch.com/2026/10/06/hark-releases-an-ai-personal-assistant-with-a-focus-on-privacy/",
+            "date": "2026-10-06T18:22:45+00:00",
+            "summary": "The AI lab's personal assistant is an operating system from the future designed to compete with Muse, Dots, and Instinct."
+          },
+          {
+            "title": "Mirror Particle is building a ‘world model’ of human behavior",
+            "link": "https://techcrunch.com/2026/10/06/mirror-particle-is-building-a-world-model-of-human-behavior/",
+            "date": "2026-10-06T16:35:00+00:00",
+            "summary": "Mirror Particle will launch at TechCrunch Disrupt's Startup Battlefield 200 with a world model built from scratch to predict human behavior, arguing that LLM role-play falls short for market research and brand strategy."
+          },
+          {
+            "title": "Anthropic is giving startups a free year of Claude Team and $1,000 in credits",
+            "link": "https://techcrunch.com/2026/10/06/anthropic-gives-startups-a-free-year-of-enterprise-service-and-1000-in-token-credits/",
+            "date": "2026-10-06T16:00:00+00:00",
+            "summary": "\"We created this program because we believe the benefits of AI will reach most people through the companies that build on top of models, rather than through the models alone.\""
+          },
+          {
+            "title": "LibreOffice says ‘no AI’ is now a software feature",
+            "link": "https://techcrunch.com/2026/10/06/libreoffice-says-no-ai-is-now-a-software-feature/",
+            "date": "2026-10-06T15:25:00+00:00",
+            "summary": "The maker of the open source document editor says it has no plans to add AI to its software's default configuration, citing user privacy."
+          },
           {
             "title": "Mistral’s new 1T model aims to leapfrog closed and open rivals",
             "link": "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/",
@@ -2546,36 +2576,6 @@
             "link": "https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/",
             "date": "2026-10-05T19:33:53+00:00",
             "summary": "Reflection is aiming Beam and future models at enterprises and sovereign nations. The pitch is to build “AI factories,” a product that would let institutions build their own customized, local AI system by training Reflection’s AI models on their own proprietary data."
-          },
-          {
-            "title": "Instinct brings its AI agent to group chats, even for friends without an account",
-            "link": "https://techcrunch.com/2026/10/05/instinct-brings-its-ai-agent-to-group-chats-even-for-friends-without-an-account/",
-            "date": "2026-10-05T18:54:30+00:00",
-            "summary": "Instinct is launching group chats that let friends use its AI agent together for tasks like planning trips, organizing carpools, and coordinating events. The company says personal accounts remain separate, with permission required before personal agents share information or take action."
-          },
-          {
-            "title": "TikTok rolls out an AI shopping assistant and one-click checkout",
-            "link": "https://techcrunch.com/2026/10/05/tiktok-rolls-out-an-ai-shopping-assistant-and-one-click-checkout/",
-            "date": "2026-10-05T18:29:00+00:00",
-            "summary": "TikTok describes its new Shopping Assistant as a conversational AI agent designed to help users discover and purchase products."
-          },
-          {
-            "title": "Hot Girl Hotline is like ‘Dear Abby’ for the AI era",
-            "link": "https://techcrunch.com/2026/10/05/hot-girl-hotline-is-like-dear-abby-for-the-ai-era/",
-            "date": "2026-10-05T17:29:22+00:00",
-            "summary": "Founded by two sisters, Hot Girl Hotline uses AI to give young women personalized dating and relationship advice, with an emphasis on safety and avoiding emotional dependency."
-          },
-          {
-            "title": "HackerRank’s AI interviewer offers a glimpse into what job interviews could become",
-            "link": "https://techcrunch.com/2026/10/05/hackerranks-ai-interviewer-offers-a-glimpse-into-what-job-interviews-could-become/",
-            "date": "2026-10-05T16:43:35+00:00",
-            "summary": "HackerRank’s AI interviewer has already conducted more than 500,000 interviews, with Snowflake, Snorkel, and Capgemini among its early testers."
-          },
-          {
-            "title": "OpenAI launches visual ads that appear alongside image generation results",
-            "link": "https://techcrunch.com/2026/10/05/openai-launches-visual-ads-that-appear-alongside-image-generation-results/",
-            "date": "2026-10-05T15:14:24+00:00",
-            "summary": "The new ads will begin to appear later this month in the U.S. only for now, and will feature products and services from an initial test group of advertisers."
           }
         ]
       },
@@ -2586,7 +2586,7 @@
         "home": "https://techcrunch.com/tag/funding/",
         "url": "https://techcrunch.com/tag/funding/feed/",
         "status": "ok",
-        "fetchedAt": "2026-10-06T14:48:14.238206+00:00",
+        "fetchedAt": "2026-10-06T20:00:20.453954+00:00",
         "items": [
           {
             "title": "Viral AI startup Instinct has raised $350M at a $2.5B valuation",
@@ -2689,7 +2689,7 @@
         "home": "https://www.bestblogs.dev/",
         "url": "https://www.bestblogs.dev/zh/feeds/rss?category=ai&minScore=90",
         "status": "ok",
-        "fetchedAt": "2026-10-06T14:48:14.820527+00:00",
+        "fetchedAt": "2026-10-06T20:00:20.624916+00:00",
         "items": [
           {
             "title": "推理成为新中心、Agent 把生产级问题提前：AI Infra 的边界正在被重写",
@@ -2757,6 +2757,296 @@
   },
   "allItems": [
     {
+      "title": "The next hurdle for AI agents: getting websites to let them in",
+      "link": "https://techcrunch.com/2026/10/06/the-next-hurdle-for-ai-agents-getting-websites-to-let-them-in/",
+      "date": "2026-10-06T19:56:50+00:00",
+      "summary": "Personal AI agents promise to shop, book flights, and make reservations for you. But deliberate blocks and anti-bot defenses are getting in the way, leaving consumers caught in the middle. A new standard aims to help.",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "The next hurdle for AI agents: getting websites to let them in",
+      "link": "https://techcrunch.com/2026/10/06/the-next-hurdle-for-ai-agents-getting-websites-to-let-them-in/",
+      "date": "2026-10-06T19:56:50+00:00",
+      "summary": "Personal AI agents promise to shop, book flights, and make reservations for you. But deliberate blocks and anti-bot defenses are getting in the way, leaving consumers caught in the middle. A new standard aims to help.",
+      "feedId": "techcrunch-ai",
+      "feedTitle": "TechCrunch AI",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
+    },
+    {
+      "title": "A topological model for provability logic",
+      "link": "https://www.johndcook.com/blog/2026/10/06/godel-lob/",
+      "date": "2026-10-06T19:46:28+00:00",
+      "summary": "Gödel&#8217;s incompleteness theorem illustrated the need to distinguish between what is true and what is provable. There are true statements that cannot be proven. Let □p denote the assertion that p is provable in Peano arithmetic. The logic with this interpretation for the □ operator is the Gödel-",
+      "feedId": "johndcook",
+      "feedTitle": "John D. Cook",
+      "category": "Tech Blogs",
+      "feedHome": "https://www.johndcook.com/"
+    },
+    {
+      "title": "Berthd",
+      "link": "https://berthd.app/",
+      "date": "2026-10-06T19:14:19+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "Using Parseable with Datasette for OpenTelemetry traces",
+      "link": "https://simonwillison.net/2026/Oct/6/datasette-parseable-opentelemetry/",
+      "date": "2026-10-06T19:07:31+00:00",
+      "summary": "TIL: Using Parseable with Datasette for OpenTelemetry traces I saw Parseable in a Show HN today - it's a new observability platform with both an open source (AGPL) Rust implementation (a single ~180MB binary), an \"Enterprise\" version with extra features and a cloud hosted option. Since Datasette 1.0",
+      "feedId": "simonwillison",
+      "feedTitle": "Simon Willison",
+      "category": "AI & LLM",
+      "feedHome": "https://simonwillison.net/"
+    },
+    {
+      "title": "Hark releases an AI personal assistant with a focus on privacy",
+      "link": "https://techcrunch.com/2026/10/06/hark-releases-an-ai-personal-assistant-with-a-focus-on-privacy/",
+      "date": "2026-10-06T18:22:45+00:00",
+      "summary": "The AI lab's personal assistant is an operating system from the future designed to compete with Muse, Dots, and Instinct.",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "Hark releases an AI personal assistant with a focus on privacy",
+      "link": "https://techcrunch.com/2026/10/06/hark-releases-an-ai-personal-assistant-with-a-focus-on-privacy/",
+      "date": "2026-10-06T18:22:45+00:00",
+      "summary": "The AI lab's personal assistant is an operating system from the future designed to compete with Muse, Dots, and Instinct.",
+      "feedId": "techcrunch-ai",
+      "feedTitle": "TechCrunch AI",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
+    },
+    {
+      "title": "Mistral Large 4",
+      "link": "https://simonwillison.net/2026/Oct/6/hn-49982139/",
+      "date": "2026-10-06T18:20:58+00:00",
+      "summary": "My comment on Mistral Large 4 &mdash; Hacker News. wren6991: The benchmark is saturated. Frontier models are tested with an armadillo in fishnet tights jaywalking on Mars. OK well I couldn't resist this one: llm -m claude-opus-5.5 'Generate an SVG of an armadillo in fishnet tights jaywalking on Mars",
+      "feedId": "simonwillison",
+      "feedTitle": "Simon Willison",
+      "category": "AI & LLM",
+      "feedHome": "https://simonwillison.net/"
+    },
+    {
+      "title": "Unofficial Command-Line Tool Removes Apple Intelligence From MacOS 27",
+      "link": "https://arstechnica.com/apple/2026/10/command-line-tool-quickly-removes-apple-intelligence-from-macos-27/",
+      "date": "2026-10-06T18:17:44+00:00",
+      "summary": "Scharon Harding, Ars Technica: Unlike with previous versions of macOS, macOS 27 Golden Gate doesn’t have a toggle for turning off Apple Intelligence. That makes disabling AI features that you may not want more difficult. It also means that the AI models necessary for running Apple Intelligence will ",
+      "feedId": "daringfireball",
+      "feedTitle": "Daring Fireball",
+      "category": "Tech Blogs",
+      "feedHome": "https://daringfireball.net/"
+    },
+    {
+      "title": "Steve Jobs, Walking Through a Mockup for Apple Park in 2010",
+      "link": "https://book.stevejobsarchive.com/#photo-37",
+      "date": "2026-10-06T17:23:34+00:00",
+      "summary": "What an apt photo, today of all days. What a gift Make Something Wonderful is. &nbsp;★&nbsp;",
+      "feedId": "daringfireball",
+      "feedTitle": "Daring Fireball",
+      "category": "Tech Blogs",
+      "feedHome": "https://daringfireball.net/"
+    },
+    {
+      "title": "India’s JioHotstar takes partnership route for Middle East expansion",
+      "link": "https://techcrunch.com/2026/10/06/indias-jiohotstar-takes-partnership-route-for-middle-east-expansion/",
+      "date": "2026-10-06T17:14:07+00:00",
+      "summary": "JioHotstar will be offered inside Starzplay rather than through a stand-alone service.",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "Mirror Particle is building a ‘world model’ of human behavior",
+      "link": "https://techcrunch.com/2026/10/06/mirror-particle-is-building-a-world-model-of-human-behavior/",
+      "date": "2026-10-06T16:35:00+00:00",
+      "summary": "Mirror Particle will launch at TechCrunch Disrupt's Startup Battlefield 200 with a world model built from scratch to predict human behavior, arguing that LLM role-play falls short for market research and brand strategy.",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "Mirror Particle is building a ‘world model’ of human behavior",
+      "link": "https://techcrunch.com/2026/10/06/mirror-particle-is-building-a-world-model-of-human-behavior/",
+      "date": "2026-10-06T16:35:00+00:00",
+      "summary": "Mirror Particle will launch at TechCrunch Disrupt's Startup Battlefield 200 with a world model built from scratch to predict human behavior, arguing that LLM role-play falls short for market research and brand strategy.",
+      "feedId": "techcrunch-ai",
+      "feedTitle": "TechCrunch AI",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
+    },
+    {
+      "title": "Furientis lands $25M from Benchmark to mass-produce low-cost missile interceptors",
+      "link": "https://techcrunch.com/2026/10/06/furientis-lands-25m-from-benchmark-to-mass-produce-low-cost-missile-interceptors/",
+      "date": "2026-10-06T16:29:12+00:00",
+      "summary": "The storied Silicon Valley firm makes its first pure defense investment.",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "Learn all about scaling, fundraising, founder how-tos, and more at TechCrunch Founder Summit, November 4",
+      "link": "https://techcrunch.com/2026/10/06/learn-all-about-scaling-fundraising-founder-how-tos-and-more-at-techcrunch-founder-summit-november-4/",
+      "date": "2026-10-06T16:18:45+00:00",
+      "summary": "There isn’t a single manual to read or prompt to give an LLM that can equip you with the skills and knowledge to build a company. But on November 4, TechCrunch Founder Summit gives founders the next-best thing: A packed day at Boston's SoWa Power Station, where investors and operators share how they",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
+      "link": "https://openai.com/index/atlassian-partnership",
+      "date": "2026-10-06T16:00:00+00:00",
+      "summary": "Atlassian and OpenAI are expanding their partnership to connect frontier models with enterprise knowledge and help teams plan, build, and deliver work.",
+      "feedId": "openai",
+      "feedTitle": "OpenAI News",
+      "category": "AI & LLM",
+      "feedHome": "https://openai.com/news/"
+    },
+    {
+      "title": "Anthropic is giving startups a free year of Claude Team and $1,000 in credits",
+      "link": "https://techcrunch.com/2026/10/06/anthropic-gives-startups-a-free-year-of-enterprise-service-and-1000-in-token-credits/",
+      "date": "2026-10-06T16:00:00+00:00",
+      "summary": "\"We created this program because we believe the benefits of AI will reach most people through the companies that build on top of models, rather than through the models alone.\"",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "Anthropic is giving startups a free year of Claude Team and $1,000 in credits",
+      "link": "https://techcrunch.com/2026/10/06/anthropic-gives-startups-a-free-year-of-enterprise-service-and-1000-in-token-credits/",
+      "date": "2026-10-06T16:00:00+00:00",
+      "summary": "\"We created this program because we believe the benefits of AI will reach most people through the companies that build on top of models, rather than through the models alone.\"",
+      "feedId": "techcrunch-ai",
+      "feedTitle": "TechCrunch AI",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
+    },
+    {
+      "title": "Mistral launches a preview of Mistral Large 4, or Le Chonk, a 1T model it claims tops any open model developed in the US or Europe; weights are due October 27 (Carl Franzen/VentureBeat)",
+      "link": "https://www.techmeme.com/261006/p34#a261006p34",
+      "date": "2026-10-06T15:45:01-04:00",
+      "summary": "Carl Franzen / VentureBeat: Mistral launches a preview of Mistral Large 4, or Le Chonk, a 1T model it claims tops any open model developed in the US or Europe; weights are due October 27&nbsp; &mdash;&nbsp; Mistral is launching a public preview of Mistral Large 4, a one-trillion-parameter multimodal",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
+      "title": "Sources: Waymo increased the size of its inaugural debt raise from $3B+ to $5B, as it grapples with rising AI costs and rapidly expands its robotaxi fleet (Bloomberg)",
+      "link": "https://www.techmeme.com/261006/p35#a261006p35",
+      "date": "2026-10-06T15:45:01-04:00",
+      "summary": "Bloomberg: Sources: Waymo increased the size of its inaugural debt raise from $3B+ to $5B, as it grapples with rising AI costs and rapidly expands its robotaxi fleet&nbsp; &mdash;&nbsp; Waymo increased the size of its inaugural debt raise to $5 billion, tapping lenders to help fuel the robotaxi comp",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
+      "title": "Anthropic integrates its Cyber Verification Program and Project Glasswing into a new, expanded version of CVP, with three tiers and access to its latest models (Anthropic)",
+      "link": "https://www.techmeme.com/261006/p33#a261006p33",
+      "date": "2026-10-06T15:35:03-04:00",
+      "summary": "Anthropic: Anthropic integrates its Cyber Verification Program and Project Glasswing into a new, expanded version of CVP, with three tiers and access to its latest models&nbsp; &mdash;&nbsp; We're launching a new, expanded version of our Cyber Verification Program (CVP), which makes advanced cyber c",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
+      "title": "LibreOffice says ‘no AI’ is now a software feature",
+      "link": "https://techcrunch.com/2026/10/06/libreoffice-says-no-ai-is-now-a-software-feature/",
+      "date": "2026-10-06T15:25:00+00:00",
+      "summary": "The maker of the open source document editor says it has no plans to add AI to its software's default configuration, citing user privacy.",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "LibreOffice says ‘no AI’ is now a software feature",
+      "link": "https://techcrunch.com/2026/10/06/libreoffice-says-no-ai-is-now-a-software-feature/",
+      "date": "2026-10-06T15:25:00+00:00",
+      "summary": "The maker of the open source document editor says it has no plans to add AI to its software's default configuration, citing user privacy.",
+      "feedId": "techcrunch-ai",
+      "feedTitle": "TechCrunch AI",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
+    },
+    {
+      "title": "The Early History of Smalltalk (1993)",
+      "link": "https://worrydream.com/EarlyHistoryOfSmalltalk/",
+      "date": "2026-10-06T15:19:57+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "Scrimshaw Jukebox",
+      "link": "https://simonwillison.net/2026/Oct/6/scrimshaw-jukebox/",
+      "date": "2026-10-06T15:17:39+00:00",
+      "summary": "Tool: Scrimshaw Jukebox I wanted to see if Claude Opus 5.5 could compose music, so I tried this: I want you to write some computer game music for me. First design simple text based format for the music and build an artifact that can play it out loud - include some example tracks in that artifact I a",
+      "feedId": "simonwillison",
+      "feedTitle": "Simon Willison",
+      "category": "AI & LLM",
+      "feedHome": "https://simonwillison.net/"
+    },
+    {
+      "title": "Vinod Khosla believes ex-DeepMind engineer’s Wajo will win agent market on trust",
+      "link": "https://techcrunch.com/2026/10/06/vinod-khosla-believes-ex-deepmind-engineers-wajo-will-win-agent-market-on-trust/",
+      "date": "2026-10-06T15:15:00+00:00",
+      "summary": "Wajo's Fo agent can hire humans to complete a task.",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "Unlocking Earth AI’s planetary geospatial foundation models for global public health",
+      "link": "https://research.google/blog/earth-ais-planetary-geospatial-foundation-models-for-global-public-health/",
+      "date": "2026-10-06T15:05:11+00:00",
+      "summary": "Earth AI",
+      "feedId": "google-research",
+      "feedTitle": "Google Research Blog",
+      "category": "AI & LLM",
+      "feedHome": "https://research.google/blog/"
+    },
+    {
+      "title": "Mistral says ML4 was trained using 3,800 Nvidia Grace Blackwell GPUs in its own data centers in Europe and much of its training data was multilingual (Mistral Blog)",
+      "link": "https://www.techmeme.com/261006/p32#a261006p32",
+      "date": "2026-10-06T15:00:52-04:00",
+      "summary": "Mistral Blog: Mistral says ML4 was trained using 3,800 Nvidia Grace Blackwell GPUs in its own data centers in Europe and much of its training data was multilingual&nbsp; &mdash;&nbsp; Le Chonk&nbsp; &mdash;&nbsp; Today, we're launching a public preview of Mistral Large 4.&nbsp; Unofficially ML4, ver",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
+      "title": "Meta, Walmart, Stripe, and others publish the Personal Agent Protocol to standardize and secure interactions between AI bots and businesses (Kate Rooney/CNBC)",
+      "link": "https://www.techmeme.com/261006/p31#a261006p31",
+      "date": "2026-10-06T14:55:00-04:00",
+      "summary": "Kate Rooney / CNBC: Meta, Walmart, Stripe, and others publish the Personal Agent Protocol to standardize and secure interactions between AI bots and businesses&nbsp; &mdash;&nbsp; A month after Meta's launch of Muse, the personal agent that quickly turned into a viral sensation, a group of companies",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
       "title": "Bluesky wants to give you your own domain on the open web",
       "link": "https://techcrunch.com/2026/10/06/bluesky-wants-to-give-you-your-own-domain-on-the-open-web/",
       "date": "2026-10-06T14:41:52+00:00",
@@ -2767,26 +3057,6 @@
       "feedHome": "https://techcrunch.com/"
     },
     {
-      "title": "Emmys will move from broadcast TV to Prime Video in 2027",
-      "link": "https://techcrunch.com/2026/10/06/emmys-will-move-from-broadcast-tv-to-prime-video-in-2027/",
-      "date": "2026-10-06T14:37:31+00:00",
-      "summary": "Non-Amazon Prime subscribers will be able to watch the awards show on the platform.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
-    },
-    {
-      "title": "Mistral’s new 1T model aims to leapfrog closed and open rivals",
-      "link": "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/",
-      "date": "2026-10-06T14:33:16+00:00",
-      "summary": "French AI lab Mistral AI has released Mistral Large 4, a new large multimodal model aiming to leapfrog both American and Chinese rivals.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
-    },
-    {
       "title": "Mistral’s new 1T model aims to leapfrog closed and open rivals",
       "link": "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/",
       "date": "2026-10-06T14:33:16+00:00",
@@ -2797,14 +3067,14 @@
       "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
     },
     {
-      "title": "Pinterest’s AI now turns beauty Pins into action plans",
-      "link": "https://techcrunch.com/2026/10/06/pinterests-ai-now-turns-beauty-pins-into-action-plans/",
-      "date": "2026-10-06T14:00:49+00:00",
-      "summary": "Pinterest’s new AI-powered Beauty Guides translate hair and nail Pins into salon terminology, with estimated costs, appointment times, and maintenance needs.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
+      "title": "Flai, which makes AI tools for car dealerships to manage phone calls, emails, and texts, raised a $27M Series A led by Base10 Partners (Sean O'Kane/TechCrunch)",
+      "link": "https://www.techmeme.com/261006/p30#a261006p30",
+      "date": "2026-10-06T14:05:00-04:00",
+      "summary": "Sean O'Kane / TechCrunch: Flai, which makes AI tools for car dealerships to manage phone calls, emails, and texts, raised a $27M Series A led by Base10 Partners&nbsp; &mdash;&nbsp; When Flai was raising its seed round last year, it was just a team of three people pounding the pavement to get car dea",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
       "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
+      "feedHome": "https://www.techmeme.com/"
     },
     {
       "title": "Pinterest’s AI now turns beauty Pins into action plans",
@@ -2817,26 +3087,6 @@
       "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
     },
     {
-      "title": "Uber is spending $2.3B to get into catering",
-      "link": "https://techcrunch.com/2026/10/06/uber-is-spending-2-3b-to-get-into-catering/",
-      "date": "2026-10-06T14:00:25+00:00",
-      "summary": "It's the latest in a string of deals meant to grow Uber Eats into a food delivery behemoth.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
-    },
-    {
-      "title": "Get all your questions answered at TechCrunch Disrupt 2026: The full breakout session agenda revealed",
-      "link": "https://techcrunch.com/2026/10/06/get-all-your-questions-answered-at-techcrunch-disrupt-2026-the-full-breakout-session-agenda-revealed/",
-      "date": "2026-10-06T14:00:00+00:00",
-      "summary": "Get all of your scaling and tech questions answered at TechCrunch Disrupt 2026. Here's the full breakout session agenda, happening October 13-15 in San Francisco. Register now to join and save up to $100, and get a second pass at 50% off.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
-    },
-    {
       "title": "Get all your questions answered at TechCrunch Disrupt 2026: The full breakout session agenda revealed",
       "link": "https://techcrunch.com/2026/10/06/get-all-your-questions-answered-at-techcrunch-disrupt-2026-the-full-breakout-session-agenda-revealed/",
       "date": "2026-10-06T14:00:00+00:00",
@@ -2847,14 +3097,14 @@
       "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
     },
     {
-      "title": "Paramount closes historic Warner Bros. merger to form Skydance",
-      "link": "https://techcrunch.com/2026/10/06/paramount-closes-historic-warner-bros-merger-to-form-skydance/",
-      "date": "2026-10-06T13:57:32+00:00",
-      "summary": "The deal brings together two major streaming platforms, Paramount+ and HBO Max, along with networks including CBS, CNN, MTV, TBS, Comedy Central, and Food Network.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
+      "title": "Show HN: I turned my iPhone and a $20 smart plug into an f-stop timer",
+      "link": "https://peterszentkiralyi.eu/darkplug/",
+      "date": "2026-10-06T13:58:07+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
       "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
+      "feedHome": "https://news.ycombinator.com/"
     },
     {
       "title": "Tapo (Rust/Python library) now speaks TP-Link's TPAP protocol",
@@ -2867,28 +3117,8 @@
       "feedHome": "https://news.ycombinator.com/"
     },
     {
-      "title": "Show HN: Parseable, an open observability datalake, handles 100M time-series/min",
-      "link": "https://www.parseable.com",
-      "date": "2026-10-06T13:30:50+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
-      "title": "Mistral Large 4: \"Le Chonk\"",
-      "link": "https://mistral.ai/news/mistral-large-4/",
-      "date": "2026-10-06T13:25:50+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
       "title": "Mistral Large 4",
-      "link": "https://docs.mistral.ai/models/mistral-large-4-0",
+      "link": "https://mistral.ai/news/mistral-large-4/\\",
       "date": "2026-10-06T13:15:49+00:00",
       "summary": "Comments",
       "feedId": "hackernews",
@@ -2897,14 +3127,14 @@
       "feedHome": "https://news.ycombinator.com/"
     },
     {
-      "title": "Glimpse wants to give hardware companies an X-ray view of every critical part",
-      "link": "https://techcrunch.com/2026/10/06/glimpse-wants-to-give-hardware-companies-an-x-ray-view-of-every-critical-part/",
-      "date": "2026-10-06T13:15:00+00:00",
-      "summary": "Called Explore, Glimpse's new image processing software lets hardware makers speed up quality control checks using CT scanners.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
+      "title": "Sources: AI neocloud Lambda is raising up to $4B led by Blackstone and Coatue at a pre-money valuation of $14.5B in a final round before its planned IPO (Robbie Whelan/Wall Street Journal)",
+      "link": "https://www.techmeme.com/261006/p29#a261006p29",
+      "date": "2026-10-06T13:10:01-04:00",
+      "summary": "Robbie Whelan / Wall Street Journal: Sources: AI neocloud Lambda is raising up to $4B led by Blackstone and Coatue at a pre-money valuation of $14.5B in a final round before its planned IPO&nbsp; &mdash;&nbsp; Blackstone and Coatue are leading the round, which values the cloud-computing startup at $",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
       "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
+      "feedHome": "https://www.techmeme.com/"
     },
     {
       "title": "Mathematics of Geothermal Energy",
@@ -2917,16 +3147,6 @@
       "feedHome": "https://news.ycombinator.com/"
     },
     {
-      "title": "Flai’s AI dealership software is booking 50,000 appointments per month",
-      "link": "https://techcrunch.com/2026/10/06/flais-ai-dealership-software-is-booking-50000-appointments-per-month/",
-      "date": "2026-10-06T13:00:00+00:00",
-      "summary": "Flai's revenue has grown 20x in a year, and the company just closed a $27 million Series A funding round.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
-    },
-    {
       "title": "Pluralistic: Swapping money for expertise (06 Oct 2026)",
       "link": "https://pluralistic.net/2026/10/06/nonfungible/",
       "date": "2026-10-06T12:58:26+00:00",
@@ -2937,9 +3157,29 @@
       "feedHome": "https://pluralistic.net/"
     },
     {
-      "title": "Meta's Muse Is an Adorable Privacy and Security Dumpster Fire",
-      "link": "https://www.techdirt.com/2026/10/06/metas-muse-is-an-adorable-privacy-and-security-dumpster-fire/",
-      "date": "2026-10-06T12:45:49+00:00",
+      "title": "A look at consumer AI trends: ChatGPT has 3x more US subscribers than Claude or Gemini, the top 1% of spenders drive 19.5% of spend, and AI agents gain traction (Olivia Moore/Andreessen Horowitz)",
+      "link": "https://www.techmeme.com/261006/p28#a261006p28",
+      "date": "2026-10-06T12:50:00-04:00",
+      "summary": "Olivia Moore / Andreessen Horowitz: A look at consumer AI trends: ChatGPT has 3x more US subscribers than Claude or Gemini, the top 1% of spenders drive 19.5% of spend, and AI agents gain traction&nbsp; &mdash;&nbsp; Three years into tracking consumer AI, the leaderboard is becoming familiar.&nbsp; ",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
+      "title": "Navra, founded by SoFi and Figure co-founder Mike Cagney to make on-chain lending and securities markets more accessible, raised a $19M Series A led by Ribbit (Ryan Lawler/Axios)",
+      "link": "https://www.techmeme.com/261006/p27#a261006p27",
+      "date": "2026-10-06T12:35:01-04:00",
+      "summary": "Ryan Lawler / Axios: Navra, founded by SoFi and Figure co-founder Mike Cagney to make on-chain lending and securities markets more accessible, raised a $19M Series A led by Ribbit&nbsp; &mdash;&nbsp; Navra, the newest startup from SoFi and Figure co-founder Mike Cagney, has raised $19 million in Ser",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
+      "title": "Subquadratic 3SUM and Subcubic APSP",
+      "link": "https://arxiv.org/abs/2610.06783",
+      "date": "2026-10-06T12:31:17+00:00",
       "summary": "Comments",
       "feedId": "hackernews",
       "feedTitle": "Hacker News",
@@ -2947,34 +3187,14 @@
       "feedHome": "https://news.ycombinator.com/"
     },
     {
-      "title": "Facebook tests going Reels-first in India",
-      "link": "https://techcrunch.com/2026/10/06/facebook-tests-going-reels-first-in-india/",
-      "date": "2026-10-06T12:38:53+00:00",
-      "summary": "Meta is testing a new Facebook UX in India that sends some users directly into full-screen video when they open the app, putting Reels front and center.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
+      "title": "Anthropic expands its Claude Startups program with $45K in discounts and credits via the Claude Startup Stack, a $1,000 API credit, and a year of Claude Team (Ashley Capoot/CNBC)",
+      "link": "https://www.techmeme.com/261006/p26#a261006p26",
+      "date": "2026-10-06T12:30:02-04:00",
+      "summary": "Ashley Capoot / CNBC: Anthropic expands its Claude Startups program with $45K in discounts and credits via the Claude Startup Stack, a $1,000 API credit, and a year of Claude Team&nbsp; &mdash;&nbsp; Anthropic on Tuesday announced it's expanding its Claude Startups program, the artificial intelligen",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
       "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
-    },
-    {
-      "title": "Release of Polars 2.0",
-      "link": "https://pola.rs/posts/release-polars-2/",
-      "date": "2026-10-06T11:59:01+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
-      "title": "JetBrains reported a net financial loss first time in its tracked history",
-      "link": "https://www.helgilibrary.com/companies/jetbrains",
-      "date": "2026-10-06T11:45:55+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
+      "feedHome": "https://www.techmeme.com/"
     },
     {
       "title": "Una Watch - SDK and Writing Your First App",
@@ -2987,17 +3207,17 @@
       "feedHome": "https://shkspr.mobi/blog/"
     },
     {
-      "title": "Anduril lands an up to $2.9B US Navy contract to make Virginia-class submarine components, days after Palmer Luckey was named to a DOD future weapons task force (Samantha Subin/CNBC)",
-      "link": "https://www.techmeme.com/261006/p23#a261006p23",
-      "date": "2026-10-06T10:30:01-04:00",
-      "summary": "Samantha Subin / CNBC: Anduril lands an up to $2.9B US Navy contract to make Virginia-class submarine components, days after Palmer Luckey was named to a DOD future weapons task force&nbsp; &mdash;&nbsp; Anduril won an up to $2.9 billion contract with the U.S. Navy on Tuesday to boost submarine prod",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
+      "title": "Advancing computer use with Ironclad",
+      "link": "https://openai.com/index/advancing-computer-use-with-ironclad",
+      "date": "2026-10-06T10:00:00+00:00",
+      "summary": "Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work.",
+      "feedId": "openai",
+      "feedTitle": "OpenAI News",
+      "category": "AI & LLM",
+      "feedHome": "https://openai.com/news/"
     },
     {
-      "title": "Nobel Prize in Physics goes to Francis Halzen",
+      "title": "Nobel Prize in Physics 2026: Francis Halzen",
       "link": "https://www.nobelprize.org/prizes/physics/2026/",
       "date": "2026-10-06T09:48:46+00:00",
       "summary": "Comments",
@@ -3007,110 +3227,20 @@
       "feedHome": "https://news.ycombinator.com/"
     },
     {
-      "title": "Mistral releases Mistral Large 4, dubbed \"le Chonk\", a 1T-parameter open-weight model for general agentic capabilities, trained on 4,000 Grace Blackwell GPUs (Sabrina Ortiz/The Deep View)",
-      "link": "https://www.techmeme.com/261006/p22#a261006p22",
-      "date": "2026-10-06T09:08:33-04:00",
-      "summary": "Sabrina Ortiz / The Deep View: Mistral releases Mistral Large 4, dubbed &ldquo;le Chonk&rdquo;, a 1T-parameter open-weight model for general agentic capabilities, trained on 4,000 Grace Blackwell GPUs&nbsp; &mdash;&nbsp; Most flagship models dominating the market are from frontier labs and are close",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
+      "title": "Gleam doesn't compile to Erlang source anymore",
+      "link": "https://gleam.run/news/gleam-doesnt-compile-to-erlang-source-anymore/",
+      "date": "2026-10-06T08:08:20+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
       "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "Uber agrees to acquire Boston-based catering platform ezCater for $2.3B in cash to help Uber Eats reach corporate clients; the deal is set to close in months (Natalie Lung/Bloomberg)",
-      "link": "https://www.techmeme.com/261006/p21#a261006p21",
-      "date": "2026-10-06T09:00:57-04:00",
-      "summary": "Natalie Lung / Bloomberg: Uber agrees to acquire Boston-based catering platform ezCater for $2.3B in cash to help Uber Eats reach corporate clients; the deal is set to close in months&nbsp; &mdash;&nbsp; Uber Technologies Inc. is buying catering firm ezCater Inc. for $2.3 billion in a cash deal that",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "UK retailer Asos' stock falls 10%+ after users got app notifications saying \"we have fully compromised the Snowflake instance\"; source: Asos is investigating (Financial Times)",
-      "link": "https://www.techmeme.com/261006/p20#a261006p20",
-      "date": "2026-10-06T08:50:01-04:00",
-      "summary": "Financial Times: UK retailer Asos' stock falls 10%+ after users got app notifications saying &ldquo;we have fully compromised the Snowflake instance&rdquo;; source: Asos is investigating&nbsp; &mdash;&nbsp; Shares in FTSE 250 retailer fall more than 10% following reports from mobile users&nbsp; &mda",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "Anthropic's IPO prospectus: Dario Amodei earned $18M in 2025, middle of the pack for tech CEOs, and President Daniela Amodei, his sister, earned $16.4M (Reuters)",
-      "link": "https://www.techmeme.com/261006/p19#a261006p19",
-      "date": "2026-10-06T08:05:01-04:00",
-      "summary": "Reuters: Anthropic's IPO prospectus: Dario Amodei earned $18M in 2025, middle of the pack for tech CEOs, and President Daniela Amodei, his sister, earned $16.4M&nbsp; &mdash;&nbsp; Dario Amodei made $18 million last year as CEO of Claude AI developer Anthropic, the company's IPO filing shows, puttin",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "Study: China is struggling to attract foreign AI talent; for every 30 Chinese AI researchers in the US in 2025, only one in China made the opposite journey (Zeyi Yang/New York Times)",
-      "link": "https://www.techmeme.com/261006/p18#a261006p18",
-      "date": "2026-10-06T07:55:07-04:00",
-      "summary": "Zeyi Yang / New York Times: Study: China is struggling to attract foreign AI talent; for every 30 Chinese AI researchers in the US in 2025, only one in China made the opposite journey&nbsp; &mdash;&nbsp; China's booming artificial intelligence sector has given local researchers good reason to remain",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "Google contracts for 3,590 MW of power from Constellation Energy in the US' largest power grid, with new nuclear energy accounting for ~25% of that supply (Laila Kearney/Reuters)",
-      "link": "https://www.techmeme.com/261006/p17#a261006p17",
-      "date": "2026-10-06T07:41:02-04:00",
-      "summary": "Laila Kearney / Reuters: Google contracts for 3,590 MW of power from Constellation Energy in the US' largest power grid, with new nuclear energy accounting for ~25% of that supply&nbsp; &mdash;&nbsp; Google (GOOGL.O) has contracted for 3,590 megawatts of power from Constellation Energy (CEG.O) in th",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "Source: Palmer Luckey's Erebor hits $7B+ in deposits since launching in February, including $3B+ over the past quarter with 500+ new customers (Financial Times)",
-      "link": "https://www.techmeme.com/261006/p16#a261006p16",
-      "date": "2026-10-06T07:35:01-04:00",
-      "summary": "Financial Times: Source: Palmer Luckey's Erebor hits $7B+ in deposits since launching in February, including $3B+ over the past quarter with 500+ new customers&nbsp; &mdash;&nbsp; Palmer Luckey's bank for the technology industry has surged to more than $7bn in deposits since launching in February, a",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "Sources: the FBI removes an Accenture contractor over a breach exposing thousands of employees' data; the FBI says a contractor failed to apply a security patch (Reuters)",
-      "link": "https://www.techmeme.com/261006/p15#a261006p15",
-      "date": "2026-10-06T07:20:01-04:00",
-      "summary": "Reuters: Sources: the FBI removes an Accenture contractor over a breach exposing thousands of employees' data; the FBI says a contractor failed to apply a security patch&nbsp; &mdash;&nbsp; The Federal Bureau of Investigation removed an Accenture contractor on Monday over their role in a damaging da",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "Hadrian, an agentic AI offensive security service, raised $40M co-led by Forgepoint Capital International and SmartFin, taking its total funding to $65M (Tamara Djurickovic/Tech.eu)",
-      "link": "https://www.techmeme.com/261006/p14#a261006p14",
-      "date": "2026-10-06T07:10:01-04:00",
-      "summary": "Tamara Djurickovic / Tech.eu: Hadrian, an agentic AI offensive security service, raised $40M co-led by Forgepoint Capital International and SmartFin, taking its total funding to $65M&nbsp; &mdash;&nbsp; Hadrian will use the funding to expand across EMEA and the US while growing its engineering and r",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
+      "feedHome": "https://news.ycombinator.com/"
     },
     {
       "title": "OpenAI Announces Their Text Watermarking Plans",
       "link": "https://openai.com/index/eu-text-provenance/",
       "date": "2026-10-06T03:16:09+00:00",
       "summary": "OpenAI, today: The EU AI Act requires generative AI providers to make generated text identifiable in a machine-readable way. Text watermarking and detection remain early technologies with significant limitations, and views about their benefits and responsible uses are still developing. Our phased ap",
-      "feedId": "daringfireball",
-      "feedTitle": "Daring Fireball",
-      "category": "Tech Blogs",
-      "feedHome": "https://daringfireball.net/"
-    },
-    {
-      "title": "Steve Jobs, Walking Through a Mockup for Apple Park in 2010",
-      "link": "https://book.stevejobsarchive.com/#photo-37",
-      "date": "2026-10-06T02:54:41+00:00",
-      "summary": "What an apt photo, today of all days. What a gift Make Something Wonderful is. &nbsp;★&nbsp;",
       "feedId": "daringfireball",
       "feedTitle": "Daring Fireball",
       "category": "Tech Blogs",
@@ -3149,8 +3279,8 @@
     {
       "title": "Open and Emergent Problems in Agentic Privacy and Security: A Contextual Angle",
       "link": "https://research.google/blog/open-and-emergent-problems-in-agentic-privacy-and-security-a-contextual-angle/",
-      "date": "2026-10-05T21:08:31+00:00",
-      "summary": "Education Innovation",
+      "date": "2026-10-05T21:08:00+00:00",
+      "summary": "Generative AI",
       "feedId": "google-research",
       "feedTitle": "Google Research Blog",
       "category": "AI & LLM",
@@ -3197,36 +3327,6 @@
       "feedHome": "https://pluralistic.net/"
     },
     {
-      "title": "Instinct brings its AI agent to group chats, even for friends without an account",
-      "link": "https://techcrunch.com/2026/10/05/instinct-brings-its-ai-agent-to-group-chats-even-for-friends-without-an-account/",
-      "date": "2026-10-05T18:54:30+00:00",
-      "summary": "Instinct is launching group chats that let friends use its AI agent together for tasks like planning trips, organizing carpools, and coordinating events. The company says personal accounts remain separate, with permission required before personal agents share information or take action.",
-      "feedId": "techcrunch-ai",
-      "feedTitle": "TechCrunch AI",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
-    },
-    {
-      "title": "TikTok rolls out an AI shopping assistant and one-click checkout",
-      "link": "https://techcrunch.com/2026/10/05/tiktok-rolls-out-an-ai-shopping-assistant-and-one-click-checkout/",
-      "date": "2026-10-05T18:29:00+00:00",
-      "summary": "TikTok describes its new Shopping Assistant as a conversational AI agent designed to help users discover and purchase products.",
-      "feedId": "techcrunch-ai",
-      "feedTitle": "TechCrunch AI",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
-    },
-    {
-      "title": "Hot Girl Hotline is like ‘Dear Abby’ for the AI era",
-      "link": "https://techcrunch.com/2026/10/05/hot-girl-hotline-is-like-dear-abby-for-the-ai-era/",
-      "date": "2026-10-05T17:29:22+00:00",
-      "summary": "Founded by two sisters, Hot Girl Hotline uses AI to give young women personalized dating and relationship advice, with an emphasis on safety and avoiding emotional dependency.",
-      "feedId": "techcrunch-ai",
-      "feedTitle": "TechCrunch AI",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
-    },
-    {
       "title": "Benchmark in Milliseconds",
       "link": "https://matklad.github.io/2026/10/05/benchmark-milliseconds.html",
       "date": "2026-10-05T17:00:10+00:00",
@@ -3235,26 +3335,6 @@
       "feedTitle": "Hacker News",
       "category": "Startup & News",
       "feedHome": "https://news.ycombinator.com/"
-    },
-    {
-      "title": "HackerRank’s AI interviewer offers a glimpse into what job interviews could become",
-      "link": "https://techcrunch.com/2026/10/05/hackerranks-ai-interviewer-offers-a-glimpse-into-what-job-interviews-could-become/",
-      "date": "2026-10-05T16:43:35+00:00",
-      "summary": "HackerRank’s AI interviewer has already conducted more than 500,000 interviews, with Snowflake, Snorkel, and Capgemini among its early testers.",
-      "feedId": "techcrunch-ai",
-      "feedTitle": "TechCrunch AI",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
-    },
-    {
-      "title": "OpenAI launches visual ads that appear alongside image generation results",
-      "link": "https://techcrunch.com/2026/10/05/openai-launches-visual-ads-that-appear-alongside-image-generation-results/",
-      "date": "2026-10-05T15:14:24+00:00",
-      "summary": "The new ads will begin to appear later this month in the U.S. only for now, and will feature products and services from an initial test group of advertisers.",
-      "feedId": "techcrunch-ai",
-      "feedTitle": "TechCrunch AI",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
     },
     {
       "title": "Our approach to EU text provenance rules",
@@ -3647,26 +3727,6 @@
       "feedHome": "https://openai.com/news/"
     },
     {
-      "title": "Gurman Reports Apple Is Launching New ‘Smart Home’ Products on October 13",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-30/apple-is-finally-ready-to-enter-its-next-big-category-the-smart-home?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc5MDc3MDk0MywiZXhwIjoxNzkxMzc1NzQzLCJhcnRpY2xlSWQiOiJUTTM0SDRUOTZPU0cwMCIsImJjb25uZWN0SWQiOiJDNEVEQ0FFMUZBMDU0MEJFQTI0QTlGMjExQzFFOTA4MCJ9.11wEtJfuMwCkznTkepXugZ2wuZTmxO9CdsNJLAcBd1M",
-      "date": "2026-09-30T23:14:52+00:00",
-      "summary": "Mark Gurman, reporting for Bloomberg (gift link): Apple Inc. plans to make its long-delayed push into the smart-home market on Oct. 13, marking a critical product expansion for the company under new Chief Executive Officer John Ternus. At the center of the strategy is a smart-home hub code-named J49",
-      "feedId": "daringfireball",
-      "feedTitle": "Daring Fireball",
-      "category": "Tech Blogs",
-      "feedHome": "https://daringfireball.net/"
-    },
-    {
-      "title": "He Built This City",
-      "link": "https://simonwillison.net/2026/Sep/30/he-built-this-city/",
-      "date": "2026-09-30T21:54:19+00:00",
-      "summary": "I visited the Museum of the City of New York today and got to see He Built This City: Joe Macken’s Model, the 50 x27 feet model of the city built over a 21 year period from balsa wood and cardboard. It exceeded my already high expectations. The exhibition closes on 12th October so you should absolut",
-      "feedId": "simonwillison",
-      "feedTitle": "Simon Willison",
-      "category": "AI & LLM",
-      "feedHome": "https://simonwillison.net/"
-    },
-    {
       "title": "[Sponsor] WorkOS: How SSO Works and the Fastest Way to Add It",
       "link": "https://workos.com/guide/the-developers-guide-to-sso?utm_source=daringfireball&utm_medium=newsletter&utm_campaign=q32026",
       "date": "2026-09-30T20:17:33+00:00",
@@ -3737,26 +3797,6 @@
       "feedHome": "https://openai.com/news/"
     },
     {
-      "title": "Helping small businesses put AI to work",
-      "link": "https://openai.com/index/helping-small-businesses-put-ai-to-work",
-      "date": "2026-09-30T10:00:00+00:00",
-      "summary": "OpenAI is partnering with America’s SBDC to expand hands-on AI training and local support for small businesses, alongside a new report on how small teams are using AI.",
-      "feedId": "openai",
-      "feedTitle": "OpenAI News",
-      "category": "AI & LLM",
-      "feedHome": "https://openai.com/news/"
-    },
-    {
-      "title": "Quoting Anthropic Frontier Red Team",
-      "link": "https://simonwillison.net/2026/Sep/29/anthropic-frontier-red-team/",
-      "date": "2026-09-29T22:20:28+00:00",
-      "summary": "We evaluate several models on 100 tasks from the [internal Binary Exploitation benchmark] (selected at random), and find that GLM-5.3 develops full control flow hijacks in 4% of the trials; Claude Mythos Preview did so in 6%. Although GLM-5.3 performs below Claude Mythos Preview here, a meaningful t",
-      "feedId": "simonwillison",
-      "feedTitle": "Simon Willison",
-      "category": "AI & LLM",
-      "feedHome": "https://simonwillison.net/"
-    },
-    {
       "title": "How Diffusion Controller unifies and simplifies AI image generation",
       "link": "https://research.google/blog/how-diffusion-controller-unifies-and-simplifies-ai-image-generation/",
       "date": "2026-09-29T18:38:27+00:00",
@@ -3765,16 +3805,6 @@
       "feedTitle": "Google Research Blog",
       "category": "AI & LLM",
       "feedHome": "https://research.google/blog/"
-    },
-    {
-      "title": "GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price",
-      "link": "https://simonwillison.net/2026/Sep/29/hn-49898129/",
-      "date": "2026-09-29T18:27:48+00:00",
-      "summary": "My comment on GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price &mdash; Hacker News.I'm a bit late with the pelicans because I was live-blogging the keynote: https://simonwillison.net/2026/Sep/29/openai-devday-2026-liv... Here they are for GPT-6.1-Sol: https://tools.simonwillison.net/mar",
-      "feedId": "simonwillison",
-      "feedTitle": "Simon Willison",
-      "category": "AI & LLM",
-      "feedHome": "https://simonwillison.net/"
     },
     {
       "title": "As a general rule, calling product support while drunk is not recommended",
@@ -3795,16 +3825,6 @@
       "feedTitle": "Pluralistic",
       "category": "Tech Blogs",
       "feedHome": "https://pluralistic.net/"
-    },
-    {
-      "title": "DevDay 2026 Recap",
-      "link": "https://openai.com/index/devday-2026-recap",
-      "date": "2026-09-29T10:00:00+00:00",
-      "summary": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders.",
-      "feedId": "openai",
-      "feedTitle": "OpenAI News",
-      "category": "AI & LLM",
-      "feedHome": "https://openai.com/news/"
     },
     {
       "title": "Rusty thoughts on \"Parse, don't validate\"",
@@ -4347,16 +4367,6 @@
       "feedHome": "https://research.google/blog/"
     },
     {
-      "title": "Empirical fractal",
-      "link": "https://www.johndcook.com/blog/2026/09/17/empirical-fractal/",
-      "date": "2026-09-17T16:48:14+00:00",
-      "summary": "There&#8217;s a common saying in discussion of fractals that the length of a coastline depends on how small a device you use to measure it. I thought this was a hypothetical, say as applied to the steps in the construction of the Koch snowflake. But the saying has its roots in actually surveying. Le",
-      "feedId": "johndcook",
-      "feedTitle": "John D. Cook",
-      "category": "Tech Blogs",
-      "feedHome": "https://www.johndcook.com/"
-    },
-    {
       "title": "Data Broker Radaris Loses Domains in Privacy Fight",
       "link": "https://krebsonsecurity.com/2026/09/data-broker-radaris-loses-domains-in-privacy-fight/",
       "date": "2026-09-16T18:14:22+00:00",
@@ -4730,16 +4740,6 @@
       "title": "Transfer learning for genomic prediction in underrepresented populations",
       "link": "https://research.google/blog/transfer-learning-for-genomic-prediction-in-underrepresented-populations/",
       "date": "2026-09-03T18:20:31+00:00",
-      "summary": "General Science",
-      "feedId": "google-research",
-      "feedTitle": "Google Research Blog",
-      "category": "AI & LLM",
-      "feedHome": "https://research.google/blog/"
-    },
-    {
-      "title": "A connectomics milestone: Mapping the complete male fruit fly brain",
-      "link": "https://research.google/blog/a-connectomics-milestone-mapping-the-complete-male-fruit-fly-brain/",
-      "date": "2026-09-03T16:00:00+00:00",
       "summary": "General Science",
       "feedId": "google-research",
       "feedTitle": "Google Research Blog",
