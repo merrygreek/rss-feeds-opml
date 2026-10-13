@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-13T10:13:02.368745+00:00",
+  "updatedAt": "2026-10-13T17:59:23.033282+00:00",
   "totalFeeds": 51,
   "successCount": 42,
   "failedCount": 9,
@@ -23,8 +23,14 @@
         "home": "https://simonwillison.net/",
         "url": "https://simonwillison.net/atom/everything/",
         "status": "ok",
-        "fetchedAt": "2026-10-13T10:12:52.320542+00:00",
+        "fetchedAt": "2026-10-13T17:59:13.023668+00:00",
         "items": [
+          {
+            "title": "Quoting Geoffrey Huntley",
+            "link": "https://simonwillison.net/2026/Oct/13/geoffrey-huntley/",
+            "date": "2026-10-13T13:32:00+00:00",
+            "summary": "If the agent isn't using my diagnostics library, I could introspect and update AGENTS.md, but there's still a delta, and it'll drift. Instead, I write a pre-commit hook that checks the git diff for direct calls to observability modules that bypass my diagnostics module. Boom: fail the commit, inject"
+          },
           {
             "title": "Hello Python 3.15, goodbye 3.10, and now I can use 3.11",
             "link": "https://simonwillison.net/2026/Oct/12/python-3-15/",
@@ -78,12 +84,6 @@
             "link": "https://simonwillison.net/2026/Oct/9/built-using-my-voice/",
             "date": "2026-10-09T12:54:06+00:00",
             "summary": "I shipped a new feature for my blog today: the Newsletters page, which offers an index of all of the newsletters I've sent out, both my free weekly Substack and my monthly sponsors-only updates. I built the feature almost entirely using my voice, chatting away to my laptop while I cooked dinner. Cod"
-          },
-          {
-            "title": "ttok 1.0",
-            "link": "https://simonwillison.net/2026/Oct/9/ttok/",
-            "date": "2026-10-09T00:34:43+00:00",
-            "summary": "Release: ttok 1.0 I released ttok 0.4, ran uv tool upgrade ttok, piped a file into the new version... and realized that it was defaulting to the GPT-4 tokenizer when it should very clearly default to GPT-5/GPT-6 instead! I figured switching the default was a reasonable excuse to finally ship a 1.0. "
           }
         ]
       },
@@ -94,7 +94,7 @@
         "home": "https://openai.com/news/",
         "url": "https://openai.com/news/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-13T10:12:52.393578+00:00",
+        "fetchedAt": "2026-10-13T17:59:12.938182+00:00",
         "items": [
           {
             "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
@@ -165,7 +165,7 @@
         "home": "https://arxiv.org/list/cs.AI/recent",
         "url": "https://arxiv.org/rss/cs.AI",
         "status": "ok",
-        "fetchedAt": "2026-10-13T10:12:52.850878+00:00",
+        "fetchedAt": "2026-10-13T17:59:13.640407+00:00",
         "items": [
           {
             "title": "Faithfulness Without Anchors: A Position Paper on the Structural Misalignments of Explainable AI Faithfulness Metrics for Feature Importance",
@@ -236,7 +236,7 @@
         "home": "https://arxiv.org/list/cs.LG/recent",
         "url": "https://arxiv.org/rss/cs.LG",
         "status": "ok",
-        "fetchedAt": "2026-10-13T10:12:52.714144+00:00",
+        "fetchedAt": "2026-10-13T17:59:13.569231+00:00",
         "items": []
       },
       {
@@ -246,7 +246,7 @@
         "home": "https://research.google/blog/",
         "url": "https://research.google/blog/rss/",
         "status": "ok",
-        "fetchedAt": "2026-10-13T10:12:52.412679+00:00",
+        "fetchedAt": "2026-10-13T17:59:13.030576+00:00",
         "items": [
           {
             "title": "Does better work always mean better workers?",
@@ -317,8 +317,20 @@
         "home": "https://deepmind.google/blog/",
         "url": "https://deepmind.google/blog/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-13T10:12:52.272374+00:00",
+        "fetchedAt": "2026-10-13T17:59:13.137523+00:00",
         "items": [
+          {
+            "title": "Gemini 4 Argon for Robotics",
+            "link": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
+            "date": "2026-10-13T16:01:58+00:00",
+            "summary": ""
+          },
+          {
+            "title": "Gemini 4 Argon: Built to solve your hardest problems",
+            "link": "https://deepmind.google/blog/introducing-gemini-4-argon/",
+            "date": "2026-10-13T16:01:52+00:00",
+            "summary": ""
+          },
           {
             "title": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
             "link": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
@@ -366,18 +378,6 @@
             "link": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
             "date": "2026-09-08T14:00:15+00:00",
             "summary": "AlphaGenome Atlas maps the molecular effects of 9 billion single-letter DNA variants across the human genome."
-          },
-          {
-            "title": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
-            "link": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
-            "date": "2026-09-03T15:02:08+00:00",
-            "summary": ""
-          },
-          {
-            "title": "Proactive cyber defense for governments and enterprises",
-            "link": "https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises/",
-            "date": "2026-09-02T16:24:24+00:00",
-            "summary": ""
           }
         ]
       },
@@ -388,7 +388,7 @@
         "home": "https://lilianweng.github.io/",
         "url": "https://lilianweng.github.io/lil-log/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-13T10:12:52.224095+00:00",
+        "fetchedAt": "2026-10-13T17:59:12.940009+00:00",
         "items": [
           {
             "title": "Active Learning",
@@ -479,7 +479,7 @@
         "home": "https://minimaxir.com/",
         "url": "https://minimaxir.com/index.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-13T10:12:52.428111+00:00",
+        "fetchedAt": "2026-10-13T17:59:13.039122+00:00",
         "items": [
           {
             "title": "Writing Rust code that's faster than state-of-the-art libraries by asking agents to make the code faster",
@@ -562,7 +562,7 @@
         "home": "https://www.jeffgeerling.com/",
         "url": "https://www.jeffgeerling.com/blog.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-13T10:12:52.406689+00:00",
+        "fetchedAt": "2026-10-13T17:59:13.082505+00:00",
         "items": [
           {
             "title": "Radxa's Q8B has 2x the performance and expansion of the Pi 5",
@@ -633,7 +633,7 @@
         "home": "https://www.seangoedecke.com/",
         "url": "https://www.seangoedecke.com/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-13T10:12:52.457317+00:00",
+        "fetchedAt": "2026-10-13T17:59:13.148027+00:00",
         "items": [
           {
             "title": "Software engineers don't get to be Luddites about AI",
@@ -704,7 +704,7 @@
         "home": "https://krebsonsecurity.com/",
         "url": "https://krebsonsecurity.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-10-13T10:12:52.433198+00:00",
+        "fetchedAt": "2026-10-13T17:59:13.041586+00:00",
         "items": [
           {
             "title": "FBI Arrests Executive at Ransomware Negotiation Firm",
@@ -775,8 +775,14 @@
         "home": "https://daringfireball.net/",
         "url": "https://daringfireball.net/feeds/main",
         "status": "ok",
-        "fetchedAt": "2026-10-13T10:12:52.509799+00:00",
+        "fetchedAt": "2026-10-13T17:59:13.134278+00:00",
         "items": [
+          {
+            "title": "Apple HomeView",
+            "link": "https://www.apple.com/newsroom/2026/10/meet-apple-homeview-a-new-way-to-enjoy-entertainment-and-manage-the-home/",
+            "date": "2026-10-13T14:52:25+00:00",
+            "summary": "Apple Newsroom: Apple today introduced Apple HomeView, designed to be central to the home and personal to everyone in it. With a stunning 7-inch Liquid Retina display, HomeView brings entertainment, connection, and smart home management together in one place, from playing music and making FaceTime c"
+          },
           {
             "title": "Mark Stephens, a.k.a. Robert X. Cringely, Died at 73",
             "link": "https://www.facebook.com/story.php?story_fbid=pfbid0YbCLrAJfBirAWuPBy4a7pauaQ6gHkAPUwtbzyg2wAjeMcruFC7dWUZKQJKkNChP9l&id=536506060&_rdr",
@@ -830,12 +836,6 @@
             "link": "https://insideevs.com/news/810839/jaguar-type-01-launch-ev/",
             "date": "2026-10-07T23:22:29+00:00",
             "summary": "This is a cool car. It doesn’t look like anything else and it looks like it’s been pulled a few years from the future. I don’t know about this whole trend where cars don’t have rear windows though. I get it that you just use the camera but my old habits says I want to see out the back sometimes. But"
-          },
-          {
-            "title": "Gurman Strikes Again: ‘Apple’s Smart Home Push Includes Doorbell, Lock, Thermostat Codeveloped With LG’",
-            "link": "https://www.bloomberg.com/news/articles/2026-10-06/apple-s-smart-home-push-includes-doorbell-lock-thermostat-codeveloped-with-lg?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc5MTMyMDkxNiwiZXhwIjoxNzkxOTI1NzE2LCJhcnRpY2xlSWQiOiJUTUdDN0lLSkg2VjUwMCIsImJjb25uZWN0SWQiOiJDNEVEQ0FFMUZBMDU0MEJFQTI0QTlGMjExQzFFOTA4MCJ9.LSK9jlXYPFHac9EpcJCErTgJNAwqmpV6qFoORcKffVo",
-            "date": "2026-10-07T23:14:16+00:00",
-            "summary": "The incomparable Mark Gurman, reporting for Bloomberg: Apple Inc.’s upcoming push into smart home devices will include a doorbell, thermostat and other accessories developed through an unusual partnership with LG Electronics Inc. The products will be part of an ecosystem of devices that work with Ap"
           }
         ]
       },
@@ -846,7 +846,7 @@
         "home": "https://ericmigi.com/",
         "url": "https://ericmigi.com/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-13T10:12:52.496326+00:00",
+        "fetchedAt": "2026-10-13T17:59:13.011359+00:00",
         "items": [
           {
             "title": "New Pebble Weather App + Software Updates",
@@ -917,7 +917,7 @@
         "home": "http://antirez.com/",
         "url": "http://antirez.com/rss",
         "status": "ok",
-        "fetchedAt": "2026-10-13T10:12:54.476564+00:00",
+        "fetchedAt": "2026-10-13T17:59:14.670295+00:00",
         "items": [
           {
             "title": "The real AI risk is inside the labs",
@@ -988,7 +988,7 @@
         "home": "https://idiallo.com/",
         "url": "https://idiallo.com/feed.rss",
         "status": "ok",
-        "fetchedAt": "2026-10-13T10:12:52.609861+00:00",
+        "fetchedAt": "2026-10-13T17:59:13.079133+00:00",
         "items": [
           {
             "title": "The Last Answer",
@@ -1059,7 +1059,7 @@
         "home": "https://maurycyz.com/",
         "url": "https://maurycyz.com/index.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-13T10:12:53.013093+00:00",
+        "fetchedAt": "2026-10-13T17:59:13.547617+00:00",
         "items": []
       },
       {
@@ -1069,8 +1069,14 @@
         "home": "https://pluralistic.net/",
         "url": "https://pluralistic.net/feed/",
         "status": "ok",
-        "fetchedAt": "2026-10-13T10:12:53.641028+00:00",
+        "fetchedAt": "2026-10-13T17:59:13.949193+00:00",
         "items": [
+          {
+            "title": "Pluralistic: Bundestrojaner (13 Oct 2026)",
+            "link": "https://pluralistic.net/2026/10/13/petards-r-us/",
+            "date": "2026-10-13T11:50:19+00:00",
+            "summary": "Today's links Bundestrojaner: You can't make people more secure by making them less secure. Hey look at this: Delights to delectate. Object permanence: 9/11 sitcom; Jon Norman v Philcon; Bruce Sterling's post-9/11 geopolitics; Polaroid bankrupt; David Mamet x Shel Silverstein; \"Great Big Beautiful T"
+          },
           {
             "title": "Pluralistic: How labor rights rescued Ultima from a monopolist (12 Oct 2026)",
             "link": "https://pluralistic.net/2026/10/12/termination-of-transfer/",
@@ -1124,12 +1130,6 @@
             "link": "https://pluralistic.net/2026/09/28/cost-of-everything/",
             "date": "2026-09-28T17:48:26+00:00",
             "summary": "Today's links Priceful: So worthless we can tell you what it's worth. Hey look at this: Delights to delectate. Object permanence: Nasdaq allows post-9/11 penny stocks; USAF can shoot down civilian aircraft; TSA bans calling Kip Hawley an idiot; Wells Fargo sued for firing fraud-refusing tellers; The"
-          },
-          {
-            "title": "Pluralistic: Itch scratching (25 Sep 2026)",
-            "link": "https://pluralistic.net/2026/09/25/other-people/",
-            "date": "2026-09-25T18:56:20+00:00",
-            "summary": "Today's links Itch scratching: Love, care and self-actualization. Hey look at this: Delights to delectate. Object permanence: 9/11 x Viridians; Announcing Wikipedia; Infinite Copyright Mickey; Floppy shoulder bag; Wells Fargo's long sleaze; Corbyn wins Labour leadership; Interop v internet monopolie"
           }
         ]
       },
@@ -1140,8 +1140,14 @@
         "home": "https://shkspr.mobi/blog/",
         "url": "https://shkspr.mobi/blog/feed/",
         "status": "ok",
-        "fetchedAt": "2026-10-13T10:12:53.464662+00:00",
+        "fetchedAt": "2026-10-13T17:59:14.027701+00:00",
         "items": [
+          {
+            "title": "Book Review: The Thousand Deaths of Romeo and Juliet - Caroline Finch ★★★★★",
+            "link": "https://shkspr.mobi/blog/2026/10/book-review-the-thousand-deaths-of-romeo-and-juliet-caroline-finch/",
+            "date": "2026-10-13T11:34:37+00:00",
+            "summary": "The thing about Romeo and Juliet is that it is a true story. It isn&#039;t literally true, but it is literary true. We see the same motif repeated throughout all cultures and all times. Caroline Lea (writing as Caroline Finch) asks an important question - what if every pair of star-cross&#039;d love"
+          },
           {
             "title": "I paid people to try and follow my README",
             "link": "https://shkspr.mobi/blog/2026/10/i-paid-people-to-try-and-follow-my-readme/",
@@ -1195,12 +1201,6 @@
             "link": "https://shkspr.mobi/blog/2026/09/are-you-a-smartwatch-power-user/",
             "date": "2026-09-30T11:34:26+00:00",
             "summary": "What do you use your smartwatch for? A few weeks ago, I overheard a conversation between someone on the Pixel Watch team and a woman I know. He was quizzing her at a party about her Pixel watch and what features she used. He&#039;d ignored me when I said I had a non-Google watch. She thought for a m"
-          },
-          {
-            "title": "Book Review: Bobiverse Books 1-3 by Dennis E. Taylor ★★★☆☆",
-            "link": "https://shkspr.mobi/blog/2026/09/book-review-bobiverse-books-1-3-by-dennis-e-taylor/",
-            "date": "2026-09-28T11:34:52+00:00",
-            "summary": "Like sticky popcorn, this is a moreish but ultimately unsatisfying set of stories. After I flamed out of Dungeon Crawler Carl, someone suggested I try this series. I can see why! It&#039;s campy sci-fi fun, with enough tropes to keep you chuckling and enough tension to keep you turning the pages. Bo"
           }
         ]
       },
@@ -1221,7 +1221,7 @@
         "home": "https://mitchellh.com/",
         "url": "https://mitchellh.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-13T10:12:52.863398+00:00",
+        "fetchedAt": "2026-10-13T17:59:13.540142+00:00",
         "items": [
           {
             "title": "A Terminal Protocol for Program Status (OSC 7501)",
@@ -1292,7 +1292,7 @@
         "home": "https://dynomight.net/",
         "url": "https://dynomight.net/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-13T10:12:52.685504+00:00",
+        "fetchedAt": "2026-10-13T17:59:13.536011+00:00",
         "items": [
           {
             "title": "Why is the human body so crap except for the liver?",
@@ -1363,7 +1363,7 @@
         "home": "https://xeiaso.net/",
         "url": "https://xeiaso.net/blog.rss",
         "status": "ok",
-        "fetchedAt": "2026-10-13T10:12:53.026793+00:00",
+        "fetchedAt": "2026-10-13T17:59:13.685059+00:00",
         "items": [
           {
             "title": "How to Solve: AAC Heavyweight M1 (Savage)",
@@ -1434,8 +1434,14 @@
         "home": "https://devblogs.microsoft.com/oldnewthing/",
         "url": "https://devblogs.microsoft.com/oldnewthing/feed",
         "status": "ok",
-        "fetchedAt": "2026-10-13T10:12:52.648661+00:00",
+        "fetchedAt": "2026-10-13T17:59:13.555524+00:00",
         "items": [
+          {
+            "title": "C++ futures part 2: The mental model for std::promise, std::packaged_task",
+            "link": "https://devblogs.microsoft.com/oldnewthing/20261013-00/?p=112769/",
+            "date": "2026-10-13T14:00:00+00:00",
+            "summary": "Building things out of the state. The post C++ futures part 2: The mental model for &lt;CODE&gt;std::promise&lt;/CODE&gt;, &lt;CODE&gt;std::packaged_task&lt;/CODE&gt; appeared first on The Old New Thing."
+          },
           {
             "title": "C++ futures part 1: The mental model",
             "link": "https://devblogs.microsoft.com/oldnewthing/20261012-00/?p=112767/",
@@ -1489,12 +1495,6 @@
             "link": "https://devblogs.microsoft.com/oldnewthing/20260930-00/?p=112744/",
             "date": "2026-09-30T14:00:00+00:00",
             "summary": "Fixed-length instructions makes it a much easier task. The post Windows on AArch64 also provides for hot-patching, but it&#8217;s much simpler than on x86 appeared first on The Old New Thing."
-          },
-          {
-            "title": "As a general rule, calling product support while drunk is not recommended",
-            "link": "https://devblogs.microsoft.com/oldnewthing/20260929-00/?p=112740/",
-            "date": "2026-09-29T14:00:00+00:00",
-            "summary": "Swearing is also poor form. The post As a general rule, calling product support while drunk is not recommended appeared first on The Old New Thing."
           }
         ]
       },
@@ -1505,7 +1505,7 @@
         "home": "https://www.righto.com/",
         "url": "https://www.righto.com/feeds/posts/default",
         "status": "ok",
-        "fetchedAt": "2026-10-13T10:12:52.971163+00:00",
+        "fetchedAt": "2026-10-13T17:59:13.399873+00:00",
         "items": []
       },
       {
@@ -1515,7 +1515,7 @@
         "home": "https://lucumr.pocoo.org/",
         "url": "https://lucumr.pocoo.org/feed.atom",
         "status": "ok",
-        "fetchedAt": "2026-10-13T10:12:53.043861+00:00",
+        "fetchedAt": "2026-10-13T17:59:13.267077+00:00",
         "items": [
           {
             "title": "What is Codemode",
@@ -1586,7 +1586,7 @@
         "home": "https://skyfall.dev/",
         "url": "https://skyfall.dev/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-13T10:12:52.694587+00:00",
+        "fetchedAt": "2026-10-13T17:59:13.682161+00:00",
         "items": [
           {
             "title": "Good riddance, 4o",
@@ -1661,7 +1661,7 @@
         "home": "https://overreacted.io/",
         "url": "https://overreacted.io/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-13T10:12:52.865958+00:00",
+        "fetchedAt": "2026-10-13T17:59:13.269209+00:00",
         "items": [
           {
             "title": "How I Vibed a Proof of Conway’s Conjecture",
@@ -1732,8 +1732,14 @@
         "home": "https://www.johndcook.com/",
         "url": "https://www.johndcook.com/blog/feed/",
         "status": "ok",
-        "fetchedAt": "2026-10-13T10:12:52.732783+00:00",
+        "fetchedAt": "2026-10-13T17:59:13.230918+00:00",
         "items": [
+          {
+            "title": "Harmonic triangle",
+            "link": "https://www.johndcook.com/blog/2026/10/13/harmonic-triangle/",
+            "date": "2026-10-13T13:45:18+00:00",
+            "summary": "Pascal&#8217;s triangle is the most famous triangular arrangement of numbers. I&#8217;ve written about other numerical triangles, such as Bell&#8217;s triangle and the trinomial triangle. There&#8217;s another well-known triangle that somehow I never heard of until recently: the harmonic triangle, f"
+          },
           {
             "title": "Categorical models of logics",
             "link": "https://www.johndcook.com/blog/2026/10/12/categorical-models-of-logics/",
@@ -1787,12 +1793,6 @@
             "link": "https://www.johndcook.com/blog/2026/10/04/topological-models-of-modal-logic/",
             "date": "2026-10-04T12:25:19+00:00",
             "summary": "The previous post discussed a superficial connection between modal logic and topology, that both use the terms regular and normal to indicate added sets of axioms. McKinsey and Tarski developed a deeper connection between modal logic and topology that we&#8217;ll discuss here. Starting with a topolo"
-          },
-          {
-            "title": "Modal logic and topology",
-            "link": "https://www.johndcook.com/blog/2026/10/04/modal-topology/",
-            "date": "2026-10-04T12:24:33+00:00",
-            "summary": "You can&#8217;t say much about modal logic in general. You have to be more specific to get anywhere. You have to choose some axioms. Ideally the axioms you need for your application correspond to a named set of axioms that has been studied before. The situation is similar in point-set topology. You "
           }
         ]
       },
@@ -1803,7 +1803,7 @@
         "home": "https://matklad.github.io/",
         "url": "https://matklad.github.io/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-13T10:12:52.600938+00:00",
+        "fetchedAt": "2026-10-13T17:59:13.104511+00:00",
         "items": [
           {
             "title": "On Git Refs",
@@ -1874,7 +1874,7 @@
         "home": "https://eli.thegreenplace.net/",
         "url": "https://eli.thegreenplace.net/feeds/all.atom.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-13T10:12:52.708904+00:00",
+        "fetchedAt": "2026-10-13T17:59:13.364705+00:00",
         "items": [
           {
             "title": "Monte-Carlo simulations",
@@ -1915,7 +1915,7 @@
         "home": "https://fabiensanglard.net/",
         "url": "https://fabiensanglard.net/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-13T10:12:52.905300+00:00",
+        "fetchedAt": "2026-10-13T17:59:13.349370+00:00",
         "items": [
           {
             "title": "My agent.md to improve LLM-assisted code quality",
@@ -1986,7 +1986,7 @@
         "home": "https://blog.miguelgrinberg.com/",
         "url": "https://blog.miguelgrinberg.com/feed",
         "status": "ok",
-        "fetchedAt": "2026-10-13T10:12:53.541532+00:00",
+        "fetchedAt": "2026-10-13T17:59:14.396589+00:00",
         "items": [
           {
             "title": "How fast is Python 3.15?",
@@ -2057,8 +2057,14 @@
         "home": "https://www.troyhunt.com/",
         "url": "https://www.troyhunt.com/rss/",
         "status": "ok",
-        "fetchedAt": "2026-10-13T10:12:52.574048+00:00",
+        "fetchedAt": "2026-10-13T17:59:13.445543+00:00",
         "items": [
+          {
+            "title": "Weekly Update 525: AI Data Breach Hyperbole",
+            "link": "https://www.troyhunt.com/weekly-update-525/",
+            "date": "2026-10-13T10:47:27+00:00",
+            "summary": "I remember the name of that AI doco now - The AI Doc: Or How I Became an Apocaloptimist. I was watching it on the long-haul flight home the other day, and what I found particularly engrossing was the polar-opposite opinions from a bunch of people: &quot;it&apos;"
+          },
           {
             "title": "Weekly Update 524: Live From Copenhagen",
             "link": "https://www.troyhunt.com/weekly-update-524/",
@@ -2112,12 +2118,6 @@
             "link": "https://www.troyhunt.com/welcoming-the-sri-lankan-government-to-have-i-been-pwned/",
             "date": "2026-08-23T06:39:45+00:00",
             "summary": "Today, we welcome the 48th government onboarded to Have I Been Pwned&#x2019;s free gov service: Sri Lanka. Sri Lanka CERT now has access to monitor Sri Lankan government domains against the data in HIBP, helping identify exposed government accounts and respond when they appear in new data breaches."
-          },
-          {
-            "title": "Weekly Update 517: Cyber Ransoms",
-            "link": "https://www.troyhunt.com/weekly-update-517/",
-            "date": "2026-08-18T03:44:58+00:00",
-            "summary": "The current ransomware situation is a bit of a kludge (deep breath): a lot of ransomware (which often doesn&apos;t even involve &quot;ware&quot;, it&apos;s just extortion) is carried out by kids who successfully make a truckload of money but can&apos;t spend it without"
           }
         ]
       },
@@ -2128,7 +2128,7 @@
         "home": "https://anildash.com/",
         "url": "https://anildash.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-13T10:12:52.893528+00:00",
+        "fetchedAt": "2026-10-13T17:59:13.340458+00:00",
         "items": [
           {
             "title": "Why are the Artemis II photos on Flickr?",
@@ -2199,7 +2199,7 @@
         "home": "https://computer.rip/",
         "url": "https://computer.rip/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-13T10:12:53.110393+00:00",
+        "fetchedAt": "2026-10-13T17:59:13.844395+00:00",
         "items": [
           {
             "title": "from plesiochronous to synchronous",
@@ -2280,7 +2280,7 @@
         "home": "http://paulgraham.com/",
         "url": "http://www.aaronsw.com/2002/feeds/pgessays.rss",
         "status": "ok",
-        "fetchedAt": "2026-10-13T10:12:52.514029+00:00",
+        "fetchedAt": "2026-10-13T17:59:13.385158+00:00",
         "items": [
           {
             "title": "Superlinear Returns",
@@ -2351,8 +2351,14 @@
         "home": "https://steveblank.com/",
         "url": "https://steveblank.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-10-13T10:12:52.858996+00:00",
+        "fetchedAt": "2026-10-13T17:59:13.463230+00:00",
         "items": [
+          {
+            "title": "Subterranean Warfare – An Urgent DoW Need Without An Owner",
+            "link": "https://steveblank.com/2026/10/13/subterranean-warfare-an-urgent-dow-need-without-an-owner/",
+            "date": "2026-10-13T13:00:19+00:00",
+            "summary": "This article previously appeared in Cipher Brief. The DoW urgently needs to organize its scattered subterranean warfare assets into a single unified organization. Ideally, a Direct Reporting Portfolio Manager (DRPM) for Subterranean Warfare, reporting to the Deputy Secretary of War. (The Department "
+          },
           {
             "title": "Lean LaunchPad – The Next Generation",
             "link": "https://steveblank.com/2026/09/30/lean-launchpad-the-next-generation/",
@@ -2406,12 +2412,6 @@
             "link": "https://steveblank.com/2026/04/22/ai-and-teaching-the-brave-new-world/",
             "date": "2026-04-22T15:34:09+00:00",
             "summary": "This article previously appeared in the Entrepreneur &#38; Innovation Exchange (EIX) This is the 16th year we’ve been teaching the Stanford Lean LaunchPad class. This year, from the first hour of the first class, we realized we were seeing something extraordinary happen. It was both the end and begi"
-          },
-          {
-            "title": "Nowhere Is Safe",
-            "link": "https://steveblank.com/2026/04/09/nowhere-is-safe/",
-            "date": "2026-04-09T13:00:25+00:00",
-            "summary": "Drones in Ukraine and in the War with Iran have made the surface of the earth a contested space. The U.S. has discovered that 1) air superiority and missile defense systems (THAAD, Patriot batteries) designed to counter tens or hundreds of aircraft and missiles is insufficient against asymmetric att"
           }
         ]
       }
@@ -2424,66 +2424,66 @@
         "home": "https://news.ycombinator.com/",
         "url": "https://news.ycombinator.com/rss",
         "status": "ok",
-        "fetchedAt": "2026-10-13T10:12:53.078696+00:00",
+        "fetchedAt": "2026-10-13T17:59:13.668082+00:00",
         "items": [
           {
-            "title": "The baffling intelligence of a single cell (2024)",
-            "link": "https://jsomers.net/e-coli-chemotaxis/",
-            "date": "2026-10-11T11:02:30+00:00",
+            "title": "Gemini 4 Argon",
+            "link": "https://deepmind.google/models/gemini/",
+            "date": "2026-10-13T16:03:16+00:00",
             "summary": "Comments"
           },
           {
-            "title": "GLM-Legal",
-            "link": "https://z.ai/blog/glm-legal",
-            "date": "2026-10-12T16:11:45+00:00",
+            "title": "Apple HomeView",
+            "link": "https://www.apple.com/apple-homeview/",
+            "date": "2026-10-13T13:02:12+00:00",
             "summary": "Comments"
           },
           {
-            "title": "Intel D270 GPU AI Accelerator–Up to 480 GB LPDDR5X",
-            "link": "https://www.intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/d-series.html",
-            "date": "2026-10-12T21:35:35+00:00",
+            "title": "Thunderbird for iOS",
+            "link": "https://blog.thunderbird.net/2026/10/thunderbird-for-ios-a-first-look-at-the-native-iphone-email-app-in-development/",
+            "date": "2026-10-13T15:07:37+00:00",
             "summary": "Comments"
           },
           {
-            "title": "Hackers activate automatic defrosting in supermarket fridges across Europe",
-            "link": "https://www.tomshardware.com/tech-industry/cyber-security/unprecedented-cyberattack-cripples-supermarket-fridges-across-europe-as-hackers-activate-automatic-defrosting-delivery-and-store-prices-also-impacted-by-incident",
-            "date": "2026-10-12T12:16:42+00:00",
+            "title": "Cyberattack halts construction of tunnel between Denmark and Germany",
+            "link": "https://ua.news/en/world/kiberataka-zupinila-budivnitstvo-tuneliu-mizh-daniieiu-ta-nimechchinoiu-rmf24",
+            "date": "2026-10-13T16:24:15+00:00",
             "summary": "Comments"
           },
           {
-            "title": "A Modern Web App in C",
-            "link": "https://prophitt.me/writing/a-modern-web-app-in-c",
-            "date": "2026-10-12T16:13:10+00:00",
+            "title": "11 year old unsoundness bugs found in Rust borrow checker",
+            "link": "https://github.com/rust-lang/rust/issues/164250",
+            "date": "2026-10-13T10:27:00+00:00",
             "summary": "Comments"
           },
           {
-            "title": "Were Software Engineers blue-collar workers all along?",
-            "link": "https://ptrbrynt.com/posts/were-we-blue-collar-workers-all-along",
-            "date": "2026-10-13T09:25:10+00:00",
+            "title": "Firefox Enterprise",
+            "link": "https://www.firefox.com/en-US/enterprise/",
+            "date": "2026-10-13T12:00:42+00:00",
             "summary": "Comments"
           },
           {
-            "title": "Hittite royal archive found in Turkey",
-            "link": "https://www.thehistoryblog.com/archives/77107",
-            "date": "2026-10-13T06:02:51+00:00",
+            "title": "Gemini 4 Argon for Robotics",
+            "link": "https://developers.googleblog.com/gemini-4-argon-for-robotics/",
+            "date": "2026-10-13T16:55:47+00:00",
             "summary": "Comments"
           },
           {
-            "title": "Who is vfmaddrnd231pd?",
-            "link": "https://purplesyringa.moe/blog/who-is-vfmaddrnd231pd/",
-            "date": "2026-10-12T21:12:43+00:00",
+            "title": "Coris (YC S22) Is Hiring Back End Engineer",
+            "link": "https://www.ycombinator.com/companies/coris/jobs/h0nDly8-backend-engineer-ai-native-risk-infrastructure-integrations",
+            "date": "2026-10-13T17:00:39+00:00",
             "summary": "Comments"
           },
           {
-            "title": "Janas: Run LLMs larger than RAM by streaming experts from SSD",
-            "link": "https://github.com/prabanta-dev/janas",
-            "date": "2026-10-12T22:05:43+00:00",
+            "title": "We turned EmbeddingGemma 2 into a speech-to-text model",
+            "link": "https://eg2.haku.sh/",
+            "date": "2026-10-13T11:27:14+00:00",
             "summary": "Comments"
           },
           {
-            "title": "Document Review with Unsiloed and TypeSafe Jev",
-            "link": "https://www.unsiloed.ai/blog/document-review-unsiloed-typesafe-jev",
-            "date": "2026-10-13T08:24:51+00:00",
+            "title": "I posted to HN, and then my website was flooded with AI bot traffic",
+            "link": "https://www.sammystraus.com/#i-posted-to-hn-and-then-my-website-was-flooded-with-ai-bot-traffic",
+            "date": "2026-10-13T15:25:50+00:00",
             "summary": "Comments"
           }
         ]
@@ -2495,67 +2495,67 @@
         "home": "https://www.techmeme.com/",
         "url": "https://www.techmeme.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-13T10:12:52.978918+00:00",
+        "fetchedAt": "2026-10-13T17:59:13.499596+00:00",
         "items": [
           {
-            "title": "Alibaba unveils its next-gen Qwen Glasses N1, starting at ~$450, with 50MP cameras, sensors, and eye-tracking on the ~$520 Pro model, and Qwen Clip AI earbuds (Bloomberg)",
-            "link": "https://www.techmeme.com/261013/p11#a261013p11",
-            "date": "2026-10-13T06:10:00-04:00",
-            "summary": "Bloomberg: Alibaba unveils its next-gen Qwen Glasses N1, starting at ~$450, with 50MP cameras, sensors, and eye-tracking on the ~$520 Pro model, and Qwen Clip AI earbuds&nbsp; &mdash;&nbsp; Alibaba Group Holding Ltd. on Tuesday unveiled the new generation of its smart glasses, deepening its foray in"
+            "title": "Sources: Decagon, which offers AI customer service agents and was last valued at $4.5B, hired a bank and is in early talks with buyers, including ServiceNow (Katie Roof/Business Insider)",
+            "link": "https://www.techmeme.com/261013/p36#a261013p36",
+            "date": "2026-10-13T13:55:52-04:00",
+            "summary": "Katie Roof / Business Insider: Sources: Decagon, which offers AI customer service agents and was last valued at $4.5B, hired a bank and is in early talks with buyers, including ServiceNow&nbsp; &mdash;&nbsp; Buzzy AI agent startup Decagon could be the latest company swept up in a growing wave of AI "
           },
           {
-            "title": "SpaceXSI launches a unified X Subscription bundling Grok, Cursor, and X Premium, with tiers at $8, $30, $100, and $200 per month; the $30 tier includes Grok Bot (Mariella Moon/Engadget)",
-            "link": "https://www.techmeme.com/261013/p10#a261013p10",
-            "date": "2026-10-13T06:01:05-04:00",
-            "summary": "Mariella Moon / Engadget: SpaceXSI launches a unified X Subscription bundling Grok, Cursor, and X Premium, with tiers at $8, $30, $100, and $200 per month; the $30 tier includes Grok Bot&nbsp; &mdash;&nbsp; One membership will give you access to SpaceXSI's products.&nbsp; &mdash;&nbsp; SpaceXSI has "
+            "title": "Pluto Security, which monitors AI agents and vibe-coded apps, exits stealth with $42M, including a $34M Series A, and says it has hit $2M+ in ARR since April (Ram Iyer/TechCrunch)",
+            "link": "https://www.techmeme.com/261013/p35#a261013p35",
+            "date": "2026-10-13T13:50:01-04:00",
+            "summary": "Ram Iyer / TechCrunch: Pluto Security, which monitors AI agents and vibe-coded apps, exits stealth with $42M, including a $34M Series A, and says it has hit $2M+ in ARR since April&nbsp; &mdash;&nbsp; The problem with giving everyone in a company access to AI tools is that people will use them in un"
           },
           {
-            "title": "Sources: Chinese tech companies bought 1M+ Nvidia gaming and workstation chips, mostly RTX 5090 and RTX Pro, for basic AI workloads amid an AI chip shortage (Financial Times)",
-            "link": "https://www.techmeme.com/261013/p9#a261013p9",
-            "date": "2026-10-13T05:50:01-04:00",
-            "summary": "Financial Times: Sources: Chinese tech companies bought 1M+ Nvidia gaming and workstation chips, mostly RTX 5090 and RTX Pro, for basic AI workloads amid an AI chip shortage&nbsp; &mdash;&nbsp; The country's tech giants are snapping up products never designed for advanced AI to satisfy soaring compu"
+            "title": "Google says users with a standard account can now build personal Android apps for free in AI Studio and will be able to share them with friends in coming months (Artie Beaty/ZDNET)",
+            "link": "https://www.techmeme.com/261013/p34#a261013p34",
+            "date": "2026-10-13T13:35:02-04:00",
+            "summary": "Artie Beaty / ZDNET: Google says users with a standard account can now build personal Android apps for free in AI Studio and will be able to share them with friends in coming months&nbsp; &mdash;&nbsp; It just got a whole lot easier to vibe code the exact Android app you need - no developer experien"
           },
           {
-            "title": "CXMT says it plans to launch a 4F² design DRAM chip for data center servers before the end of 2026, achieving a breakthrough that rivals have pursued for years (Bloomberg)",
-            "link": "https://www.techmeme.com/261013/p8#a261013p8",
-            "date": "2026-10-13T05:40:00-04:00",
-            "summary": "Bloomberg: CXMT says it plans to launch a 4F&sup2; design DRAM chip for data center servers before the end of 2026, achieving a breakthrough that rivals have pursued for years&nbsp; &mdash;&nbsp; CXMT Corp. declared it achieved a breakthrough in chip technology that rivals like Samsung Electronics C"
+            "title": "Meta expands its AI-powered \"Your Algorithm\" feature from Instagram to Facebook and Facebook Reels and says it is using LLMs more in its ranking systems (Stevie Bonifield/The Verge)",
+            "link": "https://www.techmeme.com/261013/p33#a261013p33",
+            "date": "2026-10-13T13:25:51-04:00",
+            "summary": "Stevie Bonifield / The Verge: Meta expands its AI-powered &ldquo;Your Algorithm&rdquo; feature from Instagram to Facebook and Facebook Reels and says it is using LLMs more in its ranking systems&nbsp; &mdash;&nbsp; Meta's bringing Instagram's &ldquo;Your Algorithm&rdquo; feature to Facebook, and usi"
           },
           {
-            "title": "IDC: China's Q3 smartphone shipments fell 15.4% YoY to 57.9M units, the sixth straight quarter of decline; Huawei led with a 21% share and Apple had 17.8% (Reuters)",
-            "link": "https://www.techmeme.com/261013/p7#a261013p7",
-            "date": "2026-10-13T04:25:01-04:00",
-            "summary": "Reuters: IDC: China's Q3 smartphone shipments fell 15.4% YoY to 57.9M units, the sixth straight quarter of decline; Huawei led with a 21% share and Apple had 17.8%&nbsp; &mdash;&nbsp; China's third-quarter smartphone shipments fell 15.4% from a year earlier to 57.9 million units, research firm IDC s"
+            "title": "Meta says hackers stole some code and personal data of roughly 1,500 people, most of them employees in the US, after compromising some of its GitHub repos (Eduard Kovacs/SecurityWeek)",
+            "link": "https://www.techmeme.com/261013/p32#a261013p32",
+            "date": "2026-10-13T13:10:47-04:00",
+            "summary": "Eduard Kovacs / SecurityWeek: Meta says hackers stole some code and personal data of roughly 1,500 people, most of them employees in the US, after compromising some of its GitHub repos&nbsp; &mdash;&nbsp; Most of the affected individuals are Meta employees in the United States and they are being off"
           },
           {
-            "title": "Singapore-based data center developer DayOne raises ~$3.67B, including a ~$2.4B offshore term loan facility, from seven banks to fund its Malaysia expansion (Jasmeen Ara Shaikh/Reuters)",
-            "link": "https://www.techmeme.com/261013/p6#a261013p6",
-            "date": "2026-10-13T04:05:01-04:00",
-            "summary": "Jasmeen Ara Shaikh / Reuters: Singapore-based data center developer DayOne raises ~$3.67B, including a ~$2.4B offshore term loan facility, from seven banks to fund its Malaysia expansion&nbsp; &mdash;&nbsp; Singapore-based data centre developer DayOne on Tuesday said it secured an additional 15 bill"
+            "title": "Apple says HomeView's facial recognition works only if users have a \"registered personal device\" with Apple Intelligence and Siri AI on the same Wi-Fi network (John Gruber/Daring Fireball)",
+            "link": "https://www.techmeme.com/261013/p31#a261013p31",
+            "date": "2026-10-13T12:20:01-04:00",
+            "summary": "John Gruber / Daring Fireball: Apple says HomeView's facial recognition works only if users have a &ldquo;registered personal device&rdquo; with Apple Intelligence and Siri AI on the same Wi-Fi network&nbsp; &mdash;&nbsp; Apple Newsroom: &hellip; Your first question might be how this facial recognit"
           },
           {
-            "title": "A deep dive on Amazon's robotics efforts, resulting in 1M+ active warehouse robots; Amazon is still the world's 2nd-largest corporate employer with 1.5M workers (Jeremy Hsu/Ars Technica)",
-            "link": "https://www.techmeme.com/261013/p5#a261013p5",
-            "date": "2026-10-13T02:30:01-04:00",
-            "summary": "Jeremy Hsu / Ars Technica: A deep dive on Amazon's robotics efforts, resulting in 1M+ active warehouse robots; Amazon is still the world's 2nd-largest corporate employer with 1.5M workers&nbsp; &mdash;&nbsp; No organization in the world operates more robots than Amazon.&nbsp; The company already has"
+            "title": "Google rolls out Gemini 4 Argon globally via the Gemini API and to Google AI Pro subscribers in the Gemini app and AI Mode, and in Antigravity for Ultra users (Robert Hart/The Verge)",
+            "link": "https://www.techmeme.com/261013/p30#a261013p30",
+            "date": "2026-10-13T12:08:15-04:00",
+            "summary": "Robert Hart / The Verge: Google rolls out Gemini 4 Argon globally via the Gemini API and to Google AI Pro subscribers in the Gemini app and AI Mode, and in Antigravity for Ultra users&nbsp; &mdash;&nbsp; After months of trailing its rivals, Google says Argon competes with the industry's best."
           },
           {
-            "title": "A global chip stock sell-off deepens after Broadcom's CEO likened AI investing to a casino, with Samsung down as much as 8.8%, SK Hynix down 9.2%, and Micron 4% (Financial Times)",
-            "link": "https://www.techmeme.com/261013/p4#a261013p4",
-            "date": "2026-10-13T01:05:01-04:00",
-            "summary": "Financial Times: A global chip stock sell-off deepens after Broadcom's CEO likened AI investing to a casino, with Samsung down as much as 8.8%, SK Hynix down 9.2%, and Micron 4%&nbsp; &mdash;&nbsp; Declines for Samsung and SK Hynix drag Kospi sharply lower as investors fret over scale of AI investme"
+            "title": "Anthropic co-founder Jack Clark says \"I now think it's more likely we'll see full RSI become possible in 2027\", earlier than his previous prediction of 2028 (Jack Clark/Import AI)",
+            "link": "https://www.techmeme.com/261013/p29#a261013p29",
+            "date": "2026-10-13T11:55:44-04:00",
+            "summary": "Jack Clark / Import AI: Anthropic co-founder Jack Clark says &ldquo;I now think it's more likely we'll see full RSI become possible in 2027&rdquo;, earlier than his previous prediction of 2028&nbsp; &mdash;&nbsp; Will we give robots the moon?&nbsp; &mdash;&nbsp; Welcome to Import AI, a newsletter ab"
           },
           {
-            "title": "Character.AI files for Chapter 11 bankruptcy in the US, agrees to sell some assets to Disney for $20M, and plans to keep operating as it completes the sale (Rhea Rose Abraham/Reuters)",
-            "link": "https://www.techmeme.com/261013/p3#a261013p3",
-            "date": "2026-10-13T00:55:02-04:00",
-            "summary": "Rhea Rose Abraham / Reuters: Character.AI files for Chapter 11 bankruptcy in the US, agrees to sell some assets to Disney for $20M, and plans to keep operating as it completes the sale&nbsp; &mdash;&nbsp; Character.AI said on Monday it had filed for Chapter 11 bankruptcy in the US and agreed to sell"
+            "title": "Scuba, which is building a \"context engine\" designed to serve as a shared memory hub for human workers and AI agents, raised $34M across pre-seed and seed (Alex Konrad/Upstarts Media)",
+            "link": "https://www.techmeme.com/261013/p28#a261013p28",
+            "date": "2026-10-13T11:10:55-04:00",
+            "summary": "Alex Konrad / Upstarts Media: Scuba, which is building a &ldquo;context engine&rdquo; designed to serve as a shared memory hub for human workers and AI agents, raised $34M across pre-seed and seed&nbsp; &mdash;&nbsp; When they were leaders at Slack, Noah Desai Weiss and Dolapo Falola worked on softw"
           },
           {
-            "title": "IDC: Nvidia's AI chip shipments in China fell 44% YoY to 678K in H1 2026, as its market share slid to 34% amid US export curbs and rising domestic competition (Reuters)",
-            "link": "https://www.techmeme.com/261013/p2#a261013p2",
-            "date": "2026-10-13T00:45:01-04:00",
-            "summary": "Reuters: IDC: Nvidia's AI chip shipments in China fell 44% YoY to 678K in H1 2026, as its market share slid to 34% amid US export curbs and rising domestic competition&nbsp; &mdash;&nbsp; Nvidia's (NVDA.O) share of China's market for data-centre AI chips fell to 34% in the first half of 2026, as US "
+            "title": "Bumble says Ithaca Holdings will pay $6.05 per share, a 138% premium to Bumble's Friday close; BMBL jumps 56% to $5.94, after a 50% jump Monday on sale reports (Bloomberg)",
+            "link": "https://www.techmeme.com/261013/p27#a261013p27",
+            "date": "2026-10-13T10:45:00-04:00",
+            "summary": "Bloomberg: Bumble says Ithaca Holdings will pay $6.05 per share, a 138% premium to Bumble's Friday close; BMBL jumps 56% to $5.94, after a 50% jump Monday on sale reports&nbsp; &mdash;&nbsp; Bumble Inc. is being taken private by newly formed firm Ithaca Holdings for $1.3 billion, a fraction of its v"
           }
         ]
       },
@@ -2566,67 +2566,67 @@
         "home": "https://techcrunch.com/",
         "url": "https://techcrunch.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-10-13T10:12:52.924352+00:00",
+        "fetchedAt": "2026-10-13T17:59:13.071352+00:00",
         "items": [
           {
-            "title": "Meta releases its first frontier model, Muse Wonder",
-            "link": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/",
-            "date": "2026-10-12T17:56:56+00:00",
-            "summary": "Where Muse Spark aimed to be a lightweight model that could perform at low latency, the Wonder models are larger and said to be more capable, with higher benchmark scores and better results on complex tasks like coding."
+            "title": "Laplace Intelligence red-teams robots and self-driving cars before they hit the real world",
+            "link": "https://techcrunch.com/2026/10/13/laplace-intelligence-red-teams-robots-and-self-driving-cars-before-they-hit-the-real-world/",
+            "date": "2026-10-13T17:30:00+00:00",
+            "summary": "University of Michigan spinout Laplace Intelligence uses AI agents and interactive simulation to stress-test robots and self-driving vehicles before deployment. The profitable startup is competing at TechCrunch Disrupt's Startup Battlefield."
           },
           {
-            "title": "WindBorne wins a hefty US Air Force contract for its balloon data",
-            "link": "https://techcrunch.com/2026/10/12/windborne-wins-a-hefty-us-air-force-contract-for-its-balloon-data/",
-            "date": "2026-10-12T17:19:14+00:00",
-            "summary": "A Silicon Valley startup that uses weather balloons and AI to predict the weather won a U.S. military contract worth almost $50 million."
+            "title": "Pluto Security raises $42M as AI gives enterprise security teams a new headache",
+            "link": "https://techcrunch.com/2026/10/13/pluto-security-raises-42m-as-ai-gives-enterprise-security-teams-a-new-headache/",
+            "date": "2026-10-13T17:18:25+00:00",
+            "summary": "The problem with giving everyone in a company access to AI tools is that people will use them in unexpected ways. And that fact is steadily seeding fears that companies now have new, gaping security holes in their systems or, at least, will soon."
           },
           {
-            "title": "Honeyjar offers AI tools to improve PR and comms at every company",
-            "link": "https://techcrunch.com/2026/10/12/honeyjar-offers-ai-tools-to-improve-pr-and-comms-at-every-company/",
-            "date": "2026-10-12T15:45:00+00:00",
-            "summary": "Journalists, entrepreneurs, and even some public relations professionals will tell you that the PR process is broken. But could AI actually make things better?"
+            "title": "MIT startup says it can turn diesel trucks into cheaper hydrogen haulers — see it at Disrupt",
+            "link": "https://techcrunch.com/2026/10/13/mit-startup-says-it-can-turn-diesel-trucks-into-cheaper-hydrogen-haulers-see-it-at-disrupt/",
+            "date": "2026-10-13T17:00:00+00:00",
+            "summary": "Diesel is expensive and polluting, and LNK Energies says it has come up with a way to replace it with hydrogen, all while undercutting diesel on cost."
           },
           {
-            "title": "Microsoft president says UK is best placed to drive AI regulation",
-            "link": "https://techcrunch.com/2026/10/12/microsoft-president-says-uk-is-best-placed-to-drive-ai-regulation/",
-            "date": "2026-10-12T15:31:19+00:00",
-            "summary": "Microsoft president Brad Smith calls for urgent AI regulation, saying milk and washing machines have more oversight than AI companies."
+            "title": "Google Play now lets anyone build private, vibe-coded apps that run on Android",
+            "link": "https://techcrunch.com/2026/10/13/google-play-now-supports-private-vibe-coded-apps-built-just-for-you/",
+            "date": "2026-10-13T17:00:00+00:00",
+            "summary": "Google is making it easier to build and use personal Android apps created with AI, without having to make them available to everyone on the Play Store."
           },
           {
-            "title": "This AI startup says it can generate permit-ready blueprints in minutes",
-            "link": "https://techcrunch.com/2026/10/12/this-ai-startup-says-it-can-generate-permit-ready-blueprints-in-minutes/",
-            "date": "2026-10-12T15:27:59+00:00",
-            "summary": "Blueprints AI, a bootstrapped startup based in Santa Monica, developed software that produces code-compliant construction blueprints from a photo, PDF, or sketch."
+            "title": "Satlyt, founded by a former Google and SpaceX product manager, raises $8M to run AI on satellites",
+            "link": "https://techcrunch.com/2026/10/13/satlyt-founded-by-a-former-google-and-spacex-product-manager-raises-8m-to-run-ai-on-satellites/",
+            "date": "2026-10-13T16:30:00+00:00",
+            "summary": "Satlyt wants to be the Android of orbital computing, offering open software that works on many companies' satellites, versus SpaceX's closed, all-in-one iPhone-style approach."
           },
           {
-            "title": "Fitbit Edge is Google’s middle ground between Fitbit Air and Pixel Watch",
-            "link": "https://techcrunch.com/2026/10/12/fitbit-edge-is-googles-middle-ground-between-fitbit-air-and-pixel-watch/",
-            "date": "2026-10-12T15:11:19+00:00",
-            "summary": "Google’s newest wearable costs $179.99 and has a sleek feel like the Fitbit Air but with an OLED display."
+            "title": "The 2026 Startup Battlefield Top 20: From organs to orbit and everything in between",
+            "link": "https://techcrunch.com/2026/10/13/the-2026-startup-battlefield-top-20-from-organs-to-orbit-and-everything-in-between/",
+            "date": "2026-10-13T15:02:00+00:00",
+            "summary": "Twenty founders just earned their shot at Disrupt glory. They're headed to the main stage at TechCrunch Disrupt to compete for the $100,000 prize and the coveted Disrupt Cup."
           },
           {
-            "title": "Smart ring maker Ultrahuman to roll out biological-age model across UAE",
-            "link": "https://techcrunch.com/2026/10/12/smart-ring-maker-ultrahuman-to-roll-out-biological-age-model-across-uae/",
-            "date": "2026-10-12T14:09:34+00:00",
-            "summary": "Ultrahuman and Abu Dhabi will spend the next two years working on research and clinical validation of the model."
+            "title": "Spotify users on iOS 27 can now ask Siri to play music without having to say ‘on Spotify’",
+            "link": "https://techcrunch.com/2026/10/13/spotify-users-on-ios-27-can-now-ask-siri-to-play-music-without-having-to-say-on-spotify/",
+            "date": "2026-10-13T14:30:12+00:00",
+            "summary": "Siri can now learn users' preferred music app, allowing Spotify listeners to request songs, podcasts, and playlists without specifying which app to use."
           },
           {
-            "title": "TechCrunch Disrupt 2026 starts tomorrow: Your final chance to secure up to $100 ticket savings",
-            "link": "https://techcrunch.com/2026/10/12/techcrunch-disrupt-2026-starts-tomorrow-your-final-chance-to-secure-up-to-100-ticket-savings/",
-            "date": "2026-10-12T14:00:00+00:00",
-            "summary": "Tomorrow at 8 a.m. PT, it all begins z— 10,000+ founders, investors, and tech operators will gather at San Francisco’s Moscone West for TechCrunch Disrupt 2026 for three days of ideas, connections, and startups shaping what comes next. This is your last 24 hours to secure ticket savings of up to $10"
+            "title": "Bumble agrees to a $1.3B acquisition deal as online dating faces a reset",
+            "link": "https://techcrunch.com/2026/10/13/bumble-agrees-to-a-1-3b-acquisition-deal-as-online-dating-faces-a-reset/",
+            "date": "2026-10-13T14:25:48+00:00",
+            "summary": "After years of declining subscriber numbers and falling revenue, Bumble just agreed to a $1.3 billion acquisition."
           },
           {
-            "title": "Former Plaud exec raises $26M for AI app that listens to you in the background",
-            "link": "https://techcrunch.com/2026/10/12/former-plaud-exec-raises-26m-for-ai-app-that-listens-to-you-in-the-background/",
-            "date": "2026-10-12T12:47:59+00:00",
-            "summary": "One of the core promises of AI is that the more it knows about a person, the better it will be able to assist them with tasks and make appropriate suggestions, which, if you'll believe the tech companies, requires apps and devices to listen, watch, or record users' activity all the time and gather a"
+            "title": "TechCrunch Disrupt 2026: Day 1",
+            "link": "https://techcrunch.com/2026/10/13/techcrunch-disrupt-2026-day-1/",
+            "date": "2026-10-13T14:00:00+00:00",
+            "summary": "TechCrunch Disrupt 2026 officially kicks off today. See what's in store for Day 1 (Oct. 13) at San Francisco's Moscone West. Don't miss it. Register for your pass now and meet 10,000+ tech leaders at the startup epicenter of the year."
           },
           {
-            "title": "The founder’s guide to TechCrunch Disrupt 2026: Everything you need to know",
-            "link": "https://techcrunch.com/2026/10/11/the-founders-guide-to-techcrunch-disrupt-2026-everything-you-need-to-know/",
-            "date": "2026-10-12T00:59:01+00:00",
-            "summary": "TechCrunch Disrupt 2026 is built around one question: How do you build an enduring company in the AI era? Our programming and speaker lineup reflect that."
+            "title": "SpaceXSI bundles X Premium, Grok, and Cursor into one subscription",
+            "link": "https://techcrunch.com/2026/10/13/spacexsi-bundles-x-premium-grok-and-cursor-into-one-subscription/",
+            "date": "2026-10-13T13:50:19+00:00",
+            "summary": "The new X Subscription combines X's paid features with AI tools like Grok and Cursor, offering plans ranging from $8 to $200 per month."
           }
         ]
       },
@@ -2637,67 +2637,67 @@
         "home": "https://techcrunch.com/category/artificial-intelligence/",
         "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
         "status": "ok",
-        "fetchedAt": "2026-10-13T10:12:52.937349+00:00",
+        "fetchedAt": "2026-10-13T17:59:13.072879+00:00",
         "items": [
+          {
+            "title": "Laplace Intelligence red-teams robots and self-driving cars before they hit the real world",
+            "link": "https://techcrunch.com/2026/10/13/laplace-intelligence-red-teams-robots-and-self-driving-cars-before-they-hit-the-real-world/",
+            "date": "2026-10-13T17:30:00+00:00",
+            "summary": "University of Michigan spinout Laplace Intelligence uses AI agents and interactive simulation to stress-test robots and self-driving vehicles before deployment. The profitable startup is competing at TechCrunch Disrupt's Startup Battlefield."
+          },
+          {
+            "title": "Pluto Security raises $42M as AI gives enterprise security teams a new headache",
+            "link": "https://techcrunch.com/2026/10/13/pluto-security-raises-42m-as-ai-gives-enterprise-security-teams-a-new-headache/",
+            "date": "2026-10-13T17:18:25+00:00",
+            "summary": "The problem with giving everyone in a company access to AI tools is that people will use them in unexpected ways. And that fact is steadily seeding fears that companies now have new, gaping security holes in their systems or, at least, will soon."
+          },
+          {
+            "title": "Google Play now lets anyone build private, vibe-coded apps that run on Android",
+            "link": "https://techcrunch.com/2026/10/13/google-play-now-supports-private-vibe-coded-apps-built-just-for-you/",
+            "date": "2026-10-13T17:00:00+00:00",
+            "summary": "Google is making it easier to build and use personal Android apps created with AI, without having to make them available to everyone on the Play Store."
+          },
+          {
+            "title": "Satlyt, founded by a former Google and SpaceX product manager, raises $8M to run AI on satellites",
+            "link": "https://techcrunch.com/2026/10/13/satlyt-founded-by-a-former-google-and-spacex-product-manager-raises-8m-to-run-ai-on-satellites/",
+            "date": "2026-10-13T16:30:00+00:00",
+            "summary": "Satlyt wants to be the Android of orbital computing, offering open software that works on many companies' satellites, versus SpaceX's closed, all-in-one iPhone-style approach."
+          },
+          {
+            "title": "TechCrunch Disrupt 2026: Day 1",
+            "link": "https://techcrunch.com/2026/10/13/techcrunch-disrupt-2026-day-1/",
+            "date": "2026-10-13T14:00:00+00:00",
+            "summary": "TechCrunch Disrupt 2026 officially kicks off today. See what's in store for Day 1 (Oct. 13) at San Francisco's Moscone West. Don't miss it. Register for your pass now and meet 10,000+ tech leaders at the startup epicenter of the year."
+          },
+          {
+            "title": "SpaceXSI bundles X Premium, Grok, and Cursor into one subscription",
+            "link": "https://techcrunch.com/2026/10/13/spacexsi-bundles-x-premium-grok-and-cursor-into-one-subscription/",
+            "date": "2026-10-13T13:50:19+00:00",
+            "summary": "The new X Subscription combines X's paid features with AI tools like Grok and Cursor, offering plans ranging from $8 to $200 per month."
+          },
+          {
+            "title": "The final Disrupt Stage lineup: Three days of conversations you won’t hear anywhere outside of TechCrunch Disrupt 2026",
+            "link": "https://techcrunch.com/2026/10/13/the-final-disrupt-stage-lineup-three-days-of-conversations-you-wont-hear-anywhere-outside-of-techcrunch-disrupt-2026/",
+            "date": "2026-10-13T13:28:06+00:00",
+            "summary": "The full TechCrunch Disrupt Stage lineup revealed, featuring Max Hodak, Mark Wahlberg, Benchmark partners, and more. Register now to save up to $100 on your pass and get a second at 50% off."
+          },
+          {
+            "title": "Amex introduces a framework to prevent AI agents from making unauthorized purchases",
+            "link": "https://techcrunch.com/2026/10/13/amex-introduces-a-framework-to-prevent-ai-agents-from-making-unauthorized-purchases/",
+            "date": "2026-10-13T13:00:00+00:00",
+            "summary": "American Express is introducing a new framework designed to ensure AI agents only make purchases their users have authorized, potentially preventing costly mistakes and disputes as AI-powered shopping grows."
+          },
+          {
+            "title": "Just 5 years in, interactive chatbot platform Character.AI files for bankruptcy",
+            "link": "https://techcrunch.com/2026/10/13/just-5-years-in-interactive-chatbot-platform-character-ai-files-for-bankruptcy/",
+            "date": "2026-10-13T12:23:42+00:00",
+            "summary": "The startup will sell some of its assets to Disney for $20 million."
+          },
           {
             "title": "Meta releases its first frontier model, Muse Wonder",
             "link": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/",
             "date": "2026-10-12T17:56:56+00:00",
             "summary": "Where Muse Spark aimed to be a lightweight model that could perform at low latency, the Wonder models are larger and said to be more capable, with higher benchmark scores and better results on complex tasks like coding."
-          },
-          {
-            "title": "WindBorne wins a hefty US Air Force contract for its balloon data",
-            "link": "https://techcrunch.com/2026/10/12/windborne-wins-a-hefty-us-air-force-contract-for-its-balloon-data/",
-            "date": "2026-10-12T17:19:14+00:00",
-            "summary": "A Silicon Valley startup that uses weather balloons and AI to predict the weather won a U.S. military contract worth almost $50 million."
-          },
-          {
-            "title": "Honeyjar offers AI tools to improve PR and comms at every company",
-            "link": "https://techcrunch.com/2026/10/12/honeyjar-offers-ai-tools-to-improve-pr-and-comms-at-every-company/",
-            "date": "2026-10-12T15:45:00+00:00",
-            "summary": "Journalists, entrepreneurs, and even some public relations professionals will tell you that the PR process is broken. But could AI actually make things better?"
-          },
-          {
-            "title": "Microsoft president says UK is best placed to drive AI regulation",
-            "link": "https://techcrunch.com/2026/10/12/microsoft-president-says-uk-is-best-placed-to-drive-ai-regulation/",
-            "date": "2026-10-12T15:31:19+00:00",
-            "summary": "Microsoft president Brad Smith calls for urgent AI regulation, saying milk and washing machines have more oversight than AI companies."
-          },
-          {
-            "title": "This AI startup says it can generate permit-ready blueprints in minutes",
-            "link": "https://techcrunch.com/2026/10/12/this-ai-startup-says-it-can-generate-permit-ready-blueprints-in-minutes/",
-            "date": "2026-10-12T15:27:59+00:00",
-            "summary": "Blueprints AI, a bootstrapped startup based in Santa Monica, developed software that produces code-compliant construction blueprints from a photo, PDF, or sketch."
-          },
-          {
-            "title": "TechCrunch Disrupt 2026 starts tomorrow: Your final chance to secure up to $100 ticket savings",
-            "link": "https://techcrunch.com/2026/10/12/techcrunch-disrupt-2026-starts-tomorrow-your-final-chance-to-secure-up-to-100-ticket-savings/",
-            "date": "2026-10-12T14:00:00+00:00",
-            "summary": "Tomorrow at 8 a.m. PT, it all begins z— 10,000+ founders, investors, and tech operators will gather at San Francisco’s Moscone West for TechCrunch Disrupt 2026 for three days of ideas, connections, and startups shaping what comes next. This is your last 24 hours to secure ticket savings of up to $10"
-          },
-          {
-            "title": "Former Plaud exec raises $26M for AI app that listens to you in the background",
-            "link": "https://techcrunch.com/2026/10/12/former-plaud-exec-raises-26m-for-ai-app-that-listens-to-you-in-the-background/",
-            "date": "2026-10-12T12:47:59+00:00",
-            "summary": "One of the core promises of AI is that the more it knows about a person, the better it will be able to assist them with tasks and make appropriate suggestions, which, if you'll believe the tech companies, requires apps and devices to listen, watch, or record users' activity all the time and gather a"
-          },
-          {
-            "title": "Will the HomeView be Apple’s first smart home success?",
-            "link": "https://techcrunch.com/2026/10/11/will-the-homeview-be-apples-first-smart-home-success/",
-            "date": "2026-10-11T21:14:40+00:00",
-            "summary": "Over the past couple of years, we’ve seen multiple reports that Apple was working on a new smart home product, but now it seems the product has a name and a launch date."
-          },
-          {
-            "title": "48 hours to TechCrunch Disrupt 2026 — hear directly from the people building what’s next",
-            "link": "https://techcrunch.com/2026/10/11/48-hours-to-techcrunch-disrupt-2026-hear-directly-from-the-people-building-whats-next/",
-            "date": "2026-10-11T19:00:00+00:00",
-            "summary": "Less than 48 hours, TechCrunch Disrupt 2026 starts in San Francisco’s Moscone West. Save up to $100 on your pass before prices increase at the door, plus get 50% on a second pass. Or score other deals."
-          },
-          {
-            "title": "Can the AI industry persuade data center opponents by getting rid of NDAs?",
-            "link": "https://techcrunch.com/2026/10/11/can-the-ai-industry-persuade-data-center-opponents-by-getting-rid-of-ndas/",
-            "date": "2026-10-11T16:52:33+00:00",
-            "summary": "On Equity, we debate the impact of data center moratoriums and whether the AI industry has a communication problem."
           }
         ]
       },
@@ -2708,7 +2708,7 @@
         "home": "https://techcrunch.com/tag/funding/",
         "url": "https://techcrunch.com/tag/funding/feed/",
         "status": "ok",
-        "fetchedAt": "2026-10-13T10:12:52.948147+00:00",
+        "fetchedAt": "2026-10-13T17:59:13.151397+00:00",
         "items": [
           {
             "title": "Viral AI startup Instinct has raised $350M at a $2.5B valuation",
@@ -2811,7 +2811,7 @@
         "home": "https://www.bestblogs.dev/",
         "url": "https://www.bestblogs.dev/zh/feeds/rss?category=ai&minScore=90",
         "status": "ok",
-        "fetchedAt": "2026-10-13T10:12:53.202142+00:00",
+        "fetchedAt": "2026-10-13T17:59:13.914399+00:00",
         "items": [
           {
             "title": "QwenGyre：开启长程智能体强化学习",
@@ -2879,6 +2879,496 @@
   },
   "allItems": [
     {
+      "title": "Laplace Intelligence red-teams robots and self-driving cars before they hit the real world",
+      "link": "https://techcrunch.com/2026/10/13/laplace-intelligence-red-teams-robots-and-self-driving-cars-before-they-hit-the-real-world/",
+      "date": "2026-10-13T17:30:00+00:00",
+      "summary": "University of Michigan spinout Laplace Intelligence uses AI agents and interactive simulation to stress-test robots and self-driving vehicles before deployment. The profitable startup is competing at TechCrunch Disrupt's Startup Battlefield.",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "Laplace Intelligence red-teams robots and self-driving cars before they hit the real world",
+      "link": "https://techcrunch.com/2026/10/13/laplace-intelligence-red-teams-robots-and-self-driving-cars-before-they-hit-the-real-world/",
+      "date": "2026-10-13T17:30:00+00:00",
+      "summary": "University of Michigan spinout Laplace Intelligence uses AI agents and interactive simulation to stress-test robots and self-driving vehicles before deployment. The profitable startup is competing at TechCrunch Disrupt's Startup Battlefield.",
+      "feedId": "techcrunch-ai",
+      "feedTitle": "TechCrunch AI",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
+    },
+    {
+      "title": "Pluto Security raises $42M as AI gives enterprise security teams a new headache",
+      "link": "https://techcrunch.com/2026/10/13/pluto-security-raises-42m-as-ai-gives-enterprise-security-teams-a-new-headache/",
+      "date": "2026-10-13T17:18:25+00:00",
+      "summary": "The problem with giving everyone in a company access to AI tools is that people will use them in unexpected ways. And that fact is steadily seeding fears that companies now have new, gaping security holes in their systems or, at least, will soon.",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "Pluto Security raises $42M as AI gives enterprise security teams a new headache",
+      "link": "https://techcrunch.com/2026/10/13/pluto-security-raises-42m-as-ai-gives-enterprise-security-teams-a-new-headache/",
+      "date": "2026-10-13T17:18:25+00:00",
+      "summary": "The problem with giving everyone in a company access to AI tools is that people will use them in unexpected ways. And that fact is steadily seeding fears that companies now have new, gaping security holes in their systems or, at least, will soon.",
+      "feedId": "techcrunch-ai",
+      "feedTitle": "TechCrunch AI",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
+    },
+    {
+      "title": "Coris (YC S22) Is Hiring Back End Engineer",
+      "link": "https://www.ycombinator.com/companies/coris/jobs/h0nDly8-backend-engineer-ai-native-risk-infrastructure-integrations",
+      "date": "2026-10-13T17:00:39+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "MIT startup says it can turn diesel trucks into cheaper hydrogen haulers — see it at Disrupt",
+      "link": "https://techcrunch.com/2026/10/13/mit-startup-says-it-can-turn-diesel-trucks-into-cheaper-hydrogen-haulers-see-it-at-disrupt/",
+      "date": "2026-10-13T17:00:00+00:00",
+      "summary": "Diesel is expensive and polluting, and LNK Energies says it has come up with a way to replace it with hydrogen, all while undercutting diesel on cost.",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "Google Play now lets anyone build private, vibe-coded apps that run on Android",
+      "link": "https://techcrunch.com/2026/10/13/google-play-now-supports-private-vibe-coded-apps-built-just-for-you/",
+      "date": "2026-10-13T17:00:00+00:00",
+      "summary": "Google is making it easier to build and use personal Android apps created with AI, without having to make them available to everyone on the Play Store.",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "Google Play now lets anyone build private, vibe-coded apps that run on Android",
+      "link": "https://techcrunch.com/2026/10/13/google-play-now-supports-private-vibe-coded-apps-built-just-for-you/",
+      "date": "2026-10-13T17:00:00+00:00",
+      "summary": "Google is making it easier to build and use personal Android apps created with AI, without having to make them available to everyone on the Play Store.",
+      "feedId": "techcrunch-ai",
+      "feedTitle": "TechCrunch AI",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
+    },
+    {
+      "title": "Gemini 4 Argon for Robotics",
+      "link": "https://developers.googleblog.com/gemini-4-argon-for-robotics/",
+      "date": "2026-10-13T16:55:47+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "Satlyt, founded by a former Google and SpaceX product manager, raises $8M to run AI on satellites",
+      "link": "https://techcrunch.com/2026/10/13/satlyt-founded-by-a-former-google-and-spacex-product-manager-raises-8m-to-run-ai-on-satellites/",
+      "date": "2026-10-13T16:30:00+00:00",
+      "summary": "Satlyt wants to be the Android of orbital computing, offering open software that works on many companies' satellites, versus SpaceX's closed, all-in-one iPhone-style approach.",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "Satlyt, founded by a former Google and SpaceX product manager, raises $8M to run AI on satellites",
+      "link": "https://techcrunch.com/2026/10/13/satlyt-founded-by-a-former-google-and-spacex-product-manager-raises-8m-to-run-ai-on-satellites/",
+      "date": "2026-10-13T16:30:00+00:00",
+      "summary": "Satlyt wants to be the Android of orbital computing, offering open software that works on many companies' satellites, versus SpaceX's closed, all-in-one iPhone-style approach.",
+      "feedId": "techcrunch-ai",
+      "feedTitle": "TechCrunch AI",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
+    },
+    {
+      "title": "Cyberattack halts construction of tunnel between Denmark and Germany",
+      "link": "https://ua.news/en/world/kiberataka-zupinila-budivnitstvo-tuneliu-mizh-daniieiu-ta-nimechchinoiu-rmf24",
+      "date": "2026-10-13T16:24:15+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "Gemini 4 Argon",
+      "link": "https://deepmind.google/models/gemini/",
+      "date": "2026-10-13T16:03:16+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "Gemini 4 Argon for Robotics",
+      "link": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
+      "date": "2026-10-13T16:01:58+00:00",
+      "summary": "",
+      "feedId": "deepmind",
+      "feedTitle": "DeepMind Blog",
+      "category": "AI & LLM",
+      "feedHome": "https://deepmind.google/blog/"
+    },
+    {
+      "title": "Gemini 4 Argon: Built to solve your hardest problems",
+      "link": "https://deepmind.google/blog/introducing-gemini-4-argon/",
+      "date": "2026-10-13T16:01:52+00:00",
+      "summary": "",
+      "feedId": "deepmind",
+      "feedTitle": "DeepMind Blog",
+      "category": "AI & LLM",
+      "feedHome": "https://deepmind.google/blog/"
+    },
+    {
+      "title": "I posted to HN, and then my website was flooded with AI bot traffic",
+      "link": "https://www.sammystraus.com/#i-posted-to-hn-and-then-my-website-was-flooded-with-ai-bot-traffic",
+      "date": "2026-10-13T15:25:50+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "Thunderbird for iOS",
+      "link": "https://blog.thunderbird.net/2026/10/thunderbird-for-ios-a-first-look-at-the-native-iphone-email-app-in-development/",
+      "date": "2026-10-13T15:07:37+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "The 2026 Startup Battlefield Top 20: From organs to orbit and everything in between",
+      "link": "https://techcrunch.com/2026/10/13/the-2026-startup-battlefield-top-20-from-organs-to-orbit-and-everything-in-between/",
+      "date": "2026-10-13T15:02:00+00:00",
+      "summary": "Twenty founders just earned their shot at Disrupt glory. They're headed to the main stage at TechCrunch Disrupt to compete for the $100,000 prize and the coveted Disrupt Cup.",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "Apple HomeView",
+      "link": "https://www.apple.com/newsroom/2026/10/meet-apple-homeview-a-new-way-to-enjoy-entertainment-and-manage-the-home/",
+      "date": "2026-10-13T14:52:25+00:00",
+      "summary": "Apple Newsroom: Apple today introduced Apple HomeView, designed to be central to the home and personal to everyone in it. With a stunning 7-inch Liquid Retina display, HomeView brings entertainment, connection, and smart home management together in one place, from playing music and making FaceTime c",
+      "feedId": "daringfireball",
+      "feedTitle": "Daring Fireball",
+      "category": "Tech Blogs",
+      "feedHome": "https://daringfireball.net/"
+    },
+    {
+      "title": "Spotify users on iOS 27 can now ask Siri to play music without having to say ‘on Spotify’",
+      "link": "https://techcrunch.com/2026/10/13/spotify-users-on-ios-27-can-now-ask-siri-to-play-music-without-having-to-say-on-spotify/",
+      "date": "2026-10-13T14:30:12+00:00",
+      "summary": "Siri can now learn users' preferred music app, allowing Spotify listeners to request songs, podcasts, and playlists without specifying which app to use.",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "Bumble agrees to a $1.3B acquisition deal as online dating faces a reset",
+      "link": "https://techcrunch.com/2026/10/13/bumble-agrees-to-a-1-3b-acquisition-deal-as-online-dating-faces-a-reset/",
+      "date": "2026-10-13T14:25:48+00:00",
+      "summary": "After years of declining subscriber numbers and falling revenue, Bumble just agreed to a $1.3 billion acquisition.",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "C++ futures part 2: The mental model for std::promise, std::packaged_task",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20261013-00/?p=112769/",
+      "date": "2026-10-13T14:00:00+00:00",
+      "summary": "Building things out of the state. The post C++ futures part 2: The mental model for &lt;CODE&gt;std::promise&lt;/CODE&gt;, &lt;CODE&gt;std::packaged_task&lt;/CODE&gt; appeared first on The Old New Thing.",
+      "feedId": "oldnewthing",
+      "feedTitle": "The Old New Thing",
+      "category": "Tech Blogs",
+      "feedHome": "https://devblogs.microsoft.com/oldnewthing/"
+    },
+    {
+      "title": "TechCrunch Disrupt 2026: Day 1",
+      "link": "https://techcrunch.com/2026/10/13/techcrunch-disrupt-2026-day-1/",
+      "date": "2026-10-13T14:00:00+00:00",
+      "summary": "TechCrunch Disrupt 2026 officially kicks off today. See what's in store for Day 1 (Oct. 13) at San Francisco's Moscone West. Don't miss it. Register for your pass now and meet 10,000+ tech leaders at the startup epicenter of the year.",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "TechCrunch Disrupt 2026: Day 1",
+      "link": "https://techcrunch.com/2026/10/13/techcrunch-disrupt-2026-day-1/",
+      "date": "2026-10-13T14:00:00+00:00",
+      "summary": "TechCrunch Disrupt 2026 officially kicks off today. See what's in store for Day 1 (Oct. 13) at San Francisco's Moscone West. Don't miss it. Register for your pass now and meet 10,000+ tech leaders at the startup epicenter of the year.",
+      "feedId": "techcrunch-ai",
+      "feedTitle": "TechCrunch AI",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
+    },
+    {
+      "title": "Sources: Decagon, which offers AI customer service agents and was last valued at $4.5B, hired a bank and is in early talks with buyers, including ServiceNow (Katie Roof/Business Insider)",
+      "link": "https://www.techmeme.com/261013/p36#a261013p36",
+      "date": "2026-10-13T13:55:52-04:00",
+      "summary": "Katie Roof / Business Insider: Sources: Decagon, which offers AI customer service agents and was last valued at $4.5B, hired a bank and is in early talks with buyers, including ServiceNow&nbsp; &mdash;&nbsp; Buzzy AI agent startup Decagon could be the latest company swept up in a growing wave of AI ",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
+      "title": "SpaceXSI bundles X Premium, Grok, and Cursor into one subscription",
+      "link": "https://techcrunch.com/2026/10/13/spacexsi-bundles-x-premium-grok-and-cursor-into-one-subscription/",
+      "date": "2026-10-13T13:50:19+00:00",
+      "summary": "The new X Subscription combines X's paid features with AI tools like Grok and Cursor, offering plans ranging from $8 to $200 per month.",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "SpaceXSI bundles X Premium, Grok, and Cursor into one subscription",
+      "link": "https://techcrunch.com/2026/10/13/spacexsi-bundles-x-premium-grok-and-cursor-into-one-subscription/",
+      "date": "2026-10-13T13:50:19+00:00",
+      "summary": "The new X Subscription combines X's paid features with AI tools like Grok and Cursor, offering plans ranging from $8 to $200 per month.",
+      "feedId": "techcrunch-ai",
+      "feedTitle": "TechCrunch AI",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
+    },
+    {
+      "title": "Pluto Security, which monitors AI agents and vibe-coded apps, exits stealth with $42M, including a $34M Series A, and says it has hit $2M+ in ARR since April (Ram Iyer/TechCrunch)",
+      "link": "https://www.techmeme.com/261013/p35#a261013p35",
+      "date": "2026-10-13T13:50:01-04:00",
+      "summary": "Ram Iyer / TechCrunch: Pluto Security, which monitors AI agents and vibe-coded apps, exits stealth with $42M, including a $34M Series A, and says it has hit $2M+ in ARR since April&nbsp; &mdash;&nbsp; The problem with giving everyone in a company access to AI tools is that people will use them in un",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
+      "title": "Harmonic triangle",
+      "link": "https://www.johndcook.com/blog/2026/10/13/harmonic-triangle/",
+      "date": "2026-10-13T13:45:18+00:00",
+      "summary": "Pascal&#8217;s triangle is the most famous triangular arrangement of numbers. I&#8217;ve written about other numerical triangles, such as Bell&#8217;s triangle and the trinomial triangle. There&#8217;s another well-known triangle that somehow I never heard of until recently: the harmonic triangle, f",
+      "feedId": "johndcook",
+      "feedTitle": "John D. Cook",
+      "category": "Tech Blogs",
+      "feedHome": "https://www.johndcook.com/"
+    },
+    {
+      "title": "Google says users with a standard account can now build personal Android apps for free in AI Studio and will be able to share them with friends in coming months (Artie Beaty/ZDNET)",
+      "link": "https://www.techmeme.com/261013/p34#a261013p34",
+      "date": "2026-10-13T13:35:02-04:00",
+      "summary": "Artie Beaty / ZDNET: Google says users with a standard account can now build personal Android apps for free in AI Studio and will be able to share them with friends in coming months&nbsp; &mdash;&nbsp; It just got a whole lot easier to vibe code the exact Android app you need - no developer experien",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
+      "title": "Quoting Geoffrey Huntley",
+      "link": "https://simonwillison.net/2026/Oct/13/geoffrey-huntley/",
+      "date": "2026-10-13T13:32:00+00:00",
+      "summary": "If the agent isn't using my diagnostics library, I could introspect and update AGENTS.md, but there's still a delta, and it'll drift. Instead, I write a pre-commit hook that checks the git diff for direct calls to observability modules that bypass my diagnostics module. Boom: fail the commit, inject",
+      "feedId": "simonwillison",
+      "feedTitle": "Simon Willison",
+      "category": "AI & LLM",
+      "feedHome": "https://simonwillison.net/"
+    },
+    {
+      "title": "The final Disrupt Stage lineup: Three days of conversations you won’t hear anywhere outside of TechCrunch Disrupt 2026",
+      "link": "https://techcrunch.com/2026/10/13/the-final-disrupt-stage-lineup-three-days-of-conversations-you-wont-hear-anywhere-outside-of-techcrunch-disrupt-2026/",
+      "date": "2026-10-13T13:28:06+00:00",
+      "summary": "The full TechCrunch Disrupt Stage lineup revealed, featuring Max Hodak, Mark Wahlberg, Benchmark partners, and more. Register now to save up to $100 on your pass and get a second at 50% off.",
+      "feedId": "techcrunch-ai",
+      "feedTitle": "TechCrunch AI",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
+    },
+    {
+      "title": "Meta expands its AI-powered \"Your Algorithm\" feature from Instagram to Facebook and Facebook Reels and says it is using LLMs more in its ranking systems (Stevie Bonifield/The Verge)",
+      "link": "https://www.techmeme.com/261013/p33#a261013p33",
+      "date": "2026-10-13T13:25:51-04:00",
+      "summary": "Stevie Bonifield / The Verge: Meta expands its AI-powered &ldquo;Your Algorithm&rdquo; feature from Instagram to Facebook and Facebook Reels and says it is using LLMs more in its ranking systems&nbsp; &mdash;&nbsp; Meta's bringing Instagram's &ldquo;Your Algorithm&rdquo; feature to Facebook, and usi",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
+      "title": "Meta says hackers stole some code and personal data of roughly 1,500 people, most of them employees in the US, after compromising some of its GitHub repos (Eduard Kovacs/SecurityWeek)",
+      "link": "https://www.techmeme.com/261013/p32#a261013p32",
+      "date": "2026-10-13T13:10:47-04:00",
+      "summary": "Eduard Kovacs / SecurityWeek: Meta says hackers stole some code and personal data of roughly 1,500 people, most of them employees in the US, after compromising some of its GitHub repos&nbsp; &mdash;&nbsp; Most of the affected individuals are Meta employees in the United States and they are being off",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
+      "title": "Apple HomeView",
+      "link": "https://www.apple.com/apple-homeview/",
+      "date": "2026-10-13T13:02:12+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "Subterranean Warfare – An Urgent DoW Need Without An Owner",
+      "link": "https://steveblank.com/2026/10/13/subterranean-warfare-an-urgent-dow-need-without-an-owner/",
+      "date": "2026-10-13T13:00:19+00:00",
+      "summary": "This article previously appeared in Cipher Brief. The DoW urgently needs to organize its scattered subterranean warfare assets into a single unified organization. Ideally, a Direct Reporting Portfolio Manager (DRPM) for Subterranean Warfare, reporting to the Deputy Secretary of War. (The Department ",
+      "feedId": "steveblank",
+      "feedTitle": "Steve Blank",
+      "category": "Tech Blogs",
+      "feedHome": "https://steveblank.com/"
+    },
+    {
+      "title": "Amex introduces a framework to prevent AI agents from making unauthorized purchases",
+      "link": "https://techcrunch.com/2026/10/13/amex-introduces-a-framework-to-prevent-ai-agents-from-making-unauthorized-purchases/",
+      "date": "2026-10-13T13:00:00+00:00",
+      "summary": "American Express is introducing a new framework designed to ensure AI agents only make purchases their users have authorized, potentially preventing costly mistakes and disputes as AI-powered shopping grows.",
+      "feedId": "techcrunch-ai",
+      "feedTitle": "TechCrunch AI",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
+    },
+    {
+      "title": "Just 5 years in, interactive chatbot platform Character.AI files for bankruptcy",
+      "link": "https://techcrunch.com/2026/10/13/just-5-years-in-interactive-chatbot-platform-character-ai-files-for-bankruptcy/",
+      "date": "2026-10-13T12:23:42+00:00",
+      "summary": "The startup will sell some of its assets to Disney for $20 million.",
+      "feedId": "techcrunch-ai",
+      "feedTitle": "TechCrunch AI",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
+    },
+    {
+      "title": "Apple says HomeView's facial recognition works only if users have a \"registered personal device\" with Apple Intelligence and Siri AI on the same Wi-Fi network (John Gruber/Daring Fireball)",
+      "link": "https://www.techmeme.com/261013/p31#a261013p31",
+      "date": "2026-10-13T12:20:01-04:00",
+      "summary": "John Gruber / Daring Fireball: Apple says HomeView's facial recognition works only if users have a &ldquo;registered personal device&rdquo; with Apple Intelligence and Siri AI on the same Wi-Fi network&nbsp; &mdash;&nbsp; Apple Newsroom: &hellip; Your first question might be how this facial recognit",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
+      "title": "Google rolls out Gemini 4 Argon globally via the Gemini API and to Google AI Pro subscribers in the Gemini app and AI Mode, and in Antigravity for Ultra users (Robert Hart/The Verge)",
+      "link": "https://www.techmeme.com/261013/p30#a261013p30",
+      "date": "2026-10-13T12:08:15-04:00",
+      "summary": "Robert Hart / The Verge: Google rolls out Gemini 4 Argon globally via the Gemini API and to Google AI Pro subscribers in the Gemini app and AI Mode, and in Antigravity for Ultra users&nbsp; &mdash;&nbsp; After months of trailing its rivals, Google says Argon competes with the industry's best.",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
+      "title": "Firefox Enterprise",
+      "link": "https://www.firefox.com/en-US/enterprise/",
+      "date": "2026-10-13T12:00:42+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "Anthropic co-founder Jack Clark says \"I now think it's more likely we'll see full RSI become possible in 2027\", earlier than his previous prediction of 2028 (Jack Clark/Import AI)",
+      "link": "https://www.techmeme.com/261013/p29#a261013p29",
+      "date": "2026-10-13T11:55:44-04:00",
+      "summary": "Jack Clark / Import AI: Anthropic co-founder Jack Clark says &ldquo;I now think it's more likely we'll see full RSI become possible in 2027&rdquo;, earlier than his previous prediction of 2028&nbsp; &mdash;&nbsp; Will we give robots the moon?&nbsp; &mdash;&nbsp; Welcome to Import AI, a newsletter ab",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
+      "title": "Pluralistic: Bundestrojaner (13 Oct 2026)",
+      "link": "https://pluralistic.net/2026/10/13/petards-r-us/",
+      "date": "2026-10-13T11:50:19+00:00",
+      "summary": "Today's links Bundestrojaner: You can't make people more secure by making them less secure. Hey look at this: Delights to delectate. Object permanence: 9/11 sitcom; Jon Norman v Philcon; Bruce Sterling's post-9/11 geopolitics; Polaroid bankrupt; David Mamet x Shel Silverstein; \"Great Big Beautiful T",
+      "feedId": "pluralistic",
+      "feedTitle": "Pluralistic",
+      "category": "Tech Blogs",
+      "feedHome": "https://pluralistic.net/"
+    },
+    {
+      "title": "Book Review: The Thousand Deaths of Romeo and Juliet - Caroline Finch ★★★★★",
+      "link": "https://shkspr.mobi/blog/2026/10/book-review-the-thousand-deaths-of-romeo-and-juliet-caroline-finch/",
+      "date": "2026-10-13T11:34:37+00:00",
+      "summary": "The thing about Romeo and Juliet is that it is a true story. It isn&#039;t literally true, but it is literary true. We see the same motif repeated throughout all cultures and all times. Caroline Lea (writing as Caroline Finch) asks an important question - what if every pair of star-cross&#039;d love",
+      "feedId": "shkspr",
+      "feedTitle": "Terence Eden",
+      "category": "Tech Blogs",
+      "feedHome": "https://shkspr.mobi/blog/"
+    },
+    {
+      "title": "We turned EmbeddingGemma 2 into a speech-to-text model",
+      "link": "https://eg2.haku.sh/",
+      "date": "2026-10-13T11:27:14+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "Scuba, which is building a \"context engine\" designed to serve as a shared memory hub for human workers and AI agents, raised $34M across pre-seed and seed (Alex Konrad/Upstarts Media)",
+      "link": "https://www.techmeme.com/261013/p28#a261013p28",
+      "date": "2026-10-13T11:10:55-04:00",
+      "summary": "Alex Konrad / Upstarts Media: Scuba, which is building a &ldquo;context engine&rdquo; designed to serve as a shared memory hub for human workers and AI agents, raised $34M across pre-seed and seed&nbsp; &mdash;&nbsp; When they were leaders at Slack, Noah Desai Weiss and Dolapo Falola worked on softw",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
+      "title": "Weekly Update 525: AI Data Breach Hyperbole",
+      "link": "https://www.troyhunt.com/weekly-update-525/",
+      "date": "2026-10-13T10:47:27+00:00",
+      "summary": "I remember the name of that AI doco now - The AI Doc: Or How I Became an Apocaloptimist. I was watching it on the long-haul flight home the other day, and what I found particularly engrossing was the polar-opposite opinions from a bunch of people: &quot;it&apos;",
+      "feedId": "troyhunt",
+      "feedTitle": "Troy Hunt",
+      "category": "Tech Blogs",
+      "feedHome": "https://www.troyhunt.com/"
+    },
+    {
+      "title": "Bumble says Ithaca Holdings will pay $6.05 per share, a 138% premium to Bumble's Friday close; BMBL jumps 56% to $5.94, after a 50% jump Monday on sale reports (Bloomberg)",
+      "link": "https://www.techmeme.com/261013/p27#a261013p27",
+      "date": "2026-10-13T10:45:00-04:00",
+      "summary": "Bloomberg: Bumble says Ithaca Holdings will pay $6.05 per share, a 138% premium to Bumble's Friday close; BMBL jumps 56% to $5.94, after a 50% jump Monday on sale reports&nbsp; &mdash;&nbsp; Bumble Inc. is being taken private by newly formed firm Ithaca Holdings for $1.3 billion, a fraction of its v",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
+      "title": "11 year old unsoundness bugs found in Rust borrow checker",
+      "link": "https://github.com/rust-lang/rust/issues/164250",
+      "date": "2026-10-13T10:27:00+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
       "title": "The Last Answer",
       "link": "https://idiallo.com/blog/the-last-answer",
       "date": "2026-10-13T10:00:00+00:00",
@@ -2887,136 +3377,6 @@
       "feedTitle": "Ibrahim Diallo",
       "category": "Tech Blogs",
       "feedHome": "https://idiallo.com/"
-    },
-    {
-      "title": "Were Software Engineers blue-collar workers all along?",
-      "link": "https://ptrbrynt.com/posts/were-we-blue-collar-workers-all-along",
-      "date": "2026-10-13T09:25:10+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
-      "title": "Document Review with Unsiloed and TypeSafe Jev",
-      "link": "https://www.unsiloed.ai/blog/document-review-unsiloed-typesafe-jev",
-      "date": "2026-10-13T08:24:51+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
-      "title": "Alibaba unveils its next-gen Qwen Glasses N1, starting at ~$450, with 50MP cameras, sensors, and eye-tracking on the ~$520 Pro model, and Qwen Clip AI earbuds (Bloomberg)",
-      "link": "https://www.techmeme.com/261013/p11#a261013p11",
-      "date": "2026-10-13T06:10:00-04:00",
-      "summary": "Bloomberg: Alibaba unveils its next-gen Qwen Glasses N1, starting at ~$450, with 50MP cameras, sensors, and eye-tracking on the ~$520 Pro model, and Qwen Clip AI earbuds&nbsp; &mdash;&nbsp; Alibaba Group Holding Ltd. on Tuesday unveiled the new generation of its smart glasses, deepening its foray in",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "Hittite royal archive found in Turkey",
-      "link": "https://www.thehistoryblog.com/archives/77107",
-      "date": "2026-10-13T06:02:51+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
-      "title": "SpaceXSI launches a unified X Subscription bundling Grok, Cursor, and X Premium, with tiers at $8, $30, $100, and $200 per month; the $30 tier includes Grok Bot (Mariella Moon/Engadget)",
-      "link": "https://www.techmeme.com/261013/p10#a261013p10",
-      "date": "2026-10-13T06:01:05-04:00",
-      "summary": "Mariella Moon / Engadget: SpaceXSI launches a unified X Subscription bundling Grok, Cursor, and X Premium, with tiers at $8, $30, $100, and $200 per month; the $30 tier includes Grok Bot&nbsp; &mdash;&nbsp; One membership will give you access to SpaceXSI's products.&nbsp; &mdash;&nbsp; SpaceXSI has ",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "Sources: Chinese tech companies bought 1M+ Nvidia gaming and workstation chips, mostly RTX 5090 and RTX Pro, for basic AI workloads amid an AI chip shortage (Financial Times)",
-      "link": "https://www.techmeme.com/261013/p9#a261013p9",
-      "date": "2026-10-13T05:50:01-04:00",
-      "summary": "Financial Times: Sources: Chinese tech companies bought 1M+ Nvidia gaming and workstation chips, mostly RTX 5090 and RTX Pro, for basic AI workloads amid an AI chip shortage&nbsp; &mdash;&nbsp; The country's tech giants are snapping up products never designed for advanced AI to satisfy soaring compu",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "CXMT says it plans to launch a 4F² design DRAM chip for data center servers before the end of 2026, achieving a breakthrough that rivals have pursued for years (Bloomberg)",
-      "link": "https://www.techmeme.com/261013/p8#a261013p8",
-      "date": "2026-10-13T05:40:00-04:00",
-      "summary": "Bloomberg: CXMT says it plans to launch a 4F&sup2; design DRAM chip for data center servers before the end of 2026, achieving a breakthrough that rivals have pursued for years&nbsp; &mdash;&nbsp; CXMT Corp. declared it achieved a breakthrough in chip technology that rivals like Samsung Electronics C",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "IDC: China's Q3 smartphone shipments fell 15.4% YoY to 57.9M units, the sixth straight quarter of decline; Huawei led with a 21% share and Apple had 17.8% (Reuters)",
-      "link": "https://www.techmeme.com/261013/p7#a261013p7",
-      "date": "2026-10-13T04:25:01-04:00",
-      "summary": "Reuters: IDC: China's Q3 smartphone shipments fell 15.4% YoY to 57.9M units, the sixth straight quarter of decline; Huawei led with a 21% share and Apple had 17.8%&nbsp; &mdash;&nbsp; China's third-quarter smartphone shipments fell 15.4% from a year earlier to 57.9 million units, research firm IDC s",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "Singapore-based data center developer DayOne raises ~$3.67B, including a ~$2.4B offshore term loan facility, from seven banks to fund its Malaysia expansion (Jasmeen Ara Shaikh/Reuters)",
-      "link": "https://www.techmeme.com/261013/p6#a261013p6",
-      "date": "2026-10-13T04:05:01-04:00",
-      "summary": "Jasmeen Ara Shaikh / Reuters: Singapore-based data center developer DayOne raises ~$3.67B, including a ~$2.4B offshore term loan facility, from seven banks to fund its Malaysia expansion&nbsp; &mdash;&nbsp; Singapore-based data centre developer DayOne on Tuesday said it secured an additional 15 bill",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "A deep dive on Amazon's robotics efforts, resulting in 1M+ active warehouse robots; Amazon is still the world's 2nd-largest corporate employer with 1.5M workers (Jeremy Hsu/Ars Technica)",
-      "link": "https://www.techmeme.com/261013/p5#a261013p5",
-      "date": "2026-10-13T02:30:01-04:00",
-      "summary": "Jeremy Hsu / Ars Technica: A deep dive on Amazon's robotics efforts, resulting in 1M+ active warehouse robots; Amazon is still the world's 2nd-largest corporate employer with 1.5M workers&nbsp; &mdash;&nbsp; No organization in the world operates more robots than Amazon.&nbsp; The company already has",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "A global chip stock sell-off deepens after Broadcom's CEO likened AI investing to a casino, with Samsung down as much as 8.8%, SK Hynix down 9.2%, and Micron 4% (Financial Times)",
-      "link": "https://www.techmeme.com/261013/p4#a261013p4",
-      "date": "2026-10-13T01:05:01-04:00",
-      "summary": "Financial Times: A global chip stock sell-off deepens after Broadcom's CEO likened AI investing to a casino, with Samsung down as much as 8.8%, SK Hynix down 9.2%, and Micron 4%&nbsp; &mdash;&nbsp; Declines for Samsung and SK Hynix drag Kospi sharply lower as investors fret over scale of AI investme",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "Character.AI files for Chapter 11 bankruptcy in the US, agrees to sell some assets to Disney for $20M, and plans to keep operating as it completes the sale (Rhea Rose Abraham/Reuters)",
-      "link": "https://www.techmeme.com/261013/p3#a261013p3",
-      "date": "2026-10-13T00:55:02-04:00",
-      "summary": "Rhea Rose Abraham / Reuters: Character.AI files for Chapter 11 bankruptcy in the US, agrees to sell some assets to Disney for $20M, and plans to keep operating as it completes the sale&nbsp; &mdash;&nbsp; Character.AI said on Monday it had filed for Chapter 11 bankruptcy in the US and agreed to sell",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "IDC: Nvidia's AI chip shipments in China fell 44% YoY to 678K in H1 2026, as its market share slid to 34% amid US export curbs and rising domestic competition (Reuters)",
-      "link": "https://www.techmeme.com/261013/p2#a261013p2",
-      "date": "2026-10-13T00:45:01-04:00",
-      "summary": "Reuters: IDC: Nvidia's AI chip shipments in China fell 44% YoY to 678K in H1 2026, as its market share slid to 34% amid US export curbs and rising domestic competition&nbsp; &mdash;&nbsp; Nvidia's (NVDA.O) share of China's market for data-centre AI chips fell to 34% in the first half of 2026, as US ",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
     },
     {
       "title": "Faithfulness Without Anchors: A Position Paper on the Structural Misalignments of Explainable AI Faithfulness Metrics for Feature Importance",
@@ -3119,36 +3479,6 @@
       "feedHome": "https://arxiv.org/list/cs.AI/recent"
     },
     {
-      "title": "Janas: Run LLMs larger than RAM by streaming experts from SSD",
-      "link": "https://github.com/prabanta-dev/janas",
-      "date": "2026-10-12T22:05:43+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
-      "title": "Intel D270 GPU AI Accelerator–Up to 480 GB LPDDR5X",
-      "link": "https://www.intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/d-series.html",
-      "date": "2026-10-12T21:35:35+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
-      "title": "Who is vfmaddrnd231pd?",
-      "link": "https://purplesyringa.moe/blog/who-is-vfmaddrnd231pd/",
-      "date": "2026-10-12T21:12:43+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
       "title": "Mark Stephens, a.k.a. Robert X. Cringely, Died at 73",
       "link": "https://www.facebook.com/story.php?story_fbid=pfbid0YbCLrAJfBirAWuPBy4a7pauaQ6gHkAPUwtbzyg2wAjeMcruFC7dWUZKQJKkNChP9l&id=536506060&_rdr",
       "date": "2026-10-12T21:04:20+00:00",
@@ -3173,60 +3503,10 @@
       "link": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/",
       "date": "2026-10-12T17:56:56+00:00",
       "summary": "Where Muse Spark aimed to be a lightweight model that could perform at low latency, the Wonder models are larger and said to be more capable, with higher benchmark scores and better results on complex tasks like coding.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
-    },
-    {
-      "title": "Meta releases its first frontier model, Muse Wonder",
-      "link": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/",
-      "date": "2026-10-12T17:56:56+00:00",
-      "summary": "Where Muse Spark aimed to be a lightweight model that could perform at low latency, the Wonder models are larger and said to be more capable, with higher benchmark scores and better results on complex tasks like coding.",
       "feedId": "techcrunch-ai",
       "feedTitle": "TechCrunch AI",
       "category": "Startup & News",
       "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
-    },
-    {
-      "title": "WindBorne wins a hefty US Air Force contract for its balloon data",
-      "link": "https://techcrunch.com/2026/10/12/windborne-wins-a-hefty-us-air-force-contract-for-its-balloon-data/",
-      "date": "2026-10-12T17:19:14+00:00",
-      "summary": "A Silicon Valley startup that uses weather balloons and AI to predict the weather won a U.S. military contract worth almost $50 million.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
-    },
-    {
-      "title": "WindBorne wins a hefty US Air Force contract for its balloon data",
-      "link": "https://techcrunch.com/2026/10/12/windborne-wins-a-hefty-us-air-force-contract-for-its-balloon-data/",
-      "date": "2026-10-12T17:19:14+00:00",
-      "summary": "A Silicon Valley startup that uses weather balloons and AI to predict the weather won a U.S. military contract worth almost $50 million.",
-      "feedId": "techcrunch-ai",
-      "feedTitle": "TechCrunch AI",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
-    },
-    {
-      "title": "A Modern Web App in C",
-      "link": "https://prophitt.me/writing/a-modern-web-app-in-c",
-      "date": "2026-10-12T16:13:10+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
-      "title": "GLM-Legal",
-      "link": "https://z.ai/blog/glm-legal",
-      "date": "2026-10-12T16:11:45+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
     },
     {
       "title": "web-edit 0.1a0",
@@ -3239,76 +3519,6 @@
       "feedHome": "https://simonwillison.net/"
     },
     {
-      "title": "Honeyjar offers AI tools to improve PR and comms at every company",
-      "link": "https://techcrunch.com/2026/10/12/honeyjar-offers-ai-tools-to-improve-pr-and-comms-at-every-company/",
-      "date": "2026-10-12T15:45:00+00:00",
-      "summary": "Journalists, entrepreneurs, and even some public relations professionals will tell you that the PR process is broken. But could AI actually make things better?",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
-    },
-    {
-      "title": "Honeyjar offers AI tools to improve PR and comms at every company",
-      "link": "https://techcrunch.com/2026/10/12/honeyjar-offers-ai-tools-to-improve-pr-and-comms-at-every-company/",
-      "date": "2026-10-12T15:45:00+00:00",
-      "summary": "Journalists, entrepreneurs, and even some public relations professionals will tell you that the PR process is broken. But could AI actually make things better?",
-      "feedId": "techcrunch-ai",
-      "feedTitle": "TechCrunch AI",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
-    },
-    {
-      "title": "Microsoft president says UK is best placed to drive AI regulation",
-      "link": "https://techcrunch.com/2026/10/12/microsoft-president-says-uk-is-best-placed-to-drive-ai-regulation/",
-      "date": "2026-10-12T15:31:19+00:00",
-      "summary": "Microsoft president Brad Smith calls for urgent AI regulation, saying milk and washing machines have more oversight than AI companies.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
-    },
-    {
-      "title": "Microsoft president says UK is best placed to drive AI regulation",
-      "link": "https://techcrunch.com/2026/10/12/microsoft-president-says-uk-is-best-placed-to-drive-ai-regulation/",
-      "date": "2026-10-12T15:31:19+00:00",
-      "summary": "Microsoft president Brad Smith calls for urgent AI regulation, saying milk and washing machines have more oversight than AI companies.",
-      "feedId": "techcrunch-ai",
-      "feedTitle": "TechCrunch AI",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
-    },
-    {
-      "title": "This AI startup says it can generate permit-ready blueprints in minutes",
-      "link": "https://techcrunch.com/2026/10/12/this-ai-startup-says-it-can-generate-permit-ready-blueprints-in-minutes/",
-      "date": "2026-10-12T15:27:59+00:00",
-      "summary": "Blueprints AI, a bootstrapped startup based in Santa Monica, developed software that produces code-compliant construction blueprints from a photo, PDF, or sketch.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
-    },
-    {
-      "title": "This AI startup says it can generate permit-ready blueprints in minutes",
-      "link": "https://techcrunch.com/2026/10/12/this-ai-startup-says-it-can-generate-permit-ready-blueprints-in-minutes/",
-      "date": "2026-10-12T15:27:59+00:00",
-      "summary": "Blueprints AI, a bootstrapped startup based in Santa Monica, developed software that produces code-compliant construction blueprints from a photo, PDF, or sketch.",
-      "feedId": "techcrunch-ai",
-      "feedTitle": "TechCrunch AI",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
-    },
-    {
-      "title": "Fitbit Edge is Google’s middle ground between Fitbit Air and Pixel Watch",
-      "link": "https://techcrunch.com/2026/10/12/fitbit-edge-is-googles-middle-ground-between-fitbit-air-and-pixel-watch/",
-      "date": "2026-10-12T15:11:19+00:00",
-      "summary": "Google’s newest wearable costs $179.99 and has a sleek feel like the Fitbit Air but with an OLED display.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
-    },
-    {
       "title": "★ X Once Again Marks the Spot",
       "link": "https://daringfireball.net/2026/10/x_once_again_marks_the_spot",
       "date": "2026-10-12T15:09:33+00:00",
@@ -3317,16 +3527,6 @@
       "feedTitle": "Daring Fireball",
       "category": "Tech Blogs",
       "feedHome": "https://daringfireball.net/"
-    },
-    {
-      "title": "Smart ring maker Ultrahuman to roll out biological-age model across UAE",
-      "link": "https://techcrunch.com/2026/10/12/smart-ring-maker-ultrahuman-to-roll-out-biological-age-model-across-uae/",
-      "date": "2026-10-12T14:09:34+00:00",
-      "summary": "Ultrahuman and Abu Dhabi will spend the next two years working on research and clinical validation of the model.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
     },
     {
       "title": "C++ futures part 1: The mental model",
@@ -3339,26 +3539,6 @@
       "feedHome": "https://devblogs.microsoft.com/oldnewthing/"
     },
     {
-      "title": "TechCrunch Disrupt 2026 starts tomorrow: Your final chance to secure up to $100 ticket savings",
-      "link": "https://techcrunch.com/2026/10/12/techcrunch-disrupt-2026-starts-tomorrow-your-final-chance-to-secure-up-to-100-ticket-savings/",
-      "date": "2026-10-12T14:00:00+00:00",
-      "summary": "Tomorrow at 8 a.m. PT, it all begins z— 10,000+ founders, investors, and tech operators will gather at San Francisco’s Moscone West for TechCrunch Disrupt 2026 for three days of ideas, connections, and startups shaping what comes next. This is your last 24 hours to secure ticket savings of up to $10",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
-    },
-    {
-      "title": "TechCrunch Disrupt 2026 starts tomorrow: Your final chance to secure up to $100 ticket savings",
-      "link": "https://techcrunch.com/2026/10/12/techcrunch-disrupt-2026-starts-tomorrow-your-final-chance-to-secure-up-to-100-ticket-savings/",
-      "date": "2026-10-12T14:00:00+00:00",
-      "summary": "Tomorrow at 8 a.m. PT, it all begins z— 10,000+ founders, investors, and tech operators will gather at San Francisco’s Moscone West for TechCrunch Disrupt 2026 for three days of ideas, connections, and startups shaping what comes next. This is your last 24 hours to secure ticket savings of up to $10",
-      "feedId": "techcrunch-ai",
-      "feedTitle": "TechCrunch AI",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
-    },
-    {
       "title": "Categorical models of logics",
       "link": "https://www.johndcook.com/blog/2026/10/12/categorical-models-of-logics/",
       "date": "2026-10-12T13:04:09+00:00",
@@ -3367,36 +3547,6 @@
       "feedTitle": "John D. Cook",
       "category": "Tech Blogs",
       "feedHome": "https://www.johndcook.com/"
-    },
-    {
-      "title": "Former Plaud exec raises $26M for AI app that listens to you in the background",
-      "link": "https://techcrunch.com/2026/10/12/former-plaud-exec-raises-26m-for-ai-app-that-listens-to-you-in-the-background/",
-      "date": "2026-10-12T12:47:59+00:00",
-      "summary": "One of the core promises of AI is that the more it knows about a person, the better it will be able to assist them with tasks and make appropriate suggestions, which, if you'll believe the tech companies, requires apps and devices to listen, watch, or record users' activity all the time and gather a",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
-    },
-    {
-      "title": "Former Plaud exec raises $26M for AI app that listens to you in the background",
-      "link": "https://techcrunch.com/2026/10/12/former-plaud-exec-raises-26m-for-ai-app-that-listens-to-you-in-the-background/",
-      "date": "2026-10-12T12:47:59+00:00",
-      "summary": "One of the core promises of AI is that the more it knows about a person, the better it will be able to assist them with tasks and make appropriate suggestions, which, if you'll believe the tech companies, requires apps and devices to listen, watch, or record users' activity all the time and gather a",
-      "feedId": "techcrunch-ai",
-      "feedTitle": "TechCrunch AI",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
-    },
-    {
-      "title": "Hackers activate automatic defrosting in supermarket fridges across Europe",
-      "link": "https://www.tomshardware.com/tech-industry/cyber-security/unprecedented-cyberattack-cripples-supermarket-fridges-across-europe-as-hackers-activate-automatic-defrosting-delivery-and-store-prices-also-impacted-by-incident",
-      "date": "2026-10-12T12:16:42+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
     },
     {
       "title": "Pluralistic: How labor rights rescued Ultima from a monopolist (12 Oct 2026)",
@@ -3429,16 +3579,6 @@
       "feedHome": "https://simonwillison.net/"
     },
     {
-      "title": "The founder’s guide to TechCrunch Disrupt 2026: Everything you need to know",
-      "link": "https://techcrunch.com/2026/10/11/the-founders-guide-to-techcrunch-disrupt-2026-everything-you-need-to-know/",
-      "date": "2026-10-12T00:59:01+00:00",
-      "summary": "TechCrunch Disrupt 2026 is built around one question: How do you build an enduring company in the AI era? Our programming and speaker lineup reflect that.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
-    },
-    {
       "title": "Software engineers don't get to be Luddites about AI",
       "link": "https://seangoedecke.com/software-engineers-dont-get-to-be-luddites-about-ai/",
       "date": "2026-10-12T00:00:00+00:00",
@@ -3469,36 +3609,6 @@
       "feedHome": "https://daringfireball.net/"
     },
     {
-      "title": "Will the HomeView be Apple’s first smart home success?",
-      "link": "https://techcrunch.com/2026/10/11/will-the-homeview-be-apples-first-smart-home-success/",
-      "date": "2026-10-11T21:14:40+00:00",
-      "summary": "Over the past couple of years, we’ve seen multiple reports that Apple was working on a new smart home product, but now it seems the product has a name and a launch date.",
-      "feedId": "techcrunch-ai",
-      "feedTitle": "TechCrunch AI",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
-    },
-    {
-      "title": "48 hours to TechCrunch Disrupt 2026 — hear directly from the people building what’s next",
-      "link": "https://techcrunch.com/2026/10/11/48-hours-to-techcrunch-disrupt-2026-hear-directly-from-the-people-building-whats-next/",
-      "date": "2026-10-11T19:00:00+00:00",
-      "summary": "Less than 48 hours, TechCrunch Disrupt 2026 starts in San Francisco’s Moscone West. Save up to $100 on your pass before prices increase at the door, plus get 50% on a second pass. Or score other deals.",
-      "feedId": "techcrunch-ai",
-      "feedTitle": "TechCrunch AI",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
-    },
-    {
-      "title": "Can the AI industry persuade data center opponents by getting rid of NDAs?",
-      "link": "https://techcrunch.com/2026/10/11/can-the-ai-industry-persuade-data-center-opponents-by-getting-rid-of-ndas/",
-      "date": "2026-10-11T16:52:33+00:00",
-      "summary": "On Equity, we debate the impact of data center moratoriums and whether the AI industry has a communication problem.",
-      "feedId": "techcrunch-ai",
-      "feedTitle": "TechCrunch AI",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
-    },
-    {
       "title": "Why I Get Bored",
       "link": "https://idiallo.com/byte-size/why-i-get-bored",
       "date": "2026-10-11T16:00:00+00:00",
@@ -3527,16 +3637,6 @@
       "feedTitle": "Terence Eden",
       "category": "Tech Blogs",
       "feedHome": "https://shkspr.mobi/blog/"
-    },
-    {
-      "title": "The baffling intelligence of a single cell (2024)",
-      "link": "https://jsomers.net/e-coli-chemotaxis/",
-      "date": "2026-10-11T11:02:30+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
     },
     {
       "title": "AI 无限，人生有限｜对谈 KK、山音：一线 AI 创作者",
@@ -3809,16 +3909,6 @@
       "feedHome": "https://daringfireball.net/"
     },
     {
-      "title": "ttok 1.0",
-      "link": "https://simonwillison.net/2026/Oct/9/ttok/",
-      "date": "2026-10-09T00:34:43+00:00",
-      "summary": "Release: ttok 1.0 I released ttok 0.4, ran uv tool upgrade ttok, piped a file into the new version... and realized that it was defaulting to the GPT-4 tokenizer when it should very clearly default to GPT-5/GPT-6 instead! I figured switching the default was a reasonable excuse to finally ship a 1.0. ",
-      "feedId": "simonwillison",
-      "feedTitle": "Simon Willison",
-      "category": "AI & LLM",
-      "feedHome": "https://simonwillison.net/"
-    },
-    {
       "title": "Apple Is Slow-Rolling iOS 27 Adoption, So Far",
       "link": "https://mastodon.social/@_Davidsmith/117355154519434137",
       "date": "2026-10-08T20:02:40+00:00",
@@ -3933,16 +4023,6 @@
       "link": "https://insideevs.com/news/810839/jaguar-type-01-launch-ev/",
       "date": "2026-10-07T23:22:29+00:00",
       "summary": "This is a cool car. It doesn’t look like anything else and it looks like it’s been pulled a few years from the future. I don’t know about this whole trend where cars don’t have rear windows though. I get it that you just use the camera but my old habits says I want to see out the back sometimes. But",
-      "feedId": "daringfireball",
-      "feedTitle": "Daring Fireball",
-      "category": "Tech Blogs",
-      "feedHome": "https://daringfireball.net/"
-    },
-    {
-      "title": "Gurman Strikes Again: ‘Apple’s Smart Home Push Includes Doorbell, Lock, Thermostat Codeveloped With LG’",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-06/apple-s-smart-home-push-includes-doorbell-lock-thermostat-codeveloped-with-lg?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc5MTMyMDkxNiwiZXhwIjoxNzkxOTI1NzE2LCJhcnRpY2xlSWQiOiJUTUdDN0lLSkg2VjUwMCIsImJjb25uZWN0SWQiOiJDNEVEQ0FFMUZBMDU0MEJFQTI0QTlGMjExQzFFOTA4MCJ9.LSK9jlXYPFHac9EpcJCErTgJNAwqmpV6qFoORcKffVo",
-      "date": "2026-10-07T23:14:16+00:00",
-      "summary": "The incomparable Mark Gurman, reporting for Bloomberg: Apple Inc.’s upcoming push into smart home devices will include a doorbell, thermostat and other accessories developed through an unusual partnership with LG Electronics Inc. The products will be part of an ecosystem of devices that work with Ap",
       "feedId": "daringfireball",
       "feedTitle": "Daring Fireball",
       "category": "Tech Blogs",
@@ -4249,16 +4329,6 @@
       "feedHome": "https://www.johndcook.com/"
     },
     {
-      "title": "Modal logic and topology",
-      "link": "https://www.johndcook.com/blog/2026/10/04/modal-topology/",
-      "date": "2026-10-04T12:24:33+00:00",
-      "summary": "You can&#8217;t say much about modal logic in general. You have to be more specific to get anywhere. You have to choose some axioms. Ideally the axioms you need for your application correspond to a named set of axioms that has been studied before. The situation is similar in point-set topology. You ",
-      "feedId": "johndcook",
-      "feedTitle": "John D. Cook",
-      "category": "Tech Blogs",
-      "feedHome": "https://www.johndcook.com/"
-    },
-    {
       "title": "Weekly Update 524: Live From Copenhagen",
       "link": "https://www.troyhunt.com/weekly-update-524/",
       "date": "2026-10-04T11:52:23+00:00",
@@ -4459,16 +4529,6 @@
       "feedHome": "https://research.google/blog/"
     },
     {
-      "title": "As a general rule, calling product support while drunk is not recommended",
-      "link": "https://devblogs.microsoft.com/oldnewthing/20260929-00/?p=112740/",
-      "date": "2026-09-29T14:00:00+00:00",
-      "summary": "Swearing is also poor form. The post As a general rule, calling product support while drunk is not recommended appeared first on The Old New Thing.",
-      "feedId": "oldnewthing",
-      "feedTitle": "The Old New Thing",
-      "category": "Tech Blogs",
-      "feedHome": "https://devblogs.microsoft.com/oldnewthing/"
-    },
-    {
       "title": "Pluralistic: Lindsay Owens's \"Gouged\" (29 Sep 2026)",
       "link": "https://pluralistic.net/2026/09/29/algorithmic-wage-theft/",
       "date": "2026-09-29T13:40:37+00:00",
@@ -4529,16 +4589,6 @@
       "feedHome": "https://steveblank.com/"
     },
     {
-      "title": "Book Review: Bobiverse Books 1-3 by Dennis E. Taylor ★★★☆☆",
-      "link": "https://shkspr.mobi/blog/2026/09/book-review-bobiverse-books-1-3-by-dennis-e-taylor/",
-      "date": "2026-09-28T11:34:52+00:00",
-      "summary": "Like sticky popcorn, this is a moreish but ultimately unsatisfying set of stories. After I flamed out of Dungeon Crawler Carl, someone suggested I try this series. I can see why! It&#039;s campy sci-fi fun, with enough tropes to keep you chuckling and enough tension to keep you turning the pages. Bo",
-      "feedId": "shkspr",
-      "feedTitle": "Terence Eden",
-      "category": "Tech Blogs",
-      "feedHome": "https://shkspr.mobi/blog/"
-    },
-    {
       "title": "Edge Is Pretending to Be Chrome",
       "link": "https://idiallo.com/blog/edge-imitates-chrome",
       "date": "2026-09-28T07:30:00+00:00",
@@ -4587,16 +4637,6 @@
       "feedTitle": "Krebs on Security",
       "category": "Tech Blogs",
       "feedHome": "https://krebsonsecurity.com/"
-    },
-    {
-      "title": "Pluralistic: Itch scratching (25 Sep 2026)",
-      "link": "https://pluralistic.net/2026/09/25/other-people/",
-      "date": "2026-09-25T18:56:20+00:00",
-      "summary": "Today's links Itch scratching: Love, care and self-actualization. Hey look at this: Delights to delectate. Object permanence: 9/11 x Viridians; Announcing Wikipedia; Infinite Copyright Mickey; Floppy shoulder bag; Wells Fargo's long sleaze; Corbyn wins Labour leadership; Interop v internet monopolie",
-      "feedId": "pluralistic",
-      "feedTitle": "Pluralistic",
-      "category": "Tech Blogs",
-      "feedHome": "https://pluralistic.net/"
     },
     {
       "title": "AI Killed the MVP – Long Live the IUP",
@@ -5059,16 +5099,6 @@
       "feedHome": "https://anildash.com/"
     },
     {
-      "title": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
-      "link": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
-      "date": "2026-09-03T15:02:08+00:00",
-      "summary": "",
-      "feedId": "deepmind",
-      "feedTitle": "DeepMind Blog",
-      "category": "AI & LLM",
-      "feedHome": "https://deepmind.google/blog/"
-    },
-    {
       "title": "You Should be Using Rootless Containers",
       "link": "https://blog.miguelgrinberg.com/post/you-should-be-using-rootless-containers",
       "date": "2026-09-03T14:59:54+00:00",
@@ -5077,16 +5107,6 @@
       "feedTitle": "Miguel Grinberg",
       "category": "Tech Blogs",
       "feedHome": "https://blog.miguelgrinberg.com/"
-    },
-    {
-      "title": "Proactive cyber defense for governments and enterprises",
-      "link": "https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises/",
-      "date": "2026-09-02T16:24:24+00:00",
-      "summary": "",
-      "feedId": "deepmind",
-      "feedTitle": "DeepMind Blog",
-      "category": "AI & LLM",
-      "feedHome": "https://deepmind.google/blog/"
     },
     {
       "title": "Static Allocation, Constant Work",
@@ -5407,16 +5427,6 @@
       "feedTitle": "Armin Ronacher",
       "category": "Tech Blogs",
       "feedHome": "https://lucumr.pocoo.org/"
-    },
-    {
-      "title": "Weekly Update 517: Cyber Ransoms",
-      "link": "https://www.troyhunt.com/weekly-update-517/",
-      "date": "2026-08-18T03:44:58+00:00",
-      "summary": "The current ransomware situation is a bit of a kludge (deep breath): a lot of ransomware (which often doesn&apos;t even involve &quot;ware&quot;, it&apos;s just extortion) is carried out by kids who successfully make a truckload of money but can&apos;t spend it without",
-      "feedId": "troyhunt",
-      "feedTitle": "Troy Hunt",
-      "category": "Tech Blogs",
-      "feedHome": "https://www.troyhunt.com/"
     },
     {
       "title": "Wispr raises $280M at $2B valuation as it looks beyond dictation",
@@ -6127,16 +6137,6 @@
       "feedTitle": "Mitchell Hashimoto",
       "category": "Tech Blogs",
       "feedHome": "https://mitchellh.com/"
-    },
-    {
-      "title": "Nowhere Is Safe",
-      "link": "https://steveblank.com/2026/04/09/nowhere-is-safe/",
-      "date": "2026-04-09T13:00:25+00:00",
-      "summary": "Drones in Ukraine and in the War with Iran have made the surface of the earth a contested space. The U.S. has discovered that 1) air superiority and missile defense systems (THAAD, Patriot batteries) designed to counter tens or hundreds of aircraft and missiles is insufficient against asymmetric att",
-      "feedId": "steveblank",
-      "feedTitle": "Steve Blank",
-      "category": "Tech Blogs",
-      "feedHome": "https://steveblank.com/"
     },
     {
       "title": "The Building Block Economy",
