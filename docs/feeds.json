@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-10-18T22:49:57.460556+00:00",
+  "updatedAt": "2026-10-19T00:53:13.914770+00:00",
   "totalFeeds": 51,
-  "successCount": 41,
-  "failedCount": 10,
+  "successCount": 42,
+  "failedCount": 9,
   "failed": [
     "gwern",
     "garymarcus",
@@ -10,7 +10,6 @@
     "lcamtuf",
     "rachelbythebay",
     "tedunangst",
-    "steveblank",
     "venturebeat",
     "venturebeat-ai",
     "ruanyifeng"
@@ -24,8 +23,20 @@
         "home": "https://simonwillison.net/",
         "url": "https://simonwillison.net/atom/everything/",
         "status": "ok",
-        "fetchedAt": "2026-10-18T22:49:47.155941+00:00",
+        "fetchedAt": "2026-10-19T00:53:03.932719+00:00",
         "items": [
+          {
+            "title": "llm-tools-datasette 0.1.1",
+            "link": "https://simonwillison.net/2026/Oct/18/llm-tools-datasette/",
+            "date": "2026-10-18T23:43:09+00:00",
+            "summary": "Release: llm-tools-datasette 0.1.1 When I switched LLM over to httpx2 in LLM 0.33 I forget that this would break any plugins which used httpx without directly depending on it. llm-tools-datasette was one of those plugins, now fixed. Tags: datasette, llm"
+          },
+          {
+            "title": "llm-echo 0.5",
+            "link": "https://simonwillison.net/2026/Oct/18/llm-echo/",
+            "date": "2026-10-18T23:16:16+00:00",
+            "summary": "Release: llm-echo 0.5 I'm working towards a new LLM release, and testing PRs caused me to revisit the llm-echo debug plugin. This plugin provides a \"model\" which doesn't involve an LLM at all - it just repeats back the prompts that have been fed to it. The new release now updates the simulated token"
+          },
           {
             "title": "Inline rendering with document​.currentScript",
             "link": "https://simonwillison.net/2026/Oct/17/document-currentscript/",
@@ -73,18 +84,6 @@
             "link": "https://simonwillison.net/2026/Oct/14/ai-is-mass-decompiling-games/",
             "date": "2026-10-14T16:26:53+00:00",
             "summary": "AI is mass decompiling games. That&#x27;s both awesome and scary. Indie game developer Popcar talks about the recent wave of AI-powered decompilation of existing games, enabling weird mashups between existing games, and producing a boom in game preservation projects to get old games working on new h"
-          },
-          {
-            "title": "Redesigning source control at Anthropic",
-            "link": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
-            "date": "2026-10-13T23:00:06+00:00",
-            "summary": "Redesigning source control at Anthropic Interesting piece from Anthropic describing why and how they built their own custom alternative to Git, based on the dramatic increase in rate of changes to their code after the past six months. In May 2026, Anthropic averaged around 2,500 code changes merged "
-          },
-          {
-            "title": "llm-gemini 0.35",
-            "link": "https://simonwillison.net/2026/Oct/13/llm-gemini/",
-            "date": "2026-10-13T22:28:54+00:00",
-            "summary": "Release: llm-gemini 0.35 I added support to llm-gemini for the new Gemini 4 Argon model, made available today via the Gemini API and for customers of their $100/month subscription plan. Here are the low, medium and high pelicans. As expected, they are all excellent: Gemini has a track record of prod"
           }
         ]
       },
@@ -95,7 +94,7 @@
         "home": "https://openai.com/news/",
         "url": "https://openai.com/news/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-18T22:49:47.225995+00:00",
+        "fetchedAt": "2026-10-19T00:53:04.043740+00:00",
         "items": [
           {
             "title": "How Itaú is building generative AI for its entire customer base",
@@ -166,7 +165,7 @@
         "home": "https://arxiv.org/list/cs.AI/recent",
         "url": "https://arxiv.org/rss/cs.AI",
         "status": "ok",
-        "fetchedAt": "2026-10-18T22:49:47.404849+00:00",
+        "fetchedAt": "2026-10-19T00:53:04.294236+00:00",
         "items": []
       },
       {
@@ -176,7 +175,7 @@
         "home": "https://arxiv.org/list/cs.LG/recent",
         "url": "https://arxiv.org/rss/cs.LG",
         "status": "ok",
-        "fetchedAt": "2026-10-18T22:49:47.403307+00:00",
+        "fetchedAt": "2026-10-19T00:53:04.293403+00:00",
         "items": []
       },
       {
@@ -186,7 +185,7 @@
         "home": "https://research.google/blog/",
         "url": "https://research.google/blog/rss/",
         "status": "ok",
-        "fetchedAt": "2026-10-18T22:49:47.320241+00:00",
+        "fetchedAt": "2026-10-19T00:53:04.149080+00:00",
         "items": [
           {
             "title": "Grounding AI agents in biological reality: Building blocks for autonomous wet labs",
@@ -257,7 +256,7 @@
         "home": "https://deepmind.google/blog/",
         "url": "https://deepmind.google/blog/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-18T22:49:47.117967+00:00",
+        "fetchedAt": "2026-10-19T00:53:04.156898+00:00",
         "items": [
           {
             "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
@@ -328,7 +327,7 @@
         "home": "https://lilianweng.github.io/",
         "url": "https://lilianweng.github.io/lil-log/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-18T22:49:47.142388+00:00",
+        "fetchedAt": "2026-10-19T00:53:03.949601+00:00",
         "items": [
           {
             "title": "Active Learning",
@@ -419,7 +418,7 @@
         "home": "https://minimaxir.com/",
         "url": "https://minimaxir.com/index.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-18T22:49:47.243441+00:00",
+        "fetchedAt": "2026-10-19T00:53:04.070258+00:00",
         "items": [
           {
             "title": "Writing Rust code that's faster than state-of-the-art libraries by asking agents to make the code faster",
@@ -502,7 +501,7 @@
         "home": "https://www.jeffgeerling.com/",
         "url": "https://www.jeffgeerling.com/blog.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-18T22:49:47.144194+00:00",
+        "fetchedAt": "2026-10-19T00:53:04.050125+00:00",
         "items": [
           {
             "title": "Formlabs dropped the Raspberry Pi on the way to a $699 SLA printer",
@@ -573,7 +572,7 @@
         "home": "https://www.seangoedecke.com/",
         "url": "https://www.seangoedecke.com/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-18T22:49:47.237739+00:00",
+        "fetchedAt": "2026-10-19T00:53:04.094738+00:00",
         "items": [
           {
             "title": "Writing is no longer proof of work",
@@ -644,7 +643,7 @@
         "home": "https://krebsonsecurity.com/",
         "url": "https://krebsonsecurity.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-10-18T22:49:47.131214+00:00",
+        "fetchedAt": "2026-10-19T00:53:04.103191+00:00",
         "items": [
           {
             "title": "U.K. Sanctions Cryptomus for RU Money Laundering",
@@ -715,69 +714,8 @@
         "home": "https://daringfireball.net/",
         "url": "https://daringfireball.net/feeds/main",
         "status": "ok",
-        "fetchedAt": "2026-10-18T22:49:47.282460+00:00",
-        "items": [
-          {
-            "title": "Verizon Is Going to Charge $10/Month for iPhone Handoff",
-            "link": "https://www.verizon.com/about/news/iphone-duo-verizon-offers",
-            "date": "2026-10-18T22:20:06+00:00",
-            "summary": "Verizon, in a post headlined “Switch to Verizon and Get the New iPhone Duo Now. No Trade-In Needed.”: Verizon will support iPhone Handoff, giving customers the flexibility to use a single Verizon phone number seamlessly across two compatible iPhone models. Whether using the pocketable iPhone Duo on "
-          },
-          {
-            "title": "Gurman on HomeView: ‘Finished Units Have Been Sitting Boxed Up in Warehouses for the Better Part of a Year’",
-            "link": "https://www.bloomberg.com/news/newsletters/2026-10-18/apple-homeview-with-robotic-arm-new-mac-ipad-mini-nov-6-release-iphone-duo?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc5MjMzMjQwNiwiZXhwIjoxNzkyOTM3MjA2LCJhcnRpY2xlSWQiOiJUTjNXODFLR1pBSjQwMCIsImJjb25uZWN0SWQiOiJDNEVEQ0FFMUZBMDU0MEJFQTI0QTlGMjExQzFFOTA4MCJ9.eu94lgz5qU35YdXhWFRwjbVBeJEKzpwFqF-pzh_GPJU&leadSource=article-gifting",
-            "date": "2026-10-18T22:00:39+00:00",
-            "summary": "Mark Gurman, today, in his weekly Power On column for Bloomberg (gift link): Without a serviceable version of the new assistant, Apple couldn’t deliver the experience it had envisioned. That left the hardware ready to go, but the software nowhere near finished. So Apple postponed the HomeView repeat"
-          },
-          {
-            "title": "Claim Chowder: The Information on HomeView Having a ‘Robotic Swiveling Base’",
-            "link": "https://www.theinformation.com/articles/apple-developing-ai-wearable-pin",
-            "date": "2026-10-18T22:30:00+00:00",
-            "summary": "Wayne Ma and Qianer Liu, reporting, wrongly, for The Information in January this year (paywalled; here’s MacRumors’s summary) Apple’s pin joins a growing portfolio of AI-powered products the tech giant has under development, including AirPods equipped with enhanced sensors, a security camera, smart "
-          },
-          {
-            "title": "Apple Issues Statement on Duo Demand Far Outstripping Supply",
-            "link": "https://www.ft.com/content/7b236286-ca1d-4063-a728-7f968a638b8f",
-            "date": "2026-10-18T20:48:45+00:00",
-            "summary": "The Financial Times: Apple had originally promised delivery of the Duo by October 23, but within hours of orders opening, delivery times through Apple’s website had slipped into late January. US mobile carriers also saw delivery times for new orders pushed back. “The pre-order demand for iPhone Duo,"
-          },
-          {
-            "title": "Manton Reece’s Spitball Theory on Why the Wall-Mounted HomeView Costs the Same as the Version With the Subwoofer Base",
-            "link": "https://www.manton.org/2026/10/17/in-john-grubers-initial-thoughts.html",
-            "date": "2026-10-18T19:34:46+00:00",
-            "summary": "Manton Reece: All I can come up with is that Apple doesn’t want you to buy the wall-mounted version unless you’re really sure that’s what you need. If the wall-mounted version was cheaper, some people might buy it based on price, then be unhappy because it’s too much trouble to install. Oh, that cli"
-          },
-          {
-            "title": "Michigan Democratic Senate Candidate Abdul El-Sayed on His Allegiances",
-            "link": "https://x.com/AbdulElSayed/status/2111627277578731885",
-            "date": "2026-10-18T21:04:27+00:00",
-            "summary": "I do see some political content in my feed on X. For example, this extraordinary video posted by Abdul El-Sayed, who seems poised to become the next junior senator from Michigan. You should watch it. It’s so good you might suspect the questioner was a plant, but in fact, he was not. This actually ha"
-          },
-          {
-            "title": "Whatever You Say Bounces Off Me and Sticks to You",
-            "link": "https://www.reuters.com/business/retail-consumer/openai-employee-who-left-apple-took-files-about-unreleased-device-openai-alleges-2026-10-14/",
-            "date": "2026-10-18T00:55:43+00:00",
-            "summary": "Stephen Nellis and Deepa Seetharaman, reporting Wednesday for Reuters: An OpenAI employee who left the ChatGPT maker for Apple ​sent more than 100 files about an unreleased product to a personal account and later made a presentation about the unreleased product to senior Apple leadership, a new fili"
-          },
-          {
-            "title": "★ HomeView Thoughts and Observations",
-            "link": "https://daringfireball.net/2026/10/homeview_thoughts_and_observations",
-            "date": "2026-10-17T22:59:52+00:00",
-            "summary": "There’s a real “*Why do we need this?*” question here and I don’t think Apple’s video answers it, at all. You need to think you want it if you’re going to buy it. And even if you already had a HomeView set up, I’m not sure how often you’d use it instead of your phone, or instead of just talking to i"
-          },
-          {
-            "title": "Apple TV Price History, Charted",
-            "link": "https://glog.glennf.com/blog/2026/10/17/apple-tv-price-history/",
-            "date": "2026-10-17T23:00:29+00:00",
-            "summary": "Glenn Fleishman: I wondered what the entry-level, initial price of each Apple TV box at introduction was, from the March 2007 original to the Apple TV 4K (4th generation) announced October 13, 2026, adjusted for inflation. So I charted it. I suppose this doesn’t mean Apple has given up on making App"
-          },
-          {
-            "title": "The Late Charlie Munger on Elon Musk and Tesla",
-            "link": "https://www.cnbc.com/make-it/2020/02/14/charlie-munger-shares-opinion-of-tesla-ceo-elon-musk.html",
-            "date": "2026-10-17T01:22:35+00:00",
-            "summary": "Re: my post today on the still-vaporware Tesla Roadster and Benedict Evans’s maxim that “Elon Musk is a bullshitter who delivers”, a reader sent me this YouTube short of Charlie Munger’s answer to a question at Berkshire Hathaway’s 2020 shareholder meeting regarding Tesla’s volatility and Musk’s sel"
-          }
-        ]
+        "fetchedAt": "2026-10-19T00:53:04.086449+00:00",
+        "items": []
       },
       {
         "id": "ericmigi",
@@ -786,7 +724,7 @@
         "home": "https://ericmigi.com/",
         "url": "https://ericmigi.com/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-18T22:49:47.287611+00:00",
+        "fetchedAt": "2026-10-19T00:53:04.151609+00:00",
         "items": [
           {
             "title": "New Pebble Weather App + Software Updates",
@@ -857,7 +795,7 @@
         "home": "http://antirez.com/",
         "url": "http://antirez.com/rss",
         "status": "ok",
-        "fetchedAt": "2026-10-18T22:49:48.853655+00:00",
+        "fetchedAt": "2026-10-19T00:53:05.863690+00:00",
         "items": [
           {
             "title": "The real AI risk is inside the labs",
@@ -928,7 +866,7 @@
         "home": "https://idiallo.com/",
         "url": "https://idiallo.com/feed.rss",
         "status": "ok",
-        "fetchedAt": "2026-10-18T22:49:47.311439+00:00",
+        "fetchedAt": "2026-10-19T00:53:04.318944+00:00",
         "items": [
           {
             "title": "This video is 2 minutes long",
@@ -999,7 +937,7 @@
         "home": "https://maurycyz.com/",
         "url": "https://maurycyz.com/index.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-18T22:49:47.718581+00:00",
+        "fetchedAt": "2026-10-19T00:53:04.553296+00:00",
         "items": []
       },
       {
@@ -1009,7 +947,7 @@
         "home": "https://pluralistic.net/",
         "url": "https://pluralistic.net/feed/",
         "status": "ok",
-        "fetchedAt": "2026-10-18T22:49:48.033388+00:00",
+        "fetchedAt": "2026-10-19T00:53:05.157148+00:00",
         "items": [
           {
             "title": "Pluralistic: Israeli ad-tech company was a delivery system for \"mercenary spyware\" (17 Oct 2026)",
@@ -1080,7 +1018,7 @@
         "home": "https://shkspr.mobi/blog/",
         "url": "https://shkspr.mobi/blog/feed/",
         "status": "ok",
-        "fetchedAt": "2026-10-18T22:49:47.960576+00:00",
+        "fetchedAt": "2026-10-19T00:53:07.149258+00:00",
         "items": [
           {
             "title": "Una Watch TOTP - MFA on your wrist!",
@@ -1161,7 +1099,7 @@
         "home": "https://mitchellh.com/",
         "url": "https://mitchellh.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-18T22:49:47.511568+00:00",
+        "fetchedAt": "2026-10-19T00:53:04.501773+00:00",
         "items": [
           {
             "title": "A Terminal Protocol for Program Status (OSC 7501)",
@@ -1232,7 +1170,7 @@
         "home": "https://dynomight.net/",
         "url": "https://dynomight.net/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-18T22:49:47.367507+00:00",
+        "fetchedAt": "2026-10-19T00:53:04.903363+00:00",
         "items": [
           {
             "title": "Why is the human body so crap except for the liver?",
@@ -1303,7 +1241,7 @@
         "home": "https://xeiaso.net/",
         "url": "https://xeiaso.net/blog.rss",
         "status": "ok",
-        "fetchedAt": "2026-10-18T22:49:47.730261+00:00",
+        "fetchedAt": "2026-10-19T00:53:04.674421+00:00",
         "items": [
           {
             "title": "\"No way to prevent this\" say users of only language where this regularly happens",
@@ -1374,7 +1312,7 @@
         "home": "https://devblogs.microsoft.com/oldnewthing/",
         "url": "https://devblogs.microsoft.com/oldnewthing/feed",
         "status": "ok",
-        "fetchedAt": "2026-10-18T22:49:47.467742+00:00",
+        "fetchedAt": "2026-10-19T00:53:04.432143+00:00",
         "items": [
           {
             "title": "C++ futures part 5: std::future and std::shared_future",
@@ -1445,7 +1383,7 @@
         "home": "https://www.righto.com/",
         "url": "https://www.righto.com/feeds/posts/default",
         "status": "ok",
-        "fetchedAt": "2026-10-18T22:49:47.634698+00:00",
+        "fetchedAt": "2026-10-19T00:53:04.425762+00:00",
         "items": []
       },
       {
@@ -1455,7 +1393,7 @@
         "home": "https://lucumr.pocoo.org/",
         "url": "https://lucumr.pocoo.org/feed.atom",
         "status": "ok",
-        "fetchedAt": "2026-10-18T22:49:47.302923+00:00",
+        "fetchedAt": "2026-10-19T00:53:04.525956+00:00",
         "items": [
           {
             "title": "What is Codemode",
@@ -1526,7 +1464,7 @@
         "home": "https://skyfall.dev/",
         "url": "https://skyfall.dev/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-18T22:49:47.534062+00:00",
+        "fetchedAt": "2026-10-19T00:53:04.652474+00:00",
         "items": [
           {
             "title": "Good riddance, 4o",
@@ -1601,7 +1539,7 @@
         "home": "https://overreacted.io/",
         "url": "https://overreacted.io/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-18T22:49:47.336694+00:00",
+        "fetchedAt": "2026-10-19T00:53:04.559515+00:00",
         "items": [
           {
             "title": "How I Vibed a Proof of Conway’s Conjecture",
@@ -1672,7 +1610,7 @@
         "home": "https://www.johndcook.com/",
         "url": "https://www.johndcook.com/blog/feed/",
         "status": "ok",
-        "fetchedAt": "2026-10-18T22:49:47.465423+00:00",
+        "fetchedAt": "2026-10-19T00:53:04.233026+00:00",
         "items": [
           {
             "title": "Cloud of suspicion lifted from NIST curves",
@@ -1743,7 +1681,7 @@
         "home": "https://matklad.github.io/",
         "url": "https://matklad.github.io/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-18T22:49:47.355097+00:00",
+        "fetchedAt": "2026-10-19T00:53:04.315030+00:00",
         "items": [
           {
             "title": "On Git Refs",
@@ -1814,7 +1752,7 @@
         "home": "https://eli.thegreenplace.net/",
         "url": "https://eli.thegreenplace.net/feeds/all.atom.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-18T22:49:47.306979+00:00",
+        "fetchedAt": "2026-10-19T00:53:04.735293+00:00",
         "items": [
           {
             "title": "Notes on the complex roots of unity",
@@ -1855,7 +1793,7 @@
         "home": "https://fabiensanglard.net/",
         "url": "https://fabiensanglard.net/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-18T22:49:47.349678+00:00",
+        "fetchedAt": "2026-10-19T00:53:04.450824+00:00",
         "items": [
           {
             "title": "My agent.md to improve LLM-assisted code quality",
@@ -1926,7 +1864,7 @@
         "home": "https://blog.miguelgrinberg.com/",
         "url": "https://blog.miguelgrinberg.com/feed",
         "status": "ok",
-        "fetchedAt": "2026-10-18T22:49:47.982128+00:00",
+        "fetchedAt": "2026-10-19T00:53:05.158556+00:00",
         "items": [
           {
             "title": "How fast is Python 3.15?",
@@ -1997,7 +1935,7 @@
         "home": "https://www.troyhunt.com/",
         "url": "https://www.troyhunt.com/rss/",
         "status": "ok",
-        "fetchedAt": "2026-10-18T22:49:47.308411+00:00",
+        "fetchedAt": "2026-10-19T00:53:04.287445+00:00",
         "items": [
           {
             "title": "Weekly Update 525: AI Data Breach Hyperbole",
@@ -2068,7 +2006,7 @@
         "home": "https://anildash.com/",
         "url": "https://anildash.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-18T22:49:47.477243+00:00",
+        "fetchedAt": "2026-10-19T00:53:04.662919+00:00",
         "items": [
           {
             "title": "Why are the Artemis II photos on Flickr?",
@@ -2139,7 +2077,7 @@
         "home": "https://computer.rip/",
         "url": "https://computer.rip/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-18T22:49:47.981185+00:00",
+        "fetchedAt": "2026-10-19T00:53:04.717210+00:00",
         "items": [
           {
             "title": "from plesiochronous to synchronous",
@@ -2220,7 +2158,7 @@
         "home": "http://paulgraham.com/",
         "url": "http://www.aaronsw.com/2002/feeds/pgessays.rss",
         "status": "ok",
-        "fetchedAt": "2026-10-18T22:49:47.440792+00:00",
+        "fetchedAt": "2026-10-19T00:53:04.136597+00:00",
         "items": [
           {
             "title": "Superlinear Returns",
@@ -2290,9 +2228,70 @@
         "title": "Steve Blank",
         "home": "https://steveblank.com/",
         "url": "https://steveblank.com/feed/",
-        "status": "error",
-        "error": "HTTP 429",
-        "items": []
+        "status": "ok",
+        "fetchedAt": "2026-10-19T00:53:04.184940+00:00",
+        "items": [
+          {
+            "title": "Subterranean Warfare – An Urgent DoW Need Without An Owner",
+            "link": "https://steveblank.com/2026/10/13/subterranean-warfare-an-urgent-dow-need-without-an-owner/",
+            "date": "2026-10-13T13:00:19+00:00",
+            "summary": "This article previously appeared in Cipher Brief. The DoW urgently needs to organize its scattered subterranean warfare assets into a single unified organization. Ideally, a Direct Reporting Portfolio Manager (DRPM) for Subterranean Warfare, reporting to the Deputy Secretary of War. (The Department "
+          },
+          {
+            "title": "Lean LaunchPad – The Next Generation",
+            "link": "https://steveblank.com/2026/09/30/lean-launchpad-the-next-generation/",
+            "date": "2026-09-30T13:00:28+00:00",
+            "summary": "You&#8217;re reading a four-part series on how AI has impacted our Lean LaunchPad class and what we did about it. Part 1: The Year AI Came For Us Part 2: AI Killed the MVP – Long Live the IUP Part 3: The World Outside the Classroom Changed, The Class Didn’t This post: Lean LaunchPad – The [&#8230;]"
+          },
+          {
+            "title": "The World Outside the Classroom Changed, The Class Didn’t",
+            "link": "https://steveblank.com/2026/09/28/the-world-outside-the-classroom-changed-the-class-didnt/",
+            "date": "2026-09-28T13:00:57+00:00",
+            "summary": "This post previously appeared in Poets and Quants This is the third of four posts on how AI has impacted our Lean LaunchPad class and what we did about it. Part 1: The Year AI Came For Us Part 2: AI Killed the MVP – Long Live the IUP Part 3: This Post Part 4: [&#8230;]"
+          },
+          {
+            "title": "AI Killed the MVP – Long Live the IUP",
+            "link": "https://steveblank.com/2026/09/25/ai-killed-the-mvp-long-live-the-iup/",
+            "date": "2026-09-25T13:00:16+00:00",
+            "summary": "This post previously appeared in Poets and Quants This is the second of four posts on how AI has impacted our Lean LaunchPad class and what we did about it. Part 1: The Year AI Came For Us &#8211; This Post Part 2: AI Killed the MVP – Long Live the IUP Part 3: The [&#8230;]"
+          },
+          {
+            "title": "The Year AI Came For Us: Teaching Entrepreneurship Will Never Be The Same",
+            "link": "https://steveblank.com/2026/09/23/the-year-ai-came-for-us-teaching-entrepreneurship-will-never-be-the-same/",
+            "date": "2026-09-23T13:00:12+00:00",
+            "summary": "This post previously appeared in Poets and Quants. 15 years ago, my Lean LaunchPad class changed how entrepreneurship is taught. The class is now taught in hundreds of universities worldwide and helped launch thousands of startups. But this past summer, I got thinking about whether AI killed our Lea"
+          },
+          {
+            "title": "Lean Launch Pad 2026 @ Stanford – Lessons Learned Presentations",
+            "link": "https://steveblank.com/2026/06/16/lean-launch-pad-2026-stanford-lessons-learned-presentations/",
+            "date": "2026-06-16T13:00:57+00:00",
+            "summary": "We just finished the 16th annual Lean LaunchPad class at Stanford. In those 16 years, the class has gone from a radical idea &#8211; that the Lean method could provide a more productive framework for new startups &#8211; to something that everyone agrees is a way to build new startups. The class had"
+          },
+          {
+            "title": "Incorruptible",
+            "link": "https://steveblank.com/2026/06/09/incorruptible/",
+            "date": "2026-06-09T13:00:23+00:00",
+            "summary": "Incorruptible: Why Good Companies Go Bad&#8230; and How Great Companies Stay Great, by Eric Ries. Every once in a while a book comes along that doesn&#8217;t just change your tactical thinking, but makes you see the world in a different way. Reading this book is like taking the red pill in the Matri"
+          },
+          {
+            "title": "Hacking for Defense @ Stanford 2026 – Lessons Learned Presentations",
+            "link": "https://steveblank.com/2026/06/08/g-for-defense-stanford-2026-lessons-learned-presentations/",
+            "date": "2026-06-08T13:00:15+00:00",
+            "summary": "We just wrapped up our Hacking for Defense class at Stanford. This was the 11th year we&#8217;ve taught Hacking for Defense, and the impact of asymmetric warfare, (drones, off-the-shelf technologies, etc.,) disruptive technologies (AI, commercial access to space) and a startup friendly DoW acquisiti"
+          },
+          {
+            "title": "Anthropic Mythos – We’ve Opened Pandora’s Box",
+            "link": "https://steveblank.com/2026/04/28/anthropic-mythos-weve-opened-pandoras-box/",
+            "date": "2026-04-28T13:00:48+00:00",
+            "summary": "This article previously appeared in The Cipher Brief. For a decade the cybersecurity community was predicting a cyber apocalypse tied to a single event &#8211; the day a Cryptographically Relevant Quantum Computer could run Shor’s algorithm and break the public-key cryptography systems most of the i"
+          },
+          {
+            "title": "AI and Teaching – The Brave New World",
+            "link": "https://steveblank.com/2026/04/22/ai-and-teaching-the-brave-new-world/",
+            "date": "2026-04-22T15:34:09+00:00",
+            "summary": "This article previously appeared in the Entrepreneur &#38; Innovation Exchange (EIX) This is the 16th year we’ve been teaching the Stanford Lean LaunchPad class. This year, from the first hour of the first class, we realized we were seeing something extraordinary happen. It was both the end and begi"
+          }
+        ]
       }
     ],
     "Startup & News": [
@@ -2303,12 +2302,18 @@
         "home": "https://news.ycombinator.com/",
         "url": "https://news.ycombinator.com/rss",
         "status": "ok",
-        "fetchedAt": "2026-10-18T22:49:47.468841+00:00",
+        "fetchedAt": "2026-10-19T00:53:04.371756+00:00",
         "items": [
           {
             "title": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
             "link": "https://arxiv.org/abs/2610.18861",
             "date": "2026-10-18T20:48:14+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "William Gibson and the trademarking of cyberspace",
+            "link": "https://colo.to/cyberspace.html",
+            "date": "2026-10-18T23:37:57+00:00",
             "summary": "Comments"
           },
           {
@@ -2318,15 +2323,15 @@
             "summary": "Comments"
           },
           {
-            "title": "Free Pascal compiler now supports dynamic packages",
-            "link": "https://www.getlazarus.org/dynamic/",
-            "date": "2026-10-18T18:48:04+00:00",
-            "summary": "Comments"
-          },
-          {
             "title": "There's never been a better time to go into math (by: 3blue1brown) [video]",
             "link": "https://www.youtube.com/watch?v=LKrwhjOI8Nc",
             "date": "2026-10-17T23:26:35+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "Free Pascal compiler now supports dynamic packages",
+            "link": "https://www.getlazarus.org/dynamic/",
+            "date": "2026-10-18T18:48:04+00:00",
             "summary": "Comments"
           },
           {
@@ -2342,27 +2347,21 @@
             "summary": "Comments"
           },
           {
+            "title": "Show HN: WhatsApp MCP running free on Cloudflare",
+            "link": "https://github.com/finereli/whatsapp-mcp",
+            "date": "2026-10-18T21:36:10+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "DeepSeek search and fetch – $0.75 per 1000 successful requests",
+            "link": "https://api-docs.deepseek.com/guides/search/",
+            "date": "2026-10-18T06:50:36+00:00",
+            "summary": "Comments"
+          },
+          {
             "title": "PalmOS Lemmings",
             "link": "https://github.com/ardiri/palmos-lemmings",
             "date": "2026-10-18T17:56:59+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "I built a programming language that LLMs can't use",
-            "link": "https://blog.picheta.me/post/killswitch-lang/",
-            "date": "2026-10-17T22:26:47+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "One parser, two bugs, many routers: Exploiting Broadcom WiFi across eCos, Linux",
-            "link": "https://quentinkaiser.be/security/2026/10/16/one-parser-two-bugs/",
-            "date": "2026-10-16T18:07:44+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "16-bit fully functional DIY magnetic core memory",
-            "link": "https://www.youtube.com/watch?v=OJ1WYyO2jdY",
-            "date": "2026-10-15T01:51:02+00:00",
             "summary": "Comments"
           }
         ]
@@ -2374,8 +2373,14 @@
         "home": "https://www.techmeme.com/",
         "url": "https://www.techmeme.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-18T22:49:47.750295+00:00",
+        "fetchedAt": "2026-10-19T00:53:04.391728+00:00",
         "items": [
+          {
+            "title": "SF-based home insurer Stand, which uses digital twins of homes to price wildfire risk and insures $10B+ of property, raised a $70M Series C at a $1B valuation (Nick Lichtenberg/Fortune)",
+            "link": "https://www.techmeme.com/261018/p13#a261018p13",
+            "date": "2026-10-18T20:40:01-04:00",
+            "summary": "Nick Lichtenberg / Fortune: SF-based home insurer Stand, which uses digital twins of homes to price wildfire risk and insures $10B+ of property, raised a $70M Series C at a $1B valuation&nbsp; &mdash;&nbsp; Matt DiStefano shares his screen and rotates a gray 3D model of a California neighborhood.&nb"
+          },
           {
             "title": "Sources: Nscale faces investor pushback on its ~$30B IPO valuation, with some urging a lower valuation of $16B to $19B, as Microsoft exits a UK data center deal (Bailey Lipschultz/Bloomberg)",
             "link": "https://www.techmeme.com/261018/p12#a261018p12",
@@ -2429,12 +2434,6 @@
             "link": "https://www.techmeme.com/261018/p4#a261018p4",
             "date": "2026-10-18T02:05:00-04:00",
             "summary": "James Titcomb / Telegraph: Microsoft cancels its deal to be the anchor tenant and rent 23K Nvidia AI chips at Nscale's Essex, UK, data center, which may not get grid power until the 2030s&nbsp; &mdash;&nbsp; US tech giant pulls the plug on Nscale deal in threat to multibillion-dollar listing&nbsp; &"
-          },
-          {
-            "title": "Holyvolt, which develops AI tools for making and testing new battery materials, raised $45M from Zone II, CC.VC, and others, a source says at a $245M valuation (Nick Lichtenberg/Fortune)",
-            "link": "https://www.techmeme.com/261018/p3#a261018p3",
-            "date": "2026-10-18T01:40:01-04:00",
-            "summary": "Nick Lichtenberg / Fortune: Holyvolt, which develops AI tools for making and testing new battery materials, raised $45M from Zone II, CC.VC, and others, a source says at a $245M valuation&nbsp; &mdash;&nbsp; Steven Prast is old enough to remember when a mobile phone came in a bag.&nbsp; It was too h"
           }
         ]
       },
@@ -2445,7 +2444,7 @@
         "home": "https://techcrunch.com/",
         "url": "https://techcrunch.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-10-18T22:49:47.270530+00:00",
+        "fetchedAt": "2026-10-19T00:53:04.271414+00:00",
         "items": [
           {
             "title": "No agenda, no rush, no leaving San Francisco: Benchmark’s partners on investing in a frenzied market",
@@ -2516,7 +2515,7 @@
         "home": "https://techcrunch.com/category/artificial-intelligence/",
         "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
         "status": "ok",
-        "fetchedAt": "2026-10-18T22:49:47.414749+00:00",
+        "fetchedAt": "2026-10-19T00:53:04.461231+00:00",
         "items": [
           {
             "title": "Anthropic says it’s committing 5% of its shares to a ‘public benefit fund’",
@@ -2587,7 +2586,7 @@
         "home": "https://techcrunch.com/tag/funding/",
         "url": "https://techcrunch.com/tag/funding/feed/",
         "status": "ok",
-        "fetchedAt": "2026-10-18T22:49:47.428532+00:00",
+        "fetchedAt": "2026-10-19T00:53:04.561206+00:00",
         "items": [
           {
             "title": "Viral AI startup Instinct has raised $350M at a $2.5B valuation",
@@ -2690,7 +2689,7 @@
         "home": "https://www.bestblogs.dev/",
         "url": "https://www.bestblogs.dev/zh/feeds/rss?category=ai&minScore=90",
         "status": "ok",
-        "fetchedAt": "2026-10-18T22:49:47.956080+00:00",
+        "fetchedAt": "2026-10-19T00:53:04.498234+00:00",
         "items": [
           {
             "title": "新的创业机会，正在 Claude Code 和 Codex 周围长出来｜对谈 Treg",
@@ -2758,44 +2757,44 @@
   },
   "allItems": [
     {
-      "title": "Claim Chowder: The Information on HomeView Having a ‘Robotic Swiveling Base’",
-      "link": "https://www.theinformation.com/articles/apple-developing-ai-wearable-pin",
-      "date": "2026-10-18T22:30:00+00:00",
-      "summary": "Wayne Ma and Qianer Liu, reporting, wrongly, for The Information in January this year (paywalled; here’s MacRumors’s summary) Apple’s pin joins a growing portfolio of AI-powered products the tech giant has under development, including AirPods equipped with enhanced sensors, a security camera, smart ",
-      "feedId": "daringfireball",
-      "feedTitle": "Daring Fireball",
-      "category": "Tech Blogs",
-      "feedHome": "https://daringfireball.net/"
+      "title": "llm-tools-datasette 0.1.1",
+      "link": "https://simonwillison.net/2026/Oct/18/llm-tools-datasette/",
+      "date": "2026-10-18T23:43:09+00:00",
+      "summary": "Release: llm-tools-datasette 0.1.1 When I switched LLM over to httpx2 in LLM 0.33 I forget that this would break any plugins which used httpx without directly depending on it. llm-tools-datasette was one of those plugins, now fixed. Tags: datasette, llm",
+      "feedId": "simonwillison",
+      "feedTitle": "Simon Willison",
+      "category": "AI & LLM",
+      "feedHome": "https://simonwillison.net/"
     },
     {
-      "title": "Verizon Is Going to Charge $10/Month for iPhone Handoff",
-      "link": "https://www.verizon.com/about/news/iphone-duo-verizon-offers",
-      "date": "2026-10-18T22:20:06+00:00",
-      "summary": "Verizon, in a post headlined “Switch to Verizon and Get the New iPhone Duo Now. No Trade-In Needed.”: Verizon will support iPhone Handoff, giving customers the flexibility to use a single Verizon phone number seamlessly across two compatible iPhone models. Whether using the pocketable iPhone Duo on ",
-      "feedId": "daringfireball",
-      "feedTitle": "Daring Fireball",
-      "category": "Tech Blogs",
-      "feedHome": "https://daringfireball.net/"
+      "title": "William Gibson and the trademarking of cyberspace",
+      "link": "https://colo.to/cyberspace.html",
+      "date": "2026-10-18T23:37:57+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
     },
     {
-      "title": "Gurman on HomeView: ‘Finished Units Have Been Sitting Boxed Up in Warehouses for the Better Part of a Year’",
-      "link": "https://www.bloomberg.com/news/newsletters/2026-10-18/apple-homeview-with-robotic-arm-new-mac-ipad-mini-nov-6-release-iphone-duo?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc5MjMzMjQwNiwiZXhwIjoxNzkyOTM3MjA2LCJhcnRpY2xlSWQiOiJUTjNXODFLR1pBSjQwMCIsImJjb25uZWN0SWQiOiJDNEVEQ0FFMUZBMDU0MEJFQTI0QTlGMjExQzFFOTA4MCJ9.eu94lgz5qU35YdXhWFRwjbVBeJEKzpwFqF-pzh_GPJU&leadSource=article-gifting",
-      "date": "2026-10-18T22:00:39+00:00",
-      "summary": "Mark Gurman, today, in his weekly Power On column for Bloomberg (gift link): Without a serviceable version of the new assistant, Apple couldn’t deliver the experience it had envisioned. That left the hardware ready to go, but the software nowhere near finished. So Apple postponed the HomeView repeat",
-      "feedId": "daringfireball",
-      "feedTitle": "Daring Fireball",
-      "category": "Tech Blogs",
-      "feedHome": "https://daringfireball.net/"
+      "title": "llm-echo 0.5",
+      "link": "https://simonwillison.net/2026/Oct/18/llm-echo/",
+      "date": "2026-10-18T23:16:16+00:00",
+      "summary": "Release: llm-echo 0.5 I'm working towards a new LLM release, and testing PRs caused me to revisit the llm-echo debug plugin. This plugin provides a \"model\" which doesn't involve an LLM at all - it just repeats back the prompts that have been fed to it. The new release now updates the simulated token",
+      "feedId": "simonwillison",
+      "feedTitle": "Simon Willison",
+      "category": "AI & LLM",
+      "feedHome": "https://simonwillison.net/"
     },
     {
-      "title": "Michigan Democratic Senate Candidate Abdul El-Sayed on His Allegiances",
-      "link": "https://x.com/AbdulElSayed/status/2111627277578731885",
-      "date": "2026-10-18T21:04:27+00:00",
-      "summary": "I do see some political content in my feed on X. For example, this extraordinary video posted by Abdul El-Sayed, who seems poised to become the next junior senator from Michigan. You should watch it. It’s so good you might suspect the questioner was a plant, but in fact, he was not. This actually ha",
-      "feedId": "daringfireball",
-      "feedTitle": "Daring Fireball",
-      "category": "Tech Blogs",
-      "feedHome": "https://daringfireball.net/"
+      "title": "Show HN: WhatsApp MCP running free on Cloudflare",
+      "link": "https://github.com/finereli/whatsapp-mcp",
+      "date": "2026-10-18T21:36:10+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
     },
     {
       "title": "No agenda, no rush, no leaving San Francisco: Benchmark’s partners on investing in a frenzied market",
@@ -2808,16 +2807,6 @@
       "feedHome": "https://techcrunch.com/"
     },
     {
-      "title": "Apple Issues Statement on Duo Demand Far Outstripping Supply",
-      "link": "https://www.ft.com/content/7b236286-ca1d-4063-a728-7f968a638b8f",
-      "date": "2026-10-18T20:48:45+00:00",
-      "summary": "The Financial Times: Apple had originally promised delivery of the Duo by October 23, but within hours of orders opening, delivery times through Apple’s website had slipped into late January. US mobile carriers also saw delivery times for new orders pushed back. “The pre-order demand for iPhone Duo,",
-      "feedId": "daringfireball",
-      "feedTitle": "Daring Fireball",
-      "category": "Tech Blogs",
-      "feedHome": "https://daringfireball.net/"
-    },
-    {
       "title": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
       "link": "https://arxiv.org/abs/2610.18861",
       "date": "2026-10-18T20:48:14+00:00",
@@ -2826,6 +2815,16 @@
       "feedTitle": "Hacker News",
       "category": "Startup & News",
       "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "SF-based home insurer Stand, which uses digital twins of homes to price wildfire risk and insures $10B+ of property, raised a $70M Series C at a $1B valuation (Nick Lichtenberg/Fortune)",
+      "link": "https://www.techmeme.com/261018/p13#a261018p13",
+      "date": "2026-10-18T20:40:01-04:00",
+      "summary": "Nick Lichtenberg / Fortune: SF-based home insurer Stand, which uses digital twins of homes to price wildfire risk and insures $10B+ of property, raised a $70M Series C at a $1B valuation&nbsp; &mdash;&nbsp; Matt DiStefano shares his screen and rotates a gray 3D model of a California neighborhood.&nb",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
     },
     {
       "title": "Anthropic says it’s committing 5% of its shares to a ‘public benefit fund’",
@@ -2846,16 +2845,6 @@
       "feedTitle": "TechCrunch AI",
       "category": "Startup & News",
       "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
-    },
-    {
-      "title": "Manton Reece’s Spitball Theory on Why the Wall-Mounted HomeView Costs the Same as the Version With the Subwoofer Base",
-      "link": "https://www.manton.org/2026/10/17/in-john-grubers-initial-thoughts.html",
-      "date": "2026-10-18T19:34:46+00:00",
-      "summary": "Manton Reece: All I can come up with is that Apple doesn’t want you to buy the wall-mounted version unless you’re really sure that’s what you need. If the wall-mounted version was cheaper, some people might buy it based on price, then be unhappy because it’s too much trouble to install. Oh, that cli",
-      "feedId": "daringfireball",
-      "feedTitle": "Daring Fireball",
-      "category": "Tech Blogs",
-      "feedHome": "https://daringfireball.net/"
     },
     {
       "title": "Everyone’s watching the Elizabeth Holmes documentary ‘You Can See Everything’",
@@ -3028,6 +3017,16 @@
       "feedHome": "https://www.techmeme.com/"
     },
     {
+      "title": "DeepSeek search and fetch – $0.75 per 1000 successful requests",
+      "link": "https://api-docs.deepseek.com/guides/search/",
+      "date": "2026-10-18T06:50:36+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
       "title": "RegLayer: 47+ large US data center projects were delayed, withdrawn, or blocked in 2026; Bernstein says ~35% of the planned US data center pipeline is credible (Financial Times)",
       "link": "https://www.techmeme.com/261018/p6#a261018p6",
       "date": "2026-10-18T02:15:01-04:00",
@@ -3052,16 +3051,6 @@
       "link": "https://www.techmeme.com/261018/p4#a261018p4",
       "date": "2026-10-18T02:05:00-04:00",
       "summary": "James Titcomb / Telegraph: Microsoft cancels its deal to be the anchor tenant and rent 23K Nvidia AI chips at Nscale's Essex, UK, data center, which may not get grid power until the 2030s&nbsp; &mdash;&nbsp; US tech giant pulls the plug on Nscale deal in threat to multibillion-dollar listing&nbsp; &",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "Holyvolt, which develops AI tools for making and testing new battery materials, raised $45M from Zone II, CC.VC, and others, a source says at a $245M valuation (Nick Lichtenberg/Fortune)",
-      "link": "https://www.techmeme.com/261018/p3#a261018p3",
-      "date": "2026-10-18T01:40:01-04:00",
-      "summary": "Nick Lichtenberg / Fortune: Holyvolt, which develops AI tools for making and testing new battery materials, raised $45M from Zone II, CC.VC, and others, a source says at a $245M valuation&nbsp; &mdash;&nbsp; Steven Prast is old enough to remember when a mobile phone came in a bag.&nbsp; It was too h",
       "feedId": "techmeme",
       "feedTitle": "Techmeme",
       "category": "Startup & News",
@@ -3098,16 +3087,6 @@
       "feedHome": "https://eli.thegreenplace.net/"
     },
     {
-      "title": "Whatever You Say Bounces Off Me and Sticks to You",
-      "link": "https://www.reuters.com/business/retail-consumer/openai-employee-who-left-apple-took-files-about-unreleased-device-openai-alleges-2026-10-14/",
-      "date": "2026-10-18T00:55:43+00:00",
-      "summary": "Stephen Nellis and Deepa Seetharaman, reporting Wednesday for Reuters: An OpenAI employee who left the ChatGPT maker for Apple ​sent more than 100 files about an unreleased product to a personal account and later made a presentation about the unreleased product to senior Apple leadership, a new fili",
-      "feedId": "daringfireball",
-      "feedTitle": "Daring Fireball",
-      "category": "Tech Blogs",
-      "feedHome": "https://daringfireball.net/"
-    },
-    {
       "title": "Writing is no longer proof of work",
       "link": "https://seangoedecke.com/writing-is-no-longer-proof-of-work/",
       "date": "2026-10-18T00:00:00+00:00",
@@ -3121,36 +3100,6 @@
       "title": "There's never been a better time to go into math (by: 3blue1brown) [video]",
       "link": "https://www.youtube.com/watch?v=LKrwhjOI8Nc",
       "date": "2026-10-17T23:26:35+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
-      "title": "Apple TV Price History, Charted",
-      "link": "https://glog.glennf.com/blog/2026/10/17/apple-tv-price-history/",
-      "date": "2026-10-17T23:00:29+00:00",
-      "summary": "Glenn Fleishman: I wondered what the entry-level, initial price of each Apple TV box at introduction was, from the March 2007 original to the Apple TV 4K (4th generation) announced October 13, 2026, adjusted for inflation. So I charted it. I suppose this doesn’t mean Apple has given up on making App",
-      "feedId": "daringfireball",
-      "feedTitle": "Daring Fireball",
-      "category": "Tech Blogs",
-      "feedHome": "https://daringfireball.net/"
-    },
-    {
-      "title": "★ HomeView Thoughts and Observations",
-      "link": "https://daringfireball.net/2026/10/homeview_thoughts_and_observations",
-      "date": "2026-10-17T22:59:52+00:00",
-      "summary": "There’s a real “*Why do we need this?*” question here and I don’t think Apple’s video answers it, at all. You need to think you want it if you’re going to buy it. And even if you already had a HomeView set up, I’m not sure how often you’d use it instead of your phone, or instead of just talking to i",
-      "feedId": "daringfireball",
-      "feedTitle": "Daring Fireball",
-      "category": "Tech Blogs",
-      "feedHome": "https://daringfireball.net/"
-    },
-    {
-      "title": "I built a programming language that LLMs can't use",
-      "link": "https://blog.picheta.me/post/killswitch-lang/",
-      "date": "2026-10-17T22:26:47+00:00",
       "summary": "Comments",
       "feedId": "hackernews",
       "feedTitle": "Hacker News",
@@ -3318,16 +3267,6 @@
       "feedHome": "https://www.bestblogs.dev/"
     },
     {
-      "title": "The Late Charlie Munger on Elon Musk and Tesla",
-      "link": "https://www.cnbc.com/make-it/2020/02/14/charlie-munger-shares-opinion-of-tesla-ceo-elon-musk.html",
-      "date": "2026-10-17T01:22:35+00:00",
-      "summary": "Re: my post today on the still-vaporware Tesla Roadster and Benedict Evans’s maxim that “Elon Musk is a bullshitter who delivers”, a reader sent me this YouTube short of Charlie Munger’s answer to a question at Berkshire Hathaway’s 2020 shareholder meeting regarding Tesla’s volatility and Musk’s sel",
-      "feedId": "daringfireball",
-      "feedTitle": "Daring Fireball",
-      "category": "Tech Blogs",
-      "feedHome": "https://daringfireball.net/"
-    },
-    {
       "title": "Anthropic AI Agent 工作时长突破员工 6 倍，招聘结构发生根本性变化",
       "link": "https://www.bestblogs.dev/status/2111223306061836484?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
       "date": "2026-10-16T22:30:35+00:00",
@@ -3366,16 +3305,6 @@
       "feedTitle": "Google Research Blog",
       "category": "AI & LLM",
       "feedHome": "https://research.google/blog/"
-    },
-    {
-      "title": "One parser, two bugs, many routers: Exploiting Broadcom WiFi across eCos, Linux",
-      "link": "https://quentinkaiser.be/security/2026/10/16/one-parser-two-bugs/",
-      "date": "2026-10-16T18:07:44+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
     },
     {
       "title": "India becomes the latest country to report rogue AI agent activity",
@@ -3628,16 +3557,6 @@
       "feedHome": "https://simonwillison.net/"
     },
     {
-      "title": "16-bit fully functional DIY magnetic core memory",
-      "link": "https://www.youtube.com/watch?v=OJ1WYyO2jdY",
-      "date": "2026-10-15T01:51:02+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
       "title": "Sullivan & Cromwell brings legal expertise into agreement review",
       "link": "https://openai.com/index/sullivan-cromwell",
       "date": "2026-10-15T00:00:00+00:00",
@@ -3838,26 +3757,6 @@
       "feedHome": "https://krebsonsecurity.com/"
     },
     {
-      "title": "Redesigning source control at Anthropic",
-      "link": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
-      "date": "2026-10-13T23:00:06+00:00",
-      "summary": "Redesigning source control at Anthropic Interesting piece from Anthropic describing why and how they built their own custom alternative to Git, based on the dramatic increase in rate of changes to their code after the past six months. In May 2026, Anthropic averaged around 2,500 code changes merged ",
-      "feedId": "simonwillison",
-      "feedTitle": "Simon Willison",
-      "category": "AI & LLM",
-      "feedHome": "https://simonwillison.net/"
-    },
-    {
-      "title": "llm-gemini 0.35",
-      "link": "https://simonwillison.net/2026/Oct/13/llm-gemini/",
-      "date": "2026-10-13T22:28:54+00:00",
-      "summary": "Release: llm-gemini 0.35 I added support to llm-gemini for the new Gemini 4 Argon model, made available today via the Gemini API and for customers of their $100/month subscription plan. Here are the low, medium and high pelicans. As expected, they are all excellent: Gemini has a track record of prod",
-      "feedId": "simonwillison",
-      "feedTitle": "Simon Willison",
-      "category": "AI & LLM",
-      "feedHome": "https://simonwillison.net/"
-    },
-    {
       "title": "Developing Gemini 4 Argon responsibly and safely",
       "link": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
       "date": "2026-10-13T19:43:07+00:00",
@@ -3906,6 +3805,16 @@
       "feedTitle": "John D. Cook",
       "category": "Tech Blogs",
       "feedHome": "https://www.johndcook.com/"
+    },
+    {
+      "title": "Subterranean Warfare – An Urgent DoW Need Without An Owner",
+      "link": "https://steveblank.com/2026/10/13/subterranean-warfare-an-urgent-dow-need-without-an-owner/",
+      "date": "2026-10-13T13:00:19+00:00",
+      "summary": "This article previously appeared in Cipher Brief. The DoW urgently needs to organize its scattered subterranean warfare assets into a single unified organization. Ideally, a Direct Reporting Portfolio Manager (DRPM) for Subterranean Warfare, reporting to the Deputy Secretary of War. (The Department ",
+      "feedId": "steveblank",
+      "feedTitle": "Steve Blank",
+      "category": "Tech Blogs",
+      "feedHome": "https://steveblank.com/"
     },
     {
       "title": "Pluralistic: Bundestrojaner (13 Oct 2026)",
@@ -4458,6 +4367,16 @@
       "feedHome": "https://deepmind.google/blog/"
     },
     {
+      "title": "Lean LaunchPad – The Next Generation",
+      "link": "https://steveblank.com/2026/09/30/lean-launchpad-the-next-generation/",
+      "date": "2026-09-30T13:00:28+00:00",
+      "summary": "You&#8217;re reading a four-part series on how AI has impacted our Lean LaunchPad class and what we did about it. Part 1: The Year AI Came For Us Part 2: AI Killed the MVP – Long Live the IUP Part 3: The World Outside the Classroom Changed, The Class Didn’t This post: Lean LaunchPad – The [&#8230;]",
+      "feedId": "steveblank",
+      "feedTitle": "Steve Blank",
+      "category": "Tech Blogs",
+      "feedHome": "https://steveblank.com/"
+    },
+    {
       "title": "How Diffusion Controller unifies and simplifies AI image generation",
       "link": "https://research.google/blog/how-diffusion-controller-unifies-and-simplifies-ai-image-generation/",
       "date": "2026-09-29T18:38:27+00:00",
@@ -4498,6 +4417,16 @@
       "feedHome": "https://krebsonsecurity.com/"
     },
     {
+      "title": "The World Outside the Classroom Changed, The Class Didn’t",
+      "link": "https://steveblank.com/2026/09/28/the-world-outside-the-classroom-changed-the-class-didnt/",
+      "date": "2026-09-28T13:00:57+00:00",
+      "summary": "This post previously appeared in Poets and Quants This is the third of four posts on how AI has impacted our Lean LaunchPad class and what we did about it. Part 1: The Year AI Came For Us Part 2: AI Killed the MVP – Long Live the IUP Part 3: This Post Part 4: [&#8230;]",
+      "feedId": "steveblank",
+      "feedTitle": "Steve Blank",
+      "category": "Tech Blogs",
+      "feedHome": "https://steveblank.com/"
+    },
+    {
       "title": "Edge Is Pretending to Be Chrome",
       "link": "https://idiallo.com/blog/edge-imitates-chrome",
       "date": "2026-09-28T07:30:00+00:00",
@@ -4536,6 +4465,16 @@
       "feedTitle": "Krebs on Security",
       "category": "Tech Blogs",
       "feedHome": "https://krebsonsecurity.com/"
+    },
+    {
+      "title": "AI Killed the MVP – Long Live the IUP",
+      "link": "https://steveblank.com/2026/09/25/ai-killed-the-mvp-long-live-the-iup/",
+      "date": "2026-09-25T13:00:16+00:00",
+      "summary": "This post previously appeared in Poets and Quants This is the second of four posts on how AI has impacted our Lean LaunchPad class and what we did about it. Part 1: The Year AI Came For Us &#8211; This Post Part 2: AI Killed the MVP – Long Live the IUP Part 3: The [&#8230;]",
+      "feedId": "steveblank",
+      "feedTitle": "Steve Blank",
+      "category": "Tech Blogs",
+      "feedHome": "https://steveblank.com/"
     },
     {
       "title": "I'm starting HomelabFest (in St. Louis, Sep 2027)",
@@ -4586,6 +4525,16 @@
       "feedTitle": "DeepMind Blog",
       "category": "AI & LLM",
       "feedHome": "https://deepmind.google/blog/"
+    },
+    {
+      "title": "The Year AI Came For Us: Teaching Entrepreneurship Will Never Be The Same",
+      "link": "https://steveblank.com/2026/09/23/the-year-ai-came-for-us-teaching-entrepreneurship-will-never-be-the-same/",
+      "date": "2026-09-23T13:00:12+00:00",
+      "summary": "This post previously appeared in Poets and Quants. 15 years ago, my Lean LaunchPad class changed how entrepreneurship is taught. The class is now taught in hundreds of universities worldwide and helped launch thousands of startups. But this past summer, I got thinking about whether AI killed our Lea",
+      "feedId": "steveblank",
+      "feedTitle": "Steve Blank",
+      "category": "Tech Blogs",
+      "feedHome": "https://steveblank.com/"
     },
     {
       "title": "Weekly Update 522: Live From Oslo with Scott Helme",
@@ -5538,6 +5487,16 @@
       "feedHome": "https://overreacted.io/"
     },
     {
+      "title": "Lean Launch Pad 2026 @ Stanford – Lessons Learned Presentations",
+      "link": "https://steveblank.com/2026/06/16/lean-launch-pad-2026-stanford-lessons-learned-presentations/",
+      "date": "2026-06-16T13:00:57+00:00",
+      "summary": "We just finished the 16th annual Lean LaunchPad class at Stanford. In those 16 years, the class has gone from a radical idea &#8211; that the Lean method could provide a more productive framework for new startups &#8211; to something that everyone agrees is a way to build new startups. The class had",
+      "feedId": "steveblank",
+      "feedTitle": "Steve Blank",
+      "category": "Tech Blogs",
+      "feedHome": "https://steveblank.com/"
+    },
+    {
       "title": "Maybe it's time for lots of little indie AIs to take over",
       "link": "https://anildash.com/2026/06/15/indie-AI-takeover/",
       "date": "2026-06-15T00:00:00+00:00",
@@ -5566,6 +5525,26 @@
       "feedTitle": "Miguel Grinberg",
       "category": "Tech Blogs",
       "feedHome": "https://blog.miguelgrinberg.com/"
+    },
+    {
+      "title": "Incorruptible",
+      "link": "https://steveblank.com/2026/06/09/incorruptible/",
+      "date": "2026-06-09T13:00:23+00:00",
+      "summary": "Incorruptible: Why Good Companies Go Bad&#8230; and How Great Companies Stay Great, by Eric Ries. Every once in a while a book comes along that doesn&#8217;t just change your tactical thinking, but makes you see the world in a different way. Reading this book is like taking the red pill in the Matri",
+      "feedId": "steveblank",
+      "feedTitle": "Steve Blank",
+      "category": "Tech Blogs",
+      "feedHome": "https://steveblank.com/"
+    },
+    {
+      "title": "Hacking for Defense @ Stanford 2026 – Lessons Learned Presentations",
+      "link": "https://steveblank.com/2026/06/08/g-for-defense-stanford-2026-lessons-learned-presentations/",
+      "date": "2026-06-08T13:00:15+00:00",
+      "summary": "We just wrapped up our Hacking for Defense class at Stanford. This was the 11th year we&#8217;ve taught Hacking for Defense, and the impact of asymmetric warfare, (drones, off-the-shelf technologies, etc.,) disruptive technologies (AI, commercial access to space) and a startup friendly DoW acquisiti",
+      "feedId": "steveblank",
+      "feedTitle": "Steve Blank",
+      "category": "Tech Blogs",
+      "feedHome": "https://steveblank.com/"
     },
     {
       "title": "A new era for software testing",
@@ -5748,6 +5727,16 @@
       "feedHome": "https://anildash.com/"
     },
     {
+      "title": "Anthropic Mythos – We’ve Opened Pandora’s Box",
+      "link": "https://steveblank.com/2026/04/28/anthropic-mythos-weve-opened-pandoras-box/",
+      "date": "2026-04-28T13:00:48+00:00",
+      "summary": "This article previously appeared in The Cipher Brief. For a decade the cybersecurity community was predicting a cyber apocalypse tied to a single event &#8211; the day a Cryptographically Relevant Quantum Computer could run Shor’s algorithm and break the public-key cryptography systems most of the i",
+      "feedId": "steveblank",
+      "feedTitle": "Steve Blank",
+      "category": "Tech Blogs",
+      "feedHome": "https://steveblank.com/"
+    },
+    {
       "title": "Spring 2026 Dev Contest Results!",
       "link": "https://repebble.com/blog/spring-2026-dev-contest-results",
       "date": "2026-04-28T00:00:00+00:00",
@@ -5786,6 +5775,16 @@
       "feedTitle": "Miguel Grinberg",
       "category": "Tech Blogs",
       "feedHome": "https://blog.miguelgrinberg.com/"
+    },
+    {
+      "title": "AI and Teaching – The Brave New World",
+      "link": "https://steveblank.com/2026/04/22/ai-and-teaching-the-brave-new-world/",
+      "date": "2026-04-22T15:34:09+00:00",
+      "summary": "This article previously appeared in the Entrepreneur &#38; Innovation Exchange (EIX) This is the 16th year we’ve been teaching the Stanford Lean LaunchPad class. This year, from the first hour of the first class, we realized we were seeing something extraordinary happen. It was both the end and begi",
+      "feedId": "steveblank",
+      "feedTitle": "Steve Blank",
+      "category": "Tech Blogs",
+      "feedHome": "https://steveblank.com/"
     },
     {
       "title": "AI cybersecurity is not proof of work",
