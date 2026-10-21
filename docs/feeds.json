@@ -1,13 +1,12 @@
 {
-  "updatedAt": "2026-10-21T18:26:34.356318+00:00",
+  "updatedAt": "2026-10-21T22:09:32.036826+00:00",
   "totalFeeds": 51,
-  "successCount": 41,
-  "failedCount": 10,
+  "successCount": 42,
+  "failedCount": 9,
   "failed": [
     "gwern",
     "garymarcus",
     "thesequence",
-    "antirez",
     "lcamtuf",
     "rachelbythebay",
     "tedunangst",
@@ -24,8 +23,14 @@
         "home": "https://simonwillison.net/",
         "url": "https://simonwillison.net/atom/everything/",
         "status": "ok",
-        "fetchedAt": "2026-10-21T18:26:23.744046+00:00",
+        "fetchedAt": "2026-10-21T22:09:22.060349+00:00",
         "items": [
+          {
+            "title": "Today's PHP Security Release, and How We're Strengthening PHP Security",
+            "link": "https://simonwillison.net/2026/Oct/21/php-security-release/",
+            "date": "2026-10-21T18:41:53+00:00",
+            "summary": "Today&#x27;s PHP Security Release, and How We&#x27;re Strengthening PHP Security If you're running anything on PHP it's vital you upgrade - today's updates (across the entire PHP 8.x line) address two remote code execution holes, and there have been exploits circulating since last night, thanks to a"
+          },
           {
             "title": "Panache — RTS Belle Époque pour mobile",
             "link": "https://simonwillison.net/2026/Oct/21/panache/",
@@ -79,12 +84,6 @@
             "link": "https://simonwillison.net/2026/Oct/16/code-review/",
             "date": "2026-10-16T22:06:37+00:00",
             "summary": "We think \"did a human read the code?\" is an imprecise proxy for \"what could go wrong with this change, and which check—automated or human—is the right one to catch it?\" Asking that question also changed when review happens. Before, review was a gate at the end of the road: write the code, open a PR,"
-          },
-          {
-            "title": "sparqlite: SPARQL 1.1 inside SQLite, written in Rust",
-            "link": "https://simonwillison.net/2026/Oct/16/sqlite-sparql-rust/",
-            "date": "2026-10-16T01:58:00+00:00",
-            "summary": "Research: sparqlite: SPARQL 1.1 inside SQLite, written in Rust This research task is really an experiment in running Claude Code for web in \"Ultracode\" mode, as described in Orchestrate subagents at scale with dynamic workflows in the Claude Code documentation. With Ultracode turned on, Claude Code "
           }
         ]
       },
@@ -95,13 +94,19 @@
         "home": "https://openai.com/news/",
         "url": "https://openai.com/news/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-21T18:26:23.720216+00:00",
+        "fetchedAt": "2026-10-21T22:09:22.054740+00:00",
         "items": [
           {
             "title": "How AT&T is rethinking in-house legal work with OpenAI",
             "link": "https://openai.com/index/att-legal",
             "date": "2026-10-21T17:00:00+00:00",
             "summary": "AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment."
+          },
+          {
+            "title": "Broad access through consistent standards",
+            "link": "https://openai.com/index/broad-access-through-consistent-standards",
+            "date": "2026-10-21T21:00:00+00:00",
+            "summary": "How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies."
           },
           {
             "title": "OpenAI models are coming to Google Cloud",
@@ -134,6 +139,12 @@
             "summary": "Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale."
           },
           {
+            "title": "Democratic governance of frontier AI, part II: Empowering cyber defenders",
+            "link": "https://openai.com/index/empowering-cyber-defenders",
+            "date": "2026-10-21T00:00:00+00:00",
+            "summary": "OpenAI outlines a blueprint for empowering cyber defenders with frontier AI, stronger safeguards, modernized cybersecurity, and more resilient public institutions."
+          },
+          {
             "title": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
             "link": "https://openai.com/index/ted-taylor-restaurant",
             "date": "2026-10-20T10:00:00+00:00",
@@ -144,18 +155,6 @@
             "link": "https://openai.com/index/terminal-x",
             "date": "2026-10-20T07:00:00+00:00",
             "summary": "Terminal X’s Eval Agent grades outputs against a 54-criterion rubric, catching 25% more deviances from a fund’s mandate with GPT-6.1 Sol."
-          },
-          {
-            "title": "OpenAI acquires Orchestra Bio",
-            "link": "https://openai.com/index/openai-to-acquire-orchestra-bio",
-            "date": "2026-10-20T00:00:00+00:00",
-            "summary": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D, helping biopharma teams accelerate drug development and advance new treatments."
-          },
-          {
-            "title": "Advancing coding in low‑resource programming languages",
-            "link": "https://openai.com/index/low-resource-programming-languages",
-            "date": "2026-10-19T12:00:00+00:00",
-            "summary": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration."
           }
         ]
       },
@@ -166,7 +165,7 @@
         "home": "https://arxiv.org/list/cs.AI/recent",
         "url": "https://arxiv.org/rss/cs.AI",
         "status": "ok",
-        "fetchedAt": "2026-10-21T18:26:24.082917+00:00",
+        "fetchedAt": "2026-10-21T22:09:22.308008+00:00",
         "items": [
           {
             "title": "Navalia: Advancing Cowork Agents through Verifiable Task Synthesis and Long-Horizon Post-Training",
@@ -237,7 +236,7 @@
         "home": "https://arxiv.org/list/cs.LG/recent",
         "url": "https://arxiv.org/rss/cs.LG",
         "status": "ok",
-        "fetchedAt": "2026-10-21T18:26:24.032583+00:00",
+        "fetchedAt": "2026-10-21T22:09:22.248791+00:00",
         "items": [
           {
             "title": "High-dimensional layer-state trajectories reveal the internal dynamics of transformer inference",
@@ -308,7 +307,7 @@
         "home": "https://research.google/blog/",
         "url": "https://research.google/blog/rss/",
         "status": "ok",
-        "fetchedAt": "2026-10-21T18:26:23.792308+00:00",
+        "fetchedAt": "2026-10-21T22:09:22.333757+00:00",
         "items": [
           {
             "title": "Empowering frontline maternal care with AI-assisted ultrasound",
@@ -379,7 +378,7 @@
         "home": "https://deepmind.google/blog/",
         "url": "https://deepmind.google/blog/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-21T18:26:23.836246+00:00",
+        "fetchedAt": "2026-10-21T22:09:22.065050+00:00",
         "items": [
           {
             "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
@@ -450,7 +449,7 @@
         "home": "https://lilianweng.github.io/",
         "url": "https://lilianweng.github.io/lil-log/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-21T18:26:23.745276+00:00",
+        "fetchedAt": "2026-10-21T22:09:22.142739+00:00",
         "items": [
           {
             "title": "Active Learning",
@@ -541,7 +540,7 @@
         "home": "https://minimaxir.com/",
         "url": "https://minimaxir.com/index.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-21T18:26:23.753898+00:00",
+        "fetchedAt": "2026-10-21T22:09:22.091845+00:00",
         "items": [
           {
             "title": "Writing Rust code that's faster than state-of-the-art libraries by asking agents to make the code faster",
@@ -624,7 +623,7 @@
         "home": "https://www.jeffgeerling.com/",
         "url": "https://www.jeffgeerling.com/blog.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-21T18:26:23.794130+00:00",
+        "fetchedAt": "2026-10-21T22:09:22.069744+00:00",
         "items": [
           {
             "title": "Upgrade your PHP installs immediately to protect against php2shell",
@@ -695,7 +694,7 @@
         "home": "https://www.seangoedecke.com/",
         "url": "https://www.seangoedecke.com/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-21T18:26:23.863357+00:00",
+        "fetchedAt": "2026-10-21T22:09:22.136489+00:00",
         "items": [
           {
             "title": "Laypeople support technical fields for technology, not art",
@@ -766,7 +765,7 @@
         "home": "https://krebsonsecurity.com/",
         "url": "https://krebsonsecurity.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-10-21T18:26:23.852437+00:00",
+        "fetchedAt": "2026-10-21T22:09:22.085121+00:00",
         "items": [
           {
             "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
@@ -837,7 +836,7 @@
         "home": "https://daringfireball.net/",
         "url": "https://daringfireball.net/feeds/main",
         "status": "ok",
-        "fetchedAt": "2026-10-21T18:26:23.782819+00:00",
+        "fetchedAt": "2026-10-21T22:09:22.075784+00:00",
         "items": [
           {
             "title": "[Sponsor] Sunnny",
@@ -908,7 +907,7 @@
         "home": "https://ericmigi.com/",
         "url": "https://ericmigi.com/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-21T18:26:23.824195+00:00",
+        "fetchedAt": "2026-10-21T22:09:22.102418+00:00",
         "items": [
           {
             "title": "New Pebble Weather App + Software Updates",
@@ -978,9 +977,70 @@
         "title": "antirez",
         "home": "http://antirez.com/",
         "url": "http://antirez.com/rss",
-        "status": "error",
-        "error": "HTTP 502",
-        "items": []
+        "status": "ok",
+        "fetchedAt": "2026-10-21T22:09:24.434819+00:00",
+        "items": [
+          {
+            "title": "The real AI risk is inside the labs",
+            "link": "http://antirez.com/news/172",
+            "date": "2026-07-28T11:00:11+02:00",
+            "summary": "Amodei in his latest blog post wrote a mix of agreeable things and things that I believe misrepresent where the real risk of AI is located. I want to focus my attention on why, among all the risks, open weight models constitute the mildest one. I write these words as a person who strongly believes A"
+          },
+          {
+            "title": "Being Linux Torvalds",
+            "link": "http://antirez.com/news/171",
+            "date": "2026-07-25T13:20:55+02:00",
+            "summary": "(This blog post was adapted from the transcription obtained from my YouTube video at https://www.youtube.com/watch?v=l6lxgYeVZqs) When Linus Torvalds developed the first Linux kernel, he had studied the Minix sources, he had studied computer architecture, he had the base knowledge needed, and he was"
+          },
+          {
+            "title": "Not just development, distribution of software may change as well",
+            "link": "http://antirez.com/news/170",
+            "date": "2026-07-22T16:52:39+02:00",
+            "summary": "Even if you are as averse to semver as I used to be in the course of my programming activity, you can still think of open source software distribution as something that used to follow a fixed number of steps. There is a branch where developments happen, and this branch oftentimes happens to be not r"
+          },
+          {
+            "title": "Control the ideas, not the code",
+            "link": "http://antirez.com/news/169",
+            "date": "2026-07-13T13:39:52+02:00",
+            "summary": "Look at the past history of this blog. There are many blog posts about programming with AI, a few of them date back to January 2024 (like this: https://antirez.com/news/140). I’m a relatively well regarded programmer, after all. I don’t have the need to still be in the “loop” as a old man that seeks"
+          },
+          {
+            "title": "A new era for software testing",
+            "link": "http://antirez.com/news/168",
+            "date": "2026-06-07T11:46:06+02:00",
+            "summary": "Automatic programming dramatically speeds up writing software in certain use cases and in the right hands. In my experience the output does not reach the structural quality and economy of complexity of the best hand-written software. However, not all the software is stellar, and my feeling is that a"
+          },
+          {
+            "title": "Distributing LLM inference in DwarfStar",
+            "link": "http://antirez.com/news/167",
+            "date": "2026-05-25T16:54:59+02:00",
+            "summary": "High end NVIDIA cards, and the server and power needed to run them, cost a lot of money, especially if you plan to reach enough VRAM to run massive models. The alternative, so far, has been Apple hardware, or the DGX Spark that, even if severely limited because of memory bandwidth, still allows to r"
+          },
+          {
+            "title": "Alternatives for the EDIT tool of LLM agents",
+            "link": "http://antirez.com/news/166",
+            "date": "2026-05-19T09:26:03+02:00",
+            "summary": "EDIT: of course this was already done in the past! I had little doubts but people just confirmed me about it on Twitter :) But, keep reading: the CRC32 compromise at the end is an interesting tradeoff, and this is a good discussion to have in general. Right now I'm working to an agent for my DS4 pro"
+          },
+          {
+            "title": "A few words on DS4",
+            "link": "http://antirez.com/news/165",
+            "date": "2026-05-15T00:22:45+02:00",
+            "summary": "I didn’t expect DwarfStar 4 (https://github.com/antirez/ds4) to become so popular so fast. It is clear that there was a need for single-model integration focused local AI experience, and that a few things happened together: the release of a quasi-frontier model that is large and fast enough to chang"
+          },
+          {
+            "title": "Redis array type: short story of a long development",
+            "link": "http://antirez.com/news/164",
+            "date": "2026-05-04T16:21:45+02:00",
+            "summary": "I started working on the new Array data type for Redis in the first days of January. The PR landed the repository only now, so this code was cooked for four months. I worked at the implementation kinda part time (kinda because many weeks were actually full time, sometimes to detach yourself from the"
+          },
+          {
+            "title": "AI cybersecurity is not proof of work",
+            "link": "http://antirez.com/news/163",
+            "date": "2026-04-16T12:46:46+02:00",
+            "summary": "The proof of work is the wrong analogy: finding hash collisions, while exponentially harder with N, is guaranteed to find, with enough work, some S so that H(S) satisfies N, so an asymmetry of resources used will see the side with more \"work ability\" eventually winning. But bugs are different: 1. Di"
+          }
+        ]
       },
       {
         "id": "idiallo",
@@ -989,8 +1049,14 @@
         "home": "https://idiallo.com/",
         "url": "https://idiallo.com/feed.rss",
         "status": "ok",
-        "fetchedAt": "2026-10-21T18:26:24.096398+00:00",
+        "fetchedAt": "2026-10-21T22:09:22.368394+00:00",
         "items": [
+          {
+            "title": "Can they write a function?",
+            "link": "https://idiallo.com/blog/can-they-write-a-function",
+            "date": "2026-10-21T19:00:40+00:00",
+            "summary": "For a software developer position, there isn't a trick to finding the best candidate. Your criteria do not determine how solid the candidates will be. Everyone is submitting 500 applications a month now, and those who automate the process submit thousands. So how do you hire a great candidate? Pick "
+          },
           {
             "title": "This video is 2 minutes long",
             "link": "https://idiallo.com/byte-size/two-minutes-long-video",
@@ -1044,12 +1110,6 @@
             "link": "https://idiallo.com/blog/making-changes-mid-sentence",
             "date": "2026-09-13T20:00:00+00:00",
             "summary": "Have you ever watched any old hacker movie lately? The hacker can write at 180 WPM, never using the backspace or changing his mind ever. It’s like before they ever started, they already knew the last character they would type on the screen. But that’s not how it works in real life, at least not for "
-          },
-          {
-            "title": "You Can Drop SEO",
-            "link": "https://idiallo.com/blog/you-can-drop-the-seo",
-            "date": "2026-09-11T20:30:00+00:00",
-            "summary": "I started learning web development around the time the term search engine optimization, SEO, was becoming more common. You could still see the shift between pre-SEO content and post-SEO content. A popular article titled \"Forgotten\" (a great story) was suddenly republished as \"Forgotten: My Adventure"
           }
         ]
       },
@@ -1060,7 +1120,7 @@
         "home": "https://maurycyz.com/",
         "url": "https://maurycyz.com/index.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-21T18:26:24.441542+00:00",
+        "fetchedAt": "2026-10-21T22:09:22.735933+00:00",
         "items": []
       },
       {
@@ -1070,8 +1130,14 @@
         "home": "https://pluralistic.net/",
         "url": "https://pluralistic.net/feed/",
         "status": "ok",
-        "fetchedAt": "2026-10-21T18:26:24.248400+00:00",
+        "fetchedAt": "2026-10-21T22:09:23.241439+00:00",
         "items": [
+          {
+            "title": "Pluralistic: Adversarial interoperability is a team sport (21 Oct 2026)",
+            "link": "https://pluralistic.net/2026/10/21/brittle-individualism/",
+            "date": "2026-10-21T20:05:21+00:00",
+            "summary": "Today's links Adversarial interoperability is a team sport: Vibe-coded jailbreaks are fun, but don't solve the problem. Hey look at this: Delights to delectate. Object permanence: Labour Whip's pro-Iraq war threats; LoC's emulators; Kevin Mitnick plays CIA stooge; ICE: \"The warrant is coming out of "
+          },
           {
             "title": "Pluralistic: The death of history's most successful publisher (20 Oct 2026)",
             "link": "https://pluralistic.net/2026/10/20/main-character-syndrome/",
@@ -1125,12 +1191,6 @@
             "link": "https://pluralistic.net/2026/10/07/gouged/",
             "date": "2026-10-07T13:58:46+00:00",
             "summary": "Today's links Disloyalty: Air Canada's frequent flier fuckery. Hey look at this: Delights to delectate. Object permanence: Indie booksellers v internet; Coke pays dieticians to astroturf soda taxes; Voting in a voter-suppression state; Facebook v your use of Facebook. Upcoming appearances: Hudson, C"
-          },
-          {
-            "title": "Pluralistic: Swapping money for expertise (06 Oct 2026)",
-            "link": "https://pluralistic.net/2026/10/06/nonfungible/",
-            "date": "2026-10-06T12:58:26+00:00",
-            "summary": "Today's links Swapping money for expertise: Money can't buy me love. Hey look at this: Delights to delectate. Object permanence: \"Tempo\"; Yahoo censors MEP's torture debate video; Scotland's money-laundry; A textbook scam; DOS the IRS then charge for access; Just trying to make a buck. Upcoming appe"
           }
         ]
       },
@@ -1141,7 +1201,7 @@
         "home": "https://shkspr.mobi/blog/",
         "url": "https://shkspr.mobi/blog/feed/",
         "status": "ok",
-        "fetchedAt": "2026-10-21T18:26:24.864608+00:00",
+        "fetchedAt": "2026-10-21T22:09:23.373003+00:00",
         "items": [
           {
             "title": "Book Review: Quackery - A Brief History of the Worst Ways to Cure Everything by Lydia Kang ★★★⯪☆",
@@ -1222,7 +1282,7 @@
         "home": "https://mitchellh.com/",
         "url": "https://mitchellh.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-21T18:26:24.388823+00:00",
+        "fetchedAt": "2026-10-21T22:09:22.184782+00:00",
         "items": [
           {
             "title": "A Terminal Protocol for Program Status (OSC 7501)",
@@ -1293,7 +1353,7 @@
         "home": "https://dynomight.net/",
         "url": "https://dynomight.net/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-21T18:26:24.306876+00:00",
+        "fetchedAt": "2026-10-21T22:09:22.609018+00:00",
         "items": [
           {
             "title": "Why is the human body so crap except for the liver?",
@@ -1364,8 +1424,20 @@
         "home": "https://xeiaso.net/",
         "url": "https://xeiaso.net/blog.rss",
         "status": "ok",
-        "fetchedAt": "2026-10-21T18:26:24.501379+00:00",
+        "fetchedAt": "2026-10-21T22:09:22.675618+00:00",
         "items": [
+          {
+            "title": "\"No way to prevent this\" say users of only language where this regularly happens",
+            "link": "https://xeiaso.net/shitposts/no-way-to-prevent-this/memory-safety/CVE-2026-94300/",
+            "date": "2026-10-21T00:00:00+00:00",
+            "summary": ""
+          },
+          {
+            "title": "\"No way to prevent this\" say users of only language where this regularly happens",
+            "link": "https://xeiaso.net/shitposts/no-way-to-prevent-this/memory-safety/CVE-2026-111813/",
+            "date": "2026-10-21T00:00:00+00:00",
+            "summary": ""
+          },
           {
             "title": "\"No way to prevent this\" say users of only language where this regularly happens",
             "link": "https://xeiaso.net/shitposts/no-way-to-prevent-this/memory-safety/CVE-2026-111497/",
@@ -1413,18 +1485,6 @@
             "link": "https://xeiaso.net/notes/2026/everyone-slowdown-but-me/",
             "date": "2026-09-12T00:00:00+00:00",
             "summary": ""
-          },
-          {
-            "title": "It took a year to ship WebAssembly in Anubis",
-            "link": "https://anubis.techaro.lol/blog/2026/anubis-wasm/",
-            "date": "2026-09-06T00:00:00+00:00",
-            "summary": ""
-          },
-          {
-            "title": "Conflict resolution is “fun”",
-            "link": "https://www.tigrisdata.com/blog/conflict-resolution-is-fun/",
-            "date": "2026-09-01T00:00:00+00:00",
-            "summary": ""
           }
         ]
       },
@@ -1435,7 +1495,7 @@
         "home": "https://devblogs.microsoft.com/oldnewthing/",
         "url": "https://devblogs.microsoft.com/oldnewthing/feed",
         "status": "ok",
-        "fetchedAt": "2026-10-21T18:26:23.970087+00:00",
+        "fetchedAt": "2026-10-21T22:09:22.310770+00:00",
         "items": [
           {
             "title": "Why didn’t we use Ro­Register­For­Apartment­Shutdown to clean up the unmarshalable delegate?",
@@ -1506,7 +1566,7 @@
         "home": "https://www.righto.com/",
         "url": "https://www.righto.com/feeds/posts/default",
         "status": "ok",
-        "fetchedAt": "2026-10-21T18:26:23.953500+00:00",
+        "fetchedAt": "2026-10-21T22:09:22.504483+00:00",
         "items": []
       },
       {
@@ -1516,7 +1576,7 @@
         "home": "https://lucumr.pocoo.org/",
         "url": "https://lucumr.pocoo.org/feed.atom",
         "status": "ok",
-        "fetchedAt": "2026-10-21T18:26:24.428761+00:00",
+        "fetchedAt": "2026-10-21T22:09:22.772787+00:00",
         "items": [
           {
             "title": "What is Codemode",
@@ -1587,7 +1647,7 @@
         "home": "https://skyfall.dev/",
         "url": "https://skyfall.dev/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-21T18:26:24.495608+00:00",
+        "fetchedAt": "2026-10-21T22:09:22.705851+00:00",
         "items": [
           {
             "title": "Good riddance, 4o",
@@ -1662,7 +1722,7 @@
         "home": "https://overreacted.io/",
         "url": "https://overreacted.io/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-21T18:26:24.261337+00:00",
+        "fetchedAt": "2026-10-21T22:09:22.174930+00:00",
         "items": [
           {
             "title": "How I Vibed a Proof of Conway’s Conjecture",
@@ -1733,7 +1793,7 @@
         "home": "https://www.johndcook.com/",
         "url": "https://www.johndcook.com/blog/feed/",
         "status": "ok",
-        "fetchedAt": "2026-10-21T18:26:24.164913+00:00",
+        "fetchedAt": "2026-10-21T22:09:22.340249+00:00",
         "items": [
           {
             "title": "Backdoors, Incompetence, and Elliptic Curves",
@@ -1804,7 +1864,7 @@
         "home": "https://matklad.github.io/",
         "url": "https://matklad.github.io/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-21T18:26:23.907691+00:00",
+        "fetchedAt": "2026-10-21T22:09:22.322316+00:00",
         "items": [
           {
             "title": "On Git Refs",
@@ -1875,7 +1935,7 @@
         "home": "https://eli.thegreenplace.net/",
         "url": "https://eli.thegreenplace.net/feeds/all.atom.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-21T18:26:24.433021+00:00",
+        "fetchedAt": "2026-10-21T22:09:22.376046+00:00",
         "items": [
           {
             "title": "Notes on the complex roots of unity",
@@ -1916,7 +1976,7 @@
         "home": "https://fabiensanglard.net/",
         "url": "https://fabiensanglard.net/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-21T18:26:24.258985+00:00",
+        "fetchedAt": "2026-10-21T22:09:22.817290+00:00",
         "items": [
           {
             "title": "My agent.md to improve LLM-assisted code quality",
@@ -1987,7 +2047,7 @@
         "home": "https://blog.miguelgrinberg.com/",
         "url": "https://blog.miguelgrinberg.com/feed",
         "status": "ok",
-        "fetchedAt": "2026-10-21T18:26:24.791288+00:00",
+        "fetchedAt": "2026-10-21T22:09:22.926833+00:00",
         "items": [
           {
             "title": "How fast is Python 3.15?",
@@ -2058,7 +2118,7 @@
         "home": "https://www.troyhunt.com/",
         "url": "https://www.troyhunt.com/rss/",
         "status": "ok",
-        "fetchedAt": "2026-10-21T18:26:24.093956+00:00",
+        "fetchedAt": "2026-10-21T22:09:22.644593+00:00",
         "items": [
           {
             "title": "Weekly Update 526: Building HIBP AI/SI First",
@@ -2129,7 +2189,7 @@
         "home": "https://anildash.com/",
         "url": "https://anildash.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-21T18:26:24.385871+00:00",
+        "fetchedAt": "2026-10-21T22:09:22.618235+00:00",
         "items": [
           {
             "title": "Maybe it's time for lots of little indie AIs to take over",
@@ -2200,7 +2260,7 @@
         "home": "https://computer.rip/",
         "url": "https://computer.rip/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-21T18:26:24.969101+00:00",
+        "fetchedAt": "2026-10-21T22:09:22.703502+00:00",
         "items": [
           {
             "title": "from plesiochronous to synchronous",
@@ -2281,7 +2341,7 @@
         "home": "http://paulgraham.com/",
         "url": "http://www.aaronsw.com/2002/feeds/pgessays.rss",
         "status": "ok",
-        "fetchedAt": "2026-10-21T18:26:24.099953+00:00",
+        "fetchedAt": "2026-10-21T22:09:22.396636+00:00",
         "items": [
           {
             "title": "Superlinear Returns",
@@ -2352,7 +2412,7 @@
         "home": "https://steveblank.com/",
         "url": "https://steveblank.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-10-21T18:26:24.343639+00:00",
+        "fetchedAt": "2026-10-21T22:09:22.633361+00:00",
         "items": [
           {
             "title": "The Lean Educator Conference",
@@ -2425,18 +2485,24 @@
         "home": "https://news.ycombinator.com/",
         "url": "https://news.ycombinator.com/rss",
         "status": "ok",
-        "fetchedAt": "2026-10-21T18:26:24.429987+00:00",
+        "fetchedAt": "2026-10-21T22:09:22.377358+00:00",
         "items": [
-          {
-            "title": "PHP 8.2.35",
-            "link": "https://github.com/php/php-src/releases/tag/php-8.2.35",
-            "date": "2026-10-21T13:45:33+00:00",
-            "summary": "Comments"
-          },
           {
             "title": "Today's PHP security release, and how we're strengthening security",
             "link": "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/",
             "date": "2026-10-21T15:48:56+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "GitLab Critical Patch Release",
+            "link": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-5-1-released/",
+            "date": "2026-10-21T19:01:12+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "No More Icons in Every Menu by Default",
+            "link": "https://blog.jim-nielsen.com/2026/icons-in-every-menu/",
+            "date": "2026-10-20T04:27:08+00:00",
             "summary": "Comments"
           },
           {
@@ -2446,45 +2512,39 @@
             "summary": "Comments"
           },
           {
+            "title": "Why Windows 11 still ships with Windows 95's memory manager hidden inside it",
+            "link": "https://www.windowslatest.com/2026/10/19/why-windows-11-still-ships-with-windows-95s-memory-manager-hidden-inside-it/",
+            "date": "2026-10-20T00:14:03+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "AWS rates PHP RCE as Important so Amazon Linux 2023 patch may take 20 days",
+            "link": "https://github.com/amazonlinux/amazon-linux-2023/issues/1148",
+            "date": "2026-10-21T21:12:59+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "Eight Bits of Trust: eMudhra's CA keys cracked in milliseconds",
+            "link": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
+            "date": "2026-10-21T09:08:08+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "Claude Duet",
+            "link": "https://claude.com/product/claude-duet",
+            "date": "2026-10-21T19:14:01+00:00",
+            "summary": "Comments"
+          },
+          {
             "title": "DuckDB 2.0.0 LTS “Cinnamon Teal”",
             "link": "https://duckdb.org/2026/10/21/announcing-duckdb-200",
             "date": "2026-10-21T14:01:22+00:00",
             "summary": "Comments"
           },
           {
-            "title": "Eight Bits of Trust; eMudhra's CA keys cracked in milliseconds",
-            "link": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
-            "date": "2026-10-21T09:08:08+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "Patch the Planet: global response coordination as agents uncover vulnerabilities",
-            "link": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
-            "date": "2026-10-21T14:03:43+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "Tiny possum and glider thought extinct for 6000 years found in remote West Papua",
-            "link": "https://www.bbc.com/news/articles/cp814l80pw2o",
-            "date": "2026-10-20T06:20:54+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "EA is shutting down BioWare",
-            "link": "https://www.theverge.com/games/1015647/ea-is-shutting-down-bioware",
-            "date": "2026-10-21T17:29:33+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "Using thousands of AI agents to uncover new leads in biological data",
-            "link": "https://openai.com/index/scaling-ai-research-for-complex-biological-data/",
-            "date": "2026-10-21T13:37:00+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "OpenAI models are coming to Google Cloud",
-            "link": "https://openai.com/index/openai-models-google-cloud/",
-            "date": "2026-10-21T12:53:11+00:00",
+            "title": "Meta ordered to pay $25B penalty in New Mexico Cambridge Analytica case",
+            "link": "https://www.cnbc.com/2026/10/21/meta-new-mexico-cambridge-analytica-penalty.html",
+            "date": "2026-10-21T17:45:13+00:00",
             "summary": "Comments"
           }
         ]
@@ -2496,67 +2556,67 @@
         "home": "https://www.techmeme.com/",
         "url": "https://www.techmeme.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-21T18:26:24.195446+00:00",
+        "fetchedAt": "2026-10-21T22:09:22.508829+00:00",
         "items": [
+          {
+            "title": "Texas Instruments reports Q3 revenue up 28% YoY to $6.06B, above $5.93B est., net income up 78% YoY to $2.43B, and forecasts $5.8B-$6.3B in Q4, vs. $5.73B est. (Ian King/Bloomberg)",
+            "link": "https://www.techmeme.com/261021/p52#a261021p52",
+            "date": "2026-10-21T17:55:05-04:00",
+            "summary": "Ian King / Bloomberg: Texas Instruments reports Q3 revenue up 28% YoY to $6.06B, above $5.93B est., net income up 78% YoY to $2.43B, and forecasts $5.8B-$6.3B in Q4, vs. $5.73B est.&nbsp; &mdash;&nbsp; Texas Instruments Inc., the biggest maker of analog and embedded processing chips, gave a strong r"
+          },
+          {
+            "title": "Mark Zuckerberg says Muse has drawn 10M+ users since its launch and 25%+ of users are making purchases through the app, with an average purchase size of $200+ (Business Insider)",
+            "link": "https://www.techmeme.com/261021/p51#a261021p51",
+            "date": "2026-10-21T17:20:03-04:00",
+            "summary": "Business Insider: Mark Zuckerberg says Muse has drawn 10M+ users since its launch and 25%+ of users are making purchases through the app, with an average purchase size of $200+&nbsp; &mdash;&nbsp; Meta's new personal AI agent app, Muse, has drawn more than 10 million users since its September launch"
+          },
+          {
+            "title": "Meta expects its 2026 capex to be $135B-$145B, vs. $130B-$145B previously, and forecasts Q4 revenue of $73B-$76B, vs. $73.6B est.; META jumps 3%+ after hours (Riley Griffin/Bloomberg)",
+            "link": "https://www.techmeme.com/261021/p50#a261021p50",
+            "date": "2026-10-21T17:05:04-04:00",
+            "summary": "Riley Griffin / Bloomberg: Meta expects its 2026 capex to be $135B-$145B, vs. $130B-$145B previously, and forecasts Q4 revenue of $73B-$76B, vs. $73.6B est.; META jumps 3%+ after hours&nbsp; &mdash;&nbsp; Meta Platforms Inc. boosted its capital spending outlook and announced plans to create a new cl"
+          },
+          {
+            "title": "Anthropic unveils Claude Duet, a proactive agent app on iOS, Android, and the web that works in the background, in research preview for US Pro and Max users (Claude)",
+            "link": "https://www.techmeme.com/261021/p49#a261021p49",
+            "date": "2026-10-21T17:01:02-04:00",
+            "summary": "Claude: Anthropic unveils Claude Duet, a proactive agent app on iOS, Android, and the web that works in the background, in research preview for US Pro and Max users&nbsp; &mdash;&nbsp; A research preview is available by waitlist today, starting with US Pro and Max subscribers.&nbsp; &mdash;&nbsp; Jo"
+          },
+          {
+            "title": "Filing: Meta says Mark Zuckerberg is considering leaving California if it passes a one-time 5% tax on billionaires; voters will decide on the measure next month (Pierre Paulden/Bloomberg)",
+            "link": "https://www.techmeme.com/261021/p48#a261021p48",
+            "date": "2026-10-21T16:50:03-04:00",
+            "summary": "Pierre Paulden / Bloomberg: Filing: Meta says Mark Zuckerberg is considering leaving California if it passes a one-time 5% tax on billionaires; voters will decide on the measure next month&nbsp; &mdash;&nbsp; Mark Zuckerberg said he is considering leaving California if it passes a measure that would"
+          },
+          {
+            "title": "Meta says it will create a new class of nonvoting stock to raise the capital it needs for developing AI models, with an effective date in January 2027 (Meghan Bobrowsky/Wall Street Journal)",
+            "link": "https://www.techmeme.com/261021/p47#a261021p47",
+            "date": "2026-10-21T16:20:01-04:00",
+            "summary": "Meghan Bobrowsky / Wall Street Journal: Meta says it will create a new class of nonvoting stock to raise the capital it needs for developing AI models, with an effective date in January 2027&nbsp; &mdash;&nbsp; The company, which reported record revenue of $64.2 billion for the third quarter, said t"
+          },
+          {
+            "title": "Meta reports Q3 revenue up 26% YoY to $64.6B, operating income down 37% to $12.99B on a $9.89B AG settlement charge, and family DAP up 3% to 3.64B for September (Meta)",
+            "link": "https://www.techmeme.com/261021/p46#a261021p46",
+            "date": "2026-10-21T16:10:00-04:00",
+            "summary": "Meta: Meta reports Q3 revenue up 26% YoY to $64.6B, operating income down 37% to $12.99B on a $9.89B AG settlement charge, and family DAP up 3% to 3.64B for September&nbsp; &mdash;&nbsp; Announces Establishment of New Class C Common Stock&nbsp; &mdash;&nbsp; Meta Platforms, Inc. (Nasdaq: META) today"
+          },
+          {
+            "title": "OpenAI, PerturbAI, and Scripps say thousands of GPT-Rosalind agents analyzed data on millions of mouse brain cells in 32 minutes, a job that takes humans months (OpenAI)",
+            "link": "https://www.techmeme.com/261021/p45#a261021p45",
+            "date": "2026-10-21T15:45:01-04:00",
+            "summary": "OpenAI: OpenAI, PerturbAI, and Scripps say thousands of GPT-Rosalind agents analyzed data on millions of mouse brain cells in 32 minutes, a job that takes humans months&nbsp; &mdash;&nbsp; How OpenAI, PerturbAI, and Scripps Research used distributed AI agents to help scientists identify promising re"
+          },
+          {
+            "title": "Microsoft reveals pricing for Xbox Cloud Gaming without Game Pass, for Xbox Insiders now and others next month: 10 hours for $3.99, 25 for $7.99, 50 for $11.99 (Tom Warren/The Verge)",
+            "link": "https://www.techmeme.com/261021/p44#a261021p44",
+            "date": "2026-10-21T15:10:01-04:00",
+            "summary": "Tom Warren / The Verge: Microsoft reveals pricing for Xbox Cloud Gaming without Game Pass, for Xbox Insiders now and others next month: 10 hours for $3.99, 25 for $7.99, 50 for $11.99&nbsp; &mdash;&nbsp; Microsoft is opening up Xbox Cloud Gaming to anyone in November. &hellip; Microsoft announced la"
+          },
           {
             "title": "Flapping Airplanes, which is working on methods to train AI models using less data and compute and make the chips more efficient, raised $1B at a $6B valuation (Rachel Metz/Bloomberg)",
             "link": "https://www.techmeme.com/261021/p43#a261021p43",
             "date": "2026-10-21T13:45:08-04:00",
             "summary": "Rachel Metz / Bloomberg: Flapping Airplanes, which is working on methods to train AI models using less data and compute and make the chips more efficient, raised $1B at a $6B valuation&nbsp; &mdash;&nbsp; Flapping Airplanes, a year-old artificial intelligence startup, has raised $1 billion in fundin"
-          },
-          {
-            "title": "A New Mexico court orders Meta to pay $25B in penalties after a jury found Meta misled residents about its data practices in the Cambridge Analytica scandal (Jonathan Vanian/CNBC)",
-            "link": "https://www.techmeme.com/261021/p42#a261021p42",
-            "date": "2026-10-21T13:33:39-04:00",
-            "summary": "Jonathan Vanian / CNBC: A New Mexico court orders Meta to pay $25B in penalties after a jury found Meta misled residents about its data practices in the Cambridge Analytica scandal&nbsp; &mdash;&nbsp; Meta was ordered to pay $25 billion in penalties by a New Mexico court on Wednesday as part of a da"
-          },
-          {
-            "title": "Source and leaked memo: EA plans to cut ~400 jobs, or ~3% of its total staff, and shut down BioWare; EA went private in August following a $55B leveraged buyout (Jason Schreier/Bloomberg)",
-            "link": "https://www.techmeme.com/261021/p41#a261021p41",
-            "date": "2026-10-21T13:15:01-04:00",
-            "summary": "Jason Schreier / Bloomberg: Source and leaked memo: EA plans to cut ~400 jobs, or ~3% of its total staff, and shut down BioWare; EA went private in August following a $55B leveraged buyout&nbsp; &mdash;&nbsp; The next &lsquo;Mass Effect&rsquo; will be canceled as part of the layoffs&nbsp; &mdash;&nb"
-          },
-          {
-            "title": "The PHP Foundation says its patches for the RCE vulnerabilities are limited to PHP 8.2 and newer, leaving legacy deployments dependent on third-party vendors (Wired)",
-            "link": "https://www.techmeme.com/261021/p40#a261021p40",
-            "date": "2026-10-21T13:05:01-04:00",
-            "summary": "Wired: The PHP Foundation says its patches for the RCE vulnerabilities are limited to PHP 8.2 and newer, leaving legacy deployments dependent on third-party vendors&nbsp; &mdash;&nbsp; The PHP Foundation has revealed two serious vulnerabilities that could impact millions of websites."
-          },
-          {
-            "title": "Recursive releases Flint, an open-weight, 40B-parameter coding model developed with its Eureka Machine AI system, which automated most of the development (Will Knight/Wired)",
-            "link": "https://www.techmeme.com/261021/p39#a261021p39",
-            "date": "2026-10-21T12:35:02-04:00",
-            "summary": "Will Knight / Wired: Recursive releases Flint, an open-weight, 40B-parameter coding model developed with its Eureka Machine AI system, which automated most of the development&nbsp; &mdash;&nbsp; Recursive makes the case that the benefits of using AI to build AI outweigh the risks.&nbsp; &mdash;&nbsp"
-          },
-          {
-            "title": "Watchtower, which uses AI and simulation software to help the US Armed Forces make logistical decisions, emerges from stealth with a $35M seed (Alex Konrad/Upstarts Media)",
-            "link": "https://www.techmeme.com/261021/p38#a261021p38",
-            "date": "2026-10-21T12:10:19-04:00",
-            "summary": "Alex Konrad / Upstarts Media: Watchtower, which uses AI and simulation software to help the US Armed Forces make logistical decisions, emerges from stealth with a $35M seed&nbsp; &mdash;&nbsp; Early last year, Raj Shah and Akhil Iyer were in Hawaii meeting with the man entrusted with protecting Amer"
-          },
-          {
-            "title": "The PHP Foundation details how it found and fixed the two flaws, and says it had to release patches a day early after the two CVE IDs began circulating online (The PHP Foundation)",
-            "link": "https://www.techmeme.com/261021/p37#a261021p37",
-            "date": "2026-10-21T11:35:04-04:00",
-            "summary": "The PHP Foundation: The PHP Foundation details how it found and fixed the two flaws, and says it had to release patches a day early after the two CVE IDs began circulating online&nbsp; &mdash;&nbsp; Earlier today, the PHP project released PHP 8.5.12, 8.4.27, 8.3.36, and 8.2.35.&nbsp; These releases "
-          },
-          {
-            "title": "Several government, school, and hospital websites in Europe were taken offline as organizations rush to protect themselves from two critical PHP security flaws (Reuters)",
-            "link": "https://www.techmeme.com/261021/p36#a261021p36",
-            "date": "2026-10-21T11:25:17-04:00",
-            "summary": "Reuters: Several government, school, and hospital websites in Europe were taken offline as organizations rush to protect themselves from two critical PHP security flaws&nbsp; &mdash;&nbsp; Several government, school and hospital websites in Europe were taken offline on Wednesday as organizations rus"
-          },
-          {
-            "title": "Whop, which helps people start, run, and scale businesses and uses AI to suggest business decisions, raised $205M led by Sequoia Capital at a $5.1B valuation (Natasha Mascarenhas/Bloomberg)",
-            "link": "https://www.techmeme.com/261021/p35#a261021p35",
-            "date": "2026-10-21T10:50:03-04:00",
-            "summary": "Natasha Mascarenhas / Bloomberg: Whop, which helps people start, run, and scale businesses and uses AI to suggest business decisions, raised $205M led by Sequoia Capital at a $5.1B valuation&nbsp; &mdash;&nbsp; &ldquo;Rule one of making money is go where they ain't.&rdquo;&nbsp; That's how famed inv"
-          },
-          {
-            "title": "OpenAI says the PHP flaws, found using GPT-5.6 Sol, \"are among several significant vulnerabilities\" it found and expects \"similar findings to increase sharply\" (OpenAI)",
-            "link": "https://www.techmeme.com/261021/p34#a261021p34",
-            "date": "2026-10-21T10:31:56-04:00",
-            "summary": "OpenAI: OpenAI says the PHP flaws, found using GPT-5.6 Sol, &ldquo;are among several significant vulnerabilities&rdquo; it found and expects &ldquo;similar findings to increase sharply&rdquo;&nbsp; &mdash;&nbsp; - Validate and fix the upstream vulnerability. &hellip; - Give affected organizations ti"
           }
         ]
       },
@@ -2567,67 +2627,67 @@
         "home": "https://techcrunch.com/",
         "url": "https://techcrunch.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-10-21T18:26:24.309388+00:00",
+        "fetchedAt": "2026-10-21T22:09:22.511338+00:00",
         "items": [
           {
-            "title": "GM is giving OnStar an AI makeover",
-            "link": "https://techcrunch.com/2026/10/21/gm-is-giving-onstar-an-ai-makeover/",
-            "date": "2026-10-21T18:00:00+00:00",
-            "summary": "It's one of the biggest overhauls ever to the 30-year-old connected car product."
+            "title": "TechCrunch Founder Summit 2026: Everything you need to know",
+            "link": "https://techcrunch.com/2026/10/21/techcrunch-founder-summit-2026-everything-you-need-to-know/",
+            "date": "2026-10-21T21:16:20+00:00",
+            "summary": "TechCrunch Founder Summit is a full-day gathering in Boston on November 4 where founders across all stages connect with top VCs and experienced entrepreneurs to gain tactical insights on building and scaling their companies."
           },
           {
-            "title": "PHP armageddon: OpenAI, Google’s Wiz find ancient holes, panicking the internet",
-            "link": "https://techcrunch.com/2026/10/21/php-armageddon-openai-googles-wiz-find-ancient-holes-panicking-the-internet/",
-            "date": "2026-10-21T17:59:12+00:00",
-            "summary": "This is the kind of security issue that was found and prevented by AI, but is also a high risk because of AI."
+            "title": "Meta says Muse has over 10M users, with shopping a top activity",
+            "link": "https://techcrunch.com/2026/10/21/meta-says-muse-has-over-10m-users-with-shopping-a-top-activity/",
+            "date": "2026-10-21T21:14:19+00:00",
+            "summary": "Meta Muse users are adopting the app for shopping and personal productivity, the company said during Q3 earnings. The AI app now has over 10M users."
           },
           {
-            "title": "Blacksmith hits unicorn valuation after Sequoia leads Series C",
-            "link": "https://techcrunch.com/2026/10/21/blacksmith-hits-unicorn-valuation-after-sequoia-leads-series-c/",
-            "date": "2026-10-21T17:18:27+00:00",
-            "summary": "Blacksmith, a platform that lets companies build and test AI code more effectively, just announced a $66 million Series C round led by Sequoia that values the company at $1 billion."
+            "title": "Year-old AI lab Flapping Airplanes raises $1B at a $6B valuation",
+            "link": "https://techcrunch.com/2026/10/21/year-old-ai-lab-flapping-airplanes-raises-1b-at-a-6b-valuation/",
+            "date": "2026-10-21T20:57:40+00:00",
+            "summary": "Just 9 months after raising an $180 million seed round, Flapping Airplanes has landed $1 billion Series A for its mission to build AI models \"without ingesting half the internet.\""
           },
           {
-            "title": "Waymo starts offering rides at the Las Vegas airport",
-            "link": "https://techcrunch.com/2026/10/21/waymo-starts-offering-rides-at-the-las-vegas-airport/",
-            "date": "2026-10-21T16:59:44+00:00",
-            "summary": "Pickups and dropoffs will happen at dedicated \"autonomous vehicle zones\" at Terminal 1 and Terminal 3."
+            "title": "Tesla starts Optimus robot production in California as profit falls 43%",
+            "link": "https://techcrunch.com/2026/10/21/tesla-stars-optimus-robot-production-in-california-as-profit-falls-43/",
+            "date": "2026-10-21T20:33:09+00:00",
+            "summary": "Tesla's revenue was flat and its expenses skyrocketed as it pressed the accelerator on its Optimus robots, AI, and autonomous driving."
           },
           {
-            "title": "Foursquare co-founder says equity holders saw no returns from the company’s acquisition",
-            "link": "https://techcrunch.com/2026/10/21/foursquare-co-founder-says-equity-holders-saw-no-returns-from-the-companys-acquisition/",
-            "date": "2026-10-21T14:03:11+00:00",
-            "summary": "Foursquare raised $411 million in funding according to PitchBook data, but its equity holders saw no returns from its final acquisition."
+            "title": "Recursive launches Flint, a laptop coding model it says was largely built by AI",
+            "link": "https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/",
+            "date": "2026-10-21T20:27:41+00:00",
+            "summary": "Startup Recursive has released Flint, a free, laptop-sized coding model built largely by its own AI research system, as an early test of AI that improves itself."
           },
           {
-            "title": "AI promises productivity, but for managers, it’s mostly a headache for now",
-            "link": "https://techcrunch.com/2026/10/21/ai-promises-productivity-but-for-managers-its-mostly-a-headache-for-now-says-new-survey/",
-            "date": "2026-10-21T14:00:00+00:00",
-            "summary": "More than 50% of managers say they're finding it harder to evaluate employees' work after adopting AI, according to a new survey."
+            "title": "Automattic begins layoffs following board upheaval and executive departures",
+            "link": "https://techcrunch.com/2026/10/21/automattic-begins-layoffs-following-board-upheaval-and-executive-departures/",
+            "date": "2026-10-21T20:15:00+00:00",
+            "summary": "Automattic has begun laying off employees across multiple teams, including WordPress.com and its enterprise business, following a board shakeup and a series of executive departures. Sources say more cuts could follow as the company looks to improve its finances."
           },
           {
-            "title": "Heat pump tech is 170 years old — Pascal thinks it’s time for an update",
-            "link": "https://techcrunch.com/2026/10/21/heat-pump-tech-is-170-years-old-pascal-thinks-its-time-for-an-update/",
-            "date": "2026-10-21T13:30:00+00:00",
-            "summary": "Refrigerants startup Pascal has a new take on heat pump and cooling tech using a sponge-like material that promises to be 20% more efficient."
+            "title": "GM is betting compute and AI will help it compete with Chinese automakers",
+            "link": "https://techcrunch.com/2026/10/21/gm-is-betting-compute-and-ai-will-help-it-compete-with-chinese-automakers/",
+            "date": "2026-10-21T19:52:20+00:00",
+            "summary": "To compete with Tesla, Rivian, and a host of Chinese automakers, GM’s fourth-gen EV platform will roll out a new central computer and electrical architecture that will debut in 2028 in the Cadillac Escalade IQ."
           },
           {
-            "title": "Mach9 raises $34M after pivoting to AI CAD software",
-            "link": "https://techcrunch.com/2026/10/21/mach9-raises-34m-after-pivoting-to-ai-cad-software/",
-            "date": "2026-10-21T13:00:00+00:00",
-            "summary": "The startup initially set out to build better, faster, and cheaper surveying hardware in 2021."
+            "title": "Meta ordered to pay $25 billion in case related to Cambridge Analytica scandal",
+            "link": "https://techcrunch.com/2026/10/21/meta-ordered-to-pay-25-billion-in-case-related-to-cambridge-analytica-scandal/",
+            "date": "2026-10-21T19:42:32+00:00",
+            "summary": "The payout is related to a recent trial involving the social media giant that revolved around its data privacy practices."
           },
           {
-            "title": "Anthropic pitches AI safety bill that may block a model if 50+ people could be killed",
-            "link": "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/",
-            "date": "2026-10-20T23:01:23+00:00",
-            "summary": "The proposed policy seems to offer protections against AI running amok but actually forbids federal agencies from blocking a model's release without the permission of a judge."
+            "title": "While Amazon blocks AI agents, Walmart rolls out the welcome mat",
+            "link": "https://techcrunch.com/2026/10/21/while-amazon-blocks-ai-agents-walmart-rolls-out-the-welcome-mat/",
+            "date": "2026-10-21T19:30:00+00:00",
+            "summary": "As Amazon blocks AI agents from shopping on its site, Walmart is taking the opposite approach, introducing new technology that lets AI agents make purchases on customers' behalf, with controls over spending and transaction approvals."
           },
           {
-            "title": "SpaceX and Tesla boards form special committees to review merger",
-            "link": "https://techcrunch.com/2026/10/20/spacex-and-tesla-boards-form-special-committees-to-review-merger/",
-            "date": "2026-10-20T22:57:57+00:00",
-            "summary": "Elon Musk likes the idea but says he is not on either committee, which is made up of independent directors."
+            "title": "The internet is having a very bad cybersecurity day",
+            "link": "https://techcrunch.com/2026/10/21/the-internet-is-having-a-very-bad-cybersecurity-day/",
+            "date": "2026-10-21T19:03:28+00:00",
+            "summary": "From AI-discovered PHP vulnerabilities to flaws in Node.js and popular AI tool LiteLLM, cybersecurity teams have plenty to worry about this week."
           }
         ]
       },
@@ -2638,8 +2698,32 @@
         "home": "https://techcrunch.com/category/artificial-intelligence/",
         "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
         "status": "ok",
-        "fetchedAt": "2026-10-21T18:26:24.295389+00:00",
+        "fetchedAt": "2026-10-21T22:09:22.510156+00:00",
         "items": [
+          {
+            "title": "TechCrunch Founder Summit 2026: Everything you need to know",
+            "link": "https://techcrunch.com/2026/10/21/techcrunch-founder-summit-2026-everything-you-need-to-know/",
+            "date": "2026-10-21T21:16:20+00:00",
+            "summary": "TechCrunch Founder Summit is a full-day gathering in Boston on November 4 where founders across all stages connect with top VCs and experienced entrepreneurs to gain tactical insights on building and scaling their companies."
+          },
+          {
+            "title": "Meta says Muse has over 10M users, with shopping a top activity",
+            "link": "https://techcrunch.com/2026/10/21/meta-says-muse-has-over-10m-users-with-shopping-a-top-activity/",
+            "date": "2026-10-21T21:14:19+00:00",
+            "summary": "Meta Muse users are adopting the app for shopping and personal productivity, the company said during Q3 earnings. The AI app now has over 10M users."
+          },
+          {
+            "title": "Recursive launches Flint, a laptop coding model it says was largely built by AI",
+            "link": "https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/",
+            "date": "2026-10-21T20:27:41+00:00",
+            "summary": "Startup Recursive has released Flint, a free, laptop-sized coding model built largely by its own AI research system, as an early test of AI that improves itself."
+          },
+          {
+            "title": "While Amazon blocks AI agents, Walmart rolls out the welcome mat",
+            "link": "https://techcrunch.com/2026/10/21/while-amazon-blocks-ai-agents-walmart-rolls-out-the-welcome-mat/",
+            "date": "2026-10-21T19:30:00+00:00",
+            "summary": "As Amazon blocks AI agents from shopping on its site, Walmart is taking the opposite approach, introducing new technology that lets AI agents make purchases on customers' behalf, with controls over spending and transaction approvals."
+          },
           {
             "title": "AI promises productivity, but for managers, it’s mostly a headache for now",
             "link": "https://techcrunch.com/2026/10/21/ai-promises-productivity-but-for-managers-its-mostly-a-headache-for-now-says-new-survey/",
@@ -2675,30 +2759,6 @@
             "link": "https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%e2%81%a0-to-beef-up-its-biotech-business/",
             "date": "2026-10-20T20:35:10+00:00",
             "summary": "OpenAI says it's adding Orchestra's team and technology to work on Rosalind, its AI model for life sciences research, and to its related Rosalind Workbench tool, a harness that aims to help researchers plan experiments and analyze results."
-          },
-          {
-            "title": "Google has joined Amazon in attacking Nvidia’s stronghold with AI app developers",
-            "link": "https://techcrunch.com/2026/10/20/google-has-joined-amazon-in-attacking-nvidias-stronghold-with-ai-app-developers/",
-            "date": "2026-10-20T18:38:24+00:00",
-            "summary": "Google has joined Amazon in releasing a developer tool that makes it easy for PyTorch users to move their apps off Nvidia GPUs."
-          },
-          {
-            "title": "ChatGPT now lets you lock your chats",
-            "link": "https://techcrunch.com/2026/10/20/chatgpt-now-lets-you-lock-your-chats/",
-            "date": "2026-10-20T18:36:53+00:00",
-            "summary": "The company says the feature is designed for situations where users might be discussing something personal or planning a surprise and want to keep those conversations private when handing their device to friends or family to show them something in another chat."
-          },
-          {
-            "title": "Eric Schmidt reportedly owns about half as much of Anthropic as CEO Dario Amodei",
-            "link": "https://techcrunch.com/2026/10/20/eric-schmidt-reportedly-owns-about-half-as-much-of-anthropic-as-ceo-dario-amodei/",
-            "date": "2026-10-20T17:55:12+00:00",
-            "summary": "Eric Schmidt’s fortune is about to get even bigger."
-          },
-          {
-            "title": "Meta’s Muse hits 10M US downloads in 40 days, a milestone reached by only 11 other apps",
-            "link": "https://techcrunch.com/2026/10/20/metas-muse-hits-10m-u-s-downloads-in-40-days-a-milestone-reached-by-only-11-other-apps/",
-            "date": "2026-10-20T17:12:48+00:00",
-            "summary": "New data also shows Muse is retaining users at higher rates than its AI rivals."
           }
         ]
       },
@@ -2709,7 +2769,7 @@
         "home": "https://techcrunch.com/tag/funding/",
         "url": "https://techcrunch.com/tag/funding/feed/",
         "status": "ok",
-        "fetchedAt": "2026-10-21T18:26:24.310924+00:00",
+        "fetchedAt": "2026-10-21T22:09:22.554659+00:00",
         "items": [
           {
             "title": "Viral AI startup Instinct has raised $350M at a $2.5B valuation",
@@ -2812,7 +2872,7 @@
         "home": "https://www.bestblogs.dev/",
         "url": "https://www.bestblogs.dev/zh/feeds/rss?category=ai&minScore=90",
         "status": "ok",
-        "fetchedAt": "2026-10-21T18:26:24.418688+00:00",
+        "fetchedAt": "2026-10-21T22:09:22.490567+00:00",
         "items": [
           {
             "title": "DeepSeek 开源推理框架：走向真正普惠的未来",
@@ -2880,29 +2940,49 @@
   },
   "allItems": [
     {
-      "title": "GM is giving OnStar an AI makeover",
-      "link": "https://techcrunch.com/2026/10/21/gm-is-giving-onstar-an-ai-makeover/",
-      "date": "2026-10-21T18:00:00+00:00",
-      "summary": "It's one of the biggest overhauls ever to the 30-year-old connected car product.",
+      "title": "TechCrunch Founder Summit 2026: Everything you need to know",
+      "link": "https://techcrunch.com/2026/10/21/techcrunch-founder-summit-2026-everything-you-need-to-know/",
+      "date": "2026-10-21T21:16:20+00:00",
+      "summary": "TechCrunch Founder Summit is a full-day gathering in Boston on November 4 where founders across all stages connect with top VCs and experienced entrepreneurs to gain tactical insights on building and scaling their companies.",
       "feedId": "techcrunch",
       "feedTitle": "TechCrunch",
       "category": "Startup & News",
       "feedHome": "https://techcrunch.com/"
     },
     {
-      "title": "PHP armageddon: OpenAI, Google’s Wiz find ancient holes, panicking the internet",
-      "link": "https://techcrunch.com/2026/10/21/php-armageddon-openai-googles-wiz-find-ancient-holes-panicking-the-internet/",
-      "date": "2026-10-21T17:59:12+00:00",
-      "summary": "This is the kind of security issue that was found and prevented by AI, but is also a high risk because of AI.",
+      "title": "TechCrunch Founder Summit 2026: Everything you need to know",
+      "link": "https://techcrunch.com/2026/10/21/techcrunch-founder-summit-2026-everything-you-need-to-know/",
+      "date": "2026-10-21T21:16:20+00:00",
+      "summary": "TechCrunch Founder Summit is a full-day gathering in Boston on November 4 where founders across all stages connect with top VCs and experienced entrepreneurs to gain tactical insights on building and scaling their companies.",
+      "feedId": "techcrunch-ai",
+      "feedTitle": "TechCrunch AI",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
+    },
+    {
+      "title": "Meta says Muse has over 10M users, with shopping a top activity",
+      "link": "https://techcrunch.com/2026/10/21/meta-says-muse-has-over-10m-users-with-shopping-a-top-activity/",
+      "date": "2026-10-21T21:14:19+00:00",
+      "summary": "Meta Muse users are adopting the app for shopping and personal productivity, the company said during Q3 earnings. The AI app now has over 10M users.",
       "feedId": "techcrunch",
       "feedTitle": "TechCrunch",
       "category": "Startup & News",
       "feedHome": "https://techcrunch.com/"
     },
     {
-      "title": "EA is shutting down BioWare",
-      "link": "https://www.theverge.com/games/1015647/ea-is-shutting-down-bioware",
-      "date": "2026-10-21T17:29:33+00:00",
+      "title": "Meta says Muse has over 10M users, with shopping a top activity",
+      "link": "https://techcrunch.com/2026/10/21/meta-says-muse-has-over-10m-users-with-shopping-a-top-activity/",
+      "date": "2026-10-21T21:14:19+00:00",
+      "summary": "Meta Muse users are adopting the app for shopping and personal productivity, the company said during Q3 earnings. The AI app now has over 10M users.",
+      "feedId": "techcrunch-ai",
+      "feedTitle": "TechCrunch AI",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
+    },
+    {
+      "title": "AWS rates PHP RCE as Important so Amazon Linux 2023 patch may take 20 days",
+      "link": "https://github.com/amazonlinux/amazon-linux-2023/issues/1148",
+      "date": "2026-10-21T21:12:59+00:00",
       "summary": "Comments",
       "feedId": "hackernews",
       "feedTitle": "Hacker News",
@@ -2910,14 +2990,214 @@
       "feedHome": "https://news.ycombinator.com/"
     },
     {
-      "title": "Blacksmith hits unicorn valuation after Sequoia leads Series C",
-      "link": "https://techcrunch.com/2026/10/21/blacksmith-hits-unicorn-valuation-after-sequoia-leads-series-c/",
-      "date": "2026-10-21T17:18:27+00:00",
-      "summary": "Blacksmith, a platform that lets companies build and test AI code more effectively, just announced a $66 million Series C round led by Sequoia that values the company at $1 billion.",
+      "title": "Broad access through consistent standards",
+      "link": "https://openai.com/index/broad-access-through-consistent-standards",
+      "date": "2026-10-21T21:00:00+00:00",
+      "summary": "How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies.",
+      "feedId": "openai",
+      "feedTitle": "OpenAI News",
+      "category": "AI & LLM",
+      "feedHome": "https://openai.com/news/"
+    },
+    {
+      "title": "Year-old AI lab Flapping Airplanes raises $1B at a $6B valuation",
+      "link": "https://techcrunch.com/2026/10/21/year-old-ai-lab-flapping-airplanes-raises-1b-at-a-6b-valuation/",
+      "date": "2026-10-21T20:57:40+00:00",
+      "summary": "Just 9 months after raising an $180 million seed round, Flapping Airplanes has landed $1 billion Series A for its mission to build AI models \"without ingesting half the internet.\"",
       "feedId": "techcrunch",
       "feedTitle": "TechCrunch",
       "category": "Startup & News",
       "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "Tesla starts Optimus robot production in California as profit falls 43%",
+      "link": "https://techcrunch.com/2026/10/21/tesla-stars-optimus-robot-production-in-california-as-profit-falls-43/",
+      "date": "2026-10-21T20:33:09+00:00",
+      "summary": "Tesla's revenue was flat and its expenses skyrocketed as it pressed the accelerator on its Optimus robots, AI, and autonomous driving.",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "Recursive launches Flint, a laptop coding model it says was largely built by AI",
+      "link": "https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/",
+      "date": "2026-10-21T20:27:41+00:00",
+      "summary": "Startup Recursive has released Flint, a free, laptop-sized coding model built largely by its own AI research system, as an early test of AI that improves itself.",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "Recursive launches Flint, a laptop coding model it says was largely built by AI",
+      "link": "https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/",
+      "date": "2026-10-21T20:27:41+00:00",
+      "summary": "Startup Recursive has released Flint, a free, laptop-sized coding model built largely by its own AI research system, as an early test of AI that improves itself.",
+      "feedId": "techcrunch-ai",
+      "feedTitle": "TechCrunch AI",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
+    },
+    {
+      "title": "Automattic begins layoffs following board upheaval and executive departures",
+      "link": "https://techcrunch.com/2026/10/21/automattic-begins-layoffs-following-board-upheaval-and-executive-departures/",
+      "date": "2026-10-21T20:15:00+00:00",
+      "summary": "Automattic has begun laying off employees across multiple teams, including WordPress.com and its enterprise business, following a board shakeup and a series of executive departures. Sources say more cuts could follow as the company looks to improve its finances.",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "Pluralistic: Adversarial interoperability is a team sport (21 Oct 2026)",
+      "link": "https://pluralistic.net/2026/10/21/brittle-individualism/",
+      "date": "2026-10-21T20:05:21+00:00",
+      "summary": "Today's links Adversarial interoperability is a team sport: Vibe-coded jailbreaks are fun, but don't solve the problem. Hey look at this: Delights to delectate. Object permanence: Labour Whip's pro-Iraq war threats; LoC's emulators; Kevin Mitnick plays CIA stooge; ICE: \"The warrant is coming out of ",
+      "feedId": "pluralistic",
+      "feedTitle": "Pluralistic",
+      "category": "Tech Blogs",
+      "feedHome": "https://pluralistic.net/"
+    },
+    {
+      "title": "GM is betting compute and AI will help it compete with Chinese automakers",
+      "link": "https://techcrunch.com/2026/10/21/gm-is-betting-compute-and-ai-will-help-it-compete-with-chinese-automakers/",
+      "date": "2026-10-21T19:52:20+00:00",
+      "summary": "To compete with Tesla, Rivian, and a host of Chinese automakers, GM’s fourth-gen EV platform will roll out a new central computer and electrical architecture that will debut in 2028 in the Cadillac Escalade IQ.",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "Meta ordered to pay $25 billion in case related to Cambridge Analytica scandal",
+      "link": "https://techcrunch.com/2026/10/21/meta-ordered-to-pay-25-billion-in-case-related-to-cambridge-analytica-scandal/",
+      "date": "2026-10-21T19:42:32+00:00",
+      "summary": "The payout is related to a recent trial involving the social media giant that revolved around its data privacy practices.",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "While Amazon blocks AI agents, Walmart rolls out the welcome mat",
+      "link": "https://techcrunch.com/2026/10/21/while-amazon-blocks-ai-agents-walmart-rolls-out-the-welcome-mat/",
+      "date": "2026-10-21T19:30:00+00:00",
+      "summary": "As Amazon blocks AI agents from shopping on its site, Walmart is taking the opposite approach, introducing new technology that lets AI agents make purchases on customers' behalf, with controls over spending and transaction approvals.",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "While Amazon blocks AI agents, Walmart rolls out the welcome mat",
+      "link": "https://techcrunch.com/2026/10/21/while-amazon-blocks-ai-agents-walmart-rolls-out-the-welcome-mat/",
+      "date": "2026-10-21T19:30:00+00:00",
+      "summary": "As Amazon blocks AI agents from shopping on its site, Walmart is taking the opposite approach, introducing new technology that lets AI agents make purchases on customers' behalf, with controls over spending and transaction approvals.",
+      "feedId": "techcrunch-ai",
+      "feedTitle": "TechCrunch AI",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
+    },
+    {
+      "title": "Claude Duet",
+      "link": "https://claude.com/product/claude-duet",
+      "date": "2026-10-21T19:14:01+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "The internet is having a very bad cybersecurity day",
+      "link": "https://techcrunch.com/2026/10/21/the-internet-is-having-a-very-bad-cybersecurity-day/",
+      "date": "2026-10-21T19:03:28+00:00",
+      "summary": "From AI-discovered PHP vulnerabilities to flaws in Node.js and popular AI tool LiteLLM, cybersecurity teams have plenty to worry about this week.",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "GitLab Critical Patch Release",
+      "link": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-5-1-released/",
+      "date": "2026-10-21T19:01:12+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "Can they write a function?",
+      "link": "https://idiallo.com/blog/can-they-write-a-function",
+      "date": "2026-10-21T19:00:40+00:00",
+      "summary": "For a software developer position, there isn't a trick to finding the best candidate. Your criteria do not determine how solid the candidates will be. Everyone is submitting 500 applications a month now, and those who automate the process submit thousands. So how do you hire a great candidate? Pick ",
+      "feedId": "idiallo",
+      "feedTitle": "Ibrahim Diallo",
+      "category": "Tech Blogs",
+      "feedHome": "https://idiallo.com/"
+    },
+    {
+      "title": "Today's PHP Security Release, and How We're Strengthening PHP Security",
+      "link": "https://simonwillison.net/2026/Oct/21/php-security-release/",
+      "date": "2026-10-21T18:41:53+00:00",
+      "summary": "Today&#x27;s PHP Security Release, and How We&#x27;re Strengthening PHP Security If you're running anything on PHP it's vital you upgrade - today's updates (across the entire PHP 8.x line) address two remote code execution holes, and there have been exploits circulating since last night, thanks to a",
+      "feedId": "simonwillison",
+      "feedTitle": "Simon Willison",
+      "category": "AI & LLM",
+      "feedHome": "https://simonwillison.net/"
+    },
+    {
+      "title": "Texas Instruments reports Q3 revenue up 28% YoY to $6.06B, above $5.93B est., net income up 78% YoY to $2.43B, and forecasts $5.8B-$6.3B in Q4, vs. $5.73B est. (Ian King/Bloomberg)",
+      "link": "https://www.techmeme.com/261021/p52#a261021p52",
+      "date": "2026-10-21T17:55:05-04:00",
+      "summary": "Ian King / Bloomberg: Texas Instruments reports Q3 revenue up 28% YoY to $6.06B, above $5.93B est., net income up 78% YoY to $2.43B, and forecasts $5.8B-$6.3B in Q4, vs. $5.73B est.&nbsp; &mdash;&nbsp; Texas Instruments Inc., the biggest maker of analog and embedded processing chips, gave a strong r",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
+      "title": "Meta ordered to pay $25B penalty in New Mexico Cambridge Analytica case",
+      "link": "https://www.cnbc.com/2026/10/21/meta-new-mexico-cambridge-analytica-penalty.html",
+      "date": "2026-10-21T17:45:13+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "Mark Zuckerberg says Muse has drawn 10M+ users since its launch and 25%+ of users are making purchases through the app, with an average purchase size of $200+ (Business Insider)",
+      "link": "https://www.techmeme.com/261021/p51#a261021p51",
+      "date": "2026-10-21T17:20:03-04:00",
+      "summary": "Business Insider: Mark Zuckerberg says Muse has drawn 10M+ users since its launch and 25%+ of users are making purchases through the app, with an average purchase size of $200+&nbsp; &mdash;&nbsp; Meta's new personal AI agent app, Muse, has drawn more than 10 million users since its September launch",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
+      "title": "Meta expects its 2026 capex to be $135B-$145B, vs. $130B-$145B previously, and forecasts Q4 revenue of $73B-$76B, vs. $73.6B est.; META jumps 3%+ after hours (Riley Griffin/Bloomberg)",
+      "link": "https://www.techmeme.com/261021/p50#a261021p50",
+      "date": "2026-10-21T17:05:04-04:00",
+      "summary": "Riley Griffin / Bloomberg: Meta expects its 2026 capex to be $135B-$145B, vs. $130B-$145B previously, and forecasts Q4 revenue of $73B-$76B, vs. $73.6B est.; META jumps 3%+ after hours&nbsp; &mdash;&nbsp; Meta Platforms Inc. boosted its capital spending outlook and announced plans to create a new cl",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
+      "title": "Anthropic unveils Claude Duet, a proactive agent app on iOS, Android, and the web that works in the background, in research preview for US Pro and Max users (Claude)",
+      "link": "https://www.techmeme.com/261021/p49#a261021p49",
+      "date": "2026-10-21T17:01:02-04:00",
+      "summary": "Claude: Anthropic unveils Claude Duet, a proactive agent app on iOS, Android, and the web that works in the background, in research preview for US Pro and Max users&nbsp; &mdash;&nbsp; A research preview is available by waitlist today, starting with US Pro and Max subscribers.&nbsp; &mdash;&nbsp; Jo",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
     },
     {
       "title": "How AT&T is rethinking in-house legal work with OpenAI",
@@ -2930,14 +3210,14 @@
       "feedHome": "https://openai.com/news/"
     },
     {
-      "title": "Waymo starts offering rides at the Las Vegas airport",
-      "link": "https://techcrunch.com/2026/10/21/waymo-starts-offering-rides-at-the-las-vegas-airport/",
-      "date": "2026-10-21T16:59:44+00:00",
-      "summary": "Pickups and dropoffs will happen at dedicated \"autonomous vehicle zones\" at Terminal 1 and Terminal 3.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
+      "title": "Filing: Meta says Mark Zuckerberg is considering leaving California if it passes a one-time 5% tax on billionaires; voters will decide on the measure next month (Pierre Paulden/Bloomberg)",
+      "link": "https://www.techmeme.com/261021/p48#a261021p48",
+      "date": "2026-10-21T16:50:03-04:00",
+      "summary": "Pierre Paulden / Bloomberg: Filing: Meta says Mark Zuckerberg is considering leaving California if it passes a one-time 5% tax on billionaires; voters will decide on the measure next month&nbsp; &mdash;&nbsp; Mark Zuckerberg said he is considering leaving California if it passes a measure that would",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
       "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
+      "feedHome": "https://www.techmeme.com/"
     },
     {
       "title": "Panache — RTS Belle Époque pour mobile",
@@ -2960,6 +3240,26 @@
       "feedHome": "https://research.google/blog/"
     },
     {
+      "title": "Meta says it will create a new class of nonvoting stock to raise the capital it needs for developing AI models, with an effective date in January 2027 (Meghan Bobrowsky/Wall Street Journal)",
+      "link": "https://www.techmeme.com/261021/p47#a261021p47",
+      "date": "2026-10-21T16:20:01-04:00",
+      "summary": "Meghan Bobrowsky / Wall Street Journal: Meta says it will create a new class of nonvoting stock to raise the capital it needs for developing AI models, with an effective date in January 2027&nbsp; &mdash;&nbsp; The company, which reported record revenue of $64.2 billion for the third quarter, said t",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
+      "title": "Meta reports Q3 revenue up 26% YoY to $64.6B, operating income down 37% to $12.99B on a $9.89B AG settlement charge, and family DAP up 3% to 3.64B for September (Meta)",
+      "link": "https://www.techmeme.com/261021/p46#a261021p46",
+      "date": "2026-10-21T16:10:00-04:00",
+      "summary": "Meta: Meta reports Q3 revenue up 26% YoY to $64.6B, operating income down 37% to $12.99B on a $9.89B AG settlement charge, and family DAP up 3% to 3.64B for September&nbsp; &mdash;&nbsp; Announces Establishment of New Class C Common Stock&nbsp; &mdash;&nbsp; Meta Platforms, Inc. (Nasdaq: META) today",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
       "title": "Today's PHP security release, and how we're strengthening security",
       "link": "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/",
       "date": "2026-10-21T15:48:56+00:00",
@@ -2968,6 +3268,16 @@
       "feedTitle": "Hacker News",
       "category": "Startup & News",
       "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "OpenAI, PerturbAI, and Scripps say thousands of GPT-Rosalind agents analyzed data on millions of mouse brain cells in 32 minutes, a job that takes humans months (OpenAI)",
+      "link": "https://www.techmeme.com/261021/p45#a261021p45",
+      "date": "2026-10-21T15:45:01-04:00",
+      "summary": "OpenAI: OpenAI, PerturbAI, and Scripps say thousands of GPT-Rosalind agents analyzed data on millions of mouse brain cells in 32 minutes, a job that takes humans months&nbsp; &mdash;&nbsp; How OpenAI, PerturbAI, and Scripps Research used distributed AI agents to help scientists identify promising re",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
     },
     {
       "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
@@ -2990,24 +3300,14 @@
       "feedHome": "https://www.johndcook.com/"
     },
     {
-      "title": "Patch the Planet: global response coordination as agents uncover vulnerabilities",
-      "link": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
-      "date": "2026-10-21T14:03:43+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
+      "title": "Microsoft reveals pricing for Xbox Cloud Gaming without Game Pass, for Xbox Insiders now and others next month: 10 hours for $3.99, 25 for $7.99, 50 for $11.99 (Tom Warren/The Verge)",
+      "link": "https://www.techmeme.com/261021/p44#a261021p44",
+      "date": "2026-10-21T15:10:01-04:00",
+      "summary": "Tom Warren / The Verge: Microsoft reveals pricing for Xbox Cloud Gaming without Game Pass, for Xbox Insiders now and others next month: 10 hours for $3.99, 25 for $7.99, 50 for $11.99&nbsp; &mdash;&nbsp; Microsoft is opening up Xbox Cloud Gaming to anyone in November. &hellip; Microsoft announced la",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
       "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
-      "title": "Foursquare co-founder says equity holders saw no returns from the company’s acquisition",
-      "link": "https://techcrunch.com/2026/10/21/foursquare-co-founder-says-equity-holders-saw-no-returns-from-the-companys-acquisition/",
-      "date": "2026-10-21T14:03:11+00:00",
-      "summary": "Foursquare raised $411 million in funding according to PitchBook data, but its equity holders saw no returns from its final acquisition.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
+      "feedHome": "https://www.techmeme.com/"
     },
     {
       "title": "DuckDB 2.0.0 LTS “Cinnamon Teal”",
@@ -3044,86 +3344,16 @@
       "link": "https://techcrunch.com/2026/10/21/ai-promises-productivity-but-for-managers-its-mostly-a-headache-for-now-says-new-survey/",
       "date": "2026-10-21T14:00:00+00:00",
       "summary": "More than 50% of managers say they're finding it harder to evaluate employees' work after adopting AI, according to a new survey.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
-    },
-    {
-      "title": "AI promises productivity, but for managers, it’s mostly a headache for now",
-      "link": "https://techcrunch.com/2026/10/21/ai-promises-productivity-but-for-managers-its-mostly-a-headache-for-now-says-new-survey/",
-      "date": "2026-10-21T14:00:00+00:00",
-      "summary": "More than 50% of managers say they're finding it harder to evaluate employees' work after adopting AI, according to a new survey.",
       "feedId": "techcrunch-ai",
       "feedTitle": "TechCrunch AI",
       "category": "Startup & News",
       "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
     },
     {
-      "title": "PHP 8.2.35",
-      "link": "https://github.com/php/php-src/releases/tag/php-8.2.35",
-      "date": "2026-10-21T13:45:33+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
       "title": "Flapping Airplanes, which is working on methods to train AI models using less data and compute and make the chips more efficient, raised $1B at a $6B valuation (Rachel Metz/Bloomberg)",
       "link": "https://www.techmeme.com/261021/p43#a261021p43",
       "date": "2026-10-21T13:45:08-04:00",
       "summary": "Rachel Metz / Bloomberg: Flapping Airplanes, which is working on methods to train AI models using less data and compute and make the chips more efficient, raised $1B at a $6B valuation&nbsp; &mdash;&nbsp; Flapping Airplanes, a year-old artificial intelligence startup, has raised $1 billion in fundin",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "Using thousands of AI agents to uncover new leads in biological data",
-      "link": "https://openai.com/index/scaling-ai-research-for-complex-biological-data/",
-      "date": "2026-10-21T13:37:00+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
-      "title": "A New Mexico court orders Meta to pay $25B in penalties after a jury found Meta misled residents about its data practices in the Cambridge Analytica scandal (Jonathan Vanian/CNBC)",
-      "link": "https://www.techmeme.com/261021/p42#a261021p42",
-      "date": "2026-10-21T13:33:39-04:00",
-      "summary": "Jonathan Vanian / CNBC: A New Mexico court orders Meta to pay $25B in penalties after a jury found Meta misled residents about its data practices in the Cambridge Analytica scandal&nbsp; &mdash;&nbsp; Meta was ordered to pay $25 billion in penalties by a New Mexico court on Wednesday as part of a da",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "Heat pump tech is 170 years old — Pascal thinks it’s time for an update",
-      "link": "https://techcrunch.com/2026/10/21/heat-pump-tech-is-170-years-old-pascal-thinks-its-time-for-an-update/",
-      "date": "2026-10-21T13:30:00+00:00",
-      "summary": "Refrigerants startup Pascal has a new take on heat pump and cooling tech using a sponge-like material that promises to be 20% more efficient.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
-    },
-    {
-      "title": "Source and leaked memo: EA plans to cut ~400 jobs, or ~3% of its total staff, and shut down BioWare; EA went private in August following a $55B leveraged buyout (Jason Schreier/Bloomberg)",
-      "link": "https://www.techmeme.com/261021/p41#a261021p41",
-      "date": "2026-10-21T13:15:01-04:00",
-      "summary": "Jason Schreier / Bloomberg: Source and leaked memo: EA plans to cut ~400 jobs, or ~3% of its total staff, and shut down BioWare; EA went private in August following a $55B leveraged buyout&nbsp; &mdash;&nbsp; The next &lsquo;Mass Effect&rsquo; will be canceled as part of the layoffs&nbsp; &mdash;&nb",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "The PHP Foundation says its patches for the RCE vulnerabilities are limited to PHP 8.2 and newer, leaving legacy deployments dependent on third-party vendors (Wired)",
-      "link": "https://www.techmeme.com/261021/p40#a261021p40",
-      "date": "2026-10-21T13:05:01-04:00",
-      "summary": "Wired: The PHP Foundation says its patches for the RCE vulnerabilities are limited to PHP 8.2 and newer, leaving legacy deployments dependent on third-party vendors&nbsp; &mdash;&nbsp; The PHP Foundation has revealed two serious vulnerabilities that could impact millions of websites.",
       "feedId": "techmeme",
       "feedTitle": "Techmeme",
       "category": "Startup & News",
@@ -3138,46 +3368,6 @@
       "feedTitle": "OpenAI News",
       "category": "AI & LLM",
       "feedHome": "https://openai.com/news/"
-    },
-    {
-      "title": "Mach9 raises $34M after pivoting to AI CAD software",
-      "link": "https://techcrunch.com/2026/10/21/mach9-raises-34m-after-pivoting-to-ai-cad-software/",
-      "date": "2026-10-21T13:00:00+00:00",
-      "summary": "The startup initially set out to build better, faster, and cheaper surveying hardware in 2021.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
-    },
-    {
-      "title": "OpenAI models are coming to Google Cloud",
-      "link": "https://openai.com/index/openai-models-google-cloud/",
-      "date": "2026-10-21T12:53:11+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
-      "title": "Recursive releases Flint, an open-weight, 40B-parameter coding model developed with its Eureka Machine AI system, which automated most of the development (Will Knight/Wired)",
-      "link": "https://www.techmeme.com/261021/p39#a261021p39",
-      "date": "2026-10-21T12:35:02-04:00",
-      "summary": "Will Knight / Wired: Recursive releases Flint, an open-weight, 40B-parameter coding model developed with its Eureka Machine AI system, which automated most of the development&nbsp; &mdash;&nbsp; Recursive makes the case that the benefits of using AI to build AI outweigh the risks.&nbsp; &mdash;&nbsp",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "Watchtower, which uses AI and simulation software to help the US Armed Forces make logistical decisions, emerges from stealth with a $35M seed (Alex Konrad/Upstarts Media)",
-      "link": "https://www.techmeme.com/261021/p38#a261021p38",
-      "date": "2026-10-21T12:10:19-04:00",
-      "summary": "Alex Konrad / Upstarts Media: Watchtower, which uses AI and simulation software to help the US Armed Forces make logistical decisions, emerges from stealth with a $35M seed&nbsp; &mdash;&nbsp; Early last year, Raj Shah and Akhil Iyer were in Hawaii meeting with the man entrusted with protecting Amer",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
     },
     {
       "title": "Deliberate imperfection",
@@ -3200,46 +3390,6 @@
       "feedHome": "https://openai.com/news/"
     },
     {
-      "title": "The PHP Foundation details how it found and fixed the two flaws, and says it had to release patches a day early after the two CVE IDs began circulating online (The PHP Foundation)",
-      "link": "https://www.techmeme.com/261021/p37#a261021p37",
-      "date": "2026-10-21T11:35:04-04:00",
-      "summary": "The PHP Foundation: The PHP Foundation details how it found and fixed the two flaws, and says it had to release patches a day early after the two CVE IDs began circulating online&nbsp; &mdash;&nbsp; Earlier today, the PHP project released PHP 8.5.12, 8.4.27, 8.3.36, and 8.2.35.&nbsp; These releases ",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "Several government, school, and hospital websites in Europe were taken offline as organizations rush to protect themselves from two critical PHP security flaws (Reuters)",
-      "link": "https://www.techmeme.com/261021/p36#a261021p36",
-      "date": "2026-10-21T11:25:17-04:00",
-      "summary": "Reuters: Several government, school, and hospital websites in Europe were taken offline as organizations rush to protect themselves from two critical PHP security flaws&nbsp; &mdash;&nbsp; Several government, school and hospital websites in Europe were taken offline on Wednesday as organizations rus",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "Whop, which helps people start, run, and scale businesses and uses AI to suggest business decisions, raised $205M led by Sequoia Capital at a $5.1B valuation (Natasha Mascarenhas/Bloomberg)",
-      "link": "https://www.techmeme.com/261021/p35#a261021p35",
-      "date": "2026-10-21T10:50:03-04:00",
-      "summary": "Natasha Mascarenhas / Bloomberg: Whop, which helps people start, run, and scale businesses and uses AI to suggest business decisions, raised $205M led by Sequoia Capital at a $5.1B valuation&nbsp; &mdash;&nbsp; &ldquo;Rule one of making money is go where they ain't.&rdquo;&nbsp; That's how famed inv",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "OpenAI says the PHP flaws, found using GPT-5.6 Sol, \"are among several significant vulnerabilities\" it found and expects \"similar findings to increase sharply\" (OpenAI)",
-      "link": "https://www.techmeme.com/261021/p34#a261021p34",
-      "date": "2026-10-21T10:31:56-04:00",
-      "summary": "OpenAI: OpenAI says the PHP flaws, found using GPT-5.6 Sol, &ldquo;are among several significant vulnerabilities&rdquo; it found and expects &ldquo;similar findings to increase sharply&rdquo;&nbsp; &mdash;&nbsp; - Validate and fix the upstream vulnerability. &hellip; - Give affected organizations ti",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
       "title": "Upgrade your PHP installs immediately to protect against php2shell",
       "link": "https://www.jeffgeerling.com/blog/2026/php-vulnerability-php2shell/",
       "date": "2026-10-21T10:10:00-04:00",
@@ -3250,7 +3400,7 @@
       "feedHome": "https://www.jeffgeerling.com/"
     },
     {
-      "title": "Eight Bits of Trust; eMudhra's CA keys cracked in milliseconds",
+      "title": "Eight Bits of Trust: eMudhra's CA keys cracked in milliseconds",
       "link": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
       "date": "2026-10-21T09:08:08+00:00",
       "summary": "Comments",
@@ -3490,6 +3640,36 @@
       "feedHome": "https://arxiv.org/list/cs.LG/recent"
     },
     {
+      "title": "Democratic governance of frontier AI, part II: Empowering cyber defenders",
+      "link": "https://openai.com/index/empowering-cyber-defenders",
+      "date": "2026-10-21T00:00:00+00:00",
+      "summary": "OpenAI outlines a blueprint for empowering cyber defenders with frontier AI, stronger safeguards, modernized cybersecurity, and more resilient public institutions.",
+      "feedId": "openai",
+      "feedTitle": "OpenAI News",
+      "category": "AI & LLM",
+      "feedHome": "https://openai.com/news/"
+    },
+    {
+      "title": "\"No way to prevent this\" say users of only language where this regularly happens",
+      "link": "https://xeiaso.net/shitposts/no-way-to-prevent-this/memory-safety/CVE-2026-94300/",
+      "date": "2026-10-21T00:00:00+00:00",
+      "summary": "",
+      "feedId": "xeiaso",
+      "feedTitle": "Xe Iaso",
+      "category": "Tech Blogs",
+      "feedHome": "https://xeiaso.net/"
+    },
+    {
+      "title": "\"No way to prevent this\" say users of only language where this regularly happens",
+      "link": "https://xeiaso.net/shitposts/no-way-to-prevent-this/memory-safety/CVE-2026-111813/",
+      "date": "2026-10-21T00:00:00+00:00",
+      "summary": "",
+      "feedId": "xeiaso",
+      "feedTitle": "Xe Iaso",
+      "category": "Tech Blogs",
+      "feedHome": "https://xeiaso.net/"
+    },
+    {
       "title": "\"No way to prevent this\" say users of only language where this regularly happens",
       "link": "https://xeiaso.net/shitposts/no-way-to-prevent-this/memory-safety/CVE-2026-111497/",
       "date": "2026-10-21T00:00:00+00:00",
@@ -3534,30 +3714,10 @@
       "link": "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/",
       "date": "2026-10-20T23:01:23+00:00",
       "summary": "The proposed policy seems to offer protections against AI running amok but actually forbids federal agencies from blocking a model's release without the permission of a judge.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
-    },
-    {
-      "title": "Anthropic pitches AI safety bill that may block a model if 50+ people could be killed",
-      "link": "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/",
-      "date": "2026-10-20T23:01:23+00:00",
-      "summary": "The proposed policy seems to offer protections against AI running amok but actually forbids federal agencies from blocking a model's release without the permission of a judge.",
       "feedId": "techcrunch-ai",
       "feedTitle": "TechCrunch AI",
       "category": "Startup & News",
       "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
-    },
-    {
-      "title": "SpaceX and Tesla boards form special committees to review merger",
-      "link": "https://techcrunch.com/2026/10/20/spacex-and-tesla-boards-form-special-committees-to-review-merger/",
-      "date": "2026-10-20T22:57:57+00:00",
-      "summary": "Elon Musk likes the idea but says he is not on either committee, which is made up of independent directors.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
     },
     {
       "title": "Hugging Face CEO warns that Netflix’s OpenAI hack documentary isn’t accurate",
@@ -3610,36 +3770,6 @@
       "feedHome": "https://simonwillison.net/"
     },
     {
-      "title": "Google has joined Amazon in attacking Nvidia’s stronghold with AI app developers",
-      "link": "https://techcrunch.com/2026/10/20/google-has-joined-amazon-in-attacking-nvidias-stronghold-with-ai-app-developers/",
-      "date": "2026-10-20T18:38:24+00:00",
-      "summary": "Google has joined Amazon in releasing a developer tool that makes it easy for PyTorch users to move their apps off Nvidia GPUs.",
-      "feedId": "techcrunch-ai",
-      "feedTitle": "TechCrunch AI",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
-    },
-    {
-      "title": "ChatGPT now lets you lock your chats",
-      "link": "https://techcrunch.com/2026/10/20/chatgpt-now-lets-you-lock-your-chats/",
-      "date": "2026-10-20T18:36:53+00:00",
-      "summary": "The company says the feature is designed for situations where users might be discussing something personal or planning a surprise and want to keep those conversations private when handing their device to friends or family to show them something in another chat.",
-      "feedId": "techcrunch-ai",
-      "feedTitle": "TechCrunch AI",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
-    },
-    {
-      "title": "Eric Schmidt reportedly owns about half as much of Anthropic as CEO Dario Amodei",
-      "link": "https://techcrunch.com/2026/10/20/eric-schmidt-reportedly-owns-about-half-as-much-of-anthropic-as-ceo-dario-amodei/",
-      "date": "2026-10-20T17:55:12+00:00",
-      "summary": "Eric Schmidt’s fortune is about to get even bigger.",
-      "feedId": "techcrunch-ai",
-      "feedTitle": "TechCrunch AI",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
-    },
-    {
       "title": "Pluralistic: The death of history's most successful publisher (20 Oct 2026)",
       "link": "https://pluralistic.net/2026/10/20/main-character-syndrome/",
       "date": "2026-10-20T17:24:41+00:00",
@@ -3648,16 +3778,6 @@
       "feedTitle": "Pluralistic",
       "category": "Tech Blogs",
       "feedHome": "https://pluralistic.net/"
-    },
-    {
-      "title": "Meta’s Muse hits 10M US downloads in 40 days, a milestone reached by only 11 other apps",
-      "link": "https://techcrunch.com/2026/10/20/metas-muse-hits-10m-u-s-downloads-in-40-days-a-milestone-reached-by-only-11-other-apps/",
-      "date": "2026-10-20T17:12:48+00:00",
-      "summary": "New data also shows Muse is retaining users at higher rates than its AI rivals.",
-      "feedId": "techcrunch-ai",
-      "feedTitle": "TechCrunch AI",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
     },
     {
       "title": "From the DF Archive: Should a CEO Be a Nerd About Their Company’s Products?",
@@ -3750,9 +3870,9 @@
       "feedHome": "https://openai.com/news/"
     },
     {
-      "title": "Tiny possum and glider thought extinct for 6000 years found in remote West Papua",
-      "link": "https://www.bbc.com/news/articles/cp814l80pw2o",
-      "date": "2026-10-20T06:20:54+00:00",
+      "title": "No More Icons in Every Menu by Default",
+      "link": "https://blog.jim-nielsen.com/2026/icons-in-every-menu/",
+      "date": "2026-10-20T04:27:08+00:00",
       "summary": "Comments",
       "feedId": "hackernews",
       "feedTitle": "Hacker News",
@@ -3770,14 +3890,14 @@
       "feedHome": "https://daringfireball.net/"
     },
     {
-      "title": "OpenAI acquires Orchestra Bio",
-      "link": "https://openai.com/index/openai-to-acquire-orchestra-bio",
-      "date": "2026-10-20T00:00:00+00:00",
-      "summary": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D, helping biopharma teams accelerate drug development and advance new treatments.",
-      "feedId": "openai",
-      "feedTitle": "OpenAI News",
-      "category": "AI & LLM",
-      "feedHome": "https://openai.com/news/"
+      "title": "Why Windows 11 still ships with Windows 95's memory manager hidden inside it",
+      "link": "https://www.windowslatest.com/2026/10/19/why-windows-11-still-ships-with-windows-95s-memory-manager-hidden-inside-it/",
+      "date": "2026-10-20T00:14:03+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
     },
     {
       "title": "Laypeople support technical fields for technology, not art",
@@ -3898,16 +4018,6 @@
       "feedTitle": "John D. Cook",
       "category": "Tech Blogs",
       "feedHome": "https://www.johndcook.com/"
-    },
-    {
-      "title": "Advancing coding in low‑resource programming languages",
-      "link": "https://openai.com/index/low-resource-programming-languages",
-      "date": "2026-10-19T12:00:00+00:00",
-      "summary": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
-      "feedId": "openai",
-      "feedTitle": "OpenAI News",
-      "category": "AI & LLM",
-      "feedHome": "https://openai.com/news/"
     },
     {
       "title": "MiniMax M3.1 Flash：重新定义 Agent 的性能与成本",
@@ -4208,16 +4318,6 @@
       "feedTitle": "Ibrahim Diallo",
       "category": "Tech Blogs",
       "feedHome": "https://idiallo.com/"
-    },
-    {
-      "title": "sparqlite: SPARQL 1.1 inside SQLite, written in Rust",
-      "link": "https://simonwillison.net/2026/Oct/16/sqlite-sparql-rust/",
-      "date": "2026-10-16T01:58:00+00:00",
-      "summary": "Research: sparqlite: SPARQL 1.1 inside SQLite, written in Rust This research task is really an experiment in running Claude Code for web in \"Ultracode\" mode, as described in Orchestrate subagents at scale with dynamic workflows in the Claude Code documentation. With Ultracode turned on, Claude Code ",
-      "feedId": "simonwillison",
-      "feedTitle": "Simon Willison",
-      "category": "AI & LLM",
-      "feedHome": "https://simonwillison.net/"
     },
     {
       "title": "AI is driving a boom in modestly successful software projects",
@@ -4740,16 +4840,6 @@
       "feedHome": "https://research.google/blog/"
     },
     {
-      "title": "Pluralistic: Swapping money for expertise (06 Oct 2026)",
-      "link": "https://pluralistic.net/2026/10/06/nonfungible/",
-      "date": "2026-10-06T12:58:26+00:00",
-      "summary": "Today's links Swapping money for expertise: Money can't buy me love. Hey look at this: Delights to delectate. Object permanence: \"Tempo\"; Yahoo censors MEP's torture debate video; Scotland's money-laundry; A textbook scam; DOS the IRS then charge for access; Just trying to make a buck. Upcoming appe",
-      "feedId": "pluralistic",
-      "feedTitle": "Pluralistic",
-      "category": "Tech Blogs",
-      "feedHome": "https://pluralistic.net/"
-    },
-    {
       "title": "A Terminal Protocol for Program Status (OSC 7501)",
       "link": "https://mitchellh.com/writing/program-status-osc7501",
       "date": "2026-10-06T00:00:00+00:00",
@@ -5220,16 +5310,6 @@
       "feedHome": "https://www.troyhunt.com/"
     },
     {
-      "title": "You Can Drop SEO",
-      "link": "https://idiallo.com/blog/you-can-drop-the-seo",
-      "date": "2026-09-11T20:30:00+00:00",
-      "summary": "I started learning web development around the time the term search engine optimization, SEO, was becoming more common. You could still see the shift between pre-SEO content and post-SEO content. A popular article titled \"Forgotten\" (a great story) was suddenly republished as \"Forgotten: My Adventure",
-      "feedId": "idiallo",
-      "feedTitle": "Ibrahim Diallo",
-      "category": "Tech Blogs",
-      "feedHome": "https://idiallo.com/"
-    },
-    {
       "title": "At 25, we are all New Yorkers, again",
       "link": "https://anildash.com/2026/09/11/25-we-are-all-new-yorkers-again/",
       "date": "2026-09-11T00:00:00+00:00",
@@ -5288,16 +5368,6 @@
       "feedTitle": "Troy Hunt",
       "category": "Tech Blogs",
       "feedHome": "https://www.troyhunt.com/"
-    },
-    {
-      "title": "It took a year to ship WebAssembly in Anubis",
-      "link": "https://anubis.techaro.lol/blog/2026/anubis-wasm/",
-      "date": "2026-09-06T00:00:00+00:00",
-      "summary": "",
-      "feedId": "xeiaso",
-      "feedTitle": "Xe Iaso",
-      "category": "Tech Blogs",
-      "feedHome": "https://xeiaso.net/"
     },
     {
       "title": "Latent Powers",
@@ -5378,16 +5448,6 @@
       "feedTitle": "Troy Hunt",
       "category": "Tech Blogs",
       "feedHome": "https://www.troyhunt.com/"
-    },
-    {
-      "title": "Conflict resolution is “fun”",
-      "link": "https://www.tigrisdata.com/blog/conflict-resolution-is-fun/",
-      "date": "2026-09-01T00:00:00+00:00",
-      "summary": "",
-      "feedId": "xeiaso",
-      "feedTitle": "Xe Iaso",
-      "category": "Tech Blogs",
-      "feedHome": "https://xeiaso.net/"
     },
     {
       "title": "Cancelation Terminology",
@@ -5660,6 +5720,16 @@
       "feedHome": "https://mitchellh.com/"
     },
     {
+      "title": "The real AI risk is inside the labs",
+      "link": "http://antirez.com/news/172",
+      "date": "2026-07-28T11:00:11+02:00",
+      "summary": "Amodei in his latest blog post wrote a mix of agreeable things and things that I believe misrepresent where the real risk of AI is located. I want to focus my attention on why, among all the risks, open weight models constitute the mildest one. I write these words as a person who strongly believes A",
+      "feedId": "antirez",
+      "feedTitle": "antirez",
+      "category": "Tech Blogs",
+      "feedHome": "http://antirez.com/"
+    },
+    {
       "title": "Does every question mark deserve a Betteridge?",
       "link": "https://dynomight.net/betteridge/",
       "date": "2026-07-28T00:00:00+00:00",
@@ -5668,6 +5738,16 @@
       "feedTitle": "Dynomight",
       "category": "Tech Blogs",
       "feedHome": "https://dynomight.net/"
+    },
+    {
+      "title": "Being Linux Torvalds",
+      "link": "http://antirez.com/news/171",
+      "date": "2026-07-25T13:20:55+02:00",
+      "summary": "(This blog post was adapted from the transcription obtained from my YouTube video at https://www.youtube.com/watch?v=l6lxgYeVZqs) When Linus Torvalds developed the first Linux kernel, he had studied the Minix sources, he had studied computer architecture, he had the base knowledge needed, and he was",
+      "feedId": "antirez",
+      "feedTitle": "antirez",
+      "category": "Tech Blogs",
+      "feedHome": "http://antirez.com/"
     },
     {
       "title": "Index 01 Is In Mass Production!",
@@ -5708,6 +5788,16 @@
       "feedTitle": "Max Woolf",
       "category": "AI & LLM",
       "feedHome": "https://minimaxir.com/"
+    },
+    {
+      "title": "Not just development, distribution of software may change as well",
+      "link": "http://antirez.com/news/170",
+      "date": "2026-07-22T16:52:39+02:00",
+      "summary": "Even if you are as averse to semver as I used to be in the course of my programming activity, you can still think of open source software distribution as something that used to follow a fixed number of steps. There is a branch where developments happen, and this branch oftentimes happens to be not r",
+      "feedId": "antirez",
+      "feedTitle": "antirez",
+      "category": "Tech Blogs",
+      "feedHome": "http://antirez.com/"
     },
     {
       "title": "Everyone Should Know SIMD",
@@ -5778,6 +5868,16 @@
       "feedTitle": "Dynomight",
       "category": "Tech Blogs",
       "feedHome": "https://dynomight.net/"
+    },
+    {
+      "title": "Control the ideas, not the code",
+      "link": "http://antirez.com/news/169",
+      "date": "2026-07-13T13:39:52+02:00",
+      "summary": "Look at the past history of this blog. There are many blog posts about programming with AI, a few of them date back to January 2024 (like this: https://antirez.com/news/140). I’m a relatively well regarded programmer, after all. I don’t have the need to still be in the “loop” as a old man that seeks",
+      "feedId": "antirez",
+      "feedTitle": "antirez",
+      "category": "Tech Blogs",
+      "feedHome": "http://antirez.com/"
     },
     {
       "title": "Jurassic Park computers in excruciating detail",
@@ -5950,6 +6050,16 @@
       "feedHome": "https://steveblank.com/"
     },
     {
+      "title": "A new era for software testing",
+      "link": "http://antirez.com/news/168",
+      "date": "2026-06-07T11:46:06+02:00",
+      "summary": "Automatic programming dramatically speeds up writing software in certain use cases and in the right hands. In my experience the output does not reach the structural quality and economy of complexity of the best hand-written software. However, not all the software is stellar, and my feeling is that a",
+      "feedId": "antirez",
+      "feedTitle": "antirez",
+      "category": "Tech Blogs",
+      "feedHome": "http://antirez.com/"
+    },
+    {
       "title": "The art and engineering of Silpheed",
       "link": "https://fabiensanglard.net/silpheed/index.html",
       "date": "2026-06-01T00:00:00+00:00",
@@ -6000,6 +6110,16 @@
       "feedHome": "https://minimaxir.com/"
     },
     {
+      "title": "Distributing LLM inference in DwarfStar",
+      "link": "http://antirez.com/news/167",
+      "date": "2026-05-25T16:54:59+02:00",
+      "summary": "High end NVIDIA cards, and the server and power needed to run them, cost a lot of money, especially if you plan to reach enough VRAM to run massive models. The alternative, so far, has been Apple hardware, or the DGX Spark that, even if severely limited because of memory bandwidth, still allows to r",
+      "feedId": "antirez",
+      "feedTitle": "antirez",
+      "category": "Tech Blogs",
+      "feedHome": "http://antirez.com/"
+    },
+    {
       "title": "Convective Capital raises an $85 million fund to build disaster resilience",
       "link": "https://techcrunch.com/2026/05/21/convective-capital-raises-an-85-million-fund-to-build-disaster-resilience/",
       "date": "2026-05-21T17:41:20+00:00",
@@ -6020,6 +6140,16 @@
       "feedHome": "https://fabiensanglard.net/"
     },
     {
+      "title": "Alternatives for the EDIT tool of LLM agents",
+      "link": "http://antirez.com/news/166",
+      "date": "2026-05-19T09:26:03+02:00",
+      "summary": "EDIT: of course this was already done in the past! I had little doubts but people just confirmed me about it on Twitter :) But, keep reading: the CRC32 compromise at the end is an interesting tradeoff, and this is a good discussion to have in general. Right now I'm working to an agent for my DS4 pro",
+      "feedId": "antirez",
+      "feedTitle": "antirez",
+      "category": "Tech Blogs",
+      "feedHome": "http://antirez.com/"
+    },
+    {
       "title": "How I Use My Index 01 + Production Update",
       "link": "https://repebble.com/blog/how-i-use-my-index-01-production-update",
       "date": "2026-05-18T00:00:00+00:00",
@@ -6038,6 +6168,16 @@
       "feedTitle": "Miguel Grinberg",
       "category": "Tech Blogs",
       "feedHome": "https://blog.miguelgrinberg.com/"
+    },
+    {
+      "title": "A few words on DS4",
+      "link": "http://antirez.com/news/165",
+      "date": "2026-05-15T00:22:45+02:00",
+      "summary": "I didn’t expect DwarfStar 4 (https://github.com/antirez/ds4) to become so popular so fast. It is clear that there was a need for single-model integration focused local AI experience, and that a few things happened together: the release of a quasi-frontier model that is large and fast enough to chang",
+      "feedId": "antirez",
+      "feedTitle": "antirez",
+      "category": "Tech Blogs",
+      "feedHome": "http://antirez.com/"
     },
     {
       "title": "extremely low frequencies",
@@ -6068,6 +6208,16 @@
       "feedTitle": "TechCrunch Funding",
       "category": "Startup & News",
       "feedHome": "https://techcrunch.com/tag/funding/"
+    },
+    {
+      "title": "Redis array type: short story of a long development",
+      "link": "http://antirez.com/news/164",
+      "date": "2026-05-04T16:21:45+02:00",
+      "summary": "I started working on the new Array data type for Redis in the first days of January. The PR landed the repository only now, so this code was cooked for four months. I worked at the implementation kinda part time (kinda because many weeks were actually full time, sometimes to detach yourself from the",
+      "feedId": "antirez",
+      "feedTitle": "antirez",
+      "category": "Tech Blogs",
+      "feedHome": "http://antirez.com/"
     },
     {
       "title": "Anthropic Mythos – We’ve Opened Pandora’s Box",
@@ -6118,6 +6268,16 @@
       "feedTitle": "Miguel Grinberg",
       "category": "Tech Blogs",
       "feedHome": "https://blog.miguelgrinberg.com/"
+    },
+    {
+      "title": "AI cybersecurity is not proof of work",
+      "link": "http://antirez.com/news/163",
+      "date": "2026-04-16T12:46:46+02:00",
+      "summary": "The proof of work is the wrong analogy: finding hash collisions, while exponentially harder with N, is guaranteed to find, with enough work, some S so that H(S) satisfies N, so an asymmetry of resources used will see the side with more \"work ability\" eventually winning. But bugs are different: 1. Di",
+      "feedId": "antirez",
+      "feedTitle": "antirez",
+      "category": "Tech Blogs",
+      "feedHome": "http://antirez.com/"
     },
     {
       "title": "Chipmakers AMD, Arm, and Qualcomm are all investing in this buzzy self-driving tech startup",
