@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-26T03:39:26.779650+00:00",
+  "updatedAt": "2026-10-26T09:49:52.337761+00:00",
   "totalFeeds": 51,
   "successCount": 42,
   "failedCount": 9,
@@ -23,8 +23,14 @@
         "home": "https://simonwillison.net/",
         "url": "https://simonwillison.net/atom/everything/",
         "status": "ok",
-        "fetchedAt": "2026-10-26T03:39:16.626704+00:00",
+        "fetchedAt": "2026-10-26T09:49:41.571566+00:00",
         "items": [
+          {
+            "title": "Seam Cutter",
+            "link": "https://simonwillison.net/2026/Oct/25/seam-cutter/",
+            "date": "2026-10-25T15:10:19+00:00",
+            "summary": "Tool: Seam Cutter I built this weird and very specific cropping tool - it lets you create a horizontal or vertical cut across an image, then slide the two sides relative to each other. Effectively it lets you crop out a section in the middle of an image. I wanted this because I often use Tailor on m"
+          },
           {
             "title": "battledrones v14: Compass Rose, a four player map",
             "link": "https://simonwillison.net/2026/Oct/24/battledrones/",
@@ -78,12 +84,6 @@
             "link": "https://simonwillison.net/2026/Oct/20/emudhra-certificates/",
             "date": "2026-10-20T23:50:25+00:00",
             "summary": "eMudhra Intermediate CA Compromise This is very, very bad news: The private keys of eight eMudhra intermediate CA certificates have been compromised. They chain to roots trusted by the Mozilla, Microsoft, Apple and Chrome root programs and by many downstream trust stores. Any software that bundles a"
-          },
-          {
-            "title": "Battle Drones - a vibe coded RTS with audio-based multiplayer",
-            "link": "https://simonwillison.net/2026/Oct/20/battledrones/",
-            "date": "2026-10-20T19:34:19+00:00",
-            "summary": "My latest vibe coded game experiment is a Command &amp; Conquer style RTS (Real Time Strategy) game called Battle Drones (play it here). Unlike my previous experiments, this one is actually fun to play. I'm somewhat embarrassed to admit that I got there by telling Claude to \"Make it a LOT more fun\"."
           }
         ]
       },
@@ -94,7 +94,7 @@
         "home": "https://openai.com/news/",
         "url": "https://openai.com/news/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-26T03:39:16.692562+00:00",
+        "fetchedAt": "2026-10-26T09:49:41.651703+00:00",
         "items": [
           {
             "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
@@ -165,8 +165,69 @@
         "home": "https://arxiv.org/list/cs.AI/recent",
         "url": "https://arxiv.org/rss/cs.AI",
         "status": "ok",
-        "fetchedAt": "2026-10-26T03:39:16.768084+00:00",
-        "items": []
+        "fetchedAt": "2026-10-26T09:49:41.925372+00:00",
+        "items": [
+          {
+            "title": "Tradeoff-Aware Territory Design: A Multi-Objective Decision System for Enterprise Customer-to-Seller Allocation",
+            "link": "https://arxiv.org/abs/2610.31701",
+            "date": "2026-10-26T00:00:00-04:00",
+            "summary": "arXiv:2610.31701v1 Announce Type: new Abstract: Enterprise customer journeys are shaped not only by product experiences and marketing, but also by recurring resource-allocation decisions. In B2B go-to-market (GTM) organizations, territory carving determines which accounts receive seller coverage, wh"
+          },
+          {
+            "title": "Phronix: The Capability-Centric Learning Paradigm for Agents",
+            "link": "https://arxiv.org/abs/2610.31789",
+            "date": "2026-10-26T00:00:00-04:00",
+            "summary": "arXiv:2610.31789v1 Announce Type: new Abstract: Scientific computing increasingly relies on large language model-based agents for performance engineering tasks such as instrumentation, analysis, and workflow porting. However, agent effectiveness depends heavily on the surrounding harness, which typi"
+          },
+          {
+            "title": "Patronizing and Condescending Language Detection in English and Mandarin",
+            "link": "https://arxiv.org/abs/2610.31808",
+            "date": "2026-10-26T00:00:00-04:00",
+            "summary": "arXiv:2610.31808v1 Announce Type: new Abstract: Patronizing and condescending language (PCL) is a form of harmful language that belittles and assumes pity for vulnerable groups, reinforcing negative societal stereotypes. However, unlike overt hate speech, it is often difficult to detect, even for hu"
+          },
+          {
+            "title": "PaperFormalizer: Author-in-the-Loop Autoformalization of Research Papers in Lean",
+            "link": "https://arxiv.org/abs/2610.31810",
+            "date": "2026-10-26T00:00:00-04:00",
+            "summary": "arXiv:2610.31810v1 Announce Type: new Abstract: Even a carefully proofread paper can leave small gaps in its proofs or its stated assumptions. We introduce PaperFormalizer, a Lean-based agentic pipeline that helps authors find and close such gaps in their own papers and turn each paper into a Lean-v"
+          },
+          {
+            "title": "Don't Forget What You Just Learned: Self-Directed Repair Turns Agent Mistakes Into Lasting Lessons",
+            "link": "https://arxiv.org/abs/2610.31846",
+            "date": "2026-10-26T00:00:00-04:00",
+            "summary": "arXiv:2610.31846v1 Announce Type: new Abstract: Intelligent agents should learn from their mistakes so that experience leads to continuous improvement. Yet today's agents recover from a mistake only temporarily: in-context reflections are easily forgotten across sessions and compete for limited cont"
+          },
+          {
+            "title": "TACS-RF: Tool-driven Agentic Circuit Synthesis of RF and mmWave Modules",
+            "link": "https://arxiv.org/abs/2610.31882",
+            "date": "2026-10-26T00:00:00-04:00",
+            "summary": "arXiv:2610.31882v1 Announce Type: new Abstract: We present the framework of TACS-RF - a Tool-driven Agentic Circuit Synthesis of RF and mmWave modules. In this framework, a large-language-model (LLM) coding agent (Claude Opus 4.8) directly drives industry-standard electronic-design-automation (EDA) "
+          },
+          {
+            "title": "Permission to Retry: A Study of Authorization and Recovery in AI Agent Workflows",
+            "link": "https://arxiv.org/abs/2610.31916",
+            "date": "2026-10-26T00:00:00-04:00",
+            "summary": "arXiv:2610.31916v1 Announce Type: new Abstract: A durable agent can resume a consequential action while its authority changes and the action's external outcome remains uncertain. We study execution-time reliability of tool-using AI agents, isolating recovery decisions from language-model behavior. C"
+          },
+          {
+            "title": "Beyond On-Policy vs. Off-Policy: At What Level Should LLM Agent Distillation Follow the Student?",
+            "link": "https://arxiv.org/abs/2610.31918",
+            "date": "2026-10-26T00:00:00-04:00",
+            "summary": "arXiv:2610.31918v1 Announce Type: new Abstract: Distilling interactive LLM agents requires choosing between teacher-generated demonstrations and student-generated experience, corresponding broadly to off-policy and on-policy distillation. While both have proven effective, we argue that this distinct"
+          },
+          {
+            "title": "$M^3$: A Multi-LLM System for Multi-Turn Jailbreaking as a Markov Decision Process",
+            "link": "https://arxiv.org/abs/2610.31937",
+            "date": "2026-10-26T00:00:00-04:00",
+            "summary": "arXiv:2610.31937v1 Announce Type: new Abstract: Modern Large Language Models (LLMs) remain vulnerable to carefully orchestrated multi-turn interactions that progressively bypass safety mechanisms. However, many existing red-teaming approaches rely on heuristics or impose strong assumptions that limi"
+          },
+          {
+            "title": "Knowing Whom to Trust is not Enough: The Trust--Agreement Gap in Repeated Multi-Party LLM Negotiation",
+            "link": "https://arxiv.org/abs/2610.31971",
+            "date": "2026-10-26T00:00:00-04:00",
+            "summary": "arXiv:2610.31971v1 Announce Type: new Abstract: Large language model (LLM) agents increasingly participate in negotiations on behalf of individuals and organizations, yet they remain vulnerable to manipulation, particularly in repeated multi-party interactions. Classical multi-agent systems address "
+          }
+        ]
       },
       {
         "id": "arxiv-lg",
@@ -175,7 +236,7 @@
         "home": "https://arxiv.org/list/cs.LG/recent",
         "url": "https://arxiv.org/rss/cs.LG",
         "status": "ok",
-        "fetchedAt": "2026-10-26T03:39:16.774575+00:00",
+        "fetchedAt": "2026-10-26T09:49:41.855641+00:00",
         "items": []
       },
       {
@@ -185,7 +246,7 @@
         "home": "https://research.google/blog/",
         "url": "https://research.google/blog/rss/",
         "status": "ok",
-        "fetchedAt": "2026-10-26T03:39:16.863021+00:00",
+        "fetchedAt": "2026-10-26T09:49:41.704183+00:00",
         "items": [
           {
             "title": "Bringing foundational models to the front lines of TB screening",
@@ -256,7 +317,7 @@
         "home": "https://deepmind.google/blog/",
         "url": "https://deepmind.google/blog/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-26T03:39:16.715215+00:00",
+        "fetchedAt": "2026-10-26T09:49:41.783930+00:00",
         "items": [
           {
             "title": "Beyond tree cover: mapping the world’s forest types",
@@ -327,7 +388,7 @@
         "home": "https://lilianweng.github.io/",
         "url": "https://lilianweng.github.io/lil-log/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-26T03:39:16.574387+00:00",
+        "fetchedAt": "2026-10-26T09:49:41.511902+00:00",
         "items": [
           {
             "title": "Active Learning",
@@ -418,7 +479,7 @@
         "home": "https://minimaxir.com/",
         "url": "https://minimaxir.com/index.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-26T03:39:16.701503+00:00",
+        "fetchedAt": "2026-10-26T09:49:41.585382+00:00",
         "items": [
           {
             "title": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
@@ -501,7 +562,7 @@
         "home": "https://www.jeffgeerling.com/",
         "url": "https://www.jeffgeerling.com/blog.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-26T03:39:16.709006+00:00",
+        "fetchedAt": "2026-10-26T09:49:41.696284+00:00",
         "items": [
           {
             "title": "Ubiquiti's $99 Vape Detector is actually pretty good",
@@ -572,7 +633,7 @@
         "home": "https://www.seangoedecke.com/",
         "url": "https://www.seangoedecke.com/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-26T03:39:16.722003+00:00",
+        "fetchedAt": "2026-10-26T09:49:41.661084+00:00",
         "items": [
           {
             "title": "Don't anthropomorphize big tech companies",
@@ -643,7 +704,7 @@
         "home": "https://krebsonsecurity.com/",
         "url": "https://krebsonsecurity.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-10-26T03:39:16.767281+00:00",
+        "fetchedAt": "2026-10-26T09:49:41.692287+00:00",
         "items": [
           {
             "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
@@ -714,7 +775,7 @@
         "home": "https://daringfireball.net/",
         "url": "https://daringfireball.net/feeds/main",
         "status": "ok",
-        "fetchedAt": "2026-10-26T03:39:16.854548+00:00",
+        "fetchedAt": "2026-10-26T09:49:41.814086+00:00",
         "items": [
           {
             "title": "Sunnny",
@@ -785,7 +846,7 @@
         "home": "https://ericmigi.com/",
         "url": "https://ericmigi.com/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-26T03:39:16.986440+00:00",
+        "fetchedAt": "2026-10-26T09:49:41.725352+00:00",
         "items": [
           {
             "title": "New Pebble Weather App + Software Updates",
@@ -856,7 +917,7 @@
         "home": "http://antirez.com/",
         "url": "http://antirez.com/rss",
         "status": "ok",
-        "fetchedAt": "2026-10-26T03:39:18.294378+00:00",
+        "fetchedAt": "2026-10-26T09:49:43.303435+00:00",
         "items": [
           {
             "title": "The real AI risk is inside the labs",
@@ -927,7 +988,7 @@
         "home": "https://idiallo.com/",
         "url": "https://idiallo.com/feed.rss",
         "status": "ok",
-        "fetchedAt": "2026-10-26T03:39:16.803052+00:00",
+        "fetchedAt": "2026-10-26T09:49:41.731858+00:00",
         "items": [
           {
             "title": "Productivity",
@@ -998,7 +1059,7 @@
         "home": "https://maurycyz.com/",
         "url": "https://maurycyz.com/index.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-26T03:39:17.221544+00:00",
+        "fetchedAt": "2026-10-26T09:49:42.164686+00:00",
         "items": []
       },
       {
@@ -1008,7 +1069,7 @@
         "home": "https://pluralistic.net/",
         "url": "https://pluralistic.net/feed/",
         "status": "ok",
-        "fetchedAt": "2026-10-26T03:39:17.420643+00:00",
+        "fetchedAt": "2026-10-26T09:49:42.689928+00:00",
         "items": [
           {
             "title": "Pluralistic: Critique and writing (23 Oct 2026)",
@@ -1079,7 +1140,7 @@
         "home": "https://shkspr.mobi/blog/",
         "url": "https://shkspr.mobi/blog/feed/",
         "status": "ok",
-        "fetchedAt": "2026-10-26T03:39:17.689004+00:00",
+        "fetchedAt": "2026-10-26T09:49:42.048564+00:00",
         "items": [
           {
             "title": "Gadget Review: LiberNovo Omni - the USB-C powered office chair ★★★★⯪",
@@ -1160,7 +1221,7 @@
         "home": "https://mitchellh.com/",
         "url": "https://mitchellh.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-26T03:39:16.869930+00:00",
+        "fetchedAt": "2026-10-26T09:49:41.850182+00:00",
         "items": [
           {
             "title": "A Terminal Protocol for Program Status (OSC 7501)",
@@ -1231,7 +1292,7 @@
         "home": "https://dynomight.net/",
         "url": "https://dynomight.net/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-26T03:39:17.083644+00:00",
+        "fetchedAt": "2026-10-26T09:49:41.804915+00:00",
         "items": [
           {
             "title": "Why is the human body so crap except for the liver?",
@@ -1302,7 +1363,7 @@
         "home": "https://xeiaso.net/",
         "url": "https://xeiaso.net/blog.rss",
         "status": "ok",
-        "fetchedAt": "2026-10-26T03:39:17.142546+00:00",
+        "fetchedAt": "2026-10-26T09:49:42.039206+00:00",
         "items": [
           {
             "title": "\"No way to prevent this\" say users of only language where this regularly happens",
@@ -1373,7 +1434,7 @@
         "home": "https://devblogs.microsoft.com/oldnewthing/",
         "url": "https://devblogs.microsoft.com/oldnewthing/feed",
         "status": "ok",
-        "fetchedAt": "2026-10-26T03:39:17.057772+00:00",
+        "fetchedAt": "2026-10-26T09:49:41.771657+00:00",
         "items": [
           {
             "title": "Why didn’t we use the COM static store to clean up the unmarshalable delegate?",
@@ -1444,7 +1505,7 @@
         "home": "https://www.righto.com/",
         "url": "https://www.righto.com/feeds/posts/default",
         "status": "ok",
-        "fetchedAt": "2026-10-26T03:39:16.945711+00:00",
+        "fetchedAt": "2026-10-26T09:49:41.874634+00:00",
         "items": []
       },
       {
@@ -1454,7 +1515,7 @@
         "home": "https://lucumr.pocoo.org/",
         "url": "https://lucumr.pocoo.org/feed.atom",
         "status": "ok",
-        "fetchedAt": "2026-10-26T03:39:17.048311+00:00",
+        "fetchedAt": "2026-10-26T09:49:42.011165+00:00",
         "items": [
           {
             "title": "What is Codemode",
@@ -1525,7 +1586,7 @@
         "home": "https://skyfall.dev/",
         "url": "https://skyfall.dev/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-26T03:39:16.998684+00:00",
+        "fetchedAt": "2026-10-26T09:49:41.967331+00:00",
         "items": [
           {
             "title": "Good riddance, 4o",
@@ -1600,7 +1661,7 @@
         "home": "https://overreacted.io/",
         "url": "https://overreacted.io/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-26T03:39:16.812948+00:00",
+        "fetchedAt": "2026-10-26T09:49:41.768130+00:00",
         "items": [
           {
             "title": "How I Vibed a Proof of Conway’s Conjecture",
@@ -1671,7 +1732,7 @@
         "home": "https://www.johndcook.com/",
         "url": "https://www.johndcook.com/blog/feed/",
         "status": "ok",
-        "fetchedAt": "2026-10-26T03:39:16.908809+00:00",
+        "fetchedAt": "2026-10-26T09:49:42.063076+00:00",
         "items": [
           {
             "title": "Poles and polars",
@@ -1742,7 +1803,7 @@
         "home": "https://matklad.github.io/",
         "url": "https://matklad.github.io/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-26T03:39:16.763213+00:00",
+        "fetchedAt": "2026-10-26T09:49:41.827991+00:00",
         "items": [
           {
             "title": "On Git Refs",
@@ -1813,7 +1874,7 @@
         "home": "https://eli.thegreenplace.net/",
         "url": "https://eli.thegreenplace.net/feeds/all.atom.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-26T03:39:16.992727+00:00",
+        "fetchedAt": "2026-10-26T09:49:41.990836+00:00",
         "items": [
           {
             "title": "Notes on the complex roots of unity",
@@ -1854,7 +1915,7 @@
         "home": "https://fabiensanglard.net/",
         "url": "https://fabiensanglard.net/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-26T03:39:17.010472+00:00",
+        "fetchedAt": "2026-10-26T09:49:41.757244+00:00",
         "items": [
           {
             "title": "My agent.md to improve LLM-assisted code quality",
@@ -1925,7 +1986,7 @@
         "home": "https://blog.miguelgrinberg.com/",
         "url": "https://blog.miguelgrinberg.com/feed",
         "status": "ok",
-        "fetchedAt": "2026-10-26T03:39:17.318002+00:00",
+        "fetchedAt": "2026-10-26T09:49:42.207330+00:00",
         "items": [
           {
             "title": "How fast is Python 3.15?",
@@ -1996,7 +2057,7 @@
         "home": "https://www.troyhunt.com/",
         "url": "https://www.troyhunt.com/rss/",
         "status": "ok",
-        "fetchedAt": "2026-10-26T03:39:16.930430+00:00",
+        "fetchedAt": "2026-10-26T09:49:42.085883+00:00",
         "items": [
           {
             "title": "Weekly Update 526: Building HIBP AI/SI First",
@@ -2067,7 +2128,7 @@
         "home": "https://anildash.com/",
         "url": "https://anildash.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-26T03:39:16.926949+00:00",
+        "fetchedAt": "2026-10-26T09:49:41.974487+00:00",
         "items": [
           {
             "title": "Maybe it's time for lots of little indie AIs to take over",
@@ -2138,7 +2199,7 @@
         "home": "https://computer.rip/",
         "url": "https://computer.rip/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-26T03:39:17.943991+00:00",
+        "fetchedAt": "2026-10-26T09:49:42.486949+00:00",
         "items": [
           {
             "title": "lighting the skies",
@@ -2219,7 +2280,7 @@
         "home": "http://paulgraham.com/",
         "url": "http://www.aaronsw.com/2002/feeds/pgessays.rss",
         "status": "ok",
-        "fetchedAt": "2026-10-26T03:39:16.996604+00:00",
+        "fetchedAt": "2026-10-26T09:49:42.105413+00:00",
         "items": [
           {
             "title": "Superlinear Returns",
@@ -2290,7 +2351,7 @@
         "home": "https://steveblank.com/",
         "url": "https://steveblank.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-10-26T03:39:17.056397+00:00",
+        "fetchedAt": "2026-10-26T09:49:41.987667+00:00",
         "items": [
           {
             "title": "Elon Musk Just Gave Europe a Reason to Replace American Technology",
@@ -2363,18 +2424,12 @@
         "home": "https://news.ycombinator.com/",
         "url": "https://news.ycombinator.com/rss",
         "status": "ok",
-        "fetchedAt": "2026-10-26T03:39:17.227611+00:00",
+        "fetchedAt": "2026-10-26T09:49:42.012757+00:00",
         "items": [
           {
-            "title": "Removing Next.js Got My Blog to 100 on Every Lighthouse Category",
-            "link": "https://korindiehacker.bloffy.blog/en/removing-nextjs-got-my-blog-to-100-on-every-lighthouse-category",
-            "date": "2026-10-26T01:03:39+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "Dolly Parton's Imagination Library",
-            "link": "https://imaginationlibrary.com/",
-            "date": "2026-10-25T18:23:54+00:00",
+            "title": "Switzerland. Block by block. At 1:1 scale",
+            "link": "https://blocks.manifold3d.ch/",
+            "date": "2026-10-26T08:46:09+00:00",
             "summary": "Comments"
           },
           {
@@ -2384,9 +2439,39 @@
             "summary": "Comments"
           },
           {
-            "title": "F-Zero X on Nintendo 3DS",
-            "link": "https://hypnotize.works/gdx-3ds/postmortem/index.html",
-            "date": "2026-10-25T23:27:30+00:00",
+            "title": "PaperPilot – Zero-Cloud, Pure-Rust PDF Engine with WASM and MCP",
+            "link": "https://github.com/KrushnaVardhanReddy/PaperPilot",
+            "date": "2026-10-26T03:29:05+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "The result of the C++26 DIS ballot",
+            "link": "https://train-it.eu/blog/cpp26-contracts-the-ballot-result/",
+            "date": "2026-10-26T06:11:52+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "Behind the scenes at the NeXT Computer office",
+            "link": "https://exhibits.stanford.edu/menuez/browse/next-computer-inc?per_page=96&sort=pub_year_isi+asc%2C+title_sort+asc&view=masonry",
+            "date": "2026-10-26T03:31:11+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "Dolly Parton's Imagination Library",
+            "link": "https://imaginationlibrary.com/",
+            "date": "2026-10-25T18:23:54+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "Growing Trees",
+            "link": "https://brashandplucky.com/2026/10/15/growing-trees.html",
+            "date": "2026-10-23T14:07:42+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "Show HN: A Truly Modular Keyboard",
+            "link": "https://github.com/notaroomba/keybytes",
+            "date": "2026-10-25T03:47:56+00:00",
             "summary": "Comments"
           },
           {
@@ -2400,30 +2485,6 @@
             "link": "https://arxiv.org/abs/2512.19428",
             "date": "2026-10-25T23:52:05+00:00",
             "summary": "Comments"
-          },
-          {
-            "title": "Why I Am a Programmer",
-            "link": "https://www.alfie.wtf/programming/why-i-am-a-programmer.html",
-            "date": "2026-10-25T19:11:31+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "IBM CEO says open weight models are now irresistibly good and cheap on-prem",
-            "link": "https://www.theregister.com/systems/2026/10/22/ibm-ceo-says-open-weight-models-are-now-irresistibly-good-and-cheap-on-prem/5304640",
-            "date": "2026-10-26T01:47:46+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "What goes into making an animated film?",
-            "link": "https://www.disneyanimation.com/process/",
-            "date": "2026-10-25T20:27:09+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "The State of Context Engineering",
-            "link": "https://www.dbreunig.com/2026/10/24/the-state-of-context-engineering.html",
-            "date": "2026-10-25T20:32:31+00:00",
-            "summary": "Comments"
           }
         ]
       },
@@ -2434,67 +2495,67 @@
         "home": "https://www.techmeme.com/",
         "url": "https://www.techmeme.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-26T03:39:17.110305+00:00",
+        "fetchedAt": "2026-10-26T09:49:42.226151+00:00",
         "items": [
           {
-            "title": "Report: SK Hynix gained ~$15B from selling down its Kioxia stake earlier this year, and plans to return ~$12B to shareholders via a special dividend (Bloomberg)",
+            "title": "Filing: Chinese PCB maker Dongshan raised ~$1.3B in Hong Kong's biggest IPO in nearly two months, pricing shares at ~$11, or 35% below its Friday Shenzhen close (Bloomberg)",
+            "link": "https://www.techmeme.com/261026/p8#a261026p8",
+            "date": "2026-10-26T05:45:02-04:00",
+            "summary": "Bloomberg: Filing: Chinese PCB maker Dongshan raised ~$1.3B in Hong Kong's biggest IPO in nearly two months, pricing shares at ~$11, or 35% below its Friday Shenzhen close&nbsp; &mdash;&nbsp; Suzhou Dongshan Precision Manufacturing Co. a printed circuit board maker, raised about HK$9.9 billion ($1.3"
+          },
+          {
+            "title": "Elvis Presley's rightsholders sue Anthropic over 274 songs allegedly used to train its models, seeking $41M+; Anthropic says it disagrees and will defend itself (Derrick Bryson Taylor/New York Times)",
+            "link": "https://www.techmeme.com/261026/p7#a261026p7",
+            "date": "2026-10-26T04:55:10-04:00",
+            "summary": "Derrick Bryson Taylor / New York Times: Elvis Presley's rightsholders sue Anthropic over 274 songs allegedly used to train its models, seeking $41M+; Anthropic says it disagrees and will defend itself&nbsp; &mdash;&nbsp; The $41 million lawsuit contends that the A.I. company used Presley's music to "
+          },
+          {
+            "title": "Alphabet, Amazon, and Microsoft are expected to report double-digit gains in revenue this week, as investors grow impatient with AI capex and seek returns (Bloomberg)",
+            "link": "https://www.techmeme.com/261026/p6#a261026p6",
+            "date": "2026-10-26T04:35:04-04:00",
+            "summary": "Bloomberg: Alphabet, Amazon, and Microsoft are expected to report double-digit gains in revenue this week, as investors grow impatient with AI capex and seek returns&nbsp; &mdash;&nbsp; Three of the biggest and most important technology companies in the world are expected to show healthy growth when"
+          },
+          {
+            "title": "Inside Slack's Salesforce culture clash: Benioff had ~1 hour with CEO Butterfield pre-deal and didn't use Slack; Butterfield quit after a Davos celebrity panel (Johnny Rodgers/Building Slack)",
+            "link": "https://www.techmeme.com/261026/p5#a261026p5",
+            "date": "2026-10-26T04:15:01-04:00",
+            "summary": "Johnny Rodgers / Building Slack: Inside Slack's Salesforce culture clash: Benioff had ~1 hour with CEO Butterfield pre-deal and didn't use Slack; Butterfield quit after a Davos celebrity panel&nbsp; &mdash;&nbsp; I needed a keyboard.&nbsp; &mdash;&nbsp; I stood at my reserved desk on the 7th floor o"
+          },
+          {
+            "title": "A profile of former Google VP and Yahoo CEO Marissa Mayer, whose startup Dazzle is building an AI assistant to help non-tech enthusiasts with mundane tasks (Alexandra Alter/New York Times)",
+            "link": "https://www.techmeme.com/261026/p4#a261026p4",
+            "date": "2026-10-26T03:55:08-04:00",
+            "summary": "Alexandra Alter / New York Times: A profile of former Google VP and Yahoo CEO Marissa Mayer, whose startup Dazzle is building an AI assistant to help non-tech enthusiasts with mundane tasks&nbsp; &mdash;&nbsp; Marissa Mayer has reinvented herself as a start-up founder, with a team of 10 engineers &m"
+          },
+          {
+            "title": "India's chip design startups near production with government support, but low volumes, high fab costs, and supply chain bottlenecks hinder commercialization (Ananta Agarwal/Nikkei Asia)",
+            "link": "https://www.techmeme.com/261026/p3#a261026p3",
+            "date": "2026-10-26T01:50:01-04:00",
+            "summary": "Ananta Agarwal / Nikkei Asia: India's chip design startups near production with government support, but low volumes, high fab costs, and supply chain bottlenecks hinder commercialization&nbsp; &mdash;&nbsp; BENGALURU &mdash; Propelled by government support, India's chip design startups are nearing c"
+          },
+          {
+            "title": "Amazon Bee Frontier review: a simple $75 AI wearable that excels at always-on listening, summarizing conversations, and suggesting follow-up actions (M.G. Siegler/Spyglass)",
+            "link": "https://www.techmeme.com/261026/p2#a261026p2",
+            "date": "2026-10-26T01:05:00-04:00",
+            "summary": "M.G. Siegler / Spyglass: Amazon Bee Frontier review: a simple $75 AI wearable that excels at always-on listening, summarizing conversations, and suggesting follow-up actions&nbsp; &mdash;&nbsp; Amazon's quiet, listening AI wearable is also pretty killer?&nbsp; &mdash;&nbsp; I'm not sure people reall"
+          },
+          {
+            "title": "A look at Toyota's robotics expansion, including its Walden spinoff and a $6.4B annual plan to deploy 400K factory robots, as it competes with Tesla and China (Financial Times)",
+            "link": "https://www.techmeme.com/261026/p1#a261026p1",
+            "date": "2026-10-26T00:40:01-04:00",
+            "summary": "Financial Times: A look at Toyota's robotics expansion, including its Walden spinoff and a $6.4B annual plan to deploy 400K factory robots, as it competes with Tesla and China&nbsp; &mdash;&nbsp; Japanese group uses 20 years of research to commercialise intelligent robots&nbsp; &mdash;&nbsp; Toyota "
+          },
+          {
+            "title": "DongA Ilbo: SK Hynix gained ~$15B on its Kioxia stake earlier in 2026, and plans to return ~$12B to shareholders via a special dividend (Bloomberg)",
             "link": "https://www.techmeme.com/261025/p16#a261025p16",
             "date": "2026-10-25T23:25:01-04:00",
-            "summary": "Bloomberg: Report: SK Hynix gained ~$15B from selling down its Kioxia stake earlier this year, and plans to return ~$12B to shareholders via a special dividend&nbsp; &mdash;&nbsp; SK Hynix Inc.'s shares bucked a broad selloff in AI-related stocks thanks to the prospect of a large dividend payout rel"
+            "summary": "Bloomberg: DongA Ilbo: SK Hynix gained ~$15B on its Kioxia stake earlier in 2026, and plans to return ~$12B to shareholders via a special dividend&nbsp; &mdash;&nbsp; SK Hynix Inc.'s shares bucked a broad selloff in AI-related stocks thanks to the prospect of a hefty dividend payout related to the S"
           },
           {
             "title": "High-frequency trading firms such as Jane Street are investing in AI and chip startups and neoclouds, and building data centers to gain an edge in the AI era (Bloomberg)",
             "link": "https://www.techmeme.com/261025/p15#a261025p15",
             "date": "2026-10-25T22:50:02-04:00",
             "summary": "Bloomberg: High-frequency trading firms such as Jane Street are investing in AI and chip startups and neoclouds, and building data centers to gain an edge in the AI era&nbsp; &mdash;&nbsp; High-frequency trading firms are even building their own data centers as they compete for an edge in the AI era"
-          },
-          {
-            "title": "Sources detail how Ramp investors Joe Lonsdale and Keith Rabois pushed US lawmakers to probe rival Airwallex's China ties after Airwallex scrapped a Ramp deal (Michael Roddan/The Information)",
-            "link": "https://www.techmeme.com/261025/p14#a261025p14",
-            "date": "2026-10-25T21:50:01-04:00",
-            "summary": "Michael Roddan / The Information: Sources detail how Ramp investors Joe Lonsdale and Keith Rabois pushed US lawmakers to probe rival Airwallex's China ties after Airwallex scrapped a Ramp deal&nbsp; &mdash;&nbsp; In April 2025, Eric Glyman, co-founder and co-CEO of Ramp, received some bad news: A de"
-          },
-          {
-            "title": "iPhone Duo teardown: 5/10 repairability, a foldable record, but some screens crack along the fold, possibly because a hinge support bar fails to drop far enough (Elizabeth Chamberlain/iFixit News)",
-            "link": "https://www.techmeme.com/261025/p13#a261025p13",
-            "date": "2026-10-25T20:40:01-04:00",
-            "summary": "Elizabeth Chamberlain / iFixit News: iPhone Duo teardown: 5/10 repairability, a foldable record, but some screens crack along the fold, possibly because a hinge support bar fails to drop far enough&nbsp; &mdash;&nbsp; Apple's folding iPhone finally made it to our teardown table.&nbsp; Some owners' s"
-          },
-          {
-            "title": "Moderators of r/opensource ban submissions of projects using, made by, or intended for AI, exclude non-English speakers over AI translation concerns, and more (Terrence O'Brien/The Verge)",
-            "link": "https://www.techmeme.com/261025/p12#a261025p12",
-            "date": "2026-10-25T19:35:01-04:00",
-            "summary": "Terrence O'Brien / The Verge: Moderators of r/opensource ban submissions of projects using, made by, or intended for AI, exclude non-English speakers over AI translation concerns, and more&nbsp; &mdash;&nbsp; The opensource subreddit's new rules against AI have sparked a revolt. &hellip; The post ma"
-          },
-          {
-            "title": "Elon Musk says SpaceX closed $40B in GPU debt, debt markets have shut off credit for AI data center firms, and 200+ neoclouds face \"death and consolidation\" (Elon Musk/@elonmusk)",
-            "link": "https://www.techmeme.com/261025/p11#a261025p11",
-            "date": "2026-10-25T17:35:01-04:00",
-            "summary": "Elon Musk / @elonmusk: Elon Musk says SpaceX closed $40B in GPU debt, debt markets have shut off credit for AI data center firms, and 200+ neoclouds face &ldquo;death and consolidation&rdquo;&nbsp; &mdash;&nbsp; Pretty much. As of the past few weeks, debt markets have almost entirely shut off access"
-          },
-          {
-            "title": "Data center tenants now demand $5M+ a day in late-delivery fees, up from $1M this spring, spawning new \"delay-in-delivery\" coverage from brokers like Marsh (Ann Davis Vaughan/The Information)",
-            "link": "https://www.techmeme.com/261025/p10#a261025p10",
-            "date": "2026-10-25T15:10:13-04:00",
-            "summary": "Ann Davis Vaughan / The Information: Data center tenants now demand $5M+ a day in late-delivery fees, up from $1M this spring, spawning new &ldquo;delay-in-delivery&rdquo; coverage from brokers like Marsh&nbsp; &mdash;&nbsp; This spring, Mike Mathews, who leads the global digital infrastructure prac"
-          },
-          {
-            "title": "The iTunes Store is re-emerging as a venue for big pop stars, including Taylor Swift, to hawk collectibles to superfans and bolster their chart positions (Tom Matsuda/Financial Times)",
-            "link": "https://www.techmeme.com/261025/p9#a261025p9",
-            "date": "2026-10-25T13:00:45-04:00",
-            "summary": "Tom Matsuda / Financial Times: The iTunes Store is re-emerging as a venue for big pop stars, including Taylor Swift, to hawk collectibles to superfans and bolster their chart positions&nbsp; &mdash;&nbsp; Record labels and artists including Taylor Swift and Ariana Grande are using the throwback musi"
-          },
-          {
-            "title": "Sources: Apple tweaked macOS for its OLED touch MacBook Pro, due Wednesday, with a dynamic interface that adapts to whether touch or the trackpad was last used (Mark Gurman/Bloomberg)",
-            "link": "https://www.techmeme.com/261025/p8#a261025p8",
-            "date": "2026-10-25T11:00:32-04:00",
-            "summary": "Mark Gurman / Bloomberg: Sources: Apple tweaked macOS for its OLED touch MacBook Pro, due Wednesday, with a dynamic interface that adapts to whether touch or the trackpad was last used&nbsp; &mdash;&nbsp; Also: The company rolls out a retail store tool to reduce wasted inventory.&nbsp; &mdash;&nbsp;"
-          },
-          {
-            "title": "Lawmakers and Hill staffers in both parties say AI leaders are becoming a political liability as they swing between claims of prosperity and existential dangers (Maria Curi/Axios)",
-            "link": "https://www.techmeme.com/261025/p7#a261025p7",
-            "date": "2026-10-25T07:00:54-04:00",
-            "summary": "Maria Curi / Axios: Lawmakers and Hill staffers in both parties say AI leaders are becoming a political liability as they swing between claims of prosperity and existential dangers&nbsp; &mdash;&nbsp; Washington has always viewed Silicon Valley as culturally strange.&nbsp; But the current crop of AI"
           }
         ]
       },
@@ -2505,7 +2566,7 @@
         "home": "https://techcrunch.com/",
         "url": "https://techcrunch.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-10-26T03:39:16.840524+00:00",
+        "fetchedAt": "2026-10-26T09:49:41.688344+00:00",
         "items": [
           {
             "title": "The best apps for tracking your reading and discovering new books",
@@ -2576,7 +2637,7 @@
         "home": "https://techcrunch.com/category/artificial-intelligence/",
         "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
         "status": "ok",
-        "fetchedAt": "2026-10-26T03:39:16.950532+00:00",
+        "fetchedAt": "2026-10-26T09:49:41.881759+00:00",
         "items": [
           {
             "title": "Grok releases the first seven minutes of its AI-generated ‘Odyssey’",
@@ -2647,7 +2708,7 @@
         "home": "https://techcrunch.com/tag/funding/",
         "url": "https://techcrunch.com/tag/funding/feed/",
         "status": "ok",
-        "fetchedAt": "2026-10-26T03:39:16.989087+00:00",
+        "fetchedAt": "2026-10-26T09:49:41.940917+00:00",
         "items": [
           {
             "title": "DeepSeek reportedly raises $15B days after US restrictions",
@@ -2750,8 +2811,14 @@
         "home": "https://www.bestblogs.dev/",
         "url": "https://www.bestblogs.dev/zh/feeds/rss?category=ai&minScore=90",
         "status": "ok",
-        "fetchedAt": "2026-10-26T03:39:17.361588+00:00",
+        "fetchedAt": "2026-10-26T09:49:42.418856+00:00",
         "items": [
+          {
+            "title": "物理学家破防！500 页博士论文手算 1 年，Opus 5.5 只用 10 小时",
+            "link": "https://www.bestblogs.dev/article/5913516cba?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
+            "date": "2026-10-25T04:17:00+00:00",
+            "summary": "📌 一句话摘要 量子引力专家 Emre Kahya 用 1 年时间手算 500 页博士论文，而 Claude Opus 5.5 只用 10 小时就完全复现并优化了计算，还发现了原论文中的多个错误。 📝 详细摘要 本文讲述了物理学家 Emre Onur Kahya 的博士论文被 AI 模型 Claude Opus 5.5 快速复现的故事。Kahya 耗时 1 年手写近 500 页的量子引力推导，而 Opus 5.5 在 10 小时内不仅完成了所有计算，还生成了详细的推导笔记、LaTeX 源码，并发现了原论文中的符号错误和缺失项。尽管最终物理结论不变，但 AI 的效率和精度对学术界产生了巨大冲击，"
+          },
           {
             "title": "RoboTwin 第一、RoboDojo 领跑：Physical AI 的下一轮 Scaling，为什么是 Physics？",
             "link": "https://www.bestblogs.dev/article/d3eb5b38f6?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
@@ -2805,18 +2872,102 @@
             "link": "https://www.bestblogs.dev/article/b77d631c9b?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
             "date": "2026-10-22T10:00:00+00:00",
             "summary": "📌 一句话摘要 清华大学副教授丁文伯从偏科生到触觉专家，坚持先顺应规则再改变它，创立无界智航，用触觉数据赋能机器人灵巧操作，并倡导跨本体、跨模态、跨传感器的触觉技术发展。 📝 详细摘要 丁文伯，清华大学深圳国际研究生院副教授，国家青年特聘专家，在触觉传感领域发表多篇顶刊论文。他从小学语文不及格、高考答题卡涂错的挫折中，逐渐理解了先在体系内做到最好再推动变革的道理。在科研中，他通过与导师、师兄的深度交流，从不得其法到掌握方法，最终将触觉作为终身研究方向。创业时，他拒绝了首席科学家邀约，与室友熊祺、博士生陈天行创立无界智航，专注于基于触觉的工业机器人定制化交付，并参与运营第三方评测体系。他认为触觉"
-          },
-          {
-            "title": "大模型如何胜任职场？WorkForge 让大模型进入真实职场工作流",
-            "link": "https://www.bestblogs.dev/article/5e135a7ad5?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
-            "date": "2026-10-22T09:05:00+00:00",
-            "summary": "📌 一句话摘要 腾讯混元与复旦大学提出 WorkForge，一个从真实世界资源出发、规模化构建可验证智能体工作环境的框架，通过 16，665 个真实工作区训练模型，显著提升智能体在长程任务中的探索、核查与交付能力。 📝 详细摘要 WorkForge 框架通过四步构建真实工作环境：专家撰写场景蓝图、收集真实材料搭建工作区、定义任务与验证标准、执行并打分。WorkForge-16K 数据集包含 16，665 个工作区，横跨 40 个领域、60 种文件类型，平均 42.3 个文件、279 KB，任务平均 21.9 条验证标准。训练得到的 WorkForge-A3B 和 WorkForge-27B 模"
           }
         ]
       }
     ]
   },
   "allItems": [
+    {
+      "title": "Switzerland. Block by block. At 1:1 scale",
+      "link": "https://blocks.manifold3d.ch/",
+      "date": "2026-10-26T08:46:09+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "The result of the C++26 DIS ballot",
+      "link": "https://train-it.eu/blog/cpp26-contracts-the-ballot-result/",
+      "date": "2026-10-26T06:11:52+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "Filing: Chinese PCB maker Dongshan raised ~$1.3B in Hong Kong's biggest IPO in nearly two months, pricing shares at ~$11, or 35% below its Friday Shenzhen close (Bloomberg)",
+      "link": "https://www.techmeme.com/261026/p8#a261026p8",
+      "date": "2026-10-26T05:45:02-04:00",
+      "summary": "Bloomberg: Filing: Chinese PCB maker Dongshan raised ~$1.3B in Hong Kong's biggest IPO in nearly two months, pricing shares at ~$11, or 35% below its Friday Shenzhen close&nbsp; &mdash;&nbsp; Suzhou Dongshan Precision Manufacturing Co. a printed circuit board maker, raised about HK$9.9 billion ($1.3",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
+      "title": "Elvis Presley's rightsholders sue Anthropic over 274 songs allegedly used to train its models, seeking $41M+; Anthropic says it disagrees and will defend itself (Derrick Bryson Taylor/New York Times)",
+      "link": "https://www.techmeme.com/261026/p7#a261026p7",
+      "date": "2026-10-26T04:55:10-04:00",
+      "summary": "Derrick Bryson Taylor / New York Times: Elvis Presley's rightsholders sue Anthropic over 274 songs allegedly used to train its models, seeking $41M+; Anthropic says it disagrees and will defend itself&nbsp; &mdash;&nbsp; The $41 million lawsuit contends that the A.I. company used Presley's music to ",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
+      "title": "Alphabet, Amazon, and Microsoft are expected to report double-digit gains in revenue this week, as investors grow impatient with AI capex and seek returns (Bloomberg)",
+      "link": "https://www.techmeme.com/261026/p6#a261026p6",
+      "date": "2026-10-26T04:35:04-04:00",
+      "summary": "Bloomberg: Alphabet, Amazon, and Microsoft are expected to report double-digit gains in revenue this week, as investors grow impatient with AI capex and seek returns&nbsp; &mdash;&nbsp; Three of the biggest and most important technology companies in the world are expected to show healthy growth when",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
+      "title": "Inside Slack's Salesforce culture clash: Benioff had ~1 hour with CEO Butterfield pre-deal and didn't use Slack; Butterfield quit after a Davos celebrity panel (Johnny Rodgers/Building Slack)",
+      "link": "https://www.techmeme.com/261026/p5#a261026p5",
+      "date": "2026-10-26T04:15:01-04:00",
+      "summary": "Johnny Rodgers / Building Slack: Inside Slack's Salesforce culture clash: Benioff had ~1 hour with CEO Butterfield pre-deal and didn't use Slack; Butterfield quit after a Davos celebrity panel&nbsp; &mdash;&nbsp; I needed a keyboard.&nbsp; &mdash;&nbsp; I stood at my reserved desk on the 7th floor o",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
+      "title": "A profile of former Google VP and Yahoo CEO Marissa Mayer, whose startup Dazzle is building an AI assistant to help non-tech enthusiasts with mundane tasks (Alexandra Alter/New York Times)",
+      "link": "https://www.techmeme.com/261026/p4#a261026p4",
+      "date": "2026-10-26T03:55:08-04:00",
+      "summary": "Alexandra Alter / New York Times: A profile of former Google VP and Yahoo CEO Marissa Mayer, whose startup Dazzle is building an AI assistant to help non-tech enthusiasts with mundane tasks&nbsp; &mdash;&nbsp; Marissa Mayer has reinvented herself as a start-up founder, with a team of 10 engineers &m",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
+      "title": "Behind the scenes at the NeXT Computer office",
+      "link": "https://exhibits.stanford.edu/menuez/browse/next-computer-inc?per_page=96&sort=pub_year_isi+asc%2C+title_sort+asc&view=masonry",
+      "date": "2026-10-26T03:31:11+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "PaperPilot – Zero-Cloud, Pure-Rust PDF Engine with WASM and MCP",
+      "link": "https://github.com/KrushnaVardhanReddy/PaperPilot",
+      "date": "2026-10-26T03:29:05+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
     {
       "title": "Show HN: TitleArt – Make text like it's 1997",
       "link": "https://titleart.dvy.io/",
@@ -2828,14 +2979,14 @@
       "feedHome": "https://news.ycombinator.com/"
     },
     {
-      "title": "IBM CEO says open weight models are now irresistibly good and cheap on-prem",
-      "link": "https://www.theregister.com/systems/2026/10/22/ibm-ceo-says-open-weight-models-are-now-irresistibly-good-and-cheap-on-prem/5304640",
-      "date": "2026-10-26T01:47:46+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
+      "title": "India's chip design startups near production with government support, but low volumes, high fab costs, and supply chain bottlenecks hinder commercialization (Ananta Agarwal/Nikkei Asia)",
+      "link": "https://www.techmeme.com/261026/p3#a261026p3",
+      "date": "2026-10-26T01:50:01-04:00",
+      "summary": "Ananta Agarwal / Nikkei Asia: India's chip design startups near production with government support, but low volumes, high fab costs, and supply chain bottlenecks hinder commercialization&nbsp; &mdash;&nbsp; BENGALURU &mdash; Propelled by government support, India's chip design startups are nearing c",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
       "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
+      "feedHome": "https://www.techmeme.com/"
     },
     {
       "title": "The best apps for tracking your reading and discovering new books",
@@ -2848,14 +2999,124 @@
       "feedHome": "https://techcrunch.com/"
     },
     {
-      "title": "Removing Next.js Got My Blog to 100 on Every Lighthouse Category",
-      "link": "https://korindiehacker.bloffy.blog/en/removing-nextjs-got-my-blog-to-100-on-every-lighthouse-category",
-      "date": "2026-10-26T01:03:39+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
+      "title": "Amazon Bee Frontier review: a simple $75 AI wearable that excels at always-on listening, summarizing conversations, and suggesting follow-up actions (M.G. Siegler/Spyglass)",
+      "link": "https://www.techmeme.com/261026/p2#a261026p2",
+      "date": "2026-10-26T01:05:00-04:00",
+      "summary": "M.G. Siegler / Spyglass: Amazon Bee Frontier review: a simple $75 AI wearable that excels at always-on listening, summarizing conversations, and suggesting follow-up actions&nbsp; &mdash;&nbsp; Amazon's quiet, listening AI wearable is also pretty killer?&nbsp; &mdash;&nbsp; I'm not sure people reall",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
       "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
+      "title": "A look at Toyota's robotics expansion, including its Walden spinoff and a $6.4B annual plan to deploy 400K factory robots, as it competes with Tesla and China (Financial Times)",
+      "link": "https://www.techmeme.com/261026/p1#a261026p1",
+      "date": "2026-10-26T00:40:01-04:00",
+      "summary": "Financial Times: A look at Toyota's robotics expansion, including its Walden spinoff and a $6.4B annual plan to deploy 400K factory robots, as it competes with Tesla and China&nbsp; &mdash;&nbsp; Japanese group uses 20 years of research to commercialise intelligent robots&nbsp; &mdash;&nbsp; Toyota ",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
+      "title": "Tradeoff-Aware Territory Design: A Multi-Objective Decision System for Enterprise Customer-to-Seller Allocation",
+      "link": "https://arxiv.org/abs/2610.31701",
+      "date": "2026-10-26T00:00:00-04:00",
+      "summary": "arXiv:2610.31701v1 Announce Type: new Abstract: Enterprise customer journeys are shaped not only by product experiences and marketing, but also by recurring resource-allocation decisions. In B2B go-to-market (GTM) organizations, territory carving determines which accounts receive seller coverage, wh",
+      "feedId": "arxiv-ai",
+      "feedTitle": "arXiv cs.AI",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.AI/recent"
+    },
+    {
+      "title": "Phronix: The Capability-Centric Learning Paradigm for Agents",
+      "link": "https://arxiv.org/abs/2610.31789",
+      "date": "2026-10-26T00:00:00-04:00",
+      "summary": "arXiv:2610.31789v1 Announce Type: new Abstract: Scientific computing increasingly relies on large language model-based agents for performance engineering tasks such as instrumentation, analysis, and workflow porting. However, agent effectiveness depends heavily on the surrounding harness, which typi",
+      "feedId": "arxiv-ai",
+      "feedTitle": "arXiv cs.AI",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.AI/recent"
+    },
+    {
+      "title": "Patronizing and Condescending Language Detection in English and Mandarin",
+      "link": "https://arxiv.org/abs/2610.31808",
+      "date": "2026-10-26T00:00:00-04:00",
+      "summary": "arXiv:2610.31808v1 Announce Type: new Abstract: Patronizing and condescending language (PCL) is a form of harmful language that belittles and assumes pity for vulnerable groups, reinforcing negative societal stereotypes. However, unlike overt hate speech, it is often difficult to detect, even for hu",
+      "feedId": "arxiv-ai",
+      "feedTitle": "arXiv cs.AI",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.AI/recent"
+    },
+    {
+      "title": "PaperFormalizer: Author-in-the-Loop Autoformalization of Research Papers in Lean",
+      "link": "https://arxiv.org/abs/2610.31810",
+      "date": "2026-10-26T00:00:00-04:00",
+      "summary": "arXiv:2610.31810v1 Announce Type: new Abstract: Even a carefully proofread paper can leave small gaps in its proofs or its stated assumptions. We introduce PaperFormalizer, a Lean-based agentic pipeline that helps authors find and close such gaps in their own papers and turn each paper into a Lean-v",
+      "feedId": "arxiv-ai",
+      "feedTitle": "arXiv cs.AI",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.AI/recent"
+    },
+    {
+      "title": "Don't Forget What You Just Learned: Self-Directed Repair Turns Agent Mistakes Into Lasting Lessons",
+      "link": "https://arxiv.org/abs/2610.31846",
+      "date": "2026-10-26T00:00:00-04:00",
+      "summary": "arXiv:2610.31846v1 Announce Type: new Abstract: Intelligent agents should learn from their mistakes so that experience leads to continuous improvement. Yet today's agents recover from a mistake only temporarily: in-context reflections are easily forgotten across sessions and compete for limited cont",
+      "feedId": "arxiv-ai",
+      "feedTitle": "arXiv cs.AI",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.AI/recent"
+    },
+    {
+      "title": "TACS-RF: Tool-driven Agentic Circuit Synthesis of RF and mmWave Modules",
+      "link": "https://arxiv.org/abs/2610.31882",
+      "date": "2026-10-26T00:00:00-04:00",
+      "summary": "arXiv:2610.31882v1 Announce Type: new Abstract: We present the framework of TACS-RF - a Tool-driven Agentic Circuit Synthesis of RF and mmWave modules. In this framework, a large-language-model (LLM) coding agent (Claude Opus 4.8) directly drives industry-standard electronic-design-automation (EDA) ",
+      "feedId": "arxiv-ai",
+      "feedTitle": "arXiv cs.AI",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.AI/recent"
+    },
+    {
+      "title": "Permission to Retry: A Study of Authorization and Recovery in AI Agent Workflows",
+      "link": "https://arxiv.org/abs/2610.31916",
+      "date": "2026-10-26T00:00:00-04:00",
+      "summary": "arXiv:2610.31916v1 Announce Type: new Abstract: A durable agent can resume a consequential action while its authority changes and the action's external outcome remains uncertain. We study execution-time reliability of tool-using AI agents, isolating recovery decisions from language-model behavior. C",
+      "feedId": "arxiv-ai",
+      "feedTitle": "arXiv cs.AI",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.AI/recent"
+    },
+    {
+      "title": "Beyond On-Policy vs. Off-Policy: At What Level Should LLM Agent Distillation Follow the Student?",
+      "link": "https://arxiv.org/abs/2610.31918",
+      "date": "2026-10-26T00:00:00-04:00",
+      "summary": "arXiv:2610.31918v1 Announce Type: new Abstract: Distilling interactive LLM agents requires choosing between teacher-generated demonstrations and student-generated experience, corresponding broadly to off-policy and on-policy distillation. While both have proven effective, we argue that this distinct",
+      "feedId": "arxiv-ai",
+      "feedTitle": "arXiv cs.AI",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.AI/recent"
+    },
+    {
+      "title": "$M^3$: A Multi-LLM System for Multi-Turn Jailbreaking as a Markov Decision Process",
+      "link": "https://arxiv.org/abs/2610.31937",
+      "date": "2026-10-26T00:00:00-04:00",
+      "summary": "arXiv:2610.31937v1 Announce Type: new Abstract: Modern Large Language Models (LLMs) remain vulnerable to carefully orchestrated multi-turn interactions that progressively bypass safety mechanisms. However, many existing red-teaming approaches rely on heuristics or impose strong assumptions that limi",
+      "feedId": "arxiv-ai",
+      "feedTitle": "arXiv cs.AI",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.AI/recent"
+    },
+    {
+      "title": "Knowing Whom to Trust is not Enough: The Trust--Agreement Gap in Repeated Multi-Party LLM Negotiation",
+      "link": "https://arxiv.org/abs/2610.31971",
+      "date": "2026-10-26T00:00:00-04:00",
+      "summary": "arXiv:2610.31971v1 Announce Type: new Abstract: Large language model (LLM) agents increasingly participate in negotiations on behalf of individuals and organizations, yet they remain vulnerable to manipulation, particularly in repeated multi-party interactions. Classical multi-agent systems address ",
+      "feedId": "arxiv-ai",
+      "feedTitle": "arXiv cs.AI",
+      "category": "AI & LLM",
+      "feedHome": "https://arxiv.org/list/cs.AI/recent"
     },
     {
       "title": "Attention Is Not What You Need (2025)",
@@ -2868,20 +3129,10 @@
       "feedHome": "https://news.ycombinator.com/"
     },
     {
-      "title": "F-Zero X on Nintendo 3DS",
-      "link": "https://hypnotize.works/gdx-3ds/postmortem/index.html",
-      "date": "2026-10-25T23:27:30+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
-      "title": "Report: SK Hynix gained ~$15B from selling down its Kioxia stake earlier this year, and plans to return ~$12B to shareholders via a special dividend (Bloomberg)",
+      "title": "DongA Ilbo: SK Hynix gained ~$15B on its Kioxia stake earlier in 2026, and plans to return ~$12B to shareholders via a special dividend (Bloomberg)",
       "link": "https://www.techmeme.com/261025/p16#a261025p16",
       "date": "2026-10-25T23:25:01-04:00",
-      "summary": "Bloomberg: Report: SK Hynix gained ~$15B from selling down its Kioxia stake earlier this year, and plans to return ~$12B to shareholders via a special dividend&nbsp; &mdash;&nbsp; SK Hynix Inc.'s shares bucked a broad selloff in AI-related stocks thanks to the prospect of a large dividend payout rel",
+      "summary": "Bloomberg: DongA Ilbo: SK Hynix gained ~$15B on its Kioxia stake earlier in 2026, and plans to return ~$12B to shareholders via a special dividend&nbsp; &mdash;&nbsp; SK Hynix Inc.'s shares bucked a broad selloff in AI-related stocks thanks to the prospect of a hefty dividend payout related to the S",
       "feedId": "techmeme",
       "feedTitle": "Techmeme",
       "category": "Startup & News",
@@ -2906,16 +3157,6 @@
       "feedTitle": "Daring Fireball",
       "category": "Tech Blogs",
       "feedHome": "https://daringfireball.net/"
-    },
-    {
-      "title": "Sources detail how Ramp investors Joe Lonsdale and Keith Rabois pushed US lawmakers to probe rival Airwallex's China ties after Airwallex scrapped a Ramp deal (Michael Roddan/The Information)",
-      "link": "https://www.techmeme.com/261025/p14#a261025p14",
-      "date": "2026-10-25T21:50:01-04:00",
-      "summary": "Michael Roddan / The Information: Sources detail how Ramp investors Joe Lonsdale and Keith Rabois pushed US lawmakers to probe rival Airwallex's China ties after Airwallex scrapped a Ramp deal&nbsp; &mdash;&nbsp; In April 2025, Eric Glyman, co-founder and co-CEO of Ramp, received some bad news: A de",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
     },
     {
       "title": "Duo Users Are Registering the Base of Their Index Finger as a Touch ID Coping Strategy",
@@ -2948,36 +3189,6 @@
       "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
     },
     {
-      "title": "iPhone Duo teardown: 5/10 repairability, a foldable record, but some screens crack along the fold, possibly because a hinge support bar fails to drop far enough (Elizabeth Chamberlain/iFixit News)",
-      "link": "https://www.techmeme.com/261025/p13#a261025p13",
-      "date": "2026-10-25T20:40:01-04:00",
-      "summary": "Elizabeth Chamberlain / iFixit News: iPhone Duo teardown: 5/10 repairability, a foldable record, but some screens crack along the fold, possibly because a hinge support bar fails to drop far enough&nbsp; &mdash;&nbsp; Apple's folding iPhone finally made it to our teardown table.&nbsp; Some owners' s",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "The State of Context Engineering",
-      "link": "https://www.dbreunig.com/2026/10/24/the-state-of-context-engineering.html",
-      "date": "2026-10-25T20:32:31+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
-      "title": "What goes into making an animated film?",
-      "link": "https://www.disneyanimation.com/process/",
-      "date": "2026-10-25T20:27:09+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
       "title": "‘Cyberselfish’ author takes aim at techno-libertarianism as her book returns from the dead",
       "link": "https://techcrunch.com/2026/10/25/cyberselfish-author-takes-aim-at-techno-libertarianism-as-her-book-returns-from-the-dead/",
       "date": "2026-10-25T20:20:08+00:00",
@@ -2996,26 +3207,6 @@
       "feedTitle": "John D. Cook",
       "category": "Tech Blogs",
       "feedHome": "https://www.johndcook.com/"
-    },
-    {
-      "title": "Moderators of r/opensource ban submissions of projects using, made by, or intended for AI, exclude non-English speakers over AI translation concerns, and more (Terrence O'Brien/The Verge)",
-      "link": "https://www.techmeme.com/261025/p12#a261025p12",
-      "date": "2026-10-25T19:35:01-04:00",
-      "summary": "Terrence O'Brien / The Verge: Moderators of r/opensource ban submissions of projects using, made by, or intended for AI, exclude non-English speakers over AI translation concerns, and more&nbsp; &mdash;&nbsp; The opensource subreddit's new rules against AI have sparked a revolt. &hellip; The post ma",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "Why I Am a Programmer",
-      "link": "https://www.alfie.wtf/programming/why-i-am-a-programmer.html",
-      "date": "2026-10-25T19:11:31+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
     },
     {
       "title": "The Talk Show: ‘Lubricate the Inside of the Hinge’",
@@ -3058,16 +3249,6 @@
       "feedHome": "https://daringfireball.net/"
     },
     {
-      "title": "Elon Musk says SpaceX closed $40B in GPU debt, debt markets have shut off credit for AI data center firms, and 200+ neoclouds face \"death and consolidation\" (Elon Musk/@elonmusk)",
-      "link": "https://www.techmeme.com/261025/p11#a261025p11",
-      "date": "2026-10-25T17:35:01-04:00",
-      "summary": "Elon Musk / @elonmusk: Elon Musk says SpaceX closed $40B in GPU debt, debt markets have shut off credit for AI data center firms, and 200+ neoclouds face &ldquo;death and consolidation&rdquo;&nbsp; &mdash;&nbsp; Pretty much. As of the past few weeks, debt markets have almost entirely shut off access",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
       "title": "AI delivers ‘zero financial payoff’ to most companies, Apollo economist says",
       "link": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
       "date": "2026-10-25T16:57:32+00:00",
@@ -3098,14 +3279,14 @@
       "feedHome": "https://techcrunch.com/"
     },
     {
-      "title": "Data center tenants now demand $5M+ a day in late-delivery fees, up from $1M this spring, spawning new \"delay-in-delivery\" coverage from brokers like Marsh (Ann Davis Vaughan/The Information)",
-      "link": "https://www.techmeme.com/261025/p10#a261025p10",
-      "date": "2026-10-25T15:10:13-04:00",
-      "summary": "Ann Davis Vaughan / The Information: Data center tenants now demand $5M+ a day in late-delivery fees, up from $1M this spring, spawning new &ldquo;delay-in-delivery&rdquo; coverage from brokers like Marsh&nbsp; &mdash;&nbsp; This spring, Mike Mathews, who leads the global digital infrastructure prac",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
+      "title": "Seam Cutter",
+      "link": "https://simonwillison.net/2026/Oct/25/seam-cutter/",
+      "date": "2026-10-25T15:10:19+00:00",
+      "summary": "Tool: Seam Cutter I built this weird and very specific cropping tool - it lets you create a horizontal or vertical cut across an image, then slide the two sides relative to each other. Effectively it lets you crop out a section in the middle of an image. I wanted this because I often use Tailor on m",
+      "feedId": "simonwillison",
+      "feedTitle": "Simon Willison",
+      "category": "AI & LLM",
+      "feedHome": "https://simonwillison.net/"
     },
     {
       "title": "The hottest AI wearables and gadgets you should know about",
@@ -3138,16 +3319,6 @@
       "feedHome": "https://minimaxir.com/"
     },
     {
-      "title": "The iTunes Store is re-emerging as a venue for big pop stars, including Taylor Swift, to hawk collectibles to superfans and bolster their chart positions (Tom Matsuda/Financial Times)",
-      "link": "https://www.techmeme.com/261025/p9#a261025p9",
-      "date": "2026-10-25T13:00:45-04:00",
-      "summary": "Tom Matsuda / Financial Times: The iTunes Store is re-emerging as a venue for big pop stars, including Taylor Swift, to hawk collectibles to superfans and bolster their chart positions&nbsp; &mdash;&nbsp; Record labels and artists including Taylor Swift and Ariana Grande are using the throwback musi",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
       "title": "Gadget Review: LiberNovo Omni - the USB-C powered office chair ★★★★⯪",
       "link": "https://shkspr.mobi/blog/2026/10/gadget-review-libernovo-omni-chair/",
       "date": "2026-10-25T12:34:01+00:00",
@@ -3158,24 +3329,24 @@
       "feedHome": "https://shkspr.mobi/blog/"
     },
     {
-      "title": "Sources: Apple tweaked macOS for its OLED touch MacBook Pro, due Wednesday, with a dynamic interface that adapts to whether touch or the trackpad was last used (Mark Gurman/Bloomberg)",
-      "link": "https://www.techmeme.com/261025/p8#a261025p8",
-      "date": "2026-10-25T11:00:32-04:00",
-      "summary": "Mark Gurman / Bloomberg: Sources: Apple tweaked macOS for its OLED touch MacBook Pro, due Wednesday, with a dynamic interface that adapts to whether touch or the trackpad was last used&nbsp; &mdash;&nbsp; Also: The company rolls out a retail store tool to reduce wasted inventory.&nbsp; &mdash;&nbsp;",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
+      "title": "物理学家破防！500 页博士论文手算 1 年，Opus 5.5 只用 10 小时",
+      "link": "https://www.bestblogs.dev/article/5913516cba?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
+      "date": "2026-10-25T04:17:00+00:00",
+      "summary": "📌 一句话摘要 量子引力专家 Emre Kahya 用 1 年时间手算 500 页博士论文，而 Claude Opus 5.5 只用 10 小时就完全复现并优化了计算，还发现了原论文中的多个错误。 📝 详细摘要 本文讲述了物理学家 Emre Onur Kahya 的博士论文被 AI 模型 Claude Opus 5.5 快速复现的故事。Kahya 耗时 1 年手写近 500 页的量子引力推导，而 Opus 5.5 在 10 小时内不仅完成了所有计算，还生成了详细的推导笔记、LaTeX 源码，并发现了原论文中的符号错误和缺失项。尽管最终物理结论不变，但 AI 的效率和精度对学术界产生了巨大冲击，",
+      "feedId": "bestblogs",
+      "feedTitle": "BestBlogs.dev AI 90+",
+      "category": "中文",
+      "feedHome": "https://www.bestblogs.dev/"
     },
     {
-      "title": "Lawmakers and Hill staffers in both parties say AI leaders are becoming a political liability as they swing between claims of prosperity and existential dangers (Maria Curi/Axios)",
-      "link": "https://www.techmeme.com/261025/p7#a261025p7",
-      "date": "2026-10-25T07:00:54-04:00",
-      "summary": "Maria Curi / Axios: Lawmakers and Hill staffers in both parties say AI leaders are becoming a political liability as they swing between claims of prosperity and existential dangers&nbsp; &mdash;&nbsp; Washington has always viewed Silicon Valley as culturally strange.&nbsp; But the current crop of AI",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
+      "title": "Show HN: A Truly Modular Keyboard",
+      "link": "https://github.com/notaroomba/keybytes",
+      "date": "2026-10-25T03:47:56+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
       "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
+      "feedHome": "https://news.ycombinator.com/"
     },
     {
       "title": "Computing polar triangles with linear algebra",
@@ -3488,6 +3659,16 @@
       "feedHome": "https://www.bestblogs.dev/"
     },
     {
+      "title": "Growing Trees",
+      "link": "https://brashandplucky.com/2026/10/15/growing-trees.html",
+      "date": "2026-10-23T14:07:42+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
       "title": "Why didn’t we use the COM static store to clean up the unmarshalable delegate?",
       "link": "https://devblogs.microsoft.com/oldnewthing/20261023-00/?p=112793/",
       "date": "2026-10-23T14:00:00+00:00",
@@ -3748,16 +3929,6 @@
       "feedHome": "https://www.bestblogs.dev/"
     },
     {
-      "title": "大模型如何胜任职场？WorkForge 让大模型进入真实职场工作流",
-      "link": "https://www.bestblogs.dev/article/5e135a7ad5?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
-      "date": "2026-10-22T09:05:00+00:00",
-      "summary": "📌 一句话摘要 腾讯混元与复旦大学提出 WorkForge，一个从真实世界资源出发、规模化构建可验证智能体工作环境的框架，通过 16，665 个真实工作区训练模型，显著提升智能体在长程任务中的探索、核查与交付能力。 📝 详细摘要 WorkForge 框架通过四步构建真实工作环境：专家撰写场景蓝图、收集真实材料搭建工作区、定义任务与验证标准、执行并打分。WorkForge-16K 数据集包含 16，665 个工作区，横跨 40 个领域、60 种文件类型，平均 42.3 个文件、279 KB，任务平均 21.9 条验证标准。训练得到的 WorkForge-A3B 和 WorkForge-27B 模",
-      "feedId": "bestblogs",
-      "feedTitle": "BestBlogs.dev AI 90+",
-      "category": "中文",
-      "feedHome": "https://www.bestblogs.dev/"
-    },
-    {
       "title": "What FDE means at OpenAI",
       "link": "https://openai.com/index/forward-deployed-engineering-means",
       "date": "2026-10-22T06:00:00+00:00",
@@ -3982,16 +4153,6 @@
       "link": "https://simonwillison.net/2026/Oct/20/emudhra-certificates/",
       "date": "2026-10-20T23:50:25+00:00",
       "summary": "eMudhra Intermediate CA Compromise This is very, very bad news: The private keys of eight eMudhra intermediate CA certificates have been compromised. They chain to roots trusted by the Mozilla, Microsoft, Apple and Chrome root programs and by many downstream trust stores. Any software that bundles a",
-      "feedId": "simonwillison",
-      "feedTitle": "Simon Willison",
-      "category": "AI & LLM",
-      "feedHome": "https://simonwillison.net/"
-    },
-    {
-      "title": "Battle Drones - a vibe coded RTS with audio-based multiplayer",
-      "link": "https://simonwillison.net/2026/Oct/20/battledrones/",
-      "date": "2026-10-20T19:34:19+00:00",
-      "summary": "My latest vibe coded game experiment is a Command &amp; Conquer style RTS (Real Time Strategy) game called Battle Drones (play it here). Unlike my previous experiments, this one is actually fun to play. I'm somewhat embarrassed to admit that I got there by telling Claude to \"Make it a LOT more fun\".",
       "feedId": "simonwillison",
       "feedTitle": "Simon Willison",
       "category": "AI & LLM",
