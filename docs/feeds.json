@@ -1,12 +1,13 @@
 {
-  "updatedAt": "2026-10-29T16:40:57.223638+00:00",
+  "updatedAt": "2026-10-29T21:35:07.351848+00:00",
   "totalFeeds": 51,
-  "successCount": 43,
-  "failedCount": 8,
+  "successCount": 42,
+  "failedCount": 9,
   "failed": [
     "gwern",
     "garymarcus",
     "thesequence",
+    "shkspr",
     "lcamtuf",
     "rachelbythebay",
     "tedunangst",
@@ -22,8 +23,14 @@
         "home": "https://simonwillison.net/",
         "url": "https://simonwillison.net/atom/everything/",
         "status": "ok",
-        "fetchedAt": "2026-10-29T16:40:46.683184+00:00",
+        "fetchedAt": "2026-10-29T21:34:57.221259+00:00",
         "items": [
+          {
+            "title": "Building a multiplayer game world with autonomous Fable-class models",
+            "link": "https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-the-world/",
+            "date": "2026-10-29T17:00:26+00:00",
+            "summary": "How I Built the Most AI-Pilled Company in the World Don't be put off by the clickbait headline, this piece by Jacob Sansbury describing how they are building Spawn is a fascinating exploration of the bleeding edge of what's possible with agentic engineering against frontier models. Spawn is a massiv"
+          },
           {
             "title": "Quoting Ben Hylak",
             "link": "https://simonwillison.net/2026/Oct/29/ben-hylak/",
@@ -77,12 +84,6 @@
             "link": "https://simonwillison.net/2026/Oct/26/webframe-evaluation/",
             "date": "2026-10-26T16:15:00+00:00",
             "summary": "Research: webframe: evaluated as a scraper and a sandbox webframe is a neat little project from Jeff Lindsay which lets you \"run a web page like a program\" - you point it at a URL or file and it executes it in a hidden headless web view and outputs console.log() to standard output and any exceptions"
-          },
-          {
-            "title": "Seam Cutter",
-            "link": "https://simonwillison.net/2026/Oct/25/seam-cutter/",
-            "date": "2026-10-25T15:10:19+00:00",
-            "summary": "Tool: Seam Cutter I built this weird and very specific cropping tool - it lets you create a horizontal or vertical cut across an image, then slide the two sides relative to each other. Effectively it lets you crop out a section in the middle of an image. I wanted this because I often use Tailor on m"
           }
         ]
       },
@@ -93,8 +94,26 @@
         "home": "https://openai.com/news/",
         "url": "https://openai.com/news/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-29T16:40:46.629826+00:00",
+        "fetchedAt": "2026-10-29T21:34:57.208267+00:00",
         "items": [
+          {
+            "title": "An updated Model Spec for more capable and beneficial AI",
+            "link": "https://openai.com/index/updated-model-spec",
+            "date": "2026-10-29T17:00:00+00:00",
+            "summary": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent."
+          },
+          {
+            "title": "How we detect frontier model misalignment",
+            "link": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+            "date": "2026-10-29T09:00:00+00:00",
+            "summary": "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate."
+          },
+          {
+            "title": "How Ropes & Gray is developing AI for transactional diligence",
+            "link": "https://openai.com/index/ropes-gray-ai-diligence",
+            "date": "2026-10-29T07:00:00+00:00",
+            "summary": "Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients."
+          },
           {
             "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
             "link": "https://openai.com/index/openai-servicenow-partnership-expansion",
@@ -136,24 +155,6 @@
             "link": "https://openai.com/index/greptile-code-review-codex-astra",
             "date": "2026-10-26T22:00:00+00:00",
             "summary": "How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework."
-          },
-          {
-            "title": "Working with academic communities to build scientific understanding",
-            "link": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
-            "date": "2026-10-26T14:30:00+00:00",
-            "summary": "OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—and how researchers can verify and build on them."
-          },
-          {
-            "title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
-            "link": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
-            "date": "2026-10-26T13:45:00+00:00",
-            "summary": "CodeRabbit uses GPT-6.1 Sol to investigate security risks across complex codebases. Its security agent helps developers review findings and proposed fixes."
-          },
-          {
-            "title": "ChatGPT’s expanding world of work",
-            "link": "https://openai.com/index/chatgpt-expanding-world-of-work",
-            "date": "2026-10-26T10:00:00+00:00",
-            "summary": "Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time."
           }
         ]
       },
@@ -164,7 +165,7 @@
         "home": "https://arxiv.org/list/cs.AI/recent",
         "url": "https://arxiv.org/rss/cs.AI",
         "status": "ok",
-        "fetchedAt": "2026-10-29T16:40:46.729180+00:00",
+        "fetchedAt": "2026-10-29T21:34:57.308324+00:00",
         "items": []
       },
       {
@@ -174,7 +175,7 @@
         "home": "https://arxiv.org/list/cs.LG/recent",
         "url": "https://arxiv.org/rss/cs.LG",
         "status": "ok",
-        "fetchedAt": "2026-10-29T16:40:46.728967+00:00",
+        "fetchedAt": "2026-10-29T21:34:57.310110+00:00",
         "items": []
       },
       {
@@ -184,7 +185,7 @@
         "home": "https://research.google/blog/",
         "url": "https://research.google/blog/rss/",
         "status": "ok",
-        "fetchedAt": "2026-10-29T16:40:46.665270+00:00",
+        "fetchedAt": "2026-10-29T21:34:57.451255+00:00",
         "items": [
           {
             "title": "The sleep framework: A new way for LLMs to retain knowledge in continual learning",
@@ -255,7 +256,7 @@
         "home": "https://deepmind.google/blog/",
         "url": "https://deepmind.google/blog/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-29T16:40:46.565752+00:00",
+        "fetchedAt": "2026-10-29T21:34:57.370458+00:00",
         "items": [
           {
             "title": "Gemini 4 Carbon: Our next frontier model",
@@ -326,7 +327,7 @@
         "home": "https://lilianweng.github.io/",
         "url": "https://lilianweng.github.io/lil-log/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-29T16:40:46.580905+00:00",
+        "fetchedAt": "2026-10-29T21:34:57.092200+00:00",
         "items": [
           {
             "title": "Active Learning",
@@ -417,7 +418,7 @@
         "home": "https://minimaxir.com/",
         "url": "https://minimaxir.com/index.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-29T16:40:46.872726+00:00",
+        "fetchedAt": "2026-10-29T21:34:57.242611+00:00",
         "items": [
           {
             "title": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
@@ -500,7 +501,7 @@
         "home": "https://www.jeffgeerling.com/",
         "url": "https://www.jeffgeerling.com/blog.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-29T16:40:46.689288+00:00",
+        "fetchedAt": "2026-10-29T21:34:57.222799+00:00",
         "items": [
           {
             "title": "Noctua Fan Swap on a Calnex Rb/GPS Frequency Reference",
@@ -571,7 +572,7 @@
         "home": "https://www.seangoedecke.com/",
         "url": "https://www.seangoedecke.com/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-29T16:40:46.735386+00:00",
+        "fetchedAt": "2026-10-29T21:34:57.267440+00:00",
         "items": [
           {
             "title": "You can just ask AI to do things",
@@ -642,7 +643,7 @@
         "home": "https://krebsonsecurity.com/",
         "url": "https://krebsonsecurity.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-10-29T16:40:46.657982+00:00",
+        "fetchedAt": "2026-10-29T21:34:57.260664+00:00",
         "items": [
           {
             "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
@@ -713,8 +714,26 @@
         "home": "https://daringfireball.net/",
         "url": "https://daringfireball.net/feeds/main",
         "status": "ok",
-        "fetchedAt": "2026-10-29T16:40:46.727069+00:00",
+        "fetchedAt": "2026-10-29T21:34:57.349890+00:00",
         "items": [
+          {
+            "title": "Apple Drops App Store Commission by a Whopping 4 Percent in Taiwan",
+            "link": "https://developer.apple.com/news/?id=w9mxlhek",
+            "date": "2026-10-29T21:03:44+00:00",
+            "summary": "Apple Developer News: Apple is making changes to the Taiwan storefront of the App Store, following discussions with the Taiwan Fair Trade Commission. As of October 31, 2026, the commission rate for standard Apple In-App Purchase and paid app transactions will be 26% on the Taiwan storefront of the A"
+          },
+          {
+            "title": "A Health Update From Craig Hockenberry",
+            "link": "https://furbo.org/2026/10/28/a-health-update/",
+            "date": "2026-10-29T19:57:23+00:00",
+            "summary": "Craig Hockenberry: If you noticed that the Iconfactory sites were kinda broken last week, now you know why. It’s because I was kinda broken last week. Now I’m finishing this post from a comfy chair on our deck. Typing into the latest version of WordPress and PHP. And I couldn’t be happier. No, you t"
+          },
+          {
+            "title": "Rolfe Winkler at The WSJ: ‘The Beleaguered Chip Sellers Getting Their Revenge on Apple’",
+            "link": "https://www.wsj.com/tech/apple-iphone-memory-chips-ai-c0084cc9?st=FNAyaT",
+            "date": "2026-10-29T20:44:16+00:00",
+            "summary": "Rolfe Winkler, in a crackerjack story for The Wall Street Journal (gift link): Blevins, who left Apple in 2022, sometimes set up back-to-back meetings with suppliers so that rival sales teams might run into each other, stoking competitive tension. Sales representatives learned to pack nutrition bars"
+          },
           {
             "title": "The Space Shuttle Discovery’s Starboard Side ‘s’ Is Upside Down",
             "link": "https://www.theautopian.com/a-typography-geek-pointed-out-something-about-the-space-shuttle-discovery-and-now-i-cant-unsee-it/",
@@ -756,24 +775,6 @@
             "link": "https://www.macrumors.com/2026/10/27/macbook-pro-with-touchscreen-tomorrow/",
             "date": "2026-10-27T20:51:17+00:00",
             "summary": "Joe Rossignol, MacRumors: Apple on Wednesday will announce 14-inch and 16-inch MacBook Pro models featuring touch-enabled OLED displays with thinner bezels, a Dynamic Island instead of a notch, M5 Pro and M5 Max chips, and a lighter and slightly thinner design, Bloomberg’s Mark Gurman reports. Apple"
-          },
-          {
-            "title": "Apple Also Announces iMac With M6",
-            "link": "https://www.apple.com/newsroom/2026/10/apple-unveils-new-imac-with-m6/",
-            "date": "2026-10-27T18:43:38+00:00",
-            "summary": "Just a speed bump, but speed bumps are good. Pricing and configurations: M6 with 2 Thunderbolt ports: Base price: $1500 RAM: 16 GB +0 24 GB +200 SSD: 256 GB +0 512 GB +200 1 TB +500 M6 with 4 Thunderbolt ports: Base price: $1700 RAM: 16 GB +0 24 GB +200 SSD: 256 GB +0 512 GB +200 1 TB +500 2 TB +100"
-          },
-          {
-            "title": "[Sponsor] WorkOS: Let Agents Sign Up for Your App Without a Browser",
-            "link": "https://workos.com/auth-md?utm_source=daringfireball&utm_medium=newsletter&utm_campaign=q42026",
-            "date": "2026-10-27T16:03:09+00:00",
-            "summary": "An agent can’t click through a signup page built for humans, so give it something it can read instead. Publish an auth.md file and agents register themselves without ever touching a browser login, and the user never gets pulled out of what they were doing. With WorkOS auth.md, enroll in the dashboar"
-          },
-          {
-            "title": "Apple Introduces New Base MacBook Pro With M6, 14-Inch-Only",
-            "link": "https://www.apple.com/newsroom/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6/",
-            "date": "2026-10-27T18:41:20+00:00",
-            "summary": "Apple Newsroom’s “Pro and Tell” announcement week continues: Apple today announced the new 14-inch MacBook Pro with M6, delivering even more performance, powerful on-device AI capabilities, and faster connectivity for college students, business users, creators, and more. M6 features an advanced 12-c"
           }
         ]
       },
@@ -784,7 +785,7 @@
         "home": "https://ericmigi.com/",
         "url": "https://ericmigi.com/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-29T16:40:46.737234+00:00",
+        "fetchedAt": "2026-10-29T21:34:57.247307+00:00",
         "items": [
           {
             "title": "New Pebble Weather App + Software Updates",
@@ -855,7 +856,7 @@
         "home": "http://antirez.com/",
         "url": "http://antirez.com/rss",
         "status": "ok",
-        "fetchedAt": "2026-10-29T16:40:48.636272+00:00",
+        "fetchedAt": "2026-10-29T21:34:58.698506+00:00",
         "items": [
           {
             "title": "The real AI risk is inside the labs",
@@ -926,7 +927,7 @@
         "home": "https://idiallo.com/",
         "url": "https://idiallo.com/feed.rss",
         "status": "ok",
-        "fetchedAt": "2026-10-29T16:40:46.861600+00:00",
+        "fetchedAt": "2026-10-29T21:34:57.335119+00:00",
         "items": [
           {
             "title": "Productivity",
@@ -997,7 +998,7 @@
         "home": "https://maurycyz.com/",
         "url": "https://maurycyz.com/index.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-29T16:40:47.292669+00:00",
+        "fetchedAt": "2026-10-29T21:34:57.634970+00:00",
         "items": []
       },
       {
@@ -1007,7 +1008,7 @@
         "home": "https://pluralistic.net/",
         "url": "https://pluralistic.net/feed/",
         "status": "ok",
-        "fetchedAt": "2026-10-29T16:40:47.111620+00:00",
+        "fetchedAt": "2026-10-29T21:34:57.930505+00:00",
         "items": [
           {
             "title": "Pluralistic: Agents vs ecommerce (28 Oct 2026)",
@@ -1077,70 +1078,9 @@
         "title": "Terence Eden",
         "home": "https://shkspr.mobi/blog/",
         "url": "https://shkspr.mobi/blog/feed/",
-        "status": "ok",
-        "fetchedAt": "2026-10-29T16:40:47.521144+00:00",
-        "items": [
-          {
-            "title": "Gadget Review: SoundPEATS CC3 Pro Bluetooth Headphones ★★★★⯪",
-            "link": "https://shkspr.mobi/blog/2026/10/gadget-review-soundpeats-cc3-pro-bluetooth-headphones/",
-            "date": "2026-10-28T12:34:54+00:00",
-            "summary": "These are easily the most comfortable headphones I&#039;ve worn. I&#039;ve literally had them clipped around my ears all day without noticing them. The good folks at SoundPEATS have sent me their latest cans to wrap around my lugs. I&#039;m a big fan of these new-style &#34;clip on&#34; headphones. "
-          },
-          {
-            "title": "Book Review: You Could Do Something Amazing with Your Life [You Are Raoul Moat] - Andrew Hankinson ★★★★☆",
-            "link": "https://shkspr.mobi/blog/2026/10/book-review-you-could-do-something-amazing-with-your-life-you-are-raoul-moat-andrew-hankinson/",
-            "date": "2026-10-27T12:34:53+00:00",
-            "summary": "It is hard to write a book in the second person. It is even harder to make it this good. It would have been easier to write a salacious cash-in with a dozen shocking revelations in each chapter. Instead, Andrew Hankinson attempts to use Raoul Moat&#039;s own words to build up a picture of the man. Y"
-          },
-          {
-            "title": "Theatre Review: Opera UnTouched's \"The Telephone\" ★★★★★",
-            "link": "https://shkspr.mobi/blog/2026/10/theatre-review-opera-untoucheds-the-telephone/",
-            "date": "2026-10-26T12:34:15+00:00",
-            "summary": "Why shouldn&#039;t an opera be set in an office? Not merely set there; performed there! On Saturday night, a couple of dozen audience members were ushered in to a genuine office in Tooting to watch a short comic opera by Opera UnTouched. It was a burst of sunshine in a rainy day. We&#039;re at Ben&#"
-          },
-          {
-            "title": "Gadget Review: LiberNovo Omni - the USB-C powered office chair ★★★★⯪",
-            "link": "https://shkspr.mobi/blog/2026/10/gadget-review-libernovo-omni-chair/",
-            "date": "2026-10-25T12:34:01+00:00",
-            "summary": "Whenever a company asks me to review their gadgets, I always ask if it is USB-C powered. If not, I&#039;m not interested. So, welcome to the future where your chair is USC-C rechargeable! WHAT?! The LiberNovo Omni looks like a standard office chair - but has two secret features. First, is that it is"
-          },
-          {
-            "title": "Book Review: Get Ahead of Being Dead by Evie King ★★★★☆",
-            "link": "https://shkspr.mobi/blog/2026/10/book-review-get-ahead-of-being-dead-by-evie-king/",
-            "date": "2026-10-24T11:34:25+00:00",
-            "summary": "After reading Evie King&#039;s previous book Ashes To Admin - Tales from the Caseload of a Council Funeral Officer I was eager to read her not-quite-a-sequel. We know what happens after death; paperwork. Gas bills need to be cancelled, funeral wishes need to be carried out, money needs to be apporti"
-          },
-          {
-            "title": "More phishing messages via Booking.com and Novotel",
-            "link": "https://shkspr.mobi/blog/2026/10/more-phishing-messages-via-booking-com-and-novotel/",
-            "date": "2026-10-23T11:34:15+00:00",
-            "summary": "A few days ago I booked a Novotel hotel on Booking.com - two days later I received these phishing messages via WhatsApp. Both knew my exact name, phone number, location of stay, and date of stay. Luckily, both were fairly inept. Let&#039;s take a quick look at them. The first came from a Portuguese "
-          },
-          {
-            "title": "Gadget Review: Mokin 17 Port USB-C Tower ★★☆☆☆",
-            "link": "https://shkspr.mobi/blog/2026/10/gadget-review-mokin-17-port-usb-c-tower/",
-            "date": "2026-10-22T11:34:36+00:00",
-            "summary": "The good folks at Mokin have sent me their new USB-C hub and it is a beast. This is the MODK2403 - the latest in their line of high-tech USB-C docks. It does close to everything you could want and has an LCD monitor for showing the weather. Errr… What? OK, a quick product shots, then on to the specs"
-          },
-          {
-            "title": "Book Review: Quackery - A Brief History of the Worst Ways to Cure Everything by Lydia Kang ★★★⯪☆",
-            "link": "https://shkspr.mobi/blog/2026/10/book-review-quackery-a-brief-history-of-the-worst-ways-to-cure-everything-by-lydia-kang/",
-            "date": "2026-10-20T11:34:35+00:00",
-            "summary": "This is a charming and funny book all about the various ways humans have promoted fake medical cures in exchange for money. Despite the grim (and occasionally distressing) subject matter, the tone remains light and poppy throughout. There are lots of snarky asides (especially about the fake medical "
-          },
-          {
-            "title": "Una Watch TOTP - MFA on your wrist!",
-            "link": "https://shkspr.mobi/blog/2026/10/una-watch-totp-mfa-on-your-wrist/",
-            "date": "2026-10-18T11:34:08+00:00",
-            "summary": "Let&#039;s get this out of the way first - this is a terrible idea! I want my two-factor authentication codes to be easily accessible to me, so I&#039;ve built a watch app which will display them. That&#039;s really convenient for me - but makes for a terrible security posture. Anyone who steals my "
-          },
-          {
-            "title": "Book Review: Are You *Really* The Doctor? by Matthew Hutchinson ★★★⯪☆",
-            "link": "https://shkspr.mobi/blog/2026/10/book-review-are-you-really-the-doctor-by-matthew-hutchinson/",
-            "date": "2026-10-17T11:34:57+00:00",
-            "summary": "A few months ago, I went to see Dr Hutchinson record his stand-up comedy special for the BBC - it&#039;s about his experiences working in the NHS as a Black doctor. As the title of the book implies, some of the public can be a mite suspicious that anyone with even a hint of melanin can rise beyond b"
-          }
-        ]
+        "status": "error",
+        "error": "HTTP 415",
+        "items": []
       },
       {
         "id": "lcamtuf",
@@ -1159,7 +1099,7 @@
         "home": "https://mitchellh.com/",
         "url": "https://mitchellh.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-29T16:40:46.876683+00:00",
+        "fetchedAt": "2026-10-29T21:34:57.467188+00:00",
         "items": [
           {
             "title": "A Terminal Protocol for Program Status (OSC 7501)",
@@ -1230,7 +1170,7 @@
         "home": "https://dynomight.net/",
         "url": "https://dynomight.net/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-29T16:40:47.130251+00:00",
+        "fetchedAt": "2026-10-29T21:34:57.667824+00:00",
         "items": [
           {
             "title": "Psychometrics, vaccines, meat, Kowloon, luggage destruction",
@@ -1301,7 +1241,7 @@
         "home": "https://xeiaso.net/",
         "url": "https://xeiaso.net/blog.rss",
         "status": "ok",
-        "fetchedAt": "2026-10-29T16:40:47.073906+00:00",
+        "fetchedAt": "2026-10-29T21:34:57.393681+00:00",
         "items": [
           {
             "title": "\"No way to prevent this\" say users of only language where this regularly happens",
@@ -1372,7 +1312,7 @@
         "home": "https://devblogs.microsoft.com/oldnewthing/",
         "url": "https://devblogs.microsoft.com/oldnewthing/feed",
         "status": "ok",
-        "fetchedAt": "2026-10-29T16:40:46.958585+00:00",
+        "fetchedAt": "2026-10-29T21:34:57.372451+00:00",
         "items": [
           {
             "title": "C++/WinRT overcorrection: Using make_self and immediately converting it to the projected interface",
@@ -1443,7 +1383,7 @@
         "home": "https://www.righto.com/",
         "url": "https://www.righto.com/feeds/posts/default",
         "status": "ok",
-        "fetchedAt": "2026-10-29T16:40:47.000258+00:00",
+        "fetchedAt": "2026-10-29T21:34:57.592423+00:00",
         "items": []
       },
       {
@@ -1453,8 +1393,14 @@
         "home": "https://lucumr.pocoo.org/",
         "url": "https://lucumr.pocoo.org/feed.atom",
         "status": "ok",
-        "fetchedAt": "2026-10-29T16:40:46.923631+00:00",
+        "fetchedAt": "2026-10-29T21:34:57.634583+00:00",
         "items": [
+          {
+            "title": "Custom Voices With Qwen3-TTS",
+            "link": "https://lucumr.pocoo.org/2026/10/29/qwen3-custom-voices/",
+            "date": "2026-10-29T00:00:00+00:00",
+            "summary": "With my kids I&#8217;m currently building a little dungeron crawler and we&#8217;re trying to learn a bit about game development along the way. However given that we live in the modern times of increasing capabilities we wanted to get a narrator and voice over. But we also wanted it to not sound lik"
+          },
           {
             "title": "What is Codemode",
             "link": "https://lucumr.pocoo.org/2026/10/6/codemode/",
@@ -1508,12 +1454,6 @@
             "link": "https://lucumr.pocoo.org/2026/8/19/what-is-reasoning/",
             "date": "2026-08-19T00:00:00+00:00",
             "summary": "A few weeks ago a paper was shared that showed how to extract reasoning traces from closed-weight models. Together with online discussions about tricking models into leaking them, it made me investigate it more out of curiosity. Twitter seems full of half-truths and confusion about how this works, s"
-          },
-          {
-            "title": "Codeberg Divides",
-            "link": "https://lucumr.pocoo.org/2026/7/24/codeberg-divides/",
-            "date": "2026-07-24T00:00:00+00:00",
-            "summary": "Codeberg recently changed its terms to exclude projects that are largely written with generative AI. Considering I want GitHub to get some competition I have thoughts about this. GitHub&#8217;s governance has never been democratic and there is plenty about the platform that I dislike. Yet I do not n"
           }
         ]
       },
@@ -1524,7 +1464,7 @@
         "home": "https://skyfall.dev/",
         "url": "https://skyfall.dev/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-29T16:40:47.281124+00:00",
+        "fetchedAt": "2026-10-29T21:34:57.529931+00:00",
         "items": [
           {
             "title": "Good riddance, 4o",
@@ -1599,7 +1539,7 @@
         "home": "https://overreacted.io/",
         "url": "https://overreacted.io/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-29T16:40:47.117195+00:00",
+        "fetchedAt": "2026-10-29T21:34:57.410154+00:00",
         "items": [
           {
             "title": "How I Vibed a Proof of Conway’s Conjecture",
@@ -1670,7 +1610,7 @@
         "home": "https://www.johndcook.com/",
         "url": "https://www.johndcook.com/blog/feed/",
         "status": "ok",
-        "fetchedAt": "2026-10-29T16:40:47.180454+00:00",
+        "fetchedAt": "2026-10-29T21:34:57.606434+00:00",
         "items": [
           {
             "title": "The Unbalanced Group Theorem",
@@ -1741,8 +1681,14 @@
         "home": "https://matklad.github.io/",
         "url": "https://matklad.github.io/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-29T16:40:46.903577+00:00",
+        "fetchedAt": "2026-10-29T21:34:57.502134+00:00",
         "items": [
+          {
+            "title": "Avoid Public Functions Calling Other Public Functions",
+            "link": "https://matklad.github.io/2026/10/29/pub-calls-pub.html",
+            "date": "2026-10-29T00:00:00+00:00",
+            "summary": "A small-scale rule of thumb. This article will land much better with a concrete example, but I am drawing a blank here, so you gotta just blindly trust my say so!"
+          },
           {
             "title": "On Git Refs",
             "link": "https://matklad.github.io/2026/10/07/git-ref.html",
@@ -1796,12 +1742,6 @@
             "link": "https://matklad.github.io/2026/08/06/neat-io-threaded.html",
             "date": "2026-08-06T00:00:00+00:00",
             "summary": "std.Io.Threaded is one of the implementations of Zig's new Io interface that enables concurrency. This is a boring just use threads impl. I personally find it neat though --- it does this weird thing that I wanted to do for ages, that to my knowledge no one else is doing properly, and implements it "
-          },
-          {
-            "title": "Memory Safety's Hardest Problem",
-            "link": "https://matklad.github.io/2026/07/20/memory-safety-hardest-problem.html",
-            "date": "2026-07-20T00:00:00+00:00",
-            "summary": "Uplifting a lobsters comment for easier reference."
           }
         ]
       },
@@ -1812,7 +1752,7 @@
         "home": "https://eli.thegreenplace.net/",
         "url": "https://eli.thegreenplace.net/feeds/all.atom.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-29T16:40:47.133736+00:00",
+        "fetchedAt": "2026-10-29T21:34:57.538327+00:00",
         "items": [
           {
             "title": "Notes on the complex roots of unity",
@@ -1853,7 +1793,7 @@
         "home": "https://fabiensanglard.net/",
         "url": "https://fabiensanglard.net/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-29T16:40:46.947361+00:00",
+        "fetchedAt": "2026-10-29T21:34:57.473899+00:00",
         "items": [
           {
             "title": "My agent.md to improve LLM-assisted code quality",
@@ -1924,7 +1864,7 @@
         "home": "https://blog.miguelgrinberg.com/",
         "url": "https://blog.miguelgrinberg.com/feed",
         "status": "ok",
-        "fetchedAt": "2026-10-29T16:40:47.779567+00:00",
+        "fetchedAt": "2026-10-29T21:34:58.200837+00:00",
         "items": [
           {
             "title": "I'm a Full-Time Open Source Developer Now",
@@ -1995,7 +1935,7 @@
         "home": "https://www.troyhunt.com/",
         "url": "https://www.troyhunt.com/rss/",
         "status": "ok",
-        "fetchedAt": "2026-10-29T16:40:46.743442+00:00",
+        "fetchedAt": "2026-10-29T21:34:57.511459+00:00",
         "items": [
           {
             "title": "Weekly Update 527: Cybergeddon News v. Reality",
@@ -2066,7 +2006,7 @@
         "home": "https://anildash.com/",
         "url": "https://anildash.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-29T16:40:47.204569+00:00",
+        "fetchedAt": "2026-10-29T21:34:57.601959+00:00",
         "items": [
           {
             "title": "Maybe it's time for lots of little indie AIs to take over",
@@ -2137,7 +2077,7 @@
         "home": "https://computer.rip/",
         "url": "https://computer.rip/rss.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-29T16:40:47.511475+00:00",
+        "fetchedAt": "2026-10-29T21:34:58.325954+00:00",
         "items": [
           {
             "title": "lighting the skies",
@@ -2218,7 +2158,7 @@
         "home": "http://paulgraham.com/",
         "url": "http://www.aaronsw.com/2002/feeds/pgessays.rss",
         "status": "ok",
-        "fetchedAt": "2026-10-29T16:40:46.841653+00:00",
+        "fetchedAt": "2026-10-29T21:34:57.609290+00:00",
         "items": [
           {
             "title": "Superlinear Returns",
@@ -2289,7 +2229,7 @@
         "home": "https://steveblank.com/",
         "url": "https://steveblank.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-10-29T16:40:46.838929+00:00",
+        "fetchedAt": "2026-10-29T21:34:57.557755+00:00",
         "items": [
           {
             "title": "Elon Musk Just Gave Europe a Reason to Replace American Technology",
@@ -2362,12 +2302,30 @@
         "home": "https://news.ycombinator.com/",
         "url": "https://news.ycombinator.com/rss",
         "status": "ok",
-        "fetchedAt": "2026-10-29T16:40:46.885857+00:00",
+        "fetchedAt": "2026-10-29T21:34:57.734516+00:00",
         "items": [
           {
             "title": "We're releasing the weights of Mistral Large 4",
             "link": "https://mistral.ai/news/mistral-large-4-oss/",
             "date": "2026-10-29T14:13:21+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "Alleged Chinese spy had 'close relationship' with Nvidia boss Jensen Huang",
+            "link": "https://nypost.com/2026/10/29/business/alleged-chinese-spy-had-close-relationship-with-nvidia-boss-jensen-huang-report/",
+            "date": "2026-10-29T17:43:48+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "Patrick Stewart has died",
+            "link": "https://www.nytimes.com/2026/10/29/arts/television/patrick-stewart-dead.html",
+            "date": "2026-10-29T19:41:39+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "A tiny world model running games on a Raspberry Pi Pico 2 W",
+            "link": "https://github.com/SheepSeb/tinyworldformer",
+            "date": "2026-10-29T20:32:28+00:00",
             "summary": "Comments"
           },
           {
@@ -2377,51 +2335,33 @@
             "summary": "Comments"
           },
           {
-            "title": "Zombie stats: Where the numbers AI quotes come from",
-            "link": "https://trakkr.ai/trakkr-research/zombie-stats",
-            "date": "2026-10-29T15:06:17+00:00",
+            "title": "Show HN: Auto Dismiss Mac OS \"Allow to find devices on local networks?\"",
+            "link": "https://github.com/johncassil/dontallow",
+            "date": "2026-10-29T19:27:44+00:00",
             "summary": "Comments"
           },
           {
-            "title": "Grace Blackwell needs a new scheduler: 27% more usable GPUs from the same racks",
-            "link": "https://skypilot.ai/blog/grace-blackwell-needs-a-new-scheduler",
-            "date": "2026-10-29T15:45:05+00:00",
+            "title": "The importance of communities around software",
+            "link": "https://lumi.codeberg.page/blog/software-community.html",
+            "date": "2026-10-29T19:27:47+00:00",
             "summary": "Comments"
           },
           {
-            "title": "DoorDash to Acquire Instacart",
+            "title": "Claude Duet is the future of chatbot interaction",
+            "link": "https://fig.blue/posts/duet-is-the-future/",
+            "date": "2026-10-29T17:24:25+00:00",
+            "summary": "Comments"
+          },
+          {
+            "title": "DoorDash to acquire Instacart",
             "link": "https://about.doordash.com/en-us/news/doordash-to-acquire-instacart",
             "date": "2026-10-29T12:33:05+00:00",
             "summary": "Comments"
           },
           {
-            "title": "Chained PHP2Shell Exploit Roots 25 Servers, Including US Government Servers",
-            "link": "https://dreamgroup.com/blog/chained-php2shell-exploit-roots-25-servers",
-            "date": "2026-10-29T10:42:41+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "Launch HN: Simantic (YC F26) – Firmware Simulation for AI Agents",
-            "link": "https://news.ycombinator.com/item?id=50291116",
-            "date": "2026-10-29T15:56:32+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "Mexico is a showroom for electric vehicles you can't buy in the U.S.",
-            "link": "https://www.washingtonpost.com/climate-environment/2026/10/27/i-saw-future-driving-mexico-its-off-limits-americans/",
-            "date": "2026-10-29T15:30:22+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "Qwenputer: A functioning, deterministic RISC-V CPU inside Qwen3.5",
-            "link": "https://divagr.com/blog/qwenputer",
-            "date": "2026-10-29T00:25:45+00:00",
-            "summary": "Comments"
-          },
-          {
-            "title": "noalloc: Tooling and libraries to enforce zero heap allocations in Golang",
-            "link": "https://github.com/theconsensuslabs/noalloc",
-            "date": "2026-10-28T18:29:25+00:00",
+            "title": "LLM Voice",
+            "link": "https://martinfowler.com/bliki/LLM-Voice.html",
+            "date": "2026-10-29T14:57:55+00:00",
             "summary": "Comments"
           }
         ]
@@ -2433,67 +2373,67 @@
         "home": "https://www.techmeme.com/",
         "url": "https://www.techmeme.com/feed.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-29T16:40:47.134605+00:00",
+        "fetchedAt": "2026-10-29T21:34:57.755367+00:00",
         "items": [
           {
-            "title": "Alphabet discloses $1T+ in purchase commitments, future leases, and other obligations; its Q3 filing shows $98.5B in contingent commitments, up ~$23B from Q2 (Davey Alba/Bloomberg)",
-            "link": "https://www.techmeme.com/261029/p39#a261029p39",
-            "date": "2026-10-29T12:30:01-04:00",
-            "summary": "Davey Alba / Bloomberg: Alphabet discloses $1T+ in purchase commitments, future leases, and other obligations; its Q3 filing shows $98.5B in contingent commitments, up ~$23B from Q2&nbsp; &mdash;&nbsp; Alphabet Inc. has said demand for its cloud services is increasing at a rapid clip, pointing to gr"
+            "title": "Roblox reports Q3 bookings down 12% YoY to $1.7B, vs. $1.63B est., and DAUs down 9% to 138M, vs. 145.8M est.; RBLX drops 16%+ after hours (Cecilia D'Anastasio/Bloomberg)",
+            "link": "https://www.techmeme.com/261029/p56#a261029p56",
+            "date": "2026-10-29T17:25:00-04:00",
+            "summary": "Cecilia D'Anastasio / Bloomberg: Roblox reports Q3 bookings down 12% YoY to $1.7B, vs. $1.63B est., and DAUs down 9% to 138M, vs. 145.8M est.; RBLX drops 16%+ after hours&nbsp; &mdash;&nbsp; Roblox Corp. reported third-quarter users that missed analysts' expectations amid questions about whether a n"
           },
           {
-            "title": "Alphabet's stock falls 12%+, wiping a record $500B from its market cap, after reporting negative cash flow amid its AI spending; the Nasdaq falls 1.4%+ (Stephen Morris/Financial Times)",
-            "link": "https://www.techmeme.com/261029/p38#a261029p38",
-            "date": "2026-10-29T12:25:01-04:00",
-            "summary": "Stephen Morris / Financial Times: Alphabet's stock falls 12%+, wiping a record $500B from its market cap, after reporting negative cash flow amid its AI spending; the Nasdaq falls 1.4%+&nbsp; &mdash;&nbsp; Google owner admits &lsquo;AI mode&rsquo; has hurt traditional search as sales and profits und"
+            "title": "Sources: Instagram is offering select creators $50K to $500K to cross-post their long-form YouTube content to its new \"Features\" product (Business Insider)",
+            "link": "https://www.techmeme.com/261029/p55#a261029p55",
+            "date": "2026-10-29T17:10:01-04:00",
+            "summary": "Business Insider: Sources: Instagram is offering select creators $50K to $500K to cross-post their long-form YouTube content to its new &ldquo;Features&rdquo; product&nbsp; &mdash;&nbsp; Instagram wants what YouTube has &mdash; and it's willing to pay up to get it.&nbsp; &mdash;&nbsp; In an effort t"
           },
           {
-            "title": "Airbnb spent $12.6M+ since 2025 to become a top LA political contributor, backing Mayor Karen Bass and pushing for friendlier rules ahead of the 2028 Olympics (Liam Dillon/Politico)",
-            "link": "https://www.techmeme.com/261029/p37#a261029p37",
-            "date": "2026-10-29T12:15:02-04:00",
-            "summary": "Liam Dillon / Politico: Airbnb spent $12.6M+ since 2025 to become a top LA political contributor, backing Mayor Karen Bass and pushing for friendlier rules ahead of the 2028 Olympics&nbsp; &mdash;&nbsp; LOS ANGELES &mdash; For Airbnb, the gold medal game in the 2028 Summer Olympics is on Tuesday.&nb"
+            "title": "Amazon reports Q3 AWS revenue up 39% YoY to $45.98B, above $45.29B est., and AWS operating income up 55% to $17.77B, above $16.97B est. (Jordan Novet/CNBC)",
+            "link": "https://www.techmeme.com/261029/p54#a261029p54",
+            "date": "2026-10-29T16:55:05-04:00",
+            "summary": "Jordan Novet / CNBC: Amazon reports Q3 AWS revenue up 39% YoY to $45.98B, above $45.29B est., and AWS operating income up 55% to $17.77B, above $16.97B est.&nbsp; &mdash;&nbsp; Amazon's cloud-computing unit reported more rapid third-quarter growth than analysts had projected.&nbsp; &mdash;&nbsp; Rev"
           },
           {
-            "title": "Canada-based Cohere completes the first close of a round that it expects to total up to $5B, with Canada agreeing to invest up to $1.14B, at a $20.5B valuation (Bloomberg)",
-            "link": "https://www.techmeme.com/261029/p36#a261029p36",
-            "date": "2026-10-29T12:10:01-04:00",
-            "summary": "Bloomberg: Canada-based Cohere completes the first close of a round that it expects to total up to $5B, with Canada agreeing to invest up to $1.14B, at a $20.5B valuation&nbsp; &mdash;&nbsp; Cohere Inc., an artificial intelligence model maker, is in the process of raising a large funding round at a "
+            "title": "Sources: Google, Meta, and other tech companies are resisting broad ICE demands for user data as they face future Democratic-led congressional investigations (Wall Street Journal)",
+            "link": "https://www.techmeme.com/261029/p53#a261029p53",
+            "date": "2026-10-29T16:50:03-04:00",
+            "summary": "Wall Street Journal: Sources: Google, Meta, and other tech companies are resisting broad ICE demands for user data as they face future Democratic-led congressional investigations&nbsp; &mdash;&nbsp; As midterms near, Google, Meta and other tech firms resist broad ICE demands for user data as the age"
           },
           {
-            "title": "Sources: Situational Awareness is pitching clients to invest in Fluidstack alongside it in a round that values the neocloud at $40B, up from $18B in September (Bloomberg)",
-            "link": "https://www.techmeme.com/261029/p35#a261029p35",
-            "date": "2026-10-29T12:05:03-04:00",
-            "summary": "Bloomberg: Sources: Situational Awareness is pitching clients to invest in Fluidstack alongside it in a round that values the neocloud at $40B, up from $18B in September&nbsp; &mdash;&nbsp; Situational Awareness is raising money from its investors to plow into neocloud startup Fluidstack Ltd., just "
+            "title": "Symbotic says Walmart has committed an additional $6B over several years to deploy Symbotic's supply-chain automation technology across its distribution network (Sanskriti Shekhar/Reuters)",
+            "link": "https://www.techmeme.com/261029/p52#a261029p52",
+            "date": "2026-10-29T16:40:01-04:00",
+            "summary": "Sanskriti Shekhar / Reuters: Symbotic says Walmart has committed an additional $6B over several years to deploy Symbotic's supply-chain automation technology across its distribution network&nbsp; &mdash;&nbsp; Symbotic (SYM.O) said on Thursday it had expanded its agreement with Walmart (WMT.O), with"
           },
           {
-            "title": "The UK FCA, which sued Justin Sun-linked crypto exchange HTX in 2025 for \"unlawfully promoting crypto asset services\", says HTX will exit the UK in a settlement (Financial Times)",
-            "link": "https://www.techmeme.com/261029/p34#a261029p34",
-            "date": "2026-10-29T11:25:00-04:00",
-            "summary": "Financial Times: The UK FCA, which sued Justin Sun-linked crypto exchange HTX in 2025 for &ldquo;unlawfully promoting crypto asset services&rdquo;, says HTX will exit the UK in a settlement&nbsp; &mdash;&nbsp; Venture linked to billionaire Trump backer Justin Sun sued by FCA for &lsquo;unlawfully pr"
+            "title": "Reddit reports Q3 revenue up 53% YoY to $895M, vs. $878M est., DAUq up 12% to 130.3M, below est., forecasts Q4 revenue below est.; RDDT drops 9%+ after hours (Jonathan Vanian/CNBC)",
+            "link": "https://www.techmeme.com/261029/p51#a261029p51",
+            "date": "2026-10-29T16:32:09-04:00",
+            "summary": "Jonathan Vanian / CNBC: Reddit reports Q3 revenue up 53% YoY to $895M, vs. $878M est., DAUq up 12% to 130.3M, below est., forecasts Q4 revenue below est.; RDDT drops 9%+ after hours&nbsp; &mdash;&nbsp; Reddit plans to require all users to create official accounts to access the social media platform,"
           },
           {
-            "title": "Collective, which uses AI to automate bookkeeping for solo business owners, raised a $40M Series B and $60M in nondilutive capital from GC's Customer Value Fund (Natalie Breymeyer/Axios)",
-            "link": "https://www.techmeme.com/261029/p33#a261029p33",
-            "date": "2026-10-29T11:15:02-04:00",
-            "summary": "Natalie Breymeyer / Axios: Collective, which uses AI to automate bookkeeping for solo business owners, raised a $40M Series B and $60M in nondilutive capital from GC's Customer Value Fund&nbsp; &mdash;&nbsp; Collective, a financial services platform for solo business owners, secured $100 million in "
+            "title": "Amazon spent $77B+ on property and equipment in Q3, leading to a free cash outflow of $42.4B; Amazon said in July that it would likely spend $220B in 2026 capex (Matt Day/Bloomberg)",
+            "link": "https://www.techmeme.com/261029/p50#a261029p50",
+            "date": "2026-10-29T16:30:02-04:00",
+            "summary": "Matt Day / Bloomberg: Amazon spent $77B+ on property and equipment in Q3, leading to a free cash outflow of $42.4B; Amazon said in July that it would likely spend $220B in 2026 capex&nbsp; &mdash;&nbsp; Amazon.com Inc. reported greater capital spending than anticipated while e-commerce revenue slowe"
           },
           {
-            "title": "Ottawa-based Solink, which uses AI to pull data from already-installed security cameras, raised $100M+ led by Vertu Capital, bringing its total raised to $198M+ (Duncan Riley/SiliconANGLE)",
-            "link": "https://www.techmeme.com/261029/p32#a261029p32",
-            "date": "2026-10-29T11:05:00-04:00",
-            "summary": "Duncan Riley / SiliconANGLE: Ottawa-based Solink, which uses AI to pull data from already-installed security cameras, raised $100M+ led by Vertu Capital, bringing its total raised to $198M+&nbsp; &mdash;&nbsp; Video intelligence company Solink Corp. revealed today that it has raised more than $100 m"
+            "title": "Intel reports Q3 revenue up 21% YoY to $16.5B, vs. $16.5B est., and forecasts Q4 revenue and adjusted EPS below estimates; INTC drops 16%+ after hours (Katie Tarasov/CNBC)",
+            "link": "https://www.techmeme.com/261029/p49#a261029p49",
+            "date": "2026-10-29T16:25:04-04:00",
+            "summary": "Katie Tarasov / CNBC: Intel reports Q3 revenue up 21% YoY to $16.5B, vs. $16.5B est., and forecasts Q4 revenue and adjusted EPS below estimates; INTC drops 16%+ after hours&nbsp; &mdash;&nbsp; Intel shares plummeted in extended trading on Thursday after the chipmaker issued a weak fourth-quarter for"
           },
           {
-            "title": "Thrive Holdings agrees to acquire ADT in an all-cash take-private deal, valuing ADT at ~$7.6B in equity value, a ~46% premium over its October 27 closing price (Claire Rychlewski/Axios)",
-            "link": "https://www.techmeme.com/261029/p31#a261029p31",
-            "date": "2026-10-29T10:40:03-04:00",
-            "summary": "Claire Rychlewski / Axios: Thrive Holdings agrees to acquire ADT in an all-cash take-private deal, valuing ADT at ~$7.6B in equity value, a ~46% premium over its October 27 closing price&nbsp; &mdash;&nbsp; Thrive Holdings has agreed to acquire ADT in an all-cash take-private, valuing the home secur"
+            "title": "Reddit plans to require users to log in to fully access the site in response to AI scraping and will test it in select markets outside the US this quarter (Sara Fischer/Axios)",
+            "link": "https://www.techmeme.com/261029/p48#a261029p48",
+            "date": "2026-10-29T16:21:24-04:00",
+            "summary": "Sara Fischer / Axios: Reddit plans to require users to log in to fully access the site in response to AI scraping and will test it in select markets outside the US this quarter&nbsp; &mdash;&nbsp; Reddit on Thursday said it's moving to become a primarily logged-in experience, marking one of the most"
           },
           {
-            "title": "Mistral releases the weights for Mistral Large 4, or Le Chonk, and says it rivals top open models such as GLM-5.3 on the Artificial Analysis Coding Agent Index (Radhika Rajkumar/ZDNET)",
-            "link": "https://www.techmeme.com/261029/p30#a261029p30",
-            "date": "2026-10-29T10:30:01-04:00",
-            "summary": "Radhika Rajkumar / ZDNET: Mistral releases the weights for Mistral Large 4, or Le Chonk, and says it rivals top open models such as GLM-5.3 on the Artificial Analysis Coding Agent Index&nbsp; &mdash;&nbsp; Mistral has released the weights for Large 4, along with some impressive Artificial Analysis s"
+            "title": "Amazon reports Q3 ad revenue up 11% YoY to $19.64B, vs. $20.82B est., and subscription services revenue up 11% YoY to $14B (Annie Palmer/CNBC)",
+            "link": "https://www.techmeme.com/261029/p47#a261029p47",
+            "date": "2026-10-29T16:20:10-04:00",
+            "summary": "Annie Palmer / CNBC: Amazon reports Q3 ad revenue up 11% YoY to $19.64B, vs. $20.82B est., and subscription services revenue up 11% YoY to $14B&nbsp; &mdash;&nbsp; Amazon shares plunged more than 7% in extended trading Thursday after the company reported earnings and revenue for the third quarter th"
           }
         ]
       },
@@ -2504,67 +2444,67 @@
         "home": "https://techcrunch.com/",
         "url": "https://techcrunch.com/feed/",
         "status": "ok",
-        "fetchedAt": "2026-10-29T16:40:46.916109+00:00",
+        "fetchedAt": "2026-10-29T21:34:57.417338+00:00",
         "items": [
           {
-            "title": "Ex-Palantir execs launch Dream with $17M from a16z to build AI world models for construction",
-            "link": "https://techcrunch.com/2026/10/29/ex-palantir-execs-launch-dream-with-17m-from-a16z-to-build-ai-world-models-for-construction/",
-            "date": "2026-10-29T16:21:00+00:00",
-            "summary": "rained on 100 million square feet of building permits, dream wants to disrupt Autodesk with AI."
+            "title": "Amazon reported booming cloud revenue but otherwise missed expectations",
+            "link": "https://techcrunch.com/2026/10/29/amazon-reported-booming-cloud-revenue-but-otherwise-missed-expectations/",
+            "date": "2026-10-29T21:20:47+00:00",
+            "summary": "The biggest ouch of the report was its negative free cash flow of $2.4 billion."
           },
           {
-            "title": "SuperMe raises $20M for its network of AI expert profiles",
-            "link": "https://techcrunch.com/2026/10/29/superme-raises-20m-for-its-network-of-ai-expert-profiles/",
-            "date": "2026-10-29T16:19:43+00:00",
-            "summary": "SuperMe just raised $20 million to let you pester AI clones of Silicon Valley’s savviest people about your career."
+            "title": "GM reaches $220M settlement over selling drivers’ private data",
+            "link": "https://techcrunch.com/2026/10/29/gm-reaches-220m-settlement-over-selling-drivers-private-data/",
+            "date": "2026-10-29T21:01:04+00:00",
+            "summary": "As part of the settlement, GM must get drivers’ express consent before it collects or shares their driving and location data."
           },
           {
-            "title": "Agent identity startup Mintive lands Cowboy Ventures, Coatue, angels Jeff Dean, Andrej Karpathy",
-            "link": "https://techcrunch.com/2026/10/29/agent-identity-startup-mintive-lands-cowboy-ventures-coatue-angels-jeff-dean-andrej-karpathy/",
-            "date": "2026-10-29T15:00:00+00:00",
-            "summary": "Mintive was founded by two engineers who have been working on AI for decades through Google Brain and Coursera. It's platform promises to help IT easily control enterprise agents."
+            "title": "Fan fiction site Archive of Our Own could be offline for up to 4 weeks",
+            "link": "https://techcrunch.com/2026/10/29/fan-fiction-site-archive-of-our-own-could-be-offline-for-up-to-4-weeks/",
+            "date": "2026-10-29T20:43:56+00:00",
+            "summary": "Archive of Our Own, the popular online home of fan fiction readers and writers, has bad news for its community."
           },
           {
-            "title": "Wabi, the AI agent that builds mini apps, now valued at $1.25B after latest round",
-            "link": "https://techcrunch.com/2026/10/29/wabi-the-ai-agent-that-builds-mini-apps-now-valued-at-1-25b-after-latest-round/",
-            "date": "2026-10-29T14:35:26+00:00",
-            "summary": "On Thursday, AI app Wabi, now describing itself as a \"personal agent,\" said it has raised $55 million at a $1.25 billion valuation."
+            "title": "As search traffic dries up, Reddit announces it’s shifting to a logged-in experience",
+            "link": "https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience/",
+            "date": "2026-10-29T20:08:31+00:00",
+            "summary": "As AI transforms how people find information online, Reddit is rethinking its open-web roots to protect its audience and business."
           },
           {
-            "title": "Bluesky blocks links to leaked DHS employee data as government seeks takedowns",
-            "link": "https://techcrunch.com/2026/10/29/bluesky-blocks-links-to-leaked-dhs-employee-data-as-government-seeks-takedowns/",
-            "date": "2026-10-29T13:43:53+00:00",
-            "summary": "The social networking site is facing criticism for blocking access to the site, which identifies thousands of ICE agents and other employees working for Homeland Security."
+            "title": "Rivian expands joint venture with VW to include AI assistant",
+            "link": "https://techcrunch.com/2026/10/29/rivian-expands-joint-venture-with-vw-to-include-ai-assistant/",
+            "date": "2026-10-29T20:05:47+00:00",
+            "summary": "Rivian doesn't disclose if the value of its $5.8 billion joint venture will expand as a result."
           },
           {
-            "title": "DoorDash to acquire Instacart for $17B",
-            "link": "https://techcrunch.com/2026/10/29/doordash-to-acquire-instacart-for-17b/",
-            "date": "2026-10-29T13:40:57+00:00",
-            "summary": "The acquisition would bring two major players in on-demand delivery under one roof, combining DoorDash’s dominance in restaurant takeout with Instacart’s reach in grocery delivery."
+            "title": "The R2 SUV is already Rivian’s best-selling vehicle",
+            "link": "https://techcrunch.com/2026/10/29/the-r2-suv-is-already-rivians-best-selling-vehicle/",
+            "date": "2026-10-29T20:02:03+00:00",
+            "summary": "Rivian is seeing strong enough sales of the new EV that it improved its guidance to Wall Street for the second time this year."
           },
           {
-            "title": "Deepgram acquires Pipecat-maker Daily to bolster its voice AI infrastructure",
-            "link": "https://techcrunch.com/2026/10/29/deepgram-acquires-pipecat-maker-daily-to-bolster-its-voice-ai-infrastructure/",
-            "date": "2026-10-29T13:00:00+00:00",
-            "summary": "With Pipecat, Deepgram will likely gain a deeper understanding of real-time voice and video infrastructure."
+            "title": "OpenAI-backed Thrive Holdings acquires ADT",
+            "link": "https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt/",
+            "date": "2026-10-29T19:56:19+00:00",
+            "summary": "OpenAI-backed Thrive Holdings is buying ADT in a $15.3 billion deal, with plans to bring AI to the home security business."
           },
           {
-            "title": "Amazon updates Alexa to help you manage shopping lists and subscriptions and update delivery instructions",
-            "link": "https://techcrunch.com/2026/10/29/amazon-updates-alexa-to-help-you-manage-shopping-lists-and-subscriptions-and-update-delivery-instructions/",
-            "date": "2026-10-29T13:00:00+00:00",
-            "summary": "The update allows you to use Alexa to create lists, register them, see what's on them, and add or edit items. You can also manage subscriptions."
+            "title": "Where was my invite to the — wait, what? Airbnb had a gala?",
+            "link": "https://techcrunch.com/2026/10/29/where-was-my-invite-to-the-wait-what-airbnb-had-a-gala/",
+            "date": "2026-10-29T19:17:49+00:00",
+            "summary": "Airbnb’s nonprofit held its inaugural gala on Wednesday in Los Angeles, and the internet had one reaction — the *what* gala?"
           },
           {
-            "title": "Who will you learn from in 6 days at TechCrunch Founder Summit? Meet the founders and investors taking the stages",
-            "link": "https://techcrunch.com/2026/10/29/who-will-you-learn-from-in-6-days-at-techcrunch-founder-summit-meet-the-founders-and-investors-taking-the-stage/",
-            "date": "2026-10-29T13:00:00+00:00",
-            "summary": "Six days from now, on November 4, TechCrunch Founder Summit brings experienced founders, investors, and operators to Boston to share the decisions, mistakes, pivots, and lessons that shaped their companies. Register before it starts for ticket savings and deals."
+            "title": "Meta quietly launches an AI fashion app called Style Sketch",
+            "link": "https://techcrunch.com/2026/10/29/meta-quietly-launches-an-ai-fashion-app-called-style-sketch/",
+            "date": "2026-10-29T19:14:36+00:00",
+            "summary": "The app connects to Instagram to build a virtual closet from photos you’ve already shared, or lets you add items manually by snapping a photo, recording a quick video, or uploading images from your camera roll."
           },
           {
-            "title": "Upwind raises $400M after walking away from Datadog acquisition offer",
-            "link": "https://techcrunch.com/2026/10/28/upwind-raises-400m-after-walking-away-from-datadog-acquisition-offer/",
-            "date": "2026-10-28T23:15:00+00:00",
-            "summary": "The cloud security startup raised a Series C at a $3.8B valuation, instead of selling itself for the same price."
+            "title": "Granola crunches up a dictation feature to compete with Wispr",
+            "link": "https://techcrunch.com/2026/10/29/granola-crunches-up-a-dictation-feature-to-compete-with-wispr/",
+            "date": "2026-10-29T17:54:38+00:00",
+            "summary": "Uno reverse! After Wispr added meeting notes to its dictation app, Granola is adding dictation to its meeting notetaker. The voice AI wars are getting interesting."
           }
         ]
       },
@@ -2575,13 +2515,55 @@
         "home": "https://techcrunch.com/category/artificial-intelligence/",
         "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
         "status": "ok",
-        "fetchedAt": "2026-10-29T16:40:46.928517+00:00",
+        "fetchedAt": "2026-10-29T21:34:57.440079+00:00",
         "items": [
+          {
+            "title": "As search traffic dries up, Reddit announces it’s shifting to a logged-in experience",
+            "link": "https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience/",
+            "date": "2026-10-29T20:08:31+00:00",
+            "summary": "As AI transforms how people find information online, Reddit is rethinking its open-web roots to protect its audience and business."
+          },
+          {
+            "title": "Rivian expands joint venture with VW to include AI assistant",
+            "link": "https://techcrunch.com/2026/10/29/rivian-expands-joint-venture-with-vw-to-include-ai-assistant/",
+            "date": "2026-10-29T20:05:47+00:00",
+            "summary": "Rivian doesn't disclose if the value of its $5.8 billion joint venture will expand as a result."
+          },
+          {
+            "title": "OpenAI-backed Thrive Holdings acquires ADT",
+            "link": "https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt/",
+            "date": "2026-10-29T19:56:19+00:00",
+            "summary": "OpenAI-backed Thrive Holdings is buying ADT in a $15.3 billion deal, with plans to bring AI to the home security business."
+          },
+          {
+            "title": "Meta quietly launches an AI fashion app called Style Sketch",
+            "link": "https://techcrunch.com/2026/10/29/meta-quietly-launches-an-ai-fashion-app-called-style-sketch/",
+            "date": "2026-10-29T19:14:36+00:00",
+            "summary": "The app connects to Instagram to build a virtual closet from photos you’ve already shared, or lets you add items manually by snapping a photo, recording a quick video, or uploading images from your camera roll."
+          },
+          {
+            "title": "Granola crunches up a dictation feature to compete with Wispr",
+            "link": "https://techcrunch.com/2026/10/29/granola-crunches-up-a-dictation-feature-to-compete-with-wispr/",
+            "date": "2026-10-29T17:54:38+00:00",
+            "summary": "Uno reverse! After Wispr added meeting notes to its dictation app, Granola is adding dictation to its meeting notetaker. The voice AI wars are getting interesting."
+          },
+          {
+            "title": "Mistral releases weights for its trillion-parameter AI model, targeting cybersecurity",
+            "link": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/",
+            "date": "2026-10-29T17:00:00+00:00",
+            "summary": "Mistral says its new model can afford organizations a kind of control over its cyber defenses that closed models can't."
+          },
+          {
+            "title": "US investigated Chinese spy plot aimed at Nvidia CEO",
+            "link": "https://techcrunch.com/2026/10/29/u-s-investigated-chinese-spy-plot-aimed-at-nvidia-ceo/",
+            "date": "2026-10-29T16:42:32+00:00",
+            "summary": "A top executive of a Singapore AI cloud company that was accused of illegally selling Nvidia chips to China could also have been a Chinese spy, sources have told the New York Times."
+          },
           {
             "title": "Ex-Palantir execs launch Dream with $17M from a16z to build AI world models for construction",
             "link": "https://techcrunch.com/2026/10/29/ex-palantir-execs-launch-dream-with-17m-from-a16z-to-build-ai-world-models-for-construction/",
             "date": "2026-10-29T16:21:00+00:00",
-            "summary": "rained on 100 million square feet of building permits, dream wants to disrupt Autodesk with AI."
+            "summary": "Dream is grounded in real physics and construction standards. Just as LLMs learn from text, Dream's world model is trained on more than 100 million square feet of building data gathered from permit archives across the United States."
           },
           {
             "title": "Wabi, the AI agent that builds mini apps, now valued at $1.25B after latest round",
@@ -2594,48 +2576,6 @@
             "link": "https://techcrunch.com/2026/10/29/deepgram-acquires-pipecat-maker-daily-to-bolster-its-voice-ai-infrastructure/",
             "date": "2026-10-29T13:00:00+00:00",
             "summary": "With Pipecat, Deepgram will likely gain a deeper understanding of real-time voice and video infrastructure."
-          },
-          {
-            "title": "Amazon updates Alexa to help you manage shopping lists and subscriptions and update delivery instructions",
-            "link": "https://techcrunch.com/2026/10/29/amazon-updates-alexa-to-help-you-manage-shopping-lists-and-subscriptions-and-update-delivery-instructions/",
-            "date": "2026-10-29T13:00:00+00:00",
-            "summary": "The update allows you to use Alexa to create lists, register them, see what's on them, and add or edit items. You can also manage subscriptions."
-          },
-          {
-            "title": "Microsoft just shared Azure’s actual revenue in dollars: $33.2 billion",
-            "link": "https://techcrunch.com/2026/10/28/microsoft-just-shared-azures-actual-revenue-in-dollars-33-2-billion/",
-            "date": "2026-10-28T21:58:32+00:00",
-            "summary": "Microsoft has never disclosed Azure's quarterly revenue in dollars. But for the first time, we can see just how close it is getting to besting the biggest competitor in the market, AWS."
-          },
-          {
-            "title": "Google expands AI Search ads globally as core ad growth slows",
-            "link": "https://techcrunch.com/2026/10/28/google-expands-ai-search-ads-globally-as-core-ad-growth-slows/",
-            "date": "2026-10-28T21:48:37+00:00",
-            "summary": "The announcement came alongside parent company Alphabet's third-quarter earnings report, which saw revenue grow 25% year over year to $127.6 billion."
-          },
-          {
-            "title": "Microsoft recorded $10 billion in revenue from OpenAI",
-            "link": "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/",
-            "date": "2026-10-28T21:34:30+00:00",
-            "summary": "Microsoft said it made $10 billion in revenue from commercial arrangements with OpenAI, including revenue-sharing payments, in the quarter ending September 30. It underscores the still-enormous financial dependency of the partnership."
-          },
-          {
-            "title": "Microsoft hits 10 quarters of record-breaking revenue in a row",
-            "link": "https://techcrunch.com/2026/10/28/microsoft-hits-10-quarters-of-record-breaking-revenue-in-a-row/",
-            "date": "2026-10-28T21:25:30+00:00",
-            "summary": "Whatever the future of AI might be, the current situation is still very good for Microsoft. The tech giant reported yet another record for quarterly revenue on Wednesday: $92.3 billion, a 19% increase over the year-ago quarter."
-          },
-          {
-            "title": "Anthropic just launched tools to show companies what their AI spending is buying",
-            "link": "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/",
-            "date": "2026-10-28T19:19:58+00:00",
-            "summary": "The frontier lab is lifting the curtain on how users spend money on its models ahead of a planned IPO."
-          },
-          {
-            "title": "Wiz’s CTO on PHP2Shell and the coming ‘vulnpocalypse’",
-            "link": "https://techcrunch.com/video/wizs-cto-on-php2shell-and-the-coming-vulnpocalypse/",
-            "date": "2026-10-28T19:05:46+00:00",
-            "summary": "The PHP scare may have faded from your feed, but the cleanup is far from over. Last week, two critical bugs in the open source language behind roughly 70% of websites left organizations scrambling to fix their systems, with some taking sites offline until the vulnerabilities could be patched. Accord"
           }
         ]
       },
@@ -2646,7 +2586,7 @@
         "home": "https://techcrunch.com/tag/funding/",
         "url": "https://techcrunch.com/tag/funding/feed/",
         "status": "ok",
-        "fetchedAt": "2026-10-29T16:40:46.936606+00:00",
+        "fetchedAt": "2026-10-29T21:34:57.429687+00:00",
         "items": [
           {
             "title": "DeepSeek reportedly raises $15B days after US restrictions",
@@ -2739,7 +2679,7 @@
         "home": "https://www.ruanyifeng.com/blog/",
         "url": "https://www.ruanyifeng.com/blog/atom.xml",
         "status": "ok",
-        "fetchedAt": "2026-10-29T16:40:47.059739+00:00",
+        "fetchedAt": "2026-10-29T21:34:57.366004+00:00",
         "items": [
           {
             "title": "科技爱好者周刊（第 416 期）：编程已经面目全非",
@@ -2768,8 +2708,14 @@
         "home": "https://www.bestblogs.dev/",
         "url": "https://www.bestblogs.dev/zh/feeds/rss?category=ai&minScore=90",
         "status": "ok",
-        "fetchedAt": "2026-10-29T16:40:46.831335+00:00",
+        "fetchedAt": "2026-10-29T21:34:57.785764+00:00",
         "items": [
+          {
+            "title": "开源性转马尔福 AI 女友，用即梦短剧工作室做的",
+            "link": "https://www.bestblogs.dev/article/189988e7dd?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
+            "date": "2026-10-29T00:20:00+00:00",
+            "summary": "📌 一句话摘要 作者分享了如何利用即梦 AI 短剧工作室、Suno 和 Claude 从零构建一个具有互动剧情的“马尔福女友”桌面应用。 📝 详细摘要 本文详细介绍了作者受社交媒体热门马尔福女性角色插画启发，利用一系列 AI 工具流开发了一个互动式 AI 短剧桌面程序。作者拆解了制作的五个核心步骤：利用即梦短剧工作室进行剧本创作、建立角色与场景一致性资产库、通过导演台生成分镜、生成视频素材，最后利用 Claude 编写代码实现剪辑与桌面交互功能。文章展示了 AI 生成内容与传统代码逻辑结合的深度实践，极大地降低了高质量 AI 短剧的制作门槛。 💡 主要观点 多工具 AI 工作流整合 通过即梦 "
+          },
           {
             "title": "把记忆塞进 KV Cache，Agent 反而变笨了？KV 驻留内存，到底靠什么在干活！",
             "link": "https://www.bestblogs.dev/article/94a7e819d2?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
@@ -2823,12 +2769,6 @@
             "link": "https://www.bestblogs.dev/article/c736b0c9fb?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
             "date": "2026-10-23T07:28:00+00:00",
             "summary": "📌 一句话摘要 本文深入分析了 Opus 5.5 在视频创作领域的颠覆性影响，指出其不仅能通过代码生成视觉效果，更重要的是具备导演级的叙事能力，能够整合多种素材并自动完成剪辑，从而彻底改变了视频制作的流程和效率。 📝 详细摘要 作者黄叔作为 AI 产品顾问，基于自己大量使用 Opus 5.5 的经验，详细阐述了该模型如何通过理解卡点、调度多元素、以及整合多种视频来源来完成高质量的视频创作。文章强调，Opus 5.5 的出现意味着视频剪辑工作将不复存在，而创作者需要转变角色，从操作者变为引导者，让 AI 承担更多的创造性工作。 💡 主要观点 Opus 5.5 具备导演级的叙事能力 模型能够理解视"
-          },
-          {
-            "title": "有了大模型，你可以更有野心一点",
-            "link": "https://www.bestblogs.dev/article/f00d940595?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
-            "date": "2026-10-23T06:38:00+00:00",
-            "summary": "📌 一句话摘要 Claude 团队的工程经理 Felix Rieseberg 探讨了如何利用越来越强的 AI 模型来提升工作效率和质量，建议从速度、高度、深度和广度四个维度出发，跳出传统任务清单，尝试过去不敢或没想过的创新工作。 📝 详细摘要 本文由 Claude 团队工程经理 Felix Rieseberg 撰写，他观察到，随着 AI 模型的快速发展，人们在利用这些工具时往往缺乏足够的野心。他将野心分为四个维度：速度（更快完成任务）、高度（提升抽象层次）、深度（深入领域专业知识）和广度（跨领域协作）。通过具体案例，如优化季度业务回顾（QBR）幻灯片，他展示了如何从简单的模板填充进化到战略决策"
           }
         ]
       }
@@ -2836,69 +2776,399 @@
   },
   "allItems": [
     {
-      "title": "Ex-Palantir execs launch Dream with $17M from a16z to build AI world models for construction",
-      "link": "https://techcrunch.com/2026/10/29/ex-palantir-execs-launch-dream-with-17m-from-a16z-to-build-ai-world-models-for-construction/",
-      "date": "2026-10-29T16:21:00+00:00",
-      "summary": "rained on 100 million square feet of building permits, dream wants to disrupt Autodesk with AI.",
+      "title": "Amazon reported booming cloud revenue but otherwise missed expectations",
+      "link": "https://techcrunch.com/2026/10/29/amazon-reported-booming-cloud-revenue-but-otherwise-missed-expectations/",
+      "date": "2026-10-29T21:20:47+00:00",
+      "summary": "The biggest ouch of the report was its negative free cash flow of $2.4 billion.",
       "feedId": "techcrunch",
       "feedTitle": "TechCrunch",
       "category": "Startup & News",
       "feedHome": "https://techcrunch.com/"
     },
     {
-      "title": "Ex-Palantir execs launch Dream with $17M from a16z to build AI world models for construction",
-      "link": "https://techcrunch.com/2026/10/29/ex-palantir-execs-launch-dream-with-17m-from-a16z-to-build-ai-world-models-for-construction/",
-      "date": "2026-10-29T16:21:00+00:00",
-      "summary": "rained on 100 million square feet of building permits, dream wants to disrupt Autodesk with AI.",
+      "title": "Apple Drops App Store Commission by a Whopping 4 Percent in Taiwan",
+      "link": "https://developer.apple.com/news/?id=w9mxlhek",
+      "date": "2026-10-29T21:03:44+00:00",
+      "summary": "Apple Developer News: Apple is making changes to the Taiwan storefront of the App Store, following discussions with the Taiwan Fair Trade Commission. As of October 31, 2026, the commission rate for standard Apple In-App Purchase and paid app transactions will be 26% on the Taiwan storefront of the A",
+      "feedId": "daringfireball",
+      "feedTitle": "Daring Fireball",
+      "category": "Tech Blogs",
+      "feedHome": "https://daringfireball.net/"
+    },
+    {
+      "title": "GM reaches $220M settlement over selling drivers’ private data",
+      "link": "https://techcrunch.com/2026/10/29/gm-reaches-220m-settlement-over-selling-drivers-private-data/",
+      "date": "2026-10-29T21:01:04+00:00",
+      "summary": "As part of the settlement, GM must get drivers’ express consent before it collects or shares their driving and location data.",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "Rolfe Winkler at The WSJ: ‘The Beleaguered Chip Sellers Getting Their Revenge on Apple’",
+      "link": "https://www.wsj.com/tech/apple-iphone-memory-chips-ai-c0084cc9?st=FNAyaT",
+      "date": "2026-10-29T20:44:16+00:00",
+      "summary": "Rolfe Winkler, in a crackerjack story for The Wall Street Journal (gift link): Blevins, who left Apple in 2022, sometimes set up back-to-back meetings with suppliers so that rival sales teams might run into each other, stoking competitive tension. Sales representatives learned to pack nutrition bars",
+      "feedId": "daringfireball",
+      "feedTitle": "Daring Fireball",
+      "category": "Tech Blogs",
+      "feedHome": "https://daringfireball.net/"
+    },
+    {
+      "title": "Fan fiction site Archive of Our Own could be offline for up to 4 weeks",
+      "link": "https://techcrunch.com/2026/10/29/fan-fiction-site-archive-of-our-own-could-be-offline-for-up-to-4-weeks/",
+      "date": "2026-10-29T20:43:56+00:00",
+      "summary": "Archive of Our Own, the popular online home of fan fiction readers and writers, has bad news for its community.",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "A tiny world model running games on a Raspberry Pi Pico 2 W",
+      "link": "https://github.com/SheepSeb/tinyworldformer",
+      "date": "2026-10-29T20:32:28+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "As search traffic dries up, Reddit announces it’s shifting to a logged-in experience",
+      "link": "https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience/",
+      "date": "2026-10-29T20:08:31+00:00",
+      "summary": "As AI transforms how people find information online, Reddit is rethinking its open-web roots to protect its audience and business.",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "As search traffic dries up, Reddit announces it’s shifting to a logged-in experience",
+      "link": "https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience/",
+      "date": "2026-10-29T20:08:31+00:00",
+      "summary": "As AI transforms how people find information online, Reddit is rethinking its open-web roots to protect its audience and business.",
       "feedId": "techcrunch-ai",
       "feedTitle": "TechCrunch AI",
       "category": "Startup & News",
       "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
     },
     {
-      "title": "SuperMe raises $20M for its network of AI expert profiles",
-      "link": "https://techcrunch.com/2026/10/29/superme-raises-20m-for-its-network-of-ai-expert-profiles/",
-      "date": "2026-10-29T16:19:43+00:00",
-      "summary": "SuperMe just raised $20 million to let you pester AI clones of Silicon Valley’s savviest people about your career.",
+      "title": "Rivian expands joint venture with VW to include AI assistant",
+      "link": "https://techcrunch.com/2026/10/29/rivian-expands-joint-venture-with-vw-to-include-ai-assistant/",
+      "date": "2026-10-29T20:05:47+00:00",
+      "summary": "Rivian doesn't disclose if the value of its $5.8 billion joint venture will expand as a result.",
       "feedId": "techcrunch",
       "feedTitle": "TechCrunch",
       "category": "Startup & News",
       "feedHome": "https://techcrunch.com/"
     },
     {
-      "title": "Launch HN: Simantic (YC F26) – Firmware Simulation for AI Agents",
-      "link": "https://news.ycombinator.com/item?id=50291116",
-      "date": "2026-10-29T15:56:32+00:00",
+      "title": "Rivian expands joint venture with VW to include AI assistant",
+      "link": "https://techcrunch.com/2026/10/29/rivian-expands-joint-venture-with-vw-to-include-ai-assistant/",
+      "date": "2026-10-29T20:05:47+00:00",
+      "summary": "Rivian doesn't disclose if the value of its $5.8 billion joint venture will expand as a result.",
+      "feedId": "techcrunch-ai",
+      "feedTitle": "TechCrunch AI",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
+    },
+    {
+      "title": "The R2 SUV is already Rivian’s best-selling vehicle",
+      "link": "https://techcrunch.com/2026/10/29/the-r2-suv-is-already-rivians-best-selling-vehicle/",
+      "date": "2026-10-29T20:02:03+00:00",
+      "summary": "Rivian is seeing strong enough sales of the new EV that it improved its guidance to Wall Street for the second time this year.",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "A Health Update From Craig Hockenberry",
+      "link": "https://furbo.org/2026/10/28/a-health-update/",
+      "date": "2026-10-29T19:57:23+00:00",
+      "summary": "Craig Hockenberry: If you noticed that the Iconfactory sites were kinda broken last week, now you know why. It’s because I was kinda broken last week. Now I’m finishing this post from a comfy chair on our deck. Typing into the latest version of WordPress and PHP. And I couldn’t be happier. No, you t",
+      "feedId": "daringfireball",
+      "feedTitle": "Daring Fireball",
+      "category": "Tech Blogs",
+      "feedHome": "https://daringfireball.net/"
+    },
+    {
+      "title": "OpenAI-backed Thrive Holdings acquires ADT",
+      "link": "https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt/",
+      "date": "2026-10-29T19:56:19+00:00",
+      "summary": "OpenAI-backed Thrive Holdings is buying ADT in a $15.3 billion deal, with plans to bring AI to the home security business.",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "OpenAI-backed Thrive Holdings acquires ADT",
+      "link": "https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt/",
+      "date": "2026-10-29T19:56:19+00:00",
+      "summary": "OpenAI-backed Thrive Holdings is buying ADT in a $15.3 billion deal, with plans to bring AI to the home security business.",
+      "feedId": "techcrunch-ai",
+      "feedTitle": "TechCrunch AI",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
+    },
+    {
+      "title": "Patrick Stewart has died",
+      "link": "https://www.nytimes.com/2026/10/29/arts/television/patrick-stewart-dead.html",
+      "date": "2026-10-29T19:41:39+00:00",
       "summary": "Comments",
       "feedId": "hackernews",
       "feedTitle": "Hacker News",
       "category": "Startup & News",
       "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "The importance of communities around software",
+      "link": "https://lumi.codeberg.page/blog/software-community.html",
+      "date": "2026-10-29T19:27:47+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "Show HN: Auto Dismiss Mac OS \"Allow to find devices on local networks?\"",
+      "link": "https://github.com/johncassil/dontallow",
+      "date": "2026-10-29T19:27:44+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "Where was my invite to the — wait, what? Airbnb had a gala?",
+      "link": "https://techcrunch.com/2026/10/29/where-was-my-invite-to-the-wait-what-airbnb-had-a-gala/",
+      "date": "2026-10-29T19:17:49+00:00",
+      "summary": "Airbnb’s nonprofit held its inaugural gala on Wednesday in Los Angeles, and the internet had one reaction — the *what* gala?",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "Meta quietly launches an AI fashion app called Style Sketch",
+      "link": "https://techcrunch.com/2026/10/29/meta-quietly-launches-an-ai-fashion-app-called-style-sketch/",
+      "date": "2026-10-29T19:14:36+00:00",
+      "summary": "The app connects to Instagram to build a virtual closet from photos you’ve already shared, or lets you add items manually by snapping a photo, recording a quick video, or uploading images from your camera roll.",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "Meta quietly launches an AI fashion app called Style Sketch",
+      "link": "https://techcrunch.com/2026/10/29/meta-quietly-launches-an-ai-fashion-app-called-style-sketch/",
+      "date": "2026-10-29T19:14:36+00:00",
+      "summary": "The app connects to Instagram to build a virtual closet from photos you’ve already shared, or lets you add items manually by snapping a photo, recording a quick video, or uploading images from your camera roll.",
+      "feedId": "techcrunch-ai",
+      "feedTitle": "TechCrunch AI",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
+    },
+    {
+      "title": "Granola crunches up a dictation feature to compete with Wispr",
+      "link": "https://techcrunch.com/2026/10/29/granola-crunches-up-a-dictation-feature-to-compete-with-wispr/",
+      "date": "2026-10-29T17:54:38+00:00",
+      "summary": "Uno reverse! After Wispr added meeting notes to its dictation app, Granola is adding dictation to its meeting notetaker. The voice AI wars are getting interesting.",
+      "feedId": "techcrunch",
+      "feedTitle": "TechCrunch",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/"
+    },
+    {
+      "title": "Granola crunches up a dictation feature to compete with Wispr",
+      "link": "https://techcrunch.com/2026/10/29/granola-crunches-up-a-dictation-feature-to-compete-with-wispr/",
+      "date": "2026-10-29T17:54:38+00:00",
+      "summary": "Uno reverse! After Wispr added meeting notes to its dictation app, Granola is adding dictation to its meeting notetaker. The voice AI wars are getting interesting.",
+      "feedId": "techcrunch-ai",
+      "feedTitle": "TechCrunch AI",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
+    },
+    {
+      "title": "Alleged Chinese spy had 'close relationship' with Nvidia boss Jensen Huang",
+      "link": "https://nypost.com/2026/10/29/business/alleged-chinese-spy-had-close-relationship-with-nvidia-boss-jensen-huang-report/",
+      "date": "2026-10-29T17:43:48+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "Roblox reports Q3 bookings down 12% YoY to $1.7B, vs. $1.63B est., and DAUs down 9% to 138M, vs. 145.8M est.; RBLX drops 16%+ after hours (Cecilia D'Anastasio/Bloomberg)",
+      "link": "https://www.techmeme.com/261029/p56#a261029p56",
+      "date": "2026-10-29T17:25:00-04:00",
+      "summary": "Cecilia D'Anastasio / Bloomberg: Roblox reports Q3 bookings down 12% YoY to $1.7B, vs. $1.63B est., and DAUs down 9% to 138M, vs. 145.8M est.; RBLX drops 16%+ after hours&nbsp; &mdash;&nbsp; Roblox Corp. reported third-quarter users that missed analysts' expectations amid questions about whether a n",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
+      "title": "Claude Duet is the future of chatbot interaction",
+      "link": "https://fig.blue/posts/duet-is-the-future/",
+      "date": "2026-10-29T17:24:25+00:00",
+      "summary": "Comments",
+      "feedId": "hackernews",
+      "feedTitle": "Hacker News",
+      "category": "Startup & News",
+      "feedHome": "https://news.ycombinator.com/"
+    },
+    {
+      "title": "Sources: Instagram is offering select creators $50K to $500K to cross-post their long-form YouTube content to its new \"Features\" product (Business Insider)",
+      "link": "https://www.techmeme.com/261029/p55#a261029p55",
+      "date": "2026-10-29T17:10:01-04:00",
+      "summary": "Business Insider: Sources: Instagram is offering select creators $50K to $500K to cross-post their long-form YouTube content to its new &ldquo;Features&rdquo; product&nbsp; &mdash;&nbsp; Instagram wants what YouTube has &mdash; and it's willing to pay up to get it.&nbsp; &mdash;&nbsp; In an effort t",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
+      "title": "Building a multiplayer game world with autonomous Fable-class models",
+      "link": "https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-the-world/",
+      "date": "2026-10-29T17:00:26+00:00",
+      "summary": "How I Built the Most AI-Pilled Company in the World Don't be put off by the clickbait headline, this piece by Jacob Sansbury describing how they are building Spawn is a fascinating exploration of the bleeding edge of what's possible with agentic engineering against frontier models. Spawn is a massiv",
+      "feedId": "simonwillison",
+      "feedTitle": "Simon Willison",
+      "category": "AI & LLM",
+      "feedHome": "https://simonwillison.net/"
+    },
+    {
+      "title": "An updated Model Spec for more capable and beneficial AI",
+      "link": "https://openai.com/index/updated-model-spec",
+      "date": "2026-10-29T17:00:00+00:00",
+      "summary": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
+      "feedId": "openai",
+      "feedTitle": "OpenAI News",
+      "category": "AI & LLM",
+      "feedHome": "https://openai.com/news/"
+    },
+    {
+      "title": "Mistral releases weights for its trillion-parameter AI model, targeting cybersecurity",
+      "link": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/",
+      "date": "2026-10-29T17:00:00+00:00",
+      "summary": "Mistral says its new model can afford organizations a kind of control over its cyber defenses that closed models can't.",
+      "feedId": "techcrunch-ai",
+      "feedTitle": "TechCrunch AI",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
+    },
+    {
+      "title": "Amazon reports Q3 AWS revenue up 39% YoY to $45.98B, above $45.29B est., and AWS operating income up 55% to $17.77B, above $16.97B est. (Jordan Novet/CNBC)",
+      "link": "https://www.techmeme.com/261029/p54#a261029p54",
+      "date": "2026-10-29T16:55:05-04:00",
+      "summary": "Jordan Novet / CNBC: Amazon reports Q3 AWS revenue up 39% YoY to $45.98B, above $45.29B est., and AWS operating income up 55% to $17.77B, above $16.97B est.&nbsp; &mdash;&nbsp; Amazon's cloud-computing unit reported more rapid third-quarter growth than analysts had projected.&nbsp; &mdash;&nbsp; Rev",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
+      "title": "Sources: Google, Meta, and other tech companies are resisting broad ICE demands for user data as they face future Democratic-led congressional investigations (Wall Street Journal)",
+      "link": "https://www.techmeme.com/261029/p53#a261029p53",
+      "date": "2026-10-29T16:50:03-04:00",
+      "summary": "Wall Street Journal: Sources: Google, Meta, and other tech companies are resisting broad ICE demands for user data as they face future Democratic-led congressional investigations&nbsp; &mdash;&nbsp; As midterms near, Google, Meta and other tech firms resist broad ICE demands for user data as the age",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
+      "title": "US investigated Chinese spy plot aimed at Nvidia CEO",
+      "link": "https://techcrunch.com/2026/10/29/u-s-investigated-chinese-spy-plot-aimed-at-nvidia-ceo/",
+      "date": "2026-10-29T16:42:32+00:00",
+      "summary": "A top executive of a Singapore AI cloud company that was accused of illegally selling Nvidia chips to China could also have been a Chinese spy, sources have told the New York Times.",
+      "feedId": "techcrunch-ai",
+      "feedTitle": "TechCrunch AI",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
+    },
+    {
+      "title": "Symbotic says Walmart has committed an additional $6B over several years to deploy Symbotic's supply-chain automation technology across its distribution network (Sanskriti Shekhar/Reuters)",
+      "link": "https://www.techmeme.com/261029/p52#a261029p52",
+      "date": "2026-10-29T16:40:01-04:00",
+      "summary": "Sanskriti Shekhar / Reuters: Symbotic says Walmart has committed an additional $6B over several years to deploy Symbotic's supply-chain automation technology across its distribution network&nbsp; &mdash;&nbsp; Symbotic (SYM.O) said on Thursday it had expanded its agreement with Walmart (WMT.O), with",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
+      "title": "Reddit reports Q3 revenue up 53% YoY to $895M, vs. $878M est., DAUq up 12% to 130.3M, below est., forecasts Q4 revenue below est.; RDDT drops 9%+ after hours (Jonathan Vanian/CNBC)",
+      "link": "https://www.techmeme.com/261029/p51#a261029p51",
+      "date": "2026-10-29T16:32:09-04:00",
+      "summary": "Jonathan Vanian / CNBC: Reddit reports Q3 revenue up 53% YoY to $895M, vs. $878M est., DAUq up 12% to 130.3M, below est., forecasts Q4 revenue below est.; RDDT drops 9%+ after hours&nbsp; &mdash;&nbsp; Reddit plans to require all users to create official accounts to access the social media platform,",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
+      "title": "Amazon spent $77B+ on property and equipment in Q3, leading to a free cash outflow of $42.4B; Amazon said in July that it would likely spend $220B in 2026 capex (Matt Day/Bloomberg)",
+      "link": "https://www.techmeme.com/261029/p50#a261029p50",
+      "date": "2026-10-29T16:30:02-04:00",
+      "summary": "Matt Day / Bloomberg: Amazon spent $77B+ on property and equipment in Q3, leading to a free cash outflow of $42.4B; Amazon said in July that it would likely spend $220B in 2026 capex&nbsp; &mdash;&nbsp; Amazon.com Inc. reported greater capital spending than anticipated while e-commerce revenue slowe",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
+      "title": "Intel reports Q3 revenue up 21% YoY to $16.5B, vs. $16.5B est., and forecasts Q4 revenue and adjusted EPS below estimates; INTC drops 16%+ after hours (Katie Tarasov/CNBC)",
+      "link": "https://www.techmeme.com/261029/p49#a261029p49",
+      "date": "2026-10-29T16:25:04-04:00",
+      "summary": "Katie Tarasov / CNBC: Intel reports Q3 revenue up 21% YoY to $16.5B, vs. $16.5B est., and forecasts Q4 revenue and adjusted EPS below estimates; INTC drops 16%+ after hours&nbsp; &mdash;&nbsp; Intel shares plummeted in extended trading on Thursday after the chipmaker issued a weak fourth-quarter for",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
+      "title": "Reddit plans to require users to log in to fully access the site in response to AI scraping and will test it in select markets outside the US this quarter (Sara Fischer/Axios)",
+      "link": "https://www.techmeme.com/261029/p48#a261029p48",
+      "date": "2026-10-29T16:21:24-04:00",
+      "summary": "Sara Fischer / Axios: Reddit plans to require users to log in to fully access the site in response to AI scraping and will test it in select markets outside the US this quarter&nbsp; &mdash;&nbsp; Reddit on Thursday said it's moving to become a primarily logged-in experience, marking one of the most",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
+    },
+    {
+      "title": "Ex-Palantir execs launch Dream with $17M from a16z to build AI world models for construction",
+      "link": "https://techcrunch.com/2026/10/29/ex-palantir-execs-launch-dream-with-17m-from-a16z-to-build-ai-world-models-for-construction/",
+      "date": "2026-10-29T16:21:00+00:00",
+      "summary": "Dream is grounded in real physics and construction standards. Just as LLMs learn from text, Dream's world model is trained on more than 100 million square feet of building data gathered from permit archives across the United States.",
+      "feedId": "techcrunch-ai",
+      "feedTitle": "TechCrunch AI",
+      "category": "Startup & News",
+      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
+    },
+    {
+      "title": "Amazon reports Q3 ad revenue up 11% YoY to $19.64B, vs. $20.82B est., and subscription services revenue up 11% YoY to $14B (Annie Palmer/CNBC)",
+      "link": "https://www.techmeme.com/261029/p47#a261029p47",
+      "date": "2026-10-29T16:20:10-04:00",
+      "summary": "Annie Palmer / CNBC: Amazon reports Q3 ad revenue up 11% YoY to $19.64B, vs. $20.82B est., and subscription services revenue up 11% YoY to $14B&nbsp; &mdash;&nbsp; Amazon shares plunged more than 7% in extended trading Thursday after the company reported earnings and revenue for the third quarter th",
+      "feedId": "techmeme",
+      "feedTitle": "Techmeme",
+      "category": "Startup & News",
+      "feedHome": "https://www.techmeme.com/"
     },
     {
       "title": "H.264 Is Magic (2016)",
       "link": "https://sidbala.com/h-264-is-magic/",
       "date": "2026-10-29T15:53:03+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
-      "title": "Grace Blackwell needs a new scheduler: 27% more usable GPUs from the same racks",
-      "link": "https://skypilot.ai/blog/grace-blackwell-needs-a-new-scheduler",
-      "date": "2026-10-29T15:45:05+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
-      "title": "Mexico is a showroom for electric vehicles you can't buy in the U.S.",
-      "link": "https://www.washingtonpost.com/climate-environment/2026/10/27/i-saw-future-driving-mexico-its-off-limits-americans/",
-      "date": "2026-10-29T15:30:22+00:00",
       "summary": "Comments",
       "feedId": "hackernews",
       "feedTitle": "Hacker News",
@@ -2916,34 +3186,14 @@
       "feedHome": "https://daringfireball.net/"
     },
     {
-      "title": "Zombie stats: Where the numbers AI quotes come from",
-      "link": "https://trakkr.ai/trakkr-research/zombie-stats",
-      "date": "2026-10-29T15:06:17+00:00",
+      "title": "LLM Voice",
+      "link": "https://martinfowler.com/bliki/LLM-Voice.html",
+      "date": "2026-10-29T14:57:55+00:00",
       "summary": "Comments",
       "feedId": "hackernews",
       "feedTitle": "Hacker News",
       "category": "Startup & News",
       "feedHome": "https://news.ycombinator.com/"
-    },
-    {
-      "title": "Agent identity startup Mintive lands Cowboy Ventures, Coatue, angels Jeff Dean, Andrej Karpathy",
-      "link": "https://techcrunch.com/2026/10/29/agent-identity-startup-mintive-lands-cowboy-ventures-coatue-angels-jeff-dean-andrej-karpathy/",
-      "date": "2026-10-29T15:00:00+00:00",
-      "summary": "Mintive was founded by two engineers who have been working on AI for decades through Google Brain and Coursera. It's platform promises to help IT easily control enterprise agents.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
-    },
-    {
-      "title": "Wabi, the AI agent that builds mini apps, now valued at $1.25B after latest round",
-      "link": "https://techcrunch.com/2026/10/29/wabi-the-ai-agent-that-builds-mini-apps-now-valued-at-1-25b-after-latest-round/",
-      "date": "2026-10-29T14:35:26+00:00",
-      "summary": "On Thursday, AI app Wabi, now describing itself as a \"personal agent,\" said it has raised $55 million at a $1.25 billion valuation.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
     },
     {
       "title": "Wabi, the AI agent that builds mini apps, now valued at $1.25B after latest round",
@@ -2976,56 +3226,6 @@
       "feedHome": "https://simonwillison.net/"
     },
     {
-      "title": "Bluesky blocks links to leaked DHS employee data as government seeks takedowns",
-      "link": "https://techcrunch.com/2026/10/29/bluesky-blocks-links-to-leaked-dhs-employee-data-as-government-seeks-takedowns/",
-      "date": "2026-10-29T13:43:53+00:00",
-      "summary": "The social networking site is facing criticism for blocking access to the site, which identifies thousands of ICE agents and other employees working for Homeland Security.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
-    },
-    {
-      "title": "DoorDash to acquire Instacart for $17B",
-      "link": "https://techcrunch.com/2026/10/29/doordash-to-acquire-instacart-for-17b/",
-      "date": "2026-10-29T13:40:57+00:00",
-      "summary": "The acquisition would bring two major players in on-demand delivery under one roof, combining DoorDash’s dominance in restaurant takeout with Instacart’s reach in grocery delivery.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
-    },
-    {
-      "title": "Deepgram acquires Pipecat-maker Daily to bolster its voice AI infrastructure",
-      "link": "https://techcrunch.com/2026/10/29/deepgram-acquires-pipecat-maker-daily-to-bolster-its-voice-ai-infrastructure/",
-      "date": "2026-10-29T13:00:00+00:00",
-      "summary": "With Pipecat, Deepgram will likely gain a deeper understanding of real-time voice and video infrastructure.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
-    },
-    {
-      "title": "Amazon updates Alexa to help you manage shopping lists and subscriptions and update delivery instructions",
-      "link": "https://techcrunch.com/2026/10/29/amazon-updates-alexa-to-help-you-manage-shopping-lists-and-subscriptions-and-update-delivery-instructions/",
-      "date": "2026-10-29T13:00:00+00:00",
-      "summary": "The update allows you to use Alexa to create lists, register them, see what's on them, and add or edit items. You can also manage subscriptions.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
-    },
-    {
-      "title": "Who will you learn from in 6 days at TechCrunch Founder Summit? Meet the founders and investors taking the stages",
-      "link": "https://techcrunch.com/2026/10/29/who-will-you-learn-from-in-6-days-at-techcrunch-founder-summit-meet-the-founders-and-investors-taking-the-stage/",
-      "date": "2026-10-29T13:00:00+00:00",
-      "summary": "Six days from now, on November 4, TechCrunch Founder Summit brings experienced founders, investors, and operators to Boston to share the decisions, mistakes, pivots, and lessons that shaped their companies. Register before it starts for ticket savings and deals.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
-    },
-    {
       "title": "Deepgram acquires Pipecat-maker Daily to bolster its voice AI infrastructure",
       "link": "https://techcrunch.com/2026/10/29/deepgram-acquires-pipecat-maker-daily-to-bolster-its-voice-ai-infrastructure/",
       "date": "2026-10-29T13:00:00+00:00",
@@ -3036,17 +3236,7 @@
       "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
     },
     {
-      "title": "Amazon updates Alexa to help you manage shopping lists and subscriptions and update delivery instructions",
-      "link": "https://techcrunch.com/2026/10/29/amazon-updates-alexa-to-help-you-manage-shopping-lists-and-subscriptions-and-update-delivery-instructions/",
-      "date": "2026-10-29T13:00:00+00:00",
-      "summary": "The update allows you to use Alexa to create lists, register them, see what's on them, and add or edit items. You can also manage subscriptions.",
-      "feedId": "techcrunch-ai",
-      "feedTitle": "TechCrunch AI",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
-    },
-    {
-      "title": "DoorDash to Acquire Instacart",
+      "title": "DoorDash to acquire Instacart",
       "link": "https://about.doordash.com/en-us/news/doordash-to-acquire-instacart",
       "date": "2026-10-29T12:33:05+00:00",
       "summary": "Comments",
@@ -3054,56 +3244,6 @@
       "feedTitle": "Hacker News",
       "category": "Startup & News",
       "feedHome": "https://news.ycombinator.com/"
-    },
-    {
-      "title": "Alphabet discloses $1T+ in purchase commitments, future leases, and other obligations; its Q3 filing shows $98.5B in contingent commitments, up ~$23B from Q2 (Davey Alba/Bloomberg)",
-      "link": "https://www.techmeme.com/261029/p39#a261029p39",
-      "date": "2026-10-29T12:30:01-04:00",
-      "summary": "Davey Alba / Bloomberg: Alphabet discloses $1T+ in purchase commitments, future leases, and other obligations; its Q3 filing shows $98.5B in contingent commitments, up ~$23B from Q2&nbsp; &mdash;&nbsp; Alphabet Inc. has said demand for its cloud services is increasing at a rapid clip, pointing to gr",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "Alphabet's stock falls 12%+, wiping a record $500B from its market cap, after reporting negative cash flow amid its AI spending; the Nasdaq falls 1.4%+ (Stephen Morris/Financial Times)",
-      "link": "https://www.techmeme.com/261029/p38#a261029p38",
-      "date": "2026-10-29T12:25:01-04:00",
-      "summary": "Stephen Morris / Financial Times: Alphabet's stock falls 12%+, wiping a record $500B from its market cap, after reporting negative cash flow amid its AI spending; the Nasdaq falls 1.4%+&nbsp; &mdash;&nbsp; Google owner admits &lsquo;AI mode&rsquo; has hurt traditional search as sales and profits und",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "Airbnb spent $12.6M+ since 2025 to become a top LA political contributor, backing Mayor Karen Bass and pushing for friendlier rules ahead of the 2028 Olympics (Liam Dillon/Politico)",
-      "link": "https://www.techmeme.com/261029/p37#a261029p37",
-      "date": "2026-10-29T12:15:02-04:00",
-      "summary": "Liam Dillon / Politico: Airbnb spent $12.6M+ since 2025 to become a top LA political contributor, backing Mayor Karen Bass and pushing for friendlier rules ahead of the 2028 Olympics&nbsp; &mdash;&nbsp; LOS ANGELES &mdash; For Airbnb, the gold medal game in the 2028 Summer Olympics is on Tuesday.&nb",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "Canada-based Cohere completes the first close of a round that it expects to total up to $5B, with Canada agreeing to invest up to $1.14B, at a $20.5B valuation (Bloomberg)",
-      "link": "https://www.techmeme.com/261029/p36#a261029p36",
-      "date": "2026-10-29T12:10:01-04:00",
-      "summary": "Bloomberg: Canada-based Cohere completes the first close of a round that it expects to total up to $5B, with Canada agreeing to invest up to $1.14B, at a $20.5B valuation&nbsp; &mdash;&nbsp; Cohere Inc., an artificial intelligence model maker, is in the process of raising a large funding round at a ",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "Sources: Situational Awareness is pitching clients to invest in Fluidstack alongside it in a round that values the neocloud at $40B, up from $18B in September (Bloomberg)",
-      "link": "https://www.techmeme.com/261029/p35#a261029p35",
-      "date": "2026-10-29T12:05:03-04:00",
-      "summary": "Bloomberg: Sources: Situational Awareness is pitching clients to invest in Fluidstack alongside it in a round that values the neocloud at $40B, up from $18B in September&nbsp; &mdash;&nbsp; Situational Awareness is raising money from its investors to plow into neocloud startup Fluidstack Ltd., just ",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
     },
     {
       "title": "科技爱好者周刊（第 415 期）：3D 版《看不见的城市》",
@@ -3116,64 +3256,24 @@
       "feedHome": "https://www.ruanyifeng.com/blog/"
     },
     {
-      "title": "The UK FCA, which sued Justin Sun-linked crypto exchange HTX in 2025 for \"unlawfully promoting crypto asset services\", says HTX will exit the UK in a settlement (Financial Times)",
-      "link": "https://www.techmeme.com/261029/p34#a261029p34",
-      "date": "2026-10-29T11:25:00-04:00",
-      "summary": "Financial Times: The UK FCA, which sued Justin Sun-linked crypto exchange HTX in 2025 for &ldquo;unlawfully promoting crypto asset services&rdquo;, says HTX will exit the UK in a settlement&nbsp; &mdash;&nbsp; Venture linked to billionaire Trump backer Justin Sun sued by FCA for &lsquo;unlawfully pr",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
+      "title": "How we detect frontier model misalignment",
+      "link": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+      "date": "2026-10-29T09:00:00+00:00",
+      "summary": "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.",
+      "feedId": "openai",
+      "feedTitle": "OpenAI News",
+      "category": "AI & LLM",
+      "feedHome": "https://openai.com/news/"
     },
     {
-      "title": "Collective, which uses AI to automate bookkeeping for solo business owners, raised a $40M Series B and $60M in nondilutive capital from GC's Customer Value Fund (Natalie Breymeyer/Axios)",
-      "link": "https://www.techmeme.com/261029/p33#a261029p33",
-      "date": "2026-10-29T11:15:02-04:00",
-      "summary": "Natalie Breymeyer / Axios: Collective, which uses AI to automate bookkeeping for solo business owners, raised a $40M Series B and $60M in nondilutive capital from GC's Customer Value Fund&nbsp; &mdash;&nbsp; Collective, a financial services platform for solo business owners, secured $100 million in ",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "Ottawa-based Solink, which uses AI to pull data from already-installed security cameras, raised $100M+ led by Vertu Capital, bringing its total raised to $198M+ (Duncan Riley/SiliconANGLE)",
-      "link": "https://www.techmeme.com/261029/p32#a261029p32",
-      "date": "2026-10-29T11:05:00-04:00",
-      "summary": "Duncan Riley / SiliconANGLE: Ottawa-based Solink, which uses AI to pull data from already-installed security cameras, raised $100M+ led by Vertu Capital, bringing its total raised to $198M+&nbsp; &mdash;&nbsp; Video intelligence company Solink Corp. revealed today that it has raised more than $100 m",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "Chained PHP2Shell Exploit Roots 25 Servers, Including US Government Servers",
-      "link": "https://dreamgroup.com/blog/chained-php2shell-exploit-roots-25-servers",
-      "date": "2026-10-29T10:42:41+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
-    },
-    {
-      "title": "Thrive Holdings agrees to acquire ADT in an all-cash take-private deal, valuing ADT at ~$7.6B in equity value, a ~46% premium over its October 27 closing price (Claire Rychlewski/Axios)",
-      "link": "https://www.techmeme.com/261029/p31#a261029p31",
-      "date": "2026-10-29T10:40:03-04:00",
-      "summary": "Claire Rychlewski / Axios: Thrive Holdings agrees to acquire ADT in an all-cash take-private deal, valuing ADT at ~$7.6B in equity value, a ~46% premium over its October 27 closing price&nbsp; &mdash;&nbsp; Thrive Holdings has agreed to acquire ADT in an all-cash take-private, valuing the home secur",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
-    },
-    {
-      "title": "Mistral releases the weights for Mistral Large 4, or Le Chonk, and says it rivals top open models such as GLM-5.3 on the Artificial Analysis Coding Agent Index (Radhika Rajkumar/ZDNET)",
-      "link": "https://www.techmeme.com/261029/p30#a261029p30",
-      "date": "2026-10-29T10:30:01-04:00",
-      "summary": "Radhika Rajkumar / ZDNET: Mistral releases the weights for Mistral Large 4, or Le Chonk, and says it rivals top open models such as GLM-5.3 on the Artificial Analysis Coding Agent Index&nbsp; &mdash;&nbsp; Mistral has released the weights for Large 4, along with some impressive Artificial Analysis s",
-      "feedId": "techmeme",
-      "feedTitle": "Techmeme",
-      "category": "Startup & News",
-      "feedHome": "https://www.techmeme.com/"
+      "title": "How Ropes & Gray is developing AI for transactional diligence",
+      "link": "https://openai.com/index/ropes-gray-ai-diligence",
+      "date": "2026-10-29T07:00:00+00:00",
+      "summary": "Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients.",
+      "feedId": "openai",
+      "feedTitle": "OpenAI News",
+      "category": "AI & LLM",
+      "feedHome": "https://openai.com/news/"
     },
     {
       "title": "Steven Levy on the New MacBook Pro, With, Yes, a Touchscreen",
@@ -3186,14 +3286,14 @@
       "feedHome": "https://daringfireball.net/"
     },
     {
-      "title": "Qwenputer: A functioning, deterministic RISC-V CPU inside Qwen3.5",
-      "link": "https://divagr.com/blog/qwenputer",
-      "date": "2026-10-29T00:25:45+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
+      "title": "开源性转马尔福 AI 女友，用即梦短剧工作室做的",
+      "link": "https://www.bestblogs.dev/article/189988e7dd?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
+      "date": "2026-10-29T00:20:00+00:00",
+      "summary": "📌 一句话摘要 作者分享了如何利用即梦 AI 短剧工作室、Suno 和 Claude 从零构建一个具有互动剧情的“马尔福女友”桌面应用。 📝 详细摘要 本文详细介绍了作者受社交媒体热门马尔福女性角色插画启发，利用一系列 AI 工具流开发了一个互动式 AI 短剧桌面程序。作者拆解了制作的五个核心步骤：利用即梦短剧工作室进行剧本创作、建立角色与场景一致性资产库、通过导演台生成分镜、生成视频素材，最后利用 Claude 编写代码实现剪辑与桌面交互功能。文章展示了 AI 生成内容与传统代码逻辑结合的深度实践，极大地降低了高质量 AI 短剧的制作门槛。 💡 主要观点 多工具 AI 工作流整合 通过即梦 ",
+      "feedId": "bestblogs",
+      "feedTitle": "BestBlogs.dev AI 90+",
+      "category": "中文",
+      "feedHome": "https://www.bestblogs.dev/"
     },
     {
       "title": "You can just ask AI to do things",
@@ -3206,6 +3306,26 @@
       "feedHome": "https://www.seangoedecke.com/"
     },
     {
+      "title": "Custom Voices With Qwen3-TTS",
+      "link": "https://lucumr.pocoo.org/2026/10/29/qwen3-custom-voices/",
+      "date": "2026-10-29T00:00:00+00:00",
+      "summary": "With my kids I&#8217;m currently building a little dungeron crawler and we&#8217;re trying to learn a bit about game development along the way. However given that we live in the modern times of increasing capabilities we wanted to get a narrator and voice over. But we also wanted it to not sound lik",
+      "feedId": "arminronacher",
+      "feedTitle": "Armin Ronacher",
+      "category": "Tech Blogs",
+      "feedHome": "https://lucumr.pocoo.org/"
+    },
+    {
+      "title": "Avoid Public Functions Calling Other Public Functions",
+      "link": "https://matklad.github.io/2026/10/29/pub-calls-pub.html",
+      "date": "2026-10-29T00:00:00+00:00",
+      "summary": "A small-scale rule of thumb. This article will land much better with a concrete example, but I am drawing a blank here, so you gotta just blindly trust my say so!",
+      "feedId": "matklad",
+      "feedTitle": "Matklad",
+      "category": "Tech Blogs",
+      "feedHome": "https://matklad.github.io/"
+    },
+    {
       "title": "Quoting Ted Sanders",
       "link": "https://simonwillison.net/2026/Oct/28/ted-sanders/",
       "date": "2026-10-28T23:23:21+00:00",
@@ -3214,86 +3334,6 @@
       "feedTitle": "Simon Willison",
       "category": "AI & LLM",
       "feedHome": "https://simonwillison.net/"
-    },
-    {
-      "title": "Upwind raises $400M after walking away from Datadog acquisition offer",
-      "link": "https://techcrunch.com/2026/10/28/upwind-raises-400m-after-walking-away-from-datadog-acquisition-offer/",
-      "date": "2026-10-28T23:15:00+00:00",
-      "summary": "The cloud security startup raised a Series C at a $3.8B valuation, instead of selling itself for the same price.",
-      "feedId": "techcrunch",
-      "feedTitle": "TechCrunch",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/"
-    },
-    {
-      "title": "Microsoft just shared Azure’s actual revenue in dollars: $33.2 billion",
-      "link": "https://techcrunch.com/2026/10/28/microsoft-just-shared-azures-actual-revenue-in-dollars-33-2-billion/",
-      "date": "2026-10-28T21:58:32+00:00",
-      "summary": "Microsoft has never disclosed Azure's quarterly revenue in dollars. But for the first time, we can see just how close it is getting to besting the biggest competitor in the market, AWS.",
-      "feedId": "techcrunch-ai",
-      "feedTitle": "TechCrunch AI",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
-    },
-    {
-      "title": "Google expands AI Search ads globally as core ad growth slows",
-      "link": "https://techcrunch.com/2026/10/28/google-expands-ai-search-ads-globally-as-core-ad-growth-slows/",
-      "date": "2026-10-28T21:48:37+00:00",
-      "summary": "The announcement came alongside parent company Alphabet's third-quarter earnings report, which saw revenue grow 25% year over year to $127.6 billion.",
-      "feedId": "techcrunch-ai",
-      "feedTitle": "TechCrunch AI",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
-    },
-    {
-      "title": "Microsoft recorded $10 billion in revenue from OpenAI",
-      "link": "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/",
-      "date": "2026-10-28T21:34:30+00:00",
-      "summary": "Microsoft said it made $10 billion in revenue from commercial arrangements with OpenAI, including revenue-sharing payments, in the quarter ending September 30. It underscores the still-enormous financial dependency of the partnership.",
-      "feedId": "techcrunch-ai",
-      "feedTitle": "TechCrunch AI",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
-    },
-    {
-      "title": "Microsoft hits 10 quarters of record-breaking revenue in a row",
-      "link": "https://techcrunch.com/2026/10/28/microsoft-hits-10-quarters-of-record-breaking-revenue-in-a-row/",
-      "date": "2026-10-28T21:25:30+00:00",
-      "summary": "Whatever the future of AI might be, the current situation is still very good for Microsoft. The tech giant reported yet another record for quarterly revenue on Wednesday: $92.3 billion, a 19% increase over the year-ago quarter.",
-      "feedId": "techcrunch-ai",
-      "feedTitle": "TechCrunch AI",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
-    },
-    {
-      "title": "Anthropic just launched tools to show companies what their AI spending is buying",
-      "link": "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/",
-      "date": "2026-10-28T19:19:58+00:00",
-      "summary": "The frontier lab is lifting the curtain on how users spend money on its models ahead of a planned IPO.",
-      "feedId": "techcrunch-ai",
-      "feedTitle": "TechCrunch AI",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
-    },
-    {
-      "title": "Wiz’s CTO on PHP2Shell and the coming ‘vulnpocalypse’",
-      "link": "https://techcrunch.com/video/wizs-cto-on-php2shell-and-the-coming-vulnpocalypse/",
-      "date": "2026-10-28T19:05:46+00:00",
-      "summary": "The PHP scare may have faded from your feed, but the cleanup is far from over. Last week, two critical bugs in the open source language behind roughly 70% of websites left organizations scrambling to fix their systems, with some taking sites offline until the vulnerabilities could be patched. Accord",
-      "feedId": "techcrunch-ai",
-      "feedTitle": "TechCrunch AI",
-      "category": "Startup & News",
-      "feedHome": "https://techcrunch.com/category/artificial-intelligence/"
-    },
-    {
-      "title": "noalloc: Tooling and libraries to enforce zero heap allocations in Golang",
-      "link": "https://github.com/theconsensuslabs/noalloc",
-      "date": "2026-10-28T18:29:25+00:00",
-      "summary": "Comments",
-      "feedId": "hackernews",
-      "feedTitle": "Hacker News",
-      "category": "Startup & News",
-      "feedHome": "https://news.ycombinator.com/"
     },
     {
       "title": "Guessing the Name: MacBook Studio?",
@@ -3364,16 +3404,6 @@
       "feedTitle": "OpenAI News",
       "category": "AI & LLM",
       "feedHome": "https://openai.com/news/"
-    },
-    {
-      "title": "Gadget Review: SoundPEATS CC3 Pro Bluetooth Headphones ★★★★⯪",
-      "link": "https://shkspr.mobi/blog/2026/10/gadget-review-soundpeats-cc3-pro-bluetooth-headphones/",
-      "date": "2026-10-28T12:34:54+00:00",
-      "summary": "These are easily the most comfortable headphones I&#039;ve worn. I&#039;ve literally had them clipped around my ears all day without noticing them. The good folks at SoundPEATS have sent me their latest cans to wrap around my lugs. I&#039;m a big fan of these new-style &#34;clip on&#34; headphones. ",
-      "feedId": "shkspr",
-      "feedTitle": "Terence Eden",
-      "category": "Tech Blogs",
-      "feedHome": "https://shkspr.mobi/blog/"
     },
     {
       "title": "科技爱好者周刊（第 416 期）：编程已经面目全非",
@@ -3516,26 +3546,6 @@
       "feedHome": "https://simonwillison.net/"
     },
     {
-      "title": "Apple Also Announces iMac With M6",
-      "link": "https://www.apple.com/newsroom/2026/10/apple-unveils-new-imac-with-m6/",
-      "date": "2026-10-27T18:43:38+00:00",
-      "summary": "Just a speed bump, but speed bumps are good. Pricing and configurations: M6 with 2 Thunderbolt ports: Base price: $1500 RAM: 16 GB +0 24 GB +200 SSD: 256 GB +0 512 GB +200 1 TB +500 M6 with 4 Thunderbolt ports: Base price: $1700 RAM: 16 GB +0 24 GB +200 SSD: 256 GB +0 512 GB +200 1 TB +500 2 TB +100",
-      "feedId": "daringfireball",
-      "feedTitle": "Daring Fireball",
-      "category": "Tech Blogs",
-      "feedHome": "https://daringfireball.net/"
-    },
-    {
-      "title": "Apple Introduces New Base MacBook Pro With M6, 14-Inch-Only",
-      "link": "https://www.apple.com/newsroom/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6/",
-      "date": "2026-10-27T18:41:20+00:00",
-      "summary": "Apple Newsroom’s “Pro and Tell” announcement week continues: Apple today announced the new 14-inch MacBook Pro with M6, delivering even more performance, powerful on-device AI capabilities, and faster connectivity for college students, business users, creators, and more. M6 features an advanced 12-c",
-      "feedId": "daringfireball",
-      "feedTitle": "Daring Fireball",
-      "category": "Tech Blogs",
-      "feedHome": "https://daringfireball.net/"
-    },
-    {
       "title": "The sleep framework: A new way for LLMs to retain knowledge in continual learning",
       "link": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/",
       "date": "2026-10-27T17:35:00+00:00",
@@ -3544,16 +3554,6 @@
       "feedTitle": "Google Research Blog",
       "category": "AI & LLM",
       "feedHome": "https://research.google/blog/"
-    },
-    {
-      "title": "[Sponsor] WorkOS: Let Agents Sign Up for Your App Without a Browser",
-      "link": "https://workos.com/auth-md?utm_source=daringfireball&utm_medium=newsletter&utm_campaign=q42026",
-      "date": "2026-10-27T16:03:09+00:00",
-      "summary": "An agent can’t click through a signup page built for humans, so give it something it can read instead. Publish an auth.md file and agents register themselves without ever touching a browser login, and the user never gets pulled out of what they were doing. With WorkOS auth.md, enroll in the dashboar",
-      "feedId": "daringfireball",
-      "feedTitle": "Daring Fireball",
-      "category": "Tech Blogs",
-      "feedHome": "https://daringfireball.net/"
     },
     {
       "title": "Genie 4: A new generation of world simulation",
@@ -3594,16 +3594,6 @@
       "feedTitle": "The Old New Thing",
       "category": "Tech Blogs",
       "feedHome": "https://devblogs.microsoft.com/oldnewthing/"
-    },
-    {
-      "title": "Book Review: You Could Do Something Amazing with Your Life [You Are Raoul Moat] - Andrew Hankinson ★★★★☆",
-      "link": "https://shkspr.mobi/blog/2026/10/book-review-you-could-do-something-amazing-with-your-life-you-are-raoul-moat-andrew-hankinson/",
-      "date": "2026-10-27T12:34:53+00:00",
-      "summary": "It is hard to write a book in the second person. It is even harder to make it this good. It would have been easier to write a salacious cash-in with a dozen shocking revelations in each chapter. Instead, Andrew Hankinson attempts to use Raoul Moat&#039;s own words to build up a picture of the man. Y",
-      "feedId": "shkspr",
-      "feedTitle": "Terence Eden",
-      "category": "Tech Blogs",
-      "feedHome": "https://shkspr.mobi/blog/"
     },
     {
       "title": "The Exponential Time Hypothesis is False",
@@ -3746,16 +3736,6 @@
       "feedHome": "https://pluralistic.net/"
     },
     {
-      "title": "Working with academic communities to build scientific understanding",
-      "link": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
-      "date": "2026-10-26T14:30:00+00:00",
-      "summary": "OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—and how researchers can verify and build on them.",
-      "feedId": "openai",
-      "feedTitle": "OpenAI News",
-      "category": "AI & LLM",
-      "feedHome": "https://openai.com/news/"
-    },
-    {
       "title": "Puzzling out why a program doesn’t work when run from a batch file, but works when double-clicked from Explorer",
       "link": "https://devblogs.microsoft.com/oldnewthing/20261026-00/?p=112797/",
       "date": "2026-10-26T14:00:00+00:00",
@@ -3766,26 +3746,6 @@
       "feedHome": "https://devblogs.microsoft.com/oldnewthing/"
     },
     {
-      "title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
-      "link": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
-      "date": "2026-10-26T13:45:00+00:00",
-      "summary": "CodeRabbit uses GPT-6.1 Sol to investigate security risks across complex codebases. Its security agent helps developers review findings and proposed fixes.",
-      "feedId": "openai",
-      "feedTitle": "OpenAI News",
-      "category": "AI & LLM",
-      "feedHome": "https://openai.com/news/"
-    },
-    {
-      "title": "Theatre Review: Opera UnTouched's \"The Telephone\" ★★★★★",
-      "link": "https://shkspr.mobi/blog/2026/10/theatre-review-opera-untoucheds-the-telephone/",
-      "date": "2026-10-26T12:34:15+00:00",
-      "summary": "Why shouldn&#039;t an opera be set in an office? Not merely set there; performed there! On Saturday night, a couple of dozen audience members were ushered in to a genuine office in Tooting to watch a short comic opera by Opera UnTouched. It was a burst of sunshine in a rainy day. We&#039;re at Ben&#",
-      "feedId": "shkspr",
-      "feedTitle": "Terence Eden",
-      "category": "Tech Blogs",
-      "feedHome": "https://shkspr.mobi/blog/"
-    },
-    {
       "title": "Where else to find me",
       "link": "https://www.johndcook.com/blog/2026/10/26/where-to-find-me/",
       "date": "2026-10-26T12:04:54+00:00",
@@ -3794,16 +3754,6 @@
       "feedTitle": "John D. Cook",
       "category": "Tech Blogs",
       "feedHome": "https://www.johndcook.com/"
-    },
-    {
-      "title": "ChatGPT’s expanding world of work",
-      "link": "https://openai.com/index/chatgpt-expanding-world-of-work",
-      "date": "2026-10-26T10:00:00+00:00",
-      "summary": "Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time.",
-      "feedId": "openai",
-      "feedTitle": "OpenAI News",
-      "category": "AI & LLM",
-      "feedHome": "https://openai.com/news/"
     },
     {
       "title": "Scattered thoughts on how doing math feels these days",
@@ -3836,16 +3786,6 @@
       "feedHome": "https://www.bestblogs.dev/"
     },
     {
-      "title": "Seam Cutter",
-      "link": "https://simonwillison.net/2026/Oct/25/seam-cutter/",
-      "date": "2026-10-25T15:10:19+00:00",
-      "summary": "Tool: Seam Cutter I built this weird and very specific cropping tool - it lets you create a horizontal or vertical cut across an image, then slide the two sides relative to each other. Effectively it lets you crop out a section in the middle of an image. I wanted this because I often use Tailor on m",
-      "feedId": "simonwillison",
-      "feedTitle": "Simon Willison",
-      "category": "AI & LLM",
-      "feedHome": "https://simonwillison.net/"
-    },
-    {
       "title": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
       "link": "https://minimaxir.com/2026/10/cheap-llms/",
       "date": "2026-10-25T14:00:00-07:00",
@@ -3854,16 +3794,6 @@
       "feedTitle": "Max Woolf",
       "category": "AI & LLM",
       "feedHome": "https://minimaxir.com/"
-    },
-    {
-      "title": "Gadget Review: LiberNovo Omni - the USB-C powered office chair ★★★★⯪",
-      "link": "https://shkspr.mobi/blog/2026/10/gadget-review-libernovo-omni-chair/",
-      "date": "2026-10-25T12:34:01+00:00",
-      "summary": "Whenever a company asks me to review their gadgets, I always ask if it is USB-C powered. If not, I&#039;m not interested. So, welcome to the future where your chair is USC-C rechargeable! WHAT?! The LiberNovo Omni looks like a standard office chair - but has two secret features. First, is that it is",
-      "feedId": "shkspr",
-      "feedTitle": "Terence Eden",
-      "category": "Tech Blogs",
-      "feedHome": "https://shkspr.mobi/blog/"
     },
     {
       "title": "Computing polar triangles with linear algebra",
@@ -3914,16 +3844,6 @@
       "feedTitle": "Steve Blank",
       "category": "Tech Blogs",
       "feedHome": "https://steveblank.com/"
-    },
-    {
-      "title": "Book Review: Get Ahead of Being Dead by Evie King ★★★★☆",
-      "link": "https://shkspr.mobi/blog/2026/10/book-review-get-ahead-of-being-dead-by-evie-king/",
-      "date": "2026-10-24T11:34:25+00:00",
-      "summary": "After reading Evie King&#039;s previous book Ashes To Admin - Tales from the Caseload of a Council Funeral Officer I was eager to read her not-quite-a-sequel. We know what happens after death; paperwork. Gas bills need to be cancelled, funeral wishes need to be carried out, money needs to be apporti",
-      "feedId": "shkspr",
-      "feedTitle": "Terence Eden",
-      "category": "Tech Blogs",
-      "feedHome": "https://shkspr.mobi/blog/"
     },
     {
       "title": "RoboTwin 第一、RoboDojo 领跑：Physical AI 的下一轮 Scaling，为什么是 Physics？",
@@ -3986,16 +3906,6 @@
       "feedHome": "https://devblogs.microsoft.com/oldnewthing/"
     },
     {
-      "title": "More phishing messages via Booking.com and Novotel",
-      "link": "https://shkspr.mobi/blog/2026/10/more-phishing-messages-via-booking-com-and-novotel/",
-      "date": "2026-10-23T11:34:15+00:00",
-      "summary": "A few days ago I booked a Novotel hotel on Booking.com - two days later I received these phishing messages via WhatsApp. Both knew my exact name, phone number, location of stay, and date of stay. Luckily, both were fairly inept. Let&#039;s take a quick look at them. The first came from a Portuguese ",
-      "feedId": "shkspr",
-      "feedTitle": "Terence Eden",
-      "category": "Tech Blogs",
-      "feedHome": "https://shkspr.mobi/blog/"
-    },
-    {
       "title": "Ubiquiti's $99 Vape Detector is actually pretty good",
       "link": "https://www.jeffgeerling.com/blog/2026/ubiquiti-vape-detector-teardown/",
       "date": "2026-10-23T09:00:00-04:00",
@@ -4010,16 +3920,6 @@
       "link": "https://www.bestblogs.dev/article/c736b0c9fb?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
       "date": "2026-10-23T07:28:00+00:00",
       "summary": "📌 一句话摘要 本文深入分析了 Opus 5.5 在视频创作领域的颠覆性影响，指出其不仅能通过代码生成视觉效果，更重要的是具备导演级的叙事能力，能够整合多种素材并自动完成剪辑，从而彻底改变了视频制作的流程和效率。 📝 详细摘要 作者黄叔作为 AI 产品顾问，基于自己大量使用 Opus 5.5 的经验，详细阐述了该模型如何通过理解卡点、调度多元素、以及整合多种视频来源来完成高质量的视频创作。文章强调，Opus 5.5 的出现意味着视频剪辑工作将不复存在，而创作者需要转变角色，从操作者变为引导者，让 AI 承担更多的创造性工作。 💡 主要观点 Opus 5.5 具备导演级的叙事能力 模型能够理解视",
-      "feedId": "bestblogs",
-      "feedTitle": "BestBlogs.dev AI 90+",
-      "category": "中文",
-      "feedHome": "https://www.bestblogs.dev/"
-    },
-    {
-      "title": "有了大模型，你可以更有野心一点",
-      "link": "https://www.bestblogs.dev/article/f00d940595?utm_source=rss&utm_medium=feed&utm_campaign=resources&entry=rss_article_item",
-      "date": "2026-10-23T06:38:00+00:00",
-      "summary": "📌 一句话摘要 Claude 团队的工程经理 Felix Rieseberg 探讨了如何利用越来越强的 AI 模型来提升工作效率和质量，建议从速度、高度、深度和广度四个维度出发，跳出传统任务清单，尝试过去不敢或没想过的创新工作。 📝 详细摘要 本文由 Claude 团队工程经理 Felix Rieseberg 撰写，他观察到，随着 AI 模型的快速发展，人们在利用这些工具时往往缺乏足够的野心。他将野心分为四个维度：速度（更快完成任务）、高度（提升抽象层次）、深度（深入领域专业知识）和广度（跨领域协作）。通过具体案例，如优化季度业务回顾（QBR）幻灯片，他展示了如何从简单的模板填充进化到战略决策",
       "feedId": "bestblogs",
       "feedTitle": "BestBlogs.dev AI 90+",
       "category": "中文",
@@ -4114,16 +4014,6 @@
       "feedTitle": "TechCrunch Funding",
       "category": "Startup & News",
       "feedHome": "https://techcrunch.com/tag/funding/"
-    },
-    {
-      "title": "Gadget Review: Mokin 17 Port USB-C Tower ★★☆☆☆",
-      "link": "https://shkspr.mobi/blog/2026/10/gadget-review-mokin-17-port-usb-c-tower/",
-      "date": "2026-10-22T11:34:36+00:00",
-      "summary": "The good folks at Mokin have sent me their new USB-C hub and it is a beast. This is the MODK2403 - the latest in their line of high-tech USB-C docks. It does close to everything you could want and has an LCD monitor for showing the weather. Errr… What? OK, a quick product shots, then on to the specs",
-      "feedId": "shkspr",
-      "feedTitle": "Terence Eden",
-      "category": "Tech Blogs",
-      "feedHome": "https://shkspr.mobi/blog/"
     },
     {
       "title": "The number of points on an elliptic curve",
@@ -4276,16 +4166,6 @@
       "feedHome": "https://devblogs.microsoft.com/oldnewthing/"
     },
     {
-      "title": "Book Review: Quackery - A Brief History of the Worst Ways to Cure Everything by Lydia Kang ★★★⯪☆",
-      "link": "https://shkspr.mobi/blog/2026/10/book-review-quackery-a-brief-history-of-the-worst-ways-to-cure-everything-by-lydia-kang/",
-      "date": "2026-10-20T11:34:35+00:00",
-      "summary": "This is a charming and funny book all about the various ways humans have promoted fake medical cures in exchange for money. Despite the grim (and occasionally distressing) subject matter, the tone remains light and poppy throughout. There are lots of snarky asides (especially about the fake medical ",
-      "feedId": "shkspr",
-      "feedTitle": "Terence Eden",
-      "category": "Tech Blogs",
-      "feedHome": "https://shkspr.mobi/blog/"
-    },
-    {
       "title": "Laypeople support technical fields for technology, not art",
       "link": "https://seangoedecke.com/laypeople-support-technical-fields-for-technology-not-art/",
       "date": "2026-10-20T00:00:00+00:00",
@@ -4356,16 +4236,6 @@
       "feedHome": "https://www.seangoedecke.com/"
     },
     {
-      "title": "Una Watch TOTP - MFA on your wrist!",
-      "link": "https://shkspr.mobi/blog/2026/10/una-watch-totp-mfa-on-your-wrist/",
-      "date": "2026-10-18T11:34:08+00:00",
-      "summary": "Let&#039;s get this out of the way first - this is a terrible idea! I want my two-factor authentication codes to be easily accessible to me, so I&#039;ve built a watch app which will display them. That&#039;s really convenient for me - but makes for a terrible security posture. Anyone who steals my ",
-      "feedId": "shkspr",
-      "feedTitle": "Terence Eden",
-      "category": "Tech Blogs",
-      "feedHome": "https://shkspr.mobi/blog/"
-    },
-    {
       "title": "Notes on discrete-time Fourier series and transform",
       "link": "https://eli.thegreenplace.net/2026/notes-on-discrete-time-fourier-series-and-transform/",
       "date": "2026-10-18T01:28:10-07:00",
@@ -4394,16 +4264,6 @@
       "feedTitle": "Sean Goedecke",
       "category": "Tech Blogs",
       "feedHome": "https://www.seangoedecke.com/"
-    },
-    {
-      "title": "Book Review: Are You *Really* The Doctor? by Matthew Hutchinson ★★★⯪☆",
-      "link": "https://shkspr.mobi/blog/2026/10/book-review-are-you-really-the-doctor-by-matthew-hutchinson/",
-      "date": "2026-10-17T11:34:57+00:00",
-      "summary": "A few months ago, I went to see Dr Hutchinson record his stand-up comedy special for the BBC - it&#039;s about his experiences working in the NHS as a Black doctor. As the title of the book implies, some of the public can be a mite suspicious that anyone with even a hint of melanin can rise beyond b",
-      "feedId": "shkspr",
-      "feedTitle": "Terence Eden",
-      "category": "Tech Blogs",
-      "feedHome": "https://shkspr.mobi/blog/"
     },
     {
       "title": "Pluralistic: Israeli ad-tech company was a delivery system for \"mercenary spyware\" (17 Oct 2026)",
@@ -5556,16 +5416,6 @@
       "feedHome": "https://ericmigi.com/"
     },
     {
-      "title": "Codeberg Divides",
-      "link": "https://lucumr.pocoo.org/2026/7/24/codeberg-divides/",
-      "date": "2026-07-24T00:00:00+00:00",
-      "summary": "Codeberg recently changed its terms to exclude projects that are largely written with generative AI. Considering I want GitHub to get some competition I have thoughts about this. GitHub&#8217;s governance has never been democratic and there is plenty about the platform that I dislike. Yet I do not n",
-      "feedId": "arminronacher",
-      "feedTitle": "Armin Ronacher",
-      "category": "Tech Blogs",
-      "feedHome": "https://lucumr.pocoo.org/"
-    },
-    {
       "title": "Becoming Skilled at Making Documents",
       "link": "https://anildash.com/2026/07/24/make-better-documents-skill/",
       "date": "2026-07-24T00:00:00+00:00",
@@ -5614,16 +5464,6 @@
       "feedTitle": "Dynomight",
       "category": "Tech Blogs",
       "feedHome": "https://dynomight.net/"
-    },
-    {
-      "title": "Memory Safety's Hardest Problem",
-      "link": "https://matklad.github.io/2026/07/20/memory-safety-hardest-problem.html",
-      "date": "2026-07-20T00:00:00+00:00",
-      "summary": "Uplifting a lobsters comment for easier reference.",
-      "feedId": "matklad",
-      "feedTitle": "Matklad",
-      "category": "Tech Blogs",
-      "feedHome": "https://matklad.github.io/"
     },
     {
       "title": "email encryption",
