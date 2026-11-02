@@ -71,6 +71,7 @@ FEEDS = [
     {"id": "techcrunch-fund", "category": "Startup & News", "title": "TechCrunch Funding",   "url": "https://techcrunch.com/tag/funding/feed/",                           "home": "https://techcrunch.com/tag/funding/"},
     {"id": "venturebeat",     "category": "Startup & News", "title": "VentureBeat",          "url": "https://venturebeat.com/feed/",                                      "home": "https://venturebeat.com/"},
     {"id": "venturebeat-ai",  "category": "Startup & News", "title": "VentureBeat AI",       "url": "https://venturebeat.com/category/ai/feed/",                          "home": "https://venturebeat.com/category/ai/"},
+    {"id": "joho-no-todai-en", "category": "Startup & News", "title": "Joho no Todai (English)", "url": "https://joho-todai.com/en/rss/", "home": "https://joho-todai.com/en/"},
     # 中文
     {"id": "ruanyifeng",      "category": "中文",            "title": "阮一峰的网络日志",       "url": "https://www.ruanyifeng.com/blog/atom.xml",                           "home": "https://www.ruanyifeng.com/blog/"},
     {"id": "bestblogs",       "category": "中文",            "title": "BestBlogs.dev AI 90+", "url": "https://www.bestblogs.dev/zh/feeds/rss?category=ai&minScore=90",    "home": "https://www.bestblogs.dev/"},
